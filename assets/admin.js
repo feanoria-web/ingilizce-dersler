@@ -25,6 +25,10 @@
     prepared = null;
     output.hidden = true;
     pathLabel.textContent = '';
+    downloadButton.removeAttribute('href');
+    downloadButton.removeAttribute('download');
+    downloadButton.setAttribute('aria-disabled', 'true');
+    downloadButton.setAttribute('tabindex', '-1');
     uploadLink.removeAttribute('href');
     uploadLink.setAttribute('aria-disabled', 'true');
     uploadLink.setAttribute('tabindex', '-1');
@@ -177,6 +181,10 @@
       const html = addLessonInformation(source, metadata, level);
       const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
       prepared = { url: URL.createObjectURL(blob), name: slug + '.html' };
+      downloadButton.href = prepared.url;
+      downloadButton.download = prepared.name;
+      downloadButton.removeAttribute('aria-disabled');
+      downloadButton.removeAttribute('tabindex');
       pathLabel.textContent = path;
       const config = window.SITE_CONFIG || {};
       if (config.owner && config.repo && config.branch) {
@@ -193,14 +201,8 @@
     }
   });
 
-  downloadButton.addEventListener('click', function () {
-    if (!prepared) return;
-    const link = document.createElement('a');
-    link.href = prepared.url;
-    link.download = prepared.name;
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
+  downloadButton.addEventListener('click', function (event) {
+    if (!prepared) event.preventDefault();
   });
 
   uploadLink.addEventListener('click', function (event) {
