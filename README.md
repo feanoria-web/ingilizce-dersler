@@ -2,7 +2,7 @@
 
 Gürkan Öztürk · Hüdavendigar Sosyal Gelişim Merkezi
 
-A1, A2 ve B1 seviyeleri ile YDS hazırlık paneli üzerinden derslere ulaşılabilen, GitHub Pages ile yayımlanan ücretsiz statik site. Altı A2/B1 dersinin yanında YDS Grammar Studio yer alır; A1 yeni ders eklemeye hazırdır.
+A1, A2 ve B1 seviyeleri ile YDS hazırlık paneli üzerinden derslere ulaşılabilen, GitHub Pages ile yayımlanan ücretsiz statik site. Yedi A2/B1 dersinin yanında YDS Grammar Studio yer alır; A1 yeni ders eklemeye hazırdır.
 
 Site: https://feanoria-web.github.io/ingilizce-dersler/
 

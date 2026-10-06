@@ -86,6 +86,23 @@ window.LESSON_CATALOG = [
     "url": "lessons/b1/day-02.html"
   },
   {
+    "id": "b1/day-03",
+    "level": "B1",
+    "title": "A2 genel tekrarı",
+    "description": "B1 üçüncü gün: şimdiki ve geçmiş zamanlar, gelecek biçimleri, karşılaştırmalar, modals, miktar ifadeleri ve in / on / at. Konu özetleri, alıştırmalar ve konuşma etkinlikleri.",
+    "number": 3,
+    "order": 3,
+    "date": "2026-10-07",
+    "duration": "170 dk",
+    "tags": [
+      "Genel tekrar",
+      "Zamanlar",
+      "Modals",
+      "Konuşma"
+    ],
+    "url": "lessons/b1/day-03.html"
+  },
+  {
     "id": "b1/practice",
     "level": "B1",
     "title": "Tanışma ve konuşma · Ek çalışma",
