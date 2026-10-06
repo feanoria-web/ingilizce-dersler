@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 export const SITE_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -179,6 +180,26 @@ async function stageSite(output, root) {
       filter: (file) => !path.basename(file).startsWith('.') && !localOnlyAssets.has(path.relative(root, file).split(path.sep).join('/')),
     });
   }
+  const indexPath = path.join(target, 'index.html');
+  const indexHtml = await fs.readFile(indexPath, 'utf8');
+  const references = /([\s](?:src|href)\s*=\s*)(["'])((?:\.\/)?assets\/[^"'<>]+)\2/gi;
+  let versionedHtml = '';
+  let cursor = 0;
+  for (const match of indexHtml.matchAll(references)) {
+    const url = new URL(match[3].replace(/&amp;/gi, '&'), 'https://staged-site.invalid/');
+    const assetPath = path.resolve(target, decodeURIComponent(url.pathname).slice(1));
+    const assetRelative = path.relative(path.join(target, 'assets'), assetPath);
+    if (!assetRelative || assetRelative.startsWith('..') || path.isAbsolute(assetRelative)) {
+      throw new Error(`Yayınlanan assets bağlantısı geçersiz: ${match[3]}`);
+    }
+    const digest = createHash('sha256').update(await fs.readFile(assetPath)).digest('hex').slice(0, 12);
+    url.searchParams.set('v', digest);
+    const reference = `${url.pathname.slice(1)}${url.search}${url.hash}`.replace(/&/g, '&amp;');
+    versionedHtml += indexHtml.slice(cursor, match.index) + `${match[1]}${match[2]}${reference}${match[2]}`;
+    cursor = match.index + match[0].length;
+  }
+  versionedHtml += indexHtml.slice(cursor);
+  await fs.writeFile(indexPath, versionedHtml);
   await fs.writeFile(path.join(target, '.nojekyll'), '');
 }
 
