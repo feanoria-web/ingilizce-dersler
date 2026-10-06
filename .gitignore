@@ -3,3 +3,6 @@ node_modules/
 .DS_Store
 Thumbs.db
 *.log
+/admin.html
+/assets/admin.js
+/assets/config.js

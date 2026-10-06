@@ -168,12 +168,16 @@ async function stageSite(output, root) {
   if (relative !== '_site' || target === path.resolve(root)) {
     throw new Error('--output site kökünde _site klasörü olmalı.');
   }
-  for (const name of ['index.html', 'admin.html', '404.html']) await fs.access(path.join(root, name));
+  for (const name of ['index.html', '404.html']) await fs.access(path.join(root, name));
   // Only the checked output directory is replaced; source and developer files stay outside it.
   await fs.rm(target, { recursive: true, force: true });
   await fs.mkdir(target, { recursive: true });
-  for (const name of ['index.html', 'admin.html', '404.html', 'assets', 'lessons']) {
-    await fs.cp(path.join(root, name), path.join(target, name), { recursive: true, filter: (file) => !path.basename(file).startsWith('.') });
+  const localOnlyAssets = new Set(['assets/admin.js', 'assets/config.js']);
+  for (const name of ['index.html', '404.html', 'assets', 'lessons']) {
+    await fs.cp(path.join(root, name), path.join(target, name), {
+      recursive: true,
+      filter: (file) => !path.basename(file).startsWith('.') && !localOnlyAssets.has(path.relative(root, file).split(path.sep).join('/')),
+    });
   }
   await fs.writeFile(path.join(target, '.nojekyll'), '');
 }

@@ -85,7 +85,7 @@ export async function checkSite(root = SITE_ROOT) {
     const url = path.relative(root, file).split(path.sep).map(encodeURIComponent).join('/');
     if (!urls.has(url)) throw new Error(`Katalogda bulunmayan ders: ${path.relative(root, file)}`);
   }
-  for (const name of ['index.html', 'admin.html', '404.html']) {
+  for (const name of ['index.html', '404.html']) {
     const file = path.join(root, name);
     const html = await fs.readFile(file, 'utf8');
     checkInlineScripts(html, name);

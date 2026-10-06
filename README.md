@@ -8,19 +8,20 @@ Site: https://feanoria-web.github.io/ingilizce-dersler/
 
 ## Sonradan ders eklemek
 
-1. Sitede **Ders ekle** sayfasını açın.
-2. Seviyeyi, ders başlığını ve diğer bilgileri girip tek dosya halinde hazırlanmış `.html` dersinizi seçin. Derslerimizde olduğu gibi resim, ses, CSS ve JavaScript dosyanın içinde olmalıdır.
-3. **Ders dosyasını hazırla**, ardından **Hazır dosyayı indir** düğmesiyle yeni HTML dosyasını indirin. Bu adım bilgisayarınızda gerçekleşir.
-4. Sayfadaki **GitHub'a yükle** bağlantısıyla ilgili seviyenin klasörünü açın. İndirdiğiniz dosyayı sürükleyip bırakın, **Commit changes** ile kaydedin. GitHub hesabında depo için yazma yetkisi gerekir.
+Yükleme GitHub'da **feanoria-web** hesabıyla yapılır. Ziyaretçi panelinde ders ekleme veya dosya yükleme alanı bulunmaz. Ders yayımlamak için GitHub'ın depo yazma yetkisi gereklidir.
+
+1. GitHub'a **feanoria-web** hesabıyla giriş yapın ve [ders deposunu](https://github.com/feanoria-web/ingilizce-dersler) açın.
+2. İlgili seviye klasörüne girin: `lessons/a1`, `lessons/a2` veya `lessons/b1`.
+3. **Add file → Upload files** ile tek dosya halinde hazırlanmış `.html` dersinizi yükleyin. Derslerimizde olduğu gibi resim, ses, CSS ve JavaScript dosyanın içinde olmalıdır.
+4. **Commit changes** ile kaydedin.
 5. **Actions → GitHub Pages** iş akışı tamamlandığında yeni ders otomatik olarak panelde görünür. İlk yükleme birkaç dakika sürebilir.
 
-Panel, GitHub şifresi veya erişim anahtarı istemez. Dosya hazırlamak yayına yüklemek değildir; GitHub'da dosyayı kaydetmek gerekir. Bir derste değişiklik yapmak için depodaki ilgili HTML dosyasını güncelleyip kaydedin. Ders kaldırmak için o HTML dosyasını depodan silip kaydedin.
+Bir derste değişiklik yapmak için depodaki ilgili HTML dosyasını güncelleyip kaydedin. Ders kaldırmak için o HTML dosyasını depodan silip kaydedin. Her dersin başlığı HTML dosyasının `<title>` alanından alınabilir.
 
 ## Klasör yapısı
 
 ```text
 index.html                Ana panel
-admin.html                Yeni ders dosyası hazırlama
 assets/                   Panel tasarımı, uygulama ve oluşturulan katalog
 lessons/a1/               A1 dersleri
 lessons/a2/               A2 dersleri
@@ -29,7 +30,7 @@ scripts/                  Katalog ve doğrulama araçları
 .github/workflows/pages.yml  Otomatik yayın
 ```
 
-Yeni bir HTML dosyasını doğrudan ilgili `lessons/a1`, `lessons/a2` veya `lessons/b1` klasörüne yüklemek de yeterlidir. Başlık HTML'nin `<title>` alanından alınır. **Ders ekle** sayfası kullanıldığında açıklama, ders numarası, tarih ve süre de dosyaya eklenir. Aynı dosya adı mevcut dersi günceller; yeni ders için farklı dosya adı kullanın.
+Yeni bir HTML dosyasını ilgili `lessons/a1`, `lessons/a2` veya `lessons/b1` klasörüne yüklemek yeterlidir. Başlık HTML'nin `<title>` alanından alınır. `lesson-meta` bilgisi varsa açıklama, ders numarası, tarih ve süre de kullanılır. Aynı dosya adı mevcut dersi günceller; yeni ders için farklı dosya adı kullanın.
 
 ## Yerelde açmak
 

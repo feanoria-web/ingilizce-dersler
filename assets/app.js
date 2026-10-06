@@ -35,9 +35,6 @@
     empty.hidden = matching.length > 0;
     document.getElementById('empty-title').textContent = all.length ? 'Aradığın ders bulunamadı.' : 'Yeni dersler yolda.';
     document.getElementById('empty-description').textContent = all.length ? 'Başka bir kelimeyle aramayı dene.' : `${selected} dersleri eklendiğinde burada görünecek. Diğer seviyelerdeki dersleri de keşfedebilirsin.`;
-    const add = document.getElementById('empty-add');
-    add.hidden = all.length > 0;
-    add.href = `admin.html?level=${encodeURIComponent(selected)}`;
     document.getElementById('results-status').textContent = `${selected} seviyesinde ${matching.length} ders içeriği gösteriliyor.`;
   }
   function select(level, scroll = false) {
