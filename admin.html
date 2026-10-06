@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17645a">
+  <meta name="description" content="Yeni İngilizce derslerini A1, A2 ve B1 ders paneline eklemek için hazırlayın.">
+  <title>Ders ekle · English</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .admin-header{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 0;border-bottom:1px solid var(--line,#deded2)}
+    .admin-brand{display:flex;align-items:baseline;gap:12px;color:var(--ink,#182b28);text-decoration:none}.admin-brand strong{font-size:24px;letter-spacing:-1px}.admin-brand span{font-size:13px;color:var(--muted,#63716b)}
+    .admin-back{font-size:14px;font-weight:600;color:var(--brand,#17645a);text-decoration:none}.admin-main{max-width:1100px;margin:0 auto;padding:0 32px 80px}.admin-intro{max-width:730px;padding:52px 0 30px}.admin-eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:2px;font-weight:700;color:var(--brand,#17645a)}.admin-intro h1{font-size:clamp(32px,5vw,48px);letter-spacing:-1.5px;line-height:1.12;margin:12px 0 16px}.admin-intro p{font-size:16px;line-height:1.7;color:var(--muted,#63716b)}
+    .admin-grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(270px,1fr);gap:28px;align-items:start}.admin-card{background:var(--paper,#fffef9);border:1px solid var(--line,#deded2);border-radius:20px;padding:28px}.admin-card h2{margin:0 0 20px;font-size:20px;letter-spacing:-.3px}.admin-form{display:grid;gap:20px}.admin-field{display:grid;gap:8px}.admin-field label,.admin-field legend{font-size:13px;font-weight:700}.admin-field input,.admin-field textarea{width:100%;box-sizing:border-box;border:1px solid var(--line,#deded2);border-radius:10px;background:#fff;color:var(--ink,#182b28);padding:12px 14px;font:inherit;font-size:15px}.admin-field textarea{resize:vertical;min-height:95px}.admin-field input:focus,.admin-field textarea:focus{outline:3px solid #cbe0d8;outline-offset:1px;border-color:var(--brand,#17645a)}.admin-field input[type=file]{padding:16px;border-style:dashed;background:#fafbf7}.admin-field input[type=file]::file-selector-button{border:0;border-radius:7px;background:#e6eee7;padding:9px 12px;color:var(--brand,#17645a);font:inherit;font-weight:600;margin-right:12px;cursor:pointer}.admin-help{font-size:12px;line-height:1.55;color:var(--muted,#63716b);margin:0}.admin-two{display:grid;grid-template-columns:1fr 1fr;gap:16px}.admin-levels{display:flex;gap:10px;border:0;padding:0;margin:0}.admin-levels legend{margin-bottom:8px}.admin-level{position:relative;display:block;flex:1}.admin-level input{position:absolute;opacity:0;width:1px;height:1px}.admin-level span{display:block;text-align:center;border:1px solid var(--line,#deded2);border-radius:10px;padding:12px;font-size:15px;font-weight:700;cursor:pointer}.admin-level input:checked+span{background:var(--brand,#17645a);border-color:var(--brand,#17645a);color:#fff}.admin-level input:focus-visible+span{outline:3px solid #a8c7ba;outline-offset:3px}.admin-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:10px;background:var(--brand,#17645a);color:#fff;padding:14px 18px;min-height:48px;text-decoration:none;font:inherit;font-size:14px;font-weight:700;cursor:pointer}.admin-button:hover{filter:brightness(.95)}.admin-button:disabled,.admin-button[aria-disabled=true]{opacity:.45;cursor:not-allowed;filter:none}.admin-button.secondary{background:#eaf0e9;color:var(--brand,#17645a);border:1px solid #d3dfd3}.admin-status{border-radius:10px;margin:0;font-size:14px;line-height:1.6}.admin-status:not(:empty){padding:12px 14px;background:#eef3e9;color:var(--ink,#182b28)}.admin-status[data-state=error]{background:#fbebdf;color:#963c1d}.admin-output{display:grid;gap:14px}.admin-output[hidden]{display:none}.admin-path{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere;font-size:12px;background:#f2f3ed;border-radius:8px;padding:12px;margin:0}.admin-steps{padding-left:20px;margin:0;display:grid;gap:18px;color:var(--muted,#63716b);font-size:14px;line-height:1.7}.admin-steps strong{display:block;color:var(--ink,#182b28);font-size:14px}.admin-notice{margin:24px 0 0;padding-top:20px;border-top:1px solid var(--line,#deded2);font-size:12px;line-height:1.65;color:var(--muted,#63716b)}.admin-footer{margin-top:28px;font-size:12px;color:var(--muted,#63716b)}
+    @media(max-width:760px){.admin-main{padding:0 20px 56px}.admin-grid{grid-template-columns:1fr}.admin-intro{padding-top:36px}.admin-card{padding:22px}.admin-header{gap:12px}.admin-brand{gap:8px}.admin-brand span{font-size:11px}.admin-back{font-size:12px}}
+    @media(max-width:420px){.admin-two{grid-template-columns:1fr}.admin-brand span{display:none}}
+  </style>
+</head>
+<body>
+  <div class="admin-main">
+    <header class="admin-header">
+      <a class="admin-brand" href="index.html" aria-label="English ders paneli"><strong>English</strong><span>/ Ders paneli</span></a>
+      <a class="admin-back" href="index.html">← Derslere dön</a>
+    </header>
+    <main>
+      <div class="admin-intro">
+        <span class="admin-eyebrow">Ders arşivini büyüt</span>
+        <h1>Yeni bir ders ekle.</h1>
+        <p>Dersinizin seviyesini ve bilgilerini seçin. Hazırlanan HTML dosyasını GitHub'a yüklediğinizde dersiniz panelde ilgili seviyenin altında yer alır.</p>
+      </div>
+      <div class="admin-grid">
+        <section class="admin-card" aria-labelledby="form-title">
+          <h2 id="form-title">Ders bilgileri</h2>
+          <form id="lesson-form" class="admin-form">
+            <fieldset class="admin-field admin-levels">
+              <legend>Seviye</legend>
+              <label class="admin-level"><input type="radio" name="level" value="A1"><span>A1</span></label>
+              <label class="admin-level"><input type="radio" name="level" value="A2" checked><span>A2</span></label>
+              <label class="admin-level"><input type="radio" name="level" value="B1"><span>B1</span></label>
+            </fieldset>
+            <div class="admin-field">
+              <label for="lesson-title">Ders adı <span aria-hidden="true">*</span></label>
+              <input id="lesson-title" name="title" required maxlength="140" placeholder="Örn. İlk gün: Tanışma ve günlük yaşam" autocomplete="off">
+            </div>
+            <div class="admin-field">
+              <label for="lesson-description">Kısa açıklama</label>
+              <textarea id="lesson-description" name="description" maxlength="400" placeholder="Ders kartında görünecek bir veya iki cümle."></textarea>
+            </div>
+            <div class="admin-two">
+              <div class="admin-field"><label for="lesson-number">Ders numarası</label><input id="lesson-number" name="number" type="number" min="1" max="9999" step="1" placeholder="Örn. 3"></div>
+              <div class="admin-field"><label for="lesson-date">Ders tarihi</label><input id="lesson-date" name="date" type="date"></div>
+            </div>
+            <div class="admin-two">
+              <div class="admin-field"><label for="lesson-duration">Süre</label><input id="lesson-duration" name="duration" maxlength="40" placeholder="Örn. 60 dk"></div>
+              <div class="admin-field"><label for="lesson-tags">Konular</label><input id="lesson-tags" name="tags" maxlength="200" placeholder="Örn. Konuşma, Kelimeler"></div>
+            </div>
+            <div class="admin-field">
+              <label for="lesson-file">HTML ders dosyası <span aria-hidden="true">*</span></label>
+              <input id="lesson-file" name="file" type="file" accept=".html,.htm,text/html" required aria-describedby="file-help">
+              <p class="admin-help" id="file-help">En fazla 45 MB. CSS, JavaScript ve görselleri içinde bulunan tek bir HTML dosyası seçin. Ayrı dosyalara bağlı derslerin bu dosyaları da GitHub'a yüklenmelidir.</p>
+            </div>
+            <button id="prepare-button" class="admin-button" type="submit">Ders dosyasını hazırla <span aria-hidden="true">→</span></button>
+            <p id="prepare-status" class="admin-status" role="status" aria-live="polite"></p>
+            <div id="prepared-output" class="admin-output" hidden>
+              <p class="admin-help">Dosyanın GitHub'daki konumu:</p>
+              <p id="prepared-path" class="admin-path"></p>
+              <button id="download-button" class="admin-button" type="button">1. Hazır dosyayı indir ↓</button>
+              <a id="upload-link" class="admin-button secondary" target="_blank" rel="noopener noreferrer" aria-disabled="true" tabindex="-1">2. GitHub'a yükle ↗</a>
+            </div>
+          </form>
+        </section>
+        <aside class="admin-card" aria-labelledby="steps-title">
+          <h2 id="steps-title">Üç adımda yayında</h2>
+          <ol class="admin-steps">
+            <li><strong>Ders dosyasını hazırlayın</strong>Bu sayfa ders bilgilerini dosyanıza ekler. İşlem kendi tarayıcınızda yapılır.</li>
+            <li><strong>İndirin ve GitHub'a yükleyin</strong>İndirdiğiniz dosyayı açılan yükleme sayfasına sürükleyin. GitHub hesabınızın projeye yazma izni olmalıdır.</li>
+            <li><strong>“Commit changes” ile kaydedin</strong>Kaydın ardından GitHub Actions ders listesini günceller ve siteyi yayımlar. İşlem birkaç dakika sürebilir.</li>
+          </ol>
+          <p class="admin-notice">Dosyayı hazırlamak veya indirmek siteyi yayımlamaz. Dersin görünmesi için GitHub'a yükleyip değişikliği kaydetmeniz gerekir. Bu panel GitHub şifresi veya erişim anahtarı istemez.</p>
+        </aside>
+      </div>
+    </main>
+    <footer class="admin-footer">A1 · A2 · B1 — Dersleriniz tek bir yerde.</footer>
+  </div>
+  <script src="assets/config.js"></script>
+  <script src="assets/catalog.js"></script>
+  <script src="assets/admin.js"></script>
+</body>
+</html>

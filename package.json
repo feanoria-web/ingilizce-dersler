@@ -1,0 +1,16 @@
+{
+  "name": "dil-ders-paneli",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A1, A2 ve B1 derslerini GitHub Pages üzerinde yayınlayan ücretsiz statik panel.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "catalog": "node scripts/build-catalog.mjs",
+    "build": "node scripts/build-catalog.mjs --output _site",
+    "check": "node scripts/check-site.mjs",
+    "check:build": "node scripts/check-site.mjs --root _site"
+  }
+}
