@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "A1, A2 ve B1 derslerini GitHub Pages üzerinde yayınlayan ücretsiz statik panel.",
+  "description": "A1, A2, B1 ve YDS derslerini GitHub Pages üzerinde yayınlayan ücretsiz statik panel.",
   "engines": {
     "node": ">=22"
   },

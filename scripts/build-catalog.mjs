@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 export const SITE_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-export const LEVELS = ['a1', 'a2', 'b1'];
+export const LEVELS = ['a1', 'a2', 'b1', 'yds'];
 const collator = new Intl.Collator('tr', { numeric: true, sensitivity: 'base' });
 
 export function readAttributes(source) {
@@ -126,7 +126,7 @@ export async function collectLessons(root = SITE_ROOT) {
   for (const entry of await fs.readdir(lessonsRoot, { withFileTypes: true })) {
     if (entry.name.startsWith('.')) continue;
     if (!entry.isDirectory() || !LEVELS.includes(entry.name)) {
-      throw new Error(`lessons/${entry.name}: dersler lessons/a1, lessons/a2 veya lessons/b1 klasöründe olmalı.`);
+      throw new Error(`lessons/${entry.name}: dersler lessons/a1, lessons/a2, lessons/b1 veya lessons/yds klasöründe olmalı.`);
     }
   }
   const catalog = [];
@@ -186,7 +186,7 @@ export async function buildCatalog({ root = SITE_ROOT, output } = {}) {
   const catalog = await collectLessons(root);
   await fs.mkdir(path.join(root, 'assets'), { recursive: true });
   const json = JSON.stringify(catalog, null, 2).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');
-  await fs.writeFile(path.join(root, 'assets', 'catalog.js'), `// Otomatik üretilir. Dersleri lessons/a1, lessons/a2 ve lessons/b1 klasörlerine ekleyin.\nwindow.LESSON_CATALOG = ${json};\n`);
+  await fs.writeFile(path.join(root, 'assets', 'catalog.js'), `// Otomatik üretilir. Dersleri lessons/a1, lessons/a2, lessons/b1 ve lessons/yds klasörlerine ekleyin.\nwindow.LESSON_CATALOG = ${json};\n`);
   if (output) await stageSite(output, root);
   console.log(`Katalog hazır: ${catalog.length} ders${output ? `; yayın dosyaları: ${output}` : ''}.`);
   return catalog;

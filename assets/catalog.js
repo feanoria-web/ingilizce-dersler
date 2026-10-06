@@ -1,4 +1,4 @@
-// Otomatik üretilir. Dersleri lessons/a1, lessons/a2 ve lessons/b1 klasörlerine ekleyin.
+// Otomatik üretilir. Dersleri lessons/a1, lessons/a2, lessons/b1 ve lessons/yds klasörlerine ekleyin.
 window.LESSON_CATALOG = [
   {
     "id": "a2/day-01",

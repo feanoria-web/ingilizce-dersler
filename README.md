@@ -2,7 +2,7 @@
 
 Gürkan Öztürk · Hüdavendigar Sosyal Gelişim Merkezi
 
-A1, A2 ve B1 seviyeleri üzerinden derslere ulaşılabilen, GitHub Pages ile yayımlanan ücretsiz statik site. Mevcut altı dersin görselleri, sesleri ve etkileşimli etkinlikleri korunmuştur. A1 yeni ders eklemeye hazırdır.
+A1, A2 ve B1 seviyeleri ile YDS hazırlık paneli üzerinden derslere ulaşılabilen, GitHub Pages ile yayımlanan ücretsiz statik site. Mevcut altı dersin görselleri, sesleri ve etkileşimli etkinlikleri korunmuştur. A1 ve YDS yeni ders eklemeye hazırdır.
 
 Site: https://feanoria-web.github.io/ingilizce-dersler/
 
@@ -11,7 +11,7 @@ Site: https://feanoria-web.github.io/ingilizce-dersler/
 Yükleme GitHub'da **feanoria-web** hesabıyla yapılır. Ziyaretçi panelinde ders ekleme veya dosya yükleme alanı bulunmaz. Ders yayımlamak için GitHub'ın depo yazma yetkisi gereklidir.
 
 1. GitHub'a **feanoria-web** hesabıyla giriş yapın ve [ders deposunu](https://github.com/feanoria-web/ingilizce-dersler) açın.
-2. İlgili seviye klasörüne girin: `lessons/a1`, `lessons/a2` veya `lessons/b1`.
+2. İlgili panelin klasörüne girin: `lessons/a1`, `lessons/a2`, `lessons/b1` veya `lessons/yds`.
 3. **Add file → Upload files** ile tek dosya halinde hazırlanmış `.html` dersinizi yükleyin. Derslerimizde olduğu gibi resim, ses, CSS ve JavaScript dosyanın içinde olmalıdır.
 4. **Commit changes** ile kaydedin.
 5. **Actions → GitHub Pages** iş akışı tamamlandığında yeni ders otomatik olarak panelde görünür. İlk yükleme birkaç dakika sürebilir.
@@ -26,11 +26,12 @@ assets/                   Panel tasarımı, uygulama ve oluşturulan katalog
 lessons/a1/               A1 dersleri
 lessons/a2/               A2 dersleri
 lessons/b1/               B1 dersleri
+lessons/yds/              YDS hazırlık dersleri
 scripts/                  Katalog ve doğrulama araçları
 .github/workflows/pages.yml  Otomatik yayın
 ```
 
-Yeni bir HTML dosyasını ilgili `lessons/a1`, `lessons/a2` veya `lessons/b1` klasörüne yüklemek yeterlidir. Başlık HTML'nin `<title>` alanından alınır. `lesson-meta` bilgisi varsa açıklama, ders numarası, tarih ve süre de kullanılır. Aynı dosya adı mevcut dersi günceller; yeni ders için farklı dosya adı kullanın.
+Yeni bir HTML dosyasını ilgili `lessons/a1`, `lessons/a2`, `lessons/b1` veya `lessons/yds` klasörüne yüklemek yeterlidir. Başlık HTML'nin `<title>` alanından alınır. `lesson-meta` bilgisi varsa açıklama, ders numarası, tarih ve süre de kullanılır. Aynı dosya adı mevcut dersi günceller; yeni ders için farklı dosya adı kullanın.
 
 ## Yerelde açmak
 

@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const lessons = Array.isArray(window.LESSON_CATALOG) ? window.LESSON_CATALOG : [];
-  const levelNames = { A1: 'İlk adımlar', A2: 'Bir adım ileri', B1: 'Sohbeti sürdür' };
+  const levelNames = { A1: 'İlk adımlar', A2: 'Bir adım ileri', B1: 'Sohbeti sürdür', YDS: 'Sınava hazırlık' };
   const buttons = [...document.querySelectorAll('[data-level]')];
   const section = document.getElementById('lessons-section');
   const list = document.getElementById('lesson-list');
@@ -28,13 +28,13 @@
       const metadata = [durationLabel(lesson.duration), date].filter(Boolean);
       const number = lesson.number == null ? '+' : String(lesson.number).padStart(2, '0');
       const url = String(lesson.url || '');
-      if (!/^lessons\/(a1|a2|b1)\//.test(url) || url.split('/').includes('..')) return '';
+      if (!/^lessons\/(a1|a2|b1|yds)\//.test(url) || url.split('/').includes('..')) return '';
       return `<a class="lesson-row ${lesson.number == null ? 'lesson-extra' : ''}" href="${escape(url)}"><span class="lesson-number" aria-hidden="true">${escape(number)}</span><span class="lesson-info"><span class="lesson-kicker">${lesson.number == null ? 'EK ÇALIŞMA' : `DERS ${escape(lesson.number)}`}</span><h3>${escape(lesson.title)}</h3><p>${escape(lesson.description)}</p>${lesson.tags?.length ? `<span class="lesson-tags">${lesson.tags.slice(0, 3).map(tag => `<span>${escape(tag)}</span>`).join('')}</span>` : ''}</span><span class="lesson-end"><span class="lesson-meta">${metadata.map(item => `<span>${escape(item)}</span>`).join('')}</span><span class="lesson-open">Dersi aç <span aria-hidden="true">↗</span></span></span></a>`;
     }).join('');
     const empty = document.getElementById('empty-state');
     empty.hidden = matching.length > 0;
-    document.getElementById('empty-title').textContent = all.length ? 'Aradığın ders bulunamadı.' : 'Yeni dersler yolda.';
-    document.getElementById('empty-description').textContent = all.length ? 'Başka bir kelimeyle aramayı dene.' : `${selected} dersleri eklendiğinde burada görünecek. Diğer seviyelerdeki dersleri de keşfedebilirsin.`;
+    document.getElementById('empty-title').textContent = all.length ? 'Aradığın ders bulunamadı.' : selected === 'YDS' ? 'YDS dersleri hazırlanıyor.' : 'Yeni dersler yolda.';
+    document.getElementById('empty-description').textContent = all.length ? 'Başka bir kelimeyle aramayı dene.' : selected === 'YDS' ? 'YDS dersleri ve soru çalışmaları eklendiğinde burada görünecek.' : `${selected} dersleri eklendiğinde burada görünecek. Diğer seviyelerdeki dersleri de keşfedebilirsin.`;
     document.getElementById('results-status').textContent = `${selected} seviyesinde ${matching.length} ders içeriği gösteriliyor.`;
   }
   function select(level, scroll = false) {
