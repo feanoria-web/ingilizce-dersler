@@ -1,0 +1,3628 @@
+{
+  "units": [
+    {
+      "id": "u09",
+      "number": 9,
+      "title": "Nouns, Pronouns, Articles & Quantifiers",
+      "subtitle": "İsimler, zamirler, artikeller ve miktar ifadeleri",
+      "pages": "470–527",
+      "description": "İsim grubunun yapısını, belirleyicileri ve zamirlerin gönderimini birlikte inceleyin. YDS çalışmasında boşluğun önündeki ve arkasındaki isim türünü tanıyarak miktar, belirlilik ve özne–yüklem uyumu seçeneklerini eleyin.",
+      "outcomes": [
+        "Sayılabilen ve sayılamayan isimleri, çoğul biçimlerini ve partitifleri ayırt etmek.",
+        "Zamirlerin gönderimini ve other grubunun tekil/çoğul kullanımını çözmek.",
+        "A/an, the ve sıfır artikel seçiminde bağlamı kullanmak.",
+        "Miktar ifadelerine göre isim ve yüklem uyumunu kontrol etmek."
+      ],
+      "sections": [
+        {
+          "id": "u09-s01",
+          "title": "Countable nouns: tekil ve çoğul",
+          "lead": "Sayılabilen bir isim tek başına tekil bir ortak isim olarak kullanılmaz; genellikle bir belirleyici gerekir.",
+          "rules": [
+            "Tekil ortak isim önüne a/an, the, this, my, each gibi bir belirleyici alır: a method, this method. Çoğul genel kullanım belirleyicisiz olabilir: methods.",
+            "Düzenli çoğullar -s/-es ile kurulur; sessiz + y, -ies olur. Bazı isimler düzensizdir: child → children, criterion → criteria, phenomenon → phenomena.",
+            "Bileşik isimde ana unsur çoğullaşır: editor-in-chief → editors-in-chief, passer-by → passers-by. Ana isim sonda olduğunda research assistant → research assistants olur.",
+            "Fish ve species gibi bazı isimlerde tekil ile çoğul aynı görünür; sayı ve yüklemi bağlam belirler. Scientific data için çoğul kullanım gelenekseldir; çağdaş kullanımda kütle ismi kullanımı da bulunur."
+          ],
+          "examples": [
+            {
+              "en": "Several criteria were used to select the research assistants.",
+              "tr": "Araştırma asistanlarını seçmek için birkaç ölçüt kullanıldı.",
+              "note": "Criteria çoğuldur; tekil biçim criterion'dır."
+            },
+            {
+              "en": "Two editors-in-chief reviewed the special issue.",
+              "tr": "İki baş editör özel sayıyı değerlendirdi.",
+              "note": "Bileşik ismin ana unsuru editors çoğul yapılır."
+            }
+          ],
+          "pitfalls": [
+            "A research gibi belirsiz tekil kullanım kurmayın; research çoğu akademik bağlamda sayılamaz.",
+            "Her -s sonunu çoğul sanmayın: news tekil uyum ister."
+          ],
+          "table": {
+            "head": [
+              "Tekil",
+              "Çoğul",
+              "İpucu"
+            ],
+            "rows": [
+              [
+                "analysis",
+                "analyses",
+                "-is → -es"
+              ],
+              [
+                "hypothesis",
+                "hypotheses",
+                "Akademik düzensiz çoğul"
+              ],
+              [
+                "child",
+                "children",
+                "Düzensiz çoğul"
+              ],
+              [
+                "species",
+                "species",
+                "Biçim aynı"
+              ],
+              [
+                "mother-in-law",
+                "mothers-in-law",
+                "Ana isim çoğullaşır"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u09-s02",
+          "title": "Uncountable nouns and partitives",
+          "lead": "Sayılamayan isimleri saymak için ismin kendisini çoğullaştırmak yerine bir ölçü veya birim kullanın.",
+          "rules": [
+            "Information, evidence, advice, equipment, furniture ve progress standart anlamlarında sayılamaz; a/an ve doğrudan sayı almaz.",
+            "Birimi sayılabilir yapın: a piece of advice, two items of equipment, a litre of water. Yüklem, özne olan birimin tekil/çoğul biçimine uyar.",
+            "Bazı isimler anlamla sınıf değiştirir: experience = deneyim, an experience = yaşanmış bir olay; paper = kâğıt, a paper = makale; work = iş, a work = sanat/eser.",
+            "Amount of sayılamayan isimlerle, number of çoğul sayılabilir isimlerle kullanılır. Less genel olarak miktarı, fewer sayılabilir birim sayısını azaltır."
+          ],
+          "examples": [
+            {
+              "en": "The survey produced a great deal of useful information.",
+              "tr": "Anket çok miktarda yararlı bilgi üretti.",
+              "note": "Information sayılamaz; informations yapılmaz."
+            },
+            {
+              "en": "Three pieces of equipment require maintenance.",
+              "tr": "Üç ekipman parçasının bakıma ihtiyacı var.",
+              "note": "Çoğul yüklemi equipment değil pieces belirler."
+            }
+          ],
+          "pitfalls": [
+            "An advice yerine a piece of advice kullanın.",
+            "A few evidence yerine a little evidence; fewer studies ile less research ayrımına dikkat edin."
+          ],
+          "table": {
+            "head": [
+              "Kütle/soyut anlam",
+              "Sayılabilir anlam veya birim"
+            ],
+            "rows": [
+              [
+                "research",
+                "a study / a research project"
+              ],
+              [
+                "evidence",
+                "a piece of evidence"
+              ],
+              [
+                "paper",
+                "a sheet of paper / a scientific paper"
+              ],
+              [
+                "experience",
+                "professional experience / an unusual experience"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u09-s03",
+          "title": "Possession: 's, s' and of",
+          "lead": "İyelik, kimin veya neyin neyle ilişkili olduğunu gösterir; insanlara özgü sahiplikten daha geniştir.",
+          "rules": [
+            "Tekil isim ve düzensiz çoğul için 's kullanılır: the scientist's notes, the children's results. -s ile biten düzenli çoğul yalnızca apostrof alır: the scientists' notes.",
+            "İnsan, kurum, zaman ve ölçü ifadelerinde 's sık görülür: the institute's policy, a day's work. Cansız isimlerde of sık kullanılır, ancak 's mutlak biçimde yasak değildir.",
+            "Ortak sahiplikte son isme ek gelir: Deniz and Ece's laboratory. Ayrı sahiplikte her isim ek alır: Deniz's and Ece's laboratories.",
+            "Double possessive yapısı a colleague of mine / a colleague of the director's şeklindedir. Possessive determiner bir isimden önce, possessive pronoun tek başına kullanılır."
+          ],
+          "examples": [
+            {
+              "en": "The researchers' concerns were recorded in the report.",
+              "tr": "Araştırmacıların kaygıları rapora kaydedildi.",
+              "note": "Çoğul researchers için apostrof -s'den sonra gelir."
+            },
+            {
+              "en": "A colleague of hers proposed a different method.",
+              "tr": "Onun meslektaşlarından biri farklı bir yöntem önerdi.",
+              "note": "Hers isim olmadan kullanılan iyelik zamiridir."
+            }
+          ],
+          "pitfalls": [
+            "It's = it is/it has; its = onun. İyelik its apostrof almaz.",
+            "The result's of the survey yanlıştır; çoğul eki ile iyelik işaretini karıştırmayın."
+          ]
+        },
+        {
+          "id": "u09-s04",
+          "title": "Personal, possessive and reflexive pronouns",
+          "lead": "Zamir seçerken cümledeki işlevi ve gönderdiği kişiyi birlikte belirleyin.",
+          "rules": [
+            "Özne konumunda I/he/she/we/they; fiil veya edatın nesnesi olarak me/him/her/us/them kullanılır: between them, for us.",
+            "My/your/their gibi iyelik belirleyicilerini isim izler; mine/yours/theirs tek başına isim grubunun yerini alır.",
+            "Özne ile nesne aynı kişiye gönderiyorsa myself/yourself/himself/herself/itself/ourselves/yourselves/themselves kullanılır.",
+            "Reflexive pronoun vurgu da yapar: the director herself. By oneself yalnız başına veya yardım almadan anlamı verir; each other karşılıklılık bildirir.",
+            "Bir zamirin gönderimi açık olmalıdır. Cinsiyeti bilinmeyen tekil bir kişi için singular they kullanımı yerleşiktir; sınav cümlesinde verilen bağlamı izleyin."
+          ],
+          "examples": [
+            {
+              "en": "The participants introduced themselves before the discussion.",
+              "tr": "Katılımcılar tartışmadan önce kendilerini tanıttı.",
+              "note": "Özne ve nesne aynı kişiler olduğu için themselves gerekir."
+            },
+            {
+              "en": "This dataset is ours, but that one belongs to them.",
+              "tr": "Bu veri kümesi bizimki, fakat o onlara ait.",
+              "note": "Ours tek başına; to edatından sonra them kullanılır."
+            }
+          ],
+          "pitfalls": [
+            "Myself, me yerine daha resmî bir seçenek değildir; özne–nesne özdeşliği veya vurgu gerekir.",
+            "Their findings ile theirs findings karıştırılmamalıdır; theirs ardından isim gelmez."
+          ],
+          "table": {
+            "head": [
+              "Özne",
+              "Nesne",
+              "İsimden önce iyelik",
+              "Tek başına iyelik",
+              "Dönüşlü"
+            ],
+            "rows": [
+              [
+                "we",
+                "us",
+                "our",
+                "ours",
+                "ourselves"
+              ],
+              [
+                "they",
+                "them",
+                "their",
+                "theirs",
+                "themselves"
+              ],
+              [
+                "she",
+                "her",
+                "her",
+                "hers",
+                "herself"
+              ],
+              [
+                "it",
+                "it",
+                "its",
+                "—",
+                "itself"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u09-s05",
+          "title": "Indefinite pronouns and the other family",
+          "lead": "Belirsiz zamirler sayılamayan veya tanımlanmayan gönderimleri; other grubu ise ek ya da kalan öğeleri belirtir.",
+          "rules": [
+            "Everyone, somebody, nothing ve either gibi tekil belirsiz zamirler tekil yüklem alır. Everyone ve every one of farklı biçimlerde yazılır.",
+            "Another + tekil sayılabilir isim 'bir başka/bir tane daha'; other + çoğul veya sayılamayan isim 'başka' anlamındadır. Another two weeks gibi sayı + çoğul bir miktar grubu da mümkündür.",
+            "Others isim olmadan 'başkaları'; the others belirli bir grupta geriye kalanların tümüdür.",
+            "The other + tekil isim iki öğeden ikincisini; the other + çoğul isim belirli grubun kalan öğelerini gösterir. Each other ve one another karşılıklı ilişki kurar."
+          ],
+          "examples": [
+            {
+              "en": "One proposal was approved; the other was postponed.",
+              "tr": "Bir öneri onaylandı; diğeri ertelendi.",
+              "note": "İki öneri olduğu için the other belirli kalan tek öğedir."
+            },
+            {
+              "en": "Some volunteers arrived early, while others joined later.",
+              "tr": "Bazı gönüllüler erken geldi; başkaları daha sonra katıldı.",
+              "note": "Others bir ismin yerini alır; ardından volunteers gelmez."
+            }
+          ],
+          "pitfalls": [
+            "Another participants yanlış; other participants veya another participant kullanılır.",
+            "Nobody have yerine nobody has gerekir; nobody + not çift olumsuzluk oluşturur."
+          ]
+        },
+        {
+          "id": "u09-s06",
+          "title": "A/an: indefinite reference",
+          "lead": "A/an yalnızca tekil sayılabilir bir ismi belirsiz veya sınıfın bir üyesi olarak sunar.",
+          "rules": [
+            "A/an seçimi harfe değil ilk sese dayanır: a university, a European project, an hour, an MRI scan.",
+            "İlk kez sunulan ve henüz tanımlanmayan tekil sayılabilir isimlerde a/an kullanılır: a laboratory. Sonraki açık gönderimde the laboratory denebilir.",
+            "Meslek ve sınıflandırma bildiren tekil isimler a/an alır: she is a biologist; this is an efficient procedure.",
+            "Ölçü/frekans kalıbında a/an 'başına' anlamı verebilir: twice a week, sixty kilometres an hour."
+          ],
+          "examples": [
+            {
+              "en": "An independent team assessed the impact of a new regulation.",
+              "tr": "Bağımsız bir ekip yeni bir düzenlemenin etkisini değerlendirdi.",
+              "note": "Independent sesliyle, new sessizle başlar."
+            },
+            {
+              "en": "The laboratory is about an hour away from a university campus.",
+              "tr": "Laboratuvar bir üniversite kampüsünden yaklaşık bir saat uzaktadır.",
+              "note": "Hour sessiz h içerir; university /y/ sesiyle başlar."
+            }
+          ],
+          "pitfalls": [
+            "An university ve a hour yazımın ilk harfine göre yapılan hatalardır.",
+            "Sayılamayan knowledge önüne a/an gelmez; a detailed knowledge of kalıbı ise nitelikli özel bir kullanımdır."
+          ]
+        },
+        {
+          "id": "u09-s07",
+          "title": "The and zero article",
+          "lead": "Belirlilik ortak bilgiyle kurulur; genel bir sınıf veya soyut kavram her zaman the gerektirmez.",
+          "rules": [
+            "The, dinleyenin/okuyucunun tanımlayabildiği isimlerde kullanılır: the results of this experiment. Önceden anılma, bağlam, tek oluş veya açık niteleme belirlilik sağlayabilir.",
+            "Genel anlamdaki çoğul ve sayılamayan isimler çoğunlukla sıfır artikel alır: scientists need evidence. Belirli evidence için the evidence collected yesterday kullanılır.",
+            "The sun, the highest value, the first stage gibi tek oluş, superlative ve sıra sayısı bağlamlarında the sık kullanılır.",
+            "Dil, ders ve çoğu ülke/şehir adı sıfır artikel alır; the United Kingdom, the Netherlands, the Pacific gibi yerleşik özel adlar istisnadır.",
+            "Go to school/prison/bed gibi amaç ve işlev odaklı kalıpları go to the school/prison/bed gibi belirli fiziksel yer göndermesinden ayırın."
+          ],
+          "examples": [
+            {
+              "en": "Water is essential, but the water in this tank is contaminated.",
+              "tr": "Su hayati önemdedir, fakat bu tanktaki su kirlenmiştir.",
+              "note": "İlk water geneldir; ikinci belirli bir su miktarıdır."
+            },
+            {
+              "en": "The first chapter examines education in rural areas.",
+              "tr": "İlk bölüm kırsal bölgelerdeki eğitimi inceler.",
+              "note": "First ile belirli bölüm; education genel soyut isimdir."
+            }
+          ],
+          "pitfalls": [
+            "Her of öbeği otomatik olarak the gerektirmez: a study of migration mümkündür.",
+            "The Turkey, the English ve the biology genel özel ad/dil/ders kullanımlarında yanlıştır."
+          ]
+        },
+        {
+          "id": "u09-s08",
+          "title": "Some, any, no and small/large quantities",
+          "lead": "Miktar kelimesini seçmeden önce ismin sayılabilirliğini ve cümlenin olumlu/olumsuz bağlamını kontrol edin.",
+          "rules": [
+            "Some çoğunlukla olumlu cümlede, any soru ve olumsuzda kullanılır. Teklif/rica sorularında some; 'herhangi bir' serbest seçim anlamında olumlu cümlede any mümkündür.",
+            "No isimden önce gelir ve anlamı olumsuzlaştırır: no evidence. Not any aynı temel olumsuzluğu kurar; none isim grubunun yerine geçer.",
+            "Many, few, a few çoğul sayılabilir; much, little, a little sayılamayan isimlerle kullanılır. A lot of/plenty of her iki türle kullanılabilir.",
+            "Few/little yetersizlik veya çok azlık; a few/a little en azından bir miktar varlığı vurgular. Only a few yine sınırlılığı gösterebilir.",
+            "Too many/much aşırılık, enough yeterlilik bildirir. Fewer studies/less time ayrımı sayı ile miktara dayanır."
+          ],
+          "examples": [
+            {
+              "en": "Few studies address the issue, so further research is needed.",
+              "tr": "Çok az çalışma bu konuyu ele alıyor; bu yüzden daha fazla araştırma gerekiyor.",
+              "note": "Few mevcut çalışmaların yetersizliğini vurgular."
+            },
+            {
+              "en": "There is a little time left, so we can check the references.",
+              "tr": "Biraz zaman kaldı; dolayısıyla kaynakları kontrol edebiliriz.",
+              "note": "A little kalan zamanın kullanılabilir olduğunu gösterir."
+            }
+          ],
+          "pitfalls": [
+            "Much participants ve many information isim türünü ihlal eder.",
+            "Olumlu anlamdaki a few ile yetersizlik bildiren few aynı yorumlanmamalıdır."
+          ],
+          "table": {
+            "head": [
+              "Tür",
+              "Büyük miktar",
+              "Çok az/yetersiz",
+              "Bir miktar"
+            ],
+            "rows": [
+              [
+                "Çoğul sayılabilir",
+                "many",
+                "few",
+                "a few"
+              ],
+              [
+                "Sayılamayan",
+                "much",
+                "little",
+                "a little"
+              ],
+              [
+                "Her ikisi",
+                "a lot of / plenty of",
+                "hardly any",
+                "some"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u09-s09",
+          "title": "Each, every, all, both and partitive patterns",
+          "lead": "Miktar ifadesi tek tek öğeleri mi, grubun tamamını mı, yoksa bir bölümünü mü öne çıkarıyor?",
+          "rules": [
+            "Each/every + tekil sayılabilir isim tekil uyum ister. Each of + belirli çoğul isim/zamir da standart resmî kullanımda tekil yüklem alır; every of yerine every one of kullanılır.",
+            "Both iki öğenin ikisini, either ikiden herhangi birini, neither ikisinin hiçbirini bildirir. Both + çoğul; either/neither + tekil isim; either/neither of + çoğul belirli grup kurulur.",
+            "All + çoğul veya sayılamayan isim mümkündür. Whole genellikle belirleyici + tekil sayılabilir isim alır: the whole report.",
+            "Most studies genel çoğul isim grubudur; most of the studies/most of them belirli bir grubu seçer. Of ardından the, these, my gibi belirleyici veya nesne zamiri gerekir.",
+            "Half of, a proportion of, a majority of gibi ifadelerde anlam ve baş isim önemlidir. A number of + çoğul isim çoğul yüklem; the number of + çoğul isim tekil yüklem alır."
+          ],
+          "examples": [
+            {
+              "en": "Each of the samples was labelled before storage.",
+              "tr": "Örneklerin her biri depolanmadan önce etiketlendi.",
+              "note": "Each of belirli çoğul grubu seçer, ancak tekil uyum ister."
+            },
+            {
+              "en": "Most research concerns cities, but most of this research concerns villages.",
+              "tr": "Araştırmaların çoğu kentlerle ilgilidir, fakat bu araştırmanın çoğu köylerle ilgilidir.",
+              "note": "Most research genel; most of this research belirli kapsamdır."
+            }
+          ],
+          "pitfalls": [
+            "Every of the students yerine every one of the students kullanın.",
+            "Most of researchers belirleyicisiz olduğu için yanlış; most researchers veya most of the researchers gerekir."
+          ],
+          "table": {
+            "head": [
+              "İfade",
+              "İsim biçimi",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "each / every",
+                "tekil",
+                "every participant"
+              ],
+              [
+                "both",
+                "çoğul / of + belirli çoğul",
+                "both methods / both of them"
+              ],
+              [
+                "either / neither",
+                "tekil / of + belirli çoğul",
+                "neither method / neither of the methods"
+              ],
+              [
+                "most",
+                "çoğul veya sayılamayan",
+                "most studies / most information"
+              ],
+              [
+                "most of",
+                "belirli grup",
+                "most of these studies"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u09-s10",
+          "title": "Subject–verb and pronoun agreement",
+          "lead": "Yüklemin sayısını en yakın isme bakarak değil, öznenin ana yapısını bularak seçin.",
+          "rules": [
+            "Araya giren of öbeği ana özneyi değiştirmez: the quality of the samples is high. And ile iki ayrı özne çoğunlukla çoğul yüklem alır.",
+            "A number of studies are; the number of studies is. Some/all/most/half of için seçilen ismin sayılamayan veya çoğul olması önemlidir: most of the water is; most of the samples are.",
+            "Either/neither tek başına tekil uyum alır. Either…or/neither…nor ile sayı farklıysa en yakın özneyle uyum yaygındır; resmî metinde belirsizliği yeniden yazmak daha açıktır.",
+            "News, mathematics ve physics alan/isim anlamında tekildir; scissors ve trousers çoğuldur. A pair of scissors tekil ana isim pair ile uyumludur.",
+            "There is/are yapısında asıl isim grubunu bulun: there is evidence; there are several reasons. Collective nouns için İngiliz/Amerikan kullanım farkı olabilir; bütün birimi vurgulayan committee has güvenli bir standart örnektir.",
+            "Zamir, sayı ve anlam bakımından gönderimiyle tutarlı olmalıdır; tekil cinsiyetsiz kişiye singular they ayrı bir yerleşik kullanımdır."
+          ],
+          "examples": [
+            {
+              "en": "The number of applications has increased, but a number of places remain vacant.",
+              "tr": "Başvuruların sayısı arttı, fakat bazı kontenjanlar boş kaldı.",
+              "note": "The number tekil; a number of çoğul anlam taşır."
+            },
+            {
+              "en": "Most of the equipment is new, whereas most of the instruments are old.",
+              "tr": "Ekipmanın çoğu yeniyken aletlerin çoğu eskidir.",
+              "note": "Equipment sayılamaz; instruments çoğuldur."
+            }
+          ],
+          "pitfalls": [
+            "The effect of several policies are yerine is gerekir; ana özne effect'tir.",
+            "Neither of için yalnızca yakın çoğul isme bakarak are seçmeyin; bu derste resmî tekil uyum esas alınır."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "u09-q01",
+          "type": "grammar",
+          "sectionId": "u09-s01",
+          "prompt": "The committee adopted three new ---- for assessing research proposals.",
+          "options": [
+            "criterion",
+            "criterias",
+            "criteria",
+            "a criterion",
+            "criterion's"
+          ],
+          "answer": 2,
+          "explanation": "Three çoğul isim ister; criterion'ın akademik kullanımda yaygın çoğulu criteria'dır. Criterion ve a criterion tekildir; criterias yanlış çoğul, criterion's ise iyelik biçimidir."
+        },
+        {
+          "id": "u09-q02",
+          "type": "grammar",
+          "sectionId": "u09-s02",
+          "prompt": "The advisor gave the students ---- before they submitted their proposals.",
+          "options": [
+            "a useful piece of advice",
+            "a useful advice",
+            "several useful advices",
+            "many useful advice",
+            "an useful piece of advice"
+          ],
+          "answer": 0,
+          "explanation": "Advice sayılamaz; piece ile birim oluşturulur. Useful /y/ sesiyle başladığı için a kullanılır."
+        },
+        {
+          "id": "u09-q03",
+          "type": "grammar",
+          "sectionId": "u09-s03",
+          "prompt": "All five researchers contributed to the report, so the editor thanked ---- team.",
+          "options": [
+            "the researcher's",
+            "the researchers's",
+            "the researcher",
+            "the researchers",
+            "the researchers'"
+          ],
+          "answer": 4,
+          "explanation": "Beş araştırmacının çoğul iyeliği researchers' olur. Researcher's tek bir araştırmacının iyeliğidir."
+        },
+        {
+          "id": "u09-q04",
+          "type": "grammar",
+          "sectionId": "u09-s04",
+          "prompt": "The software adjusts ---- automatically when the external temperature changes.",
+          "options": [
+            "it",
+            "itself",
+            "its",
+            "themselves",
+            "himself"
+          ],
+          "answer": 1,
+          "explanation": "Software ve kendini ayarlayan nesne aynı gönderimdir; tekil cansız özne için itself gerekir."
+        },
+        {
+          "id": "u09-q05",
+          "type": "grammar",
+          "sectionId": "u09-s04",
+          "prompt": "These notes belong to us; the notes on the next desk are ----.",
+          "options": [
+            "their",
+            "them",
+            "themselves",
+            "theirs",
+            "they"
+          ],
+          "answer": 3,
+          "explanation": "Boşlukta isim yoktur; iyelik zamiri theirs gerekir. Their yalnızca isimden önce kullanılabilir."
+        },
+        {
+          "id": "u09-q06",
+          "type": "grammar",
+          "sectionId": "u09-s05",
+          "prompt": "Two sites were examined. One was close to the coast, and ---- was inland.",
+          "options": [
+            "another",
+            "the other",
+            "others",
+            "other",
+            "the others"
+          ],
+          "answer": 1,
+          "explanation": "İki siteden belirli kalan tek öğe the other ile gösterilir. Another belirsiz ek bir öğe sunar."
+        },
+        {
+          "id": "u09-q07",
+          "type": "grammar",
+          "sectionId": "u09-s06",
+          "prompt": "The centre plans to establish ---- university laboratory and hire ---- experienced technician.",
+          "options": [
+            "an / a",
+            "a / a",
+            "an / an",
+            "the / a",
+            "a / an"
+          ],
+          "answer": 4,
+          "explanation": "University /y/ ile başladığı için a; experienced sesliyle başladığı için an gerekir. İlk kez sunulan belirsiz iki öğe söz konusudur."
+        },
+        {
+          "id": "u09-q08",
+          "type": "grammar",
+          "sectionId": "u09-s07",
+          "prompt": "---- evidence collected during this survey differs from ---- evidence reported last year.",
+          "options": [
+            "The / the",
+            "An / an",
+            "A / the",
+            "The / an",
+            "— / an"
+          ],
+          "answer": 0,
+          "explanation": "Her iki evidence grubu da niteleme ile belirli bir veri grubuna gönderir; the kullanılır. Evidence sayılamadığı için a/an almaz."
+        },
+        {
+          "id": "u09-q09",
+          "type": "grammar",
+          "sectionId": "u09-s08",
+          "prompt": "The team cannot draw a firm conclusion because there is ---- evidence available.",
+          "options": [
+            "a few",
+            "many",
+            "few",
+            "little",
+            "several"
+          ],
+          "answer": 3,
+          "explanation": "Evidence sayılamaz ve kesin sonuca yetmemektedir; little yetersiz miktarı belirtir. Few/a few çoğul sayılabilir isim ister."
+        },
+        {
+          "id": "u09-q10",
+          "type": "grammar",
+          "sectionId": "u09-s08",
+          "prompt": "We still have quite ---- spare batteries, so the fieldwork can continue.",
+          "options": [
+            "few",
+            "a little",
+            "a few",
+            "much",
+            "little"
+          ],
+          "answer": 2,
+          "explanation": "Quite a few + çoğul sayılabilir isim, kayda değer sayıda bulunduğunu anlatır; quite few standart biçim değildir. A little, much ve little sayılamayan isimlerle kullanılır."
+        },
+        {
+          "id": "u09-q11",
+          "type": "grammar",
+          "sectionId": "u09-s09",
+          "prompt": "---- the participants was given a unique identification code.",
+          "options": [
+            "Each of",
+            "Every of",
+            "Both of",
+            "All of",
+            "Most of"
+          ],
+          "answer": 0,
+          "explanation": "Was tekil uyumdur ve each of + belirli çoğul isim yapısı doğrudur. Every of kullanılamaz; diğer seçenekler burada çoğul özne oluşturur."
+        },
+        {
+          "id": "u09-q12",
+          "type": "grammar",
+          "sectionId": "u09-s09",
+          "prompt": "Most ---- studies in this archive focus on urban migration.",
+          "options": [
+            "of",
+            "the",
+            "of the",
+            "of a",
+            "of every"
+          ],
+          "answer": 2,
+          "explanation": "Most of the studies belirli arşiv grubunu seçer. Most the studies ve most of studies doğru yapılar değildir."
+        },
+        {
+          "id": "u09-q13",
+          "type": "grammar",
+          "sectionId": "u09-s10",
+          "prompt": "The number of available seats ---- lower than expected.",
+          "options": [
+            "are",
+            "have",
+            "were",
+            "is",
+            "being"
+          ],
+          "answer": 3,
+          "explanation": "Ana özne the number tekildir; is gerekir. Of available seats yüklemi çoğul yapmaz."
+        },
+        {
+          "id": "u09-q14",
+          "type": "grammar",
+          "sectionId": "u09-s10",
+          "prompt": "Most of the water ---- recovered, but most of the containers ---- damaged.",
+          "options": [
+            "were / was",
+            "were / were",
+            "was / was",
+            "have / has",
+            "was / were"
+          ],
+          "answer": 4,
+          "explanation": "Water sayılamayan tekil uyumla was; containers çoğul uyumla were alır."
+        },
+        {
+          "id": "u09-q15",
+          "type": "translation",
+          "sectionId": "u09-s08",
+          "prompt": "'Projeyi başlatmak için biraz paramız var.' cümlesinin miktar anlamını en iyi koruyan seçeneği seçin.",
+          "options": [
+            "We have little money to start the project.",
+            "We have a little money to start the project.",
+            "We have a few money to start the project.",
+            "We have few money to start the project.",
+            "We have many money to start the project."
+          ],
+          "answer": 1,
+          "explanation": "A little money kullanılabilir bir miktarın bulunduğunu korur. Little money azlık/yetersizlik vurgular; few/many money isim türünü ihlal eder."
+        },
+        {
+          "id": "u09-q16",
+          "type": "meaning",
+          "sectionId": "u09-s05",
+          "prompt": "'Several participants stayed; the others left.' cümlesindeki the others neyi ifade eder?",
+          "options": [
+            "Belirli katılımcı grubunun geriye kalan tüm üyelerini",
+            "Daha önce anılmayan yeni bir katılımcıyı",
+            "Katılımcılar dışındaki herhangi bir insan grubunu",
+            "Belirli grubun yalnızca bir tek üyesini",
+            "Kalan kişilerin yalnızca belirsiz bir kısmını"
+          ],
+          "answer": 0,
+          "explanation": "The others, bağlamdaki belirli grubun kalan üyelerinin tümünü adlandırır; others tek başına aynı tamlık/belirlilik vurgusunu zorunlu kılmaz."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "criterion",
+          "meaning": "ölçüt",
+          "pos": "noun",
+          "example": "Transparency is an important criterion in the evaluation."
+        },
+        {
+          "word": "evidence",
+          "meaning": "kanıt; bulgu",
+          "pos": "uncountable noun",
+          "example": "The evidence supports a cautious interpretation."
+        },
+        {
+          "word": "equipment",
+          "meaning": "ekipman; donanım",
+          "pos": "uncountable noun",
+          "example": "The equipment needs regular maintenance."
+        },
+        {
+          "word": "proportion",
+          "meaning": "oran; pay",
+          "pos": "noun",
+          "example": "A large proportion of respondents preferred online services."
+        },
+        {
+          "word": "majority",
+          "meaning": "çoğunluk",
+          "pos": "noun",
+          "example": "The majority of respondents supported the proposal."
+        },
+        {
+          "word": "participant",
+          "meaning": "katılımcı",
+          "pos": "noun",
+          "example": "Each participant received the same instructions."
+        },
+        {
+          "word": "resource",
+          "meaning": "kaynak; imkân",
+          "pos": "noun",
+          "example": "The programme distributes resources fairly."
+        },
+        {
+          "word": "shortage",
+          "meaning": "eksiklik; kıtlık",
+          "pos": "noun",
+          "example": "A shortage of trained staff delayed the project."
+        },
+        {
+          "word": "assumption",
+          "meaning": "varsayım",
+          "pos": "noun",
+          "example": "This assumption requires further examination."
+        },
+        {
+          "word": "distribution",
+          "meaning": "dağılım; dağıtım",
+          "pos": "noun",
+          "example": "The map shows the distribution of public libraries."
+        },
+        {
+          "word": "ownership",
+          "meaning": "sahiplik",
+          "pos": "uncountable noun",
+          "example": "The agreement clarifies ownership of the data."
+        },
+        {
+          "word": "allocation",
+          "meaning": "tahsis; paylaştırma",
+          "pos": "noun",
+          "example": "The allocation of funds follows explicit criteria."
+        }
+      ],
+      "reading": {
+        "title": "Counting access, not merely buildings",
+        "text": "A city's educational resources cannot be measured simply by counting its libraries. A large number of buildings may coexist with little access to useful information. Some libraries offer extensive digital collections, while others have only a few outdated computers. The number of seats is another imperfect indicator, because the seats may be unavailable during the hours when residents need them. A recent community project therefore examined both opening times and equipment. Each of the volunteers recorded the same categories of information, and every library received a separate profile. Most of the resulting profiles revealed at least one barrier to access. However, the researchers found a little room for improvement even where funding was limited. Sharing equipment and extending opening hours required fewer resources than constructing another building. The findings suggest that the quality of existing services deserves as much attention as their quantity.",
+        "questions": [
+          {
+            "id": "u09-r01",
+            "prompt": "Parçanın temel savı nedir?",
+            "options": [
+              "Yeni kütüphane yapmak her durumda en ucuz çözümdür.",
+              "Kütüphane sayısı tek başına eğitim kaynaklarına erişimi yeterince göstermez.",
+              "Dijital koleksiyonlar bütün erişim sorunlarını çözmüştür.",
+              "Gönüllüler yalnızca koltuk sayısını kaydetmiştir.",
+              "Araştırma tüm kütüphanelerin aynı donanıma sahip olduğunu göstermiştir."
+            ],
+            "answer": 1,
+            "explanation": "Metin bina sayısı ile fiilî erişimi ayırır; saatler, donanım ve hizmet kalitesi ek ölçütlerdir."
+          },
+          {
+            "id": "u09-r02",
+            "prompt": "Araştırmaya göre hangi önlem yeni bina yapmaktan daha az kaynak gerektiriyordu?",
+            "options": [
+              "Bütün bilgisayarları kullanımdan kaldırmak",
+              "Her kütüphaneyi başka bir binaya taşımak",
+              "Donanımı paylaşmak ve açılış saatlerini uzatmak",
+              "Gönüllü sayısını sıfıra indirmek",
+              "Mevcut hizmetleri aynı saatlerle sınırlamak"
+            ],
+            "answer": 2,
+            "explanation": "Sondan bir önceki cümle paylaşım ve saat uzatımının daha az kaynak gerektirdiğini açıkça bildirir."
+          },
+          {
+            "id": "u09-r03",
+            "prompt": "'others' sözcüğü hangi gruba gönderir?",
+            "options": [
+              "Araştırmacılara",
+              "Gönüllülere",
+              "Dijital koleksiyonlara",
+              "Diğer kütüphanelere",
+              "Şehir sakinlerine"
+            ],
+            "answer": 3,
+            "explanation": "Some libraries … while others paralel yapısında others, libraries isminin yerini alır."
+          }
+        ]
+      }
+    },
+    {
+      "id": "u10",
+      "number": 10,
+      "title": "Conjunctions & Transitions",
+      "subtitle": "Bağlaçlar, geçiş ifadeleri ve mantıksal ilişkiler",
+      "pages": "528–587",
+      "description": "Cümleler arasındaki zaman, neden, sonuç, amaç ve zıtlık ilişkilerini yapı üzerinden çözün. Bağlacın ardından tam cümle mi isim grubu mu geldiğini ve noktalama düzenini kontrol ederek seçenekleri daraltın.",
+      "outcomes": [
+        "Eş düzey ve bağımlı bağlaçlarla geçiş zarflarını ayırt etmek.",
+        "Zaman, koşul, neden, amaç ve karşıtlık ilişkisini bağlamdan çözmek.",
+        "Tam cümle ile isim/gerund öbeğini uygun bağlaçla eşleştirmek.",
+        "Zarf cümlesi kısaltmalarını ve bağlaç kaynaklı devrik yapıları okumak."
+      ],
+      "sections": [
+        {
+          "id": "u10-s01",
+          "title": "Coordination and correlative pairs",
+          "lead": "Eş düzey bağlaçlar aynı türden öğeleri bağlar; ikili bağlaçlarda paralellik önemlidir.",
+          "rules": [
+            "And, but, or, yet, so, for ve nor kelime, öbek veya bağımsız cümleleri birleştirebilir. İki bağımsız cümleyi birleştirirken bağlaç öncesi virgül yaygındır.",
+            "Both A and B iki öğeyi birlikte; either A or B alternatifleri; neither A nor B iki öğenin de yokluğunu bildirir.",
+            "Not only A but also B, ikinci öğeyi ilkine ekleyerek vurgular. A ve B'nin dilbilgisel biçimi paralel olmalıdır: not only reliable but also affordable.",
+            "Both… and ile iki ayrı özne çoğul yüklem alır. Either…or/neither…nor yapılarında farklı sayılı özneler için yakınlık uyumu yaygındır.",
+            "Nor bağımsız bir olumsuz ek cümle başlatırsa yardımcı fiil–özne devrikliği gerekir: nor did they respond."
+          ],
+          "examples": [
+            {
+              "en": "The method is both reliable and inexpensive.",
+              "tr": "Yöntem hem güvenilir hem de ucuzdur.",
+              "note": "İki sıfat paralel olarak bağlanır."
+            },
+            {
+              "en": "The team did not release the data, nor did it explain the delay.",
+              "tr": "Ekip verileri yayımlamadı; gecikmeyi de açıklamadı.",
+              "note": "Nor sonrası did it sıralaması gerekir."
+            }
+          ],
+          "pitfalls": [
+            "Either A and B veya neither A or B çiftleri yanlıştır.",
+            "Not only collecting data but also to analyse it biçimsel paralelliği bozar."
+          ]
+        },
+        {
+          "id": "u10-s02",
+          "title": "Time clauses: order, duration and deadlines",
+          "lead": "Zaman bağlacı olayların sırasını veya bir durumun sürme sınırını kurar.",
+          "rules": [
+            "Before/after olay sırasını, as soon as hemen ardından gerçekleşmeyi, once bir aşama tamamlandıktan sonraki durumu belirtir.",
+            "Until, durumun bir zamana kadar sürmesini; by the time ise o zamana gelindiğinde tamamlanmış/oluşmuş durumu vurgular.",
+            "While ve as eşzamanlılığı gösterebilir. While devam eden bir eylemle sık kullanılır; when belirli olay anını da işaret edebilir.",
+            "Geleceğe gönderimli zaman yan cümlesinde normal olarak present simple/present perfect kullanılır: when it arrives, after we have checked it. Ana cümlede will bulunabilir.",
+            "By the time + past simple ile ana cümlede geçmişte daha önce tamamlanan eylem için past perfect sık kullanılır. Bağlaç tek başına bir zamanı mekanik olarak zorunlu kılmaz; olay ilişkisi esastır."
+          ],
+          "examples": [
+            {
+              "en": "We will begin the interview as soon as the participant arrives.",
+              "tr": "Katılımcı gelir gelmez görüşmeye başlayacağız.",
+              "note": "Gelecek anlamına rağmen zaman yan cümlesinde arrives kullanılır."
+            },
+            {
+              "en": "By the time the review began, the authors had corrected the tables.",
+              "tr": "İnceleme başladığında yazarlar tabloları zaten düzeltmişti.",
+              "note": "Düzeltme, geçmişteki inceleme başlangıcından önce tamamlanmıştır."
+            }
+          ],
+          "pitfalls": [
+            "Until ile by the time eş anlamlı değildir; süreklilik ile son tarihe kadar tamamlanmayı ayırın.",
+            "As soon as the participant will arrive standart gelecek zaman yan cümlesinde yanlıştır."
+          ]
+        },
+        {
+          "id": "u10-s03",
+          "title": "Cause and purpose",
+          "lead": "Neden bir olayın gerekçesini, amaç ise ulaşılmak istenen sonucu bildirir.",
+          "rules": [
+            "Because/as/since + özne + yüklem neden cümlesi kurar. As ve since zaman anlamı da taşıyabilir; bağlam karar verir.",
+            "Because of/due to/owing to ardından isim, zamir veya gerund gelir; doğrudan çekimli tam cümle gelmez.",
+            "To/in order to/so as to + yalın fiil amaç belirtir; olumsuz amaç in order not to/so as not to şeklindedir.",
+            "So that/in order that + tam cümle, farklı özne veya can/could/will/would gibi modal ile amacı ifade edebilir.",
+            "For + isim/gerund çoğu zaman bir nesnenin işlevini anlatır: a device for measuring pressure. Kişinin o anki amacında went to measure kalıbı daha doğrudandır."
+          ],
+          "examples": [
+            {
+              "en": "Because the roads were flooded, the survey was postponed.",
+              "tr": "Yollar su altında kaldığı için anket ertelendi.",
+              "note": "Because ardından tam cümle gelir."
+            },
+            {
+              "en": "The files were encrypted so that only authorised staff could read them.",
+              "tr": "Dosyalar yalnızca yetkili personel okuyabilsin diye şifrelendi.",
+              "note": "Amaç yan cümlesi özne ve could içerir."
+            }
+          ],
+          "pitfalls": [
+            "Because of the roads were flooded yanlıştır; because veya because of the flooding seçilmelidir.",
+            "In order to the team could finish yanlıştır; so that the team could finish gerekir."
+          ],
+          "table": {
+            "head": [
+              "İlişki",
+              "Tam cümle",
+              "İsim/gerund veya fiil öbeği"
+            ],
+            "rows": [
+              [
+                "Neden",
+                "because / since / as",
+                "because of / due to + isim/gerund"
+              ],
+              [
+                "Amaç",
+                "so that / in order that",
+                "in order to / so as to + fiil"
+              ],
+              [
+                "Olumsuz amaç",
+                "so that … would not",
+                "in order not to + fiil"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u10-s04",
+          "title": "Result: so/such and transitions",
+          "lead": "Sonuç yapılarında derece ifadesinin sıfatı mı isim grubunu mu nitelediğini belirleyin.",
+          "rules": [
+            "So + sıfat/zarf + that + cümle: so complex that…; such + (a/an) + sıfat + isim + that + cümle: such a complex task that….",
+            "So many/few + çoğul isim ve so much/little + sayılamayan isim + that kullanılır. Such many biçimi kullanılmaz.",
+            "So, iki bağımsız cümleyi sonuç ilişkisiyle bağlayabilir. Therefore/consequently/as a result ise geçiş ifadeleridir; iki cümleyi tek başlarına virgülle bağlamazlar.",
+            "Geçiş ifadesi için nokta veya noktalı virgül düzeni uygundur: The sample was small; therefore, the findings remain tentative.",
+            "Such…that sonucu ve dereceyi; so that amaç veya bazı bağlamlarda sonucu bildirir. Anlamı ve eksik kalan isim/sıfat yapısını birlikte okuyun."
+          ],
+          "examples": [
+            {
+              "en": "The procedure was so costly that smaller laboratories could not adopt it.",
+              "tr": "İşlem öylesine pahalıydı ki küçük laboratuvarlar onu uygulayamadı.",
+              "note": "So bir sıfatı niteliyor."
+            },
+            {
+              "en": "The storm damaged the road; consequently, deliveries were delayed.",
+              "tr": "Fırtına yolu tahrip etti; bunun sonucunda teslimatlar gecikti.",
+              "note": "Consequently noktalı virgülle ayrılan sonuç geçişidir."
+            }
+          ],
+          "pitfalls": [
+            "Such expensive that eksik isim içerir; so expensive that veya such an expensive process that gerekir.",
+            "İki bağımsız cümleyi yalnızca ', therefore,' ile birleştirmek comma splice oluşturur."
+          ]
+        },
+        {
+          "id": "u10-s05",
+          "title": "Concession: unexpected contrast",
+          "lead": "Ödünleme, bir olguya rağmen beklenen sonucun gerçekleşmediğini gösterir.",
+          "rules": [
+            "Although/even though/though + tam cümle kullanılır; even though daha güçlü bir şaşırtıcı karşıtlık vurgulayabilir.",
+            "Despite/in spite of + isim, zamir veya gerund kullanılır: despite the cost, despite being expensive.",
+            "Despite the fact that/in spite of the fact that ardından tam cümle gelebilir; the fact ifadesi yapıyı tamamlar.",
+            "However/nevertheless/nonetheless geçiş ifadeleridir. İki bağımsız cümle arasında nokta/noktalı virgül ile kullanılır; ancak cümle içinde ara söz konumuna da gelebilir.",
+            "Although içeren yan cümle ile ana cümlede ayrıca but kullanmak standart sınav yazımında gereksiz çift bağlaçtır."
+          ],
+          "examples": [
+            {
+              "en": "Although the device was expensive, several clinics purchased it.",
+              "tr": "Cihaz pahalı olmasına rağmen birkaç klinik onu satın aldı.",
+              "note": "Although tam cümle başlatır."
+            },
+            {
+              "en": "The sample was small. Nevertheless, the pattern was consistent.",
+              "tr": "Örneklem küçüktü. Buna rağmen örüntü tutarlıydı.",
+              "note": "Nevertheless ayrı cümlede beklenmedik devamı kurar."
+            }
+          ],
+          "pitfalls": [
+            "Despite the device was expensive yanlış; despite its high cost doğrudur.",
+            "Although …, but … yerine tek ilişkiyi bir bağlaçla kurun."
+          ]
+        },
+        {
+          "id": "u10-s06",
+          "title": "Conditions and precautions",
+          "lead": "Koşulun gerçekleşmesine bağlı eylem ile olası bir duruma karşı önlem almayı ayırın.",
+          "rules": [
+            "Unless, if…not temel anlamı verir: unless the rules change = if the rules do not change. Gereksiz ikinci olumsuzluk anlamı tersine çevirebilir.",
+            "Provided/providing that, as long as ve on condition that 'şartıyla' anlamındadır. As long as ayrıca zaman süresini de belirtebilir.",
+            "In case, olası durum için önlem bildirir: take a charger in case the battery runs out. If ise eylemi koşulun gerçekleşmesine bağlar.",
+            "In case of + isim grubu kullanılır: in case of emergency. In case + tam cümle kurulur.",
+            "Geleceğe gönderimli gerçek koşul yan cümlelerinde normal olarak present simple kullanılır; ana cümlede will/can/modal bulunabilir. İstek veya irade belirten özel will kullanımları ayrıca değerlendirilir."
+          ],
+          "examples": [
+            {
+              "en": "The permit will remain valid provided that the equipment is inspected annually.",
+              "tr": "Ekipman her yıl denetlenmesi şartıyla izin geçerli kalacak.",
+              "note": "Provided that açık koşul kurar."
+            },
+            {
+              "en": "Save an offline copy in case the network fails.",
+              "tr": "Ağ bağlantısı kesilirse hazırlıklı olmak için çevrimdışı bir kopya kaydedin.",
+              "note": "Kopya önceden alınan bir önlemdir."
+            }
+          ],
+          "pitfalls": [
+            "Unless you do not submit anlamını otomatik olarak if you do not submit sanmayın.",
+            "In case of the network fails yapısı yanlış; of ardından isim gerekir."
+          ]
+        },
+        {
+          "id": "u10-s07",
+          "title": "Manner and place: as, as if, wherever",
+          "lead": "Bazı bağlaçlar eylemin nasıl veya nerede gerçekleştiğini belirler.",
+          "rules": [
+            "As + tam cümle '…dığı gibi' anlamında yöntem/biçim bildirir: follow the steps as the manual describes.",
+            "As if/as though + tam cümle görünüş veya benzetme kurar. Gerçek dışılık/uzaklık için past veya were; daha önceki gerçek dışı durum için past perfect kullanılabilir.",
+            "As if ardından geçmiş biçimi her zaman gerçek geçmiş zamanı göstermez; şimdiyle ilgili varsayımsal uzaklık gösterebilir.",
+            "Where belirli yer; wherever 'nerede olursa olsun/her yerde' anlamıyla daha geniş yer koşulu kurar.",
+            "Like genellikle isim grubunu, as ise rol/işlev veya cümleyi bağlar: works as an engineer; operates as the model predicts."
+          ],
+          "examples": [
+            {
+              "en": "The technician followed the procedure as the supervisor had demonstrated.",
+              "tr": "Teknisyen işlemi, yöneticinin gösterdiği gibi uyguladı.",
+              "note": "As biçim belirten tam cümleyi bağlar."
+            },
+            {
+              "en": "The instrument behaves as if it were exposed to extreme heat.",
+              "tr": "Cihaz aşırı sıcağa maruz kalmış gibi davranıyor.",
+              "note": "Were şimdiki durum için varsayımsal uzaklık bildirir."
+            }
+          ],
+          "pitfalls": [
+            "As if it were ifadesini sırf were nedeniyle geçmişteki gerçek olay olarak çevirmeyin.",
+            "Wherever ile whenever yer ve zaman anlamlarını karıştırmayın."
+          ]
+        },
+        {
+          "id": "u10-s08",
+          "title": "Contrast, addition and punctuation",
+          "lead": "Geçiş ifadesinin mantıksal işlevi kadar cümleleri dilbilgisel olarak bağlama gücü de önemlidir.",
+          "rules": [
+            "Whereas ve while iki olguyu karşılaştırır: urban areas grew, whereas rural areas shrank. While ayrıca zaman bağlacıdır.",
+            "On the other hand ve in contrast geçiş ifadeleridir; belirgin bir karşılaştırma ekseni beklenir. However çoğunlukla önceki beklentiye karşı sonucu gösterir.",
+            "Moreover/furthermore/in addition aynı yönde ek bilgi getirir. In addition to + isim/gerund kullanılır; in addition tek başına geçiştir.",
+            "Bağımlı bağlaç + yan cümle önceyse virgül yaygındır. Ana cümle önce ve yan cümle sonra olduğunda virgül her zaman gerekmez.",
+            "However/therefore gibi zarflar tek başlarına iki bağımsız cümleyi bir virgülle bağlayamaz: nokta, noktalı virgül veya uygun eş düzey bağlaç gerekir."
+          ],
+          "examples": [
+            {
+              "en": "Urban demand increased, whereas rural demand remained stable.",
+              "tr": "Kentsel talep artarken kırsal talep sabit kaldı.",
+              "note": "Whereas iki karşılaştırılabilir eğilimi bağlar."
+            },
+            {
+              "en": "The model is easy to implement; moreover, it requires little energy.",
+              "tr": "Model kolayca uygulanır; ayrıca az enerji gerektirir.",
+              "note": "Moreover aynı yönde ek avantaj sunar."
+            }
+          ],
+          "pitfalls": [
+            "In addition to the model is cheap yanlıştır; in addition, the model is cheap veya in addition to being cheap gerekir.",
+            "On the other hand, yeni konu eklemek için otomatik bir moreover alternatifi değildir."
+          ],
+          "table": {
+            "head": [
+              "İşlev",
+              "Bağlaç + cümle",
+              "Geçiş ifadesi"
+            ],
+            "rows": [
+              [
+                "Karşılaştırma",
+                "whereas / while",
+                "in contrast / on the other hand"
+              ],
+              [
+                "Ödünleme",
+                "although / even though",
+                "however / nevertheless"
+              ],
+              [
+                "Sonuç",
+                "so",
+                "therefore / consequently"
+              ],
+              [
+                "Ekleme",
+                "and",
+                "moreover / in addition"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u10-s09",
+          "title": "Reduction of adverbial clauses",
+          "lead": "Kısaltma yapılırken yan cümlenin gizli öznesi ana cümlenin öznesiyle uyuşmalıdır.",
+          "rules": [
+            "Aynı özneye sahip bazı zaman cümlelerinde özne ve be kaldırılabilir: while she was reviewing → while reviewing; when it is heated → when heated.",
+            "Etken eylem için -ing, edilgen anlam için past participle kullanılır: after checking the data; once approved.",
+            "Neden kısaltması participle öbeğiyle kurulabilir: knowing the risks, the team revised the plan. Tamamlanmış önceki eylem having + past participle ile gösterilebilir.",
+            "Before/after + gerund kullanımı yaygındır; after having checked geçmiş tamamlanmayı daha açık vurgular.",
+            "Kısaltılmış öbeğin ima ettiği eylemi ana özne yapmalıdır. Dangling modifier, öbeğin yanlış özneye bağlanmasıdır: walking into the laboratory, the researcher… doğrudur."
+          ],
+          "examples": [
+            {
+              "en": "After checking the measurements, the engineer recalibrated the device.",
+              "tr": "Ölçümleri kontrol ettikten sonra mühendis cihazı yeniden kalibre etti.",
+              "note": "Her iki eylemin öznesi engineer'dır."
+            },
+            {
+              "en": "Once approved, the proposal will be published online.",
+              "tr": "Onaylandıktan sonra öneri çevrimiçi yayımlanacak.",
+              "note": "Proposal onaylanan öğedir; edilgen kısaltma approved kullanılır."
+            }
+          ],
+          "pitfalls": [
+            "After analysing the data, several errors appeared cümlesi hatalı özne bağlantısı kurar; veriyi errors analiz etmez.",
+            "Etken özne için checked ile checking biçimlerini bağlamdan bağımsız değiştirmeyin."
+          ]
+        },
+        {
+          "id": "u10-s10",
+          "title": "Inversion after restrictive expressions",
+          "lead": "Olumsuz veya sınırlayıcı ifade başa alındığında ana cümlede yardımcı fiil özneden önce gelebilir.",
+          "rules": [
+            "Not only cümle başındaysa ardından yardımcı fiil + özne gelir: not only did the team collect data, but it also tested the model.",
+            "Only after/only when/only if başta olunca devriklik ana cümlede gerçekleşir; only when yan cümlesinin içinde normal dizilim korunur.",
+            "No sooner + had + özne + past participle + than; hardly/scarcely + had + özne + past participle + when/before, art arda gelen geçmiş olayları anlatır.",
+            "Never, rarely, under no circumstances, at no time gibi başa alınan sınırlayıcı/olumsuz zarflar yardımcı fiilli devrikliği tetikler.",
+            "Normal dizilimde yardımcı fiil yoksa do/does/did eklenir ve ana fiil yalın biçime döner: only then did they realise."
+          ],
+          "examples": [
+            {
+              "en": "Only after the audit was completed did the board approve the budget.",
+              "tr": "Yönetim kurulu bütçeyi ancak denetim tamamlandıktan sonra onayladı.",
+              "note": "Devriklik ana cümlede did the board'dur."
+            },
+            {
+              "en": "No sooner had the trial begun than the equipment failed.",
+              "tr": "Deneme başlar başlamaz ekipman arızalandı.",
+              "note": "No sooner…than eşleşmesi ve had + özne düzeni kullanılır."
+            }
+          ],
+          "pitfalls": [
+            "Only when did the audit end, the board… yanlış; devriklik ana cümleye aittir.",
+            "No sooner…when ile hardly…than çiftlerini karıştırmayın."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "u10-q01",
+          "type": "grammar",
+          "sectionId": "u10-s01",
+          "prompt": "The new sensor is ---- accurate ---- affordable, making it suitable for small clinics.",
+          "options": [
+            "either / and",
+            "neither / or",
+            "not only / and also",
+            "both / and",
+            "both / or"
+          ],
+          "answer": 3,
+          "explanation": "Both…and doğru ikili bağlaçtır ve iki sıfatı paralel bağlar. Diğer eşleşmeler standart correlative pair değildir."
+        },
+        {
+          "id": "u10-q02",
+          "type": "grammar",
+          "sectionId": "u10-s02",
+          "prompt": "We will publish the results as soon as the independent reviewers ---- their assessment.",
+          "options": [
+            "will complete",
+            "complete",
+            "would complete",
+            "had completed",
+            "completing"
+          ],
+          "answer": 1,
+          "explanation": "Geleceğe gönderimli as soon as yan cümlesinde present simple complete kullanılır; will ana cümlededir."
+        },
+        {
+          "id": "u10-q03",
+          "type": "grammar",
+          "sectionId": "u10-s02",
+          "prompt": "By the time the inspectors arrived yesterday, the staff ---- all the documents.",
+          "options": [
+            "had prepared",
+            "will prepare",
+            "has prepared",
+            "prepare",
+            "are preparing"
+          ],
+          "answer": 0,
+          "explanation": "Yesterday geçmiş referans noktasıdır; belgeler bu noktadan önce hazırlanmıştır, dolayısıyla past perfect had prepared gerekir."
+        },
+        {
+          "id": "u10-q04",
+          "type": "grammar",
+          "sectionId": "u10-s03",
+          "prompt": "The outdoor session was cancelled ---- the severe weather.",
+          "options": [
+            "because",
+            "although",
+            "because of",
+            "since that",
+            "so that"
+          ],
+          "answer": 2,
+          "explanation": "Boşluktan sonra isim grubu the severe weather gelir; because of doğru neden öbeğidir. Because tam cümle ister."
+        },
+        {
+          "id": "u10-q05",
+          "type": "grammar",
+          "sectionId": "u10-s03",
+          "prompt": "The instructions were simplified ---- new users could follow them without assistance.",
+          "options": [
+            "in order to",
+            "so as to",
+            "because of",
+            "despite",
+            "so that"
+          ],
+          "answer": 4,
+          "explanation": "Amaç, ayrı özne new users ve could içeren tam cümleyle anlatılmıştır; so that gerekir. To yapıları yalın fiil ister."
+        },
+        {
+          "id": "u10-q06",
+          "type": "grammar",
+          "sectionId": "u10-s04",
+          "prompt": "The survey produced ---- contradictory findings that no clear pattern emerged.",
+          "options": [
+            "so",
+            "very",
+            "such",
+            "too",
+            "enough"
+          ],
+          "answer": 2,
+          "explanation": "Such + sıfat + çoğul isim + that yapısı gerekir: such contradictory findings that. So doğrudan bu isim grubunu alamaz."
+        },
+        {
+          "id": "u10-q07",
+          "type": "grammar",
+          "sectionId": "u10-s05",
+          "prompt": "---- its relatively small size, the dataset contained several important patterns.",
+          "options": [
+            "Despite",
+            "Although",
+            "Even though",
+            "However",
+            "Because"
+          ],
+          "answer": 0,
+          "explanation": "Its relatively small size isim grubudur; despite doğru yapıdır. Although/even though/because tam cümle ister."
+        },
+        {
+          "id": "u10-q08",
+          "type": "grammar",
+          "sectionId": "u10-s05",
+          "prompt": "'Although the procedure was slow, it produced reliable measurements.' cümlesindeki karşıtlığı korumak için boşluğu tamamlayın: 'The procedure was slow; ----, it produced reliable measurements.'",
+          "options": [
+            "therefore",
+            "nevertheless",
+            "consequently",
+            "as a result",
+            "hence"
+          ],
+          "answer": 1,
+          "explanation": "Yavaşlık ile güvenilirlik beklenmedik karşıtlık kurar; nevertheless uygundur. Sonuç geçişleri güvenilirliği yavaşlığın açık sonucu olarak sunardı."
+        },
+        {
+          "id": "u10-q09",
+          "type": "grammar",
+          "sectionId": "u10-s06",
+          "prompt": "The grant will be renewed ---- the team submits the required annual report.",
+          "options": [
+            "despite",
+            "because of",
+            "in addition to",
+            "in order to",
+            "provided that"
+          ],
+          "answer": 4,
+          "explanation": "Tam cümleyle koşul belirten provided that gerekir. Diğer seçenekler isim/gerund veya yalın fiil bekler."
+        },
+        {
+          "id": "u10-q10",
+          "type": "grammar",
+          "sectionId": "u10-s06",
+          "prompt": "Take a printed map ---- your phone loses its signal.",
+          "options": [
+            "in case of",
+            "despite",
+            "in order to",
+            "in case",
+            "because of"
+          ],
+          "answer": 3,
+          "explanation": "Olası sinyal kaybına karşı önceden önlem söz konusudur; in case + tam cümle gerekir. In case of isim grubu ister."
+        },
+        {
+          "id": "u10-q11",
+          "type": "grammar",
+          "sectionId": "u10-s07",
+          "prompt": "Kurulumun yapılabileceği yeri 'nerede olursa olsun' anlamıyla belirtmek için boşluğu tamamlayın: The portable station can record data ---- the researchers choose to install it.",
+          "options": [
+            "whenever",
+            "wherever",
+            "however",
+            "whoever",
+            "whatever"
+          ],
+          "answer": 1,
+          "explanation": "Install it ifadesinin yerini serbestçe seçme anlamı wherever ile sağlanır. Whenever zaman, diğer seçenekler farklı işlevler taşır."
+        },
+        {
+          "id": "u10-q12",
+          "type": "grammar",
+          "sectionId": "u10-s08",
+          "prompt": "Hangi cümle iki bağımsız yargıyı geçiş ifadesiyle doğru noktalar?",
+          "options": [
+            "The sample was limited, therefore, further research is needed.",
+            "The sample was limited therefore further research is needed.",
+            "The sample was limited; because further research is needed.",
+            "The sample was limited; therefore, further research is needed.",
+            "Although the sample was limited; further research is needed."
+          ],
+          "answer": 3,
+          "explanation": "Therefore geçiş zarfıdır; iki bağımsız cümle noktalı virgülle ayrılır. İlk iki seçenek cümle sınırını uygun kurmaz."
+        },
+        {
+          "id": "u10-q13",
+          "type": "grammar",
+          "sectionId": "u10-s09",
+          "prompt": "After ---- the raw data, the analyst wrote a summary of the findings.",
+          "options": [
+            "checked",
+            "check",
+            "to check",
+            "was checked",
+            "checking"
+          ],
+          "answer": 4,
+          "explanation": "After + gerund mümkündür; veri kontrolü ve özet yazma eylemlerinin öznesi aynıdır. Checking etken kısaltmadır."
+        },
+        {
+          "id": "u10-q14",
+          "type": "grammar",
+          "sectionId": "u10-s10",
+          "prompt": "Only after the documents had been verified ---- the transfer.",
+          "options": [
+            "did the director authorise",
+            "the director authorised",
+            "did the director authorised",
+            "the director did authorised",
+            "authorised did the director"
+          ],
+          "answer": 0,
+          "explanation": "Only after başa alındığında ana cümle devriktir: did + özne + yalın authorise. Did ardından authorised gelemez."
+        },
+        {
+          "id": "u10-q15",
+          "type": "translation",
+          "sectionId": "u10-s05",
+          "prompt": "'Maliyet yüksek olmasına rağmen proje devam etti.' cümlesini en doğru aktaran seçenek hangisidir?",
+          "options": [
+            "Although the cost was high, but the project continued.",
+            "Despite the cost was high, the project continued.",
+            "Although the cost was high, the project continued.",
+            "Because the cost was high, the project continued.",
+            "The cost was high; therefore, the project continued."
+          ],
+          "answer": 2,
+          "explanation": "Although + tam cümle ve virgüllü ana cümle ödünleme anlamını korur. Despite tam cümleyi doğrudan alamaz; because/therefore ilişkiyi değiştirir."
+        },
+        {
+          "id": "u10-q16",
+          "type": "meaning",
+          "sectionId": "u10-s06",
+          "prompt": "'Keep a copy in case the original is lost.' cümlesinde in case hangi anlamı verir?",
+          "options": [
+            "Kopyanın yalnızca asıl kaybolduktan sonra tutulmasını",
+            "Aslının kaybolması olasılığına karşı önlem almayı",
+            "Aslın kesin olarak kaybolmuş olmasını",
+            "Kopyanın aslın kaybolmasına neden olmasını",
+            "Kaybolma olasılığının bulunmadığını"
+          ],
+          "answer": 1,
+          "explanation": "In case, olası olaya hazırlanmak için eylemin önceden yapılmasını anlatır. If biçimindeki gerçekleşmeye bağlı eylemle aynı değildir."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "consequently",
+          "meaning": "sonuç olarak; bunun sonucunda",
+          "pos": "transition",
+          "example": "The road was closed; consequently, deliveries were delayed."
+        },
+        {
+          "word": "nevertheless",
+          "meaning": "yine de; buna rağmen",
+          "pos": "transition",
+          "example": "The method is costly; nevertheless, it remains popular."
+        },
+        {
+          "word": "whereas",
+          "meaning": "oysa; … iken",
+          "pos": "conjunction",
+          "example": "Demand rose in cities, whereas it fell in villages."
+        },
+        {
+          "word": "provided that",
+          "meaning": "şartıyla",
+          "pos": "conjunction",
+          "example": "The service is free provided that registration is completed."
+        },
+        {
+          "word": "precaution",
+          "meaning": "önlem",
+          "pos": "noun",
+          "example": "An offline backup is a sensible precaution."
+        },
+        {
+          "word": "subsequent",
+          "meaning": "sonraki; ardından gelen",
+          "pos": "adjective",
+          "example": "Subsequent experiments confirmed the pattern."
+        },
+        {
+          "word": "simultaneously",
+          "meaning": "eşzamanlı olarak",
+          "pos": "adverb",
+          "example": "Two laboratories measured the samples simultaneously."
+        },
+        {
+          "word": "contradictory",
+          "meaning": "birbiriyle çelişen",
+          "pos": "adjective",
+          "example": "The reports contain contradictory estimates."
+        },
+        {
+          "word": "despite",
+          "meaning": "… rağmen",
+          "pos": "preposition",
+          "example": "The project continued despite funding difficulties."
+        },
+        {
+          "word": "furthermore",
+          "meaning": "ayrıca; üstelik",
+          "pos": "transition",
+          "example": "The system is flexible; furthermore, it is easy to maintain."
+        },
+        {
+          "word": "accordingly",
+          "meaning": "buna göre; dolayısıyla",
+          "pos": "adverb",
+          "example": "The deadline changed, and the schedule was adjusted accordingly."
+        },
+        {
+          "word": "tentative",
+          "meaning": "kesinleşmemiş; ihtiyatla ileri sürülen",
+          "pos": "adjective",
+          "example": "The researchers offered a tentative explanation."
+        }
+      ],
+      "reading": {
+        "title": "Preparing for uncertain weather",
+        "text": "Coastal towns often plan outdoor festivals months before reliable weather forecasts become available. Because cancellation can harm local businesses, organisers need strategies that preserve flexibility. One town introduced movable shelters so that events could continue during light rain. The shelters were costly; nevertheless, traders supported the investment because previous cancellations had reduced their income. The organisers also kept an indoor hall available in case conditions became dangerous. Although this precaution required an additional payment, it prevented a last-minute search for space. Once the forecast became more reliable, the team assigned each event to an appropriate location. Outdoor activities continued provided that wind speeds remained below the agreed limit, whereas performances involving electrical equipment moved indoors earlier. The approach did not eliminate uncertainty. However, it distributed the risks among several manageable decisions rather than relying on a single choice made far in advance.",
+        "questions": [
+          {
+            "id": "u10-r01",
+            "prompt": "Hareketli barınakların amacı neydi?",
+            "options": [
+              "Hava tahminlerini aylar önce kesinleştirmek",
+              "Hafif yağmurda etkinliklerin devam etmesini sağlamak",
+              "Elektrikli donanımı tamamen kaldırmak",
+              "Kapalı salonun kullanımını yasaklamak",
+              "Bütün maliyetleri sıfırlamak"
+            ],
+            "answer": 1,
+            "explanation": "So that events could continue during light rain amaç cümlesi bu işlevi açıkça belirtir."
+          },
+          {
+            "id": "u10-r02",
+            "prompt": "Kapalı salon neden hazır tutuldu?",
+            "options": [
+              "Rüzgâr her zaman güvenli düzeyde kaldığı için",
+              "Sadece tüccarların toplantısı için",
+              "Tehlikeli hava koşulları olasılığına karşı hazırlık yapmak için",
+              "Açık hava faaliyetlerini her koşulda iptal etmek için",
+              "Ödeme gerektirmediği için"
+            ],
+            "answer": 2,
+            "explanation": "In case conditions became dangerous ifadesi olasılığa karşı önlem anlamındadır; salon ek ödeme gerektiriyordu."
+          },
+          {
+            "id": "u10-r03",
+            "prompt": "Son cümleden hangi sonuç çıkarılabilir?",
+            "options": [
+              "Önceden alınmış tek bir karar yeterli bulundu.",
+              "Yaklaşım bütün belirsizliği ortadan kaldırdı.",
+              "Organizatörler hava koşullarını değerlendirmedi.",
+              "Belirsizlik kaldı, fakat riskler birkaç yönetilebilir karara dağıtıldı.",
+              "Elektrikli donanım yalnızca açık havada kullanıldı."
+            ],
+            "answer": 3,
+            "explanation": "Metin belirsizliğin yok olmadığını ve tek erken karar yerine yönetilebilir bir dizi karar kullanıldığını söyler."
+          }
+        ]
+      }
+    },
+    {
+      "id": "u11",
+      "number": 11,
+      "title": "Prepositions & Prepositional Phrases",
+      "subtitle": "Edatlar, bağımlı edatlar ve kalıp öbekler",
+      "pages": "588–642",
+      "description": "Zaman, yer ve hareket edatlarını sözcüklerin gerektirdiği bağımlı edatlarla birlikte öğrenin. Edattan sonra gelen isim, zamir ve gerund yapısını kontrol ederek sık karışan kalıpları ayırt edin.",
+      "outcomes": [
+        "Zaman, süre, yer ve hareket ilişkilerine uygun edatı seçmek.",
+        "Sıfat, isim ve fiilin gerektirdiği bağımlı edatı tanımak.",
+        "Fiil + nesne + edat kalıplarında nesnenin yerini doğru kurmak.",
+        "Edat + gerund ve yaygın çok sözcüklü edat öbeklerini yorumlamak."
+      ],
+      "sections": [
+        {
+          "id": "u11-s01",
+          "title": "Time: at, on and in",
+          "lead": "Zamanın ölçeğini belirleyin: saat ve nokta, belirli gün/tarih, daha geniş dönem.",
+          "rules": [
+            "At saatler ve belirli zaman noktalarıyla kullanılır: at 8:30, at noon, at midnight, at night.",
+            "On gün ve tarihlerle kullanılır: on Monday, on 6 October, on Monday morning. Nitelemeli belirli bir morning/afternoon için on mümkündür.",
+            "In ay, yıl, mevsim ve geniş dönemle kullanılır: in October, in 2027, in winter, in the morning.",
+            "In three weeks gelecekte üç hafta sonra anlamı verebilir; completed it in three weeks tamamlanma süresini belirtir.",
+            "Last/next/this/every ile kurulan zaman ifadelerinde genellikle edat kullanılmaz: next Friday, every morning. At the weekend İngiliz; on the weekend Amerikan kullanımında yaygındır."
+          ],
+          "examples": [
+            {
+              "en": "The briefing starts at noon on Tuesday.",
+              "tr": "Bilgilendirme toplantısı salı günü öğlen başlıyor.",
+              "note": "Saat/nokta at; gün on alır."
+            },
+            {
+              "en": "The final report will be available in December, but not next week.",
+              "tr": "Nihai rapor aralıkta hazır olacak, fakat gelecek hafta değil.",
+              "note": "Ay için in; next week önünde edat yoktur."
+            }
+          ],
+          "pitfalls": [
+            "In Monday yerine on Monday kullanın.",
+            "At the morning yerine in the morning; ancak on a cold morning belirli/nitelemeli gün parçasıdır."
+          ],
+          "table": {
+            "head": [
+              "Ölçek",
+              "Edat",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "Saat/nokta",
+                "at",
+                "at dawn / at 14:00"
+              ],
+              [
+                "Gün/tarih",
+                "on",
+                "on Thursday / on 12 May"
+              ],
+              [
+                "Ay/yıl/mevsim",
+                "in",
+                "in June / in 2028"
+              ],
+              [
+                "Gelecek belirli dönem",
+                "—",
+                "next month / this evening"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u11-s02",
+          "title": "Duration and deadlines: for, since, by, until",
+          "lead": "Sürenin uzunluğu, başlangıç noktası ve son tarih farklı ilişkiler kurar.",
+          "rules": [
+            "For + süre: for six months. Since + başlangıç noktası: since March. Geçmişten şimdiye devam eden durumlarda present perfect sık kullanılır.",
+            "From…to/ until başlangıç ve bitiş aralığını verir: from 9 to 5. Since tek başına bitiş noktasını göstermez.",
+            "By bir tarihten daha geç olmamak üzere tamamlanmayı; until bir durumun o zamana dek sürmesini bildirir.",
+            "During + dönem/olay adı, o dönemin içinde gerçekleşmeyi belirtir: during the conference. For sürenin uzunluğunu verir: for three days.",
+            "Within three days en geç üç günlük sınır içinde; in three days bağlama göre üç gün sonra veya tamamlanma süresinde anlamı verir."
+          ],
+          "examples": [
+            {
+              "en": "The archive has been open to researchers since 2020.",
+              "tr": "Arşiv 2020'den beri araştırmacılara açıktır.",
+              "note": "Since başlangıç noktası ve süregelen durum kurar."
+            },
+            {
+              "en": "Submit the form by Friday; the office will remain open until six.",
+              "tr": "Formu en geç cumaya kadar gönderin; büro altıya kadar açık kalacak.",
+              "note": "By tamamlanma son tarihi, until sürme sınırıdır."
+            }
+          ],
+          "pitfalls": [
+            "Since five years yerine for five years gerekir.",
+            "The conference lasted during three days yanlış; for three days süre uzunluğunu verir."
+          ]
+        },
+        {
+          "id": "u11-s03",
+          "title": "Location hierarchy: at, on and in",
+          "lead": "Yer edatları, nokta, yüzey ve kapsayıcı alan ayrımıyla öğrenildiğinde daha anlamlıdır.",
+          "rules": [
+            "At bir nokta, buluşma yeri veya faaliyet yeri gösterir: at the entrance, at the laboratory. In fiziksel iç alanı vurgulayabilir: in the laboratory.",
+            "On yüzey, hat ve bazı kat/taşıt ifadelerinde kullanılır: on the wall, on the third floor, on a bus. In a car/taxi yaygın taşıt kalıplarıdır.",
+            "In ülke, şehir, oda ve kapalı/kapsayıcı alanlarda kullanılır: in Türkiye, in Ankara, in the storage room.",
+            "At the university faaliyete/kuruma, in the university building bina içine odaklanabilir; aynı yer farklı bakış açısıyla farklı edat alabilir.",
+            "Bir adres zincirinde at + tam adres; on + sokak; in + şehir/ülke genel bir hiyerarşi verir. Yer adının kalıbını ayrıca kontrol edin."
+          ],
+          "examples": [
+            {
+              "en": "The poster is on the wall in the room at the end of the corridor.",
+              "tr": "Poster koridorun sonundaki odada duvarın üzerindedir.",
+              "note": "On yüzey, in iç alan, at nokta ilişkisini kurar."
+            },
+            {
+              "en": "The visitors waited at the entrance while the samples were kept in a locked cabinet.",
+              "tr": "Örnekler kilitli bir dolapta tutulurken ziyaretçiler girişte bekledi.",
+              "note": "Bekleme noktası at; dolabın içi in alır."
+            }
+          ],
+          "pitfalls": [
+            "Her kapalı yer için yalnızca in seçmeyin; at bir faaliyet/buluşma noktasını vurgulayabilir.",
+            "On a car genel yolcu konumu değildir; in a car kullanılır."
+          ]
+        },
+        {
+          "id": "u11-s04",
+          "title": "Movement and direction",
+          "lead": "Hareket, varış, içeri girme ve yüzey boyunca ilerleme aynı edatı gerektirmez.",
+          "rules": [
+            "To varış/hedef; from kaynak; into dışarıdan içeri geçiş; out of içeriden dışarı çıkış bildirir.",
+            "Onto yüzeye geçişi, off yüzeyden ayrılmayı gösterir. In/on konum ile into/onto hareket ayrımını kontrol edin.",
+            "Across bir alanın bir yanından öbürüne; through bir ortamın içinden; along bir hat boyunca hareket verir.",
+            "Towards yönelme belirtir ve varışı garanti etmez. To genellikle varış hedefini açıklar.",
+            "Arrive at küçük/noktasal yerlerle, arrive in şehir/ülke gibi alanlarla; reach doğrudan nesneyle kullanılır. Home, here, there önüne hareket fiiliyle her zaman to eklenmez: go home."
+          ],
+          "examples": [
+            {
+              "en": "The team travelled from Ankara to a village near the coast.",
+              "tr": "Ekip Ankara'dan kıyı yakınındaki bir köye gitti.",
+              "note": "From kaynak, to hedef gösterir."
+            },
+            {
+              "en": "The robot moved through the tunnel and onto the platform.",
+              "tr": "Robot tünelin içinden geçip platformun üzerine çıktı.",
+              "note": "Through içinden geçiş, onto yüzeye hareket bildirir."
+            }
+          ],
+          "pitfalls": [
+            "Arrive to Ankara yerine arrive in Ankara kullanın.",
+            "Reach to the station yerine reach the station gerekir."
+          ],
+          "table": {
+            "head": [
+              "Edat",
+              "Temel ilişki",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "into / out of",
+                "içeri / dışarı geçiş",
+                "move into the room"
+              ],
+              [
+                "onto / off",
+                "yüzeye / yüzeyden",
+                "step onto the platform"
+              ],
+              [
+                "across",
+                "bir uçtan diğerine",
+                "walk across the bridge"
+              ],
+              [
+                "through",
+                "bir ortamın içinden",
+                "pass through the forest"
+              ],
+              [
+                "along",
+                "hat boyunca",
+                "walk along the river"
+              ],
+              [
+                "towards",
+                "yönelme",
+                "move towards the entrance"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u11-s05",
+          "title": "Common contrasts: by/with and beside/besides",
+          "lead": "Kısa edatlar anlamca yakın görünse de farklı sorulara cevap verir.",
+          "rules": [
+            "By edilgen cümlede eyleyen kişiyi veya yöntemi; with kullanılan somut aracı gösterebilir: measured by a technician, cut with a laser.",
+            "By + gerund yöntem verir: by comparing the samples. With + isim araç/beraberlik verir: with a digital sensor.",
+            "Between ayrı ayrı tanımlanabilen öğeler arasındaki ilişkiyi, among bir grup içinde dağılım/üyeliği öne çıkarır. Between yalnızca iki öğeyle sınırlı değildir.",
+            "Beside 'yanında'; besides 'ek olarak/bunun dışında' anlamındadır. Besides geçiş zarfı olarak da kullanılabilir.",
+            "During dönemin içinde olayı, for uzunluğu; above genel olarak daha yüksek konumu, over üstte olmayı ve bazen örtme/geçişi vurgular. Bağlam ve kalıp belirleyicidir."
+          ],
+          "examples": [
+            {
+              "en": "The samples were prepared by a technician with sterile tools.",
+              "tr": "Örnekler bir teknisyen tarafından steril aletlerle hazırlandı.",
+              "note": "By eyleyen; with araç bildirir."
+            },
+            {
+              "en": "Besides collecting surveys, the team interviewed residents beside the station.",
+              "tr": "Anket toplamanın yanı sıra ekip istasyonun yanında sakinlerle görüştü.",
+              "note": "Besides ek faaliyet; beside fiziksel yakınlık verir."
+            }
+          ],
+          "pitfalls": [
+            "By a microscope araç anlatımında with a microscope kadar doğal değildir; eyleyen/yöntem/araç ayrımını okuyun.",
+            "Üç belirli ülke arasındaki anlaşma için between mümkündür; 'iki=between, üç=among' mekanik kuralı eksiktir."
+          ]
+        },
+        {
+          "id": "u11-s06",
+          "title": "Adjective + preposition",
+          "lead": "Bağımlı edatı sıfatla birlikte bir birim olarak öğrenin; Türkçe çeviri tek başına doğru edatı vermeyebilir.",
+          "rules": [
+            "Aware of, capable of ve proud of; responsible for ve suitable for; interested in sık kullanılan kalıplardır.",
+            "Similar to ve different from karşılaştırılan öğeyi; familiar with kişinin bildiği şeyi gösterir.",
+            "Concerned about endişe konusu; satisfied with memnuniyet konusu; dependent on bağımlılık kaynağı bildirir.",
+            "Bir sıfat birden fazla edat alabilir ve anlam değişebilir: familiar with a method = yöntemi bilmek; familiar to readers = okuyucuların aşina olması.",
+            "Edatı isim, nesne zamiri veya gerund izler: capable of solving, responsible for them. Edattan sonra yalın fiil kullanılmaz."
+          ],
+          "examples": [
+            {
+              "en": "The staff are familiar with the procedure and aware of its limitations.",
+              "tr": "Personel işlemi bilir ve sınırlarının farkındadır.",
+              "note": "Familiar with ve aware of birlikte öğrenilecek kalıplardır."
+            },
+            {
+              "en": "The new material is suitable for use in wet conditions.",
+              "tr": "Yeni malzeme ıslak koşullarda kullanıma uygundur.",
+              "note": "Suitable for ardından isim use gelir."
+            }
+          ],
+          "pitfalls": [
+            "Interested to learning yerine interested in learning kullanın.",
+            "Responsible of ile responsible for kalıbını karıştırmayın."
+          ],
+          "table": {
+            "head": [
+              "Kalıp",
+              "Anlam",
+              "Örnek tamamlayıcı"
+            ],
+            "rows": [
+              [
+                "aware of",
+                "farkında",
+                "the risks"
+              ],
+              [
+                "capable of",
+                "yapabilecek",
+                "handling large datasets"
+              ],
+              [
+                "responsible for",
+                "sorumlu",
+                "quality control"
+              ],
+              [
+                "interested in",
+                "ilgili",
+                "environmental policy"
+              ],
+              [
+                "familiar with",
+                "aşina",
+                "the equipment"
+              ],
+              [
+                "similar to",
+                "benzer",
+                "the earlier design"
+              ],
+              [
+                "different from",
+                "farklı",
+                "the control group"
+              ],
+              [
+                "concerned about",
+                "kaygılı",
+                "the long-term effects"
+              ],
+              [
+                "satisfied with",
+                "memnun",
+                "the outcome"
+              ],
+              [
+                "dependent on",
+                "bağımlı",
+                "external funding"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u11-s07",
+          "title": "Noun + preposition",
+          "lead": "İsimden sonraki edat, sebep, çözüm, erişim veya değişimin hangi öğeye bağlandığını gösterir.",
+          "rules": [
+            "Access to, solution to ve response to; demand for, need for ve reason for yerleşik isim kalıplarıdır.",
+            "Effect/impact/influence on bir şeyin etkisini; increase/decrease in bir değişkenin değişimini bildirir.",
+            "Lack of yokluk/eksiklik, cause of sebep, relationship between tanımlanmış taraflar arasındaki ilişkiyi kurar.",
+            "An increase in costs artan değişkeni; an increase of ten percent artış miktarını gösterir. Aynı isim farklı edatla farklı tamamlayıcı alabilir.",
+            "İsmin fiil biçimindeki yapısı aynı olmayabilir: discuss the problem doğrudan nesne alır; a discussion about/of the problem isim grubudur."
+          ],
+          "examples": [
+            {
+              "en": "Limited access to transport creates a demand for local services.",
+              "tr": "Ulaşıma sınırlı erişim yerel hizmetlere talep yaratır.",
+              "note": "Access to ile demand for farklı isim kalıplarıdır."
+            },
+            {
+              "en": "The report describes an increase in expenditure and a lack of reliable data.",
+              "tr": "Rapor harcamalardaki artışı ve güvenilir veri eksikliğini anlatır.",
+              "note": "Increase in değişken; lack of eksik öğe bildirir."
+            }
+          ],
+          "pitfalls": [
+            "The solution of this problem her bağlamda solution to this problem yerine kullanılamaz; çözüm önerisi için to kalıbını öğrenin.",
+            "Increase in ile increase of arasında değişken/miktar ayrımı vardır."
+          ],
+          "table": {
+            "head": [
+              "Kalıp",
+              "Anlam",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "access to",
+                "erişim",
+                "access to healthcare"
+              ],
+              [
+                "demand for",
+                "talep",
+                "demand for skilled workers"
+              ],
+              [
+                "solution to",
+                "çözüm",
+                "a solution to congestion"
+              ],
+              [
+                "reason for",
+                "gerekçe",
+                "the reason for the delay"
+              ],
+              [
+                "effect on",
+                "etki",
+                "an effect on productivity"
+              ],
+              [
+                "increase in",
+                "artış",
+                "an increase in demand"
+              ],
+              [
+                "lack of",
+                "eksiklik",
+                "a lack of evidence"
+              ],
+              [
+                "relationship between",
+                "arasındaki ilişki",
+                "the relationship between income and health"
+              ],
+              [
+                "response to",
+                "yanıt/tepki",
+                "a response to criticism"
+              ],
+              [
+                "need for",
+                "ihtiyaç",
+                "a need for clearer guidance"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u11-s08",
+          "title": "Verb + preposition",
+          "lead": "Fiilin anlamını ve edatını birlikte kaydedin; bazı fiiller aynı Türkçe çeviriye rağmen farklı yapılar kullanır.",
+          "rules": [
+            "Depend on, consist of, contribute to, refer to, participate in ve object to kalıp fiil–edat birlikleridir.",
+            "Approve of bir şeyin uygun bulunduğunu, agree with kişi/görüşle aynı fikirde olmayı, agree to öneri/şartı kabul etmeyi anlatır.",
+            "Benefit from, suffer from ve recover from kaynağı/durumu; focus on ve concentrate on odağı; deal with ele alınan konuyu gösterir.",
+            "Object to ve look forward to içindeki to edattır, infinitive işareti değildir; gerund ister: object to paying.",
+            "Discuss, mention, enter ve reach birçok standart kullanımda doğrudan nesne alır; Türkçedeki ek nedeniyle otomatik edat eklemeyin."
+          ],
+          "examples": [
+            {
+              "en": "The committee objected to using personal data without consent.",
+              "tr": "Komite kişisel verilerin rıza olmadan kullanılmasına itiraz etti.",
+              "note": "Object to içindeki to edattır; using gerekir."
+            },
+            {
+              "en": "The final outcome depends on how the team deals with uncertainty.",
+              "tr": "Nihai sonuç ekibin belirsizliği nasıl ele aldığına bağlıdır.",
+              "note": "Depends on ve deals with kalıpları yan cümle/isimle tamamlanır."
+            }
+          ],
+          "pitfalls": [
+            "Discuss about the findings yerine discuss the findings kullanın.",
+            "Consist from yerine consist of; depend of yerine depend on gerekir."
+          ],
+          "table": {
+            "head": [
+              "Kalıp",
+              "Anlam",
+              "Örnek tamamlayıcı"
+            ],
+            "rows": [
+              [
+                "depend on",
+                "bağlı olmak",
+                "funding"
+              ],
+              [
+                "consist of",
+                "oluşmak",
+                "three phases"
+              ],
+              [
+                "contribute to",
+                "katkıda bulunmak",
+                "regional development"
+              ],
+              [
+                "refer to",
+                "atıfta bulunmak",
+                "an earlier study"
+              ],
+              [
+                "participate in",
+                "katılmak",
+                "the trial"
+              ],
+              [
+                "object to",
+                "itiraz etmek",
+                "sharing private data"
+              ],
+              [
+                "benefit from",
+                "yararlanmak",
+                "training"
+              ],
+              [
+                "focus on",
+                "odaklanmak",
+                "long-term effects"
+              ],
+              [
+                "approve of",
+                "uygun bulmak",
+                "the new policy"
+              ],
+              [
+                "deal with",
+                "ele almak",
+                "technical difficulties"
+              ],
+              [
+                "agree with",
+                "aynı fikirde olmak",
+                "the reviewer"
+              ],
+              [
+                "agree to",
+                "kabul etmek",
+                "the proposed terms"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u11-s09",
+          "title": "Verb + object + preposition",
+          "lead": "Nesne, fiil ile edat arasında sabit bir yer tutabilir; hangi öğenin nesne olduğunu belirleyin.",
+          "rules": [
+            "Provide someone with something ve supply someone with something verilen kaynağı; deprive someone of something kaybedilen hakkı/kaynağı bildirir.",
+            "Prevent/stop someone from doing, protect someone from something ve discourage someone from doing kalıplarında from kullanılır.",
+            "Accuse someone of doing, remind someone of something ve inform someone of/about something of/about ilişkileri kurar.",
+            "Congratulate someone on something; explain something to someone; attribute something to something kalıplarında nesnenin türü ve sırası önemlidir.",
+            "Bu yapılar edilgende edatını korur: participants were provided with instructions; errors were attributed to fatigue."
+          ],
+          "examples": [
+            {
+              "en": "The programme provides residents with affordable internet access.",
+              "tr": "Program sakinlere uygun fiyatlı internet erişimi sağlar.",
+              "note": "Residents nesne; with verilen şeyi bağlar."
+            },
+            {
+              "en": "The barrier prevented visitors from entering the damaged building.",
+              "tr": "Bariyer ziyaretçilerin hasarlı binaya girmesini engelledi.",
+              "note": "Prevent + nesne + from + gerund kalıbı vardır."
+            }
+          ],
+          "pitfalls": [
+            "Explain me the procedure yerine explain the procedure to me kullanın.",
+            "Prevent someone to enter yerine prevent someone from entering gerekir."
+          ],
+          "table": {
+            "head": [
+              "Kalıp",
+              "Anlam",
+              "Özgün örnek"
+            ],
+            "rows": [
+              [
+                "provide somebody with",
+                "sağlamak",
+                "provide trainees with materials"
+              ],
+              [
+                "deprive somebody of",
+                "mahrum bırakmak",
+                "deprive communities of resources"
+              ],
+              [
+                "prevent somebody from",
+                "engellemek",
+                "prevent users from copying files"
+              ],
+              [
+                "protect somebody from",
+                "korumak",
+                "protect workers from exposure"
+              ],
+              [
+                "accuse somebody of",
+                "suçlamak",
+                "accuse a supplier of fraud"
+              ],
+              [
+                "remind somebody of",
+                "hatırlatmak",
+                "remind staff of the deadline"
+              ],
+              [
+                "congratulate somebody on",
+                "kutlamak",
+                "congratulate the team on its success"
+              ],
+              [
+                "explain something to somebody",
+                "açıklamak",
+                "explain the findings to residents"
+              ],
+              [
+                "attribute something to",
+                "atfetmek",
+                "attribute the change to policy"
+              ],
+              [
+                "inform somebody about",
+                "bilgilendirmek",
+                "inform participants about the risks"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u11-s10",
+          "title": "Prepositional phrases and gerund complements",
+          "lead": "Çok sözcüklü edatları bölmeden okuyun; sona gelen to veya of çoğu zaman isim/gerund tamamlayıcısı ister.",
+          "rules": [
+            "According to bir kaynak/görüşe göre; in accordance with bir kural/standarda uygun olarak; in terms of bir ölçüt açısından anlam verir.",
+            "In response to, with regard to ve on behalf of ilişkiyi, konuyu veya adına hareket edilen tarafı gösterir.",
+            "In addition to, in spite of, in contrast to ve by means of isim/gerund öbekleri bağlar; geçiş zarflarıyla yapısal farklarını koruyun.",
+            "Edattan sonra gerund kullanılır: by measuring, without changing, in addition to testing. Edat sonrası nesne zamiri gerekir: for them, with us.",
+            "To bir edatsa -ing gelebilir: be committed to improving. Infinitive to ise yalın fiil alır: plan to improve. Önce yöneten kalıbı belirleyin."
+          ],
+          "examples": [
+            {
+              "en": "In accordance with the protocol, the team anonymised the records.",
+              "tr": "Protokole uygun olarak ekip kayıtları anonimleştirdi.",
+              "note": "In accordance with üç sözcüklü bir edat öbeğidir."
+            },
+            {
+              "en": "The laboratory reduced waste by reusing containers without compromising safety.",
+              "tr": "Laboratuvar güvenliği tehlikeye atmadan kapları yeniden kullanarak atığı azalttı.",
+              "note": "By ve without edatlarından sonra gerund gelir."
+            }
+          ],
+          "pitfalls": [
+            "With regard to improve yerine with regard to improving veya with regard to improvement gerekir.",
+            "According to me görüş bildirmede standart I think alternatifi değildir; according to genellikle aktarılan kaynakla kullanılır."
+          ],
+          "table": {
+            "head": [
+              "Öbek",
+              "Anlam",
+              "Örnek tamamlayıcı"
+            ],
+            "rows": [
+              [
+                "in terms of",
+                "bakımından",
+                "cost and reliability"
+              ],
+              [
+                "in accordance with",
+                "uygun olarak",
+                "the regulations"
+              ],
+              [
+                "in response to",
+                "yanıt olarak",
+                "public concern"
+              ],
+              [
+                "on behalf of",
+                "adına",
+                "the research team"
+              ],
+              [
+                "with regard to",
+                "ile ilgili olarak",
+                "data protection"
+              ],
+              [
+                "in addition to",
+                "ek olarak",
+                "reducing waste"
+              ],
+              [
+                "in contrast to",
+                "aksine/kıyasla",
+                "the earlier model"
+              ],
+              [
+                "in spite of",
+                "rağmen",
+                "limited funding"
+              ],
+              [
+                "by means of",
+                "aracılığıyla",
+                "a secure connection"
+              ],
+              [
+                "in favour of",
+                "lehine",
+                "the revised proposal"
+              ]
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "u11-q01",
+          "type": "grammar",
+          "sectionId": "u11-s01",
+          "prompt": "The workshop begins ---- 9:30 ---- Monday morning.",
+          "options": [
+            "in / at",
+            "on / in",
+            "at / in",
+            "in / on",
+            "at / on"
+          ],
+          "answer": 4,
+          "explanation": "Saat için at, belirli günün sabahı için on kullanılır. In the morning genel gün parçasıdır; on Monday morning belirli gündür."
+        },
+        {
+          "id": "u11-q02",
+          "type": "grammar",
+          "sectionId": "u11-s02",
+          "prompt": "The researchers have monitored the lake ---- 2021.",
+          "options": [
+            "for",
+            "during",
+            "since",
+            "until",
+            "by"
+          ],
+          "answer": 2,
+          "explanation": "2021 sürenin başlangıç noktasıdır; since kullanılır. For süre uzunluğu ister."
+        },
+        {
+          "id": "u11-q03",
+          "type": "grammar",
+          "sectionId": "u11-s02",
+          "prompt": "The exhibition remained open ---- six weeks.",
+          "options": [
+            "since",
+            "for",
+            "during",
+            "by",
+            "at"
+          ],
+          "answer": 1,
+          "explanation": "Six weeks süre uzunluğudur; for gerekir. During the exhibition gibi dönem adıyla kullanılır."
+        },
+        {
+          "id": "u11-q04",
+          "type": "grammar",
+          "sectionId": "u11-s02",
+          "prompt": "All applications must be received ---- 15 May at the latest.",
+          "options": [
+            "until",
+            "since",
+            "during",
+            "by",
+            "for"
+          ],
+          "answer": 3,
+          "explanation": "At the latest son tarih vurgusu yapar; by 15 May en geç o tarihe kadar tamamlanma demektir. Until bir durumun sürmesini gösterir."
+        },
+        {
+          "id": "u11-q05",
+          "type": "grammar",
+          "sectionId": "u11-s03",
+          "prompt": "The diagram is printed ---- the first page of the manual.",
+          "options": [
+            "on",
+            "in",
+            "to",
+            "among",
+            "from"
+          ],
+          "answer": 0,
+          "explanation": "Sayfanın yüzeyinde bulunma on the first page ile gösterilir. In bir alanın içinde olmayı, to yön/hedef ilişkisini anlatır."
+        },
+        {
+          "id": "u11-q06",
+          "type": "grammar",
+          "sectionId": "u11-s04",
+          "prompt": "The delegates arrived ---- Madrid late in the evening.",
+          "options": [
+            "to",
+            "on",
+            "into",
+            "in",
+            "towards"
+          ],
+          "answer": 3,
+          "explanation": "Arrive in şehir/ülke için standart kalıptır. Arrive to kullanılmaz; arrive at noktasal yerle kullanılır."
+        },
+        {
+          "id": "u11-q07",
+          "type": "grammar",
+          "sectionId": "u11-s04",
+          "prompt": "Aracın tünelin içinden geçtiğini anlatmak için boşluğu tamamlayın: The vehicle passed ---- the tunnel before reaching the bridge.",
+          "options": [
+            "among",
+            "through",
+            "during",
+            "beside",
+            "towards"
+          ],
+          "answer": 1,
+          "explanation": "Tunnel içinden geçilen bir ortamdır; through gerekir. Towards yalnızca yönelme bildirir, geçişi karşılamaz."
+        },
+        {
+          "id": "u11-q08",
+          "type": "grammar",
+          "sectionId": "u11-s05",
+          "prompt": "The samples were examined ---- a specialist ---- a high-resolution microscope.",
+          "options": [
+            "with / by",
+            "by / by",
+            "by / with",
+            "with / with",
+            "from / by"
+          ],
+          "answer": 2,
+          "explanation": "Edilgende eyleyen specialist by; kullanılan araç microscope with alır."
+        },
+        {
+          "id": "u11-q09",
+          "type": "grammar",
+          "sectionId": "u11-s05",
+          "prompt": "---- measuring air quality, the team also interviewed local residents.",
+          "options": [
+            "Besides",
+            "Beside",
+            "Between",
+            "During",
+            "Among"
+          ],
+          "answer": 0,
+          "explanation": "Also ek faaliyet anlamını pekiştirir; besides = ek olarak. Beside fiziksel 'yanında' anlamındadır."
+        },
+        {
+          "id": "u11-q10",
+          "type": "grammar",
+          "sectionId": "u11-s06",
+          "prompt": "The new membrane is capable ---- removing very small particles.",
+          "options": [
+            "to",
+            "for",
+            "with",
+            "about",
+            "of"
+          ],
+          "answer": 4,
+          "explanation": "Capable of + gerund yerleşik kalıptır. Capable to removing veya capable for removing bu yapıdaki doğru kalıp değildir."
+        },
+        {
+          "id": "u11-q11",
+          "type": "grammar",
+          "sectionId": "u11-s07",
+          "prompt": "Poor access ---- public transport increased demand ---- local health services.",
+          "options": [
+            "for / to",
+            "of / with",
+            "to / for",
+            "with / of",
+            "on / in"
+          ],
+          "answer": 2,
+          "explanation": "Access to erişim; demand for talep kalıplarıdır. Türkçe çeviri yerine isimle birlikte edatı öğrenmek gerekir."
+        },
+        {
+          "id": "u11-q12",
+          "type": "grammar",
+          "sectionId": "u11-s08",
+          "prompt": "The budget consists ---- three separate funding streams.",
+          "options": [
+            "from",
+            "on",
+            "with",
+            "for",
+            "of"
+          ],
+          "answer": 4,
+          "explanation": "Consist of oluşmak anlamındaki yerleşik kalıptır. From, result from veya derive from ile ilişkilidir; consist ile kullanılmaz."
+        },
+        {
+          "id": "u11-q13",
+          "type": "grammar",
+          "sectionId": "u11-s08",
+          "prompt": "Several residents objected to ---- the facility outside the town.",
+          "options": [
+            "building",
+            "build",
+            "to build",
+            "built",
+            "was built"
+          ],
+          "answer": 0,
+          "explanation": "Object to içindeki to edattır ve gerund building alır. To build infinitive yapısı object to kalıbını bozardı."
+        },
+        {
+          "id": "u11-q14",
+          "type": "grammar",
+          "sectionId": "u11-s09",
+          "prompt": "The online system prevents users ---- the same form twice.",
+          "options": [
+            "to submit",
+            "from submitting",
+            "of submitting",
+            "for submit",
+            "with submitted"
+          ],
+          "answer": 1,
+          "explanation": "Prevent + nesne + from + gerund gerekir. Prevent users to submit standart yapı değildir."
+        },
+        {
+          "id": "u11-q15",
+          "type": "translation",
+          "sectionId": "u11-s09",
+          "prompt": "'Araştırmacılar sonuçları halka açıkladı.' cümlesinin doğru karşılığı hangisidir?",
+          "options": [
+            "The researchers explained the public the results.",
+            "The researchers explained about the results the public.",
+            "The researchers explained to the results the public.",
+            "The researchers explained the results to the public.",
+            "The researchers explained the results for the public them."
+          ],
+          "answer": 3,
+          "explanation": "Explain + şey + to + kişi sırası doğrudur. Explain someone something yapısı standart değildir."
+        },
+        {
+          "id": "u11-q16",
+          "type": "meaning",
+          "sectionId": "u11-s10",
+          "prompt": "'The policy was revised in response to public criticism.' cümlesindeki in response to neyi anlatır?",
+          "options": [
+            "Kamu eleştirisine rağmen değişmeden kalmayı",
+            "Kamu eleştirisiyle ilgisiz bir işlemi",
+            "Kamu eleştirisine karşı verilen bir yanıtı",
+            "Eleştiriden önce belirlenmiş bir zamanı",
+            "Politikanın eleştiriyi temsil etmesini"
+          ],
+          "answer": 2,
+          "explanation": "In response to, önceki olguya verilen tepki/yanıtı belirtir; in spite of ödünleme, on behalf of adına anlamındadır."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "aware of",
+          "meaning": "farkında",
+          "pos": "adjective + preposition",
+          "example": "Residents are aware of the possible risks."
+        },
+        {
+          "word": "responsible for",
+          "meaning": "sorumlu",
+          "pos": "adjective + preposition",
+          "example": "The coordinator is responsible for scheduling."
+        },
+        {
+          "word": "similar to",
+          "meaning": "benzer",
+          "pos": "adjective + preposition",
+          "example": "The pattern is similar to an earlier observation."
+        },
+        {
+          "word": "access to",
+          "meaning": "erişim",
+          "pos": "noun + preposition",
+          "example": "Reliable access to transport improves participation."
+        },
+        {
+          "word": "demand for",
+          "meaning": "talep",
+          "pos": "noun + preposition",
+          "example": "Demand for training has increased."
+        },
+        {
+          "word": "effect on",
+          "meaning": "üzerindeki etki",
+          "pos": "noun + preposition",
+          "example": "The study examined the effect on local employment."
+        },
+        {
+          "word": "depend on",
+          "meaning": "bağlı olmak",
+          "pos": "verb + preposition",
+          "example": "The outcome depends on adequate preparation."
+        },
+        {
+          "word": "contribute to",
+          "meaning": "katkıda bulunmak",
+          "pos": "verb + preposition",
+          "example": "Shared facilities contribute to lower costs."
+        },
+        {
+          "word": "object to",
+          "meaning": "itiraz etmek",
+          "pos": "verb + preposition",
+          "example": "Some residents objected to closing the park."
+        },
+        {
+          "word": "provide somebody with",
+          "meaning": "birine bir şey sağlamak",
+          "pos": "verb + object + preposition",
+          "example": "The centre provides students with internet access."
+        },
+        {
+          "word": "prevent somebody from",
+          "meaning": "birinin bir eylemini engellemek",
+          "pos": "verb + object + preposition",
+          "example": "Clear instructions prevent users from making errors."
+        },
+        {
+          "word": "in accordance with",
+          "meaning": "uyarınca; uygun olarak",
+          "pos": "prepositional phrase",
+          "example": "The records were stored in accordance with the protocol."
+        }
+      ],
+      "reading": {
+        "title": "A route from data to action",
+        "text": "Since 2022, a regional planning team has collected information about access to public transport. Researchers travelled from small villages to larger towns and interviewed residents at bus stops. During the interviews, participants described the effects of irregular services on employment and education. Many were concerned about the cost of travel, while others were dissatisfied with the lack of clear timetables. The team focused on practical changes rather than new construction. In accordance with the funding agreement, it provided local councils with a set of low-cost recommendations. These included placing timetables beside existing stops and coordinating services between neighbouring districts. The recommendations were submitted by the end of March. Councils then discussed them for six weeks before selecting a pilot route. By comparing journey times before and after the changes, the researchers hope to determine whether better coordination can improve access without requiring a large increase in expenditure.",
+        "questions": [
+          {
+            "id": "u11-r01",
+            "prompt": "Araştırma hangi konuya odaklanmıştır?",
+            "options": [
+              "Yalnızca yeni yol yapımı",
+              "Toplu taşımaya erişim ve uygulanabilir hizmet iyileştirmeleri",
+              "Otobüslerin fiziksel tasarımını değiştirme",
+              "Kent dışındaki bütün hizmetleri kapatma",
+              "Bilet fiyatlarını araştırmadan artırma"
+            ],
+            "answer": 1,
+            "explanation": "Metin access to public transport ve practical changes odaklarını açıkça birleştirir; yeni inşaat öncelik değildir."
+          },
+          {
+            "id": "u11-r02",
+            "prompt": "Öneriler ne zaman sunulmuştur?",
+            "options": [
+              "Mart sonundan beri sürekli olarak",
+              "Marttan tam altı hafta önce",
+              "En geç mart sonuna kadar",
+              "Yalnızca mart sonundan sonra",
+              "2022'de görüşmelerden önce"
+            ],
+            "answer": 2,
+            "explanation": "Submitted by the end of March son teslim sınırını belirtir; by burada tamamlanma son tarihidir."
+          },
+          {
+            "id": "u11-r03",
+            "prompt": "Araştırmacılar değişikliklerin etkisini nasıl değerlendirmeyi planlamaktadır?",
+            "options": [
+              "Tüm köylere yeni bina yaparak",
+              "Görüşmeleri tamamıyla dışlayarak",
+              "Konseylerin harcamalarını saymadan",
+              "Değişikliklerden önceki ve sonraki yolculuk sürelerini karşılaştırarak",
+              "Otobüs duraklarını kaldırarak"
+            ],
+            "answer": 3,
+            "explanation": "By comparing journey times before and after the changes yöntem öbeği bu değerlendirmeyi açıklar."
+          }
+        ]
+      }
+    },
+    {
+      "id": "u12",
+      "number": 12,
+      "title": "Phrasal Verbs & Collocations",
+      "subtitle": "Öbek fiiller, anlam örüntüleri ve eşdizimler",
+      "pages": "643–720",
+      "description": "Öbek fiilleri anlamlarıyla birlikte geçişlilik ve nesne yerleşimi açısından inceleyin. Kitabın eklerindeki sıfat, fiil ve edat birleşimlerini özgün eşdizim tabloları ve akademik karşılıklarla pekiştirin.",
+      "outcomes": [
+        "Geçişli/geçişsiz ve ayrılabilen/ayrılamayan öbek fiilleri ayırt etmek.",
+        "Nesne zamirini ve üç parçalı fiillerin tamamlayıcısını doğru yerleştirmek.",
+        "Çok anlamlı fiillerin anlamını bağlam ve eşdizimden çıkarmak.",
+        "Akademik metinlerde öbek fiilleri uygun karşılık ve sözlük bilgisiyle değerlendirmek."
+      ],
+      "sections": [
+        {
+          "id": "u12-s01",
+          "title": "Verb + particle: the whole expression",
+          "lead": "Öbek fiilin anlamını yalnızca kök fiili çevirerek bulmak çoğu zaman yeterli değildir.",
+          "rules": [
+            "Bir fiil ile particle birlikte yeni veya özelleşmiş anlam oluşturabilir: carry out = gerçekleştirmek; bring about = yol açmak.",
+            "Particle hareketi doğrudan gösterebilir: stand up. Bazı kullanımlar mecazlaşmıştır: back up a claim = iddiayı desteklemek.",
+            "Prepositional verb'de edat tamamlayıcıyı bağlar: depend on evidence. Phrasal/prepositional verb terimleri kaynaklar arasında farklı sınıflandırılabilir; nesne düzenini somut örnekten öğrenin.",
+            "Üç parçalı yapı fiil + particle + edat içerebilir: put up with, come up with, look forward to.",
+            "Bir ifadeyi anlam, nesne alıp almama, ayrılabilme ve kullanılabilecek tamamlayıcıyla birlikte kaydedin; yalnızca Türkçe tek kelime karşılık yetmez."
+          ],
+          "examples": [
+            {
+              "en": "The team carried out a survey to identify barriers to access.",
+              "tr": "Ekip erişim engellerini belirlemek için bir anket gerçekleştirdi.",
+              "note": "Carry out kök carry'nin 'taşımak' anlamına indirgenmez."
+            },
+            {
+              "en": "Reliable measurements can back up an otherwise tentative claim.",
+              "tr": "Güvenilir ölçümler, başka türlü ihtiyatlı kalacak bir iddiayı destekleyebilir.",
+              "note": "Back up burada fiziksel hareket değil kanıtla desteklemektir."
+            }
+          ],
+          "pitfalls": [
+            "Her fiil + edat birleşiminin ayrılabildiğini varsaymayın.",
+            "Particle'ın tek bir Türkçe anlamı tüm öbek fiillere uygulanamaz."
+          ]
+        },
+        {
+          "id": "u12-s02",
+          "title": "Transitive and intransitive uses",
+          "lead": "Geçişlilik, fiilin doğrudan nesne alıp almadığını belirtir; aynı ifade farklı anlamlarda farklı davranabilir.",
+          "rules": [
+            "Geçişli öbek fiil bir nesne alır: carry out an experiment, turn down an offer. 'Neyi/kimi?' sorusuna cevap arayın.",
+            "Geçişsiz öbek fiil doğrudan nesne almaz: the machine broke down, prices went up, the plane took off.",
+            "Bazı ifadeler her iki türde kullanılır: the crowd broke up / the police broke up the crowd. Anlamla birlikte geçişliliği kontrol edin.",
+            "Nesne veya tamamlayıcı varlığı ayrılabilme ile aynı özellik değildir. Look into a problem bir tamamlayıcı alır; ancak bu anlamda problem fiil–edat arasına girmez.",
+            "Edilgen yalnızca uygun nesneli kullanımla kurulabilir: the experiment was carried out. The machine was broken down farklı anlam taşır; kendi kendine arızalanma edilgen değildir."
+          ],
+          "examples": [
+            {
+              "en": "The cooling system broke down during the test.",
+              "tr": "Soğutma sistemi test sırasında arızalandı.",
+              "note": "Bu kullanım geçişsizdir; doğrudan nesne yoktur."
+            },
+            {
+              "en": "The analyst broke down the total cost into separate categories.",
+              "tr": "Analist toplam maliyeti ayrı kategorilere ayırdı.",
+              "note": "Break down bu anlamda geçişlidir; the total cost nesnedir."
+            }
+          ],
+          "pitfalls": [
+            "The price went up the tax şeklinde doğrudan nesne eklemeyin; went up because of the tax başka yapıdır.",
+            "Arızalanmak anlamındaki break down ile parçalara ayırmak anlamını aynı geçişlilikte düşünmeyin."
+          ],
+          "table": {
+            "head": [
+              "İfade",
+              "Bu anlamdaki tür",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "carry out",
+                "geçişli",
+                "carry out an assessment"
+              ],
+              [
+                "turn down",
+                "geçişli",
+                "turn down an invitation"
+              ],
+              [
+                "break down",
+                "geçişsiz",
+                "the printer broke down"
+              ],
+              [
+                "take off",
+                "geçişsiz",
+                "the aircraft took off"
+              ],
+              [
+                "go up",
+                "geçişsiz",
+                "costs went up"
+              ],
+              [
+                "break down",
+                "geçişli",
+                "break down the figures into categories"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u12-s03",
+          "title": "Separable verbs and pronoun placement",
+          "lead": "Ayrılabilen öbek fiilde isim nesne iki konuma girebilir; nesne zamiri araya girmek zorundadır.",
+          "rules": [
+            "İsim nesne: turn off the monitor veya turn the monitor off. İki düzen de bu anlamda doğrudur.",
+            "Zamir nesne: turn it off. Turn off it standart değildir; it/them/him/her/us gibi nesne zamirlerini fiil ile particle arasına yerleştirin.",
+            "Carry out, set up, put off, call off, rule out ve turn down yaygın ayrılabilen geçişli ifadelerdir.",
+            "Uzun ve karmaşık isim nesnesini particle sonrasına koymak okunabilirliği artırır: carry out a detailed assessment of several competing methods.",
+            "Edilgende nesne özneye dönüşür ve particle fiilden sonra korunur: the trial was called off. Zamir yerleşim kuralı etken nesne içindir."
+          ],
+          "examples": [
+            {
+              "en": "The committee put the meeting off until Friday.",
+              "tr": "Komite toplantıyı cumaya erteledi.",
+              "note": "İsim nesne fiil–particle arasına girebilir."
+            },
+            {
+              "en": "The evidence did not rule it out completely.",
+              "tr": "Kanıt bu ihtimali tamamen dışlamadı.",
+              "note": "It zamiri rule ile out arasına yerleşir."
+            }
+          ],
+          "pitfalls": [
+            "Put off it veya call off them yerine put it off/call them off kullanın.",
+            "Uzun nesneyi iki parça arasına koymak mümkün olsa da her zaman en okunaklı düzen değildir."
+          ],
+          "table": {
+            "head": [
+              "İfade",
+              "İsim nesne",
+              "Zamir nesne"
+            ],
+            "rows": [
+              [
+                "call off",
+                "call off the event / call the event off",
+                "call it off"
+              ],
+              [
+                "put off",
+                "put off the review / put the review off",
+                "put it off"
+              ],
+              [
+                "set up",
+                "set up the system / set the system up",
+                "set it up"
+              ],
+              [
+                "rule out",
+                "rule out the cause / rule the cause out",
+                "rule it out"
+              ],
+              [
+                "turn down",
+                "turn down the offer / turn the offer down",
+                "turn it down"
+              ],
+              [
+                "carry out",
+                "carry out the test / carry the test out",
+                "carry it out"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u12-s04",
+          "title": "Inseparable and three-part expressions",
+          "lead": "Ayrılamayan yapıda tamamlayıcı fiil öbeğinin sonuna gelir; zamir de aynı konumu korur.",
+          "rules": [
+            "Look into = araştırmak, look after = bakımını üstlenmek, run into = rastlamak; bu anlamlarda nesne sona gelir: look into it.",
+            "Üç parçalı ifadelerde son edattan sonra tamamlayıcı bulunur: put up with the noise; come up with a plan.",
+            "Look forward to + isim/gerund kullanılır; to edat olduğu için look forward to hearing doğrudur.",
+            "Get away with bir yanlışın cezasından kaçmayı; keep up with bir hız/gelişmeye ayak uydurmayı; look up to saygı duymayı bildirir.",
+            "Bir fiilin başka anlamdaki ayrılabilen kullanımını aktarmayın: look a word up mümkündür; look the problem into yanlıştır."
+          ],
+          "examples": [
+            {
+              "en": "The investigators will look into it before issuing a statement.",
+              "tr": "Araştırmacılar açıklama yapmadan önce bu konuyu araştıracak.",
+              "note": "Look into ayrılamaz; it öbeğin sonunda kalır."
+            },
+            {
+              "en": "The group came up with a plan that reduced travel costs.",
+              "tr": "Grup seyahat maliyetlerini azaltan bir plan geliştirdi.",
+              "note": "Come up with üç parçalıdır; plan with'den sonra gelir."
+            }
+          ],
+          "pitfalls": [
+            "Put the noise up with ve look it into standart değildir.",
+            "Look forward to hear yerine look forward to hearing gerekir."
+          ],
+          "table": {
+            "head": [
+              "İfade",
+              "Anlam",
+              "Tamamlayıcı"
+            ],
+            "rows": [
+              [
+                "look into",
+                "araştırmak",
+                "look into the complaint"
+              ],
+              [
+                "look after",
+                "bakımını üstlenmek",
+                "look after vulnerable residents"
+              ],
+              [
+                "run into",
+                "rastlamak/karşılaşmak",
+                "run into difficulties"
+              ],
+              [
+                "put up with",
+                "katlanmak",
+                "put up with interruptions"
+              ],
+              [
+                "come up with",
+                "geliştirmek/bulmak",
+                "come up with a solution"
+              ],
+              [
+                "keep up with",
+                "ayak uydurmak",
+                "keep up with new regulations"
+              ],
+              [
+                "get away with",
+                "yanlışın cezasından kaçmak",
+                "get away with falsifying records"
+              ],
+              [
+                "look up to",
+                "saygı duymak",
+                "look up to a mentor"
+              ],
+              [
+                "look forward to",
+                "sabırsızlıkla beklemek",
+                "look forward to meeting the team"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u12-s05",
+          "title": "Literal and idiomatic meanings",
+          "lead": "Aynı öbek fiilin anlamını nesne ve yakın çevredeki sözcükler sınırlar.",
+          "rules": [
+            "Take off: uçak için havalanmak; giysi için çıkarmak; iş/ürün için hızla başarılı olmak. Bu anlamların nesne yapıları farklıdır.",
+            "Break down: makine için arızalanmak; kişi için duygusal olarak çökmek; veri/masraf için parçalara ayırmak.",
+            "Bring up: bir konuyu gündeme getirmek veya bir çocuğu yetiştirmek. Bağlamdaki nesne anlamı belirler.",
+            "Turn out: sonunda bir sonuç çıkmak veya üretmek gibi farklı kalıplar alabilir: turned out to be useful; turn out hundreds of units.",
+            "Make up: uydurmak, oluşturmak veya barışmak; make up for ise telafi etmek. Sondaki ek edat anlamı değiştirebilir."
+          ],
+          "examples": [
+            {
+              "en": "The pilot took off her jacket after the aircraft took off.",
+              "tr": "Pilot, uçak havalandıktan sonra ceketini çıkardı.",
+              "note": "İlk take off geçişli giysi çıkarma; ikinci geçişsiz havalanma anlamındadır."
+            },
+            {
+              "en": "The survey results turned out to be more useful than expected.",
+              "tr": "Anket sonuçlarının beklenenden daha yararlı olduğu ortaya çıktı.",
+              "note": "Turn out to be sonucu/ortaya çıkmayı anlatır."
+            }
+          ],
+          "pitfalls": [
+            "Bir sözlükte ilk verilen anlamı her cümleye aktarmayın.",
+            "Make up ile make up for farklı yapılardır; eksik for anlamı ve tamamlayıcıyı değiştirir."
+          ]
+        },
+        {
+          "id": "u12-s06",
+          "title": "Particles up and down: useful tendencies",
+          "lead": "Particle örüntüleri tahmin için yararlıdır; fakat sözlük doğrulamasının yerini almaz.",
+          "rules": [
+            "Up bazen artış, tamamlama veya oluşum gösterir: speed up, use up, set up. Her up 'yukarı' değildir.",
+            "Down bazen azalma, sınırlama veya kaydetme gösterir: slow down, narrow down, write down.",
+            "Sum up özetlemek; build up biriktirmek/geliştirmek; draw up resmî metin hazırlamak anlamlarında kullanılır.",
+            "Cut down on tüketimi azaltır ve üç parçalıdır; cut something down fiziksel kesme veya azaltma gibi başka kullanımlara sahiptir.",
+            "Turn down teklif reddetme veya ses kısma; shut down bir sistemi/tesisi durdurma anlamı taşıyabilir. Nesne eşdizimi anlamı daraltır."
+          ],
+          "examples": [
+            {
+              "en": "The team narrowed down the possible causes to two alternatives.",
+              "tr": "Ekip olası nedenleri iki seçeneğe indirdi.",
+              "note": "Narrow down seçenek sayısını sınırlar."
+            },
+            {
+              "en": "The report sums up the main findings without using up much space.",
+              "tr": "Rapor çok yer tüketmeden temel bulguları özetler.",
+              "note": "Sum up özetlemek; use up tüketmek/bitirmek anlamındadır."
+            }
+          ],
+          "pitfalls": [
+            "Particle örüntüsünden kesin sonuç çıkarmayın: give up vazgeçmektir, artış değildir.",
+            "Cut down on için nesneyi on'dan önceye taşımayın."
+          ],
+          "table": {
+            "head": [
+              "İfade",
+              "Anlam",
+              "Özgün eşdizim"
+            ],
+            "rows": [
+              [
+                "speed up",
+                "hızlandırmak",
+                "speed up the review process"
+              ],
+              [
+                "use up",
+                "tüketmek/bitirmek",
+                "use up available resources"
+              ],
+              [
+                "set up",
+                "kurmak",
+                "set up a monitoring network"
+              ],
+              [
+                "build up",
+                "geliştirmek/biriktirmek",
+                "build up resistance"
+              ],
+              [
+                "sum up",
+                "özetlemek",
+                "sum up the evidence"
+              ],
+              [
+                "draw up",
+                "hazırlamak",
+                "draw up a formal agreement"
+              ],
+              [
+                "slow down",
+                "yavaşlamak/yavaşlatmak",
+                "slow down the spread"
+              ],
+              [
+                "narrow down",
+                "seçenekleri azaltmak",
+                "narrow down the causes"
+              ],
+              [
+                "write down",
+                "yazmak/kaydetmek",
+                "write down the observations"
+              ],
+              [
+                "cut down on",
+                "azaltmak",
+                "cut down on energy consumption"
+              ],
+              [
+                "shut down",
+                "kapatmak/durdurmak",
+                "shut down the facility"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u12-s07",
+          "title": "Particles out, off and on: context matters",
+          "lead": "Çıkarma, devam veya sona erme örüntüleri sık görünse de her birleşim ayrı bir kelime birimidir.",
+          "rules": [
+            "Out bazen ortaya çıkarma, dışlama veya tamamlamayı bildirir: find out, point out, rule out, carry out.",
+            "Off ayrılma veya durma fikriyle ilişkili olabilir: call off, put off, cut off. Put off erteleme, call off iptal anlamındadır.",
+            "On devam anlamı verebilir: carry on. Take on sorumluluk üstlenme, pass on bilgiyi/şeyi aktarma gibi farklı kalıplar alır.",
+            "Phase out aşamalı olarak kullanımdan kaldırmak; phase in aşamalı olarak devreye sokmak anlamındadır.",
+            "Result biçimini ayrıca öğrenin: find out that + cümle; point out that + cümle; carry out + isim. Her ifade aynı tamamlayıcı türünü almaz."
+          ],
+          "examples": [
+            {
+              "en": "The municipality will phase out the old buses over five years.",
+              "tr": "Belediye eski otobüsleri beş yıl içinde aşamalı olarak kullanımdan kaldıracak.",
+              "note": "Phase out bir anda iptal etmek değil kademeli kaldırmaktır."
+            },
+            {
+              "en": "The reviewer pointed out that the conclusion went beyond the evidence.",
+              "tr": "Değerlendirici sonucun kanıtın ötesine geçtiğini belirtti.",
+              "note": "Point out that tam cümleyle tamamlanabilir."
+            }
+          ],
+          "pitfalls": [
+            "Call off iptal ile put off erteleme aynı anlam değildir.",
+            "Find out the answer ile look for the answer keşfetme ve arama aşamalarını farklı anlatır."
+          ],
+          "table": {
+            "head": [
+              "İfade",
+              "Anlam",
+              "Özgün eşdizim"
+            ],
+            "rows": [
+              [
+                "find out",
+                "öğrenmek/keşfetmek",
+                "find out why participation fell"
+              ],
+              [
+                "point out",
+                "belirtmek/dikkat çekmek",
+                "point out a limitation"
+              ],
+              [
+                "rule out",
+                "dışlamak",
+                "rule out alternative explanations"
+              ],
+              [
+                "carry out",
+                "gerçekleştirmek",
+                "carry out fieldwork"
+              ],
+              [
+                "phase out",
+                "aşamalı kaldırmak",
+                "phase out obsolete equipment"
+              ],
+              [
+                "call off",
+                "iptal etmek",
+                "call off a public meeting"
+              ],
+              [
+                "put off",
+                "ertelemek",
+                "put off a decision"
+              ],
+              [
+                "cut off",
+                "kesmek/bağlantıyı koparmak",
+                "cut off the power supply"
+              ],
+              [
+                "carry on",
+                "devam etmek",
+                "carry on with the investigation"
+              ],
+              [
+                "take on",
+                "üstlenmek",
+                "take on additional responsibilities"
+              ],
+              [
+                "pass on",
+                "aktarmak",
+                "pass on relevant information"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u12-s08",
+          "title": "Academic register and precise alternatives",
+          "lead": "Öbek fiili otomatik olarak gayriresmî saymayın; seçim anlam ve metin türüne bağlıdır.",
+          "rules": [
+            "Carry out research, point out limitations ve rule out explanations akademik metinlerde yerleşiktir. Her phrasal verb'ü tek sözcükle değiştirmek gerekmez.",
+            "Daha yoğun resmî anlatımda look into → investigate; put off → postpone; set up → establish; come up with → devise kullanılabilir.",
+            "Karşılıklar her bağlamda tam eş anlamlı değildir: bring about cause'a yakınken point out indicate/draw attention to işlevlerini taşıyabilir.",
+            "İsim eşdizimi korunmalıdır: conduct research, establish a framework, formulate a hypothesis, draw a conclusion.",
+            "Kısaltma veya resmileştirme sırasında zaman, olumsuzluk, modal ve anlamı koruyun: may bring about change → may cause change."
+          ],
+          "examples": [
+            {
+              "en": "The panel will look into the complaint before publishing its decision.",
+              "tr": "Panel kararını yayımlamadan önce şikâyeti araştıracak.",
+              "note": "Look into için investigate uygun resmî karşılıktır."
+            },
+            {
+              "en": "The evidence rules out a purely economic explanation.",
+              "tr": "Kanıt yalnızca ekonomik bir açıklamayı dışlıyor.",
+              "note": "Rule out akademik anlatımda doğal ve kesin bir ifadedir."
+            }
+          ],
+          "pitfalls": [
+            "Put off = postpone; call off = cancel ayrımı resmî karşılıkta da korunur.",
+            "Get rid of her bağlamda dispose of değildir; ortadan kaldırma, terk etme veya imha anlamını bağlam seçer."
+          ],
+          "table": {
+            "head": [
+              "Öbek fiil",
+              "Yakın akademik karşılık",
+              "Tipik nesne"
+            ],
+            "rows": [
+              [
+                "carry out",
+                "conduct / perform",
+                "research / an experiment"
+              ],
+              [
+                "look into",
+                "investigate",
+                "a complaint / a cause"
+              ],
+              [
+                "set up",
+                "establish",
+                "a centre / a framework"
+              ],
+              [
+                "put off",
+                "postpone",
+                "a meeting / a decision"
+              ],
+              [
+                "call off",
+                "cancel",
+                "an event / a trial"
+              ],
+              [
+                "bring about",
+                "cause / produce",
+                "change / improvement"
+              ],
+              [
+                "come up with",
+                "devise / formulate",
+                "a plan / a proposal"
+              ],
+              [
+                "point out",
+                "indicate / draw attention to",
+                "a limitation / an inconsistency"
+              ],
+              [
+                "rule out",
+                "exclude",
+                "an explanation / a possibility"
+              ],
+              [
+                "go over",
+                "review",
+                "notes / the evidence"
+              ],
+              [
+                "put forward",
+                "propose",
+                "a hypothesis / an argument"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u12-s09",
+          "title": "Collocations across the appendices",
+          "lead": "Eşdizim, bir sözcüğün doğal olarak birlikte kullanıldığı sözcük ve yapıları içerir; yalnızca edat ezberi değildir.",
+          "rules": [
+            "Sıfat–edat birliklerini gerund ile genişletin: committed to improving, accustomed to working, capable of analysing.",
+            "Fiil–edat ve fiil–nesne–edat kalıplarını ayırın: result in an improvement, result from a change; attribute the improvement to the change.",
+            "İsim eşdizimleri de öğrenin: draw a conclusion, pose a threat, take a factor into account, make a distinction.",
+            "Bir fikri desteklemek için bear out an argument/claim; bilgi toplamak için gather evidence; göz önünde bulundurmak için take into account kullanılabilir.",
+            "Eklerden çalışırken her kalıbı özgün bir isim veya gerund tamamlayıcısıyla üretin; birbirine benzeyen of/to/for/with kalıplarını aynı küçük bağlamda karşılaştırın."
+          ],
+          "examples": [
+            {
+              "en": "The researchers took seasonal variation into account before drawing a conclusion.",
+              "tr": "Araştırmacılar sonuca varmadan önce mevsimsel değişkenliği göz önünde bulundurdu.",
+              "note": "Take into account ve draw a conclusion iki farklı eşdizimdir."
+            },
+            {
+              "en": "The improvement resulted from training and was attributed to better coordination.",
+              "tr": "İyileşme eğitimden kaynaklandı ve daha iyi koordinasyona atfedildi.",
+              "note": "Result from kaynak, attribute to neden atfı kurar."
+            }
+          ],
+          "pitfalls": [
+            "Make a conclusion yerine draw/reach a conclusion yaygın akademik eşdizimdir.",
+            "Result in sonucu; result from kaynağı gösterir. Edatı değiştirmek nedensellik yönünü değiştirir."
+          ],
+          "table": {
+            "head": [
+              "Kalıp",
+              "Anlam",
+              "Özgün örnek"
+            ],
+            "rows": [
+              [
+                "committed to + gerund",
+                "kararlı/bağlı",
+                "committed to reducing waste"
+              ],
+              [
+                "accustomed to + gerund",
+                "alışık",
+                "accustomed to working remotely"
+              ],
+              [
+                "result in",
+                "sonucunu doğurmak",
+                "result in greater efficiency"
+              ],
+              [
+                "result from",
+                "kaynaklanmak",
+                "result from unequal access"
+              ],
+              [
+                "attribute something to",
+                "atfetmek",
+                "attribute the error to fatigue"
+              ],
+              [
+                "bear out",
+                "doğrulamak/desteklemek",
+                "bear out the initial prediction"
+              ],
+              [
+                "take into account",
+                "hesaba katmak",
+                "take local conditions into account"
+              ],
+              [
+                "draw a conclusion",
+                "sonuca varmak",
+                "draw a cautious conclusion"
+              ],
+              [
+                "pose a threat to",
+                "tehdit oluşturmak",
+                "pose a threat to biodiversity"
+              ],
+              [
+                "make a distinction between",
+                "ayrım yapmak",
+                "make a distinction between cost and value"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u12-s10",
+          "title": "Using a phrasal-verb or collocation dictionary",
+          "lead": "Sözlük maddesini tek çeviri olarak değil, anlam ve yapı bilgisi birlikte veren bir kayıt olarak okuyun.",
+          "rules": [
+            "Önce cümledeki anlamı seçin; sonra transitive/intransitive etiketi, ayrılabilme ve tamamlayıcı örneğini okuyun.",
+            "T./tr. genellikle geçişli; int./intr. geçişsiz; sb/somebody kişi; sth/something şey nesnesini gösterir. Kısaltmalar sözlüğe göre değişebilir.",
+            "Register etiketleri informal, formal, technical gibi kullanım ortamını; BrE/AmE bölgesel kullanım farkını gösterebilir.",
+            "Eşdizim sözlüğünde isim için uygun fiil ve sıfatı da arayın: evidence → gather evidence, compelling evidence. Phrasal verb sözlüğü ise anlam ve nesne düzenine odaklanır.",
+            "Kişisel kayıt için beş sütun kullanın: ifade, bağlamdaki anlam, yapı, özgün örnek, yakın karşılık. Birkaç gün sonra sadece çeviriyi değil bu yapıyı da geri çağırın."
+          ],
+          "examples": [
+            {
+              "en": "The new measurements bear out the team's prediction.",
+              "tr": "Yeni ölçümler ekibin tahminini doğruluyor.",
+              "note": "Sözlükte bear out sth etiketinin nesne istediği kontrol edilir."
+            },
+            {
+              "en": "The researchers put forward a hypothesis that could be tested independently.",
+              "tr": "Araştırmacılar bağımsız biçimde sınanabilecek bir hipotez ileri sürdü.",
+              "note": "Put forward ile hypothesis doğal bir akademik eşdizimdir."
+            }
+          ],
+          "pitfalls": [
+            "Aynı madde altındaki bütün anlamların aynı geçişlilik/ayrılabilme etiketini paylaştığını varsaymayın.",
+            "Örnek cümleyi yalnızca çevirip geçmeyin; nesnenin yeri ve tamamlayıcı türünü kaydedin."
+          ],
+          "table": {
+            "head": [
+              "Kayıt alanı",
+              "Örnek kayıt"
+            ],
+            "rows": [
+              [
+                "İfade",
+                "look into"
+              ],
+              [
+                "Bağlamdaki anlam",
+                "araştırmak"
+              ],
+              [
+                "Yapı",
+                "look into sth; ayrılamaz"
+              ],
+              [
+                "Özgün örnek",
+                "The panel looked into the funding discrepancy."
+              ],
+              [
+                "Yakın karşılık",
+                "investigate"
+              ],
+              [
+                "Nesne zamiri",
+                "look into it"
+              ]
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "u12-q01",
+          "type": "grammar",
+          "sectionId": "u12-s01",
+          "prompt": "Testleri 'gerçekleştirmek' anlamını veren ifadeyi seçin: The laboratory will ---- a series of tests before approving the material.",
+          "options": [
+            "carry out",
+            "put up with",
+            "look forward to",
+            "run out of",
+            "get away with"
+          ],
+          "answer": 0,
+          "explanation": "Carry out tests = testler gerçekleştirmek doğal eşdizimdir. Diğer ifadeler katlanmak, beklemek, tüketmek veya cezasız kalmak anlamını taşır."
+        },
+        {
+          "id": "u12-q02",
+          "type": "grammar",
+          "sectionId": "u12-s03",
+          "prompt": "The meeting has been postponed. Which sentence uses the object pronoun correctly?",
+          "options": [
+            "The committee put off it.",
+            "The committee it put off.",
+            "The committee put off its.",
+            "The committee put it off.",
+            "The committee off put it."
+          ],
+          "answer": 3,
+          "explanation": "Put off ayrılabilen geçişli fiildir; it nesne zamiri put ile off arasına gelmelidir."
+        },
+        {
+          "id": "u12-q03",
+          "type": "grammar",
+          "sectionId": "u12-s04",
+          "prompt": "The complaint is serious, so the panel will ----.",
+          "options": [
+            "look it into",
+            "look into its",
+            "look into it",
+            "look into itself the complaint",
+            "look the into it"
+          ],
+          "answer": 2,
+          "explanation": "Look into = araştırmak ayrılamayan yapıdır; zamir öbeğin sonundadır. Look it into yanlış sıradır."
+        },
+        {
+          "id": "u12-q04",
+          "type": "grammar",
+          "sectionId": "u12-s02",
+          "prompt": "Which use of take off is intransitive?",
+          "options": [
+            "She took off her gloves.",
+            "He took his coat off.",
+            "The nurse took the bandage off.",
+            "They took off the protective covers.",
+            "The aircraft took off at dawn."
+          ],
+          "answer": 4,
+          "explanation": "Aircraft took off = uçak havalandı ve doğrudan nesne yoktur. Giysi/örtü çıkarma örnekleri geçişlidir."
+        },
+        {
+          "id": "u12-q05",
+          "type": "grammar",
+          "sectionId": "u12-s04",
+          "prompt": "The residents could no longer ---- the constant noise from the construction site.",
+          "options": [
+            "come up with",
+            "put up with",
+            "look forward to",
+            "look up to",
+            "keep up with"
+          ],
+          "answer": 1,
+          "explanation": "Put up with = katlanmak; sürekli gürültü bağlamı bu anlamı seçer. Come up with bir çözüm/plan geliştirmektir."
+        },
+        {
+          "id": "u12-q06",
+          "type": "grammar",
+          "sectionId": "u12-s08",
+          "prompt": "The new irrigation system is expected to ---- a substantial reduction in water use.",
+          "options": [
+            "look after",
+            "put off",
+            "run into",
+            "take after",
+            "bring about"
+          ],
+          "answer": 4,
+          "explanation": "Bring about = yol açmak; reduction oluşan sonuçtur. Diğer seçenekler bu sonuç üretme ilişkisini karşılamaz."
+        },
+        {
+          "id": "u12-q07",
+          "type": "meaning",
+          "sectionId": "u12-s07",
+          "prompt": "'The company will phase out the old software.' cümlesi ne anlama gelir?",
+          "options": [
+            "Şirket eski yazılımı yeniden kuracaktır.",
+            "Şirket eski yazılımın fiyatını bir anda artıracaktır.",
+            "Şirket eski yazılımı aşamalı olarak kullanımdan kaldıracaktır.",
+            "Şirket eski yazılımı araştırmadan kullanacaktır.",
+            "Şirket eski yazılıma yeni bir kullanıcı ekleyecektir."
+          ],
+          "answer": 2,
+          "explanation": "Phase out kademeli kullanım dışı bırakmayı anlatır. Set up kurmak; phase in aşamalı devreye sokmak olurdu."
+        },
+        {
+          "id": "u12-q08",
+          "type": "grammar",
+          "sectionId": "u12-s03",
+          "prompt": "The possibility was considered, but the committee did not ---- completely.",
+          "options": [
+            "rule out it",
+            "rule it into",
+            "rule out its",
+            "rule it out",
+            "rule them out"
+          ],
+          "answer": 3,
+          "explanation": "Tekil possibility için it gerekir ve ayrılabilen rule out'ta zamir araya girer. Rule them out tekil gönderime uymaz."
+        },
+        {
+          "id": "u12-q09",
+          "type": "grammar",
+          "sectionId": "u12-s05",
+          "prompt": "The cooling unit stopped functioning during the experiment; it had ----.",
+          "options": [
+            "brought up",
+            "broken down",
+            "carried out",
+            "taken on",
+            "put forward"
+          ],
+          "answer": 1,
+          "explanation": "Makinenin çalışmayı bırakması bağlamında break down = arızalanmak; past perfect had broken down gerekir."
+        },
+        {
+          "id": "u12-q10",
+          "type": "grammar",
+          "sectionId": "u12-s04",
+          "prompt": "We look forward to ---- the results of your independent review.",
+          "options": [
+            "receiving",
+            "receive",
+            "to receive",
+            "received",
+            "have receive"
+          ],
+          "answer": 0,
+          "explanation": "Look forward to içindeki to edattır; receiving gerund gerekir. Infinitive receive bu kalıpla kullanılmaz."
+        },
+        {
+          "id": "u12-q11",
+          "type": "grammar",
+          "sectionId": "u12-s09",
+          "prompt": "Ekonomik değişimleri gözlenen düşüşün kaynağı olarak göstermek için boşluğu tamamlayın: The observed decline may have resulted ---- changes in the local economy.",
+          "options": [
+            "in",
+            "with",
+            "for",
+            "from",
+            "at"
+          ],
+          "answer": 3,
+          "explanation": "Decline sonuç, changes kaynak/sebeptir; result from gerekir. Result in tamamlayıcıyı sonuç olarak sunar."
+        },
+        {
+          "id": "u12-q12",
+          "type": "grammar",
+          "sectionId": "u12-s09",
+          "prompt": "Before reaching a conclusion, the authors took several external factors ----.",
+          "options": [
+            "into account",
+            "out of account",
+            "off account",
+            "up to account",
+            "over account"
+          ],
+          "answer": 0,
+          "explanation": "Take something into account = hesaba katmak. Diğer birleşimler bu yerleşik kalıbı oluşturmaz."
+        },
+        {
+          "id": "u12-q13",
+          "type": "meaning",
+          "sectionId": "u12-s08",
+          "prompt": "'The agency set up a new monitoring centre.' cümlesinde set up için en uygun yakın resmî karşılık hangisidir?",
+          "options": [
+            "postponed",
+            "established",
+            "cancelled",
+            "excluded",
+            "tolerated"
+          ],
+          "answer": 1,
+          "explanation": "Bir merkez set up edilirken kurulmaktadır; established doğru yakın karşılıktır. Postponed ertelemek, cancelled iptal etmektir."
+        },
+        {
+          "id": "u12-q14",
+          "type": "grammar",
+          "sectionId": "u12-s07",
+          "prompt": "The event was cancelled entirely, rather than delayed. Which expression matches this meaning?",
+          "options": [
+            "The organisers put it off.",
+            "The organisers carried it out.",
+            "The organisers called it off.",
+            "The organisers set it up.",
+            "The organisers took it on."
+          ],
+          "answer": 2,
+          "explanation": "Call off iptal etmek; put off ertelemektir. Entirely cancelled açıklaması doğru anlamı açıkça sınırlar."
+        },
+        {
+          "id": "u12-q15",
+          "type": "translation",
+          "sectionId": "u12-s03",
+          "prompt": "'Komite bu olasılığı dışlamadı.' cümlesini doğru aktaran seçenek hangisidir?",
+          "options": [
+            "The committee ruled out this possibility.",
+            "The committee did not put off this possibility.",
+            "The committee did not look after this possibility.",
+            "The committee did not keep up with this possibility.",
+            "The committee did not rule out this possibility."
+          ],
+          "answer": 4,
+          "explanation": "Did not rule out olumsuzluk ve dışlama anlamını korur. İlk seçenek olumsuzluğu kaldırır; diğer fiiller anlamı değiştirir."
+        },
+        {
+          "id": "u12-q16",
+          "type": "meaning",
+          "sectionId": "u12-s10",
+          "prompt": "A dictionary labels an expression 'tr., separable'. Which information follows from that label?",
+          "options": [
+            "Doğrudan nesne almaz; zamir yalnızca sonda bulunur.",
+            "Her anlamda yalnızca resmî metinlerde kullanılır.",
+            "Üç parçalıdır ve daima ayrılamaz.",
+            "Nesne alır; isim nesne ayrılabilir, nesne zamiri fiil ile particle arasına gelir.",
+            "Geçmiş zamanda kullanılamaz ve edilgen kuramaz."
+          ],
+          "answer": 3,
+          "explanation": "Tr. geçişli demektir; separable nesne yerleşimini bildirir. Etiket register veya zaman kısıtlaması vermez."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "carry out",
+          "meaning": "gerçekleştirmek; yürütmek",
+          "pos": "separable transitive phrasal verb",
+          "example": "The team carried out an independent assessment."
+        },
+        {
+          "word": "bring about",
+          "meaning": "yol açmak; meydana getirmek",
+          "pos": "separable transitive phrasal verb",
+          "example": "Training can bring about lasting improvement."
+        },
+        {
+          "word": "rule out",
+          "meaning": "dışlamak; olasılığı elemek",
+          "pos": "separable transitive phrasal verb",
+          "example": "The evidence rules out a technical fault."
+        },
+        {
+          "word": "look into",
+          "meaning": "araştırmak; incelemek",
+          "pos": "inseparable verb",
+          "example": "An independent panel will look into the complaint."
+        },
+        {
+          "word": "put forward",
+          "meaning": "ileri sürmek; önermek",
+          "pos": "separable transitive phrasal verb",
+          "example": "The authors put forward a testable hypothesis."
+        },
+        {
+          "word": "come up with",
+          "meaning": "bulmak; geliştirmek",
+          "pos": "three-part verb",
+          "example": "The group came up with a practical solution."
+        },
+        {
+          "word": "phase out",
+          "meaning": "aşamalı olarak kaldırmak",
+          "pos": "separable transitive phrasal verb",
+          "example": "The hospital phased out the outdated devices."
+        },
+        {
+          "word": "point out",
+          "meaning": "belirtmek; dikkat çekmek",
+          "pos": "separable transitive phrasal verb",
+          "example": "The reviewer pointed out an inconsistency."
+        },
+        {
+          "word": "break down",
+          "meaning": "arızalanmak; parçalara ayırmak",
+          "pos": "phrasal verb",
+          "example": "The analyst broke down the costs by department."
+        },
+        {
+          "word": "take into account",
+          "meaning": "hesaba katmak; göz önünde bulundurmak",
+          "pos": "verb phrase",
+          "example": "The model takes seasonal differences into account."
+        },
+        {
+          "word": "bear out",
+          "meaning": "doğrulamak; desteklemek",
+          "pos": "separable transitive phrasal verb",
+          "example": "Later observations bore out the initial prediction."
+        },
+        {
+          "word": "draw up",
+          "meaning": "hazırlamak; taslak oluşturmak",
+          "pos": "separable transitive phrasal verb",
+          "example": "The partners drew up a formal agreement."
+        }
+      ],
+      "reading": {
+        "title": "Building a repair programme",
+        "text": "A community organisation set up a repair centre after a survey showed that many residents threw away devices with minor faults. The organisers first carried out an assessment of common problems and then drew up a training plan. Volunteers learned to look into simple faults, break down repair costs and point out safety risks. They also kept records so that future teams could find out which repairs lasted longest. At first, the centre could not keep up with demand. Rather than call off the programme, the organisers came up with a booking system and took waiting times into account when assigning tasks. Local businesses supplied spare parts, which helped the centre cut down on expenses. The records later bore out the organisers' prediction that basic repairs could extend the life of many devices. The programme now aims to phase out unnecessary waste gradually while keeping safety as its central criterion.",
+        "questions": [
+          {
+            "id": "u12-r01",
+            "prompt": "Merkezin kurulmasını ne tetiklemiştir?",
+            "options": [
+              "Tüm cihazların güvenli biçimde tamir edilememesi",
+              "Anketin küçük arızalı birçok cihazın atıldığını göstermesi",
+              "İşletmelerin bütün parçaları geri çekmesi",
+              "Gönüllülerin programı iptal etmesi",
+              "Kayıtların daha önce kaybolması"
+            ],
+            "answer": 1,
+            "explanation": "İlk cümle kuruluşu, küçük arızalı cihazların atıldığını gösteren anket sonucuna bağlar."
+          },
+          {
+            "id": "u12-r02",
+            "prompt": "Başlangıçtaki yüksek talebe nasıl yanıt verilmiştir?",
+            "options": [
+              "Güvenlik ölçütü kaldırılmıştır.",
+              "Bütün gönüllüler işten ayrılmıştır.",
+              "Programı iptal etmek yerine rezervasyon sistemi geliştirilmiştir.",
+              "Cihazların atılması hızlandırılmıştır.",
+              "Program koşulsuz biçimde iptal edilmiştir."
+            ],
+            "answer": 2,
+            "explanation": "Rather than call off … came up with a booking system ifadeleri iptal yerine geliştirilen çözümü açıklar."
+          },
+          {
+            "id": "u12-r03",
+            "prompt": "'bore out' bu parçada hangi anlamdadır?",
+            "options": [
+              "Tahmini tamamen unutulmaya zorladı.",
+              "Kayıtları fiziksel olarak parçaladı.",
+              "Tamir maliyetini artırdı.",
+              "Tahmini sonraki kayıtlarla doğruladı.",
+              "Rezervasyonları erteledi."
+            ],
+            "answer": 3,
+            "explanation": "Records bore out the prediction = kayıtlar tahmini destekledi/doğruladı. Fiziksel hareket veya erteleme anlamı yoktur."
+          }
+        ]
+      }
+    }
+  ]
+}

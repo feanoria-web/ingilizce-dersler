@@ -1,0 +1,2828 @@
+{
+  "units": [
+    {
+      "id": "u01",
+      "number": 1,
+      "title": "The English Verb Tenses",
+      "subtitle": "Cümle iskeleti, zaman ve görünüş",
+      "pages": "7–93",
+      "description": "On iki zaman biçimini olayın zamanı, tamamlanması ve sürmesi üzerinden öğren. Durum fiilleri, zaman yan cümleleri, karıştırılan fiiller ve vurgulu do ile sınav cümlelerini çözümle.",
+      "outcomes": [
+        "Özne–yüklem–tamamlayıcı düzenini tanımak",
+        "Simple, continuous ve perfect bakış açılarını ayırmak",
+        "Geçmiş ve gelecek referans noktalarını doğru kurmak",
+        "Zaman bağlaçları ve durum fiillerinin tuzaklarını açıklamak"
+      ],
+      "sections": [
+        {
+          "title": "Sentence structure and BE",
+          "lead": "İngilizce cümlede zaman seçmeden önce özne, yüklem ve tamamlayıcıyı belirle.",
+          "rules": [
+            "Temel sıra subject + verb + object/complement biçimindedir; Türkçedeki yüklem-sonda alışkanlığını aktarma.",
+            "Be isim, sıfat ve yer bildiren ifadelerle ana fiil olur: am/is/are; geçmişte was/were.",
+            "Be ile soruda fiil özneden önce gelir; olumsuzda not doğrudan be sonrasına eklenir.",
+            "Be dışındaki fiillerde simple present/past soru ve olumsuzları do/does/did ile kurulur."
+          ],
+          "examples": [
+            {
+              "en": "The archive is accessible to researchers.",
+              "tr": "Arşiv araştırmacıların erişimine açıktır.",
+              "note": "Is + adjective; burada continuous zaman yoktur."
+            },
+            {
+              "en": "Were the samples in the laboratory?",
+              "tr": "Örnekler laboratuvarda mıydı?",
+              "note": "Be + yer ifadesi; soru için did kullanılmaz."
+            }
+          ],
+          "pitfalls": [
+            "Sıfatın önüne be koymayı unutma: the method reliable tek başına cümle değildir.",
+            "Her be gördüğünde continuous sanma; continuous için be + V-ing gerekir."
+          ],
+          "id": "u01-s01"
+        },
+        {
+          "title": "Simple Present",
+          "lead": "Genel doğrular, düzenli davranışlar ve takvimli olaylarda simple present kullan.",
+          "rules": [
+            "Olumlu yapı özne + V1; he/she/it ile fiile -s/-es eklenir.",
+            "Does kullanılan soru/olumsuzda ana fiil yalınlaşır: does not increase.",
+            "Always, usually ve every year gibi ifadeler sıklık gösterebilir; asıl ölçüt düzenli/geçerli anlamdır.",
+            "Resmî takvimlerde gelecek olay simple present ile anlatılabilir: the seminar begins tomorrow."
+          ],
+          "examples": [
+            {
+              "en": "The institute publishes a report every spring.",
+              "tr": "Enstitü her ilkbaharda bir rapor yayımlar.",
+              "note": "Düzenli faaliyet; tekil özne publishes alır."
+            },
+            {
+              "en": "The next lecture starts at nine tomorrow.",
+              "tr": "Bir sonraki ders yarın dokuzda başlar.",
+              "note": "Planlanmış takvim, gelecekte olsa da simple present."
+            }
+          ],
+          "pitfalls": [
+            "Does not publishes yanlıştır; yardımcı fiil kişi ekini üstlenir.",
+            "Now sözcüğüne bakıp genel bilimsel bir gerçeği otomatik continuous yapma."
+          ],
+          "id": "u01-s02"
+        },
+        {
+          "title": "Present Continuous",
+          "lead": "Konuşma anındaki, geçici veya değişmekte olan süreçleri be + V-ing ile göster.",
+          "rules": [
+            "Am/is/are + V-ing şimdi sürmekte olan eylemi belirtir.",
+            "Geçici bir dönem, artan/azalan eğilim veya kişisel gelecek düzenlemesi continuous alabilir.",
+            "Simple present kalıcılık/düzenlilik; continuous geçicilik/süreç vurgusu taşır.",
+            "Always + continuous bazen konuşanın rahatsızlığını ya da şaşkınlığını ifade eder."
+          ],
+          "examples": [
+            {
+              "en": "Researchers are testing a temporary filtration system this month.",
+              "tr": "Araştırmacılar bu ay geçici bir filtreleme sistemi deniyor.",
+              "note": "Geçici çalışma dönemi."
+            },
+            {
+              "en": "We are meeting the editor on Friday.",
+              "tr": "Cuma günü editörle buluşuyoruz.",
+              "note": "Önceden düzenlenmiş kişisel gelecek planı."
+            }
+          ],
+          "pitfalls": [
+            "Are test biçimi olmaz; be sonrasında V-ing gerekir.",
+            "Her gelecek planını will ile kurmak, düzenleme vurgusunu kaybettirebilir."
+          ],
+          "id": "u01-s03"
+        },
+        {
+          "title": "Stative and dynamic meanings",
+          "lead": "Bazı fiiller durum anlatır; bazıları anlamına göre durum veya eylem olur.",
+          "rules": [
+            "Know, own, belong ve believe çoğu standart kullanımda durum bildirdiğinden continuous almaz.",
+            "Think fikir belirtirken simple; düşünme süreci belirtirken continuous kullanılabilir.",
+            "Have sahiplikte durum, yemek/deneyim/etkinlikte eylem anlatabilir.",
+            "See algılama/anlama ile görüşme anlamlarında; taste özellik ile tatma eyleminde farklılaşır."
+          ],
+          "examples": [
+            {
+              "en": "The museum owns several rare manuscripts.",
+              "tr": "Müze birkaç nadir el yazmasına sahiptir.",
+              "note": "Own durum fiilidir."
+            },
+            {
+              "en": "The food scientist is tasting the soup.",
+              "tr": "Gıda bilimcisi çorbanın tadına bakıyor.",
+              "note": "Taste burada bir eylem; çorbanın özelliği için tastes kullanılır."
+            }
+          ],
+          "pitfalls": [
+            "I am knowing türü biçimleri standart sınav İngilizcesinde seçme.",
+            "Fiil listesini ezberleyip have/think gibi çok anlamlı fiillerin bağlamını yok sayma."
+          ],
+          "id": "u01-s04"
+        },
+        {
+          "title": "Simple Past",
+          "lead": "Tamamlanmış geçmiş olayları V2 ile anlat; geçmiş zaman çerçevesini belirle.",
+          "rules": [
+            "Düzenli fiiller -ed; düzensiz fiiller V2 alır.",
+            "Did ile soru ve olumsuzda ana fiil V1 olur; be bunun dışındadır.",
+            "Yesterday, in 2018 ve last month gibi bitmiş zaman çerçeveleri simple past ile uyumludur.",
+            "Art arda tamamlanan olayları aynı geçmiş zaman içinde anlatabiliriz."
+          ],
+          "examples": [
+            {
+              "en": "The committee rejected the proposal in 2022.",
+              "tr": "Komite öneriyi 2022 yılında reddetti.",
+              "note": "Bitmiş tarih, simple past."
+            },
+            {
+              "en": "Did the survey include rural households?",
+              "tr": "Anket kırsal haneleri kapsadı mı?",
+              "note": "Did + include; included kullanılmaz."
+            }
+          ],
+          "pitfalls": [
+            "Bitmiş bir tarih ile present perfect seçme.",
+            "Did not went yerine did not go gerekir."
+          ],
+          "id": "u01-s05"
+        },
+        {
+          "title": "Past Continuous",
+          "lead": "Geçmişte belirli bir anda sürmekte olan arka planı was/were + V-ing ile kur.",
+          "rules": [
+            "Past continuous olayın devam eden bölümünü gösterir; bittiğini tek başına söylemez.",
+            "Süren eylemin içine giren kısa olay genellikle simple past alır.",
+            "While eş zamanlı süreçleri bağlayabilir; when tek başına zaman seçtiren bir şifre değildir.",
+            "Past continuous geçici geçmiş düzenini de anlatabilir."
+          ],
+          "examples": [
+            {
+              "en": "The team was analysing the data when the server failed.",
+              "tr": "Sunucu bozulduğunda ekip verileri analiz ediyordu.",
+              "note": "Arka plan was analysing; kesen olay failed."
+            },
+            {
+              "en": "While the students were observing the birds, the guide was taking notes.",
+              "tr": "Öğrenciler kuşları gözlemlerken rehber not alıyordu.",
+              "note": "İki eş zamanlı süreç."
+            }
+          ],
+          "pitfalls": [
+            "When bulunan her iki fiili de simple past yapma; anlam ilişkisini incele.",
+            "Was/were + V2 continuous yapısı değildir."
+          ],
+          "id": "u01-s06"
+        },
+        {
+          "title": "Present Perfect",
+          "lead": "Geçmiş eylemin şimdiyle bağlantısını have/has + V3 ile göster.",
+          "rules": [
+            "Bitmiş tarih vermeden deneyim, güncel sonuç veya şimdiye kadarki değişimi anlatır.",
+            "Since başlangıç noktası, for süre belirtir; olay şimdiye uzanıyorsa present perfect uygundur.",
+            "Unfinished time ifadelerinde, örneğin this year hâlâ sürüyorsa, present perfect kullanılabilir.",
+            "Simple past bitmiş geçmiş çerçevesi; present perfect şimdiye bağlanan bakış açısıdır."
+          ],
+          "examples": [
+            {
+              "en": "The library has digitised five thousand records so far.",
+              "tr": "Kütüphane şimdiye kadar beş bin kaydı dijitalleştirdi.",
+              "note": "So far güncel toplamı gösterir."
+            },
+            {
+              "en": "I have known the curator since 2019.",
+              "tr": "Küratörü 2019 yılından beri tanıyorum.",
+              "note": "Know durum fiili, şimdiye uzanan süre."
+            }
+          ],
+          "pitfalls": [
+            "Have went yerine have gone gerekir.",
+            "Since three years yerine for three years kullan; since bir başlangıç ister."
+          ],
+          "id": "u01-s07"
+        },
+        {
+          "title": "Present Perfect Continuous",
+          "lead": "Have/has been + V-ing yakın geçmişten şimdiye uzanan süreci ve süreyi öne çıkarır.",
+          "rules": [
+            "Süregelen etkinlik veya yakın zamanda bitip izi görülen etkinlik anlatılabilir.",
+            "Present perfect simple sonuç/sayı; continuous süreç/süre odaklıdır.",
+            "Tamamlanan tekil sonuçlarda ve çoğu durum fiilinde simple biçim tercih edilir.",
+            "How many sonuç sayısını; how long ise sürenin önemini gösterebilir."
+          ],
+          "examples": [
+            {
+              "en": "The volunteers have been restoring the building for six weeks.",
+              "tr": "Gönüllüler altı haftadır binayı onarıyor.",
+              "note": "Süreç ve süre vurgusu."
+            },
+            {
+              "en": "The volunteers have restored three rooms.",
+              "tr": "Gönüllüler üç odayı onardı.",
+              "note": "Tamamlanan sonuç sayısı; simple perfect."
+            }
+          ],
+          "pitfalls": [
+            "Sayıyla belirtilen tamamlanmış ürünleri continuous ile özdeşleştirme.",
+            "Have been knowing çoğu standart kullanımda uygun değildir."
+          ],
+          "id": "u01-s08"
+        },
+        {
+          "title": "Past Perfect",
+          "lead": "Had + V3 geçmişteki bir referans noktasından daha önce gerçekleşeni gösterir.",
+          "rules": [
+            "İki geçmiş olay arasında önce gerçekleşeni açıklarken past perfect kullanılabilir.",
+            "By the time + past olay, öncesindeki tamamlanmayı sıklıkla had + V3 ile kurar.",
+            "Before/after kronolojiyi zaten açıkça gösterdiğinde her durumda past perfect zorunlu değildir.",
+            "Present perfect şimdiye, past perfect geçmişteki bir referansa bakar."
+          ],
+          "examples": [
+            {
+              "en": "By the time the inspectors arrived, the workers had repaired the leak.",
+              "tr": "Denetçiler geldiğinde çalışanlar sızıntıyı onarmıştı.",
+              "note": "Onarım varıştan önce tamamlandı."
+            },
+            {
+              "en": "She realised that she had sent the wrong attachment.",
+              "tr": "Yanlış eki gönderdiğini fark etti.",
+              "note": "Gönderme, fark etmeden önce."
+            }
+          ],
+          "pitfalls": [
+            "Yalnızca cümlede iki geçmiş fiil var diye ikisine de had ekleme.",
+            "Past perfect için geçmiş bir referans gerekçesi aramadan en eski olayı seçme."
+          ],
+          "id": "u01-s09"
+        },
+        {
+          "title": "Past Perfect Continuous",
+          "lead": "Had been + V-ing geçmiş referanstan önceki süreç/süreyi gösterir.",
+          "rules": [
+            "Geçmişteki başka bir ana kadar devam eden etkinliği vurgular.",
+            "Past perfect simple sonuç/tamamlanma; continuous süreç veya neden olan etkinlik üzerinde durur.",
+            "Past continuous referans anında sürmeyi, past perfect continuous o ana kadarki önceki süreyi vurgular.",
+            "Durum fiilleri genellikle had + V3 ile kullanılır."
+          ],
+          "examples": [
+            {
+              "en": "The soil was dry because it had not been raining for weeks.",
+              "tr": "Toprak kuruydu çünkü haftalardır yağmur yağmıyordu.",
+              "note": "Geçmişteki durumun önceki süreç nedeni."
+            },
+            {
+              "en": "They had been monitoring the coast for two hours when the warning arrived.",
+              "tr": "Uyarı geldiğinde iki saattir kıyıyı izliyorlardı.",
+              "note": "Geçmiş referansa kadar geçen süre."
+            }
+          ],
+          "pitfalls": [
+            "Had been monitored passive; had been monitoring continuous active biçimidir.",
+            "For görünce otomatik present perfect seçme; referans geçmiş olabilir."
+          ],
+          "id": "u01-s10"
+        },
+        {
+          "title": "Future: WILL, SHALL and GOING TO",
+          "lead": "Gelecek biçimi, kararın zamanı ve kanıtın niteliğiyle birlikte seçilir.",
+          "rules": [
+            "Will ani karar, teklif, söz ve tahminlerde yaygındır.",
+            "Be going to önceden kurulmuş niyet veya görülen kanıta dayalı tahmin anlatabilir.",
+            "Shall özellikle I/we ile öneri sorularında kullanılabilir: Shall we begin?",
+            "Planlar için present continuous, sabit takvimler için simple present de kullanılabilir; biçimler anlamca örtüşebilir."
+          ],
+          "examples": [
+            {
+              "en": "The graph is falling sharply; demand is going to decline.",
+              "tr": "Grafik keskin biçimde düşüyor; talep azalacak.",
+              "note": "Görülen kanıta dayalı tahmin."
+            },
+            {
+              "en": "I will send you the corrected figures now.",
+              "tr": "Düzeltilmiş rakamları size şimdi göndereceğim.",
+              "note": "Konuşma anında verilen karar/teklif."
+            }
+          ],
+          "pitfalls": [
+            "Will ile going to arasındaki ayrımı her bağlamda mutlak kural gibi uygulama.",
+            "Shall + he/she biçimini genel günlük gelecek tercihi olarak kullanma."
+          ],
+          "id": "u01-s11"
+        },
+        {
+          "title": "Future Continuous",
+          "lead": "Will be + V-ing gelecekte belirli bir anda sürmekte olacak süreci gösterir.",
+          "rules": [
+            "Gelecekteki bir zaman kesitinde devam eden eylemi anlatır.",
+            "Planın doğal akışı içinde gerçekleşmesi beklenen eylemlerde de kullanılabilir.",
+            "Nazik bilgi soruları, özellikle kişinin planını öğrenirken, future continuous ile kurulabilir."
+          ],
+          "examples": [
+            {
+              "en": "At this time tomorrow, the delegates will be discussing the budget.",
+              "tr": "Yarın bu saatte delegeler bütçeyi tartışıyor olacak.",
+              "note": "Gelecekte bir anda devam eden süreç."
+            },
+            {
+              "en": "Will you be using the laboratory this afternoon?",
+              "tr": "Bu öğleden sonra laboratuvarı kullanacak mısınız?",
+              "note": "Plan hakkında nazik bilgi sorusu."
+            }
+          ],
+          "pitfalls": [
+            "Will being değil will be gerekir.",
+            "By Friday tamamlanma hedefi ile at noon devam eden eylemi birbirine karıştırma."
+          ],
+          "id": "u01-s12"
+        },
+        {
+          "title": "Future Perfect",
+          "lead": "Will have + V3 bir gelecek sınırına kadar tamamlanmış olacak eylemi anlatır.",
+          "rules": [
+            "By + gelecek tarih bir tamamlanma sınırı oluşturabilir.",
+            "By the time + present clause geleceğe işaret ettiğinde ana cümlede future perfect kullanılabilir.",
+            "Future perfect sonucu; future continuous o an devam edecek süreci öne çıkarır."
+          ],
+          "examples": [
+            {
+              "en": "By June, the team will have completed the survey.",
+              "tr": "Hazirana kadar ekip anketi tamamlamış olacak.",
+              "note": "Gelecek tarihten önce tamamlanma."
+            },
+            {
+              "en": "By the time the lecture begins, we will have read the article.",
+              "tr": "Ders başladığında makaleyi okumuş olacağız.",
+              "note": "Zaman yan cümlesi begins, will begin değildir."
+            }
+          ],
+          "pitfalls": [
+            "Will has completed biçimi yanlıştır; will have completed gerekir.",
+            "By her zaman perfect seçtirir sanma; süre sınırının anlamını değerlendir."
+          ],
+          "id": "u01-s13"
+        },
+        {
+          "title": "Future Perfect Continuous",
+          "lead": "Will have been + V-ing gelecekteki bir noktaya kadar sürecek etkinliğin toplam süresini gösterir.",
+          "rules": [
+            "Gelecek referans + süre ifadesi bu yapının tipik bağlamını oluşturur.",
+            "Future perfect simple tamamlanan sonucu; continuous sürekliliği vurgular.",
+            "Durum fiilleriyle çoğunlukla future perfect simple kullanılır."
+          ],
+          "examples": [
+            {
+              "en": "By September, she will have been studying marine biology for three years.",
+              "tr": "Eylüle gelindiğinde üç yıldır deniz biyolojisi okuyor olacak.",
+              "note": "Gelecekteki referansa kadar süre."
+            },
+            {
+              "en": "By next week, we will have been collecting samples for a month.",
+              "tr": "Gelecek haftaya gelindiğinde bir aydır örnek topluyor olacağız.",
+              "note": "Toplama süreci ve toplam süre."
+            }
+          ],
+          "pitfalls": [
+            "Will have been collect biçiminde V-ing eksiktir.",
+            "Sadece gelecekte sürme ile geleceğe kadar biriken süreyi ayır: will be working / will have been working."
+          ],
+          "id": "u01-s14"
+        },
+        {
+          "title": "Time clauses and tense agreement",
+          "lead": "Zaman bağlacını görünce iki olayın sırasını ve referans noktasını birlikte çöz.",
+          "rules": [
+            "When, after, before, until ve as soon as zaman yan cümlelerinde gelecek anlamı çoğunlukla present biçimlerle verilir.",
+            "Gelecekte tamamlanmanın önemli olduğu yan cümlede present perfect kullanılabilir.",
+            "Geçmiş anlatıda kronoloji simple past/past perfect veya eş zamanlılık past continuous ile kurulabilir.",
+            "When bir dolaylı soru sözcüğü olduğunda farklıdır: I do not know when she will arrive."
+          ],
+          "examples": [
+            {
+              "en": "We will publish the findings after the panel has reviewed them.",
+              "tr": "Panel bulguları inceledikten sonra onları yayımlayacağız.",
+              "note": "Gelecek zaman yan cümlesinde present perfect."
+            },
+            {
+              "en": "I wonder when the panel will announce its decision.",
+              "tr": "Panelin kararını ne zaman açıklayacağını merak ediyorum.",
+              "note": "When burada noun clause başlatır; will mümkündür."
+            }
+          ],
+          "pitfalls": [
+            "Her when sonrasında will yasak sanma; clause türünü belirle.",
+            "Until tamamlanmadan önce devam eden durumu, by son sınırı ifade eder."
+          ],
+          "id": "u01-s15"
+        },
+        {
+          "title": "Confusing verbs and emphatic DO",
+          "lead": "Biçimce benzer fiilleri nesne ihtiyacıyla ayır; do vurgusunu zamanla birlikte oku.",
+          "rules": [
+            "Rise–rose–risen nesnesiz; raise–raised–raised bir nesne ister.",
+            "Lie–lay–lain yatmak anlamında nesnesiz; lay–laid–laid bir şeyi koymak anlamında nesne alır.",
+            "Sit–sat–sat nesnesiz; set–set–set bir nesneyi yerleştirmek/düzenlemek anlamında kullanılır.",
+            "Emphatic do/does/did olumlu cümlede vurgu yapar; ardından ana fiil V1 gelir."
+          ],
+          "examples": [
+            {
+              "en": "Energy prices rose, so the company raised its fees.",
+              "tr": "Enerji fiyatları arttı, bu nedenle şirket ücretlerini artırdı.",
+              "note": "Rise nesnesiz; raise fees nesne alır."
+            },
+            {
+              "en": "The authors did acknowledge the limitation.",
+              "tr": "Yazarlar sınırlılığı gerçekten kabul etti.",
+              "note": "Did olumlu vurgu; acknowledge yalın fiil."
+            }
+          ],
+          "pitfalls": [
+            "The temperature raised diye nesnesiz raise kullanma.",
+            "Did explained yanlış; vurgulu did de V1 ister."
+          ],
+          "id": "u01-s16",
+          "table": {
+            "head": [
+              "Karıştırılan biçimler",
+              "Anlam ve çekim ayrımı"
+            ],
+            "rows": [
+              [
+                "raise / rise",
+                "raise–raised–raised: bir şeyi artırmak; rise–rose–risen: artmak"
+              ],
+              [
+                "arouse / arise",
+                "arouse–aroused–aroused: duygu/ilgi uyandırmak; arise–arose–arisen: ortaya çıkmak"
+              ],
+              [
+                "set / sit",
+                "set–set–set: bir şeyi yerleştirmek; sit–sat–sat: oturmak"
+              ],
+              [
+                "lay / lie",
+                "lay–laid–laid: bir şeyi koymak; lie–lay–lain: uzanmak"
+              ],
+              [
+                "lie: iki anlam",
+                "uzanmak: lie–lay–lain; yalan söylemek: lie–lied–lied"
+              ],
+              [
+                "bind / bound",
+                "bind–bound–bound: bağlamak; bound–bounded–bounded: sınırlamak veya sıçrayarak gitmek"
+              ],
+              [
+                "find / found",
+                "find–found–found: bulmak; found–founded–founded: kurmak"
+              ],
+              [
+                "grind / ground",
+                "grind–ground–ground: öğütmek; ground–grounded–grounded: yerde tutmak"
+              ],
+              [
+                "wind / wound",
+                "wind–wound–wound: sarmak; wound–wounded–wounded: yaralamak"
+              ],
+              [
+                "fall / fell",
+                "fall–fell–fallen: düşmek; fell–felled–felled: ağaç kesmek"
+              ],
+              [
+                "see / saw",
+                "see–saw–seen: görmek; saw–sawed–sawn/sawed: testereyle kesmek"
+              ],
+              [
+                "hang: iki çekim",
+                "hung: asmak/asılı tutmak; hanged: idam etmek anlamındaki geçmiş biçim"
+              ]
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "u01-q01",
+          "type": "grammar",
+          "sectionId": "u01-s01",
+          "prompt": "The two reference books ____ on the upper shelf.",
+          "options": [
+            "are",
+            "is",
+            "be",
+            "does",
+            "being"
+          ],
+          "answer": 0,
+          "explanation": "Books çoğul olduğu için be fiili are olur. Does ana fiil olmadan yer bildirilen bu yapıyı kuramaz."
+        },
+        {
+          "id": "u01-q02",
+          "type": "grammar",
+          "sectionId": "u01-s02",
+          "prompt": "The observatory ____ its instruments at the beginning of every month.",
+          "options": [
+            "check",
+            "checks",
+            "is checked",
+            "has been checking yesterday",
+            "checking"
+          ],
+          "answer": 1,
+          "explanation": "Every month düzenli faaliyeti gösterir; tekil observatory checks alır. Is checked edilgendir ve instruments nesnesiyle uyuşmaz."
+        },
+        {
+          "id": "u01-q03",
+          "type": "grammar",
+          "sectionId": "u01-s03",
+          "prompt": "Unlike its usual annual programme, the institute ____ an extra workshop this week.",
+          "options": [
+            "run",
+            "was run",
+            "is running",
+            "has run last week",
+            "running"
+          ],
+          "answer": 2,
+          "explanation": "Bu haftaya özgü geçici faaliyet is running ile anlatılır. Run tekil özneyle uyumsuzdur; was run ise edilgen olur."
+        },
+        {
+          "id": "u01-q04",
+          "type": "meaning",
+          "sectionId": "u01-s04",
+          "prompt": "“The analyst is thinking about a new approach” cümlesinde continuous biçim neden uygundur?",
+          "options": [
+            "Think her anlamında yalnızca continuous ile kullanılır.",
+            "Cümle, analistin değişmez bir görüşünü bildirmek zorundadır.",
+            "Is ana fiildir ve thinking bir isim tamlamasıdır.",
+            "Think burada devam eden düşünme sürecini anlatır.",
+            "Cümle mutlaka geçmişte bitmiş bir eylemi bildirir."
+          ],
+          "answer": 3,
+          "explanation": "Think about bir konu üzerinde düşünme süreci olabilir. Think that ile görüş belirtildiğinde çoğunlukla simple biçim kullanılır; think her anlamında continuous değildir."
+        },
+        {
+          "id": "u01-q05",
+          "type": "grammar",
+          "sectionId": "u01-s05",
+          "prompt": "The excavation team ____ the first artefact in 2016.",
+          "options": [
+            "has discovered",
+            "has been discovering",
+            "discovers",
+            "had been discovered",
+            "discovered"
+          ],
+          "answer": 4,
+          "explanation": "In 2016 bitmiş tarih çerçevesidir; discovered gerekir. Present perfect has discovered belirli bitmiş tarihle bu kullanımda uygun değildir."
+        },
+        {
+          "id": "u01-q06",
+          "type": "grammar",
+          "sectionId": "u01-s06",
+          "prompt": "When the alarm rang, the technicians ____ the engine, so they stopped work immediately.",
+          "options": [
+            "were examining",
+            "have examined",
+            "are examining",
+            "had examined",
+            "will examine"
+          ],
+          "answer": 0,
+          "explanation": "Alarm anında inceleme sürmektedir: were examining. Had examined incelemenin o anda zaten bitmiş olduğunu söyler."
+        },
+        {
+          "id": "u01-q07",
+          "type": "grammar",
+          "sectionId": "u01-s07",
+          "prompt": "The public database ____ more than two million visits so far this year.",
+          "options": [
+            "had received",
+            "has received",
+            "will receive",
+            "was receiving",
+            "is receiving"
+          ],
+          "answer": 1,
+          "explanation": "So far this year şimdiye kadarki toplamı gösterir: has received. Had received için geçmiş bir referans gerekir; is receiving tamamlanan birikimli toplamı vermez."
+        },
+        {
+          "id": "u01-q08",
+          "type": "translation",
+          "sectionId": "u01-s08",
+          "prompt": "“Ekip altı saattir verileri işliyor ve henüz bitirmedi.” için en uygun çeviri hangisidir?",
+          "options": [
+            "The team processed the data six hours ago and then stopped.",
+            "The team had finished processing the data before the six-hour session began.",
+            "The team has been processing the data for six hours and has not finished yet.",
+            "The team will start processing the data in six hours.",
+            "The team processes the data once every six hours."
+          ],
+          "answer": 2,
+          "explanation": "Geçmişten şimdiye süren etkinlik has been processing ile anlatılır; has not finished yet devamı tamamlanmadığını açıklar. Six hours ago birikimli süreyi başlangıç zamanına çevirir."
+        },
+        {
+          "id": "u01-q09",
+          "type": "grammar",
+          "sectionId": "u01-s09",
+          "prompt": "By the time the meeting started yesterday, the secretary ____ all the documents.",
+          "options": [
+            "has distributed",
+            "is distributing",
+            "will distribute",
+            "had distributed",
+            "had been distributing tomorrow"
+          ],
+          "answer": 3,
+          "explanation": "Dağıtma dünkü toplantı başlangıcından önce tamamlanmıştır: had distributed. Has distributed referansı şimdiye taşır."
+        },
+        {
+          "id": "u01-q10",
+          "type": "meaning",
+          "sectionId": "u01-s10",
+          "prompt": "“They had been monitoring the coast for two hours when the warning arrived.” cümlesine en yakın anlam hangisidir?",
+          "options": [
+            "Kıyıyı izlemeye uyarı geldikten iki saat sonra başladılar.",
+            "Kıyıyı her iki saatte bir izlerler ve uyarı henüz gelmedi.",
+            "Uyarıdan sonra kıyıyı iki saat izleyeceklerdi.",
+            "Uyarı geldikten sonra kıyıyı izlemeyi kesin olarak reddettiler.",
+            "Uyarı geldiğinde kıyıyı izleme süreci iki saattir devam ediyordu."
+          ],
+          "answer": 4,
+          "explanation": "Had been monitoring uyarıdan önce başlayan ve o referansa kadar iki saat süren etkinliği gösterir. Uyarıdan sonra başlama seçeneği kronolojiyi tersine çevirir."
+        },
+        {
+          "id": "u01-q11",
+          "type": "grammar",
+          "sectionId": "u01-s11",
+          "prompt": "“The printer has stopped.” “All right, I ____ the technician now.”",
+          "options": [
+            "will call",
+            "had called",
+            "had been calling",
+            "was calling",
+            "would have called"
+          ],
+          "answer": 0,
+          "explanation": "Yanıt anında verilen karar will call ile uygundur. Had called ve was calling geçmiş olayları; would have called alternatif geçmiş sonucu anlatır."
+        },
+        {
+          "id": "u01-q12",
+          "type": "grammar",
+          "sectionId": "u01-s12",
+          "prompt": "At ten o’clock tomorrow, the delegates ____ the final report; their discussion is scheduled for nine to eleven.",
+          "options": [
+            "will have discussed",
+            "will be discussing",
+            "had discussed",
+            "have discussed",
+            "discussed"
+          ],
+          "answer": 1,
+          "explanation": "Dokuz-on bir aralığında saat onda süreç devam edecektir: will be discussing. Will have discussed o zamana kadar bitmiş olduğunu söyler."
+        },
+        {
+          "id": "u01-q13",
+          "type": "grammar",
+          "sectionId": "u01-s13",
+          "prompt": "By the deadline next Friday, the team ____ all three chapters.",
+          "options": [
+            "had revised",
+            "has revised yesterday",
+            "will have revised",
+            "was revising",
+            "will have revise"
+          ],
+          "answer": 2,
+          "explanation": "Gelecek son sınıra kadar tamamlanma will have revised ile kurulur. Will have revise yanlıştır; V3 gerekir."
+        },
+        {
+          "id": "u01-q14",
+          "type": "translation",
+          "sectionId": "u01-s14",
+          "prompt": "“Ay sonunda bir yıldır bu proje üzerinde çalışıyor olacak.” için en uygun çeviri hangisidir?",
+          "options": [
+            "She began working on this project a year after the month ended.",
+            "She had completed the project before the beginning of last month.",
+            "She will start a one-year project after the end of this month.",
+            "By the end of the month, she will have been working on this project for a year.",
+            "She works on this project for one month every year."
+          ],
+          "answer": 3,
+          "explanation": "Gelecek bir noktaya kadar biriken süre will have been working + for a year ile kurulur. Başlamak/bitti seçenekleri süreci ve referans zamanını değiştirir."
+        },
+        {
+          "id": "u01-q15",
+          "type": "grammar",
+          "sectionId": "u01-s15",
+          "prompt": "We will send the specimens to the laboratory as soon as the courier ____.",
+          "options": [
+            "will arrive",
+            "would arrive",
+            "had arrived",
+            "arriving",
+            "arrives"
+          ],
+          "answer": 4,
+          "explanation": "As soon as zaman yan cümlesinde gelecek anlamı present arrives ile verilir. Will arrive bu standart zaman yan cümlesinde kullanılmaz."
+        },
+        {
+          "id": "u01-q16",
+          "type": "grammar",
+          "sectionId": "u01-s16",
+          "prompt": "Although the article was brief, it ____ explain the central problem clearly.",
+          "options": [
+            "did",
+            "was",
+            "had",
+            "has",
+            "is"
+          ],
+          "answer": 0,
+          "explanation": "Vurgu için did + explain kullanılır. Had/has perfect kurmak için explained ister; was/is açıklamak fiilinin yalın biçimiyle birleşmez."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "trend",
+          "meaning": "eğilim",
+          "pos": "noun",
+          "example": "The long-term trend indicates lower energy consumption."
+        },
+        {
+          "word": "duration",
+          "meaning": "süre",
+          "pos": "noun",
+          "example": "The duration of the experiment was recorded precisely."
+        },
+        {
+          "word": "subsequent",
+          "meaning": "sonraki",
+          "pos": "adjective",
+          "example": "Subsequent studies confirmed the initial observation."
+        },
+        {
+          "word": "ongoing",
+          "meaning": "devam eden",
+          "pos": "adjective",
+          "example": "The ongoing investigation includes three laboratories."
+        },
+        {
+          "word": "annual",
+          "meaning": "yıllık",
+          "pos": "adjective",
+          "example": "The annual report describes changes in enrolment."
+        },
+        {
+          "word": "gradually",
+          "meaning": "yavaş yavaş",
+          "pos": "adverb",
+          "example": "The concentration gradually decreased."
+        },
+        {
+          "word": "previously",
+          "meaning": "daha önce",
+          "pos": "adverb",
+          "example": "The site had previously served as a warehouse."
+        },
+        {
+          "word": "anticipate",
+          "meaning": "öngörmek",
+          "pos": "verb",
+          "example": "Analysts anticipate a modest recovery."
+        },
+        {
+          "word": "establish",
+          "meaning": "kurmak; ortaya koymak",
+          "pos": "verb",
+          "example": "The study established a link between sleep and attention."
+        },
+        {
+          "word": "maintain",
+          "meaning": "sürdürmek; korumak",
+          "pos": "verb",
+          "example": "The researchers maintain consistent testing conditions."
+        },
+        {
+          "word": "fluctuate",
+          "meaning": "dalgalanmak",
+          "pos": "verb",
+          "example": "Market prices fluctuate throughout the year."
+        },
+        {
+          "word": "cumulative",
+          "meaning": "birikimli",
+          "pos": "adjective",
+          "example": "The graph shows the cumulative number of applications."
+        }
+      ],
+      "reading": {
+        "title": "Tracking an urban forest",
+        "text": "For the past eight years, a university team has been monitoring trees in a rapidly expanding city. The researchers record temperature, soil moisture, and canopy size at the same sites each summer. When the project began, several neighbourhoods had already lost much of their green space. Since then, the team has observed a gradual increase in surface temperatures, especially where mature trees were removed. However, the scientists do not attribute every change to tree loss: building materials and traffic also affect local conditions. Next year, they will add sensors to twelve recently planted areas. By the end of the following summer, they will have compared two full seasons of data from those locations. The aim is to identify which planting strategies provide lasting benefits, rather than simply counting how many trees a city has planted. These findings may help planners evaluate investments more carefully.",
+        "questions": [
+          {
+            "id": "u01-r01",
+            "prompt": "What is the main purpose of the project?",
+            "options": [
+              "To prove that traffic has no effect on local temperatures",
+              "To count every tree in the city",
+              "To determine which planting strategies offer lasting environmental benefits",
+              "To replace all mature trees with young ones",
+              "To compare the cost of different building materials"
+            ],
+            "answer": 2,
+            "explanation": "Son cümlelerden önce amaç açıkça lasting benefits sağlayan planting strategies olarak verilir. Yalnızca ağaç saymak, metnin yetersiz gördüğü yaklaşımdır."
+          },
+          {
+            "id": "u01-r02",
+            "prompt": "What had happened before the project started?",
+            "options": [
+              "New sensors had been added to twelve planted areas",
+              "Two seasons of data from the new sites had been compared",
+              "All traffic had been removed from the city",
+              "Several neighbourhoods had lost a large share of their green space",
+              "The researchers had stopped measuring canopy size"
+            ],
+            "answer": 3,
+            "explanation": "When the project began ... had already lost kronolojiyi açıklar. Yeni alanların sensörleri ise next year eklenecektir."
+          },
+          {
+            "id": "u01-r03",
+            "prompt": "Why do the researchers avoid explaining every temperature change by tree loss?",
+            "options": [
+              "The temperature records cover only one week",
+              "They have not measured soil moisture",
+              "Young trees always cool cities more than mature trees",
+              "The city has stopped expanding",
+              "Other factors, including traffic and building materials, affect local conditions"
+            ],
+            "answer": 4,
+            "explanation": "Metin building materials and traffic also affect local conditions der. Ölçümlerin sadece bir haftalık olduğu veya nem ölçülmediği söylenmez."
+          }
+        ]
+      }
+    },
+    {
+      "id": "u02",
+      "number": 2,
+      "title": "Modals and Similar Expressions",
+      "subtitle": "Gereklilik, tavsiye, olasılık ve tercih",
+      "pages": "94–143",
+      "description": "Modal fiilleri yalnızca çevirileriyle değil, konuşanın niyeti ve kanıt düzeyiyle öğren. Şimdiki, geçmiş ve süren olaylar için yardımcı fiil dizilerini kur; gereklilik, çıkarım ve tercihi ayır.",
+      "outcomes": [
+        "Rica, yasak ve gerek olmama anlamlarını ayırmak",
+        "Modal + perfect/continuous yapılarını zamanla eşleştirmek",
+        "Geçmiş başarı ve geçmiş alışkanlığı doğru anlatmak",
+        "Tercih ve öneri kalıplarında uygun fiil biçimini seçmek"
+      ],
+      "sections": [
+        {
+          "title": "Requests and politeness",
+          "lead": "İzin istemek, birinden eylem istemek ve rica biçimini yumuşatmak farklı kalıplar gerektirir.",
+          "rules": [
+            "May/Could/Can I ...? kendi eylemin için izin ister; Would/Could/Can you ...? karşı taraftan eylem ister.",
+            "Would you mind + V-ing karşı tarafın bir eylemi yapmasını ister; would you mind if + simple past kendi eylemin için izin ister.",
+            "Do you mind if + present biçimi de izin ister; mind sorusuna no cevabı itiraz olmadığını gösterebilir.",
+            "Please veya yardımcı rica cümlesi emir kipini yumuşatabilir; çıplak emir bağlama göre sert duyulabilir."
+          ],
+          "examples": [
+            {
+              "en": "Could you forward the revised timetable?",
+              "tr": "Düzeltilmiş takvimi iletebilir misiniz?",
+              "note": "You ile karşı taraftan eylem istenir."
+            },
+            {
+              "en": "Would you mind if I used this desk?",
+              "tr": "Bu masayı kullanmamın sakıncası olur mu?",
+              "note": "If + simple past burada geçmiş zaman anlatmaz; nazik izin isteğidir."
+            }
+          ],
+          "pitfalls": [
+            "Would you mind to open yerine opening gerekir.",
+            "Mind sorusundaki no cevabını otomatik ret olarak yorumlama."
+          ],
+          "id": "u02-s01"
+        },
+        {
+          "title": "Necessity and prohibition",
+          "lead": "Must/have to gereklilik, must not yasak bildirir; yapıların olumsuz anlamlarını ayır.",
+          "rules": [
+            "Must + V1 ve have to + V1 zorunluluk anlatır; have to farklı zamanlarda çekimlenebilir.",
+            "Have got to şimdiki gereklilik için konuşma dilinde yaygındır; geçmişte had to tercih edilir.",
+            "Must not/mustn't yasak bildirir; do not have to gerek olmadığını bildirir.",
+            "Gereklilik geçmişe taşındığında had to; gelecekte will have to kullanılabilir."
+          ],
+          "examples": [
+            {
+              "en": "All participants must wear protective glasses.",
+              "tr": "Tüm katılımcılar koruyucu gözlük takmak zorundadır.",
+              "note": "Zorunluluk; must + yalın fiil."
+            },
+            {
+              "en": "Visitors must not touch the fragile exhibits.",
+              "tr": "Ziyaretçiler kırılgan eserleri ellememelidir.",
+              "note": "Yasak; dokunmak isteğe bağlı değildir."
+            }
+          ],
+          "pitfalls": [
+            "Must not ile do not have to eş anlamlı değildir.",
+            "Musted diye geçmiş biçim yoktur; had to kullanılır."
+          ],
+          "id": "u02-s02"
+        },
+        {
+          "title": "Lack of necessity in the past",
+          "lead": "Gerek yoktu ile gereksiz yere yaptım ayrımını bağlam üzerinden kur.",
+          "rules": [
+            "Did not have to/did not need to geçmişte zorunluluk olmadığını belirtir; tek başına eylemin yapılıp yapılmadığını her bağlamda kesinleştirmez.",
+            "Need not have + V3 eylemin gerçekleştiğini fakat gerekli olmadığını açıkça anlatır.",
+            "Had to geçmiş gereklilik; did not have to bunun gerek olmama karşılığıdır.",
+            "Eylemin gerçekleşmesini gösteren devam cümlesi, seçenekler arasındaki anlam farkını netleştirir."
+          ],
+          "examples": [
+            {
+              "en": "We need not have printed the forms; digital copies were accepted.",
+              "tr": "Formları basmamıza gerek yokmuş; dijital kopyalar kabul edildi.",
+              "note": "Basım yapıldı, sonra gereksiz olduğu görüldü."
+            },
+            {
+              "en": "I did not have to attend, so I stayed at home.",
+              "tr": "Katılmam gerekmiyordu, bu yüzden evde kaldım.",
+              "note": "Evde kaldım ifadesi katılmadığını ayrıca belirtiyor."
+            }
+          ],
+          "pitfalls": [
+            "Need not have done ifadesini yapılmamış eylem olarak çevirme.",
+            "Did not need to tek başına her kullanımda kesinlikle yapılmadı demek değildir."
+          ],
+          "id": "u02-s03"
+        },
+        {
+          "title": "Advice, criticism and ongoing conduct",
+          "lead": "Should/ought to öneri verir; had better belirli durumda olumsuz sonucu önleme tonunu taşır.",
+          "rules": [
+            "Should/ought to + V1 şimdiki/gelecekteki tavsiye; olumsuzları should not/ought not to biçimindedir.",
+            "Had better + V1 belirli bir uyarıda güçlü tavsiyedir; had better not olumsuzdur.",
+            "Should/ought to be + V-ing sürmekte olan davranışa ilişkin tavsiye/değerlendirme yapar.",
+            "Should/ought to have + V3 geçmişteki yapılması beklenen davranışı; have been + V-ing geçmiş süreci değerlendirebilir.",
+            "Should have done bağlama göre eleştiri veya geçmiş beklenti olabilir; eylemin yapılmadığını körü körüne varsayma."
+          ],
+          "examples": [
+            {
+              "en": "You should have checked the figures before submitting the report.",
+              "tr": "Raporu göndermeden önce rakamları kontrol etmeliydin.",
+              "note": "Geçmiş davranışa eleştiri."
+            },
+            {
+              "en": "They should not be storing chemicals near the heater.",
+              "tr": "Kimyasalları ısıtıcının yakınında depolamamalılar.",
+              "note": "Süren davranışın değerlendirilmesi."
+            }
+          ],
+          "pitfalls": [
+            "Had better to leave değil had better leave gerekir.",
+            "Should have V1 yanlış; perfect biçim V3 ister."
+          ],
+          "id": "u02-s04"
+        },
+        {
+          "title": "Expectations: BE TO and BE SUPPOSED TO",
+          "lead": "Düzenleme, görev ve beklenti içeren ifadelerin anlamını zamanla birlikte oku.",
+          "rules": [
+            "Be to + V1 resmî plan, talimat veya düzenlenmiş görevi anlatabilir.",
+            "Be supposed to + V1 bir kurala/beklentiye göre ne olması gerektiğini gösterir.",
+            "Was/were supposed to geçmişteki beklentiyi belirtir; bağlam gerçekleşmemeyi gösterebilir ama yapı tek başına her durumda bunu zorunlu kılmaz.",
+            "Not supposed to yasak/beklentiye aykırılık anlatabilir."
+          ],
+          "examples": [
+            {
+              "en": "The committee is to publish its decision on Monday.",
+              "tr": "Komitenin kararını pazartesi yayımlaması planlanmıştır.",
+              "note": "Resmî düzenleme."
+            },
+            {
+              "en": "The device is supposed to remain off during maintenance.",
+              "tr": "Bakım sırasında cihazın kapalı kalması gerekir.",
+              "note": "Kuraldan doğan beklenti."
+            }
+          ],
+          "pitfalls": [
+            "Supposed sözcüğünden sonra infinitive to biçimini unutma.",
+            "Was supposed to ile geçmişteki sonucu bağlam olmadan kesin olarak başarısız ilan etme."
+          ],
+          "id": "u02-s05"
+        },
+        {
+          "title": "Ability across time",
+          "lead": "Can genel yetenek ve imkân; be able to başka zaman ve yapılarda esneklik sağlar.",
+          "rules": [
+            "Can/could + V1 genel şimdiki/geçmiş yeteneği anlatabilir.",
+            "Be able to çekimlenerek will be able to ve has been able to gibi biçimler kurar.",
+            "Geçmişte tek bir başarılı olayda was/were able to veya managed to sıklıkla daha açıktır.",
+            "Could not tek bir olayda başarısızlığı da anlatabilir; algı fiilleri ve bazı bağlamlarda olumlu could kullanımını yasaklama."
+          ],
+          "examples": [
+            {
+              "en": "After several attempts, the engineers were able to restore the signal.",
+              "tr": "Birkaç denemeden sonra mühendisler sinyali geri getirebildi.",
+              "note": "Tekil geçmiş başarı."
+            },
+            {
+              "en": "When she was a child, she could identify dozens of birds.",
+              "tr": "Çocukken onlarca kuşu tanıyabiliyordu.",
+              "note": "Genel geçmiş yetenek."
+            }
+          ],
+          "pitfalls": [
+            "Will can yerine will be able to gerekir.",
+            "Could bütün olumlu geçmiş olaylarda imkânsızdır şeklinde aşırı genelleme yapma."
+          ],
+          "id": "u02-s06"
+        },
+        {
+          "title": "Suggestions and invitations",
+          "lead": "Öneri kalıplarını kendilerinden sonra gelen fiil biçimleriyle birlikte öğren.",
+          "rules": [
+            "Let's + V1 ortak öneri; why don't we/you + V1 öneri sorusudur.",
+            "How about/what about + V-ing veya isim önerir.",
+            "Shall we + V1 ortak eylem önerisi; could + V1 olası bir seçenek sunabilir.",
+            "Suggest + V-ing veya suggest that + subject + V1/should V1 uygundur; suggest someone to do standart kalıp değildir."
+          ],
+          "examples": [
+            {
+              "en": "How about comparing the two datasets first?",
+              "tr": "Önce iki veri kümesini karşılaştırmaya ne dersiniz?",
+              "note": "About bir preposition olduğundan V-ing."
+            },
+            {
+              "en": "I suggest that we postpone the trial.",
+              "tr": "Denemeyi ertelememizi öneriyorum.",
+              "note": "That clause içinde yalın fiil; should postpone da mümkündür."
+            }
+          ],
+          "pitfalls": [
+            "Let's to begin değil let's begin kullan.",
+            "Suggest us to postpone yerine suggest that we postpone kullan."
+          ],
+          "id": "u02-s07"
+        },
+        {
+          "title": "Certainty and deduction",
+          "lead": "Modal seçimini kanıtın gücüyle, yardımcı dizisini ise olayın zamanıyla eşleştir.",
+          "rules": [
+            "Must + V1 güçlü olumlu çıkarım; may/might/could + V1 olasılık bildirir.",
+            "Can't/couldn't güçlü olumsuz çıkarım; may not/might not olası olumsuzluk bildirir.",
+            "Be + V-ing şimdi sürmekte olan çıkarımı; have + V3 geçmiş çıkarımı gösterir.",
+            "Have been + V-ing geçmişte sürmüş olabilecek süreci belirtir.",
+            "Gelecek olasılıkta may/might/could kullanılabilir; should beklenen sonucu ifade edebilir.",
+            "Must gereklilik ve çıkarım anlamlarına sahip olabilir; must have V3 geçmiş çıkarımdır, geçmiş zorunluluk değildir."
+          ],
+          "examples": [
+            {
+              "en": "The lights are on; someone must be working inside.",
+              "tr": "Işıklar açık; içeride biri çalışıyor olmalı.",
+              "note": "Güçlü şimdiki süreç çıkarımı."
+            },
+            {
+              "en": "The folder is missing; I may have left it in the lecture hall.",
+              "tr": "Dosya kayıp; onu ders salonunda bırakmış olabilirim.",
+              "note": "Geçmişteki olasılık, may have V3."
+            }
+          ],
+          "pitfalls": [
+            "Must have left ifadesini ayrılmak zorundaydı diye çevirme.",
+            "Can't have done geçmiş olumsuz çıkarım; must not do ise çoğunlukla yasaktır."
+          ],
+          "id": "u02-s08"
+        },
+        {
+          "title": "Preference",
+          "lead": "Tercih yapılarında iki seçeneğin paralel biçimde kurulmasına dikkat et.",
+          "rules": [
+            "Prefer noun/V-ing to noun/V-ing genel tercih bildirir.",
+            "Prefer to V1 rather than V1 yapısında iki eylem yalın infinitive düzenini korur.",
+            "Would rather + V1 than V1 belirli tercih; would rather not olumsuz tercihtir.",
+            "Would rather + farklı subject + simple past şimdiki/gelecek davranış tercihini, past perfect geçmiş tercihini anlatır.",
+            "Would prefer + to V1 belirli tercih verir; would sooner + V1, would rather ile benzer anlam taşır.",
+            "Would rather be V-ing şimdiki süreç tercihi; would rather have V3 geçmişte tercih edilen alternatif eylemi anlatabilir."
+          ],
+          "examples": [
+            {
+              "en": "The students prefer reading articles to watching summaries.",
+              "tr": "Öğrenciler özet izlemektense makale okumayı tercih ediyor.",
+              "note": "Prefer V-ing to V-ing."
+            },
+            {
+              "en": "I would rather you sent the draft tomorrow.",
+              "tr": "Taslağı yarın göndermenizi tercih ederim.",
+              "note": "Farklı özne sonrasında sent geçmiş zamanı değil tercihi gösterir."
+            },
+            {
+              "en": "I would rather have analysed the raw data than relied on the summary.",
+              "tr": "Özete dayanmak yerine ham verileri analiz etmiş olmayı tercih ederdim.",
+              "note": "Geçmişteki alternatif tercih, would rather have V3."
+            }
+          ],
+          "pitfalls": [
+            "Would rather to study değil would rather study gerekir.",
+            "Prefer ... than yerine karşılaştırılan türlere göre to/rather than kalıbını seç."
+          ],
+          "id": "u02-s09"
+        },
+        {
+          "title": "Past habits: USED TO and WOULD",
+          "lead": "Geçmişteki alışkanlıkları anlatırken durum ile yinelenen eylemi ayır.",
+          "rules": [
+            "Used to + V1 geçmiş alışkanlık veya durum bildirir; artık geçerli olmama anlamı tipiktir.",
+            "Would + V1 geçmiş çerçevesi içinde yinelenen eylem anlatabilir; sürekli sahiplik/durum için used to daha uygundur.",
+            "Used to ile be used to + noun/V-ing karıştırılmamalıdır; ikincisi alışkın olmak demektir.",
+            "Get used to + noun/V-ing alışma sürecini anlatır."
+          ],
+          "examples": [
+            {
+              "en": "The old station used to belong to the municipality.",
+              "tr": "Eski istasyon eskiden belediyeye aitti.",
+              "note": "Geçmiş durum, used to."
+            },
+            {
+              "en": "During summer visits, we would walk along the river every evening.",
+              "tr": "Yaz ziyaretlerinde her akşam nehir boyunca yürürdük.",
+              "note": "Geçmiş çerçevede yinelenen eylem."
+            }
+          ],
+          "pitfalls": [
+            "Be used to work ile be used to working anlam/yapı bakımından farklıdır.",
+            "Geçmiş sahiplik için would own kullanıp used to own yerine otomatik koyma."
+          ],
+          "id": "u02-s10"
+        }
+      ],
+      "questions": [
+        {
+          "id": "u02-q01",
+          "type": "grammar",
+          "sectionId": "u02-s01",
+          "prompt": "Would you mind ____ the window? The room is getting warm.",
+          "options": [
+            "opening",
+            "to open",
+            "open",
+            "opened",
+            "to opening"
+          ],
+          "answer": 0,
+          "explanation": "Would you mind + V-ing rica kalıbıdır. To open bu kalıpta kullanılmaz."
+        },
+        {
+          "id": "u02-q02",
+          "type": "grammar",
+          "sectionId": "u02-s02",
+          "prompt": "Visitors ____ enter the storage room without written permission; entry is strictly prohibited.",
+          "options": [
+            "do not have to",
+            "must not",
+            "need not",
+            "are not required to",
+            "did not need to"
+          ],
+          "answer": 1,
+          "explanation": "Strictly prohibited yasak bildirir: must not. Do not have to zorunluluk olmadığını söyler ve yasak anlamını vermez."
+        },
+        {
+          "id": "u02-q03",
+          "type": "grammar",
+          "sectionId": "u02-s03",
+          "prompt": "We ____ bought extra tickets, because the organiser later told us that our invitations already included admission.",
+          "options": [
+            "must not have",
+            "cannot have",
+            "need not have",
+            "would rather have",
+            "had better"
+          ],
+          "answer": 2,
+          "explanation": "Biletler alındı ama gerek olmadığı sonradan anlaşıldı: need not have bought. Cannot have bought eylemin gerçekleşmiş olmasını reddeder."
+        },
+        {
+          "id": "u02-q04",
+          "type": "grammar",
+          "sectionId": "u02-s04",
+          "prompt": "Dün yapılmayan kontrole ilişkin geçmiş eleştirisini tamamlayın: The inaccurate data were published yesterday because you did not check them. You ____ them before publication.",
+          "options": [
+            "should check",
+            "must be checking",
+            "may check",
+            "should have checked",
+            "will have checked"
+          ],
+          "answer": 3,
+          "explanation": "Geçmişte yapılmayan bir davranış eleştiriliyor: should have checked. Should check bundan sonraki tavsiyeye yönelir."
+        },
+        {
+          "id": "u02-q05",
+          "type": "translation",
+          "sectionId": "u02-s05",
+          "prompt": "“The researchers were supposed to submit their findings by Friday, but they missed the deadline.” cümlesine en yakın anlam hangisidir?",
+          "options": [
+            "Araştırmacılar bulgularını cumadan sonra sunmak için izin aldı.",
+            "Araştırmacılar bulgularını cuma günü sunmuş olmalıdır.",
+            "Araştırmacıların bulgularını sunması gerekmiyordu ve onlar erken sundu.",
+            "Araştırmacılar bulgularını cumaya kadar sunabileceklerini kanıtladı.",
+            "Araştırmacıların bulgularını cumaya kadar sunmaları bekleniyordu, ancak son tarihi kaçırdılar."
+          ],
+          "answer": 4,
+          "explanation": "Were supposed to beklenti, but they missed gerçekleşmeme bildirir. Sunmuş olmalıdır ifadesi modal çıkarıma dönüşür."
+        },
+        {
+          "id": "u02-q06",
+          "type": "grammar",
+          "sectionId": "u02-s06",
+          "prompt": "Despite the poor connection, the technician finally ____ recover the damaged file.",
+          "options": [
+            "managed to",
+            "must",
+            "should have",
+            "would rather",
+            "may have"
+          ],
+          "answer": 0,
+          "explanation": "Finally ve tekil geçmiş başarı managed to recover ile açıkça verilir. Should have recover biçimi de dilbilgisel değildir; recovered gerekirdi."
+        },
+        {
+          "id": "u02-q07",
+          "type": "grammar",
+          "sectionId": "u02-s07",
+          "prompt": "How about ____ a smaller sample before conducting the full survey?",
+          "options": [
+            "to test",
+            "testing",
+            "test",
+            "tested",
+            "to testing"
+          ],
+          "answer": 1,
+          "explanation": "How about + V-ing öneri kalıbıdır. Test yalın biçimi about sonrasında bu görevde kullanılamaz."
+        },
+        {
+          "id": "u02-q08",
+          "type": "grammar",
+          "sectionId": "u02-s08",
+          "prompt": "The report was written before 2010, so it ____ been based on data first collected in 2024.",
+          "options": [
+            "must have",
+            "should have",
+            "cannot have",
+            "need not have",
+            "would have"
+          ],
+          "answer": 2,
+          "explanation": "2010 öncesinde yazılan raporun 2024’te ilk kez toplanan verilere dayanması kronolojik olarak mümkün değildir; cannot have been based güçlü olumsuz çıkarımdır. Need not have gereksizliği bildirir."
+        },
+        {
+          "id": "u02-q09",
+          "type": "grammar",
+          "sectionId": "u02-s08",
+          "prompt": "We do not know where the assistant is, but the laboratory is closed; she ____ at home now.",
+          "options": [
+            "must have worked",
+            "had to work",
+            "need not have worked",
+            "may be working",
+            "could have worked yesterday"
+          ],
+          "answer": 3,
+          "explanation": "Şimdiki olası süreç may be working ile verilir; bilgi güçlü çıkarım için yeterli değildir. Must have worked geçmişte tamamlanan eyleme bakar."
+        },
+        {
+          "id": "u02-q10",
+          "type": "grammar",
+          "sectionId": "u02-s09",
+          "prompt": "The committee would rather ____ the decision until all the evidence is available.",
+          "options": [
+            "to postpone",
+            "postponing",
+            "postponed",
+            "to postponing",
+            "postpone"
+          ],
+          "answer": 4,
+          "explanation": "Would rather aynı özneyle V1 ister: postpone. To postpone bu kalıpta uygun değildir."
+        },
+        {
+          "id": "u02-q11",
+          "type": "meaning",
+          "sectionId": "u02-s10",
+          "prompt": "“The researcher used to live near the campus.” cümlesi en doğal olarak neyi anlatır?",
+          "options": [
+            "Araştırmacı eskiden kampüs yakınında yaşardı; bu geçmiş durum artık genellikle geçerli değildir.",
+            "Araştırmacı kampüs yakınında yaşamaya şu anda alışıyor.",
+            "Araştırmacı kampüs yakınında yaşamak zorundadır.",
+            "Araştırmacı kampüs yakınında yaşamış olamaz.",
+            "Araştırmacı kampüs yakınında yaşamayı bu sabah teklif etti."
+          ],
+          "answer": 0,
+          "explanation": "Used to + V1 geçmiş durum/alışkanlık ve tipik olarak artık sürmeme anlamı taşır. Alışma süreci get used to living ile anlatılır."
+        },
+        {
+          "id": "u02-q12",
+          "type": "grammar",
+          "sectionId": "u02-s04",
+          "prompt": "You ____ the specimens near direct sunlight; the protocol requires a cool, shaded location.",
+          "options": [
+            "should be stored",
+            "should not be storing",
+            "should have store",
+            "ought not stored",
+            "had better to store"
+          ],
+          "answer": 1,
+          "explanation": "Sürmekte olan yanlış davranış should not be storing ile değerlendirilir. Should be stored edilgendir ve you öznesiyle specimens nesnesini birlikte taşıyamaz."
+        },
+        {
+          "id": "u02-q13",
+          "type": "grammar",
+          "sectionId": "u02-s02",
+          "prompt": "The equipment is optional. Participants ____ bring their own laptops, although they may do so.",
+          "options": [
+            "must not",
+            "cannot",
+            "do not have to",
+            "must",
+            "are forbidden to"
+          ],
+          "answer": 2,
+          "explanation": "Optional ve may do so izinli ama gereksiz anlamı verir: do not have to. Must not yasağa dönüşür ve devam cümlesiyle çelişir."
+        },
+        {
+          "id": "u02-q14",
+          "type": "meaning",
+          "sectionId": "u02-s08",
+          "prompt": "The archive may have been using an outdated security system when the incident occurred. cümlesi hangi anlamı verir?",
+          "options": [
+            "Arşiv eski sistemi kullanmak zorundaydı.",
+            "Arşiv şu anda kesinlikle yeni bir sistem kullanıyor.",
+            "Arşiv olaydan önce eski sistemi kullanmayı kesin olarak bırakmıştı.",
+            "Olay sırasında arşiv eski bir güvenlik sistemi kullanıyor olabilir.",
+            "Arşivin eski sistemi kullanması yasaktı."
+          ],
+          "answer": 3,
+          "explanation": "May have been using geçmişte sürmekte olan olası süreci belirtir. Zorunluluk had to use ile kurulur; may kesinlik bildirmez."
+        },
+        {
+          "id": "u02-q15",
+          "type": "translation",
+          "sectionId": "u02-s09",
+          "prompt": "“Toplantıyı bugün yapmaktansa yarına ertelemeyi tercih ederim.” için en uygun çeviri hangisidir?",
+          "options": [
+            "I would rather to postpone the meeting until tomorrow than holding it today.",
+            "I prefer holding the meeting today to postponing it until tomorrow.",
+            "I had to postpone the meeting until tomorrow because I held it today.",
+            "I should have postponed the meeting until tomorrow rather than holding it today.",
+            "I would rather postpone the meeting until tomorrow than hold it today."
+          ],
+          "answer": 4,
+          "explanation": "Would rather V1 than V1 belirli tercihi doğru verir. Prefer holding today seçeneği tercihin yönünü tersine çevirir; should have geçmiş eleştiri ekler."
+        },
+        {
+          "id": "u02-q16",
+          "type": "meaning",
+          "sectionId": "u02-s01",
+          "prompt": "“Would you mind if I sat here?” sorusuna “No, not at all.” yanıtı bağlamda ne anlama gelir?",
+          "options": [
+            "Konuşan kişinin oturmasına itiraz yoktur.",
+            "Konuşan kişinin oturması kesinlikle yasaktır.",
+            "Yanıt veren kişi zaten başka bir yere oturmuştur.",
+            "Konuşan kişi ayağa kalkmak zorundadır.",
+            "Yanıt veren kişi soruyu geçmiş bir olay olarak yorumlamıştır."
+          ],
+          "answer": 0,
+          "explanation": "Mind itiraz/rahatsızlık sorar; no itiraz olmadığını belirtir. Bunu yalnızca no sözcüğünden hareketle ret saymak anlamı tersine çevirir."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "obligation",
+          "meaning": "zorunluluk; yükümlülük",
+          "pos": "noun",
+          "example": "The agreement creates an obligation to share results."
+        },
+        {
+          "word": "prohibit",
+          "meaning": "yasaklamak",
+          "pos": "verb",
+          "example": "The rules prohibit unauthorised access."
+        },
+        {
+          "word": "mandatory",
+          "meaning": "zorunlu",
+          "pos": "adjective",
+          "example": "Safety training is mandatory for new staff."
+        },
+        {
+          "word": "optional",
+          "meaning": "isteğe bağlı",
+          "pos": "adjective",
+          "example": "The final workshop is optional."
+        },
+        {
+          "word": "infer",
+          "meaning": "çıkarım yapmak",
+          "pos": "verb",
+          "example": "We cannot infer intention from a single action."
+        },
+        {
+          "word": "plausible",
+          "meaning": "akla yatkın",
+          "pos": "adjective",
+          "example": "The committee considered several plausible explanations."
+        },
+        {
+          "word": "comply",
+          "meaning": "uymak",
+          "pos": "verb",
+          "example": "All laboratories must comply with the protocol."
+        },
+        {
+          "word": "recommend",
+          "meaning": "önermek",
+          "pos": "verb",
+          "example": "The authors recommend further testing."
+        },
+        {
+          "word": "permission",
+          "meaning": "izin",
+          "pos": "noun",
+          "example": "Written permission is required to reproduce the image."
+        },
+        {
+          "word": "constraint",
+          "meaning": "kısıt",
+          "pos": "noun",
+          "example": "Budget constraints may delay the project."
+        },
+        {
+          "word": "feasible",
+          "meaning": "uygulanabilir",
+          "pos": "adjective",
+          "example": "A smaller trial would be more feasible."
+        },
+        {
+          "word": "presumably",
+          "meaning": "muhtemelen; varsayıldığı üzere",
+          "pos": "adverb",
+          "example": "The missing records were presumably stored elsewhere."
+        }
+      ],
+      "reading": {
+        "title": "Responsible use of research archives",
+        "text": "Historical archives offer valuable evidence, but researchers must handle their materials carefully. Visitors are normally required to register before entering a reading room, and they must not use pens near fragile documents. Some archives provide digital copies, so scholars do not have to examine every original item. Nevertheless, a digital image may omit information about paper texture or earlier repairs. Researchers should therefore consider whether the original material is necessary for their question. If a document is missing, they should not immediately assume that it has been destroyed; it may have been moved during conservation work. Staff can often identify another source that contains related evidence. A visitor who has ordered unnecessary copies may realise that those copies need not have been purchased. Clear communication about access, reproduction fees, and available alternatives can prevent such mistakes and help both researchers and archive staff use limited resources effectively.",
+        "questions": [
+          {
+            "id": "u02-r01",
+            "prompt": "Why might a researcher need to examine an original document?",
+            "options": [
+              "Archives always refuse to supply digital images",
+              "Original documents are easier to replace than digital copies",
+              "A digital copy may not reveal some physical characteristics",
+              "All historical questions concern reproduction fees",
+              "Digital copies always contain more information than originals"
+            ],
+            "answer": 2,
+            "explanation": "Kâğıt dokusu ve önceki onarımlar dijital görüntüde eksik olabilir. Metin dijital kopyaların hiç verilmediğini söylemez."
+          },
+          {
+            "id": "u02-r02",
+            "prompt": "What does the passage suggest about a missing document?",
+            "options": [
+              "Its destruction can be assumed immediately",
+              "It must have been stolen by a visitor",
+              "No related evidence can be available",
+              "It may have been relocated rather than destroyed",
+              "It no longer has any historical value"
+            ],
+            "answer": 3,
+            "explanation": "It may have been moved olası bir açıklamadır; yıkımı hemen varsaymama tavsiyesi verilir. Kesin çalınma iddiası yoktur."
+          },
+          {
+            "id": "u02-r03",
+            "prompt": "“Need not have been purchased” implies that the copies ____.",
+            "options": [
+              "were never bought because purchase was prohibited",
+              "will be bought as soon as a fee is announced",
+              "must still be bought to comply with the rules",
+              "could not have existed before conservation work",
+              "were bought, although buying them was unnecessary"
+            ],
+            "answer": 4,
+            "explanation": "Need not have + V3 gerçekleşmiş fakat gereksiz eylemi anlatır. Satın alınmadı/yasaktı anlamı değildir."
+          }
+        ]
+      }
+    },
+    {
+      "id": "u03",
+      "number": 3,
+      "title": "The Passive",
+      "subtitle": "Edilgen çatı ve raporlama yapıları",
+      "pages": "144–186",
+      "description": "Etken nesneyi edilgen özneye taşırken zaman, görünüş ve anlam rollerini koru. Modal, gerund, infinitive ve dolaylı raporlama yapılarını aynı cümle çözümleme yöntemiyle öğren.",
+      "outcomes": [
+        "Etken cümleyi zamanını koruyarak edilgene dönüştürmek",
+        "Eylemi yapanı araç ve sabit edat kalıplarından ayırmak",
+        "Modal ve nonfinite passive zincirlerini kurmak",
+        "Impersonal reporting içinde önceki/eş zamanlı olayı ayırmak"
+      ],
+      "sections": [
+        {
+          "title": "Building the passive",
+          "lead": "Edilgen cümlede eylemden etkilenen öge özne olur; zaman be fiilinde korunur.",
+          "rules": [
+            "Temel yapı subject + be + V3 biçimindedir; active nesne passive özneye geçer.",
+            "Simple present is/are V3; simple past was/were V3; continuous is/was being V3; perfect has/had been V3.",
+            "Active fiilin zamanını değiştirmeden uygun be zincirini kur; özne sayısına dikkat et.",
+            "Doğrudan nesne alamayan occur, happen, arrive gibi fiiller standart kullanımda passive yapılamaz."
+          ],
+          "examples": [
+            {
+              "en": "The laboratory analyses the samples. → The samples are analysed by the laboratory.",
+              "tr": "Laboratuvar örnekleri analiz eder. → Örnekler laboratuvar tarafından analiz edilir.",
+              "note": "Nesne samples çoğul edilgen özne olur."
+            },
+            {
+              "en": "The team is repairing the sensor. → The sensor is being repaired.",
+              "tr": "Ekip sensörü onarıyor. → Sensör onarılıyor.",
+              "note": "Şimdiki süreç being ile korunur."
+            }
+          ],
+          "pitfalls": [
+            "Be + V-ing active continuous; be + being + V3 passive continuous biçimidir.",
+            "The accident was happened yanlıştır; happen nesnesizdir."
+          ],
+          "table": {
+            "head": [
+              "Active tense",
+              "Passive form"
+            ],
+            "rows": [
+              [
+                "Simple present",
+                "am/is/are + V3"
+              ],
+              [
+                "Simple past",
+                "was/were + V3"
+              ],
+              [
+                "Present/past continuous",
+                "am/is/are/was/were + being + V3"
+              ],
+              [
+                "Present/past perfect",
+                "has/have/had + been + V3"
+              ],
+              [
+                "Future",
+                "will be + V3"
+              ]
+            ]
+          },
+          "id": "u03-s01"
+        },
+        {
+          "title": "Time adverbials in passive sentences",
+          "lead": "Zaman ifadesinin kapsamını koru; cümle edilgen olsa da kronoloji değişmez.",
+          "rules": [
+            "Zaman zarfları cümle başında veya sonunda olabilir; zarfa göre tek sabit sıra yoktur.",
+            "Already, just ve never çoğu yardımcı zincirinde ilk yardımcıdan sonra yer alır.",
+            "By + zaman tamamlanma sınırı; during/in gibi ifadeler dönem bildirir.",
+            "Edilgen cümlede eylemin tamamlanması/sürmesi yine tense ve aspect ile kodlanır."
+          ],
+          "examples": [
+            {
+              "en": "The results have already been published.",
+              "tr": "Sonuçlar zaten yayımlandı.",
+              "note": "Already has/have ile been arasında."
+            },
+            {
+              "en": "By the time the audit began, the records had been checked.",
+              "tr": "Denetim başladığında kayıtlar kontrol edilmişti.",
+              "note": "Geçmiş referanstan önceki tamamlanma passive past perfect."
+            }
+          ],
+          "pitfalls": [
+            "Already veya by gördüğünde özne sayısını ve fiilin edilgen/etken oluşunu atlama.",
+            "Zarfın yerini mekanik ezberlemek, by agent ile by time ayrımını gözden kaçırabilir."
+          ],
+          "id": "u03-s02"
+        },
+        {
+          "title": "Agents, instruments and prepositions",
+          "lead": "By eylemi yapanı, with kullanılan aracı gösterebilir; her edatlı ifade agent değildir.",
+          "rules": [
+            "By + kişi/kurum/doğa gücü eylemin yapanını belirtebilir; yapan bilinmiyorsa veya önemsizse çıkarılır.",
+            "With + araç/malzeme kullanılan şeyi anlatabilir; covered with ve filled with gibi kalıplar ayrıca öğrenilir.",
+            "Made of yapısal malzeme, made from dönüşmüş kaynak; made by üretici ve made in üretim yeri olabilir.",
+            "Interested in, satisfied with, known for gibi adjective/preposition ilişkilerini genel by kuralıyla değiştirme."
+          ],
+          "examples": [
+            {
+              "en": "The mural was painted by a local artist with mineral pigments.",
+              "tr": "Duvar resmi yerel bir sanatçı tarafından mineral pigmentlerle boyandı.",
+              "note": "By sanatçı; with kullanılan malzeme."
+            },
+            {
+              "en": "The container is filled with purified water.",
+              "tr": "Kap arıtılmış suyla doludur.",
+              "note": "Filled with kalıbı; water eylemi yapan değildir."
+            }
+          ],
+          "pitfalls": [
+            "Every preposition after V3 must be by düşüncesi yanlıştır.",
+            "Made by ile made of üretici ve malzeme anlamlarını değiştirir."
+          ],
+          "id": "u03-s03"
+        },
+        {
+          "title": "Passive questions",
+          "lead": "Soru kurarken ilk yardımcı özneden önceye geçer; fiilin V3 biçimi korunur.",
+          "rules": [
+            "Yes/no soru: auxiliary + subject + rest of verb chain.",
+            "Wh- soruda bilgi sözcüğü başa gelir; who/what doğrudan özne olduğunda ek devriklik gerekmez.",
+            "Passive yapıda do/does/did eklenmez; çekimli be/perfect/modal yardımcı soru kurar.",
+            "By whom resmî biçim; who ... by daha gündelik bir soru biçimidir."
+          ],
+          "examples": [
+            {
+              "en": "Has the application been reviewed?",
+              "tr": "Başvuru incelendi mi?",
+              "note": "Has özneden önce, been reviewed korunur."
+            },
+            {
+              "en": "When were the results announced?",
+              "tr": "Sonuçlar ne zaman açıklandı?",
+              "note": "When + were + subject + V3."
+            }
+          ],
+          "pitfalls": [
+            "Did the report be published yerine was the report published gerekir.",
+            "Has ... reviewed ile has ... been reviewed etken/edilgen farkını atlama."
+          ],
+          "id": "u03-s04"
+        },
+        {
+          "title": "Double-object passives",
+          "lead": "Give, send ve offer gibi fiillerde kişi veya şey odak olarak öne çıkabilir.",
+          "rules": [
+            "Active: someone gives a person something; kişi veya şey uygun yapıyla passive özne olabilir.",
+            "Kişi özne olursa was given a grant; şey özne olursa a grant was given to her.",
+            "To/for seçimi fiilin kalıbına bağlıdır: sent to, bought for.",
+            "Her fiil aynı iki passive biçimi kabul etmez; explain something to someone gibi kalıpları ayrı öğren."
+          ],
+          "examples": [
+            {
+              "en": "The researcher was offered a fellowship.",
+              "tr": "Araştırmacıya burs teklif edildi.",
+              "note": "Kişi passive özne."
+            },
+            {
+              "en": "A fellowship was offered to the researcher.",
+              "tr": "Araştırmacıya bir burs teklif edildi.",
+              "note": "Şey passive özne; to researcher korunur."
+            }
+          ],
+          "pitfalls": [
+            "Explain me the problem ve I was explained the problem standart kalıp değildir.",
+            "Kişiyi öne alırken active nesnelerden birini gereksiz yere tekrar etme."
+          ],
+          "id": "u03-s05"
+        },
+        {
+          "title": "Modal passives",
+          "lead": "Modal sonrasındaki edilgenlik be; geçmiş edilgenlik have been ile kurulur.",
+          "rules": [
+            "Modal + be + V3 şimdiki/gelecek edilgen eylem veya gereklilik/olasılık bildirir.",
+            "Modal + have been + V3 geçmişteki edilgen eylem üzerine çıkarım/değerlendirme yapar.",
+            "Have to/be supposed to gibi ifadeler de to be + V3 ile edilgen olabilir.",
+            "Modal anlamı ve zamanı korunur; should be checked ile should have been checked farklıdır."
+          ],
+          "examples": [
+            {
+              "en": "All confidential files must be encrypted.",
+              "tr": "Tüm gizli dosyalar şifrelenmelidir.",
+              "note": "Gereklilik + passive."
+            },
+            {
+              "en": "The message may have been sent to the wrong address.",
+              "tr": "Mesaj yanlış adrese gönderilmiş olabilir.",
+              "note": "Geçmiş olasılık + passive."
+            }
+          ],
+          "pitfalls": [
+            "Must been encrypted yerine must be encrypted gerekir.",
+            "Should have checked active; should have been checked passive biçimidir."
+          ],
+          "id": "u03-s06"
+        },
+        {
+          "title": "Stative passive and GET",
+          "lead": "V3 bazen mevcut durumu anlatır; get ise bir değişimi/olayı öne çıkarabilir.",
+          "rules": [
+            "Be + V3 bağlama göre eylem passive veya sonuç durumunu gösteren adjective yapısı olabilir.",
+            "Stative kullanımda yorgunluk, ilgi, memnuniyet ve doluluk gibi durumlar anlatılabilir.",
+            "Get + V3 bir olay/durum değişimini, özellikle gayriresmî bağlamlarda, ifade eder.",
+            "Get lost/married gibi kalıplar ve interested in/accustomed to gibi edatlar birlikte öğrenilir."
+          ],
+          "examples": [
+            {
+              "en": "The laboratory is closed at the moment.",
+              "tr": "Laboratuvar şu anda kapalıdır.",
+              "note": "Mevcut durum; kapatılma eyleminin sürmesini anlatmaz."
+            },
+            {
+              "en": "Several files got damaged during the transfer.",
+              "tr": "Aktarım sırasında birkaç dosya zarar gördü.",
+              "note": "Get olay ve değişim vurgusu taşır."
+            }
+          ],
+          "pitfalls": [
+            "Is closed ile is being closed aynı anlama gelmez.",
+            "Interested by the subject yerine interested in the subject standart kalıptır."
+          ],
+          "id": "u03-s07"
+        },
+        {
+          "title": "Passive gerunds and infinitives",
+          "lead": "Yalnızca çekimli fiiller değil, V-ing ve infinitive tamamlayıcıları da edilgen olabilir.",
+          "rules": [
+            "Passive gerund being + V3; perfect passive gerund having been + V3 biçimindedir.",
+            "Passive infinitive to be + V3; perfect passive infinitive to have been + V3 biçimindedir.",
+            "Önce fiilin/preposition'ın istediği gerund veya infinitive kalıbını belirle, sonra edilgenliği ekle.",
+            "Perfect nonfinite biçim, temel referansa göre önceki gerçekleşmeyi gösterebilir."
+          ],
+          "examples": [
+            {
+              "en": "The participants objected to being recorded.",
+              "tr": "Katılımcılar kayda alınmaya itiraz etti.",
+              "note": "Object to sonrasındaki to edattır; being recorded gerund."
+            },
+            {
+              "en": "The article is expected to be revised.",
+              "tr": "Makalenin düzeltilmesi bekleniyor.",
+              "note": "Passive infinitive to be revised."
+            }
+          ],
+          "pitfalls": [
+            "Objected to be recorded kalıbında preposition sonrası gerund gereği atlanır.",
+            "To have been reviewed ile to be reviewed arasındaki önceki-zaman farkını görmezden gelme."
+          ],
+          "id": "u03-s08"
+        },
+        {
+          "title": "Impersonal reporting and indefinite agents",
+          "lead": "People say/they believe gibi ifadelerde odağı iddiaya veya iddianın öznesine taşı.",
+          "rules": [
+            "People say that X ... → It is said that X ... veya X is said to ... biçimleri kullanılabilir.",
+            "Reporting zamanı present/past olur; bildirilen olay daha önceyse to have + V3 kullanılır.",
+            "Bildirilen süreç için to be + V-ing, önceki süreç için to have been + V-ing mümkündür.",
+            "Bildirilen olay edilgense to be V3 veya to have been V3 dizisi gerekir.",
+            "Someone/people/they gibi belirsiz agent çoğu dönüşümde by someone/by people eklenmeden çıkarılır.",
+            "Nobody/no one gibi olumsuz agent çıkarılırken olumsuzluk passive fiilde korunur; by anyone eklenebilir, by nobody ile ayrıca not kullanma."
+          ],
+          "examples": [
+            {
+              "en": "People believe that the settlement was abandoned centuries ago. → The settlement is believed to have been abandoned centuries ago.",
+              "tr": "Yerleşimin yüzyıllar önce terk edildiğine inanılıyor.",
+              "note": "Şimdiki reporting + önceki edilgen olay."
+            },
+            {
+              "en": "They say that the minister is preparing a response. → The minister is said to be preparing a response.",
+              "tr": "Bakanın yanıt hazırladığı söyleniyor.",
+              "note": "Bildirilen olay reporting ile eş zamanlı süreç."
+            },
+            {
+              "en": "No one has reviewed this application. → This application has not been reviewed.",
+              "tr": "Hiç kimse bu başvuruyu incelemedi. → Bu başvuru incelenmedi.",
+              "note": "Agent çıkarıldı, olumsuz anlam has not been ile korundu."
+            }
+          ],
+          "pitfalls": [
+            "Is said to left yanlış; önceki olay için to have left gerekir.",
+            "It is said that ifadesinin it öznesine gerçek kişi/nesne anlamı yükleme."
+          ],
+          "id": "u03-s09"
+        }
+      ],
+      "questions": [
+        {
+          "id": "u03-q01",
+          "type": "grammar",
+          "sectionId": "u03-s01",
+          "prompt": "The samples ____ by an independent laboratory every month.",
+          "options": [
+            "are tested",
+            "test",
+            "are testing",
+            "have testing",
+            "were testing"
+          ],
+          "answer": 0,
+          "explanation": "Every month düzenli passive işlem ve çoğul samples gerektirir: are tested. Are testing samples öznesini eylemi yapan konuma getirir."
+        },
+        {
+          "id": "u03-q02",
+          "type": "grammar",
+          "sectionId": "u03-s01",
+          "prompt": "The building cannot be entered because its entrance ____ at the moment.",
+          "options": [
+            "is repairing",
+            "is being repaired",
+            "has repaired",
+            "had repaired",
+            "was repairing"
+          ],
+          "answer": 1,
+          "explanation": "Şu anda süren edilgen onarım is being repaired olur. Is repairing yapısında entrance onarımı yapan özne olur; burada onarım girişe yapılmaktadır."
+        },
+        {
+          "id": "u03-q03",
+          "type": "grammar",
+          "sectionId": "u03-s02",
+          "prompt": "By the time the inspection started, all the emergency exits ____ already ____.",
+          "options": [
+            "have / been checked",
+            "were / checking",
+            "had / been checked",
+            "had / checking",
+            "will / be checked"
+          ],
+          "answer": 2,
+          "explanation": "Geçmişteki denetimden önce biten passive kontrol had already been checked ile kurulur. Have been checked referansı şimdiye taşır."
+        },
+        {
+          "id": "u03-q04",
+          "type": "grammar",
+          "sectionId": "u03-s03",
+          "prompt": "The samples were cut ____ a technician ____ a laser.",
+          "options": [
+            "with / by",
+            "from / of",
+            "of / from",
+            "by / with",
+            "in / to"
+          ],
+          "answer": 3,
+          "explanation": "Technician eylemi yapan by, laser araç with alır. With technician/by laser aynı rollerin anlamını değiştirir."
+        },
+        {
+          "id": "u03-q05",
+          "type": "meaning",
+          "sectionId": "u03-s04",
+          "prompt": "Which question correctly asks whether the proposal has undergone evaluation?",
+          "options": [
+            "Does the proposal been evaluated?",
+            "Has the proposal evaluated?",
+            "Did the proposal been evaluated?",
+            "Is the proposal evaluate?",
+            "Has the proposal been evaluated?"
+          ],
+          "answer": 4,
+          "explanation": "Present perfect passive soru has + subject + been + V3 ile kurulur. Has the proposal evaluated etken olur ve değerlendiren özne anlamı verir."
+        },
+        {
+          "id": "u03-q06",
+          "type": "meaning",
+          "sectionId": "u03-s05",
+          "prompt": "The foundation offered the young researcher a grant. An equivalent passive sentence is:",
+          "options": [
+            "The young researcher was offered a grant by the foundation.",
+            "The foundation was offered a grant by the young researcher.",
+            "A grant offered the foundation to the young researcher.",
+            "The young researcher offered the foundation a grant.",
+            "The grant was offered the young researcher to the foundation."
+          ],
+          "answer": 0,
+          "explanation": "Kişi nesne passive özneye dönüşür; grant ikinci nesne olarak kalır. Foundation was offered rollerin yönünü ters çevirir."
+        },
+        {
+          "id": "u03-q07",
+          "type": "grammar",
+          "sectionId": "u03-s06",
+          "prompt": "These confidential records ____ without written authorisation.",
+          "options": [
+            "must not disclose",
+            "must not be disclosed",
+            "must not be disclosing",
+            "must not have disclosed",
+            "must not have been disclosing"
+          ],
+          "answer": 1,
+          "explanation": "Yasak + passive must not be disclosed biçimindedir. Diğer seçenekler active olup records öznesini bilgiyi açıklayan yapan konumuna getirir."
+        },
+        {
+          "id": "u03-q08",
+          "type": "meaning",
+          "sectionId": "u03-s07",
+          "prompt": "“The door is closed” and “The door is being closed” differ because the second normally describes ____.",
+          "options": [
+            "a door that was never closed",
+            "an action completed before yesterday",
+            "a closing action that is currently in progress",
+            "a general instruction to keep the door open",
+            "an action performed by the door itself"
+          ],
+          "answer": 2,
+          "explanation": "Is being closed süren edilgen eylemi; is closed bağlamda mevcut kapalı durumu anlatabilir. İkisi de door eylemi yapan demek değildir."
+        },
+        {
+          "id": "u03-q09",
+          "type": "grammar",
+          "sectionId": "u03-s08",
+          "prompt": "The staff objected to ____ without prior consent.",
+          "options": [
+            "be photographed",
+            "to be photographed",
+            "photograph",
+            "being photographed",
+            "have photographed"
+          ],
+          "answer": 3,
+          "explanation": "Object to içindeki to edattır ve gerund ister; passive being photographed gerekir. To be photographed infinitive kalıbı burada uygun değildir."
+        },
+        {
+          "id": "u03-q10",
+          "type": "grammar",
+          "sectionId": "u03-s09",
+          "prompt": "It is believed that the researchers discovered the cave long before the official survey. The researchers are believed ____ the cave long before the official survey.",
+          "options": [
+            "to discover",
+            "to be discovered",
+            "discovering",
+            "having discovered",
+            "to have discovered"
+          ],
+          "answer": 4,
+          "explanation": "Keşif, şimdiki believe reporting referansından önce olduğundan to have discovered gerekir. To be discovered araştırmacıları keşfedilen kişi yapar."
+        },
+        {
+          "id": "u03-q11",
+          "type": "translation",
+          "sectionId": "u03-s09",
+          "prompt": "“Koleksiyonun geçen yıl başka bir müzeye taşındığı söyleniyor.” için en uygun çeviri hangisidir?",
+          "options": [
+            "The collection is said to have been moved to another museum last year.",
+            "The collection is said to move to another museum last year.",
+            "The collection said that it moves to another museum last year.",
+            "It was moved to another museum because the collection says so.",
+            "The collection is said to be moving to another museum next year."
+          ],
+          "answer": 0,
+          "explanation": "Şimdiki reporting is said, önceki edilgen olay to have been moved ile anlatılır. Next year seçeneği yılı ve olayın zamanını değiştirir."
+        },
+        {
+          "id": "u03-q12",
+          "type": "grammar",
+          "sectionId": "u03-s03",
+          "prompt": "The students are particularly interested ____ the relationship between language and memory.",
+          "options": [
+            "by",
+            "in",
+            "with",
+            "of",
+            "from"
+          ],
+          "answer": 1,
+          "explanation": "Interested in kalıbı gerekir. By genel passive agent edatı diye bu durum bildiren sıfat kalıbına taşınamaz."
+        },
+        {
+          "id": "u03-q13",
+          "type": "grammar",
+          "sectionId": "u03-s06",
+          "prompt": "The document is missing from the folder. It may ____ to the wrong department yesterday.",
+          "options": [
+            "be send",
+            "have sent",
+            "have been sent",
+            "been sending",
+            "have been sending"
+          ],
+          "answer": 2,
+          "explanation": "Geçmiş olasılık ve document etkilenen özne: may have been sent. May have sent active olur; belge gönderimi yapan değildir."
+        },
+        {
+          "id": "u03-q14",
+          "type": "meaning",
+          "sectionId": "u03-s01",
+          "prompt": "Which verb normally cannot form a direct-object passive in its ordinary meaning?",
+          "options": [
+            "publish",
+            "inspect",
+            "translate",
+            "occur",
+            "repair"
+          ],
+          "answer": 3,
+          "explanation": "Occur nesnesizdir; bir nesneyi passive özneye taşıyamayız. Diğer fiiller doğrudan nesne alabilir."
+        },
+        {
+          "id": "u03-q15",
+          "type": "translation",
+          "sectionId": "u03-s07",
+          "prompt": "“Several data files got corrupted during the transfer.” cümlesine en yakın anlam hangisidir?",
+          "options": [
+            "Birkaç veri dosyası aktarımı bilinçli olarak bozdu.",
+            "Birkaç veri dosyası aktarım tamamlanınca mutlaka düzeltilecek.",
+            "Dosyalar aktarım başlamadan önce başka bir dosyayı düzeltti.",
+            "Aktarım boyunca dosyaların bozulması kesinlikle imkânsızdı.",
+            "Aktarım sırasında birkaç veri dosyası bozuldu."
+          ],
+          "answer": 4,
+          "explanation": "Get + V3 dosyaların durumunda oluşan değişimi belirtir. Dosyaları eylemi bilinçli yapan özneye dönüştüren seçenek passive anlamı bozuyor."
+        },
+        {
+          "id": "u03-q16",
+          "type": "grammar",
+          "sectionId": "u03-s08",
+          "prompt": "The candidate expects ____ about the result by Friday.",
+          "options": [
+            "to be informed",
+            "being informed",
+            "to have informed",
+            "to be informing",
+            "to have been informing"
+          ],
+          "answer": 0,
+          "explanation": "Expect + infinitive ve candidate etkilenen kişi olduğundan to be informed gerekir. Being informed bu doğrudan tamamlayıcı kalıbına uymaz; diğer infinitive biçimler adayı bilgiyi veren kişi yapar."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "allocate",
+          "meaning": "tahsis etmek",
+          "pos": "verb",
+          "example": "Additional funds were allocated to rural schools."
+        },
+        {
+          "word": "implement",
+          "meaning": "uygulamak",
+          "pos": "verb",
+          "example": "The policy was implemented in several stages."
+        },
+        {
+          "word": "retain",
+          "meaning": "korumak; tutmak",
+          "pos": "verb",
+          "example": "Original records are retained for ten years."
+        },
+        {
+          "word": "disclose",
+          "meaning": "açıklamak; ifşa etmek",
+          "pos": "verb",
+          "example": "Private information must not be disclosed."
+        },
+        {
+          "word": "attribute",
+          "meaning": "bağlamak; atfetmek",
+          "pos": "verb",
+          "example": "The decline was attributed to reduced rainfall."
+        },
+        {
+          "word": "preserve",
+          "meaning": "korumak",
+          "pos": "verb",
+          "example": "The manuscripts were preserved in controlled conditions."
+        },
+        {
+          "word": "revise",
+          "meaning": "gözden geçirip düzeltmek",
+          "pos": "verb",
+          "example": "The report will be revised after consultation."
+        },
+        {
+          "word": "dispatch",
+          "meaning": "göndermek",
+          "pos": "verb",
+          "example": "The specimens were dispatched on Monday."
+        },
+        {
+          "word": "designate",
+          "meaning": "belirlemek; atamak",
+          "pos": "verb",
+          "example": "The area was designated as a conservation zone."
+        },
+        {
+          "word": "contaminate",
+          "meaning": "kirletmek; bulaştırmak",
+          "pos": "verb",
+          "example": "The sample may have been contaminated."
+        },
+        {
+          "word": "suspend",
+          "meaning": "askıya almak",
+          "pos": "verb",
+          "example": "Access was suspended during maintenance."
+        },
+        {
+          "word": "verification",
+          "meaning": "doğrulama",
+          "pos": "noun",
+          "example": "Independent verification is required before publication."
+        }
+      ],
+      "reading": {
+        "title": "How a public dataset is prepared",
+        "text": "Before a public dataset is released, it is usually checked through several stages. First, duplicate records are identified and obvious recording errors are corrected. Sensitive details are then removed or transformed so that individual participants cannot easily be identified. This process is often described as anonymisation, although complete anonymity cannot always be guaranteed. For example, a person may be recognised when several harmless details are combined with information from another source. For this reason, a dataset should be reviewed by specialists who understand both its scientific value and its privacy risks. A record of every major change must also be retained. Without such documentation, later users may be unable to determine why a particular value was altered. Once the checks have been completed, the data can be published with clear guidance about appropriate uses. Transparency concerns the preparation process as well as the final numbers.",
+        "questions": [
+          {
+            "id": "u03-r01",
+            "prompt": "Why does the passage say that complete anonymity is not always guaranteed?",
+            "options": [
+              "Recording errors are deliberately left unchanged",
+              "Public datasets must always include participants’ names",
+              "Separate details may identify a person when combined with other information",
+              "Specialists never examine privacy risks",
+              "Every dataset contains only duplicate records"
+            ],
+            "answer": 2,
+            "explanation": "Zararsız görünen ayrıntılar başka bilgiyle birleşince kişiyi tanınır hâle getirebilir. İsimlerin mutlaka yayımlanacağı söylenmez."
+          },
+          {
+            "id": "u03-r02",
+            "prompt": "What is the purpose of retaining a record of changes?",
+            "options": [
+              "To prevent all scientific use of the data",
+              "To restore every sensitive detail to the public version",
+              "To replace the need for specialist review",
+              "To help later users understand why values were modified",
+              "To ensure that no recording error is ever corrected"
+            ],
+            "answer": 3,
+            "explanation": "Dokümantasyon sonraki kullanıcıların değerlerin neden değiştiğini anlamasını sağlar. Specialist review yerine geçmesi amaçlanmaz."
+          },
+          {
+            "id": "u03-r03",
+            "prompt": "Which statement best reflects the writer’s view of transparency?",
+            "options": [
+              "It is achieved solely by publishing final numbers",
+              "It requires releasing every private detail unchanged",
+              "It makes anonymisation unnecessary",
+              "It matters only before duplicates are identified",
+              "It should cover how the data were prepared as well as the published results"
+            ],
+            "answer": 4,
+            "explanation": "Son cümle hazırlama süreci ve son sayıları birlikte kapsar. Yalnızca son rakamları yayımlama seçeneği bu görüşü daraltır."
+          }
+        ]
+      }
+    },
+    {
+      "id": "u04",
+      "number": 4,
+      "title": "IF and WISH Clauses",
+      "subtitle": "Koşullar, varsayımlar ve pişmanlık",
+      "pages": "187–233",
+      "description": "Gerçek ve gerçek dışı koşulları olayın zamanına ve olasılığına göre kur. Karma koşullar, devriklik, örtük koşullar, tedbir ifadeleri, wish ve as if ile anlamı koruyarak seçenek ele.",
+      "outcomes": [
+        "Koşul ile sonucun zamanını ayrı ayrı belirlemek",
+        "Second, third ve mixed conditional ayrımını açıklamak",
+        "Unless, in case ve provided that mantığını ayırmak",
+        "Wish, as if ve conditional inversion yapılarını çözümlemek"
+      ],
+      "sections": [
+        {
+          "title": "Real conditions: zero and first",
+          "lead": "Koşulun genel geçer mi yoksa belirli bir geleceğe yönelik mi olduğunu ayır.",
+          "rules": [
+            "Genel/habitual sonuçlar için if + present, present kullanılabilir; bu destek çerçevesi zero conditional diye adlandırılır.",
+            "Olası belirli gelecek için if + present, will/modal/imperative yaygındır.",
+            "If yan cümlesinde geleceği çoğunlukla present biçimle ver; ana cümlede sonucu uygun modal ile kur.",
+            "If bir dolaylı evet-hayır sorusu anlamında whether yerine kullanılırsa bu kural farklıdır: I wonder if she will attend."
+          ],
+          "examples": [
+            {
+              "en": "If the sensor detects smoke, it sends an alert.",
+              "tr": "Sensör duman algılarsa uyarı gönderir.",
+              "note": "Genel sistem davranışı."
+            },
+            {
+              "en": "If the results are reliable, we will extend the trial.",
+              "tr": "Sonuçlar güvenilir olursa denemeyi genişleteceğiz.",
+              "note": "Belirli olası gelecek koşulu."
+            }
+          ],
+          "pitfalls": [
+            "If ile her zaman will kullan veya if sonrasında will hiçbir anlamda olamaz gibi iki uç genellemeden kaçın.",
+            "Koşul ile whether anlamındaki noun clause if kullanımını ayır."
+          ],
+          "id": "u04-s01"
+        },
+        {
+          "title": "Unreal present or future: second conditional",
+          "lead": "Gerçek dışı/uzak olasılıklı şimdiki ya da gelecek koşulu geçmiş biçimlerle işaretle.",
+          "rules": [
+            "If + simple past, would/could/might + V1 standart ikinci tip yapıdır.",
+            "Geçmiş biçim çoğu zaman geçmiş zamanı değil, gerçeklikten uzaklığı gösterir.",
+            "Resmî unreal be kullanımında were tüm kişilerle mümkündür; özellikle if I were you kalıbı önemlidir.",
+            "Would sonuç; could imkân/yetenek; might olası sonuç bildirir."
+          ],
+          "examples": [
+            {
+              "en": "If the laboratory had more funding, it could hire another technician.",
+              "tr": "Laboratuvarın daha fazla fonu olsa bir teknisyen daha işe alabilirdi.",
+              "note": "Had sahiplik fiilinin unreal present biçimi."
+            },
+            {
+              "en": "If I were responsible for the budget, I would prioritise maintenance.",
+              "tr": "Bütçeden ben sorumlu olsam bakıma öncelik verirdim.",
+              "note": "Were geçmiş görev değil varsayımsal durum."
+            }
+          ],
+          "pitfalls": [
+            "If I would have more money biçimini standart ikinci tip yerine kullanma.",
+            "Had tek başına past perfect değildir; had + V3 olmalıdır."
+          ],
+          "id": "u04-s02"
+        },
+        {
+          "title": "Unreal past: third conditional",
+          "lead": "Geçmişte gerçekleşmeyen koşul ve sonucunu ayrı perfect zincirleriyle anlat.",
+          "rules": [
+            "If + had + V3, would/could/might have + V3 standart üçüncü tiptir.",
+            "Had done koşulun, would have done varsayımsal sonucun geçmişe ait olduğunu gösterir.",
+            "Could have mümkün başarıyı, might have daha belirsiz sonucu vurgular.",
+            "Olumsuz koşul, gerçek geçmiş olayın olumlu olabileceğini gösterir; dönüşümü bağlamla kontrol et."
+          ],
+          "examples": [
+            {
+              "en": "If we had saved a backup, we would not have lost the records.",
+              "tr": "Yedek kaydetmiş olsaydık kayıtları kaybetmezdik.",
+              "note": "Gerçekte yedek yoktu ve kayıtlar kaybedildi."
+            },
+            {
+              "en": "If the team had left earlier, it might have avoided the storm.",
+              "tr": "Ekip daha erken ayrılmış olsaydı fırtınadan kaçınabilirdi.",
+              "note": "Geçmişte olası alternatif sonuç."
+            }
+          ],
+          "pitfalls": [
+            "Would have + V1 değil would have + V3 gerekir.",
+            "If had V3 yapısını yalnızca had gördüğün için şimdiki sahiplik ile karıştırma."
+          ],
+          "id": "u04-s03"
+        },
+        {
+          "title": "Mixed time conditionals",
+          "lead": "Koşul ve sonucun zamanı farklıysa her birini kendi referansına göre kur.",
+          "rules": [
+            "Geçmiş koşul → şimdiki sonuç: if had V3, would V1.",
+            "Şimdiki/süregelen özellik → geçmiş sonuç: if past form, would have V3.",
+            "Now/today/yesterday gibi ifadeler her yan cümlenin zamanını ayrı ayrı gösterir.",
+            "Karışık koşulu sırf type etiketiyle değil, gerçek geçmiş neden ve bugünkü sonuç ilişkisiyle çöz."
+          ],
+          "examples": [
+            {
+              "en": "If I had accepted the offer, I would be living abroad now.",
+              "tr": "Teklifi kabul etmiş olsaydım şimdi yurt dışında yaşıyor olurdum.",
+              "note": "Geçmiş karar, şimdiki süreç sonucu."
+            },
+            {
+              "en": "If she were more patient, she would not have interrupted the speaker yesterday.",
+              "tr": "Daha sabırlı biri olsa dün konuşmacının sözünü kesmezdi.",
+              "note": "Süregelen özellik, geçmiş olay sonucu."
+            }
+          ],
+          "pitfalls": [
+            "Her iki kısmı da geçmiş perfect yapıp now vurgusunu kaybetme.",
+            "Past biçimli were her zaman geçmiş bir duruma işaret etmez."
+          ],
+          "id": "u04-s04"
+        },
+        {
+          "title": "Other tense and modal combinations",
+          "lead": "Koşullarda continuous, perfect ve özel varsayım biçimleri de kullanılabilir.",
+          "rules": [
+            "If + present continuous/perfect gerçek koşulda süreci veya tamamlanmayı belirtir.",
+            "Unreal koşullarda past continuous veya past perfect continuous süreç vurgusu sağlar.",
+            "If ... should olası beklenmedik durumu; if ... were to daha uzak geleceği ifade edebilir.",
+            "If ... will/would bazı bağlamlarda istekli olmayı veya nazik talebi anlatabilir; bu genel future kuralının mekanik istisnasıdır.",
+            "Sonuç cümlesinde emir, can/may/must/should veya farklı perfect/progressive modal biçimler bağlama göre mümkündür."
+          ],
+          "examples": [
+            {
+              "en": "If you have completed the checklist, you may leave the laboratory.",
+              "tr": "Kontrol listesini tamamladıysanız laboratuvardan ayrılabilirsiniz.",
+              "note": "Tamamlanmış gerçek koşul ve izin sonucu."
+            },
+            {
+              "en": "If the system were to fail, operations would stop.",
+              "tr": "Sistem arızalanacak olsa faaliyetler dururdu.",
+              "note": "Uzak/varsayımsal gelecek."
+            }
+          ],
+          "pitfalls": [
+            "Bütün if yapıları yalnızca üç sabit tense çiftinden oluşur sanma.",
+            "If will biçimini görünce, istekli olma gibi özel anlamı okumadan otomatik eleme yapma."
+          ],
+          "id": "u04-s05"
+        },
+        {
+          "title": "Conditional alternatives and precaution",
+          "lead": "Koşul bağlaçlarının mantığını ayır: gereklilik, istisna, süre, ödün veya tedbir.",
+          "rules": [
+            "Unless çoğunlukla if not anlamındadır; ayrıca gereksiz bir not ekleyerek koşulu tersine çevirme.",
+            "Provided/providing that, on condition that ve as long as/so long as belirli koşulu sınırlar.",
+            "Even if koşul gerçekleşse bile sonucu korur; whether or not iki ihtimalde de sonucu belirtir.",
+            "In case tedbir bildirir; if gerçekleşen koşula bağlı eylemden farklıdır.",
+            "Suppose/supposing/imagine varsayımsal durum başlatabilir; what if bir olasılık sorar."
+          ],
+          "examples": [
+            {
+              "en": "Take a printed map in case your phone loses its signal.",
+              "tr": "Telefonunuzun sinyali kesilebilir diye basılı bir harita alın.",
+              "note": "Harita önceden alınan tedbirdir."
+            },
+            {
+              "en": "We will accept the proposal provided that its costs are transparent.",
+              "tr": "Maliyetleri şeffaf olması koşuluyla öneriyi kabul edeceğiz.",
+              "note": "Açık koşul sınırı."
+            }
+          ],
+          "pitfalls": [
+            "In case ile if her cümlede birbirinin yerine geçmez.",
+            "Unless you do not ... gibi çift olumsuzluk çoğu hedef anlamı tersine çevirir."
+          ],
+          "id": "u04-s06"
+        },
+        {
+          "title": "Conditional inversion: omitting IF",
+          "lead": "Had, were veya should öne alınarak if çıkarılabilir; sonuç mantığı korunur.",
+          "rules": [
+            "If subject had V3 → Had subject V3; had ile özne yer değiştirir.",
+            "If subject were ... → Were subject ...; were to yapısında infinitive korunur.",
+            "If subject should V1 → Should subject V1 gerçek/olası gelecek koşulunu resmîleştirir.",
+            "Olumsuz devrik koşullarda not çoğunlukla özneden sonra gelir: Had she not ... ."
+          ],
+          "examples": [
+            {
+              "en": "Had the warning arrived earlier, the staff would have evacuated the building.",
+              "tr": "Uyarı daha erken gelmiş olsaydı personel binayı tahliye ederdi.",
+              "note": "If the warning had arrived dönüşümü."
+            },
+            {
+              "en": "Should you need assistance, contact the coordinator.",
+              "tr": "Yardıma ihtiyacınız olursa koordinatörle iletişime geçin.",
+              "note": "Should you need = if you should need."
+            }
+          ],
+          "pitfalls": [
+            "Had not she şeklinde olumsuzluk yerini kurma; had she not gerekir.",
+            "Had başta diye soru sanma; ardından koşulun sonucu gelebilir."
+          ],
+          "id": "u04-s07"
+        },
+        {
+          "title": "Implied conditions",
+          "lead": "Koşul her zaman if ile yazılmaz; bağlamda without, but for, otherwise veya or bulunabilir.",
+          "rules": [
+            "Without/but for + noun bir unsurun yokluğuna dayalı varsayım kurabilir.",
+            "But for ... would have V3 geçmişte yardım/engel etkisini; would V1 şimdiki varsayımsal sonucu anlatabilir.",
+            "Otherwise önceki ifadenin ters koşulundaki sonucu verir.",
+            "Imperative + or/and sonuç ilişkisi kurabilir: hurry or you will miss ... ."
+          ],
+          "examples": [
+            {
+              "en": "Without the grant, the research would not have continued.",
+              "tr": "Hibe olmasaydı araştırma devam etmezdi.",
+              "note": "Geçmişte gerçekleşen yardımın alternatif yokluğu."
+            },
+            {
+              "en": "Save your work regularly; otherwise, a power failure may erase it.",
+              "tr": "Çalışmanızı düzenli kaydedin; aksi hâlde elektrik kesintisi onu silebilir.",
+              "note": "Otherwise = kaydetmezseniz koşulu."
+            }
+          ],
+          "pitfalls": [
+            "Without tek başına otomatik type 3 seçtirmez; sonuç zamanına bak.",
+            "Otherwise ile because anlamlarını eşleştirme; biri alternatif koşul, diğeri neden bildirir."
+          ],
+          "id": "u04-s08"
+        },
+        {
+          "title": "WISH and IF ONLY",
+          "lead": "Dileklerde gerçek zaman ile kullanılan geçmiş biçimi arasındaki bir adımlık kaymayı izle.",
+          "rules": [
+            "Wish/if only + simple past şimdiki durumun farklı olmasını ister.",
+            "Wish/if only + past perfect geçmiş pişmanlık bildirir.",
+            "Wish + could yetenek/imkân isteği; wish + would çoğunlukla başka kişinin davranışı veya değişmesini istediğin olay için kullanılır.",
+            "Hope gerçekçi gelecek umudunda present/will ile kullanılabilir; wish aynı kalıpla mekanik olarak kurulmaz.",
+            "Were resmî unreal dileklerde tüm kişilerle mümkündür; if only genellikle daha güçlü duygusal vurgu taşır."
+          ],
+          "examples": [
+            {
+              "en": "I wish I had access to the complete archive.",
+              "tr": "Keşke arşivin tamamına erişimim olsa.",
+              "note": "Had V1 burada şimdiki sahiplik/erişim."
+            },
+            {
+              "en": "The team wishes it had recorded the interview.",
+              "tr": "Ekip keşke görüşmeyi kaydetmiş olsaydı diyor.",
+              "note": "Geçmiş pişmanlık, had + V3."
+            }
+          ],
+          "pitfalls": [
+            "I wish I have ile şimdiki unreal durumu kurma; had gerekir.",
+            "Wish I had money ile wish I had saved money sahiplik ve past perfect farkını ayır."
+          ],
+          "id": "u04-s09"
+        },
+        {
+          "title": "AS IF and AS THOUGH",
+          "lead": "Benzetilen durumun gerçekçi mi gerçek dışı mı olduğuna ve zamanına karar ver.",
+          "rules": [
+            "As if/as though görünüş veya davranış üzerinden benzetme/izlenim kurar.",
+            "Olası/gerçekçi durumlarda normal tense kullanılabilir; as if it is going to rain.",
+            "Gerçek dışı şimdiki benzetmede past/were; daha önceki gerçek dışı benzetmede past perfect kullanılabilir.",
+            "As if anlamı koşul sonucu kurmaktan çok sanki izlenimi verir."
+          ],
+          "examples": [
+            {
+              "en": "He speaks as if he were the director, although he is only a visitor.",
+              "tr": "Yalnızca ziyaretçi olmasına rağmen müdürmüş gibi konuşuyor.",
+              "note": "Bilinen gerçek dışı şimdiki rol."
+            },
+            {
+              "en": "She looked as though she had been running.",
+              "tr": "Koşmuş gibi görünüyordu.",
+              "note": "Görünüşten önceki süreç izlenimi."
+            }
+          ],
+          "pitfalls": [
+            "As if bulunan her cümlede past perfect zorunlu değildir.",
+            "As though ile although benzer yazılsa da sanki ve rağmen anlamları farklıdır."
+          ],
+          "id": "u04-s10"
+        }
+      ],
+      "questions": [
+        {
+          "id": "u04-q01",
+          "type": "grammar",
+          "sectionId": "u04-s01",
+          "prompt": "If the sample passes the safety test tomorrow, the laboratory ____ permission to use it.",
+          "options": [
+            "will receive",
+            "would have received",
+            "had received",
+            "received",
+            "has received"
+          ],
+          "answer": 0,
+          "explanation": "Yarınki olası koşul if + present, gelecek sonuç will receive ile kurulur. Would have received gerçek dışı geçmişe; had received önceki geçmiş referansa gider."
+        },
+        {
+          "id": "u04-q02",
+          "type": "grammar",
+          "sectionId": "u04-s02",
+          "prompt": "The laboratory has too little space. If it ____ a larger room right now, it could store all the equipment safely.",
+          "options": [
+            "has had",
+            "had",
+            "will have",
+            "would have",
+            "had had"
+          ],
+          "answer": 1,
+          "explanation": "Right now, şimdiki gerçek dışı sahipliğe işaret eder: if it had. Had had geçmişteki sahiplik koşulunu kurar; right now ile hedeflenen şimdiki koşula uymaz."
+        },
+        {
+          "id": "u04-q03",
+          "type": "grammar",
+          "sectionId": "u04-s03",
+          "prompt": "The team missed the warning. If it had received it in time, it ____ the experiment.",
+          "options": [
+            "will stop",
+            "has stopped",
+            "would have stopped",
+            "had stopped",
+            "was stopping"
+          ],
+          "answer": 2,
+          "explanation": "Gerçek dışı geçmiş sonuç would have stopped biçimindedir. Will stop geçmişte kaçırılan alternatif sonucu anlatmaz; had stopped ise sonuçta gerekli modalı içermez."
+        },
+        {
+          "id": "u04-q04",
+          "type": "grammar",
+          "sectionId": "u04-s04",
+          "prompt": "If she had accepted the scholarship last year, she ____ in Canada now.",
+          "options": [
+            "would have studied",
+            "had studied",
+            "will have studied",
+            "would be studying",
+            "studied"
+          ],
+          "answer": 3,
+          "explanation": "Last year geçmiş koşul, now şimdiki süreç sonucu: would be studying. Would have studied geçmiş sonucu gösterir."
+        },
+        {
+          "id": "u04-q05",
+          "type": "grammar",
+          "sectionId": "u04-s05",
+          "prompt": "If you ____ the consent form already, you may join the next stage of the study.",
+          "options": [
+            "had signed",
+            "will sign",
+            "would sign",
+            "had been signing",
+            "have signed"
+          ],
+          "answer": 4,
+          "explanation": "Şimdiki izin öncesinde tamamlanma gerçek koşulu present perfect have signed ile kurulur. Had signed geçmiş bir referans gerektirir; will sign standart gelecek koşul yan cümlesinde kullanılmaz."
+        },
+        {
+          "id": "u04-q06",
+          "type": "grammar",
+          "sectionId": "u04-s06",
+          "prompt": "Take an extra battery ____ the power supply fails during the fieldwork.",
+          "options": [
+            "in case",
+            "unless",
+            "even though",
+            "because of",
+            "despite"
+          ],
+          "answer": 0,
+          "explanation": "Extra battery olası kesinti için önceden tedbirdir: in case. Unless koşullu istisna olur ve bu cümlenin hedef tedbir anlamını vermez."
+        },
+        {
+          "id": "u04-q07",
+          "type": "grammar",
+          "sectionId": "u04-s07",
+          "prompt": "____ the grant been approved, the project would have started in April.",
+          "options": [
+            "Should",
+            "Had",
+            "Were",
+            "Did",
+            "Has"
+          ],
+          "answer": 1,
+          "explanation": "Had the grant been approved = if the grant had been approved. Were + been, should + been bu diziyi kurmaz."
+        },
+        {
+          "id": "u04-q08",
+          "type": "translation",
+          "sectionId": "u04-s08",
+          "prompt": "“But for the volunteers, the archive would have remained closed.” cümlesine en yakın anlam hangisidir?",
+          "options": [
+            "Arşiv, gönüllüler yüzünden kapalı kaldı.",
+            "Gönüllüler arşivin bundan sonra kapalı kalmasını istiyor.",
+            "Gönüllüler olmasaydı arşiv kapalı kalırdı.",
+            "Gönüllüler olmasına rağmen arşiv kesinlikle kapalı kaldı.",
+            "Arşiv kapanmadan önce gönüllülerin gelmesi gerekmiyordu."
+          ],
+          "answer": 2,
+          "explanation": "But for gönüllülerin alternatif yokluğunu kurar; would have remained gerçek dışı geçmiş sonuçtur. Yüzünden kapalı kaldı seçeneği gerçek sonucu tersine çevirir."
+        },
+        {
+          "id": "u04-q09",
+          "type": "grammar",
+          "sectionId": "u04-s09",
+          "prompt": "I did not save the final version yesterday. I wish I ____ it before closing the application.",
+          "options": [
+            "save",
+            "will save",
+            "would save tomorrow",
+            "had saved",
+            "have saved"
+          ],
+          "answer": 3,
+          "explanation": "Dünkü yapılmamış eylem için wish + past perfect had saved gerekir. Have saved şimdiye bağlı perfecttir, geçmiş pişmanlığın standart kaymasını yapmaz."
+        },
+        {
+          "id": "u04-q10",
+          "type": "grammar",
+          "sectionId": "u04-s10",
+          "prompt": "He behaves as if he ____ the owner of the laboratory, but he has no authority there.",
+          "options": [
+            "is going to be",
+            "will be",
+            "has been being",
+            "would have been",
+            "were"
+          ],
+          "answer": 4,
+          "explanation": "But he has no authority bilinen gerçek dışı şimdiki rolü belirtir; as if he were uygundur. Would have been alternatif geçmiş sonucu ekler."
+        },
+        {
+          "id": "u04-q11",
+          "type": "meaning",
+          "sectionId": "u04-s06",
+          "prompt": "“The proposal will be accepted unless its estimated cost increases.” cümlesi neyi ifade eder?",
+          "options": [
+            "Tahmini maliyet artmazsa öneri kabul edilecektir.",
+            "Tahmini maliyet yalnızca öneri reddedilirse artacaktır.",
+            "Önerinin kabul edilmesi için maliyetin artması şarttır.",
+            "Maliyet artsa da öneri mutlaka kabul edilecektir.",
+            "Öneri kabul edilmiş olduğu için maliyeti artmıştır."
+          ],
+          "answer": 0,
+          "explanation": "Unless = if not: maliyet artmadığı koşulda kabul. Maliyetin artmasını şart sayan seçenek koşulu tersine çevirir."
+        },
+        {
+          "id": "u04-q12",
+          "type": "meaning",
+          "sectionId": "u04-s07",
+          "prompt": "“Should you require further information, contact the registrar.” yapısındaki ilk kısım neye eşdeğerdir?",
+          "options": [
+            "Because you required further information",
+            "If you should require further information",
+            "Although you had required further information",
+            "Unless you require further information",
+            "After you have required further information"
+          ],
+          "answer": 1,
+          "explanation": "Should + subject + V1 resmî conditional inversion yapısıdır. Unless olumsuz koşula, because nedene dönüşür."
+        },
+        {
+          "id": "u04-q13",
+          "type": "translation",
+          "sectionId": "u04-s09",
+          "prompt": "“Keşke şu anda daha fazla boş zamanım olsa.” için en uygun çeviri hangisidir?",
+          "options": [
+            "I wish I had had more free time yesterday.",
+            "I hope I had more free time yesterday.",
+            "I wish I had more free time now.",
+            "I wish I will have had more free time now.",
+            "I wish I have more free time now."
+          ],
+          "answer": 2,
+          "explanation": "Şimdiki gerçek dışı sahiplik wish + had ile kurulur. Had had ... yesterday geçmiş pişmanlığa dönüşür."
+        },
+        {
+          "id": "u04-q14",
+          "type": "grammar",
+          "sectionId": "u04-s03",
+          "prompt": "If the researchers had been monitoring the signal more closely, they might ____ the fault earlier.",
+          "options": [
+            "detect tomorrow",
+            "have detecting",
+            "be detect",
+            "have detected",
+            "had detected"
+          ],
+          "answer": 3,
+          "explanation": "Geçmiş gerçek dışı süreç koşuluna geçmiş olası sonuç might have detected uygundur. Might had detected modal sonrasında had kullanır ve yanlış dizidir."
+        },
+        {
+          "id": "u04-q15",
+          "type": "grammar",
+          "sectionId": "u04-s06",
+          "prompt": "The team will proceed ____ the local community agrees to the plan; community approval is essential.",
+          "options": [
+            "even if",
+            "whether or not",
+            "in case",
+            "although",
+            "provided that"
+          ],
+          "answer": 4,
+          "explanation": "Approval is essential zorunlu koşul gösterir: provided that. Even if ve whether or not onay olmasa da sonucun süreceğini söyler."
+        },
+        {
+          "id": "u04-q16",
+          "type": "grammar",
+          "sectionId": "u04-s09",
+          "prompt": "Komşuların davranışında geleceğe yönelik bir değişiklik isteğini belirtin: The neighbours repeatedly play loud music at night. I wish they ____ being so inconsiderate.",
+          "options": [
+            "would stop",
+            "had stopped yesterday",
+            "have stopped",
+            "will have stopped",
+            "are stopping"
+          ],
+          "answer": 0,
+          "explanation": "Tekrarlanan başkasının davranışının değişmesi isteği wish + would stop biçimindedir. Had stopped yesterday geçmişe yönelir; burada gelecekte değişim istenir."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "contingent",
+          "meaning": "koşula bağlı",
+          "pos": "adjective",
+          "example": "Funding is contingent on independent approval."
+        },
+        {
+          "word": "prerequisite",
+          "meaning": "ön koşul",
+          "pos": "noun",
+          "example": "Community consent is a prerequisite for the project."
+        },
+        {
+          "word": "hypothetical",
+          "meaning": "varsayımsal",
+          "pos": "adjective",
+          "example": "The analysis compares three hypothetical scenarios."
+        },
+        {
+          "word": "otherwise",
+          "meaning": "aksi hâlde",
+          "pos": "adverb",
+          "example": "Follow the protocol; otherwise, the sample may be unusable."
+        },
+        {
+          "word": "precaution",
+          "meaning": "tedbir",
+          "pos": "noun",
+          "example": "An additional copy was kept as a precaution."
+        },
+        {
+          "word": "consequence",
+          "meaning": "sonuç",
+          "pos": "noun",
+          "example": "The economic consequences could be substantial."
+        },
+        {
+          "word": "regret",
+          "meaning": "pişmanlık duymak",
+          "pos": "verb",
+          "example": "The committee may regret delaying the decision."
+        },
+        {
+          "word": "alternative",
+          "meaning": "alternatif; seçenek",
+          "pos": "noun",
+          "example": "The report presents a less expensive alternative."
+        },
+        {
+          "word": "assumption",
+          "meaning": "varsayım",
+          "pos": "noun",
+          "example": "The forecast depends on a doubtful assumption."
+        },
+        {
+          "word": "prevent",
+          "meaning": "önlemek",
+          "pos": "verb",
+          "example": "Early maintenance could prevent a major failure."
+        },
+        {
+          "word": "conditional",
+          "meaning": "koşullu",
+          "pos": "adjective",
+          "example": "The institution made a conditional offer."
+        },
+        {
+          "word": "likelihood",
+          "meaning": "olasılık",
+          "pos": "noun",
+          "example": "The likelihood of recovery depends on several factors."
+        }
+      ],
+      "reading": {
+        "title": "Planning under uncertainty",
+        "text": "A coastal town is considering a new flood barrier, but the benefits depend on several uncertain conditions. If sea levels rise faster than expected, the current design may provide protection for fewer years. If the town had invested in regular maintenance decades ago, some existing defences might still be effective today. Officials cannot change those earlier decisions, yet they can compare future alternatives. A flexible design would allow the barrier to be raised later, provided that sufficient land remains available. The council should also preserve evacuation routes in case the barrier fails during an extreme event. Such preparation does not mean that failure is certain; it acknowledges a possible consequence. Without public trust, even a technically strong plan might face serious delays. The planners therefore want residents to understand both the expected benefits and the assumptions behind them before the final decision is made.",
+        "questions": [
+          {
+            "id": "u04-r01",
+            "prompt": "What is the purpose of preserving evacuation routes?",
+            "options": [
+              "To demonstrate that the barrier will certainly fail",
+              "To prevent residents from examining alternatives",
+              "To prepare for the possibility that the barrier fails",
+              "To undo all earlier maintenance decisions",
+              "To remove the need for public trust"
+            ],
+            "answer": 2,
+            "explanation": "In case tedbiri anlatır; failure is certain olmadığını metin ayrıca söyler. Kesin başarısızlık seçeneği ters anlam verir."
+          },
+          {
+            "id": "u04-r02",
+            "prompt": "What relationship does the maintenance example illustrate?",
+            "options": [
+              "Regular maintenance guarantees that sea levels will stop rising",
+              "Present investment has already reversed all past decisions",
+              "Earlier defences were replaced because residents opposed them",
+              "A different past investment could have improved the present situation",
+              "No past decision has any relevance to current protection"
+            ],
+            "answer": 3,
+            "explanation": "If had invested ... might still be effective today geçmiş koşul–şimdiki sonuç içeren mixed conditional örneğidir. Deniz seviyesinin duracağı söylenmez."
+          },
+          {
+            "id": "u04-r03",
+            "prompt": "According to the passage, later raising of the barrier depends on ____.",
+            "options": [
+              "the abandonment of all evacuation routes",
+              "sea levels remaining unchanged forever",
+              "residents refusing to consider the design",
+              "the current defences requiring no maintenance",
+              "enough land continuing to be available"
+            ],
+            "answer": 4,
+            "explanation": "Provided that sufficient land remains available açık ön koşuldur. Diğer seçenekler metinde bu sonucu sağlayan koşul olarak verilmez."
+          }
+        ]
+      }
+    }
+  ]
+}

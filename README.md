@@ -2,7 +2,7 @@
 
 Gürkan Öztürk · Hüdavendigar Sosyal Gelişim Merkezi
 
-A1, A2 ve B1 seviyeleri ile YDS hazırlık paneli üzerinden derslere ulaşılabilen, GitHub Pages ile yayımlanan ücretsiz statik site. Mevcut altı dersin görselleri, sesleri ve etkileşimli etkinlikleri korunmuştur. A1 ve YDS yeni ders eklemeye hazırdır.
+A1, A2 ve B1 seviyeleri ile YDS hazırlık paneli üzerinden derslere ulaşılabilen, GitHub Pages ile yayımlanan ücretsiz statik site. Altı A2/B1 dersinin yanında YDS Grammar Studio yer alır; A1 yeni ders eklemeye hazırdır.
 
 Site: https://feanoria-web.github.io/ingilizce-dersler/
 
@@ -27,6 +27,7 @@ lessons/a1/               A1 dersleri
 lessons/a2/               A2 dersleri
 lessons/b1/               B1 dersleri
 lessons/yds/              YDS hazırlık dersleri
+yds-src/                  YDS uygulamasının şablonu, tasarımı ve özgün içerikleri
 scripts/                  Katalog ve doğrulama araçları
 .github/workflows/pages.yml  Otomatik yayın
 ```
@@ -50,9 +51,20 @@ Yayın dosyalarını üretmek ve kontrol etmek için:
 ```sh
 npm run build
 npm run check:build
+npm run check:yds
 ```
 
 Bağımlılık kurulumu gerekmez. Katalog `lessons` klasöründeki HTML dosyalarından üretilir; `_site` yalnızca yayımlanacak dosyaları içerir. Depoya sonradan eklenen dersler, her `main` kaydında otomatik keşfedilir.
+
+## YDS Grammar Studio
+
+`lessons/yds/grammar-studio.html`, 12 ana üniteyi kapsayan bağımsız YDS çalışma sitesidir. 123 konu anlatımı, 230 açıklamalı soru, 12 akademik okuma ve 144 kelime/öbek kartı içerir. Ünite soruları, filtreli soru bankası, yanlış defteri, süreli çalışma testleri, kişisel notlar ve altı haftalık esnek çalışma rotası aynı uygulamada yer alır.
+
+Kaynak konu haritası, Nesibe Sevgi Öndeş'in **English Grammar Inside and Out** kitabındaki 12 ünite ve ekler esas alınarak hazırlanmıştır. Türkçe anlatımlar, örnekler, sorular ve okumalar bu site için özgün olarak yazılmıştır.
+
+YDS içeriğini değiştirmek için `yds-src/data/units-01-04.json`, `units-05-08.json` ve `units-09-12.json` dosyalarını düzenleyin. `yds-src/app.js`, `style.css` ve `template.html` uygulamayı yönetir. Her yayın öncesinde `npm run build`, bu kaynakları doğrulayıp tek HTML dosyasını yeniden üretir. Bu nedenle üretilmiş `grammar-studio.html` yerine kaynak dosyaları düzenleyin.
+
+Çalışma işaretleri, cevaplar, notlar ve test sonuçları tarayıcıda saklanır. Başka cihazla eşitlenmez. Zamanlı test tekrar açılırken geçen süre korunur; süre dolduysa kaydedilen cevaplar değerlendirilir.
 
 ## GitHub Pages ayarı
 

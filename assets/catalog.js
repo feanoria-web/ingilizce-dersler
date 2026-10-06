@@ -101,5 +101,21 @@ window.LESSON_CATALOG = [
       "Bireysel çalışma"
     ],
     "url": "lessons/b1/practice.html"
+  },
+  {
+    "id": "yds/grammar-studio",
+    "level": "YDS",
+    "title": "YDS Grammar Studio · 12 ünite",
+    "description": "123 konu anlatımı, 230 açıklamalı soru, 12 akademik okuma ve 144 kelime kartı.",
+    "number": 1,
+    "order": 1,
+    "date": "2026-10-06",
+    "duration": "Kendi hızında",
+    "tags": [
+      "Dil bilgisi",
+      "Açıklamalı sorular",
+      "Okuma ve kelimeler"
+    ],
+    "url": "lessons/yds/grammar-studio.html"
   }
 ];

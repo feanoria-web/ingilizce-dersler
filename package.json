@@ -9,8 +9,9 @@
   },
   "scripts": {
     "catalog": "node scripts/build-catalog.mjs",
-    "build": "node scripts/build-catalog.mjs --output _site",
+    "build": "node scripts/build-site.mjs",
     "check": "node scripts/check-site.mjs",
-    "check:build": "node scripts/check-site.mjs --root _site"
+    "check:build": "node scripts/check-site.mjs --root _site",
+    "check:yds": "node scripts/test-yds.mjs"
   }
 }

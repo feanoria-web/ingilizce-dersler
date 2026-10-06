@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#263b36">
+  <meta name="description" content="12 ünite boyunca YDS dil bilgisi: Türkçe konu anlatımı, özgün örnekler, açıklamalı sorular, akademik okuma ve kelime kartları.">
+  <title>YDS Grammar Studio · Hüdavendigar SGM</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23263b36'/%3E%3Ctext x='32' y='40' font-size='24' text-anchor='middle' fill='white' font-family='Georgia'%3EYDS%3C/text%3E%3C/svg%3E">
+  <script id="lesson-meta" type="application/json">{{METADATA}}</script>
+  <style>{{STYLE}}</style>
+</head>
+<body>
+  <a class="skip" href="#workspace">İçeriğe geç</a>
+  <aside id="sidebar" class="sidebar" aria-label="YDS çalışma menüsü">
+    <a href="#home" class="studio-brand"><span class="brand-tile">YDS</span><span>Grammar Studio<small>HÜDAVENDİGAR SGM</small></span></a>
+    <button type="button" class="drawer-close" data-action="close-menu" aria-label="Menüyü kapat">×</button>
+    <nav id="main-nav" aria-label="Çalışma alanları">
+      <a href="#home" data-nav="home"><span aria-hidden="true">⌂</span> Genel bakış</a>
+      <a href="#bank" data-nav="bank"><span aria-hidden="true">▤</span> Soru bankası</a>
+      <a href="#reading" data-nav="reading"><span aria-hidden="true">▧</span> Okuma atölyesi</a>
+      <a href="#vocab" data-nav="vocab"><span aria-hidden="true">Aa</span> Kelime kartları</a>
+      <a href="#mistakes" data-nav="mistakes"><span aria-hidden="true">↺</span> Yanlış defteri <b id="mistake-badge">0</b></a>
+      <a href="#plan" data-nav="plan"><span aria-hidden="true">✓</span> Çalışma planım</a>
+    </nav>
+    <div class="curriculum-label">KONU HARİTASI <span>12 ÜNİTE</span></div>
+    <nav id="unit-nav" class="unit-nav" aria-label="Dil bilgisi üniteleri"></nav>
+    <div class="sidebar-bottom"><a href="#source" data-nav="source">Kaynak ve kullanım <span aria-hidden="true">↗</span></a><a href="../../index.html#YDS" class="panel-back">← Ders paneline dön</a></div>
+  </aside>
+  <button type="button" class="scrim" data-action="close-menu" aria-label="Menüyü kapat" tabindex="-1"></button>
+  <div class="workspace-shell">
+    <header class="topbar">
+      <div class="topbar-left"><button id="menu-button" type="button" class="icon-button mobile-menu" data-action="menu" aria-label="Menüyü aç" aria-expanded="false" aria-controls="sidebar">☰</button><span class="topbar-label">ENGLISH / <strong>YDS</strong></span></div>
+      <div class="topbar-actions"><span id="save-indicator" class="save-indicator"><i></i> Bu cihazda kayıtlı</span><button type="button" class="icon-button" data-action="font" aria-label="Büyük yazı görünümünü aç veya kapat" aria-pressed="false" id="font-button">A<span>+</span></button><button type="button" class="icon-button" data-action="print" aria-label="Bu çalışma ekranını yazdır">⎙</button></div>
+    </header>
+    <main id="workspace" tabindex="-1"></main>
+    <footer class="studio-footer"><span>Gürkan Öztürk · Hüdavendigar Sosyal Gelişim Merkezi</span><span>Dil bilgisi → anlam → soru çözümü</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script id="study-data" type="application/json">{{CONTENT}}</script>
+  <script>{{APP}}</script>
+  <noscript><p class="noscript-note">Konu anlatımlarını ve alıştırmaları kullanmak için tarayıcınızda JavaScript'i etkinleştirin.</p></noscript>
+</body>
+</html>

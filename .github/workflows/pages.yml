@@ -31,6 +31,8 @@ jobs:
         run: npm run build
       - name: Yayın dosyalarını doğrula
         run: npm run check:build
+      - name: YDS test ve kayıt akışlarını doğrula
+        run: npm run check:yds
       - name: Site dosyalarını yükle
         uses: actions/upload-pages-artifact@v4
         with:

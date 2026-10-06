@@ -1,0 +1,2822 @@
+{
+  "units": [
+    {
+      "id": "u05",
+      "number": 5,
+      "title": "Noun Clauses & Reported Speech",
+      "subtitle": "İsim cümlecikleri ve dolaylı anlatım",
+      "pages": "234–302",
+      "description": "İsim cümleciklerini özne, nesne ve tamamlayıcı olarak kullanmayı; soru ve düşünceleri başka bir cümleye yerleştirmeyi öğrenirsiniz. Dolaylı anlatım, yardımcı fiille verilen kısa cevaplar ve soru ekleri sayesinde cümleler arasındaki anlam ilişkisini çözersiniz.",
+      "outcomes": [
+        "İsim cümleciklerinde düz cümle sözcük sırasını uygular.",
+        "Whether, if, that ve soru sözcüklerini işlevlerine göre seçer.",
+        "Dolaylı anlatımda zaman, kişi ve yer göndermelerini bağlama göre dönüştürür.",
+        "Kısa cevap, ekleme yapısı ve soru eklerinde uygun yardımcı fiili bulur."
+      ],
+      "sections": [
+        {
+          "id": "u05-s01",
+          "title": "İsim cümleciğinin cümledeki görevi",
+          "lead": "Bir cümlecik, ana cümlede bir isim öbeğinin yaptığı işi yapabilir: özne, nesne veya tamamlayıcı olabilir.",
+          "rules": [
+            "That ile başlayan cümlecikler bir bilgi ya da iddia bildirir: We know that the sample is contaminated.",
+            "Özne konumundaki that genellikle korunur; nesne konumunda ise özellikle gündelik kullanımda düşebilir.",
+            "Uzun bir özne cümleciği yerine it ile başlayan yapı kullanılabilir: It is clear that the method works.",
+            "Be sonrasında gelen isim cümleciği özneyi açıklar: The problem is that we lack reliable data.",
+            "İsim cümleciğinin zamanı kendi anlamına göre seçilir; ana fiilin geçmiş olması her durumda geçmiş zaman gerektirmez."
+          ],
+          "examples": [
+            {
+              "en": "That the two groups responded differently surprised the researchers.",
+              "tr": "İki grubun farklı tepki vermesi araştırmacıları şaşırttı.",
+              "note": "That cümleciği ana fiilin öznesidir."
+            },
+            {
+              "en": "The main concern is that the results cannot be replicated.",
+              "tr": "Temel kaygı, sonuçların yeniden elde edilememesidir.",
+              "note": "That cümleciği be fiilinden sonra tamamlayıcıdır."
+            }
+          ],
+          "pitfalls": [
+            "Özne olarak kullanılan that cümleciğinin başındaki that'i gelişigüzel silmeyin.",
+            "Ana cümle ile iç cümleciğin özne ve fiillerini birbirine karıştırmayın."
+          ]
+        },
+        {
+          "id": "u05-s02",
+          "title": "Soru sözcükleri ve dolaylı sorular",
+          "lead": "What, who, which, where, when, why ve how ile başlayan isim cümlecikleri, doğrudan sorunun ters çevrilmiş sırasını kullanmaz.",
+          "rules": [
+            "Dolaylı soruda özne + fiil sırası vardır: Do you know where she works?",
+            "Do/does/did yalnızca soru kurmak için kullanılmışsa iç cümlecikten çıkar: why he left.",
+            "Soru sözcüğü aynı zamanda özneyse ayrı bir özne eklenmez: I wonder who called.",
+            "Which seçilmiş bir kümeden seçim, what ise daha açık bir bilgi sorusu bildirir.",
+            "How + sıfat/zarf miktar veya derece sorabilir: how accurate the model is.",
+            "Bir cümleciğin doğrudan soru içerip içermemesi, bütün cümlenin soru işaretini belirler: I wonder where he is. / Do you know where he is?"
+          ],
+          "examples": [
+            {
+              "en": "Could you explain why the experiment failed?",
+              "tr": "Deneyin neden başarısız olduğunu açıklayabilir misiniz?",
+              "note": "Why the experiment failed düz cümle sırasındadır."
+            },
+            {
+              "en": "We have not established who removed the files.",
+              "tr": "Dosyaları kimin kaldırdığını belirleyemedik.",
+              "note": "Who iç cümleciğin öznesidir; did kullanılmaz."
+            }
+          ],
+          "pitfalls": [
+            "I wonder where is the laboratory gibi iç cümlecikte devrik sıra kullanmayın.",
+            "What happened yapısında what zaten özne olduğu için fazladan it eklemeyin."
+          ]
+        },
+        {
+          "id": "u05-s03",
+          "title": "Whether ve if: iki olasılık arasında",
+          "lead": "Cevabı evet veya hayır olan sorular, isim cümleciğine whether ya da bazı konumlarda if ile aktarılır.",
+          "rules": [
+            "Fiilin nesnesi olarak çoğu durumda whether ve if mümkündür: We asked whether/if it was safe.",
+            "Özne konumunda, edattan sonra ve to-infinitive önünde whether kullanılır.",
+            "Whether or not iki olasılığı açıkça kapsar; if or not ifadesini başta bu biçimde kullanmayın.",
+            "Whether iki açık seçenek arasında tercih bildirebilir: whether to stay or leave.",
+            "Koşul bildiren if ile soru içeriği bildiren if farklıdır; işlevi ana fiil ve anlam belirler."
+          ],
+          "examples": [
+            {
+              "en": "Whether the policy will succeed remains uncertain.",
+              "tr": "Politikanın başarılı olup olmayacağı belirsizliğini koruyor.",
+              "note": "Özne konumunda whether gerekir."
+            },
+            {
+              "en": "The committee has not decided whether to postpone the meeting.",
+              "tr": "Komite toplantıyı erteleyip ertelememeye karar vermedi.",
+              "note": "To postpone öncesinde whether kullanılır."
+            }
+          ],
+          "pitfalls": [
+            "About if veya if to apply gibi yapılar kurmayın; about whether ve whether to apply kullanın.",
+            "Koşullu if cümlesi ile evet-hayır sorusunu aktaran if cümleciğini aynı kurala bağlamayın."
+          ]
+        },
+        {
+          "id": "u05-s04",
+          "title": "Öneri ve zorunluluk bildiren that cümlecikleri",
+          "lead": "Suggest, recommend, insist ve essential gibi sözcükler, bir olayın gerçekleşmesini isteme anlamında özel bir fiil biçimi alabilir.",
+          "rules": [
+            "Öneri veya talep bildiren mandative subjunctive yapısında yalın fiil kullanılır: that she attend.",
+            "Bu yapıda üçüncü tekil şahsa -s gelmez; be bütün öznelerde be olarak kalır.",
+            "Olumsuzluk doğrudan not + yalın fiil ile kurulur: that he not leave.",
+            "İngiliz İngilizcesinde should + yalın fiil de yaygındır.",
+            "Suggest bir gerçeği düşündürme, insist ise bir iddiayı vurgulama anlamındaysa normal zaman yapısı kullanılabilir; anlamı kontrol edin."
+          ],
+          "examples": [
+            {
+              "en": "The panel recommended that every participant be informed in advance.",
+              "tr": "Kurul, her katılımcının önceden bilgilendirilmesini önerdi.",
+              "note": "Talep anlamı ve edilgenlik be informed ile kurulmuştur."
+            },
+            {
+              "en": "It is essential that the technician not alter the original records.",
+              "tr": "Teknisyenin özgün kayıtları değiştirmemesi zorunludur.",
+              "note": "Not alter, olumsuz subjunctive biçimidir."
+            }
+          ],
+          "pitfalls": [
+            "That she attends yapısını öneri/talep bağlamında yalın fiil isteyen bir soruda seçmeyin.",
+            "Her suggest veya insist kullanımına otomatik subjunctive uygulamayın; gerçek bildirme anlamını ayırın."
+          ]
+        },
+        {
+          "id": "u05-s05",
+          "title": "Wh-ever ve ünlem içerikleri",
+          "lead": "Whoever, whatever ve whichever kimliğin ya da seçimin serbest olduğunu anlatırken what/how yapıları ünlem içeriğini aktarabilir.",
+          "rules": [
+            "Whoever çoğunlukla kim olursa olsun veya ... kişi anlamına gelir ve özne görevi görebilir.",
+            "Whatever herhangi bir şey ya da ne olursa olsun; whichever belirli seçeneklerden hangisi olursa olsun anlamını verir.",
+            "Whoever/whatever cümleciklerinin isim görevi ile koşulsuzluk/ödünleme anlamını bağlamdan ayırın.",
+            "Ünlemde what + isim öbeği, how + sıfat/zarf kullanılır.",
+            "Dolaylı ünlem içeriğinde de özne + fiil sırası korunur: how rapidly the city had grown."
+          ],
+          "examples": [
+            {
+              "en": "Whoever submits a complete application will receive a confirmation.",
+              "tr": "Eksiksiz başvuru yapan herkes bir onay alacak.",
+              "note": "Whoever cümleciği ana cümlenin öznesidir."
+            },
+            {
+              "en": "She remarked how dramatically the landscape had changed.",
+              "tr": "Manzaranın ne kadar çarpıcı biçimde değiştiğini belirtti.",
+              "note": "How zarfı dramatically'nin derecesini bildirir."
+            }
+          ],
+          "pitfalls": [
+            "Whichever kullanırken bağlamda bir seçenek kümesinin bulunmasına dikkat edin.",
+            "How a remarkable discovery gibi yapı kurmayın; what a remarkable discovery veya how remarkable the discovery is kullanın."
+          ]
+        },
+        {
+          "id": "u05-s06",
+          "title": "Dolaylı anlatımda ifadeler ve zaman ilişkileri",
+          "lead": "Birinin söylediklerini aktarırken olayın zamanı ile aktarım zamanını birlikte değerlendiririz.",
+          "rules": [
+            "Geçmiş aktarım fiiliyle present simple → past simple, present perfect → past perfect ve will → would dönüşümleri yaygındır.",
+            "Past simple, geçmişteki daha önceki olayı belirginleştirmek için past perfect olabilir.",
+            "Hâlâ doğru olan genel gerçeklerde veya güncel bilgilerde geri kaydırma zorunlu değildir.",
+            "Kişi, yer ve zaman ifadeleri aktarım bağlamına göre değişir: I/he, here/there, tomorrow/the following day.",
+            "Say doğrudan kişi nesnesi almaz; tell kişi nesnesi alır: said that / told us that.",
+            "Must geçmiş bir zorunluluk aktarırken had to olabilir; çıkarım bildiren must genellikle korunabilir."
+          ],
+          "examples": [
+            {
+              "en": "On Monday, Leyla said, 'I will send it tomorrow.' On Wednesday, we reported that Leyla had said she would send it the following day.",
+              "tr": "Pazartesi Leyla 'Yarın göndereceğim' dedi. Çarşamba, Leyla'nın ertesi gün göndereceğini söylediğini aktardık.",
+              "note": "Will → would; tomorrow → the following day, zaman çerçevesine göre değişmiştir."
+            },
+            {
+              "en": "The lecturer said that water boils at 100°C at standard atmospheric pressure.",
+              "tr": "Öğretim görevlisi suyun standart atmosfer basıncında 100°C'de kaynadığını söyledi.",
+              "note": "Genel gerçek aktarılırken present simple korunmuştur."
+            }
+          ],
+          "pitfalls": [
+            "Zaman sözcüklerini ve zamirleri kimin, nerede, ne zaman konuştuğunu düşünmeden dönüştürmeyin.",
+            "Said me yerine told me veya said to me kullanın."
+          ]
+        },
+        {
+          "id": "u05-s07",
+          "title": "Soruları, emirleri ve istekleri aktarma",
+          "lead": "Dolaylı soru ve emirler farklı kalıplara dönüşür; sorularda bilgi cümleciği, emirlerde çoğunlukla nesne + infinitive kullanılır.",
+          "rules": [
+            "Wh-sorularında ask + soru sözcüğü + özne + fiil kullanılır.",
+            "Evet-hayır sorularında ask + whether/if + özne + fiil kullanılır.",
+            "Dolaylı sorularda soru amaçlı do/does/did ve devrik sıra kullanılmaz.",
+            "Olumlu emir ask/tell/order + kişi + to-infinitive ile aktarılabilir.",
+            "Olumsuz emirlerde kişi + not to-infinitive kullanılır.",
+            "Request, warn, advise ve remind fiilleri aktarılacak sözün işlevini daha kesin anlatır."
+          ],
+          "examples": [
+            {
+              "en": "The inspector asked whether the staff had checked the emergency exits.",
+              "tr": "Müfettiş personelin acil çıkışları kontrol edip etmediğini sordu.",
+              "note": "Evet-hayır sorusu whether ile ve düz sırayla aktarılmıştır."
+            },
+            {
+              "en": "The supervisor warned us not to touch the exposed wires.",
+              "tr": "Amir, açıkta kalan kablolara dokunmamamız için bizi uyardı.",
+              "note": "Olumsuz uyarı not to touch biçimini almıştır."
+            }
+          ],
+          "pitfalls": [
+            "Asked where did she go biçiminde doğrudan soru sırasını korumayın.",
+            "Told us don't touch yerine told us not to touch kullanın."
+          ]
+        },
+        {
+          "id": "u05-s08",
+          "title": "Yardımcı fiillerle kısa cevap ve ekleme",
+          "lead": "Tekrarlanan fiil ya da bütün cümlecik, doğru yardımcı fiil veya so/not kullanılarak kısaltılabilir.",
+          "rules": [
+            "Kısa cevapta ana yapıdaki yardımcı fiil tekrarlanır: Has she left? Yes, she has.",
+            "Simple present/past içinde yardımcı yoksa do/does/did kullanılır.",
+            "Olumlu eklemede özne + yardımcı + too veya so + yardımcı + özne kullanılır.",
+            "Olumsuz eklemede özne + olumsuz yardımcı + either veya neither/nor + olumlu yardımcı + özne kullanılır.",
+            "So do I ile So I do aynı değildir: ilki ben de, ikincisi önceki bilgiyi kabul etme/vurgulama anlamındadır.",
+            "Think, believe, suppose ve hope gibi fiillerde so bir olumlu cümleciği, not ise bir olumsuz cümleciği temsil edebilir; kalıp fiile göre değişir: I hope not / I don't think so."
+          ],
+          "examples": [
+            {
+              "en": "The first team has finished, and so has the second.",
+              "tr": "İlk ekip bitirdi; ikinci ekip de bitirdi.",
+              "note": "Has finished yapısı has yardımcı fiiliyle kısaltılmıştır."
+            },
+            {
+              "en": "I did not receive the update, and neither did my colleague.",
+              "tr": "Güncellemeyi almadım; meslektaşım da almadı.",
+              "note": "Neither'dan sonra olumlu did kullanılır ve sıra devriktir."
+            }
+          ],
+          "pitfalls": [
+            "Neither didn't I gibi çift olumsuz yardımcı kullanmayın.",
+            "So sonrası yardımcı fiili yalnızca yakın sözcüğe göre değil, önceki yüklemin zamanına ve yapısına göre seçin."
+          ],
+          "table": {
+            "head": [
+              "Anlam",
+              "Kalıp",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "Olumlu ekleme",
+                "so + yardımcı + özne",
+                "So can we."
+              ],
+              [
+                "Olumsuz ekleme",
+                "neither + yardımcı + özne",
+                "Neither have they."
+              ],
+              [
+                "Olumlu cümlecik yerine",
+                "fiil + so",
+                "I believe so."
+              ],
+              [
+                "Olumsuz cümlecik yerine",
+                "uygun fiil + not",
+                "I hope not."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u05-s09",
+          "title": "Question tags: soru ekleri",
+          "lead": "Soru eki, önceki önermeye kısa bir onay sorusu ekler; yardımcı fiil, kutup ve özne uyumuna dikkat edilir.",
+          "rules": [
+            "Olumlu temel cümle genellikle olumsuz; olumsuz temel cümle olumlu soru eki alır.",
+            "Soru ekinde cümlenin yardımcı fiili kullanılır; yoksa do/does/did seçilir.",
+            "Nobody, never, hardly ve scarcely anlamca olumsuz olduğu için olumlu soru eki alır.",
+            "Nobody/everybody gibi kişi belirsiz zamirleri genellikle they ile; something/nothing gibi şey zamirleri it ile temsil edilir.",
+            "I am için yaygın olumsuz soru eki aren't I; let's için shall we kullanılır.",
+            "Emirlerden sonra will you gibi ekler istek/ton bildirir; bunları sıradan olumlu-olumsuz kuralına indirgemeyin."
+          ],
+          "examples": [
+            {
+              "en": "The participants had completed the survey, hadn't they?",
+              "tr": "Katılımcılar anketi tamamlamıştı, değil mi?",
+              "note": "Past perfect had yardımcı fiili tekrar edilir."
+            },
+            {
+              "en": "Nobody has objected, have they?",
+              "tr": "Kimse itiraz etmedi, değil mi?",
+              "note": "Nobody olumsuz anlam taşır; they ile have kullanılır."
+            }
+          ],
+          "pitfalls": [
+            "Never içeren cümleye tekrar olumsuz ek getirmeyin.",
+            "The report is... cümlesinin ekinde report'u çoğul they ile temsil etmeyin; it kullanın."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "u05-q01",
+          "type": "grammar",
+          "sectionId": "u05-s01",
+          "prompt": "It is an established fact _____ several historical records are incomplete.",
+          "options": [
+            "what",
+            "whether",
+            "that",
+            "which",
+            "if"
+          ],
+          "answer": 2,
+          "explanation": "That, an established fact ifadesinin içeriğini bildiren cümleciği başlatır: kayıtların eksik olduğu belirlenmiş bir gerçektir. Whether/if ise olup olmama belirsizliği kurar; established fact bağlamına uymaz. What ve which iç cümlecikte bir ögenin yerine geçmelidir, ancak several historical records are incomplete zaten tamdır."
+        },
+        {
+          "id": "u05-q02",
+          "type": "grammar",
+          "sectionId": "u05-s02",
+          "prompt": "Could you tell me _____ before the workshop starts?",
+          "options": [
+            "where the registration desk is",
+            "where is the registration desk",
+            "where does the registration desk be",
+            "where the registration desk",
+            "where being the registration desk"
+          ],
+          "answer": 0,
+          "explanation": "Dolaylı soru where + özne + fiil biçimindedir: where the registration desk is. Where is the registration desk doğrudan soru sırasıdır; Could you tell me içine yerleştirildiğinde uygun değildir. Diğer seçeneklerde fiil eksik veya biçim yanlıştır."
+        },
+        {
+          "id": "u05-q03",
+          "type": "grammar",
+          "sectionId": "u05-s03",
+          "prompt": "The researchers disagreed about _____ the observed change was statistically significant.",
+          "options": [
+            "that",
+            "what",
+            "if",
+            "which",
+            "whether"
+          ],
+          "answer": 4,
+          "explanation": "About edatından sonra evet-hayır içeriği whether ile kurulur. If aynı görevde bir fiilin nesnesi olabilir, fakat about if burada standart yapı değildir. That, whether'ın bildirdiği olup olmama alternatifini vermez."
+        },
+        {
+          "id": "u05-q04",
+          "type": "grammar",
+          "sectionId": "u05-s04",
+          "prompt": "Use the mandative subjunctive: The ethics committee demanded that the participants _____ fully informed before signing.",
+          "options": [
+            "are",
+            "be",
+            "were",
+            "being",
+            "to be"
+          ],
+          "answer": 1,
+          "explanation": "Demanded öneri/talep anlamındadır; that cümleciğinde mandative subjunctive yalın be kullanılır. Are normal çekimli bir fiildir ve bu talep kalıbının hedeflenen biçimi değildir. To be ise that + özne sonrasında yüklem olamaz."
+        },
+        {
+          "id": "u05-q05",
+          "type": "grammar",
+          "sectionId": "u05-s05",
+          "prompt": "The scholarship is open to _____ meets the published eligibility criteria; nationality is irrelevant.",
+          "options": [
+            "whenever",
+            "whatever",
+            "whose",
+            "whoever",
+            "whom"
+          ],
+          "answer": 3,
+          "explanation": "Whoever, koşulları karşılayan herhangi bir kişi anlamını verir ve meets fiilinin öznesidir. Whom nesne biçimidir; iç cümlecikte özne eksik olduğundan kullanılamaz. Whenever zaman, whatever ise burada gerekli kişi yerine şey anlamı kurar."
+        },
+        {
+          "id": "u05-q06",
+          "type": "grammar",
+          "sectionId": "u05-s06",
+          "prompt": "On Monday, Nora said, 'I will submit the form tomorrow.' Reporting this on Wednesday, we said that Nora had said she _____ the form _____.",
+          "options": [
+            "will submit / tomorrow",
+            "would submit / tomorrow",
+            "would submit / the following day",
+            "had submitted / the day before",
+            "submits / the next week"
+          ],
+          "answer": 2,
+          "explanation": "Geçmiş aktarımda will → would olur; Pazartesiye göre tomorrow Salıyı gösterdiği için the following day kullanılır. Would submit / tomorrow seçeneği aktarımın Çarşamba yapıldığını göz ardı eder ve Perşembeyi düşündürür. Had submitted ise söylenen gelecek planını geçmişte tamamlanmış olay haline getirir."
+        },
+        {
+          "id": "u05-q07",
+          "type": "grammar",
+          "sectionId": "u05-s07",
+          "prompt": "'Do not open the container,' the technician told us. → The technician told us _____ the container.",
+          "options": [
+            "not to open",
+            "to not opening",
+            "that do not open",
+            "not open",
+            "did not open"
+          ],
+          "answer": 0,
+          "explanation": "Olumsuz emir tell + kişi + not to-infinitive ile aktarılır. Not open, tell us sonrasında gerekli to'yu içermez. That do not open ise iç cümlecikte özne bırakmadığı için yapısal olarak yanlıştır."
+        },
+        {
+          "id": "u05-q08",
+          "type": "grammar",
+          "sectionId": "u05-s08",
+          "prompt": "Maya has never used this software, and _____.",
+          "options": [
+            "so has Leo",
+            "Leo has too",
+            "neither Leo has",
+            "Leo has either",
+            "neither has Leo"
+          ],
+          "answer": 4,
+          "explanation": "Never cümleyi anlamca olumsuz yapar. Olumsuz ekleme neither + yardımcı + özne ile kurulur: neither has Leo. So has Leo olumlu bir bilgiyi ekler. Leo has either ise olumsuz ekleme için gereken hasn't biçimini taşımaz."
+        },
+        {
+          "id": "u05-q09",
+          "type": "grammar",
+          "sectionId": "u05-s09",
+          "prompt": "Hardly anyone noticed the small error, _____?",
+          "options": [
+            "didn't they",
+            "did they",
+            "was it",
+            "weren't they",
+            "doesn't he"
+          ],
+          "answer": 1,
+          "explanation": "Hardly anyone anlamca olumsuzdur; noticed past simple olduğu için olumlu did gerekir. Kişi bildiren belirsiz özne they ile temsil edilir. Didn't they, olumsuz anlamlı temel cümleye tekrar olumsuz ek getirdiği için uygun değildir."
+        },
+        {
+          "id": "u05-q10",
+          "type": "translation",
+          "sectionId": "u05-s03",
+          "prompt": "'Toplantıyı erteleyip ertelememeye henüz karar vermedik.' cümlesinin en doğru İngilizce karşılığını seçin.",
+          "options": [
+            "We have decided why the meeting was postponed.",
+            "We did not decide that the meeting had been postponed.",
+            "We have not decided if postponing the meeting is already over.",
+            "We have not yet decided whether to postpone the meeting.",
+            "We will not decide when the meeting must have ended."
+          ],
+          "answer": 3,
+          "explanation": "Whether to postpone, erteleme veya ertelememe seçimini; have not yet decided, henüz verilmemiş kararı karşılar. Why the meeting was postponed, gerçekleşmiş bir ertelemenin nedenini sorar. That the meeting had been postponed ise tercih yerine geçmiş bir bilgi verir."
+        },
+        {
+          "id": "u05-q11",
+          "type": "grammar",
+          "sectionId": "u05-s07",
+          "prompt": "The coordinator asked the interns _____ their assignments, referring to work due before that morning's meeting.",
+          "options": [
+            "whether have they completed",
+            "had they completed",
+            "whether they had completed",
+            "whether did they complete",
+            "that they completed"
+          ],
+          "answer": 2,
+          "explanation": "Evet-hayır sorusu whether ile, düz özne + fiil sırasıyla aktarılır. Toplantıdan önceki tamamlanma için had completed uygundur. Whether have they completed ve had they completed soru devrikliğini korur; dolaylı soru içinde kullanılmaz."
+        },
+        {
+          "id": "u05-q12",
+          "type": "meaning",
+          "sectionId": "u05-s08",
+          "prompt": "A: 'Do you think the archive will reopen next month?' B: 'I hope so.' B'nin cevabı ne anlama gelir?",
+          "options": [
+            "I hope that the archive will reopen next month.",
+            "I know that the archive reopened last month.",
+            "I hope that the archive will remain closed next month.",
+            "I do not care when the archive opens.",
+            "I hope that someone asks the archive a question."
+          ],
+          "answer": 0,
+          "explanation": "Hope so içindeki so önceki olumlu cümleciğin, yani arşivin gelecek ay yeniden açılmasının yerine geçer. Hope not olsaydı açılmaması yönündeki umudu aktarırdı. So burada nedeni veya geçmiş bir olayı bildirmez."
+        },
+        {
+          "id": "u05-q13",
+          "type": "grammar",
+          "sectionId": "u05-s04",
+          "prompt": "The new evidence suggests that the river _____ heavily polluted; this is an inference, not a recommendation.",
+          "options": [
+            "be",
+            "to be",
+            "being",
+            "are",
+            "is"
+          ],
+          "answer": 4,
+          "explanation": "Suggests burada kanıtın bir gerçeğe işaret etmesi anlamındadır; normal çekimli is gerekir. Tekil river öznesi are alamaz. Be, talep/öneri subjunctive biçimidir ve belirtilen çıkarım anlamına uygun değildir."
+        },
+        {
+          "id": "u05-q14",
+          "type": "grammar",
+          "sectionId": "u05-s09",
+          "prompt": "Let's compare the two datasets before drawing a conclusion, _____?",
+          "options": [
+            "will you",
+            "shall we",
+            "don't we",
+            "aren't we",
+            "didn't they"
+          ],
+          "answer": 1,
+          "explanation": "Let's ile başlayan ortak önerinin geleneksel soru eki shall we'dir. Will you çoğunlukla karşıdaki kişiye yöneltilen emir veya rica sonrasında kullanılır; let's ile yapılan ortak önerinin standart eki değildir."
+        },
+        {
+          "id": "u05-q15",
+          "type": "translation",
+          "sectionId": "u05-s02",
+          "prompt": "'Bulguların neden farklı olduğunu henüz açıklayamadık.' cümlesinin en doğru karşılığını seçin.",
+          "options": [
+            "We have not explained why do the findings differ yet.",
+            "We have already explained whether the findings differ.",
+            "We did not explain that why the findings different.",
+            "We have not yet been able to explain why the findings are different.",
+            "We have not yet explained what the findings are the same."
+          ],
+          "answer": 3,
+          "explanation": "Have not yet been able to explain, henüz açıklayamadık anlamındaki yeterlilik engelini karşılar. Why the findings are different isim cümleciğinde düz cümle sırasını kullanır. Why do the findings differ doğrudan soru sırasıdır; whether ise neden sorusunu olup olmama sorusuna dönüştürür."
+        },
+        {
+          "id": "u05-q16",
+          "type": "grammar",
+          "sectionId": "u05-s05",
+          "prompt": "The astronomer described _____ unexpectedly bright the comet had become.",
+          "options": [
+            "what",
+            "whether",
+            "how",
+            "that",
+            "which"
+          ],
+          "answer": 2,
+          "explanation": "How, unexpectedly bright sıfat öbeğinin derecesini belirtir: kuyruklu yıldızın ne kadar beklenmedik ölçüde parlak hale geldiği. What bir isim öbeğiyle ünlem kurar; burada bright sıfatına bu biçimde bağlanamaz. Whether dereceden ziyade iki olasılık bildirir."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "replicate",
+          "meaning": "aynı sonucu yeniden elde etmek",
+          "pos": "verb",
+          "example": "Independent teams tried to replicate the findings."
+        },
+        {
+          "word": "assertion",
+          "meaning": "iddia, ileri sürülen görüş",
+          "pos": "noun",
+          "example": "The assertion requires further evidence."
+        },
+        {
+          "word": "eligibility",
+          "meaning": "uygunluk, başvuru koşullarını karşılama",
+          "pos": "noun",
+          "example": "Eligibility depends on prior training."
+        },
+        {
+          "word": "disclose",
+          "meaning": "açıklamak, açığa çıkarmak",
+          "pos": "verb",
+          "example": "Participants must disclose potential conflicts."
+        },
+        {
+          "word": "inference",
+          "meaning": "çıkarım",
+          "pos": "noun",
+          "example": "The inference follows from the observed pattern."
+        },
+        {
+          "word": "uncertain",
+          "meaning": "belirsiz",
+          "pos": "adjective",
+          "example": "The long-term outcome remains uncertain."
+        },
+        {
+          "word": "recommendation",
+          "meaning": "öneri, tavsiye",
+          "pos": "noun",
+          "example": "The committee accepted the recommendation."
+        },
+        {
+          "word": "compliance",
+          "meaning": "kurallara uyum",
+          "pos": "noun",
+          "example": "The audit measured compliance with the protocol."
+        },
+        {
+          "word": "clarify",
+          "meaning": "açıklığa kavuşturmak",
+          "pos": "verb",
+          "example": "The appendix clarifies how the data were collected."
+        },
+        {
+          "word": "testimony",
+          "meaning": "tanıklık, ifade",
+          "pos": "noun",
+          "example": "Her testimony changed the direction of the inquiry."
+        },
+        {
+          "word": "consensus",
+          "meaning": "görüş birliği",
+          "pos": "noun",
+          "example": "There is no consensus on when the reform should begin."
+        },
+        {
+          "word": "interpretation",
+          "meaning": "yorum",
+          "pos": "noun",
+          "example": "The interpretation depends on the historical context."
+        }
+      ],
+      "reading": {
+        "title": "What an Archive Can Tell Us",
+        "text": "When a city opens its historical archive to researchers, access alone does not guarantee reliable knowledge. A catalogue may tell readers where a document is stored without explaining why it was produced. Last year, a research team examined letters about a nineteenth-century water project. The team initially assumed that repeated complaints proved the project had failed. An archivist asked whether the letters represented the whole population or only residents with a reason to object. She also explained that several favourable reports had been filed under a different heading. The researchers then revised their interpretation. They recommended that future catalogues include links between related collections. Their experience shows how the organisation of information can shape conclusions. Whoever uses an archive must therefore ask not only what a document says, but also whose perspective it preserves and what evidence may be missing.",
+        "questions": [
+          {
+            "id": "u05-r01",
+            "prompt": "Why did the archivist question the team's initial conclusion?",
+            "options": [
+              "The letters were all written after the project ended.",
+              "The complaints might not represent the views of all residents.",
+              "The archive contained no documents about water.",
+              "The team had refused to read any letters.",
+              "The water project existed only in a catalogue."
+            ],
+            "answer": 1,
+            "explanation": "Arşivci mektupların bütün nüfusu mu yoksa itiraz etme nedeni olan sakinleri mi temsil ettiğini sorar. Bu, örneklemin temsil gücünü sorgular. Belgelerin tümünün proje sonrasında yazıldığı veya araştırmacıların okumayı reddettiği söylenmez."
+          },
+          {
+            "id": "u05-r02",
+            "prompt": "What did the researchers recommend after revising their interpretation?",
+            "options": [
+              "Removing all complaints from the archive.",
+              "Replacing letters with modern survey results.",
+              "Closing the archive until every document was translated.",
+              "Treating every catalogue heading as a complete account.",
+              "Adding connections between related collections to catalogues."
+            ],
+            "answer": 4,
+            "explanation": "Metin, gelecekteki kataloglara ilişkili koleksiyonlar arasında bağlantılar eklenmesini açıkça belirtir. Şikâyetleri kaldırma seçeneği, farklı bakış açılarını birlikte değerlendirme amacına ters düşer."
+          },
+          {
+            "id": "u05-r03",
+            "prompt": "Which statement best expresses the passage's main point?",
+            "options": [
+              "The arrangement and coverage of archival evidence can influence research conclusions.",
+              "A large number of complaints always proves that a public project failed.",
+              "Archivists should decide the final conclusions of all studies.",
+              "Access to an archive makes methodological questions unnecessary.",
+              "Historical letters are less useful than catalogue titles."
+            ],
+            "answer": 0,
+            "explanation": "Katalog düzeni bazı olumlu raporları ilk incelemenin dışında bırakmış, eksik temsil de ilk yorumu etkilemiştir. Ana düşünce, kanıtın düzenlenişinin ve kapsamının sonuçları şekillendirmesidir. Şikâyet sayısının her zaman başarısızlığı kanıtladığı görüşü, metindeki ilk varsayımın sorgulanmasıyla çelişir."
+          }
+        ]
+      }
+    },
+    {
+      "id": "u06",
+      "number": 6,
+      "title": "Gerunds & Infinitives",
+      "subtitle": "-ing biçimleri, mastarlar ve fiil tamamlama kalıpları",
+      "pages": "303–359",
+      "description": "Fiilden sonra gelen -ing, to-infinitive ve yalın fiil biçimlerini cümledeki görevleriyle birlikte incelersiniz. Anlamı değiştiren fiil kalıplarını, amaç ifadelerini, ettirgen yapıları ve algı fiillerini bağlam içinde ayırt edersiniz.",
+      "outcomes": [
+        "Gerund ve infinitive yapılarını özne, nesne ve tamamlayıcı olarak kullanır.",
+        "Edattan ve belirli fiillerden sonra gerekli fiil biçimini seçer.",
+        "Remember, stop, try gibi fiillerde yapı değişiminin anlamını açıklar.",
+        "Ettirgen ve algı yapılarında kişi ile sonraki fiilin biçimini eşleştirir."
+      ],
+      "sections": [
+        {
+          "id": "u06-s01",
+          "title": "Gerund: fiilden isim görevi oluşturma",
+          "lead": "Gerund, fiilin -ing biçiminin isim gibi kullanılmasıdır; bir faaliyet veya süreçten söz eder.",
+          "rules": [
+            "Özne olarak kullanılabilir: Collecting data takes time.",
+            "Nesne olarak enjoy, avoid, consider, deny, finish ve postpone gibi fiillerden sonra gelir.",
+            "Be sonrasında özneyi tanımlayan tamamlayıcı olabilir: Her priority is improving access.",
+            "Genel bir faaliyet öznesi çoğunlukla tekil fiil alır: Reading helps.",
+            "Her -ing biçimi gerund değildir; continuous tense veya bir ismi niteleyen participle da olabilir."
+          ],
+          "examples": [
+            {
+              "en": "Comparing the two archives revealed several inconsistencies.",
+              "tr": "İki arşivi karşılaştırmak bazı tutarsızlıkları ortaya çıkardı.",
+              "note": "Comparing ile başlayan öbek özne görevindedir."
+            },
+            {
+              "en": "The researchers avoided making claims beyond the evidence.",
+              "tr": "Araştırmacılar kanıtın ötesinde iddialarda bulunmaktan kaçındı.",
+              "note": "Avoid fiili gerund nesne alır."
+            }
+          ],
+          "pitfalls": [
+            "Avoid to make gibi fiilin gerektirdiği tamlayıcı biçimini değiştirmeyin.",
+            "She is reading ile Reading is useful içindeki -ing biçimlerinin görevlerini aynı sanmayın."
+          ]
+        },
+        {
+          "id": "u06-s02",
+          "title": "Edattan sonra gerund; perfect ve passive biçimler",
+          "lead": "Bir fiil bir edattan sonra geliyorsa çoğunlukla -ing biçimindedir; olayın önceliği ve edilgenliği ayrıca gösterilebilir.",
+          "rules": [
+            "By, without, after, before ve despite gibi edatlardan sonra fiil gerund olur.",
+            "Look forward to, object to ve be accustomed to içindeki to edattır; ardından -ing gelir.",
+            "Having + V3, önceki bir eylemi açıkça vurgulayan perfect gerund biçimidir.",
+            "Being + V3 edilgen gerund; having been + V3 önceki edilgen eylemi bildirir.",
+            "Gerundun yapan kişisi bağlama göre nesne veya iyelik biçimiyle belirtilebilir; resmî anlatımda iyelik biçimi yaygındır: his arriving late."
+          ],
+          "examples": [
+            {
+              "en": "She apologised for having overlooked an important variable.",
+              "tr": "Önemli bir değişkeni gözden kaçırmış olduğu için özür diledi.",
+              "note": "For edatından sonra perfect gerund önceki hatayı gösterir."
+            },
+            {
+              "en": "The patient was anxious about being examined by an unfamiliar doctor.",
+              "tr": "Hasta, tanımadığı bir doktor tarafından muayene edilme konusunda kaygılıydı.",
+              "note": "Being examined edilgen gerunddur."
+            }
+          ],
+          "pitfalls": [
+            "Look forward to meet yerine look forward to meeting kullanın; buradaki to mastar işareti değildir.",
+            "Having been informed ile being informed arasındaki öncelik farkını bağlamdan kontrol edin."
+          ]
+        },
+        {
+          "id": "u06-s03",
+          "title": "To-infinitive: fiil, sıfat ve isim tamamlayıcısı",
+          "lead": "To + yalın fiil birçok fiil, sıfat ve isimden sonra bir eylemi tamamlar veya beklentiyi açıklar.",
+          "rules": [
+            "Agree, decide, hope, plan, refuse ve manage gibi fiiller to-infinitive alır.",
+            "Ready, eager, willing, likely ve difficult gibi sıfatlar infinitive ile tamamlanabilir.",
+            "Decision, opportunity, ability ve attempt gibi isimlerden sonra infinitive kullanılabilir.",
+            "To have + V3 ana zaman noktasından daha önceki eylemi; to be + V-ing sürmekte olan eylemi gösterebilir.",
+            "To be + V3 edilgen; to have been + V3 önceki edilgen eylemi bildirir.",
+            "It is difficult to measure... gibi yapılarda it, sona taşınan infinitive özneyi temsil eder."
+          ],
+          "examples": [
+            {
+              "en": "The laboratory hopes to have completed the analysis by Friday.",
+              "tr": "Laboratuvar, analizi cumaya kadar tamamlamış olmayı umuyor.",
+              "note": "To have completed, gelecekteki referans noktasına kadar tamamlanmayı vurgular."
+            },
+            {
+              "en": "The proposal appears to have been rejected before the review began.",
+              "tr": "Öneri, inceleme başlamadan önce reddedilmiş gibi görünüyor.",
+              "note": "Perfect passive infinitive önceki edilgen olayı aktarır."
+            }
+          ],
+          "pitfalls": [
+            "To'dan sonra fiilin geçmiş biçimini kullanmayın; zaman ilişkisi to have + V3 ile kurulabilir.",
+            "Opportunity of participate gibi eksik yapı yerine opportunity to participate kullanın."
+          ]
+        },
+        {
+          "id": "u06-s04",
+          "title": "Kişi nesnesi + infinitive kalıpları",
+          "lead": "Bazı fiiller yalnızca eylemi değil, eylemi yapacak kişiyi de bir nesneyle belirtir.",
+          "rules": [
+            "Want, expect, ask, advise, persuade, encourage ve allow gibi fiiller kişi + to-infinitive alabilir.",
+            "Olumsuzluk çoğunlukla not to + fiil ile kurulur: advised us not to travel.",
+            "Promise ve offer çoğunlukla kendi öznesinin yapacağı eylemi infinitive ile aktarır; persuade ise etkilenen kişi nesnesini ister.",
+            "Allow/permit bir kişi nesnesi olduğunda to-infinitive, faaliyet doğrudan nesne olduğunda gerund alabilir: allow visitors to take photos / allow taking photos.",
+            "Edilgen yapıda nesne özne olur: They were encouraged to apply."
+          ],
+          "examples": [
+            {
+              "en": "The adviser persuaded the students to revise their research questions.",
+              "tr": "Danışman öğrencileri araştırma sorularını yeniden düzenlemeye ikna etti.",
+              "note": "Students, revise eylemini yapacak kişidir."
+            },
+            {
+              "en": "The rules do not allow visitors to remove documents.",
+              "tr": "Kurallar ziyaretçilerin belgeleri dışarı çıkarmasına izin vermiyor.",
+              "note": "Allow + kişi + to-infinitive kullanılmıştır."
+            }
+          ],
+          "pitfalls": [
+            "Persuaded to apply derken kimin ikna edildiği gerekiyorsa kişi nesnesini atlamayın.",
+            "Allow taking ile allow visitors to take kalıplarını birbirine karıştırıp allow visitors taking kurmayın."
+          ]
+        },
+        {
+          "id": "u06-s05",
+          "title": "Biçim değişince anlamı değişen fiiller",
+          "lead": "Bazı fiiller hem gerund hem infinitive alır, fakat iki biçim aynı olayı anlatmaz.",
+          "rules": [
+            "Remember/forget + -ing önceki olayı hatırlama/hatırlamama; remember/forget + to-infinitive yapılması gereken işi hatırlama/unutmadır.",
+            "Stop + -ing mevcut faaliyeti bırakmak; stop + to-infinitive başka bir işi yapmak için durmaktır.",
+            "Try + -ing çözüm olarak bir yöntemi denemek; try + to-infinitive bir işi başarmaya çalışmaktır.",
+            "Regret + -ing geçmiş bir eylemden pişmanlık; regret + to say/inform gibi kalıplar üzücü bilgiyi bildirmektir.",
+            "Mean + -ing gerektirmek/sonuç olarak içermek; mean + to-infinitive niyet etmek anlamına gelir.",
+            "Go on + -ing aynı faaliyeti sürdürmek; go on + to-infinitive sonraki farklı işe geçmektir. Need + -ing bazı kullanımlarda edilgen gereksinim bildirir: The roof needs repairing."
+          ],
+          "examples": [
+            {
+              "en": "She remembered locking the cabinet, so she knew the files were secure.",
+              "tr": "Dolabı kilitlediğini hatırladı; bu yüzden dosyaların güvende olduğunu biliyordu.",
+              "note": "Geçmişte yapılan eylemin anısı: remember + -ing."
+            },
+            {
+              "en": "After discussing the theory, the lecturer went on to demonstrate the method.",
+              "tr": "Teoriyi ele aldıktan sonra öğretim görevlisi yöntemi göstermeye geçti.",
+              "note": "Yeni bir aşamaya geçiş: go on + to-infinitive."
+            }
+          ],
+          "pitfalls": [
+            "Stopped smoking ile stopped to smoke ters anlamlara yakındır: sigarayı bıraktı / sigara içmek için durdu.",
+            "Remember to send ifadesini daha önce göndermiş olduğunu hatırlamak şeklinde çevirmeyin."
+          ],
+          "table": {
+            "head": [
+              "Fiil",
+              "Gerund",
+              "To-infinitive"
+            ],
+            "rows": [
+              [
+                "remember",
+                "Önceki eylemi hatırlamak",
+                "Yapılacak işi hatırlamak"
+              ],
+              [
+                "stop",
+                "Faaliyeti bırakmak",
+                "Başka amaç için durmak"
+              ],
+              [
+                "try",
+                "Yöntem denemek",
+                "Başarmaya çalışmak"
+              ],
+              [
+                "mean",
+                "Gerektirmek",
+                "Niyet etmek"
+              ],
+              [
+                "go on",
+                "Aynı işi sürdürmek",
+                "Sonraki işe geçmek"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u06-s06",
+          "title": "Amaç; too ve enough yapıları",
+          "lead": "Infinitive bir eylemin amacını veya bir eylemi gerçekleştirmeye yeterli/yetersiz dereceyi gösterebilir.",
+          "rules": [
+            "To, in order to ve so as to + yalın fiil amaç bildirir; özne genellikle ana eylemin öznesidir.",
+            "Olumsuz amaç için in order not to veya so as not to kullanılır.",
+            "Farklı özne gerektiğinde so that + özne + çekimli fiil yapısı elverişlidir.",
+            "Too + sıfat/zarf + to-infinitive aşırı derecenin engel oluşturduğunu bildirir.",
+            "Sıfat/zarf + enough + to-infinitive yeterli dereceyi; enough + isim yeterli miktarı bildirir.",
+            "For + kişi, infinitive eyleminin yapanını açıklar: too complex for beginners to use."
+          ],
+          "examples": [
+            {
+              "en": "The team repeated the test in order to reduce measurement error.",
+              "tr": "Ekip, ölçüm hatasını azaltmak için testi tekrarladı.",
+              "note": "Amaç infinitive ile açıklanmıştır."
+            },
+            {
+              "en": "The dataset is too small to support a reliable generalisation.",
+              "tr": "Veri kümesi güvenilir bir genellemeyi destekleyemeyecek kadar küçüktür.",
+              "note": "Too small, yeterlilik eksikliğinin nedenidir."
+            }
+          ],
+          "pitfalls": [
+            "Enough accurate yerine accurate enough; data enough yerine enough data kullanın.",
+            "Too difficult to use ifadesini kullanılabilecek kadar zor şeklinde çevirmeyin; bir engel bildirir."
+          ]
+        },
+        {
+          "id": "u06-s07",
+          "title": "Ettirgen yapılar: make, let, have ve get",
+          "lead": "Bir işi kişinin kendisinin yapması ile başka birine yaptırması farklı kalıplarla gösterilir.",
+          "rules": [
+            "Make + kişi + yalın fiil zorlama/etki; let + kişi + yalın fiil izin anlamı verir.",
+            "Have + kişi + yalın fiil birine bir iş yaptırmayı; get + kişi + to-infinitive ikna/sağlama anlamını verir.",
+            "Have/get + şey + V3, işin başka biri tarafından yapılmasını anlatır: have the device repaired.",
+            "Have + nesne + V3 bazen kişinin yaşadığı olumsuz olayı anlatır: had her bag stolen.",
+            "Make edilgenleştiğinde to geri gelir: was made to wait.",
+            "Help + kişi + yalın fiil veya to-infinitive alabilir; iki biçim de standart kullanımdır."
+          ],
+          "examples": [
+            {
+              "en": "We had a technician calibrate the instrument.",
+              "tr": "Cihazı bir teknisyene kalibre ettirdik.",
+              "note": "Have + kişi + yalın fiil: işi yapan kişi belirtilmiştir."
+            },
+            {
+              "en": "The trainees were made to repeat the safety procedure.",
+              "tr": "Stajyerlere güvenlik işlemi tekrar ettirildi.",
+              "note": "Edilgen make yapısında to repeat kullanılır."
+            }
+          ],
+          "pitfalls": [
+            "Get the technician calibrate yerine get the technician to calibrate kullanın.",
+            "Have the device repair ifadesinde cihazın işi yapan olduğunu varsaymış olursunuz; edilgen iş için repaired gerekir."
+          ],
+          "table": {
+            "head": [
+              "Kalıp",
+              "Örnek",
+              "Temel ilişki"
+            ],
+            "rows": [
+              [
+                "make + kişi + V1",
+                "make them wait",
+                "Yaptırma / zorlama"
+              ],
+              [
+                "let + kişi + V1",
+                "let them leave",
+                "İzin"
+              ],
+              [
+                "have + kişi + V1",
+                "have her check it",
+                "Görevlendirme"
+              ],
+              [
+                "get + kişi + to V1",
+                "get her to check it",
+                "Sağlama / ikna"
+              ],
+              [
+                "have/get + şey + V3",
+                "have it checked",
+                "İşlem yaptırma"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u06-s08",
+          "title": "Yalın infinitive gereken diğer yapılar",
+          "lead": "To olmadan kullanılan yalın fiil özellikle modallar ve birkaç sabit ifadeden sonra görülür.",
+          "rules": [
+            "Can, could, may, might, must, shall, should, will ve would modallarından sonra yalın fiil gelir.",
+            "Had better ve would rather + yalın fiil kullanılır; olumsuzluk not + yalın fiille kurulur.",
+            "Would rather kendi öznesi için yalın fiil, başka kişinin tercihe konu eylemi için çoğunlukla geçmiş biçimli cümlecik alır: I'd rather you stayed.",
+            "Why not + yalın fiil bir öneri sunar.",
+            "Help hem yalın hem to-infinitive alabilir; yalnızca ikisinden birini doğru sayan bağlamsız sorular güvenilir değildir."
+          ],
+          "examples": [
+            {
+              "en": "We had better check the figures before publication.",
+              "tr": "Yayımdan önce rakamları kontrol etsek iyi olur.",
+              "note": "Had better sonrasında check yalındır."
+            },
+            {
+              "en": "I would rather analyse the original data than rely on a summary.",
+              "tr": "Bir özete güvenmektense özgün veriyi incelemeyi tercih ederim.",
+              "note": "Aynı öznenin tercihi would rather + yalın fiille kurulur."
+            }
+          ],
+          "pitfalls": [
+            "Must to submit veya had better to check kullanmayın.",
+            "Would rather ile would prefer kalıplarını karıştırmayın: would prefer to analyse mümkündür."
+          ]
+        },
+        {
+          "id": "u06-s09",
+          "title": "Algı fiilleri: bütün olay, sürmekte olan olay ve edilgenlik",
+          "lead": "See, hear, watch ve notice gibi fiillerden sonraki biçim, olayın nasıl algılandığını gösterir.",
+          "rules": [
+            "See/hear/watch/notice + nesne + yalın fiil genellikle olayı bir bütün olarak algılamayı bildirir.",
+            "Aynı fiiller + nesne + -ing olayın devam eden bir kesitini vurgular.",
+            "Nesne + V3, algılanan kişinin/şeyin edilgen bir duruma veya eyleme maruz kalmasını gösterebilir.",
+            "Edilgen aktarımda yalın infinitive çoğunlukla to-infinitive olur: was seen to leave.",
+            "-ing biçimi edilgen aktarımda korunabilir: was seen leaving.",
+            "Bağlam tamamlanmışlık farkını vermiyorsa yalın ve -ing seçeneklerini tek doğru cevaplı soruda karşı karşıya getirmeyin."
+          ],
+          "examples": [
+            {
+              "en": "I watched the assistant seal the envelope and place it in the drawer.",
+              "tr": "Asistanın zarfı mühürleyip çekmeceye koymasını izledim.",
+              "note": "Olay dizisi bütün olarak izlenmiştir."
+            },
+            {
+              "en": "When I passed the laboratory, I saw the assistant preparing a sample.",
+              "tr": "Laboratuvarın önünden geçerken asistanın bir numune hazırlamakta olduğunu gördüm.",
+              "note": "Olayın sürmekte olan kesiti vurgulanmıştır."
+            }
+          ],
+          "pitfalls": [
+            "Algı fiili + nesne sonrasında etken yapıda to'yu otomatik eklemeyin: saw him leave.",
+            "Saw the window broken ifadesinde broken'ın edilgen durum bildirdiğini fark edin."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "u06-q01",
+          "type": "grammar",
+          "sectionId": "u06-s01",
+          "prompt": "To protect participant privacy, the team avoided _____ names in the published report.",
+          "options": [
+            "to include",
+            "included",
+            "include",
+            "including",
+            "to have include"
+          ],
+          "answer": 3,
+          "explanation": "Avoid fiili gerund alır: avoided including. To include, avoid'ın bu anlamdaki standart tamlayıcısı değildir. Included çekimli/geçmiş biçim olup avoided sonrasında gerekli isim görevli yapıyı kurmaz."
+        },
+        {
+          "id": "u06-q02",
+          "type": "grammar",
+          "sectionId": "u06-s02",
+          "prompt": "The applicants are looking forward to _____ the selection panel next week.",
+          "options": [
+            "meeting",
+            "meet",
+            "met",
+            "be meeting",
+            "have met"
+          ],
+          "answer": 0,
+          "explanation": "Look forward to içindeki to edattır; ardından meeting gerundu gelir. Meet, to'yu mastar işareti olarak yanlış yorumlar. Next week geleceği gösterse de edattan sonraki fiil biçimi -ing olarak kalır."
+        },
+        {
+          "id": "u06-q03",
+          "type": "grammar",
+          "sectionId": "u06-s02",
+          "prompt": "After the missing data were discovered, the analyst admitted _____ a key variable during last month's review.",
+          "options": [
+            "to overlook",
+            "to have overlooked",
+            "overlook",
+            "having been overlooked",
+            "having overlooked"
+          ],
+          "answer": 4,
+          "explanation": "Admit gerund alır; having overlooked geçen ayki daha önce gerçekleşmiş etken hatayı açıkça belirtir. Having been overlooked, analistin gözden kaçırılmış olması anlamında edilgendir ve a key variable nesnesiyle uyuşmaz. To have overlooked infinitive olduğundan admit kalıbına uymaz."
+        },
+        {
+          "id": "u06-q04",
+          "type": "grammar",
+          "sectionId": "u06-s03",
+          "prompt": "The candidate seems _____ the interview already, because she can describe every question in detail.",
+          "options": [
+            "attend",
+            "to have attended",
+            "having attended",
+            "to attending",
+            "attended"
+          ],
+          "answer": 1,
+          "explanation": "Seem to-infinitive alır; already ve geçmiş görüşmeyle ilgili ayrıntılı bilgi, to have attended perfect infinitive yapısını gerektirir. Having attended gerund/participle biçimi seem sonrasında bu kalıbı kurmaz."
+        },
+        {
+          "id": "u06-q05",
+          "type": "grammar",
+          "sectionId": "u06-s04",
+          "prompt": "The mentor encouraged the junior researchers _____ their findings at the conference.",
+          "options": [
+            "presenting",
+            "presented",
+            "to present",
+            "present",
+            "to presenting"
+          ],
+          "answer": 2,
+          "explanation": "Encourage + kişi + to-infinitive kalıbı gerekir: encouraged the researchers to present. Present yalın fiili make/let gibi kalıplarda mümkün olabilir, fakat encourage burada to ister. Presenting de bu nesne + fiil kalıbını karşılamaz."
+        },
+        {
+          "id": "u06-q06",
+          "type": "meaning",
+          "sectionId": "u06-s05",
+          "prompt": "'The driver stopped to check the map.' cümlesinin doğru yorumunu seçin.",
+          "options": [
+            "The driver permanently gave up checking maps.",
+            "The driver remembered a map checked earlier.",
+            "The driver checked the map without stopping.",
+            "The driver paused another activity in order to check the map.",
+            "The driver was prevented from checking the map."
+          ],
+          "answer": 3,
+          "explanation": "Stop to check, haritayı kontrol etmek amacıyla başka bir faaliyete ara vermeyi anlatır. Stopped checking the map olsaydı haritaya bakma eylemini bırakmak anlamı oluşurdu. Cümle kalıcı olarak haritalardan vazgeçildiğini söylemez."
+        },
+        {
+          "id": "u06-q07",
+          "type": "grammar",
+          "sectionId": "u06-s05",
+          "prompt": "Please remember _____ the signed form before you leave tomorrow; it is still on your desk.",
+          "options": [
+            "to send",
+            "having sent",
+            "sent",
+            "send",
+            "to have been sent"
+          ],
+          "answer": 0,
+          "explanation": "Henüz masadaki formun yarın ayrılmadan önce gönderilmesi gereken iştir; remember to send kullanılır. Having sent daha önce gönderilmiş bir eylemi hatırlamayı bildirir ve formun henüz gönderilmediği bağlamıyla çelişir."
+        },
+        {
+          "id": "u06-q08",
+          "type": "grammar",
+          "sectionId": "u06-s06",
+          "prompt": "The evidence is not strong _____ a definite conclusion.",
+          "options": [
+            "enough support",
+            "too to support",
+            "enough supporting",
+            "to enough support",
+            "enough to support"
+          ],
+          "answer": 4,
+          "explanation": "Sıfat + enough + to-infinitive sırası gerekir: strong enough to support. Not strong enough, kesin sonuç için yeterince güçlü olmadığını belirtir. Enough supporting gerekli infinitive yapısını içermez."
+        },
+        {
+          "id": "u06-q09",
+          "type": "grammar",
+          "sectionId": "u06-s07",
+          "prompt": "We had the damaged microscope _____ by a qualified technician.",
+          "options": [
+            "repair",
+            "repaired",
+            "to repair",
+            "repairing",
+            "to repairing"
+          ],
+          "answer": 1,
+          "explanation": "Have + şey + V3, işi başkasına yaptırmayı bildirir; microscope işi yapan değil onarılan nesnedir. Repair seçilirse cihaz işi yapan gibi konumlanır. By a qualified technician edilgen repaired yapısını da destekler."
+        },
+        {
+          "id": "u06-q10",
+          "type": "grammar",
+          "sectionId": "u06-s07",
+          "prompt": "The coordinator got the supplier _____ replacement parts within two days.",
+          "options": [
+            "deliver",
+            "delivered",
+            "to deliver",
+            "delivering",
+            "to delivering"
+          ],
+          "answer": 2,
+          "explanation": "Get + kişi/kurum + to-infinitive kalıbı supplier to deliver biçimini gerektirir. Deliver yalın biçimi have + kişi + fiil kalıbında kullanılabilir; get'in bu ettirgen yapısı to ister."
+        },
+        {
+          "id": "u06-q11",
+          "type": "grammar",
+          "sectionId": "u06-s08",
+          "prompt": "The results have not been checked. We had better _____ them before issuing the statement.",
+          "options": [
+            "to verify",
+            "verifying",
+            "verified",
+            "verify",
+            "to have verifying"
+          ],
+          "answer": 3,
+          "explanation": "Had better sonrasında yalın fiil verify kullanılır. To verify, başka fiillerin infinitive kalıbını buraya taşıdığı için yanlıştır. Have not been checked bağlamı, şimdi yapılması gereken kontrolü açıklamaktadır."
+        },
+        {
+          "id": "u06-q12",
+          "type": "grammar",
+          "sectionId": "u06-s09",
+          "prompt": "The suspect was seen _____ the building through a side entrance; the witness observed the entire departure.",
+          "options": [
+            "to leave",
+            "leave",
+            "left",
+            "to leaving",
+            "having been left"
+          ],
+          "answer": 0,
+          "explanation": "Etken saw the suspect leave yapısı edilgenleşince was seen to leave olur. Leave tek başına etken algı fiili + nesne yapısına aittir; was seen sonrasında to gerekir. Having been left ise binayı terk eden kişinin etken eylemini edilgene çevirir."
+        },
+        {
+          "id": "u06-q13",
+          "type": "translation",
+          "sectionId": "u06-s06",
+          "prompt": "'Ölçüm hatasını azaltmak için deneyi tekrarladılar.' cümlesinin en doğru karşılığını seçin.",
+          "options": [
+            "They reduced the experiment in order to repeat an error.",
+            "They repeated the experiment because the error had increased.",
+            "They repeated the experiment without reducing the measurement error.",
+            "They repeated the error to measure the experiment.",
+            "They repeated the experiment in order to reduce measurement error."
+          ],
+          "answer": 4,
+          "explanation": "In order to reduce amacı, repeated the experiment ana eylemi doğru karşılar. Without reducing seçeneği amaç yerine hata azaltmadan yapılan eylemi anlatır; because seçeneği metinde olmayan neden bilgisi ekler."
+        },
+        {
+          "id": "u06-q14",
+          "type": "grammar",
+          "sectionId": "u06-s05",
+          "prompt": "If the printer stops responding, try _____ it off and on again; this method often solves the problem.",
+          "options": [
+            "to have been switched",
+            "switching",
+            "switched",
+            "switch",
+            "to switching"
+          ],
+          "answer": 1,
+          "explanation": "Try switching, sorunu çözmek için bir yöntemi denemeyi anlatır. Diğer seçeneklerde geçerli gerund/infinitive kalıbı veya uygun etken anlam yoktur. To have been switched, yazıcıyı kapatıp açan kişinin eylemini değil önceki edilgen olayı bildirir."
+        },
+        {
+          "id": "u06-q15",
+          "type": "meaning",
+          "sectionId": "u06-s05",
+          "prompt": "'Expanding the survey will mean hiring more interviewers.' cümlesindeki mean hangi anlamdadır?",
+          "options": [
+            "intend to employ more interviewers without expanding the survey",
+            "remember employing interviewers in the past",
+            "involve or require employing more interviewers",
+            "stop employing interviewers altogether",
+            "fail to understand what interviewers do"
+          ],
+          "answer": 2,
+          "explanation": "Mean + gerund bir eylemin gerektirdiği veya içerdiği sonucu belirtir: anketi genişletmek daha fazla görüşmeci çalıştırmayı gerektirecektir. Niyet etmek anlamı mean to hire biçimiyle kurulur; expanding the survey öznesi de burada sonucu gerektiren süreçtir."
+        },
+        {
+          "id": "u06-q16",
+          "type": "grammar",
+          "sectionId": "u06-s07",
+          "prompt": "During the drill, the supervisor made every trainee _____ the emergency route twice.",
+          "options": [
+            "to follow",
+            "following",
+            "followed",
+            "follow",
+            "to have followed"
+          ],
+          "answer": 3,
+          "explanation": "Etken make + kişi + yalın fiil kalıbında follow gerekir. To follow, yalnızca bu make yapısı edilgenleştiğinde were made to follow biçiminde zorunlu olur. Following ve followed fiilin bu tamamlayıcı konumuna uymaz."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "postpone",
+          "meaning": "ertelemek",
+          "pos": "verb",
+          "example": "The committee postponed reviewing the proposal."
+        },
+        {
+          "word": "undertake",
+          "meaning": "üstlenmek, girişmek",
+          "pos": "verb",
+          "example": "The team undertook a detailed assessment."
+        },
+        {
+          "word": "calibrate",
+          "meaning": "kalibre etmek, ölçüm ayarı yapmak",
+          "pos": "verb",
+          "example": "A technician calibrated the sensors."
+        },
+        {
+          "word": "verification",
+          "meaning": "doğrulama",
+          "pos": "noun",
+          "example": "Verification of the results took three days."
+        },
+        {
+          "word": "feasible",
+          "meaning": "uygulanabilir",
+          "pos": "adjective",
+          "example": "The revised plan appears feasible."
+        },
+        {
+          "word": "allocate",
+          "meaning": "tahsis etmek, ayırmak",
+          "pos": "verb",
+          "example": "The department allocated funds for training."
+        },
+        {
+          "word": "intervention",
+          "meaning": "müdahale",
+          "pos": "noun",
+          "example": "The intervention aimed to improve attendance."
+        },
+        {
+          "word": "exposure",
+          "meaning": "maruz kalma",
+          "pos": "noun",
+          "example": "The study measured exposure to noise."
+        },
+        {
+          "word": "reluctant",
+          "meaning": "isteksiz",
+          "pos": "adjective",
+          "example": "Some volunteers were reluctant to participate."
+        },
+        {
+          "word": "facilitate",
+          "meaning": "kolaylaştırmak",
+          "pos": "verb",
+          "example": "Clear instructions facilitate learning."
+        },
+        {
+          "word": "maintenance",
+          "meaning": "bakım",
+          "pos": "noun",
+          "example": "Regular maintenance reduces equipment failure."
+        },
+        {
+          "word": "retain",
+          "meaning": "korumak, elde tutmak",
+          "pos": "verb",
+          "example": "The archive retained the original documents."
+        }
+      ],
+      "reading": {
+        "title": "Learning to Repair",
+        "text": "University laboratories often spend considerable sums replacing instruments that could be repaired. To investigate this problem, a group of engineering students began collecting discarded equipment from nearby departments. Their aim was to identify common causes of failure rather than to produce new devices. At first, they tried reading technical manuals without examining the instruments, but this approach yielded little progress. They then asked experienced technicians to demonstrate basic diagnostic procedures. Watching the technicians work helped the students distinguish a damaged component from an incorrect setting. The project also encouraged departments to keep maintenance records. Having such records made it easier to trace recurring faults. The students eventually repaired several instruments and recommended establishing a shared repair workshop. They recognised, however, that repairing equipment was not always appropriate: some devices were too inaccurate to use safely, even after damaged parts had been replaced.",
+        "questions": [
+          {
+            "id": "u06-r01",
+            "prompt": "What was the students' initial goal?",
+            "options": [
+              "To design completely new laboratory devices.",
+              "To identify frequent reasons why instruments stopped working.",
+              "To replace every technician with a student.",
+              "To prove that all discarded instruments were safe.",
+              "To sell technical manuals to nearby departments."
+            ],
+            "answer": 1,
+            "explanation": "Metin, amaçlarının yeni cihaz üretmek yerine yaygın arıza nedenlerini belirlemek olduğunu açıklar. Yeni cihaz tasarlama seçeneği, metinde belirtilen amacın karşıtıdır."
+          },
+          {
+            "id": "u06-r02",
+            "prompt": "How did maintenance records help the project?",
+            "options": [
+              "They eliminated the need to inspect instruments.",
+              "They showed that no instrument had ever failed.",
+              "They allowed students to ignore technicians' advice.",
+              "They helped identify faults that occurred repeatedly.",
+              "They guaranteed that repaired devices were accurate."
+            ],
+            "answer": 3,
+            "explanation": "Bakım kayıtları tekrarlayan arızaların izini sürmeyi kolaylaştırmıştır. Kayıtların incelemeyi gereksiz kıldığı veya doğruluğu garanti ettiği belirtilmez; son cümle bazı cihazların hâlâ yetersiz olduğunu söyler."
+          },
+          {
+            "id": "u06-r03",
+            "prompt": "Which conclusion is supported by the final part of the passage?",
+            "options": [
+              "Repair is useful in some cases, but it does not make every instrument suitable for safe use.",
+              "Replacing parts always restores the accuracy of any instrument.",
+              "All discarded equipment should be returned to laboratories immediately.",
+              "Reading manuals is sufficient for diagnosing every fault.",
+              "A shared workshop would make maintenance records unnecessary."
+            ],
+            "answer": 0,
+            "explanation": "Bazı cihazlar parçaları değiştirildikten sonra bile güvenli kullanım için yeterince doğru değildir. Bu nedenle onarım her cihazı kullanıma uygun hale getirmez. Her zaman doğruluk sağlandığı görüşü son cümleyle doğrudan çelişir."
+          }
+        ]
+      }
+    },
+    {
+      "id": "u07",
+      "number": 7,
+      "title": "Adjectives & Adverbs",
+      "subtitle": "Niteleme, derece ve karşılaştırma",
+      "pages": "360–422",
+      "description": "Sıfat ve zarfların hangi ögeyi nitelediğini, cümlede nerede kullanıldığını ve nasıl derece aldığını öğrenirsiniz. Eşitlik, üstünlük, sonuç ve birlikte değişim bildiren yapıları anlam ve biçim açısından karşılaştırırsınız.",
+      "outcomes": [
+        "Sıfat ile zarfı nitelediği ögeye göre ayırır ve sıfat sırasını uygular.",
+        "-ed/-ing sıfatları ve derece zarflarını uygun anlamla seçer.",
+        "As...as, comparative ve superlative yapılarında karşılaştırma alanını belirler.",
+        "So/such, karşılaştırma güçlendiricileri ve the...the yapılarının anlamını çözer."
+      ],
+      "sections": [
+        {
+          "id": "u07-s01",
+          "title": "Sıfatın yeri ve birden çok sıfatın sırası",
+          "lead": "Sıfat bir ismi niteler veya linking verb sonrasında öznenin durumunu açıklar; birkaç sıfat birlikteyse anlam türü sıralamayı etkiler.",
+          "rules": [
+            "Attributive sıfat isimden önce gelir: an effective method; predicative sıfat be/seem/become gibi fiillerden sonra gelir.",
+            "Yaygın sıra görüş → boyut → yaş → biçim → renk → köken → malzeme → amaç → isim şeklindedir; gerçek kullanımdaki vurgu bu sıralamayı etkileyebilir.",
+            "Opinion sıfatı ile daha nesnel özellikleri ayırın: an elegant old stone building.",
+            "Something, nothing ve anyone gibi belirsiz zamirlerden sonra sıfat gelir: something useful.",
+            "Some sıfatlar konuma göre kısıtlıdır: afraid çoğunlukla yüklem tamamlayıcısı olarak kullanılır.",
+            "Linking verb sonrasında özneyi anlatan sıfat gerekir: The solution seems practical."
+          ],
+          "examples": [
+            {
+              "en": "The archive acquired a small rectangular wooden box.",
+              "tr": "Arşiv küçük, dikdörtgen, ahşap bir kutu edindi.",
+              "note": "Boyut → biçim → malzeme → isim sırası kullanılmıştır."
+            },
+            {
+              "en": "The committee found nothing unusual in the report.",
+              "tr": "Komite raporda olağandışı hiçbir şey bulmadı.",
+              "note": "Unusual belirsiz zamir nothing'den sonra gelir."
+            }
+          ],
+          "pitfalls": [
+            "Seems efficiently yerine özneyi niteleyen seems efficient kullanın.",
+            "Sıfat sırasını mutlak bir matematik kuralı gibi görmeyin; açık sınav örneklerinde olağan nötr sırayı esas alın."
+          ]
+        },
+        {
+          "id": "u07-s02",
+          "title": "-ed ve -ing sıfatları",
+          "lead": "Birçok duyguyla ilgili fiilden türeyen -ed ve -ing sıfatı, duyguyu yaşayan ile duyguyu doğuranı ayırır.",
+          "rules": [
+            "Bored, interested ve confused gibi -ed sıfatlar etkilenen kişinin durumunu anlatır.",
+            "Boring, interesting ve confusing gibi -ing sıfatlar bu etkiyi doğuran kişi, nesne veya olayı anlatır.",
+            "Bir kişi de -ing sıfatıyla nitelenebilir: an inspiring teacher; kişi başkalarını etkiler.",
+            "Her -ed/-ing sıfat duygu anlamı taşımaz: a broken window, running water gibi yapıları kendi anlamıyla çözün.",
+            "İsim öbeğinde sıfatın nitelediği ismi bulmak doğru biçimi seçmenin ilk adımıdır."
+          ],
+          "examples": [
+            {
+              "en": "The explanation was confusing, so several students looked confused.",
+              "tr": "Açıklama kafa karıştırıcıydı; bu yüzden bazı öğrenciler şaşkın görünüyordu.",
+              "note": "Confusing etkiyi doğuranı; confused etkilenenleri anlatır."
+            },
+            {
+              "en": "An inspiring mentor can make inexperienced researchers more confident.",
+              "tr": "İlham veren bir danışman, deneyimsiz araştırmacıları daha özgüvenli hale getirebilir.",
+              "note": "Mentor bir kişi olsa da başkalarına ilham verdiği için inspiring kullanılır."
+            }
+          ],
+          "pitfalls": [
+            "I am boring ifadesi sıkıldım değil, başkalarını sıkan biriyim anlamına gelir.",
+            "Sadece ismin insan olup olmadığına bakmayın; etkiyi yaratan mı yaşayan mı olduğunu belirleyin."
+          ]
+        },
+        {
+          "id": "u07-s03",
+          "title": "Derecelenebilir ve uç anlamlı sıfatlar",
+          "lead": "Derece zarfları sıfatın anlamına uymalıdır; biraz veya çok denebilen özelliklerle tamlık/uç derece bildiren özellikler farklı birleşimler kurar.",
+          "rules": [
+            "Cold, useful ve expensive gibi derecelenebilir sıfatlar very, rather, fairly ve slightly ile kullanılabilir.",
+            "Empty, impossible ve exhausted gibi tamlık/uç derece anlamlı sıfatlar tamamenlik bildiren completely, absolutely gibi zarflarla sık birleşir.",
+            "Quite bazı sıfatlarla oldukça, bazı tamlık sıfatlarıyla tamamen anlamına gelebilir; tek bir Türkçe karşılığı her yere taşımayın.",
+            "Too, gereğinden fazla; enough, yeterli derece bildirir ve very ile aynı anlamda değildir.",
+            "Really birçok sıfatla kullanılabilir; seçeneklerde sözcüğün gerçek kullanımını ve bağlamı birlikte değerlendirin."
+          ],
+          "examples": [
+            {
+              "en": "The initial estimate was fairly accurate, but the revised one was much closer to the actual cost.",
+              "tr": "İlk tahmin oldukça doğruydu, ancak gözden geçirilmiş tahmin gerçek maliyete çok daha yakındı.",
+              "note": "Fairly bir doğruluk derecesi bildirir."
+            },
+            {
+              "en": "After the long field trip, the researchers were completely exhausted.",
+              "tr": "Uzun saha gezisinden sonra araştırmacılar tamamen bitkin düşmüştü.",
+              "note": "Completely uç derece anlamını destekler."
+            }
+          ],
+          "pitfalls": [
+            "Too useful ile very useful'ı eşanlamlı saymayın; too bir sınırın aşılmasını bildirir.",
+            "Derece birleşimlerinin kullanım eğilimi olduğunu unutmayın; bağlamsız çok yakın seçenekler kesin ayrım sağlamayabilir."
+          ]
+        },
+        {
+          "id": "u07-s04",
+          "title": "Zarf türü ve cümledeki yeri",
+          "lead": "Zarf bir fiili, sıfatı, başka bir zarfı veya bütün cümleyi niteler; yeri vurguladığı ögeyi etkiler.",
+          "rules": [
+            "Manner zarfları eylemin nasıl yapıldığını söyler: carefully, efficiently.",
+            "Zarf çoğunlukla -ly ile türetilir; good → well gibi düzensiz biçimler vardır.",
+            "Fast, hard ve late hem sıfat hem zarf olabilir; hardly ve lately farklı anlam taşır.",
+            "Manner zarfı genellikle fiil nesnesinden sonra gelir: analysed the samples carefully; fiil ile kısa nesnesi arasına gelişigüzel konmaz.",
+            "Sentence adverbs bütün önermeye yaklaşımı bildirir: Fortunately, the files survived.",
+            "Linking verb sonrasında özneyi nitelemek için sıfat kullanılır; look carefully ise bakma eylemini niteler."
+          ],
+          "examples": [
+            {
+              "en": "The assistant labelled every sample carefully.",
+              "tr": "Asistan her numuneyi dikkatle etiketledi.",
+              "note": "Carefully etiketleme eyleminin yapılışını anlatır."
+            },
+            {
+              "en": "The revised procedure seems efficient and works efficiently.",
+              "tr": "Gözden geçirilmiş işlem verimli görünüyor ve verimli biçimde çalışıyor.",
+              "note": "Efficient özneyi, efficiently works fiilini niteler."
+            }
+          ],
+          "pitfalls": [
+            "Hardly'yi hard'ın sıradan -ly biçimi sanmayın: hardly neredeyse hiç anlamındadır.",
+            "Good bir sıfat; eylemin başarılı yapılmasını anlatırken well kullanın."
+          ]
+        },
+        {
+          "id": "u07-s05",
+          "title": "Sıklık, derece ve sınırlayıcı zarflar",
+          "lead": "Always, usually, hardly, almost ve only gibi sözcükler bilgi kapsamını değiştirir; yerleri ve anlamları önemlidir.",
+          "rules": [
+            "Sıklık zarfları çoğunlukla ana fiilden önce, be'den sonra, ilk yardımcı fiilden sonra gelir.",
+            "Never, hardly ve scarcely olumsuz anlam taşır; ayrıca not eklemek genellikle gereksizdir.",
+            "Almost nearly ile benzer biçimde bir sınıra yaklaşmayı; hardly ise çok azlığı bildirir.",
+            "Only'nin yeri kapsamı etkiler: only the director signed / the director only signed.",
+            "Very sıfatı veya zarfı derecelendirir; ordinary lexical verbs çoğunlukla very much ile derecelendirilebilir.",
+            "Enough sıfat/zarfın ardından, isimden önce gelir: clearly enough / enough evidence."
+          ],
+          "examples": [
+            {
+              "en": "The laboratory has rarely encountered this type of contamination.",
+              "tr": "Laboratuvar bu tür kirlenmeyle nadiren karşılaştı.",
+              "note": "Rarely ilk yardımcı has'ten sonra gelmiştir."
+            },
+            {
+              "en": "Only the lead author approved the final version.",
+              "tr": "Son sürümü yalnızca başyazar onayladı.",
+              "note": "Only'nin kapsamı onaylayan kişidir."
+            }
+          ],
+          "pitfalls": [
+            "Almost no ile almost all arasındaki anlam yönünü gözden kaçırmayın.",
+            "I very agree yerine I agree very much gibi uygun bir derece yapısı kullanın."
+          ]
+        },
+        {
+          "id": "u07-s06",
+          "title": "Eşitlik ve karşılaştırma derecesi",
+          "lead": "As...as eşit derecede olmayı; comparative + than iki taraf arasındaki farkı gösterir.",
+          "rules": [
+            "As + sıfat/zarf + as eşitlik kurar; not as/so...as daha düşük dereceyi belirtir.",
+            "Kısa sıfatlarda çoğunlukla -er, uzun sıfatlarda more kullanılır; better, worse ve farther/further düzensiz biçimlerdir.",
+            "More better veya more easier gibi çift karşılaştırma eki kullanılmaz.",
+            "Countable plural için fewer, uncountable için less temel ayrımdır.",
+            "Twice/three times as...as kat karşılaştırması kurar.",
+            "Karşılaştırılan ögeler mantıksal olarak eşleşmelidir: the population of A with that of B; one report with another report."
+          ],
+          "examples": [
+            {
+              "en": "The new sensor is twice as sensitive as the old one.",
+              "tr": "Yeni sensör eskisinin iki katı kadar hassastır.",
+              "note": "Twice as...as yapısı dereceyi kat olarak karşılaştırır."
+            },
+            {
+              "en": "The revised protocol produced fewer errors than the original one.",
+              "tr": "Gözden geçirilmiş protokol ilkine göre daha az hata üretti.",
+              "note": "Errors sayılabilir çoğul isim olduğu için fewer kullanılmıştır."
+            }
+          ],
+          "pitfalls": [
+            "As effective than yerine as effective as kullanın.",
+            "The climate of the coast is milder than the inland towns ifadesinde iklimi şehirlerle karşılaştırmayın; than that of the inland towns biçimini kurun."
+          ],
+          "table": {
+            "head": [
+              "Temel biçim",
+              "Comparative",
+              "Superlative"
+            ],
+            "rows": [
+              [
+                "good / well",
+                "better",
+                "best"
+              ],
+              [
+                "bad / badly",
+                "worse",
+                "worst"
+              ],
+              [
+                "many / much",
+                "more",
+                "most"
+              ],
+              [
+                "little (miktar)",
+                "less",
+                "least"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u07-s07",
+          "title": "En üstün derece ve karşılaştırmanın kapsamı",
+          "lead": "Superlative, bir üyenin bir grup içindeki en yüksek veya en düşük derecesini belirtir.",
+          "rules": [
+            "Kısa sıfatlarda -est, uzun sıfatlarda most/least kullanılır; sıfatlı isim öbeklerinde genellikle the bulunur.",
+            "In çoğunlukla yer veya grup, of ise çoğul üyeler ya da dönem ifadesi önünde kullanılır: in the class / of the three.",
+            "One of the + superlative + çoğul isim kalıbında isim çoğuldur.",
+            "By far, easily ve much gibi ifadeler üstünlük derecesini vurgulayabilir; by far the most yaygın bir kalıptır.",
+            "Ordinal + superlative sıralama belirtir: the second largest.",
+            "The most carefully prepared report gibi yapılarda zarf karşılaştırması bir participle sıfatını niteleyebilir."
+          ],
+          "examples": [
+            {
+              "en": "This is one of the most detailed surveys in the field.",
+              "tr": "Bu, alandaki en ayrıntılı araştırmalardan biridir.",
+              "note": "One of sonrasında surveys çoğuldur."
+            },
+            {
+              "en": "Of the three proposals, the last is by far the least expensive.",
+              "tr": "Üç öneriden sonuncusu açık ara en düşük maliyetlisidir.",
+              "note": "Of the three karşılaştırma grubunu, by far farkın büyüklüğünü gösterir."
+            }
+          ],
+          "pitfalls": [
+            "One of the best method yerine one of the best methods kullanın.",
+            "İki seçenek arasındaki comparative ile bir grup içindeki superlative karşılaştırmasını bağlamdan ayırın."
+          ]
+        },
+        {
+          "id": "u07-s08",
+          "title": "Karşılaştırmayı güçlendirme ve birlikte değişim",
+          "lead": "Farkın büyüklüğü ve iki değişkenin birlikte değişmesi ayrı karşılaştırma kalıplarıyla anlatılır.",
+          "rules": [
+            "Much, far, considerably, a lot ve even comparative biçimini güçlendirir: much more reliable.",
+            "Slightly, a little ve marginally küçük farkı gösterir.",
+            "Very comparative biçiminin önüne doğrudan gelmez; very much better gibi başka yapılar mümkündür.",
+            "More and more veya -er and -er zaman içindeki artışı; less and less azalışı anlatır.",
+            "The + comparative..., the + comparative... bir değişken arttıkça diğerinin nasıl değiştiğini bildirir.",
+            "Bu paralel yapılarda than gerekmez: The longer we wait, the harder it becomes."
+          ],
+          "examples": [
+            {
+              "en": "The revised estimate is considerably more realistic than the initial one.",
+              "tr": "Gözden geçirilmiş tahmin ilkine göre çok daha gerçekçidir.",
+              "note": "Considerably comparative farkını güçlendirir."
+            },
+            {
+              "en": "The more consistently the team records data, the easier it becomes to detect errors.",
+              "tr": "Ekip veriyi ne kadar tutarlı kaydederse hataları saptamak o kadar kolaylaşır.",
+              "note": "The...the iki değişimin ilişkisini kurar."
+            }
+          ],
+          "pitfalls": [
+            "Very more accurate yerine much more accurate kullanın.",
+            "The more..., the more... yapısını iki bağımsız the most yapısı gibi okumayın; dereceler birlikte değişir."
+          ]
+        },
+        {
+          "id": "u07-s09",
+          "title": "So, such ve sonuç cümlecikleri",
+          "lead": "So ve such dereceyi vurgulayıp that cümleciğiyle sonuç bildirebilir; aralarındaki seçim sonraki öbeğin türüne bağlıdır.",
+          "rules": [
+            "So + sıfat/zarf + that kullanılır: so complex that / so rapidly that.",
+            "Such + a/an + sıfat + tekil sayılabilir isim + that; such + sıfat + çoğul/sayılamayan isim + that kullanılır.",
+            "So many/few + çoğul sayılabilir isim; so much/little + sayılamayan isim kalıpları vardır.",
+            "Such, isim öbeğini; so, sıfat/zarfı veya belirli miktar sözlerini derecelendirir.",
+            "Too...to bir engel, so...that ise sonucu açıkça bildiren cümlecik kurar; sonuç olumlu veya olumsuz olabilir.",
+            "Resmî anlatımda so + sıfat + a/an + tekil isim görülebilir: so difficult a task; temel such a difficult task sırasından farklıdır."
+          ],
+          "examples": [
+            {
+              "en": "The instructions were so clear that no additional explanation was needed.",
+              "tr": "Yönergeler o kadar açıktı ki ek açıklamaya gerek kalmadı.",
+              "note": "So sıfatı, that sonucu başlatır."
+            },
+            {
+              "en": "It was such a lengthy review that publication was delayed.",
+              "tr": "O kadar uzun bir incelemeydi ki yayım gecikti.",
+              "note": "Such a + sıfat + isim kalıbı kullanılmıştır."
+            }
+          ],
+          "pitfalls": [
+            "Such clear that yerine so clear that; so a clear explanation yerine such a clear explanation kullanın.",
+            "So few ile so little'ı ismin sayılabilirliğine göre ayırın."
+          ]
+        },
+        {
+          "id": "u07-s10",
+          "title": "Like, as, such as ve the same as",
+          "lead": "Benzerlik, görev ve örneklendirme aynı ilişkiyi kurmaz. Kelimenin ardından gelen yapı kadar cümledeki anlam hedefini de izle.",
+          "rules": [
+            "Like + isim öbeği bir benzerlik kurar: like a teacher, bir öğretmen gibi. As + isim öbeği ise görev veya sıfatı belirtir: as a teacher, öğretmen olarak.",
+            "Such as, genel bir grubun örneklerini verir: renewable sources such as wind and solar power. Örnek listesi, önceki grubun bütün üyelerini kapsamak zorunda değildir.",
+            "The same ... as eşitlik veya aynılığı bağlar: the same method as the earlier study. Different from ve similar to farklı tamamlayıcı edatlar alır.",
+            "As, bir cümlecikle yöntem veya uyum anlamı da kurabilir: Do as the instructions say. Like ile başlayan isim öbeği ile as ile başlayan bu tam cümleciği birbirine karıştırma."
+          ],
+          "examples": [
+            {
+              "en": "She works as a consultant, but she explains difficult ideas like a patient teacher.",
+              "tr": "Danışman olarak çalışıyor, ancak zor fikirleri sabırlı bir öğretmen gibi açıklıyor.",
+              "note": "As gerçek görevini, like ise anlatımının benzediği kişiyi belirtir."
+            },
+            {
+              "en": "The new laboratory uses the same procedure as the previous one.",
+              "tr": "Yeni laboratuvar, önceki laboratuvarla aynı yöntemi kullanıyor.",
+              "note": "The same procedure tamamlayıcısını as ile bağlar; than veya like bu kalıbı tamamlamaz."
+            },
+            {
+              "en": "Some materials, such as recycled glass, can reduce demand for raw resources.",
+              "tr": "Geri dönüştürülmüş cam gibi bazı malzemeler, ham kaynak talebini azaltabilir.",
+              "note": "Such as bir örnek verir; bütün malzeme listesini tanımlamaz."
+            }
+          ],
+          "pitfalls": [
+            "As a researcher ve like a researcher farklı anlamlar taşır: ilki araştırmacı görevini, ikincisi araştırmacıya benzeyen tutumu belirtir.",
+            "The same ... as, similar to ve different from ayrı eşdizimlerdir. Hepsini tek bir karşılaştırma edatıyla tamamlamaya çalışma."
+          ],
+          "table": {
+            "head": [
+              "Yapı",
+              "İlişki",
+              "Kısa örnek"
+            ],
+            "rows": [
+              [
+                "like + isim",
+                "Benzerlik",
+                "like an expert"
+              ],
+              [
+                "as + isim",
+                "Görev / sıfat",
+                "as an expert"
+              ],
+              [
+                "such as + örnek",
+                "Örneklendirme",
+                "metals such as copper"
+              ],
+              [
+                "the same ... as",
+                "Aynılık",
+                "the same size as"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "u07-s11",
+          "title": "Sıfatlardan sonra infinitive",
+          "lead": "Sıfatın tamamlayıcısı bir eylem olduğunda to + fiil sıklıkla kullanılır. Eylemi kimin yaptığı ve öznenin eylemdeki rolü, Türkçe anlamı doğru kurmanı sağlar.",
+          "rules": [
+            "Eager, willing, ready ve reluctant gibi sıfatlar to-infinitive ile tamamlanabilir: The team is eager to begin. Eylemi yapacak kişi ana cümlenin öznesidir.",
+            "It is important / essential / useful to + fiil, bir eylemi değerlendirmek için kullanılır. Eylemi yapanı belirtmek için for + kişi eklenebilir: It is important for researchers to record the date.",
+            "Easy, difficult ve hard ile bazı değerlendirme kalıplarında ana özne, infinitive fiilinin anlamsal nesnesidir: The manual is easy to follow. Manual, takip eden değil takip edilen şeydir.",
+            "Bir sıfatın aldığı tamamlayıcıyı denetle. Interested in learning bir edat + gerund kalıbıdır; eager to learn ise bir to-infinitive kalıbıdır."
+          ],
+          "examples": [
+            {
+              "en": "The team is reluctant to publish incomplete results.",
+              "tr": "Ekip, eksik sonuçları yayımlamakta isteksizdir.",
+              "note": "Reluctant to publish kalıbında yayımlama eyleminin öznesi team’dir."
+            },
+            {
+              "en": "The revised manual is easy to follow.",
+              "tr": "Gözden geçirilen kılavuzu takip etmek kolaydır.",
+              "note": "Kılavuz takip edilen nesnedir. Bu değerlendirme kalıbında active infinitive to follow kullanılır."
+            },
+            {
+              "en": "It is essential for technicians to check the equipment regularly.",
+              "tr": "Teknisyenlerin ekipmanı düzenli kontrol etmesi şarttır.",
+              "note": "For technicians, to check eylemini yapacak grubu açıklar; it ise değerlendirme cümlesinin biçimsel öznesidir."
+            }
+          ],
+          "pitfalls": [
+            "Interested in + -ing ile ready / eager to + fiil kalıplarını karıştırma. In edatından sonra gerund, infinitive to’dan sonra yalın fiil gelir.",
+            "The instructions are difficult to understand cümlesinde instructions’ın anlamdaki nesne olması, otomatik olarak passive infinitive gerektiği anlamına gelmez."
+          ],
+          "table": {
+            "head": [
+              "Kalıp",
+              "Örnek",
+              "Anlam ilişkisi"
+            ],
+            "rows": [
+              [
+                "kişi + sıfat + to V",
+                "They are ready to leave.",
+                "Kişi eylemi yapar."
+              ],
+              [
+                "It is sıfat for kişi to V",
+                "It is useful for students to compare examples.",
+                "Eylemi değerlendirme"
+              ],
+              [
+                "nesne + easy/difficult + to V",
+                "The chart is difficult to interpret.",
+                "Nesne, eylemin anlamsal nesnesidir."
+              ]
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "id": "u07-q01",
+          "type": "grammar",
+          "sectionId": "u07-s01",
+          "prompt": "The revised policy seems _____, although implementing it may take time.",
+          "options": [
+            "practically",
+            "practice",
+            "practicality",
+            "more practically",
+            "practical"
+          ],
+          "answer": 4,
+          "explanation": "Seem linking verbdür; özneyi niteleyen practical sıfatı gerekir. Practically bir zarftır ve burada politikanın niteliğini tamamlamaz. Practicality ise isimdir; bu cümlede seçilen sıfat yüklem yapısını kurmaz."
+        },
+        {
+          "id": "u07-q02",
+          "type": "grammar",
+          "sectionId": "u07-s01",
+          "prompt": "Standart nötr sıfat sırasını kullanarak boşluğu tamamlayın: The curator placed the letters in _____.",
+          "options": [
+            "a small rectangular wooden box",
+            "a wooden small rectangular box",
+            "a rectangular wooden small box",
+            "a small wooden box rectangular",
+            "a box small rectangular wooden"
+          ],
+          "answer": 0,
+          "explanation": "Olağan sıra boyut small → biçim rectangular → malzeme wooden → isim box şeklindedir. Diğer seçenekler nötr sıfat sırasını bozar veya niteleyicileri isimden sonra uygunsuz biçimde yerleştirir."
+        },
+        {
+          "id": "u07-q03",
+          "type": "grammar",
+          "sectionId": "u07-s02",
+          "prompt": "The seminar was _____, so even the normally attentive students felt _____.",
+          "options": [
+            "bored / boring",
+            "boring / bored",
+            "boring / boring",
+            "bored / bored",
+            "bored / boredom"
+          ],
+          "answer": 1,
+          "explanation": "Seminer sıkılma etkisini doğurduğu için boring; öğrenciler bu etkiyi yaşadığı için bored gerekir. Bored / boring seçeneği duygu yaşayanla duyguyu doğuranı tersine çevirir."
+        },
+        {
+          "id": "u07-q04",
+          "type": "grammar",
+          "sectionId": "u07-s03",
+          "prompt": "There is no liquid left in the tank; it is _____ empty.",
+          "options": [
+            "many",
+            "a few",
+            "completely",
+            "enough",
+            "such"
+          ],
+          "answer": 2,
+          "explanation": "Completely empty hiç sıvı kalmadığını, tam boşluğu anlatır. Many/a few sayılabilir isim miktarıyla, such ise normalde bir isim öbeğiyle kullanılır. Enough sıfattan önce bu derece yapısını kurmaz."
+        },
+        {
+          "id": "u07-q05",
+          "type": "grammar",
+          "sectionId": "u07-s04",
+          "prompt": "The analyst examined the unusual pattern _____ before reporting it.",
+          "options": [
+            "careful",
+            "care",
+            "carefulness",
+            "carefully",
+            "more careful"
+          ],
+          "answer": 3,
+          "explanation": "Examine fiilinin nasıl yapıldığını belirten carefully zarfı gerekir. Careful ve more careful sıfattır; özneyi ya da ismi nitelerler, burada eylemin yapılışını tamamlamazlar."
+        },
+        {
+          "id": "u07-q06",
+          "type": "meaning",
+          "sectionId": "u07-s05",
+          "prompt": "'Only the lead author approved the final version.' cümlesi hangisini ifade eder?",
+          "options": [
+            "The lead author approved only the title.",
+            "The lead author did nothing except approve the version.",
+            "Every author approved the final version.",
+            "The final version was approved before the first draft.",
+            "No person other than the lead author approved the final version."
+          ],
+          "answer": 4,
+          "explanation": "Only doğrudan the lead author öbeğinin kapsamını sınırlar; onaylayan tek kişi başyazardır. The lead author only approved... biçimi eylem kapsamını; approved only the title biçimi nesneyi sınırlandırırdı."
+        },
+        {
+          "id": "u07-q07",
+          "type": "grammar",
+          "sectionId": "u07-s06",
+          "prompt": "The new filtering system produces _____ errors than the old system.",
+          "options": [
+            "fewer",
+            "few",
+            "less",
+            "little",
+            "least"
+          ],
+          "answer": 0,
+          "explanation": "Errors sayılabilir çoğul isimdir; than ile karşılaştırma yapan fewer gerekir. Few karşılaştırma biçimi değildir. Less temel standart ayrımda sayılamayan miktar için kullanılır; burada fewer hedeflenir."
+        },
+        {
+          "id": "u07-q08",
+          "type": "grammar",
+          "sectionId": "u07-s06",
+          "prompt": "The portable detector is twice _____ the stationary model.",
+          "options": [
+            "more sensitive as",
+            "as sensitive as",
+            "as sensitive than",
+            "sensitive than",
+            "the most sensitive as"
+          ],
+          "answer": 1,
+          "explanation": "Kat karşılaştırması twice as + sıfat + as yapısıyla kurulur. As sensitive than eşitlik kalıbını comparative bağlacıyla karıştırır. More sensitive as ise more ile gereken than'ı kullanmaz ve hedeflenen kat yapısını kurmaz."
+        },
+        {
+          "id": "u07-q09",
+          "type": "grammar",
+          "sectionId": "u07-s07",
+          "prompt": "This report is one of the most comprehensive _____ published this year.",
+          "options": [
+            "review",
+            "a review",
+            "reviews",
+            "reviewing",
+            "reviewed"
+          ],
+          "answer": 2,
+          "explanation": "One of the + superlative + çoğul isim kalıbında reviews gerekir. Review tekildir; one of ifadesi bir grubun içinden tek üyeyi seçtiği için grup ismi çoğul olmalıdır."
+        },
+        {
+          "id": "u07-q10",
+          "type": "grammar",
+          "sectionId": "u07-s08",
+          "prompt": "The revised model is _____ more accurate than the original model.",
+          "options": [
+            "very",
+            "such",
+            "many",
+            "considerably",
+            "enough"
+          ],
+          "answer": 3,
+          "explanation": "Considerably, more accurate comparative biçiminin farkını güçlendirir. Very doğrudan more accurate önünde kullanılmaz. Enough ise normal sıfat/zarf öbeğinin ardından gelir ve bu karşılaştırma güçlendiricisi değildir."
+        },
+        {
+          "id": "u07-q11",
+          "type": "grammar",
+          "sectionId": "u07-s08",
+          "prompt": "_____ the sample size becomes, _____ the estimate tends to be.",
+          "options": [
+            "Largest / reliable",
+            "The largest / the most reliable",
+            "As large / than reliable",
+            "Larger than / more reliable than",
+            "The larger / the more reliable"
+          ],
+          "answer": 4,
+          "explanation": "İki derecenin birlikte değişmesi the + comparative..., the + comparative... yapısıyla belirtilir. The largest / the most reliable superlative biçimleridir; artış ilişkisini kurmaz. Than bu paralel yapıda gerekli değildir."
+        },
+        {
+          "id": "u07-q12",
+          "type": "grammar",
+          "sectionId": "u07-s09",
+          "prompt": "It was _____ difficult task that the team requested an extension.",
+          "options": [
+            "such a",
+            "so",
+            "such",
+            "so many",
+            "too"
+          ],
+          "answer": 0,
+          "explanation": "A difficult task tekil sayılabilir isim öbeğidir; such a + sıfat + isim + that gerekir. So difficult a task mümkündür, ancak seçeneklerde yalnızca so bulunduğundan so difficult task biçimi artikelsiz kalır. Such tek başına da gerekli a'yı sağlamaz."
+        },
+        {
+          "id": "u07-q13",
+          "type": "grammar",
+          "sectionId": "u07-s09",
+          "prompt": "The algorithm processed the records _____ quickly that the entire analysis finished in a minute.",
+          "options": [
+            "such",
+            "so",
+            "too",
+            "enough",
+            "such a"
+          ],
+          "answer": 1,
+          "explanation": "Quickly zarfını derecelendiren so, that sonuç cümleciğiyle kullanılır. Such bir isim öbeği bekler. Too quickly farklı bir aşırılık anlamı verir ve bu so...that kalıbını oluşturmaz."
+        },
+        {
+          "id": "u07-q14",
+          "type": "translation",
+          "sectionId": "u07-s08",
+          "prompt": "'Daha uzun bekledikçe sorunu çözmek daha zor hale gelir.' cümlesinin en doğru karşılığını seçin.",
+          "options": [
+            "Waiting longer is always the most difficult solution.",
+            "The longest we wait, the hardest we solved the problem.",
+            "The longer we wait, the harder it becomes to solve the problem.",
+            "We wait longer because the problem has already been solved.",
+            "The problem becomes less difficult than we wait."
+          ],
+          "answer": 2,
+          "explanation": "The longer..., the harder... bekleme süresi arttıkça çözüm güçlüğünün arttığını ifade eder. The longest / the hardest, birlikte değişim için comparative yerine superlative kullanır. Diğer seçenekler ilişkinin yönünü veya zamanını değiştirir."
+        },
+        {
+          "id": "u07-q15",
+          "type": "meaning",
+          "sectionId": "u07-s04",
+          "prompt": "'The laboratory hardly uses the old scanner.' cümlesindeki hardly nasıl yorumlanmalıdır?",
+          "options": [
+            "The laboratory uses the scanner with great effort.",
+            "The scanner is physically hard.",
+            "The laboratory uses the scanner frequently.",
+            "The laboratory almost never uses the old scanner.",
+            "The laboratory has recently begun using the scanner."
+          ],
+          "answer": 3,
+          "explanation": "Hardly neredeyse hiç anlamını verir. Hard ise çok çalışmak gibi kullanımlarda yoğun çabayı anlatabilir; hardly onun yalnızca -ly eklenmiş eşanlamlısı değildir. Recently/lately yakın zaman anlamını taşır, burada yer almaz."
+        },
+        {
+          "id": "u07-q16",
+          "type": "grammar",
+          "sectionId": "u07-s07",
+          "prompt": "Of the four proposals, this one has the lowest estimated cost; it is by far _____ expensive.",
+          "options": [
+            "more",
+            "as",
+            "much",
+            "a little",
+            "the least"
+          ],
+          "answer": 4,
+          "explanation": "Lowest estimated cost, gruptaki en düşük maliyeti açıkça belirtir; by far the least expensive bunu karşılar. More expensive, daha pahalı anlamıyla verilen maliyet bilgisinin tersidir. As tek başına eşitlik yapısını tamamlamaz."
+        },
+        {
+          "id": "u07-q17",
+          "type": "grammar",
+          "sectionId": "u07-s10",
+          "prompt": "The new guide has the same layout _____ the previous edition.",
+          "options": [
+            "like",
+            "than",
+            "as",
+            "with",
+            "to"
+          ],
+          "answer": 2,
+          "explanation": "The same ... as, aynılık ilişkisini kuran kalıptır. Than comparative sıfatlarla; similar ise to ile kullanılır. Burada the same layout olduğu için as gerekir."
+        },
+        {
+          "id": "u07-q18",
+          "type": "grammar",
+          "sectionId": "u07-s11",
+          "prompt": "The new guidelines are difficult _____ without prior training.",
+          "options": [
+            "understanding",
+            "understand",
+            "understood",
+            "to understand",
+            "to understanding"
+          ],
+          "answer": 3,
+          "explanation": "Difficult sonrasında bu değerlendirme yapısında to-infinitive gelir: difficult to understand. Guidelines, anlam bakımından understand fiilinin nesnesidir. To understanding ise infinitive to sonrasında yalın fiil gerektiği için yanlıştır."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "substantial",
+          "meaning": "önemli ölçüde, büyük",
+          "pos": "adjective",
+          "example": "The reform produced a substantial improvement."
+        },
+        {
+          "word": "marginally",
+          "meaning": "çok az farkla",
+          "pos": "adverb",
+          "example": "The revised estimate was marginally lower."
+        },
+        {
+          "word": "consistent",
+          "meaning": "tutarlı",
+          "pos": "adjective",
+          "example": "The results were consistent across regions."
+        },
+        {
+          "word": "comparatively",
+          "meaning": "karşılaştırmalı olarak, nispeten",
+          "pos": "adverb",
+          "example": "The procedure is comparatively inexpensive."
+        },
+        {
+          "word": "precise",
+          "meaning": "kesin, hassas",
+          "pos": "adjective",
+          "example": "Precise measurements are essential."
+        },
+        {
+          "word": "remarkably",
+          "meaning": "dikkat çekici biçimde",
+          "pos": "adverb",
+          "example": "The two groups performed remarkably well."
+        },
+        {
+          "word": "comprehensive",
+          "meaning": "kapsamlı",
+          "pos": "adjective",
+          "example": "The review offers a comprehensive account."
+        },
+        {
+          "word": "negligible",
+          "meaning": "ihmal edilebilir",
+          "pos": "adjective",
+          "example": "The remaining difference was negligible."
+        },
+        {
+          "word": "increasingly",
+          "meaning": "giderek daha fazla",
+          "pos": "adverb",
+          "example": "The issue has become increasingly complex."
+        },
+        {
+          "word": "efficient",
+          "meaning": "verimli",
+          "pos": "adjective",
+          "example": "The new system is efficient under heavy loads."
+        },
+        {
+          "word": "readily",
+          "meaning": "kolayca, hemen",
+          "pos": "adverb",
+          "example": "The records are readily available."
+        },
+        {
+          "word": "disproportionate",
+          "meaning": "orantısız",
+          "pos": "adjective",
+          "example": "Small errors can have disproportionate effects."
+        }
+      ],
+      "reading": {
+        "title": "Comparing Access to Urban Green Space",
+        "text": "Comparisons between cities can be misleading when researchers rely on a single measure. A recent study of urban green space illustrates this difficulty. One city had considerably more parkland per resident than another, yet its residents reported less frequent park use. The researchers found that many of its largest parks were far from densely populated neighbourhoods. In the second city, parks were smaller but more evenly distributed. They were therefore more readily accessible to people who could not travel long distances. The study also showed that the safer a park seemed, the more often nearby residents visited it. These findings do not imply that park size is irrelevant. Rather, they suggest that total area alone provides an incomplete account of access. A comprehensive comparison should examine location, transport, safety and facilities as well as the amount of green space.",
+        "questions": [
+          {
+            "id": "u07-r01",
+            "prompt": "Why did residents of the city with more parkland report less frequent park use?",
+            "options": [
+              "Its parks were all smaller than those in the second city.",
+              "Many large parks were distant from densely populated neighbourhoods.",
+              "Residents were prohibited from entering green spaces.",
+              "The study compared only the cost of transport.",
+              "The city had no public transport of any kind."
+            ],
+            "answer": 1,
+            "explanation": "Metin, ilk şehirdeki birçok büyük parkın yoğun nüfuslu mahallelerden uzak olduğunu söyler. Bu, toplam alan yüksek olsa da erişimin düşük olmasını açıklar. Giriş yasağı veya tüm ulaşımın yokluğu belirtilmez."
+          },
+          {
+            "id": "u07-r02",
+            "prompt": "What relationship did the study identify concerning perceived safety?",
+            "options": [
+              "Larger parks always seemed safer than smaller parks.",
+              "Residents avoided parks whenever facilities improved.",
+              "Safety perceptions did not affect visits.",
+              "Parks became safer only after transport was removed.",
+              "Residents visited a park more often when they perceived it as safer."
+            ],
+            "answer": 4,
+            "explanation": "The safer a park seemed, the more often... yapısı algılanan güvenlik arttıkça ziyaret sıklığının arttığını bildirir. Büyüklüğün her zaman güvenlik sağladığı söylenmez; incelenen ilişki güvenlik algısı ile kullanımdır."
+          },
+          {
+            "id": "u07-r03",
+            "prompt": "Which approach would best follow the passage's recommendation?",
+            "options": [
+              "Comparing several dimensions of access instead of using total area alone.",
+              "Ranking cities solely by the size of their largest park.",
+              "Ignoring green-space area in every comparison.",
+              "Counting parks without considering where they are located.",
+              "Assuming that all residents can travel equally far."
+            ],
+            "answer": 0,
+            "explanation": "Son cümle konum, ulaşım, güvenlik ve olanakların alan miktarıyla birlikte değerlendirilmesini ister. Alanı tamamen yok saymak da yalnızca alana dayanmak kadar metnin önerisini kaçırır."
+          }
+        ]
+      }
+    },
+    {
+      "id": "u08",
+      "number": 8,
+      "title": "Relative Clauses",
+      "subtitle": "İlgi cümlecikleri, kısaltmalar ve vurgu yapıları",
+      "pages": "423–469",
+      "description": "İsimleri tanımlayan ya da onlar hakkında ek bilgi veren cümlecikleri doğru zamir, edat ve noktalama ile kurarsınız. Kısaltılmış ilgi cümlecikleri, tüm cümleye gönderme yapan which ve cleft yapılarıyla yoğun akademik cümleleri çözersiniz.",
+      "outcomes": [
+        "Defining ve non-defining ilgi cümleciklerini anlam ve virgül açısından ayırır.",
+        "Zamir, sahiplik, yer/zaman ifadesi ve edatı gerekli göreve göre seçer.",
+        "Etken, edilgen ve infinitive kısaltmalarını temel cümleyle ilişkilendirir.",
+        "Cleft ve what cümleciklerinde vurgulanan ögeyi belirler."
+      ],
+      "sections": [
+        {
+          "id": "u08-s01",
+          "title": "Tanımlayıcı cümlecikler: who, which ve that",
+          "lead": "Defining relative clause, hangi kişi veya şeyden söz edildiğini belirler; temel tanımlayıcı bilgi virgülle ayrılmaz.",
+          "rules": [
+            "İnsan için who/that; şey ve hayvan için çoğunlukla which/that kullanılır.",
+            "Relative pronoun iç cümleciğin öznesiyse düşürülemez: the device which measures noise.",
+            "Nesne görevindeki zamir defining cümlecikte düşürülebilir: the report (which) we reviewed.",
+            "Relative pronoun zaten ilgili ögenin görevini üstlenir; aynı öge için ayrıca he/it/them eklenmez.",
+            "Whom insan nesnesini resmî biçimde gösterebilir; nesne who gündelik kullanımda da yaygındır.",
+            "Zamiri seçmeden önce öncülün türünü ve iç cümleciğin eksik ögesini belirleyin."
+          ],
+          "examples": [
+            {
+              "en": "The device that measures air quality needs recalibration.",
+              "tr": "Hava kalitesini ölçen cihazın yeniden kalibre edilmesi gerekiyor.",
+              "note": "That measures fiilinin öznesidir; düşürülemez."
+            },
+            {
+              "en": "The article we discussed yesterday challenges the conventional explanation.",
+              "tr": "Dün tartıştığımız makale, geleneksel açıklamaya karşı çıkıyor.",
+              "note": "Article, discussed fiilinin nesnesidir; relative pronoun düşürülmüştür."
+            }
+          ],
+          "pitfalls": [
+            "The device that it measures... biçiminde ikinci özne eklemeyin.",
+            "Özne relative pronoun'unu nesne relative pronoun'u gibi düşürmeyin."
+          ]
+        },
+        {
+          "id": "u08-s02",
+          "title": "Sahiplik ilişkisi: whose",
+          "lead": "Whose, öncül ile ardından gelen isim arasında sahiplik veya aitlik ilişkisi kurar.",
+          "rules": [
+            "Whose + isim cümleciğin bir ögesidir: a researcher whose findings changed the debate.",
+            "Whose insanlarla sınırlı değildir; kuruluş, yer ve nesneler için de kullanılabilir.",
+            "Whose'dan sonra sahip olunan isim gelir; ayrıca his/her/its eklenmez.",
+            "The roof of which gibi resmî of which yapıları nesneler için mümkündür; whose daha kısa olabilir.",
+            "Whose ile who's farklıdır: who's who is veya who has kısaltmasıdır."
+          ],
+          "examples": [
+            {
+              "en": "They interviewed a historian whose work focuses on migration.",
+              "tr": "Çalışmaları göç üzerine yoğunlaşan bir tarihçiyle görüştüler.",
+              "note": "Work tarihçiye aittir."
+            },
+            {
+              "en": "The company, whose headquarters are in Ankara, opened a new research centre.",
+              "tr": "Merkezi Ankara'da olan şirket yeni bir araştırma merkezi açtı.",
+              "note": "Whose bir kuruluş için non-defining cümlecikte de kullanılır."
+            }
+          ],
+          "pitfalls": [
+            "Whose his work gibi aynı sahipliği iki kez belirtmeyin.",
+            "Who's findings ifadesinde kısaltma ile sahiplik zamirini karıştırmayın."
+          ]
+        },
+        {
+          "id": "u08-s03",
+          "title": "Yer, zaman ve neden: where, when ve why",
+          "lead": "Where, when ve why yer, zaman veya neden ilişkisini kurar; iç cümleciğin eksik görevi bu seçimi belirler.",
+          "rules": [
+            "Where yer bildirir ve çoğu zaman in/at which karşılığıdır.",
+            "When zaman bildirir ve bağlama göre on/in/at which ile karşılanabilir.",
+            "Why özellikle the reason öncülüyle kullanılır; for which daha resmî alternatiftir.",
+            "Yer ismi gördüğünüz için otomatik where seçmeyin: the city which we visited içinde visited nesne ister.",
+            "Zaman isminin kendisi nesneyse which/that gerekir: the day that I will never forget.",
+            "Defining bağlamda bazı yer/zaman/neden yapıları farklı kalıplarla kurulabilir; eksik edat ilişkisini kontrol edin."
+          ],
+          "examples": [
+            {
+              "en": "The laboratory where the samples were stored has a backup power system.",
+              "tr": "Numunelerin saklandığı laboratuvarda yedek güç sistemi var.",
+              "note": "Where, stored eyleminin yerini belirtir."
+            },
+            {
+              "en": "The city which we visited last spring has expanded rapidly.",
+              "tr": "Geçen bahar ziyaret ettiğimiz şehir hızla büyüdü.",
+              "note": "Which visited fiilinin nesnesidir; where aynı görevi yapmaz."
+            }
+          ],
+          "pitfalls": [
+            "The city where we visited gibi visited nesnesini açıkta bırakan yapı kurmayın.",
+            "The day when I will never forget içinde forget'in nesne ihtiyacını gözden kaçırmayın."
+          ]
+        },
+        {
+          "id": "u08-s04",
+          "title": "Ek bilgi veren cümlecikler ve virgül",
+          "lead": "Non-defining relative clause, zaten belirlenmiş bir kişi veya şey hakkında ek bilgi verir ve virgüllerle ayrılır.",
+          "rules": [
+            "Non-defining cümlecikler yazıda virgülle, konuşmada duraklamayla ayrılır.",
+            "Bu cümleciklerde that kullanılmaz; who, whom, which veya whose seçilir.",
+            "Relative pronoun nesne olsa bile non-defining cümlecikte düşürülmez.",
+            "Virgül kapsamı değiştirir: belirli araştırmacılar mı, sözü edilen araştırmacıların tamamı mı anlatılıyor?",
+            "Özel isimlere ek bilgi sıkça non-defining yapıyla eklenir; ancak bağlamda aynı adı taşıyanları ayırmak için defining kullanım da mümkün olabilir."
+          ],
+          "examples": [
+            {
+              "en": "The final report, which we received yesterday, contains several revisions.",
+              "tr": "Dün aldığımız son rapor bazı düzeltmeler içeriyor.",
+              "note": "Rapor zaten final report olarak belirlenmiştir; alınma zamanı ek bilgidir."
+            },
+            {
+              "en": "Researchers who work at night need access to the building.",
+              "tr": "Gece çalışan araştırmacıların binaya erişmesi gerekiyor.",
+              "note": "Virgül yoktur; yalnızca gece çalışan alt grup tanımlanır."
+            }
+          ],
+          "pitfalls": [
+            "Virgülden sonra that relative pronoun kullanmayın.",
+            "Nesne zamirini düşürme kuralını non-defining cümleciğe taşımayın."
+          ]
+        },
+        {
+          "id": "u08-s05",
+          "title": "Edatın yeri ve whom/which",
+          "lead": "Relative clause içindeki bir fiil veya isim edat gerektiriyorsa bu edat korunur; yerleştirme resmiyet düzeyini etkiler.",
+          "rules": [
+            "Edat sonda kalabilir: the colleague who I worked with.",
+            "Resmî biçimde edat öne alınır: the colleague with whom I worked.",
+            "Öne alınmış edattan sonra insanlar için whom, şeyler için which kullanılır; that kullanılmaz.",
+            "Defining yapıda edat sonda kaldığında nesne zamiri düşebilir: the topic we talked about.",
+            "Edat seçimi anlam ve sözcük kalıbına bağlıdır: depend on, responsible for, refer to.",
+            "Edatı hem başta hem sonda kullanmayın."
+          ],
+          "examples": [
+            {
+              "en": "The theory on which the model depends has been questioned.",
+              "tr": "Modelin dayandığı teori sorgulandı.",
+              "note": "Depend on kalıbındaki on öne taşınmıştır."
+            },
+            {
+              "en": "The scientist with whom we collaborated has retired.",
+              "tr": "Birlikte çalıştığımız bilim insanı emekli oldu.",
+              "note": "Öne alınmış with sonrasında insan nesnesi whom kullanılır."
+            }
+          ],
+          "pitfalls": [
+            "The method on that we rely biçiminde öne alınmış edattan sonra that kullanmayın.",
+            "With whom we collaborated with gibi edatı iki kez yazmayın."
+          ]
+        },
+        {
+          "id": "u08-s06",
+          "title": "Bütün cümleye gönderme ve grup içinden seçme",
+          "lead": "Which bazen tek bir isme değil önceki olayın tamamına gönderme yapar; of whom/of which ise bir grubun üyelerini seçer.",
+          "rules": [
+            "Virgül + which bütün önceki önermeyi açıklayabilir: The test failed, which delayed the project.",
+            "Bu bütün-cümle which yapısında that kullanılmaz.",
+            "Some/many/two/none of whom insanlar; some/many/two/none of which şeyler arasından seçme yapar.",
+            "All of whose + isim gibi sahiplikli grup yapıları da mümkündür.",
+            "Relative cümleciğin fiilini seçilen öbeğin sayısına göre değerlendirin: two of which were...",
+            "Which'in en yakın isme mi yoksa önceki olayın tamamına mı gönderme yaptığını anlamla belirleyin."
+          ],
+          "examples": [
+            {
+              "en": "The laboratory lost power, which interrupted the experiment.",
+              "tr": "Laboratuvarın elektriği kesildi; bu da deneyi kesintiye uğrattı.",
+              "note": "Which, elektrik kesilmesi olayının tamamını temsil eder."
+            },
+            {
+              "en": "The panel interviewed six candidates, two of whom had field experience.",
+              "tr": "Kurul altı adayla görüştü; bunlardan ikisinin saha deneyimi vardı.",
+              "note": "Two of whom insan grubunun iki üyesini seçer."
+            }
+          ],
+          "pitfalls": [
+            "Tüm cümleye gönderme yapan which'i otomatik olarak en yakın tek isme bağlamayın.",
+            "Two of who veya two of that yerine two of whom/which kullanın."
+          ]
+        },
+        {
+          "id": "u08-s07",
+          "title": "Participle ile kısaltma: etken, edilgen ve zaman",
+          "lead": "Öznesi nitelediği isim olan bazı relative clause yapıları participle öbeğine indirgenebilir; ses ve zaman ilişkisi korunmalıdır.",
+          "rules": [
+            "Etken özne relative clause bazı bağlamlarda -ing öbeğine dönüşür: students who study abroad → students studying abroad.",
+            "Edilgen özne relative clause V3 öbeğine dönüşebilir: records which were stored digitally → records stored digitally.",
+            "Devam eden edilgen eylem being + V3 ile belirtilebilir: the bridge being repaired.",
+            "Nesne relative pronoun'unun silinmesi farklı işlemdir; öznesi başka olan cümlecikleri mekanik olarak -ing'e dönüştürmeyin.",
+            "Perfect relative clause bazen daha kısa participle öbeğiyle aktarılır, fakat geçmişe öncelik bilgisi azalabilir; zaman anlamı önemliyse tam cümleciği koruyun.",
+            "Having + V3 ve having been + V3 çoğunlukla zaman/neden bildiren participle cümleciklerinde kullanılır. Bunları her perfect relative clause için otomatik değiştirme kuralı olarak uygulamayın."
+          ],
+          "examples": [
+            {
+              "en": "The documents stored in the basement were damaged by moisture.",
+              "tr": "Bodrumda saklanan belgeler nemden zarar gördü.",
+              "note": "Stored, which were stored edilgen cümleciğinin kısaltılmasıdır."
+            },
+            {
+              "en": "Scientists investigating the phenomenon need more precise instruments.",
+              "tr": "Olguyu araştıran bilim insanlarının daha hassas cihazlara ihtiyacı var.",
+              "note": "Investigating, who are investigating biçimindeki etken özne ilişkisini korur."
+            },
+            {
+              "en": "Having completed the survey, the team began analysing the responses.",
+              "tr": "Anketi tamamladıktan sonra ekip cevapları incelemeye başladı.",
+              "note": "Having completed önceki olayı bildirir; bu örnek isim niteleyen relative değil, zaman ilişkili participle cümleciğidir."
+            }
+          ],
+          "pitfalls": [
+            "The report which the team wrote cümlesini the report writing biçimine dönüştürmeyin; report yazan özne değildir.",
+            "Kısaltmanın bütün zaman ve modal nüanslarını koruduğunu varsaymayın; gerektiğinde tam yapı daha nettir."
+          ]
+        },
+        {
+          "id": "u08-s08",
+          "title": "To-infinitive ile relative anlamı",
+          "lead": "First, last, only ve bazı üstünlük ifadelerinden sonra infinitive, bir kişiyi veya şeyi gerçekleştirdiği eylemle tanımlayabilir.",
+          "rules": [
+            "The first/last/only + isim + to-infinitive yaygın bir yapıdır: the first team to finish.",
+            "Edilgen eylem için to be + V3 kullanılır: the first site to be excavated.",
+            "Önceki tamamlanmış eylem to have + V3; önceki edilgen eylem to have been + V3 ile vurgulanabilir.",
+            "A task to complete veya a place to stay gibi isim + infinitive öbekleri yapılacak iş/kullanım imkânı da anlatabilir.",
+            "Infinitive eyleminin öznesi farklıysa for + kişi kullanılabilir: a method for beginners to use.",
+            "Bu yapının görevi ile amaç infinitive'ini ayırın: the first scientist to arrive kişiyi tanımlar; arrived to help amacı anlatır."
+          ],
+          "examples": [
+            {
+              "en": "She was the only researcher to have visited all three sites before the survey.",
+              "tr": "Araştırma öncesinde üç alanın tamamını ziyaret etmiş tek araştırmacı oydu.",
+              "note": "To have visited önceki tamamlanmış eylemi belirtir."
+            },
+            {
+              "en": "The northern sector was the first area to be examined.",
+              "tr": "Kuzey kesimi incelenecek/incelemeye alınan ilk alandı.",
+              "note": "To be examined edilgen infinitive yapısıdır; zaman yorumu bağlama bağlıdır."
+            }
+          ],
+          "pitfalls": [
+            "To be examine yerine to be examined kullanın.",
+            "The first to have completed yapısındaki have'ı ana cümlenin öznesine göre has biçimine dönüştürmeyin."
+          ]
+        },
+        {
+          "id": "u08-s09",
+          "title": "Cleft ve what cümlecikleriyle vurgu",
+          "lead": "Cleft yapıları bilgiyi iki parçaya ayırarak seçilmiş kişi, zaman, yer veya eylemi vurgular.",
+          "rules": [
+            "It is/was + vurgulanan öge + that/who... temel cleft kalıbıdır.",
+            "Kişi vurgusunda who veya that kullanılabilir; diğer ögelerde that temel bağlayıcıdır.",
+            "What cümleciği the thing(s) that anlamını kendi içinde taşır; önünde ayrıca açık bir isim öncülü istemez.",
+            "What we need is more time gibi pseudo-cleft yapılarda ihtiyaç duyulan öge sona yerleştirilir.",
+            "Which açık bir önceki isme bağlanırken what hem öncülü hem relative anlamını birleştirir.",
+            "Cleft yapısının odakladığı ögeyi bulmak, cümledeki karşıtlığı ve yazarın vurgusunu anlamayı kolaylaştırır."
+          ],
+          "examples": [
+            {
+              "en": "It was the revised schedule that caused the delay.",
+              "tr": "Gecikmeye yol açan şey gözden geçirilmiş takvimdi.",
+              "note": "Revised schedule odağa alınmıştır."
+            },
+            {
+              "en": "What the project needs is a more reliable source of funding.",
+              "tr": "Projenin ihtiyacı olan şey daha güvenilir bir finansman kaynağıdır.",
+              "note": "What the project needs özne cümleciği, sondaki bilgi ise vurgulanan tamamlayıcıdır."
+            }
+          ],
+          "pitfalls": [
+            "The method what we used yerine the method that/which we used kullanın; what açık öncülle bu şekilde birleşmez.",
+            "It was...that yapısını sıradan it öznesi sanıp vurgu ilişkisini gözden kaçırmayın."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "u08-q01",
+          "type": "grammar",
+          "sectionId": "u08-s01",
+          "prompt": "The device _____ measures airborne particles must be cleaned every week.",
+          "options": [
+            "whom",
+            "whose",
+            "which",
+            "where",
+            "when"
+          ],
+          "answer": 2,
+          "explanation": "Device bir şeydir ve relative cümlecikte measures fiilinin öznesi eksiktir; which bu özne görevini üstlenir. Whose ardından sahip olunan bir isim gerektirir. Where yer ilişkisi kurar ve measures için özne sağlayamaz."
+        },
+        {
+          "id": "u08-q02",
+          "type": "grammar",
+          "sectionId": "u08-s02",
+          "prompt": "The researcher _____ findings challenged the accepted theory received an award.",
+          "options": [
+            "whose",
+            "who's",
+            "whom",
+            "which",
+            "where"
+          ],
+          "answer": 0,
+          "explanation": "Findings araştırmacıya aittir; whose findings sahiplik ilişkisini kurar. Who's, who is veya who has kısaltmasıdır; burada bulguların sahipliğini ifade etmez. Whom ise nesne görevli kişi zamiridir."
+        },
+        {
+          "id": "u08-q03",
+          "type": "grammar",
+          "sectionId": "u08-s03",
+          "prompt": "The room _____ the interviews took place was equipped with recording devices.",
+          "options": [
+            "which",
+            "whom",
+            "whose",
+            "that",
+            "where"
+          ],
+          "answer": 4,
+          "explanation": "The interviews took place tam özne ve fiile sahiptir, eksik olan yer ilişkisidir. Where, in which anlamında bunu tamamlar. Which tek başına took place fiiline uygun nesne sağlamaz; in which olsaydı doğru alternatif olurdu."
+        },
+        {
+          "id": "u08-q04",
+          "type": "grammar",
+          "sectionId": "u08-s04",
+          "prompt": "The final report, _____ we received yesterday, includes the revised figures.",
+          "options": [
+            "that",
+            "which",
+            "what",
+            "where",
+            "whose"
+          ],
+          "answer": 1,
+          "explanation": "Virgüller non-defining ek bilgi yapısını gösterir; şey öncülü için which kullanılır. That non-defining relative clause içinde kullanılmaz. What zaten kendi öncülünü taşır ve the final report öncülüne böyle bağlanmaz."
+        },
+        {
+          "id": "u08-q05",
+          "type": "grammar",
+          "sectionId": "u08-s05",
+          "prompt": "The specialist with _____ the team collaborated has published a new handbook.",
+          "options": [
+            "who",
+            "that",
+            "which",
+            "whom",
+            "whose"
+          ],
+          "answer": 3,
+          "explanation": "Öne alınmış with edatından sonra insan nesnesini whom karşılar. Who, edat sonda bırakıldığında gündelik dilde nesne olarak görülebilir; ancak with who bu sorunun hedeflediği resmî yapıyı karşılamaz. That öne alınmış edattan sonra kullanılmaz."
+        },
+        {
+          "id": "u08-q06",
+          "type": "meaning",
+          "sectionId": "u08-s06",
+          "prompt": "'The trial was postponed, which allowed the team to recruit more volunteers.' cümlesinde which neye gönderme yapar?",
+          "options": [
+            "Only the word team.",
+            "Only the volunteers already recruited.",
+            "The fact that the trial was postponed.",
+            "An unidentified person who postponed the trial.",
+            "The place where volunteers lived."
+          ],
+          "answer": 2,
+          "explanation": "Virgül + which, deneyin ertelenmesi olayının tamamına gönderme yapar; bu olay ek gönüllü toplama imkânı vermiştir. Team sonraki cümleciktedir ve which'in öncülü değildir."
+        },
+        {
+          "id": "u08-q07",
+          "type": "grammar",
+          "sectionId": "u08-s06",
+          "prompt": "The programme enrolled twenty volunteers, five of _____ had previous field experience.",
+          "options": [
+            "whom",
+            "which",
+            "who",
+            "that",
+            "whose"
+          ],
+          "answer": 0,
+          "explanation": "Five of, insan grubundan beş kişiyi seçer; of whom gerekir. Which nesneler için kullanılır. Of who/that bu öne alınmış edatlı relative yapısının standart biçimi değildir."
+        },
+        {
+          "id": "u08-q08",
+          "type": "grammar",
+          "sectionId": "u08-s07",
+          "prompt": "The records _____ in the secure archive cannot be removed without permission.",
+          "options": [
+            "storing",
+            "to storing",
+            "store",
+            "having stored",
+            "stored"
+          ],
+          "answer": 4,
+          "explanation": "Records saklanan nesnelerdir; stored, which are stored edilgen relative clause kısaltmasıdır. Storing ve having stored kayıtları saklama eyleminin yapanı gibi gösterir. To storing bu isim niteleme kalıbına uymaz."
+        },
+        {
+          "id": "u08-q09",
+          "type": "grammar",
+          "sectionId": "u08-s07",
+          "prompt": "Researchers _____ the effects of sleep loss need to distinguish short-term changes from lasting damage.",
+          "options": [
+            "investigated",
+            "investigating",
+            "to investigating",
+            "investigate",
+            "being investigated"
+          ],
+          "answer": 1,
+          "explanation": "Araştırmacılar araştırma eylemini yapar; investigating, who are investigating etken relative clause anlamını verir. Investigated veya being investigated araştırmacıların incelenen kişiler olduğunu söyler ve effects nesnesiyle bu yapıda uyuşmaz."
+        },
+        {
+          "id": "u08-q10",
+          "type": "grammar",
+          "sectionId": "u08-s08",
+          "prompt": "This probe was the first spacecraft _____ the distant region.",
+          "options": [
+            "reach",
+            "reached",
+            "to reaching",
+            "to reach",
+            "have reached"
+          ],
+          "answer": 3,
+          "explanation": "The first + isim + to-infinitive kalıbında to reach gerekir. Reach yalın biçimi ve reached çekimli biçimi bu niteleme yapısını tamamlamaz. To reaching ise mastar işaretinden sonra gerund kullanır."
+        },
+        {
+          "id": "u08-q11",
+          "type": "grammar",
+          "sectionId": "u08-s09",
+          "prompt": "It was the shortage of trained staff _____ delayed the project.",
+          "options": [
+            "what",
+            "whose",
+            "where",
+            "whom",
+            "that"
+          ],
+          "answer": 4,
+          "explanation": "It was + vurgulanan öge + that... cleft yapısıdır. That, shortage of trained staff öbeğini gecikmenin nedeni olarak odağa alır. What kendi içinde öncül taşır; bu cleft bağlayıcısının yerine kullanılamaz."
+        },
+        {
+          "id": "u08-q12",
+          "type": "grammar",
+          "sectionId": "u08-s09",
+          "prompt": "_____ the committee needs most is reliable evidence, not another untested assumption.",
+          "options": [
+            "Which",
+            "That which is",
+            "What",
+            "Whose",
+            "When"
+          ],
+          "answer": 2,
+          "explanation": "What the committee needs most, komitenin en çok ihtiyaç duyduğu şey anlamında özne cümleciğidir. Which'in bağlanacağı açık bir isim öncülü yoktur. That which is seçeneği needs önüne fazladan is yerleştirerek yapıyı bozar."
+        },
+        {
+          "id": "u08-q13",
+          "type": "meaning",
+          "sectionId": "u08-s01",
+          "prompt": "'The report the committee approved has now been published.' cümlesinde düşürülen relative pronoun hangi görevdeydi?",
+          "options": [
+            "It was the object of approved.",
+            "It was the subject of approved.",
+            "It indicated possession of the committee.",
+            "It replaced the main verb has.",
+            "It introduced a time clause."
+          ],
+          "answer": 0,
+          "explanation": "İç cümlecikte the committee özne, approved fiil, the report nesnedir. Defining yapıda nesne relative pronoun'u düşürülebilir. Özneyi düşürme yorumu yanlıştır; committee zaten iç özne olarak bulunmaktadır."
+        },
+        {
+          "id": "u08-q14",
+          "type": "translation",
+          "sectionId": "u08-s05",
+          "prompt": "'Modelin dayandığı teori henüz doğrulanmadı.' cümlesinin en doğru karşılığını seçin.",
+          "options": [
+            "The model on which the theory depends has already been confirmed.",
+            "The theory which depends the model was confirmed yesterday.",
+            "The theory has not confirmed why the model depends.",
+            "The model has not yet depended on the confirmed theory.",
+            "The theory on which the model depends has not yet been confirmed."
+          ],
+          "answer": 4,
+          "explanation": "The theory on which the model depends, modelin dayandığı teoriyi; has not yet been confirmed ise henüz doğrulanmadığını aktarır. İlk seçenek dayanma ilişkisini tersine çevirir ve already ile anlamı değiştirir."
+        },
+        {
+          "id": "u08-q15",
+          "type": "grammar",
+          "sectionId": "u08-s08",
+          "prompt": "Before the conference began, Dr Kaya was the only delegate _____ all three proposed sites, so the committee sought her advice.",
+          "options": [
+            "to visiting",
+            "to have visited",
+            "have visited",
+            "having been visited",
+            "to have been visiting by"
+          ],
+          "answer": 1,
+          "explanation": "The only delegate + to have visited, konferanstan önce tamamlanan ziyaretleri belirtir. To visiting yanlış infinitive biçimidir. Having been visited edilgendir ve delegenin yerleri ziyaret etmesi anlamını vermez. Son seçenek de by ile eksik ve uygunsuz yapı kurar."
+        },
+        {
+          "id": "u08-q16",
+          "type": "meaning",
+          "sectionId": "u08-s04",
+          "prompt": "'The researchers who received the grant attended the workshop.' cümlesi hangi yorumu destekler?",
+          "options": [
+            "Every researcher necessarily received the grant.",
+            "No researcher attended the workshop.",
+            "The grant was received after the workshop ended.",
+            "The clause identifies the grant recipients as the researchers being discussed.",
+            "The clause only adds parenthetical information about all researchers."
+          ],
+          "answer": 3,
+          "explanation": "Virgülsüz who received the grant cümleciği hangi araştırmacıların anlatıldığını tanımlar: destek alanlar. Cümle tüm araştırmacıların destek aldığını söylemez. Virgüllü non-defining yapı ise zaten belirli araştırmacılara ek bilgi verirdi."
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "antecedent",
+          "meaning": "öncül; zamirin gönderme yaptığı öge",
+          "pos": "noun",
+          "example": "The noun before the relative clause is its antecedent."
+        },
+        {
+          "word": "designate",
+          "meaning": "belirlemek, görevlendirmek",
+          "pos": "verb",
+          "example": "The committee designated a new coordinator."
+        },
+        {
+          "word": "preserve",
+          "meaning": "korumak, muhafaza etmek",
+          "pos": "verb",
+          "example": "The project aims to preserve fragile records."
+        },
+        {
+          "word": "restrict",
+          "meaning": "sınırlamak",
+          "pos": "verb",
+          "example": "The rule restricts access to confidential files."
+        },
+        {
+          "word": "collaborate",
+          "meaning": "iş birliği yapmak",
+          "pos": "verb",
+          "example": "The laboratory collaborated with local hospitals."
+        },
+        {
+          "word": "excavate",
+          "meaning": "kazı yapmak, kazıyla çıkarmak",
+          "pos": "verb",
+          "example": "The team excavated the northern sector."
+        },
+        {
+          "word": "delegate",
+          "meaning": "temsilci, delege",
+          "pos": "noun",
+          "example": "Each delegate reviewed the proposed sites."
+        },
+        {
+          "word": "attribute",
+          "meaning": "bir sonuca/nedene bağlamak, atfetmek",
+          "pos": "verb",
+          "example": "The report attributes the delay to staff shortages."
+        },
+        {
+          "word": "pertinent",
+          "meaning": "konuyla ilgili",
+          "pos": "adjective",
+          "example": "Only pertinent information was included."
+        },
+        {
+          "word": "distinguish",
+          "meaning": "ayırt etmek",
+          "pos": "verb",
+          "example": "Researchers distinguished temporary effects from lasting changes."
+        },
+        {
+          "word": "retrieve",
+          "meaning": "geri almak, bilgiye erişmek",
+          "pos": "verb",
+          "example": "The system retrieves records by date."
+        },
+        {
+          "word": "complementary",
+          "meaning": "birbirini tamamlayan",
+          "pos": "adjective",
+          "example": "The two methods provide complementary evidence."
+        }
+      ],
+      "reading": {
+        "title": "The Buildings That Cities Keep",
+        "text": "Cities frequently debate which old buildings deserve protection. A building whose architectural style is rare may seem an obvious candidate, but rarity is not the only relevant consideration. Researchers examining industrial districts have found that ordinary warehouses can preserve evidence of working lives that official monuments overlook. In one coastal town, a warehouse that residents had used for community meetings was scheduled for demolition. Local historians collected photographs and oral accounts, many of which described activities absent from municipal records. The council then reconsidered its decision, which gave the historians time to prepare a detailed proposal. What persuaded the council was the combination of physical evidence and personal testimony. The warehouse became the first industrial building in the district to be formally protected. The case suggests that heritage decisions should consider the relationships between buildings and communities, rather than architectural appearance alone.",
+        "questions": [
+          {
+            "id": "u08-r01",
+            "prompt": "According to the passage, what can ordinary warehouses preserve?",
+            "options": [
+              "Only evidence of rare architectural styles.",
+              "Proof that all official monuments are useless.",
+              "Evidence of working lives that monuments may overlook.",
+              "Complete municipal records of every local event.",
+              "The original decisions of all town councils."
+            ],
+            "answer": 2,
+            "explanation": "Metin sıradan depoların, resmî anıtların gözden kaçırdığı çalışma hayatlarına ilişkin kanıtı koruyabildiğini belirtir. Bu, bütün anıtların işe yaramaz olduğu anlamına gelmez; tarihsel kanıtın farklı kaynaklarda bulunabileceğini gösterir."
+          },
+          {
+            "id": "u08-r02",
+            "prompt": "What made the council reconsider the warehouse's future?",
+            "options": [
+              "A combination of material evidence and people's accounts.",
+              "The absence of any local community activity.",
+              "A decision to protect only attractive buildings.",
+              "Proof that all photographs were municipal records.",
+              "The warehouse's use as a research laboratory."
+            ],
+            "answer": 0,
+            "explanation": "What persuaded the council was... cümlesi fiziksel kanıt ile kişisel tanıklığın birleşimini açıkça vurgular. Binanın laboratuvar olduğu veya yalnızca güzelliğinin dikkate alındığı söylenmez."
+          },
+          {
+            "id": "u08-r03",
+            "prompt": "In 'which gave the historians time to prepare a detailed proposal', what does which refer to?",
+            "options": [
+              "The photographs alone.",
+              "The municipal records alone.",
+              "The proposed demolition date.",
+              "The warehouse's rare style.",
+              "The council's reconsideration of its decision."
+            ],
+            "answer": 4,
+            "explanation": "Which, kurulun kararını yeniden değerlendirmesi olayının tamamına gönderme yapar. Bu olay tarihçilere ayrıntılı öneri hazırlama zamanı sağlamıştır. Fotoğraflar daha önceki cümledeki kanıtların bir kısmıdır; burada doğrudan gönderme yapılan olay değildir."
+          }
+        ]
+      }
+    }
+  ]
+}
