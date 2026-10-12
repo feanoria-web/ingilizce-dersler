@@ -1,6 +1,42 @@
 // Otomatik üretilir. Dersleri lessons/a1, lessons/a2, lessons/b1 ve lessons/yds klasörlerine ekleyin.
 window.LESSON_CATALOG = [
   {
+    "id": "a1/day-01",
+    "level": "A1",
+    "title": "Merhaba! İlk ders",
+    "description": "A1 birinci gün: selamlaşma, tanışma, hal hatır sorma, nezaket sözcükleri, alfabe ve heceleme, 0–20 sayılar, telefon numarası, memleket, arkadaşını tanıtma, e-posta adresi ve kayıt formu. Her konu Türkçe, adım adım ve yavaş anlatılır; okunuşlar, sesli örnekler, koro tekrarı ve oyunlarla.",
+    "number": 1,
+    "order": 1,
+    "date": "2026-10-10",
+    "duration": "210 dk",
+    "tags": [
+      "Tanışma",
+      "Selamlaşma",
+      "Alfabe",
+      "Sayılar"
+    ],
+    "url": "lessons/a1/day-01.html"
+  },
+  {
+    "id": "a1/day-02",
+    "level": "A1",
+    "title": "A, B, C · Sayılar · What's this?",
+    "description": "A1 ikinci gün: alfabe A – Z ve heceleme (ad, soyad, Türkçe harfler, dikte, kısaltmalar), 20 – 100 sayılar ve fiyat, haftanın günleri, sınıf komutları, sınıftaki eşyalar ve renkler. Etkinlikler sınıfta yapılır: soru topu, tahta yarışı, sayı tombalası, günleri sıraya diz, Simon says, gizemli çanta, spelling bee; yazdırılabilir kartlar. Türkçe, adım adım ve yavaş.",
+    "number": 2,
+    "order": 2,
+    "date": "",
+    "duration": "230 dk",
+    "tags": [
+      "Alfabe",
+      "Heceleme",
+      "Sayılar",
+      "Günler",
+      "Renkler",
+      "Sınıf etkinlikleri"
+    ],
+    "url": "lessons/a1/day-02.html"
+  },
+  {
     "id": "a2/day-01",
     "level": "A2",
     "title": "Tanışma ve iletişim",
@@ -101,6 +137,25 @@ window.LESSON_CATALOG = [
       "Konuşma"
     ],
     "url": "lessons/b1/day-03.html"
+  },
+  {
+    "id": "b1/day-04",
+    "level": "B1",
+    "title": "Dün, bugün, yarın · If · Planlar ve hayaller",
+    "description": "B1 12 Ekim dersi (3 saat): geçmiş, şimdiki ve gelecek zamanda konuşmak; if, when, while, unless ile durum ve şart; olasılık kalıpları; fikir, tahmin ve planları gerekçeyle anlatmak; hayaller, umutlar, hedefler; istek ve ihtiyaçlar. Türkçe, adım adım; sınıfta konuşma etkinlikleriyle.",
+    "number": 4,
+    "order": 4,
+    "date": "2026-10-12",
+    "duration": "180 dk",
+    "tags": [
+      "Zamanlar",
+      "Koşul cümleleri",
+      "Olasılık",
+      "Fikir ve gerekçe",
+      "Plan ve hayal",
+      "İstek ve ihtiyaç"
+    ],
+    "url": "lessons/b1/day-04.html"
   },
   {
     "id": "b1/practice",
