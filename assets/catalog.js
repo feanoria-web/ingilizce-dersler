@@ -71,6 +71,23 @@ window.LESSON_CATALOG = [
     "url": "lessons/a2/day-02.html"
   },
   {
+    "id": "a2/a1-review",
+    "level": "A2",
+    "title": "A1 genel tekrarı",
+    "description": "A2 kursu için A1 dilbilgisinin tamamı: alfabe ve sayılardan be, have got, Present Simple, sorular, can, Present Continuous, miktar ifadeleri, saat, in / on / at ve was / were – Past Simple'a kadar 16 konu kutusu. Türkçe konu anlatımı, yüzlerce örnek, alıştırma ve konuşma etkinlikleri.",
+    "number": 3,
+    "order": 3,
+    "date": "",
+    "duration": "170 dk",
+    "tags": [
+      "Genel tekrar",
+      "A1 dilbilgisi",
+      "Konu anlatımı",
+      "Alıştırma"
+    ],
+    "url": "lessons/a2/a1-review.html"
+  },
+  {
     "id": "a2/practice",
     "level": "A2",
     "title": "Tanışma ve konuşma · Ek çalışma",
