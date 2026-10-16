@@ -8,10 +8,15 @@
   <title>English · İngilizce ders paneli</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/access.css">
+  <script src="assets/access-config.js" defer></script>
+  <script src="assets/auth-client.js" defer></script>
+  <script src="assets/activity-tracker.js" defer></script>
   <script src="assets/catalog.js" defer></script>
   <script src="assets/app.js" defer></script>
 </head>
-<body>
+<body class="access-locked" data-access-page="protected">
+  <div class="access-status" role="status" aria-live="polite"><strong>English</strong><p>Oturumunuz kontrol ediliyor…</p><noscript>Giriş yapmak için JavaScript’i etkinleştirin.</noscript></div>
   <a class="skip-link" href="#main">İçeriğe geç</a>
   <header class="site-header wrap">
     <a class="brand" href="index.html" aria-label="Hüdavendigar Sosyal Gelişim Merkezi İngilizce ders paneli ana sayfa">

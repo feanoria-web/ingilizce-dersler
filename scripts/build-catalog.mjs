@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import {instrumentHtml} from './inject-access.mjs';
 
 export const SITE_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const LEVELS = ['a1', 'a2', 'b1', 'yds'];
@@ -174,13 +175,16 @@ async function stageSite(output, root) {
   await fs.rm(target, { recursive: true, force: true });
   await fs.mkdir(target, { recursive: true });
   const localOnlyAssets = new Set(['assets/admin.js', 'assets/config.js']);
-  for (const name of ['index.html', '404.html', 'assets', 'lessons']) {
+  for (const name of ['index.html', 'login.html', 'admin.html', '404.html', 'assets', 'lessons']) {
     await fs.cp(path.join(root, name), path.join(target, name), {
       recursive: true,
       filter: (file) => !path.basename(file).startsWith('.') && !localOnlyAssets.has(path.relative(root, file).split(path.sep).join('/')),
     });
   }
   const indexPath = path.join(target, 'index.html');
+  for (const file of (await listFiles(path.join(target,'lessons'))).filter(f=>/\.html?$/i.test(f))) {
+    await fs.writeFile(file,instrumentHtml(await fs.readFile(file,'utf8'),path.relative(target,file).split(path.sep).join('/')));
+  }
   const indexHtml = await fs.readFile(indexPath, 'utf8');
   const references = /([\s](?:src|href)\s*=\s*)(["'])((?:\.\/)?assets\/[^"'<>]+)\2/gi;
   let versionedHtml = '';

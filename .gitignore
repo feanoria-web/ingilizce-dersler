@@ -1,8 +1,14 @@
 _site/
 node_modules/
-.DS_Store
-Thumbs.db
+private/
+.wrangler/
+.dev.vars
+.env
+*.sqlite*
 *.log
-/admin.html
+*.zip
+/lesson-upload.html
 /assets/admin.js
 /assets/config.js
+/tests/roster.test.mjs
+/KURULUM-SONUCU.txt

@@ -1,17 +1,14 @@
 {
-  "name": "dil-ders-paneli",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "description": "A1, A2, B1 ve YDS derslerini GitHub Pages üzerinde yayınlayan ücretsiz statik panel.",
-  "engines": {
-    "node": ">=22"
-  },
-  "scripts": {
-    "catalog": "node scripts/build-catalog.mjs",
-    "build": "node scripts/build-site.mjs",
-    "check": "node scripts/check-site.mjs",
-    "check:build": "node scripts/check-site.mjs --root _site",
-    "check:yds": "node scripts/test-yds.mjs"
+  "name":"dil-ders-paneli","version":"2.0.0","private":true,"type":"module",
+  "engines":{"node":">=22.13"},
+  "scripts":{
+    "catalog":"node scripts/build-catalog.mjs",
+    "build":"node scripts/build-site.mjs",
+    "build:access":"node scripts/build-access.mjs",
+    "start":"node backend/local.mjs",
+    "check":"node scripts/check-site.mjs",
+    "check:build":"node scripts/check-site.mjs --root _site",
+    "check:yds":"node scripts/test-yds.mjs",
+    "test:access":"node --test tests/*.test.mjs"
   }
 }

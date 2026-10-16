@@ -33,6 +33,11 @@ jobs:
         run: npm run check:build
       - name: YDS test ve kayıt akışlarını doğrula
         run: npm run check:yds
+      - name: Öğrenci erişimi ve etkinlik kayıtlarını doğrula
+        run: |
+          npm run test:access
+          node scripts/test-auth-client.cjs
+          node scripts/test-dashboard.cjs
       - name: Site dosyalarını yükle
         uses: actions/upload-pages-artifact@v4
         with:

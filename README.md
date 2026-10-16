@@ -1,75 +1,74 @@
-# English · İngilizce ders paneli
+# English · öğrenci girişi ve öğretmen takibi
 
 Gürkan Öztürk · Hüdavendigar Sosyal Gelişim Merkezi
 
-A1, A2 ve B1 seviyeleri ile YDS hazırlık paneli üzerinden derslere ulaşılabilen, GitHub Pages ile yayımlanan ücretsiz statik site. İki A1, dört A2 ve beş B1 ders içeriğinin yanında YDS Grammar Studio yer alır. A1 dersleri 1 ve 2 olarak; B1 dersleri 5, 6, 7 ve 12 Ekim tarihleriyle sıralanır.
+Ana site: https://feanoria-web.github.io/ingilizce-dersler/
 
-Site: https://feanoria-web.github.io/ingilizce-dersler/
+Öğrenci tek şifre alanına kendi adını veya ad-soyadını yazar. Büyük/küçük harf, Türkçe karakterler ve boşluklar eşitlenir. Aynı kısa ad birden fazla öğrenciyi gösteriyorsa tam ad istenir. A1, A2 ve B1 sınıfı rapor filtresidir; herkes aynı ders paneline erişir.
 
-## Sonradan ders eklemek
+Öğretmen `admin.html` sayfasına ayrı, en az 12 karakterlik yönetici şifresiyle girer. Öğrenci şifresi yönetim yetkisi vermez. Yönetim panelinde giriş yapan/yapmayan öğrenciler, ilk ve son girişler, seçili dönemde açılan dersler, etkinlik geçmişi, yaklaşık aktif süre, CSV çıktısı ve öğrenci erişimi açma/kapatma bulunur. Tarihler İstanbul saatidir. "Hiç giriş yapmadı" tüm geçmişe bakar; tarih filtresi eski bir ziyaretçiyi hiç giriş yapmamış saymaz.
 
-Yükleme GitHub'da **feanoria-web** hesabıyla yapılır. Ziyaretçi panelinde ders ekleme veya dosya yükleme alanı bulunmaz. Ders yayımlamak için GitHub'ın depo yazma yetkisi gereklidir.
+## Kayıtların anlamı
 
-1. GitHub'a **feanoria-web** hesabıyla giriş yapın ve [ders deposunu](https://github.com/feanoria-web/ingilizce-dersler) açın.
-2. İlgili panelin klasörüne girin: `lessons/a1`, `lessons/a2`, `lessons/b1` veya `lessons/yds`.
-3. **Add file → Upload files** ile tek dosya halinde hazırlanmış `.html` dersinizi yükleyin. Derslerimizde olduğu gibi resim, ses, CSS ve JavaScript dosyanın içinde olmalıdır.
-4. **Commit changes** ile kaydedin.
-5. **Actions → GitHub Pages** iş akışı tamamlandığında yeni ders otomatik olarak panelde görünür. İlk yükleme birkaç dakika sürebilir.
+Sunucu giriş, panel/derse giriş, ders içi etkinlik ekranı, cevap kontrol/göster, kelime anlamı açma ve tamamlandı işaretlerini kaydeder. Cevapların içeriği, yazılan notlar, telefon ve kimlik bilgisi toplanmaz. Aktif süre yaklaşık bir kullanım ölçüsüdür: görünür sekme ve son etkileşim üzerinden en çok 30 saniyelik aralıklarla bildirilir. Gizli veya uzun süredir kullanılmayan sekme süre kazandırmaz. Bu kayıtlar tek başına yoklama, başarı veya kimlik doğrulama kanıtı değildir; adını bilen biri başka öğrenci adına girebilir.
 
-Bir derste değişiklik yapmak için depodaki ilgili HTML dosyasını güncelleyip kaydedin. Ders kaldırmak için o HTML dosyasını depodan silip kaydedin. Her dersin başlığı HTML dosyasının `<title>` alanından alınabilir.
+Kesinti sırasında bekleyen en çok 300 olay yalnızca aynı öğrenci oturumuyla gönderilir. Sunucu alma zamanını kaydeder; çevrimdışı geçmişin kesin saatini veya tüm süresini yeniden oluşturmaz. Merkezi giriş ve takip internet bağlantısı ister. Eski bağımsız çevrimdışı ders dosyaları değişmez.
 
-## Klasör yapısı
+## GitHub Pages ve veri gizliliği
 
-```text
-index.html                Ana panel
-assets/                   Panel tasarımı, uygulama ve oluşturulan katalog
-lessons/a1/               A1 dersleri
-lessons/a2/               A2 dersleri
-lessons/b1/               B1 dersleri
-lessons/yds/              YDS hazırlık dersleri
-yds-src/                  YDS uygulamasının şablonu, tasarımı ve özgün içerikleri
-scripts/                  Katalog ve doğrulama araçları
-.github/workflows/pages.yml  Otomatik yayın
-```
+GitHub Pages statik dosyaları sunar; merkezi kayıt Cloudflare Worker + D1 üzerindedir. GitHub'daki HTML dersleri ve JavaScript kaynakları herkese açıktır. Giriş ekranı bir kullanım/öğrenci tanıma kapısıdır; statik dosyalar için sunucu erişim kontrolü değildir. Tam korumalı ders dosyaları istenirse derslerin de yetki kontrolü yapılan bir sunucuya taşınması gerekir.
 
-Yeni bir HTML dosyasını ilgili `lessons/a1`, `lessons/a2`, `lessons/b1` veya `lessons/yds` klasörüne yüklemek yeterlidir. Başlık HTML'nin `<title>` alanından alınır. `lesson-meta` bilgisi varsa açıklama, ders numarası, tarih ve süre de kullanılır. Aynı dosya adı mevcut dersi günceller; yeni ders için farklı dosya adı kullanın.
+Öğrenci listesi yalnızca `private/roster.json` ve D1 içindedir. `private/`, SQLite, kurulum özetleri ve özel aktarım SQL dosyaları Git'e ve `_site` yayın klasörüne girmez. Tarayıcıya ad listesi veya yönetici şifresi gömülmez. Yönetici şifresi tuzlu PBKDF2 özeti olarak saklanır; oturum anahtarlarının sunucuda yalnızca SHA-256 özeti tutulur. Tarayıcı oturumu sessionStorage'dadır. CSV ve rapor endpointleri sunucuda yönetici yetkisi ister.
 
 ## Yerelde açmak
 
-Ana panel `index.html` dosyasına çift tıklanarak da açılabilir. Ders kataloğunun son yüklemeleri içermesi için Node.js 22 veya daha yeni bir sürümle:
+Node.js 22.13 veya üzeri gerekir. Mevcut bilgisayarda Codex'in Node çalışma zamanı da kullanılabilir.
 
-```sh
-npm run catalog
-npm run check
-node scripts/preview.mjs
+1. `Baslat.cmd` dosyasını çalıştırın. İlk açılışta `Kurulum.ps1` gizli bir yönetici şifresi belirletir.
+2. Terminalin yazdığı http://127.0.0.1:8787/ adresini açın.
+3. Öğrenci adıyla giriş yapın; öğretmen için `/admin.html` kullanın.
+
+Tarayıcıda ilk yönetici kurulumunun alternatifi: yerel sunucu açıkken `/setup.html`. Bu endpoint yalnız yerel sunucuda ve ilk kurulumda çalışır, Cloudflare'da yoktur. Şifreyi değiştirmek yönetim panelinden yapılır; diğer yönetici oturumları kapanır.
+
+Yerel `private/activity.sqlite` ve Cloudflare D1 ayrı veritabanlarıdır. Yerel deneme hareketleri canlı kayıtları doldurmaz. Özel klasörünüzü bilgisayar yedeğinde saklayın, GitHub'a yüklemeyin.
+
+## Cloudflare kurulumu / tekrar yayın
+
+İlk veritabanı ve Worker hesabınızda oluşturulmuştur; gerçek D1 kimliği `backend/wrangler.jsonc` içindedir. Bunlar parola değildir. Şifre/anahtar bu dosyaya yazılmaz.
+
+Resmî Wrangler ile hesabınıza giriş yapın, sonra `backend` klasöründe:
+
+```powershell
+npx wrangler@4 login --scopes account:read user:read workers:write workers_scripts:write d1:write
+npx wrangler@4 d1 migrations apply english-student-access --remote
+npx wrangler@4 deploy
 ```
 
-Önizleme adresi: http://127.0.0.1:4173/ingilizce-dersler/
+Yerelde oluşturulan yönetici özetini gizli stdin akışıyla Cloudflare'a vermek için proje kökünde (hash'i ekrana yazdırmayın):
 
-Yayın dosyalarını üretmek ve kontrol etmek için:
+```powershell
+node backend/export-admin-hash.mjs | npx wrangler@4 secret put ADMIN_PASSWORD_HASH --config backend/wrangler.jsonc
+```
 
-```sh
+Öğrenci listesi ilk kez aktarılmıştır. Yeni listeyi aynı kimlikleri koruyarak yeniden aktarmak için `Kurulum.ps1 -Islem OgrencileriAktar -ServisAdresi https://KENDI-WORKER-ADRESINIZ` kullanılır. Mevcut bir öğrencinin kapatılmış erişimi yeniden içe aktarımla kendiliğinden açılmaz. Görsellerde reddedilmiş/bekleyen üç kayıt aktarılmaz.
+
+`assets/access-config.js` içindeki `apiBase`, yalnızca Worker HTTPS adresidir. Parola, ad listesi ve erişim anahtarı eklenmez. Bağlantı eksikken genel site girişe kapalı kalır; GitHub Actions da bağlantısız sürümü yayımlamayı durdurur.
+
+## Ders eklemek
+
+Kendi HTML dersinizi `lessons/a1`, `lessons/a2`, `lessons/b1` veya `lessons/yds` klasörüne yükleyin. GitHub Pages iş akışı katalog üretir ve yayın kopyasına giriş/takip scriptlerini ekler. Kaynak HTML'nin çevrimdışı içeriği yeniden yazılmaz. Ders dosyasının `<title>` ve isteğe bağlı `lesson-meta` JSON bilgileri kullanılır. YDS değişiklikleri `yds-src/` içinden yapılır. Eski yerel ders hazırlama aracı `lesson-upload.html` dosyasında saklanmıştır; yayınlanmaz.
+
+## Kontroller
+
+```powershell
 npm run build
 npm run check:build
 npm run check:yds
+npm run test:access
+node scripts/test-auth-client.cjs
+node scripts/test-dashboard.cjs
 ```
 
-Bağımlılık kurulumu gerekmez. Katalog `lessons` klasöründeki HTML dosyalarından üretilir; `_site` yalnızca yayımlanacak dosyaları içerir. Depoya sonradan eklenen dersler, her `main` kaydında otomatik keşfedilir.
+API ve SQLite, tarayıcı giriş/rol/yönlendirme, yönetim paneli verileri ve çevrimdışı kuyruk için otomatik testler vardır. Kullanıcı arayüzü otomasyonu bu oturumda kullanılamadığından görsel tarayıcı kontrolü yapılmamıştır.
 
-## YDS Grammar Studio
-
-`lessons/yds/grammar-studio.html`, 12 ana üniteyi kapsayan bağımsız YDS çalışma sitesidir. 123 konu anlatımı, 230 açıklamalı soru, 12 akademik okuma ve 144 kelime/öbek kartı içerir. Ünite soruları, filtreli soru bankası, yanlış defteri, süreli çalışma testleri, kişisel notlar ve altı haftalık esnek çalışma rotası aynı uygulamada yer alır.
-
-Kaynak konu haritası, Nesibe Sevgi Öndeş'in **English Grammar Inside and Out** kitabındaki 12 ünite ve ekler esas alınarak hazırlanmıştır. Türkçe anlatımlar, örnekler, sorular ve okumalar bu site için özgün olarak yazılmıştır.
-
-YDS içeriğini değiştirmek için `yds-src/data/units-01-04.json`, `units-05-08.json` ve `units-09-12.json` dosyalarını düzenleyin. `yds-src/app.js`, `style.css` ve `template.html` uygulamayı yönetir. Her yayın öncesinde `npm run build`, bu kaynakları doğrulayıp tek HTML dosyasını yeniden üretir. Bu nedenle üretilmiş `grammar-studio.html` yerine kaynak dosyaları düzenleyin.
-
-Çalışma işaretleri, cevaplar, notlar ve test sonuçları tarayıcıda saklanır. Başka cihazla eşitlenmez. Zamanlı test tekrar açılırken geçen süre korunur; süre dolduysa kaydedilen cevaplar değerlendirilir.
-
-## GitHub Pages ayarı
-
-Depo herkese açık olmalıdır. **Settings → Pages → Build and deployment → Source: GitHub Actions** seçilir. `.github/workflows/pages.yml` dosyası otomatik yayını yönetir. Aynı iş akışı **Actions → GitHub Pages → Run workflow** ile elle de başlatılabilir.
-
-GitHub Free planında herkese açık depolar GitHub Pages kullanabilir: [GitHub Pages belgesi](https://docs.github.com/en/pages/getting-started-with-github-pages).
-
-Ders içindeki cevaplar ve etkinlik kayıtları mevcut uygulamaların kullandığı biçimde tarayıcıda saklanır. Cihazlar arasında eşitlenmez.
+Teknik sınırlar için [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) ve [Cloudflare D1 limitleri](https://developers.cloudflare.com/d1/platform/limits/) esas alınmıştır. Workers PBKDF2 işlem sınırına uygun özet biçimi kullanılır ([Cloudflare workerd](https://github.com/cloudflare/workerd/pull/7550)). Cloudflare ücretsiz planının günlük kaynak limitleri vardır.

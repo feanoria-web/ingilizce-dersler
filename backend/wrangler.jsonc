@@ -1,0 +1,7 @@
+{
+  "name": "english-student-access",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-16",
+  "vars": {"FRONTEND_ORIGIN":"https://feanoria-web.github.io"},
+  "d1_databases": [{"binding":"DB","database_name":"english-student-access","database_id":"db8a506b-a0f8-411a-b007-4f22964b6f78","migrations_dir":"migrations"}]
+}
