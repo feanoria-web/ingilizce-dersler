@@ -1,4 +1,4 @@
-/* Activity metadata only. Never read form values, answer contents or student notes. */
+/* Explicit lesson assessment results and activity metadata; no unrelated notes or password fields. */
 (() => {
   'use strict';
   if (window.__englishActivityTracker) return;
@@ -8,7 +8,7 @@
   const BATCH_SIZE = 10;
   const IDLE_AFTER_MS = 60_000;
   const SEND_EVERY_MS = 30_000;
-  const EVENT_TYPES = new Set(['page_view', 'lesson_open', 'activity_view', 'answer_check', 'answer_reveal', 'activity_complete', 'vocabulary_reveal', 'heartbeat']);
+  const EVENT_TYPES = new Set(['page_view', 'lesson_open', 'activity_view', 'answer_check', 'answer_reveal', 'activity_complete', 'vocabulary_reveal', 'heartbeat','question_result','audio_play','audio_complete']);
   let userId = null;
   let queueKey = '';
   let queue = [];
@@ -22,6 +22,26 @@
   let sampleTimer;
   let sendTimer;
   let navigationTimer;
+  let presenceSending=false,presencePending=false,lastPresence=0,lastPresenceState='',leaving=false;
+  function cleanQuestion(value) {
+    if(!value||!['correct','incorrect','blank','ungraded'].includes(value.outcome))return null;
+    const result={outcome:value.outcome};
+    for(const [key,max] of Object.entries({questionId:160,prompt:1600,selectedAnswer:1200,correctAnswer:1200,assessmentKind:64})){
+      if(typeof value[key]!=='string'||value[key].length>max||/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/.test(value[key]))return null;
+      result[key]=value[key];
+    }
+    if(!result.questionId||!result.prompt||!/^[a-z-]{2,64}$/.test(result.assessmentKind))return null;
+    return result;
+  }
+  async function presence(forceState,force=false) {
+    if(!running||stopped||navigator.onLine===false)return;
+    const state=forceState||(leaving||document.visibilityState!=='visible'?'hidden':performance.now()-lastInput>=IDLE_AFTER_MS?'idle':'active');
+    if(!force&&state===lastPresenceState&&performance.now()-lastPresence<25000)return;
+    if(presenceSending){presencePending=true;return;}
+    const current=window.EnglishAccess?.session();if(String(current?.student?.id)!==userId)return;
+    presenceSending=true;
+    try{await window.EnglishAccess.request('/api/presence',{method:'POST',body:{state,lesson,activity:activityAnchor()},keepalive:state==='hidden'});lastPresence=performance.now();lastPresenceState=state;}catch{}finally{presenceSending=false;if(presencePending&&!stopped){presencePending=false;void presence(undefined,true);}}
+  }
 
   // The path is limited to site lessons; queries, origins and names never enter a payload.
   function lessonPath() {
@@ -65,13 +85,14 @@
         && !event.lesson.includes('..')
         && typeof event.activity === 'string' && /^[a-zA-Z0-9_:-]{1,120}$/.test(event.activity)
         && Number.isInteger(event.activeSeconds) && event.activeSeconds >= 0 && event.activeSeconds <= 30)
-        .map(({ eventId, type, lesson, activity, activeSeconds }) => ({ eventId, type, lesson, activity, activeSeconds }));
+        .filter(event=>event.type!=='question_result'||cleanQuestion(event.details))
+        .map(({ eventId, type, lesson, activity, activeSeconds,occurredAt,details }) => ({ eventId, type, lesson, activity, activeSeconds,...(typeof occurredAt==='string'&&Number.isFinite(Date.parse(occurredAt))&&Date.now()-Date.parse(occurredAt)<30*86400000&&Date.parse(occurredAt)<=Date.now()+300000?{occurredAt}:{}),...(type==='question_result'?{details:cleanQuestion(details)}:{}) }));
     } catch (_) { return []; }
   }
 
-  function addEvent(type, activeSeconds = 0, activity = activityAnchor()) {
+  function addEvent(type, activeSeconds = 0, activity = activityAnchor(),details) {
     if (!running || stopped || !EVENT_TYPES.has(type)) return;
-    queue.push({ eventId: eventId(), type, lesson, activity, activeSeconds: Math.max(0, Math.min(30, Math.floor(activeSeconds))) });
+    queue.push({ eventId: eventId(), type, lesson, activity, activeSeconds: Math.max(0, Math.min(30, Math.floor(activeSeconds))),occurredAt:new Date().toISOString(),...(details?{details}:{}) });
     if (queue.length > MAX_QUEUE) queue.splice(0, queue.length - MAX_QUEUE);
     persist();
   }
@@ -83,6 +104,7 @@
     const owner = userId;
     const batch = queue.slice(0, BATCH_SIZE);
     sending = true;
+    let successful=false;
     try {
       await window.EnglishAccess.request('/api/events', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ events: batch }) });
       // An old response must never mutate a different student's queue after logout/login.
@@ -90,10 +112,11 @@
       const accepted = new Set(batch.map((event) => event.eventId));
       queue = queue.filter((event) => !accepted.has(event.eventId));
       persist();
+      successful=true;
     } catch (error) {
       if (error?.status === 401 || error?.statusCode === 401) stop();
       // Network failures retain the same event IDs for idempotent replay.
-    } finally { sending = false; }
+    } finally { sending = false;if(successful&&queue.length&&!stopped)void flush(); }
   }
 
   function sampleTime() {
@@ -120,6 +143,7 @@
   function onUserInput() {
     sampleTime();
     lastInput = performance.now();
+    void presence();
   }
 
   function checkNavigation() {
@@ -129,6 +153,7 @@
       recordTime();
       lastActivity = next;
       addEvent('activity_view', 0, next);
+      void presence();
     }
   }
 
@@ -181,9 +206,12 @@
       lastTick = now;
       recordTime();
       void flush();
+      void presence('hidden',true);
     } else {
+      leaving=false;
       lastTick = performance.now();
       checkNavigation();
+      void presence(undefined,true);
     }
   }
 
@@ -220,15 +248,19 @@
       document.addEventListener('click', onClick, true);
       document.addEventListener('keydown', onVocabularyKey, true);
       document.addEventListener('visibilitychange', onVisibilityChange);
+      window.addEventListener('english:question-result',event=>{const result=cleanQuestion(event.detail);if(result){addEvent('question_result',0,activityAnchor(),result);void flush();}});
+      document.addEventListener('play',event=>{if(event.target?.tagName==='AUDIO'){addEvent('audio_play');void flush();}},true);
+      document.addEventListener('ended',event=>{if(event.target?.tagName==='AUDIO'){addEvent('audio_complete');void flush();}},true);
       window.addEventListener('hashchange', checkNavigation);
       window.addEventListener('popstate', checkNavigation);
       window.addEventListener('online', () => void flush());
-      window.addEventListener('pagehide', () => { recordTime(); persist(); });
+      window.addEventListener('pagehide', () => { leaving=true;recordTime();persist();void presence('hidden',true);void flush(); });
       window.addEventListener('english:logout', stop);
       sampleTimer = setInterval(sampleTime, 1_000);
       navigationTimer = setInterval(checkNavigation, 500);
-      sendTimer = setInterval(() => { recordTime(); void flush(); }, SEND_EVERY_MS);
+      sendTimer = setInterval(() => { recordTime();void presence();void flush(); }, SEND_EVERY_MS);
       void flush();
+      void presence(undefined,true);
     } catch (_) { /* The access client handles sign-in and errors. */ }
   }
   void start();

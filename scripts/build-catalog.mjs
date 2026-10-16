@@ -3,6 +3,7 @@ import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import {instrumentHtml} from './inject-access.mjs';
+import {instrumentAssessments} from './instrument-assessments.mjs';
 
 export const SITE_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const LEVELS = ['a1', 'a2', 'b1', 'yds'];
@@ -181,10 +182,15 @@ async function stageSite(output, root) {
       filter: (file) => !path.basename(file).startsWith('.') && !localOnlyAssets.has(path.relative(root, file).split(path.sep).join('/')),
     });
   }
-  const indexPath = path.join(target, 'index.html');
+  const coverage=[];
   for (const file of (await listFiles(path.join(target,'lessons'))).filter(f=>/\.html?$/i.test(f))) {
-    await fs.writeFile(file,instrumentHtml(await fs.readFile(file,'utf8'),path.relative(target,file).split(path.sep).join('/')));
+    const relative=path.relative(target,file).split(path.sep).join('/');
+    const assessed=instrumentAssessments(await fs.readFile(file,'utf8'),relative);coverage.push(assessed.coverage);
+    await fs.writeFile(file,instrumentHtml(assessed.html,relative));
   }
+  await fs.writeFile(path.join(target,'assets/assessment-coverage.json'),JSON.stringify(coverage,null,2));
+  for(const page of ['index.html','login.html','admin.html']) {
+  const indexPath=path.join(target,page);
   const indexHtml = await fs.readFile(indexPath, 'utf8');
   const references = /([\s](?:src|href)\s*=\s*)(["'])((?:\.\/)?assets\/[^"'<>]+)\2/gi;
   let versionedHtml = '';
@@ -204,6 +210,7 @@ async function stageSite(output, root) {
   }
   versionedHtml += indexHtml.slice(cursor);
   await fs.writeFile(indexPath, versionedHtml);
+  }
   await fs.writeFile(path.join(target, '.nojekyll'), '');
 }
 

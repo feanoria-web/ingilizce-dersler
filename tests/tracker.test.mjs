@@ -31,6 +31,7 @@ async function harness({ id = 'student-1', storage = new Map(), offline = false 
   const winListeners = new Map();
   const intervals = new Map();
   const requests = [];
+  const presenceRequests=[];
   let now = 0;
   let nextTimer = 0;
   let uuid = 0;
@@ -48,6 +49,7 @@ async function harness({ id = 'student-1', storage = new Map(), offline = false 
       ready: Promise.resolve(current),
       session: () => current,
       request: async (url, options) => {
+        if(url==='/api/presence'){presenceRequests.push(typeof options.body==='string'?JSON.parse(options.body):options.body);return {ok:true};}
         assert.equal(options.headers['Content-Type'], 'application/json');
         requests.push({ url, ...JSON.parse(options.body) });
         return { accepted: JSON.parse(options.body).events.length };
@@ -66,7 +68,7 @@ async function harness({ id = 'student-1', storage = new Map(), offline = false 
   const settle = async () => { await Promise.resolve(); await Promise.resolve(); await Promise.resolve(); };
   await settle();
   return {
-    context, storage, requests, document, settle,
+    context, storage, requests,presenceRequests, document, settle,
     setSession: (session) => { current = session; },
     advance: async (ms) => {
       const steps = Math.ceil(ms / 500);
@@ -101,9 +103,16 @@ test('initial events contain only whitelisted metadata and no awarded time', asy
   for (const event of app.requests[0].events) {
     assert.equal(event.lesson, 'lessons/a2/day-01.html');
     assert.equal(event.activeSeconds, 0);
-    assert.deepEqual(Object.keys(event).sort(), ['activeSeconds', 'activity', 'eventId', 'lesson', 'type']);
+    assert.deepEqual(Object.keys(event).sort(), ['activeSeconds', 'activity', 'eventId', 'lesson','occurredAt', 'type']);
     assert.ok(!JSON.stringify(event).includes('private'));
   }
+});
+test('presence follows visibility and recent input without replaying an offline online status',async()=>{
+ const app=await harness();assert.equal(app.presenceRequests[0].state,'active');await app.advance(60000);assert.equal(app.presenceRequests.at(-1).state,'idle');await app.emit('pointerdown');assert.equal(app.presenceRequests.at(-1).state,'active');app.document.visibilityState='hidden';await app.emit('visibilitychange');assert.equal(app.presenceRequests.at(-1).state,'hidden');const offline=await harness({offline:true});assert.equal(offline.presenceRequests.length,0);assert.ok(offline.pending().length>0);
+});
+test('only explicit assessment events capture graded answers and queued extra fields are discarded',async()=>{
+ const app=await harness({offline:true});const detail={questionId:'q1',prompt:'Choose a greeting.',selectedAnswer:'Hello',correctAnswer:'Hello',outcome:'correct',assessmentKind:'multiple-choice',password:'NOT FOR LOGS',notes:'PRIVATE NOTE'};
+ await app.emit('english:question-result',{detail},'window');const item=app.pending().at(-1);assert.equal(item.type,'question_result');assert.equal(item.details.selectedAnswer,'Hello');assert.equal(item.details.outcome,'correct');assert.ok(!JSON.stringify(item).includes('PRIVATE NOTE'));assert.ok(!JSON.stringify(item).includes('NOT FOR LOGS'));await app.emit('english:question-result',{detail:{...detail,outcome:'made-up'}},'window');assert.equal(app.pending().at(-1).eventId,item.eventId);
 });
 
 test('visible time accumulates elapsed seconds and stops at inactivity', async () => {

@@ -4,7 +4,8 @@ import fs from 'node:fs/promises';
 import {openDatabase} from '../backend/local-db.mjs';
 import {handleRequest,importStudents} from '../backend/service.mjs';
 import {normalizeName,passwordHash,digest} from '../backend/crypto.mjs';
-const schema=await fs.readFile(new URL('../backend/migrations/0001_access.sql',import.meta.url),'utf8');
+const migrations=new URL('../backend/migrations/',import.meta.url);
+const schema=(await Promise.all((await fs.readdir(migrations)).filter(n=>n.endsWith('.sql')).sort().map(n=>fs.readFile(new URL(n,migrations),'utf8')))).join('\n');
 const adminPassword='Test-only!Strong-password-2026';
 const hash=await passwordHash(adminPassword);
 async function setup(){const DB=openDatabase();DB.exec(schema);const env={DB,ADMIN_PASSWORD_HASH:hash,FRONTEND_ORIGIN:'https://school.example'};await importStudents(env,[{id:'a2-001',name:'Deniz Örnek',group:'A2',aliases:['denizornk','deniz ornk']},{id:'a1-001',name:'Ece Deneme',group:'A1'},{id:'a1-002',name:'Ece Örnek',group:'A1'},{id:'b1-001',name:'Test Kullanıcı',group:'B1'}]);return env;}
@@ -21,3 +22,42 @@ test('overview distinguishes lifetime never-entered from a quiet selected date',
 test('admin password change invalidates other admin sessions; logout/expiry revokes access',async()=>{const e=await setup(),a=(await adminLogin(e)).data,b=(await adminLogin(e)).data;assert.equal((await request(e,'/api/admin/password',{token:a.token,body:{currentPassword:adminPassword,newPassword:'New-test-password-2026!'}})).status,200);assert.equal((await request(e,'/api/admin/overview',{token:b.token})).status,401);assert.equal((await adminLogin(e)).status,401);await request(e,'/api/auth/logout',{token:a.token,method:'POST'});assert.equal((await request(e,'/api/auth/me',{token:a.token})).status,401);e.DB.close();});
 test('CORS is restricted, CSV is admin-only, rate limiting rejects repeated guessing',async()=>{const e=await setup();assert.equal((await request(e,'/api/health',{origin:'https://evil.example'})).status,403);assert.equal((await request(e,'/api/admin/export.csv')).status,401);for(let i=0;i<6;i++)assert.equal((await request(e,'/api/admin/login',{body:{password:'wrong-password'}})).status,401);assert.equal((await request(e,'/api/admin/login',{body:{password:'wrong-password'}})).status,429);e.DB.close();});
 test('CSV formula injection escaped and no name list is exposed by login errors',async()=>{const e=await setup();await e.DB.prepare('UPDATE students SET name=? WHERE id=?').bind('=FORMULA','b1-001').run();const a=(await adminLogin(e)).data;const r=await request(e,'/api/admin/export.csv',{token:a.token});assert.match(r.data,/'=FORMULA/);const invalid=await studentLogin(e,'unknown student');assert.ok(!JSON.stringify(invalid.data).includes('Ece'));e.DB.close();});
+const question=(outcome='incorrect',answer='wrong')=>({eventId:crypto.randomUUID(),type:'question_result',lesson:'lessons/a2/day-01.html',activity:'6',details:{questionId:'check-0',prompt:'Choose a reply.',selectedAnswer:answer,correctAnswer:'Hello',outcome,assessmentKind:'multiple-choice'}});
+test('detailed results preserve wrong/correct/blank attempts exactly once with server identity',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data,a=(await adminLogin(e)).data,wrong=question();
+ for(const event of [wrong,wrong,question('correct','Hello'),question('blank','')])assert.equal((await request(e,'/api/events',{token:s.token,body:{events:[{...event,studentId:'b1-001',password:'DO NOT STORE'}]}})).status,200);
+ const log=(await request(e,'/api/admin/logs?eventType=question_result',{token:a.token})).data;
+ assert.equal(log.events.length,3);assert.deepEqual(log.events.map(x=>x.details.attempt),[3,2,1]);assert.equal(log.events[0].details.outcome,'blank');assert.equal(log.events[1].details.selectedAnswer,'Hello');assert.equal(log.events[2].studentId,s.student.id);assert.ok(!JSON.stringify(log).includes('DO NOT STORE'));
+ const report=(await request(e,'/api/admin/overview',{token:a.token})).data;assert.equal(report.stats.correctCount,1);assert.equal(report.stats.incorrectCount,1);assert.equal(report.stats.blankCount,1);e.DB.close();
+});
+test('online presence expires, deduplicates tabs and disappears on logout or disabled access',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data,t=(await studentLogin(e)).data,a=(await adminLogin(e)).data;
+ const ping=token=>request(e,'/api/presence',{token,body:{state:'active',lesson:'lessons/a2/day-01.html',activity:'6'}});
+ await ping(s.token);await ping(t.token);let live=(await request(e,'/api/admin/presence',{token:a.token})).data;assert.equal(live.online.length,1);assert.equal(live.online[0].activity,'6');
+ await request(e,'/api/presence',{token:s.token,body:{state:'hidden',lesson:'panel',activity:'home'}});assert.equal((await request(e,'/api/admin/presence',{token:a.token})).data.online.length,1);
+ await request(e,'/api/auth/logout',{token:t.token,method:'POST'});assert.equal((await request(e,'/api/admin/presence',{token:a.token})).data.online.length,0);
+ await ping(s.token);await e.DB.prepare('UPDATE presence SET seen_at=?').bind(new Date(Date.now()-76000).toISOString()).run();assert.equal((await request(e,'/api/admin/presence',{token:a.token})).data.online.length,0);
+ await ping(s.token);await request(e,'/api/admin/students/'+s.student.id,{token:a.token,body:{enabled:false}});assert.equal((await request(e,'/api/admin/presence',{token:a.token})).data.online.length,0);e.DB.close();
+});
+test('log cursor pagination, question outcome filtering, CSV and detail agree',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data,a=(await adminLogin(e)).data;
+ for(const event of [question(),question('correct','Hello'),question('blank','')])await request(e,'/api/events',{token:s.token,body:{events:[event]}});
+ const page=(await request(e,'/api/admin/logs?limit=2&eventType=question_result',{token:a.token})).data;assert.equal(page.events.length,2);assert.ok(page.nextCursor);
+ const next=(await request(e,'/api/admin/logs?limit=2&eventType=question_result&cursor='+page.nextCursor,{token:a.token})).data;assert.equal(next.events.length,1);assert.ok(page.events.every(x=>x.id!==next.events[0].id));
+ const filtered=(await request(e,'/api/admin/logs?outcome=incorrect&group=A2',{token:a.token})).data;assert.equal(filtered.events.length,1);assert.equal(filtered.events[0].details.selectedAnswer,'wrong');
+ const csv=await request(e,'/api/admin/logs.csv?outcome=correct',{token:a.token});assert.equal(csv.status,200);assert.match(csv.data,/Hello/);assert.ok(!csv.data.includes('wrong'));
+ const detail=(await request(e,'/api/admin/students/'+s.student.id,{token:a.token})).data;assert.equal(detail.metrics.resultCount,3);assert.equal(detail.events.filter(x=>x.details).length,3);e.DB.close();
+});
+test('result validation rejects malformed/oversized reports and keeps separate receipt/client times',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data,a=(await adminLogin(e)).data;
+ let event=question('blank','non-empty');assert.equal((await request(e,'/api/events',{token:s.token,body:{events:[event]}})).status,400);
+ event=question();event.details.prompt='x'.repeat(1601);assert.equal((await request(e,'/api/events',{token:s.token,body:{events:[event]}})).status,400);
+ event=question();event.occurredAt=new Date(Date.now()-3600000).toISOString();assert.equal((await request(e,'/api/events',{token:s.token,body:{events:[event]}})).status,200);
+ const logged=(await request(e,'/api/admin/logs?eventType=question_result',{token:a.token})).data.events[0];assert.equal(logged.occurredAt,event.occurredAt);assert.ok(logged.createdAt>logged.occurredAt);
+ event=question();event.occurredAt='2100-01-01T00:00:00Z';assert.equal((await request(e,'/api/events',{token:s.token,body:{events:[event]}})).status,400);e.DB.close();
+});
+test('all detailed reports stay administrator-only; presence requires a valid unexpired student session',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data;
+ for(const path of ['/api/admin/logs','/api/admin/logs.csv','/api/admin/presence']){assert.equal((await request(e,path)).status,401);assert.equal((await request(e,path,{token:s.token})).status,403);}
+ await e.DB.prepare('UPDATE sessions SET expires_at=?').bind('2000-01-01T00:00:00.000Z').run();assert.equal((await request(e,'/api/presence',{token:s.token,body:{state:'active',lesson:'panel',activity:'home'}})).status,401);e.DB.close();
+});

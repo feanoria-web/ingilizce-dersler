@@ -4,10 +4,11 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {openDatabase} from './local-db.mjs';
 import {handleRequest,importStudents} from './service.mjs';
+import {migrateLocal} from './migrate-local.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const privateDir=path.join(root,'private');await fs.mkdir(privateDir,{recursive:true});
 const db=openDatabase(path.join(privateDir,'activity.sqlite'));
-if(!await db.prepare("SELECT name FROM sqlite_master WHERE name='students'").first())db.exec(await fs.readFile(path.join(root,'backend/migrations/0001_access.sql'),'utf8'));
+await migrateLocal(db);
 let settings={};try {settings=JSON.parse(await fs.readFile(path.join(privateDir,'admin-secret.json'),'utf8'));}catch{}
 const env={DB:db,LOCAL:true,ADMIN_PASSWORD_HASH:settings.hash};
 if(!settings.hash&&!await db.prepare("SELECT value FROM settings WHERE key='admin_password_hash'").first())console.log('Yönetici kurulumu gerekli: once Kurulum.ps1 dosyasını çalıştırın.');

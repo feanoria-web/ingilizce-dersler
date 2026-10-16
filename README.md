@@ -10,9 +10,13 @@ Ana site: https://feanoria-web.github.io/ingilizce-dersler/
 
 ## Kayıtların anlamı
 
-Sunucu giriş, panel/derse giriş, ders içi etkinlik ekranı, cevap kontrol/göster, kelime anlamı açma ve tamamlandı işaretlerini kaydeder. Cevapların içeriği, yazılan notlar, telefon ve kimlik bilgisi toplanmaz. Aktif süre yaklaşık bir kullanım ölçüsüdür: görünür sekme ve son etkileşim üzerinden en çok 30 saniyelik aralıklarla bildirilir. Gizli veya uzun süredir kullanılmayan sekme süre kazandırmaz. Bu kayıtlar tek başına yoklama, başarı veya kimlik doğrulama kanıtı değildir; adını bilen biri başka öğrenci adına girebilir.
+Sunucu giriş/çıkış, panel/derse giriş, etkinlik ekranı, cevap kontrol/göster, kelime anlamı açma, yerleşik ses kaydını oynatma/tamamlama ve tamamlandı işaretlerini kaydeder. Otomatik değerlendirilen sorularda soru, verilen cevap, doğru cevap, doğru/yanlış/boş sonucu ve deneme sayısı tutulur. Sonuçlar ders uygulamasının değerlendirmesinden gelir; resmî sınav veya değiştirilemez başarı kanıtı değildir. Öğretmen notları, değerlendirilmemiş serbest yazılar, parola, telefon ve kimlik bilgisi toplanmaz. Aktif süre yaklaşık bir kullanım ölçüsüdür: görünür sekme ve son etkileşim üzerinden en çok 30 saniyelik aralıklarla bildirilir. Gizli veya uzun süredir kullanılmayan sekme süre kazandırmaz. Adını bilen biri başka öğrenci adına girebilir.
 
-Kesinti sırasında bekleyen en çok 300 olay yalnızca aynı öğrenci oturumuyla gönderilir. Sunucu alma zamanını kaydeder; çevrimdışı geçmişin kesin saatini veya tüm süresini yeniden oluşturmaz. Merkezi giriş ve takip internet bağlantısı ister. Eski bağımsız çevrimdışı ders dosyaları değişmez.
+Kesinti sırasında bekleyen en çok 300 olay yalnızca aynı öğrenci oturumuyla gönderilir. Sunucu alma zamanı ile varsa öğrenci cihazındaki zaman ayrı saklanır; cihaz zamanı kesin zaman kanıtı değildir. Çevrimdışı geçmişin tüm aktif süresi yeniden oluşturulmaz. Merkezi giriş ve takip internet bağlantısı ister. Eski bağımsız çevrimdışı ders dosyaları değişmez.
+
+“Şu an aktif” listesi 30 saniyede yenilenir; görünür, yakın zamanda kullanılan sekmeden son 75 saniyede aktif bildirimi gelmiş öğrencileri gösterir. Bir öğrencinin birkaç sekmesi tek kişi olarak görünür. Arka sekme, hareketsizlik, çıkış veya sona ermiş oturum aktif sayılmaz. Bu durum bildirimi çevrimdışı kuyruğa alınmaz; eski olayların yüklenmesi kişiyi çevrimiçi göstermez.
+
+Ayrıntılı kayıtlar öğrenci, sınıf, tarih, olay ve sonuç ile filtrelenir. Soru bazında verilen/doğru cevaplar ve tekrar denemeleri görünür. CSV en fazla 10.000 kayıt içerir; daha büyük geçmiş için filtre daraltılır. Serbest konuşma/yazma otomatik doğru/yanlış olarak puanlanmaz. Eski sürümde tutulmayan cevap ayrıntıları sonradan üretilemez; ayrıntılar bu güncellemeden itibaren birikir. Mevcut 12 dersin değerlendirme bağlantıları `scripts/instrument-assessments.mjs` içinde, yalnız yayın kopyalarına uygulanır; kaynak grader değiştiğinde eşleşme denetimi hatayı bildirilir.
 
 ## GitHub Pages ve veri gizliliği
 

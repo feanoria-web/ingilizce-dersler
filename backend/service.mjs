@@ -1,5 +1,5 @@
 import {normalizeName,digest,newToken,passwordHash,verifyPassword,aliasesFor} from './crypto.mjs';
-const TYPES = new Set(['page_view','lesson_open','activity_view','answer_check','answer_reveal','activity_complete','vocabulary_reveal','heartbeat']);
+import {CLIENT_TYPES,validLocation,validateQuestion,clientTime,onlineStudents,queryLogs,LOG_COLUMNS,LOG_JOIN,mapEvent} from './detailed-logs.mjs';
 const iso = () => new Date().toISOString();
 const fail = (status,message) => { throw Object.assign(new Error(message),{status}); };
 const reply = (data,status=200) => new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json;charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
@@ -76,6 +76,8 @@ function filters(url) {
 }
 async function overview(env,url) {
   const f=filters(url);
+  const [live,results]=await Promise.all([onlineStudents(env),rows(env.DB,"SELECT student_id,SUM(outcome='correct') AS correctCount,SUM(outcome='incorrect') AS incorrectCount,SUM(outcome='blank') AS blankCount,COUNT(*) AS resultCount FROM assessment_results WHERE created_at>=? AND created_at<? GROUP BY student_id",[f.start,f.end])]);
+  const onlineMap=new Map(live.online.map(x=>[x.id,x])),resultMap=new Map(results.map(x=>[x.student_id,x]));
   const all=await rows(env.DB,`SELECT st.*,
     COUNT(CASE WHEN e.type='login' THEN 1 END) AS logins,
     SUM(CASE WHEN e.type='heartbeat' THEN e.active_seconds ELSE 0 END) AS seconds,
@@ -83,7 +85,7 @@ async function overview(env,url) {
     COUNT(e.id) AS events,MAX(e.created_at) AS last_activity,
     MAX(CASE WHEN e.created_at>=? AND e.type='heartbeat' THEN e.created_at END) AS active_today
     FROM students st LEFT JOIN events e ON st.id=e.student_id AND e.created_at>=? AND e.created_at<? GROUP BY st.id`,[new Date(new Date().toLocaleDateString('en-CA',{timeZone:'Europe/Istanbul'})+'T00:00:00+03:00').toISOString(),f.start,f.end]);
-  let students=all.map(s=>({...publicStudent(s),loginCount:s.logins,everVisited:!!s.first_login,periodVisited:s.events>0,activeSeconds:s.seconds||0,lessonCount:s.lessons,eventCount:s.events,lastActivity:s.last_activity,activeToday:!!s.active_today}));
+  let students=all.map(s=>{const live=onlineMap.get(s.id),r=resultMap.get(s.id);return {...publicStudent(s),loginCount:s.logins,everVisited:!!s.first_login,periodVisited:s.events>0,activeSeconds:s.seconds||0,lessonCount:s.lessons,eventCount:s.events,lastActivity:s.last_activity,activeToday:!!s.active_today,online:!!live,lastSeen:live?.lastSeen||null,currentLesson:live?.lesson||null,currentActivity:live?.activity||null,correctCount:r?.correctCount||0,incorrectCount:r?.incorrectCount||0,blankCount:r?.blankCount||0,resultCount:r?.resultCount||0}});
   if(f.group)students=students.filter(s=>s.group===f.group);
   if(f.q)students=students.filter(s=>normalizeName(s.name).includes(f.q));
   // "Never" is lifetime absence of login; dates never turn an earlier visitor into "never".
@@ -95,7 +97,7 @@ async function overview(env,url) {
   if(ids.size)lessonRows=await rows(env.DB,`SELECT student_id,lesson,COUNT(*) AS events,SUM(active_seconds) AS seconds FROM events WHERE created_at>=? AND created_at<? AND lesson!='panel' GROUP BY student_id,lesson`,[f.start,f.end]);
   const lessonMap=new Map();
   for(const x of lessonRows)if(ids.has(x.student_id)) {const l=lessonMap.get(x.lesson)||{path:x.lesson,title:x.lesson,visitors:0,eventCount:0,activeSeconds:0};l.visitors++;l.eventCount+=x.events;l.activeSeconds+=x.seconds||0;lessonMap.set(x.lesson,l);}
-  return {stats:{total:students.length,visited:students.filter(s=>s.periodVisited).length,never:students.filter(s=>!s.everVisited).length,activeToday:students.filter(s=>s.activeToday).length,loginCount:students.reduce((n,s)=>n+s.loginCount,0),activeSeconds:students.reduce((n,s)=>n+s.activeSeconds,0)},groups:[...new Set(all.map(s=>s.group_name))].sort(),students,lessons:[...lessonMap.values()].sort((a,b)=>b.visitors-a.visitors),filters:{from:f.from,to:f.to,neverMeaning:'all-time'}};
+  return {stats:{total:students.length,visited:students.filter(s=>s.periodVisited).length,never:students.filter(s=>!s.everVisited).length,activeToday:students.filter(s=>s.activeToday).length,loginCount:students.reduce((n,s)=>n+s.loginCount,0),activeSeconds:students.reduce((n,s)=>n+s.activeSeconds,0),online:students.filter(s=>s.online).length,correctCount:students.reduce((n,s)=>n+s.correctCount,0),incorrectCount:students.reduce((n,s)=>n+s.incorrectCount,0),blankCount:students.reduce((n,s)=>n+s.blankCount,0)},groups:[...new Set(all.map(s=>s.group_name))].sort(),students,lessons:[...lessonMap.values()].sort((a,b)=>b.visitors-a.visitors),filters:{from:f.from,to:f.to,neverMeaning:'all-time'}};
 }
 function csvCell(x) {
   let text=String(x??''); if(/^[=+@\-\t\r]/.test(text))text="'"+text;
@@ -147,31 +149,51 @@ async function route(req,env,url) {
     const s=await authenticate(req,env);return reply({role:s.role,expiresAt:s.expires_at,...(s.role==='student'?{student:publicStudent({...s,id:s.student_id})}:{})});
   }
   if(req.method==='POST'&&path==='/api/auth/logout') {
-    const s=await authenticate(req,env);await run(env.DB,'DELETE FROM sessions WHERE token_hash=?',[s.token_hash]);return reply({ok:true});
+    const s=await authenticate(req,env),writes=[];
+    if(s.role==='student')writes.push(env.DB.prepare("INSERT INTO events(event_id,student_id,type,lesson,created_at) VALUES(?,?,'logout','panel',?)").bind(crypto.randomUUID(),s.student_id,iso()));
+    writes.push(env.DB.prepare('DELETE FROM sessions WHERE token_hash=?').bind(s.token_hash));await env.DB.batch(writes);return reply({ok:true});
+  }
+  if(req.method==='POST'&&path==='/api/presence') {
+    const s=await authenticate(req,env);if(s.role!=='student')fail(403,'Öğrenci oturumu gerekli.');
+    const {state,lesson,activity}=await jsonBody(req,1500);
+    if(!['active','idle','hidden'].includes(state)||!validLocation(lesson,activity))fail(400,'Geçersiz etkinlik konumu.');
+    await run(env.DB,'INSERT INTO presence(session_hash,student_id,lesson,activity,state,seen_at) VALUES(?,?,?,?,?,?) ON CONFLICT(session_hash) DO UPDATE SET lesson=excluded.lesson,activity=excluded.activity,state=excluded.state,seen_at=excluded.seen_at',[s.token_hash,s.student_id,lesson,activity||'',state,iso()]);
+    return reply({ok:true});
   }
   if(req.method==='POST'&&path==='/api/events') {
     const s=await authenticate(req,env);if(s.role!=='student')fail(403,'Öğrenci oturumu gerekli.');
-    const {events}=await jsonBody(req,20000);
+    const {events}=await jsonBody(req,65536);
     if(!Array.isArray(events)||events.length<1||events.length>10)fail(400,'Bir istekte 1–10 etkinlik gönderin.');
     const validated=events.map(e=>{
-      if(!e||!TYPES.has(e.type)||!/^[a-zA-Z0-9-]{16,80}$/.test(e.eventId||'')||typeof e.lesson!=='string'||!(e.lesson==='panel'||/^lessons\/(a1|a2|b1|yds)\/[a-zA-Z0-9._-]+\.html$/.test(e.lesson))||typeof(e.activity??'')!=='string'||(e.activity||'').length>120||/[<>\u0000-\u001f]/.test(e.activity||''))fail(400,'Geçersiz etkinlik kaydı.');
-      return {...e,activeSeconds:e.type==='heartbeat'?Math.max(0,Math.min(30,Math.floor(Number(e.activeSeconds)||0))):0};
+      if(!e||!CLIENT_TYPES.has(e.type)||!/^[a-zA-Z0-9-]{16,80}$/.test(e.eventId||'')||!validLocation(e.lesson,e.activity??''))fail(400,'Geçersiz etkinlik kaydı.');
+      return {...e,activeSeconds:e.type==='heartbeat'?Math.max(0,Math.min(30,Math.floor(Number(e.activeSeconds)||0))):0,occurredAt:clientTime(e.occurredAt),details:e.type==='question_result'?validateQuestion(e.details):null};
     });
     const now=iso();
     const writes=[];
     for(const e of validated) {
       // SQL computes and updates the shared student clock in the same atomic batch.
       // Parallel sessions and duplicate/offline retries cannot double-credit elapsed time.
-      writes.push(env.DB.prepare(`INSERT OR IGNORE INTO events(event_id,student_id,type,lesson,activity,active_seconds,created_at)
-        VALUES(?,?,?,?,?,MIN(?,MAX(0,CAST((julianday(?) - julianday(COALESCE((SELECT last_credited_at FROM students WHERE id=?),?)))*86400+0.001 AS INTEGER))),?)`)
-        .bind(e.eventId,s.student_id,e.type,e.lesson,e.activity||'',e.activeSeconds,now,s.student_id,s.created_at,now));
+      writes.push(env.DB.prepare(`INSERT OR IGNORE INTO events(event_id,student_id,type,lesson,activity,active_seconds,created_at,occurred_at)
+        VALUES(?,?,?,?,?,MIN(?,MAX(0,CAST((julianday(?) - julianday(COALESCE((SELECT last_credited_at FROM students WHERE id=?),?)))*86400+0.001 AS INTEGER))),?,?)`)
+        .bind(e.eventId,s.student_id,e.type,e.lesson,e.activity||'',e.activeSeconds,now,s.student_id,s.created_at,now,e.occurredAt));
       if(e.type==='heartbeat')writes.push(env.DB.prepare('UPDATE students SET last_credited_at=? WHERE id=? AND changes()>0').bind(now,s.student_id));
+      if(e.details){const d=e.details;writes.push(env.DB.prepare(`INSERT OR IGNORE INTO assessment_results(event_id,student_id,lesson,question_id,prompt,selected_answer,correct_answer,outcome,assessment_kind,attempt,created_at)
+        SELECT e.id,?,?,?,?,?,?,?, ?, COALESCE((SELECT MAX(attempt) FROM assessment_results WHERE student_id=? AND lesson=? AND question_id=?),0)+1,?
+        FROM events e WHERE e.student_id=? AND e.event_id=? AND e.type='question_result' AND e.lesson=?`)
+        .bind(s.student_id,e.lesson,d.questionId,d.prompt,d.selectedAnswer,d.correctAnswer,d.outcome,d.assessmentKind,s.student_id,e.lesson,d.questionId,now,s.student_id,e.eventId,e.lesson));}
     }
     await env.DB.batch(writes);
     return reply({accepted:validated.length});
   }
   if(path.startsWith('/api/admin/')) {
     const session=await authenticate(req,env,true);
+    if(req.method==='GET'&&path==='/api/admin/presence')return reply(await onlineStudents(env));
+    if(req.method==='GET'&&path==='/api/admin/logs')return reply(await queryLogs(env,url,filters(url)));
+    if(req.method==='GET'&&path==='/api/admin/logs.csv') {
+      const data=await queryLogs(env,url,filters(url),true);
+      const table=[['Öğrenci','Sınıf','Sunucu kayıt zamanı','Öğrenci cihazındaki zaman','Olay','Ders','Etkinlik','Soru','Verilen cevap','Doğru cevap','Sonuç','Deneme','Aktif saniye'],...data.events.map(e=>[e.studentName,e.group,e.createdAt,e.occurredAt,e.type,e.lesson,e.activity,e.details?.prompt,e.details?.selectedAnswer,e.details?.correctAnswer,e.details?.outcome,e.details?.attempt,e.activeSeconds])];
+      return new Response('\ufeff'+table.map(r=>r.map(csvCell).join(';')).join('\r\n'),{headers:{'Content-Type':'text/csv;charset=utf-8','Content-Disposition':'attachment; filename="ayrintili-etkinlikler.csv"'}});
+    }
     if(req.method==='GET'&&path==='/api/admin/overview')return reply(await overview(env,url));
     if(req.method==='GET'&&path==='/api/admin/export.csv') {
       const data=await overview(env,url);
@@ -195,9 +217,10 @@ async function route(req,env,url) {
         return reply({ok:true});
       }
       if(req.method==='GET') {
-        const f=filters(url),eventRows=await rows(env.DB,'SELECT id,type,lesson,activity,created_at,active_seconds FROM events WHERE student_id=? AND created_at>=? AND created_at<? ORDER BY created_at DESC,id DESC LIMIT 200',[student.id,f.start,f.end]);
+        const f=filters(url),eventRows=await rows(env.DB,`SELECT ${LOG_COLUMNS} ${LOG_JOIN} WHERE e.student_id=? AND e.created_at>=? AND e.created_at<? ORDER BY e.id DESC LIMIT 200`,[student.id,f.start,f.end]);
         const metrics=await first(env.DB,"SELECT COUNT(*) AS eventCount,SUM(CASE WHEN type='login' THEN 1 ELSE 0 END) AS loginCount,SUM(active_seconds) AS activeSeconds,COUNT(DISTINCT CASE WHEN lesson!='panel' THEN lesson END) AS lessonCount FROM events WHERE student_id=? AND created_at>=? AND created_at<?",[student.id,f.start,f.end]);
-        return reply({student:publicStudent(student),metrics,events:eventRows.map(e=>({id:e.id,type:e.type,lesson:e.lesson,activity:e.activity,createdAt:e.created_at,activeSeconds:e.active_seconds})),limit:200});
+        Object.assign(metrics,await first(env.DB,"SELECT SUM(outcome='correct') AS correctCount,SUM(outcome='incorrect') AS incorrectCount,SUM(outcome='blank') AS blankCount,COUNT(*) AS resultCount FROM assessment_results WHERE student_id=? AND created_at>=? AND created_at<?",[student.id,f.start,f.end]));
+        return reply({student:publicStudent(student),metrics,events:eventRows.map(mapEvent),limit:200});
       }
     }
   }
