@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import {openDatabase} from '../backend/local-db.mjs';
 import {handleRequest,importStudents} from '../backend/service.mjs';
 import {normalizeName,passwordHash,digest} from '../backend/crypto.mjs';
+import {validateContext} from '../backend/detailed-logs.mjs';
 const migrations=new URL('../backend/migrations/',import.meta.url);
 const schema=(await Promise.all((await fs.readdir(migrations)).filter(n=>n.endsWith('.sql')).sort().map(n=>fs.readFile(new URL(n,migrations),'utf8')))).join('\n');
 const adminPassword='Test-only!Strong-password-2026';
@@ -60,4 +61,114 @@ test('all detailed reports stay administrator-only; presence requires a valid un
  const e=await setup(),s=(await studentLogin(e)).data;
  for(const path of ['/api/admin/logs','/api/admin/logs.csv','/api/admin/presence']){assert.equal((await request(e,path)).status,401);assert.equal((await request(e,path,{token:s.token})).status,403);}
  await e.DB.prepare('UPDATE sessions SET expires_at=?').bind('2000-01-01T00:00:00.000Z').run();assert.equal((await request(e,'/api/presence',{token:s.token,body:{state:'active',lesson:'panel',activity:'home'}})).status,401);e.DB.close();
+});
+const engagement=(overrides={})=>({tabId:crypto.randomUUID(),pagePath:'lessons/a2/day-01.html',pageTitle:'A2 · Ders 1',screenId:'practice-6',screenTitle:'6 · Kelime çalışması',section:'Alıştırma',visibility:'visible',focused:true,idleSeconds:0,lastInteractionAt:new Date().toISOString(),interaction:'pointer',status:'working',...overrides});
+const contextPresence=(e,token,context)=>request(e,'/api/presence',{token,body:{state:'active',lesson:'lessons/a2/day-01.html',activity:context.screenId,context}});
+test('engagement status derives exact inactivity boundary and keeps background/focus details',()=>{
+ const now='2026-10-19T12:00:00.000Z',base=engagement({lastInteractionAt:now});
+ assert.equal(validateContext({...base,idleSeconds:59},now).status,'working');
+ assert.equal(validateContext({...base,idleSeconds:60},now).status,'reading');
+ assert.equal(validateContext({...base,idleSeconds:329},now).status,'reading');
+ const abandoned=validateContext({...base,idleSeconds:330,visibility:'hidden',focused:false},now);
+ assert.equal(abandoned.status,'left_open');assert.equal(abandoned.visibility,'hidden');assert.equal(abandoned.focused,false);
+ assert.equal(validateContext({...base,visibility:'hidden'},now).status,'background');
+ assert.equal(validateContext({...base,focused:false},now).status,'unfocused');
+ assert.equal(validateContext(base,now,'page_leave').status,'leaving');
+});
+test('same session has independent tabs, online is active students only, and stale is unknown',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data,a=(await adminLogin(e)).data,one=engagement(),two=engagement({screenId:'reading',screenTitle:'Okuma',visibility:'hidden',focused:false,idleSeconds:330});
+ assert.equal((await contextPresence(e,s.token,one)).status,200);assert.equal((await contextPresence(e,s.token,two)).status,200);
+ let live=(await request(e,'/api/admin/presence',{token:a.token})).data;
+ assert.equal(live.online.length,1);assert.equal(live.tabs.length,2);assert.equal(live.summary.working,1);assert.equal(live.summary.leftOpen,1);assert.equal(live.inactiveAfterSeconds,330);
+ assert.equal(live.tabs.find(x=>x.tabId===two.tabId).screenTitle,'Okuma');
+ await e.DB.prepare('UPDATE tab_presence SET seen_at=? WHERE tab_id=?').bind(new Date(Date.now()-76000).toISOString(),one.tabId).run();
+ live=(await request(e,'/api/admin/presence',{token:a.token})).data;assert.equal(live.online.length,0);assert.equal(live.tabs.find(x=>x.tabId===one.tabId).status,'unknown');assert.equal(live.summary.stale,1);
+ await request(e,'/api/auth/logout',{token:s.token,method:'POST'});assert.equal((await request(e,'/api/admin/presence',{token:a.token})).data.tabs.length,0);e.DB.close();
+});
+test('presence inactivity advances only while signal is recent and stops granting active online status at sixty seconds',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data,a=(await adminLogin(e)).data,c=engagement({idleSeconds:59});await contextPresence(e,s.token,c);
+ await e.DB.prepare('UPDATE tab_presence SET seen_at=?').bind(new Date(Date.now()-2000).toISOString()).run();
+ let live=(await request(e,'/api/admin/presence',{token:a.token})).data;assert.equal(live.online.length,0);assert.equal(live.tabs[0].status,'reading');
+ await contextPresence(e,s.token,{...c,idleSeconds:329});await e.DB.prepare('UPDATE tab_presence SET seen_at=?').bind(new Date(Date.now()-2000).toISOString()).run();
+ live=(await request(e,'/api/admin/presence',{token:a.token})).data;assert.equal(live.tabs[0].status,'left_open');
+ await e.DB.prepare('UPDATE tab_presence SET seen_at=?').bind(new Date(Date.now()-76000).toISOString()).run();
+ live=(await request(e,'/api/admin/presence',{token:a.token})).data;assert.equal(live.tabs[0].status,'unknown');assert.equal(live.tabs[0].lastStatus,'reading');e.DB.close();
+});
+test('all durable transition contexts appear in admin logs and CSV; replay never makes anyone online',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data,a=(await adminLogin(e)).data;
+ const types=['tab_visible','tab_hidden','window_focus','window_blur','idle_start','abandoned','resumed','page_leave'];
+ for(const type of types){const event={eventId:crypto.randomUUID(),type,lesson:'lessons/a2/day-01.html',activity:'practice-6',occurredAt:new Date(Date.now()-3600000).toISOString(),context:engagement({pageTitle:'=HYPERLINK',idleSeconds:type==='abandoned'?330:0}),privateNotes:'NEVER STORE THIS',keys:'secret'};
+   for(let i=0;i<2;i++)assert.equal((await request(e,'/api/events',{token:s.token,body:{events:[event]}})).status,200);
+ }
+ const live=(await request(e,'/api/admin/presence',{token:a.token})).data;assert.equal(live.online.length,0);assert.equal(live.tabs.length,0);
+ const log=(await request(e,'/api/admin/logs',{token:a.token})).data.events.filter(x=>types.includes(x.type));assert.equal(log.length,8);assert.ok(log.every(x=>x.context?.screenTitle==='6 · Kelime çalışması'));assert.equal(log.find(x=>x.type==='page_leave').context.status,'leaving');assert.equal(log.find(x=>x.type==='abandoned').context.status,'left_open');assert.ok(log.every(x=>x.createdAt>x.occurredAt));assert.ok(!JSON.stringify(log).includes('NEVER STORE'));
+ const csv=(await request(e,'/api/admin/logs.csv?eventType=abandoned',{token:a.token})).data;assert.match(csv,/Alt ekran başlığı/);assert.match(csv,/6 · Kelime çalışması/);assert.match(csv,/'=HYPERLINK/);assert.match(csv,/left_open/);assert.match(csv,/330/);
+ assert.equal((await request(e,'/api/admin/logs.csv',{token:s.token})).status,403);e.DB.close();
+});
+test('context validation rejects external URLs, oversized labels and invalid state without storing extra private fields',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data;
+ for(const patch of [{pagePath:'https://other.example/private?token=secret'},{pagePath:'lessons/a2/day-01.html?answer=private'},{tabId:'same-tab'},{pageTitle:'x'.repeat(181)},{screenTitle:'<script>'},{idleSeconds:-1},{idleSeconds:330.5},{focused:'true'},{visibility:'foreground'},{lastInteractionAt:'2099-01-01T00:00:00.000Z'},{interaction:'typed-password'},{status:'offline'}])assert.equal((await contextPresence(e,s.token,engagement(patch))).status,400,JSON.stringify(patch));
+ assert.equal((await contextPresence(e,s.token,engagement({pagePath:'/ingilizce-dersler/lessons/a2/day-01.html',privateNote:'DONT STORE',typedValue:'secret'}))).status,200);
+ const row=await e.DB.prepare('SELECT * FROM tab_presence').first();assert.equal(row.page_path,'lessons/a2/day-01.html');assert.ok(!JSON.stringify(row).includes('DONT STORE'));e.DB.close();
+});
+test('hidden, unfocused and inactive heartbeat context accrues no active credit; current working context still does',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data;
+ for(const c of [engagement({visibility:'hidden'}),engagement({focused:false}),engagement({idleSeconds:60}),engagement({idleSeconds:330})]){
+   await e.DB.prepare('UPDATE students SET last_credited_at=? WHERE id=?').bind(new Date(Date.now()-30000).toISOString(),'a2-001').run();
+   assert.equal((await request(e,'/api/events',{token:s.token,body:{events:[{eventId:crypto.randomUUID(),type:'heartbeat',lesson:'lessons/a2/day-01.html',activity:'practice-6',activeSeconds:30,context:c}]}})).status,200);
+ }
+ assert.equal((await e.DB.prepare("SELECT SUM(active_seconds) AS seconds FROM events WHERE type='heartbeat'").first()).seconds,0);
+ await e.DB.prepare('UPDATE students SET last_credited_at=? WHERE id=?').bind(new Date(Date.now()-30000).toISOString(),'a2-001').run();await request(e,'/api/events',{token:s.token,body:{events:[{eventId:crypto.randomUUID(),type:'heartbeat',lesson:'lessons/a2/day-01.html',activity:'practice-6',activeSeconds:30,context:engagement()}]}});
+ assert.ok((await e.DB.prepare("SELECT SUM(active_seconds) AS seconds FROM events WHERE type='heartbeat'").first()).seconds>=29);e.DB.close();
+});
+test('expired and disabled sessions exclude all their recent tab records',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data,a=(await adminLogin(e)).data;await contextPresence(e,s.token,engagement());
+ await e.DB.prepare('UPDATE sessions SET expires_at=? WHERE token_hash=?').bind('2000-01-01T00:00:00.000Z',await digest(s.token)).run();assert.equal((await request(e,'/api/admin/presence',{token:a.token})).data.tabs.length,0);assert.equal((await contextPresence(e,s.token,engagement())).status,401);
+ const t=(await studentLogin(e)).data;await contextPresence(e,t.token,engagement());await request(e,'/api/admin/students/a2-001',{token:a.token,body:{enabled:false}});assert.equal((await request(e,'/api/admin/presence',{token:a.token})).data.tabs.length,0);e.DB.close();
+});
+test('tab display retains unknown signals for thirty minutes and leaving signals for only seventy-five seconds',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data,a=(await adminLogin(e)).data;
+ const retained=engagement(),old=engagement(),leaving=engagement({status:'leaving'});
+ for(const c of [retained,old,leaving])await contextPresence(e,s.token,c);
+ await e.DB.prepare('UPDATE tab_presence SET seen_at=? WHERE tab_id=?').bind(new Date(Date.now()-1799000).toISOString(),retained.tabId).run();
+ await e.DB.prepare('UPDATE tab_presence SET seen_at=? WHERE tab_id=?').bind(new Date(Date.now()-1801000).toISOString(),old.tabId).run();
+ let live=(await request(e,'/api/admin/presence',{token:a.token})).data;
+ assert.equal(live.tabWindowSeconds,1800);assert.equal(live.tabs.length,2);assert.equal(live.tabs.find(x=>x.tabId===retained.tabId).status,'unknown');assert.equal(live.tabs.find(x=>x.tabId===leaving.tabId).status,'leaving');
+ await e.DB.prepare('UPDATE tab_presence SET seen_at=? WHERE tab_id=?').bind(new Date(Date.now()-76000).toISOString(),leaving.tabId).run();
+ live=(await request(e,'/api/admin/presence',{token:a.token})).data;assert.equal(live.tabs.length,1);assert.equal(live.summary.tabs,1);assert.equal(live.summary.stale,1);e.DB.close();
+});
+test('contextual old heartbeat never credits work on retry, while legacy delayed heartbeat remains compatible',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data;
+ const old={eventId:crypto.randomUUID(),type:'heartbeat',lesson:'lessons/a2/day-01.html',activity:'practice-6',activeSeconds:30,occurredAt:new Date(Date.now()-76000).toISOString(),context:engagement()};
+ await e.DB.prepare('UPDATE students SET last_credited_at=? WHERE id=?').bind(new Date(Date.now()-30000).toISOString(),'a2-001').run();
+ for(let i=0;i<2;i++)assert.equal((await request(e,'/api/events',{token:s.token,body:{events:[old]}})).status,200);
+ assert.equal((await e.DB.prepare("SELECT SUM(active_seconds) AS seconds FROM events WHERE type='heartbeat'").first()).seconds,0);
+ const {context,...legacy}=old;await e.DB.prepare('UPDATE students SET last_credited_at=? WHERE id=?').bind(new Date(Date.now()-30000).toISOString(),'a2-001').run();
+ await request(e,'/api/events',{token:s.token,body:{events:[{...legacy,eventId:crypto.randomUUID()}]}});
+ assert.ok((await e.DB.prepare("SELECT SUM(active_seconds) AS seconds FROM events WHERE type='heartbeat'").first()).seconds>=29);e.DB.close();
+});
+test('context page location must match event or presence lesson; panel path is normalized and accepted',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data;
+ assert.equal((await contextPresence(e,s.token,engagement({pagePath:'lessons/b1/day-01.html'}))).status,400);
+ assert.equal((await request(e,'/api/events',{token:s.token,body:{events:[{eventId:crypto.randomUUID(),type:'page_view',lesson:'lessons/a2/day-01.html',activity:'',context:engagement({pagePath:'index.html'})}]}})).status,400);
+ for(const pagePath of ['index.html','/ingilizce-dersler/','panel'])assert.equal((await request(e,'/api/presence',{token:s.token,body:{state:'active',lesson:'panel',activity:'A2',context:engagement({pagePath})}})).status,200);
+ assert.equal((await request(e,'/api/presence',{token:s.token,body:{state:'active',lesson:'panel',activity:'A2',context:engagement()}})).status,400);e.DB.close();
+});
+test('presence monotonic sequence ignores reversed arrivals and permits a newer bfcache restoration',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data,a=(await adminLogin(e)).data,c=engagement();
+ const ping=(sequence,context)=>request(e,'/api/presence',{token:s.token,body:{state:context.status==='leaving'?'hidden':'active',lesson:'lessons/a2/day-01.html',activity:context.screenId,context,sequence}});
+ assert.equal((await ping(2,{...c,status:'leaving'})).status,200);
+ const original=await e.DB.prepare('SELECT sequence,seen_at FROM tab_presence').first();
+ assert.equal((await ping(1,c)).status,200);assert.equal((await ping(2,c)).status,200);assert.equal((await ping(0,c)).status,200);
+ let row=await e.DB.prepare('SELECT sequence,seen_at,status FROM tab_presence').first();assert.equal(row.status,'leaving');assert.equal(row.sequence,2);assert.equal(row.seen_at,original.seen_at);
+ let live=(await request(e,'/api/admin/presence',{token:a.token})).data;assert.equal(live.online.length,0);assert.equal(live.tabs[0].status,'leaving');
+ assert.equal((await ping(3,c)).status,200);row=await e.DB.prepare('SELECT sequence,status FROM tab_presence').first();assert.equal(row.status,'working');assert.equal(row.sequence,3);
+ live=(await request(e,'/api/admin/presence',{token:a.token})).data;assert.equal(live.online.length,1);assert.equal(live.tabs.length,1);assert.ok(!Object.hasOwn(live.tabs[0],'sequence'));e.DB.close();
+});
+test('presence sequence zero preserves old contextual clients and malformed sequences are rejected',async()=>{
+ const e=await setup(),s=(await studentLogin(e)).data,c=engagement();await contextPresence(e,s.token,c);await contextPresence(e,s.token,{...c,visibility:'hidden'});
+ let row=await e.DB.prepare('SELECT sequence,status FROM tab_presence').first();assert.equal(row.sequence,0);assert.equal(row.status,'background');
+ await contextPresence(e,s.token,c);row=await e.DB.prepare('SELECT sequence,status FROM tab_presence').first();assert.equal(row.status,'working');
+ for(const sequence of [-1,1.5,2147483648,'1',null])assert.equal((await request(e,'/api/presence',{token:s.token,body:{state:'active',lesson:'lessons/a2/day-01.html',activity:c.screenId,context:c,sequence}})).status,400);
+ e.DB.close();
 });

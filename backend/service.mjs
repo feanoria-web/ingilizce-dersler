@@ -1,5 +1,5 @@
 import {normalizeName,digest,newToken,passwordHash,verifyPassword,aliasesFor} from './crypto.mjs';
-import {CLIENT_TYPES,validLocation,validateQuestion,clientTime,onlineStudents,queryLogs,LOG_COLUMNS,LOG_JOIN,mapEvent} from './detailed-logs.mjs';
+import {CLIENT_TYPES,validLocation,validateQuestion,clientTime,validateContext,validateContextLocation,PRESENCE_WINDOW_SECONDS,CONTEXT_FIELDS,contextValues,onlineStudents,queryLogs,LOG_COLUMNS,LOG_JOIN,mapEvent} from './detailed-logs.mjs';
 const iso = () => new Date().toISOString();
 const fail = (status,message) => { throw Object.assign(new Error(message),{status}); };
 const reply = (data,status=200) => new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json;charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
@@ -155,9 +155,22 @@ async function route(req,env,url) {
   }
   if(req.method==='POST'&&path==='/api/presence') {
     const s=await authenticate(req,env);if(s.role!=='student')fail(403,'Öğrenci oturumu gerekli.');
-    const {state,lesson,activity}=await jsonBody(req,1500);
+    const {state,lesson,activity,context:rawContext,sequence=0}=await jsonBody(req,4000);
     if(!['active','idle','hidden'].includes(state)||!validLocation(lesson,activity))fail(400,'Geçersiz etkinlik konumu.');
-    await run(env.DB,'INSERT INTO presence(session_hash,student_id,lesson,activity,state,seen_at) VALUES(?,?,?,?,?,?) ON CONFLICT(session_hash) DO UPDATE SET lesson=excluded.lesson,activity=excluded.activity,state=excluded.state,seen_at=excluded.seen_at',[s.token_hash,s.student_id,lesson,activity||'',state,iso()]);
+    if(!Number.isInteger(sequence)||sequence<0||sequence>2147483647)fail(400,'Geçersiz sekme sinyal sırası.');
+    const now=iso(),context=validateContextLocation(validateContext(rawContext,now),lesson);
+    if(context) {
+      // Pagehide may race an earlier request. Only the newer page-instance
+      // snapshot can change state or freshness; zero keeps old clients usable.
+      await run(env.DB,`INSERT INTO tab_presence(session_hash,student_id,lesson,activity,${CONTEXT_FIELDS},sequence,seen_at)
+        VALUES(${new Array(18).fill('?').join(',')}) ON CONFLICT(session_hash,tab_id) DO UPDATE SET
+        lesson=excluded.lesson,activity=excluded.activity,page_path=excluded.page_path,page_title=excluded.page_title,
+        screen_id=excluded.screen_id,screen_title=excluded.screen_title,section=excluded.section,
+        visibility=excluded.visibility,focused=excluded.focused,idle_seconds=excluded.idle_seconds,
+        last_interaction_at=excluded.last_interaction_at,interaction=excluded.interaction,status=excluded.status,sequence=excluded.sequence,seen_at=excluded.seen_at
+        WHERE excluded.sequence>tab_presence.sequence OR (excluded.sequence=0 AND tab_presence.sequence=0)`,
+        [s.token_hash,s.student_id,lesson,activity||'',...contextValues(context),sequence,now]);
+    } else await run(env.DB,'INSERT INTO presence(session_hash,student_id,lesson,activity,state,seen_at) VALUES(?,?,?,?,?,?) ON CONFLICT(session_hash) DO UPDATE SET lesson=excluded.lesson,activity=excluded.activity,state=excluded.state,seen_at=excluded.seen_at',[s.token_hash,s.student_id,lesson,activity||'',state,now]);
     return reply({ok:true});
   }
   if(req.method==='POST'&&path==='/api/events') {
@@ -166,7 +179,9 @@ async function route(req,env,url) {
     if(!Array.isArray(events)||events.length<1||events.length>10)fail(400,'Bir istekte 1–10 etkinlik gönderin.');
     const validated=events.map(e=>{
       if(!e||!CLIENT_TYPES.has(e.type)||!/^[a-zA-Z0-9-]{16,80}$/.test(e.eventId||'')||!validLocation(e.lesson,e.activity??''))fail(400,'Geçersiz etkinlik kaydı.');
-      return {...e,activeSeconds:e.type==='heartbeat'?Math.max(0,Math.min(30,Math.floor(Number(e.activeSeconds)||0))):0,occurredAt:clientTime(e.occurredAt),details:e.type==='question_result'?validateQuestion(e.details):null};
+      const receivedAt=iso(),context=validateContextLocation(validateContext(e.context,receivedAt,e.type),e.lesson),occurredAt=clientTime(e.occurredAt,receivedAt);
+      const currentContext=!context||context.status==='working'&&(!occurredAt||Date.parse(receivedAt)-Date.parse(occurredAt)<=PRESENCE_WINDOW_SECONDS*1000);
+      return {...e,context,activeSeconds:e.type==='heartbeat'&&currentContext?Math.max(0,Math.min(30,Math.floor(Number(e.activeSeconds)||0))):0,occurredAt,details:e.type==='question_result'?validateQuestion(e.details):null};
     });
     const now=iso();
     const writes=[];
@@ -181,6 +196,9 @@ async function route(req,env,url) {
         SELECT e.id,?,?,?,?,?,?,?, ?, COALESCE((SELECT MAX(attempt) FROM assessment_results WHERE student_id=? AND lesson=? AND question_id=?),0)+1,?
         FROM events e WHERE e.student_id=? AND e.event_id=? AND e.type='question_result' AND e.lesson=?`)
         .bind(s.student_id,e.lesson,d.questionId,d.prompt,d.selectedAnswer,d.correctAnswer,d.outcome,d.assessmentKind,s.student_id,e.lesson,d.questionId,now,s.student_id,e.eventId,e.lesson));}
+      if(e.context)writes.push(env.DB.prepare(`INSERT OR IGNORE INTO event_contexts(event_id,${CONTEXT_FIELDS})
+        SELECT id,${new Array(12).fill('?').join(',')} FROM events WHERE student_id=? AND event_id=? AND type=? AND lesson=? AND created_at=?`)
+        .bind(...contextValues(e.context),s.student_id,e.eventId,e.type,e.lesson,now));
     }
     await env.DB.batch(writes);
     return reply({accepted:validated.length});
@@ -191,7 +209,7 @@ async function route(req,env,url) {
     if(req.method==='GET'&&path==='/api/admin/logs')return reply(await queryLogs(env,url,filters(url)));
     if(req.method==='GET'&&path==='/api/admin/logs.csv') {
       const data=await queryLogs(env,url,filters(url),true);
-      const table=[['Öğrenci','Sınıf','Sunucu kayıt zamanı','Öğrenci cihazındaki zaman','Olay','Ders','Etkinlik','Soru','Verilen cevap','Doğru cevap','Sonuç','Deneme','Aktif saniye'],...data.events.map(e=>[e.studentName,e.group,e.createdAt,e.occurredAt,e.type,e.lesson,e.activity,e.details?.prompt,e.details?.selectedAnswer,e.details?.correctAnswer,e.details?.outcome,e.details?.attempt,e.activeSeconds])];
+      const table=[['Öğrenci','Sınıf','Sunucu kayıt zamanı','Öğrenci cihazındaki zaman','Olay','Ders','Etkinlik','Soru','Verilen cevap','Doğru cevap','Sonuç','Deneme','Aktif saniye','Sekme kimliği','Sayfa yolu','Sayfa başlığı','Alt ekran kimliği','Alt ekran başlığı','Bölüm','Görünürlük','Pencere odakta','Hareketsiz saniye','Son hareket zamanı','Hareket türü','Çalışma durumu'],...data.events.map(e=>[e.studentName,e.group,e.createdAt,e.occurredAt,e.type,e.lesson,e.activity,e.details?.prompt,e.details?.selectedAnswer,e.details?.correctAnswer,e.details?.outcome,e.details?.attempt,e.activeSeconds,e.context?.tabId,e.context?.pagePath,e.context?.pageTitle,e.context?.screenId,e.context?.screenTitle,e.context?.section,e.context?.visibility,e.context?e.context.focused?'Evet':'Hayır':'',e.context?.idleSeconds,e.context?.lastInteractionAt,e.context?.interaction,e.context?.status])];
       return new Response('\ufeff'+table.map(r=>r.map(csvCell).join(';')).join('\r\n'),{headers:{'Content-Type':'text/csv;charset=utf-8','Content-Disposition':'attachment; filename="ayrintili-etkinlikler.csv"'}});
     }
     if(req.method==='GET'&&path==='/api/admin/overview')return reply(await overview(env,url));

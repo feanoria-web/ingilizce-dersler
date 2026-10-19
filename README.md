@@ -14,7 +14,22 @@ Sunucu giriş/çıkış, panel/derse giriş, etkinlik ekranı, cevap kontrol/gö
 
 Kesinti sırasında bekleyen en çok 300 olay yalnızca aynı öğrenci oturumuyla gönderilir. Sunucu alma zamanı ile varsa öğrenci cihazındaki zaman ayrı saklanır; cihaz zamanı kesin zaman kanıtı değildir. Çevrimdışı geçmişin tüm aktif süresi yeniden oluşturulmaz. Merkezi giriş ve takip internet bağlantısı ister. Eski bağımsız çevrimdışı ders dosyaları değişmez.
 
-“Şu an aktif” listesi 30 saniyede yenilenir; görünür, yakın zamanda kullanılan sekmeden son 75 saniyede aktif bildirimi gelmiş öğrencileri gösterir. Bir öğrencinin birkaç sekmesi tek kişi olarak görünür. Arka sekme, hareketsizlik, çıkış veya sona ermiş oturum aktif sayılmaz. Bu durum bildirimi çevrimdışı kuyruğa alınmaz; eski olayların yüklenmesi kişiyi çevrimiçi göstermez.
+Canlı ders takibi 30 saniyede yenilenir. “Aktif etkileşim”, görünür ve odakta olan sayfada son 60 saniye içinde hareket gözlenen, son 75 saniyede güncel sinyal gönderen öğrenciyi ifade eder. Bir öğrencinin birden fazla kaydı aktif kişi sayısını artırmaz. Arka sekme, odak dışındaki pencere, hareketsizlik, çıkış veya sona ermiş oturum aktif sayılmaz. Bu durum bildirimi çevrimdışı kuyruğa alınmaz; eski olayların yüklenmesi kişiyi çevrimiçi göstermez.
+
+## Sayfa, sekme ve hareketsizlik ayrıntıları
+
+Her olayın bağlamında kendi sitemizdeki sayfa yolu ve başlığı, dersin ekran numarası/kimliği ve başlığı, varsa seçili iç bölüm, sayfanın görünürlüğü, pencere odağı, son etkileşim zamanı, etkileşimden beri geçen süre ve genel hareket türü tutulur. Fare/klavye/dokunma/kaydırma ayrılır; yazılan tuşun değeri, fare koordinatı, serbest notlar, şifreler, başka sitelerin adresleri ve diğer uygulamaların adı kaydedilmez.
+
+- **Aktif etkileşim:** sayfa görünür, pencere odakta ve son hareket 60 saniyeden yeni.
+- **Ön planda · etkileşim yok:** sayfa görünür ve odakta, 60 saniyeden beri hareket yok. Uzun okuma bu grupta olabilir.
+- **Arka sekmede / pencere odağı başka yerde:** yalnız tarayıcının kendi görünürlük ve odak sinyali gösterilir.
+- **Açık bırakılmış olabilir:** **5 dakika 30 saniye (330 saniye)** boyunca gerçek hareket görülmemiştir. Bu bir tahmindir; öğrencinin kesin dikkat veya çalışma kanıtı değildir.
+- **Sinyal alınmıyor:** son güncel bildirim 75 saniyeden eskidir. Bağlantı kopması, tarayıcının uyuması ve kapanmış sayfa birbirinden kesin ayırt edilemez.
+- **Sayfadan ayrıldı:** sayfa kapanma/geçiş bildirimi alınmıştır.
+
+Sekmenin görünmesi/gizlenmesi, pencerenin odak kazanması/kaybetmesi, 60 saniyelik hareketsizlik, 330 saniyelik uzun hareketsizlik, gerçek hareketle geri dönüş ve sayfadan ayrılma zaman çizelgesinde ayrı olaylardır. Uzun hareketsizlik olayı her geçişte bir kez üretilir. Odak kazanmak, otomatik sayfa hareketi veya sekmenin yeniden görünmesi tek başına gerçek etkileşim sayılmaz. Tam sayfa geçişi yeni bir takip kaydı oluşturur; bunlar kesin açık tarayıcı sekmesi sayısı olarak yorumlanmaz.
+
+Canlı bölüm son 30 dakikada sinyal gönderen sayfa/sekme kayıtlarını gösterir. Ayrılma kayıtları 75 saniye sonra bu bölümden düşer; kalıcı geçmiş ve ayrıntılı CSV silinmez. İstek sıra numarası, gecikmiş bir eski isteğin son ayrılma durumunu ezmesini önler. Yeni bağlamlı ve 75 saniyeden eski heartbeat tekrarları aktif süre kazandırmaz; aktif süreler görünür ve odakta geçirilen uygun önceki aralıklardan hesaplanır. Eski istemciler sınırlı ayrıntıyla desteklenir. Yeni ayrıntılar, açık ders sayfaları bir kez yenilendikten sonra birikmeye başlar; önceki kayıtlar geriye dönük zenginleştirilmez.
 
 Ayrıntılı kayıtlar öğrenci, sınıf, tarih, olay ve sonuç ile filtrelenir. Soru bazında verilen/doğru cevaplar ve tekrar denemeleri görünür. CSV en fazla 10.000 kayıt içerir; daha büyük geçmiş için filtre daraltılır. Serbest konuşma/yazma otomatik doğru/yanlış olarak puanlanmaz. Eski sürümde tutulmayan cevap ayrıntıları sonradan üretilemez; ayrıntılar bu güncellemeden itibaren birikir. Derslerin değerlendirme bağlantıları `scripts/instrument-assessments.mjs` içinde, yalnız yayın kopyalarına uygulanır; kaynak grader değiştiğinde eşleşme denetimi hatayı bildirir.
 

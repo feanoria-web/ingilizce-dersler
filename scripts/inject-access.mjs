@@ -1,7 +1,7 @@
 import path from 'node:path';
 
 // Build-time instrumentation only: the offline source lessons are never rewritten.
-export function instrumentHtml(source, relativePath = 'index.html') {
+export function instrumentHtml(source, relativePath = 'index.html', {versions = {}} = {}) {
   if (typeof source !== 'string') throw new TypeError('HTML must be a string.');
   if (source.includes('id="english-access-guard"')) return source;
   const normalized = relativePath.replace(/\\/g, '/');
@@ -10,13 +10,14 @@ export function instrumentHtml(source, relativePath = 'index.html') {
   }
   const directory = path.posix.dirname(normalized);
   const assets = `${path.posix.relative(directory, 'assets') || '.'}/`;
+  const asset = name => `${assets}${name}${versions[name] ? `?v=${versions[name]}` : ''}`;
   const injection = `
   <!-- Student access is checked before this published lesson is displayed. -->
   <style id="english-access-guard">html.access-pending body{visibility:hidden!important}</style>
-  <script src="${assets}access-config.js" defer></script>
-  <script src="${assets}auth-client.js" defer></script>
-  <script src="${assets}activity-tracker.js" defer></script>
-  <link rel="stylesheet" href="${assets}access.css">
+  <script src="${asset('access-config.js')}" defer></script>
+  <script src="${asset('auth-client.js')}" defer></script>
+  <script src="${asset('activity-tracker.js')}" defer></script>
+  <link rel="stylesheet" href="${asset('access.css')}">
 `;
   if (!/<head\b[^>]*>/i.test(source) || !/<html\b[^>]*>/i.test(source)) {
     throw new Error(`${relativePath}: expected a complete HTML document.`);

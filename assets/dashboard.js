@@ -8,7 +8,7 @@
   const number = value => Number.isFinite(Number(value)) && value !== null && value !== '' ? format.format(Number(value)) : '—';
   const datetime = value => {
     if (!value) return '—';
-    const date = new Date(value); return Number.isNaN(date.getTime()) ? '—' : new Intl.DateTimeFormat('tr-TR', {day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Europe/Istanbul'}).format(date);
+    const date = new Date(value); return Number.isNaN(date.getTime()) ? '—' : new Intl.DateTimeFormat('tr-TR', {day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',second:'2-digit',timeZone:'Europe/Istanbul'}).format(date);
   };
   const duration = value => {
     if (!Number.isFinite(Number(value)) || value == null) return '—';
@@ -17,7 +17,47 @@
   };
   const eventNames = {login:'Giriş yaptı',logout:'Çıkış yaptı',site_enter:'Ders panelini açtı',page_view:'Sayfayı açtı',lesson_open:'Dersi açtı',lesson_view:'Dersi açtı',activity_open:'Etkinliği açtı',activity_view:'Etkinliği görüntüledi',activity_complete:'Etkinliği tamamladı',activity:'Etkinlikle çalıştı',answer_submit:'Yanıtını gönderdi',answer_check:'Yanıtlarını kontrol etti',answer_reveal:'Yanıtı görüntüledi',quiz_check:'Yanıtlarını kontrol etti',audio_play:'Dinleme sesini başlattı',audio_pause:'Dinlemeyi duraklattı',audio_end:'Dinlemeyi tamamladı',heartbeat:'Aktif çalışma kaydı',level_select:'Seviye seçti',vocab_reveal:'Kelime anlamını açtı',vocabulary_reveal:'Kelime anlamını açtı',navigate:'Ders içinde ilerledi'};
   eventNames.question_result = 'Soru sonucu'; eventNames.audio_complete = 'Dinlemeyi tamamladı';
+  Object.assign(eventNames,{tab_visible:'Sekme ön plana geldi',tab_hidden:'Sekme arka plana geçti',window_focus:'Ders penceresi odak aldı',window_blur:'Pencere odağı değişti',idle_start:'Etkileşim durakladı',abandoned:'Açık bırakılmış olabilir',resumed:'Etkileşime geri döndü',page_leave:'Sayfadan ayrıldı'});
   const labelOf = value => value && typeof value === 'object' ? value.title || value.path || value.id || '' : value || '';
+  const stateNames = {working:'Aktif etkileşim',reading:'Ön planda · etkileşim yok',background:'Arka sekmede',unfocused:'Pencere odağı başka yerde',left_open:'Açık bırakılmış olabilir',leaving:'Sayfadan ayrıldı',unknown:'Sinyal alınmıyor',stale:'Sinyal alınmıyor',legacy:'Önceki sürüm · ayrıntı sınırlı'};
+  const interactionNames = {pointer:'İşaretçi etkileşimi',pointerdown:'Dokunma / tıklama',click:'Tıklama',keydown:'Klavye kullanımı',keyboard:'Klavye kullanımı',scroll:'Kaydırma',input:'Yanıt girişi',change:'Seçim değişikliği',touch:'Dokunma',touchstart:'Dokunma',mousemove:'İşaretçi hareketi',pointermove:'İşaretçi hareketi',navigation:'Ders içi gezinme',none:'Henüz etkileşim yok'};
+  function stateBadge(status) { return `<span class="engagement-pill engagement-${Object.hasOwn(stateNames,status) ? status : 'unknown'}">${escape(stateNames[status] || stateNames.unknown)}</span>`; }
+  function preciseDuration(value) { const seconds = Number(value); if (!Number.isFinite(seconds) || seconds < 0) return '—'; const whole = Math.floor(seconds); return whole >= 60 ? `${Math.floor(whole / 60)} dk ${whole % 60} sn` : `${whole} sn`; }
+  function safePage(path) {
+    if (typeof path !== 'string' || !path.trim()) return null;
+    try {
+      const base = new URL('./',window.location.href), url = new URL(path,base);
+      if (url.origin !== base.origin || url.username || url.password || !url.pathname.startsWith(base.pathname) || (url.pathname !== base.pathname && !/\.html$/.test(url.pathname))) return null;
+      return {href:url.pathname + url.hash,path:url.pathname + url.hash};
+    } catch { return null; }
+  }
+  function pageDetails(context) {
+    if (!context.pagePath) return '';
+    const page = safePage(context.pagePath);
+    return page ? `<a class="context-path" href="${escape(page.href)}" target="_blank" rel="noopener noreferrer">${escape(page.path)} ↗</a>` : '<span class="context-path">Sayfa yolu doğrulanamadı</span>';
+  }
+  function contextDetails(event,showStatus = true) {
+    const c = event.context;
+    if (!c || typeof c !== 'object' || !Object.keys(c).length) return '';
+    const status = event.stale ? 'unknown' : event.status || c.status;
+    const screen = c.screenTitle, section = labelOf(c.section);
+    const fields = [
+      c.pageTitle ? ['Sayfa',c.pageTitle] : null,
+      screen ? ['Ders içi ekran',screen] : null,
+      c.screenId ? ['Ekran kimliği',c.screenId] : null,
+      section && section !== screen ? ['Alt bölüm',section] : null,
+      c.visibility ? ['Tarayıcı sekmesi',c.visibility === 'visible' ? 'Ön planda' : c.visibility === 'hidden' ? 'Arka planda' : 'Bilinmiyor'] : null,
+      typeof c.focused === 'boolean' ? ['Pencere odağı',c.focused ? 'Ders penceresinde' : 'Başka yerde'] : null,
+      Number.isFinite(Number(c.idleSeconds)) && c.idleSeconds != null ? [event.stale ? 'Son sinyalde etkileşimsiz' : 'Etkileşimsiz süre',preciseDuration(c.idleSeconds)] : null,
+      c.lastInteractionAt ? ['Son etkileşim',datetime(c.lastInteractionAt)] : null,
+      c.interaction ? ['Son etkileşim türü',interactionNames[c.interaction] || 'Sayfa etkileşimi'] : null,
+      c.tabId ? ['Sekme kimliği',c.tabId] : null,
+      event.stale && stateNames[event.lastStatus] ? ['Son bilinen durum',stateNames[event.lastStatus]] : null
+    ].filter(Boolean);
+    return `<div class="context-detail">${showStatus && status ? stateBadge(status) : ''}${pageDetails(c)}${fields.length ? `<dl>${fields.map(([key,value]) => `<dt>${escape(key)}</dt><dd>${escape(value)}</dd>`).join('')}</dl>` : ''}</div>`;
+  }
+  const studentIdOf = student => String(student.studentId || student.id || '');
+  const lessonLabel = event => (event.lesson && typeof event.lesson === 'object' && event.lesson.title) || event.context?.pageTitle || labelOf(event.lesson) || 'Ders paneli';
   const outcomeNames = {correct:'Doğru',incorrect:'Yanlış',blank:'Boş bırakıldı',ungraded:'Puanlanmadı'};
   const answerText = value => Array.isArray(value) ? value.join(' · ') : value == null || value === '' ? '—' : String(value);
   function outcomeBadge(details) { const value = details?.outcome; return value && outcomeNames[value] ? `<span class="result-pill result-${value}">${outcomeNames[value]}</span>` : '—'; }
@@ -80,7 +120,7 @@
     $('student-table').innerHTML = students.length ? students.map(student => {
       const visited = Boolean(student.everVisited); const disabled = student.enabled === false;
       const label = !visited ? 'Hiç giriş yapmadı' : student.periodVisited === false ? 'Dönemde giriş yok' : 'Giriş yaptı';
-      return `<tr><td><strong>${escape(student.name)}</strong><small>${escape(student.group || 'Grupsuz')}${disabled ? ' · Erişim kapalı' : ''}</small></td><td>${student.online ? '<span class="state-pill online">● Şu an aktif</span><br>' : ''}<span class="state-pill ${!visited || student.periodVisited === false ? 'never' : ''}">${escape(label)}</span></td><td>${escape(datetime(student.firstLogin))}</td><td>${escape(datetime(student.lastLogin))}</td><td>${escape(number(student.loginCount))}</td><td>${escape(duration(student.activeSeconds))}</td><td>${escape(number(student.lessonCount))}</td><td><div class="row-actions"><button type="button" data-student-detail="${escape(student.id)}">İncele ↗</button><button type="button" data-student-toggle="${escape(student.id)}" aria-label="${escape(student.name)} için ${disabled ? 'erişimi aç' : 'erişimi kapat'}">${disabled ? 'Erişimi aç' : 'Erişimi kapat'}</button></div></td></tr>`;
+      return `<tr><td><strong>${escape(student.name)}</strong><small>${escape(student.group || 'Grupsuz')}${disabled ? ' · Erişim kapalı' : ''}</small></td><td>${student.online ? '<span class="state-pill online">● Aktif etkileşim</span><br>' : ''}<span class="state-pill ${!visited || student.periodVisited === false ? 'never' : ''}">${escape(label)}</span></td><td>${escape(datetime(student.firstLogin))}</td><td>${escape(datetime(student.lastLogin))}</td><td>${escape(number(student.loginCount))}</td><td>${escape(duration(student.activeSeconds))}</td><td>${escape(number(student.lessonCount))}</td><td><div class="row-actions"><button type="button" data-student-detail="${escape(student.id)}">İncele ↗</button><button type="button" data-student-toggle="${escape(student.id)}" aria-label="${escape(student.name)} için ${disabled ? 'erişimi aç' : 'erişimi kapat'}">${disabled ? 'Erişimi aç' : 'Erişimi kapat'}</button></div></td></tr>`;
     }).join('') : '<tr><td colspan="8" class="table-empty">Bu filtrelerle eşleşen öğrenci bulunmuyor.</td></tr>';
   }
   function renderGroups(groups) {
@@ -100,13 +140,31 @@
       const data = await access.request('/api/admin/presence');
       if (seq !== presenceSequence || !authorized()) return;
       if (!Array.isArray(data?.online)) throw new Error('Aktif öğrenci yanıtı doğrulanamadı.');
-      $('online-count').textContent = number(data.online.length);
-      $('presence-list').innerHTML = data.online.length ? data.online.map(student => `<article class="presence-card"><strong>${escape(student.name)}</strong><span class="state-pill online">${escape(student.group || 'Öğrenci')}</span><p>${escape(labelOf(student.lesson) || 'Ders paneli')}</p>${labelOf(student.activity) ? `<small>${escape(labelOf(student.activity))}</small>` : ''}<small>Son sinyal · ${escape(datetime(student.lastSeen))}</small></article>`).join('') : '<p class="presence-empty">Şu anda aktif öğrenci sinyali yok.</p>';
+      const sessions = [...(Array.isArray(data.sessions) ? data.sessions : Array.isArray(data.tabs) ? data.tabs : [])];
+      const included = new Set(sessions.map(studentIdOf));
+      for (const student of data.online) {
+        const id = studentIdOf(student);
+        if (!included.has(id)) { sessions.push({...student,legacy:true,status:'legacy'}); included.add(id); }
+      }
+      const activeIds = new Set(data.online.filter(student => !student.stale && (student.status || student.context?.status) === 'working').map(studentIdOf));
+      $('online-count').textContent = number(activeIds.size);
+      const tabCounts = new Map(), tabPositions = new Map();
+      sessions.forEach(student => { const id = studentIdOf(student); tabCounts.set(id,(tabCounts.get(id) || 0) + 1); });
+      const counts = {};
+      $('presence-list').innerHTML = sessions.length ? sessions.map(student => {
+        const id = studentIdOf(student), position = (tabPositions.get(id) || 0) + 1; tabPositions.set(id,position);
+        const context = {...student,...student.context};
+        const status = student.stale ? 'unknown' : student.status || context.status || 'unknown'; counts[status] = (counts[status] || 0) + 1;
+        const screen = context.screenTitle || context.screenId || labelOf(student.activity), section = labelOf(context.section);
+        const note = student.legacy ? 'Önceki takip sürümünden yakın zamanda sinyal alındı. Sekme, pencere odağı ve etkileşim ayrıntıları bilinmiyor.' : status === 'unknown' || status === 'stale' ? 'Son durum güncel olmayabilir. Bağlantı kesilmiş veya sekme kapanmış olabilir.' : status === 'left_open' ? '5 dk 30 sn boyunca etkileşim alınmadı. Okuma veya dinleme sürüyor olabilir.' : '';
+        return `<article class="presence-card presence-${escape(status)}"><div class="presence-person"><strong>${escape(student.name)}</strong><small>${escape(student.group || 'Öğrenci')} · Takip kaydı ${number(position)}/${number(tabCounts.get(id))}</small></div>${stateBadge(status)}<p class="presence-lesson">${escape(lessonLabel({...student,context}))}</p>${screen ? `<p class="presence-screen">${escape(screen)}${section && section !== screen ? `<small>Alt bölüm: ${escape(section)}</small>` : ''}</p>` : ''}${contextDetails({...student,status,context:{...context,pageTitle:'',screenTitle:'',section:''}},false)}<small class="presence-signal">Son sinyal · ${escape(datetime(student.lastSeen))}</small>${note ? `<p class="presence-inference">${escape(note)}</p>` : ''}</article>`;
+      }).join('') : '<p class="presence-empty">Henüz açık veya yakın zamanda sinyal alınan öğrenci sekmesi yok.</p>';
+      const summary = [['working','Aktif'],['reading','Ön planda, etkileşim yok'],['background','Arka sekme'],['unfocused','Odak başka yerde'],['left_open','Açık bırakılmış olabilir'],['unknown','Sinyal yok'],['stale','Sinyal yok'],['leaving','Ayrıldı'],['legacy','Ayrıntı sınırlı']].filter(([key]) => counts[key]).map(([key,label]) => `<span>${escape(label)} <strong>${escape(number(counts[key]))}</strong></span>`).join('');
+      $('presence-summary').innerHTML = `<span><strong>${escape(number(tabCounts.size))}</strong> öğrenci · <strong>${escape(number(sessions.length))}</strong> sayfa / sekme kaydı</span>${summary}`;
       $('presence-updated').textContent = 'Son kontrol · ' + datetime(data.asOf || new Date().toISOString());
       $('presence-status').textContent = '';
-      const activeIds = new Set(data.online.map(student => String(student.id)));
       if (records.length) renderStudents(records.map(student => ({...student,online:activeIds.has(String(student.id))})));
-    } catch(error) { if (seq === presenceSequence && authorized()) { $('presence-status').textContent = 'Canlı takip güncellenemedi: ' + error.message; $('online-count').textContent = '—'; $('presence-list').replaceChildren(); } }
+    } catch(error) { if (seq === presenceSequence && authorized()) { $('presence-status').textContent = 'Canlı takip güncellenemedi: ' + error.message; $('online-count').textContent = '—'; $('presence-list').replaceChildren(); $('presence-summary').replaceChildren(); } }
     finally { presenceBusy = false; }
   }
   function logFilters(includeCursor = true) {
@@ -133,7 +191,7 @@
       $('log-table').innerHTML = data.events.length ? data.events.map(event => {
         const d = event.details || {};
         const offline = event.occurredAt && Math.abs(new Date(event.createdAt) - new Date(event.occurredAt)) > 120000;
-        return `<tr><td><time>${escape(datetime(event.createdAt))}</time>${offline ? `<small>Cihaz: ${escape(datetime(event.occurredAt))}</small>` : ''}</td><td><strong>${escape(event.studentName)}</strong><small>${escape(event.group || '')}</small></td><td>${escape(labelOf(event.lesson) || 'Ders paneli')}<small>${escape(labelOf(event.activity))}</small></td><td><strong>${escape(eventNames[event.type] || event.type)}</strong>${escape(d.prompt || d.questionId || '')}</td><td>${escape(answerText(d.selectedAnswer))}</td><td>${escape(answerText(d.correctAnswer))}</td><td>${outcomeBadge(d)}</td><td>${d.attempt ? escape(number(d.attempt)) : '—'}</td></tr>`;
+        return `<tr><td><time>${escape(datetime(event.createdAt))}</time>${offline ? `<small>Cihaz: ${escape(datetime(event.occurredAt))}</small>` : ''}</td><td><strong>${escape(event.studentName)}</strong><small>${escape(event.group || '')}</small></td><td>${escape(lessonLabel(event))}<small>${escape(labelOf(event.activity))}</small>${contextDetails(event)}</td><td><strong>${escape(eventNames[event.type] || event.type)}</strong>${escape(d.prompt || d.questionId || '')}</td><td>${escape(answerText(d.selectedAnswer))}</td><td>${escape(answerText(d.correctAnswer))}</td><td>${outcomeBadge(d)}</td><td>${d.attempt ? escape(number(d.attempt)) : '—'}</td></tr>`;
       }).join('') : '<tr><td colspan="8" class="table-empty">Bu filtrelerle eşleşen etkinlik kaydı bulunmuyor.</td></tr>';
       message('');
     } catch(error) { if (seq === logsSequence && authorized()) {nextCursor = null; $('log-table').replaceChildren(); message(error.message);} }
@@ -171,9 +229,9 @@
       $('detail-summary').textContent = [metrics.loginCount != null ? `${number(metrics.loginCount)} giriş` : '',metrics.lessonCount != null ? `${number(metrics.lessonCount)} ders` : '',metrics.activeSeconds != null ? `${duration(metrics.activeSeconds)} aktif çalışma` : '',metrics.correctCount != null ? `${number(metrics.correctCount)} doğru` : '',metrics.incorrectCount != null ? `${number(metrics.incorrectCount)} yanlış` : '',metrics.blankCount != null ? `${number(metrics.blankCount)} boş` : '', 'Seçili dönem · Son 200 etkinlik'].filter(Boolean).join(' · ');
       $('detail-status').textContent = '';
       $('detail-events').innerHTML = data.events.length ? `<ol class="event-list">${data.events.map(event => {
-        const lesson = typeof event.lesson === 'object' ? event.lesson?.title || event.lesson?.path || '' : event.lesson || '';
+        const lesson = lessonLabel(event);
         const activity = typeof event.activity === 'object' ? event.activity?.title || event.activity?.id || '' : event.activity || '';
-        return `<li><time>${escape(datetime(event.createdAt))}</time><div><strong>${escape(eventNames[event.type] || event.type || 'Etkinlik')}</strong>${lesson ? `<small>${escape(lesson)}</small>` : ''}${activity ? `<small>Etkinlik: ${escape(activity)}</small>` : ''}${Number(event.activeSeconds) > 0 ? `<small>${escape(duration(event.activeSeconds))} aktif çalışma</small>` : ''}${questionDetails(event)}</div></li>`;
+        return `<li><time>${escape(datetime(event.createdAt))}</time><div><strong>${escape(eventNames[event.type] || event.type || 'Etkinlik')}</strong>${lesson ? `<small>${escape(lesson)}</small>` : ''}${activity ? `<small>Etkinlik: ${escape(activity)}</small>` : ''}${Number(event.activeSeconds) > 0 ? `<small>${escape(duration(event.activeSeconds))} aktif çalışma</small>` : ''}${contextDetails(event)}${questionDetails(event)}</div></li>`;
       }).join('')}</ol>` : '<div class="empty-state">Seçili dönemde bu öğrenci için etkinlik kaydı bulunmuyor.</div>';
     } catch(error) {if(seq === detailSequence) $('detail-status').textContent = error.message;}
   }
@@ -220,7 +278,7 @@
   });
   function clearPrivateData() {
     ready=false; ++sequence; ++detailSequence; ++presenceSequence; ++logsSequence; records=[]; clearTimeout(presenceTimer); clearTimeout(debounce); logsBusy=false; logPage=0; logCursors=['']; nextCursor=null;
-    ['student-table','lesson-table','stat-cards','detail-events','presence-list','log-table'].forEach(id => $(id).replaceChildren());
+    ['student-table','lesson-table','stat-cards','detail-events','presence-list','presence-summary','log-table'].forEach(id => $(id).replaceChildren());
     ['detail-title','detail-group','detail-summary','detail-status','student-count','online-count','presence-updated','presence-status','updated-at','dashboard-status','logs-page'].forEach(id => $(id).textContent='');
     $('filter-search').value=''; $('logs-next').disabled=true; $('logs-previous').disabled=true;
     if($('student-detail').open) $('student-detail').close();
