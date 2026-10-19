@@ -87,6 +87,12 @@ Yayınlanan A1, A2 ve B1 derslerinde İngilizce bir kelimeyi veya en fazla beş 
 
 `scripts/inject-word-lookup.mjs`, sözlük verisini ve sürümlü CSS/JS bağlantılarını yalnız yayın kopyalarına ekler. Böylece ileride eklenen A1/A2/B1 dersleri de aynı özelliği otomatik kazanır. Belirli bir derste kapatmak için `lesson-meta` içine `"wordLookup": false` eklenebilir. Soru, cevap, giriş ve yönetim yetkileri bu özellikten bağımsız çalışır.
 
+## Mola sayfalarında özet döngüsü
+
+A1, A2, B1 ve YDS derslerinde özet başlatma düğmesi yalnız mola sayfasında görünür. Molaya kadar işlenen sayfalardan istenenler seçilir; 10 veya 15 dakika boyunca kısa konu özetleri ve örnekler sırayla gösterilir. Döndürme aralığı 10, 15, 20 veya 30 saniye olabilir. Duraklatma, devam etme, sayfa seçimini değiştirme ve erken bitirme desteklenir. Mola ekranından ayrılınca gösterim kapanır ve sayaç durur. Sayfa seçimleri ders bazında bu cihazda saklanır; öğrenci yanıtları değişmez.
+
+YDS'de konu anlatımının sonundaki **Mola sayfasına geç** bağlantısı kullanılır. Mola sayfasında işlenen son konu seçilebilir; yalnız bu konuya kadar olan özetler listelenir. Eski B1 ek çalışma kitabına iki blok arası mola sayfası eklenmiştir. Diğer derslerde mevcut mola ekranları kullanılır. Kaynak ders dosyaları yerine yayın kopyaları `scripts/inject-break-review.mjs` ile hazırlanır.
+
 ## Kontroller
 
 ```powershell

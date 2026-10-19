@@ -42,9 +42,6 @@
 
     const root = make('div', 'ebr-root');
     root.dataset.breakReviewRoot = '';
-    const launcher = make('button', 'ebr-launcher', '☕ Mola özeti');
-    launcher.type = 'button';
-    launcher.setAttribute('aria-haspopup', 'dialog');
     const dialog = make('dialog', 'ebr-dialog');
     dialog.setAttribute('aria-labelledby', 'ebr-title');
     const shell = make('div', 'ebr-shell');
@@ -58,7 +55,7 @@
     close.type = 'button'; close.setAttribute('aria-label', 'Molayı kapat ve derse dön');
     header.append(titleBlock, close);
     const body = make('div', 'ebr-body');
-    shell.append(header, body); dialog.append(shell); root.append(launcher, dialog);
+    shell.append(header, body); dialog.append(shell); root.append(dialog);
     document.body.append(root);
 
     function syncTimer(method, value) {
@@ -86,7 +83,7 @@
       requestAnimationFrame(() => { body.querySelector('select, input, button')?.focus({preventScroll:true}); dialog.scrollTop=0; });
     }
     function show() {
-      if (opened) return;
+      if (opened || !breakTarget()) return;
       selection(); editing = false;
       previousFocus = document.activeElement; previousOverflow = document.body.style.overflow;
       document.body.style.overflow = 'hidden'; opened = true;
@@ -257,24 +254,46 @@
     }
     document.addEventListener('keydown', keyHandler, true);
     dialog.addEventListener('cancel', event => { event.preventDefault(); hide(); });
-    launcher.addEventListener('click', show); close.addEventListener('click', hide);
-    const inlineButtons = new Set();
+    close.addEventListener('click', hide);
+    let inlineButton = null, inlineTarget = null;
+    function usableTarget(target) {
+      return target && target !== document.body && target.isConnected &&
+        typeof target.append === 'function' && !target.closest('[data-break-review-root]') &&
+        !target.closest('[hidden], [aria-hidden="true"]') && target.getClientRects().length > 0;
+    }
+    function breakTarget() {
+      // A lesson adapter knows whether its current screen is genuinely a break.
+      // An explicit null must not fall back to a hidden break elsewhere in the lesson.
+      if (typeof config.getBreakTarget === 'function') {
+        try { const target = config.getBreakTarget(); return usableTarget(target) ? target : null; }
+        catch (_) { return null; }
+      }
+      for (const marker of document.querySelectorAll('.break-text, [data-break-time], .break')) {
+        const target = marker.matches('[data-break-time]') ? marker.parentElement : marker;
+        if (usableTarget(target)) return target;
+      }
+      return null;
+    }
     function ensureInline() {
       inlineFrame = null;
-      const marker = document.querySelector('[data-break-time]');
-      const target = document.querySelector('.break-text') || marker?.parentElement || document.querySelector('.break');
-      if (!target || target.closest('[data-break-review-root]') || target.querySelector('[data-break-review-inline]')) return;
+      const target = breakTarget();
+      if (target !== inlineTarget || !inlineButton?.isConnected) {
+        if (opened) hide();
+        inlineButton?.remove(); inlineButton = null; inlineTarget = null;
+      }
+      if (!target || inlineButton) return;
       const button = make('button', 'ebr-inline-button', '☕ Bu molada seçtiğim sayfaların özetini göster');
       button.type = 'button'; button.dataset.breakReviewInline = ''; button.setAttribute('aria-haspopup', 'dialog'); button.addEventListener('click', show);
-      target.append(button); inlineButtons.add(button);
+      target.append(button); inlineButton = button; inlineTarget = target;
     }
-    const observer = new MutationObserver(() => {
+    const observer = new MutationObserver(records => {
+      if (records.every(record => root.contains(record.target) || record.target === inlineButton)) return;
       if (inlineFrame === null) inlineFrame = requestAnimationFrame(ensureInline);
     });
-    observer.observe(document.body, { childList: true, subtree: true }); ensureInline();
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['class', 'style', 'hidden', 'aria-hidden'] }); ensureInline();
     instance = { destroy() {
       if (opened) hide(); stopClock(); observer.disconnect(); if (inlineFrame !== null) cancelAnimationFrame(inlineFrame);
-      document.removeEventListener('keydown', keyHandler, true); for (const button of inlineButtons) button.remove(); root.remove();
+      document.removeEventListener('keydown', keyHandler, true); inlineButton?.remove(); root.remove();
     } };
     return instance;
   }

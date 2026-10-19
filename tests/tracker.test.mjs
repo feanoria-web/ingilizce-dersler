@@ -252,6 +252,8 @@ test('YDS unit and topic use rendered controls and exact headings, never arbitra
   assert.equal(event.context.screenTitle,'Noun clauses and reported speech');
   app.document.elements.delete('section-select');app.context.location.hash='#unit/PRIVATE?notes=SECRET';await app.advance(500);
   assert.equal(app.pending().at(-1).activity,'unit');assert.ok(!JSON.stringify(app.pending()).includes('SECRET'));
+  app.context.location.hash='#breakreview';app.document.selectors.set(HEADING,new FakeElement({text:'Mola'}));await app.advance(500);
+  assert.equal(app.pending().at(-1).activity,'breakreview');assert.equal(app.pending().at(-1).context.screenTitle,'Mola');
 });
 
 test('main panel level route stays useful without capturing arbitrary hash text',async()=>{

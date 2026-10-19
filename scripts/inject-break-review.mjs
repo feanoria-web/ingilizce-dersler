@@ -1,5 +1,6 @@
 import path from 'node:path';
 import vm from 'node:vm';
+import {instrumentYdsBreakReview} from './break-review-yds.mjs';
 
 export const clean = value => typeof value === 'string' ? value.replace(/<[^>]*>/g, '').replace(/\{\w\|([^}]+)\}/g, '$1').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim() : '';
 const brief = value => { const text=clean(value); return text.length>260 ? text.slice(0,257).replace(/\s+\S*$/, '')+'…' : text; };
@@ -64,6 +65,11 @@ const legacyBridge = `
    return [{id:s.uid||'board-'+index,index,title:clean(s.title),summary:summary.slice(0,3),examples:examples.slice(0,2)}];
  }),
  getIndex:()=>current==='home'?-1:state.mode==='board'?boardIndex:boardSlides.reduce((last,s,i)=>s.group===current?i:last,-1),
+ getBreakTarget:()=>{
+   if(state.mode==='board')return boardSlides[boardIndex]?.tag==='BREAK'?document.querySelector('#board-content'):null;
+   const activity=Array.isArray(DATA.activities)?DATA.activities.find(a=>String(a.id)===current):null;
+   return activity?.kind==='break'||/^review-break-[12]$/.test(current)?document.querySelector('#main .panel')||document.querySelector('#main'):null;
+ },
  timer:{set(sec){stopTimer();timerSeconds=sec;paintTime()},start(){startTimer()},stop(){stopTimer()}}
 });
 `;
@@ -71,16 +77,33 @@ const legacyBridge = `
 export function instrumentBreakReview(source,relativePath,{versions={}}={}) {
   const normalized=relativePath.replace(/\\/g,'/');
   if(path.posix.isAbsolute(normalized)||normalized.split('/').includes('..'))throw new Error('Break review path must stay within the site.');
-  if(!/^lessons\/a2\/.+\.html?$/i.test(normalized)||source.includes('id="english-break-review-script"'))return source;
-  const pages=componentPages(source);
+  if(!/^lessons\/(?:a1|a2|b1|yds)\/.+\.html?$/i.test(normalized)||source.includes('id="english-break-review-script"'))return source;
+  if(normalized==='lessons/b1/practice.html') {
+    // This older workbook had no actual break pages. Add them between its three teaching blocks.
+    const anchor='function initializeBoard(){';
+    if(source.split(anchor).length!==2)throw new Error(`${relativePath}: legacy break initializer missing.`);
+    source=source.replace(anchor,`lesson.splice(lesson.findIndex(l=>l[0]==='5')+1,0,['review-break-1','Mola · 1. blok sonrası',10,1]);
+lesson.splice(lesson.findIndex(l=>l[0]==='10')+1,0,['review-break-2','Mola · 2. blok sonrası',10,2]);
+for(const id of ['review-break-1','review-break-2']) {ACTIVITIES[id]=()=>panel('Mola', '<p>Çay molası · İşlediğiniz sayfaların kısa özetlerini seçerek 10 veya 15 dakika tekrar edebilirsiniz.</p>');descriptions[id]='İşlediğiniz konulardan kısa bir tekrar seçin. Keyifli molalar!';}
+${anchor}`);
+    const deckAnchor="createBoardDeck();if(typeof extendBoardDeck";
+    if(source.split(deckAnchor).length!==2)throw new Error(`${relativePath}: legacy break deck anchor missing.`);
+    source=source.replace(deckAnchor,`createBoardDeck();for(const id of ['review-break-1','review-break-2'])bAdd(id,'Mola · Küçük bir tekrar','quote',{text:'Çay molası. İşlediğiniz sayfaların özetlerini seçip başlatın.',minutes:10,tag:'BREAK'});if(typeof extendBoardDeck`);
+    source=source.replace('const n=lesson.filter(l=>state.done[l[0]]).length;',"const n=lesson.filter(l=>!/^review-break-/.test(l[0])&&state.done[l[0]]).length;");
+    source=source.replace("l[0].startsWith('b')?'＋':l[0].padStart(2,'0')","l[0].startsWith('review-break-')?'☕':l[0].startsWith('b')?'＋':l[0].padStart(2,'0')");
+    source=source.replace("l[3]===4?'EXTRA PRACTICE':`CHAPTER 0${l[3]} · ACTIVITY ${l[0].padStart(2,'0')}`","l[0].startsWith('review-break-')?'DERS ARASI':l[3]===4?'EXTRA PRACTICE':`CHAPTER 0${l[3]} · ACTIVITY ${l[0].padStart(2,'0')}`");
+  }
+  const yds=normalized==='lessons/yds/grammar-studio.html';
+  const pages=yds?null:componentPages(source);
   let html=source;
-  if(pages) {
+  if(yds) html=instrumentYdsBreakReview(source);
+  else if(pages) {
     const anchor=/  init\(\);\r?\n\}\)\(\);/g;
     if([...source.matchAll(anchor)].length!==1)throw new Error(`${relativePath}: break review init anchor missing.`);
     const json=JSON.stringify(pages).replace(/</g,'\\u003c').replace(/\u2028/g,'\\u2028').replace(/\u2029/g,'\\u2029');
-    html=html.replace(anchor,()=>`  window.EnglishBreakReview?.register({pages:${json},getIndex:()=>st.idx,timer});\n  init();\n})();`);
+    html=html.replace(anchor,()=>`  window.EnglishBreakReview?.register({pages:${json},getIndex:()=>st.idx,getBreakTarget:()=>S[st.idx]?.type==='break'?document.querySelector('#main .break-text'):null,timer});\n  init();\n})();`);
   } else if(source.includes('initializeBoard();')&&source.includes('boardSlides')) {
-    const anchor=/initializeBoard\(\);(?=(?:if\(typeof initializeExtras[^<]*)?<\/script>)/g;
+    const anchor=/initializeBoard\(\);(?=(?:(?:if\(typeof initializeExtras[^<]*|initializeExtras\(\);))?\s*<\/script>)/g;
     if([...source.matchAll(anchor)].length!==1)throw new Error(`${relativePath}: board break review anchor missing.`);
     html=html.replace(anchor,()=>`initializeBoard();${legacyBridge}`);
   } else throw new Error(`${relativePath}: no supported break review screen model.`);

@@ -1,8 +1,6 @@
 .ebr-root{--ebr-ink:#173c37;--ebr-green:#216b57;--ebr-mint:#eaf4ec;--ebr-border:#d7e3db;--ebr-muted:#5b6e64;font-family:Inter,Arial,sans-serif;color:var(--ebr-ink);line-height:1.5}
 .ebr-root *,.ebr-inline-button{box-sizing:border-box}
 .ebr-root button,.ebr-root select,.ebr-inline-button{font:inherit}
-.ebr-launcher{position:fixed;z-index:1040;right:148px;bottom:86px;display:flex;align-items:center;gap:8px;padding:12px 18px;border:1px solid #ffffff80;border-radius:999px;background:#185646;color:white;box-shadow:0 5px 22px #153b352d;cursor:pointer;font-weight:750;font-size:14px}
-.ebr-launcher:hover{background:#0d4034;transform:translateY(-1px)}
 .ebr-inline-button{display:block;margin-top:16px;padding:12px 17px;border:1px solid #91c3ab;border-radius:12px;background:#eaf4ec;color:#173c37;cursor:pointer;font-size:16px;font-weight:750;line-height:1.4;text-align:left}
 .ebr-dialog{position:fixed;inset:0;width:min(1080px,calc(100vw - 48px));max-width:none;max-height:calc(100dvh - 40px);margin:auto;padding:0;border:1px solid #cedfd2;border-radius:24px;background:#fbfcf8;color:#173c37;box-shadow:0 25px 100px #001d2466;overflow:auto}
 .ebr-dialog::backdrop{background:#0d262bca;backdrop-filter:blur(5px)}

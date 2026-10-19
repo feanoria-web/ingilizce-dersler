@@ -13,35 +13,41 @@ test('recaps use correct examples and omit teacher notes and wrong options',()=>
   assert.ok(!JSON.stringify(recap).includes('She are here.'));
 });
 
-test('A2 component recaps retain exact source indices and exclude breaks/resources',async()=>{
-  for(const file of ['day-02','a1-review','day-04']){
-    const source=await fs.readFile(new URL(`../lessons/a2/${file}.html`,import.meta.url),'utf8');
+test('all component recaps retain exact source indices and exclude breaks/resources',async()=>{
+  for(const file of ['a1/day-01','a1/day-02','a1/day-03','a2/day-02','a2/a1-review','a2/day-04','b1/day-02','b1/day-03','b1/day-04','b1/day-05']){
+    const source=await fs.readFile(new URL(`../lessons/${file}.html`,import.meta.url),'utf8');
     const pages=componentPages(source);
     assert.ok(pages.length>=15,file);
     assert.ok(pages.every(p=>p.summary.length>0 && p.index>=0),file);
     assert.ok(!pages.some(p=>/^break\d*$/.test(p.id)),file);
     assert.ok(!pages.some(p=>['plan','vocab','diagnosis','cheatsheet'].includes(p.id)),file);
-    const output=instrumentBreakReview(source,`lessons/a2/${file}.html`,{versions:{'break-review.js':'abc','break-review.css':'def'}});
+    const output=instrumentBreakReview(source,`lessons/${file}.html`,{versions:{'break-review.js':'abc','break-review.css':'def'}});
     assert.match(output,/break-review\.js\?v=abc/);
-    assert.match(output,/getIndex:\(\)=>st.idx,timer/);
-    assert.equal(instrumentBreakReview(output,`lessons/a2/${file}.html`),output);
+    assert.match(output,/getIndex:\(\)=>st.idx,getBreakTarget:\(\)=>S\[st.idx\]\?\.type==='break'/);
+    assert.equal(instrumentBreakReview(output,`lessons/${file}.html`),output);
     for(const [,attrs,code] of output.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)) if(!/application\/(json|ld\+json)/.test(attrs) && code.trim()) new vm.Script(code);
   }
 });
 
-test('both A2 board lessons register after their complete slide deck is initialized',async()=>{
-  for(const file of ['day-01','practice']) {
-    const source=await fs.readFile(new URL(`../lessons/a2/${file}.html`,import.meta.url),'utf8');
-    const output=instrumentBreakReview(source,`lessons/a2/${file}.html`);
+test('all board lessons register after their complete slide deck is initialized and gate the entry to actual breaks',async()=>{
+  for(const file of ['a2/day-01','a2/practice','b1/day-01','b1/practice']) {
+    const source=await fs.readFile(new URL(`../lessons/${file}.html`,import.meta.url),'utf8');
+    const output=instrumentBreakReview(source,`lessons/${file}.html`);
     assert.match(output,/initializeBoard\(\);\s*;window.EnglishBreakReview\?\.register/);
     assert.match(output,/pages:boardSlides\.flatMap/);
     assert.match(output,/state.mode==='board'\?boardIndex/);
+    assert.match(output,/boardSlides\[boardIndex\]\?\.tag==='BREAK'\?document.querySelector\('#board-content'\):null/);
+    if(file==='b1/practice') {
+      assert.match(output,/lesson.splice\(lesson.findIndex\(l=>l\[0\]==='5'\)/);
+      assert.match(output,/lesson.splice\(lesson.findIndex\(l=>l\[0\]==='10'\)/);
+      assert.match(output,/ACTIVITIES\[id\]=\(\)=>panel\('Mola'/);
+    }
     for(const [,attrs,code] of output.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)) if(!/application\/(json|ld\+json)/.test(attrs) && code.trim()) new vm.Script(code);
   }
 });
 
-test('this urgent release changes A2 only and rejects paths outside the site',()=>{
+test('instrumentation is limited to lesson pages and rejects paths outside the site',()=>{
   const source='<html><head></head><body></body></html>';
-  for(const file of ['lessons/a1/day-03.html','lessons/b1/day-05.html','lessons/yds/grammar-studio.html']) assert.equal(instrumentBreakReview(source,file),source);
+  for(const file of ['index.html','admin.html','login.html']) assert.equal(instrumentBreakReview(source,file),source);
   assert.throws(()=>instrumentBreakReview(source,'../lessons/a2/outside.html'));
 });

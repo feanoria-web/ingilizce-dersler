@@ -63,7 +63,7 @@
     if (lesson.startsWith('lessons/yds/')) {
       // Only the studio's fixed routes and rendered unit/section controls may identify a view.
       const parts = location.hash.slice(1).split('/');
-      const route = /^(home|unit|bank|reading|vocab|mistakes|plan|source|test)$/.test(parts[0]) ? parts[0] : 'home';
+      const route = /^(home|unit|bank|reading|vocab|mistakes|plan|source|test|breakreview)$/.test(parts[0]) ? parts[0] : 'home';
       const unit = /^u(?:0[1-9]|1[0-2])$/.test(parts[1] || '') && all('#unit-nav a').some(link => link.getAttribute('data-unit') === parts[1]) ? parts[1] : '';
       const sectionSelect = document.getElementById('section-select');
       const sectionOption = selectedOption(sectionSelect);
