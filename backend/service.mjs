@@ -1,5 +1,6 @@
 import {normalizeName,digest,newToken,passwordHash,verifyPassword,aliasesFor} from './crypto.mjs';
 import {CLIENT_TYPES,validLocation,validateQuestion,clientTime,validateContext,validateContextLocation,PRESENCE_WINDOW_SECONDS,CONTEXT_FIELDS,contextValues,onlineStudents,queryLogs,LOG_COLUMNS,LOG_JOIN,mapEvent} from './detailed-logs.mjs';
+import {validateLearning,queryLearning} from './learning-insights.mjs';
 const iso = () => new Date().toISOString();
 const fail = (status,message) => { throw Object.assign(new Error(message),{status}); };
 const reply = (data,status=200) => new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json;charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
@@ -175,13 +176,14 @@ async function route(req,env,url) {
   }
   if(req.method==='POST'&&path==='/api/events') {
     const s=await authenticate(req,env);if(s.role!=='student')fail(403,'Öğrenci oturumu gerekli.');
-    const {events}=await jsonBody(req,65536);
+    const {events}=await jsonBody(req,262144);
     if(!Array.isArray(events)||events.length<1||events.length>10)fail(400,'Bir istekte 1–10 etkinlik gönderin.');
     const validated=events.map(e=>{
       if(!e||!CLIENT_TYPES.has(e.type)||!/^[a-zA-Z0-9-]{16,80}$/.test(e.eventId||'')||!validLocation(e.lesson,e.activity??''))fail(400,'Geçersiz etkinlik kaydı.');
       const receivedAt=iso(),context=validateContextLocation(validateContext(e.context,receivedAt,e.type),e.lesson),occurredAt=clientTime(e.occurredAt,receivedAt);
       const currentContext=!context||context.status==='working'&&(!occurredAt||Date.parse(receivedAt)-Date.parse(occurredAt)<=PRESENCE_WINDOW_SECONDS*1000);
-      return {...e,context,activeSeconds:e.type==='heartbeat'&&currentContext?Math.max(0,Math.min(30,Math.floor(Number(e.activeSeconds)||0))):0,occurredAt,details:e.type==='question_result'?validateQuestion(e.details):null};
+      const details=e.type==='question_result'?validateQuestion(e.details):null,learning=validateLearning(e.learning,e.type,details);
+      return {...e,context,activeSeconds:e.type==='heartbeat'&&currentContext?Math.max(0,Math.min(30,Math.floor(Number(e.activeSeconds)||0))):0,occurredAt,details,learning};
     });
     const now=iso();
     const writes=[];
@@ -199,6 +201,9 @@ async function route(req,env,url) {
       if(e.context)writes.push(env.DB.prepare(`INSERT OR IGNORE INTO event_contexts(event_id,${CONTEXT_FIELDS})
         SELECT id,${new Array(12).fill('?').join(',')} FROM events WHERE student_id=? AND event_id=? AND type=? AND lesson=? AND created_at=?`)
         .bind(...contextValues(e.context),s.student_id,e.eventId,e.type,e.lesson,now));
+      if(e.learning)writes.push(env.DB.prepare(`INSERT OR IGNORE INTO event_learning(event_id,kind,question_id,topic_id,payload_json)
+        SELECT id,?,?,?,? FROM events WHERE student_id=? AND event_id=? AND type=? AND lesson=? AND created_at=?`)
+        .bind(e.learning.kind,e.learning.questionId||null,e.learning.topicId||null,JSON.stringify(e.learning),s.student_id,e.eventId,e.type,e.lesson,now));
     }
     await env.DB.batch(writes);
     return reply({accepted:validated.length});
@@ -206,10 +211,11 @@ async function route(req,env,url) {
   if(path.startsWith('/api/admin/')) {
     const session=await authenticate(req,env,true);
     if(req.method==='GET'&&path==='/api/admin/presence')return reply(await onlineStudents(env));
+    if(req.method==='GET'&&path==='/api/admin/learning')return reply(await queryLearning(env,url,filters(url),{columns:LOG_COLUMNS,join:LOG_JOIN,mapEvent}));
     if(req.method==='GET'&&path==='/api/admin/logs')return reply(await queryLogs(env,url,filters(url)));
     if(req.method==='GET'&&path==='/api/admin/logs.csv') {
       const data=await queryLogs(env,url,filters(url),true);
-      const table=[['Öğrenci','Sınıf','Sunucu kayıt zamanı','Öğrenci cihazındaki zaman','Olay','Ders','Etkinlik','Soru','Verilen cevap','Doğru cevap','Sonuç','Deneme','Aktif saniye','Sekme kimliği','Sayfa yolu','Sayfa başlığı','Alt ekran kimliği','Alt ekran başlığı','Bölüm','Görünürlük','Pencere odakta','Hareketsiz saniye','Son hareket zamanı','Hareket türü','Çalışma durumu'],...data.events.map(e=>[e.studentName,e.group,e.createdAt,e.occurredAt,e.type,e.lesson,e.activity,e.details?.prompt,e.details?.selectedAnswer,e.details?.correctAnswer,e.details?.outcome,e.details?.attempt,e.activeSeconds,e.context?.tabId,e.context?.pagePath,e.context?.pageTitle,e.context?.screenId,e.context?.screenTitle,e.context?.section,e.context?.visibility,e.context?e.context.focused?'Evet':'Hayır':'',e.context?.idleSeconds,e.context?.lastInteractionAt,e.context?.interaction,e.context?.status])];
+      const table=[['Öğrenci','Sınıf','Sunucu kayıt zamanı','Öğrenci cihazındaki zaman','Olay','Ders','Etkinlik','Soru','Verilen cevap','Doğru cevap','Sonuç','Deneme','Aktif saniye','Sekme kimliği','Sayfa yolu','Sayfa başlığı','Alt ekran kimliği','Alt ekran başlığı','Bölüm','Görünürlük','Pencere odakta','Hareketsiz saniye','Son hareket zamanı','Hareket türü','Çalışma durumu','Öğrenme türü','Konu','Soru süresi saniye','Soru aktif saniye','Süre kapsamı','Yardım kullanıldı','İpucu kullanıldı','Cevap açıldı','Yardım türü','Yardımdan önce denedi','Sayfa görüntüleme saniye','Sayfa aktif saniye','Sözlük kelimesi','Mola süresi dakika','Mola bitiş nedeni','Öğrenme ayrıntıları'],...data.events.map(e=>[e.studentName,e.group,e.createdAt,e.occurredAt,e.type,e.lesson,e.activity,e.details?.prompt||e.learning?.prompt,e.details?.selectedAnswer,e.details?.correctAnswer,e.details?.outcome,e.details?.attempt,e.activeSeconds,e.context?.tabId,e.context?.pagePath,e.context?.pageTitle,e.context?.screenId,e.context?.screenTitle,e.context?.section,e.context?.visibility,e.context?e.context.focused?'Evet':'Hayır':'',e.context?.idleSeconds,e.context?.lastInteractionAt,e.context?.interaction,e.context?.status,e.learning?.kind,e.learning?.topicTitle,e.learning?.wallSeconds,e.learning?.kind==='question'?e.learning.activeSeconds:null,e.learning?.timingScope,e.learning?.helpUsed,e.learning?.hintUsed,e.learning?.answerRevealed,e.learning?.helpType,e.learning?.attemptedBeforeHelp,e.learning?.viewSeconds,e.learning?.kind==='page'?e.learning.activeSeconds:null,e.learning?.term,e.learning?.durationMinutes,e.learning?.endReason,e.learning?JSON.stringify(e.learning):''])];
       return new Response('\ufeff'+table.map(r=>r.map(csvCell).join(';')).join('\r\n'),{headers:{'Content-Type':'text/csv;charset=utf-8','Content-Disposition':'attachment; filename="ayrintili-etkinlikler.csv"'}});
     }
     if(req.method==='GET'&&path==='/api/admin/overview')return reply(await overview(env,url));

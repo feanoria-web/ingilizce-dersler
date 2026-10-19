@@ -8,11 +8,11 @@ const base = new URL('../', import.meta.url);
 const bridge = await readFile(new URL('assets/assessment-bridge.js', base), 'utf8');
 const lesson = async name => instrumentAssessments(await readFile(new URL('lessons/' + name, base), 'utf8'), 'lessons/' + name).html;
 function environment(extras = {}) {
-  const events = [], handlers = {};
-  const window = { dispatchEvent: event => events.push(event.detail) };
+  const events = [], observations = [], handlers = {};
+  const window = { dispatchEvent: event => event.type==='english:question-result'?events.push(event.detail):observations.push({type:event.type,detail:event.detail}) };
   const context = vm.createContext({ window, CustomEvent: class { constructor(type, init) { this.type = type; this.detail = init.detail; } }, document: { addEventListener: (kind, handler) => { handlers[kind] = handler; } }, ...extras });
   vm.runInContext(bridge, context);
-  return { context, events, handlers, api: window.EnglishAssessment };
+  return { context, events, observations, handlers, api: window.EnglishAssessment };
 }
 function namedFunction(html, start, end) {
   const a = html.indexOf(start), b = html.indexOf(end, a + start.length);

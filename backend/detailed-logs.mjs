@@ -1,5 +1,6 @@
 import {normalizeName} from './crypto.mjs';
-export const CLIENT_TYPES=new Set(['page_view','lesson_open','activity_view','answer_check','answer_reveal','activity_complete','vocabulary_reveal','heartbeat','question_result','audio_play','audio_complete','tab_visible','tab_hidden','window_focus','window_blur','idle_start','abandoned','resumed','page_leave']);
+import {LEARNING_EVENT_KINDS,learningFromRow} from './learning-insights.mjs';
+export const CLIENT_TYPES=new Set(['page_view','lesson_open','activity_view','answer_check','answer_reveal','activity_complete','vocabulary_reveal','heartbeat','question_result','audio_play','audio_complete','tab_visible','tab_hidden','window_focus','window_blur','idle_start','abandoned','resumed','page_leave',...Object.keys(LEARNING_EVENT_KINDS)]);
 export const INACTIVE_AFTER_SECONDS=330;
 export const PRESENCE_WINDOW_SECONDS=75;
 export const TAB_WINDOW_SECONDS=1800;
@@ -100,10 +101,10 @@ export async function onlineStudents(env) {
 }
 export const LOG_COLUMNS=`e.id,e.student_id,e.type,e.lesson,e.activity,e.created_at,e.occurred_at,e.active_seconds,
  st.name,st.group_name,r.question_id,r.prompt,r.selected_answer,r.correct_answer,r.outcome,r.assessment_kind,r.attempt,
- c.tab_id,c.page_path,c.page_title,c.screen_id,c.screen_title,c.section,c.visibility,c.focused,c.idle_seconds,c.last_interaction_at,c.interaction,c.status`;
-export const LOG_JOIN='FROM events e JOIN students st ON st.id=e.student_id LEFT JOIN assessment_results r ON r.event_id=e.id LEFT JOIN event_contexts c ON c.event_id=e.id';
+ c.tab_id,c.page_path,c.page_title,c.screen_id,c.screen_title,c.section,c.visibility,c.focused,c.idle_seconds,c.last_interaction_at,c.interaction,c.status,l.payload_json AS learning_json`;
+export const LOG_JOIN='FROM events e JOIN students st ON st.id=e.student_id LEFT JOIN assessment_results r ON r.event_id=e.id LEFT JOIN event_contexts c ON c.event_id=e.id LEFT JOIN event_learning l ON l.event_id=e.id';
 export function mapEvent(row) {
-  return {id:row.id,studentId:row.student_id,studentName:row.name,group:row.group_name,type:row.type,lesson:row.lesson,activity:row.activity,createdAt:row.created_at,occurredAt:row.occurred_at||null,activeSeconds:row.active_seconds,context:contextFromRow(row),details:row.question_id?{questionId:row.question_id,prompt:row.prompt,selectedAnswer:row.selected_answer,correctAnswer:row.correct_answer,outcome:row.outcome,assessmentKind:row.assessment_kind,attempt:row.attempt}:null};
+  return {id:row.id,studentId:row.student_id,studentName:row.name,group:row.group_name,type:row.type,lesson:row.lesson,activity:row.activity,createdAt:row.created_at,occurredAt:row.occurred_at||null,activeSeconds:row.active_seconds,context:contextFromRow(row),learning:learningFromRow(row),details:row.question_id?{questionId:row.question_id,prompt:row.prompt,selectedAnswer:row.selected_answer,correctAnswer:row.correct_answer,outcome:row.outcome,assessmentKind:row.assessment_kind,attempt:row.attempt}:null};
 }
 export async function queryLogs(env,url,f,exporting=false) {
   const p=url.searchParams,type=p.get('eventType')||'',outcome=p.get('outcome')||'',student=p.get('student')||'',cursor=p.get('cursor')||'';

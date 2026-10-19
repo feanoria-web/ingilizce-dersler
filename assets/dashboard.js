@@ -18,11 +18,12 @@
   const eventNames = {login:'Giriş yaptı',logout:'Çıkış yaptı',site_enter:'Ders panelini açtı',page_view:'Sayfayı açtı',lesson_open:'Dersi açtı',lesson_view:'Dersi açtı',activity_open:'Etkinliği açtı',activity_view:'Etkinliği görüntüledi',activity_complete:'Etkinliği tamamladı',activity:'Etkinlikle çalıştı',answer_submit:'Yanıtını gönderdi',answer_check:'Yanıtlarını kontrol etti',answer_reveal:'Yanıtı görüntüledi',quiz_check:'Yanıtlarını kontrol etti',audio_play:'Dinleme sesini başlattı',audio_pause:'Dinlemeyi duraklattı',audio_end:'Dinlemeyi tamamladı',heartbeat:'Aktif çalışma kaydı',level_select:'Seviye seçti',vocab_reveal:'Kelime anlamını açtı',vocabulary_reveal:'Kelime anlamını açtı',navigate:'Ders içinde ilerledi'};
   eventNames.question_result = 'Soru sonucu'; eventNames.audio_complete = 'Dinlemeyi tamamladı';
   Object.assign(eventNames,{tab_visible:'Sekme ön plana geldi',tab_hidden:'Sekme arka plana geçti',window_focus:'Ders penceresi odak aldı',window_blur:'Pencere odağı değişti',idle_start:'Etkileşim durakladı',abandoned:'Açık bırakılmış olabilir',resumed:'Etkileşime geri döndü',page_leave:'Sayfadan ayrıldı'});
+  Object.assign(eventNames,{question_open:'Soruyu açtı',help_used:'Yardım açtı',page_summary:'Sayfa çalışma süresi',lesson_progress:'İlerleme kaydı',break_start:'Molayı başlattı',break_pause:'Molayı duraklattı',break_resume:'Molaya devam etti',break_end:'Mola sona erdi',dictionary_lookup:'Sözlükte kelime aradı'});
   const labelOf = value => value && typeof value === 'object' ? value.title || value.path || value.id || '' : value || '';
   const stateNames = {working:'Aktif etkileşim',reading:'Ön planda · etkileşim yok',background:'Arka sekmede',unfocused:'Pencere odağı başka yerde',left_open:'Açık bırakılmış olabilir',leaving:'Sayfadan ayrıldı',unknown:'Sinyal alınmıyor',stale:'Sinyal alınmıyor',legacy:'Önceki sürüm · ayrıntı sınırlı'};
   const interactionNames = {pointer:'İşaretçi etkileşimi',pointerdown:'Dokunma / tıklama',click:'Tıklama',keydown:'Klavye kullanımı',keyboard:'Klavye kullanımı',scroll:'Kaydırma',input:'Yanıt girişi',change:'Seçim değişikliği',touch:'Dokunma',touchstart:'Dokunma',mousemove:'İşaretçi hareketi',pointermove:'İşaretçi hareketi',navigation:'Ders içi gezinme',none:'Henüz etkileşim yok'};
   function stateBadge(status) { return `<span class="engagement-pill engagement-${Object.hasOwn(stateNames,status) ? status : 'unknown'}">${escape(stateNames[status] || stateNames.unknown)}</span>`; }
-  function preciseDuration(value) { const seconds = Number(value); if (!Number.isFinite(seconds) || seconds < 0) return '—'; const whole = Math.floor(seconds); return whole >= 60 ? `${Math.floor(whole / 60)} dk ${whole % 60} sn` : `${whole} sn`; }
+  function preciseDuration(value) { const seconds = Number(value); if (value == null || value === '' || !Number.isFinite(seconds) || seconds < 0) return '—'; const whole = Math.floor(seconds); return whole >= 60 ? `${Math.floor(whole / 60)} dk ${whole % 60} sn` : `${whole} sn`; }
   function safePage(path) {
     if (typeof path !== 'string' || !path.trim()) return null;
     try {
@@ -65,6 +66,23 @@
     const d = event.details; if (!d || !d.outcome) return '';
     return `<div class="question-detail"><p>${escape(d.prompt || d.questionId || 'Soru')}</p><dl><dt>Verilen yanıt</dt><dd>${escape(answerText(d.selectedAnswer))}</dd><dt>Doğru yanıt</dt><dd>${escape(answerText(d.correctAnswer))}</dd></dl>${outcomeBadge(d)}${d.attempt ? `<small>Deneme ${escape(number(d.attempt))}</small>` : ''}</div>`;
   }
+  const helpNames = {translation:'Türkçe açıklama',hint:'İpucu',answer:'Doğru yanıt',audio:'Dinleme'};
+  const breakEndNames = {elapsed:'Süresi doldu',early:'Erken bitirildi',closed:'Mola kapatıldı',navigation:'Başka bölüme geçildi'};
+  const knownBoolean = value => value === true ? 'Evet' : value === false ? 'Hayır' : 'Bilinmiyor';
+  const pageNumber = value => value != null && Number(value) >= 0 ? number(Number(value) + 1) : '—';
+  const learningOf = event => event.learning && typeof event.learning === 'object' ? event.learning : null;
+  function learningDetails(event) {
+    const l = learningOf(event); if (!l) return '';
+    let fields = [];
+    if (l.kind === 'question') fields = [['Konu',l.topicTitle || l.topicId],['Yanıt süresi',preciseDuration(l.wallSeconds)],['Aktif süre',preciseDuration(l.activeSeconds)],['Ölçüm',l.timingScope === 'question' ? 'Soru açılışından itibaren' : l.timingScope === 'screen' ? 'Ekran açılışından itibaren' : 'Süre bilinmiyor'],['Yardım kullandı',knownBoolean(l.helpUsed)],['İpucu açtı',knownBoolean(l.hintUsed)],['Yanıtı gördü',knownBoolean(l.answerRevealed)]];
+    if (l.kind === 'help') fields = [['Yardım',helpNames[l.helpType] || 'Yardım'],['Soru',l.questionId],['Yardımdan önce denedi',knownBoolean(l.attemptedBeforeHelp)],['Konu',l.topicTitle || l.topicId]];
+    if (l.kind === 'page') fields = [['Sayfa sırası',`${pageNumber(l.pageIndex)} / ${number(l.totalPages)}`],['Görüntüleme',preciseDuration(l.viewSeconds)],['Aktif süre',preciseDuration(l.activeSeconds)],['Takip kaydı',l.visitId]];
+    if (l.kind === 'progress') fields = [['Ulaşılan sayfa',`${pageNumber(l.pageIndex)} / ${number(l.totalPages)}`],['Bu ekranda yanıtlanan',number(l.answeredQuestionCount)],['Bu ekrandaki toplam soru',number(l.questionCount)],['Bu ekran tamamlandı',knownBoolean(l.completed)]];
+    if (l.kind === 'break') fields = [['Seçilen mola',`${number(l.durationMinutes)} dk`],['Özet geçişi',`${number(l.intervalSeconds)} sn`],['Seçilen sayfalar',Array.isArray(l.selectedPages) ? l.selectedPages.map(p => p.title || p.id).join(' · ') : number(l.selectedCount)],['Geçen süre',preciseDuration(l.elapsedSeconds)],['Duraklatılan süre',preciseDuration(l.pausedSeconds)],['Bitiş',breakEndNames[l.endReason] || 'Henüz bitiş kaydı yok']];
+    if (l.kind === 'dictionary') fields = [['Kelime',l.term],['Arama',l.mode === 'selection' ? 'Kelime seçerek' : 'Elle yazarak'],['Sonuç',l.outcome === 'found' ? 'Bulundu' : l.outcome === 'not_found' ? 'Bulunamadı' : 'Bağlantı / arama hatası'],['Kaynak',({local:'Ders sözlüğü',online:'Çevrimiçi sözlük',context:'Ders içeriği',none:'—'})[l.source] || 'Bilinmiyor']];
+    fields = fields.filter(([,value]) => value !== undefined && value !== null && value !== '');
+    return fields.length ? `<dl class="learning-event">${fields.map(([key,value]) => `<dt>${escape(key)}</dt><dd>${escape(value)}</dd>`).join('')}</dl>` : '';
+  }
   let selectedTab = 'overview';
   let sequence = 0;
   let detailSequence = 0;
@@ -73,6 +91,7 @@
   let debounce;
   let presenceTimer, presenceBusy = false, presenceSequence = 0;
   let logsSequence = 0, logsBusy = false, logPage = 0, logCursors = [''], nextCursor = null;
+  let learningSequence = 0, detailStudent = '';
   function message(value) { $('dashboard-status').textContent = value; }
   function filters() {
     const from = $('filter-from').value, to = $('filter-to').value;
@@ -82,18 +101,19 @@
     return `?${params.toString()}`;
   }
   function selectTab(tab) {
-    if (!['overview','students','logs','settings'].includes(tab)) return;
+    if (!['overview','students','learning','logs','settings'].includes(tab)) return;
     const previousTab = selectedTab;
     selectedTab = tab;
     document.querySelectorAll('[data-admin-tab]').forEach(button => {if(button.dataset.adminTab === tab) button.setAttribute('aria-current','page'); else button.removeAttribute('aria-current');});
     document.querySelectorAll('[data-admin-panel]').forEach(panel => panel.hidden = panel.dataset.adminPanel !== tab);
     $('shared-filters').hidden = tab === 'settings';
     $('refresh-data').hidden = tab === 'settings';
-    $('live-presence').hidden = tab === 'settings';
-    if ($('filter-visit').parentElement) $('filter-visit').parentElement.hidden = tab === 'logs';
-    const titles = {overview:['Genel bakış','Kim katıldı, hangi dersler çalışıldı?'],students:['Öğrenciler','Girişleri, çalışmaları ve son etkinlikleri takip edin.'],logs:['Ayrıntılı kayıtlar','Yanıtlar, sonuçlar ve tekrar denemeleri.'],settings:['Ayarlar','Yönetici hesabınızı güvenle yönetin.']};
+    $('live-presence').hidden = tab === 'settings' || tab === 'learning';
+    if ($('filter-visit').parentElement) $('filter-visit').parentElement.hidden = tab === 'logs' || tab === 'learning';
+    const titles = {overview:['Genel bakış','Kim katıldı, hangi dersler çalışıldı?'],students:['Öğrenciler','Girişleri, çalışmaları ve son etkinlikleri takip edin.'],learning:['Öğrenme analizi','Nerede zorlanıyor, nasıl ilerliyor, hangi desteği kullanıyor?'],logs:['Ayrıntılı kayıtlar','Yanıtlar, sonuçlar ve tekrar denemeleri.'],settings:['Ayarlar','Yönetici hesabınızı güvenle yönetin.']};
     $('dashboard-title').textContent = titles[tab][0]; $('dashboard-subtitle').textContent = titles[tab][1];
     if (tab === 'logs') loadLogs(true);
+    else if (tab === 'learning') loadLearning();
     else if (tab !== previousTab && tab !== 'settings') load();
     schedulePresence();
   }
@@ -116,6 +136,7 @@
   }
   function renderStudents(students) {
     records = students;
+    renderLearningStudents(students);
     $('student-count').textContent = `${number(students.length)} öğrenci · ayrıntılar için “İncele”yi seçin.`;
     $('student-table').innerHTML = students.length ? students.map(student => {
       const visited = Boolean(student.everVisited); const disabled = student.enabled === false;
@@ -129,6 +150,14 @@
     if (groups.includes(old)) $('filter-group').value = old;
   }
   const authorized = () => ready && access.session()?.role === 'admin';
+  const learningStudents = new Map();
+  function renderLearningStudents(students) {
+    const selected = $('learning-student').value;
+    for (const student of students) if (student.id) learningStudents.set(String(student.id),student);
+    $('learning-student').innerHTML = '<option value="">Tüm öğrenciler</option>' + [...learningStudents.values()].sort((a,b) => String(a.name).localeCompare(String(b.name),'tr')).map(student => `<option value="${escape(student.id)}">${escape(student.name)}${student.group ? ` · ${escape(student.group)}` : ''}</option>`).join('');
+    if (selected && !learningStudents.has(selected)) $('learning-student').innerHTML += `<option value="${escape(selected)}">Seçili öğrenci</option>`;
+    $('learning-student').value = selected;
+  }
   function schedulePresence() {
     clearTimeout(presenceTimer);
     if (authorized() && !document.hidden && selectedTab !== 'settings') presenceTimer = setTimeout(async () => { await loadPresence(); schedulePresence(); },30000);
@@ -191,14 +220,70 @@
       $('log-table').innerHTML = data.events.length ? data.events.map(event => {
         const d = event.details || {};
         const offline = event.occurredAt && Math.abs(new Date(event.createdAt) - new Date(event.occurredAt)) > 120000;
-        return `<tr><td><time>${escape(datetime(event.createdAt))}</time>${offline ? `<small>Cihaz: ${escape(datetime(event.occurredAt))}</small>` : ''}</td><td><strong>${escape(event.studentName)}</strong><small>${escape(event.group || '')}</small></td><td>${escape(lessonLabel(event))}<small>${escape(labelOf(event.activity))}</small>${contextDetails(event)}</td><td><strong>${escape(eventNames[event.type] || event.type)}</strong>${escape(d.prompt || d.questionId || '')}</td><td>${escape(answerText(d.selectedAnswer))}</td><td>${escape(answerText(d.correctAnswer))}</td><td>${outcomeBadge(d)}</td><td>${d.attempt ? escape(number(d.attempt)) : '—'}</td></tr>`;
+        return `<tr><td><time>${escape(datetime(event.createdAt))}</time>${offline ? `<small>Cihaz: ${escape(datetime(event.occurredAt))}</small>` : ''}</td><td><strong>${escape(event.studentName)}</strong><small>${escape(event.group || '')}</small></td><td>${escape(lessonLabel(event))}<small>${escape(labelOf(event.activity))}</small>${contextDetails(event)}</td><td><strong>${escape(eventNames[event.type] || event.type)}</strong>${escape(d.prompt || d.questionId || '')}${learningDetails(event)}</td><td>${escape(answerText(d.selectedAnswer))}</td><td>${escape(answerText(d.correctAnswer))}</td><td>${outcomeBadge(d)}</td><td>${d.attempt ? escape(number(d.attempt)) : '—'}</td></tr>`;
       }).join('') : '<tr><td colspan="8" class="table-empty">Bu filtrelerle eşleşen etkinlik kaydı bulunmuyor.</td></tr>';
       message('');
     } catch(error) { if (seq === logsSequence && authorized()) {nextCursor = null; $('log-table').replaceChildren(); message(error.message);} }
     finally {if(seq === logsSequence) {logsBusy = false; updateLogNavigation();}}
   }
-  async function refreshAll() { await Promise.all([load(),loadPresence(),selectedTab === 'logs' ? loadLogs(true) : Promise.resolve()]); schedulePresence(); }
-  function filtersChanged() { if (selectedTab === 'logs') return loadLogs(true); return load(); }
+  const textCell = value => escape(value == null || value === '' ? '—' : value);
+  const personCell = row => `<strong>${textCell(row.studentName)}</strong>${row.group ? `<small>${escape(row.group)}</small>` : ''}`;
+  const pageCell = row => `${textCell(row.screenTitle || row.pageTitle || row.lessonTitle || row.lesson)}${row.screenId ? `<small>${escape(row.screenId)}</small>` : ''}${row.lesson ? pageDetails({pagePath:row.lesson}) : ''}`;
+  function supportText(value) {
+    if (!value || [value.helpUsed,value.hintUsed,value.answerRevealed].every(v => v == null)) return 'Yardım bilgisi yok';
+    if (value.answerRevealed === true) return 'Yanıtı gördükten sonra';
+    if (value.hintUsed === true) return 'İpucu kullanarak';
+    return value.helpUsed === true ? 'Yardım kullanarak' : value.helpUsed === false ? 'Yardım kaydı yok' : 'Yardım bilgisi kısmi';
+  }
+  function reportTable(title,rows,headings,cells,note = '',open = false) {
+    const entries = Array.isArray(rows) ? rows : [], cap = 200;
+    return `<details class="learning-section"${open ? ' open' : ''}><summary><span>${escape(title)}</span><small>${escape(number(entries.length))} kayıt</small></summary>${note ? `<p class="learning-section-note">${escape(note)}</p>` : ''}${entries.length ? `<div class="table-scroll"><table><caption class="sr-only">${escape(title)}</caption><thead><tr>${headings.map(h => `<th scope="col">${escape(h)}</th>`).join('')}</tr></thead><tbody>${entries.slice(0,cap).map(row => `<tr>${cells(row).map(cell => `<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody></table></div>${entries.length > cap ? `<p class="learning-section-note">İlk ${cap} kayıt gösteriliyor. Öğrenci ve tarih filtreleriyle daraltabilirsiniz.</p>` : ''}` : '<p class="learning-empty">Seçili dönemde bu ayrıntıya ait kayıt yok.</p>'}</details>`;
+  }
+  function renderLearning(data) {
+    const summary = data.summary || {}, firstGraded = Number(summary.firstAttemptGraded), firstCorrect = Number(summary.firstAttemptCorrect);
+    const cards = [
+      ['İlk denemede doğru',firstGraded > 0 ? `%${number(Math.round(firstCorrect / firstGraded * 100))}` : '—',`${number(summary.firstAttemptCorrect)} doğru / ${number(summary.firstAttemptGraded)} puanlanan ilk deneme`],
+      ['Sonradan doğruya ulaştı',number(summary.improvedCount),'İlk yanlış / boş yanıttan doğruya'],
+      ['Yardım kaydı olmadan doğru',number(summary.independentCorrect),'Bu sayfa açılışında gözlenen kayıtlarda'],
+      ['Yardım sonrası doğru',number(summary.assistedCorrect),'İpucu, açıklama veya yanıt açılmış'],
+      ['Soru / deneme',`${number(summary.questionCount)} / ${number(summary.attemptCount)}`,'Aynı sorunun tekrarları ayrı deneme'],
+      ['Aktif çalışma',duration(summary.activeSeconds),'Ön plandaki yaklaşık çalışma']
+    ];
+    $('learning-summary').innerHTML = cards.map(([label,value,note]) => `<article class="stat-card"><span class="stat-label">${escape(label)}</span><strong>${escape(value)}</strong><small>${escape(note)}</small></article>`).join('');
+    if (Array.isArray(data.students)) renderLearningStudents(data.students);
+    const sections = [
+      reportTable('Sorular · ilk deneme, tekrar ve süre',data.questions,['Öğrenci','Soru / konu','İlk deneme','Son deneme','Süre / aktif süre','Destek ve gelişim'],row => {
+        const first = row.firstAttempt, latest = row.latestAttempt;
+        return [personCell(row),`<strong>${textCell(row.prompt || row.questionId)}</strong><small>${textCell(row.topicTitle || row.topicId)}</small>${row.lesson ? pageDetails({pagePath:row.lesson}) : ''}`,first ? `${outcomeBadge(first)}<small>${escape(supportText(first))}</small>` : '<span class="subtle">İlk deneme bilinmiyor</span>',latest ? `${outcomeBadge(latest)}<small>${escape(number(row.attemptCount))} deneme · ${escape(datetime(latest.occurredAt))}</small>` : '—',latest ? `${escape(preciseDuration(latest.wallSeconds))} / ${escape(preciseDuration(latest.activeSeconds))}<small>${latest.timingScope === 'question' ? 'Soru açılışından' : latest.timingScope === 'screen' ? 'Ekran açılışından' : 'Süre bilinmiyor'}</small>` : '—',`${escape(supportText(latest))}${row.improved === true ? '<small class="learning-positive">Yanlış / boş yanıttan doğruya geçti</small>' : ''}`];
+      },'Süre son denemeye aittir. Ekran süresi, tek bir sorunun çözüm süresi değildir. Yardım açmamak öğrencinin başka bir kaynaktan yardım almadığını kanıtlamaz.',true),
+      reportTable('Tekrarlanan yanlışlar · konuya göre',data.repeatedErrors,['Öğrenci','Konu','Yanlış / farklı soru','Yanlış yapılan sorular'],row => [personCell(row),textCell(row.topicTitle || row.topicId),`${escape(number(row.wrongCount))} yanlış · ${escape(number(row.questionCount))} soru`,Array.isArray(row.questions) ? row.questions.map(q => `<p>${textCell(q.prompt || q.questionId)} <small>${escape(number(q.count))} yanlış</small></p>`).join('') : '—'],'Aynı konu etiketindeki en az iki yanlış kaydı gruplanır. Bu, hata nedeninin otomatik teşhisi değildir.'),
+      reportTable('Sayfalar · süre ve geri dönüşler',data.pages,['Öğrenci','Ders / ekran','Görüntüleme / aktif','Ziyaret / geri dönüş','İlk / son çalışma'],row => [personCell(row),pageCell(row),`${escape(preciseDuration(row.viewSeconds))} / ${escape(preciseDuration(row.activeSeconds))}`,`${escape(number(row.visitCount))} ziyaret · ${escape(number(row.returnCount ?? (row.visitCount == null ? null : Math.max(0,Number(row.visitCount) - 1))))} dönüş`,`${escape(datetime(row.firstSeen))}<small>${escape(datetime(row.lastSeen))}</small>`],'Görüntüleme süresi sayfanın ön planda kaldığı ölçülen süreyi, aktif süre etkileşim sinyallerini gösterir. Aynı ekrana yeni ziyaretler geri dönüş olarak sayılır.'),
+      reportTable('Çalışma zaman çizelgesi',data.timeline,['Zaman','Öğrenci','İşlem','Ders / ekran ve ayrıntı'],row => [escape(datetime(row.occurredAt || row.createdAt)),personCell(row),`<strong>${textCell(eventNames[row.type] || row.type)}</strong>${row.details?.outcome ? outcomeBadge(row.details) : ''}`,`${escape(lessonLabel(row))}${row.context?.screenTitle ? `<small>${escape(row.context.screenTitle)}</small>` : ''}${row.context?.section ? `<small>${escape(row.context.section)}</small>` : ''}${learningDetails(row)}`],'Zaman çizelgesi cihazda gerçekleşme zamanına göre sıralanır. Çevrimdışı kayıtlar sunucuya daha sonra ulaşabilir.'),
+      reportTable('Molalar · seçilen özetler ve gerçek süre',data.breaks,['Öğrenci','Ders','Plan / geçen süre','Seçilen özetler','Bitiş'],row => [personCell(row),pageCell(row),`${escape(number(row.durationMinutes))} dk / ${escape(preciseDuration(row.elapsedSeconds))}<small>${escape(preciseDuration(row.pausedSeconds))} duraklatıldı · ${escape(number(row.pauses))} duraklatma</small><small>Özet geçişi ${escape(number(row.intervalSeconds))} sn</small>`,Array.isArray(row.selectedPages) ? row.selectedPages.map(p => textCell(p.title || p.id)).join('<br>') : `${escape(number(row.selectedCount))} sayfa`,`${textCell(breakEndNames[row.endReason] || ({running:'Son kayıtta sürüyor',paused:'Son kayıtta duraklatılmış'})[row.status] || 'Bitiş kaydı yok')}<small>${escape(datetime(row.startedAt))}</small>`],'Bitiş kaydı yoksa molanın tamamlandığı varsayılmaz.'),
+      reportTable('Sözlük · aranan ve tekrar bakılan kelimeler',data.dictionary,['Öğrenci','Kelime','Arama / sonuç','Son arama','Tekrar'],row => [personCell(row),`<strong>${textCell(row.term)}</strong>`,`${escape(number(row.count))} arama<small>${escape(number(row.outcomes?.found))} bulundu · ${escape(number(row.outcomes?.not_found))} bulunamadı · ${escape(number(row.outcomes?.error))} hata</small>`,escape(datetime(row.lastSeen)),`${escape(number(row.repeatDays))} farklı gün${Number(row.count) > 1 ? '<small>Tekrar arandı</small>' : ''}`],'Kelime aramaları gösterilir; bir kelimeye bakılması o kelimenin bilinmediğini kesinleştirmez.'),
+      reportTable('Yardım · önce kendi başına denedi mi?',data.help,['Öğrenci','Yardım / konu','Toplam','Denemeden önce açtı','Denedikten sonra açtı','Bilinmiyor'],row => [personCell(row),`${textCell(helpNames[row.helpType] || row.helpType)}<small>${textCell(row.topicTitle || row.topicId)}</small><small>${textCell(row.questionId)}</small>`,escape(number(row.count)),escape(number(row.beforeAttempt)),escape(number(row.afterAttempt)),escape(number(row.unknownAttempt))],'“Bilinmiyor”, yardımın belirli bir soruyla ilişkilendirilemediğini veya eski kayıtta bu bilginin olmadığını belirtir.'),
+      reportTable('Kaldığı yer · açılan, yanıtlanan, tamamlandı işaretlenen',data.progress,['Öğrenci','Ders / son ekran','Son sayfa','Açılan sayfa','Yanıtı puanlanan sayfa','Tamamlandı işaretlenen sayfa','Son ekranda yanıtlanan soru','Son ekran / tüm ders tamamlandı','Son ilerleme'],row => [personCell(row),pageCell({...row,screenTitle:row.lastScreenTitle,screenId:row.lastScreenId}),`${escape(pageNumber(row.lastPageIndex))} / ${escape(number(row.totalPages))}`,escape(number(row.viewedPages)),escape(number(row.answeredPages)),escape(number(row.completedPages)),`${escape(number(row.answeredQuestionCount))} / ${escape(number(row.questionCount))}`,`${escape(knownBoolean(row.currentPageCompleted))} / ${escape(knownBoolean(row.completed))}`,escape(datetime(row.lastSeen))],'Son sayfa, en son çalışılan ekrandır; tamamlanma oranı değildir. Açılan ve tamamlandı işaretlenen sayfalar ayrı sayılır. Yanıtı puanlanan sayfa, en az bir soruda doğru veya yanlış sonucu olan sayfadır; boş ve puanlanmamış yanıtlar bu sayıya katılmaz. Mola ve kaynak sayfaları bu sayılara katılmaz. Yanıtlanan soru sayıları son ekrana aittir.')
+    ];
+    $('learning-report').innerHTML = sections.join('');
+    $('learning-coverage').textContent = [data.truncated?.events === true ? 'Rapor kayıt sınırına ulaştı. Tarih aralığını veya öğrenciyi daraltın.' : 'Seçili dönemin kayıtları.',data.truncated?.firstAttempts === true ? 'İlk deneme taraması kayıt sınırına ulaştı; bulunamayan ilk denemeler bilinmiyor olarak gösterilir.' : '',data.truncated?.timeline === true ? 'Zaman çizelgesinde son 300 etkinlik yer alır.' : '',Number(summary.unknownAssistanceCorrect) > 0 ? `${number(summary.unknownAssistanceCorrect)} doğru soruda yardım bilgisi bilinmiyor.` : '', 'Yardım sınıfları bu sayfa açılışında gözlenen kayıtlara dayanır. Geçmişte açılmış veya yerel kayıttan geri yüklenmiş yanıtlar her zaman saptanamaz; yardım kaydı olmaması bağımsız çözümün kanıtı değildir. Aynı soru farklı denemelerde iki doğru grubuna da girebilir. Ayrıntılar için bir başlığı açın.'].filter(Boolean).join(' ');
+    $('learning-updated').textContent = 'Son analiz · ' + datetime(data.asOf || new Date().toISOString());
+  }
+  async function loadLearning() {
+    if (!authorized()) return;
+    const seq = ++learningSequence;
+    $('learning-summary').replaceChildren(); $('learning-report').replaceChildren(); $('learning-coverage').textContent = ''; $('learning-updated').textContent = '';
+    $('learning-status').textContent = 'Öğrenme kayıtları inceleniyor…';
+    try {
+      const params = new URLSearchParams(filters().slice(1)); params.delete('visit');
+      if ($('learning-student').value) params.set('student',$('learning-student').value);
+      const data = await access.request('/api/admin/learning?' + params.toString());
+      if (seq !== learningSequence || !authorized()) return;
+      if (!data?.summary || !Array.isArray(data.questions) || !Array.isArray(data.pages)) throw new Error('Öğrenme analizi yanıtı doğrulanamadı.');
+      renderLearning(data); $('learning-status').textContent = ''; message('');
+    } catch (error) { if (seq === learningSequence && authorized()) $('learning-status').textContent = error.message; }
+  }
+  async function refreshAll() { await Promise.all([load(),loadPresence(),selectedTab === 'logs' ? loadLogs(true) : selectedTab === 'learning' ? loadLearning() : Promise.resolve()]); schedulePresence(); }
+  function filtersChanged() { if (selectedTab === 'logs') return loadLogs(true); if (selectedTab === 'learning') return loadLearning(); return load(); }
   async function load() {
     if (!ready) return;
     const seq = ++sequence;
@@ -218,6 +303,7 @@
   async function showDetail(id) {
     const student = records.find(value => String(value.id) === id);
     if (!student) return;
+    detailStudent = id;
     const seq = ++detailSequence;
     $('detail-title').textContent = student.name; $('detail-group').textContent = student.group || 'Öğrenci'; $('detail-summary').textContent = ''; $('detail-events').replaceChildren(); $('detail-status').textContent = 'Etkinlik kayıtları yükleniyor…';
     if (!$('student-detail').open) $('student-detail').showModal();
@@ -231,7 +317,7 @@
       $('detail-events').innerHTML = data.events.length ? `<ol class="event-list">${data.events.map(event => {
         const lesson = lessonLabel(event);
         const activity = typeof event.activity === 'object' ? event.activity?.title || event.activity?.id || '' : event.activity || '';
-        return `<li><time>${escape(datetime(event.createdAt))}</time><div><strong>${escape(eventNames[event.type] || event.type || 'Etkinlik')}</strong>${lesson ? `<small>${escape(lesson)}</small>` : ''}${activity ? `<small>Etkinlik: ${escape(activity)}</small>` : ''}${Number(event.activeSeconds) > 0 ? `<small>${escape(duration(event.activeSeconds))} aktif çalışma</small>` : ''}${contextDetails(event)}${questionDetails(event)}</div></li>`;
+        return `<li><time>${escape(datetime(event.createdAt))}</time><div><strong>${escape(eventNames[event.type] || event.type || 'Etkinlik')}</strong>${lesson ? `<small>${escape(lesson)}</small>` : ''}${activity ? `<small>Etkinlik: ${escape(activity)}</small>` : ''}${Number(event.activeSeconds) > 0 ? `<small>${escape(duration(event.activeSeconds))} aktif çalışma</small>` : ''}${contextDetails(event)}${questionDetails(event)}${learningDetails(event)}</div></li>`;
       }).join('')}</ol>` : '<div class="empty-state">Seçili dönemde bu öğrenci için etkinlik kaydı bulunmuyor.</div>';
     } catch(error) {if(seq === detailSequence) $('detail-status').textContent = error.message;}
   }
@@ -240,7 +326,8 @@
   ['filter-group','filter-visit','filter-from','filter-to'].forEach(id => $(id).addEventListener('change',filtersChanged));
   ['filter-event-type','filter-outcome'].forEach(id => $(id).addEventListener('change',() => loadLogs(true)));
   $('filter-search').addEventListener('input',() => {clearTimeout(debounce); debounce = setTimeout(filtersChanged,300);});
-  $('clear-filters').addEventListener('click',() => {['filter-search','filter-group','filter-from','filter-to','filter-event-type','filter-outcome'].forEach(id => $(id).value=''); $('filter-visit').value='all'; filtersChanged();});
+  $('clear-filters').addEventListener('click',() => {['filter-search','filter-group','filter-from','filter-to','filter-event-type','filter-outcome','learning-student'].forEach(id => $(id).value=''); $('filter-visit').value='all'; filtersChanged();});
+  $('learning-student').addEventListener('change',loadLearning);
   $('logs-next').addEventListener('click',() => { if (logsBusy || !nextCursor) return; logCursors[++logPage] = nextCursor; loadLogs(); });
   $('logs-previous').addEventListener('click',() => { if (logsBusy || logPage < 1) return; --logPage; loadLogs(); });
   document.addEventListener('visibilitychange',() => {clearTimeout(presenceTimer); if (!document.hidden && authorized()) {loadPresence(); schedulePresence();}});
@@ -254,6 +341,7 @@
   });
   $('close-detail').addEventListener('click',() => {++detailSequence; $('student-detail').close();});
   $('student-detail').addEventListener('close',() => {++detailSequence;});
+  $('detail-learning').addEventListener('click',() => {if (!authorized() || !detailStudent) return; $('learning-student').value=detailStudent; ++detailSequence; $('student-detail').close(); selectTab('learning');});
   async function exportCsv(buttonId, endpoint, filename, query) {
     const button = $(buttonId); if (!authorized()) return; button.disabled=true;
     try {
@@ -277,9 +365,9 @@
     finally {button.disabled=false;}
   });
   function clearPrivateData() {
-    ready=false; ++sequence; ++detailSequence; ++presenceSequence; ++logsSequence; records=[]; clearTimeout(presenceTimer); clearTimeout(debounce); logsBusy=false; logPage=0; logCursors=['']; nextCursor=null;
-    ['student-table','lesson-table','stat-cards','detail-events','presence-list','presence-summary','log-table'].forEach(id => $(id).replaceChildren());
-    ['detail-title','detail-group','detail-summary','detail-status','student-count','online-count','presence-updated','presence-status','updated-at','dashboard-status','logs-page'].forEach(id => $(id).textContent='');
+    ready=false; ++sequence; ++detailSequence; ++presenceSequence; ++logsSequence; ++learningSequence; records=[]; detailStudent=''; learningStudents.clear(); clearTimeout(presenceTimer); clearTimeout(debounce); logsBusy=false; logPage=0; logCursors=['']; nextCursor=null;
+    ['student-table','lesson-table','stat-cards','detail-events','presence-list','presence-summary','log-table','learning-summary','learning-report','learning-student'].forEach(id => $(id).replaceChildren());
+    ['detail-title','detail-group','detail-summary','detail-status','student-count','online-count','presence-updated','presence-status','updated-at','dashboard-status','logs-page','learning-status','learning-updated','learning-coverage'].forEach(id => $(id).textContent='');
     $('filter-search').value=''; $('logs-next').disabled=true; $('logs-previous').disabled=true;
     if($('student-detail').open) $('student-detail').close();
   }

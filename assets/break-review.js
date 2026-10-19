@@ -39,6 +39,19 @@
     let running = false, paused = false, opened = false, editing = false;
     let clock = null, previousFocus = null, previousOverflow = '', inlineFrame = null;
     let lastTimerLabel = '';
+    let breakSession = null;
+    const newId=()=>window.crypto?.randomUUID?.()||'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,c=>{const n=Math.floor(Math.random()*16);return (c==='x'?n:(n&3)|8).toString(16);});
+    function recordBreak(type,endReason=null) {
+      if(!breakSession)return;
+      const now=Date.now();
+      const left=running&&!paused?Math.max(0,deadline-now):remaining;
+      const pausedMs=breakSession.pausedMs+(breakSession.pausedAt===null?0:Math.max(0,now-breakSession.pausedAt));
+      const learning={kind:'break',breakId:breakSession.id,durationMinutes:breakSession.durationMinutes,intervalSeconds:intervalMs/1000,
+        selectedPages:slides.slice(0,500).map(page=>({id:page.id.slice(0,160),title:page.title.slice(0,180)})),selectedCount:Math.min(2000,slides.length),
+        elapsedSeconds:Math.min(breakSession.durationMinutes*60,Math.max(0,Math.floor((breakSession.durationMinutes*60000-left)/1000))),
+        pausedSeconds:Math.min(86400,Math.floor(pausedMs/1000)),endReason};
+      try {window.dispatchEvent(new CustomEvent('english:learning-event',{detail:{type,learning}}));}catch(_){}
+    }
 
     const root = make('div', 'ebr-root');
     root.dataset.breakReviewRoot = '';
@@ -92,7 +105,8 @@
       else { dialog.setAttribute('open', ''); dialog.setAttribute('aria-modal', 'true'); }
       focusFirst();
     }
-    function hide() {
+    function hide(reason='closed') {
+      if(breakSession){recordBreak('break_end',reason==='navigation'?'navigation':'closed');breakSession=null;}
       stopClock(); syncTimer('stop'); running = false; paused = false; opened = false; editing = false;
       if (typeof dialog.close === 'function') dialog.close(); else dialog.removeAttribute('open');
       document.body.style.overflow = previousOverflow;
@@ -150,11 +164,15 @@
       const footer = make('div', 'ebr-actions');
       const start = addButton(footer, editing ? 'Seçimi uygula ve devam et' : 'Özetli molayı başlat', () => {
         if (!chosen.size) return;
+        const continuing=editing&&Boolean(breakSession);
         intervalMs = Number(interval.value) * 1000;
         if (!editing) remaining = Number(duration.value) * 60000;
         persist(); slides = eligible.filter(page => chosen.has(page.id)); slideIndex = 0;
         editing = false; running = true; paused = false; pausedSlideMs = intervalMs;
         deadline = Date.now() + remaining; nextSlideAt = Date.now() + intervalMs;
+        if(!continuing)breakSession={id:newId(),durationMinutes:Number(duration.value),pausedMs:0,pausedAt:null};
+        else if(breakSession.pausedAt!==null){breakSession.pausedMs+=Math.max(0,Date.now()-breakSession.pausedAt);breakSession.pausedAt=null;}
+        recordBreak(continuing?'break_resume':'break_start');
         syncTimer('stop'); syncTimer('set', Math.ceil(remaining / 1000)); syncTimer('start');
         renderPlayer(); stopClock(); clock = setInterval(tick, 250); focusFirst();
       }, 'ebr-button ebr-primary');
@@ -212,9 +230,13 @@
       const now = Date.now();
       if (!paused) {
         remaining = Math.max(0, deadline - now); pausedSlideMs = Math.max(0, nextSlideAt - now); paused = true; syncTimer('stop');
+        if(breakSession)breakSession.pausedAt=now;
+        recordBreak('break_pause');
       } else {
         deadline = now + remaining; nextSlideAt = now + pausedSlideMs; paused = false;
         syncTimer('set', Math.ceil(remaining / 1000)); syncTimer('start');
+        if(breakSession&&breakSession.pausedAt!==null){breakSession.pausedMs+=Math.max(0,now-breakSession.pausedAt);breakSession.pausedAt=null;}
+        recordBreak('break_resume');
       }
       pauseButton.textContent = paused ? 'Devam et' : 'Duraklat';
       pauseButton.setAttribute('aria-pressed', String(paused));
@@ -236,6 +258,7 @@
     }
     function finish() {
       const completed = remaining <= 0;
+      if(breakSession){recordBreak('break_end',completed?'elapsed':'early');breakSession=null;}
       stopClock(); syncTimer('stop'); running = false; paused = false; editing = false;
       if (completed) syncTimer('set', 0);
       title.textContent = completed ? 'Mola bitti' : 'Mola tamamlandı'; body.replaceChildren();
@@ -253,6 +276,8 @@
       if (event.key === 'Escape') { event.preventDefault(); hide(); }
     }
     document.addEventListener('keydown', keyHandler, true);
+    const onPageLeave=()=>{if(opened)hide('navigation');};
+    window.addEventListener?.('pagehide',onPageLeave);
     dialog.addEventListener('cancel', event => { event.preventDefault(); hide(); });
     close.addEventListener('click', hide);
     let inlineButton = null, inlineTarget = null;
@@ -278,7 +303,7 @@
       inlineFrame = null;
       const target = breakTarget();
       if (target !== inlineTarget || !inlineButton?.isConnected) {
-        if (opened) hide();
+        if (opened) hide('navigation');
         inlineButton?.remove(); inlineButton = null; inlineTarget = null;
       }
       if (!target || inlineButton) return;
@@ -294,6 +319,7 @@
     instance = { destroy() {
       if (opened) hide(); stopClock(); observer.disconnect(); if (inlineFrame !== null) cancelAnimationFrame(inlineFrame);
       document.removeEventListener('keydown', keyHandler, true); inlineButton?.remove(); root.remove();
+      window.removeEventListener?.('pagehide',onPageLeave);
     } };
     return instance;
   }

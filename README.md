@@ -93,6 +93,16 @@ A1, A2, B1 ve YDS derslerinde özet başlatma düğmesi yalnız mola sayfasında
 
 YDS'de konu anlatımının sonundaki **Mola sayfasına geç** bağlantısı kullanılır. Mola sayfasında işlenen son konu seçilebilir; yalnız bu konuya kadar olan özetler listelenir. Eski B1 ek çalışma kitabına iki blok arası mola sayfası eklenmiştir. Diğer derslerde mevcut mola ekranları kullanılır. Kaynak ders dosyaları yerine yayın kopyaları `scripts/inject-break-review.mjs` ile hazırlanır.
 
+## Öğrenme analizi ve ayrıntılı loglar
+
+Yönetimdeki **Öğrenme analizi** bölümü öğrenci, grup ve tarih filtreleriyle soru/tekrar sürelerini, sistemdeki gerçek ilk denemeyi, doğruya dönüşü, gözlenen yardım kullanımını, tekrar eden konu hatalarını, sayfa sürelerini, zaman çizelgesini, mola seçimlerini, sözlükte aranan kelimeleri ve kaldığı yeri gösterir. Açılan, puanlanan yanıt verilen ve kullanıcı tarafından tamamlandı işaretlenen sayfalar ayrı sayılır. Mola ve kaynak sayfaları dersin tamamlanma paydasına katılmaz.
+
+Soru metni gerçekten ekranda görünür olduğunda zamanlama başlar; yalnız ekran açılışı biliniyorsa süre **ekran süresi** olarak etiketlenir. Aktif süre, bu aralıkta sayfanın ön planda, odakta ve yakın zamanda etkileşim almış olduğu gözlenen süredir; soruya bakıldığının veya bağımsız çözümün kanıtı değildir. İpucu/çeviri/yanıt açılması ve değerlendirmeden sonra gösterilen doğru yanıt sonraki denemelerin yardım geçmişine taşınır. Yardım durumu öğrenci ve ders bazında bu cihazda saklanır. İlk deneme, sistemde kayıtlı ilk denemedir; eski veya gözlenemeyen yardım/süre bilgileri bilinmiyor kalır.
+
+Sözlük kayıtları yalnız açıkça aranan veya seçilen İngilizce ifadeyi ve arama sonucunu içerir; çevre cümlesi, yazılmakta olan cevaplar ve öğretmen notları alınmaz. Mola kaydı seçilen özetleri, seçilen süreyi, duraklatmaları ve süre dolması/erken kapatma/ayrılma nedenini içerir. Sayfa ve soru süreleri toplam katılım süresine yeniden eklenmez. Ayrıntılar CSV'de de bulunur; analiz API'si yalnız yöneticiye açıktır.
+
+Yeni metadata `backend/migrations/0004_learning_insights.sql` ile eklenen tabloda saklanır. `/api/admin/learning` en fazla 40.000 dönem kaydını ve 40.000 gerçek ilk denemeyi tarar; zaman çizelgesi son 300 olayla sınırlıdır. Sınıra ulaşılırsa panel tarih/öğrenci filtresini daraltmayı söyler. Güncellemeler kaynak HTML yerine yayın kopyalarına uygulanır; mevcut açık ders sayfaları yeni izleme kodunu almak için bir kez yenilenmelidir.
+
 ## Kontroller
 
 ```powershell

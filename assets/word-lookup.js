@@ -176,6 +176,11 @@
   let activeTerm = '';
   let selectedRange;
   let activeContext = '';
+  let activeMode = 'manual';
+  function recordLookup(outcome,source='none') {
+    if(!valid(activeTerm))return;
+    try {window.dispatchEvent(new CustomEvent('english:learning-event',{detail:{type:'dictionary_lookup',learning:{kind:'dictionary',term:activeTerm,mode:activeMode,outcome,source}}}));}catch(_){}
+  }
   let returnFocus;
   let anchorRect;
   let lastSelection = '';
@@ -244,11 +249,12 @@
     status.textContent = result.source === 'local' ? 'Ders sözlüğünden.' : 'Çevrim içi sözlük · MyMemory / Free Dictionary.';
     position();
   }
-  async function search(term, context = '') {
+  async function search(term, context = '', mode = 'manual') {
     const id = ++requestId;
     activeController?.abort();
     activeController = new AbortController();
     activeTerm = normalize(term);
+    activeMode = mode==='selection'?'selection':'manual';
     activeContext = context;
     input.value = term;
     resultArea.replaceChildren();
@@ -259,10 +265,12 @@
       const result = await lookup(term, { signal: activeController.signal });
       if (id !== requestId || panel.hidden) return;
       renderResult(result);
+      recordLookup('found',result.source==='local'?'local':'online');
     } catch (error) {
       if (id !== requestId || panel.hidden) return;
       status.textContent = error.message || 'Sözlüğe ulaşılamadı. Yeniden deneyebilirsiniz.';
       retry.hidden = !valid(activeTerm);
+      recordLookup(/^Bu sözcük/.test(error.message||'')?'not_found':'error');
       position();
     }
   }
@@ -310,7 +318,7 @@
     selectedRange = range.cloneRange();
     anchorRect = { left: rect.left, top: rect.top, bottom: rect.bottom };
     returnFocus = null;
-    search(raw, sourceSentence(selection, term));
+    search(raw, sourceSentence(selection, term), 'selection');
   }
   const queueSelection = () => {
     clearTimeout(selectionTimer);
@@ -319,7 +327,7 @@
   launcher.addEventListener('click', () => panel.hidden ? open() : close(true));
   closeButton.addEventListener('click', () => close(true));
   form.addEventListener('submit', event => { event.preventDefault(); selectedRange = null; anchorRect = null; search(input.value); });
-  retry.addEventListener('click', () => search(activeTerm, activeContext));
+  retry.addEventListener('click', () => search(activeTerm, activeContext, activeMode));
   // Keep the lesson highlight while using popup buttons. Text input remains editable normally.
   panel.addEventListener('pointerdown', event => {
     if (selectedRange && event.target.closest('button') && event.pointerType !== 'touch') event.preventDefault();

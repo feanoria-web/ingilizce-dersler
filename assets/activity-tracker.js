@@ -9,7 +9,7 @@
   const IDLE_AFTER_MS = 60_000;
   const LEFT_OPEN_AFTER_MS = 330_000;
   const SEND_EVERY_MS = 30_000;
-  const EVENT_TYPES = new Set(['page_view','lesson_open','activity_view','answer_check','answer_reveal','activity_complete','vocabulary_reveal','heartbeat','question_result','audio_play','audio_complete','tab_visible','tab_hidden','window_focus','window_blur','idle_start','abandoned','resumed','page_leave']);
+  const EVENT_TYPES = new Set(['page_view','lesson_open','activity_view','answer_check','answer_reveal','activity_complete','vocabulary_reveal','heartbeat','question_result','audio_play','audio_complete','tab_visible','tab_hidden','window_focus','window_blur','idle_start','abandoned','resumed','page_leave','question_open','help_used','page_summary','lesson_progress','break_start','break_pause','break_resume','break_end','dictionary_lookup']);
   const INTERACTIONS = new Set(['pointer','keyboard','scroll','touch','navigation','none']);
   const STATUSES = new Set(['working','reading','background','unfocused','left_open','leaving']);
   const UUID = /^[a-f\d]{8}-[a-f\d]{4}-[a-f\d]{4}-[a-f\d]{4}-[a-f\d]{12}$/i;
@@ -22,6 +22,8 @@
   let lastActivity = '', lastScreen = null;
   let sampleTimer, sendTimer, navigationTimer;
   let presenceSending = false, presencePending = false, lastPresence = -Infinity, lastPresenceState = '', presenceSequence = 0;
+  let totalActiveMilliseconds = 0, learningStateKey = '', learned = Object.create(null), pageVisit = null;
+  const openQuestions = new Map(), questionTopics = new Map(), helpDedup = new Map();
   const listeners = [];
 
   function hasFocus() { try { return typeof document.hasFocus === 'function' ? document.hasFocus() : true; } catch (_) { return false; } }
@@ -126,6 +128,156 @@
     if (!result.questionId || !result.prompt || !/^[a-z-]{2,64}$/.test(result.assessmentKind)) return null;
     return result;
   }
+  const PAGE_KINDS = new Set(['lesson','break','resource','overview']);
+  function learningLabel(value,max) { return typeof value === 'string' && value.length<=max && !/[\u0000-\u001f\u007f<>]/.test(value) ? value : null; }
+  function boundedInteger(value,max,min=0) { return Number.isInteger(value) && value>=min && value<=max; }
+  function cleanLearning(value,type) {
+    if (!value || typeof value!=='object' || Array.isArray(value)) return null;
+    const text=(key,max,nullable=false) => nullable&&value[key]===null ? null : learningLabel(value[key],max);
+    const topic=() => text('topicId',120)!==null && text('topicTitle',180)!==null;
+    if (value.kind==='question' && ['question_open','question_result'].includes(type)) {
+      const prompt=value.prompt===undefined?'':text('prompt',1500);
+      if (!text('questionId',160) || !topic() || !['question','screen','unavailable'].includes(value.timingScope)
+        || prompt===null || ![null,true,false].includes(value.helpUsed) || ![null,true,false].includes(value.hintUsed) || ![null,true,false].includes(value.answerRevealed)) return null;
+      if (value.wallSeconds===null ? value.activeSeconds!==null : !boundedInteger(value.wallSeconds,86400)||!boundedInteger(value.activeSeconds,value.wallSeconds)) return null;
+      if (value.timingScope==='unavailable' && (value.wallSeconds!==null||value.activeSeconds!==null)) return null;
+      return {kind:'question',questionId:value.questionId,prompt,topicId:value.topicId,topicTitle:value.topicTitle,wallSeconds:value.wallSeconds,activeSeconds:value.activeSeconds,timingScope:value.timingScope,helpUsed:value.helpUsed,hintUsed:value.hintUsed,answerRevealed:value.answerRevealed};
+    }
+    if (value.kind==='help' && type==='help_used') {
+      if (!['translation','hint','answer','audio'].includes(value.helpType) || !(value.questionId===null||text('questionId',160)) || ![null,true,false].includes(value.attemptedBeforeHelp)||!topic()) return null;
+      return {kind:'help',helpType:value.helpType,questionId:value.questionId,attemptedBeforeHelp:value.attemptedBeforeHelp,topicId:value.topicId,topicTitle:value.topicTitle};
+    }
+    if (value.kind==='page' && type==='page_summary') {
+      if (!UUID.test(value.visitId||'') || !PAGE_KINDS.has(value.pageKind)||!boundedInteger(value.pageIndex,2000,-1)||!boundedInteger(value.totalPages,2000)||!boundedInteger(value.viewSeconds,3600)||!boundedInteger(value.activeSeconds,value.viewSeconds)) return null;
+      return {kind:'page',visitId:value.visitId,pageKind:value.pageKind,pageIndex:value.pageIndex,totalPages:value.totalPages,viewSeconds:value.viewSeconds,activeSeconds:value.activeSeconds};
+    }
+    if (value.kind==='progress' && type==='lesson_progress') {
+      if (!PAGE_KINDS.has(value.pageKind)||!boundedInteger(value.pageIndex,2000,-1)||!boundedInteger(value.totalPages,2000)||!(value.questionCount===null||boundedInteger(value.questionCount,2000))||!boundedInteger(value.answeredQuestionCount,2000)||typeof value.completed!=='boolean') return null;
+      return {kind:'progress',pageKind:value.pageKind,pageIndex:value.pageIndex,totalPages:value.totalPages,questionCount:value.questionCount,answeredQuestionCount:value.answeredQuestionCount,completed:value.completed};
+    }
+    if (value.kind==='break' && ['break_start','break_pause','break_resume','break_end'].includes(type)) {
+      if (!UUID.test(value.breakId||'')||![10,15].includes(value.durationMinutes)||![10,15,20,30].includes(value.intervalSeconds)||!Array.isArray(value.selectedPages)||value.selectedPages.length>500||!boundedInteger(value.selectedCount,2000)||value.selectedCount<value.selectedPages.length||!boundedInteger(value.elapsedSeconds,900)||!boundedInteger(value.pausedSeconds,86400)||![null,'elapsed','early','closed','navigation'].includes(value.endReason)) return null;
+      const selectedPages=[];
+      for (const item of value.selectedPages) { if (!item||!learningLabel(item.id,160)||learningLabel(item.title,180)===null) return null; selectedPages.push({id:item.id,title:item.title}); }
+      return {kind:'break',breakId:value.breakId,durationMinutes:value.durationMinutes,intervalSeconds:value.intervalSeconds,selectedPages,selectedCount:value.selectedCount,elapsedSeconds:value.elapsedSeconds,pausedSeconds:value.pausedSeconds,endReason:value.endReason};
+    }
+    if (value.kind==='dictionary' && type==='dictionary_lookup') {
+      if (!text('term',80)||!['selection','manual'].includes(value.mode)||!['found','not_found','error'].includes(value.outcome)||!['local','online','context','none'].includes(value.source)) return null;
+      return {kind:'dictionary',term:value.term,mode:value.mode,outcome:value.outcome,source:value.source};
+    }
+    return null;
+  }
+  function persistLearning() {
+    if (!learningStateKey) return;
+    try { localStorage.setItem(learningStateKey,JSON.stringify(learned)); } catch (_) {}
+  }
+  function restoreLearning() {
+    learned=Object.create(null);
+    try {
+      const stored=JSON.parse(localStorage.getItem(learningStateKey)||'{}');
+      if (stored&&typeof stored==='object'&&!Array.isArray(stored)) for (const [id,state] of Object.entries(stored).slice(-2000)) {
+        if (!learningLabel(id,160)||!state||typeof state!=='object') continue;
+        learned[id]={attempted:state.attempted===true,help:state.help===true,hint:state.hint===true,answer:state.answer===true};
+      }
+    } catch (_) {}
+  }
+  function questionState(id) {
+    if (!Object.prototype.hasOwnProperty.call(learned,id)) {
+      if (Object.keys(learned).length>=2000) delete learned[Object.keys(learned)[0]];
+      Object.defineProperty(learned,id,{value:{attempted:false,help:false,hint:false,answer:false},enumerable:true,writable:true,configurable:true});
+    }
+    return learned[id];
+  }
+  function pageMetadata(screen=screenContext()) {
+    try {
+      const snapshot=window.EnglishLessonProgress?.snapshot?.();
+      if(snapshot&&PAGE_KINDS.has(snapshot.pageKind)&&boundedInteger(snapshot.pageIndex,2000,-1)&&boundedInteger(snapshot.totalPages,2000)
+        &&(snapshot.questionCount===null||boundedInteger(snapshot.questionCount,2000))) return {pageKind:snapshot.pageKind,pageIndex:snapshot.pageIndex,totalPages:snapshot.totalPages,questionCount:snapshot.questionCount,completed:snapshot.completed===true};
+    } catch (_) {}
+    const label=`${screen.screenTitle} ${screen.section}`;
+    const pageKind=/\b(?:mola|break)\b/i.test(label)||screen.screenId==='breakreview'?'break':['home','screen--1'].includes(screen.screenId)?'overview':/^(source|vocab)(:|$)/.test(screen.screenId)?'resource':'lesson';
+    return {pageKind,pageIndex:-1,totalPages:0,questionCount:null,completed:false};
+  }
+  function beginPage(screen=screenContext()) {
+    pageVisit={id:eventId(),screen:{...screen},metadata:pageMetadata(screen),fingerprint:JSON.stringify(screen),started:performance.now(),sliceAt:performance.now(),sliceActive:totalActiveMilliseconds,activeAt:totalActiveMilliseconds,questions:new Set(),answered:new Set(),completed:false};
+    openQuestions.clear();
+  }
+  function ensureLearningPage() {
+    if (!running||stopped) return;
+    const screen=screenContext();
+    if (!pageVisit) beginPage(screen);
+    else if (pageVisit.fingerprint!==JSON.stringify(screen)) { recordPage(); beginPage(screen); }
+  }
+  function recordProgress() {
+    if (!pageVisit||!running||stopped) return;
+    const {pageKind,pageIndex,totalPages,questionCount,completed}=pageVisit.metadata;
+    addEvent('lesson_progress',0,pageVisit.screen.screenId,undefined,trackingContext(pageVisit.screen),undefined,{kind:'progress',pageKind,pageIndex,totalPages,questionCount,answeredQuestionCount:Math.min(2000,pageVisit.answered.size),completed:pageVisit.completed||completed||questionCount!==null&&questionCount>0&&pageVisit.answered.size>=questionCount});
+  }
+  function recordPage() {
+    if (!pageVisit||!running||stopped) return;
+    const now=performance.now(),viewSeconds=Math.min(3600,Math.max(0,Math.floor((now-pageVisit.sliceAt)/1000)));
+    const activeSeconds=Math.min(viewSeconds,Math.max(0,Math.floor((totalActiveMilliseconds-pageVisit.sliceActive)/1000)));
+    const {pageKind,pageIndex,totalPages}=pageVisit.metadata;
+    addEvent('page_summary',0,pageVisit.screen.screenId,undefined,trackingContext(pageVisit.screen),undefined,{kind:'page',visitId:pageVisit.id,pageKind,pageIndex,totalPages,viewSeconds,activeSeconds});
+    pageVisit.sliceAt+=viewSeconds*1000;
+    if (now-pageVisit.sliceAt>=3600000) pageVisit.sliceAt=now;
+    pageVisit.sliceActive+=activeSeconds*1000;
+    recordProgress();
+  }
+  function topicFor(id) {
+    const explicit=questionTopics.get(id), screen=pageVisit?.screen||screenContext();
+    return explicit||{id:screen.screenId,title:screen.screenTitle||screen.section||pageTitle};
+  }
+  function questionLearning(id,scope='question',fallbackPrompt='') {
+    const opened=openQuestions.get(id),saved=questionState(id),topic=topicFor(id);
+    const start=opened?.started??pageVisit?.started,activeAt=opened?.activeAt??pageVisit?.activeAt;
+    const available=Number.isFinite(start)&&Number.isFinite(activeAt);
+    const wallSeconds=available?Math.min(86400,Math.max(0,Math.floor((performance.now()-start)/1000))):null;
+    const activeSeconds=available?Math.min(wallSeconds,Math.max(0,Math.floor((totalActiveMilliseconds-activeAt)/1000))):null;
+    const covered=!!opened;
+    return {kind:'question',questionId:id,prompt:opened?.prompt||cleanLabel(fallbackPrompt,1500),topicId:topic.id,topicTitle:topic.title,wallSeconds,activeSeconds,timingScope:available?(covered?scope:'screen'):'unavailable',helpUsed:covered||saved.help?saved.help:null,hintUsed:covered||saved.hint?saved.hint:null,answerRevealed:covered||saved.answer?saved.answer:null};
+  }
+  function openQuestion(value) {
+    if (!running||stopped||!value||!learningLabel(value.questionId,160)||!value.questionId) return;
+    sampleTime(); ensureLearningPage();
+    const id=value.questionId;
+    if (value.topic) setQuestionTopic(id,value.topic);
+    pageVisit.questions.add(id);
+    if (questionState(id).attempted) pageVisit.answered.add(id);
+    if (openQuestions.has(id)) return;
+    openQuestions.set(id,{started:performance.now(),activeAt:totalActiveMilliseconds,prompt:cleanLabel(value.prompt,1500)});
+    addEvent('question_open',0,activityAnchor(),undefined,trackingContext(),undefined,questionLearning(id));
+  }
+  function setQuestionTopic(id,value) {
+    if (!learningLabel(id,160)||!value||!learningLabel(value.id,120)||learningLabel(value.title,180)===null) return false;
+    questionTopics.set(id,{id:value.id,title:value.title}); return true;
+  }
+  function assessQuestion(value) {
+    if (!running||stopped||String(window.EnglishAccess?.session()?.student?.id)!==userId||!value||!learningLabel(value.questionId,160)) return null;
+    sampleTime(); ensureLearningPage();
+    const id=value.questionId,learning=questionLearning(id,'question',value.prompt),saved=questionState(id);
+    if (value.outcome!=='blank'&&value.outcome!=='ungraded') { saved.attempted=true;pageVisit.answered.add(id); }
+    persistLearning();
+    // The next checked revision is timed from the previous explicit assessment.
+    if (openQuestions.has(id)) openQuestions.set(id,{...openQuestions.get(id),started:performance.now(),activeAt:totalActiveMilliseconds});
+    return learning;
+  }
+  function recordHelp(id,kind) {
+    if (!running||stopped||!['translation','hint','answer','audio'].includes(kind)) return;
+    sampleTime();ensureLearningPage();
+    const questionId=id&&learningLabel(id,160)?id:null;
+    const dedupKey=`${pageVisit.id}:${questionId||'*'}:${kind}`;
+    if (performance.now()-(helpDedup.get(dedupKey)??-Infinity)<250) return;
+    helpDedup.set(dedupKey,performance.now());
+    if (helpDedup.size>1000) helpDedup.delete(helpDedup.keys().next().value);
+    const ids=questionId?[questionId]:Array.from(openQuestions.keys());
+    const attemptedBeforeHelp=questionId?questionState(questionId).attempted:ids.length?ids.every(key=>questionState(key).attempted):null;
+    for (const key of ids) { const saved=questionState(key);saved.help=true;if(kind==='hint')saved.hint=true;if(kind==='answer')saved.answer=true; }
+    persistLearning();
+    const subject=topicFor(questionId);
+    addEvent('help_used',0,activityAnchor(),undefined,trackingContext(),undefined,{kind:'help',helpType:kind,questionId,attemptedBeforeHelp,topicId:subject.id,topicTitle:subject.title});
+  }
+  window.EnglishLearning=Object.freeze({assess:assessQuestion,topic:setQuestionTopic});
   async function presence(forceState, force = false) {
     if (!running || stopped || navigator.onLine === false) return;
     const state = forceState || (leaving || !visible ? 'hidden' : !focused || idleMilliseconds() >= IDLE_AFTER_MS ? 'idle' : 'active');
@@ -166,16 +318,21 @@
         // Corrupt context must never turn a contextual heartbeat into legacy active-time credit.
         if (hasContext && (!context || (event.lesson === 'panel'
           ? !['panel','index.html'].includes(context.pagePath) : context.pagePath !== event.lesson))) continue;
+        const hasLearning=Object.prototype.hasOwnProperty.call(event,'learning'),learning=hasLearning?cleanLearning(event.learning,event.type):null;
+        if (hasLearning&&!learning) continue;
+        if (['question_open','help_used','page_summary','lesson_progress','break_start','break_pause','break_resume','break_end','dictionary_lookup'].includes(event.type)&&!learning) continue;
         accepted.push({eventId:event.eventId,type:event.type,lesson:event.lesson,activity:event.activity,
-          activeSeconds:event.activeSeconds,occurredAt:event.occurredAt,...(context?{context}:{}),...(details?{details}:{})});
+          activeSeconds:event.activeSeconds,occurredAt:event.occurredAt,...(context?{context}:{}),...(details?{details}:{}),...(learning?{learning}:{})});
       }
       return accepted;
     } catch (_) { return []; }
   }
-  function addEvent(type,activeSeconds=0,activity=activityAnchor(),details,context=trackingContext(),occurredAt=new Date().toISOString()) {
+  function addEvent(type,activeSeconds=0,activity=activityAnchor(),details,context=trackingContext(),occurredAt=new Date().toISOString(),learning) {
     if (!running || stopped || !EVENT_TYPES.has(type)) return;
     if (String(window.EnglishAccess?.session()?.student?.id) !== userId) { stop(); return; }
-    queue.push({eventId:eventId(),type,lesson,activity,activeSeconds:Math.max(0,Math.min(30,Math.floor(activeSeconds))),occurredAt,context,...(details?{details}:{})});
+    const clean=learning?cleanLearning(learning,type):null;
+    if (learning&&!clean) return;
+    queue.push({eventId:eventId(),type,lesson,activity,activeSeconds:Math.max(0,Math.min(30,Math.floor(activeSeconds))),occurredAt,context,...(details?{details}:{}),...(clean?{learning:clean}:{})});
     if (queue.length > MAX_QUEUE) queue.splice(0,queue.length-MAX_QUEUE);
     persist();
   }
@@ -183,7 +340,17 @@
     if (!running || stopped || sending || !queue.length || navigator.onLine === false) return;
     const current = window.EnglishAccess?.session();
     if (!current?.student || String(current.student.id) !== userId) return;
-    const owner=userId, batch=queue.slice(0,BATCH_SIZE);
+    const owner=userId, batch=[];
+    let bytes=14;
+    for(const item of queue.slice(0,BATCH_SIZE)) {
+      // Count UTF-8 bytes; 500 selected break pages can exceed the normal small event size.
+      const serialized=JSON.stringify(item);
+      const size=typeof TextEncoder==='function'?new TextEncoder().encode(serialized).length:serialized.length*3;
+      if(batch.length&&bytes+size>200*1024) break;
+      if(bytes+size>240*1024) {queue=queue.filter(event=>event.eventId!==item.eventId);persist();continue;}
+      batch.push(item);bytes+=size+1;
+    }
+    if(!batch.length) return;
     sending=true; let successful=false;
     try {
       await window.EnglishAccess.request('/api/events',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({events:batch}),keepalive:leaving||!visible});
@@ -199,6 +366,7 @@
     if (running && !stopped && visible && focused && !leaving && elapsed > 0 && elapsed <= 5000) {
       const earned = Math.max(0,Math.min(now,lastInput+IDLE_AFTER_MS)-lastTick);
       activeMilliseconds += earned;
+      totalActiveMilliseconds += earned;
       // Retain the real earlier working observation: at the idle boundary the live context is already reading.
       if (earned > 0 && status() === 'working') lastWorkingSample = {
         context:trackingContext(lastScreen||screenContext()),occurredAt:new Date().toISOString()
@@ -244,7 +412,7 @@
     if (!running || stopped) return;
     const next=screenContext(), fingerprint=JSON.stringify(next);
     if (fingerprint !== JSON.stringify(lastScreen)) {
-      recordTime(); lastScreen=next; lastActivity=next.screenId;
+      recordTime(); ensureLearningPage(); lastScreen=next; lastActivity=next.screenId;
       addEvent('activity_view',0,lastActivity,undefined,trackingContext(next,'navigation'));
       void presence(undefined,true);
     }
@@ -255,29 +423,45 @@
     if (!target || target.disabled) return;
     const action = target.getAttribute('data-action');
     const boardAction = target.getAttribute('data-board-action');
+    const label=staticText(target);
+    if(target.hasAttribute('data-hint')||action==='hint') recordScopedHelp(target,'hint');
+    else if(target.hasAttribute('data-translation')||target.hasAttribute('data-translate')||action==='translate'||/^(?:türkçe|çeviri|translation|translate)(?:\s|$)/i.test(label)) recordScopedHelp(target,'translation');
     if (target.hasAttribute('data-check') || target.hasAttribute('data-checkmarks')
       || ['check', 'find-check', 'placement-submit'].includes(action)) {
       addEvent('answer_check');
     } else if (target.hasAttribute('data-complete')) {
       // This event means the student used the completion control, not an assessed score.
       addEvent('activity_complete');
+      ensureLearningPage(); if(pageVisit) {pageVisit.completed=true;recordProgress();}
     } else if (target.hasAttribute('data-word') || target.hasAttribute('data-mean')
       || target.id === 'v-all' || target.getAttribute('data-vocab-action') === 'all') {
       const card = target.closest('.word-card,.flashcard,.vcard');
       const allOpen = document.querySelector('.vlist.all');
-      if (!card?.classList.contains('open') && !allOpen) addEvent('vocabulary_reveal');
+      if (!card?.classList.contains('open') && !allOpen) {addEvent('vocabulary_reveal');recordScopedHelp(target,'translation');}
     } else if (target.id === 'board-reveal' || boardAction === 'reveal') {
-      if (document.querySelector('[data-b-answer][hidden]')) addEvent('answer_reveal');
+      if (document.querySelector('[data-b-answer][hidden]')) {addEvent('answer_reveal');recordScopedHelp(target,'answer');}
     } else if (target.id === 'ans-btn') {
-      if (target.getAttribute('aria-pressed') !== 'true') addEvent('answer_reveal');
+      if (target.getAttribute('aria-pressed') !== 'true') {addEvent('answer_reveal');recordScopedHelp(target,'answer');}
     } else if (target.hasAttribute('data-reveal') || target.hasAttribute('data-peek')
       || target.hasAttribute('data-show') || target.hasAttribute('data-solve') || target.hasAttribute('data-showmarks')
       || ['story-reveal', 'story-answers', 'teacher-model', 'mission'].includes(action)) {
       const host = target.closest('[data-host],.q-item,.flip-card');
       if (target.getAttribute('aria-pressed') !== 'true' && !host?.classList.contains('open') && !host?.classList.contains('peek')) {
-        addEvent('answer_reveal');
+        addEvent('answer_reveal'); recordScopedHelp(target,'answer');
       }
     }
+  }
+  function recordScopedHelp(target,kind) {
+    const host=target.closest?.('[data-learning-question],[data-learning-questions],[data-question]');
+    let ids=[];
+    const one=host?.getAttribute?.('data-learning-question')||host?.getAttribute?.('data-question');
+    if(one&&learningLabel(one,160)) ids=[one];
+    else {try {const many=JSON.parse(host?.getAttribute?.('data-learning-questions')||'null');if(Array.isArray(many))ids=many.filter(id=>learningLabel(id,160)&&id).slice(0,2000);}catch(_) {}}
+    const record=()=>{if(ids.length)for(const id of ids)recordHelp(id,kind);else recordHelp(null,kind);};
+    // A reveal control can grade an answer selected earlier in this same native click.
+    // Record the reveal after that grade; only subsequent attempts used the revealed answer.
+    if(kind==='answer') void Promise.resolve().then(record);
+    else record();
   }
 
   function onVocabularyKey(event) {
@@ -285,7 +469,7 @@
     // Custom flash cards handle Space directly rather than generating a native button click.
     const card = event.target.closest('.flashcard[data-word]');
     if (card && !event.target.closest('input,textarea,select,button') && !card.classList.contains('open')) {
-      addEvent('vocabulary_reveal');
+      addEvent('vocabulary_reveal'); recordScopedHelp(card,'translation');
     }
   }
 
@@ -310,7 +494,7 @@
   }
   function stop() {
     if (!running || stopped) return;
-    if (String(window.EnglishAccess?.session()?.student?.id) === userId) recordTime();
+    if (String(window.EnglishAccess?.session()?.student?.id) === userId) {recordTime();recordPage();persistLearning();}
     persist(); stopped=true; running=false; presencePending=false;
     clearInterval(sampleTimer); clearInterval(sendTimer); clearInterval(navigationTimer);
     for (const remove of listeners.splice(0)) remove();
@@ -322,9 +506,11 @@
       const session=await access.ready;
       if (!session?.student?.id || session.role === 'admin' || String(access.session()?.student?.id) !== String(session.student.id)) return;
       userId=String(session.student.id); queueKey=`en-access-events:${userId}`; queue=loadQueue();
+      learningStateKey=`en-learning-state:${encodeURIComponent(userId)}:${lesson}`;restoreLearning();
       running=true; lastInput=performance.now(); lastTick=lastInput;
       visible=document.visibilityState === 'visible'; focused=hasFocus();
       lastScreen=screenContext(); lastActivity=lastScreen.screenId;
+      beginPage(lastScreen);
       addEvent('page_view'); if (lesson!=='panel') addEvent('lesson_open'); addEvent('activity_view',0,lastActivity);
       for (const kind of ['pointerdown','pointermove','keydown','touchstart','touchmove','wheel','scroll'])
         listen(document,kind,onUserInput,{capture:true,passive:true});
@@ -332,23 +518,28 @@
       listen(document,'keydown',onVocabularyKey,true);
       listen(document,'visibilitychange',onVisibilityChange);
       listen(window,'focus',onFocusChange); listen(window,'blur',onFocusChange);
-      listen(window,'english:question-result',event => { const result=cleanQuestion(event.detail); if (result) { addEvent('question_result',0,activityAnchor(),result); void flush(); } });
-      listen(document,'play',event => { if (event.target?.tagName==='AUDIO') { addEvent('audio_play'); void flush(); } },true);
+      listen(window,'english:question-open',event => openQuestion(event.detail));
+      listen(window,'english:assessment-help',event => recordHelp(event.detail?.questionId,event.detail?.helpType));
+      listen(window,'english:question-result',event => { const result=cleanQuestion(event.detail); if (result) { const learning=cleanLearning(event.detail?.learning,'question_result')||assessQuestion(result);addEvent('question_result',0,activityAnchor(),result,trackingContext(),undefined,learning);recordProgress();void flush(); } });
+      listen(window,'english:learning-event',event => {const type=event.detail?.type,learning=cleanLearning(event.detail?.learning,type);if(learning){addEvent(type,0,activityAnchor(),undefined,trackingContext(),undefined,learning);void flush();}});
+      listen(document,'play',event => { if (event.target?.tagName==='AUDIO') { addEvent('audio_play');recordHelp(null,'audio');void flush(); } },true);
       listen(document,'ended',event => { if (event.target?.tagName==='AUDIO') { addEvent('audio_complete'); void flush(); } },true);
       listen(window,'hashchange',checkNavigation); listen(window,'popstate',checkNavigation);
       listen(window,'online',() => { void presence(undefined,true); void flush(); });
       listen(window,'pagehide',() => {
-        recordTime(); leaving=true; addEvent('page_leave'); persist(); void presence('hidden',true); void flush();
+        recordTime();recordPage();leaving=true;addEvent('page_leave');persist();void presence('hidden',true);void flush();
       });
       listen(window,'pageshow',() => {
         if (!leaving) return;
         leaving=false; visible=document.visibilityState==='visible'; focused=hasFocus(); lastTick=performance.now();
+        beginPage(screenContext());
         addEvent(visible?'tab_visible':'tab_hidden'); checkNavigation(); checkThresholds(); void presence(undefined,true); void flush();
       });
       listen(window,'english:logout',stop);
       sampleTimer=setInterval(() => { sampleTime(); checkThresholds(); },1000);
       navigationTimer=setInterval(checkNavigation,500);
-      sendTimer=setInterval(() => { recordTime(); void presence(); void flush(); },SEND_EVERY_MS);
+      sendTimer=setInterval(() => {recordTime();ensureLearningPage();recordPage();void presence();void flush();},SEND_EVERY_MS);
+      for(const question of window.EnglishAssessment?.opened?.()||[]) openQuestion(question);
       void flush(); void presence(undefined,true);
     } catch (_) { /* Tracking must never interrupt a lesson or sign-in. */ }
   }

@@ -128,7 +128,7 @@ test('presence follows visibility and recent input without replaying an offline 
 });
 test('only explicit assessment events capture graded answers and queued extra fields are discarded',async()=>{
  const app=await harness({offline:true});const detail={questionId:'q1',prompt:'Choose a greeting.',selectedAnswer:'Hello',correctAnswer:'Hello',outcome:'correct',assessmentKind:'multiple-choice',password:'NOT FOR LOGS',notes:'PRIVATE NOTE'};
- await app.emit('english:question-result',{detail},'window');const item=app.pending().at(-1);assert.equal(item.type,'question_result');assert.equal(item.details.selectedAnswer,'Hello');assert.equal(item.details.outcome,'correct');assert.ok(!JSON.stringify(item).includes('PRIVATE NOTE'));assert.ok(!JSON.stringify(item).includes('NOT FOR LOGS'));await app.emit('english:question-result',{detail:{...detail,outcome:'made-up'}},'window');assert.equal(app.pending().at(-1).eventId,item.eventId);
+ await app.emit('english:question-result',{detail},'window');const item=app.pending().findLast(event=>event.type==='question_result');assert.equal(item.type,'question_result');assert.equal(item.details.selectedAnswer,'Hello');assert.equal(item.details.outcome,'correct');assert.ok(!JSON.stringify(item).includes('PRIVATE NOTE'));assert.ok(!JSON.stringify(item).includes('NOT FOR LOGS'));const before=app.pending().length;await app.emit('english:question-result',{detail:{...detail,outcome:'made-up'}},'window');assert.equal(app.pending().length,before);
 });
 
 test('visible time accumulates elapsed seconds and stops at inactivity', async () => {
@@ -357,10 +357,11 @@ test('offline transition context is replayed through a strict field whitelist wh
 
 test('pointer movement is throttled without producing one event per movement or capturing coordinates',async()=>{
   const app=await harness();await app.advance(330000);
+  const before=app.events().length;
   for(let index=0;index<100;index++)await app.emit('pointermove',{isTrusted:true,clientX:123,clientY:456});
   assert.equal(app.events().filter(event=>event.type==='resumed').length,1);
   assert.ok(!JSON.stringify(app.events()).includes('clientX'));
-  assert.ok(app.events().length<15);
+  assert.ok(app.events().length-before<5);
 });
 
 

@@ -37,15 +37,15 @@ function harness({breakScreen=true,callback=true}={}){
   const visitBreak=()=>{currentTarget=new Element('section');currentTarget.className='break-text';content.replaceChildren(currentTarget);mutate();return currentTarget};
   const visitNormal=()=>{currentTarget=null;const ordinary=new Element('section');ordinary.className='break-inside';content.replaceChildren(ordinary);mutate();return ordinary};
   if(breakScreen)visitBreak();else visitNormal();
-  const window={};
-  vm.runInNewContext(source,{window,document,location:{pathname:'/lessons/a2/demo.html'},localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},MutationObserver:class{constructor(fn){this.fn=fn;observers.push(this)}observe(){this.active=true}disconnect(){this.active=false}},requestAnimationFrame:fn=>{const id=++serial;frames.set(id,fn);return id},cancelAnimationFrame:id=>frames.delete(id),setInterval:fn=>{const id=++serial;intervals.set(id,fn);return id},clearInterval:id=>intervals.delete(id),Date:{now:()=>now}});
+  const learning=[];const window={dispatchEvent:event=>learning.push(event.detail)};
+  vm.runInNewContext(source,{window,CustomEvent:class{constructor(type,{detail}){this.type=type;this.detail=detail;}},document,location:{pathname:'/lessons/a2/demo.html'},localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},MutationObserver:class{constructor(fn){this.fn=fn;observers.push(this)}observe(){this.active=true}disconnect(){this.active=false}},requestAnimationFrame:fn=>{const id=++serial;frames.set(id,fn);return id},cancelAnimationFrame:id=>frames.delete(id),setInterval:fn=>{const id=++serial;intervals.set(id,fn);return id},clearInterval:id=>intervals.delete(id),Date:{now:()=>now}});
   const nodes=()=>{const visit=n=>[n,...n.children.flatMap(visit)];return visit(document.body)};
   const byText=t=>nodes().find(n=>n.tag==='button'&&n.textContent===t);
   const byClass=c=>nodes().find(n=>n.className.split(' ').includes(c));
   const advance=ms=>{now+=ms;for(const fn of [...intervals.values()])fn()};
   const timerCalls=[];
   const registration=window.EnglishBreakReview.register({pages:[0,1,2].map(index=>({id:'p'+index,index,title:'Topic '+index,summary:['Rule '+index],examples:[{en:'Example '+index,tr:'Örnek '+index}]})),getIndex:()=>1,...(callback?{getBreakTarget:()=>currentTarget}:{}),timer:{set:n=>timerCalls.push(['set',n]),start:()=>timerCalls.push(['start']),stop:()=>timerCalls.push(['stop'])}});
-  return {document,nodes,byText,byClass,advance,intervals,events,timerCalls,storage,visitBreak,visitNormal,mutate,content,Element,registration};
+  return {document,nodes,byText,byClass,advance,intervals,events,timerCalls,storage,visitBreak,visitNormal,mutate,content,Element,registration,learning};
 }
 
 test('only reached pages are selectable; empty selection prevents start',()=>{
@@ -53,6 +53,22 @@ test('only reached pages are selectable; empty selection prevents start',()=>{
   assert.equal(h.document.body.querySelectorAll('input').length,2);
   h.byText('Seçimi temizle').click();assert.equal(h.byText('Özetli molayı başlat').disabled,true);
   h.byText('Tümünü seç').click();assert.equal(h.byText('Özetli molayı başlat').disabled,false);
+});
+
+test('break learning records selected summaries, elapsed time, pauses and a single early end',()=>{
+  const h=harness();h.byText(entryLabel).click();assert.equal(h.learning.length,0);
+  h.document.body.querySelectorAll('select')[0].value='15';h.document.body.querySelectorAll('select')[1].value='10';
+  h.byText('Özetli molayı başlat').click();h.advance(12000);h.byText('Duraklat').click();h.advance(60000);h.byText('Devam et').click();h.advance(8000);h.byText('Molayı bitir').click();
+  assert.deepEqual(h.learning.map(event=>event.type),['break_start','break_pause','break_resume','break_end']);
+  const start=h.learning[0].learning,end=h.learning.at(-1).learning;
+  assert.equal(start.durationMinutes,15);assert.equal(start.selectedCount,2);assert.equal(start.selectedPages[0].title,'Topic 0');
+  assert.equal(end.breakId,start.breakId);assert.equal(end.elapsedSeconds,20);assert.equal(end.pausedSeconds,60);assert.equal(end.endReason,'early');
+  h.byText('Derse dön').click();assert.equal(h.learning.filter(event=>event.type==='break_end').length,1);
+});
+
+test('leaving a running break records navigation rather than an invented completed break',()=>{
+  const h=harness();h.byText(entryLabel).click();h.byText('Özetli molayı başlat').click();h.advance(5000);h.visitNormal();
+  assert.equal(h.learning.at(-1).type,'break_end');assert.equal(h.learning.at(-1).learning.endReason,'navigation');assert.equal(h.learning.at(-1).learning.elapsedSeconds,5);
 });
 
 test('15 minute break rotates selected summaries, pauses both clocks, resumes and finishes',()=>{

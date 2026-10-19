@@ -42,6 +42,7 @@ class Element {
 
 function harness({ data = {}, fetch: mockFetch } = {}) {
   const listeners = new Map(); const timers = new Map(); const requests = []; let timerId = 0;
+  const learning=[];
   const document = {
     addEventListener(name, callback) { listeners.set(name, [...(listeners.get(name) || []), callback]); },
     emit(name, event = {}) { (listeners.get(name) || []).forEach(callback => callback(event)); },
@@ -55,6 +56,7 @@ function harness({ data = {}, fetch: mockFetch } = {}) {
   const window = {
     innerWidth: 1200, innerHeight: 900, getSelection: () => window.selection,
     addEventListener() {},
+    dispatchEvent(event) { if(event.type==='english:learning-event')learning.push(event.detail); },
   };
   const fetch = async (url, options) => {
     requests.push({ url, options });
@@ -63,7 +65,7 @@ function harness({ data = {}, fetch: mockFetch } = {}) {
       : [{ meanings: [{ definitions: [{ example: 'A natural English example.' }] }] }] };
   };
   vm.runInNewContext(script, {
-    window, document, fetch, AbortController,
+    window, document, fetch, AbortController,CustomEvent:class{constructor(type,{detail}){this.type=type;this.detail=detail;}},
     setTimeout(callback, ms) { const id = ++timerId; timers.set(id, { callback, ms }); return id; },
     clearTimeout(id) { timers.delete(id); },
   });
@@ -80,7 +82,7 @@ function harness({ data = {}, fetch: mockFetch } = {}) {
       getRangeAt: () => range, toString: () => text };
     document.emit('selectionchange'); runTimers(180);
   }
-  return { window, document, api: window.EnglishWordLookup, requests, selection, runTimers, timers };
+  return { window, document, api: window.EnglishWordLookup, requests, selection, runTimers, timers,learning };
 }
 function find(root, predicate) {
   if (predicate(root)) return root;
@@ -116,6 +118,24 @@ test('selection reveals a local answer and Escape dismisses without changing oth
   h.document.emit('selectionchange'); h.runTimers(180); assert.equal(panel.hidden, true);
   h.document.emit('keydown', { key: 'ArrowRight', shiftKey: true });
   h.selection('book'); await flush(); assert.equal(panel.hidden, false);
+});
+
+test('dictionary learning records explicit selected or searched words without the surrounding sentence',async()=>{
+  const h=harness({data:{book:{meaning:'kitap',example:'This is a book.'}}});
+  h.selection('book',{sentence:'A PRIVATE sentence about a book.'});await flush();
+  assert.equal(h.learning.length,1);
+  assert.deepEqual(JSON.parse(JSON.stringify(h.learning[0])),{type:'dictionary_lookup',learning:{kind:'dictionary',term:'book',mode:'selection',outcome:'found',source:'local'}});
+  h.api.open('book');await flush();
+  assert.equal(h.learning.at(-1).learning.mode,'manual');
+  assert.ok(!JSON.stringify(h.learning).includes('PRIVATE'));
+  h.api.close();await h.api.lookup('book');assert.equal(h.learning.length,2,'background API lookup is not a learner search');
+});
+
+test('failed explicit dictionary search has a bounded error record, invalid text has none',async()=>{
+  const h=harness({fetch:async()=>{throw new Error('offline')}});
+  h.api.open('discover');await flush();
+  assert.equal(h.learning[0].learning.outcome,'error');assert.equal(h.learning[0].learning.source,'none');
+  h.api.open('PRIVATE 123 password');await flush();assert.equal(h.learning.length,1);
 });
 
 test('text entry, editable notes and text outside lesson regions never trigger lookup', async () => {
