@@ -37,6 +37,26 @@ window.LESSON_CATALOG = [
     "url": "lessons/a1/day-02.html"
   },
   {
+    "id": "a1/day-03",
+    "level": "A1",
+    "title": "Ben, ailem, ülkem · tekrar",
+    "description": "A1 üçüncü ders, kapsamlı tekrar: am / is / are, ülkeler, milliyetler ve diller, meslekler, işyeri ve okul, telefonda kişisel bilgiler, formlar, aile kelimeleri, my / his / her, insanları tarif etmek, duygular ve fiziksel durum, sevdiklerimiz, e-posta ve aile paragrafı yazmak. Türkçe, adım adım ve yavaş; sınıf etkinlikleriyle.",
+    "number": 3,
+    "order": 3,
+    "date": "",
+    "duration": "230 dk",
+    "tags": [
+      "Tekrar",
+      "Kişisel bilgiler",
+      "Ülke ve milliyet",
+      "Aile",
+      "Görünüş",
+      "Duygular",
+      "Yazma"
+    ],
+    "url": "lessons/a1/day-03.html"
+  },
+  {
     "id": "a2/day-01",
     "level": "A2",
     "title": "Tanışma ve iletişim",
@@ -86,6 +106,26 @@ window.LESSON_CATALOG = [
       "Alıştırma"
     ],
     "url": "lessons/a2/a1-review.html"
+  },
+  {
+    "id": "a2/day-04",
+    "level": "A2",
+    "title": "Duygular · evim · şehrim",
+    "description": "A2 dersi (3 saat): duygu sıfatları ve pekiştireçler (a bit, quite, very, really); üzgün görünen birine sormak; kızgınlık ve ilgi; dış görünüş ve karakter; burçlar; en iyi arkadaşı anlatan metin; ev tipleri, odalar, eşyalar, this / that / these / those, yer edatları; evini anlatmak; şehirdeki yerler, can, şehir turu, şehrini yazmak; ev satın alma görüşmesi; kişisel mektup / e-posta. Türkçe, adım adım; sınıf etkinlikleriyle.",
+    "number": 4,
+    "order": 4,
+    "date": "",
+    "duration": "180 dk",
+    "tags": [
+      "Duygular",
+      "Karakter",
+      "Burçlar",
+      "Evim",
+      "Yer edatları",
+      "Şehrim",
+      "Mektup"
+    ],
+    "url": "lessons/a2/day-04.html"
   },
   {
     "id": "a2/practice",
@@ -173,6 +213,25 @@ window.LESSON_CATALOG = [
       "İstek ve ihtiyaç"
     ],
     "url": "lessons/b1/day-04.html"
+  },
+  {
+    "id": "b1/day-05",
+    "level": "B1",
+    "title": "Evde hayat · sorunlar · talimatlar · mektup",
+    "description": "B1 beşinci ders (3 saat): present simple ve present continuous ev hayatıyla; ev işleri, ev kuralları, yalnız ya da ev arkadaşıyla yaşamak; evdeki arızaları anlatmak ve yardım istemek; acil durum aramaları (112); faturalar ve duyurular; güvenlik ve yazılı talimatlar; gündelik yaşam hakkında fikirler; olayları sırayla anlatan ve film / müzik hakkında kişisel mektup. Türkçe, adım adım; sınıf etkinlikleriyle.",
+    "number": 5,
+    "order": 5,
+    "date": "",
+    "duration": "180 dk",
+    "tags": [
+      "Present tenses",
+      "Ev hayatı",
+      "Arızalar ve acil durum",
+      "Faturalar",
+      "Talimatlar",
+      "Mektup"
+    ],
+    "url": "lessons/b1/day-05.html"
   },
   {
     "id": "b1/practice",

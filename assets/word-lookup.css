@@ -1,0 +1,27 @@
+.ewl-launcher,.ewl-panel{box-sizing:border-box;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.5;letter-spacing:normal;text-align:left;color:#153c32}
+.ewl-launcher{position:fixed;right:18px;bottom:calc(var(--bar,76px) + 14px + env(safe-area-inset-bottom,0px));z-index:11000;border:1px solid #47695b;border-radius:999px;background:#173f32;color:#fffdf4;padding:11px 17px;box-shadow:0 4px 18px #102f2526;font-weight:750;cursor:pointer;min-height:44px}
+.ewl-panel{position:fixed;z-index:11010;overflow:auto;overscroll-behavior:contain;border:1px solid #9bb0a1;border-radius:18px;padding:17px;background:#fffef7;box-shadow:0 12px 44px #16362b38;isolation:isolate}
+.ewl-panel[hidden],.ewl-panel [hidden]{display:none!important}
+.ewl-panel *{box-sizing:border-box}
+.ewl-panel .ewl-header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 12px}
+.ewl-panel h2{margin:0;color:#153c32;font-family:inherit;font-size:15px;line-height:1.4;font-weight:750;text-transform:none;letter-spacing:0}
+.ewl-panel button,.ewl-panel input{font:inherit;letter-spacing:normal;text-transform:none}
+.ewl-panel button{cursor:pointer;min-height:44px}
+.ewl-panel .ewl-close{flex:none;display:grid;place-items:center;width:44px;height:44px;min-height:44px;padding:0;border:1px solid #d1dbd1;border-radius:50%;background:#f3f5e9;color:#214b3b;font-size:26px;line-height:1}
+.ewl-panel .ewl-form{display:block;margin:0;padding:0;border:0;background:transparent}
+.ewl-panel .ewl-label{display:block;color:#3b5c4e;font-size:12px;font-weight:700;margin:0 0 5px}
+.ewl-panel .ewl-fields{display:flex;gap:7px}
+.ewl-panel .ewl-input{display:block;min-width:0;width:100%;height:44px;min-height:44px;margin:0;padding:8px 10px;border:1px solid #90a99a;border-radius:9px;background:#fff;color:#173e31;font-size:16px;box-shadow:none}
+.ewl-panel .ewl-submit,.ewl-panel .ewl-retry{flex:none;padding:8px 14px;border:1px solid #173f32;border-radius:9px;background:#173f32;color:#fffdf4;font-size:14px;font-weight:700;box-shadow:none}
+.ewl-panel .ewl-hint,.ewl-panel .ewl-status,.ewl-panel .ewl-note{margin:10px 0 0;padding:0;color:#4c6658;font-size:12px;line-height:1.55}
+.ewl-panel .ewl-status{font-size:12px;min-height:19px}
+.ewl-panel .ewl-word{margin:14px 0 0;padding:0;font-size:25px;line-height:1.25;font-weight:800;color:#173f32;overflow-wrap:anywhere}
+.ewl-panel .ewl-base{margin:4px 0 0;padding:0;color:#526c5d;font-size:12px}
+.ewl-panel .ewl-detail{margin:13px 0 0;padding:0}
+.ewl-panel .ewl-caption{margin:0 0 3px;padding:0;color:#526a5b;font-size:11px;font-weight:750;letter-spacing:.03em;text-transform:uppercase}
+.ewl-panel .ewl-copy{margin:0;padding:0;color:#173f32;font-size:16px;line-height:1.55;overflow-wrap:anywhere;white-space:pre-wrap}
+.ewl-panel .ewl-example{padding:11px 12px;border-left:3px solid #88a989;border-radius:0 8px 8px 0;background:#edf2e6}
+.ewl-panel .ewl-retry{margin-top:12px}
+.ewl-launcher:focus-visible,.ewl-panel button:focus-visible,.ewl-panel input:focus-visible{outline:3px solid #7a5805;outline-offset:3px}
+@media(max-width:600px){.ewl-launcher{right:12px;bottom:calc(var(--bar,76px) + 12px + env(safe-area-inset-bottom,0px));padding:10px 15px}.ewl-panel{padding:14px;border-radius:15px}.ewl-panel .ewl-word{font-size:23px}}
+@media print{.ewl-launcher,.ewl-panel{display:none!important}}

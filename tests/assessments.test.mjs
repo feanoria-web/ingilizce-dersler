@@ -19,10 +19,11 @@ function namedFunction(html, start, end) {
   assert.ok(a >= 0 && b > a, 'native function fixture exists');
   return html.slice(a, b);
 }
-test('all 12 actual lessons have grading coverage and every published inline script parses', async () => {
+test('every discovered lesson has grading coverage and every published inline script parses', async () => {
   const paths = [];
   for (const group of ['a1', 'a2', 'b1', 'yds']) for (const name of await readdir(new URL('lessons/' + group + '/', base))) if (name.endsWith('.html')) paths.push(group + '/' + name);
-  assert.equal(paths.length, 12);
+  assert.ok(paths.length >= 15, 'the original lessons and all three newly imported lessons are present');
+  for (const added of ['a1/day-03.html', 'a2/day-04.html', 'b1/day-05.html']) assert.ok(paths.includes(added), added);
   for (const file of paths) {
     const original = await readFile(new URL('lessons/' + file, base), 'utf8');
     const { html, coverage } = instrumentAssessments(original, 'lessons/' + file);

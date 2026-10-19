@@ -16,7 +16,7 @@ Kesinti sırasında bekleyen en çok 300 olay yalnızca aynı öğrenci oturumuy
 
 “Şu an aktif” listesi 30 saniyede yenilenir; görünür, yakın zamanda kullanılan sekmeden son 75 saniyede aktif bildirimi gelmiş öğrencileri gösterir. Bir öğrencinin birkaç sekmesi tek kişi olarak görünür. Arka sekme, hareketsizlik, çıkış veya sona ermiş oturum aktif sayılmaz. Bu durum bildirimi çevrimdışı kuyruğa alınmaz; eski olayların yüklenmesi kişiyi çevrimiçi göstermez.
 
-Ayrıntılı kayıtlar öğrenci, sınıf, tarih, olay ve sonuç ile filtrelenir. Soru bazında verilen/doğru cevaplar ve tekrar denemeleri görünür. CSV en fazla 10.000 kayıt içerir; daha büyük geçmiş için filtre daraltılır. Serbest konuşma/yazma otomatik doğru/yanlış olarak puanlanmaz. Eski sürümde tutulmayan cevap ayrıntıları sonradan üretilemez; ayrıntılar bu güncellemeden itibaren birikir. Mevcut 12 dersin değerlendirme bağlantıları `scripts/instrument-assessments.mjs` içinde, yalnız yayın kopyalarına uygulanır; kaynak grader değiştiğinde eşleşme denetimi hatayı bildirilir.
+Ayrıntılı kayıtlar öğrenci, sınıf, tarih, olay ve sonuç ile filtrelenir. Soru bazında verilen/doğru cevaplar ve tekrar denemeleri görünür. CSV en fazla 10.000 kayıt içerir; daha büyük geçmiş için filtre daraltılır. Serbest konuşma/yazma otomatik doğru/yanlış olarak puanlanmaz. Eski sürümde tutulmayan cevap ayrıntıları sonradan üretilemez; ayrıntılar bu güncellemeden itibaren birikir. Derslerin değerlendirme bağlantıları `scripts/instrument-assessments.mjs` içinde, yalnız yayın kopyalarına uygulanır; kaynak grader değiştiğinde eşleşme denetimi hatayı bildirir.
 
 ## GitHub Pages ve veri gizliliği
 
@@ -62,6 +62,16 @@ node backend/export-admin-hash.mjs | npx wrangler@4 secret put ADMIN_PASSWORD_HA
 
 Kendi HTML dersinizi `lessons/a1`, `lessons/a2`, `lessons/b1` veya `lessons/yds` klasörüne yükleyin. GitHub Pages iş akışı katalog üretir ve yayın kopyasına giriş/takip scriptlerini ekler. Kaynak HTML'nin çevrimdışı içeriği yeniden yazılmaz. Ders dosyasının `<title>` ve isteğe bağlı `lesson-meta` JSON bilgileri kullanılır. YDS değişiklikleri `yds-src/` içinden yapılır. Eski yerel ders hazırlama aracı `lesson-upload.html` dosyasında saklanmıştır; yayınlanmaz.
 
+Yeni eklenen dersler: A1 Ders 3 **Ben, ailem, ülkem · tekrar**, A2 Ders 4 **Duygular · evim · şehrim**, B1 Ders 5 **Evde hayat · sorunlar · talimatlar · mektup**. Kaynaklarda tarih belirtilmediği için tarih alanları boş bırakılmıştır.
+
+## Kelime seçerek sözlük
+
+Yayınlanan A1, A2 ve B1 derslerinde İngilizce bir kelimeyi veya en fazla beş kelimelik kısa ifadeyi seçmek, Türkçe anlamını ve İngilizce örneğini açar. Masaüstünde çift tıklama/metin seçme, telefonda uzun basarak seçme kullanılabilir. **Aa Sözlük** düğmesi ve arama alanı klavyeyle de kullanılabilir. `Escape`, kapatma düğmesi veya kutunun dışına dokunma sözlüğü kapatır; cevap yazılan alanlarda sözlük açılmaz.
+
+Önce `word-lookup/common.json` içindeki ortak kelimeler ve dersin `LESSON.vocab` bankası kullanılır. Bu karşılıklar internet istemez. Bulunmayan ifadeler için yalnızca seçilen/aranan ifade [MyMemory](https://mymemory.translated.net/doc/spec.php) ve tek kelime örnekleri için [Free Dictionary API](https://dictionaryapi.dev/) hizmetlerine gönderilir; dersin çevre cümlesi, öğrenci adı, oturum anahtarı ve cevaplar gönderilmez. Çevrim içi karşılıklar otomatik çeviri niteliğindedir; hizmet kotası, kesinti veya örnek bulunamaması kutuda belirtilir. Sözlük örneği yoksa seçilen ders cümlesi ayrı bir “Dersten örnek” etiketiyle gösterilir. Arama belleği geçicidir, tarayıcı depolamasına yazılmaz.
+
+`scripts/inject-word-lookup.mjs`, sözlük verisini ve sürümlü CSS/JS bağlantılarını yalnız yayın kopyalarına ekler. Böylece ileride eklenen A1/A2/B1 dersleri de aynı özelliği otomatik kazanır. Belirli bir derste kapatmak için `lesson-meta` içine `"wordLookup": false` eklenebilir. Soru, cevap, giriş ve yönetim yetkileri bu özellikten bağımsız çalışır.
+
 ## Kontroller
 
 ```powershell
@@ -73,6 +83,6 @@ node scripts/test-auth-client.cjs
 node scripts/test-dashboard.cjs
 ```
 
-API ve SQLite, tarayıcı giriş/rol/yönlendirme, yönetim paneli verileri ve çevrimdışı kuyruk için otomatik testler vardır. Kullanıcı arayüzü otomasyonu bu oturumda kullanılamadığından görsel tarayıcı kontrolü yapılmamıştır.
+API ve SQLite, tarayıcı giriş/rol/yönlendirme, yönetim paneli verileri ve çevrimdışı kuyruk için otomatik testler vardır. Sözlük için metin seçimi, klavye/telefon yerleşimi, Türkçe anlam ve örnekler, geç gelen yanıtların iptali ve çevrim içi hata durumları ayrıca kontrol edilir. Yeni dersler ve giriş akışı, gerçek öğrenci kayıtlarına dokunmadan bellek veritabanındaki sahte kullanıcıyla tarayıcıda doğrulanmıştır.
 
 Teknik sınırlar için [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) ve [Cloudflare D1 limitleri](https://developers.cloudflare.com/d1/platform/limits/) esas alınmıştır. Workers PBKDF2 işlem sınırına uygun özet biçimi kullanılır ([Cloudflare workerd](https://github.com/cloudflare/workerd/pull/7550)). Cloudflare ücretsiz planının günlük kaynak limitleri vardır.
