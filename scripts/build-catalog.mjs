@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import {instrumentHtml} from './inject-access.mjs';
 import {instrumentAssessments} from './instrument-assessments.mjs';
 import {instrumentWordLookup} from './inject-word-lookup.mjs';
+import {instrumentBreakReview} from './inject-break-review.mjs';
 
 export const SITE_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const LEVELS = ['a1', 'a2', 'b1', 'yds'];
@@ -185,13 +186,14 @@ async function stageSite(output, root) {
   }
   const common = JSON.parse(await fs.readFile(path.join(root,'word-lookup/common.json'),'utf8'));
   const lookupVersions = {};
-  for (const name of ['word-lookup.js','word-lookup.css','access-config.js','auth-client.js','activity-tracker.js','access.css']) lookupVersions[name] = createHash('sha256').update(await fs.readFile(path.join(root,'assets',name))).digest('hex').slice(0,12);
+  for (const name of ['word-lookup.js','word-lookup.css','access-config.js','auth-client.js','activity-tracker.js','access.css','break-review.js','break-review.css']) lookupVersions[name] = createHash('sha256').update(await fs.readFile(path.join(root,'assets',name))).digest('hex').slice(0,12);
   const coverage=[];
   for (const file of (await listFiles(path.join(target,'lessons'))).filter(f=>/\.html?$/i.test(f))) {
     const relative=path.relative(target,file).split(path.sep).join('/');
     const assessed=instrumentAssessments(await fs.readFile(file,'utf8'),relative);coverage.push(assessed.coverage);
     const withDictionary = instrumentWordLookup(assessed.html,relative,{common,versions:lookupVersions});
-    await fs.writeFile(file,instrumentHtml(withDictionary,relative,{versions:lookupVersions}));
+    const withBreakReview = instrumentBreakReview(withDictionary,relative,{versions:lookupVersions});
+    await fs.writeFile(file,instrumentHtml(withBreakReview,relative,{versions:lookupVersions}));
   }
   await fs.writeFile(path.join(target,'assets/assessment-coverage.json'),JSON.stringify(coverage,null,2));
   for(const page of ['index.html','login.html','admin.html']) {
