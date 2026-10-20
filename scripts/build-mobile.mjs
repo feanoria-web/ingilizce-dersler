@@ -68,7 +68,7 @@ export async function buildMobile(root = ROOT) {
   const output = path.join(root,'_site');
   await fs.access(path.join(output,'index.html'));
   const versions = {};
-  for (const file of ['mobile-common.css','mobile-lessons.css','mobile-board.css','mobile-yds.css']) {
+  for (const file of ['mobile-common.css','mobile-lessons.css','mobile-board.css','mobile-yds.css','mobile-tools.js']) {
     const bytes = await fs.readFile(path.join(root,'assets',file));
     versions[file] = hash(bytes).slice(0,12);
     await fs.writeFile(path.join(output,'assets',file),bytes);
@@ -91,8 +91,9 @@ export async function buildMobile(root = ROOT) {
     html = viewport(html);
     const css = ['mobile-common.css',...(lesson ? [`mobile-${family==='lesson'?'lessons':family}.css`] : [])];
     const links = css.map(asset=>`<link rel="stylesheet" href="${relative(file,path.join(output,'assets',asset))}?v=${versions[asset]}">`).join('\n');
+    const tools = lesson ? `\n<script defer src="${relative(file,path.join(output,'assets/mobile-tools.js'))}?v=${versions['mobile-tools.js']}"></script>` : '';
     html = html.replace(/\s*<!-- english-mobile:start -->[\s\S]*?<!-- english-mobile:end -->/g,'')
-      .replace(/<\/head>/i,`\n<!-- english-mobile:start -->\n${links}\n<!-- english-mobile:end -->\n</head>`);
+      .replace(/<\/head>/i,`\n<!-- english-mobile:start -->\n${links}${tools}\n<!-- english-mobile:end -->\n</head>`);
     if (lesson) {
       const transformed = await externalizeMedia(html,name,async (mediaName,bytes)=>{
         if (written.has(mediaName)) return;

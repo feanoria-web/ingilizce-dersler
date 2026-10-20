@@ -29,6 +29,7 @@ async function fixture(t) {
   await fs.mkdir(path.join(root, 'assets'), { recursive: true });
   await fs.mkdir(path.join(root, '_site/assets'), { recursive: true });
   for (const file of CSS) await fs.writeFile(path.join(root, 'assets', file), `/* ${file} */\nbody { color: #164e45; }\n`);
+  await fs.writeFile(path.join(root,'assets/mobile-tools.js'),'(() => {})();\n');
   const write = async (name, html, source = false) => {
     for (const base of source ? [root, path.join(root, '_site')] : [path.join(root, '_site')]) {
       const target = path.join(base, name);
@@ -137,12 +138,14 @@ test('future lessons get the appropriate family CSS, current versions and a comp
       assert.ok(html.includes(`../../assets/${asset}?v=${expected}`), name + ' ' + asset);
     }
     assert.equal(report.find(row => row.lesson === name).family, family);
+    assert.match(html,/src="\.\.\/\.\.\/assets\/mobile-tools\.js\?v=[a-f0-9]{12}"/);
     assert.equal(await fs.readFile(path.join(f.root, name), 'utf8'), source);
   }
   const home = await f.read('index.html');
   assert.match(home, /class="mobile-portal"/);
   assert.match(home, /href="assets\/mobile-common\.css\?v=[a-f0-9]{12}"/);
   assert.doesNotMatch(home, /mobile-(?:lessons|board|yds)\.css/);
+  assert.doesNotMatch(home,/mobile-tools\.js/);
 });
 
 test('the complete build deduplicates media across lessons and is byte-stable on a second run', async t => {
