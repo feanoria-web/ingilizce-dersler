@@ -228,6 +228,7 @@ export async function buildCatalog({ root = SITE_ROOT, output } = {}) {
   await fs.mkdir(path.join(root, 'assets'), { recursive: true });
   const json = JSON.stringify(catalog, null, 2).replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');
   await fs.writeFile(path.join(root, 'assets', 'catalog.js'), `// Otomatik üretilir. Dersleri lessons/a1, lessons/a2, lessons/b1 ve lessons/yds klasörlerine ekleyin.\nwindow.LESSON_CATALOG = ${json};\n`);
+  await fs.writeFile(path.join(root, 'assets', 'catalog.json'), `${json}\n`);
   if (output) await stageSite(output, root);
   console.log(`Katalog hazır: ${catalog.length} ders${output ? `; yayın dosyaları: ${output}` : ''}.`);
   return catalog;

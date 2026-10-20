@@ -1,0 +1,64 @@
+plugins {
+    id 'com.android.application'
+}
+
+def signingNames = [
+    'ENGLISH_KEYSTORE',
+    'ENGLISH_KEY_ALIAS',
+    'ENGLISH_KEYSTORE_PASSWORD',
+    'ENGLISH_KEY_PASSWORD'
+]
+def signingValues = signingNames.collectEntries { [(it): System.getenv(it)] }
+def configuredSigningValues = signingValues.values().count { it != null && !it.isEmpty() }
+if (configuredSigningValues > 0 && configuredSigningValues < signingNames.size()) {
+    throw new GradleException('İmzalama için dört ENGLISH_KEYSTORE / ENGLISH_KEY_ALIAS / ENGLISH_KEYSTORE_PASSWORD / ENGLISH_KEY_PASSWORD ortam değişkeninin tamamı gereklidir.')
+}
+def releaseSigningAvailable = configuredSigningValues == signingNames.size()
+
+android {
+    namespace 'io.github.feanoriaweb.english'
+    compileSdk 36
+    buildToolsVersion '36.1.0'
+
+    defaultConfig {
+        applicationId 'io.github.feanoriaweb.english'
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName '1.0.0'
+    }
+
+    signingConfigs {
+        if (releaseSigningAvailable) {
+            release {
+                storeFile rootProject.file(signingValues.ENGLISH_KEYSTORE)
+                storePassword signingValues.ENGLISH_KEYSTORE_PASSWORD
+                keyAlias signingValues.ENGLISH_KEY_ALIAS
+                keyPassword signingValues.ENGLISH_KEY_PASSWORD
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            if (releaseSigningAvailable) {
+                signingConfig signingConfigs.release
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    lint {
+        abortOnError true
+        checkReleaseBuilds true
+    }
+}
+
+dependencies {
+    implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.7.4'
+}

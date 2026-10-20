@@ -1,0 +1,268 @@
+[
+  {
+    "id": "a1/day-01",
+    "level": "A1",
+    "title": "Merhaba! İlk ders",
+    "description": "A1 birinci gün: selamlaşma, tanışma, hal hatır sorma, nezaket sözcükleri, alfabe ve heceleme, 0–20 sayılar, telefon numarası, memleket, arkadaşını tanıtma, e-posta adresi ve kayıt formu. Her konu Türkçe, adım adım ve yavaş anlatılır; okunuşlar, sesli örnekler, koro tekrarı ve oyunlarla.",
+    "number": 1,
+    "order": 1,
+    "date": "2026-10-10",
+    "duration": "210 dk",
+    "tags": [
+      "Tanışma",
+      "Selamlaşma",
+      "Alfabe",
+      "Sayılar"
+    ],
+    "url": "lessons/a1/day-01.html"
+  },
+  {
+    "id": "a1/day-02",
+    "level": "A1",
+    "title": "A, B, C · Sayılar · What's this?",
+    "description": "A1 ikinci gün: alfabe A – Z ve heceleme (ad, soyad, Türkçe harfler, dikte, kısaltmalar), 20 – 100 sayılar ve fiyat, haftanın günleri, sınıf komutları, sınıftaki eşyalar ve renkler. Etkinlikler sınıfta yapılır: soru topu, tahta yarışı, sayı tombalası, günleri sıraya diz, Simon says, gizemli çanta, spelling bee; yazdırılabilir kartlar. Türkçe, adım adım ve yavaş.",
+    "number": 2,
+    "order": 2,
+    "date": "",
+    "duration": "230 dk",
+    "tags": [
+      "Alfabe",
+      "Heceleme",
+      "Sayılar",
+      "Günler",
+      "Renkler",
+      "Sınıf etkinlikleri"
+    ],
+    "url": "lessons/a1/day-02.html"
+  },
+  {
+    "id": "a1/day-03",
+    "level": "A1",
+    "title": "Ben, ailem, ülkem · tekrar",
+    "description": "A1 üçüncü ders, kapsamlı tekrar: am / is / are, ülkeler, milliyetler ve diller, meslekler, işyeri ve okul, telefonda kişisel bilgiler, formlar, aile kelimeleri, my / his / her, insanları tarif etmek, duygular ve fiziksel durum, sevdiklerimiz, e-posta ve aile paragrafı yazmak. Türkçe, adım adım ve yavaş; sınıf etkinlikleriyle.",
+    "number": 3,
+    "order": 3,
+    "date": "",
+    "duration": "230 dk",
+    "tags": [
+      "Tekrar",
+      "Kişisel bilgiler",
+      "Ülke ve milliyet",
+      "Aile",
+      "Görünüş",
+      "Duygular",
+      "Yazma"
+    ],
+    "url": "lessons/a1/day-03.html"
+  },
+  {
+    "id": "a2/day-01",
+    "level": "A2",
+    "title": "Tanışma ve iletişim",
+    "description": "İlk gün: merhaba, sorular ve yeni arkadaşlar. Konuşma, kısa okuma, dinleme ve 150 kelimelik başvuru bankası.",
+    "number": 1,
+    "order": 1,
+    "date": "2026-10-05",
+    "duration": "180 dk",
+    "tags": [
+      "Tanışma",
+      "Konuşma",
+      "Dinleme",
+      "Kelime bankası"
+    ],
+    "url": "lessons/a2/day-01.html"
+  },
+  {
+    "id": "a2/day-02",
+    "level": "A2",
+    "title": "İnsanları anlatmak",
+    "description": "Görünüş, karakter ve kıyafetler. Comparatives, superlatives ve usually wears / is wearing alıştırmaları.",
+    "number": 2,
+    "order": 2,
+    "date": "2026-10-06",
+    "duration": "180 dk",
+    "tags": [
+      "Kişilik",
+      "Karşılaştırma",
+      "Kıyafetler",
+      "Dil bilgisi"
+    ],
+    "url": "lessons/a2/day-02.html"
+  },
+  {
+    "id": "a2/a1-review",
+    "level": "A2",
+    "title": "A1 genel tekrarı",
+    "description": "A2 kursu için A1 dilbilgisinin tamamı: alfabe ve sayılardan be, have got, Present Simple, sorular, can, Present Continuous, miktar ifadeleri, saat, in / on / at ve was / were – Past Simple'a kadar 16 konu kutusu. Türkçe konu anlatımı, yüzlerce örnek, alıştırma ve konuşma etkinlikleri.",
+    "number": 3,
+    "order": 3,
+    "date": "",
+    "duration": "170 dk",
+    "tags": [
+      "Genel tekrar",
+      "A1 dilbilgisi",
+      "Konu anlatımı",
+      "Alıştırma"
+    ],
+    "url": "lessons/a2/a1-review.html"
+  },
+  {
+    "id": "a2/day-04",
+    "level": "A2",
+    "title": "Duygular · evim · şehrim",
+    "description": "A2 dersi (3 saat): duygu sıfatları ve pekiştireçler (a bit, quite, very, really); üzgün görünen birine sormak; kızgınlık ve ilgi; dış görünüş ve karakter; burçlar; en iyi arkadaşı anlatan metin; ev tipleri, odalar, eşyalar, this / that / these / those, yer edatları; evini anlatmak; şehirdeki yerler, can, şehir turu, şehrini yazmak; ev satın alma görüşmesi; kişisel mektup / e-posta. Türkçe, adım adım; sınıf etkinlikleriyle.",
+    "number": 4,
+    "order": 4,
+    "date": "",
+    "duration": "180 dk",
+    "tags": [
+      "Duygular",
+      "Karakter",
+      "Burçlar",
+      "Evim",
+      "Yer edatları",
+      "Şehrim",
+      "Mektup"
+    ],
+    "url": "lessons/a2/day-04.html"
+  },
+  {
+    "id": "a2/practice",
+    "level": "A2",
+    "title": "Tanışma ve konuşma · Ek çalışma",
+    "description": "Seviye testi, aile ve insanlar hakkında sorular, kişi betimleme ve sohbet. Bireysel çalışma kitabı ve yazdırılabilir materyaller.",
+    "number": null,
+    "order": 90,
+    "date": "2026-10-05",
+    "duration": "170 dk",
+    "tags": [
+      "Seviye testi",
+      "Aile",
+      "Çalışma kitabı",
+      "Yazdırılabilir materyaller"
+    ],
+    "url": "lessons/a2/practice.html"
+  },
+  {
+    "id": "b1/day-01",
+    "level": "B1",
+    "title": "Tanışma ve iletişim",
+    "description": "İlk gün: insanlar, hikâyeler ve sohbetler. Devam soruları, ilgi alanları, okuma, dinleme ve 170 kelimelik başvuru bankası.",
+    "number": 1,
+    "order": 1,
+    "date": "2026-10-05",
+    "duration": "180 dk",
+    "tags": [
+      "Tanışma",
+      "Konuşma",
+      "Dinleme",
+      "Kelime bankası"
+    ],
+    "url": "lessons/b1/day-01.html"
+  },
+  {
+    "id": "b1/day-02",
+    "level": "B1",
+    "title": "Dünden bugüne yaşam",
+    "description": "Alışkanlıklar, değişimler ve inançlar. Present Simple / Continuous, stative verbs, used to ve görüş bildirme.",
+    "number": 2,
+    "order": 2,
+    "date": "2026-10-06",
+    "duration": "180 dk",
+    "tags": [
+      "Yaşam tarzı",
+      "Zamanlar",
+      "Used to",
+      "Görüş bildirme"
+    ],
+    "url": "lessons/b1/day-02.html"
+  },
+  {
+    "id": "b1/day-03",
+    "level": "B1",
+    "title": "A2 genel tekrarı",
+    "description": "B1 üçüncü gün: şimdiki ve geçmiş zamanlar, gelecek biçimleri, karşılaştırmalar, modals, miktar ifadeleri ve in / on / at. Konu özetleri, alıştırmalar ve konuşma etkinlikleri.",
+    "number": 3,
+    "order": 3,
+    "date": "2026-10-07",
+    "duration": "170 dk",
+    "tags": [
+      "Genel tekrar",
+      "Zamanlar",
+      "Modals",
+      "Konuşma"
+    ],
+    "url": "lessons/b1/day-03.html"
+  },
+  {
+    "id": "b1/day-04",
+    "level": "B1",
+    "title": "Dün, bugün, yarın · If · Planlar ve hayaller",
+    "description": "B1 12 Ekim dersi (3 saat): geçmiş, şimdiki ve gelecek zamanda konuşmak; if, when, while, unless ile durum ve şart; olasılık kalıpları; fikir, tahmin ve planları gerekçeyle anlatmak; hayaller, umutlar, hedefler; istek ve ihtiyaçlar. Türkçe, adım adım; sınıfta konuşma etkinlikleriyle.",
+    "number": 4,
+    "order": 4,
+    "date": "2026-10-12",
+    "duration": "180 dk",
+    "tags": [
+      "Zamanlar",
+      "Koşul cümleleri",
+      "Olasılık",
+      "Fikir ve gerekçe",
+      "Plan ve hayal",
+      "İstek ve ihtiyaç"
+    ],
+    "url": "lessons/b1/day-04.html"
+  },
+  {
+    "id": "b1/day-05",
+    "level": "B1",
+    "title": "Evde hayat · sorunlar · talimatlar · mektup",
+    "description": "B1 beşinci ders (3 saat): present simple ve present continuous ev hayatıyla; ev işleri, ev kuralları, yalnız ya da ev arkadaşıyla yaşamak; evdeki arızaları anlatmak ve yardım istemek; acil durum aramaları (112); faturalar ve duyurular; güvenlik ve yazılı talimatlar; gündelik yaşam hakkında fikirler; olayları sırayla anlatan ve film / müzik hakkında kişisel mektup. Türkçe, adım adım; sınıf etkinlikleriyle.",
+    "number": 5,
+    "order": 5,
+    "date": "",
+    "duration": "180 dk",
+    "tags": [
+      "Present tenses",
+      "Ev hayatı",
+      "Arızalar ve acil durum",
+      "Faturalar",
+      "Talimatlar",
+      "Mektup"
+    ],
+    "url": "lessons/b1/day-05.html"
+  },
+  {
+    "id": "b1/practice",
+    "level": "B1",
+    "title": "Tanışma ve konuşma · Ek çalışma",
+    "description": "Seviye testi, insanlar ve kişilikler, sohbet başlatma ve sürdürme. Rol oyunları, dinleme ve bireysel çalışma etkinlikleri.",
+    "number": null,
+    "order": 90,
+    "date": "2026-10-05",
+    "duration": "170 dk",
+    "tags": [
+      "Seviye testi",
+      "Kişilik",
+      "Rol oyunu",
+      "Bireysel çalışma"
+    ],
+    "url": "lessons/b1/practice.html"
+  },
+  {
+    "id": "yds/grammar-studio",
+    "level": "YDS",
+    "title": "YDS Grammar Studio · 12 ünite",
+    "description": "123 konu anlatımı, 230 açıklamalı soru, 12 akademik okuma ve 144 kelime kartı.",
+    "number": 1,
+    "order": 1,
+    "date": "2026-10-06",
+    "duration": "Kendi hızında",
+    "tags": [
+      "Dil bilgisi",
+      "Açıklamalı sorular",
+      "Okuma ve kelimeler"
+    ],
+    "url": "lessons/yds/grammar-studio.html"
+  }
+]

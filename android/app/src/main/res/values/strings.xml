@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hüdavendigar English</string>
+    <string name="shortcut_a1_short">A1</string>
+    <string name="shortcut_a1_long">A1 dersleri</string>
+    <string name="shortcut_a2_short">A2</string>
+    <string name="shortcut_a2_long">A2 dersleri</string>
+    <string name="shortcut_b1_short">B1</string>
+    <string name="shortcut_b1_long">B1 dersleri</string>
+    <string name="shortcut_yds_short">YDS</string>
+    <string name="shortcut_yds_long">YDS dersleri</string>
+    <string name="asset_statements" translatable="false">[{\"relation\":[\"delegate_permission/common.handle_all_urls\"],\"target\":{\"namespace\":\"web\",\"site\":\"https://feanoria-web.github.io\"}}]</string>
+</resources>

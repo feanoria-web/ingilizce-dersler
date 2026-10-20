@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#164e45">
+  <meta name="robots" content="noindex">
+  <title>İnternet bağlantısı gerekiyor · Hüdavendigar English</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#163e37;background:#f9f5ed}
+    *{box-sizing:border-box}body{margin:0;min-height:100svh;display:grid;place-items:center;padding:28px}
+    main{width:min(100%,490px);padding:36px;border:1px solid #d9dfd2;border-radius:24px;background:#fffdf8;box-shadow:0 12px 40px #164e4509}
+    .mark{display:grid;place-items:center;width:58px;height:58px;background:#164e45;border-radius:16px;color:#fff;font-size:26px;font-weight:750}
+    .school{font-size:12px;line-height:1.6;letter-spacing:.07em;text-transform:uppercase;color:#50675b;margin:22px 0 10px}
+    h1{font-size:clamp(25px,6vw,32px);line-height:1.2;margin:0 0 16px;letter-spacing:-.03em}
+    p{font-size:16px;line-height:1.65;margin:0 0 14px;color:#506057}
+    button{width:100%;margin-top:12px;padding:15px 22px;border:0;border-radius:12px;background:#164e45;color:white;font:inherit;font-weight:650;cursor:pointer}
+    button:focus-visible{outline:3px solid #b48133;outline-offset:4px}.note{font-size:13px;margin:17px 0 0}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true">E</div>
+    <p class="school">Hüdavendigar Sosyal Gelişim Merkezi</p>
+    <h1>İnternet bağlantısı gerekiyor</h1>
+    <p>Güncel derslere ulaşmak ve giriş yapmak için internete bağlanın. Bağlantınızı kontrol ettikten sonra kaldığınız sayfayı yeniden açabilirsiniz.</p>
+    <button type="button" id="retry">Yeniden dene</button>
+    <p class="note">Daha önce bu cihazda kaydedilen cevaplarınız silinmez.</p>
+  </main>
+  <script>
+    document.getElementById('retry').addEventListener('click', () => location.reload());
+  </script>
+</body>
+</html>

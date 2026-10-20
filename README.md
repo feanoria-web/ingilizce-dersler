@@ -4,6 +4,18 @@ Gürkan Öztürk · Hüdavendigar Sosyal Gelişim Merkezi
 
 Ana site: https://feanoria-web.github.io/ingilizce-dersler/
 
+## Android uygulaması
+
+`android/` mevcut siteyi Chrome ve diğer uyumlu tarayıcıların Trusted Web Activity altyapısıyla açar. Seslendirme, sözlük, indirme, giriş, loglar ve mola özetleri aynı siteden çalışır. Güncel ders listesi ana menü açıldığında, tekrar ön plana geldiğinde ve görünürken her 60 saniyede ağdan kontrol edilir; seçili seviye, arama ve ekran konumu korunur. Ders çalışırken otomatik sayfa yenilenmez. Yeni ders için APK veya Play sürümü çıkarmak gerekmez; GitHub Pages yayınının tamamlanması gerekir.
+
+Web manifesti ve service worker yalnız `ingilizce-dersler/` kapsamında çalışır. Dersler, katalog, giriş ve API yanıtları service worker önbelleğine yazılmaz. Yalnız bağlantı mesajı çevrimdışı gösterilir. Android 8.0 ve üzeri ile güncel, TWA destekleyen bir tarayıcı gerekir. Öğrenci girişinin ayrı tarayıcı sekmeleriyle otomatik paylaşılacağı varsayılmaz.
+
+İmzalı APK/AAB üretimi: `scripts/build-android.ps1`; yapılandırma ve Play imzalama açıklamaları: `android/README.md`. Betik özel anahtar ve parolayı depo dışındaki `Android-Imza-Yedegi` klasöründe saklar, uygulamaya veya GitHub'a koymaz. Güncellemeler için bu yedeği koruyun. CI yalnız deneme APK'sını ve imzasız AAB'yi doğrular; mağazaya yayın yapmaz. Mağaza metni `android-store/MAGAZA-METNI.md`, herkese açık gizlilik ve veri silme iletişimi `privacy.html` içindedir.
+
+Tam ekran site doğrulaması `https://feanoria-web.github.io/.well-known/assetlinks.json` adresindedir; ayrı `feanoria-web.github.io` deposu kök dosyayı yayımlar. Play farklı uygulama imzalama anahtarı kullanırsa o sertifikanın parmak izi de mevcut listeye eklenmelidir.
+
+## Öğrenci girişi
+
 Öğrenci tek şifre alanına kendi adını veya ad-soyadını yazar. Büyük/küçük harf, Türkçe karakterler ve boşluklar eşitlenir. Aynı kısa ad birden fazla öğrenciyi gösteriyorsa tam ad istenir. A1, A2 ve B1 sınıfı rapor filtresidir; herkes aynı ders paneline erişir.
 
 Öğretmen `admin.html` sayfasına ayrı, en az 12 karakterlik yönetici şifresiyle girer. Öğrenci şifresi yönetim yetkisi vermez. Yönetim panelinde giriş yapan/yapmayan öğrenciler, ilk ve son girişler, seçili dönemde açılan dersler, etkinlik geçmişi, yaklaşık aktif süre, CSV çıktısı ve öğrenci erişimi açma/kapatma bulunur. Tarihler İstanbul saatidir. "Hiç giriş yapmadı" tüm geçmişe bakar; tarih filtresi eski bir ziyaretçiyi hiç giriş yapmamış saymaz.

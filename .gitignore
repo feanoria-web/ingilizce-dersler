@@ -6,6 +6,11 @@ private/
 .env
 *.sqlite*
 *.log
+*.jks
+*.keystore
+*.apk
+*.aab
+/android-store/private/
 *.zip
 /lesson-upload.html
 /assets/admin.js

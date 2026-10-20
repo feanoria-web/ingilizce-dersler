@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="lessons_a1"
+        android:enabled="true"
+        android:icon="@drawable/ic_book_foreground"
+        android:shortcutShortLabel="@string/shortcut_a1_short"
+        android:shortcutLongLabel="@string/shortcut_a1_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="io.github.feanoriaweb.english"
+            android:targetClass="com.google.androidbrowserhelper.trusted.ShortcutTrampolineActivity"
+            android:data="https://feanoria-web.github.io/ingilizce-dersler/index.html#A1" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="lessons_a2"
+        android:enabled="true"
+        android:icon="@drawable/ic_book_foreground"
+        android:shortcutShortLabel="@string/shortcut_a2_short"
+        android:shortcutLongLabel="@string/shortcut_a2_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="io.github.feanoriaweb.english"
+            android:targetClass="com.google.androidbrowserhelper.trusted.ShortcutTrampolineActivity"
+            android:data="https://feanoria-web.github.io/ingilizce-dersler/index.html#A2" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="lessons_b1"
+        android:enabled="true"
+        android:icon="@drawable/ic_book_foreground"
+        android:shortcutShortLabel="@string/shortcut_b1_short"
+        android:shortcutLongLabel="@string/shortcut_b1_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="io.github.feanoriaweb.english"
+            android:targetClass="com.google.androidbrowserhelper.trusted.ShortcutTrampolineActivity"
+            android:data="https://feanoria-web.github.io/ingilizce-dersler/index.html#B1" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="lessons_yds"
+        android:enabled="true"
+        android:icon="@drawable/ic_book_foreground"
+        android:shortcutShortLabel="@string/shortcut_yds_short"
+        android:shortcutLongLabel="@string/shortcut_yds_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="io.github.feanoriaweb.english"
+            android:targetClass="com.google.androidbrowserhelper.trusted.ShortcutTrampolineActivity"
+            android:data="https://feanoria-web.github.io/ingilizce-dersler/index.html#YDS" />
+    </shortcut>
+</shortcuts>
