@@ -7,6 +7,7 @@ import {instrumentAssessments} from './instrument-assessments.mjs';
 import {instrumentWordLookup} from './inject-word-lookup.mjs';
 import {instrumentBreakReview} from './inject-break-review.mjs';
 import {instrumentLearning} from './instrument-learning.mjs';
+import {instrumentB1Study} from './b1-study.mjs';
 
 export const SITE_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const LEVELS = ['a1', 'a2', 'b1', 'yds'];
@@ -191,7 +192,8 @@ async function stageSite(output, root) {
   const coverage=[];
   for (const file of (await listFiles(path.join(target,'lessons'))).filter(f=>/\.html?$/i.test(f))) {
     const relative=path.relative(target,file).split(path.sep).join('/');
-    const assessed=instrumentAssessments(await fs.readFile(file,'utf8'),relative);coverage.push(assessed.coverage);
+    const withStudy=await instrumentB1Study(await fs.readFile(file,'utf8'),relative,root);
+    const assessed=instrumentAssessments(withStudy,relative);coverage.push(assessed.coverage);
     const withDictionary = instrumentWordLookup(assessed.html,relative,{common,versions:lookupVersions});
     const withBreakReview = instrumentBreakReview(withDictionary,relative,{versions:lookupVersions});
     const withLearning = instrumentLearning(withBreakReview,relative,{versions:lookupVersions});

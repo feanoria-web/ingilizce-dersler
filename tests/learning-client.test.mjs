@@ -38,6 +38,20 @@ async function harness({id='student-1',storage=new Map(),offline=true,preOpen=fa
 const results=app=>app.events().filter(event=>event.type==='question_result');
 const check=(app,id='q1',answer='am',right=true)=>app.api.result(id,'I ___ here.',answer,'am',right);
 
+test('separate study-guide practice is logged without revealing unrelated native quiz answers',async()=>{
+  const app=await harness();
+  app.api.open('q1','I ___ here.','fill-blank',{id:'be',title:'Am / is / are'});
+  await app.emit('english:learning-event',{detail:{type:'help_used',learning:{kind:'help',helpType:'answer',questionId:null,attemptedBeforeHelp:null,topicId:'study:b1sg-living-2',topicTitle:'Ayrıntılı rehber: On the one hand'}}});
+  assert.equal(results(app).length,0,'Opening a mini answer is not a graded attempt');
+  const help=app.events().find(event=>event.type==='help_used');
+  assert.equal(help.learning.topicId,'study:b1sg-living-2');
+  assert.equal(help.learning.questionId,null);
+  assert.equal(help.learning.attemptedBeforeHelp,null);
+  check(app);
+  assert.equal(results(app).at(-1).learning.answerRevealed,false);
+  assert.equal(results(app).at(-1).learning.helpUsed,false);
+});
+
 test('question timing counts wall time separately from observed active time',async()=>{
   const app=await harness();app.api.open('q1','I ___ here.','fill-blank',{id:'be',title:'Am / is / are'});
   await app.advance(10000);app.document.visibilityState='hidden';await app.emit('visibilitychange',{},'document');
