@@ -37,6 +37,7 @@
   const ui = {bankUnit:'all',bankType:'all',bankSearch:'',bankUnsolved:false,bankPage:0,wordUnit:'all',wordSearch:'',wordMode:'all',flipped:new Set(),testUnit:'all',testCount:20,testMinutes:30,testReading:false};
   let toastTimer;
   let currentRoute;
+  let searchTimer = null;
 
   function save() {
     try { localStorage.setItem(KEY,JSON.stringify(state)); } catch (_) { storageOK=false; }
@@ -100,10 +101,32 @@
     return `${breadcrumbs(unit,'Okuma çalışması')}${pageHead(`OKUMA / ÜNİTE ${String(unit.number).padStart(2,'0')}`,unit.reading.title,'İlk okumada genel anlamı takip et. İkinci okumada bağlaçları, ana yüklemleri ve ilgili dil bilgisi yapılarını fark et.')}<div class="actions"><a class="button small" href="#unit/${unit.id}">Konu anlatımını aç ↗</a><a class="button small" href="#reading">Tüm okumalar</a></div><div class="reading-text">${formatPassage(unit.reading.text)}</div><p class="reading-hint">Küçük bir çalışma: Her cümlenin ana öznesini ve yüklemini bul. Sonra ünitenin konusuyla ilişkili bir yapıyı seçerek cümleye kattığı anlamı kendi sözlerinle açıkla.</p><div class="section-heading"><h2>Metni soruda oku</h2><span>3 açıklamalı soru</span></div>${QUESTIONS.filter(q=>q.unitId===unit.id&&q.type==='reading').map((q,i)=>questionCard(q,{position:i+1})).join('')}`;
   }
 
+  function vocabCardBody(word) {
+    return `<div class="vocab-top"><span>ÜNİTE ${String(UNIT_MAP.get(word.unitId).number).padStart(2,'0')}</span><span>${esc(word.pos)}</span></div><h3>${esc(word.word)}</h3>${ui.flipped.has(word.id)?`<p class="meaning">${esc(word.meaning)}</p><p class="word-example">${esc(word.example)}</p>`:'<p class="flip-hint">Anlamını hatırlayabiliyor musun?</p>'}<div class="vocab-controls"><button type="button" class="flip-word" data-action="flip" data-word="${word.id}" aria-pressed="${ui.flipped.has(word.id)}">${ui.flipped.has(word.id)?'Anlamı gizle ↺':'Kartı çevir ↗'}</button><button type="button" data-action="known" data-word="${word.id}" aria-pressed="${Boolean(state.words[word.id])}">${state.words[word.id]?'✓ Öğrendim':'Öğrendim'}</button></div>`;
+  }
+  function updateVocabCard(word,action) {
+    const card=document.getElementById(`vocab-${word.id}`);
+    // A pending search or a membership-changing filter needs the whole filtered view.
+    if(!card||searchTimer!==null||(action==='known'&&ui.wordMode!=='all')) {render();return;}
+    card.classList.toggle('known',Boolean(state.words[word.id]));
+    card.innerHTML=vocabCardBody(word);
+    const count=document.getElementById('vocab-known-count');
+    if(count)count.textContent=`${WORDS.filter(item=>state.words[item.id]).length} / ${WORDS.length} öğrenildi`;
+    card.querySelector(`[data-action="${action}"]`)?.focus({preventScroll:true});
+  }
+  function scheduleSearch(input,composing=false) {
+    if(input.dataset.search==='bank'){ui.bankSearch=input.value;ui.bankPage=0;}
+    else if(input.dataset.search==='word')ui.wordSearch=input.value;
+    else return;
+    clearTimeout(searchTimer);
+    searchTimer=null;
+    // Android keyboards can emit intermediate text during composition.
+    if(!composing)searchTimer=setTimeout(()=>{searchTimer=null;render({preserveFocus:true});},150);
+  }
   function vocab() {
     const query=norm(ui.wordSearch);
     const words=WORDS.filter(word=>(ui.wordUnit==='all'||word.unitId===ui.wordUnit)&&(ui.wordMode!=='learning'||!state.words[word.id])&&(ui.wordMode!=='known'||state.words[word.id])&&norm(`${word.word} ${word.meaning}`).includes(query));
-    return `${pageHead('KELİME / BAĞLAM / KULLANIM','Kelime kartları','Önce kelimeyi hatırlamayı dene. Kartı çevir, Türkçesini ve örnek cümledeki kullanımını gör; öğrendiklerini kendin işaretle.')}<div class="filters"><label>Ünite<select data-change="word-unit">${unitOptions(ui.wordUnit)}</select></label><label>Kartlar<select data-change="word-mode">${[['all','Tüm kartlar'],['learning','Çalışacaklarım'],['known','Öğrendiklerim']].map(([value,label])=>`<option value="${value}" ${ui.wordMode===value?'selected':''}>${label}</option>`).join('')}</select></label><label class="filter-search">Ara<input id="word-search" type="search" data-search="word" value="${esc(ui.wordSearch)}" placeholder="İngilizce veya Türkçe ara…"></label></div><div class="list-summary"><span>${words.length} kart</span><span>${WORDS.filter(word=>state.words[word.id]).length} / ${WORDS.length} öğrenildi</span></div>${words.length?`<div class="vocab-grid">${words.map(word=>`<article class="vocab-card ${state.words[word.id]?'known':''}"><div class="vocab-top"><span>ÜNİTE ${String(UNIT_MAP.get(word.unitId).number).padStart(2,'0')}</span><span>${esc(word.pos)}</span></div><h3>${esc(word.word)}</h3>${ui.flipped.has(word.id)?`<p class="meaning">${esc(word.meaning)}</p><p class="word-example">${esc(word.example)}</p>`:'<p class="flip-hint">Anlamını hatırlayabiliyor musun?</p>'}<div class="vocab-controls"><button type="button" class="flip-word" data-action="flip" data-word="${word.id}" aria-pressed="${ui.flipped.has(word.id)}">${ui.flipped.has(word.id)?'Anlamı gizle ↺':'Kartı çevir ↗'}</button><button type="button" data-action="known" data-word="${word.id}" aria-pressed="${Boolean(state.words[word.id])}">${state.words[word.id]?'✓ Öğrendim':'Öğrendim'}</button></div></article>`).join('')}</div>`:empty('Bu filtrede kart yok.','Başka bir ünite veya kart grubu seçmeyi dene.')}`;
+    return `${pageHead('KELİME / BAĞLAM / KULLANIM','Kelime kartları','Önce kelimeyi hatırlamayı dene. Kartı çevir, Türkçesini ve örnek cümledeki kullanımını gör; öğrendiklerini kendin işaretle.')}<div class="filters"><label>Ünite<select data-change="word-unit">${unitOptions(ui.wordUnit)}</select></label><label>Kartlar<select data-change="word-mode">${[['all','Tüm kartlar'],['learning','Çalışacaklarım'],['known','Öğrendiklerim']].map(([value,label])=>`<option value="${value}" ${ui.wordMode===value?'selected':''}>${label}</option>`).join('')}</select></label><label class="filter-search">Ara<input id="word-search" type="search" data-search="word" value="${esc(ui.wordSearch)}" placeholder="İngilizce veya Türkçe ara…"></label></div><div class="list-summary"><span>${words.length} kart</span><span id="vocab-known-count">${WORDS.filter(word=>state.words[word.id]).length} / ${WORDS.length} öğrenildi</span></div>${words.length?`<div class="vocab-grid">${words.map(word=>`<article class="vocab-card ${state.words[word.id]?'known':''}" id="vocab-${word.id}">${vocabCardBody(word)}</article>`).join('')}</div>`:empty('Bu filtrede kart yok.','Başka bir ünite veya kart grubu seçmeyi dene.')}`;
   }
 
   function mistakes() {
@@ -182,6 +205,7 @@
   function closeMenu() {document.body.classList.remove('menu-open');$('#menu-button').setAttribute('aria-expanded','false');$('#workspace').inert=false;}
   function go(hash) {if (location.hash===`#${hash}`) render({scroll:true});else location.hash=hash;}
   function render({scroll=false,preserveFocus=false}={}) {
+    clearTimeout(searchTimer);searchTimer=null;
     if(examExpired()){submitExam(true);return;}
     const active=preserveFocus?document.activeElement:null;
     const focusId=active?.id;
@@ -235,8 +259,8 @@
     }
     if(action==='retry'){const id=button.dataset.question;if(QUESTION_MAP.has(id)){state.answers[id]={attempts:state.answers[id]?.attempts||0};save();render();}return;}
     if(action==='read'){const id=button.dataset.section;state.read[id]=!state.read[id];save();render();tell(state.read[id]?'Konu çalışıldı olarak işaretlendi.':'Çalışıldı işareti kaldırıldı.');return;}
-    if(action==='flip'){const id=button.dataset.word;ui.flipped.has(id)?ui.flipped.delete(id):ui.flipped.add(id);render();return;}
-    if(action==='known'){const id=button.dataset.word;state.words[id]=!state.words[id];save();render();return;}
+    if(action==='flip'){const word=WORDS.find(item=>item.id===button.dataset.word);if(word){ui.flipped.has(word.id)?ui.flipped.delete(word.id):ui.flipped.add(word.id);updateVocabCard(word,action);}return;}
+    if(action==='known'){const word=WORDS.find(item=>item.id===button.dataset.word);if(word){state.words[word.id]=!state.words[word.id];save();updateVocabCard(word,action);}return;}
     if(action==='bank-prev'||action==='bank-next'){ui.bankPage+=action==='bank-next'?1:-1;render({scroll:true});return;}
     if(action==='test-from-bank'){ui.testUnit=ui.bankUnit;if(!state.exam)go('test');else{go('test');tell(state.exam.submitted?'Önceki testin sonucu açık. Yeni test düğmesiyle devam edebilirsin.':'Devam eden testini tamamlayabilirsin.');}return;}
     if(action==='test-new'){state.exam=null;save();go('test');return;}
@@ -262,9 +286,9 @@
   document.addEventListener('input',event=>{
     const input=event.target;
     if(input.dataset.note){state.notes[input.dataset.note]=input.value.slice(0,1800);save();return;}
-    if(input.dataset.search==='bank'){ui.bankSearch=input.value;ui.bankPage=0;render({preserveFocus:true});}
-    if(input.dataset.search==='word'){ui.wordSearch=input.value;render({preserveFocus:true});}
+    scheduleSearch(input,event.isComposing);
   });
+  document.addEventListener('compositionend',event=>scheduleSearch(event.target));
   document.addEventListener('submit',event=>{if(event.target.id==='test-form'){event.preventDefault();startExam();}});
   document.addEventListener('keydown',event=>{
     if(!document.body.classList.contains('menu-open'))return;

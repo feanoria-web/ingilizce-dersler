@@ -38,9 +38,12 @@ self.addEventListener('fetch', event => {
 
   event.respondWith((async () => {
     try {
-      // Always ask the network, including for HTML, catalogs, scripts and JSON.
+      // Content-addressed public media cannot become stale: changed bytes get a
+      // new URL. Let the browser reuse those bytes; never cache lesson/API HTML.
+      const immutableMedia = /^assets\/media\/[a-f0-9]{64}\.(?:jpg|png|webp|gif|wav|mp3|ogg|pdf|docx)$/.test(relative);
+      // Always ask the network for HTML, catalogs, scripts and JSON.
       // HTTP failures such as 401/404/500 remain the server's actual response.
-      return await fetch(request, { cache: 'no-store' });
+      return await fetch(request, { cache: immutableMedia ? 'default' : 'no-store' });
     } catch (error) {
       if (request.mode !== 'navigate') throw error;
       const cache = await caches.open(CACHE_NAME);

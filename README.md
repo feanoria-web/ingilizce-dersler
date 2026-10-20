@@ -14,7 +14,15 @@ Web manifesti ve service worker yalnız `ingilizce-dersler/` kapsamında çalı�
 
 Tam ekran site doğrulaması `https://feanoria-web.github.io/.well-known/assetlinks.json` adresindedir; ayrı `feanoria-web.github.io` deposu kök dosyayı yayımlar. Play farklı uygulama imzalama anahtarı kullanırsa o sertifikanın parmak izi de mevcut listeye eklenmelidir.
 
-## Öğrenci girişi
+## Telefon görünümü ve yükleme
+
+Yayın kopyalarına `scripts/build-mobile.mjs` ile ortak mobil düzen ve ders ailesine uygun CSS eklenir. 15 mevcut ders, seviye menüsü, giriş ve öğretmen raporları 320–760 piksel genişliklerde daha büyük dokunma alanları ve okunabilir formlar kullanır. Ders yapısına göre üst araçlar kaydırılır ve alt ders çubuğu iki sıraya yerleşir. Geniş tablolar kendi alanında kayar; masaüstü ve yazdırma düzeni mobil kuralların dışında kalır. Bağımsız kaynak derslerin stilleri değiştirilmez.
+
+8 KB üzerindeki gömülü resim, ses, PDF ve Word belgeleri yalnız yayın sırasında SHA-256 adlarıyla `assets/media/` altına çıkarılır. Dosyaların baytları değişmez, aynı içerikler birleştirilir ve göreli bağlantılar korunur. Böylece örneğin A2 ek çalışmanın başlangıç HTML'si yaklaşık 7,1 MB'den 0,21 MB'ye düşer; ekler gerektiğinde yüklenir. Yeni içerik yeni bir dosya adresi alır. Yalnız bu içerik adresli herkese açık medya normal HTTP önbelleğini kullanabilir; ders HTML'si, katalog, giriş ve rapor yanıtları eski sürümden sunulmaz. Service worker'ın çevrimdışı deposunda yine yalnız bağlantı mesajı vardır.
+
+YDS kelime kartı çevirmek tüm kelime listesini yeniden oluşturmaz; aramalar 150 ms bekletilerek Android klavyede gereksiz yeniden çizim azaltılır. Dokunarak kaydırmada aynı takip hesabını defalarca çalıştırmamak için hareket sinyalleri saniyede bir örneklenir; ilk gerçek hareketle hareketsizlikten dönüş hemen kaydedilir, 330 saniye eşiği ve mevcut kayıt yapısı korunur.
+
+## Öğrenci girişi ve kayıtlar
 
 Öğrenci tek şifre alanına kendi adını veya ad-soyadını yazar. Büyük/küçük harf, Türkçe karakterler ve boşluklar eşitlenir. Aynı kısa ad birden fazla öğrenciyi gösteriyorsa tam ad istenir. A1, A2 ve B1 sınıfı rapor filtresidir; herkes aynı ders paneline erişir.
 

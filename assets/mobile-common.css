@@ -1,0 +1,74 @@
+/* Phone usability shared by the portal and the published lesson tools. */
+@media screen and (max-width:760px){
+  html{scroll-padding-top:76px;-webkit-text-size-adjust:100%}
+  body.mobile-portal{overflow-wrap:break-word}
+  body.mobile-portal .site-header{gap:10px;padding-top:max(14px,env(safe-area-inset-top));padding-bottom:14px}
+  body.mobile-portal .brand{min-width:0;flex:1;gap:8px}
+  body.mobile-portal .brand .school-name{font-size:10px;line-height:1.45;margin-left:0;padding-left:10px}
+  body.mobile-portal .site-header nav a{display:flex;align-items:center;min-height:44px}
+  body.mobile-portal .session-chip{font-size:12px;min-width:0}
+  body.mobile-portal .session-chip strong{min-width:0;max-width:75%;font-size:12px}
+  body.mobile-portal :is(.text-button,.password-show,.admin-entry){min-height:44px;display:inline-flex;align-items:center}
+  body.mobile-portal .hero{padding-block:25px}
+  body.mobile-portal .hero h1{font-size:clamp(34px,10.6vw,44px)}
+  body.mobile-portal .hero-description{font-size:14px;line-height:1.65}
+  body.mobile-portal .teacher strong{font-size:13px}
+  body.mobile-portal .teacher small{font-size:12px}
+  body.mobile-portal .level-description{font-size:14px;line-height:1.55}
+  body.mobile-portal :is(.lesson-count,.level-bottom){font-size:12px}
+  body.mobile-portal .level-bottom{margin-top:10px}
+  body.mobile-portal .lesson-info h3{font-size:18px}
+  body.mobile-portal .lesson-info p{font-size:14px;line-height:1.65}
+  body.mobile-portal .lesson-meta{font-size:12px;flex-wrap:wrap}
+  body.mobile-portal .lesson-open{min-height:44px;font-size:13px}
+  body.mobile-portal .search-box input{font-size:16px;min-height:44px}
+  body.mobile-portal .search-box{min-height:48px}
+  body.mobile-portal .site-footer{padding-bottom:max(20px,env(safe-area-inset-bottom));font-size:12px}
+  body.mobile-portal .site-footer a{min-height:44px;display:inline-flex;align-items:center;text-decoration:underline;text-underline-offset:4px}
+  body.mobile-portal :is(.login-story,.login-form-area){padding-inline:20px}
+  body.mobile-portal .login-story-copy{margin-top:26px}
+  body.mobile-portal .login-story-copy h1{font-size:34px}
+  body.mobile-portal .login-form-area{padding-top:26px;padding-bottom:max(30px,env(safe-area-inset-bottom))}
+  body.mobile-portal :is(.field-help,.login-footnote){font-size:12px}
+  body.mobile-portal .login-footnote a{text-decoration:underline;text-underline-offset:3px}
+  body.mobile-portal .admin-entry{display:flex;justify-content:space-between;width:100%;font-size:12px;padding-block:16px}
+  body.mobile-portal .dashboard-main{padding:24px 14px}
+  body.mobile-portal .dashboard-sidebar nav button{font-size:12px;min-height:44px;min-width:0}
+  body.mobile-portal .dashboard-sidebar .sidebar-bottom button{min-height:44px;font-size:12px;margin-top:0}
+  body.mobile-portal .dashboard-filters label{font-size:12px;min-width:calc(50% - 8px)}
+  body.mobile-portal .dashboard-filters label:first-child{min-width:100%}
+  body.mobile-portal .dashboard-filters :is(input,select){font-size:16px;height:44px}
+  body.mobile-portal :is(.dashboard-filters,.dashboard-header,.dashboard-section-heading) .button{font-size:12px;min-height:44px;height:auto;white-space:normal}
+  body.mobile-portal .dashboard-header{flex-wrap:wrap}
+  body.mobile-portal .header-actions{flex-direction:row;flex-wrap:wrap}
+  body.mobile-portal .stat-card{padding:16px 13px}
+  body.mobile-portal .stat-card .stat-label{font-size:12px;line-height:1.5}
+  body.mobile-portal .stat-card small{font-size:11px}
+  body.mobile-portal .table-scroll{overscroll-behavior-x:contain;max-width:100%;-webkit-overflow-scrolling:touch}
+  body.mobile-portal .table-scroll table{font-size:13px}
+  body.mobile-portal .table-scroll :is(th,td small){font-size:11px}
+  body.mobile-portal .table-scroll td strong{font-size:13px}
+  body.mobile-portal .row-actions button{min-height:44px;font-size:12px}
+  body.mobile-portal :is(.subtle,.data-note,.learning-section-note,.learning-empty){font-size:12px}
+  body.mobile-portal .learning-section>summary{font-size:14px;min-height:48px;flex-wrap:wrap}
+  body.mobile-portal .learning-section>summary small{font-size:11px;white-space:normal}
+  body.mobile-portal .detail-dialog{max-height:calc(100dvh - 20px - env(safe-area-inset-top) - env(safe-area-inset-bottom));padding:18px;overscroll-behavior:contain}
+  body.mobile-portal .detail-top .button{min-width:44px;min-height:44px}
+  body.mobile-portal :is(.event-list li,.event-list strong,.question-detail){font-size:13px}
+  body.mobile-portal :is(.event-list time,.event-list small,.context-detail dl){font-size:12px}
+  .ebr-dialog{max-height:calc(100dvh - 16px - env(safe-area-inset-top) - env(safe-area-inset-bottom));overscroll-behavior:contain}
+  .ebr-root .ebr-field select{font-size:16px;min-height:44px}
+  .ebr-root :is(.ebr-icon-button,.ebr-link-button){min-height:44px;min-width:44px}
+  .ebr-root .ebr-slide-nav .ebr-button{min-height:44px}
+}
+@media screen and (max-width:360px){
+  body.mobile-portal .brand{font-size:21px}
+  body.mobile-portal .brand .school-name{font-size:9px;padding-left:8px}
+  body.mobile-portal .brand-icon{width:32px;height:36px;flex:none}
+  body.mobile-portal .level-card{padding-inline:16px;column-gap:10px}
+  body.mobile-portal .level-description{font-size:13px}
+}
+@media screen and (max-width:760px) and (hover:none){
+  body.mobile-portal .level-card:hover{transform:none;box-shadow:none}
+  body.mobile-portal .level-card[aria-pressed=true]{box-shadow:0 0 0 2px var(--brand)}
+}

@@ -372,6 +372,22 @@ test('pagehide requests use keepalive for both final presence and event batch',a
   assert.equal(batch.keepalive,true);
 });
 
+test('touch and wheel bursts do not repeatedly scan the lesson while idle recovery stays immediate',async()=>{
+  const app=await harness();await app.advance(330000);
+  let reads=0;const query=app.document.querySelector;
+  app.document.querySelector=selector=>{reads++;return query(selector);};
+  await app.emit('touchmove',{isTrusted:true});
+  const firstReads=reads;assert.ok(firstReads>0);
+  for(let index=0;index<100;index++)await app.emit(index%2?'touchmove':'wheel',{isTrusted:true});
+  assert.equal(reads,firstReads);
+  assert.equal(app.events().filter(event=>event.type==='resumed').length,1);
+  await app.advance(1000);const before=reads;
+  await app.emit('wheel',{isTrusted:true});assert.ok(reads>before);
+  await app.emit('pagehide',{},'window');
+  assert.equal(app.presenceRequests.at(-1).context.interaction,'scroll');
+  assert.equal(app.presenceRequests.at(-1).context.idleSeconds,0);
+});
+
 test('identity replacement without a logout notification cannot append activity to the previous student queue',async()=>{
   const app=await harness({offline:true});const before=app.pending();
   app.setSession({student:{id:'student-2'},role:'student'});

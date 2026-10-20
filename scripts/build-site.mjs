@@ -1,6 +1,7 @@
 import { buildYds } from './build-yds.mjs';
 import { buildCatalog } from './build-catalog.mjs';
 import { buildPwa } from './build-pwa.mjs';
+import { buildMobile } from './build-mobile.mjs';
 try {
   if(process.env.CI==='true'){
     const {readFile}=await import('node:fs/promises');
@@ -10,6 +11,7 @@ try {
   await buildYds();
   await buildCatalog({output:'_site'});
   await buildPwa();
+  await buildMobile();
 } catch(error) {
   console.error(`Site oluşturulamadı: ${error.message}`);
   process.exitCode=1;

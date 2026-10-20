@@ -395,10 +395,11 @@
   function onUserInput(event={}) {
     if (!running || stopped || event.isTrusted === false) return;
     const kind=event.type || 'pointerdown', now=performance.now();
-    if ((kind === 'pointermove' || kind === 'scroll') && now-lastMotion < 1000) return;
+    const motion=kind==='pointermove'||kind==='touchmove'||kind==='wheel'||kind==='scroll';
+    if (motion && now-lastMotion < 1000) return;
     // Programmatic scrolling/navigation cannot resume a forgotten tab. Scroll needs a recent real gesture.
     if (kind === 'scroll' && now-lastGesture > 1500) return;
-    if (kind === 'pointermove' || kind === 'scroll') lastMotion=now;
+    if (motion) lastMotion=now;
     if (kind !== 'scroll') lastGesture=now;
     sampleTime(); checkThresholds();
     const resumed=idleAnnounced||abandonedAnnounced;

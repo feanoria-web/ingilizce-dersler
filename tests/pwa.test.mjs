@@ -130,6 +130,15 @@ test('cross-origin, neighboring projects, API requests and non-GET methods are u
   assert.equal(runtime.stores.size, 0);
 });
 
+test('only content-addressed public media can reuse ordinary HTTP cache without entering the offline store', async () => {
+  const runtime=worker();await runtime.lifecycle('install');
+  await runtime.request(`${SCOPE}assets/media/${'a'.repeat(64)}.wav`);
+  assert.equal(runtime.calls.at(-1).options.cache,'default');
+  await runtime.request(`${SCOPE}assets/media/lesson-recording.wav`);
+  assert.equal(runtime.calls.at(-1).options.cache,'no-store');
+  assert.deepEqual([...runtime.stores.values()].map(store=>[...store.keys()]),[[OFFLINE]]);
+});
+
 test('only a failed in-scope navigation can receive the offline page', async () => {
   let disconnected = false;
   const failure = new Error('disconnected');

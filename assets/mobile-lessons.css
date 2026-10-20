@@ -1,0 +1,188 @@
+/* Shared phone layout for the component lessons. Applied only by the published
+   lesson build; the original lesson scripts and desktop layout remain intact. */
+@media screen and (max-width:760px){
+  body.mobile-lesson{
+    --bar:112px;
+    --mobile-top:calc(64px + env(safe-area-inset-top,0px));
+    max-width:100%;
+    -webkit-text-size-adjust:100%;
+  }
+  body.mobile-lesson .workspace{
+    margin-left:0;
+    min-width:0;
+    padding-bottom:calc(var(--bar) + 92px + env(safe-area-inset-bottom,0px));
+  }
+  body.mobile-lesson main{
+    width:100%;
+    min-width:0;
+    padding:22px max(14px,env(safe-area-inset-right,0px)) 20px max(14px,env(safe-area-inset-left,0px));
+    scroll-margin-top:calc(var(--mobile-top) + 12px);
+  }
+  body.mobile-lesson :is(.sec,.screen-head,.card,.q-item,.prompt-card,.block-card,.paper,.stepper,.drill,.ph-card,.side-stack,.bubble,.st-body,.iv-card,.box-card){
+    min-width:0;
+    max-width:100%;
+    overflow-wrap:anywhere;
+  }
+  body.mobile-lesson :is(.grid,.reading,.writer,.draw,.test-board,.team,.hero,.break,.match,.tri-wrap,.caller,.heights-wrap,.vtools)>*{min-width:0}
+  body.mobile-lesson :is(.screen-head,.sec-title,.badges,.row,.ex-tools,.ph-btns,.st-dots,.deck-tabs){gap:8px}
+  body.mobile-lesson :is(.card,.prompt-card,.block-card,.paper,.box-card,.stepper,.drill){padding:17px 15px}
+  body.mobile-lesson :is(.hero-text,.break-text,.game-card,.draw-card,.test-rules,.zero){padding:24px 19px}
+  body.mobile-lesson :is(.hero-text h2,.screen-head h1){overflow-wrap:anywhere}
+  body.mobile-lesson .lead{font-size:1.12rem;line-height:1.55}
+  body.mobile-lesson .page-footer{padding:0 16px;overflow-wrap:anywhere}
+
+  /* Keep every header control, with a horizontal rail instead of three rows. */
+  body.mobile-lesson .topbar{
+    min-height:var(--mobile-top);
+    padding:calc(8px + env(safe-area-inset-top,0px)) max(10px,env(safe-area-inset-right,0px)) 8px max(10px,env(safe-area-inset-left,0px));
+    gap:8px;
+    flex-wrap:nowrap;
+    z-index:80;
+  }
+  body.mobile-lesson .top-label{display:none}
+  body.mobile-lesson .menu-toggle{display:grid;flex:none}
+  body.mobile-lesson .top-actions{
+    display:flex;
+    flex:1 1 0;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    min-width:0;
+    margin-left:0;
+    gap:6px;
+    overflow-x:auto;
+    overscroll-behavior-x:contain;
+    scroll-padding-inline:6px;
+    scrollbar-width:none;
+  }
+  body.mobile-lesson .top-actions::-webkit-scrollbar{display:none}
+  body.mobile-lesson .top-actions>*{flex:none}
+  body.mobile-lesson .topbar .pill{min-height:44px;padding:8px 11px;font-size:.82rem}
+  body.mobile-lesson .topbar .pill span{display:none}
+  body.mobile-lesson .icon-btn{width:44px;height:44px;min-height:44px}
+
+  /* Existing menu listeners use body.nav-open, including scrim-to-dismiss. */
+  body.mobile-lesson .sidebar{
+    top:var(--mobile-top);
+    bottom:0;
+    height:auto;
+    width:min(88vw,330px);
+    max-height:calc(100dvh - var(--mobile-top));
+    padding:18px 12px calc(20px + env(safe-area-inset-bottom,0px));
+    transform:translateX(-100%);
+    overscroll-behavior:contain;
+    z-index:70;
+  }
+  body.mobile-lesson.nav-open .sidebar{transform:none}
+  body.mobile-lesson.nav-open{overflow:hidden}
+  body.mobile-lesson .scrim{top:var(--mobile-top);z-index:60}
+  body.mobile-lesson .sidebar .nav-btn{min-height:44px;padding:9px 10px}
+  body.mobile-lesson .sidebar .nav-btn>span:not(.nav-num):not(.nav-min){min-width:0;overflow-wrap:anywhere}
+  body.mobile-lesson .sidebar .brand{min-height:44px;flex:none}
+  body.mobile-lesson .sidebar .side-bottom{padding-top:20px}
+
+  /* Two rows retain flow, page choice, navigation, timer and answer controls. */
+  body.mobile-lesson .bottombar{
+    left:0;
+    right:0;
+    display:grid;
+    grid-template-columns:repeat(12,minmax(0,1fr));
+    align-items:stretch;
+    gap:6px 4px;
+    min-height:calc(var(--bar) + env(safe-area-inset-bottom,0px));
+    padding:8px max(10px,env(safe-area-inset-right,0px)) calc(8px + env(safe-area-inset-bottom,0px)) max(10px,env(safe-area-inset-left,0px));
+    z-index:30;
+  }
+  body.mobile-lesson .bottombar #flow-btn{grid-area:1 / 1 / 2 / 3;font-size:.73rem;padding:4px;line-height:1.2;white-space:normal}
+  body.mobile-lesson .bottombar .bb-select{
+    grid-area:1 / 3 / 2 / 8;
+    order:0;
+    width:100%;
+    max-width:none;
+    min-width:0;
+    min-height:44px;
+    padding:7px 5px;
+    font-size:16px;
+    text-overflow:ellipsis;
+  }
+  body.mobile-lesson .bottombar .nav-arrows{grid-area:1 / 8 / 2 / 13;gap:1px;justify-content:space-between;min-width:0}
+  body.mobile-lesson .bottombar .bb-arrow{flex:none;width:44px;height:44px}
+  body.mobile-lesson .bottombar .counter{flex:1 1 0;min-width:0;font-size:.65rem;white-space:nowrap;letter-spacing:-.04em}
+  body.mobile-lesson .bottombar .timer{grid-area:2 / 1 / 3 / 9;margin-left:0;gap:2px;min-width:0;justify-content:space-between;flex-wrap:wrap}
+  body.mobile-lesson .bottombar .timer-display{min-width:0;font-size:1.05rem;letter-spacing:-.04em;line-height:1.2}
+  body.mobile-lesson .bottombar .timer .bb-btn{min-width:44px;min-height:44px;padding:6px 3px;font-size:.73rem}
+  body.mobile-lesson .bottombar #ans-btn{grid-area:2 / 9 / 3 / 13;min-height:44px;padding:5px;font-size:.75rem;line-height:1.25;white-space:normal;overflow-wrap:anywhere}
+
+  /* Keep floating utilities above the rail and on opposite sides. */
+  body.mobile-lesson .lesson-panel-return{
+    left:max(10px,env(safe-area-inset-left,0px));
+    bottom:calc(var(--bar) + 12px + env(safe-area-inset-bottom,0px));
+    min-height:44px;
+    max-width:calc(50vw - 20px);
+    padding:10px 12px;
+    opacity:1;
+  }
+  body.mobile-lesson .ewl-launcher{
+    right:max(10px,env(safe-area-inset-right,0px));
+    bottom:calc(var(--bar) + 12px + env(safe-area-inset-bottom,0px));
+    max-width:calc(50vw - 20px);
+    min-height:44px;
+    padding:10px 12px;
+  }
+  body.mobile-lesson.nav-open :is(.lesson-panel-return,.ewl-launcher){visibility:hidden}
+  body.mobile-lesson .toast{max-width:calc(100vw - 28px);width:max-content;bottom:calc(var(--bar) + 68px + env(safe-area-inset-bottom,0px));overflow-wrap:anywhere}
+  body.mobile-lesson .voice-panel{
+    top:calc(var(--mobile-top) + 8px);
+    right:10px;
+    width:calc(100vw - 20px);
+    max-height:calc(100dvh - var(--mobile-top) - var(--bar) - 24px - env(safe-area-inset-bottom,0px));
+    overflow:auto;
+    overscroll-behavior:contain;
+    z-index:90;
+  }
+
+  /* Tables keep their comparison columns inside their own scroll surface. */
+  body.mobile-lesson .tbl-wrap{min-width:0;max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+  body.mobile-lesson .tbl-wrap table{max-width:none}
+  body.mobile-lesson table.plain{min-width:0;table-layout:fixed;overflow-wrap:anywhere}
+  body.mobile-lesson :is(input:not([type=checkbox]):not([type=radio]),textarea,select){min-width:0;max-width:100%;font-size:max(16px,1em)}
+  body.mobile-lesson .gap-in{min-width:6ch;max-width:100%;min-height:40px}
+  body.mobile-lesson textarea{resize:vertical}
+  body.mobile-lesson :is(.btn,.opt,.peek-btn,.reveal-btn,.say-btn,.st-dot,.deck-tab,.diag-cell,.cd-btn,.m-opt,.word,.check){min-height:44px}
+  body.mobile-lesson :is(.say-btn,.st-dot){min-width:44px}
+  body.mobile-lesson :is(.btn,.opt,.peek-btn,.deck-tab){max-width:100%;white-space:normal;overflow-wrap:anywhere}
+  body.mobile-lesson .opts{margin-left:0;gap:8px}
+  body.mobile-lesson .opt{flex:1 1 auto}
+  body.mobile-lesson .why{margin-left:0}
+  body.mobile-lesson .q-item .qtext{flex-wrap:wrap;align-items:flex-start}
+  body.mobile-lesson .qtext>span:first-of-type{flex:1 1 150px}
+  body.mobile-lesson .ph-btns{flex-wrap:wrap}
+  body.mobile-lesson .ebr-root select{font-size:16px}
+  body.mobile-lesson .ebr-root :is(.ebr-icon-button,.ebr-button,.ebr-link-button){min-height:44px}
+}
+
+@media screen and (max-width:680px){
+  body.mobile-lesson :is(.g2,.g3,.g4,.ph-grid,.ph-grid.big,.flip-grid,.flip-grid.big,.tile-groups,.hb-index,.exlist,.bcards,.pcards,.pcards.xl,.golden,.reading,.writer,.draw,.test-board,.team,.hero,.break,.match,.tri-wrap,.caller,.heights-wrap,.contrast-pair,.spell-row){grid-template-columns:minmax(0,1fr)}
+  body.mobile-lesson .word-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,130px),1fr))}
+  body.mobile-lesson .poll-btn{grid-template-columns:minmax(0,1fr) minmax(0,1fr) 30px;gap:6px;padding:10px}
+  body.mobile-lesson .fq-row{grid-template-columns:80px minmax(0,1fr) 44px;gap:8px;padding:10px}
+  body.mobile-lesson .fq-row :is(.fq-tr,.fq-ex){grid-column:1/-1}
+  body.mobile-lesson .break{min-height:0}
+  body.mobile-lesson :is(.break-art,.break-img){min-height:190px;padding:24px}
+  body.mobile-lesson .break-text .big{font-size:3.6rem}
+  body.mobile-lesson .break-text h2{font-size:1.8rem}
+  body.mobile-lesson .hero-art{min-height:170px;padding:20px 14px}
+  body.mobile-lesson .hero-img{min-height:180px}
+  body.mobile-lesson .ht{min-width:0;max-width:100%;padding:10px 12px;transform:none}
+  body.mobile-lesson .ht b{white-space:normal}
+  body.mobile-lesson .tl-wrap{padding:18px 12px}
+}
+
+@media screen and (max-width:760px) and (hover:none){
+  body.mobile-lesson :is(.btn,.opt,.pill,.word,.block-card,.poll-btn):hover{transform:none}
+  body.mobile-lesson :is(.btn,.opt,.pill,.word,.block-card,.poll-btn){touch-action:manipulation;-webkit-tap-highlight-color:#bdc7b755}
+}
+
+@media screen and (max-width:760px) and (prefers-reduced-motion:reduce){
+  body.mobile-lesson :is(.sidebar,.progress-track span,.draw-card,.st-step,.chain-step,.steam i,.timer-display.done){animation:none;transition:none}
+  body.mobile-lesson .top-actions{scroll-behavior:auto}
+}
