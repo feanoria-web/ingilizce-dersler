@@ -19,6 +19,10 @@ jobs:
           distribution: temurin
           java-version: '17'
       - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
+          accept-android-sdk-licenses: false
+          log-accepted-android-sdk-licenses: false
       - name: Android SDK
         run: sdkmanager 'platforms;android-36' 'build-tools;36.1.0'
       - name: APK, AAB ve Android denetimi
