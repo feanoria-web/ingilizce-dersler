@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
-import { instrumentB1Study, readStudyLesson, loadStudy, studyWordCount, validateStudy, serializeStudy, STUDY_LESSON } from '../scripts/b1-study.mjs';
+import { instrumentB1Study, readStudyLesson, loadStudy, studyWordCount, validateStudy, applyConciseStudy, serializeStudy, STUDY_LESSON } from '../scripts/b1-study.mjs';
 import { instrumentAssessments } from '../scripts/instrument-assessments.mjs';
 import { instrumentBreakReview } from '../scripts/inject-break-review.mjs';
 import { instrumentLearning } from '../scripts/instrument-learning.mjs';
@@ -18,6 +18,18 @@ function renderer(data) {
   const window = {};
   vm.runInNewContext(runtime, { window, document: { getElementById: () => ({ textContent: JSON.stringify(data) }) } });
   return window.EnglishB1Study;
+}
+
+function visibleText(html) {
+  const stack = [], text = [];
+  for (const token of html.match(/<[^>]*>|[^<]+/g) || []) {
+    if (/^<details\b/i.test(token)) stack.push({ open: /\sopen(?:\s|>)/.test(token), summary: false });
+    else if (/^<\/details/i.test(token)) stack.pop();
+    else if (/^<summary\b/i.test(token) && stack.length) stack.at(-1).summary = true;
+    else if (/^<\/summary/i.test(token) && stack.length) stack.at(-1).summary = false;
+    else if (!token.startsWith('<') && stack.every(item => item.open || item.summary)) text.push(token);
+  }
+  return text.join(' ').replace(/&(?:amp|quot|lt|gt|#39);/g, entity => ({ '&amp;': '&', '&quot;': '"', '&lt;': '<', '&gt;': '>', '&#39;': "'" })[entity]).replace(/\s+/g, ' ').trim();
 }
 
 test('every teaching screen and every original vocabulary item has substantial bilingual teaching material', async () => {
@@ -82,6 +94,56 @@ test('inline study data cannot close its script element or alter the text it con
   assert.ok(!serialized.includes('\u2028'));
   assert.ok(!serialized.includes('\u2029'));
   assert.deepEqual(JSON.parse(serialized), value);
+});
+
+test('concise previews cover all patterns without replacing any original teaching material', async () => {
+  const base = validateStudy(blocks, lesson);
+  const concise = JSON.parse(await fs.readFile(path.join(ROOT, 'b1-study/concise.json'), 'utf8'));
+  const data = applyConciseStudy(base, concise);
+  assert.equal(data.chapters.length, 21);
+  assert.equal(data.chapters.reduce((n, chapter) => n + chapter.patterns.length, 0), 63);
+  for (const chapter of data.chapters) {
+    assert.ok(studyWordCount(chapter.shortIntro) <= 80, `${chapter.screenId}: brief introduction`);
+    for (const pattern of chapter.patterns) assert.ok(studyWordCount(pattern.summary) <= 130, `${pattern.id}: a readable summary`);
+  }
+  const restored = { ...data, chapters: data.chapters.map(({ shortIntro, ...chapter }) => ({ ...chapter, patterns: chapter.patterns.map(({ summary, exampleIndex, ...pattern }) => pattern) })) };
+  assert.deepEqual(restored, base, 'Long explanations, examples, mistakes, sentence notes and glossary must remain intact');
+  const invalid = structuredClone(concise);
+  invalid.chapters[0].patterns[0].exampleIndex = 9999;
+  assert.throws(() => applyConciseStudy(base, invalid), /örnek seçimi geçersiz/);
+});
+
+test('opening summaries gives a visibly shorter lesson while long text and answers stay separately expandable', async () => {
+  const data = await loadStudy(ROOT, lesson);
+  const html = renderer(data).render('living');
+  const opened = html.replace(/(<details\b[^>]*\bdata-b1-topic)(?=[\s>])/g, '$1 open');
+  const visible = visibleText(opened);
+  const chapter = data.chapters.find(item => item.screenId === 'living');
+  assert.ok(visible.split(/\s+/).length < 1300, 'All four concise previews must stay scannable');
+  assert.ok(visible.split(/\s+/).length < studyWordCount(chapter) * 0.35, 'The initial reading must be substantially shorter');
+  for (const pattern of chapter.patterns) {
+    assert.ok(visible.includes(pattern.summary[0]));
+    assert.ok(!visible.includes(pattern.explanation[0]), 'Full explanation stays behind its own toggle');
+  }
+  assert.ok(visible.includes('Detayları aç: anlam ve cümle yapısı'));
+  assert.ok(!visible.includes('Hayır, değerlendirme yönünü temsil eder.'));
+  assert.match(html, /class="b1sg-more/);
+  assert.match(html, /class="b1sg-sentence"/);
+  assert.ok(visibleText(html.replace(/<details\b/g, '<details open')).includes(chapter.patterns[2].explanation.at(-1)));
+});
+
+test('open summaries does not open long explanations or answers, and close all resets every guide toggle', async () => {
+  const data = await loadStudy(ROOT, lesson), events = new Map();
+  const summaries = [{ open: false }, { open: false }], extras = [{ open: false }, { open: false }];
+  const host = { contains: () => true, addEventListener: (type, callback) => events.set(type, callback), querySelectorAll: selector => selector === 'details[data-b1-topic]' ? summaries : selector === 'details' ? [...summaries, ...extras] : [] };
+  renderer(data).bind({ querySelector: () => host }, 'living');
+  const press = attribute => events.get('click')({ target: { closest: () => ({ hasAttribute: name => name === attribute, dataset: {} }) } });
+  press('data-b1-open-all');
+  assert.ok(summaries.every(item => item.open));
+  assert.ok(extras.every(item => !item.open), 'Neither detail essays nor mini answers open in bulk');
+  extras[0].open = true;
+  press('data-b1-close-all');
+  assert.ok([...summaries, ...extras].every(item => !item.open));
 });
 
 test('missing screen and vocabulary coverage fail the publication instead of silently dropping material', () => {

@@ -44,7 +44,28 @@ export function validateStudy(blocks, lesson) {
 
 export async function loadStudy(root, lesson) {
   const blocks = await Promise.all([1, 2, 3].map(async n => JSON.parse(await fs.readFile(path.join(root, 'b1-study', `block-${n}.json`), 'utf8'))));
-  return validateStudy(blocks, lesson);
+  const data = validateStudy(blocks, lesson);
+  const concise = JSON.parse(await fs.readFile(path.join(root, 'b1-study', 'concise.json'), 'utf8'));
+  return applyConciseStudy(data, concise);
+}
+
+export function applyConciseStudy(data, concise) {
+  const fail = message => { throw new Error(`B1 kısa anlatım: ${message}`); };
+  if (concise.version !== 1 || concise.chapters?.length !== data.chapters.length) fail('bütün konu ekranları özetlenmeli.');
+  const ids = concise.chapters.map(chapter => chapter.screenId);
+  if (new Set(ids).size !== ids.length || ids.some(id => !data.chapters.some(chapter => chapter.screenId === id))) fail('konu kimlikleri eşleşmiyor.');
+  return { ...data, chapters: data.chapters.map(chapter => {
+    const short = concise.chapters.find(item => item.screenId === chapter.screenId);
+    if (!short?.intro?.trim() || short.patterns?.length !== chapter.patterns.length) fail(`eksik özet: ${chapter.screenId}.`);
+    const patternIds = short.patterns.map(item => item.id);
+    if (new Set(patternIds).size !== patternIds.length || patternIds.some(id => !chapter.patterns.some(pattern => pattern.id === id))) fail(`kalıp kimlikleri eşleşmiyor: ${chapter.screenId}.`);
+    return { ...chapter, shortIntro: short.intro, patterns: chapter.patterns.map(pattern => {
+      const preview = short.patterns.find(item => item.id === pattern.id);
+      if (!Array.isArray(preview.summary) || preview.summary.length < 3 || preview.summary.length > 4 || preview.summary.some(text => typeof text !== 'string' || !text.trim())) fail(`3–4 öğretici madde gerekli: ${pattern.id}.`);
+      if (!Number.isInteger(preview.exampleIndex) || preview.exampleIndex < 0 || preview.exampleIndex >= pattern.examples.length) fail(`örnek seçimi geçersiz: ${pattern.id}.`);
+      return { ...pattern, summary: preview.summary, exampleIndex: preview.exampleIndex };
+    }) };
+  }) };
 }
 
 function replaceOnce(html, before, after) {

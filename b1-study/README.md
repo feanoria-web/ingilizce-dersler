@@ -4,6 +4,8 @@ Bu klasör `lessons/b1/day-05.html` dersine yayımlama sırasında eklenen özg�
 
 Her `chapter.screenId` asıl dersin bir öğretim ekranına bağlanır. Her kalıp anlam, ayrıntılı açıklama, cümle formülü, Türkçeli örnek ve kendi kendine deneme içerir. `sentenceNotes` dersteki örnekleri ayrıca çözümler. Kelime defterindeki `sourceTerms` değerleri ilk sözlüğün özgün başlıklarını korur; böylece birleşik maddeler ayrı ayrı açıklansa bile 87 kaynak öğenin kapsamı doğrulanır.
 
+`concise.json` her ekranın kısa girişini, her kalıbın 3–4 öğretici özet maddesini ve ilk görünüm için seçilmiş örneğin indeksini içerir. İlk açılışta bu özet, bir Türkçeli örnek ve bir mini deneme gösterilir. Tam açıklamalar, bütün örnekler, karşılaştırmalar ve diğer denemeler ayrı açılır bölümlerdedir. Uzun açıklamalar ve kaynak ders korunur. “Özetleri aç” yalnız özet kartlarını açar; uzun ayrıntıları veya cevapları topluca göstermez.
+
 Metin alanları düz metindir; HTML yazılmaz. Örnekler İngilizce `en` ve Türkçe `tr` çiftleri içerir. Yanlış örnekler yalnız `mistakes.wrong` alanında, açıkça düzeltmeyle birlikte gösterilir. Küçük denemelerin cevapları öğrenci açana kadar kapalıdır; bunlar asıl dersin puanlanan soruları yerine geçmez. Açıklama, çeviri, ses veya cevap açılması mevcut yardım kaydına bildirilir; notlandırılmış cevap üretilmez.
 
 Rehber yardımları `english:learning-event` üzerinden `study:` konu kimliğiyle kaydedilir. Özgün quiz sorularının yardım/cevap açıldı durumunu değiştirmez; rehberin mini cevabı, farklı bir sorunun cevabı gösterilmiş gibi ilişkilendirilmez.
