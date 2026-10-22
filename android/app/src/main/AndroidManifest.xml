@@ -62,5 +62,14 @@
         <activity
             android:name="com.google.androidbrowserhelper.trusted.FocusActivity"
             android:exported="false" />
+
+        <!-- LauncherActivity enables this component while configuring the browser on every launch. -->
+        <activity
+            android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
+                android:value="https://feanoria-web.github.io/ingilizce-dersler/index.html" />
+        </activity>
     </application>
 </manifest>

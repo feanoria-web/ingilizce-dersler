@@ -2,11 +2,16 @@ param(
   [string]$SdkPath = $env:ANDROID_HOME,
   [string]$GradlePath,
   [string]$SigningDirectory,
-  [string]$OutputDirectory
+  [string]$OutputDirectory,
+  [switch]$RequireExistingSigning
 )
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
 $workspaceRoot = Split-Path -Parent $projectRoot
+$gradleConfig = Get-Content -LiteralPath (Join-Path $projectRoot 'android\app\build.gradle') -Raw
+$versionMatch = [regex]::Match($gradleConfig, "versionName\s+'(\d+\.\d+\.\d+)'")
+if (!$versionMatch.Success) { throw 'Gradle dosyasında geçerli sürüm numarası bulunamadı.' }
+$versionName = $versionMatch.Groups[1].Value
 if (!$SdkPath) { $SdkPath = Join-Path ([Environment]::GetFolderPath('UserProfile')) 'AppData\Local\Android\Sdk' }
 if (!$SigningDirectory) { $SigningDirectory = Join-Path $workspaceRoot 'Android-Imza-Yedegi' }
 if (!$OutputDirectory) { $OutputDirectory = Join-Path $workspaceRoot 'Android-Uygulama' }
@@ -19,6 +24,9 @@ if (!(Test-Path -LiteralPath $keytool)) { throw 'Java 17 JDK bulunamadı. JAVA_H
 New-Item -ItemType Directory -Force -Path $SigningDirectory,$OutputDirectory | Out-Null
 $credentialsPath = Join-Path $SigningDirectory 'signing-private.json'
 $keystore = Join-Path $SigningDirectory 'hudavendigar-english-release.jks'
+if ($RequireExistingSigning -and (!(Test-Path -LiteralPath $credentialsPath) -or !(Test-Path -LiteralPath $keystore))) {
+  throw 'Güncelleme aynı anahtarla imzalanmalı; mevcut yayın anahtarı veya parola dosyası bulunamadı.'
+}
 if (!(Test-Path -LiteralPath $credentialsPath)) {
   if (Test-Path -LiteralPath $keystore) { throw 'Anahtar var ancak parola dosyası eksik. Mevcut anahtarın üzerine yazılmayacak.' }
   $random = New-Object byte[] 36
@@ -39,13 +47,15 @@ try {
   if (!$GradlePath) { $GradlePath = Join-Path $projectRoot 'android\gradlew.bat' }
   & $GradlePath -p (Join-Path $projectRoot 'android') --no-daemon --console=plain assembleRelease bundleRelease lintRelease
   if ($LASTEXITCODE -ne 0) { throw 'Android derlemesi başarısız.' }
-  Copy-Item -LiteralPath (Join-Path $projectRoot 'android\app\build\outputs\apk\release\app-release.apk') -Destination (Join-Path $OutputDirectory 'Hudavendigar-English-1.0.0.apk')
-  Copy-Item -LiteralPath (Join-Path $projectRoot 'android\app\build\outputs\bundle\release\app-release.aab') -Destination (Join-Path $OutputDirectory 'Hudavendigar-English-1.0.0.aab')
+  $apkPath = Join-Path $OutputDirectory ('Hudavendigar-English-'+$versionName+'.apk')
+  $bundlePath = Join-Path $OutputDirectory ('Hudavendigar-English-'+$versionName+'.aab')
+  Copy-Item -LiteralPath (Join-Path $projectRoot 'android\app\build\outputs\apk\release\app-release.apk') -Destination $apkPath
+  Copy-Item -LiteralPath (Join-Path $projectRoot 'android\app\build\outputs\bundle\release\app-release.aab') -Destination $bundlePath
   & $keytool -exportcert -keystore $keystore -alias $env:ENGLISH_KEY_ALIAS -storepass:env ENGLISH_KEYSTORE_PASSWORD -file (Join-Path $OutputDirectory 'signing-certificate.der')
   if ($LASTEXITCODE -ne 0) { throw 'Genel sertifika dışa aktarılamadı.' }
   $fingerprint = (Get-FileHash -LiteralPath (Join-Path $OutputDirectory 'signing-certificate.der') -Algorithm SHA256).Hash -replace '(..)(?=.)','$1:'
   @(@{ relation = @('delegate_permission/common.handle_all_urls'); target = @{ namespace = 'android_app'; package_name = 'io.github.feanoriaweb.english'; sha256_cert_fingerprints = @($fingerprint) } }) | ConvertTo-Json -Depth 6 -AsArray | Set-Content -LiteralPath (Join-Path $OutputDirectory 'assetlinks.json') -Encoding utf8
-  Get-FileHash -LiteralPath (Join-Path $OutputDirectory 'Hudavendigar-English-1.0.0.apk'),(Join-Path $OutputDirectory 'Hudavendigar-English-1.0.0.aab') -Algorithm SHA256 | Select-Object @{ Name='File'; Expression={ Split-Path -Leaf $_.Path } },Hash | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $OutputDirectory 'SHA256.json') -Encoding utf8
+  Get-FileHash -LiteralPath $apkPath,$bundlePath -Algorithm SHA256 | Select-Object @{ Name='File'; Expression={ Split-Path -Leaf $_.Path } },Hash | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $OutputDirectory ('SHA256-'+$versionName+'.json')) -Encoding utf8
   Write-Output ('APK ve AAB hazır: '+$OutputDirectory)
   Write-Output ('Genel sertifika SHA-256: '+$fingerprint)
 } finally {

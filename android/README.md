@@ -71,3 +71,11 @@ Destek: gurkangr698@gmail.com
 - [Digital Asset Links başlangıç bilgileri](https://developers.google.com/digital-asset-links/v1/getting-started)
 
 Uygulama kendi WebView ekranını, JavaScript köprüsünü veya ayrı bir veri toplama hizmetini içermez. Google Android Browser Helper bağımlılığı Apache License 2.0 kapsamında dağıtılır.
+
+## 1.0.1 açılış düzeltmesi
+
+1.0.0 sürümünde uygulama simgesine dokunulduğunda `LauncherActivity`, tarayıcının site ayarları kısayolunu hazırlarken manifestte bulunmayan `ManageDataLauncherActivity` bileşenini etkinleştirmeye çalışıyordu. Android bu yüzden `IllegalArgumentException: Component class … does not exist` hatasıyla uygulamayı kapatıyordu. 1.0.1 bu bileşeni dışarıya açık olmayan bir activity olarak ve kendi site URL’siyle bildirir. Uygulama kimliği, mevcut tarayıcı altyapısı, ders bağlantıları ve dört seviye kısayolu korunur.
+
+Güncellemenin sürüm kodu 2’dir. Mevcut yayın anahtarıyla imzalanan APK, 1.0.0 kaldırılmadan üzerine kurulabilir. Windows’ta aynı anahtarı zorunlu tutarak paketlemek için depo kökünden `./scripts/build-android.ps1 -RequireExistingSigning` çalıştırılır. Dosya adları Gradle’daki sürümden türetilir; sürüm güncellemesi eski APK dosyasının üzerine yazmaz.
+
+Android iş akışı yalnız derleme ve lint ile yetinmez: Android 14 emülatöründe gerçek APK açılışı, tekrarlanan başlatmalar ve çökme kayıtları da denetlenir.

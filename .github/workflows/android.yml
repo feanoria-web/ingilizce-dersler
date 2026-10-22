@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['android/**', '.github/workflows/android.yml']
+    paths: ['android/**', '.github/workflows/android.yml', 'scripts/test-android-startup.sh', 'tests/android-launch.test.mjs']
 
 permissions:
   contents: read
@@ -12,12 +12,19 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '17'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Açılış bildirimi ve sürüm regresyonu
+        run: node --test tests/android-launch.test.mjs
       - uses: android-actions/setup-android@v3
         with:
           packages: platform-tools
@@ -38,3 +45,50 @@ jobs:
             android/app/build/outputs/bundle/release/app-release.aab
             android/app/build/reports/lint-results-release.html
           retention-days: 14
+
+  startup-api34:
+    name: Android 14 gerçek açılış testi
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/download-artifact@v5
+        with:
+          name: android-build-check
+          path: android/app/build
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Resmî Android 14 emülatörünü hazırla
+        run: |
+          set -euo pipefail
+          test -x "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          echo "$ANDROID_HOME/platform-tools" >> "$GITHUB_PATH"
+          echo "$ANDROID_HOME/emulator" >> "$GITHUB_PATH"
+          test -e /dev/kvm
+          sudo chgrp "$(id -gn)" /dev/kvm
+          sudo chmod g+rw /dev/kvm
+          image='system-images;android-34;google_apis_playstore;x86_64'
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --sdk_root="$ANDROID_HOME" 'platform-tools' 'emulator' "$image"
+          export ANDROID_AVD_HOME="$RUNNER_TEMP/english-avd"
+          mkdir -p "$ANDROID_AVD_HOME"
+          echo "ANDROID_AVD_HOME=$ANDROID_AVD_HOME" >> "$GITHUB_ENV"
+          echo no | "$ANDROID_HOME/cmdline-tools/latest/bin/avdmanager" create avd --name english-api34 --package "$image" --device pixel_5 --force
+          "$ANDROID_HOME/emulator/emulator" -avd english-api34 -port 5554 -no-window -no-audio -no-boot-anim -no-snapshot -gpu swiftshader_indirect -accel on -memory 2048 -cores 2 > "$RUNNER_TEMP/english-emulator.log" 2>&1 &
+      - name: Üç soğuk açılış, tarayıcı devri ve çökme denetimi
+        run: bash scripts/test-android-startup.sh emulator-5554
+      - name: Açılış kanıtları ve hata kayıtları
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-14-startup-evidence
+          path: |
+            android/app/build/reports/startup/
+            ${{ runner.temp }}/english-emulator.log
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Yalnız test emülatörünü kapat
+        if: always()
+        run: adb -s emulator-5554 emu kill || true
