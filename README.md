@@ -28,6 +28,16 @@ YDS kelime kartı çevirmek tüm kelime listesini yeniden oluşturmaz; aramalar 
 
 Öğretmen `admin.html` sayfasına ayrı, en az 12 karakterlik yönetici şifresiyle girer. Öğrenci şifresi yönetim yetkisi vermez. Yönetim panelinde giriş yapan/yapmayan öğrenciler, ilk ve son girişler, seçili dönemde açılan dersler, etkinlik geçmişi, yaklaşık aktif süre, CSV çıktısı ve öğrenci erişimi açma/kapatma bulunur. Tarihler İstanbul saatidir. "Hiç giriş yapmadı" tüm geçmişe bakar; tarih filtresi eski bir ziyaretçiyi hiç giriş yapmamış saymaz.
 
+## Öğretmen rehberleri
+
+`teacher-guides.html` mevcut yönetici şifresiyle açılır. Yönetim panelinden veya yönetici oturumuyla açılan dersin üstündeki “Öğretmen rehberi” bağlantısından erişilir. Öğrenci oturumları bu bağlantıyı görmez. Rehber metinleri, gözlem notları ve öğretmen cevap anahtarları herkese açık ders HTML’sinde veya yayın medyasında bulunmaz; D1’deki ayrı rehber tablolarından, her istekte yönetici oturumu doğrulandıktan sonra alınır. Yanıtlar önbelleğe alınmaz. Oturum bitişi, çıkış ve sayfadan ayrılma özel içeriği ekrandan temizler.
+
+Yeni, öğretmen notları içeren bir ders yayımlamadan önce `node scripts/extract-teacher-guides.mjs --apply` çalıştırılır. Kaynak yedekleri ve çıkarılan rehberler Git’e girmeyen `private/teacher-guides-original/` ile `private/teacher-guides.json` altında korunur. Ardından `node scripts/prepare-teacher-guides-import.mjs` ile özel SQL hazırlanır ve `npx --yes wrangler@4 d1 execute english-student-access --remote --config backend/wrangler.jsonc --file private/teacher-guides-import.sql` ile mevcut özel tablolara aktarılır. İlk kurulumda önce `0005_teacher_guides.sql` geçişi uygulanmalıdır. SQL aktarımı yalnız rehber tablolarını değiştirir. Öğrenci içeriği düzenlenen mevcut derslerde öğretmen metinleri yeniden eklenirse yayın denetimi durur; öğretmen metinleri özel rehber kaynağında düzenlenmelidir.
+
+Yayın denetimi yeni veya daha önce ayrılmış derslere yanlışlıkla öğretmen verisi gömülmesini reddeder. Yerel yedekleri Git’e veya yayın klasörüne eklemeyin. Bu erişim kontrolü güncel uygulama ve yayın dosyalarına uygulanır; daha önce yayımlanmış kopyalar ile Git geçmişini silmez.
+
+`support.html` iletişim ve kullanım yardımını içerir. Ayrıntılı gizlilik bilgilendirmesi ayrı `privacy.html` sayfasındadır.
+
 ## Kayıtların anlamı
 
 Sunucu giriş/çıkış, panel/derse giriş, etkinlik ekranı, cevap kontrol/göster, kelime anlamı açma, yerleşik ses kaydını oynatma/tamamlama ve tamamlandı işaretlerini kaydeder. Otomatik değerlendirilen sorularda soru, verilen cevap, doğru cevap, doğru/yanlış/boş sonucu ve deneme sayısı tutulur. Sonuçlar ders uygulamasının değerlendirmesinden gelir; resmî sınav veya değiştirilemez başarı kanıtı değildir. Öğretmen notları, değerlendirilmemiş serbest yazılar, parola, telefon ve kimlik bilgisi toplanmaz. Aktif süre yaklaşık bir kullanım ölçüsüdür: görünür sekme ve son etkileşim üzerinden en çok 30 saniyelik aralıklarla bildirilir. Gizli veya uzun süredir kullanılmayan sekme süre kazandırmaz. Adını bilen biri başka öğrenci adına girebilir.

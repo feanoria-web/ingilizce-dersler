@@ -92,6 +92,16 @@
     if (current.role === 'admin') { const management = document.createElement('a'); management.href = new URL('admin.html', root); management.textContent = 'Yönetim'; chip.append(management); }
     const exit = document.createElement('button'); exit.type = 'button'; exit.className = 'text-button'; exit.textContent = 'Çıkış →'; exit.addEventListener('click', logout); chip.append(exit); header.append(chip);
   }
+  function addTeacherGuideLink() {
+    if (current?.role !== 'admin' || !document.querySelector('meta[name="teacher-guides"][content="private-v1"]') || document.querySelector('.teacher-guide-entry')) return;
+    const relative = location.pathname.startsWith(root.pathname) ? location.pathname.slice(root.pathname.length) : '';
+    const match = /^lessons\/((?:a1|a2|b1|yds)\/[a-z0-9-]+)\.html$/.exec(relative);
+    if (!match) return;
+    const target = document.querySelector('.top-actions') || document.querySelector('header');
+    if (!target) return;
+    const link = document.createElement('a'); const url = new URL('teacher-guides.html', root); url.searchParams.set('lesson', match[1]);
+    link.href = url.href; link.className = 'teacher-guide-entry'; link.textContent = 'Öğretmen rehberi ↗'; target.append(link);
+  }
   function bindForms() {
     document.querySelectorAll('[data-password-toggle]').forEach(button => button.addEventListener('click', () => { const input = document.getElementById(button.dataset.passwordToggle); const open = input.type === 'password'; input.type = open ? 'text' : 'password'; button.textContent = open ? 'Gizle' : 'Göster'; button.setAttribute('aria-label', open ? 'Şifreyi gizle' : 'Şifreyi göster'); button.setAttribute('aria-pressed', String(open)); }));
     document.querySelectorAll('[data-access-logout]').forEach(button => button.addEventListener('click', logout));
@@ -105,7 +115,10 @@
           const result = await request(endpoint, {method:'POST', body:{password: field.value}}); field.value = '';
           if (formId === 'admin-login' && result?.role !== 'admin') throw new Error('Yönetici yetkisi doğrulanamadı.');
           remember(result);
-          if (result.role === 'admin') location.replace(new URL('admin.html', root));
+          if (result.role === 'admin') {
+            const returnHere = page === 'admin' && document.body.dataset.adminReturn === 'current' && location.pathname.startsWith(root.pathname);
+            location.replace(returnHere ? destination(location.pathname.slice(root.pathname.length) + location.search + location.hash, 'admin.html') : new URL('admin.html', root));
+          }
           else location.replace(destination(new URLSearchParams(location.search).get('return'), 'index.html'));
         } catch (error) { field.value = ''; formMessage(errorId, error.message); field.focus(); }
         finally { button.disabled = false; }
@@ -126,7 +139,7 @@
       const identity = await request('/api/auth/me');
       if (!identity || !['student', 'admin'].includes(identity.role) || identity.role !== current?.role) { forget(); if(page === 'protected') location.replace(loginUrl()); throw new Error('Oturum doğrulanamadı.'); }
       current = {...current, role:identity.role, ...(identity.student ? {student:identity.student} : {})};
-      if (page === 'protected') { document.body.classList.remove('access-locked'); const status = document.querySelector('.access-status'); if (status) status.remove(); addSessionChip(); }
+      if (page === 'protected') { document.body.classList.remove('access-locked'); const status = document.querySelector('.access-status'); if (status) status.remove(); addSessionChip(); addTeacherGuideLink(); }
       else if (page === 'admin') { if (current.role === 'admin') { document.getElementById('admin-signin').hidden = true; document.getElementById('admin-dashboard').hidden = false; } else showAdminLogin(); }
       else if (page === 'login') location.replace(current.role === 'admin' ? new URL('admin.html', root) : destination(new URLSearchParams(location.search).get('return'), 'index.html'));
       window.dispatchEvent(new CustomEvent('english:ready', {detail:{role:current.role}}));

@@ -41,10 +41,12 @@ export async function buildPwa(root = SITE_ROOT) {
     fs.writeFile(path.join(output, 'service-worker.js'), worker.replaceAll('__PWA_OFFLINE_REVISION__', digest(offline))),
     fs.writeFile(registerPath, registration),
   ]);
-  try {
-    await fs.copyFile(path.join(root, 'privacy.html'), path.join(output, 'privacy.html'));
-  } catch (error) {
-    if (error.code !== 'ENOENT') throw error;
+  for (const name of ['privacy.html', 'support.html']) {
+    try {
+      await fs.copyFile(path.join(root, name), path.join(output, name));
+    } catch (error) {
+      if (error.code !== 'ENOENT') throw error;
+    }
   }
   let pages = 0;
   for (const file of await htmlFiles(output)) {

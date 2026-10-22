@@ -77,7 +77,7 @@ export async function buildMobile(root = ROOT) {
   const report = [];
   for (const file of await walk(output)) {
     const name = path.relative(output,file).split(path.sep).join('/');
-    if (['offline.html','privacy.html','404.html'].includes(name)) continue;
+    if (['offline.html','privacy.html','support.html','404.html'].includes(name)) continue;
     let html = await fs.readFile(file,'utf8');
     const originalBytes = Buffer.byteLength(html);
     const lesson = name.startsWith('lessons/');

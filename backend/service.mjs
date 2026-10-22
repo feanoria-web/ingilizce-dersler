@@ -1,6 +1,7 @@
 import {normalizeName,digest,newToken,passwordHash,verifyPassword,aliasesFor} from './crypto.mjs';
 import {CLIENT_TYPES,validLocation,validateQuestion,clientTime,validateContext,validateContextLocation,PRESENCE_WINDOW_SECONDS,CONTEXT_FIELDS,contextValues,onlineStudents,queryLogs,LOG_COLUMNS,LOG_JOIN,mapEvent} from './detailed-logs.mjs';
 import {validateLearning,queryLearning} from './learning-insights.mjs';
+import {listTeacherGuides,readTeacherGuide} from './teacher-guides.mjs';
 const iso = () => new Date().toISOString();
 const fail = (status,message) => { throw Object.assign(new Error(message),{status}); };
 const reply = (data,status=200) => new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json;charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
@@ -210,6 +211,8 @@ async function route(req,env,url) {
   }
   if(path.startsWith('/api/admin/')) {
     const session=await authenticate(req,env,true);
+    if(req.method==='GET'&&path==='/api/admin/teacher-guides')return reply(await listTeacherGuides(env));
+    if(req.method==='GET'&&path.startsWith('/api/admin/teacher-guides/'))return reply(await readTeacherGuide(env,path.slice('/api/admin/teacher-guides/'.length)));
     if(req.method==='GET'&&path==='/api/admin/presence')return reply(await onlineStudents(env));
     if(req.method==='GET'&&path==='/api/admin/learning')return reply(await queryLearning(env,url,filters(url),{columns:LOG_COLUMNS,join:LOG_JOIN,mapEvent}));
     if(req.method==='GET'&&path==='/api/admin/logs')return reply(await queryLogs(env,url,filters(url)));

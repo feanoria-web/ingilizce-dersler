@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="tr"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><meta name="theme-color" content="#164e45"><meta name="robots" content="noindex,nofollow">
+  <title>Öğretmen rehberleri · Hüdavendigar English</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/access.css"><link rel="stylesheet" href="assets/teacher-guides.css">
+  <script src="assets/access-config.js" defer></script><script src="assets/auth-client.js" defer></script><script src="assets/teacher-guides.js" defer></script>
+</head><body data-access-page="admin" data-admin-return="current">
+  <section id="admin-signin" class="admin-signin" aria-labelledby="admin-login-title">
+    <a href="index.html" class="access-brand"><span class="access-mark" aria-hidden="true">E<span>✳</span></span><span>English<small>ÖĞRETMEN REHBERLERİ</small></span></a>
+    <div class="admin-login-box"><p class="eyebrow">ÖĞRETMEN ALANI</p><h1 id="admin-login-title">Derse hazırlan.</h1><p class="login-intro">Rehberleri ve öğretmen notlarını açmak için yönetici şifrenizle giriş yapın.</p>
+      <form id="admin-login" novalidate><label for="admin-password">Yönetici şifresi</label><div class="password-wrap"><input id="admin-password" name="password" type="password" autocomplete="current-password" required aria-describedby="admin-login-error" maxlength="256"><button type="button" class="password-show" data-password-toggle="admin-password" aria-label="Şifreyi göster" aria-pressed="false">Göster</button></div><p id="admin-login-error" class="form-message" role="status" aria-live="polite"></p><button type="submit" class="button button-primary login-submit">Rehberleri aç <span aria-hidden="true">↗</span></button></form>
+      <a class="admin-entry" href="index.html">← Ders paneline dön</a><noscript><p>Giriş için JavaScript’i etkinleştirin.</p></noscript>
+    </div>
+  </section>
+  <div id="admin-dashboard" hidden>
+    <header class="guide-header"><a href="admin.html" class="access-brand"><span class="access-mark" aria-hidden="true">E<span>✳</span></span><span>English<small>ÖĞRETMEN REHBERLERİ</small></span></a><nav aria-label="Öğretmen bağlantıları"><a href="admin.html">Yönetim</a><a href="index.html">Dersler</a><button class="text-button" type="button" data-access-logout>Çıkış →</button></nav></header>
+    <main class="guide-main"><p class="eyebrow">DERSİN ARKA PLANI</p><h1>Öğretmen rehberleri</h1><p class="guide-intro">Ders akışı, hazırlık notları ve sınıf içi öneriler. Açmak istediğiniz dersi seçin.</p>
+      <div class="guide-toolbar"><label for="guide-lesson">Ders<select id="guide-lesson" disabled><option value="">Dersler yükleniyor…</option></select></label><button id="guide-retry" class="button" type="button">Yenile</button><a id="guide-open-lesson" class="button" hidden>Dersi aç ↗</a></div>
+      <p id="guide-status" role="status" aria-live="polite"></p>
+      <article id="guide-content" aria-label="Seçili dersin öğretmen rehberi"></article>
+    </main>
+    <footer class="guide-footer">Hüdavendigar Sosyal Gelişim Merkezi · <a href="support.html">Yardım ve destek</a></footer>
+  </div>
+</body></html>
