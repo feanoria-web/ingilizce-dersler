@@ -5,6 +5,7 @@ import {fileURLToPath} from 'node:url';
 import {openDatabase} from './local-db.mjs';
 import {handleRequest,importStudents} from './service.mjs';
 import {migrateLocal} from './migrate-local.mjs';
+import {readPrivateExams,buildExamImport} from '../scripts/prepare-exam-import.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const privateDir=path.join(root,'private');await fs.mkdir(privateDir,{recursive:true});
 const db=openDatabase(path.join(privateDir,'activity.sqlite'));
@@ -13,6 +14,7 @@ let settings={};try {settings=JSON.parse(await fs.readFile(path.join(privateDir,
 const env={DB:db,LOCAL:true,ADMIN_PASSWORD_HASH:settings.hash};
 if(!settings.hash&&!await db.prepare("SELECT value FROM settings WHERE key='admin_password_hash'").first())console.log('Yönetici kurulumu gerekli: once Kurulum.ps1 dosyasını çalıştırın.');
 try {const roster=JSON.parse(await fs.readFile(path.join(privateDir,'roster.json'),'utf8'));await importStudents(env,roster.students);}catch(e){if(e.code!=='ENOENT')throw e;}
+const exams=await readPrivateExams();if(exams.length)db.exec(buildExamImport(exams).sql);
 const site=path.join(root,'_site');
 try {await fs.access(path.join(site,'index.html'));}catch {throw new Error('Önce node scripts/build-access.mjs çalıştırın.');}
 const port=Number(process.env.PORT||8787);

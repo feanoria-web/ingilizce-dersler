@@ -184,7 +184,7 @@ async function stageSite(output, root) {
   await fs.rm(target, { recursive: true, force: true });
   await fs.mkdir(target, { recursive: true });
   const localOnlyAssets = new Set(['assets/admin.js', 'assets/config.js']);
-  for (const name of ['index.html', 'login.html', 'admin.html', 'teacher-guides.html', '404.html', 'assets', 'lessons']) {
+  for (const name of ['index.html', 'login.html', 'admin.html', 'teacher-guides.html', 'exam-results.html', '404.html', 'assets', 'lessons']) {
     await fs.cp(path.join(root, name), path.join(target, name), {
       recursive: true,
       filter: (file) => !path.basename(file).startsWith('.') && !localOnlyAssets.has(path.relative(root, file).split(path.sep).join('/')),
@@ -204,7 +204,7 @@ async function stageSite(output, root) {
     await fs.writeFile(file,instrumentHtml(withLearning,relative,{versions:lookupVersions}));
   }
   await fs.writeFile(path.join(target,'assets/assessment-coverage.json'),JSON.stringify(coverage,null,2));
-  for(const page of ['index.html','login.html','admin.html','teacher-guides.html']) {
+  for(const page of ['index.html','login.html','admin.html','teacher-guides.html','exam-results.html']) {
   const indexPath=path.join(target,page);
   const indexHtml = await fs.readFile(indexPath, 'utf8');
   const references = /([\s](?:src|href)\s*=\s*)(["'])((?:\.\/)?assets\/[^"'<>]+)\2/gi;

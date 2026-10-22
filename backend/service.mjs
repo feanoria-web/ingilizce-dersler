@@ -2,6 +2,7 @@ import {normalizeName,digest,newToken,passwordHash,verifyPassword,aliasesFor} fr
 import {CLIENT_TYPES,validLocation,validateQuestion,clientTime,validateContext,validateContextLocation,PRESENCE_WINDOW_SECONDS,CONTEXT_FIELDS,contextValues,onlineStudents,queryLogs,LOG_COLUMNS,LOG_JOIN,mapEvent} from './detailed-logs.mjs';
 import {validateLearning,queryLearning} from './learning-insights.mjs';
 import {listTeacherGuides,readTeacherGuide} from './teacher-guides.mjs';
+import {studentExamResults,adminExamResults} from './exam-results.mjs';
 const iso = () => new Date().toISOString();
 const fail = (status,message) => { throw Object.assign(new Error(message),{status}); };
 const reply = (data,status=200) => new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json;charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
@@ -155,6 +156,10 @@ async function route(req,env,url) {
     if(s.role==='student')writes.push(env.DB.prepare("INSERT INTO events(event_id,student_id,type,lesson,created_at) VALUES(?,?,'logout','panel',?)").bind(crypto.randomUUID(),s.student_id,iso()));
     writes.push(env.DB.prepare('DELETE FROM sessions WHERE token_hash=?').bind(s.token_hash));await env.DB.batch(writes);return reply({ok:true});
   }
+  if(req.method==='GET'&&path==='/api/exam-results') {
+    const s=await authenticate(req,env);if(s.role!=='student')fail(403,'Öğrenci oturumu gerekli.');
+    return reply(await studentExamResults(env,s.student_id));
+  }
   if(req.method==='POST'&&path==='/api/presence') {
     const s=await authenticate(req,env);if(s.role!=='student')fail(403,'Öğrenci oturumu gerekli.');
     const {state,lesson,activity,context:rawContext,sequence=0}=await jsonBody(req,4000);
@@ -213,6 +218,7 @@ async function route(req,env,url) {
     const session=await authenticate(req,env,true);
     if(req.method==='GET'&&path==='/api/admin/teacher-guides')return reply(await listTeacherGuides(env));
     if(req.method==='GET'&&path.startsWith('/api/admin/teacher-guides/'))return reply(await readTeacherGuide(env,path.slice('/api/admin/teacher-guides/'.length)));
+    if(req.method==='GET'&&path==='/api/admin/exam-results')return reply(await adminExamResults(env));
     if(req.method==='GET'&&path==='/api/admin/presence')return reply(await onlineStudents(env));
     if(req.method==='GET'&&path==='/api/admin/learning')return reply(await queryLearning(env,url,filters(url),{columns:LOG_COLUMNS,join:LOG_JOIN,mapEvent}));
     if(req.method==='GET'&&path==='/api/admin/logs')return reply(await queryLogs(env,url,filters(url)));
