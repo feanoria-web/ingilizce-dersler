@@ -108,7 +108,7 @@ export function mapEvent(row) {
 }
 export async function queryLogs(env,url,f,exporting=false) {
   const p=url.searchParams,type=p.get('eventType')||'',outcome=p.get('outcome')||'',student=p.get('student')||'',cursor=p.get('cursor')||'';
-  if(type&&!CLIENT_TYPES.has(type)&&!['login','logout'].includes(type))fail(400,'Geçersiz etkinlik türü.');
+  if(type&&!CLIENT_TYPES.has(type)&&!['login','logout','exam_results_view'].includes(type))fail(400,'Geçersiz etkinlik türü.');
   if(outcome&&!OUTCOMES.has(outcome))fail(400,'Geçersiz sonuç filtresi.');
   if(student&&!/^[a-z0-9-]{2,64}$/.test(student))fail(400,'Geçersiz öğrenci filtresi.');
   if(cursor&&(!/^\d{1,15}$/.test(cursor)||!Number.isSafeInteger(Number(cursor))))fail(400,'Geçersiz sayfa.');

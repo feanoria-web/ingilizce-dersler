@@ -133,6 +133,14 @@ Sözlük kayıtları yalnız açıkça aranan veya seçilen İngilizce ifadeyi v
 
 Yeni metadata `backend/migrations/0004_learning_insights.sql` ile eklenen tabloda saklanır. `/api/admin/learning` en fazla 40.000 dönem kaydını ve 40.000 gerçek ilk denemeyi tarar; zaman çizelgesi son 300 olayla sınırlıdır. Sınıra ulaşılırsa panel tarih/öğrenci filtresini daraltmayı söyler. Güncellemeler kaynak HTML yerine yayın kopyalarına uygulanır; mevcut açık ders sayfaları yeni izleme kodunu almak için bir kez yenilenmelidir.
 
+## Sınav sonuçları sayfasına erişim
+
+Yönetimdeki **Sonuçlara erişim** sekmesi, etkin öğrencilerden “Sınav sonuçlarım” sayfasını açanları ve henüz kayıtlı açılışı bulunmayanları gösterir. İlk/son açılış, açılış sayısı ve öğrenci/grup/durum filtreleri bulunur. Bu izleme devreye alındıktan sonraki açılışları kapsar; geçmişe görüntüleme kaydı eklenmez.
+
+Giriş doğrulandıktan ve sonuçlar başarıyla ekrana yerleştirildikten sonra, sayfa görünür ve pencere odaktaysa `POST /api/exam-results/view` çağrılır. Arka sekme, başarısız sonuç yüklemesi ve öğretmen önizlemesi kayıt oluşturmaz. Yeniden gönderimler aynı sayfa UUID’sini kullanır; sunucu, öğrenci kimliğini oturumdan ve zamanı kendi saatinden alır. Kayıt tüm soruların okunduğu anlamına gelmez. `exam_results_view` olayı ayrıntılı log ve CSV’de de yer alır; rapor API’si yalnız yöneticiye açıktır.
+
+İlk yayın için `backend/migrations/0007_exam_result_views.sql` geçişi uygulanır, Worker ve site birlikte güncellenir. Hesaplara giriş yöntemi bu özellik tarafından değiştirilmez.
+
 ## Kontroller
 
 ```powershell

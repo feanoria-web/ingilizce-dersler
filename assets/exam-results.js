@@ -5,10 +5,12 @@
   const LETTERS = 'abcdef';
   const STATUS = {correct: 'Doğru', incorrect: 'Yanlış', blank: 'Boş', invalid: 'Geçersiz'};
   let adminData = null, filter = 'review', current = null;
+  let pageActive = true, pageEpoch = 0;
   const element = (tag, text, className) => { const node = document.createElement(tag); if (text !== undefined && text !== null) node.textContent = String(text); if (className) node.className = className; return node; };
   function status(text, error = false) { $('exam-status').textContent = text; $('exam-status').classList.toggle('is-error', error); $('exam-status').hidden = !text; }
   function clear() { $('exam-root').replaceChildren(); current = null; }
-  function lock() { adminData = null; clear(); $('exam-admin').hidden = true; status(''); }
+  function lock() { pageActive = false; pageEpoch++; window.EnglishExamVisits?.stop(); adminData = null; clear(); $('exam-admin').hidden = true; status(''); }
+  function sameSession(session) { const live=access?.session(); return live?.role===session.role&&live?.token===session.token&&(session.role!=='student'||live.student?.id===session.student?.id); }
   function dateLabel(value) {
     const date = new Date(`${value}T12:00:00`);
     return Number.isNaN(date.getTime()) ? '' : new Intl.DateTimeFormat('tr-TR', {day: 'numeric', month: 'long', year: 'numeric'}).format(date);
@@ -197,13 +199,17 @@
   $('exam-admin-exam').addEventListener('change', () => { fillStudents(); showAdminSelection(); });
   $('exam-admin-student').addEventListener('change', showAdminSelection);
   window.addEventListener('english:logout', lock);
+  window.addEventListener('english:session-expired', lock);
   window.addEventListener('pagehide', lock);
   window.addEventListener('pageshow', event => { if (event.persisted) location.reload(); });
+  const initialEpoch=pageEpoch;
   access?.ready.then(async session => {
-    if (!session) return;
+    if (!session || !pageActive || initialEpoch!==pageEpoch || !sameSession(session)) return;
     try {
-      if (session.role === 'admin') showAdmin(await access.request('/api/admin/exam-results'));
-      else showStudent(await access.request('/api/exam-results'));
-    } catch (error) { clear(); status(error.message, true); }
+      const data=await access.request(session.role==='admin'?'/api/admin/exam-results':'/api/exam-results');
+      if(!pageActive||initialEpoch!==pageEpoch||!sameSession(session))return;
+      if(session.role==='admin')showAdmin(data);
+      else {showStudent(data);window.EnglishExamVisits?.rendered();}
+    } catch (error) { if(pageActive&&initialEpoch===pageEpoch){clear();status(error.message,true);} }
   });
 })();

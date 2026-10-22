@@ -16,7 +16,7 @@
     return minutes >= 60 ? `${Math.floor(minutes/60)} sa ${minutes%60} dk` : minutes ? `${minutes} dk` : `${seconds} sn`;
   };
   const eventNames = {login:'Giriş yaptı',logout:'Çıkış yaptı',site_enter:'Ders panelini açtı',page_view:'Sayfayı açtı',lesson_open:'Dersi açtı',lesson_view:'Dersi açtı',activity_open:'Etkinliği açtı',activity_view:'Etkinliği görüntüledi',activity_complete:'Etkinliği tamamladı',activity:'Etkinlikle çalıştı',answer_submit:'Yanıtını gönderdi',answer_check:'Yanıtlarını kontrol etti',answer_reveal:'Yanıtı görüntüledi',quiz_check:'Yanıtlarını kontrol etti',audio_play:'Dinleme sesini başlattı',audio_pause:'Dinlemeyi duraklattı',audio_end:'Dinlemeyi tamamladı',heartbeat:'Aktif çalışma kaydı',level_select:'Seviye seçti',vocab_reveal:'Kelime anlamını açtı',vocabulary_reveal:'Kelime anlamını açtı',navigate:'Ders içinde ilerledi'};
-  eventNames.question_result = 'Soru sonucu'; eventNames.audio_complete = 'Dinlemeyi tamamladı';
+  eventNames.question_result = 'Soru sonucu'; eventNames.audio_complete = 'Dinlemeyi tamamladı'; eventNames.exam_results_view = 'Sınav sonuçları sayfasını açtı';
   Object.assign(eventNames,{tab_visible:'Sekme ön plana geldi',tab_hidden:'Sekme arka plana geçti',window_focus:'Ders penceresi odak aldı',window_blur:'Pencere odağı değişti',idle_start:'Etkileşim durakladı',abandoned:'Açık bırakılmış olabilir',resumed:'Etkileşime geri döndü',page_leave:'Sayfadan ayrıldı'});
   Object.assign(eventNames,{question_open:'Soruyu açtı',help_used:'Yardım açtı',page_summary:'Sayfa çalışma süresi',lesson_progress:'İlerleme kaydı',break_start:'Molayı başlattı',break_pause:'Molayı duraklattı',break_resume:'Molaya devam etti',break_end:'Mola sona erdi',dictionary_lookup:'Sözlükte kelime aradı'});
   const labelOf = value => value && typeof value === 'object' ? value.title || value.path || value.id || '' : value || '';
@@ -58,7 +58,8 @@
     return `<div class="context-detail">${showStatus && status ? stateBadge(status) : ''}${pageDetails(c)}${fields.length ? `<dl>${fields.map(([key,value]) => `<dt>${escape(key)}</dt><dd>${escape(value)}</dd>`).join('')}</dl>` : ''}</div>`;
   }
   const studentIdOf = student => String(student.studentId || student.id || '');
-  const lessonLabel = event => (event.lesson && typeof event.lesson === 'object' && event.lesson.title) || event.context?.pageTitle || labelOf(event.lesson) || 'Ders paneli';
+  const lessonLabel = event => event.type === 'exam_results_view' ? 'Sınav sonuçlarım' : (event.lesson && typeof event.lesson === 'object' && event.lesson.title) || event.context?.pageTitle || labelOf(event.lesson) || 'Ders paneli';
+  const activityLabel = event => event.type === 'exam_results_view' ? 'Sonuç sayfası' : labelOf(event.activity);
   const outcomeNames = {correct:'Doğru',incorrect:'Yanlış',blank:'Boş bırakıldı',ungraded:'Puanlanmadı'};
   const answerText = value => Array.isArray(value) ? value.join(' · ') : value == null || value === '' ? '—' : String(value);
   function outcomeBadge(details) { const value = details?.outcome; return value && outcomeNames[value] ? `<span class="result-pill result-${value}">${outcomeNames[value]}</span>` : '—'; }
@@ -92,6 +93,7 @@
   let presenceTimer, presenceBusy = false, presenceSequence = 0;
   let logsSequence = 0, logsBusy = false, logPage = 0, logCursors = [''], nextCursor = null;
   let learningSequence = 0, detailStudent = '';
+  let examViewsSequence = 0, examViewsData = null;
   function message(value) { $('dashboard-status').textContent = value; }
   function filters() {
     const from = $('filter-from').value, to = $('filter-to').value;
@@ -101,19 +103,20 @@
     return `?${params.toString()}`;
   }
   function selectTab(tab) {
-    if (!['overview','students','learning','logs','settings'].includes(tab)) return;
+    if (!['overview','students','learning','logs','settings','exam-views'].includes(tab)) return;
     const previousTab = selectedTab;
     selectedTab = tab;
     document.querySelectorAll('[data-admin-tab]').forEach(button => {if(button.dataset.adminTab === tab) button.setAttribute('aria-current','page'); else button.removeAttribute('aria-current');});
     document.querySelectorAll('[data-admin-panel]').forEach(panel => panel.hidden = panel.dataset.adminPanel !== tab);
-    $('shared-filters').hidden = tab === 'settings';
+    $('shared-filters').hidden = tab === 'settings' || tab === 'exam-views';
     $('refresh-data').hidden = tab === 'settings';
-    $('live-presence').hidden = tab === 'settings' || tab === 'learning';
+    $('live-presence').hidden = tab === 'settings' || tab === 'learning' || tab === 'exam-views';
     if ($('filter-visit').parentElement) $('filter-visit').parentElement.hidden = tab === 'logs' || tab === 'learning';
-    const titles = {overview:['Genel bakış','Kim katıldı, hangi dersler çalışıldı?'],students:['Öğrenciler','Girişleri, çalışmaları ve son etkinlikleri takip edin.'],learning:['Öğrenme analizi','Nerede zorlanıyor, nasıl ilerliyor, hangi desteği kullanıyor?'],logs:['Ayrıntılı kayıtlar','Yanıtlar, sonuçlar ve tekrar denemeleri.'],settings:['Ayarlar','Yönetici hesabınızı güvenle yönetin.']};
+    const titles = {overview:['Genel bakış','Kim katıldı, hangi dersler çalışıldı?'],students:['Öğrenciler','Girişleri, çalışmaları ve son etkinlikleri takip edin.'],learning:['Öğrenme analizi','Nerede zorlanıyor, nasıl ilerliyor, hangi desteği kullanıyor?'],logs:['Ayrıntılı kayıtlar','Yanıtlar, sonuçlar ve tekrar denemeleri.'],settings:['Ayarlar','Yönetici hesabınızı güvenle yönetin.'],'exam-views':['Sonuçlara erişim','Sınav sonuçları sayfasını açan ve henüz açmayan öğrenciler.']};
     $('dashboard-title').textContent = titles[tab][0]; $('dashboard-subtitle').textContent = titles[tab][1];
     if (tab === 'logs') loadLogs(true);
     else if (tab === 'learning') loadLearning();
+    else if (tab === 'exam-views') loadExamViews();
     else if (tab !== previousTab && tab !== 'settings') load();
     schedulePresence();
   }
@@ -160,10 +163,10 @@
   }
   function schedulePresence() {
     clearTimeout(presenceTimer);
-    if (authorized() && !document.hidden && selectedTab !== 'settings') presenceTimer = setTimeout(async () => { await loadPresence(); schedulePresence(); },30000);
+    if (authorized() && !document.hidden && selectedTab !== 'settings' && selectedTab !== 'exam-views') presenceTimer = setTimeout(async () => { await loadPresence(); schedulePresence(); },30000);
   }
   async function loadPresence() {
-    if (!authorized() || document.hidden || selectedTab === 'settings' || presenceBusy) return;
+    if (!authorized() || document.hidden || selectedTab === 'settings' || selectedTab === 'exam-views' || presenceBusy) return;
     presenceBusy = true; const seq = ++presenceSequence;
     try {
       const data = await access.request('/api/admin/presence');
@@ -220,7 +223,7 @@
       $('log-table').innerHTML = data.events.length ? data.events.map(event => {
         const d = event.details || {};
         const offline = event.occurredAt && Math.abs(new Date(event.createdAt) - new Date(event.occurredAt)) > 120000;
-        return `<tr><td><time>${escape(datetime(event.createdAt))}</time>${offline ? `<small>Cihaz: ${escape(datetime(event.occurredAt))}</small>` : ''}</td><td><strong>${escape(event.studentName)}</strong><small>${escape(event.group || '')}</small></td><td>${escape(lessonLabel(event))}<small>${escape(labelOf(event.activity))}</small>${contextDetails(event)}</td><td><strong>${escape(eventNames[event.type] || event.type)}</strong>${escape(d.prompt || d.questionId || '')}${learningDetails(event)}</td><td>${escape(answerText(d.selectedAnswer))}</td><td>${escape(answerText(d.correctAnswer))}</td><td>${outcomeBadge(d)}</td><td>${d.attempt ? escape(number(d.attempt)) : '—'}</td></tr>`;
+        return `<tr><td><time>${escape(datetime(event.createdAt))}</time>${offline ? `<small>Cihaz: ${escape(datetime(event.occurredAt))}</small>` : ''}</td><td><strong>${escape(event.studentName)}</strong><small>${escape(event.group || '')}</small></td><td>${escape(lessonLabel(event))}<small>${escape(activityLabel(event))}</small>${contextDetails(event)}</td><td><strong>${escape(eventNames[event.type] || event.type)}</strong>${escape(d.prompt || d.questionId || '')}${learningDetails(event)}</td><td>${escape(answerText(d.selectedAnswer))}</td><td>${escape(answerText(d.correctAnswer))}</td><td>${outcomeBadge(d)}</td><td>${d.attempt ? escape(number(d.attempt)) : '—'}</td></tr>`;
       }).join('') : '<tr><td colspan="8" class="table-empty">Bu filtrelerle eşleşen etkinlik kaydı bulunmuyor.</td></tr>';
       message('');
     } catch(error) { if (seq === logsSequence && authorized()) {nextCursor = null; $('log-table').replaceChildren(); message(error.message);} }
@@ -268,6 +271,42 @@
     $('learning-coverage').textContent = [data.truncated?.events === true ? 'Rapor kayıt sınırına ulaştı. Tarih aralığını veya öğrenciyi daraltın.' : 'Seçili dönemin kayıtları.',data.truncated?.firstAttempts === true ? 'İlk deneme taraması kayıt sınırına ulaştı; bulunamayan ilk denemeler bilinmiyor olarak gösterilir.' : '',data.truncated?.timeline === true ? 'Zaman çizelgesinde son 300 etkinlik yer alır.' : '',Number(summary.unknownAssistanceCorrect) > 0 ? `${number(summary.unknownAssistanceCorrect)} doğru soruda yardım bilgisi bilinmiyor.` : '', 'Yardım sınıfları bu sayfa açılışında gözlenen kayıtlara dayanır. Geçmişte açılmış veya yerel kayıttan geri yüklenmiş yanıtlar her zaman saptanamaz; yardım kaydı olmaması bağımsız çözümün kanıtı değildir. Aynı soru farklı denemelerde iki doğru grubuna da girebilir. Ayrıntılar için bir başlığı açın.'].filter(Boolean).join(' ');
     $('learning-updated').textContent = 'Son analiz · ' + datetime(data.asOf || new Date().toISOString());
   }
+  function renderExamViews() {
+    if (!examViewsData || !authorized()) return;
+    const query = $('exam-views-search').value.trim().toLocaleLowerCase('tr-TR');
+    const group = $('exam-views-group').value, status = $('exam-views-filter').value;
+    const students = examViewsData.students.filter(student => (!query || String(student.name).toLocaleLowerCase('tr-TR').includes(query)) && (!group || student.group === group) && (status === 'viewed' ? student.hasViewed : status === 'not-viewed' ? !student.hasViewed : true));
+    const stats = examViewsData.stats;
+    const cards = [['Toplam öğrenci',stats.total],['Baktı · sayfayı açtı',stats.viewed],['Henüz bakmadı',stats.notViewed]];
+    $('exam-views-summary').innerHTML = cards.map(([label,value]) => `<article class="stat-card"><span class="stat-label">${escape(label)}</span><strong>${escape(number(value))}</strong><small>Tüm aktif öğrenciler</small></article>`).join('');
+    $('exam-views-count').textContent = `${number(students.length)} / ${number(stats.total)} öğrenci gösteriliyor.`;
+    $('exam-views-table').innerHTML = students.length ? students.map(student => `<tr><td><strong>${escape(student.name)}</strong></td><td>${escape(student.group || 'Grupsuz')}</td><td><span class="state-pill ${student.hasViewed ? '' : 'never'}">${student.hasViewed ? 'Baktı · sayfayı açtı' : 'Henüz bakmadı'}</span></td><td>${escape(datetime(student.firstViewedAt))}</td><td>${escape(datetime(student.lastViewedAt))}</td><td>${escape(number(student.viewCount))}</td></tr>`).join('') : `<tr><td colspan="6" class="table-empty">${stats.total ? 'Bu filtrelerle eşleşen öğrenci bulunmuyor.' : 'Henüz aktif öğrenci bulunmuyor.'}</td></tr>`;
+  }
+  async function loadExamViews() {
+    if (!authorized() || selectedTab !== 'exam-views') return;
+    const seq = ++examViewsSequence;
+    examViewsData = null;
+    $('exam-views-summary').replaceChildren(); $('exam-views-count').textContent = ''; $('exam-views-updated').textContent = '';
+    $('exam-views-table').innerHTML = '<tr><td colspan="6" class="table-empty">Açılış kayıtları yükleniyor…</td></tr>';
+    $('exam-views-status').textContent = 'Açılış kayıtları yükleniyor…'; $('refresh-data').disabled = true; message('');
+    try {
+      const data = await access.request('/api/admin/exam-result-views');
+      if (seq !== examViewsSequence || !authorized() || selectedTab !== 'exam-views') return;
+      if (!Array.isArray(data?.students) || !data?.stats || !data.students.every(student => student && typeof student.hasViewed === 'boolean' && Number.isInteger(student.viewCount) && student.viewCount >= 0) || data.stats.total !== data.students.length || data.stats.viewed !== data.students.filter(student => student.hasViewed).length || data.stats.notViewed !== data.stats.total - data.stats.viewed) throw new Error('Sınav sonuçları açılış yanıtı doğrulanamadı.');
+      examViewsData = data;
+      const selectedGroup = $('exam-views-group').value;
+      const groups = [...new Set(data.students.map(student => student.group).filter(Boolean))].sort((a,b) => String(a).localeCompare(String(b),'tr'));
+      $('exam-views-group').innerHTML = '<option value="">Tüm gruplar</option>' + groups.map(group => `<option value="${escape(group)}">${escape(group)}</option>`).join('');
+      $('exam-views-group').value = groups.includes(selectedGroup) ? selectedGroup : '';
+      renderExamViews(); $('exam-views-status').textContent = '';
+      $('exam-views-updated').textContent = 'Güncellendi · ' + datetime(new Date().toISOString());
+    } catch (error) {
+      if (seq === examViewsSequence && authorized() && selectedTab === 'exam-views') {
+        $('exam-views-table').replaceChildren();
+        $('exam-views-status').textContent = error.message + ' Yenile düğmesiyle tekrar deneyebilirsiniz.';
+      }
+    } finally { if (seq === examViewsSequence) $('refresh-data').disabled = false; }
+  }
   async function loadLearning() {
     if (!authorized()) return;
     const seq = ++learningSequence;
@@ -282,8 +321,8 @@
       renderLearning(data); $('learning-status').textContent = ''; message('');
     } catch (error) { if (seq === learningSequence && authorized()) $('learning-status').textContent = error.message; }
   }
-  async function refreshAll() { await Promise.all([load(),loadPresence(),selectedTab === 'logs' ? loadLogs(true) : selectedTab === 'learning' ? loadLearning() : Promise.resolve()]); schedulePresence(); }
-  function filtersChanged() { if (selectedTab === 'logs') return loadLogs(true); if (selectedTab === 'learning') return loadLearning(); return load(); }
+  async function refreshAll() { if (selectedTab === 'exam-views') return loadExamViews(); await Promise.all([load(),loadPresence(),selectedTab === 'logs' ? loadLogs(true) : selectedTab === 'learning' ? loadLearning() : Promise.resolve()]); schedulePresence(); }
+  function filtersChanged() { if (selectedTab === 'exam-views') return; if (selectedTab === 'logs') return loadLogs(true); if (selectedTab === 'learning') return loadLearning(); return load(); }
   async function load() {
     if (!ready) return;
     const seq = ++sequence;
@@ -316,7 +355,7 @@
       $('detail-status').textContent = '';
       $('detail-events').innerHTML = data.events.length ? `<ol class="event-list">${data.events.map(event => {
         const lesson = lessonLabel(event);
-        const activity = typeof event.activity === 'object' ? event.activity?.title || event.activity?.id || '' : event.activity || '';
+        const activity = activityLabel(event);
         return `<li><time>${escape(datetime(event.createdAt))}</time><div><strong>${escape(eventNames[event.type] || event.type || 'Etkinlik')}</strong>${lesson ? `<small>${escape(lesson)}</small>` : ''}${activity ? `<small>Etkinlik: ${escape(activity)}</small>` : ''}${Number(event.activeSeconds) > 0 ? `<small>${escape(duration(event.activeSeconds))} aktif çalışma</small>` : ''}${contextDetails(event)}${questionDetails(event)}${learningDetails(event)}</div></li>`;
       }).join('')}</ol>` : '<div class="empty-state">Seçili dönemde bu öğrenci için etkinlik kaydı bulunmuyor.</div>';
     } catch(error) {if(seq === detailSequence) $('detail-status').textContent = error.message;}
@@ -328,6 +367,9 @@
   $('filter-search').addEventListener('input',() => {clearTimeout(debounce); debounce = setTimeout(filtersChanged,300);});
   $('clear-filters').addEventListener('click',() => {['filter-search','filter-group','filter-from','filter-to','filter-event-type','filter-outcome','learning-student'].forEach(id => $(id).value=''); $('filter-visit').value='all'; filtersChanged();});
   $('learning-student').addEventListener('change',loadLearning);
+  $('exam-views-search').addEventListener('input',renderExamViews);
+  ['exam-views-group','exam-views-filter'].forEach(id => $(id).addEventListener('change',renderExamViews));
+  $('exam-views-clear').addEventListener('click',() => {$('exam-views-search').value=''; $('exam-views-group').value=''; $('exam-views-filter').value='all'; renderExamViews();});
   $('logs-next').addEventListener('click',() => { if (logsBusy || !nextCursor) return; logCursors[++logPage] = nextCursor; loadLogs(); });
   $('logs-previous').addEventListener('click',() => { if (logsBusy || logPage < 1) return; --logPage; loadLogs(); });
   document.addEventListener('visibilitychange',() => {clearTimeout(presenceTimer); if (!document.hidden && authorized()) {loadPresence(); schedulePresence();}});
@@ -365,9 +407,10 @@
     finally {button.disabled=false;}
   });
   function clearPrivateData() {
-    ready=false; ++sequence; ++detailSequence; ++presenceSequence; ++logsSequence; ++learningSequence; records=[]; detailStudent=''; learningStudents.clear(); clearTimeout(presenceTimer); clearTimeout(debounce); logsBusy=false; logPage=0; logCursors=['']; nextCursor=null;
-    ['student-table','lesson-table','stat-cards','detail-events','presence-list','presence-summary','log-table','learning-summary','learning-report','learning-student'].forEach(id => $(id).replaceChildren());
-    ['detail-title','detail-group','detail-summary','detail-status','student-count','online-count','presence-updated','presence-status','updated-at','dashboard-status','logs-page','learning-status','learning-updated','learning-coverage'].forEach(id => $(id).textContent='');
+    ready=false; ++sequence; ++detailSequence; ++presenceSequence; ++logsSequence; ++learningSequence; ++examViewsSequence; records=[]; examViewsData=null; detailStudent=''; learningStudents.clear(); clearTimeout(presenceTimer); clearTimeout(debounce); logsBusy=false; logPage=0; logCursors=['']; nextCursor=null;
+    ['student-table','lesson-table','stat-cards','detail-events','presence-list','presence-summary','log-table','learning-summary','learning-report','learning-student','exam-views-summary','exam-views-table','exam-views-group'].forEach(id => $(id).replaceChildren());
+    ['detail-title','detail-group','detail-summary','detail-status','student-count','online-count','presence-updated','presence-status','updated-at','dashboard-status','logs-page','learning-status','learning-updated','learning-coverage','exam-views-count','exam-views-status','exam-views-updated'].forEach(id => $(id).textContent='');
+    $('exam-views-search').value=''; $('exam-views-group').value=''; $('exam-views-filter').value='all'; $('refresh-data').disabled=false;
     $('filter-search').value=''; $('logs-next').disabled=true; $('logs-previous').disabled=true;
     if($('student-detail').open) $('student-detail').close();
   }

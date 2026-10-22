@@ -3,6 +3,7 @@ import {CLIENT_TYPES,validLocation,validateQuestion,clientTime,validateContext,v
 import {validateLearning,queryLearning} from './learning-insights.mjs';
 import {listTeacherGuides,readTeacherGuide} from './teacher-guides.mjs';
 import {studentExamResults,adminExamResults} from './exam-results.mjs';
+import {recordExamResultView,adminExamResultViews} from './exam-result-views.mjs';
 const iso = () => new Date().toISOString();
 const fail = (status,message) => { throw Object.assign(new Error(message),{status}); };
 const reply = (data,status=200) => new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json;charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
@@ -160,6 +161,12 @@ async function route(req,env,url) {
     const s=await authenticate(req,env);if(s.role!=='student')fail(403,'Öğrenci oturumu gerekli.');
     return reply(await studentExamResults(env,s.student_id));
   }
+  if(req.method==='POST'&&path==='/api/exam-results/view') {
+    const s=await authenticate(req,env);if(s.role!=='student')fail(403,'Öğrenci oturumu gerekli.');
+    const {viewId}=await jsonBody(req,1000);
+    await recordExamResultView(env,s.student_id,viewId);
+    return reply({ok:true});
+  }
   if(req.method==='POST'&&path==='/api/presence') {
     const s=await authenticate(req,env);if(s.role!=='student')fail(403,'Öğrenci oturumu gerekli.');
     const {state,lesson,activity,context:rawContext,sequence=0}=await jsonBody(req,4000);
@@ -219,6 +226,7 @@ async function route(req,env,url) {
     if(req.method==='GET'&&path==='/api/admin/teacher-guides')return reply(await listTeacherGuides(env));
     if(req.method==='GET'&&path.startsWith('/api/admin/teacher-guides/'))return reply(await readTeacherGuide(env,path.slice('/api/admin/teacher-guides/'.length)));
     if(req.method==='GET'&&path==='/api/admin/exam-results')return reply(await adminExamResults(env));
+    if(req.method==='GET'&&path==='/api/admin/exam-result-views')return reply(await adminExamResultViews(env));
     if(req.method==='GET'&&path==='/api/admin/presence')return reply(await onlineStudents(env));
     if(req.method==='GET'&&path==='/api/admin/learning')return reply(await queryLearning(env,url,filters(url),{columns:LOG_COLUMNS,join:LOG_JOIN,mapEvent}));
     if(req.method==='GET'&&path==='/api/admin/logs')return reply(await queryLogs(env,url,filters(url)));
