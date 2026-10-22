@@ -76,7 +76,14 @@ jobs:
           mkdir -p "$ANDROID_AVD_HOME"
           echo "ANDROID_AVD_HOME=$ANDROID_AVD_HOME" >> "$GITHUB_ENV"
           echo no | "$ANDROID_HOME/cmdline-tools/latest/bin/avdmanager" create avd --name english-api34 --package "$image" --device pixel_5 --force
-          "$ANDROID_HOME/emulator/emulator" -avd english-api34 -port 5554 -no-window -no-audio -no-boot-anim -no-snapshot -gpu swiftshader_indirect -accel on -memory 2048 -cores 2 > "$RUNNER_TEMP/english-emulator.log" 2>&1 &
+          # The emulator copies the host public key into fresh guest userdata.
+          # Generate it before first boot; starting adb later leaves the guest unauthorized.
+          mkdir -p "$HOME/.android"
+          "$ANDROID_HOME/platform-tools/adb" kill-server || true
+          "$ANDROID_HOME/platform-tools/adb" start-server
+          test -s "$HOME/.android/adbkey"
+          test -s "$HOME/.android/adbkey.pub"
+          "$ANDROID_HOME/emulator/emulator" -avd english-api34 -port 5554 -no-window -no-audio -no-boot-anim -no-snapshot -no-metrics -gpu swiftshader_indirect -accel on -memory 2048 -cores 2 > "$RUNNER_TEMP/english-emulator.log" 2>&1 &
       - name: Üç soğuk açılış, tarayıcı devri ve çökme denetimi
         run: bash scripts/test-android-startup.sh emulator-5554
       - name: Açılış kanıtları ve hata kayıtları
