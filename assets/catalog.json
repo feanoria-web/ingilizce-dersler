@@ -253,15 +253,16 @@
   {
     "id": "yds/grammar-studio",
     "level": "YDS",
-    "title": "YDS Grammar Studio · 12 ünite",
-    "description": "123 konu anlatımı, 230 açıklamalı soru, 12 akademik okuma ve 144 kelime kartı.",
+    "title": "YDS Grammar Studio · Hap bilgi ve soru bankası",
+    "description": "123 konu anlatımı, 72 hap bilgi kartı, 330 açıklamalı soru, 12 akademik okuma ve 144 kelime kartı.",
     "number": 1,
     "order": 1,
-    "date": "2026-10-06",
+    "date": "2026-10-23",
     "duration": "Kendi hızında",
     "tags": [
-      "Dil bilgisi",
+      "Hap bilgiler",
       "Açıklamalı sorular",
+      "Dil bilgisi",
       "Okuma ve kelimeler"
     ],
     "url": "lessons/yds/grammar-studio.html"

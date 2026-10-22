@@ -22,6 +22,14 @@ Yayın kopyalarına `scripts/build-mobile.mjs` ile ortak mobil düzen ve ders ai
 
 YDS kelime kartı çevirmek tüm kelime listesini yeniden oluşturmaz; aramalar 150 ms bekletilerek Android klavyede gereksiz yeniden çizim azaltılır. Dokunarak kaydırmada aynı takip hesabını defalarca çalıştırmamak için hareket sinyalleri saniyede bir örneklenir; ilk gerçek hareketle hareketsizlikten dönüş hemen kaydedilir, 330 saniye eşiği ve mevcut kayıt yapısı korunur.
 
+## YDS hap bilgi atölyesi
+
+YDS Grammar Studio içindeki “Hap bilgi” alanı mevcut 12 üniteyi ve ilk soru bankasını koruyarak ek çalışma sunar. Yeni içerik `yds-src/data/capsules-01-06.json` ve `capsules-07-12.json` dosyalarındadır. Her kart kısa açıklama, yapı, bağlam ipucu, kurallar, açıklamalı İngilizce–Türkçe örnekler, sık hatalar ve çözüm yaklaşımı içerir. Ayrıntılar açılır bölümlerde tutulur. Karttan ilgili yeni sorulara geçilebilir; sorular ilk banka ile aynı cevap kontrolü, yanlış defteri ve süreli test akışını kullanır. Doğru cevap ve seçenek gerekçeleri kontrol işleminden sonra gösterilir.
+
+Kapsam için Nesibe Sevgi Öndeş’in *English Grammar Inside and Out* kitabının 12 üniteli konu haritası ve kullanıcı tarafından sağlanan 20 sayfalık Pegem ön izleme PDF’si incelenmiştir. İkinci dosyanın ilk bölümünde *YDS Çıkmış Sorular* (2025), ikinci bölümünde Sibel Yücel’in *YDS–YÖKDİL Grammar Book* (8. baskı, 2023) ön izlemesi bulunur. Anlatımlar, örnekler ve ek sorular bu site için özgün hazırlanır; kitap PDF’leri ve çıkmış sorular yayımlanmaz. Çalışma testleri resmî sınav veya puan tahmini değildir.
+
+`scripts/build-yds.mjs` ek içerikte kimlikleri, mevcut ünite/konu bağlantılarını, kart–soru eşleşmelerini ve beş seçeneğin açıklamalarını doğrular. Kaynak JSON düzenlendikten sonra `npm run build`, `npm run check:build`, `npm run check:yds` ve `npm run test:access` çalıştırılır. Üretilen `lessons/yds/grammar-studio.html` tek başına düzenlenmez. Kitap inceleme notları yalnız Git’e alınmayan `private/yds-research/` klasöründedir.
+
 ## Öğrenci girişi ve kayıtlar
 
 Öğrenci tek şifre alanına kendi adını veya ad-soyadını yazar. Büyük/küçük harf, Türkçe karakterler ve boşluklar eşitlenir. Aynı kısa ad birden fazla öğrenciyi gösteriyorsa tam ad istenir. A1, A2 ve B1 sınıfı rapor filtresidir; herkes aynı ders paneline erişir.

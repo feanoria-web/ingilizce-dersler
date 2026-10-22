@@ -52,7 +52,7 @@ export function instrumentYdsBreakReview(source) {
 
 `;
   let html=replaceOnce(source,'  function route() {',bridge+'  function route() {','route function');
-  html=replaceOnce(html,"const view=['home','unit','bank','reading','vocab','mistakes','plan','source','test']", "const view=['home','unit','bank','reading','vocab','mistakes','plan','source','test','breakreview']",'route whitelist');
+  html=replaceOnce(html,"const view=['home','unit','bank','reading','vocab','mistakes','plan','source','test','capsules']", "const view=['home','unit','bank','reading','vocab','mistakes','plan','source','test','capsules','breakreview']",'route whitelist');
   html=replaceOnce(html,"      case 'test':html=testPage();break;", "      case 'test':html=testPage();break;\n      case 'breakreview':html=breakReviewPage();break;",'render route');
   html=replaceOnce(html,'    state.last={unitId:unit.id,sectionId:section.id};','    state.last={unitId:unit.id,sectionId:section.id};\n    breakReviewCutoff=null;','last topic');
   html=replaceOnce(html,'<div class="topic-neighbors">','<div class="actions" style="margin-top:24px"><a class="button" href="#breakreview">☕ Mola sayfasına geç</a></div><div class="topic-neighbors">','topic break link');

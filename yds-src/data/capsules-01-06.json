@@ -1,0 +1,2436 @@
+{
+  "capsules": [
+    {
+      "id": "hb01",
+      "unitId": "u01",
+      "title": "Simple mı continuous mı? Önce anlamı seç",
+      "lead": "Zaman seçerken yalnız şimdiye mi geçmişe mi baktığımızı sormayız; olayı nasıl sunduğumuz da önemlidir. Simple biçim bir durumu, düzeni veya bütünü; continuous ise belirli zaman çevresindeki süreci öne çıkarabilir. Aynı fiil anlamı değiştiğinde farklı biçimler alabilir.",
+      "formula": "Genel durum: V / V-s · Geçici süreç: am/is/are + V-ing",
+      "signal": "Every day alışkanlığı destekler; ancak tek sözcükle karar verme. Cümlenin geçici değişim mi kalıcı özellik mi anlattığını kontrol et.",
+      "rules": [
+        "Simple present yalnız alışkanlık değildir: bilimsel açıklamalar, kurumların işleyişi ve genel kabul gören durumlar da bu biçimle anlatılır.",
+        "Present continuous konuşma anına yakın geçici gelişmeleri gösterebilir; olay tam o saniyede gerçekleşmek zorunda değildir.",
+        "Know ve belong gibi durum fiilleri normal anlamlarında genellikle continuous kullanılmaz. Think görüş belirtirken durum, değerlendirme sürecini anlatırken etkinlik olabilir."
+      ],
+      "examples": [
+        {
+          "en": "This sensor detects tiny changes in pressure.",
+          "tr": "Bu sensör basınçtaki çok küçük değişimleri algılar.",
+          "note": "Cihazın genel işlevi veriliyor; tek bir ölçüm anlatılmıyor."
+        },
+        {
+          "en": "The team is testing a smaller sensor this month.",
+          "tr": "Ekip bu ay daha küçük bir sensörü deniyor.",
+          "note": "Bu ayla sınırlı geçici araştırma süreci continuous gerektiriyor."
+        }
+      ],
+      "pitfalls": [
+        "Now gördüğün her yerde continuous seçme: The answer is now clear cümlesindeki be bir durum bildirir.",
+        "Have sahiplikte genellikle durumdur; have a discussion ise etkinliktir. Fiilin adını değil cümledeki anlamını değerlendir."
+      ],
+      "decision": "Önce fiilin durum mu etkinlik mi bildirdiğini, ardından genel özellik mi geçici süreç mi anlatıldığını belirle."
+    },
+    {
+      "id": "hb02",
+      "unitId": "u01",
+      "title": "Simple past ve present perfect: zaman çerçevesi",
+      "lead": "İki yapı da Türkçeye geçmiş zamanla çevrilebilir; İngilizcede ayrım, tamamlanan zaman çerçevesinin şimdiyle ilişkisine dayanır. Simple past kapanmış geçmiş noktayı sunar. Present perfect deneyimi, bugüne kadarki toplamı veya şimdiki sonucu geçmişe bağlar.",
+      "formula": "Kapanmış geçmiş: V2 · Şimdiyle bağlantı: have/has + V3",
+      "signal": "Last year bitmiş zamanı destekler. So far veya since şimdiye uzanan çerçeve kurabilir; yine de bütün cümleyi oku.",
+      "rules": [
+        "In 2018, yesterday ve two weeks ago gibi bitmiş zaman ifadeleriyle olay genellikle simple pastta verilir.",
+        "Present perfect belirli geçmiş tarihte ne olduğunu anlatmaktan çok bugüne kadar ne gerçekleştiğini öne çıkarır.",
+        "Today ve this week tamamlanmamış dönem sayılabilir; fakat konuşmacı o dönemdeki bitmiş bir olayı da simple pastla sunabilir. Zaman ifadesi tek başına yeterli değildir."
+      ],
+      "examples": [
+        {
+          "en": "The laboratory opened a second branch in 2019.",
+          "tr": "Laboratuvar 2019 yılında ikinci bir şube açtı.",
+          "note": "Açılış belirli ve tamamlanmış geçmiş yıla yerleştirilmiş."
+        },
+        {
+          "en": "The laboratory has opened three branches so far.",
+          "tr": "Laboratuvar bugüne kadar üç şube açtı.",
+          "note": "Bugüne kadarki toplam vurgulanıyor; açılış tarihleri verilmiyor."
+        }
+      ],
+      "pitfalls": [
+        "Türkçedeki her -di ekini present perfect ile eşleştirme; çeviri İngilizcedeki çerçeve ayrımını her zaman göstermez.",
+        "Since başlangıç noktası, for süre bildirir. For hem geçmişte bitmiş hem hâlâ süren dönemlerle kullanılabilir."
+      ],
+      "decision": "Belirli ve kapanmış geçmiş olay mı, yoksa şimdiye kadar oluşan durum mu anlatılıyor?"
+    },
+    {
+      "id": "hb03",
+      "unitId": "u01",
+      "title": "Perfect simple ve perfect continuous: sonuç mu süreç mi?",
+      "lead": "Perfect simple çoğu kez tamamlanan işi veya elde edilen miktarı; perfect continuous süren etkinliği ve harcanan zamanı öne çıkarır. Bu katı bir karşıtlık değildir: bazı fiillerle iki biçim de mümkün olabilir, fakat vurgu değişir. Durum fiilleri ayrıca değerlendirilmelidir.",
+      "formula": "have/has + V3 ↔ have/has been + V-ing",
+      "signal": "How many ve three reports tamamlanan miktara; how long ve görünür yorgunluk gibi izler sürece dikkat çekebilir.",
+      "rules": [
+        "Belirli sayıda tamamlanmış ürün bildiriliyorsa perfect simple daha uygundur: has written four reports.",
+        "Continuous etkinliğin sürmesini veya kısa süre önce bitip iz bırakmasını gösterebilir; her zaman hâlâ devam ediyor demek değildir.",
+        "Know ve own gibi durum fiilleriyle süre anlatılsa bile genellikle perfect simple kullanılır: have known, has owned."
+      ],
+      "examples": [
+        {
+          "en": "Mina has translated six abstracts today.",
+          "tr": "Mina bugün altı özet çevirdi.",
+          "note": "Tamamlanan çeviri sayısı önemli."
+        },
+        {
+          "en": "Mina has been translating abstracts all morning.",
+          "tr": "Mina bütün sabah özet çevirmekle uğraşıyor.",
+          "note": "Etkinliğin süresi öne çıkıyor; kaç özetin tamamlandığı bilinmiyor."
+        }
+      ],
+      "pitfalls": [
+        "For three hours görünce otomatik continuous seçme: I have known her for years doğrudur.",
+        "Has been reading a book kitabın tamamlandığını kanıtlamaz; has read the book normal bağlamda tamamlanan okumayı bildirir."
+      ],
+      "decision": "Ölçülen şey tamamlanan sonuç mu, etkinliğin süresi mi? Ardından fiilin continuous biçime uygunluğunu kontrol et."
+    },
+    {
+      "id": "hb04",
+      "unitId": "u01",
+      "title": "Past perfect: geçmişin içindeki önceki aşama",
+      "lead": "Past perfect bir olayı başka bir geçmiş referans noktasından önceye yerleştirir. Geçmiş anlatıda zaman sırasını açıklar; cümlede iki geçmiş olay bulunması tek başına yeterli değildir. Anlatıcının hangi andan geriye baktığını belirlemek gerekir.",
+      "formula": "Önceki olay: had + V3 · Önceki süreç: had been + V-ing",
+      "signal": "By the time ve already geçmişteki noktadan önce tamamlanmayı destekler. Before/after sırayı açık veriyorsa iki simple past da mümkün olabilir.",
+      "rules": [
+        "Geçmiş referans aynı cümlede verilebilir veya önceki cümlelerden anlaşılabilir; past perfect tek başına en eski tarih anlamına gelmez.",
+        "Had been working bir geçmiş ana kadar sürmüş etkinliği, had completed o andan önce elde edilmiş sonucu öne çıkarır.",
+        "When + simple past eşzamanlılık veya peş peşelik bildirebilir. When + past perfect, önceki olayın tamamlanmasının ardından gerçekleşeni belirginleştirebilir."
+      ],
+      "examples": [
+        {
+          "en": "By the time the inspector arrived, the staff had locked the archive.",
+          "tr": "Müfettiş geldiğinde personel arşivi çoktan kilitlemişti.",
+          "note": "Varış referanstır; kilitleme ondan önce tamamlanmıştır."
+        },
+        {
+          "en": "They had been monitoring the river for months when the leak was discovered.",
+          "tr": "Sızıntı bulunduğunda aylardır nehri izliyorlardı.",
+          "note": "Bulunma anına kadar uzanan önceki süreç anlatılıyor."
+        }
+      ],
+      "pitfalls": [
+        "İki fiil geçmişteyse birini zorunlu past perfect yapma; kronolojik anlatıda simple past yeterli olabilir.",
+        "Past perfect yalnız çok eski olaylar için değildir; iki dakikalık öncelik de bu yapıyla gösterilebilir."
+      ],
+      "decision": "Geçmiş referans anını işaretle; daha önce tamamlanan sonucu veya o ana kadar süren etkinliği ona göre seç."
+    },
+    {
+      "id": "hb05",
+      "unitId": "u01",
+      "title": "Geleceği anlatmanın birden fazla yolu",
+      "lead": "Will, be going to ve present continuous her bağlamda birbirinin yerine geçmez. Karar, tahmin, mevcut kanıt ve düzenleme gibi anlamlar yapıyı etkiler. Doğal kullanımda örtüşmeler de bulunduğundan yalnız gelecek zarfını görerek kesin seçim yapmak yanıltıcıdır.",
+      "formula": "will + V1 · be going to + V1 · düzenleme: am/is/are + V-ing",
+      "signal": "Diyalogdaki ani karar, önceden ayarlanmış randevu ve görünür kanıtı ayır. Tomorrow tek başına yapıyı belirlemez.",
+      "rules": [
+        "Will konuşma anındaki karar, teklif veya öngörü için kullanılabilir: I will carry the samples.",
+        "Be going to önceden var olan niyeti veya şimdiki kanıta dayanan tahmini anlatabilir; bu iki kullanımın gerekçeleri farklıdır.",
+        "Present continuous somut gelecek düzenlemesini gösterebilir. Resmî programlarda simple present kullanılması da mümkündür: The train leaves at six."
+      ],
+      "examples": [
+        {
+          "en": "The lid is loose; the container is going to spill its contents.",
+          "tr": "Kapak gevşek; kabın içindekiler dökülecek.",
+          "note": "Tahmin görünür mevcut kanıta dayanıyor."
+        },
+        {
+          "en": "We are meeting the project adviser at ten tomorrow.",
+          "tr": "Yarın saat onda proje danışmanıyla görüşüyoruz.",
+          "note": "Ayarlanmış görüşme anlatılıyor."
+        }
+      ],
+      "pitfalls": [
+        "Will her zaman kesinlik, going to her zaman kesin plan demek değildir; konuşmacının bakış açısı önemlidir.",
+        "Gelecek anlamlı present continuous ile şu anda süren eylemi zaman bağlamından ayır; biçim aynı olabilir."
+      ],
+      "decision": "Önce iletişim işlevini bul: teklif, tahmin, niyet veya düzenleme mi? Seçenekleri bu işlevle birlikte değerlendir."
+    },
+    {
+      "id": "hb06",
+      "unitId": "u01",
+      "title": "Gelecek zaman yan cümleleri ve tamamlanma sınırı",
+      "lead": "İngilizce geleceği her cümlecikte will ile işaretlemez. When, until ve as soon as gibi zaman bağlaçlarının ardından gelecek anlamı çoğunlukla present biçimle verilir. Future perfect ise gelecekte belirli sınıra kadar tamamlanacak işi anlatır.",
+      "formula": "When + present, will + V1 · By + gelecek sınırı, will have + V3",
+      "signal": "When zaman bağlacı mı, dolaylı soruda ne zaman anlamında mı? İşlev ayrımı will seçeneğinin uygunluğunu değiştirebilir.",
+      "rules": [
+        "Gelecek zaman yan cümlesinde when/as soon as/until sonrasında normal zaman anlamında will yerine simple present veya bağlama uygun present perfect kullanılır.",
+        "I do not know when she will return zaman yan cümlesi değildir; know fiilinin nesnesi olan dolaylı sorudur. Bu nedenle will kullanılabilir.",
+        "By next month üst sınır kurar. Future perfect bu gelecek noktadan geriye bakarak tamamlanan sonucu gösterir; until çoğu kez sürmenin bitiş sınırını belirtir."
+      ],
+      "examples": [
+        {
+          "en": "We will release the figures as soon as the auditors approve them.",
+          "tr": "Denetçiler rakamları onaylar onaylamaz onları yayımlayacağız.",
+          "note": "Yan cümle gelecek anlamlı olsa da approve kullanılıyor."
+        },
+        {
+          "en": "By the end of June, the crew will have repaired all three bridges.",
+          "tr": "Haziran sonuna kadar ekip üç köprünün tamamını onarmış olacak.",
+          "note": "Gelecekteki sınırdan önce tamamlanacak toplam iş anlatılıyor."
+        }
+      ],
+      "pitfalls": [
+        "When sonrasında hiçbir zaman will gelmez kuralı yanlıştır; dolaylı soru ile zaman cümleciğini ayır.",
+        "By Friday cuma gününe kadar tamamlanmayı; until Friday cuma gününe kadar sürmeyi anlatabilir."
+      ],
+      "decision": "Yan cümlenin zaman mı soru içeriği mi taşıdığını belirle; gelecekte süreç mi yoksa tamamlanmış sonuç mu istendiğine bak."
+    },
+    {
+      "id": "hb07",
+      "unitId": "u02",
+      "title": "Modal seçerken biçim ve işlevi birlikte oku",
+      "lead": "Modallar bir eylemin yanı sıra konuşmacının değerlendirmesini de taşır: zorunluluk, ihtimal, izin veya yeterlilik gibi. Aynı modal farklı işlevlerde kullanılabilir. Bu yüzden yalın fiili bulmak kadar bağlamdaki anlamı belirlemek de gereklidir.",
+      "formula": "modal + V1 · modal + be + V-ing · modal + have + V3",
+      "signal": "Must görev bağlamında zorunluluk, güçlü kanıt bağlamında çıkarım bildirebilir. Kaynak ve konuşma amacı önemlidir.",
+      "rules": [
+        "Temel modallardan sonra yalın fiil gelir: can work, might fail. Üçüncü tekil kişi için modala -s eklenmez.",
+        "Must be working şu anda sürdüğü çıkarılan etkinliği, must have worked geçmişe ilişkin çıkarımı gösterebilir.",
+        "Have to ve be able to modal benzeri yapılardır; zamana ve özneye göre çekimlenebilir. Will have to mümkündür; will must standart değildir."
+      ],
+      "examples": [
+        {
+          "en": "All visitors must display a valid pass.",
+          "tr": "Bütün ziyaretçiler geçerli bir giriş kartı göstermek zorundadır.",
+          "note": "Kural ve yükümlülük bildiriliyor."
+        },
+        {
+          "en": "The room is dark; the staff may be working elsewhere.",
+          "tr": "Oda karanlık; personel başka bir yerde çalışıyor olabilir.",
+          "note": "May olasılık, be working devam eden etkinlik bildiriyor."
+        }
+      ],
+      "pitfalls": [
+        "Can izin de yeterlilik de anlatabilir; yalnız sözlük karşılığıyla karar verme.",
+        "Must to submit ve he cans biçimleri yanlıştır. Ought to ve have to gibi yapıları temel modal kalıbıyla karıştırma."
+      ],
+      "decision": "Önce ihtimal mi yükümlülük mü izin mi arandığını bul; sonra olayın zaman ve görünüş katmanını seç."
+    },
+    {
+      "id": "hb08",
+      "unitId": "u02",
+      "title": "Must not, need not ve gereksiz geçmiş eylem",
+      "lead": "Yasak ile zorunluluğun bulunmaması aynı şey değildir. Must not eylemin yapılmamasını zorunlu kılar; need not ve do not have to yapılmasının gerekli olmadığını söyler. Geçmişte gereksizlik anlatırken eylemin gerçekten yapılıp yapılmadığı ayrıca önemlidir.",
+      "formula": "Yasak: must not + V1 · Gereksiz: need not + V1 · Yapılmış gereksiz iş: need not have + V3",
+      "signal": "Prohibited yasağa, optional gereksizliğe işaret edebilir. Gerçekleşme bilgisi için devam cümlesini oku.",
+      "rules": [
+        "You must not enter girmek yasaktır; you do not have to enter girmek zorunda değilsin demektir. İkinci ifade girişi yasaklamaz.",
+        "Need not have done, eylemin yapıldığını fakat gerekli olmadığını bildirir; sonradan anlaşılan gereksiz çabaya uygundur.",
+        "Did not need to do geçmişte gereklilik olmadığını söyler; eylemin yapılıp yapılmadığını her bağlamda tek başına kesinleştirmez. Devam cümlesi sonucu açıklayabilir."
+      ],
+      "examples": [
+        {
+          "en": "Applicants need not print the form; digital copies are accepted.",
+          "tr": "Başvuranların formu yazdırması gerekmiyor; dijital kopyalar kabul ediliyor.",
+          "note": "Yazdırmak yasak değil, gereksiz."
+        },
+        {
+          "en": "I need not have booked a taxi; the hotel had arranged a transfer.",
+          "tr": "Taksi ayırtmama gerek yokmuş; otel transfer ayarlamıştı.",
+          "note": "Taksi ayırtılmış ve sonradan gereksiz olduğu anlaşılmış."
+        }
+      ],
+      "pitfalls": [
+        "Do not have to ifadesini yapmamalısın diye çevirme; yalnız zorunluluk kaldırılır.",
+        "Need not have done gereksiz eylem; must not have done uygun bağlamda geçmişe ilişkin olumsuz çıkarım anlatabilir."
+      ],
+      "decision": "Yasak mı serbest tercih mi olduğunu belirle; geçmişse eylemin yapıldığına dair açık bilgiyi kontrol et."
+    },
+    {
+      "id": "hb09",
+      "unitId": "u02",
+      "title": "Geçmişe ilişkin çıkarım: modal perfect",
+      "lead": "Geçmişte ne olduğunu doğrudan bilmiyor olabiliriz; mevcut kanıttan açıklama çıkarırız. Modal perfect bu değerlendirmeyi geçmiş olayla birleştirir. Olay geçmişte olsa bile çıkarımı yapanın değerlendirmesi konuşma anına ait olabilir.",
+      "formula": "must / may / might / could / cannot + have + V3",
+      "signal": "Tek mümkün açıklama mı, yalnız bir ihtimal mi, yoksa dışlanan bir ihtimal mi var? Kanıt gücünü kesinlik derecesiyle eşleştir.",
+      "rules": [
+        "Must have done güçlü olumlu çıkarım bildirir; doğrudan gözlem veya kesin ispatla aynı şey değildir.",
+        "May/might/could have done geçmişte gerçekleşmiş olabilecek ihtimali sunabilir. Could have kullanılmamış fırsat anlamı da taşıyabilir; bağlam belirleyicidir.",
+        "Cannot/could not have done geçmişte gerçekleşmesini mantıken mümkün görmediğimiz durum için kullanılabilir. Must not have her bağlamda yasağın geçmişi değildir."
+      ],
+      "examples": [
+        {
+          "en": "The only copy is missing; someone must have removed it.",
+          "tr": "Tek kopya kayıp; biri onu almış olmalı.",
+          "note": "Kanıta dayalı güçlü açıklama kuruluyor."
+        },
+        {
+          "en": "The sample may have been damaged during transport.",
+          "tr": "Numune taşıma sırasında zarar görmüş olabilir.",
+          "note": "Olasılık kesinleştirilmiyor; edilgen have been damaged var."
+        }
+      ],
+      "pitfalls": [
+        "Must have done geçmişte yapmak zorundaydı anlamının normal karşılığı değildir; geçmiş yükümlülük had to ile verilir.",
+        "Might have done olayın kesin gerçekleştiğini söylemez; çeviride olabilir anlamını koru."
+      ],
+      "decision": "Geçmişi have + V3 ile, değerlendirme derecesini modal ile çöz; kanıtın hangi ihtimali desteklediğini oku."
+    },
+    {
+      "id": "hb10",
+      "unitId": "u02",
+      "title": "Should have ve geçmişte yeterlilik",
+      "lead": "Should have done çoğu kez geçmişte yapılması doğru görülen ama yapılmamış davranışa dönük eleştiridir. Yeterlilikte could, was able to ve managed to arasındaki fark önemlidir. Genel gücün yetmesi, belirli olayda gerçekten başarmakla aynı bilgi değildir.",
+      "formula": "should have + V3 · Genel geçmiş beceri: could · Tekil başarı: managed to / was able to",
+      "signal": "But she did not, fortunately ve eventually gerçekleşme bilgisini açığa çıkarır. Yalnız geçmiş zaman sözcüğüne dayanma.",
+      "rules": [
+        "Should have checked geçmişe dönük eleştiri bildirebilir. Ayrıca beklenti de anlatabilir: The parcel should have arrived by now.",
+        "Genel geçmiş yeteneğinde could uygundur. Belirli olayda başarı vurgusunda was able to veya managed to çoğu kez daha açıktır.",
+        "Olumsuz tekil başarısızlıkta could not doğal kullanılır. See, hear ve understand gibi fiillerde olumlu could belirli olay için de mümkün olabilir."
+      ],
+      "examples": [
+        {
+          "en": "You should have saved a backup before updating the system.",
+          "tr": "Sistemi güncellemeden önce yedek kaydetmeliydin.",
+          "note": "Geçmiş davranışa yönelik eleştiri var."
+        },
+        {
+          "en": "Despite the smoke, the crew managed to locate the exit.",
+          "tr": "Dumana rağmen ekip çıkışı bulmayı başardı.",
+          "note": "Güçlük içindeki somut başarı bildiriliyor."
+        }
+      ],
+      "pitfalls": [
+        "Should have her zaman yapılmadığını mantıksal olarak garanti etmez; eleştiri mi beklenti mi olduğuna bak.",
+        "Could tek olayda asla kullanılmaz kuralı aşırıdır; algı fiilleri bu genellemeyi sınırlar."
+      ],
+      "decision": "Yargı mı başarı mı sorulduğunu belirle; gerçekleşen tek olayı genel beceriden ayır."
+    },
+    {
+      "id": "hb11",
+      "unitId": "u02",
+      "title": "Used to, would ve be used to ayrımı",
+      "lead": "Used to geçmiş alışkanlık veya durum, be used to alışkın olma bildirir. Benzer görünen iki to aynı görevde değildir. Would da geçmişte yinelenen eylemleri anlatabilir; fakat her geçmiş durumu onunla aktaramayız.",
+      "formula": "used to + V1 · be/get used to + isim / V-ing · Geçmiş tekrar: would + V1",
+      "signal": "As a child geçmiş çerçeveyi kurabilir; accustomed anlamı varsa be used to aranır. Would için geçmiş referansın kurulmuş olmasına dikkat et.",
+      "rules": [
+        "Used to geçmişte geçerli olup artık geçerli olmadığı ima edilen durum ve tekrarları anlatır: used to live, used to visit.",
+        "Would yerleşmiş geçmiş çerçevede yinelenen eylemler için uygundur; sürekli durum ve sahiplikte used to genellikle daha uygundur.",
+        "Be used to edat yapısıdır; isim veya gerund alır. Get used to alışma sürecini, be used to alışkın olma durumunu öne çıkarır."
+      ],
+      "examples": [
+        {
+          "en": "The valley used to contain a large lake.",
+          "tr": "Vadide eskiden büyük bir göl bulunurdu.",
+          "note": "Geçmiş durum; would contain bu anlamda uygun seçim değildir."
+        },
+        {
+          "en": "The technicians are used to working at night.",
+          "tr": "Teknisyenler gece çalışmaya alışkındır.",
+          "note": "To edat olduğu için working gerund biçimindedir."
+        }
+      ],
+      "pitfalls": [
+        "Used to work ile is used to working aynı anlamı taşımaz; geçmiş alışkanlık ve şimdiki alışkınlığı ayır.",
+        "Would her zaman koşul cümlesi bildirmez; anlatı içinde geçmiş tekrar da anlatabilir."
+      ],
+      "decision": "To sonrasında yalın fiil mi gerund mı geldiğini kontrol et; geçmiş alışkanlık ile alışkınlık anlamını ayır."
+    },
+    {
+      "id": "hb12",
+      "unitId": "u02",
+      "title": "Tercih ve kibar istek kalıpları",
+      "lead": "Tercih yapılarındaki küçük değişiklikler öznenin aynı mı farklı mı olduğunu gösterir. Kibar isteklerde soru biçimi gerçek geçmiş zaman sorusu olmayabilir. Yapı ve iletişim amacı birlikte değerlendirilmelidir.",
+      "formula": "would rather + V1 · would rather + başka özne + past · would you mind + V-ing",
+      "signal": "İstek mi tercih mi var? Tercih edilen eylemi konuşmacı mı başka biri mi yapıyor? İki soru fiil biçimini belirler.",
+      "rules": [
+        "Would rather aynı özneyle yalın fiil alır: I would rather wait. Farklı özneyle şimdiki/gelecek tercihte past kullanılır: I would rather you waited.",
+        "Geçmişe dönük farklı özneli tercihte past perfect kullanılır: I would rather you had called. Geçmiş olayı değiştirme isteği anlatılır.",
+        "Would you mind opening the window? kibar istek olup gerund alır. Do you mind if I open the window? izin isteme yapısıdır."
+      ],
+      "examples": [
+        {
+          "en": "I would rather the committee postponed the vote until Monday.",
+          "tr": "Komitenin oylamayı pazartesiye ertelemesini tercih ederim.",
+          "note": "Farklı özne sonrası postponed geçmiş biçimdedir, tercih geleceğe yöneliktir."
+        },
+        {
+          "en": "Would you mind checking the reference number?",
+          "tr": "Referans numarasını kontrol eder misiniz?",
+          "note": "Kibar istek yapısında checking kullanılır."
+        }
+      ],
+      "pitfalls": [
+        "Would rather to wait standart kalıba uymaz; aynı özneyle to kullanılmaz.",
+        "Would you mind sorusuna No, not at all cevabı reddetmek değil itiraz etmediğini söylemektir."
+      ],
+      "decision": "Aynı öznede yalın fiili, farklı öznede zaman uzaklığını; mind sonrasında gerundu kontrol et."
+    },
+    {
+      "id": "hb13",
+      "unitId": "u03",
+      "title": "Passive: zamanı koru, özneyi değiştir",
+      "lead": "Edilgende odak, işi yapan kişiden eylemden etkilenene geçer. Fiilin zamanını değiştirmek gerekmez; zaman ve görünüş be yardımcı fiiline taşınır. Önce aktif cümlenin zamanını, sonra yeni öznenin eylemle ilişkisini belirlemek gerekir.",
+      "formula": "be + V3 · is being + V3 · has been + V3 · had been + V3",
+      "signal": "Özne işi yapıyor mu, iş ona mı uygulanıyor? Özneye uygun yardımcı fiili kontrol et; yalnız V3 görerek karar verme.",
+      "rules": [
+        "Passive için normal olarak geçişli fiil gerekir. Happen ve arrive gibi geçişsiz fiiller temel anlamlarında edilgen yapılmaz.",
+        "Present continuous passive is/are being tested; present perfect passive has/have been tested biçimindedir. Being ile been aynı görevde değildir.",
+        "Yapan kişi bilinmiyor, önemsiz veya bağlamdan açıksa by öbeği düşebilir. Bu, cümlenin eksik olduğu anlamına gelmez."
+      ],
+      "examples": [
+        {
+          "en": "The filters are being replaced this week.",
+          "tr": "Filtreler bu hafta değiştiriliyor.",
+          "note": "Sürmekte olan edilgen işlem: are being + V3."
+        },
+        {
+          "en": "The filters have been replaced twice this year.",
+          "tr": "Filtreler bu yıl iki kez değiştirildi.",
+          "note": "Şimdiye kadar tamamlanan edilgen işlemlerin sayısı veriliyor."
+        }
+      ],
+      "pitfalls": [
+        "The accident was happened yanlıştır; happen temel anlamında nesne almayan fiildir.",
+        "Has repaired ile has been repaired farklıdır: ilkinde özne onarır, ikincisinde özne onarılır."
+      ],
+      "decision": "Özne–eylem ilişkisinden çatıyı, zaman bağlamından yardımcı fiil zincirini seç."
+    },
+    {
+      "id": "hb14",
+      "unitId": "u03",
+      "title": "Modal passive ve geçmişte edilgen olasılık",
+      "lead": "Modal ile edilgen birlikte kullanıldığında zorunluluk veya ihtimal anlamı ve eylemin özneye uygulanması korunur. Geçmişe dönük olayda have de zincire katılabilir. Yardımcı fiilleri ezber blok yerine işlevlerine ayırarak oku.",
+      "formula": "modal + be + V3 · modal + have been + V3",
+      "signal": "Gelecekte yapılması gereken işlem mi, geçmişte yapılmış olabilecek işlem mi? Olay zamanı ile değerlendirme zamanını ayır.",
+      "rules": [
+        "The files must be deleted dosyaların silinmesi gerektiğini söyler; silme işleminin yapıldığını bildirmez.",
+        "The files may have been deleted geçmişte silinmiş olma ihtimalini sunar. May have deleted ise öznenin başka bir şeyi silmiş olabileceğini anlatır.",
+        "Modal sonrasında be yalındır. Must are checked ve should been checked yanlış zincirlerdir; perfect edilgende have been sırası korunur."
+      ],
+      "examples": [
+        {
+          "en": "All identifiers must be removed before publication.",
+          "tr": "Yayımdan önce bütün kimlik belirteçleri kaldırılmalıdır.",
+          "note": "Yükümlülük ve edilgenlik birlikte veriliyor."
+        },
+        {
+          "en": "The seal might have been broken during inspection.",
+          "tr": "Mühür denetim sırasında kırılmış olabilir.",
+          "note": "Geçmişte gerçekleşmiş olabilecek edilgen eylem var."
+        }
+      ],
+      "pitfalls": [
+        "Must have been checked güçlü çıkarım olabilir; geçmişte kontrol edilmek zorundaydı diye otomatik çevirme.",
+        "Be + V3 ile have been + V3 farkını yalnız uzunluk değil olay zamanı açıklar."
+      ],
+      "decision": "Modalın anlamını, geçmiş gerekip gerekmediğini ve öznenin edilgen konumunu sırayla kontrol et."
+    },
+    {
+      "id": "hb15",
+      "unitId": "u03",
+      "title": "It is said ve is said to: raporlama edilgeni",
+      "lead": "Bilgiyi kimin söylediği önemli olmadığında raporlama edilgenleri kullanılır. It is believed that ve özne + is believed to benzer bilgi taşıyabilir. İkinci yapıda infinitive, bildirilen olayın raporlamaya göre önce mi aynı zamanda mı olduğunu gösterir.",
+      "formula": "It is believed that S + V ↔ S is believed to V / to have V3",
+      "signal": "Raporlama ne zaman, bildirilen olay ne zaman? Earlier ve last century gibi ifadeleri iki ayrı zaman katmanına yerleştir.",
+      "rules": [
+        "Eşzamanlı durum için is thought to be, aynı zaman çevresindeki süreç için is thought to be working kullanılabilir.",
+        "Önceki olay için perfect infinitive gerekir: is believed to have discovered. Edilgen önceki olay to have been discovered ile anlatılır.",
+        "It is said that içinde that cümlesi normal çekimli fiil taşır. Özneyle başlayan raporlama edilgeninde to-infinitive kullanılır."
+      ],
+      "examples": [
+        {
+          "en": "The painting is believed to have been completed in 1680.",
+          "tr": "Tablonun 1680 yılında tamamlandığı düşünülüyor.",
+          "note": "Düşünme şimdi, tamamlanma geçmişte; tablo edilgen özne."
+        },
+        {
+          "en": "It is reported that the company is expanding abroad.",
+          "tr": "Şirketin yurt dışında büyüdüğü bildiriliyor.",
+          "note": "That cümlesinde çekimli is expanding korunmuş."
+        }
+      ],
+      "pitfalls": [
+        "Is believed that the painting... baştaki it olmadan tamamlanmış yapı değildir.",
+        "To complete ile to have completed eş anlamlı değildir; önceki eylem perfect infinitive gerektirebilir."
+      ],
+      "decision": "Raporlanan özneyi bul; bildirilen olayın raporlamaya göre zamanını ve çatısını ayrı çöz."
+    },
+    {
+      "id": "hb16",
+      "unitId": "u03",
+      "title": "İki nesneli fiiller ve edatın korunması",
+      "lead": "Give, offer ve send hem alıcıyı hem aktarılan şeyi nesne alabilir. Edilgende bunlardan biri özne olabilir; fakat her fiil aynı yapıya izin vermez. Edatlı fiillerde edat edilgenle birlikte çoğunlukla korunur.",
+      "formula": "Someone offered her a grant → She was offered a grant / A grant was offered to her",
+      "signal": "Alıcı mı verilen şey mi özne yapılmış? Fiilin iki nesneye izin verip vermediğini ve gerekli edatı kontrol et.",
+      "rules": [
+        "She was given an extension yapısında kişi özne, verilen şey nesne olarak kalır. An extension was given to her yapısında alıcı to ile verilir.",
+        "Explain ve describe, give ile aynı kalıpta değildir: The method was explained to us doğaldır; We were explained the method standart değildir.",
+        "Look after ve refer to gibi yapılarda edilgenlik edatı silmez: was looked after, was referred to."
+      ],
+      "examples": [
+        {
+          "en": "The volunteers were offered additional training.",
+          "tr": "Gönüllülere ek eğitim teklif edildi.",
+          "note": "Alıcı özneye taşınmış; training cümlede kalmış."
+        },
+        {
+          "en": "The discrepancy was referred to in the final report.",
+          "tr": "Tutarsızlığa son raporda değinildi.",
+          "note": "Refer to yapısının to edatı korunuyor."
+        }
+      ],
+      "pitfalls": [
+        "Her kişi nesnesini edilgen özneye çeviremezsin; fiilin kullanım kalıbı belirleyicidir.",
+        "The issue was dealt eksiktir; deal with yapısının with edatı unutulmuştur."
+      ],
+      "decision": "Dönüşümden önce fiilin nesne düzenini kur; özne değişse de gerekli edatları koru."
+    },
+    {
+      "id": "hb17",
+      "unitId": "u03",
+      "title": "Being done ve to be done: edilgen fiilimsiler",
+      "lead": "Fiilimsi de etkin veya edilgen olabilir. Gerund ya da infinitive seçimini üstteki fiil veya edat; edilgenliği fiilimsinin örtük öznesinin eylemle ilişkisi belirler. İki kararı ayrı aşamalarda vermek yanlış seçeneği elemekte yardımcıdır.",
+      "formula": "being + V3 · having been + V3 · to be + V3 · to have been + V3",
+      "signal": "Avoid ve edat sonrası gerund; expect gibi kalıplarda infinitive gerekebilir. Sonra kimin yapıp kimin etkilendiğine bak.",
+      "rules": [
+        "Avoid being photographed yapısında avoid gerund ister; kişi fotoğraf çekmez, fotoğrafı çekilir.",
+        "The equipment needs to be repaired ile needs repairing aynı gereksinimi anlatabilir. İkinci biçim gerund olsa da anlam edilgendir.",
+        "Having been examined ve to have been examined, uygun üst yapıda önceki edilgen olayı anlatır. Perfect biçimin gerekliliği zaman ilişkisinden anlaşılır."
+      ],
+      "examples": [
+        {
+          "en": "The witness objected to being recorded.",
+          "tr": "Tanık kayda alınmasına itiraz etti.",
+          "note": "Object to edatı gerund alır; tanık kayda alınan kişidir."
+        },
+        {
+          "en": "The manuscript is expected to be revised before review.",
+          "tr": "El yazmasının incelemeden önce gözden geçirilmesi bekleniyor.",
+          "note": "Beklenen eylem metne uygulanıyor; edilgen infinitive gerekiyor."
+        }
+      ],
+      "pitfalls": [
+        "To gördüğünde her zaman yalın fiil arama; object to edat yapısıdır.",
+        "Being repaired tek başına şu anda tamir ediliyor demek değildir; zaman ve modal anlam üst yapıdan gelir."
+      ],
+      "decision": "Üst yapının istediği fiilimsi türünü, sonra çatıyı ve gerekiyorsa önceki zamanı belirle."
+    },
+    {
+      "id": "hb18",
+      "unitId": "u03",
+      "title": "Stative passive, get passive ve by/with",
+      "lead": "Be + V3 bazen olay yerine ortaya çıkmış durumu betimler. Get passive değişimi veya öznenin başına gelen olayı öne çıkarabilir. Yapan kişi ile kullanılan araç da farklı edatlarla ifade edilir; sıfatlaşmış kalıpların edatı ayrıca öğrenilir.",
+      "formula": "be + V3: olay/durum · get + V3: değişim · by: yapan · with: araç",
+      "signal": "Bir işlemin gerçekleşmesi mi sonraki durum mu anlatılıyor? By yapanı, with aracı gösterebilir; kalıplaşmış kullanımları ayrıca denetle.",
+      "rules": [
+        "The entrance is closed bağlama göre kapalı durumunu; is being closed kapatma sürecini açıkça gösterir.",
+        "Get passive daha konuşma diline yakın bağlamlarda olay veya etkilenmeyi vurgulayabilir: got delayed. Her yerde be ile tamamen aynı değildir.",
+        "By an engineer yapan kişiyi; with a laser kullanılan aracı gösterebilir. Interested in ve concerned about gibi kalıplar kendi edatlarıyla öğrenilir."
+      ],
+      "examples": [
+        {
+          "en": "The hatch was sealed with a waterproof material.",
+          "tr": "Kapak su geçirmez bir malzemeyle mühürlendi.",
+          "note": "Malzeme yapan kişi değil, kullanılan araç/malzemedir."
+        },
+        {
+          "en": "Several parcels got damaged during sorting.",
+          "tr": "Ayıklama sırasında bazı paketler hasar gördü.",
+          "note": "Paketlerin başına gelen değişim get passive ile sunulmuş."
+        }
+      ],
+      "pitfalls": [
+        "Her V3 öncesine by ekleme; interested in gibi sıfatlaşmış kalıpların edatı farklıdır.",
+        "Is closed her zaman kapatılıyor değildir; kapalıdır anlamı daha uygun olabilir."
+      ],
+      "decision": "Olay, süreç ve sonuç durumunu ayır; edatta yapan, araç ve kalıplaşmış sıfat ilişkisini kontrol et."
+    },
+    {
+      "id": "hb19",
+      "unitId": "u04",
+      "title": "Gerçek koşullar: if geleceği will ile kurmak zorunda değil",
+      "lead": "Gerçek koşul, mümkün veya genel olarak geçerli görülen ilişkiyi anlatır. If cümlesi koşulu, ana cümle sonucu taşır. Sonuç yalnız will ile değil modal veya emir biçimiyle de kurulabilir; seçimi iletişim işlevi belirler.",
+      "formula": "If + present, present / will / modal / imperative",
+      "signal": "Genel ilişki mi belirli gelecek ihtimali mi? Sonucun tavsiye, izin veya yönerge olup olmadığına bak.",
+      "rules": [
+        "Genel düzenlilik için iki tarafta simple present kullanılabilir: If demand falls, prices tend to fall. Dilsel örüntü gerçek dünyada mutlak bilimsel yasa iddiası değildir.",
+        "Belirli gelecek koşulunda if yan cümlesi normal olarak present biçimdedir; ana cümle geleceği veya sonucu gösterir.",
+        "If yan cümlesinde will hiçbir zaman bulunmaz genellemesi yanlıştır: isteklilik gibi özel anlamlarda bulunabilir. Temel gelecek koşuluyla bu kullanımı karıştırma."
+      ],
+      "examples": [
+        {
+          "en": "If the signal weakens, the device switches to a backup channel.",
+          "tr": "Sinyal zayıflarsa cihaz yedek kanala geçer.",
+          "note": "Cihazın genel çalışma düzeni anlatılıyor."
+        },
+        {
+          "en": "If the final figures arrive today, we can finish the report tonight.",
+          "tr": "Son rakamlar bugün gelirse raporu bu gece bitirebiliriz.",
+          "note": "Mümkün gelecek koşulu ve yeterlilik sonucu var."
+        }
+      ],
+      "pitfalls": [
+        "Ana cümlede will yok diye gerçek koşul seçeneğini eleme; can, may ve emir de uygun olabilir.",
+        "If it will rain tomorrow gibi sıradan gelecek koşulunda will rain yerine rains beklenir."
+      ],
+      "decision": "Koşulun mümkün yorumunu kur; ardından sonucu anlamına uygun present, modal veya emirle tamamla."
+    },
+    {
+      "id": "hb20",
+      "unitId": "u04",
+      "title": "Second conditional: geçmiş biçim, bugünkü varsayım",
+      "lead": "Second conditional içindeki past çoğu kez geçmiş zamanı değil gerçeklikten uzaklığı gösterir. Konuşmacı şimdiki veya gelecekteki duruma ters ya da düşük olasılıklı senaryo kurar. Görünüşte geçmiş fiille olayın zamanını karıştırmamak gerekir.",
+      "formula": "If + past, would/could/might + V1",
+      "signal": "But in fact ve currently şimdiki gerçeğe ters senaryoyu açığa çıkarabilir. Sonuçtaki modal kesinlik ve yeterlilik farkı taşır.",
+      "rules": [
+        "If we had more data, we could compare the regions şu anki yetersiz veriye alternatif varsayım kurabilir.",
+        "Were resmî varsayımsal anlatımda bütün öznelerle kullanılabilir: If I were you. Konuşma dilinde bazı öznelerle was da görülebilir.",
+        "Would sonuç cümlesinin olağan biçimidir; koşul yan cümlesine otomatik konmaz. Could yeterlilik, might daha ihtiyatlı olasılık sunabilir."
+      ],
+      "examples": [
+        {
+          "en": "If the building were closer to the station, more people would visit it.",
+          "tr": "Bina istasyona daha yakın olsaydı daha çok kişi onu ziyaret ederdi.",
+          "note": "Şimdiki konumun farklı olduğu varsayılıyor."
+        },
+        {
+          "en": "We could reduce waste if every department shared its equipment.",
+          "tr": "Her bölüm ekipmanını paylaşsa israfı azaltabilirdik.",
+          "note": "Şimdiki/gelecek düzenin alternatif sonucu anlatılıyor."
+        }
+      ],
+      "pitfalls": [
+        "Had more data içinde had, have fiilinin simple pastıdır; otomatik past perfect sanma.",
+        "Second conditional her zaman imkânsız olay demek değildir; konuşmacının varsayımsal sunumu da olabilir."
+      ],
+      "decision": "Senaryonun şimdiki/gelecek varsayım olup olmadığını belirle; past biçimi doğrudan geçmiş zaman diye yorumlama."
+    },
+    {
+      "id": "hb21",
+      "unitId": "u04",
+      "title": "Third conditional: değiştirilemeyen geçmişe alternatif",
+      "lead": "Third conditional geçmişte gerçekleşmeyen koşulun geçmişte farklı sonuç yaratacağını varsayar. İki taraf da geçmişe dönüktür. Yapı pişmanlık veya eleştiri için sık kullanılır; fakat bu duygular yapının zorunlu anlamı değildir.",
+      "formula": "If + had + V3, would/could/might have + V3",
+      "signal": "Yesterday ve but they did not gerçek geçmişi sabitler. Alternatif senaryonun hem koşulu hem sonucu o geçmişe mi ait?",
+      "rules": [
+        "If they had checked the map, they would have found a shorter route geçmişte yapılmayan kontrolü ve gerçekleşmeyen alternatif sonucu ilişkilendirir.",
+        "Could have alternatif koşul altında mümkün olacak sonucu; might have daha ihtiyatlı sonucu anlatabilir. Sonuç her zaman would ile verilmez.",
+        "Past perfect koşulunda had yardımcı fiildir ve sonraki fiil V3 olmalıdır. Would have olağan olarak ana sonuç cümlesinde bulunur."
+      ],
+      "examples": [
+        {
+          "en": "If the alarm had sounded earlier, the crew could have stopped the process.",
+          "tr": "Alarm daha erken çalsaydı ekip süreci durdurabilirdi.",
+          "note": "Geçmişte kaçırılan müdahale olanağı var."
+        },
+        {
+          "en": "The archive would not have flooded if the drain had been cleared.",
+          "tr": "Gider temizlenmiş olsaydı arşivi su basmazdı.",
+          "note": "Edilgen koşul had been cleared ile kurulmuş."
+        }
+      ],
+      "pitfalls": [
+        "If they would have checked standart sınav dilindeki normal üçüncü tip koşul değildir.",
+        "Would have gördüğün her cümleyi üçüncü tip koşul sayma; dolaylı anlatımda da bu dizi bulunabilir."
+      ],
+      "decision": "Gerçek geçmişi kur; koşul ve alternatif sonuç ikisi de geçmişteyse perfect biçimleri eşleştir."
+    },
+    {
+      "id": "hb22",
+      "unitId": "u04",
+      "title": "Mixed conditional: koşul ve sonuç farklı zamanlarda",
+      "lead": "Koşul ve sonuç aynı zamana ait olmak zorunda değildir. Geçmiş karar bugünkü durumu etkileyebilir; kalıcı bir özellik geçmiş davranışa alternatif açıklama olabilir. İki tarafı ayrı okuyarak doğru zaman birleşimini kurmak gerekir.",
+      "formula": "Geçmiş → şimdi: if had V3, would V1 · Şimdiki özellik → geçmiş: if past, would have V3",
+      "signal": "Now, still ve today şimdiki sonucu; last year geçmiş koşulu ayırmaya yardımcıdır. Yalnız kalıp numarası arama.",
+      "rules": [
+        "If she had accepted the post, she would live abroad now geçmişteki kabul kararını bugünkü yaşam yerine bağlar.",
+        "If he were more careful, he would not have lost the key yesterday kalıcı dikkatsizlik varsayımını geçmiş kayıpla ilişkilendirir.",
+        "Zaman zarfı yardımcıdır fakat her zaman açıkça bulunmayabilir. İki cümleciğin anlam ilişkisini bütünüyle okuyarak kur."
+      ],
+      "examples": [
+        {
+          "en": "If we had installed the update, the system would be safer now.",
+          "tr": "Güncellemeyi kurmuş olsaydık sistem şimdi daha güvenli olurdu.",
+          "note": "Geçmişte yapılmayan işin bugünkü sonucu var."
+        },
+        {
+          "en": "If Ada were less impulsive, she would not have rejected the offer yesterday.",
+          "tr": "Ada daha az düşüncesizce davranan biri olsaydı dün teklifi reddetmezdi.",
+          "note": "Kalıcı özellik geçmiş kararın alternatifini açıklıyor."
+        }
+      ],
+      "pitfalls": [
+        "If tarafında had V3 görünce sonuçta zorunlu would have arama; sonuç şimdiye ait olabilir.",
+        "Now bütün cümlenin zamanını değiştirmez; hangi cümleciği nitelediğine bak."
+      ],
+      "decision": "Koşulun ve sonucun zamanını ayrı belirle; fiil biçimlerini bundan sonra seç."
+    },
+    {
+      "id": "hb23",
+      "unitId": "u04",
+      "title": "Unless, provided that ve if düşürülmüş koşullar",
+      "lead": "Koşul yalnız if ile kurulmaz. Unless istisna sınırı, provided that belirli şart, in case önlem gerekçesi bildirir. Resmî dilde had, were ve should başa alınarak if düşürülebilir; bu devriklik cümlenin soru olduğu anlamına gelmez.",
+      "formula": "Unless ≈ if ... not · Had S V3 · Were S to V1 · Should S V1",
+      "signal": "Yapı koşul mu önlem mi bildiriyor? Başta Had/Were/Should varsa soru yerine devrik koşul olasılığını da değerlendir.",
+      "rules": [
+        "Unless çoğu bağlamda if not anlamındadır; ayrıca olumsuzluk eklemek anlamı ters çevirebilir. Her if not cümlesi mekanik olarak unless ile değiştirilemez.",
+        "Provided that, as long as ve on condition that şartı öne çıkarır. In case olasılığa karşı alınan önlemi açıklar; önlem olasılık gerçekleşmeden alınır.",
+        "Had I known = If I had known; Were the device to fail = If the device were to fail; Should you need help = If you should need help. Not özne arkasında kalır."
+      ],
+      "examples": [
+        {
+          "en": "Had the team detected the fault, it would have postponed the launch.",
+          "tr": "Ekip arızayı saptamış olsaydı fırlatmayı ertelerdi.",
+          "note": "If düşmüş, had başa alınmış; geçmiş koşul değişmemiş."
+        },
+        {
+          "en": "Keep a printed copy in case the network becomes unavailable.",
+          "tr": "Ağ kullanılamaz hâle gelirse diye basılı kopya bulundurun.",
+          "note": "Önlem şimdi alınıyor; ağ kesintisi şart koşulmuyor."
+        }
+      ],
+      "pitfalls": [
+        "Unless it does not improve gibi çift olumsuzluğu düşünmeden kurma; istenen koşulu anlam üzerinden denetle.",
+        "In case ile if her bağlamda aynı zamanlama ilişkisini kurmaz."
+      ],
+      "decision": "Bağlacın mantığını açık kur; devrik yardımcıyı yerine getirerek görünmeyen if cümlesini çöz."
+    },
+    {
+      "id": "hb24",
+      "unitId": "u04",
+      "title": "Wish, if only ve as if: zaman değil uzaklık",
+      "lead": "Wish var olan durumdan farklısını istemeyi gösterir. Past ve past perfect çoğu kez gerçeklikten uzaklığı işaretler. As if/as though görünüş veya karşılaştırma bildirir; her kullanımında durumun kesinlikle gerçek dışı olduğu söylenemez.",
+      "formula": "Şimdi: wish + past · Geçmiş: wish + had V3 · Değişim isteği: wish + would V1",
+      "signal": "Keşke şimdi farklı olsa mı, geçmişte farklı olsaydı mı deniyor? As if gerçek dışı karşılaştırma mı olası görünüş mü?",
+      "rules": [
+        "I wish I knew the answer şimdiki bilgisizliğe, I wish I had known geçmişteki bilgisizliğe dönük dilektir.",
+        "Wish + would özellikle başkasının davranışının veya dış koşulun değişmesi isteğini ve yakınmayı anlatır; kişinin kendi kontrolündeki her nötr duruma uygun değildir.",
+        "As if + past/past perfect varsayımsal uzaklık kurabilir. He looks as if he is tired gibi normal zamanlı kullanım gerçek olabilecek görünüşü açık bırakır."
+      ],
+      "examples": [
+        {
+          "en": "I wish we had backed up the recordings.",
+          "tr": "Keşke kayıtları yedeklemiş olsaydık.",
+          "note": "Geçmişte yapılmayan işe ilişkin pişmanlık var."
+        },
+        {
+          "en": "She speaks as if she knew every detail.",
+          "tr": "Her ayrıntıyı biliyormuş gibi konuşuyor.",
+          "note": "Konuşmacı bilgisine mesafeli bir karşılaştırma kuruyor."
+        }
+      ],
+      "pitfalls": [
+        "I wish I would know şimdiki bilme durumunun normal karşılığı değildir; I wish I knew uygundur.",
+        "As if gördüğünde otomatik past seçme; gerçek olabilecek gözlem normal zamanla kurulabilir."
+      ],
+      "decision": "Dileğin veya karşılaştırmanın zamanını bul; gerçeklikten uzaklığı ve davranış üzerindeki kontrolü değerlendir."
+    },
+    {
+      "id": "hb25",
+      "unitId": "u05",
+      "title": "That mı what mı? Eksik parçayı bul",
+      "lead": "İsim cümleciği özne, nesne veya tamamlayıcı görevinde bulunabilir. That yalnız bağlantı kurar ve ardından kendi içinde tamamlanmış cümle gelir. What ise ne/şey anlamıyla cümleciğin içinde bir görev de üstlenir.",
+      "formula": "that + tamamlanmış cümle · what + eksik öğesi what tarafından karşılanan cümle",
+      "signal": "Boşluktan sonraki cümlede özne ve gerekli nesne var mı? What hem bağlayıcı hem cümle öğesi olduğundan eksikliği karşılayabilir.",
+      "rules": [
+        "I know that she changed the schedule yapısında she özne, the schedule nesnedir; içeride eksik öğe bulunmaz.",
+        "I know what she changed yapısında changed fiilinin nesnesi what tarafından karşılanır. What the thing that anlamını taşır.",
+        "Başta uzun isim cümleciği varsa nerede bittiğini ve ana yüklemin hangisi olduğunu belirle. That the plan failed surprised us içinde that cümleciği bütünüyle öznedir."
+      ],
+      "examples": [
+        {
+          "en": "What the survey revealed changed our priorities.",
+          "tr": "Anketin ortaya çıkardığı şey önceliklerimizi değiştirdi.",
+          "note": "Revealed fiilinin nesnesi what; bütün cümlecik ana cümlenin öznesi."
+        },
+        {
+          "en": "The report confirms that the bridge is safe.",
+          "tr": "Rapor köprünün güvenli olduğunu doğruluyor.",
+          "note": "The bridge is safe kendi içinde tamamlanmış cümledir."
+        }
+      ],
+      "pitfalls": [
+        "That ile whatı Türkçede aynı -dığını ekiyle çevrilebildikleri için eşitleme; iç yapı farklıdır.",
+        "What the thing gibi gereksiz çift karşılık kurma; what zaten the thing that anlamını içerir."
+      ],
+      "decision": "Yan cümlede eksik öğe ara; eksik yoksa that, öğe gerekiyorsa uygun wh sözcüğünü değerlendir."
+    },
+    {
+      "id": "hb26",
+      "unitId": "u05",
+      "title": "Dolaylı sorularda düz cümle sırası",
+      "lead": "Soru içeriği know, explain veya wonder gibi fiillerin içine yerleşince bağımsız soru dizilişi çoğunlukla kullanılmaz. Soru sözcüğü kalır, ardından özne ve yüklem gelir. Soru sözcüğü kendisi özneyse ayrıca özne eklenmez.",
+      "formula": "wh-word + özne + yüklem · Where did it start? → where it started",
+      "signal": "Ana cümlenin soru olması, iç cümleciğin de devrik olmasını gerektirmez. Can you tell me sonrasında düz sıra bekle.",
+      "rules": [
+        "I wonder why the engine stopped doğrudur; why did the engine stop bağımsız soru dizilişidir.",
+        "Do/does/did yalnız soru kurmak için kullanılmışsa dolaylı soruda kaldırılır; asıl fiil uygun zaman biçimine döner.",
+        "Who caused the delay gibi özne sorularında who zaten öznedir; dolaylı biçimde de who caused the delay dizisi korunabilir."
+      ],
+      "examples": [
+        {
+          "en": "The researchers cannot explain why the readings vary.",
+          "tr": "Araştırmacılar ölçümlerin neden değiştiğini açıklayamıyor.",
+          "note": "Why sonrasında özne the readings ve yüklem vary var."
+        },
+        {
+          "en": "Do you know who approved the extension?",
+          "tr": "Uzatmayı kimin onayladığını biliyor musun?",
+          "note": "İç cümleciğin öznesi who; ek özne veya did gerekmiyor."
+        }
+      ],
+      "pitfalls": [
+        "Can you tell me where is the office? yerine where the office is gerekir.",
+        "Dolaylı soru ve dolaylı anlatım aynı kavram değildir; ana fiil geçmişte değilse zorunlu zaman geriletmesi arama."
+      ],
+      "decision": "İç cümleciğin öznesini bul ve gereksiz devrikliği kaldır; wh sözcüğü özneyse yapıyı değiştirme."
+    },
+    {
+      "id": "hb27",
+      "unitId": "u05",
+      "title": "Whether ve if: evet-hayır içeriğini aktarmak",
+      "lead": "Evet-hayır sorusunun içeriği whether veya if ile aktarılabilir. Ancak görevleri her bağlamda aynı değildir. Özellikle edattan sonra, özne cümleciğinde ve to-infinitive öncesinde whether tercih edilir veya gerekir.",
+      "formula": "whether/if + S V · whether + to V1 · edat + whether",
+      "signal": "İki olasılık mı değerlendiriliyor? Önünde edat veya arkasında to-infinitive varsa whether seçeneğini özellikle denetle.",
+      "rules": [
+        "I do not know whether/if the shop is open gibi sıradan nesne cümleciklerinde iki bağlayıcı da kullanılabilir.",
+        "It depends on whether the test succeeds yapısında edattan sonra whether kullanılır; if standart seçenek değildir.",
+        "Whether to apply mastar yapısı kurar; if to apply doğru değildir. Whether or not sonucun iki durumda da geçerliliğini de anlatabilir; yalnız soru içeriği olmak zorunda değildir."
+      ],
+      "examples": [
+        {
+          "en": "The decision depends on whether the funding is renewed.",
+          "tr": "Karar finansmanın yenilenip yenilenmemesine bağlı.",
+          "note": "On edatından sonra whether cümleciği geliyor."
+        },
+        {
+          "en": "The panel has not decided whether to publish the raw data.",
+          "tr": "Kurul ham verileri yayımlayıp yayımlamamaya henüz karar vermedi.",
+          "note": "Whether + to-infinitive iki seçenek arasındaki kararı anlatıyor."
+        }
+      ],
+      "pitfalls": [
+        "Whether...or not ile if koşul cümlesini karıştırma; If the grant ends, we will stop ayrı bir koşul yapısıdır.",
+        "Whether to go ile whether + çekimli cümleyi ayır; aynı öznenin kararı mastarla kısaltılabilir."
+      ],
+      "decision": "Bağlayıcının konumunu incele: edat sonrası, özne veya mastar yapısı whether lehine yapısal ipucudur."
+    },
+    {
+      "id": "hb28",
+      "unitId": "u05",
+      "title": "Öneri ve zorunluluk cümlelerinde subjunctive",
+      "lead": "Suggest, recommend veya essential sonrasında yapılması istenen davranış varsa that cümlesinde yalın fiil kullanılabilir. Bu biçim olay zamanından çok önerilen eylemi sunar. Aynı sözcüğün farklı anlamı normal zaman gerektirebilir.",
+      "formula": "recommend/essential + that + özne + V1 · Alternatif: should + V1",
+      "signal": "Bir şeyin yapılması mı isteniyor, bulgu sonuca mı işaret ediyor? Suggest fiilinin iki anlamını ayır.",
+      "rules": [
+        "The chair recommended that every member attend yapısında üçüncü tekile rağmen attends kullanılmaz; subjunctive yalın attend ister.",
+        "Be de yalın kalır: It is essential that the label be visible. İngiliz İngilizcesinde should be gibi seçenekler de doğaldır.",
+        "The data suggest that the treatment works bir bulgu aktarır; öneri değildir, normal works doğrudur. Insist de istek veya iddiada ısrar anlamlarına göre ayrışabilir."
+      ],
+      "examples": [
+        {
+          "en": "The auditor insisted that the original files be preserved.",
+          "tr": "Denetçi özgün dosyaların korunmasını ısrarla istedi.",
+          "note": "İstenen işlem edilgen; yalın be preserved kullanılmış."
+        },
+        {
+          "en": "The pattern suggests that the fault occurs at low temperatures.",
+          "tr": "Örüntü arızanın düşük sıcaklıklarda oluştuğuna işaret ediyor.",
+          "note": "Suggest öneri değil kanıta dayalı çıkarım bildiriyor."
+        }
+      ],
+      "pitfalls": [
+        "Suggest sonrasında daima subjunctive gerekir kuralı yanlıştır; anlam ayrımı yapılmalıdır.",
+        "Öneri bağlamında suggested that he go/should go beklenir; suggested that he went farklı yorum taşır."
+      ],
+      "decision": "Öneri veya zorunluluk işlevini saptadıktan sonra fiili yalın ya da should ile kur."
+    },
+    {
+      "id": "hb29",
+      "unitId": "u05",
+      "title": "Reported speech: zamanı ve bakış açısını aktar",
+      "lead": "Dolaylı anlatımda fiil zamanı yanında kişi, yer ve zaman referansı da değişebilir. Geçmiş reporting verb sonrasında geriletme yaygındır; fakat bilginin hâlâ geçerliliği vurgulanıyorsa her durumda zorunlu değildir. Değişiklik aktarım bağlamına dayanır.",
+      "formula": "said that + uygun zaman · Geriletmede: will → would; present perfect → past perfect",
+      "signal": "İlk söz ne zaman söylendi, şimdi ne zaman aktarılıyor? Today, tomorrow ve here sözcüklerini otomatik değil referansa göre değiştir.",
+      "rules": [
+        "She said, “I am waiting” geçmişten aktarılırken She said that she was waiting biçimine dönüşebilir.",
+        "Geleceğin geçmişten aktarımında will sıklıkla would olur. Aktarılan olay söyleme anından sonra olsa da bugün itibarıyla geçmişte kalmış olabilir.",
+        "Say genellikle that cümleciği alır; tell normal kullanımda kişi nesnesi ister: told us that. Hâlâ geçerli bilgi geriletilmeden de aktarılabilir."
+      ],
+      "examples": [
+        {
+          "en": "Arda said that he would send the draft the following day.",
+          "tr": "Arda taslağı ertesi gün göndereceğini söyledi.",
+          "note": "Gönderme geçmişteki söyleme anından sonraya yerleştirilmiş."
+        },
+        {
+          "en": "The guide told us that the museum closes at six.",
+          "tr": "Rehber bize müzenin altıda kapandığını söyledi.",
+          "note": "Hâlen geçerli program bilgisi present ile korunmuş."
+        }
+      ],
+      "pitfalls": [
+        "Told that veya said me that seçmeden önce kişi nesnesi düzenini kontrol et.",
+        "Tomorrow her aktarımda zorunlu the following day olmaz; aktarım aynı günse referans değişmeyebilir."
+      ],
+      "decision": "Olayları ve konuşma anlarını yerleştir; zamirleri, zarfları ve gerekiyorsa tense geriletmesini uyumlu değiştir."
+    },
+    {
+      "id": "hb30",
+      "unitId": "u05",
+      "title": "Soruyu ve emri aktarmak: asked ile told aynı değil",
+      "lead": "Soruyu aktarmak ile birinden davranış istemek farklı yapılar gerektirir. Evet-hayır soruları whether/if, wh soruları kendi sözcüğü ve düz cümle sırasıyla aktarılır. Emir ve rica aktarımında kişi nesnesi + to-infinitive kullanılabilir.",
+      "formula": "asked + kişi + whether/wh + S V · told/asked + kişi + (not) to V1",
+      "signal": "Kaynak söz bilgi mi davranış mı istiyor? Could you close the door? biçimce soru, iletişimde rica olabilir.",
+      "rules": [
+        "Asked me where I lived soru içeriği, asked me to leave ayrılmamın istendiğini bildirir. Asked her zaman soru cümleciği almak zorunda değildir.",
+        "Olumsuz emir aktarımında not, to önüne gelir: told us not to touch. Do not yardımcı fiili aynen taşınmaz.",
+        "Aktarılan soru cümleciği bağımsız soru değildir; normal olarak sonuna soru işareti gerekmez. Ana cümlenin soru olup olmadığı ayrı belirlenir."
+      ],
+      "examples": [
+        {
+          "en": "The officer asked whether we had seen the warning signs.",
+          "tr": "Görevli uyarı işaretlerini görüp görmediğimizi sordu.",
+          "note": "Evet-hayır sorusu whether ile düz sırada aktarılmış."
+        },
+        {
+          "en": "The technician warned us not to disconnect the cable.",
+          "tr": "Teknisyen kabloyu çıkarmamamız konusunda bizi uyardı.",
+          "note": "Olumsuz davranış isteği not to disconnect ile verilmiş."
+        }
+      ],
+      "pitfalls": [
+        "She asked me where did I live dolaylı soruda gereksiz devriklik içerir.",
+        "Told me that not touch emir aktarımı değildir; told me not to touch gerekir."
+      ],
+      "decision": "Bilgi sorusuysa bağlayıcılı cümlecik, davranış isteğiyse kişi + to-infinitive kullan."
+    },
+    {
+      "id": "hb31",
+      "unitId": "u06",
+      "title": "Gerund ve edat sonrası -ing: to her zaman mastar değil",
+      "lead": "Gerund fiilden türemiş olsa da isim benzeri görev üstlenir. Edatlardan sonra fiil gelirse normal olarak gerund kullanılır. To edatı ile mastar işareti to birbirine benzediğinden üstteki kalıbı tanımak gerekir.",
+      "formula": "edat + V-ing · enjoy/avoid/consider + V-ing · look forward to + V-ing",
+      "signal": "To öncesindeki kalıbı birlikte oku: look forward to, object to ve be committed to edat yapılarıdır. Yalnız to sözcüğüne dayanma.",
+      "rules": [
+        "Gerund özne olabilir: Comparing the results takes time. Etkinlik bütün olarak adlandırılır.",
+        "Avoid, postpone, consider ve deny doğrudan fiil tamamlayıcısı aldığında çoğu temel kullanımda gerund ister.",
+        "Despite, without ve after gibi edatlar veya interested in kalıbı sonrasında fiil gerund olur. Before/after ayrıca cümlecik bağlayabildiğinden sonrasında tam cümle bulunup bulunmadığına bak."
+      ],
+      "examples": [
+        {
+          "en": "The board postponed releasing the figures.",
+          "tr": "Kurul rakamları yayımlamayı erteledi.",
+          "note": "Postpone sonrası releasing gerund tamamlayıcısıdır."
+        },
+        {
+          "en": "We look forward to hearing your assessment.",
+          "tr": "Değerlendirmenizi duymayı sabırsızlıkla bekliyoruz.",
+          "note": "To edat olduğundan hearing kullanılır."
+        }
+      ],
+      "pitfalls": [
+        "Look forward to hear ve object to disclose üstteki kalıba uymaz; hearing/disclosing gerekir.",
+        "Her -ing gerund değildir; is working içinde görünüş, a working model içinde sıfat işlevi üstlenebilir."
+      ],
+      "decision": "Fiilimsinin görevini ve önceki edatı belirle; kalıbı tek anlam birimi olarak öğren."
+    },
+    {
+      "id": "hb32",
+      "unitId": "u06",
+      "title": "Infinitive: fiil ve kişi nesnesinin istediği kalıp",
+      "lead": "Fiilin ardından başka bir eylem gelirse gerund veya infinitive seçimini kullanım kalıbı belirler. Bazı fiiller yalnız eylemi, bazıları eylemi yapacak kişiyi de nesne ister. Nesnenin varlığı biçimi değiştirebilir.",
+      "formula": "decide/hope/agree + to V1 · allow/expect/persuade + kişi + to V1",
+      "signal": "Aradaki kişi eylemi yapan mı? Allow us to enter ile allow entering yapılarının özne/nesne düzenini kontrol et.",
+      "rules": [
+        "Decide, refuse, hope ve agree birçok temel kullanımda to-infinitive alır: agreed to cooperate.",
+        "Persuade, remind ve encourage nesne + infinitive düzeni kurar. Persuaded to join ifadesinde kişi edilgen özne değilse gerekli nesne eksik olabilir.",
+        "Allow/permit kişi nesnesi varsa to-infinitive, kişi belirtilmeden etkinlik nesnesi veriliyorsa gerund alabilir: allow visitors to enter / allow entering. Doğallık bağlama bağlıdır."
+      ],
+      "examples": [
+        {
+          "en": "The grant enabled the team to extend the survey.",
+          "tr": "Hibe ekibin araştırmayı genişletmesini mümkün kıldı.",
+          "note": "Enable + kişi/kurum nesnesi + to-infinitive var."
+        },
+        {
+          "en": "The supplier refused to disclose the formula.",
+          "tr": "Tedarikçi formülü açıklamayı reddetti.",
+          "note": "Refuse fiilinin eylem tamamlayıcısı to disclose."
+        }
+      ],
+      "pitfalls": [
+        "Suggest us to apply temel kalıp değildir; suggest that we apply veya suggest applying kullanılır.",
+        "Hope someone to do yerine hope that someone will do gerekir; expect someone to do ile karıştırma."
+      ],
+      "decision": "Ana fiilin istediği tamamlayıcıyı ve eylemi yapacak kişinin nasıl gösterildiğini kontrol et."
+    },
+    {
+      "id": "hb33",
+      "unitId": "u06",
+      "title": "Remember, stop ve try: biçim değişirse anlam değişebilir",
+      "lead": "Bazı fiiller gerund da infinitive de alır, fakat iki biçim aynı olayı anlatmaz. Fark çoğu kez eylemlerin zaman sırasından veya amaç ilişkisinden doğar. Türkçede ikisinin de -meyi ile çevrilebilmesi bu ayrımı gizleyebilir.",
+      "formula": "remember doing ↔ remember to do · stop doing ↔ stop to do · try doing ↔ try to do",
+      "signal": "Hatırlanan geçmiş olay mı yerine getirilecek görev mi? Durulan etkinlik mi durmanın amacı mı? Önce eylem sırasını kur.",
+      "rules": [
+        "Remember doing gerçekleşmiş olayı hatırlamak; remember to do işi yapmayı unutmamak anlamındadır.",
+        "Stop doing etkinliği bırakmaktır. Stop to do başka bir işi durdurup yeni eylemi amaç olarak yapmaktır.",
+        "Try to do başarmaya çalışmak; try doing yöntemi deneyip sonucunu görmek olabilir. Regret doing geçmiş olaya pişmanlık; regret to inform üzücü bilgiyi verme kalıbıdır."
+      ],
+      "examples": [
+        {
+          "en": "I remember locking the cabinet before lunch.",
+          "tr": "Öğle yemeğinden önce dolabı kilitlediğimi hatırlıyorum.",
+          "note": "Kilitleme gerçekleşmiş; şimdi olay hatırlanıyor."
+        },
+        {
+          "en": "Try restarting the terminal before replacing it.",
+          "tr": "Terminali değiştirmeden önce yeniden başlatmayı deneyin.",
+          "note": "Yöntem öneriliyor; işe yarayıp yaramadığı denenecek."
+        }
+      ],
+      "pitfalls": [
+        "Stopped to smoke sigarayı bıraktı değildir; sigara içmek için başka işe ara verdi anlamına gelir.",
+        "Remember to submit ile remember submitting farklı gerçekleşme bilgisi taşır; devam cümlesini kontrol et."
+      ],
+      "decision": "İki eylemin sırasını veya amaç ilişkisini çiz; gerund/infinitive seçimini ardından yap."
+    },
+    {
+      "id": "hb34",
+      "unitId": "u06",
+      "title": "Perfect ve passive fiilimsiler: tür, zaman ve çatı",
+      "lead": "Fiilimsilerde önce gerçekleşme ve edilgenlik gösterilebilir. Üst fiilin istediği gerund/infinitive seçimi zaman ve çatıdan ayrıdır. Aynı zincirde üç bilgiyi okumak gerekir: yapı türü, önceki olay, öznenin etkilenmesi.",
+      "formula": "having V3 / having been V3 · to have V3 / to have been V3",
+      "signal": "Örtük özne yapan mı etkilenen mi? Önce gerçekleşme varsa perfecti değerlendir; geçmiş zarfı her yerde perfecti zorunlu kılmaz.",
+      "rules": [
+        "Admitted having altered the record içinde admit gerund ister; having altered önceki müdahaleyi açık gösterir. Admitted altering de birçok bağlamda önceki olayı anlatabilir.",
+        "Appears to have been repaired şimdiki görünüşe dayanarak daha önce onarılmış olmayı anlatır; to have been repaired perfect passive infinitivedir.",
+        "Being selected ile having been selected arasındaki fark önce gerçekleşmenin ayrıca vurgulanmasıdır. Fiilimsi takvim zamanını tek başına her zaman belirlemez; üst yapı ve bağlam gerekir."
+      ],
+      "examples": [
+        {
+          "en": "The contractor denied having received the warning.",
+          "tr": "Yüklenici uyarıyı almış olduğunu reddetti.",
+          "note": "Önceki alma olayı perfect gerund ile ifade edilmiş."
+        },
+        {
+          "en": "The sculpture appears to have been restored recently.",
+          "tr": "Heykel yakın zamanda restore edilmiş gibi görünüyor.",
+          "note": "Görünüş şimdiye, edilgen restorasyon daha önceye ait."
+        }
+      ],
+      "pitfalls": [
+        "To have repaired öznenin onardığını; to have been repaired öznenin onarıldığını söyler.",
+        "Having been sonrasında perfect passive için V3 gerekir; her uzun fiilimsi zinciri aynı değildir."
+      ],
+      "decision": "Üst yapıya göre gerund/infinitive seç; sonra önce gerçekleşme ve edilgenlik katmanlarını ekle."
+    },
+    {
+      "id": "hb35",
+      "unitId": "u06",
+      "title": "Ettirgen yapılar: make, let, have ve get",
+      "lead": "Ettirgen yapı işi başkasına yaptırmayı, izin vermeyi veya bazen bir sonuçla karşılaşmayı anlatır. Kalıplar aynı değildir: kişi nesnesiyle yalın fiil veya to-infinitive, etkilenen nesneyle V3 gerekebilir.",
+      "formula": "make/let/have + kişi + V1 · get + kişi + to V1 · have/get + şey + V3",
+      "signal": "Aradaki nesne işi yapan kişi mi üzerinde işlem yapılan şey mi? V1, to V1 ve V3 ayrımının temeli budur.",
+      "rules": [
+        "Had the technician check the meter içinde technician işi yapar; have + kişi + yalın fiil kullanılır.",
+        "Had the meter checked içinde meter kontrol edilir; yapan kişi söylenmez ve V3 gerekir.",
+        "Make etkin yapıda yalın fiil, edilgende to alır: made us wait → we were made to wait. Let için izin edilgeni çoğunlukla be allowed to ile verilir."
+      ],
+      "examples": [
+        {
+          "en": "We got a specialist to inspect the roof.",
+          "tr": "Bir uzmana çatıyı incelettik.",
+          "note": "Get + kişi + to-infinitive kalıbı var."
+        },
+        {
+          "en": "The clinic has its equipment calibrated every year.",
+          "tr": "Klinik ekipmanlarını her yıl kalibre ettirir.",
+          "note": "Ekipman eyleme uğrayan nesnedir; calibrated V3."
+        }
+      ],
+      "pitfalls": [
+        "Had the assistant to check biçimini get ile karıştırma; have kişiyle yalın fiil ister.",
+        "Had her bag stolen, çalınmayı bilerek ayarladı demek zorunda değildir; başına gelen olumsuz olay da olabilir."
+      ],
+      "decision": "Nesne yapansa kişi kalıbını, etkilenense V3 seç; edilgen make için to değişimini koru."
+    },
+    {
+      "id": "hb36",
+      "unitId": "u06",
+      "title": "Algı fiilleri, yalın fiil ve amaç infinitive",
+      "lead": "See ve hear sonrası olay bütünüyle gözlenmişse yalın fiil, bir aşaması algılanmışsa -ing kullanılabilir. Amaç infinitive ise neden sorusunu cevaplar. Aynı biçim farklı üst yapılarda farklı işlevlere sahiptir.",
+      "formula": "see/hear + kişi + V1 / V-ing · Amaç: to / in order to / so as to + V1",
+      "signal": "Olayın tamamı mı bir anı mı algılanıyor? Yoksa eylemin amacı mı veriliyor? Nesnenin yapıp yapmadığını da kontrol et.",
+      "rules": [
+        "I saw the bird land olayın bütününe, saw the bird landing gözlenen sürece odaklanabilir. İkincisi gerçek dünyada olayın tamamlanmadığını kesin kanıtlamaz.",
+        "Algı fiilinin nesnesi edilgen olaya uğruyorsa V3 veya bağlama göre being + V3 kullanılabilir: heard her name called.",
+        "Amaç infinitive genellikle ana cümle öznesinin amacını açıklar. Farklı özne gerektiğinde so that + çekimli cümle daha uygundur. Olumsuz amaç in order not to/so as not to ile kurulabilir."
+      ],
+      "examples": [
+        {
+          "en": "We heard the assistant call each name.",
+          "tr": "Asistanın her ismi çağırdığını duyduk.",
+          "note": "Çağırma eylemi bütün olarak algılanmış."
+        },
+        {
+          "en": "The screen was dimmed so as not to disturb the audience.",
+          "tr": "İzleyicileri rahatsız etmemek için ekran karartıldı.",
+          "note": "Olumsuz amaç so as not to ile kurulmuş."
+        }
+      ],
+      "pitfalls": [
+        "See someone to leave etkin algı kalıbında yanlıştır; leave/leaving gerekir. Edilgende was seen to leave mümkündür.",
+        "Amaçta eylemi yapan farklıysa özneyi belirsiz bırakan mastar yerine so that yapısını değerlendir."
+      ],
+      "decision": "Algı mı amaç mı olduğunu belirle; algıda bütün/süreç ve çatıyı, amaçta eylemi yapacak özneyi kontrol et."
+    }
+  ],
+  "questions": [
+    {
+      "id": "hq001",
+      "unitId": "u01",
+      "sectionId": "u01-s03",
+      "topicId": "hb01",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe institute normally releases one bulletin a week, but this month it ---- a fresh update every morning while the emergency continues.",
+      "options": [
+        "is issuing",
+        "was issuing",
+        "had issued",
+        "had been issuing",
+        "will have issued"
+      ],
+      "answer": 0,
+      "explanation": "Normally olağan yayın düzenini, but this month ise geçici değişikliği kuruyor. Enstitü güncellemeyi yayımlayan aktif öznedir. İstenen biçim, bugünkü geçici süreci veren is issuing olur.",
+      "optionExplanations": [
+        "Geçici olarak değişen yayın düzeni this month ve while the emergency continues ile sınırlandırılmış; present continuous bu süreci anlatır.",
+        "Past continuous geçmiş referans çevresindeki süreci verir; this month ve continues ile kurulan güncel geçici düzeni anlatmaz.",
+        "Past perfect için geçmiş referans gerekir; burada sürmekte olan güncel olağanüstü dönem anlatılıyor.",
+        "Past perfect continuous geçmiş referansa kadar süren etkinliği anlatır; burada geriye bakılan bir geçmiş referans yoktur.",
+        "Future perfect gelecekteki tamamlanma sınırı ister; burada her sabah devam eden geçici uygulama anlatılıyor."
+      ],
+      "translation": "Enstitü normalde haftada bir bülten yayımlar, fakat olağanüstü durum sürerken bu ay her sabah yeni bir güncelleme yayımlıyor."
+    },
+    {
+      "id": "hq002",
+      "unitId": "u01",
+      "sectionId": "u01-s05",
+      "topicId": "hb02",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe research centre ---- its first public database in 2014, several years before the present director took office.",
+      "options": [
+        "has launched",
+        "launched",
+        "is launching",
+        "will launch",
+        "has been launching"
+      ],
+      "answer": 1,
+      "explanation": "Açılış belirli bir bitmiş yıla yerleştirilmiş. Before ifadesi sonradan olan başka bir geçmiş olayı verir; seçenekler içinde simple past launched doğru biçimdir. Present perfecti Türkçedeki -di çevirisine bakarak seçmemek gerekir.",
+      "optionExplanations": [
+        "Present perfect normal kullanımda in 2014 gibi bitmiş belirli geçmiş zamanla birleştirilmez.",
+        "In 2014 bitmiş geçmiş zaman kurar; launched aktif ve tamamlanmış olayı doğru verir.",
+        "Şimdiki süreç 2014 tarihli tamamlanmış açılışla uyuşmaz; anlatı geçmişe yerleştirilmiştir.",
+        "Gelecek zaman hem in 2014 hem before...took geçmiş ilişkisine ters düşer.",
+        "Şimdiye uzanan süreç değil geçmişteki tek tamamlanmış açılış anlatılıyor."
+      ],
+      "translation": "Araştırma merkezi ilk halka açık veri tabanını 2014 yılında, mevcut müdür göreve başlamadan birkaç yıl önce kullanıma açtı."
+    },
+    {
+      "id": "hq003",
+      "unitId": "u01",
+      "sectionId": "u01-s07",
+      "topicId": "hb03",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nSince the project began, Elif ---- exactly twelve technical summaries; all twelve are now ready for publication.",
+      "options": [
+        "has translated",
+        "has been translated",
+        "was translating",
+        "had been translating",
+        "is translated"
+      ],
+      "answer": 0,
+      "explanation": "Twelve summaries ifadesi tamamlanan ürünleri sayıyor; all twelve are now ready tamamlanmayı açıklaştırıyor. Şimdiye uzanan since çerçevesiyle birlikte present perfect simple gerekir. Soru süreye değil sonuca odaklanır.",
+      "optionExplanations": [
+        "Since başlangıçtan şimdiye çerçeve kuruyor; exactly twelve ve all twelve are ready tamamlanan miktarı vurguluyor.",
+        "Elif işi yapan kişidir; edilgen biçim onun çevrildiğini söyler ve summaries nesnesiyle uyuşmaz.",
+        "Past continuous geçmişte sürmekte olan etkinliği verir; şimdiye kadarki tamamlanmış toplamı karşılamaz.",
+        "Past perfect continuous geçmiş bir referansa kadar süreci anlatır; burada referans now ile bugündür.",
+        "Simple present passive hem yanlış özne ilişkisi kurar hem tamamlanmış çeviri sayısını anlatmaz."
+      ],
+      "translation": "Proje başladığından beri Elif tam on iki teknik özet çevirdi; on ikisi de artık yayıma hazır."
+    },
+    {
+      "id": "hq004",
+      "unitId": "u01",
+      "sectionId": "u01-s09",
+      "topicId": "hb04",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nBy the time the inspection began yesterday, the technicians ---- every valve, so no further adjustment was required.",
+      "options": [
+        "have calibrated",
+        "are calibrating",
+        "will calibrate",
+        "were being calibrated",
+        "had calibrated"
+      ],
+      "answer": 4,
+      "explanation": "By the time denetimin başladığı geçmiş anı referans yapıyor. No further adjustment was required, kalibrasyonun o andan önce bitmiş olduğunu doğruluyor. Aktif özne ve geçmişe göre öncelik had calibrated gerektirir.",
+      "optionExplanations": [
+        "Present perfect şimdiye bağlantı kurar; yesterday ile belirlenen geçmiş denetim referansına uymaz.",
+        "Şimdiki süreç, denetimden önce tamamlandığı söylenen işlemi karşılamaz.",
+        "Gelecek işlem, no further adjustment was required ile anlatılan geçmiş sonuçla çelişir.",
+        "Technicians işi yapan kişilerdir; edilgen biçim teknisyenlerin kalibre edildiğini söyler.",
+        "Kalibrasyon geçmişteki denetim başlamadan önce tamamlanmış; had calibrated önceki sonucu doğru gösterir."
+      ],
+      "translation": "Dünkü denetim başladığında teknisyenler bütün vanaları kalibre etmişti; bu yüzden ek ayar gerekmiyordu."
+    },
+    {
+      "id": "hq005",
+      "unitId": "u01",
+      "sectionId": "u01-s11",
+      "topicId": "hb05",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nA: The boxes are too heavy for me to carry alone.\nB: Do not worry. I ---- you with them.",
+      "options": [
+        "had helped",
+        "was helping",
+        "will help",
+        "have been helped",
+        "would have helped"
+      ],
+      "answer": 2,
+      "explanation": "Ağır kutularla ilgili yakınmaya hemen verilen cevap bir yardım teklifidir. Will bu tür konuşma anındaki karar ve tekliflerde kullanılır. Diğer seçenekler geçmişe veya yanlış çatıya yönelir.",
+      "optionExplanations": [
+        "Past perfect geçmiş referansı gerektirir; şimdi yapılan yardım teklifini anlatmaz.",
+        "Past continuous geçmişteki süreci bildirir; konuşma anındaki teklifle uyumlu değildir.",
+        "Konuşma anındaki yardım teklifi için will help doğaldır; karar önceki bir programa bağlanmıyor.",
+        "Özne yardım edecek kişidir; edilgen yapı yardım alma anlamı verir ve you nesnesiyle uyuşmaz.",
+        "Geçmişte gerçekleşmeyen yardımın koşullu sonucu gibi okunur; şimdi sunulan teklifi karşılamaz."
+      ],
+      "translation": "A: Kutular tek başıma taşımam için çok ağır. B: Endişelenme. Onları taşımana yardım edeceğim."
+    },
+    {
+      "id": "hq006",
+      "unitId": "u01",
+      "sectionId": "u01-s15",
+      "topicId": "hb06",
+      "type": "grammar",
+      "format": "Cümle tamamlama",
+      "difficulty": "orta",
+      "prompt": "Cümleyi anlam ve yapı bakımından tamamlayınız.\nWe will publish the final results as soon as ----.",
+      "options": [
+        "the independent reviewers approve the analysis",
+        "the independent reviewers will approve the analysis",
+        "will the independent reviewers approve the analysis",
+        "the analysis approving the independent reviewers",
+        "the independent reviewers had approved the analysis yesterday"
+      ],
+      "answer": 0,
+      "explanation": "As soon as, yayın eyleminin hangi olayın hemen ardından gerçekleşeceğini söyler. Gelecek anlamı will publish içinde zaten vardır. Zaman cümleciğinde present approve kullanılmalı; düz özne–fiil sırası korunmalıdır.",
+      "optionExplanations": [
+        "As soon as zaman cümleciği gelecek anlamlı olsa da present biçimde approve kullanır; özne ve fiil sırası da doğrudur.",
+        "Normal gelecek zaman yan cümlesinde will kullanılmaz; geleceği ana cümle kurmuştur.",
+        "Hem soru devrikliği hem will zaman yan cümlesinin yapısına aykırıdır.",
+        "Bu parça uygun çekimli yan cümle kurmaz; ayrıca onaylayan ile onaylanan ilişkisi tersine döner.",
+        "Dün tamamlanan onayı gelecekteki as soon as tetikleyicisi yaparak zaman ilişkisini bozar."
+      ],
+      "translation": "Bağımsız değerlendiriciler analizi onaylar onaylamaz nihai sonuçları yayımlayacağız."
+    },
+    {
+      "id": "hq007",
+      "unitId": "u02",
+      "sectionId": "u02-s02",
+      "topicId": "hb07",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nEntry without eye protection is forbidden. Under the laboratory rules, every visitor ---- protective glasses before entering the testing area.",
+      "options": [
+        "might have worn",
+        "must wear",
+        "cannot have worn",
+        "need not wear",
+        "used to wear"
+      ],
+      "answer": 1,
+      "explanation": "Under the laboratory rules bağlamı yükümlülük bildiren modalı gerektiriyor. Ziyaretçi gözlük takan aktif öznedir; modal sonrasında yalın wear gelir. Must burada çıkarım değil güvenlik zorunluluğudur.",
+      "optionExplanations": [
+        "Geçmişte gözlük takmış olma ihtimalini anlatır; mevcut giriş kuralını belirtmez.",
+        "Under the laboratory rules ifadesi kişisel tahmin değil açık yükümlülük kurar; must wear bu zorunluluğu verir.",
+        "Geçmiş eylemi dışlayan çıkarım, zorunlu güvenlik uygulamasıyla ilgisizdir.",
+        "Gözlük takmanın gerekli olmadığını söyler ve açık güvenlik kuralına ters düşer.",
+        "Geçmiş alışkanlık bildirir; şu an geçerli zorunluluk anlamını karşılamaz."
+      ],
+      "translation": "Laboratuvar kurallarına göre her ziyaretçi test alanına girmeden önce koruyucu gözlük takmak zorundadır."
+    },
+    {
+      "id": "hq008",
+      "unitId": "u02",
+      "sectionId": "u02-s03",
+      "topicId": "hb08",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nI ordered an extra power unit yesterday, but then discovered that a spare was already included; I ---- another one.",
+      "options": [
+        "must not order",
+        "cannot have ordered",
+        "should order",
+        "need not have ordered",
+        "had to order"
+      ],
+      "answer": 3,
+      "explanation": "İlk bölüm siparişin gerçekten verildiğini, ikinci bölüm yedeğin zaten bulunduğunu açıklar. Dolayısıyla mesele yasak veya imkânsızlık değil yapılmış işin gereksizliğidir. Need not have ordered bu bilgilerin ikisini korur.",
+      "optionExplanations": [
+        "Şimdiki/gelecek yasak verir; yapılmış siparişin gereksizliğini anlatmaz.",
+        "Siparişin verilmiş olmasını dışlar; I ordered ifadesiyle doğrudan çelişir.",
+        "Yeni sipariş tavsiyesi verir; fazladan birimin gereksiz olduğu bağlamına ters düşer.",
+        "Siparişin verildiği açıkça söyleniyor; sonradan gereksiz olduğu anlaşılmış eylem need not have ordered ile anlatılır.",
+        "Geçmiş zorunluluk bildirir; yedek zaten varken yapılan gereksiz harcamayı açıklamaz."
+      ],
+      "translation": "Dün ek güç birimi sipariş ettim, fakat sonra bir yedeğin zaten dâhil olduğunu öğrendim; bir tane daha sipariş etmeme gerek yokmuş."
+    },
+    {
+      "id": "hq009",
+      "unitId": "u02",
+      "sectionId": "u02-s08",
+      "topicId": "hb09",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "ileri",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe assistant was abroad throughout the week when the sealed package disappeared, so she ---- it from the office herself.",
+      "options": [
+        "must have removed",
+        "should remove",
+        "need not have removed",
+        "has to remove",
+        "cannot have removed"
+      ],
+      "answer": 4,
+      "explanation": "Throughout the week ve abroad, kaybolma süresince asistanın başka yerde olduğunu verir. Herself sözcüğü bizzat alma ihtimalini sınırlar; başkasını yönlendirme gibi yeni varsayımlar eklenmez. Geçmiş eylemi dışlayan cannot have removed gerekir.",
+      "optionExplanations": [
+        "Güçlü olumlu çıkarım verir; verilen konum kanıtı bu ihtimali desteklemez, dışlar.",
+        "Gelecek/şimdiki tavsiye bildirir; kaybolmuş paketle ilgili geçmiş çıkarımı anlatmaz.",
+        "Paketi aldığı ama bunun gereksiz olduğu anlamını kurar; burada bizzat alması mümkün görülmüyor.",
+        "Şimdiki zorunluluk bildirir; paketin geçmişte kaybolmasının açıklaması değildir.",
+        "Bütün hafta başka ülkede olması paketi ofisten bizzat almasını dışlar; cannot have removed geçmişe ilişkin olumsuz çıkarımdır."
+      ],
+      "translation": "Mühürlü paketin kaybolduğu hafta boyunca asistan yurt dışındaydı; dolayısıyla onu ofisten bizzat kendisi almış olamaz."
+    },
+    {
+      "id": "hq010",
+      "unitId": "u02",
+      "sectionId": "u02-s04",
+      "topicId": "hb10",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nYou sent the confidential draft to the entire mailing list. You ---- the recipients more carefully before you sent it yesterday.",
+      "options": [
+        "had been checked",
+        "need not have checked",
+        "should have checked",
+        "would be checking",
+        "are checking"
+      ],
+      "answer": 2,
+      "explanation": "Gizli taslağın bütün listeye gönderilmesi tamamlanmış hata olarak sunuluyor. İkinci cümle daha dikkatli kontrol yapılmış olması gerektiğini söylüyor. Should have checked geçmiş davranışa yönelik eleştiriyi doğru kurar.",
+      "optionExplanations": [
+        "Edilgen had been checked, kontrol eden you öznesini kontrol edilen kişiye çevirir ve recipients nesnesiyle bu yapıda uyuşmaz.",
+        "Kontrol yapıldığını ama gereksiz olduğunu bildirir; dikkatsiz gönderme eleştirisinin tersidir.",
+        "Gönderme gerçekleşmiş ve sonradan eleştiriliyor; should have checked geçmişte yapılması gereken kontrolü verir.",
+        "Would be checking sürmekte olan varsayımsal etkinliği verir; dün gönderme öncesinde yapılması gereken tamamlanmış kontrolü ifade etmez.",
+        "Şimdiki devam eden kontrolü verir; geçmişteki gönderme öncesine yerleştirilemez."
+      ],
+      "translation": "Gizli taslağı bütün e-posta listesine gönderdin. Dün göndermeden önce alıcıları daha dikkatli kontrol etmeliydin."
+    },
+    {
+      "id": "hq011",
+      "unitId": "u02",
+      "sectionId": "u02-s10",
+      "topicId": "hb11",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nAlthough the new technicians found the night shift difficult at first, they are now used to ---- while the rest of the city sleeps.",
+      "options": [
+        "work",
+        "have worked",
+        "be working",
+        "working",
+        "worked"
+      ],
+      "answer": 3,
+      "explanation": "Are now used to geçmişteki alışma güçlüğünden bugünkü alışkınlığa geçişi anlatıyor. To edat olduğundan fiil working biçimindedir. Used to work geçmişte çalışırlardı; are used to working ise çalışmaya alışkındırlar demektir.",
+      "optionExplanations": [
+        "Yalın fiil used to work geçmiş alışkanlık kalıbında olur; are now used to yapısı farklıdır.",
+        "Edat sonrasında yalın have kullanımı bu kalıba uymaz; geçmiş perfect anlamı da aranmıyor.",
+        "To burada mastar işareti değildir; be working yerine gerund working gerekir.",
+        "Are used to alışkın olmayı anlatır; to edat olduğu için ardından working gerund gelir.",
+        "V2/V3 biçimi edat sonrası etkinlik ismi görevini üstlenmez; alışkın olunan davranış gerundla verilir."
+      ],
+      "translation": "Yeni teknisyenler gece vardiyasını başta zor bulsa da artık şehrin geri kalanı uyurken çalışmaya alışkındır."
+    },
+    {
+      "id": "hq012",
+      "unitId": "u02",
+      "sectionId": "u02-s09",
+      "topicId": "hb12",
+      "type": "grammar",
+      "format": "Cümle tamamlama",
+      "difficulty": "orta",
+      "prompt": "Cümleyi anlam ve yapı bakımından tamamlayınız.\nThe director would rather the committee ---- before signing a long-term contract.",
+      "options": [
+        "to review the evidence once more",
+        "reviews the evidence once more",
+        "reviewed the evidence once more",
+        "will reviewing the evidence once more",
+        "has review the evidence once more"
+      ],
+      "answer": 2,
+      "explanation": "Tercihi belirten director, incelemeyi yapacak committee ise farklı öznedir. Would rather + başka özne + past yapısı gerekir. Reviewed biçimi burada geçmişte yapılmış incelemeyi değil sözleşme öncesindeki tercih edilen davranışı anlatır.",
+      "optionExplanations": [
+        "The committee farklı öznesinden sonra to-infinitive bu tercih kalıbını tamamlamaz.",
+        "Farklı özneyle tercih edilen gelecekteki davranış için bu yapı normal present yerine past gerektirir.",
+        "Would rather farklı özneyle şimdiki/gelecek tercih bildirirken past biçim reviewed kullanılır.",
+        "Will sonrasında reviewing yalın hâliyle gelemez; yapı hem modal hem tercih kalıbını bozar.",
+        "Has sonrasında V3 gerekir; ayrıca aranan farklı özneli tercih yapısı değildir."
+      ],
+      "translation": "Müdür, komitenin uzun vadeli sözleşmeyi imzalamadan önce kanıtları bir kez daha incelemesini tercih eder."
+    },
+    {
+      "id": "hq013",
+      "unitId": "u03",
+      "sectionId": "u03-s01",
+      "topicId": "hb13",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe old pipeline ---- at present, so water is being supplied through a temporary connection.",
+      "options": [
+        "is being replaced",
+        "is replacing",
+        "has replacing",
+        "had replaced",
+        "will have replaced"
+      ],
+      "answer": 0,
+      "explanation": "Boru hattı değişimi şu anda sürüyor ve bu yüzden geçici bağlantı kullanılıyor. Öznenin eyleme uğraması passive, işlem sürmesi continuous gerektirir. İki katman birleşince is being replaced oluşur.",
+      "optionExplanations": [
+        "At present süren işlemi verir; pipeline değiştirilen nesne olduğundan present continuous passive gerekir.",
+        "Aktif biçim boru hattının başka şeyi değiştirdiğini söyler; hat işlemi yapan değildir.",
+        "Has + replacing doğru yardımcı fiil zinciri değildir; V3 veya been + V-ing gerekirdi.",
+        "Aktif ve geçmişte önce tamamlanan eylem anlamı verir; güncel değişim sürecine uymaz.",
+        "Gelecekte tamamlanmış aktif eylem bildirir; hem özne ilişkisi hem at present bağlamı yanlıştır."
+      ],
+      "translation": "Eski boru hattı şu anda değiştiriliyor; bu yüzden su geçici bağlantı üzerinden sağlanıyor."
+    },
+    {
+      "id": "hq014",
+      "unitId": "u03",
+      "sectionId": "u03-s06",
+      "topicId": "hb14",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe document cannot be traced now; it may ---- when the old server was shut down last month.",
+      "options": [
+        "be deleting",
+        "have been deleted",
+        "have deleted",
+        "been deleted",
+        "to be deleted"
+      ],
+      "answer": 1,
+      "explanation": "Belgenin şu anda bulunamamasına geçen ay sunucunun kapatılması üzerinden açıklama aranıyor. Olay geçmişte ve edilgendir; may kesin olmayan olasılığı korur. Bu yüzden may have been deleted kullanılır.",
+      "optionExplanations": [
+        "Document silen özne değildir; aktif ongoing biçim ayrıca geçmiş zaman çerçevesine uymaz.",
+        "Last month geçmiş olayı, document edilgen özneyi verir; may have been deleted geçmiş silinme ihtimalidir.",
+        "Aktif perfect belgeyi silen olarak sunar; burada silinen belgenin kendisidir.",
+        "Modal sonrasında tek başına been gelemez; perfect zincirde have been gerekir.",
+        "May sonrasında to-infinitive kullanılmaz; ayrıca geçen ayki olasılığı doğru zamanla kurmaz."
+      ],
+      "translation": "Belgenin izi şimdi bulunamıyor; geçen ay eski sunucu kapatıldığında silinmiş olabilir."
+    },
+    {
+      "id": "hq015",
+      "unitId": "u03",
+      "sectionId": "u03-s09",
+      "topicId": "hb15",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "ileri",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe newly identified manuscript is believed ---- by a local scholar more than two centuries ago.",
+      "options": [
+        "to write",
+        "having written",
+        "to have been written",
+        "to have written",
+        "that it was written"
+      ],
+      "answer": 2,
+      "explanation": "Özne manuscript yazılan nesnedir. More than two centuries ago olayın bugünkü inançtan önce olduğunu gösterir. Bu iki bilgi to have been written içinde birleşir; by a local scholar yapan kişiyi ayrıca belirtir.",
+      "optionExplanations": [
+        "Aktif ve perfect olmayan mastar, el yazmasını yazan özne gibi gösterir.",
+        "Is believed sonrasında bu gerund kalıbı kullanılmaz; yazan/yazılan ilişkisi de yanlıştır.",
+        "İnanma şimdi, yazılma iki yüzyıl önce; manuscript edilgen özne olduğundan perfect passive infinitive gerekir.",
+        "Perfect zaman önceliği var ama aktif çatı el yazmasının başka şeyi yazdığı anlamına gelir.",
+        "Özne manuscript ile başlayan is believed yapısı to-infinitive ister; that yapısında It is believed that gerekir."
+      ],
+      "translation": "Yeni tespit edilen el yazmasının iki yüzyıldan uzun süre önce yerel bir bilgin tarafından yazıldığı düşünülüyor."
+    },
+    {
+      "id": "hq016",
+      "unitId": "u03",
+      "sectionId": "u03-s05",
+      "topicId": "hb16",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Anlam ve dil bilgisi bakımından doğru edilgen dönüşümü seçiniz.\nSomeone offered the interns a place on the training programme.",
+      "options": [
+        "The interns were offered to a place on the training programme.",
+        "A place offered the interns on the training programme.",
+        "The interns offered a place on the training programme.",
+        "The interns were offered a place on the training programme.",
+        "A place was offering to the interns on the training programme."
+      ],
+      "answer": 3,
+      "explanation": "Özgün cümlede the interns alıcı, a place sunulan şeydir. Offer fiili alıcının edilgen özne yapılmasına izin verir. Were offered hem simple past zamanı hem edilgenliği korur; a place nesne olarak kalır.",
+      "optionExplanations": [
+        "To yanlış nesneye bağlanmış; alıcı özne olduğunda offered a place yapısı gerekir.",
+        "Be yardımcı fiili eksik ve place işi yapan aktif özne gibi kurulmuş; edilgen dönüşüm oluşmamış.",
+        "Were olmadan interns teklifi yapan olur; özgün cümlede alıcıdırlar.",
+        "Offer iki nesneli kullanıldığı için alıcı interns edilgen özne yapılabilir; sunulan place cümlede kalır.",
+        "Was offering aktif continuous biçimdir; sunulan place edilgen özne olmalıdır."
+      ],
+      "translation": "Stajyerlere eğitim programında bir yer teklif edildi."
+    },
+    {
+      "id": "hq017",
+      "unitId": "u03",
+      "sectionId": "u03-s08",
+      "topicId": "hb17",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe participants objected to ---- without their consent during the interview.",
+      "options": [
+        "to film",
+        "be filmed",
+        "been filmed",
+        "have filmed",
+        "being filmed"
+      ],
+      "answer": 4,
+      "explanation": "İtiraz edilen şey katılımcıların rızaları olmadan kaydedilmesidir. Object to edat yapısı gerund, eylemden etkilenen katılımcı özne ise passive gerektirir. Böylece being filmed seçilir.",
+      "optionExplanations": [
+        "Objected to içindeki to zaten edattır; ardından ikinci bir to ile mastar getirmek bu kalıbı bozar. İtiraz edilen edilgen etkinlik being filmed ile verilir.",
+        "Edat sonrasında yalın be kullanılamaz; gerund being gerekir.",
+        "Been tek başına edat sonrasında gerund oluşturmaz; object to için edilgen gerund being filmed gerekir.",
+        "To edatı sonrası yalın have bu kalıba uymaz; ayrıca edilgenliği de kurmaz.",
+        "Object to kalıbında to edattır ve gerund ister; katılımcılar filme alınan kişiler olduğundan being filmed gerekir."
+      ],
+      "translation": "Katılımcılar görüşme sırasında rızaları olmadan filme alınmalarına itiraz etti."
+    },
+    {
+      "id": "hq018",
+      "unitId": "u03",
+      "sectionId": "u03-s03",
+      "topicId": "hb18",
+      "type": "grammar",
+      "format": "Cümle tamamlama",
+      "difficulty": "orta",
+      "prompt": "Cümleyi anlam ve yapı bakımından tamamlayınız.\nThe damaged panel was removed by a specialist ----.",
+      "options": [
+        "by it was cut with a tool",
+        "who the cutting tool had removed",
+        "with the tool removed the specialist",
+        "which removing the tool",
+        "with a specially designed cutting tool"
+      ],
+      "answer": 4,
+      "explanation": "Bir kişi paneli çıkarmıştır; araç ise işi gerçekleştirmekte kullanılmıştır. By yapanı, with aracı gösterebilir. Doğru tamamlama cümlenin edilgenliğini ve geçmiş zamanını değiştirmeden araç bilgisini ekler.",
+      "optionExplanations": [
+        "By ardından çekimli bağımsız cümle bu şekilde bağlanamaz; sözdizimi bozulur.",
+        "Uzmanı çıkarılan nesneye dönüştürür; amaçlanan araç ilişkisini kurmaz.",
+        "With sonrası gerekli isim öbeği yerine tamamlanmamış ve anlamı ters cümle kurulmuş.",
+        "Which sonrasında çekimli fiil veya doğru kısaltma bulunmadığı için uygun yan cümle oluşmaz.",
+        "By a specialist yapan kişiyi, with...tool kullanılan aracı belirtir; iki öbek farklı işlevleri tamamlar."
+      ],
+      "translation": "Hasarlı panel bir uzman tarafından, özel tasarlanmış kesme aracıyla çıkarıldı."
+    },
+    {
+      "id": "hq019",
+      "unitId": "u04",
+      "sectionId": "u04-s01",
+      "topicId": "hb19",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nIf the weather ---- clear tomorrow, the team will carry out the survey from the upper observation point.",
+      "options": [
+        "will remain",
+        "had remained",
+        "would remain",
+        "has been remained",
+        "remains"
+      ],
+      "answer": 4,
+      "explanation": "Tomorrow geleceğe işaret etse de if yan cümlesi normal present biçimde kurulur. The team will carry out ana sonuçtur. Hava durumu için özel isteklilik anlamı bulunmadığından will remain uygun değildir.",
+      "optionExplanations": [
+        "Sıradan gelecek koşulunda if sonrası will yerine present beklenir; isteklilik gibi özel anlam yoktur.",
+        "Geçmişte gerçekleşmeyen koşula yönelir; tomorrow ile mümkün gelecek planını bozuyor.",
+        "Would olağan olarak sonuç tarafında kullanılır; burada sıradan if koşuluna yerleştirilmemelidir.",
+        "Remain bu anlamda geçişsizdir; edilgen has been remained kurulamaz.",
+        "Mümkün gelecek koşulunda if yan cümlesi present remains kullanır; gelecek anlamı ana cümlede will ile verilir."
+      ],
+      "translation": "Hava yarın açık kalırsa ekip araştırmayı üst gözlem noktasından gerçekleştirecek."
+    },
+    {
+      "id": "hq020",
+      "unitId": "u04",
+      "sectionId": "u04-s02",
+      "topicId": "hb20",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe village has no reliable internet connection. If it ---- one, local students could attend online seminars more easily.",
+      "options": [
+        "has",
+        "had",
+        "will have",
+        "had had",
+        "would have"
+      ],
+      "answer": 1,
+      "explanation": "İlk cümle bugünkü gerçeği veriyor: güvenilir bağlantı yok. İkinci cümle bunun tersini varsayıp bugünkü/gelecek olası yararı açıklıyor. If it had...could attend ikinci tip koşuldur; had burada geçmişte sahipti demek değildir.",
+      "optionExplanations": [
+        "Gerçek/mümkün koşula döner; önceki şimdiki yokluk ve could sonucuyla kurulan varsayıma uymaz.",
+        "Şimdiki bağlantı yokluğuna alternatif varsayım kuruluyor; had simple past biçimi burada gerçeklikten uzaklığı gösterir.",
+        "If cümleciğinde olağan gelecek will yapısı değil, şimdiki gerçeğe ters varsayım isteniyor.",
+        "Past perfect geçmişteki yokluğa odaklanır; soru şimdiki no connection durumunu değiştiriyor.",
+        "Standart ikinci tip koşulda would sonuç tarafında olur; if tarafında yalın geçmiş had gerekir."
+      ],
+      "translation": "Köyün güvenilir internet bağlantısı yok. Olsaydı yerel öğrenciler çevrim içi seminerlere daha kolay katılabilirdi."
+    },
+    {
+      "id": "hq021",
+      "unitId": "u04",
+      "sectionId": "u04-s03",
+      "topicId": "hb21",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe crew failed to notice the leak before departure. If they had noticed it, they ---- the journey and repaired the vessel at the port.",
+      "options": [
+        "will cancel",
+        "would cancel",
+        "had cancelled",
+        "have cancelled",
+        "would have cancelled"
+      ],
+      "answer": 4,
+      "explanation": "Failed to notice gerçek geçmişi sabitliyor. Had noticed geçmişte gerçekleşmeyen koşuldur; yolculuğu iptal edip onarmak da aynı geçmişteki alternatif sonuçtur. Would have cancelled ... and repaired zincirinde have, iki V3 için ortak kullanılabilir.",
+      "optionExplanations": [
+        "Gelecek sonucu verir; departure öncesindeki geçmiş fırsatı ve repaired biçimini karşılamaz.",
+        "Şimdiki/gelecek alternatif sonuca yönelir; geçmişteki yolculuğun iptali için perfect sonuç gerekir.",
+        "Would gibi sonuç modalı olmadan had cancelled olağan üçüncü tip koşul sonucunu kurmaz.",
+        "Şimdiye bağlı present perfect ve they öznesi vardır; geçmiş karşı-olgusal sonuç anlamı eksiktir.",
+        "Geçmişte gerçekleşmeyen fark etme koşuluna geçmişte gerçekleşmeyen alternatif iptal sonucu bağlanıyor."
+      ],
+      "translation": "Ekip sızıntıyı hareketten önce fark etmedi. Fark etmiş olsalardı yolculuğu iptal edip tekneyi limanda onarırlardı."
+    },
+    {
+      "id": "hq022",
+      "unitId": "u04",
+      "sectionId": "u04-s04",
+      "topicId": "hb22",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "ileri",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nWe did not train a second operator last year. If we had done so, someone ---- to run the system now while the main operator is away.",
+      "options": [
+        "would have been available",
+        "had been available",
+        "would be available",
+        "will have been available",
+        "has been available"
+      ],
+      "answer": 2,
+      "explanation": "Koşul geçen yılki eğitimdir; sonuç ise şimdi kimin sistemi çalıştırabileceğidir. Bu yüzden iki taraf aynı zamanda değildir. If had done ... would be available geçmişten şimdiye uzanan mixed conditional örneğidir.",
+      "optionExplanations": [
+        "Sonucu geçmişe taşır; now ve is away ile kurulan bugünkü kullanılabilirlik anlamını vermez.",
+        "Past perfect geçmişte önceki durumu bildirir; koşulun şimdiki modal sonucunu kurmaz.",
+        "Geçmişte yapılmayan eğitim bugünkü personel durumuna bağlanıyor; now şimdiki sonuç istediği için would be gerekir.",
+        "Gelecekte geriye bakış anlamı verir; geçmişe ters koşulun şimdiki sonucu değildir.",
+        "Gerçek şimdiye uzanan durum bildirir; gerçekleşmemiş koşulun varsayımsal sonucunu korumaz."
+      ],
+      "translation": "Geçen yıl ikinci bir operatör yetiştirmedik. Yetiştirmiş olsaydık ana operatör yokken şimdi sistemi çalıştıracak biri bulunurdu."
+    },
+    {
+      "id": "hq023",
+      "unitId": "u04",
+      "sectionId": "u04-s07",
+      "topicId": "hb23",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "ileri",
+      "prompt": "Aşağıdaki cümlenin anlamını koruyan devrik koşulu seçiniz.\nIf the engineers had received the warning, they would have suspended the trial.",
+      "options": [
+        "Were the engineers receive the warning, they would have suspended the trial.",
+        "Had the engineers received the warning, they would have suspended the trial.",
+        "Should the engineers received the warning, they would have suspended the trial.",
+        "Had received the engineers the warning, they would have suspended the trial.",
+        "The engineers had received the warning, they would have suspended the trial."
+      ],
+      "answer": 1,
+      "explanation": "Koşulu devrik kurmak soru sormak değildir. Had + özne + V3 düzeni if + özne + had V3 yapısının anlamını korur. Özgün cümlenin geçmişe ters koşulu ve would have suspended sonucu değiştirilmemelidir.",
+      "optionExplanations": [
+        "Were sonrası receive bu biçimde gelemez; ikinci tip varsayım kalıbı da özgün geçmiş koşulu korumaz.",
+        "If düşürüldüğünde past perfectin had yardımcı fiili öznenin önüne geçer; zaman ve sonuç anlamı korunur.",
+        "Should sonrası yalın receive gerekir; ayrıca olası gelecek koşulu özgün gerçekleşmemiş geçmişle aynı değildir.",
+        "Devriklikte yalnız had öne geçer; received öznenin arkasında kalmalıdır.",
+        "If çıkarılmış ama devriklik veya başka bağlayıcı eklenmemiş; iki bağımsız cümle uygunsuz biçimde bağlanmış."
+      ],
+      "translation": "Mühendisler uyarıyı almış olsalardı denemeyi durdururlardı."
+    },
+    {
+      "id": "hq024",
+      "unitId": "u04",
+      "sectionId": "u04-s09",
+      "topicId": "hb24",
+      "type": "grammar",
+      "format": "Cümle tamamlama",
+      "difficulty": "orta",
+      "prompt": "Cümleyi anlam ve yapı bakımından tamamlayınız.\nI sent the wrong version yesterday. I wish ----.",
+      "options": [
+        "I had checked the attachment before sending it",
+        "I check the attachment before sending it",
+        "I will check the attachment before sending it",
+        "I would have check the attachment before sending it",
+        "I have checking the attachment before sending it"
+      ],
+      "answer": 0,
+      "explanation": "Yesterday hatanın geçmişte tamamlandığını belirliyor. Wish bu geçmişin farklı olmasını istediği için had checked gerekir. Doğru tamamlama, ekin aslında kontrol edilmediğine ilişkin pişmanlığı gönderme öncesine yerleştirir.",
+      "optionExplanations": [
+        "Dün yapılmış hataya pişmanlık, wish sonrasında past perfect ile doğru aktarılır.",
+        "Simple present geçmişteki yapılmamış kontrole yönelik dileği kurmaz.",
+        "Gelecek karar bildirir; dün gönderilen dosyadan önceki pişmanlığı karşılamaz.",
+        "Have sonrasında V3 checked gerekir; ayrıca wish içinde bu sonuç kalıbı normal geçmiş dilek yapısı değildir.",
+        "Have + checking doğru perfect zinciri değildir ve geçmiş dileği kurmaz."
+      ],
+      "translation": "Dün yanlış sürümü gönderdim. Keşke göndermeden önce eki kontrol etmiş olsaydım."
+    },
+    {
+      "id": "hq025",
+      "unitId": "u05",
+      "sectionId": "u05-s01",
+      "topicId": "hb25",
+      "type": "meaning",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\n---- the witnesses described did not match the sequence shown in the security footage.",
+      "options": [
+        "That",
+        "Whether",
+        "Because",
+        "What",
+        "Despite"
+      ],
+      "answer": 3,
+      "explanation": "The witnesses described bölümünde described geçişli fiildir ve nesnesi eksiktir. What, anlatılan şey anlamını getirerek bu boşluğu doldurur. Bütün What the witnesses described cümleciği did not match yükleminin öznesidir.",
+      "optionExplanations": [
+        "That bağlayıcısı kendi içinde öğe olmayan nesneyi doldurmaz; witnesses described ardından neyi anlattıkları eksik kalır.",
+        "Evet-hayır içeriği için kullanılır; described fiilinin eksik nesnesini karşılamaz.",
+        "Neden cümleciği kurar; ana cümlede did not match için gerekli özne görevini bu yapıda sağlamaz.",
+        "Described fiilinin nesnesi eksiktir; what bu nesneyi karşılar ve bütün cümleciği ana cümlenin öznesi yapar.",
+        "Edat olarak doğrudan çekimli the witnesses described cümlesini bu biçimde alamaz."
+      ],
+      "translation": "Tanıkların anlattığı şey güvenlik görüntülerindeki olay sırasıyla uyuşmuyordu."
+    },
+    {
+      "id": "hq026",
+      "unitId": "u05",
+      "sectionId": "u05-s02",
+      "topicId": "hb26",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe review panel wants to know ---- despite the successful preliminary tests.",
+      "options": [
+        "why did the device fail",
+        "why the device failed",
+        "why the device did failed",
+        "why failed the device",
+        "why was the device fail"
+      ],
+      "answer": 1,
+      "explanation": "Wants to know bir soru içeriğini nesne olarak alıyor. İç cümlecik bağımsız soru değildir; why the device failed biçiminde düz sıra gerekir. Despite sonrasındaki başarılı ön testler, sorunun gerekçesini oluşturur ama dizilişi değiştirmez.",
+      "optionExplanations": [
+        "Bağımsız soru devrikliği dolaylı soru içine aynen taşınamaz; did kaldırılmalıdır.",
+        "Know içine yerleşen wh cümleciğinde düz özne–fiil sırası gerekir: why + the device + failed.",
+        "Did sonrasında V2 failed gelemez; ayrıca normal dolaylı soruda bu yardımcıya ihtiyaç yoktur.",
+        "Özne yüklemden sonra bırakılmış; dolaylı soruda the device failed düz sırası gerekir.",
+        "Was + fail geçerli fiil zinciri değildir; fail burada aktif simple pastla kurulmalıdır."
+      ],
+      "translation": "İnceleme kurulu başarılı ön testlere rağmen cihazın neden arızalandığını öğrenmek istiyor."
+    },
+    {
+      "id": "hq027",
+      "unitId": "u05",
+      "sectionId": "u05-s03",
+      "topicId": "hb27",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe length of the extension depends on ---- the council approves the revised budget.",
+      "options": [
+        "if",
+        "that",
+        "what",
+        "whether",
+        "unless"
+      ],
+      "answer": 3,
+      "explanation": "Depends on bir edat tamamlayıcısı ister. Buradaki içerik bütçenin onaylanıp onaylanmaması, yani iki olasılıktır. Whether bu isim cümleciğini edat sonrasında doğru biçimde kurar; if aynı konumda kullanılmaz.",
+      "optionExplanations": [
+        "If bazı nesne sorularında kullanılabilir; ancak depends on edatından sonra bu konumda standart seçim değildir.",
+        "On sonrasında yalın that-cümleciği bu yapıda kullanılamaz; olguyu aktarmak için on the fact that gibi yapı gerekir. Burada aranan, onayın verilip verilmemesi olduğundan whether uygundur.",
+        "Approves fiilinin the revised budget nesnesi zaten var; what için içeride eksik öğe bulunmuyor.",
+        "On edatından sonra iki olasılığı aktaran isim cümleciği whether ile kurulur.",
+        "Unless koşul/istisna bağlacı olup depends on ardından gerekli isim cümleciği yapısını kurmaz."
+      ],
+      "translation": "Uzatmanın süresi belediye meclisinin gözden geçirilmiş bütçeyi onaylayıp onaylamamasına bağlı."
+    },
+    {
+      "id": "hq028",
+      "unitId": "u05",
+      "sectionId": "u05-s04",
+      "topicId": "hb28",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "ileri",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nAs a mandatory precaution, the safety officer recommended that each cylinder ---- in a separate ventilated compartment.",
+      "options": [
+        "is storing",
+        "stores",
+        "be stored",
+        "has storing",
+        "to be stored"
+      ],
+      "answer": 2,
+      "explanation": "Recommended burada bir bulgunun işaret etmesi değil yapılması istenen güvenlik önlemidir. That each cylinder ardından subjunctive kullanılır; özne depolanacağı için be stored seçilir. Each tekil olsa da bu yapıda is değil yalın be gelir.",
+      "optionExplanations": [
+        "Aktif continuous silindiri depolayan özneye dönüştürür; önerilen edilgen işlem anlatılamaz.",
+        "Aktif üçüncü tekil fiil hem edilgenliği hem subjunctive kalıbını karşılamaz.",
+        "Recommended öneri işlevinde subjunctive ister; each cylinder edilgen özne olduğu için yalın be stored gerekir.",
+        "Has + storing doğru yardımcı fiil zinciri değildir; öneri cümlesinin fiili kurulmamıştır.",
+        "That + özne ardından bu şekilde to-infinitive değil subjunctive yalın fiil gerekir."
+      ],
+      "translation": "Güvenlik görevlisi zorunlu önlem olarak her silindirin ayrı ve havalandırılan bölmede saklanmasını önerdi."
+    },
+    {
+      "id": "hq029",
+      "unitId": "u05",
+      "sectionId": "u05-s06",
+      "topicId": "hb29",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nAt Monday's briefing, the manager said, “I will announce the decision on Tuesday.”\nHe said that he ---- the decision the following day.",
+      "options": [
+        "had announced",
+        "has announced",
+        "would announce",
+        "is announcing",
+        "would have announce"
+      ],
+      "answer": 2,
+      "explanation": "Kaynak söz pazartesi söylenmiştir ve salıdaki açıklamayı geleceğe yerleştirir. Dolaylı aktarımda will → would ve Tuesday → the following day uyumludur. Had announced seçilirse olay söyleme anından önceye taşınır ve anlam değişir.",
+      "optionExplanations": [
+        "Kararın söyleme anından önce açıklandığını söyler; özgün sözde açıklama ertesi gündedir.",
+        "Şimdiye bağlı tamamlanan eylem, geçmişteki söyleme anından sonraki gelecek niyetini korumaz.",
+        "Geçmişte söylenen will announce, geriletilen dolaylı anlatımda would announce olur; the following day salıyı korur.",
+        "Şimdiki süreç yorumuna döner; soru geriletilmiş dolaylı aktarım istemektedir.",
+        "Would have sonrasında V3 announced gerekir; ayrıca özgün düz gelecek anlatımı için perfect sonuç gerekmez."
+      ],
+      "translation": "Müdür pazartesi toplantısında kararı salı açıklayacağını söyledi; kararı ertesi gün açıklayacağını belirtti."
+    },
+    {
+      "id": "hq030",
+      "unitId": "u05",
+      "sectionId": "u05-s07",
+      "topicId": "hb30",
+      "type": "grammar",
+      "format": "Cümle tamamlama",
+      "difficulty": "orta",
+      "prompt": "Cümleyi anlam ve yapı bakımından tamamlayınız.\n“Do not disconnect the sensor during calibration,” the technician told us.\nThe technician told us ----.",
+      "options": [
+        "that do not disconnect the sensor during calibration",
+        "whether we disconnect the sensor during calibration",
+        "not disconnecting the sensor during calibration",
+        "to not disconnected the sensor during calibration",
+        "not to disconnect the sensor during calibration"
+      ],
+      "answer": 4,
+      "explanation": "Özgün söz bir bilgi sorusu değil doğrudan olumsuz yönergedir. Told us kişi nesnesini zaten verir; ardından not to disconnect gerekir. Kalibrasyon süresince geçerli kısıtlama aynı biçimde korunur.",
+      "optionExplanations": [
+        "That ardından öznesiz do not emri bu aktarım yapısını kurmaz; kişi + not to gerekir.",
+        "Whether evet-hayır sorusunun içeriğini aktarır; özgün söz soru değil olumsuz emirdir.",
+        "Told us ardından bu olumsuz gerund, istenen davranışı aktaran standart kalıp değildir.",
+        "To sonrasında V3 disconnected kullanılamaz; yalın disconnect gerekir.",
+        "Olumsuz emir kişi nesnesi sonrasında not to + V1 ile aktarılır; yasaklanan davranış korunur."
+      ],
+      "translation": "Teknisyen, kalibrasyon sırasında sensörün bağlantısını kesmememizi söyledi."
+    },
+    {
+      "id": "hq031",
+      "unitId": "u06",
+      "sectionId": "u06-s02",
+      "topicId": "hb31",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe company is committed to ---- the amount of packaging used in its deliveries.",
+      "options": [
+        "reduce",
+        "have reduced",
+        "reducing",
+        "be reduced",
+        "reduced"
+      ],
+      "answer": 2,
+      "explanation": "Şirketin bağlı olduğu hedef ambalaj miktarını azaltmaktır. Be committed to tek kalıp olarak okunmalıdır; to edat olduğundan -ing biçimi gelir. Kullanılacak yapı reducing the amount of packaging olur.",
+      "optionExplanations": [
+        "To burada infinitive işareti değildir; edat sonrasında yalın reduce uygun değildir.",
+        "Edat sonrası yalın have kullanımı doğru gerund kalıbını oluşturmaz.",
+        "Be committed to yapısında to edattır; taahhüt edilen etkinlik gerund reducing ile tamamlanır.",
+        "Şirketin edilgen biçimde azaltılması anlamına yönelir; ayrıca edat sonrasında being gerekirdi.",
+        "V3 tek başına taahhüt edilen etkinliği adlandırmaz; reducing gerund gerekir."
+      ],
+      "translation": "Şirket teslimatlarında kullanılan ambalaj miktarını azaltmaya kararlıdır."
+    },
+    {
+      "id": "hq032",
+      "unitId": "u06",
+      "sectionId": "u06-s04",
+      "topicId": "hb32",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe consultant persuaded the board ---- an independent evaluation before approving the expansion.",
+      "options": [
+        "commissioning",
+        "commission",
+        "having commissioned",
+        "that commissioning",
+        "to commission"
+      ],
+      "answer": 4,
+      "explanation": "Persuaded ikna edilen kişiyi veya kurulu nesne alır. Ardından bu nesnenin yapacağı eylem to-infinitive ile verilir. Board genişlemeyi onaylamadan önce bağımsız değerlendirme yaptırmaya ikna edilmiştir.",
+      "optionExplanations": [
+        "Persuaded the board ardından gerund bu temel nesne + infinitive kalıbını karşılamaz.",
+        "Yalın infinitive make/let gibi kalıplara uygundur; persuade kişiyle to gerektirir.",
+        "Perfect gerund ikna fiilinin gerekli tamamlayıcısı değildir; amaçlanan sonraki eylemi yanlış kurar.",
+        "That sonrasında çekimli özne–fiil cümlesi yoktur; mevcut kişi nesnesi düzenini de tamamlamaz.",
+        "Persuade + kişi nesnesi + to-infinitive kalıbında board değerlendirmeyi yaptırmaya ikna edilen taraftır."
+      ],
+      "translation": "Danışman, kurulu genişlemeyi onaylamadan önce bağımsız değerlendirme yaptırmaya ikna etti."
+    },
+    {
+      "id": "hq033",
+      "unitId": "u06",
+      "sectionId": "u06-s05",
+      "topicId": "hb33",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe cabinet is definitely locked: I clearly remember ---- it and putting the key in this drawer.",
+      "options": [
+        "to lock",
+        "locking",
+        "lock",
+        "to have lock",
+        "being locked"
+      ],
+      "answer": 1,
+      "explanation": "Konuşmacı dolabın kilitli olduğuna geçmişteki kendi eylemini hatırlayarak kanıt sunuyor. Remember locking, kilitlemenin yapıldığını ve şimdi hatırlandığını bildirir. To lock seçilirse görev/niyet anlamına kayılır.",
+      "optionExplanations": [
+        "Remember to lock yapılacak görevi unutmamayı anlatır; burada gerçekleşmiş olay açıkça hatırlanıyor.",
+        "Remember doing gerçekleşmiş eylemi hatırlamaktır; putting ile eş yapı ve kesin kilitli bilgisi bu yorumu destekler.",
+        "Remember doğrudan yalın fiil almaz; bu nesne tamamlayıcısında gerund gerekir.",
+        "Perfect infinitive için V3 locked gerekirdi; ayrıca and putting ile kurulan hatırlama dizisi bozulur.",
+        "Edilgen gerund konuşmacının kilitlendiği anlamına gider; kişi dolabı kilitleyen taraftır."
+      ],
+      "translation": "Dolap kesinlikle kilitli: onu kilitlediğimi ve anahtarı bu çekmeceye koyduğumu açıkça hatırlıyorum."
+    },
+    {
+      "id": "hq034",
+      "unitId": "u06",
+      "sectionId": "u06-s02",
+      "topicId": "hb34",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "ileri",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nThe monument appears ---- recently, since the repair mortar is still visibly fresh.",
+      "options": [
+        "to have been restored",
+        "to have restored",
+        "having been restored",
+        "to restoring",
+        "to have being restored"
+      ],
+      "answer": 0,
+      "explanation": "Fresh mortar şimdiki kanıttır; restorasyon bundan önce yapılmıştır. Appear to-infinitive ister, önceki zaman have ile, edilgenlik been restored ile verilir. Üç karar birleşince to have been restored oluşur.",
+      "optionExplanations": [
+        "Şimdiki görünüşten önceki restorasyon çıkarılıyor; monument edilgen özne olduğundan perfect passive infinitive gerekir.",
+        "Perfect aktif anıtın başka şeyi restore ettiği anlamını verir; anıt işleme uğramıştır.",
+        "Appears bu cümle yapısında gerund değil to-infinitive tamamlayıcısı ister.",
+        "To-infinitive içinde yalın fiil gerekir; to restoring bu yapıyı kurmaz.",
+        "Perfect passive sırası have been + V3 olmalıdır; have being doğru zincir değildir."
+      ],
+      "translation": "Onarım harcı hâlâ gözle görülür biçimde taze olduğundan anıt yakın zamanda restore edilmiş gibi görünüyor."
+    },
+    {
+      "id": "hq035",
+      "unitId": "u06",
+      "sectionId": "u06-s07",
+      "topicId": "hb35",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğu uygun ifadeyle tamamlayınız.\nBecause the original calculations were incomplete, the contractor was made ---- them before work could resume.",
+      "options": [
+        "to revise",
+        "revise",
+        "revising",
+        "revised",
+        "to revising"
+      ],
+      "answer": 0,
+      "explanation": "Müteahhit zorlanan kişidir; bu nedenle make edilgen kurulmuştur. Etkin They made the contractor revise dönüşümünde edilgen The contractor was made to revise olur. Them hesaplamalara gönderme yapar.",
+      "optionExplanations": [
+        "Make etkin yapıda yalın fiil, edilgen was made yapısında to-infinitive alır; revise öznenin yapacağı iştir.",
+        "Yalın fiil active made the contractor revise kalıbında olur; passive was made to revise gerektirir.",
+        "Was made sonrasında zorunlu davranışı bu anlamda gerund ile tamamlayamayız.",
+        "Contractor hesapları gözden geçiren taraftır; tek başına V3 bu ettirgen edilgen kalıbı tamamlamaz.",
+        "To burada infinitive işareti olduğundan yalın revise gerekir; gerund biçimi uygun değildir."
+      ],
+      "translation": "İlk hesaplamalar eksik olduğu için işe yeniden başlanmadan önce müteahhide bunları gözden geçirmesi zorunlu kılındı."
+    },
+    {
+      "id": "hq036",
+      "unitId": "u06",
+      "sectionId": "u06-s06",
+      "topicId": "hb36",
+      "type": "grammar",
+      "format": "Cümle tamamlama",
+      "difficulty": "orta",
+      "prompt": "Cümleyi anlam ve yapı bakımından tamamlayınız.\nThe instructor moved closer to the microphone so that ----.",
+      "options": [
+        "to hear the explanation clearly",
+        "the students at the back hearing the explanation clearly",
+        "could the students at the back hear the explanation clearly",
+        "the students at the back could hear the explanation clearly",
+        "the explanation to hear the students at the back clearly"
+      ],
+      "answer": 3,
+      "explanation": "Eğitmenin hareketi, öğrencilerin açıklamayı daha iyi duymasını amaçlıyor. Eylemlerin özneleri farklı olduğundan so that + the students + could hear uygundur. Amaç cümleciği düz sıra taşır, soru devrikliği yapılmaz.",
+      "optionExplanations": [
+        "So that ardından özne ve çekimli fiil gerekir; yalnız to-infinitive doğru cümlecik kurmaz.",
+        "Özne var ama çekimli yüklem yok; hearing tek başına yan cümle yüklemi değildir.",
+        "Amaç cümleciği soru değildir; could öznenin arkasında gelmelidir.",
+        "Amaç eyleminin öznesi öğrenciler, ana cümlenin öznesi eğitmendir; so that + özne + modal doğru bağlantıyı kurar.",
+        "Açıklama duyan varlık gibi kurulmuş; hem anlam hem çekimli yan cümle yapısı yanlıştır."
+      ],
+      "translation": "Eğitmen arka sıradaki öğrenciler açıklamayı net duyabilsin diye mikrofona yaklaştı."
+    },
+    {
+      "id": "hq037",
+      "unitId": "u01",
+      "sectionId": "u01-s09",
+      "topicId": "hb04",
+      "type": "grammar",
+      "format": "Cloze test",
+      "difficulty": "ileri",
+      "prompt": "Paragraftaki boşluğu tamamlayınız.\nThe excavation team reached the cave shortly after sunrise. They expected to photograph the entrance before any visitors arrived. However, a local conservation group ---- a protective screen across it during the night, and the entrance was no longer visible. The team therefore requested access from the group.",
+      "options": [
+        "has installed",
+        "had installed",
+        "is installing",
+        "will install",
+        "had been installed"
+      ],
+      "answer": 1,
+      "explanation": "Paragrafın referans noktası ekibin sabah mağaraya varışıdır. During the night kurulumu ondan önceye yerleştirir; was no longer visible ise sabah mevcut sonucu doğrular. Aktif özne ve önce tamamlanma had installed gerektirir.",
+      "optionExplanations": [
+        "Present perfect şimdi referansına bağlanır; paragraf sabahki geçmiş varıştan geriye bakıyor.",
+        "Gece yapılan kurulum sabahki varıştan önce tamamlanmış; past perfect had installed bu önceliği gösterir.",
+        "Şimdiki süreç değil, gece tamamlanıp sabah sonucu görülen kurulum anlatılıyor.",
+        "Gelecek kurulum ekranın sabah zaten yerinde olmasını açıklamaz.",
+        "Özne conservation group işi yapan gruptur; edilgen biçim grubu kurulmuş varlığa dönüştürür."
+      ],
+      "translation": "Kazı ekibi gün doğumundan sonra mağaraya ulaştı. Ziyaretçilerden önce girişi fotoğraflamak istiyordu; ancak yerel koruma grubu gece girişe koruyucu perde kurmuştu. Giriş görünmediği için ekip gruptan erişim istedi."
+    },
+    {
+      "id": "hq038",
+      "unitId": "u02",
+      "sectionId": "u02-s03",
+      "topicId": "hb08",
+      "type": "grammar",
+      "format": "Cloze test",
+      "difficulty": "orta",
+      "prompt": "Paragraftaki boşluğu tamamlayınız.\nBefore travelling to the workshop, Sera spent an evening printing all the handouts. On arrival, she found a complete printed set on every desk. Her effort had been unnecessary: she ---- the documents herself. Nevertheless, the extra copies were useful when two unexpected guests arrived.",
+      "options": [
+        "cannot have printed",
+        "must not print",
+        "had to print",
+        "need not have printed",
+        "should print"
+      ],
+      "answer": 3,
+      "explanation": "İlk cümle yazdırmanın yapıldığını garanti ediyor. Hazır setleri bulması bu emeğin gerekli olmadığını gösteriyor. Sonradan kopyaların işe yaraması, başlangıçta gerekli olmadığı bilgisini ortadan kaldırmaz; need not have printed doğrudur.",
+      "optionExplanations": [
+        "Yazdırmanın gerçekleşmiş olmasını reddeder; spent an evening printing açık bilgisiyle çelişir.",
+        "Şimdiki/gelecek yasak verir; geçmişte harcanmış gereksiz emeği açıklamaz.",
+        "Zorunluluk bildirir; complete set on every desk ve unnecessary bağlamının tersidir.",
+        "Basılı kopyalar gerçekten hazırlanmış fakat gereksiz olduğu anlaşılmış; need not have printed iki bilgiyi birlikte taşır.",
+        "Yeni tavsiye verir; geçmişteki tamamlanmış yazdırma işinin gereksizliğini anlatmaz."
+      ],
+      "translation": "Sera çalıştaya gitmeden bütün notları yazdırdı. Varınca her masada basılı bir set olduğunu gördü; belgeleri kendisinin yazdırmasına gerek yokmuş. Yine de beklenmedik iki konuk geldiğinde fazla kopyalar işe yaradı."
+    },
+    {
+      "id": "hq039",
+      "unitId": "u03",
+      "sectionId": "u03-s06",
+      "topicId": "hb14",
+      "type": "grammar",
+      "format": "Cloze test",
+      "difficulty": "ileri",
+      "prompt": "Paragraftaki boşluğu tamamlayınız.\nThe archive contains a gap in its electronic records for one particular week. The staff have found no evidence of deliberate removal. Because the old storage system was unstable at the time, the missing files might ---- during an automatic restart. Further checks are needed before any conclusion can be drawn.",
+      "options": [
+        "have lost",
+        "have been lost",
+        "be losing",
+        "been lost",
+        "to have been lost"
+      ],
+      "answer": 1,
+      "explanation": "Karar henüz verilmemiş ve daha çok inceleme gerekiyor; might ihtiyatlı olasılığı korur. At the time geçmiş sistemi, files ise kaybolan nesneleri gösterir. Doğru yardımcı fiil zinciri have been lost olur.",
+      "optionExplanations": [
+        "Aktif çatı dosyaları bir şeyi kaybeden özneye dönüştürür; burada kaybolan dosyalardır.",
+        "Dosyalar geçmişte kaybolmuş olabilir; kesin olmayan geçmiş edilgen olasılık might have been lost ile verilir.",
+        "Şimdiki devam eden aktif eylemdir; geçmişteki yeniden başlatmada kaybolmayı anlatmaz.",
+        "Might sonrasında perfect passive için have been gerekir; have eksiktir.",
+        "Might temel modal olduğundan to-infinitive almaz; yalın have ile devam etmelidir."
+      ],
+      "translation": "Arşivin elektronik kayıtlarında bir haftalık boşluk var. Kasıtlı silme kanıtı bulunmadı; eski sistem o sırada kararsız olduğundan eksik dosyalar otomatik yeniden başlatmada kaybolmuş olabilir. Sonuç için ek inceleme gerekiyor."
+    },
+    {
+      "id": "hq040",
+      "unitId": "u04",
+      "sectionId": "u04-s04",
+      "topicId": "hb22",
+      "type": "grammar",
+      "format": "Cloze test",
+      "difficulty": "ileri",
+      "prompt": "Paragraftaki boşluğu tamamlayınız.\nA scholarship would have allowed Deniz to take a specialist training course last summer. He did not apply, however, and consequently lacks the qualification needed for the current vacancy. If he had completed that course, he ---- eligible for the position now. Instead, he must wait for the next intake.",
+      "options": [
+        "would have been",
+        "had been",
+        "will have been",
+        "would be",
+        "is being"
+      ],
+      "answer": 3,
+      "explanation": "Kurs geçen yaz, iş ilanı ve yeterlilik ise şimdiye aittir. If he had completed geçmişteki gerçekleşmemiş koşuldur. Sonuç şu anki eligible durumu olduğundan mixed conditional içinde would be gerekir.",
+      "optionExplanations": [
+        "Geçmiş uygunluk sonucunu anlatır; now ile istenen bugünkü uygunluk değildir.",
+        "Past perfect geçmiş durumu verir; ana koşul sonucunun modal yapısını kurmaz.",
+        "Gelecekte tamamlanan durum anlamına gider; geçmişe ters koşulun şimdi sonucunu karşılamaz.",
+        "Geçmiş kursun tamamlanmaması bugünkü uygunluğa bağlanıyor; now şimdiki varsayımsal sonuç would be gerektirir.",
+        "Gerçek şimdiki durum bildirir; gerçekleşmemiş koşulun varsayımsal sonucu korunmaz."
+      ],
+      "translation": "Deniz geçen yaz uzmanlık kursu için bursa başvurmadı ve bugünkü açık pozisyonun yeterliliğine sahip değil. Kursu tamamlamış olsaydı şimdi pozisyona uygun olurdu; bunun yerine sonraki dönemi beklemek zorunda."
+    },
+    {
+      "id": "hq041",
+      "unitId": "u05",
+      "sectionId": "u05-s03",
+      "topicId": "hb27",
+      "type": "grammar",
+      "format": "Cloze test",
+      "difficulty": "ileri",
+      "prompt": "Paragraftaki boşluğu tamamlayınız.\nThe proposed field study requires access to privately owned land. The university has already approved the research methods, but permission from the landowner is still pending. The team's departure therefore depends on ---- that permission is granted this week. Without it, the work cannot begin.",
+      "options": [
+        "if",
+        "what",
+        "unless",
+        "despite",
+        "whether"
+      ],
+      "answer": 4,
+      "explanation": "Üniversite yöntemleri onaylamış ama arazi izni henüz belli değildir. Hareket, iznin verilip verilmemesine bağlıdır; iki olasılıklı içerik depends on ardından whether ile kurulur. That burada bağlaç değil permission ismini niteleyen işaret belirleyicisidir.",
+      "optionExplanations": [
+        "If sıradan nesne sorularında olabilir; on edatı arkasındaki bu konumda whether gerekir.",
+        "Is granted edilgen yapısının öznesi that permission zaten var; what için eksik öğe bulunmuyor.",
+        "Unless istisna koşulu kurar; on sonrasında gerekli isim cümleciği yapısını karşılamaz.",
+        "Despite edattır; ardından çekimli that permission is granted cümlesini bu şekilde alamaz.",
+        "Depends on edatı, iznin verilip verilmemesine ilişkin isim cümleciğini whether ile alır."
+      ],
+      "translation": "Saha araştırması özel arazide çalışma izni gerektiriyor. Üniversite yöntemleri onayladı fakat arazi sahibinin izni bekleniyor. Ekibin hareketi iznin bu hafta verilip verilmeyeceğine bağlı; izin olmadan çalışma başlayamaz."
+    },
+    {
+      "id": "hq042",
+      "unitId": "u06",
+      "sectionId": "u06-s07",
+      "topicId": "hb35",
+      "type": "grammar",
+      "format": "Cloze test",
+      "difficulty": "orta",
+      "prompt": "Paragraftaki boşluğu tamamlayınız.\nThe museum director was concerned about the condition of a newly acquired frame. Rather than attempting the repair herself, she contacted a conservation workshop. She had the frame ---- by an experienced conservator before it was placed on display. The treatment was recorded in the museum's maintenance log.",
+      "options": [
+        "restore",
+        "to restore",
+        "restored",
+        "restoring",
+        "have restored"
+      ],
+      "answer": 2,
+      "explanation": "Müdür işi kendisi yapmamış, uzman atölye ile görüşmüştür. Had the frame restored çerçeveyi onarttı demektir; by an experienced conservator yapan uzmanı belirtir. Nesne şey olduğu için V3 gerekir.",
+      "optionExplanations": [
+        "Yalın restore, nesnenin işi yapan kişi olduğu have + kişi + V1 kalıbına uygundur; çerçeve işi yapmaz.",
+        "To-infinitive get + kişi yapısında görülebilir; had the frame ardından bu kalıp işlemez.",
+        "Frame işlemi yapan kişi değil onarılan nesnedir; had + şey + V3 ettirgen edilgen kalıbında restored gerekir.",
+        "Had + nesne + V-ing burada tamamlanmış restorasyonu yaptırma anlamını doğru kurmaz.",
+        "Ek have özne/nesne ilişkisini bozarak iki yardımcıyı yanlış bağlar; had the frame restored yeterlidir."
+      ],
+      "translation": "Müze müdürü yeni alınan çerçevenin durumundan kaygılandı ve kendisi onarmak yerine atölyeyle görüştü. Sergilemeden önce çerçeveyi deneyimli bir konservatöre restore ettirdi; işlem bakım kaydına işlendi."
+    },
+    {
+      "id": "hq043",
+      "unitId": "u01",
+      "sectionId": "u01-s07",
+      "topicId": "hb03",
+      "type": "translation",
+      "format": "Çeviri",
+      "difficulty": "orta",
+      "prompt": "Türkçe cümleye anlamca en yakın İngilizce cümleyi seçiniz.\nAraştırma ekibi 2021 yılından beri altı saha araştırmasını tamamladı ve şu anda yedincisini hazırlıyor.",
+      "options": [
+        "The research team completed its sixth field survey in 2021 and then prepared a seventh.",
+        "The research team has completed six field surveys since 2021 and is now preparing the seventh.",
+        "The research team had completed seven field surveys by 2021 and is now preparing the sixth.",
+        "The research team will have completed six field surveys by 2021 before preparing a seventh.",
+        "The research team has been preparing its first field survey since 2021 and has completed the other six."
+      ],
+      "answer": 1,
+      "explanation": "Çeviride üç bilgi korunmalıdır: başlangıç 2021, tamamlanan araştırma sayısı altı, şu an hazırlanan ise yedincidir. Present perfect simple toplam tamamlanmayı, present continuous güncel hazırlığı verir. Sayı ve zaman değişiklikleri seçenekleri eler.",
+      "optionExplanations": [
+        "2021 yılından beri toplam altı yerine altıncının 2021 tarihinde bittiğini ve yedincinin geçmişte hazırlandığını söyler.",
+        "Since 2021 şimdiye kadarki tamamlanan altı işi, is now preparing süren yedinci hazırlığı korur.",
+        "Altı/yedi sırasını ve başlangıçtan bugüne zaman ilişkisini tersine çevirir.",
+        "Geçmiş tarihe gelecekte tamamlanma yapısını bağlar; şu anki hazırlık bilgisini de korumaz.",
+        "Birinci araştırmanın süren hazırlığını ekler; özgün cümledeki tamamlanmış altı ve hazırlanmakta olan yedinci ayrımını bozar."
+      ],
+      "translation": "Araştırma ekibi 2021 yılından beri altı saha araştırmasını tamamladı ve şu anda yedincisini hazırlıyor."
+    },
+    {
+      "id": "hq044",
+      "unitId": "u03",
+      "sectionId": "u03-s09",
+      "topicId": "hb15",
+      "type": "translation",
+      "format": "Çeviri",
+      "difficulty": "ileri",
+      "prompt": "Türkçe cümleye anlamca en yakın İngilizce cümleyi seçiniz.\nTaş köprünün, köy terk edilmeden çok önce onarıldığı düşünülüyor.",
+      "options": [
+        "The stone bridge is believed to repair the village long before it is abandoned.",
+        "The stone bridge was repaired because the village had been abandoned long before.",
+        "The village is believed to have been repaired before the stone bridge was abandoned.",
+        "The stone bridge is believed to have been repaired long before the village was abandoned.",
+        "The stone bridge is believed to have been repaired long after the village was abandoned."
+      ],
+      "answer": 3,
+      "explanation": "Is believed raporlama çerçevesidir; köprü onarılan varlık olduğu için to have been repaired gerekir. Long before ise onarımın köyün terk edilmesinden çok önceye ait olduğunu korur. After veya aktif infinitive seçilirse anlam değişir.",
+      "optionExplanations": [
+        "Köprüyü onaran aktif özne yapar; onarılan köprü yerine köyü nesneye dönüştürür.",
+        "Düşünülüyor aktarımını kesin olaya çevirir; ayrıca önce–sonra ilişkisini tersine ve nedene dönüştürür.",
+        "Onarılan ve terk edilen varlıkların yerini değiştirerek ana anlamı bozar.",
+        "Şimdiki düşünce, önceki edilgen onarım ve köyün terk edilmesinden önce olma ilişkisi birlikte korunur.",
+        "After kullanarak onarımın terk edilmeden önce olduğu bilgisini tersine çevirir."
+      ],
+      "translation": "Taş köprünün, köy terk edilmeden çok önce onarıldığı düşünülüyor."
+    },
+    {
+      "id": "hq045",
+      "unitId": "u04",
+      "sectionId": "u04-s04",
+      "topicId": "hb22",
+      "type": "translation",
+      "format": "Çeviri",
+      "difficulty": "ileri",
+      "prompt": "Türkçe cümleye anlamca en yakın İngilizce cümleyi seçiniz.\nGeçen yıl yedek bir jeneratör satın almış olsaydık şimdi bu kadar sık elektrik kesintisi yaşamazdık.",
+      "options": [
+        "If we had bought a backup generator last year, we would not be experiencing power cuts so often now.",
+        "If we buy a backup generator next year, we will not experience power cuts so often.",
+        "If we had bought a backup generator last year, we would not have experienced power cuts that year.",
+        "We bought a backup generator last year because we are experiencing power cuts so often now.",
+        "Even if we had bought a backup generator last year, we would still be experiencing power cuts so often now."
+      ],
+      "answer": 0,
+      "explanation": "Koşul last year geçmişine, sonuç now zamanına aittir. Bu yüzden if had bought ile would not be experiencing birlikte kullanılır. Doğru çeviri gerçekleşmeyen geçmiş kararın bugünkü etkisini korur.",
+      "optionExplanations": [
+        "Geçmişte yapılmayan satın alma ve bugünkü sık kesintilere alternatif sonuç mixed conditional ile korunur.",
+        "Geçmiş pişmanlığı gelecekteki mümkün plana çevirir; now ve last year bilgileri kaybolur.",
+        "Sonucu geçen yıla taşır; özgün cümledeki şimdiki kesinti sıklığını korumaz.",
+        "Satın almanın gerçekleşmediği varsayımı yerine gerçekleşmiş alış ve neden ilişkisi kurar.",
+        "Even if ve still sonucu tersine çevirir; özgün cümle satın almanın bugünkü kesintileri azaltacağını söyler."
+      ],
+      "translation": "Geçen yıl yedek bir jeneratör satın almış olsaydık şimdi bu kadar sık elektrik kesintisi yaşamazdık."
+    },
+    {
+      "id": "hq046",
+      "unitId": "u05",
+      "sectionId": "u05-s04",
+      "topicId": "hb28",
+      "type": "translation",
+      "format": "Çeviri",
+      "difficulty": "orta",
+      "prompt": "Türkçe cümleye anlamca en yakın İngilizce cümleyi seçiniz.\nKurul, müdürün nihai kararını vermeden önce teklifi yeniden değerlendirmesini önerdi.",
+      "options": [
+        "The board stated that the director had reconsidered the proposal after making a final decision.",
+        "The director recommended that the board reconsider its final decision before receiving the proposal.",
+        "The board asked why the director had refused to reconsider the proposal before making a final decision.",
+        "The board prohibited the director from reconsidering the proposal until a final decision was made.",
+        "The board recommended that the director reconsider the proposal before making a final decision."
+      ],
+      "answer": 4,
+      "explanation": "Öneriyi kurul yapıyor, değerlendirmeyi müdürün yapması isteniyor. Recommend that ardından yalın reconsider veya uygun kullanımda should reconsider mümkündür. Before making kararı vermeden önce ilişkisini ve müdür öznesini korur.",
+      "optionExplanations": [
+        "Öneriyi tamamlanmış olay iddiasına, karar öncesini karar sonrasına çevirir.",
+        "Öneriyi yapan ve yapanın yöneldiği taraf yer değiştirir; teklifin alınması gibi yeni bilgi ekler.",
+        "Öneri yerine geçmişteki reddin nedenini sorar; cümleye olmayan refusal bilgisi eklenir.",
+        "Öneriyi yasağa çevirir; teklifin karar öncesi değerlendirilmesini de engeller.",
+        "Recommended that + özne + yalın reconsider öneriyi, before ise karar öncesi sırayı korur."
+      ],
+      "translation": "Kurul, müdürün nihai kararını vermeden önce teklifi yeniden değerlendirmesini önerdi."
+    },
+    {
+      "id": "hq047",
+      "unitId": "u02",
+      "sectionId": "u02-s03",
+      "topicId": "hb08",
+      "type": "meaning",
+      "format": "Yakın anlam",
+      "difficulty": "orta",
+      "prompt": "Verilen cümleye anlamca en yakın seçeneği bulunuz.\nWe bought tickets before the visit, although admission turned out to be free.",
+      "options": [
+        "We did not buy tickets because we already knew admission was free.",
+        "We must not buy tickets whenever admission is charged.",
+        "We need not have bought tickets, since there was no admission charge.",
+        "We could not have bought tickets because none were available.",
+        "We should buy tickets in advance because admission may not be free."
+      ],
+      "answer": 2,
+      "explanation": "Bought tickets gerçekleşmeyi, turned out to be free sonradan öğrenilen gereksizliği verir. Need not have bought eylemin yapıldığını ve gerekli olmadığını birlikte söyler. Almadık, alamazdık veya almalıyız anlamındaki seçenekler eşdeğer değildir.",
+      "optionExplanations": [
+        "Bilet alınmadığını ve ücret bilgisinin önceden bilindiğini söyler; özgün cümlede bilet alınmıştır.",
+        "Yasak ve ücretli giriş koşulu ekler; geçmişteki gereksiz alış anlatılmaz.",
+        "Biletler gerçekten alınmış ama ücretsiz giriş yüzünden gereksizmiş; need not have bought aynı gerçekleşme ve gereksizliği taşır.",
+        "Bilet almanın imkânsızlığını ve bulunmamasını söyler; özgün açık alış bilgisiyle çelişir.",
+        "Gelecek için tavsiye ve belirsiz ücret sunar; tamamlanmış alış ve sonradan öğrenilen ücretsizliği korumaz."
+      ],
+      "translation": "Ziyaretten önce bilet aldık, oysa girişin ücretsiz olduğu ortaya çıktı; bilet almamıza gerek yokmuş."
+    },
+    {
+      "id": "hq048",
+      "unitId": "u04",
+      "sectionId": "u04-s09",
+      "topicId": "hb24",
+      "type": "meaning",
+      "format": "Yakın anlam",
+      "difficulty": "orta",
+      "prompt": "Verilen cümleye anlamca en yakın seçeneği bulunuz.\nI wish I had not revealed the location of the nesting site last week.",
+      "options": [
+        "I regret revealing the location of the nesting site last week.",
+        "I am glad that I kept the location of the nesting site secret last week.",
+        "I intend to reveal the location of the nesting site next week.",
+        "I cannot remember whether I revealed the location of the nesting site last week.",
+        "I wish someone else would reveal the location of the nesting site."
+      ],
+      "answer": 0,
+      "explanation": "Had not revealed dileği, geçen hafta konumu aslında açıklamış olmaya duyulan pişmanlığı gösterir. Regret revealing bu ilişkiyi kısa ve doğru biçimde aktarır. Sır tutma, gelecek niyeti veya bellek belirsizliği eklenmemelidir.",
+      "optionExplanations": [
+        "Wish + had not revealed geçmişte yapılan açıklamaya pişmanlıktır; regret revealing aynı geçmiş eylem yargısını korur.",
+        "Açıklamanın yapılmadığını ve memnuniyeti söyler; gerçekleşme ve duygu tersine döner.",
+        "Geçmiş pişmanlığını gelecek niyetine çevirir; zaman ve tutum korunmaz.",
+        "Pişmanlık yerine hatırlama belirsizliği getirir; özgün cümlede geçmiş açıklama kabul edilir.",
+        "Kendi geçmiş açıklamasına pişmanlık yerine başkasının gelecekte açıklamasını istemeyi anlatır."
+      ],
+      "translation": "Keşke geçen hafta yuvalama alanının yerini açıklamamış olsaydım; açıkladığım için pişmanım."
+    },
+    {
+      "id": "hq049",
+      "unitId": "u05",
+      "sectionId": "u05-s04",
+      "topicId": "hb28",
+      "type": "meaning",
+      "format": "Yakın anlam",
+      "difficulty": "ileri",
+      "prompt": "Verilen cümleye anlamca en yakın seçeneği bulunuz.\nIt is essential that every sample be kept below five degrees until it is analysed.",
+      "options": [
+        "Keeping every sample below five degrees until analysis is a necessary requirement.",
+        "Only some samples need to be kept below five degrees before analysis.",
+        "Each sample should be warmed above five degrees immediately after collection.",
+        "Samples may be stored at any temperature provided that they are analysed quickly.",
+        "Every sample must be kept below five degrees only after it has been analysed."
+      ],
+      "answer": 0,
+      "explanation": "Be kept subjunctive passive yapısı numuneler için istenen zorunlu durumu anlatır. Yakın anlamda necessary requirement, every sample, below five degrees ve until analysis bilgileri birlikte korunmalıdır. Miktar ve zaman sınırını değiştiren seçenekler elenir.",
+      "optionExplanations": [
+        "Essential zorunluluğu, every sample kapsamı ve analiz zamanına kadar süren sıcaklık koşulu korunur.",
+        "Every yerine only some diyerek kapsamı daraltır; bütün numuneler koşulu korunmaz.",
+        "Below koşulunu above ile tersine çevirir ve analiz sınırı yerine toplama sonrası yeni zaman ekler.",
+        "Zorunlu sıcaklık sınırını kaldırıp her sıcaklığa izin verir; yeni bir hız şartı getirir.",
+        "Until analysis yerine only after analysis kullanarak zaman ilişkisini tersine çevirir."
+      ],
+      "translation": "Her numunenin analiz edilene kadar beş derecenin altında tutulması zorunludur."
+    },
+    {
+      "id": "hq050",
+      "unitId": "u06",
+      "sectionId": "u06-s05",
+      "topicId": "hb33",
+      "type": "meaning",
+      "format": "Yakın anlam",
+      "difficulty": "orta",
+      "prompt": "Verilen cümleye anlamca en yakın seçeneği bulunuz.\nThe researcher stopped to photograph the unusual rock formation.",
+      "options": [
+        "The researcher gave up photographing the unusual rock formation.",
+        "The researcher prevented someone else from photographing the unusual rock formation.",
+        "The researcher forgot to photograph the unusual rock formation.",
+        "The researcher interrupted another activity in order to take a photograph of the unusual rock formation.",
+        "The researcher had already photographed the unusual rock formation before the interruption."
+      ],
+      "answer": 3,
+      "explanation": "Stop + to-infinitive durmanın amacını bildirir. Stop + gerund ise aynı etkinliği bırakmaktır. Doğru seçenek fotoğraf çekmek amacıyla başka faaliyetin kesildiğini söyler; faaliyetin ne olduğunu özgün cümlede olmadığı için ayrıca uydurmaz.",
+      "optionExplanations": [
+        "Stop photographing anlamına gelir; fotoğraf çekmek için durmayı çekmeyi bırakmaya çevirir.",
+        "Araştırmacının kendi eylemi yerine başkasını engelleme anlamı ve yeni kişi ekler.",
+        "Amaç için durmak yerine görevi unutmayı söyler; gerçekleşen davranış değişir.",
+        "Stop to photograph başka etkinliğe ara verip fotoğraf çekmeyi amaçlamaktır; interrupted...in order to anlamı korur.",
+        "Fotoğrafın durmadan önce tamamlandığını söyler; özgün cümlede fotoğraf durmanın amacıdır."
+      ],
+      "translation": "Araştırmacı olağandışı kaya oluşumunun fotoğrafını çekmek için yaptığı işe ara verdi."
+    }
+  ]
+}

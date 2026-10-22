@@ -1,0 +1,2436 @@
+{
+  "capsules": [
+    {
+      "id": "hb37",
+      "unitId": "u07",
+      "title": "Sıfat mı zarf mı? Nitelenen öğeyi bul",
+      "lead": "Boşluğun çevirisinden önce cümledeki görevini belirle. Sıfat bir ismi veya öznenin durumunu; zarf ise eylemi, sıfatı, başka bir zarfı ya da bütün cümleyi niteler. Aynı kökten türeyen seçenekleri ayırırken bu görev farkı belirleyicidir.",
+      "formula": "adjective + noun | linking verb + adjective | action verb + adverb",
+      "signal": "Boşluğun bir ismi mi, eylemin yapılış biçimini mi nitelediğini sor.",
+      "rules": [
+        "Be, seem, remain ve become sonrasında öznenin niteliği anlatılıyorsa sıfat kullanılır; her fiilden sonra zarf gelmez.",
+        "Highly effective ve remarkably slowly örneklerinde zarf, sıfatı veya başka zarfı derecelendirir.",
+        "Fast, hard, late ve early hem sıfat hem zarf olabilir. Friendly ve costly ise -ly ile bitmelerine rağmen genellikle sıfattır."
+      ],
+      "examples": [
+        {
+          "en": "The proposed solution seems practical.",
+          "tr": "Önerilen çözüm uygulanabilir görünüyor.",
+          "note": "Practical, çözümü niteler; seems eyleminin yapılma biçimini anlatmaz."
+        },
+        {
+          "en": "The team examined the samples carefully.",
+          "tr": "Ekip numuneleri dikkatle inceledi.",
+          "note": "Carefully, examined eyleminin nasıl yapıldığını belirtir."
+        }
+      ],
+      "pitfalls": [
+        "Her -ly sözcüğünü otomatik zarf kabul etme; gerçek görevini incele.",
+        "Feel bad kişinin durumunu, feel badly ise farklı bir yapıda hissetme yetisini anlatabilir."
+      ],
+      "decision": "Nitelenen kelimeyi işaretle; uygun kelime türünü seçip oluşan cümlenin anlamını yeniden oku."
+    },
+    {
+      "id": "hb38",
+      "unitId": "u07",
+      "title": "-ing ve -ed: Etkiyi yaratan ve etkilenen",
+      "lead": "Bu sıfat çiftleri farklı bakış açıları sunar. -ing biçimi duyguyu veya etkiyi doğuran niteliği, -ed biçimi bu etkiden doğan durumu vurgular. Temel ayrım insan–eşya değil, neden–sonuç ilişkisidir.",
+      "formula": "a confusing explanation → confused listeners",
+      "signal": "Özne insan diye otomatik -ed seçme; bir konuşmacı da sıkıcı olabilir.",
+      "rules": [
+        "Boring/bored, convincing/convinced ve exhausting/exhausted çiftlerinde etkiyi kimin oluşturduğunu belirle.",
+        "An interested researcher araştırmacının ilgisini, an interesting researcher başkalarının ona duyduğu ilgiyi anlatır.",
+        "Interested in, satisfied with ve worried about gibi sıfatları edatlarıyla birlikte öğren."
+      ],
+      "examples": [
+        {
+          "en": "The conflicting figures were confusing.",
+          "tr": "Çelişen rakamlar kafa karıştırıcıydı.",
+          "note": "Karmaşayı doğuran rakamlardır."
+        },
+        {
+          "en": "Several participants were confused by the instructions.",
+          "tr": "Bazı katılımcıların yönergeler yüzünden kafası karıştı.",
+          "note": "Katılımcılar etkinin sonucunda oluşan durumdadır."
+        }
+      ],
+      "pitfalls": [
+        "An exhausted journey yerine an exhausting journey gerekir; yolculuk yorgunluk yaratır.",
+        "Was repaired gibi her -ed yapısı sıfat değildir; edilgen eylem de olabilir."
+      ],
+      "decision": "Cümleyi “X, Y üzerinde şu etkiyi yaratıyor” biçiminde düşün; sıfatı doğru katılımcıya bağla."
+    },
+    {
+      "id": "hb39",
+      "unitId": "u07",
+      "title": "Karşılaştırma: Aynı türden iki unsuru kıyasla",
+      "lead": "Karşılaştırma yalnız -er veya more seçmek değildir. Kıyaslanan öğelerin aynı türden olmasını ve derecenin hangi yöne gittiğini denetle. Sayısal ifadelerde veya eksiltili yapılarda anlamı ters çevirmek kolaydır.",
+      "formula": "more/less ... than | as ... as | the more ..., the less ...",
+      "signal": "Kıyaslanan ölçeği belirle: fiyat mı kalite mi, miktar mı hız mı?",
+      "rules": [
+        "Much, far, considerably ve slightly comparative derecesini değiştirir; very doğrudan comparative önünde kullanılmaz.",
+        "Twice as high as iki kat düzeyi anlatır; belirsiz sayısal yeniden anlatımlara dikkat et.",
+        "A university’s budget, another university ile değil, that of another university ile karşılaştırılır."
+      ],
+      "examples": [
+        {
+          "en": "The revised estimate is considerably lower than the original one.",
+          "tr": "Düzeltilmiş tahmin, ilk tahminden belirgin ölçüde düşüktür.",
+          "note": "Considerably farkın derecesini belirtir."
+        },
+        {
+          "en": "The more data we collect, the less certain the explanation becomes.",
+          "tr": "Ne kadar çok veri toplarsak açıklama o kadar az kesin görünür.",
+          "note": "İki değişim arasında paralel ilişki kurulur."
+        }
+      ],
+      "pitfalls": [
+        "Less expensive düşük fiyat söyler; düşük kaliteyi zorunlu kılmaz.",
+        "Than sonrasındaki that/those gereksiz değildir; kıyaslanan ismin yerini tutabilir."
+      ],
+      "decision": "İki öğeyi ve ölçeği yaz; seçeneğin bu bilgileri ve artış/azalış yönünü koruduğunu doğrula."
+    },
+    {
+      "id": "hb40",
+      "unitId": "u07",
+      "title": "Too ve enough: Gerekli eşik karşılanıyor mu?",
+      "lead": "Too yalnız “çok” değildir; ilgili işin yapılmasını engelleyen aşırılığı anlatır. Enough gereken eşiğin karşılandığını belirtir. Sonuç çıkarırken olumsuzluk, hedef eylem ve kişinin bakış açısı birlikte değerlendirilmelidir.",
+      "formula": "too + adjective + to V | adjective + enough + to V | enough + noun",
+      "signal": "Ana soru, hedef eylem için aşırılık mı yeterlilik mi bulunduğudur.",
+      "rules": [
+        "Too expensive to replace, değiştirme maliyetinin koşullara göre aşırı olduğunu anlatır; very expensive aynı sonucu zorunlu kılmaz.",
+        "Enough isimden önce, sıfat ve zarftan sonra gelir: enough evidence, clear enough, quickly enough.",
+        "For + kişi, yeterliliğin veya aşırılığın kimin açısından değerlendirildiğini gösterebilir."
+      ],
+      "examples": [
+        {
+          "en": "The signal was too weak for the receiver to detect.",
+          "tr": "Sinyal, alıcının algılayamayacağı kadar zayıftı.",
+          "note": "Sinyal algılama eşiğinin altında kalır."
+        },
+        {
+          "en": "The explanation is clear enough to follow without a diagram.",
+          "tr": "Açıklama şema olmadan takip edilebilecek kadar açıktır.",
+          "note": "Gereken anlaşılırlık sağlanmıştır."
+        }
+      ],
+      "pitfalls": [
+        "Too + isim yerine too much information veya too many variables gibi miktar yapıları gerekir.",
+        "Enough clear dizilişini clear enough ile düzelt; enough clarity ise isimli yapıdır."
+      ],
+      "decision": "Hedef eylemi bul; cümlenin aşırılık, yetersizlik veya yeterlilik anlattığını anlamdan belirle."
+    },
+    {
+      "id": "hb41",
+      "unitId": "u07",
+      "title": "So ve such: Derece ile sonucu bağla",
+      "lead": "So ve such güçlü derece anlatabilir; that cümleciği bu derecenin sonucunu açıklayabilir. İki kelimeyi yalnız Türkçedeki “öyle/çok” karşılığıyla eşitleme. Arkalarındaki öbeğin yapısını ve sonuç ilişkisinin mantığını birlikte incele.",
+      "formula": "so + adjective/adverb + that | such + (a/an) + adjective + noun + that",
+      "signal": "Boşluktan sonra tek sıfat mı yoksa sıfatla nitelenen bir isim öbeği mi geliyor?",
+      "rules": [
+        "Such a convincing argument tekil sayılabilir isim içerir; such convincing evidence içinde evidence sayılamadığı için a kullanılmaz.",
+        "So much/many/few/little + noun özel miktar dizilişidir: so many alternatives, so little time.",
+        "That sonuç bağlarken iki önerme arasında gerçek bir neden-sonuç ilişkisi aranır; biçimsel uygunluk tek başına yetmez."
+      ],
+      "examples": [
+        {
+          "en": "The sample was so small that no reliable comparison was possible.",
+          "tr": "Örneklem öylesine küçüktü ki güvenilir karşılaştırma yapılamadı.",
+          "note": "So doğrudan small sıfatını derecelendirir."
+        },
+        {
+          "en": "It was such a detailed report that the review took a week.",
+          "tr": "O kadar ayrıntılı bir rapordu ki inceleme bir hafta sürdü.",
+          "note": "Such tüm isim öbeğini kapsar."
+        }
+      ],
+      "pitfalls": [
+        "So detailed report standart diziliş değildir; such a detailed report kullanılır.",
+        "Little küçük anlamında sıfatsa such little houses mümkündür; az miktar anlamında so little gerekir."
+      ],
+      "decision": "İsim çekirdeğini ve sayılabilirliği belirle; sonuç cümlesinin bu dereceyi açıklayıp açıklamadığını denetle."
+    },
+    {
+      "id": "hb42",
+      "unitId": "u07",
+      "title": "Like, as ve such as: Benzerlik, görev, örnek",
+      "lead": "Like “neye benziyor?”, as “hangi görevde veya hangi biçimde?”, such as ise “hangi örnekler?” sorusunu karşılar. Akademik metinlerde bu fark, gerçek işlevi benzetmeden ve örneği genel iddiadan ayırmayı sağlar.",
+      "formula": "like + noun | as + role/clause | such as + examples",
+      "signal": "As a researcher gerçek rolü, like a researcher benzer yaklaşımı anlatabilir.",
+      "rules": [
+        "As bir cümleyi bağlayabilir: as the model predicts. Like standart resmî kullanımda her bağlamda aynı görevi üstlenmez.",
+        "Such as öncesinde sınıf, sonrasında o sınıfa giren örnekler bulunur; liste genellikle tüm üyeleri tüketmez.",
+        "The same as aynılık, similar to ise benzer fakat aynı olmayan öğeler arasında ilişki kurar."
+      ],
+      "examples": [
+        {
+          "en": "The instrument can be used as a portable recorder.",
+          "tr": "Alet taşınabilir kayıt cihazı olarak kullanılabilir.",
+          "note": "As gerçek kullanım görevini belirtir."
+        },
+        {
+          "en": "Materials such as cork and wool provide insulation.",
+          "tr": "Mantar ve yün gibi malzemeler yalıtım sağlar.",
+          "note": "İki malzeme daha geniş sınıfın örnekleridir."
+        }
+      ],
+      "pitfalls": [
+        "Gerçek görev belirtilirken as yerine like seçmek anlamı benzetmeye çevirebilir.",
+        "Örnek listesinden “yalnızca bunlar” sonucu çıkarma; metinde only gibi sınırlayıcı aranır."
+      ],
+      "decision": "İlişkiyi rol, benzerlik veya örnekleme diye adlandır; ardından gerekli tamamlayıcı yapısını denetle."
+    },
+    {
+      "id": "hb43",
+      "unitId": "u08",
+      "title": "Relative clause: Eksik özne mi, nesne mi?",
+      "lead": "İlgi cümleciği önündeki ismi tanımlar veya onun hakkında bilgi verir. Who/which/that seçmeden önce cümlecikte özne, nesne veya yer tamlayıcısının eksik olup olmadığını bul. Zamirin görevi bu eksikliği tamamlamaktır.",
+      "formula": "the scientist who discovered ... | the method which we tested ...",
+      "signal": "Doğrudan fiil özne eksikliğini; özne + fiil dizilişi nesne eksikliğini gösterebilir.",
+      "rules": [
+        "Özne görevindeki relative pronoun atılamaz; nesne görevindeki zamir tanımlayıcı yapıda atılabilir.",
+        "Who insanları, which nesne ve kavramları niteler. That tanımlayıcı cümleciklerde her iki gruba da gidebilir.",
+        "Relative pronoun nesne görevindeyse cümlecikte ikinci bir it/them kullanmak gereksiz tekrardır."
+      ],
+      "examples": [
+        {
+          "en": "The volunteers who completed both sessions were included.",
+          "tr": "Her iki oturumu tamamlayan gönüllüler dahil edildi.",
+          "note": "Who, completed fiilinin öznesidir."
+        },
+        {
+          "en": "The software that the laboratory purchased requires training.",
+          "tr": "Laboratuvarın satın aldığı yazılım eğitim gerektiriyor.",
+          "note": "The laboratory özne, that nesne görevindedir."
+        }
+      ],
+      "pitfalls": [
+        "The device which we tested it yapısında it fazladır; which zaten nesnedir.",
+        "Öndeki ismin insan olması tek başına whose gerektirmez; sahiplik ayrıca bulunmalıdır."
+      ],
+      "decision": "Cümleciği bağımsız cümleye aç; eksik öğeyi bulup zamirin görevini buna göre belirle."
+    },
+    {
+      "id": "hb44",
+      "unitId": "u08",
+      "title": "Whose: Sahiplik yalnız insanlara ait değildir",
+      "lead": "Whose, önceki isim ile ardından gelen isim arasında sahiplik veya parça-bütün bağı kurar. Yalnız “kimin” karşılığına dayanarak insanlara özgü sanmak hatadır. Kurumlar, ülkeler, sistemler ve nesneler de whose ile nitelenebilir.",
+      "formula": "noun + whose + noun + verb ...",
+      "signal": "Sonraki isim, öncekinin özelliği veya parçası mı? “X’in Y’si” ilişkisini ara.",
+      "rules": [
+        "Whose ardından ayrıca article gelmez: whose findings, whose main entrance; whose the findings kullanılmaz.",
+        "Whose + noun öbeği cümlecikte özne de nesne de olabilir; gerçek görevi fiili takip ederek belirle.",
+        "Of which nesnelerle alternatif oluşturabilir, fakat sözcük dizilişi değişir: the roof of which."
+      ],
+      "examples": [
+        {
+          "en": "The institution whose records were damaged requested assistance.",
+          "tr": "Kayıtları zarar gören kurum yardım istedi.",
+          "note": "Whose records kuruma ait kayıtları anlatır."
+        },
+        {
+          "en": "They interviewed an engineer whose proposal they had rejected.",
+          "tr": "Önerisini reddettikleri bir mühendisle görüştüler.",
+          "note": "Whose proposal, rejected fiilinin nesnesidir."
+        }
+      ],
+      "pitfalls": [
+        "Whose ile who’s yazımını karıştırma; who’s, who is veya who has kısaltmasıdır.",
+        "Whom sahiplik bağı kurmaz; kişi için nesne görevinde kullanılır."
+      ],
+      "decision": "Sahiplik bağını doğrula; whose sonrasındaki isim öbeğini tek parça kabul edip cümlenin kalanını oku."
+    },
+    {
+      "id": "hb45",
+      "unitId": "u08",
+      "title": "Where/when ile edat + which ayrımı",
+      "lead": "Yer isminden sonra her zaman where gelmez. Seçim, cümleciğin o yeri hangi görevde kullandığına bağlıdır: mekânda bulunmak ile mekânı ziyaret etmek aynı yapı değildir. Zaman bildiren isimlerde de görev mantığı değişmez.",
+      "formula": "a region where/in which people live | a region which people visit",
+      "signal": "Live in the region ve visit the region temel kalıplarını geri kur.",
+      "rules": [
+        "Where çoğunlukla in/at which anlamını karşılar; hareket ilişkilerindeki bütün edatları mekanik olarak where ile eşitleme.",
+        "When zaman zarfı görevindedir; the period we studied yapısında ise period fiilin nesnesi olabilir.",
+        "Edat öne alındığında resmî yapıda which/whom kullanılır; in that veya to who aynı yapının standart karşılığı değildir."
+      ],
+      "examples": [
+        {
+          "en": "The archive in which the letters are kept is closed.",
+          "tr": "Mektupların saklandığı arşiv kapalıdır.",
+          "note": "Letters are kept in the archive temelinden in which gelir."
+        },
+        {
+          "en": "The archive which the historian visited is closed.",
+          "tr": "Tarihçinin ziyaret ettiği arşiv kapalıdır.",
+          "note": "Visit doğrudan nesne aldığı için where gerekmez."
+        }
+      ],
+      "pitfalls": [
+        "Place gördüğün her boşlukta where seçme; eksik öğe nesne olabilir.",
+        "İsmin türünü belirlemek, cümleciğin eksik öğesini denetlemenin yerini tutmaz."
+      ],
+      "decision": "Bağımsız kısa cümleyi kur; gerekli edatı geri getirip where/when veya which arasında seçim yap."
+    },
+    {
+      "id": "hb46",
+      "unitId": "u08",
+      "title": "Virgüllü relative ve bütün cümleye giden which",
+      "lead": "Non-defining relative, hangi ismin kastedildiğini seçmek için zorunlu olmayan ek bilgiyi verir. Bazen which tek bir isme değil, önceki cümlenin tamamındaki olaya gönderme yapar. Bu fark hem çeviriyi hem çıkarımı değiştirir.",
+      "formula": "noun, who/which ... | complete clause, which + comment",
+      "signal": "Which sonrasındaki yorum önceki nesneye mi, yaşanan olayın tamamına mı uyuyor?",
+      "rules": [
+        "Non-defining cümlecikte that kullanılmaz ve relative pronoun atılmaz; virgül yapısal anlam taşır.",
+        "The sensors, which were replaced, tüm ilgili sensörleri; the sensors which were replaced, değiştirilen alt grubu işaret edebilir.",
+        "The trial was delayed, which increased costs yapısında maliyeti artıran, trial ismi değil gecikme olayıdır."
+      ],
+      "examples": [
+        {
+          "en": "The library, which reopened in May, offers evening sessions.",
+          "tr": "Mayısta yeniden açılan kütüphane akşam oturumları sunuyor.",
+          "note": "Virgüllü bölüm ek açıklamadır."
+        },
+        {
+          "en": "The equipment arrived late, which disrupted the schedule.",
+          "tr": "Ekipman geç geldi; bu da programı aksattı.",
+          "note": "Which geç gelme olayına döner."
+        }
+      ],
+      "pitfalls": [
+        "Virgüllü yapıda that, anlamı uygun görünse bile standart relative kullanımına uymaz.",
+        "Which için en yakın ismi otomatik gönderim noktası seçme; yorumun mantığını izle."
+      ],
+      "decision": "Ek bilgiyi çıkarıp ana cümleyi oku; sonra açıklamanın tek ismi mi yoksa bütün olayı mı nitelediğini belirle."
+    },
+    {
+      "id": "hb47",
+      "unitId": "u08",
+      "title": "Reduced relative: Etken -ing, edilgen V3",
+      "lead": "İlgi cümleciği zamir ve yardımcı fiil olmadan kısalabilir. Ortaya çıkan biçim, nitelenen ismin eylemi yapmasına veya eylemden etkilenmesine bağlıdır. Yalnız zaman kelimesine bakıp -ing/V3 seçmek güvenilir değildir.",
+      "formula": "people working ... = people who work ... | documents submitted ... = documents that were submitted ...",
+      "signal": "Nitelenen isim eylemi yapan mı, eylemin nesnesi mi?",
+      "rules": [
+        "The researchers conducting the survey etken; the survey conducted by researchers edilgen anlam taşır.",
+        "V3 tek başına geçmiş zaman işareti değildir; proposals submitted tomorrow gelecekteki bir görevi niteleyebilir.",
+        "The first/last/only + noun + to V sık görülür; edilgenlik gerekiyorsa to be V3 kullanılır."
+      ],
+      "examples": [
+        {
+          "en": "Applications received after Friday will not be considered.",
+          "tr": "Cumadan sonra alınan başvurular değerlendirilmeyecek.",
+          "note": "Başvurular alma eylemini yapmaz; received edilgen nitelemedir."
+        },
+        {
+          "en": "The first team to detect the fault reported it immediately.",
+          "tr": "Arızayı ilk tespit eden ekip onu hemen bildirdi.",
+          "note": "To detect, first ile ilk olma ilişkisini kurar."
+        }
+      ],
+      "pitfalls": [
+        "The device using in the experiment yerine the device used in the experiment gerekir.",
+        "Her nesne relative cümleciği aynı kuralla kısaltılamaz; özne ve anlam ilişkisini koru."
+      ],
+      "decision": "Kısaltmayı tam relative cümleciğine aç; etken/edilgen anlamını doğrulayıp yeniden kısalt."
+    },
+    {
+      "id": "hb48",
+      "unitId": "u08",
+      "title": "Cleft ve what: Odak değişir, temel bilgi korunur",
+      "lead": "Cleft yapısı cümlenin bir öğesini odak noktasına taşır. Yakın anlam ve çeviride vurgulanan öğeyi ve temel önermeyi birlikte korumak gerekir. What ile başlayan yapı ise çoğu zaman “... şey” anlamı taşıyan bir isim cümleciğidir.",
+      "formula": "It is/was + focus + that ... | What + clause + be + focus",
+      "signal": "It was ile that arasındaki kişi, zaman, yer veya neden vurgunun odağıdır.",
+      "rules": [
+        "It was the design that failed, başarısız olanın tasarım olduğunu vurgular; it belirli bir nesneye gönderme yapmak zorunda değildir.",
+        "What we need is reliable evidence yapısında what we need bütün olarak öznedir.",
+        "What bazı bağlamlarda the thing that ile karşılanabilir; önüne gereksiz bir isim eklemek yapıyı bozabilir."
+      ],
+      "examples": [
+        {
+          "en": "It was the lack of training that caused the error.",
+          "tr": "Hataya yol açan, eğitim eksikliğiydi.",
+          "note": "Vurgu neden olan unsur üzerindedir."
+        },
+        {
+          "en": "What the report questions is the reliability of the measurement.",
+          "tr": "Raporun sorguladığı şey ölçümün güvenilirliğidir.",
+          "note": "What-clause sorgulanan öğeyi öne çıkarır."
+        }
+      ],
+      "pitfalls": [
+        "What kendi içinde isim anlamı taşır; that ile her bağlamda değiştirilemez.",
+        "Vurgu yapısından cümlede bulunmayan yeni kesinlik veya neden-sonuç iddiası çıkarma."
+      ],
+      "decision": "Önce düz cümleyi yaz; odaklanan öğeyi bulup yeniden anlatımda bu odağın ve temel bilginin korunduğunu denetle."
+    },
+    {
+      "id": "hb49",
+      "unitId": "u09",
+      "title": "Sayılamayan isimler: Kavramla birimi ayır",
+      "lead": "Bilgi, tavsiye, ekipman ve araştırma İngilizcede Türkçe sezgilerimizden farklı sayılabilirlik davranışı gösterebilir. İsmin yalnız yazımına değil, hangi anlamda kullanıldığına ve yanındaki miktar ifadesine bak. Birimi saymakla kavramı anlatmak farklı yapılardır.",
+      "formula": "much/little + uncountable | many/few + plural countable | a piece/item of + uncountable",
+      "signal": "Information, advice, equipment ve evidence genel kullanımlarında sayılamazdır.",
+      "rules": [
+        "A piece of advice veya two items of equipment ile birimler sayılabilir.",
+        "Research genel faaliyetken sayılamazdır; studies ayrı çalışmaların sayılabilir karşılığıdır.",
+        "Paper, experience, work ve room anlam değiştirince sayılabilirlik değiştirebilir: a paper makale, paper kâğıt maddesidir."
+      ],
+      "examples": [
+        {
+          "en": "The equipment is expensive, but only two items need replacing.",
+          "tr": "Ekipman pahalı, fakat yalnız iki parçanın değiştirilmesi gerekiyor.",
+          "note": "Equipment ile is, items ile çoğul anlatım kullanılır."
+        },
+        {
+          "en": "The adviser offered a useful piece of information.",
+          "tr": "Danışman yararlı bir bilgi verdi.",
+          "note": "A, information değil piece birimini sayar."
+        }
+      ],
+      "pitfalls": [
+        "An information veya many advice genel standart kullanıma uymaz.",
+        "Little/few ikisi de azlık söyler ama farklı isim türleriyle birleşir."
+      ],
+      "decision": "Bu bağlamda birimlerin mi kavramın mı sayıldığını bul; miktar ifadesiyle yüklemi birlikte kontrol et."
+    },
+    {
+      "id": "hb50",
+      "unitId": "u09",
+      "title": "A/an, the, sıfır article: Referansın sınırını çiz",
+      "lead": "Article seçimi yalnız ilk kez söylenme kuralına indirgenemez. Okur kastedilen varlığı belirleyebiliyor mu? İsim genel bir sınıfı mı, sınıfın tek örneğini mi anlatıyor? Sayılabilirlik ve bu referans farkı birlikte değerlendirilmelidir.",
+      "formula": "a/an + singular example | the + identifiable reference | Ø + general plural/uncountable",
+      "signal": "A/an için ilk harf değil ilk ses önemlidir: a university, an hour.",
+      "rules": [
+        "Tekil sayılabilir isim çoğunlukla belirleyici ister; bir örnek tanıtılırken a/an, belirlenebilir referansta the kullanılır.",
+        "Genel çoğul ve sayılamayan isimler sıfır article alabilir: Libraries support learning; Water is essential.",
+        "Bir niteleme ismi otomatik the yapmaz: a study published yesterday hâlâ tanıtılan bir örnek olabilir."
+      ],
+      "examples": [
+        {
+          "en": "A researcher proposed a model; the model was later revised.",
+          "tr": "Bir araştırmacı bir model önerdi; model daha sonra düzeltildi.",
+          "note": "İkinci model artık belirlenebilir aynı referanstır."
+        },
+        {
+          "en": "The water in this tank must be tested.",
+          "tr": "Bu depodaki su test edilmelidir.",
+          "note": "Genel su değil, belirli depodaki su anlatılır."
+        }
+      ],
+      "pitfalls": [
+        "İlk kullanım her zaman a/an değildir; bağlamda tek referanslar the alabilir.",
+        "A European study ifadesinde European /y/ sesiyle başlar."
+      ],
+      "decision": "Sayılabilirliği ve sayıyı belirle; ardından anlatımın genel mi, örnekleyici mi, belirli mi olduğunu sor."
+    },
+    {
+      "id": "hb51",
+      "unitId": "u09",
+      "title": "Few/little ve a few/a little: Azlığın bakış açısı",
+      "lead": "Bu ifadeler miktarla birlikte konuşanın bakışını taşır. Few/little çoğu bağlamda yetersizliği, a few/a little az da olsa mevcut miktarı vurgular. Yakın anlam sorusunda a sözcüğünü kaybetmek yargının yönünü değiştirebilir.",
+      "formula": "few/a few + plural countable | little/a little + uncountable",
+      "signal": "“Az ama var” ile “çok az/yetersiz” değerlendirmelerini ayır.",
+      "rules": [
+        "Few participants attended düşük katılımı; a few participants attended bazı kişilerin geldiğini öne çıkarır.",
+        "Only a few sayıyı sınırlar; quite a few ise epeyce, beklenenden fazla anlamı taşıyabilir.",
+        "Less + uncountable, fewer + plural countable sınav için güvenli temel ayrımdır; ölçü ve sayı bağlamlarında kullanım daha esnek olabilir."
+      ],
+      "examples": [
+        {
+          "en": "There is little evidence to support the claim.",
+          "tr": "İddiayı destekleyen çok az kanıt var.",
+          "note": "Kanıtın yetersizliğine dönük değerlendirme bulunur."
+        },
+        {
+          "en": "We still have a little time to check the figures.",
+          "tr": "Rakamları kontrol etmek için hâlâ biraz vaktimiz var.",
+          "note": "Az da olsa kullanılabilir zaman vurgulanır."
+        }
+      ],
+      "pitfalls": [
+        "Little evidence, no evidence ile aynı değildir; azlık yokluğu zorunlu kılmaz.",
+        "A few ile a little arasında isim türü farkı da vardır."
+      ],
+      "decision": "Önce ismi sınıflandır; sonra anlatımın yetersizliğe mi mevcut küçük miktara mı odaklandığını koru."
+    },
+    {
+      "id": "hb52",
+      "unitId": "u09",
+      "title": "Zamir gönderimi: This/these/it/they neye dönüyor?",
+      "lead": "Zamirler tekrarları azaltırken cümleler arasında bağ kurar. Doğru gönderim için yakınlık tek başına yetmez; sayı, anlam ve söylem işlevi uyuşmalıdır. This bazen bir isme değil önceki olay veya yöntemin tamamına dönebilir.",
+      "formula": "singular → it/this | plural → they/these | whole idea → this/that",
+      "signal": "Zamirden sonraki yüklem, hangi aday gönderimin mantıken mümkün olduğunu sınar.",
+      "rules": [
+        "They otomatik olarak en yakın çoğul isme gitmez; eylemi yapabilecek varlığı ve paragrafın odağını denetle.",
+        "This approach ve these findings gibi isimli gönderimler önceki yöntemi veya sonuçları özetleyerek bağ kurar.",
+        "Reflexive pronouns özneyle özdeşlik veya vurgu gösterebilir: researchers checked the results themselves."
+      ],
+      "examples": [
+        {
+          "en": "The team compared two models. These produced similar predictions.",
+          "tr": "Ekip iki modeli karşılaştırdı. Bunlar benzer tahminler üretti.",
+          "note": "These çoğul models sözcüğüne döner."
+        },
+        {
+          "en": "Participants received no reminder. This may explain the low response rate.",
+          "tr": "Katılımcılara hatırlatma gönderilmedi. Bu, düşük yanıt oranını açıklayabilir.",
+          "note": "This bütün olayı özetler."
+        }
+      ],
+      "pitfalls": [
+        "Tekil olay özeti için these kullanmak sayı ilişkisini bozar.",
+        "Him/her ile himself/herself seçiminde cümledeki özne ilişkisini incele."
+      ],
+      "decision": "Aday gönderimi zamirin yerine koy; sayı, anlam ve paragraf akışını birlikte denetle."
+    },
+    {
+      "id": "hb53",
+      "unitId": "u09",
+      "title": "Özne–yüklem uyumu: Aradaki öbekleri ayıkla",
+      "lead": "Uzun özne öbeğinde fiile en yakın isim gerçek özne olmayabilir. Edat öbeklerini, relative cümleciklerini ve ara açıklamaları geçici olarak çıkarıp öznenin çekirdeğini bul. Uyum yakınlıktan çok bu çekirdeğe bağlıdır.",
+      "formula": "the number of + plural noun + singular verb | a number of + plural noun + plural verb",
+      "signal": "Of sonrasındaki çoğul isim ana fiilin sayısını her zaman belirlemez.",
+      "rules": [
+        "The quality of the measurements is ... yapısında çekirdek quality tekildir.",
+        "Each/every + singular noun tekil fiil ister; all/both + plural noun çoğul fiille birleşir.",
+        "A number of çoğul öğelerden oluşan grubu; the number of sayının kendisini konu edinir."
+      ],
+      "examples": [
+        {
+          "en": "The number of available places has increased.",
+          "tr": "Mevcut kontenjanların sayısı arttı.",
+          "note": "Artan özne number olduğu için has gelir."
+        },
+        {
+          "en": "A number of measurements were excluded.",
+          "tr": "Bir dizi ölçüm dışlandı.",
+          "note": "A number of measurements çoğul gruptur."
+        }
+      ],
+      "pitfalls": [
+        "Together with/as well as ara ifadelerini and ile eşitleyip özneyi otomatik çoğullaştırma.",
+        "Collective nouns bağlama ve İngilizce çeşidine göre farklı davranabilir; tartışmalı kullanımları katı tek kurala indirgeme."
+      ],
+      "decision": "Çekirdek özneyi bul, ek açıklamaları paranteze koy; yüklemi kalan temel cümle üzerinden seç."
+    },
+    {
+      "id": "hb54",
+      "unitId": "u09",
+      "title": "Other ailesi: Başka bir örnek mi kalan öğe mi?",
+      "lead": "Another, other, the other ve others, sayı ile grubun belirli olup olmamasının farklı birleşimlerini anlatır. Diyalogda ikinci seçenekten mi, yeni bir alternatiften mi, bilinen grubun kalanından mı söz edildiğini bu kelimeler belirler.",
+      "formula": "another + singular noun | other + plural noun | the other one | others/the others",
+      "signal": "Grup iki öğeden mi oluşuyor, yoksa açık uçlu mu? The, belirli kalan öğeyi işaret eder.",
+      "rules": [
+        "Another çoğunlukla farklı veya ek tek örnektir: another method. Another two days gibi sayı öbeği kullanımları da vardır.",
+        "Other isimden önce; others ismin yerine tek başına kullanılabilir. Others ardından yeniden isim almaz.",
+        "The other iki öğeden kalan biri; the others belirli grubun geriye kalanları anlamına gelebilir."
+      ],
+      "examples": [
+        {
+          "en": "We tested two batteries; one failed, but the other worked.",
+          "tr": "İki pili test ettik; biri bozuldu, diğeri çalıştı.",
+          "note": "Sınırları belli iki öğenin kalan biri anlatılır."
+        },
+        {
+          "en": "Some volunteers arrived early; others joined later.",
+          "tr": "Bazı gönüllüler erken geldi; başkaları sonra katıldı.",
+          "note": "Others, volunteers ismini tekrar etmez."
+        }
+      ],
+      "pitfalls": [
+        "Others participants yerine other participants veya tek başına others gerekir.",
+        "Another ile the other aynı anlam değildir; ikincisi bağlamda belirlenebilir kalan öğeye gider."
+      ],
+      "decision": "Grubun sınırını ve kalan öğe sayısını belirle; kelimenin isimle mi tek başına mı kullanılacağını denetle."
+    },
+    {
+      "id": "hb55",
+      "unitId": "u10",
+      "title": "Although, despite ve nevertheless: Zıtlığın yapısı",
+      "lead": "Beklenmedik karşıtlıkta bir durum gerçekleşir, buna rağmen beklenen sonuç ortaya çıkmaz. Although ve despite aynı mantıksal ilişkiye yaklaşsa da farklı tamamlayıcılar alır. Nevertheless ise bağımsız cümleler arasındaki geçişi yönetir.",
+      "formula": "although + clause | despite/in spite of + noun/V-ing | sentence; nevertheless, sentence",
+      "signal": "Boşluk sonrasındaki parçada özne ve çekimli yüklem var mı?",
+      "rules": [
+        "Although/even though tam cümlecik; despite the delay ve despite arriving late isim veya gerund öbeği alır.",
+        "Despite the fact that + clause mümkündür; despite of standart değildir.",
+        "However/nevertheless, although gibi yan cümle başlatmaz; noktalama ve cümle sınırları ayrıca denetlenir."
+      ],
+      "examples": [
+        {
+          "en": "Although the device was inexpensive, it performed reliably.",
+          "tr": "Cihaz ucuz olmasına rağmen güvenilir çalıştı.",
+          "note": "Ucuzluğa rağmen olumlu performans beklenmedik karşıtlıktır."
+        },
+        {
+          "en": "Despite limited funding, the survey was completed.",
+          "tr": "Sınırlı finansmana rağmen anket tamamlandı.",
+          "note": "Despite ardından isim öbeği gelir."
+        }
+      ],
+      "pitfalls": [
+        "Although ... but ... biçiminde ana yapıda aynı karşıtlığı iki bağlaçla tekrar etme.",
+        "Despite yerine because of kullanıldığında ilişki neden-sonuca döner; yalnız Türkçe akıcılığa güvenme."
+      ],
+      "decision": "Önce karşıt beklentiyi kur; ardından tamamlayıcıyı cümle/isim diye sınıflandır ve noktalamayı denetle."
+    },
+    {
+      "id": "hb56",
+      "unitId": "u10",
+      "title": "Because, therefore ve thereby: Neden ile sonucu ayır",
+      "lead": "İki cümle aynı konuyu anlatsa bile neden-sonuç bağı ters kurulabilir. Because neden cümlesini, therefore önceki bilgiden çıkarılan sonucu sunar. Thereby ise önceki eylemin hangi yolla bir sonuç doğurduğunu bağlayabilir.",
+      "formula": "because + reason clause | therefore/consequently + result | thereby + V-ing",
+      "signal": "Neden sorusunun cevabı hangi tarafta? Bunun sonucunda ne oldu?",
+      "rules": [
+        "Because of/due to + noun ile because + clause yapılarını ayır; the fact that isim öbeği köprüsü kurabilir.",
+        "Therefore ve consequently çoğunlukla cümleler arası geçiştir; bağımsız iki cümleyi tek virgülle gelişigüzel birleştirmez.",
+        "Thereby reducing costs yapısında sonraki -ing eyleminin mantıksal öznesi önceki eylemle uyumlu olmalıdır."
+      ],
+      "examples": [
+        {
+          "en": "The roads were flooded; therefore, deliveries were postponed.",
+          "tr": "Yollar su altında kaldı; bu nedenle teslimatlar ertelendi.",
+          "note": "İlk cümle neden, ikinci cümle sonuçtur."
+        },
+        {
+          "en": "The team automated the checks, thereby reducing processing time.",
+          "tr": "Ekip kontrolleri otomatikleştirerek işlem süresini azalttı.",
+          "note": "Süredeki azalma otomatikleştirmenin sonucudur."
+        }
+      ],
+      "pitfalls": [
+        "Since her zaman -den beri değildir; neden anlamı cümle ilişkisinden anlaşılır.",
+        "Therefore sonuç, however karşıtlık kurar; ikisi de geçiş sözü diye eşitlenmez."
+      ],
+      "decision": "İki önerme arasına neden-sonuç okunu çiz; sonra bağlacın yapısını ve okun yönünü birlikte doğrula."
+    },
+    {
+      "id": "hb57",
+      "unitId": "u10",
+      "title": "On the one hand / on the other hand: İki taraflı değerlendirme",
+      "lead": "Bu çift, bir konunun iki farklı yönünü tartar: avantaj ile sınırlılık veya iki ayrı kaygı. İki önerme birlikte doğru olabilir. On the contrary ise önceki iddiayı düzeltir veya tersini savunur; aynı söylem işlevi değildir.",
+      "formula": "On the one hand, advantage. On the other hand, limitation.",
+      "signal": "İkinci cümle ilkini yalanlıyor mu, yoksa başka bir boyut mu ekliyor?",
+      "rules": [
+        "On the other hand ilk parçada on the one hand olmadan da kullanılabilir; gerekli olan iki yönlü düşünce ilişkisidir.",
+        "In contrast iki unsurun farkını; conversely ilişkinin ters yöndeki karşılığını vurgulayabilir.",
+        "İlk avantajdan yazarın koşulsuz onay verdiği sonucunu çıkarma; ikinci taraf sınır veya çekince getirebilir."
+      ],
+      "examples": [
+        {
+          "en": "On the one hand, remote monitoring saves travel time. On the other hand, it may miss local details.",
+          "tr": "Bir yandan uzaktan izleme yolculuk süresini azaltır. Öte yandan yerel ayrıntıları kaçırabilir.",
+          "note": "İki önerme birlikte doğru olabilir."
+        },
+        {
+          "en": "The method is not cheap. On the contrary, it requires a substantial investment.",
+          "tr": "Yöntem ucuz değildir. Tam tersine, ciddi yatırım gerektirir.",
+          "note": "İkinci cümle ucuzluk iddiasının tersini güçlendirir."
+        }
+      ],
+      "pitfalls": [
+        "On the contrary için yalnız olumsuz kelime arama; iddianın reddi veya düzeltilmesi gerekir.",
+        "Furthermore ekleme yapar; iki taraflı karşıt değerlendirme ilişkisini her yerde karşılamaz."
+      ],
+      "decision": "İki cümlenin birlikte doğru olabilmesini denetle: iki geçerli yön için other hand; önceki iddianın tersi için contrary düşün."
+    },
+    {
+      "id": "hb58",
+      "unitId": "u10",
+      "title": "Amaç, koşul ve önlem: To, provided that, in case",
+      "lead": "Bir şeyin gerçekleşmesini amaçlamak, bir şart koymak ve ihtimale karşı önlem almak farklı ilişkilerdir. Türkçede yakın görünen için/eğer/olursa diye anlamlarını İngilizcede tek bağlaçla karşılayamazsın. Eylemlerin zamanlamasını da izle.",
+      "formula": "in order to + V | so that + clause | provided that + condition | in case + possibility",
+      "signal": "Eylem bir sonuç elde etmek için mi, yalnız şart gerçekleşirse mi, olasılığa karşı mı yapılıyor?",
+      "rules": [
+        "In order to yalın fiil ister; so that öznesi olan cümlecik ve can/could gibi modal alabilir.",
+        "Provided that ve as long as gerekli koşulu koyar; önlem anlamını kendiliğinden kurmaz.",
+        "Take a copy in case the file is lost, kayıp gerçekleşmeden alınan önlemdir; if aynı zamanlamayı zorunlu kılmaz."
+      ],
+      "examples": [
+        {
+          "en": "We stored a second copy in case the server failed.",
+          "tr": "Sunucu arızalanırsa diye ikinci kopya sakladık.",
+          "note": "Kopya önceden, arıza ihtimaline karşı saklandı."
+        },
+        {
+          "en": "Access is permitted provided that users follow the safety rules.",
+          "tr": "Kurallara uyulması koşuluyla erişime izin verilir.",
+          "note": "İzin gerekli şarta bağlıdır."
+        }
+      ],
+      "pitfalls": [
+        "In case of isim, in case cümlecik alır; tamamlayıcıları karıştırma.",
+        "So that amaç, so ... that ise dereceden doğan sonuç anlatabilir."
+      ],
+      "decision": "İlişkiyi amaç, koşul veya önlem diye etiketle; ardından isim, yalın fiil veya cümlecik gereğini denetle."
+    },
+    {
+      "id": "hb59",
+      "unitId": "u10",
+      "title": "Until, by the time ve once: Zaman sınırını oku",
+      "lead": "Zaman bağlaçları olayın ne kadar sürdüğünü veya başka olayla hangi sırada gerçekleştiğini gösterir. Until bir durumu sınıra kadar sürdürür. By the time, o sınıra gelindiğinde hangi durumun oluştuğunu ya da tamamlanmanın yerini anlatabilir.",
+      "formula": "continue until + clause | by the time + clause | once + clause",
+      "signal": "Ana fiil beklemek gibi süreklilik mi, bitirmek gibi tamamlanma mı anlatıyor?",
+      "rules": [
+        "Wait until the results arrive beklemeyi sınırlar; finish by Friday işin son teslim sınırını belirtir.",
+        "Gelecek anlamlı zaman cümleciğinde will genellikle kullanılmaz: once the analysis is complete, we will publish it.",
+        "By the time ile perfect seçimini zaman çizgisi belirler; tek bağlaca otomatik zaman eşleme."
+      ],
+      "examples": [
+        {
+          "en": "The laboratory will remain closed until the inspection is complete.",
+          "tr": "Laboratuvar denetim bitene kadar kapalı kalacak.",
+          "note": "Kapalılık belirli sınıra kadar sürer."
+        },
+        {
+          "en": "By the time we arrived, the discussion had ended.",
+          "tr": "Biz vardığımızda tartışma bitmişti.",
+          "note": "Bitme, varıştan önce gerçekleşmiştir."
+        }
+      ],
+      "pitfalls": [
+        "Until ile by her yerde değiştirilemez; fiilin süreklilik ve tamamlanma özelliği önemlidir.",
+        "Once bazen bir kez zarfıdır; bağlaç olan olunca anlamını yapıdan ayır."
+      ],
+      "decision": "İki olayı zaman çizgisine yerleştir; süren durumu, sınırı ve tamamlanmanın o sınıra göre yerini belirle."
+    },
+    {
+      "id": "hb60",
+      "unitId": "u10",
+      "title": "Not only ve olumsuz başlangıçlarda devriklik",
+      "lead": "Olumsuz veya sınırlayıcı bir zarf öbeği cümle başına alındığında yardımcı fiil öznenin önüne geçebilir. Fakat not only yalnız iki özne öğesini bağlıyorsa aynı devriklik uygulanmaz. Başlangıç ifadesinin kapsamını görmek, kelimeyi tanımak kadar önemlidir.",
+      "formula": "Not only + auxiliary + subject + verb | Not only X but also Y + verb",
+      "signal": "Not only bütün bir önermeyi mi, yalnız özne öğelerini mi bağlıyor?",
+      "rules": [
+        "Not only did the policy reduce costs, but it also improved access yapısında ilk önerme devrik, ikinci düz kurulur.",
+        "Not only researchers but also teachers attended birleşik özne içerir; attended önüne did gelmez.",
+        "Never, rarely, under no circumstances ve only after gibi başlangıçların kapsamını incele; only the manager gibi özne odağı farklıdır."
+      ],
+      "examples": [
+        {
+          "en": "Rarely do the two models produce identical estimates.",
+          "tr": "İki model nadiren tamamen aynı tahminleri üretir.",
+          "note": "Rarely başta olduğu için do öznenin önündedir."
+        },
+        {
+          "en": "Not only the director but also the technicians were consulted.",
+          "tr": "Yalnız müdüre değil teknisyenlere de danışıldı.",
+          "note": "Not only özne öğelerini bağlar."
+        }
+      ],
+      "pitfalls": [
+        "Did + V1 gerekir; did reduced biçiminde geçmiş zamanı iki kez işaretleme.",
+        "But ile başlayan ikinci önermeyi de otomatik devrik yapma."
+      ],
+      "decision": "İfadenin kapsamını belirle; bütün önerme etkileniyorsa yardımcı fiili öne al, yalnız özne etkileniyorsa düz dizilişi koru."
+    },
+    {
+      "id": "hb61",
+      "unitId": "u11",
+      "title": "At/on/in: Ölçek ve yerleşik kalıp",
+      "lead": "Zaman ve yer edatlarında küçükten büyüğe ölçek yararlı bir başlangıçtır; bütün kullanımları tek şemaya sığdırmaz. Günler, tarihler ve mekânın nasıl düşünüldüğü doğru edatı belirler. Türkçedeki aynı -de eki farklı İngilizce ilişkileri karşılayabilir.",
+      "formula": "at a time/point | on a day/date/surface | in a period/area",
+      "signal": "On Monday morning ile in the morning farkında belirli gün öbeğinin tamamını oku.",
+      "rules": [
+        "At 8:30, on 12 May ve in October temel örneklerdir; at night gibi kalıpları ayrıca öğren.",
+        "At faaliyet noktası, in alanın içi, on yüzey ilişkisi sunabilir: at the station, in the building, on the wall.",
+        "Last, next, this ve every ile başlayan birçok zaman öbeği edatsızdır: next week, every morning."
+      ],
+      "examples": [
+        {
+          "en": "The workshop begins at nine on Thursday morning.",
+          "tr": "Atölye perşembe sabahı saat dokuzda başlıyor.",
+          "note": "Saat için at, belirli günün sabahı için on kullanılır."
+        },
+        {
+          "en": "The notice is on the door, but the files are in the cabinet.",
+          "tr": "Duyuru kapının üzerinde, dosyalar dolabın içindedir.",
+          "note": "Yüzey ile iç alan ayrılır."
+        }
+      ],
+      "pitfalls": [
+        "In next year yerine next year kullan; her zaman öbeğine edat ekleme.",
+        "At the university ile in the university building farklı odak kurabilir."
+      ],
+      "decision": "Zaman öbeğinin tamamını veya mekânsal ilişkiyi belirle; ölçek şemasından sonra yerleşik kalıbı kontrol et."
+    },
+    {
+      "id": "hb62",
+      "unitId": "u11",
+      "title": "By, until, for, since: Son tarih, süre, başlangıç",
+      "lead": "Bu edatlar aynı takvim ifadesiyle farklı bilgi verir. By en geç gerçekleşme sınırını, until devam eden durumun bitişini, for sürenin uzunluğunu, since başlangıç noktasını gösterir. Ana fiilin anlamı uygun seçeneği daraltır.",
+      "formula": "finish by Friday | stay until Friday | for three weeks | since March",
+      "signal": "Ne zamana kadar tamamlanmalı, ne zamana kadar sürüyor, ne kadar süredir ve ne zamandan beri sorularını ayır.",
+      "rules": [
+        "Submit by noon teslimin son sınırını; work until noon çalışmanın ne zamana kadar sürdüğünü anlatır.",
+        "For yalnız present perfect ile kullanılmaz: we stayed for two days bitmiş geçmiş süreyi de anlatır.",
+        "Since zaman başlangıcı verdiğinde perfect yapılarla sık birleşir; bağlaç olduğunda neden anlamı da taşıyabilir."
+      ],
+      "examples": [
+        {
+          "en": "The application must be submitted by midnight.",
+          "tr": "Başvuru en geç gece yarısına kadar teslim edilmelidir.",
+          "note": "By tamamlanmanın son sınırını belirtir."
+        },
+        {
+          "en": "The office has been closed since Tuesday.",
+          "tr": "Ofis salıdan beri kapalıdır.",
+          "note": "Since başlangıç noktasını verir."
+        }
+      ],
+      "pitfalls": [
+        "Başlangıç yılı anlatılırken for 2022 değil since 2022 gerekir; başka bağlamlarda for 2022 o yıl için planlanan şeyi anlatabilir.",
+        "Not until gecikmiş gerçekleşmeyi anlatabilir; olumlu until ile aynı zaman ilişkisini varsayma."
+      ],
+      "decision": "Fiilin tamamlanan iş mi süren durum mu anlattığını bul; ardından ifadenin süre mi başlangıç noktası mı olduğunu denetle."
+    },
+    {
+      "id": "hb63",
+      "unitId": "u11",
+      "title": "Into, onto, through, across: Hareketin yolunu çiz",
+      "lead": "Konum edatı sabit yeri, hareket edatı yönü veya izlenen yolu gösterebilir. Into içeri yönelmeyi, onto yüzeye çıkmayı, through çevrelenmiş alanın içinden geçmeyi, across ise bir yanından ötekine geçmeyi öne çıkarır.",
+      "formula": "in → position | into → entry | on → position | onto → movement to surface",
+      "signal": "Sadece bulunma mı var, sınır aşma mı? Hedef ile izlenen yol ayrı öğelerdir.",
+      "rules": [
+        "Walk into the laboratory içeri girmeyi; walk in the laboratory içeride yürümeyi anlatır.",
+        "Across the bridge ve through the tunnel, geçilen alanın nasıl düşünüldüğüne göre ayrılır.",
+        "To genel hedefi, towards hedef yönünü gösterir; towards varışın tamamlandığını söylemek zorunda değildir."
+      ],
+      "examples": [
+        {
+          "en": "The technicians carried the boxes into the storage room.",
+          "tr": "Teknisyenler kutuları depoya içeri taşıdı.",
+          "note": "Into, odanın sınırının aşılmasını gösterir."
+        },
+        {
+          "en": "The cable runs through a narrow channel in the wall.",
+          "tr": "Kablo duvardaki dar kanalın içinden geçiyor.",
+          "note": "Through çevreleyen kanalın içindeki yolu belirtir."
+        }
+      ],
+      "pitfalls": [
+        "Arrive at/in kalıplarında to seçilmez; reach ise çoğunlukla edatsız nesne alır.",
+        "Towards yalnız yönelim anlatabilir; hedefe kesin ulaşma sonucu çıkarma."
+      ],
+      "decision": "Başlangıç, yol, sınır ve hedefi zihninde çiz; ardından fiilin yerleşik edat kalıbını kontrol et."
+    },
+    {
+      "id": "hb64",
+      "unitId": "u11",
+      "title": "Sıfat + edat: Anlam rolüyle birlikte öğren",
+      "lead": "Responsible for, aware of ve resistant to gibi yapılar sıfatın kurduğu ilişkiyi gösterir. Edatı Türkçeye bağımsız çevirerek seçmek çoğu zaman sonuç vermez. Sıfatı, edatı ve bağlanan unsurun rolünü birlikte saklamak daha verimlidir.",
+      "formula": "aware of | responsible for | similar to | capable of + V-ing",
+      "signal": "Sıfatın tamamlayıcısı kim veya ne? Edatın ilişkilendirdiği rolü bul.",
+      "rules": [
+        "Responsible for görev veya sonuçtan sorumluluğu; responsible to hesap verilen makamı gösterebilir.",
+        "Capable of, interested in ve accustomed to gibi yapılarda edattan sonra isim veya V-ing gelir; to her zaman infinitive değildir.",
+        "Similar to, familiar with ve relevant to kalıplarını örnek bir isimle öğren: relevant to the question."
+      ],
+      "examples": [
+        {
+          "en": "The committee is responsible for reviewing the applications.",
+          "tr": "Komite başvuruları incelemekten sorumludur.",
+          "note": "For ardından gerund öbeği gelir."
+        },
+        {
+          "en": "The material is resistant to moisture.",
+          "tr": "Malzeme neme dayanıklıdır.",
+          "note": "To dayanılan etkiyi bağlar."
+        }
+      ],
+      "pitfalls": [
+        "Capable to solve yerine capable of solving gerekir; edat fiil biçimini de belirler.",
+        "Her sıfat yalnız tek edat alır sanma; başka edat farklı ilişki kurabilir."
+      ],
+      "decision": "Sıfatın anlamını belirle; uygun edat ile sonrasındaki isim/V-ing biçimini tek paket olarak denetle."
+    },
+    {
+      "id": "hb65",
+      "unitId": "u11",
+      "title": "İsim + edat: Access to, impact on, increase in",
+      "lead": "Akademik isimler nedenlerini, hedeflerini veya bağlı oldukları olguları edatla ilişkilendirir. Bu birliktelikler kelime sorusunda ve cümle anlamında belirleyicidir. Yakın anlamlı isimlerin aynı edatı alacağı garanti değildir; ilişkiyi ve miktarı ayrıca kontrol et.",
+      "formula": "access to | impact on | reason for | evidence of | increase in",
+      "signal": "İsimden sonraki öbek hedefi mi, nedeni mi, değişkeni mi tanımlıyor?",
+      "rules": [
+        "Increase in unemployment değişen değişkeni; an increase of ten percent artış miktarını anlatır.",
+        "Evidence of bir olgunun belirtisini, evidence for bir iddiayı destekleyen kanıtı anlatabilir; bağlamı izle.",
+        "A solution to a problem, demand for services ve participation in a study kalıplarını fiil karşılıklarıyla karşılaştır."
+      ],
+      "examples": [
+        {
+          "en": "The survey revealed an increase in demand for evening courses.",
+          "tr": "Anket akşam kurslarına talepte artış olduğunu gösterdi.",
+          "note": "In değişkeni, for talebin hedefini bağlar."
+        },
+        {
+          "en": "Equal access to reliable information is essential.",
+          "tr": "Güvenilir bilgiye eşit erişim gereklidir.",
+          "note": "To erişilen kaynağı bağlar."
+        }
+      ],
+      "pitfalls": [
+        "Access to içindeki to edattır; sonraki fiil biçimini otomatik infinitive yapma.",
+        "Effect on isim kalıbıdır; affect fiili çoğunlukla doğrudan nesne alır."
+      ],
+      "decision": "İsimle tamamlayıcı arasındaki ilişkiyi adlandır; seçeneğin hedef, miktar ve değişken farklarını koruduğunu doğrula."
+    },
+    {
+      "id": "hb66",
+      "unitId": "u11",
+      "title": "Fiil + nesne + edat: Katılımcı rollerini koru",
+      "lead": "Provide someone with something gibi yapılarda doğru edat kadar nesnelerin doğru sırada olması da anlamı belirler. Aynı bilgi bazen farklı kalıpla aktarılabilir; iki ismi yer değiştirdiğinde edat da değişebilir. Her tamamlayıcıya anlam rolü ver.",
+      "formula": "provide X with Y | blame X for Y | prevent X from V-ing | attribute Y to X",
+      "signal": "Kim, kimi, neyle veya hangi nedenden ilişkilendiriyor?",
+      "rules": [
+        "Provide learners with materials ile provide materials for learners benzer bilgi taşır, fakat nesne sırası farklıdır.",
+        "Attribute the decline to reduced demand yapısında decline sonuç, reduced demand ona bağlanan nedendir.",
+        "Prevent/discourage someone from doing ve accuse someone of doing kalıplarında edattan sonra V-ing gerekir."
+      ],
+      "examples": [
+        {
+          "en": "The programme provides new employees with practical training.",
+          "tr": "Program yeni çalışanlara uygulamalı eğitim sağlar.",
+          "note": "Employees alıcı, training sağlanan içeriktir."
+        },
+        {
+          "en": "The analysts attributed the improvement to better coordination.",
+          "tr": "Analistler iyileşmeyi daha iyi koordinasyona bağladı.",
+          "note": "Sonuç ile açıklayıcı neden ayrı rollerdir."
+        }
+      ],
+      "pitfalls": [
+        "Blame the delay on the supplier ile blame the supplier for the delay kalıplarında edat ve nesne rollerini birlikte değiştir.",
+        "Prevent to enter yerine prevent someone from entering kullan."
+      ],
+      "decision": "Fiili tüm tamamlayıcılarıyla oku; kişi, sağlanan şey, sonuç ve neden rollerini haritalandırıp seçeneği karşılaştır."
+    },
+    {
+      "id": "hb67",
+      "unitId": "u12",
+      "title": "Ayrılabilir phrasal verb: Zamirin yeri",
+      "lead": "Bazı öbek fiillerde isim nesne fiille parçacık arasına veya sonrasına gelebilir. Nesne zamir olduğunda ise parçacığın önüne yerleşir. Bu kural yalnız ayrılabilir fiillere uygulanır; diğer öbek fiillerin nesnesini aynı mantıkla taşıyamazsın.",
+      "formula": "turn off the device = turn the device off | turn it off",
+      "signal": "Önce ayrılabilirliği, sonra nesnenin isim mi zamir mi olduğunu denetle.",
+      "rules": [
+        "Put off, carry out, turn down ve set up birçok bağlamda ayrılabilir geçişli yapıdır; bütün öbek fiillere genellenmez.",
+        "Uzun nesnelerin parçacıktan sonra gelmesi okumayı kolaylaştırır: carry out a detailed assessment of the risks.",
+        "Zamir ayrılabilir yapıda araya girer: carry it out; carry out it standart değildir."
+      ],
+      "examples": [
+        {
+          "en": "The committee put off the meeting until Monday.",
+          "tr": "Komite toplantıyı pazartesiye erteledi.",
+          "note": "Put off burada ertelemek anlamındadır."
+        },
+        {
+          "en": "The plan is ready, but the team has not carried it out yet.",
+          "tr": "Plan hazır, fakat ekip onu henüz uygulamadı.",
+          "note": "It, carried ile out arasında bulunur."
+        }
+      ],
+      "pitfalls": [
+        "Ayrılabilme, iki kelimenin anlamlarının bağımsız olduğu anlamına gelmez; bütünü öğren.",
+        "Look after it gibi ayrılmaz yapıyı look it after biçimine dönüştürme."
+      ],
+      "decision": "Anlam, geçişlilik ve ayrılabilirliği belirle; ancak sonra nesnenin yerini kontrol et."
+    },
+    {
+      "id": "hb68",
+      "unitId": "u12",
+      "title": "Ayrılmaz ve üç parçalı yapılar: Run out of",
+      "lead": "Üç parçalı öbek fiillerde anlamı fiil, parçacık ve edat birlikte oluşturur. Nesne son öğeden sonra gelir; zamir olması yapıyı ayırma hakkı vermez. Kaynak tükenmesi, tahammül veya beklenti gibi çekirdek anlamı olay örgüsüyle eşleştir.",
+      "formula": "run out of + resource | put up with + situation | look forward to + noun/V-ing",
+      "signal": "Bütün kelimeler tek sözlük birimini oluşturuyor mu? Nesneye birlikte bak.",
+      "rules": [
+        "Run out of kaynağın tükenmesini; supplies ran out ise kaynağı özne yapan kullanımı anlatır.",
+        "Put up with tahammül etmek demektir; put up tek başına kurmak, asmak veya konaklatmak olabilir.",
+        "Look forward to içindeki to edattır; ardından meeting, receiving gibi V-ing veya isim gelir."
+      ],
+      "examples": [
+        {
+          "en": "The laboratory ran out of sterile containers.",
+          "tr": "Laboratuvarın steril kapları tükendi.",
+          "note": "Containers tükenen kaynaktır."
+        },
+        {
+          "en": "Residents would no longer put up with the constant noise.",
+          "tr": "Sakinler sürekli gürültüye artık katlanmayacaktı.",
+          "note": "Put up with bütün olarak tahammül anlamındadır."
+        }
+      ],
+      "pitfalls": [
+        "Run out the containers yapısı run out of anlamını vermez; of ilişkinin parçasıdır.",
+        "Look forward to meet yerine look forward to meeting gerekir."
+      ],
+      "decision": "Üç parçayı tek anlam birimi olarak tanı; nesnenin sonrasına yerleştiğini ve bağlamın anlamla uyduğunu denetle."
+    },
+    {
+      "id": "hb69",
+      "unitId": "u12",
+      "title": "Eşdizimler: Draw a conclusion, pose a threat",
+      "lead": "Bir ismin doğal olarak hangi fiille kullanıldığını bilmek, tek kelimelerin anlamlarını bilmekten farklıdır. Akademik metinde seçenekleri ayıran şey çoğu zaman doğal eşleşmedir. Eşdizim aynı zamanda eylemin türünü ve olumlu/olumsuz yönünü açıklar.",
+      "formula": "make a distinction | pose a threat | draw a conclusion | conduct research",
+      "signal": "Boşluğun yanındaki isim, olası fiilleri daraltan ana ipucudur.",
+      "rules": [
+        "Draw a conclusion sonuç çıkarmak, draw attention to dikkat çekmek demektir; draw tek karşılıkla ezberlenmez.",
+        "Raise awareness/questions ve reduce risk kalıplarını örnek bir nesneyle birlikte öğren.",
+        "Do research ve conduct research doğaldır; make research genel akademik kullanımda beklenen eşleşme değildir."
+      ],
+      "examples": [
+        {
+          "en": "The findings raise important questions about the model.",
+          "tr": "Bulgular model hakkında önemli sorular ortaya çıkarıyor.",
+          "note": "Raise questions sorgulamaya açmak anlamındadır."
+        },
+        {
+          "en": "The review draws a distinction between access and actual use.",
+          "tr": "İnceleme erişim ile gerçek kullanım arasında ayrım yapıyor.",
+          "note": "Draw a distinction iki kavramı ayırır."
+        }
+      ],
+      "pitfalls": [
+        "Türkçede uygun fiil, İngilizcede doğal eşdizim kurmayabilir.",
+        "Pose a threat olumlu yarar anlatan bağlama uymaz; doğal kalıp bile anlamı doğrulama gereğini kaldırmaz."
+      ],
+      "decision": "Doğal fiil–isim çiftini kur; ardından eylemin yönünü ve metindeki ilişkiyi koruduğunu denetle."
+    },
+    {
+      "id": "hb70",
+      "unitId": "u12",
+      "title": "Akademik yeniden anlatım: Öbek fiilden tek fiile",
+      "lead": "Öbek fiil tek sözcüklü bir fiille karşılanabilir: carry out–conduct veya put off–postpone. Ancak her bağlamda tek eş anlamlı yoktur. Yakın anlam sorusunda zaman, kesinlik ve olayın sonucu, sözlükteki ilk karşılıktan daha önemlidir.",
+      "formula": "carry out → conduct | put off → postpone | bring about → cause | rule out → exclude",
+      "signal": "Olay gerçekleşti mi, ertelendi mi, olasılık dışı mı bırakıldı?",
+      "rules": [
+        "Rule out an explanation açıklamayı elemek; prove an explanation doğrulamak anlamına gelir ve ters yöndedir.",
+        "Bring about a change değişime yol açmak, bring up an issue konuyu gündeme getirmektir.",
+        "Put off bir işi ertelemek veya birini isteksizlendirmek olabilir; nesnenin olay mı kişi mi olduğunu incele."
+      ],
+      "examples": [
+        {
+          "en": "The inspection ruled out a manufacturing defect.",
+          "tr": "Denetim üretim hatası olasılığını eledi.",
+          "note": "Ruled out burada excluded anlamındadır."
+        },
+        {
+          "en": "The system brought about a reduction in waiting times.",
+          "tr": "Sistem bekleme sürelerinde azalmaya yol açtı.",
+          "note": "Brought about neden olma ilişkisini korur."
+        }
+      ],
+      "pitfalls": [
+        "Phrasal verb tek başına gayriresmîlik veya yanlışlık göstergesi değildir; carry out akademik dilde doğaldır.",
+        "Ertelemeyi iptale, olasılığı kesinliğe çeviren seçenek yakın anlamı korumaz."
+      ],
+      "decision": "Fiili bağlamdaki anlamıyla açıkla; yeniden anlatımın zaman, olumluluk, kesinlik ve sonuç yönlerini karşılaştır."
+    },
+    {
+      "id": "hb71",
+      "unitId": "u12",
+      "title": "Paragraf akışı: Konu ortaklığı yeterli değildir",
+      "lead": "Paragraf tamamlamada bütün seçenekler aynı konuya ait olabilir. Doğru cümle hem önceki cümleye bağlanmalı hem sonraki cümleyi hazırlamalıdır. Zamir, örnekleme, karşıtlık ve sonuç işaretleri iki taraflı bağı görünür kılar. Diyalogda da soru ile yanıtın işlevi eşleşmelidir.",
+      "formula": "previous claim → missing link → next reference/result",
+      "signal": "This method, however ve as a result hangi önceki bilgiyi çağırıyor?",
+      "rules": [
+        "Yalnız önceki cümleye uyum yetmez; sonraki zamir veya sonuç için doğru zemin kurulmalıdır.",
+        "Anlam bütünlüğünü bozan cümle aynı anahtar kelimeyi içerebilir; sorun açıklama çizgisinden ayrılmasıdır.",
+        "Diyalogda neden sorusuna tarih, öneriye ilgisiz tanım vermek konuşmanın amacını karşılamaz."
+      ],
+      "examples": [
+        {
+          "en": "The first survey used telephone interviews. This method excluded households without a phone.",
+          "tr": "İlk anket telefon görüşmeleri kullandı. Bu yöntem telefonu olmayan haneleri dışarıda bıraktı.",
+          "note": "This method tanıtılmış yönteme döner."
+        },
+        {
+          "en": "The device is accurate. However, it needs frequent calibration.",
+          "tr": "Cihaz doğru ölçüm yapar. Ancak sık kalibrasyon gerektirir.",
+          "note": "Olumlu özelliğe sınırlılık eklenir."
+        }
+      ],
+      "pitfalls": [
+        "Aynı konudaki her bilgiyi bağlama uygun sanma; düşüncenin sırasını izle.",
+        "Tanıtılmamış bir kavrama dönen this/these, görünüşte akıcı seçeneğin bağını bozabilir."
+      ],
+      "decision": "Boşluğun iki tarafını özetle; gerekli köprü türünü bulup her iki bağı ayrı ayrı test et."
+    },
+    {
+      "id": "hb72",
+      "unitId": "u12",
+      "title": "Bağlamdan kelime ve okuma çıkarımı: Kanıtın sınırı",
+      "lead": "Bilinmeyen kelimeyi anlamak için bütün paragrafı çevirmek şart değildir; tanım, karşıtlık ve örnek anlam alanını daraltır. Çıkarımda ise metnin desteklediğini yalnız mümkün görünen bilgiden ayır. Genel dünya bilgisi, metinsel kanıtın yerini tutmaz.",
+      "formula": "context clue → possible meaning → substitution check → evidence-based inference",
+      "signal": "May, some, often, only ve all kapsamı ve kesinliği belirler.",
+      "rules": [
+        "Aday anlamı kelimenin yerine koy; olumluluk/olumsuzluk ve mantıksal ilişkinin korunduğunu kontrol et.",
+        "Ana düşünce örnekten geniş, metnin kapsamını aşmayacak kadar dar olmalıdır.",
+        "Birlikte değişim neden-sonuç kanıtı değildir; association anlatımından kesin causation sonucu çıkarma."
+      ],
+      "examples": [
+        {
+          "en": "The evidence is sparse: only three records survive.",
+          "tr": "Kanıtlar seyrektir: yalnız üç kayıt günümüze kalmıştır.",
+          "note": "Açıklama sparse anlamını azlık yönünde daraltır."
+        },
+        {
+          "en": "The programme may improve access for some users.",
+          "tr": "Program bazı kullanıcılar için erişimi iyileştirebilir.",
+          "note": "May ve some kesin, evrensel iddia kurmaz."
+        }
+      ],
+      "pitfalls": [
+        "Aşina olduğun bilgiyi metnin söylediği sanma; destek cümlesini ara.",
+        "May be useful ifadesini will solve every problem diye genişleten seçenek kapsamı bozar."
+      ],
+      "decision": "Her cevap için metinden destek göster; desteklenmeyen mümkün bilgiyi doğru çıkarım olarak kabul etme."
+    }
+  ],
+  "questions": [
+    {
+      "id": "hq051",
+      "unitId": "u07",
+      "sectionId": "u07-s04",
+      "topicId": "hb37",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nAlthough the procedure seems ----, it must be followed exactly as described.",
+      "options": [
+        "straightforwardly",
+        "straightforward",
+        "straightforwardness",
+        "more straightforwardly",
+        "as straightforwardly"
+      ],
+      "answer": 1,
+      "explanation": "Seem, burada görünmek anlamında bir linking verbdür. Anlatılan, işlemin nasıl göründüğü değil nasıl bir işlem olduğudur; bu nedenle straightforward sıfatı seçilir. Although kolay görünen işlemin yine de yönergeye tam uyularak yapılması gerektiği karşıtlığını kurar.",
+      "optionExplanations": [
+        "Zarf, bir eylemin nasıl yapıldığını niteler; burada yöntemin niteliği anlatılıyor.",
+        "Seem burada öznenin durumunu bağlar; procedure ismini niteleyen straightforward sıfatı gerekir.",
+        "Soyut isim, bu bağlayıcı fiilden sonra istenen sıfat görevini karşılamaz.",
+        "Karşılaştırmalı zarf da yanlış kelime türündedir; ayrıca iki eylem karşılaştırılmıyor.",
+        "As ile kurulan zarf öbeği bu tamamlayıcı konumuna uymaz."
+      ],
+      "translation": "İşlem basit görünse de tam olarak tarif edildiği biçimde uygulanmalıdır."
+    },
+    {
+      "id": "hq052",
+      "unitId": "u07",
+      "sectionId": "u07-s02",
+      "topicId": "hb38",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluklara uygun çifti bulunuz.\nThe instructions were so ---- that even the experienced volunteers looked ----.",
+      "options": [
+        "confused / confusing",
+        "confusing / confusing",
+        "confusing / confused",
+        "confused / confused",
+        "confusion / confused"
+      ],
+      "answer": 2,
+      "explanation": "Önce neden-sonuç zincirini kur: anlaşılması zor yönergeler kafa karışıklığı yaratıyor; deneyimli gönüllüler de bu etkiden payını alıyor. Bu yüzden ilk boşluk -ing, ikinci boşluk -ed sıfatı alır. Look burada gönüllülerin durumunu gösteren bağlayıcı fiildir.",
+      "optionExplanations": [
+        "Etkiyi yaratan ile etkilenenin sıfatlarını ters yerleştirir.",
+        "İkinci sıfat gönüllüleri başkalarının kafasını karıştıran kişiler yapar; beklenen durum anlamı kaybolur.",
+        "Yönergeler kafa karışıklığını yaratır; gönüllüler bunun sonucunda kafası karışmış durumdadır.",
+        "İlk sıfat yönergelerin kendisinin kafası karışmış olduğunu söyler; neden olan özellik anlatılmaz.",
+        "Confusion isimdir; so sonrasında bu yapıda sıfat gerekir."
+      ],
+      "translation": "Yönergeler o kadar kafa karıştırıcıydı ki deneyimli gönüllüler bile şaşkın görünüyordu."
+    },
+    {
+      "id": "hq053",
+      "unitId": "u07",
+      "sectionId": "u07-s06",
+      "topicId": "hb39",
+      "type": "translation",
+      "format": "Çeviri",
+      "difficulty": "orta",
+      "prompt": "Verilen cümlenin anlamını en iyi koruyan Türkçe seçeneği bulunuz.\nThe revised plan requires considerably less funding than the original one.",
+      "options": [
+        "İlk plan, düzeltilmiş plandan biraz daha az finansman gerektiriyor.",
+        "Düzeltilmiş plan, ilk plana göre belirgin ölçüde daha az finansman gerektiriyor.",
+        "Düzeltilmiş planın gerektirdiği finansman ilk planınkiyle hemen hemen aynıdır.",
+        "Düzeltilmiş planın ilk plandan daha az finansman gerektirmesi bekleniyor.",
+        "İlk planın finansmanı, düzeltilmiş planın tamamlanmasına kadar azaltılacaktır."
+      ],
+      "answer": 1,
+      "explanation": "Less funding finansman miktarının daha düşük olduğunu, considerably farkın belirginliğini anlatır. Than the original one karşılaştırma temelini ilk plan olarak belirler. Cümle yalnız gereksinimi bildirir; planın tamamlanmasını, gerçek harcamayı veya geleceğe ilişkin beklentiyi söylemez.",
+      "optionExplanations": [
+        "Karşılaştırmanın yönünü ters çevirir; considerably yerine biraz anlamı getirir.",
+        "Revised/original karşıtlığını, less yönünü ve considerably derecesini birlikte korur.",
+        "Less ile verilen açık azalmayı eşitliğe çevirir.",
+        "Gerektiriyor yargısına metinde bulunmayan beklenti ve belirsizlik ekler; dereceyi de kaybeder.",
+        "Karşılaştırmayı gelecek zamanda gerçekleşecek bütçe işlemine dönüştürür."
+      ],
+      "translation": "Düzeltilmiş plan ilk plana göre belirgin ölçüde daha az finansman gerektiriyor."
+    },
+    {
+      "id": "hq054",
+      "unitId": "u07",
+      "sectionId": "u07-s11",
+      "topicId": "hb40",
+      "type": "meaning",
+      "format": "Yakın anlam",
+      "difficulty": "orta",
+      "prompt": "Verilen cümleye anlamca en yakın seçeneği bulunuz.\nThe print was too faint for the scanner to read.",
+      "options": [
+        "The scanner read the print, although it was not very dark.",
+        "The print became faint after the scanner had read it.",
+        "The scanner could not read the print because it was not dark enough.",
+        "The scanner was too dark for the print to be visible.",
+        "The scanner would read the print if it were less dark."
+      ],
+      "answer": 2,
+      "explanation": "Too faint to read, baskının tarayıcının okuyabileceği koyuluk eşiğinin altında olduğunu anlatır. Not dark enough bu eşiği aynı yönden ifade eder. Yakın anlam, sadece faint kelimesinin eşini bulmakla değil, hangi şeyin hangi işi yapamadığını korumakla sağlanır.",
+      "optionExplanations": [
+        "Asıl cümledeki okuyamama sonucunu başarıya çevirir.",
+        "Neden-sonucu zaman sırasına çevirip metinde olmayan önceki başarıyı ekler.",
+        "Too faint ile anlatılan yetersiz koyuluğu ve tarayıcının okuyamamasını aynı nedensellikle korur.",
+        "Zayıf olan unsur baskıdır; cihazın karanlık olması metinde yoktur.",
+        "Daha açık baskı çözüm önererek derece yönünü ters çevirir."
+      ],
+      "translation": "Baskı, tarayıcının okuyamayacağı kadar soluktu."
+    },
+    {
+      "id": "hq055",
+      "unitId": "u07",
+      "sectionId": "u07-s09",
+      "topicId": "hb41",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nThe review presented ---- convincing evidence that the committee changed its earlier decision.",
+      "options": [
+        "such",
+        "so",
+        "such a",
+        "so many",
+        "as"
+      ],
+      "answer": 0,
+      "explanation": "Boşluk sonrasında convincing evidence, yani sıfat + sayılamayan isim öbeği vardır. Such bu öbeği derecelendirir; that komitenin karar değiştirmesini sonuç olarak bağlar. Such a değil such gerekir, çünkü evidence bir kanıt birimiyle sayılmamıştır.",
+      "optionExplanations": [
+        "Evidence sayılamayan isimdir; convincing evidence isim öbeğini such derecelendirir.",
+        "So doğrudan sıfatı derecelendirse de burada ardından isim geldiğinden bu dizilişe uymaz.",
+        "Evidence genel bu anlamda sayılamaz; a belirsiz artikeli kullanılamaz.",
+        "Many çoğul sayılabilir isim ister; evidence bu grupta değildir.",
+        "As burada that ile sonuç bağlantısını kuracak derece yapısını oluşturmaz."
+      ],
+      "translation": "İnceleme öylesine ikna edici kanıt sundu ki komite önceki kararını değiştirdi."
+    },
+    {
+      "id": "hq056",
+      "unitId": "u07",
+      "sectionId": "u07-s10",
+      "topicId": "hb42",
+      "type": "meaning",
+      "format": "Kelime",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nDuring the emergency, the school was officially designated ---- a temporary shelter and accommodated eighty residents.",
+      "options": [
+        "such as",
+        "the same as",
+        "as",
+        "than",
+        "instead of"
+      ],
+      "answer": 2,
+      "explanation": "Burada benzetme değil, resmen verilen ve gerçekten yerine getirilen işlev anlatılıyor. Designate something as something kalıbında as, yapının hangi görev için kullanıldığını bağlar. Accommodated eighty residents, barınma işlevinin gerçekleştiğini destekler.",
+      "optionExplanations": [
+        "Such as örnekler sunar; atanan işlevi bağlayan kalıp değildir.",
+        "Aynılık ilişkisi kurar; designated fiilinin görev tamamlayıcısına uymaz.",
+        "Designate as kalıbı gerçek olarak atanan görevi belirtir; bina fiilen barınak işlevi görmüştür.",
+        "Karşılaştırma gerekir; cümlede comparative yapı yoktur.",
+        "Yerine anlamı getirir; a temporary shelter olmamak üzere atandığı gibi ters bir ilişki doğurur."
+      ],
+      "translation": "Acil durumda okul resmen geçici barınak olarak belirlendi ve seksen sakini barındırdı."
+    },
+    {
+      "id": "hq057",
+      "unitId": "u08",
+      "sectionId": "u08-s01",
+      "topicId": "hb43",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nThe volunteers ---- completed both training sessions were allowed to operate the equipment.",
+      "options": [
+        "whom",
+        "whose",
+        "who",
+        "where",
+        "of which"
+      ],
+      "answer": 2,
+      "explanation": "Cümlecikte completed yüklemi vardır ama eylemi yapan özne yoktur. Volunteers insanları anlattığı için who uygun özne zamiridir. Tanımlayıcı cümlecik, hangi gönüllülerin cihazı kullanmasına izin verildiğini sınırlar; bütün gönüllülere koşulsuz izin verildiği söylenmez.",
+      "optionExplanations": [
+        "Whom nesne biçimidir; burada completed fiilinin öznesi eksiktir.",
+        "Whose ardından sahip olunan bir isim gerekir; doğrudan completed fiilini bu biçimde bağlamaz.",
+        "İnsan olan volunteers sözcüğünü niteler ve completed fiilinin eksik öznesini karşılar.",
+        "Yer tamlayıcısı kurar; insan özne eksikliğini karşılamaz.",
+        "Nesnelere ilişkin edatlı tamamlayıcıdır; özne görevindeki insan zamirinin yerini tutmaz."
+      ],
+      "translation": "Her iki eğitim oturumunu tamamlayan gönüllülerin ekipmanı kullanmasına izin verildi."
+    },
+    {
+      "id": "hq058",
+      "unitId": "u08",
+      "sectionId": "u08-s02",
+      "topicId": "hb44",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nThe institute ---- main laboratory was damaged has transferred its experiments to another campus.",
+      "options": [
+        "which",
+        "whom",
+        "where",
+        "who’s",
+        "whose"
+      ],
+      "answer": 4,
+      "explanation": "Boşluktan sonra main laboratory isim öbeği bulunuyor. Anlatılan, enstitünün ana laboratuvarının zarar görmesidir; kurum ile birimi arasında sahiplik bağı vardır. Whose yalnız insanlarla sınırlı olmadığı için institute ile de doğal biçimde kullanılır.",
+      "optionExplanations": [
+        "Which tek başına main laboratory ismine sahiplik belirleyicisi olamaz.",
+        "Whom insan nesnesi içindir; kurum ile laboratuvar arasındaki sahipliği karşılamaz.",
+        "Where yer ilişkisi kurar fakat main laboratory önünde gerekli belirleyiciyi sağlamaz.",
+        "Who’s, who is/has kısaltmasıdır; is main laboratory dizilişi burada yapısal olarak uymaz.",
+        "Main laboratory, institute kurumuna ait birimdir; whose sahiplik ilişkisini kurar."
+      ],
+      "translation": "Ana laboratuvarı zarar gören enstitü deneylerini başka bir kampüse taşıdı."
+    },
+    {
+      "id": "hq059",
+      "unitId": "u08",
+      "sectionId": "u08-s05",
+      "topicId": "hb45",
+      "type": "translation",
+      "format": "Çeviri",
+      "difficulty": "ileri",
+      "prompt": "Verilen cümlenin anlamını en iyi koruyan İngilizce seçeneği bulunuz.\nEski kayıtların saklandığı arşiv, araştırmacıların dün ziyaret ettiği binadadır.",
+      "options": [
+        "The archive which keeps the researchers is in the building where the old records visited yesterday.",
+        "The building in which the old records visited yesterday is the archive that keeps the researchers.",
+        "The researchers kept the old records yesterday in an archive that they will visit.",
+        "The archive that the researchers kept yesterday is in the building where the old records were visited.",
+        "The archive in which the old records are kept is in the building that the researchers visited yesterday."
+      ],
+      "answer": 4,
+      "explanation": "Türkçede ilk ilgi yapısı kayıtların nerede saklandığını, ikinci yapı araştırmacıların neyi ziyaret ettiğini anlatır. Records are kept in the archive temelinden in which; researchers visited the building temelinden that gelir. Edat farkı yalnız isimlerin yer bildirmesiyle değil fiillerin görevleriyle belirlenir.",
+      "optionExplanations": [
+        "Kayıtlarla araştırmacıların rollerini değiştirir; records visited anlamsız özne-eylem ilişkisi kurar.",
+        "Records ziyaret eden özneye, araştırmacılar saklanan nesneye dönüşür.",
+        "Dünün ziyaretini geleceğe taşır; kayıtları saklayan kişileri metinde olmayan biçimde belirtir.",
+        "Ziyaret ile saklama eylemlerinin nesnelerini ters dağıtır.",
+        "Kayıtların saklanma yeri için in which, ziyaret edilen nesne için that doğru ilişkileri kurar."
+      ],
+      "translation": "Eski kayıtların saklandığı arşiv, araştırmacıların dün ziyaret ettiği binadadır."
+    },
+    {
+      "id": "hq060",
+      "unitId": "u08",
+      "sectionId": "u08-s06",
+      "topicId": "hb46",
+      "type": "meaning",
+      "format": "Yakın anlam",
+      "difficulty": "ileri",
+      "prompt": "Verilen cümleye anlamca en yakın seçeneği bulunuz.\nThe delivery was delayed, which forced the laboratory to postpone the trial.",
+      "options": [
+        "The laboratory postponed the trial in order to delay the delivery.",
+        "The delivery was delayed after the laboratory had cancelled the trial.",
+        "The laboratory was able to avoid postponing the trial despite the delay.",
+        "Because the delivery arrived later than planned, the laboratory had to put off the trial.",
+        "The laboratory delayed the delivery because the trial had already begun."
+      ],
+      "answer": 3,
+      "explanation": "Virgül sonrası which, delivery ismine değil teslimatın gecikmesi olayına gönderme yapar. Forced ... to, laboratuvarın ertelemeye mecbur kaldığını gösterir. Doğru yeniden anlatım bu nedenselliği, zorunluluğu ve postponement anlamını birlikte korumalıdır.",
+      "optionExplanations": [
+        "Neden ile sonucu ters çevirir; amaç ilişkisi ekler.",
+        "Ertelemeyi iptale çevirir; neden-sonuç yerine farklı zaman sırası kurar.",
+        "Zorunlu erteleme yerine ertelemeden kaçınmayı anlatır.",
+        "Gecikme olayının ertelemeyi zorunlu kılmasını korur; put off, postpone karşılığıdır.",
+        "Teslimatı geciktiren özneyi ve gerekçeyi metinde olmayan biçimde değiştirir."
+      ],
+      "translation": "Teslimat gecikti; bu da laboratuvarı deneyi ertelemeye zorladı."
+    },
+    {
+      "id": "hq061",
+      "unitId": "u08",
+      "sectionId": "u08-s07",
+      "topicId": "hb47",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nOnly the proposals ---- before the deadline were considered by the review panel.",
+      "options": [
+        "submitting",
+        "submitted",
+        "having submitted",
+        "submit",
+        "to submitting"
+      ],
+      "answer": 1,
+      "explanation": "Tam yapı the proposals that were submitted before the deadline biçimindedir. Proposals eylemden etkilenen unsur olduğu için that were çıkarıldığında V3 submitted kalır. Önceki only, yalnız zamanında sunulan alt grubun değerlendirmeye alındığını sınırlar.",
+      "optionExplanations": [
+        "Etken -ing, önerileri sunan özne yapar; öneriler kendilerini sunmaz.",
+        "Proposals, sunma eyleminin nesnesidir; submitted edilgen relative kısaltmasıdır.",
+        "Perfect participle etken anlam taşır; önerilerin başka bir şeyi sunması anlatılmıyor.",
+        "Çekimli yalın fiil bu isim ile were considered arasına bağlayıcısız yerleşemez.",
+        "To + V-ing bu konumda relative kısaltması oluşturmaz."
+      ],
+      "translation": "Yalnız son tarihten önce sunulan öneriler değerlendirme kurulunca ele alındı."
+    },
+    {
+      "id": "hq062",
+      "unitId": "u08",
+      "sectionId": "u08-s09",
+      "topicId": "hb48",
+      "type": "grammar",
+      "format": "Cümle tamamlama",
+      "difficulty": "ileri",
+      "prompt": "Cümleyi yapısal ve anlamsal olarak uygun biçimde tamamlayınız.\nWhat the investigators still need to establish is ----.",
+      "options": [
+        "whether the alarm was working at the time",
+        "did the alarm work at the time",
+        "was the alarm working at the time",
+        "whether was the alarm working at the time",
+        "that the alarm working at the time"
+      ],
+      "answer": 0,
+      "explanation": "What the investigators still need to establish bütün olarak özne, whether-clause ise is sonrasında belirlenmesi gereken bilgidir. Gömülü soruda whether the alarm was working düz dizilişi kullanılır. Hâlâ belirlenmesi gereken şey alarmın o anda çalışıp çalışmadığıdır; kesin sonuç verilmez.",
+      "optionExplanations": [
+        "Whether isim cümleciği, belirlenmesi gereken bilinmeyen durumu düz özne-fiil sırasıyla ifade eder.",
+        "Doğrudan soru dizilişi, is sonrasında gereken isim cümleciğine uymaz.",
+        "Yardımcı fiil-özne sırası doğrudan soruya aittir; gömülü cümlecikte düz sıra gerekir.",
+        "Whether bulunmasına rağmen soru devrikliği korunmuş; the alarm was working sırası gerekir.",
+        "That sonrasında çekimli yüklem eksiktir; alarm working tek başına tam cümlecik oluşturmaz."
+      ],
+      "translation": "Araştırmacıların hâlâ belirlemesi gereken şey, alarmın o sırada çalışıp çalışmadığıdır."
+    },
+    {
+      "id": "hq063",
+      "unitId": "u09",
+      "sectionId": "u09-s02",
+      "topicId": "hb49",
+      "type": "meaning",
+      "format": "Kelime",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nThe grant paid for new microscopes and other laboratory ----, all of which had to be installed by trained technicians.",
+      "options": [
+        "advice",
+        "evidence",
+        "research",
+        "equipment",
+        "permission"
+      ],
+      "answer": 3,
+      "explanation": "Other sözcüğü microscopes ile aynı üst sınıfa ait başka şeyleri ister; installed by technicians da fiziksel cihazları destekler. Equipment, laboratuvar araçlarını kapsayan sayılamayan isimdir. Bu yüzden görünür çoğul -s eki olmaması, birden fazla cihaz anlatılmasına engel değildir.",
+      "optionExplanations": [
+        "Tavsiye fiziksel olarak teknisyenlerce kurulmaz; bağlamdaki araç grubunu karşılamaz.",
+        "Kanıt, burada satın alınıp kurulan cihazların üst sınıfı değildir.",
+        "Araştırma faaliyeti, microscopes ile other altında aynı fiziksel nesne sınıfında değildir.",
+        "Microscopes ve kurulması gereken laboratuvar araçları equipment anlam alanına girer.",
+        "İzin soyut bir onaydır; installed yükleminin nesnesi olamaz."
+      ],
+      "translation": "Hibe yeni mikroskopların ve eğitimli teknisyenlerce kurulması gereken diğer laboratuvar ekipmanlarının masrafını karşıladı."
+    },
+    {
+      "id": "hq064",
+      "unitId": "u09",
+      "sectionId": "u09-s06",
+      "topicId": "hb50",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluklara uygun çifti bulunuz.\n---- hour after the announcement, ---- university in the region offered to host the project.",
+      "options": [
+        "An / a",
+        "A / an",
+        "An / an",
+        "A / a",
+        "The / an"
+      ],
+      "answer": 0,
+      "explanation": "A/an seçimini yazılı harf değil telaffuz belirler. Hour başında duyulan ilk ses ünlüdür, bu nedenle an hour; university başında /y/ sesi bulunduğu için a university kullanılır. Üniversite bu cümlede bölgedeki kurumlardan biri olarak tanıtılmıştır.",
+      "optionExplanations": [
+        "Hour sessiz h nedeniyle ünlü sesle; university ise /y/ ünsüz sesiyle başlar.",
+        "Her iki article ilk sese göre ters seçilmiştir.",
+        "Hour için doğru olsa da university ünlü harfle yazılmasına rağmen ünsüz /y/ sesiyle başlar.",
+        "University için doğru olsa da hour başındaki h okunmadığı için an gerekir.",
+        "İkinci boşluk yine yanlış ses eşlemesidir; an university standart değildir."
+      ],
+      "translation": "Duyurudan bir saat sonra bölgedeki bir üniversite projeye ev sahipliği yapmayı teklif etti."
+    },
+    {
+      "id": "hq065",
+      "unitId": "u09",
+      "sectionId": "u09-s08",
+      "topicId": "hb51",
+      "type": "meaning",
+      "format": "Yakın anlam",
+      "difficulty": "ileri",
+      "prompt": "Verilen cümleye anlamca en yakın seçeneği bulunuz.\nThere is little evidence that the policy has improved access to services.",
+      "options": [
+        "The evidence for the policy having improved access to services is very limited.",
+        "There is no evidence whatsoever that the policy has affected services.",
+        "The policy has clearly failed to improve access to any service.",
+        "A substantial amount of evidence shows that the policy has improved access.",
+        "Evidence suggests that access will certainly improve when the policy is introduced."
+      ],
+      "answer": 0,
+      "explanation": "Little evidence, destekleyici kanıtın çok az olduğunu söyler. Politikanın etkisiz olduğunu kanıtlamaz; yalnız iyileşme iddiasının zayıf desteklendiğini bildirir. Doğru seçenek bu kanıt düzeyini korumalı, no evidence veya clearly failed gibi daha güçlü sonuçlara sıçramamalıdır.",
+      "optionExplanations": [
+        "Little evidence ile verilen düşük kanıt miktarını korur; etkinin kesin varlığını veya yokluğunu ilan etmez.",
+        "Az kanıtı mutlak yokluğa, erişimde iyileşmeyi daha geniş her türlü etkiye dönüştürür.",
+        "Kanıt azlığından kesin başarısızlık ve hiçbir hizmet iddiası çıkarır.",
+        "Little ifadesini substantial amount ile tersine çevirir.",
+        "Geçmişten şimdiye etkiyi geleceğe taşır ve kesinlik ekler."
+      ],
+      "translation": "Politikanın hizmetlere erişimi iyileştirdiğine dair çok az kanıt var."
+    },
+    {
+      "id": "hq066",
+      "unitId": "u09",
+      "sectionId": "u09-s04",
+      "topicId": "hb52",
+      "type": "meaning",
+      "format": "Paragraf tamamlama",
+      "difficulty": "ileri",
+      "prompt": "Paragraftaki boşluğa en uygun cümleyi bulunuz.\nThe analysts did not rely on a single estimate. ----. These were then compared with the figures supplied by the regional offices. Any large differences were investigated before the final report was prepared.",
+      "options": [
+        "They produced separate estimates for each district",
+        "The final report had already been sent to every regional office",
+        "Their only aim was to avoid comparing figures from different sources",
+        "No regional office had supplied any figures at any stage",
+        "The analysts decided that no further calculations were necessary"
+      ],
+      "answer": 0,
+      "explanation": "Boşluğu iki taraftan sınamak gerekir. İlk cümle tek tahminin yeterli sayılmadığını bildirir; bu nedenle ayrı tahminler üretmek doğal ilerlemedir. Sonraki These ise tanıtılan çoğul estimates öğesine döner ve bunların bölgesel verilerle karşılaştırıldığını açıklar.",
+      "optionExplanations": [
+        "Sonraki These için çoğul estimates gönderimi kurar; bölgesel rakamlarla karşılaştırmanın mantıklı ön adımıdır.",
+        "Raporun daha sonra hazırlanacağı söylenirken önceden gönderildiğini öne sürer; These için uygun çoğul ölçüm tanıtmaz.",
+        "Sonraki açık karşılaştırma eylemiyle çelişir ve çoğul tahminleri tanıtmaz.",
+        "Hemen sonraki regional offices tarafından verilen figures bilgisiyle çelişir.",
+        "Tek tahmine dayanmama ve ek karşılaştırma çizgisini ilerletmez; These için somut çoğul tahmin sunmaz."
+      ],
+      "translation": "Analistler tek tahmine dayanmadı; her bölge için ayrı tahminler üretti. Bunları bölge ofislerinin rakamlarıyla karşılaştırıp büyük farkları rapordan önce araştırdı."
+    },
+    {
+      "id": "hq067",
+      "unitId": "u09",
+      "sectionId": "u09-s10",
+      "topicId": "hb53",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluklara uygun çifti bulunuz.\nThe number of applications ---- increased, and a number of applicants ---- already been interviewed.",
+      "options": [
+        "have / has",
+        "has / has",
+        "have / have",
+        "is / are",
+        "has / have"
+      ],
+      "answer": 4,
+      "explanation": "İlk öznenin çekirdeği number olduğundan has increased kullanılır. İkinci a number of applicants, “bir dizi başvuran” anlamındaki çoğul gruptur; have been interviewed gerekir. Fiile en yakın kelimeye bakmak yerine iki özne öbeğinin işlevini ayrı değerlendirmek gerekir.",
+      "optionExplanations": [
+        "İlk yapıda tekil number, ikinci yapıda çoğul applicants gerektiği için iki uyum da ters çevrilmiştir.",
+        "İlk boşluk doğru; a number of applicants çoğul olduğu için ikinci have olmalıdır.",
+        "İkinci boşluk doğru; the number of applications tekil has ister.",
+        "Increased aktif perfect anlamı ister; are been gibi bir yardımcı fiil dizisi de kurulamaz.",
+        "The number tekil sayıyı; a number of applicants çoğul başvuru grubunu anlatır."
+      ],
+      "translation": "Başvuru sayısı arttı ve bir dizi başvuranla zaten görüşüldü."
+    },
+    {
+      "id": "hq068",
+      "unitId": "u09",
+      "sectionId": "u09-s05",
+      "topicId": "hb54",
+      "type": "meaning",
+      "format": "Diyalog",
+      "difficulty": "orta",
+      "prompt": "Diyalogdaki boşluğa en uygun yanıtı bulunuz.\nCoordinator: We have exactly two interview rooms. Room A is occupied until noon.\nAssistant: ----\nCoordinator: Yes, Room B is free, so we can start there.",
+      "options": [
+        "Then all the other rooms must be occupied as well. Shall we cancel?",
+        "So there are no rooms in the building. Why were interviews planned?",
+        "Then Room A must already be empty. Can we use it?",
+        "Then the other room must be Room B. Is it available now?",
+        "Let us use both rooms immediately without checking them."
+      ],
+      "answer": 3,
+      "explanation": "Konuşmada iki odalık kapalı bir grup tanıtılır; A doluysa kalan belirli oda the other room olur. Doğru yanıt hem bu ayrımı korur hem de sonraki “Yes, Room B is free” cümlesinin yanıtlayacağı müsaitlik sorusunu sorar.",
+      "optionExplanations": [
+        "Tam iki oda varken çok sayıda diğer oda varsayar; sonraki Room B free yanıtıyla uyuşmaz.",
+        "İki odanın varlığına ve B’nin müsait olmasına aykırıdır.",
+        "A odasının öğlene kadar dolu olduğu bilgisiyle çelişir.",
+        "İki odadan kalan belirli odayı the other ile gösterir; sonraki evet yanıtı müsaitlik sorusunu karşılar.",
+        "A odasının dolu olduğu bilgisine rağmen iki odanın hemen kullanılmasını önerir; sonraki yanıtı hazırlamaz."
+      ],
+      "translation": "Koordinatör iki oda olduğunu ve A’nın dolu olduğunu söyler. Asistan diğer odanın B olduğunu çıkarıp müsaitliğini sorar; B’nin boş olduğu doğrulanır."
+    },
+    {
+      "id": "hq069",
+      "unitId": "u10",
+      "sectionId": "u10-s05",
+      "topicId": "hb55",
+      "type": "grammar",
+      "format": "Cümle tamamlama",
+      "difficulty": "orta",
+      "prompt": "Cümleyi uygun biçimde tamamlayınız.\nAlthough the initial results appeared promising, ----.",
+      "options": [
+        "because a larger sample had already been collected",
+        "despite the researchers needed more evidence",
+        "which encouraged the researchers to continue",
+        "the researchers warned that a larger sample was needed before any firm conclusion could be drawn",
+        "to establish whether the effect would last"
+      ],
+      "answer": 3,
+      "explanation": "Although ile başlayan yan cümle, umut veren sonuçların karşısına sınırlılık koyan bir ana cümle ister. Araştırmacıların kesin hüküm için daha büyük örneklem istemesi bu karşıtlığı kurar. Diğer seçenekler bağımsız ana cümle oluşturmadıkları veya despite yapısını bozdukları için elenir.",
+      "optionExplanations": [
+        "Although yan cümlesinden sonra ana cümle yerine because yan cümlesi getirir.",
+        "Despite doğrudan özne + çekimli fiil alamaz; ayrıca ana cümle eksik kalır.",
+        "Ana cümle kurmadan yeni relative parça ekler; although ile başlayan yapı tamamlanmaz.",
+        "Olumlu ilk izlenime rağmen kesin sonuç için daha güçlü kanıt gerektiğini söyleyerek concession ilişkisini kurar.",
+        "Infinitive amaç öbeği getirir; gerekli bağımsız ana cümleyi sağlamaz."
+      ],
+      "translation": "İlk sonuçlar umut verici görünse de araştırmacılar kesin sonuca varmadan önce daha büyük örneklem gerektiği uyarısında bulundu."
+    },
+    {
+      "id": "hq070",
+      "unitId": "u10",
+      "sectionId": "u10-s04",
+      "topicId": "hb56",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nThe bridge was closed for urgent repairs; ----, buses had to follow a longer route.",
+      "options": [
+        "nevertheless",
+        "for example",
+        "similarly",
+        "therefore",
+        "on the contrary"
+      ],
+      "answer": 3,
+      "explanation": "Köprünün acil onarım nedeniyle kapanması, otobüsleri daha uzun güzergâha mecbur bırakmıştır. Therefore ilk önermeden doğan sonucu sunar. Noktalı virgül iki bağımsız cümleyi ayırır; therefore sonrasındaki virgül geçiş sözünü belirginleştirir.",
+      "optionExplanations": [
+        "Beklenmedik karşıtlık kurar; burada zorunlu güzergâh değişikliği kapanmanın doğal sonucudur.",
+        "Örnekleme ister; otobüs güzergâhı köprü kapanmasının bir örneği değildir.",
+        "İki benzer olgu arasında paralellik kurar; cümlede neden ve sonuç bulunur.",
+        "Kapanmanın sonucu olarak otobüslerin yolunu uzatması neden-sonuç ilişkisini kurar.",
+        "Önceki iddiayı reddetmeyi gerektirir; ikinci cümle kapanma bilgisinin tersini savunmaz."
+      ],
+      "translation": "Köprü acil onarım için kapatıldı; bu nedenle otobüsler daha uzun güzergâh izlemek zorunda kaldı."
+    },
+    {
+      "id": "hq071",
+      "unitId": "u10",
+      "sectionId": "u10-s08",
+      "topicId": "hb57",
+      "type": "meaning",
+      "format": "Paragraf tamamlama",
+      "difficulty": "ileri",
+      "prompt": "Paragraftaki boşluğa en uygun cümleyi bulunuz.\nOn the one hand, a mobile library can bring books to villages that have no permanent library. On the other hand, ----. This expense must be included in any realistic budget for the service.",
+      "options": [
+        "residents can borrow books without travelling to a distant town",
+        "maintaining and repairing the vehicle can be costly",
+        "the service offers readers a convenient way to discover new authors",
+        "the vehicle can carry books and magazines to several stops",
+        "many residents appreciate having a regular visit from the library"
+      ],
+      "answer": 1,
+      "explanation": "On the other hand ilk faydaya ikinci bir değerlendirme boyutu eklemelidir. Sonraki This expense, boşlukta bir giderin tanıtılmasını zorunlu kılar. Bakım ve onarım maliyeti hem hizmetin sınırlılığıdır hem bu gider gönderiminin açık karşılığıdır.",
+      "optionExplanations": [
+        "İlk yararı başka biçimde tekrar eder; expense için gider tanıtmaz.",
+        "İlk yarara maliyet sınırlılığı ekler; This expense için açık bakım-onarım gideri gönderimi kurar.",
+        "Olumlu yarar ekler; karşıt yönü ve sonraki gider gönderimini hazırlamaz.",
+        "Hizmetin işlevini açıklar fakat This expense için belirli maliyet ortaya koymaz.",
+        "Kullanıcı memnuniyeti anlatır; bütçeye katılacak gideri tanıtmaz."
+      ],
+      "translation": "Gezici kütüphane kütüphanesiz köylere kitap götürebilir; öte yandan aracın bakım ve onarımı pahalı olabilir. Gerçekçi bütçede bu gider hesaba katılmalıdır."
+    },
+    {
+      "id": "hq072",
+      "unitId": "u10",
+      "sectionId": "u10-s06",
+      "topicId": "hb58",
+      "type": "translation",
+      "format": "Çeviri",
+      "difficulty": "ileri",
+      "prompt": "Verilen cümlenin anlamını en iyi koruyan İngilizce seçeneği bulunuz.\nElektrik kesilirse diye ölçümlerin basılı bir kopyasını sakladık.",
+      "options": [
+        "We kept a printed copy of the measurements only after the power had failed.",
+        "We kept a printed copy so that the power would fail.",
+        "We would keep a printed copy provided that the power never failed.",
+        "We kept a printed copy of the measurements in case the power failed.",
+        "We discarded the printed copy because the power had failed."
+      ],
+      "answer": 3,
+      "explanation": "Olursa diye, ana eylemin olası olaya karşı önceden yapıldığını bildirir. In case bu önlem ilişkisini taşır. Cümle elektrik kesintisinin gerçekten olduğunu söylemez; yalnız ölçümlerin bu ihtimale karşı kâğıt üzerinde de saklandığını belirtir.",
+      "optionExplanations": [
+        "Önlemi kesintiden sonraki eyleme çevirir; ihtimal yerine gerçekleşmiş olay ekler.",
+        "Elektrik kesintisini istenen amaç haline getirerek anlamı ters çevirir.",
+        "Geçmişte yapılan saklamayı koşullu geleceğe; kesinti ihtimalini kesintisizlik şartına dönüştürür.",
+        "In case, elektrik kesilmesi ihtimaline karşı önceden alınan önlemi korur.",
+        "Saklamayı atmaya çevirir ve kesintinin gerçekleştiğini varsayar."
+      ],
+      "translation": "Elektrik kesilirse diye ölçümlerin basılı bir kopyasını sakladık."
+    },
+    {
+      "id": "hq073",
+      "unitId": "u10",
+      "sectionId": "u10-s02",
+      "topicId": "hb59",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nThe plant will reopen once the safety inspection ----.",
+      "options": [
+        "will be complete",
+        "is complete",
+        "completing",
+        "has been completing",
+        "be complete"
+      ],
+      "answer": 1,
+      "explanation": "Ana cümlede will reopen geleceğe bakar. Once, denetimin tamamlanmasını yeniden açılmanın zaman sınırı yapar; bu zaman cümleciğinde is complete yeterlidir. Gelecek anlamı bağlamdan gelir, aynı nedenle ikinci bir will eklemek gerekmez.",
+      "optionExplanations": [
+        "Zaman bildiren once cümleciğinde sıradan gelecek anlamı için will kullanılmaz.",
+        "Geleceğe yönelik once zaman cümleciğinde present biçim kullanılır; complete sıfatı denetimin bitmiş durumunu anlatır.",
+        "Çekimli yüklem yoktur; inspection completing bu konumda tam cümlecik kurmaz.",
+        "Denetimi başka bir şeyi tamamlayan özne yapar; nesne de eksiktir.",
+        "Tekil inspection öznesiyle bu bağımsız zaman cümleciğinde yalın be kullanılmaz."
+      ],
+      "translation": "Tesis güvenlik denetimi tamamlanınca yeniden açılacak."
+    },
+    {
+      "id": "hq074",
+      "unitId": "u10",
+      "sectionId": "u10-s10",
+      "topicId": "hb60",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "ileri",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nNot only ---- energy use, but it also improved the consistency of the measurements.",
+      "options": [
+        "the upgrade reduced",
+        "did the upgrade reduced",
+        "did the upgrade reduce",
+        "has the upgrade reduce",
+        "the upgrade was reduce"
+      ],
+      "answer": 2,
+      "explanation": "Not only burada yalnız iki özneyi değil, the upgrade reduced energy use önermesini öne çıkarır. Past simple için did the upgrade reduce dizilişi gerekir. But it also improved kısmı düz sırada kalır; ilk devrikliği ikinci cümleye taşımamak gerekir.",
+      "optionExplanations": [
+        "Düz sıra, başa alınan not only sonrasında gereken devrikliği sağlamaz.",
+        "Did sonrasında reduce yalın olmalıdır; geçmiş eki ikinci kez kullanılamaz.",
+        "Cümle başındaki not only bütün önermeyi etkilediği için did özne önüne geçer ve reduce yalın biçimde kalır.",
+        "Has + V3 gerekir; reduce yalın biçimi perfect yapıyı kurmaz.",
+        "Was + yalın reduce doğru yüklem dizisi oluşturmaz; devriklik de eksiktir."
+      ],
+      "translation": "İyileştirme yalnız enerji kullanımını azaltmakla kalmadı, ölçümlerin tutarlılığını da artırdı."
+    },
+    {
+      "id": "hq075",
+      "unitId": "u11",
+      "sectionId": "u11-s01",
+      "topicId": "hb61",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluklara uygun çifti bulunuz.\nThe briefing will begin ---- 9:30 ---- Monday morning.",
+      "options": [
+        "at / on",
+        "on / at",
+        "in / in",
+        "at / in",
+        "by / at"
+      ],
+      "answer": 0,
+      "explanation": "9:30 bir saat noktası olduğu için at gerekir. In the morning genel gün bölümünü anlatır; Monday morning belirli günle sınırlandığından on Monday morning kullanılır. Edat seçerken yalnız morning kelimesini değil öbeğin tamamını okumak gerekir.",
+      "optionExplanations": [
+        "Saat için at; belirli günün sabahı için on kullanılır.",
+        "Saat ve gün ifadesine ait edatlar ters yerleştirilmiştir.",
+        "Belirli saat in almaz; Monday ile belirlenen morning de on ister.",
+        "İlk doğru olsa da Monday morning, genel in the morning kalıbından farklı olarak on alır.",
+        "Begin by bir son sınır anlamı yaratabilir; ikinci at Monday morning yine standart değildir."
+      ],
+      "translation": "Bilgilendirme toplantısı pazartesi sabahı saat 9.30’da başlayacak."
+    },
+    {
+      "id": "hq076",
+      "unitId": "u11",
+      "sectionId": "u11-s02",
+      "topicId": "hb62",
+      "type": "translation",
+      "format": "Çeviri",
+      "difficulty": "orta",
+      "prompt": "Verilen cümlenin anlamını en iyi koruyan Türkçe seçeneği bulunuz.\nAll supporting documents must reach the office by Friday.",
+      "options": [
+        "Destekleyici belgeler cuma gününe kadar ofiste tutulmalıdır.",
+        "Belgelerin yalnız bir kısmı cuma gününden sonra ofise gönderilebilir.",
+        "Ofis cuma gününe kadar destekleyici belge kabul etmeyecektir.",
+        "Destekleyici belgelerin tamamı en geç cumaya kadar ofise ulaşmalıdır.",
+        "Destekleyici belgelerin cumadan önce ofise ulaşması gerekmiyordu."
+      ],
+      "answer": 3,
+      "explanation": "Reach varışın tamamlanmasını, by Friday en geç cuma sınırını anlatır. Until ile bir durumun cumaya kadar sürmesi söylenmiyor. Ayrıca supporting documents öznesinin all ile tüm belgeleri kapsaması ve must ile zorunlu tutulması çeviride korunmalıdır.",
+      "optionExplanations": [
+        "Ulaşma eylemini ofiste kalma durumuna dönüştürür.",
+        "All ve must anlamlarını değiştirir; son sınırı tersine çevirir.",
+        "Ulaşma zorunluluğuna metinde olmayan kabul etmeme yasağı ekler.",
+        "By son teslim sınırını; all tamamını; must zorunluluğu korur.",
+        "Zorunluluğu geçmişte yokluğa dönüştürür."
+      ],
+      "translation": "Destekleyici belgelerin tamamı en geç cumaya kadar ofise ulaşmalıdır."
+    },
+    {
+      "id": "hq077",
+      "unitId": "u11",
+      "sectionId": "u11-s04",
+      "topicId": "hb63",
+      "type": "meaning",
+      "format": "Kelime",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nThe cable runs ---- a narrow conduit that completely surrounds it along the entire underground section.",
+      "options": [
+        "onto",
+        "through",
+        "above",
+        "beside",
+        "among"
+      ],
+      "answer": 1,
+      "explanation": "Conduit kabloyu completely surrounds it ifadesiyle bütün yol boyunca çevreliyor. Bu, kanalın içinden geçen yol anlamını gerektirir ve through uygundur. Runs burada kablonun konumlandığı hattı anlatır; canlı bir öznenin koşması anlamında okunmamalıdır.",
+      "optionExplanations": [
+        "Yüzeye doğru hareketi anlatır; çevreleyen kanalın içindeki sürekli yolu karşılamaz.",
+        "Kanal kabloyu tüm yeraltı bölümü boyunca çevrelediğine göre kablo kanalın içinden geçmektedir.",
+        "Üstte olma ilişkisi, kanalın kabloyu tamamen çevrelediği bilgisiyle uyuşmaz.",
+        "Yanında olmayı anlatır; kablonun kanalın içinde bulunmasını karşılamaz.",
+        "Birden fazla unsurun arasında olmayı anlatır; tek çevreleyen kanal için uygun değildir."
+      ],
+      "translation": "Kablo, yeraltındaki bütün bölüm boyunca onu tamamen çevreleyen dar bir kanalın içinden geçiyor."
+    },
+    {
+      "id": "hq078",
+      "unitId": "u11",
+      "sectionId": "u11-s06",
+      "topicId": "hb64",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nThe coating is resistant ---- moisture, but it is not suitable for prolonged exposure to extreme heat.",
+      "options": [
+        "of",
+        "to",
+        "with",
+        "for",
+        "by"
+      ],
+      "answer": 1,
+      "explanation": "Resistant, dayanılan madde veya etkiyi to ile bağlar: resistant to moisture. Ardından gelen but, neme dayanıklılığın aşırı sıcaklığa dayanıklılık anlamına gelmediğini gösterir. Bir tek olumlu özellikten tüm koşullara uygunluk çıkarılmamalıdır.",
+      "optionExplanations": [
+        "Resistant of, bu sıfatın dayanılan etkiyi bağlayan standart kalıbı değildir.",
+        "Resistant to yerleşik kalıbı dayanıklılığın hangi etkiye karşı olduğunu bağlar.",
+        "With birlikte olmayı anlatabilir; resistant tamamlayıcısını burada doğru bağlamaz.",
+        "For süre veya amaç bağlayabilir; resistant + etki kalıbında to gerekir.",
+        "By etken veya araç anlatabilir; bu sıfat tamamlayıcısının yerini tutmaz."
+      ],
+      "translation": "Kaplama neme dayanıklıdır, ancak aşırı sıcağa uzun süre maruz kalmaya uygun değildir."
+    },
+    {
+      "id": "hq079",
+      "unitId": "u11",
+      "sectionId": "u11-s07",
+      "topicId": "hb65",
+      "type": "meaning",
+      "format": "Kelime",
+      "difficulty": "orta",
+      "prompt": "Boşluklara uygun çifti bulunuz.\nThe report describes a sharp increase ---- demand ---- affordable housing.",
+      "options": [
+        "of / to",
+        "to / of",
+        "with / on",
+        "for / in",
+        "in / for"
+      ],
+      "answer": 4,
+      "explanation": "Boşluktaki iki edatı ayrı ilişkilerle düşün. Artan şey demand olduğu için increase in demand; talep edilen şey affordable housing olduğu için demand for affordable housing kullanılır. An increase of twenty percent gibi of kalıbında ise değişken değil artış miktarı belirtilir.",
+      "optionExplanations": [
+        "Of artış miktarıyla kullanılabilir; burada miktar değil demand değişkenidir. Demand to housing de uygun değildir.",
+        "Increase to son düzeyi gösterebilir; demand bir son sayı değildir. Demand of farklı ilişki kurar.",
+        "İki isim de bu anlam ilişkilerinde seçilen edatlarla doğal kalıp oluşturmaz.",
+        "Artışın değişkeni için in, talebin hedefi için for gerekir; roller ters bağlanmıştır.",
+        "Increase in değişen değişkeni, demand for talebin hedefini bağlar."
+      ],
+      "translation": "Rapor uygun fiyatlı konuta talepte keskin artış olduğunu açıklıyor."
+    },
+    {
+      "id": "hq080",
+      "unitId": "u11",
+      "sectionId": "u11-s09",
+      "topicId": "hb66",
+      "type": "meaning",
+      "format": "Diyalog",
+      "difficulty": "orta",
+      "prompt": "Diyalogdaki boşluğa en uygun yanıtı bulunuz.\nTrainer: New employees keep asking which safety checks come first. They have no written guide.\nAssistant: ----\nTrainer: Yes. I will print a copy for each of them before tomorrow’s session.",
+      "options": [
+        "Could we collect the guides they already received and stop printing them?",
+        "Should we cancel every future session because written guides are unnecessary?",
+        "Did every employee finish reading the printed guide yesterday?",
+        "Would it be better to forbid employees from asking any questions?",
+        "Could we provide them with a one-page checklist before the session?"
+      ],
+      "answer": 4,
+      "explanation": "Asistanın yanıtı mevcut soruna uygulanabilir çözüm önermeli ve sonraki “her biri için bir kopya basacağım” ifadesini hazırlamalıdır. Provide them with a checklist, kişiyi alıcı ve checklist öğesini sağlanan içerik yapar. Böylece hem diyalog akışı hem kalıp doğru kurulur.",
+      "optionExplanations": [
+        "Çalışanların rehberi olmadığı bilgisiyle çelişir; sonraki basma kararıyla aynı yönde değildir.",
+        "Rehber ihtiyacını reddeder ve ilgisiz iptal önerir; sonraki basma yanıtına uymaz.",
+        "Yazılı rehber olmadığı bilgisiyle çelişen tamamlanmış okuma varsayımı getirir.",
+        "Sorunun çözümü için materyal sağlamaz; sonraki kopya basma kararıyla doğal bağ kurmaz.",
+        "Eksik yazılı rehbere basılı kontrol listesi çözümü önerir; sonraki her kişiye kopya basma yanıtını hazırlar."
+      ],
+      "translation": "Eğitmen yeni çalışanların işlem sırasını sorduğunu ve rehberleri olmadığını söyler. Asistan kontrol listesi sağlamayı önerir; eğitmen herkes için basmayı kabul eder."
+    },
+    {
+      "id": "hq081",
+      "unitId": "u12",
+      "sectionId": "u12-s03",
+      "topicId": "hb67",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nThe safety checks were essential, so the technicians ---- before restarting the machine.",
+      "options": [
+        "carried out them",
+        "carried out to them",
+        "carried them out",
+        "carried them to out",
+        "carried them out of"
+      ],
+      "answer": 2,
+      "explanation": "Carry out, kontrol veya işlemi gerçekleştirmek anlamında geçişli ve ayrılabilir yapıdır. Checks yerine them kullanıldığında carried them out dizilişi zorunludur. Bu, anlamı bilinen bir öbek fiili sözdizimi üzerinden kontrol etme örneğidir.",
+      "optionExplanations": [
+        "Ayrılabilir phrasal verbde zamir nesne parçacıktan sonra gelemez.",
+        "To eklemek nesne ilişkisini bozar; kontrolleri uygulamak anlamını vermez.",
+        "Carry out ayrılabilir olduğu ve nesne them zamiri olduğu için zamir fiille parçacık arasına girer.",
+        "To, fiil ile parçacık arasına bu şekilde eklenemez.",
+        "Out of devamında kaynak/yer ister; burada cümle tamamlayıcısı before ile başlar ve uygulama kalıbı bozulur."
+      ],
+      "translation": "Güvenlik kontrolleri gerekliydi; bu yüzden teknisyenler makineyi yeniden başlatmadan önce onları uyguladı."
+    },
+    {
+      "id": "hq082",
+      "unitId": "u12",
+      "sectionId": "u12-s04",
+      "topicId": "hb68",
+      "type": "meaning",
+      "format": "Kelime",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nThe tests had to stop because the laboratory had ---- sterile containers; not a single unused one remained.",
+      "options": [
+        "run out of",
+        "looked forward to",
+        "put up with",
+        "taken after",
+        "kept up with"
+      ],
+      "answer": 0,
+      "explanation": "Not a single unused one remained, bütün kullanılmamış kapların tükendiğini açıklar. Run out of bir kaynağın kalmaması anlamındadır; bu nedenle deneylerin durmasına gerekçe olur. Run out of bütünüyle okunmalı, out veya of ayrı Türkçe karşılıklara indirgenmemelidir.",
+      "optionExplanations": [
+        "Tek bir kullanılmamış kap kalmaması kaynağın tükenmesini gösterir; run out of bu anlamı kurar.",
+        "Sabırsızlıkla bekleme anlamı taşır; eldeki kaynağın kalmamasını anlatmaz.",
+        "Tahammül etmeyi anlatır; tükenmiş kap kaynağını karşılamaz.",
+        "Birine benzemek anlamındaki yapı laboratuvar ve kaplarla bu bağlama uymaz.",
+        "Hıza veya gelişmeye yetişmeyi anlatır; kapların tamamen tükenmesini bildirmez."
+      ],
+      "translation": "Laboratuvarın steril kapları tükendiği ve kullanılmamış tek kap kalmadığı için testler durmak zorunda kaldı."
+    },
+    {
+      "id": "hq083",
+      "unitId": "u12",
+      "sectionId": "u12-s09",
+      "topicId": "hb69",
+      "type": "meaning",
+      "format": "Kelime",
+      "difficulty": "orta",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nWhen interpreting the survey, it is important to ---- a distinction between reported preferences and actual behaviour.",
+      "options": [
+        "distribute",
+        "obtain",
+        "draw",
+        "occupy",
+        "commit"
+      ],
+      "answer": 2,
+      "explanation": "Draw a distinction between X and Y, iki öğenin birbirinden ayrılması gerektiğini anlatır. Anket bağlamında söylenen tercihler ile gerçek davranışın aynı veri türü olmadığı vurgulanır. Burada draw resim çizmek değil kavramsal ayrım yapmak anlamındadır.",
+      "optionExplanations": [
+        "Distribute dağıtmak demektir; distinction ile bu anlamda doğal fiil–isim kalıbı kurmaz.",
+        "Obtain elde etmek anlamı taşır; ayrım yapma ilişkisini doğal biçimde karşılamaz.",
+        "Draw a distinction, iki kavram arasında ayrım yapmak anlamında doğal akademik eşdizimdir.",
+        "Occupy yer veya zaman kaplamayı anlatır; distinction nesnesiyle bağlama uymaz.",
+        "Commit a distinction standart eşdizim değildir; ayrım yapma kalıbını kurmaz."
+      ],
+      "translation": "Anketi yorumlarken bildirilen tercihler ile gerçek davranış arasında ayrım yapmak önemlidir."
+    },
+    {
+      "id": "hq084",
+      "unitId": "u12",
+      "sectionId": "u12-s08",
+      "topicId": "hb70",
+      "type": "meaning",
+      "format": "Yakın anlam",
+      "difficulty": "ileri",
+      "prompt": "Verilen cümleye anlamca en yakın seçeneği bulunuz.\nThe additional tests ruled out a faulty sensor as the cause of the problem.",
+      "options": [
+        "The extra tests confirmed that a defective sensor had caused the problem.",
+        "A defective sensor prevented the researchers from carrying out any further tests.",
+        "The extra tests made the sensor defective and created a new problem.",
+        "The researchers postponed the tests because the sensor might be defective.",
+        "The extra tests showed that a defective sensor was not the source of the problem."
+      ],
+      "answer": 4,
+      "explanation": "Rule out, bir açıklama veya olasılığı değerlendirme dışına çıkarmaktır. Ek testlerin ulaştığı sonuç, problemin kaynağının arızalı sensör olmadığıdır. Cümle asıl nedeni açıklamaz; yalnız belirli bir nedeni dışlar. Doğru yeniden anlatım bu sınırı korur.",
+      "optionExplanations": [
+        "Olasılığı elemek yerine doğrulamayı anlatarak sonucun yönünü ters çevirir.",
+        "Sensörü testleri engelleyen neden yapar; ek testlerin gerçekleştiği bilgisi kaybolur.",
+        "Testleri arızanın nedeni yapar; böyle bir olay anlatılmamıştır.",
+        "Gerçekleşmiş ek testleri ertelenmiş olaya çevirir; eleme sonucu yerine belirsizlik bırakır.",
+        "Rule out ve faulty, not the source ve defective ile anlamı korunarak karşılanır."
+      ],
+      "translation": "Ek testler, problemin nedeninin arızalı sensör olma ihtimalini eledi."
+    },
+    {
+      "id": "hq085",
+      "unitId": "u12",
+      "sectionId": "u12-s10",
+      "topicId": "hb71",
+      "type": "meaning",
+      "format": "Paragraf tamamlama",
+      "difficulty": "ileri",
+      "prompt": "Paragraftaki boşluğa en uygun cümleyi bulunuz.\nThe new transport database contains detailed counts for every weekday. ----. This limitation makes it unsuitable for estimating demand for Saturday and Sunday services without additional information.",
+      "options": [
+        "It includes equally detailed observations for every Saturday and Sunday",
+        "The weekday figures are therefore unnecessary for any transport research",
+        "However, it contains no observations collected at weekends",
+        "As a result, researchers can already estimate weekend demand with complete confidence",
+        "For example, the database was created by a team of five programmers"
+      ],
+      "answer": 2,
+      "explanation": "Boşluktan önce veri tabanının hafta içi ayrıntısı anlatılır. Sonrasında cumartesi-pazar talebini tahminde eksiklik olduğu belirtilir. Hafta sonu gözlemlerinin bulunmaması hem however ile uygun sınırlılığı getirir hem This limitation gönderimini ve sonucu açıklar.",
+      "optionExplanations": [
+        "Sonraki hafta sonu tahmini sınırlılığıyla doğrudan çelişir.",
+        "Verilerin tüm araştırmalar için gereksiz olduğunu söyleyerek aşırı geneller; hafta sonu eksikliği bağını kurmaz.",
+        "Hafta içi kapsamına hafta sonu eksikliğini karşıtlıkla ekler; This limitation ve Saturday/Sunday sonucunu birlikte açıklar.",
+        "Sonraki ek bilgi olmadan uygun değil yargısının tersini söyler.",
+        "Programcı sayısı hangi verinin eksik olduğunu açıklamaz; This limitation için mantıklı zemin oluşturmaz."
+      ],
+      "translation": "Veri tabanı her hafta içi günü için ayrıntılı sayım içerir; ancak hafta sonu gözlemleri yoktur. Bu yüzden ek bilgi olmadan hafta sonu talebini tahminde uygun değildir."
+    },
+    {
+      "id": "hq086",
+      "unitId": "u12",
+      "sectionId": "u12-s10",
+      "topicId": "hb72",
+      "type": "meaning",
+      "format": "Diyalog",
+      "difficulty": "ileri",
+      "prompt": "Diyalogdaki boşluğa en uygun yanıtı bulunuz.\nStudent: The article says the new system may help some users. Does that mean it will solve the problem for everyone?\nTutor: ----\nStudent: I see. I need to preserve both the uncertainty and the limited group.",
+      "options": [
+        "No. May leaves the outcome uncertain, and some does not establish that every user will benefit.",
+        "Yes. May always means that the result is guaranteed for all users.",
+        "No. The article proves that the system cannot help a single user.",
+        "Yes. The only issue is whether the system is expensive to install.",
+        "The word some tells us the exact number of users who will benefit."
+      ],
+      "answer": 0,
+      "explanation": "Doğru yanıt, may ile sonucun garanti edilmediğini ve some ile grubun tüm kullanıcılar olarak genişletilemeyeceğini açıklamalıdır. Sonraki öğrenci cümlesi de bu iki noktayı özetler. Ayrıca some users ifadesi mutlaka yararlanacak kesin sayıyı bildirmez.",
+      "optionExplanations": [
+        "May olasılığını korur; some ifadesinin tek başına tüm kullanıcıların yararlanacağını kanıtlamadığını açıklar.",
+        "May kesinlik, some herkes anlamına gelmez; iki kapsamı da ters çevirir.",
+        "Olası yararı mutlak yararsızlığa çevirir; metnin desteklemediği kesinlik ekler.",
+        "Kurulum maliyeti belirtilmemiştir; belirsizlik ve kullanıcı kapsamı sorusunu karşılamaz.",
+        "Some kesin sayı vermez; öğrencinin belirsizlik ve grup sınırı özetine uymaz."
+      ],
+      "translation": "Öğrenci, bazı kullanıcılara yardımcı olabilecek sistemin herkesin sorununu çözüp çözmeyeceğini sorar. Öğretmen hem olasılığı hem sınırlı kapsamı korumasını açıklar."
+    },
+    {
+      "id": "hq087",
+      "unitId": "u12",
+      "sectionId": "u12-s10",
+      "topicId": "hb71",
+      "type": "meaning",
+      "format": "Anlam bütünlüğü",
+      "difficulty": "ileri",
+      "prompt": "Numaralanmış cümlelerden hangisi paragrafın anlam bütünlüğünü bozmaktadır?\n(I) A seed bank must keep stored seeds dry to preserve their viability. (II) Excess moisture can encourage fungal growth and damage the seeds. (III) Humidity is therefore monitored regularly inside the storage rooms. (IV) Some plant species produce flowers that attract pollinating insects. (V) If the readings rise above the permitted level, staff check the drying equipment.",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "answer": 3,
+      "explanation": "Paragrafın çizgisi kuru saklama gereği → nemin zararı → nem takibi → eşik aşılırsa ekipman kontrolüdür. IV bitkilerle ilgili olsa da çiçek ve tozlaşma konusuna kayar. IV çıkarıldığında III’teki izleme ile V’teki readings arasında doğrudan bağ kurulur.",
+      "optionExplanations": [
+        "Tohum deposunda kuruluk gereğini tanıtarak paragrafın ana konusunu kurar.",
+        "Fazla nemin neden zararlı olduğunu açıklayıp I’deki gereği destekler.",
+        "Therefore ile zarar bilgisinden düzenli nem izleme uygulamasına geçer.",
+        "Çiçeklerin tozlayıcı böcekleri çekmesi, depodaki nemin kontrolü açıklama çizgisinden ayrılır.",
+        "Readings, III’teki izleme sonuçlarına döner ve yüksek nemde alınacak önlemi tamamlar."
+      ],
+      "translation": "Tohum deposunda nemin zarar vermemesi için kuruluk korunur, nem izlenir ve yüksek ölçümlerde kurutma sistemi kontrol edilir. Çiçeklerin böcek çekmesi bu çizginin dışındadır."
+    },
+    {
+      "id": "hq088",
+      "unitId": "u12",
+      "sectionId": "u12-s10",
+      "topicId": "hb71",
+      "type": "meaning",
+      "format": "Anlam bütünlüğü",
+      "difficulty": "ileri",
+      "prompt": "Numaralanmış cümlelerden hangisi paragrafın anlam bütünlüğünü bozmaktadır?\n(I) Historical letters are often digitised to reduce the need to handle fragile originals. (II) Each page is photographed under controlled lighting. (III) The images are then checked for missing corners or unreadable text. (IV) Once approved, the files are linked to catalogue records so that readers can locate them. (V) The price of postage varies according to the weight and destination of a modern parcel.",
+      "options": [
+        "I",
+        "V",
+        "II",
+        "III",
+        "IV"
+      ],
+      "answer": 1,
+      "explanation": "İlk dört cümle amaçtan başlayıp fotoğraflama, kalite kontrolü ve katalog bağlantısına giden tek süreç anlatır. V yalnız letters/posta çağrışımıyla yakın görünür; modern paket ücreti bu süreci açıklamaz veya ilerletmez. Konu ortaklığıyla söylem bağı aynı şey değildir.",
+      "optionExplanations": [
+        "Dijitalleştirmenin amacını açıklayıp sonraki işlem basamaklarını başlatır.",
+        "Modern paketlerin posta ücreti, tarihî mektupların dijitalleştirme sürecinden kopuk ayrı bir konudur.",
+        "Sayfanın fotoğraflanması, dijital görüntü üretiminin doğal adımıdır.",
+        "Images, II’de üretilen fotoğraflara dönerek kalite kontrolünü anlatır.",
+        "Onaylanan dosyaların katalogla bağlanması, sürecin erişim aşamasını tamamlar."
+      ],
+      "translation": "Tarihî mektuplar zarar görmesin diye dijitalleştirilir; sayfalar fotoğraflanır, kontrol edilir ve katalogla bağlanır. Modern paket ücreti bu sürecin dışındadır."
+    },
+    {
+      "id": "hq089",
+      "unitId": "u12",
+      "sectionId": "u12-s10",
+      "topicId": "hb71",
+      "type": "meaning",
+      "format": "Anlam bütünlüğü",
+      "difficulty": "ileri",
+      "prompt": "Numaralanmış cümlelerden hangisi paragrafın anlam bütünlüğünü bozmaktadır?\n(I) An online survey may underrepresent residents who have limited internet access. (II) High-speed internet can also be used to download large entertainment files. (III) To reach these residents, a research team can offer a paper version of the same questions. (IV) The two versions should use equivalent wording so that responses remain comparable. (V) The final report should state how many answers came from each version.",
+      "options": [
+        "I",
+        "III",
+        "II",
+        "IV",
+        "V"
+      ],
+      "answer": 2,
+      "explanation": "II çıkarıldığında I’in tanıttığı erişimi sınırlı residents grubuna III’te these residents doğrudan döner. Sonraki cümleler iki anket sürümünün tutarlılığı ve raporlanmasını anlatır. İnternetin başka bir kullanım alanı, aynı kelimeyi taşısa da bu temsil sorununa bağlanmaz.",
+      "optionExplanations": [
+        "İnternet erişimi sınırlı kişilerin eksik temsilini ana sorun olarak tanıtır.",
+        "These residents, I’deki sınırlı erişimli gruba döner ve kâğıt anket çözümü önerir.",
+        "İnternetin eğlence dosyası indirmede kullanılması, ankette temsil sorununu giderme çizgisini ilerletmez.",
+        "İki sürümün karşılaştırılabilirliğini korumak için eşdeğer ifade gereğini açıklar.",
+        "Her sürümün yanıt sayısının raporlanması, iki yöntemle veri toplama sürecini tamamlar."
+      ],
+      "translation": "Çevrim içi ankette internet erişimi sınırlı kişilerin eksik temsilini azaltmak için kâğıt sürüm sunulur; iki sürüm eşdeğer tutulup yanıt sayıları raporlanır."
+    },
+    {
+      "id": "hq090",
+      "unitId": "u12",
+      "sectionId": "u12-s10",
+      "topicId": "hb72",
+      "type": "reading",
+      "format": "Okuma",
+      "difficulty": "ileri",
+      "prompt": "Parçaya göre soruyu yanıtlayınız.\nFor eight weeks, a public library in the fictional town of Bellford sent text reminders to readers who chose to join a trial. The messages listed the due dates of borrowed books and explained how to renew them online. During the trial, the proportion of overdue returns among these readers fell. However, participants had volunteered, and the library did not compare them with a similar group receiving no messages. The manager therefore described the results as preliminary rather than proof that reminders alone had caused the change. Some readers also reported that their contact details had become outdated. Before expanding the service, the library plans to check these details and run a comparison in which eligible readers are randomly assigned to receive reminders or the usual notices.\n\nWhat is the main purpose of the passage?",
+      "options": [
+        "To prove that text messages always prevent late returns",
+        "To argue that libraries should stop lending books to readers without mobile phones",
+        "To compare the cost of sending messages with the price of replacing books",
+        "To describe an encouraging trial while explaining why stronger evaluation is needed",
+        "To show that random assignment was already used in the first eight-week trial"
+      ],
+      "answer": 3,
+      "explanation": "Parça önce umut verici gözlemi, yani katılanlarda gecikmelerin azalmasını bildirir. Ardından gönüllülük ve kontrol grubu eksikliğinin neden-sonuç kanıtını sınırladığını açıklar. Son bölüm, hizmeti büyütmeden daha güçlü karşılaştırma planını verir. Ana amaç bu dengeli bütünlüğü kapsamalıdır.",
+      "optionExplanations": [
+        "Always ve prove kesinliği, preliminary ve proof değil uyarısıyla çelişir.",
+        "Telefonu olmayanlara kitap vermeme politikası parçada önerilmemiştir.",
+        "Maliyet ve kitap yenileme fiyatı karşılaştırması verilmemiştir.",
+        "Azalan gecikmeleri aktarır; gönüllü katılım ve karşılaştırma eksikliği yüzünden daha sağlam değerlendirme gereğini açıklar.",
+        "Random assignment gelecekte planlanan çalışmadadır; ilk denemeye yanlış taşınır."
+      ],
+      "translation": "Kurgu Bellford kasabasındaki kütüphane sekiz hafta gönüllülere hatırlatma gönderdi. Gecikmeler azaldı; ancak kontrol grubu yoktu ve nedensellik kanıtlanmadı. İletişim bilgileri kontrol edilip rastgele atamalı karşılaştırma planlanıyor."
+    },
+    {
+      "id": "hq091",
+      "unitId": "u12",
+      "sectionId": "u12-s10",
+      "topicId": "hb72",
+      "type": "reading",
+      "format": "Okuma",
+      "difficulty": "ileri",
+      "prompt": "Parçaya göre soruyu yanıtlayınız.\nFor eight weeks, a public library in the fictional town of Bellford sent text reminders to readers who chose to join a trial. The messages listed the due dates of borrowed books and explained how to renew them online. During the trial, the proportion of overdue returns among these readers fell. However, participants had volunteered, and the library did not compare them with a similar group receiving no messages. The manager therefore described the results as preliminary rather than proof that reminders alone had caused the change. Some readers also reported that their contact details had become outdated. Before expanding the service, the library plans to check these details and run a comparison in which eligible readers are randomly assigned to receive reminders or the usual notices.\n\nWhich conclusion is supported by the passage?",
+      "options": [
+        "Readers receiving no messages returned books later than the volunteers.",
+        "Every reader who received a text message renewed a book online.",
+        "The first trial alone does not establish that the reminders caused the decline in overdue returns.",
+        "Outdated contact details were the main cause of every late return.",
+        "The library has already expanded the service to all eligible readers."
+      ],
+      "answer": 2,
+      "explanation": "Destek cümlesi, manager ... described the results as preliminary rather than proof ifadesidir. Denemede gecikme oranı düşmüş olsa da bu gözlem tek başına hatırlatmaların neden olduğunu kanıtlamıyor. Diğer seçenekler yapılmamış karşılaştırmayı, herkes için sonucu veya henüz gerçekleşmemiş yaygınlaştırmayı ekler.",
+      "optionExplanations": [
+        "İlk denemede karşılaştırılabilir mesaj almayan grup yoktur; bu grubun sonucu verilmemiştir.",
+        "Mesajların nasıl yenileneceğini açıklaması, herkesin bunu yaptığı anlamına gelmez.",
+        "Yönetici sonuçları nedensellik kanıtı saymıyor; gönüllülük ve karşılaştırma eksikliği bu sınırı açıklıyor.",
+        "Bazı bilgilerin eski olduğu söyleniyor; bütün gecikmelerin ana nedeni olduğu belirtilmiyor.",
+        "Genişletme henüz yapılmamıştır; önce bilgi kontrolü ve yeni karşılaştırma planlanıyor."
+      ],
+      "translation": "İlk denemede gözlenen düşüş, hatırlatmaların nedensel etkisini tek başına kanıtlamaz; daha sağlam karşılaştırma gereklidir."
+    },
+    {
+      "id": "hq092",
+      "unitId": "u12",
+      "sectionId": "u12-s10",
+      "topicId": "hb72",
+      "type": "reading",
+      "format": "Okuma",
+      "difficulty": "ileri",
+      "prompt": "Parçaya göre soruyu yanıtlayınız.\nFor eight weeks, a public library in the fictional town of Bellford sent text reminders to readers who chose to join a trial. The messages listed the due dates of borrowed books and explained how to renew them online. During the trial, the proportion of overdue returns among these readers fell. However, participants had volunteered, and the library did not compare them with a similar group receiving no messages. The manager therefore described the results as preliminary rather than proof that reminders alone had caused the change. Some readers also reported that their contact details had become outdated. Before expanding the service, the library plans to check these details and run a comparison in which eligible readers are randomly assigned to receive reminders or the usual notices.\n\nThe word preliminary in the passage is closest in meaning to ----.",
+      "options": [
+        "initial and not yet conclusive",
+        "deliberately misleading",
+        "universally applicable",
+        "financially profitable",
+        "unrelated to the trial"
+      ],
+      "answer": 0,
+      "explanation": "Preliminary sözcüğünün çevresinde rather than proof karşıtlığı bulunur; sonrasında da daha güçlü yeni karşılaştırma planlanır. Bu ipuçları kelimeyi ilk/ön nitelikte, henüz kesinleşmemiş anlamına daraltır. Ön sonuç ile yanlış veya ilgisiz sonuç aynı şey değildir.",
+      "optionExplanations": [
+        "Rather than proof ve planlanan yeni değerlendirme, sonuçların ilk aşamada ve henüz kesin olmadığını açıklar.",
+        "Sonuçların bilerek yanıltıcı hazırlandığı söylenmiyor; yöntemsel sınırlılık farklı bir konudur.",
+        "Gönüllü örneklem ve kontrol eksikliği evrensel geçerlilik iddiasını desteklemez.",
+        "Parçada sonuçların kâr getirip getirmediği hakkında bilgi bulunmuyor.",
+        "Sonuçlar doğrudan denemeye ilişkindir; preliminary ilgisizlik anlamına gelmez."
+      ],
+      "translation": "Preliminary burada ilk aşamadaki, henüz kesin sonuç niteliği taşımayan anlamındadır."
+    },
+    {
+      "id": "hq093",
+      "unitId": "u07",
+      "sectionId": "u07-s08",
+      "topicId": "hb39",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "ileri",
+      "prompt": "Boşluklara uygun çifti bulunuz.\nThe ---- the labels were checked before dispatch, the ---- packages were sent to the wrong address.",
+      "options": [
+        "more careful / less",
+        "most carefully / fewest",
+        "carefully / few",
+        "more carefully / fewer",
+        "more carefully / little"
+      ],
+      "answer": 3,
+      "explanation": "Etiketlerin ne kadar dikkatli kontrol edildiği arttıkça yanlış adrese giden paket sayısının azaldığı anlatılır. Check eylemi more carefully zarfıyla, sayılabilir packages ise fewer ile karşılaştırılır. The ... the ... yapısında iki taraf comparative derece taşır.",
+      "optionExplanations": [
+        "Careful sıfatı eylemi uygun biçimde nitelemez; less bu çoğul sayılabilir karşılaştırmada beklenen biçim değildir.",
+        "The more..., the fewer... ilişkisi comparative ister; superlative iki değişimi bağlamaz.",
+        "İki boşluk da karşılaştırmalı değişim yapısının derecesini eksik bırakır.",
+        "Check eylemi comparative zarfla nitelenir; sayılabilir çoğul packages için fewer gerekir.",
+        "İlk doğru olsa da little sayılamayan miktarlar içindir; packages ile uymaz."
+      ],
+      "translation": "Etiketler gönderimden önce ne kadar dikkatli kontrol edildiyse yanlış adrese o kadar az paket gönderildi."
+    },
+    {
+      "id": "hq094",
+      "unitId": "u08",
+      "sectionId": "u08-s07",
+      "topicId": "hb47",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "ileri",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nAll samples ---- from the coastal sites will be analysed separately from those obtained inland.",
+      "options": [
+        "collecting",
+        "having collected",
+        "to be collecting",
+        "collect",
+        "collected"
+      ],
+      "answer": 4,
+      "explanation": "Collected from the coastal sites, numuneleri niteleyen edilgen kısaltmadır. Ana yüklem will be analysed gelecektedir; collected biçiminin V3 olması, tüm cümlenin geçmişte olduğu anlamına gelmez. Those ise inland obtained samples tekrarını önler ve ikinci numune grubuna döner.",
+      "optionExplanations": [
+        "Samples öğesini toplama eylemini yapan özneye çevirir; bağlam böyle bir anlam kurmaz.",
+        "Etken perfect participle, samples öğesinin başka bir şeyi toplamasını gerektirir.",
+        "Etken ilerleyen infinitive biçimidir; numunelerin toplanmış olma ilişkisini karşılamaz.",
+        "İsim ile ana yüklem arasına bağlayıcısız çekimli fiil yerleştirir.",
+        "Samples toplama eyleminin nesnesidir; that are/were collected biçimindeki edilgen relative kısalır."
+      ],
+      "translation": "Kıyı alanlarından toplanan tüm numuneler, iç kesimlerden elde edilenlerden ayrı analiz edilecek."
+    },
+    {
+      "id": "hq095",
+      "unitId": "u10",
+      "sectionId": "u10-s10",
+      "topicId": "hb60",
+      "type": "grammar",
+      "format": "Dil bilgisi",
+      "difficulty": "ileri",
+      "prompt": "Boşluğa uygun seçeneği bulunuz.\nNot until the backup system failed ---- how dependent the station had become on a single power source.",
+      "options": [
+        "did the technicians realise",
+        "the technicians realised",
+        "did the technicians realised",
+        "had the technicians realising",
+        "the technicians were realise"
+      ],
+      "answer": 0,
+      "explanation": "Not until ... failed, farkına varmanın ancak arıza sonrasında gerçekleştiğini vurgular. Devriklik until yan cümlesinin içinde değil ana cümlede yapılır: did the technicians realise. Had become ise fark edişten önce oluşan bağımlılığı anlatır.",
+      "optionExplanations": [
+        "Başa alınan not until zarf öbeğinden sonra ana cümlede yardımcı fiil öznenin önüne geçer; realise yalın kalır.",
+        "Not until başlangıcının gerektirdiği ana cümle devrikliğini sağlamaz.",
+        "Did sonrasında geçmiş ekli realised değil yalın realise gerekir.",
+        "Had + V-ing bu yüklemi kurmaz; perfect yapı için realised gerekir.",
+        "Were + yalın realise standart yüklem dizisi değildir."
+      ],
+      "translation": "Yedek sistem arızalanana kadar teknisyenler istasyonun tek güç kaynağına ne kadar bağımlı hale geldiğini fark etmedi."
+    },
+    {
+      "id": "hq096",
+      "unitId": "u10",
+      "sectionId": "u10-s05",
+      "topicId": "hb55",
+      "type": "grammar",
+      "format": "Cloze test",
+      "difficulty": "orta",
+      "prompt": "Parçadaki boşluğa uygun seçeneği bulunuz.\nA group of archivists tested a new search tool on a collection of handwritten records. The tool retrieved documents much faster than the old catalogue. ---- its results still required careful checking by a specialist, the team regarded it as a useful starting point rather than a complete replacement for expert judgment.",
+      "options": [
+        "Despite",
+        "Although",
+        "In spite of",
+        "Owing to",
+        "Nevertheless"
+      ],
+      "answer": 1,
+      "explanation": "Boşluktan sonraki its results still required ... tam cümleciktir. Although bu cümleciği, takımın aracın yararını kabul ettiği ana yargıya karşıtlıkla bağlar. Araç hızlıdır fakat uzman yargısının tam yerini alamaz; paragrafın dengeli değerlendirmesi korunur.",
+      "optionExplanations": [
+        "Despite doğrudan its results ... required biçiminde çekimli cümlecik alamaz.",
+        "Ardından özne + yüklem gelir; uzman kontrolü gereğine rağmen yararlı başlangıç sayılması karşıtlığını kurar.",
+        "İsim veya V-ing öbeği ister; bu tam cümleciği bağlayamaz.",
+        "İsim öbeği gerektirir ve neden-sonuç kurar; burada gerekli tam cümleciği karşılamaz.",
+        "Geçiş sözü olarak bağımsız cümle ister; verilen virgüllü yan cümle düzenini kurmaz."
+      ],
+      "translation": "Arşivciler yeni arama aracını denedi. Araç hızlı olsa da sonuçları uzman kontrolü gerektiriyordu; ekip onu uzman yargısının yerine geçen çözüm değil yararlı başlangıç olarak gördü."
+    },
+    {
+      "id": "hq097",
+      "unitId": "u11",
+      "sectionId": "u11-s07",
+      "topicId": "hb65",
+      "type": "meaning",
+      "format": "Cloze test",
+      "difficulty": "orta",
+      "prompt": "Parçadaki boşluğa uygun seçeneği bulunuz.\nA museum introduced evening tours for people who work during the day. Attendance increased, but visitors from outlying districts remained uncommon. Interviews suggested that the lack of late buses was a major obstacle ---- wider participation. The museum therefore began discussing transport options with the local council.",
+      "options": [
+        "into",
+        "from",
+        "among",
+        "over",
+        "to"
+      ],
+      "answer": 4,
+      "explanation": "Obstacle to wider participation, daha geniş katılıma engel anlamındadır. Paragrafta geç otobüs eksikliği, dış mahallelerden gelememeyi açıklıyor; belediyeyle ulaşım görüşmesi de bu engeli azaltmayı amaçlıyor. Edat seçimi isim kalıbıyla, kelimenin anlamı ise paragrafın neden-sonuç çizgisiyle doğrulanır.",
+      "optionExplanations": [
+        "İçeri yönelme anlatır; obstacle ile katılım hedefini bağlayan kalıbı oluşturmaz.",
+        "Kaynak veya ayrılma ilişkisi taşır; obstacle to kalıbındaki engellenen sonucu karşılamaz.",
+        "Grup içinde bulunmayı anlatır; tek soyut hedef olan wider participation ile uygun değildir.",
+        "Üstünde veya üzerinde anlamları burada obstacle isminin gerekli tamamlayıcısını kurmaz.",
+        "Obstacle to, daha geniş katılımın önündeki engeli bağlayan yerleşik isim + edat kalıbıdır."
+      ],
+      "translation": "Müze akşam turu başlattı; ancak uzak ilçelerden katılım düşük kaldı. Geç otobüs olmaması daha geniş katılımın önündeki engeldi; müze belediyeyle ulaşım seçeneklerini görüşmeye başladı."
+    },
+    {
+      "id": "hq098",
+      "unitId": "u12",
+      "sectionId": "u12-s08",
+      "topicId": "hb70",
+      "type": "meaning",
+      "format": "Cloze test",
+      "difficulty": "ileri",
+      "prompt": "Parçadaki boşluğa uygun seçeneği bulunuz.\nThe study was designed to test one specific explanation for the unexpected pattern. The researchers agreed that, if the observations contradicted that explanation, they would ---- this explanation rather than continue treating it as confirmed. They would then examine other possibilities.",
+      "options": [
+        "bring about",
+        "put up with",
+        "look forward to",
+        "take after",
+        "rule out"
+      ],
+      "answer": 4,
+      "explanation": "Rather than continue treating it as confirmed, boşluğun onaylamanın ters yönünde olması gerektiğini gösterir. Gözlemler açıklamayla çelişirse onu rule out, yani elemek ve diğer olasılıklara bakmak planlanır. This explanation tam isim öbeği olduğu için rule out sonrasında gelebilir.",
+      "optionExplanations": [
+        "Bir şeyi meydana getirmek demektir; açıklamanın doğruluğunu eleme ilişkisini karşılamaz.",
+        "Tahammül etmeyi anlatır; bilimsel açıklamayı kanıta göre reddetme kararını ifade etmez.",
+        "Beklentiyi anlatır; gözlemlerle çelişen açıklamanın statüsünü değiştirmez.",
+        "Birine benzemek anlamındadır; açıklamanın geçerliliğini değerlendirmeye uymaz.",
+        "Çelişen gözlemler durumunda açıklamayı elemek, onu doğrulanmış saymayı bırakmak ve başka olasılıklara geçmekle uyumludur."
+      ],
+      "translation": "Çalışma belirli açıklamayı sınamak için tasarlandı. Gözlemler onunla çelişirse araştırmacılar onu eleyecek ve başka olasılıkları inceleyecekti."
+    },
+    {
+      "id": "hq099",
+      "unitId": "u09",
+      "sectionId": "u09-s08",
+      "topicId": "hb51",
+      "type": "translation",
+      "format": "Çeviri",
+      "difficulty": "ileri",
+      "prompt": "Verilen cümlenin anlamını en iyi koruyan Türkçe seçeneği bulunuz.\nOnly a few of the participants had used the software before, but all of them completed the task.",
+      "options": [
+        "Katılımcıların hiçbiri yazılımı kullanmadığı için görevi tamamlayamadı.",
+        "Katılımcıların tamamı yazılımı daha önce kullanmıştı, fakat yalnızca birkaçı görevi tamamladı.",
+        "Yazılımı kullanan az sayıdaki katılımcı görevi tamamladı, diğerleri ise bıraktı.",
+        "Birkaç katılımcı görevi bitirdikten sonra yazılımı ilk kez kullanacak.",
+        "Katılımcıların yalnızca birkaçı yazılımı daha önce kullanmıştı, ancak hepsi görevi tamamladı."
+      ],
+      "answer": 4,
+      "explanation": "Only a few of the participants, deneyimli alt grubun küçük olduğunu belirtir. But sonrasında all of them, yalnız bu küçük gruba değil tanıtılan participants grubunun tamamına döner. Deneyimin az kişide olmasına rağmen herkesin görevi başarması karşıtlığı çeviride korunmalıdır.",
+      "optionExplanations": [
+        "Birkaç kişiyi hiç kimseye, tümünün başarısını başarısızlığa dönüştürür.",
+        "Deneyim ve tamamlama gruplarının niceliklerini tersine çevirir.",
+        "All of them bütün katılımcılara döner; diğerlerinin bıraktığı bilgisi eklenemez.",
+        "Geçmiş deneyim ve tamamlanmış görevi geleceğe çevirerek zaman ilişkisini bozar.",
+        "Only a few, before ve all kapsamlarını; önceki deneyimle görev başarısı karşıtlığını birlikte korur."
+      ],
+      "translation": "Katılımcıların yalnızca birkaçı yazılımı daha önce kullanmıştı, ancak hepsi görevi tamamladı."
+    },
+    {
+      "id": "hq100",
+      "unitId": "u10",
+      "sectionId": "u10-s08",
+      "topicId": "hb57",
+      "type": "meaning",
+      "format": "Yakın anlam",
+      "difficulty": "ileri",
+      "prompt": "Verilen cümleye anlamca en yakın seçeneği bulunuz.\nThe platform is easy to use; on the other hand, maintaining it requires specialist support.",
+      "options": [
+        "The platform is difficult to use because no specialists are available to maintain it.",
+        "Although users can operate the platform easily, keeping it running needs specialist help.",
+        "Once the platform becomes easy to use, specialist support will no longer be necessary.",
+        "Specialist support makes both operating and maintaining the platform unnecessary.",
+        "The platform can be maintained by any user without specialist assistance."
+      ],
+      "answer": 1,
+      "explanation": "On the other hand, kullanım kolaylığı iddiasını yalanlamaz; aynı ürünün bakımına ilişkin ikinci bir yön ekler. Although ile yeniden anlatım aynı karşıt değerlendirmeyi koruyabilir. Kullanmak ile bakımını sürdürmek farklı eylemler olduğu için kolay kullanım, uzman desteğinin gereksizliği sonucunu vermez.",
+      "optionExplanations": [
+        "Kolaylığı zorluğa çevirir ve uzman bulunmadığına dair yeni neden ekler.",
+        "Kullanım kolaylığı ile bakım için uzman desteği gereğini iki ayrı yön olarak korur.",
+        "Bakım ihtiyacını geçici koşula dönüştürür; metinde böyle bir sonlanma yoktur.",
+        "Desteğin rolünü işlevleri ortadan kaldırmaya çevirir; iki yargı da metinde yoktur.",
+        "Bakım için uzman desteği gereğini doğrudan reddeder."
+      ],
+      "translation": "Platformun kullanımı kolaydır; öte yandan bakımını sürdürmek uzman desteği gerektirir."
+    }
+  ]
+}

@@ -10,7 +10,7 @@ const content = await loadContent();
 const source = await fs.readFile(new URL('../yds-src/app.js', import.meta.url), 'utf8');
 const app = new vm.Script(source, { filename: 'yds-src/app.js' });
 const storageKey = 'hudavendigar-yds-grammar-studio-v1';
-const questions = content.units.flatMap(unit => [...unit.questions, ...unit.reading.questions]);
+const questions = [...content.units.flatMap(unit => [...unit.questions, ...unit.reading.questions]),...content.supplement.questions];
 const questionMap = new Map(questions.map(question => [question.id, question]));
 const [correctQuestion, wrongQuestion, blankQuestion, otherQuestion] = content.units[0].questions;
 const started = Date.UTC(2026, 9, 7, 9, 0, 0);
@@ -313,5 +313,5 @@ for (const [name, run] of tests) {
     console.error(`FAIL ${name}: ${error.message}`);
   }
 }
-console.log(`YDS state/timer: ${tests.length - failures}/${tests.length} passed; ${content.summary.questions} real questions loaded.`);
+console.log(`YDS state/timer: ${tests.length - failures}/${tests.length} passed; ${questions.length} real questions loaded.`);
 if (failures) process.exitCode = 1;

@@ -256,6 +256,17 @@ test('YDS unit and topic use rendered controls and exact headings, never arbitra
   assert.equal(app.pending().at(-1).activity,'breakreview');assert.equal(app.pending().at(-1).context.screenTitle,'Mola');
 });
 
+test('YDS capsules have a distinct activity without logging untrusted route suffixes',async()=>{
+  const app=await harness({offline:true,pathname:'/ingilizce-dersler/lessons/yds/grammar-studio.html',hash:'#capsules'});
+  app.document.selectors.set(HEADING,new FakeElement({text:'Hap bilgi atölyesi'}));
+  await app.advance(500);
+  assert.equal(app.pending().at(-1).activity,'capsules');
+  assert.equal(app.pending().at(-1).context.screenTitle,'Hap bilgi atölyesi');
+  app.context.location.hash='#capsules/PRIVATE-STUDENT-NOTE';
+  await app.advance(500);
+  assert.ok(!JSON.stringify(app.events()).includes('PRIVATE-STUDENT-NOTE'));
+});
+
 test('main panel level route stays useful without capturing arbitrary hash text',async()=>{
   const app=await harness({offline:true,pathname:'/ingilizce-dersler/index.html',hash:'#B1'});
   assert.equal(app.pending()[0].context.pagePath,'index.html');assert.equal(app.pending()[0].context.screenId,'level-B1');
