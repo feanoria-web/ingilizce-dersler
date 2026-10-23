@@ -1,0 +1,87 @@
+{
+ "version": 1,
+ "chapters": [
+  {"screenId": "warm", "intro": "Bir soruyu duyduğunda önce ilk kelimelerine bak: What day gün, How old yaş, What do you do meslek ister. Cevabı It's ya da I'm ile başlatırsan kısa ve tam bir cümle kurarsın.", "patterns": [
+   {"id": "warm-question-words", "summary": ["Soru kelimesi istenen bilgiyi söyler: What day? → gün, How old? → yaş, What do you do? → meslek.", "What day ile What time'ı karıştırma: biri gün, diğeri saat sorar.", "Yaş söylerken I'm + sayı: I'm forty. “I have forty years” yanlıştır."], "exampleIndex": 0},
+   {"id": "warm-short-answers", "summary": ["Gün, saat ve numara bilgisinde cevap It's ile başlar: It's Saturday.", "Kendinle ilgili bilgide I'm kullan: I'm a nurse. I'm from Bursa.", "It's'teki it Türkçeye çevrilmez ama İngilizce cümlede atlanmaz."], "exampleIndex": 0}
+  ]},
+  {"screenId": "commands", "intro": "Sınıf komutları fiille başlar ve başlarında you yoktur: Open your books. Listen. Kibarlık için please, yasak için Don't, birlikte yapmak için Let's kullanılır.", "patterns": [
+   {"id": "cmd-imperative", "summary": ["Komut cümlesi fiilin yalın hâliyle başlar: Open, Close, Write, Listen.", "Fiilden sonra ne yapılacağı gelir: Write + your name + on the paper.", "stand up, sit down, put up your hand iki kelimelik kalıplardır; up / down atılmaz.", "Sayfa: Turn to page 25 (page + sayı)."], "exampleIndex": 0},
+   {"id": "cmd-please-dont", "summary": ["please başta ya da sonda olur: Please sit down. / Sit down, please.", "Olumsuz komut: Don't + yalın fiil → Don't talk. “No talk” yanlıştır.", "Let's + yalın fiil = Hadi …-elim: Let's start."], "exampleIndex": 1}
+  ]},
+  {"screenId": "class-questions", "intro": "Anlamadığında yardım istemeyi bilmek, derste kaybolmamanın yoludur. Can you …? ile rica et, Can I …? ile izin iste; What does … mean? ve How do you say … in English? ile kelime öğren.", "patterns": [
+   {"id": "help-can-you", "summary": ["Can you + yalın fiil = rica: Can you repeat that, please?", "Can I + yalın fiil = izin: Can I go out, please?", "Konuşmanın biçimi için zarf: speak slowly (slow değil)."], "exampleIndex": 0},
+   {"id": "help-what-mean", "summary": ["İngilizce kelimenin anlamı: What does “early” mean? → It means erken.", "Türkçe kelimenin İngilizcesi: How do you say “silgi” in English?", "does varken mean -s almaz: What does … mean?"], "exampleIndex": 0},
+   {"id": "help-dont-understand", "summary": ["Anlamadın: I don't understand. Cevabı bilmiyorsun: I don't know.", "Geç kaldın: Sorry, I'm late. (late bir durum → am)", "Olumsuz yapmak için don't + yalın fiil: I don't understand."], "exampleIndex": 0}
+  ]},
+  {"screenId": "instructions", "intro": "Alıştırma yönergeleri de birer komuttur: Circle, Underline, Tick, Match, Fill in the gaps. Öğretmen bir etkinliği anlatırken kiminle, ne, ne kadar ve sonra bilgilerini yakala.", "patterns": [
+   {"id": "instr-verbs", "summary": ["circle = daire içine al, underline = altını çiz, tick = ✓, cross out = üstünü çiz.", "match = eşleştir, fill in the gaps / complete = boşluğu doldur, choose = seç.", "True or false? → T ya da F yaz. Önce verilen örneği oku."], "exampleIndex": 0},
+   {"id": "instr-teacher-talk", "summary": ["Kiminle: alone / in pairs / in groups of three.", "Süre: You have five minutes. (Beş dakikanız var.)", "Sonra: Then + komut. Bir bilgiyi kaçırırsan: Sorry, how many minutes?"], "exampleIndex": 1}
+  ]},
+  {"screenId": "signs", "intro": "Tabelalar kısadır ve bir işaret gibi okunur: EXIT, PULL, CLOSED, NO SMOKING. Afişlerde ise önce soruyu oku, sonra yalnızca gün, saat, yer ya da ücret bilgisini ara.", "patterns": [
+   {"id": "signs-short", "summary": ["ENTRANCE giriş, EXIT çıkış; PUSH itiniz, PULL çekiniz; OPEN açık, CLOSED kapalı.", "Yasaklar NO ile başlar: NO SMOKING, NO ENTRY. Konuşurken: Don't smoke here.", "GROUND FLOOR zemin kat, FIRST FLOOR birinci kattır."], "exampleIndex": 3},
+   {"id": "signs-scanning", "summary": ["Soruya göre ara: day (gün), time (saat), place (yer), money (ücret).", "every Tuesday (on yok) · Monday to Friday · Opening hours: 9 a.m. – 6 p.m.", "free afişte ücretsiz demektir: It's free."], "exampleIndex": 0}
+  ]},
+  {"screenId": "school-dialogue", "intro": "Elif kursa ilk gün geliyor. Diyalogdan üç kalıp öğren: Excuse me ile söze başla, Where's …? ile yer sor, What time does … start? ile saat sor.", "patterns": [
+   {"id": "dlg-excuse-where", "summary": ["Excuse me ile kibarca söze başla: Excuse me, where's Room 12?", "Cevap: It's in Room 12 (oda için in), on the first floor (kat için on).", "Çoğul yerler are ile: The stairs are on the left."], "exampleIndex": 1},
+   {"id": "dlg-what-time-start", "summary": ["What time does the lesson start? — the lesson = it, bu yüzden does.", "Cevapta fiil -s alır: It starts at nine. It finishes at one.", "Is there a break? — Yes, there is. / Yes, there are three breaks."], "exampleIndex": 0}
+  ]},
+  {"screenId": "numbers", "intro": "Onlukları öğren, gerisini tire ile kur: forty-five. Dikkat edilecek iki nokta: forty u'suz yazılır; thirteen ile thirty vurguyla ayrılır.", "patterns": [
+   {"id": "num-tens", "summary": ["twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, a hundred.", "forty'de u yok (fourty ✗); eighty tek t ile yazılır.", "100 = a hundred / one hundred; sadece hundred eksiktir."], "exampleIndex": 0},
+   {"id": "num-compound", "summary": ["Ara sayılar: onluk + tire + birlik → thirty-four, ninety-nine.", "Saatte dakika olarak kullanılır: 10:45 → ten forty-five.", "1–9 dakika: 6:05 → six oh five (sıfır = oh)."], "exampleIndex": 1},
+   {"id": "num-teen-ty", "summary": ["-teen (13–19): vurgu sonda → thir-TEEN.", "-ty (30, 40 …): vurgu başta → THIR-ty.", "Emin değilsen rakam rakam sor: One-three or three-zero?"], "exampleIndex": 0}
+  ]},
+  {"screenId": "time", "intro": "Saat sorusu: What time is it? / What's the time? Cevap her zaman It's ile başlar. Tam saatte o'clock, diğer saatlerde kolay yol: ten twenty.", "patterns": [
+   {"id": "time-question", "summary": ["What time is it? = What's the time? = Saat kaç?", "Cevap It's + saat; it atlanmaz: It's ten o'clock.", "Kibar: Excuse me, what time is it, please?"], "exampleIndex": 0},
+   {"id": "time-oclock-easy", "summary": ["o'clock yalnızca tam saatte: It's nine o'clock.", "Kolay yol: saat + dakika → It's ten twenty (10:20).", "Dakika varken o'clock kullanılmaz: five twenty o'clock ✗."], "exampleIndex": 1}
+  ]},
+  {"screenId": "past-to", "intro": "Kadranı ikiye böl: sağ yarı past (geçiyor), sol yarı to (var). İngilizcede önce dakika, sonra saat söylenir: quarter past nine. to ile her zaman bir sonraki saat gelir.", "patterns": [
+   {"id": "pt-past", "summary": ["dakika + past + saat: ten past nine (9:10).", ":15 → quarter past · :30 → half past.", "Türkçe “dokuz buçuk” → half past nine (sıra ters!)."], "exampleIndex": 1},
+   {"id": "pt-to", "summary": ["kalan dakika + to + bir sonraki saat: quarter to ten (9:45).", "Kalan dakika = 60 − dakika: 1:40 → twenty to two.", "En sık hata: 9:45 için quarter to nine ✗ → quarter to ten ✓."], "exampleIndex": 0},
+   {"id": "pt-two-ways", "summary": ["Her saatin iki söyleyişi var: half past seven = seven thirty.", "to yolunda saat bir fazla: quarter to eight = seven forty-five.", "Konuşurken birini seç, dinlerken ikisini de anla."], "exampleIndex": 1}
+  ]},
+  {"screenId": "time-write", "intro": "Rakamı yazıya çevirmek için üç adım: dakikaya bak, past mı to mu karar ver, saati yaz. 24 saati 12 saate çevirip a.m. / p.m. ile söyle.", "patterns": [
+   {"id": "tw-method", "summary": ["1. Dakika: :00 o'clock, :15 quarter past, :30 half past, :45 quarter to.", "2. past → aynı saat; to → bir sonraki saat (60 − dakika): 4:50 → ten to five.", "3. Yazımı kontrol et: twenty-five (tire), forty (u yok), o'clock (kesme işareti)."], "exampleIndex": 0},
+   {"id": "tw-ampm", "summary": ["a.m. öğleden önce, p.m. öğleden sonra: 15:00 → 3 p.m.", "12:00 = noon, 00:00 = midnight.", "fifteen o'clock denmez; three o'clock in the afternoon denir."], "exampleIndex": 0}
+  ]},
+  {"screenId": "routines", "intro": "Günlük işleri fiil grupları olarak öğren: get up, have breakfast, go to work, come home, go to bed. Her gün olan işlerde fiil yalın kalır ve am / is / are kullanılmaz.", "patterns": [
+   {"id": "rt-phrases", "summary": ["wake up (uyanmak) ≠ get up (kalkmak).", "Yemekte have, öğünde a yok: have breakfast (have a breakfast ✗).", "go to work / school / bed (the yok) · go home / come home (to yok)."], "exampleIndex": 1},
+   {"id": "rt-present-simple", "summary": ["Her gün olan işler: I / you / we / they + yalın fiil → I get up at seven.", "Fiil varsa am yok: I am get up ✗ → I get up ✓.", "Kendi bedenin için my: brush my teeth, wash my face."], "exampleIndex": 0}
+  ]},
+  {"screenId": "what-time", "intro": "Bir işin saatini sor: What time do you get up? Cevapta saatten önce at gelir: At seven. Zaman edatları: at + saat, in the + günün bölümü, on + gün.", "patterns": [
+   {"id": "wt-question", "summary": ["What time + do + you + yalın fiil? → What time do you get up?", "Cevap: I get up at seven. / Kısaca: At seven.", "Yaklaşık saat: at about six. When daha genel bir “ne zaman”dır."], "exampleIndex": 0},
+   {"id": "wt-prepositions", "summary": ["at + saat: at seven, at noon, at midnight.", "in the morning / afternoon / evening · istisnalar: at night, at the weekend.", "on + gün: on Saturdays · every / this ile edat yok: every morning."], "exampleIndex": 2}
+  ]},
+  {"screenId": "frequency", "intro": "Sıklık zarfları ölçeği: always → usually → often → sometimes → hardly ever → never. Fiilin önüne gelir: I always brush my teeth. never zaten olumsuzdur: I never lie.", "patterns": [
+   {"id": "fq-scale", "summary": ["always (her zaman) · usually (genellikle) · often (sık sık).", "sometimes (bazen) · hardly ever (neredeyse hiç) · never (asla).", "Yer: özne + zarf + fiil → I usually read books."], "exampleIndex": 0},
+   {"id": "fq-position-never", "summary": ["never + olumlu fiil: I never lie. (don't never ✗)", "be fiilinden sonra: I'm always on time. She's never late.", "Soruda: Do you always have breakfast?"], "exampleIndex": 0},
+   {"id": "fq-how-often", "summary": ["How often do you …? = Ne sıklıkla …?", "every day, once a week, twice a week cümlenin sonuna gelir.", "İki kez = twice; two times in a week ✗."], "exampleIndex": 0}
+  ]},
+  {"screenId": "sequence", "intro": "Günü anlatırken cümleleri bağla: First, … Then … After that, … Finally, … İki işin sırası için before ve after ismin önüne gelir: before breakfast.", "patterns": [
+   {"id": "sq-first-then", "summary": ["First (önce) → Then (sonra) → After that (ondan sonra) → Finally (en sonunda).", "First, After that, Finally'den sonra virgül; Then'den sonra genellikle yok.", "Konuşmada: … and then …"], "exampleIndex": 0},
+   {"id": "sq-before-after", "summary": ["before + isim: before breakfast (kahvaltıdan önce).", "after + isim: after work (işten sonra).", "Tek başına “ondan sonra”: after that (after değil)."], "exampleIndex": 0}
+  ]},
+  {"screenId": "he-she", "intro": "he, she ve it ile geniş zamanda fiile -s gelir: She gets up. Yazım: watches, goes, studies, has. Olumsuz doesn't, soru does; ikisinde de fiil yalın kalır.", "patterns": [
+   {"id": "hs-third-person", "summary": ["I / you / we / they get up · he / she / it gets up.", "İsimler de sayılır: Ayşe = she, my husband = he, the bus = it.", "Çoğulda -s yok: My children go to school."], "exampleIndex": 0},
+   {"id": "hs-spelling", "summary": ["Çoğu fiil + s: works, reads.", "-s, -sh, -ch, -x, -o + es: watches, finishes, goes, does.", "sessiz + y → ies (studies) · sesli + y → s (prays) · have → has."], "exampleIndex": 0},
+   {"id": "hs-negative-question", "summary": ["Olumsuz: She doesn't + yalın fiil → She doesn't drink coffee.", "Soru: Does she + yalın fiil? → Yes, she does. / No, she doesn't.", "What time does he get up? (gets değil)"], "exampleIndex": 2},
+   {"id": "hs-tense-choice", "summary": ["Her gün / alışkanlık → geniş zaman: She has breakfast at seven.", "Şu an → şimdiki zaman: She's having breakfast now.", "İpucu: every day, usually ↔ now, at the moment."], "exampleIndex": 0}
+  ]},
+  {"screenId": "reading", "intro": "Önce soruları oku, sonra metinde saatlere, fiillere ve sıklık kelimelerine bak. Soruda fiil yalın (does … get up), metinde ve cevapta -s'li (gets up) olur.", "patterns": [
+   {"id": "rd-strategy", "summary": ["Soru: What time does Ayşe + yalın fiil? Cevap: At … / She + fiil-s.", "Doğru / yanlışta bir kelime anlamı değiştirir: often ↔ never.", "Yanlışı düzelt: False. She never drinks coffee at work."], "exampleIndex": 0},
+   {"id": "rd-retell", "summary": ["Metni he / she ile kendi cümlelerinle anlat: She gets up at six.", "Sıralama kelimeleriyle düzen kur: First, she … Then she …", "Karşılaştır: Ayşe gets up at six, but I get up at seven."], "exampleIndex": 1}
+  ]},
+  {"screenId": "interview", "intro": "Arkadaşına you ile sor, cevabı kısa not al, sonra sınıfa he / she ile anlat. Dinleyenler does ile soru sorarak katılsın.", "patterns": [
+   {"id": "iv-asking", "summary": ["What time do you …? · What do you … for breakfast? · How often do you …?", "What do you do in the evening? (ilk do yardımcı, ikinci do yapmak)", "Tepki ver ve sırayı ver: Really? Me too! And you?"], "exampleIndex": 1},
+   {"id": "iv-reporting", "summary": ["Tanıtarak başla: This is Mehmet.", "Notları he / she ile cümleye çevir: He gets up at six.", "Soru-cevap: Does he drink coffee? — No, he doesn't."], "exampleIndex": 0}
+  ]},
+  {"screenId": "my-day", "intro": "Paragrafı üç bölümde yaz: sabah, gündüz, akşam. Her bölümde bir saat (at …) ve bir sıklık kelimesi kullan; cümleleri first, then, after that ile bağla.", "patterns": [
+   {"id": "md-structure", "summary": ["Giriş: My name is … I'm a … I live in …", "Sabah → gündüz → akşam sırasını izle; bitirirken yatma saatini yaz.", "60–100 kelime ≈ 8–12 kısa ve doğru cümle."], "exampleIndex": 1},
+   {"id": "md-checking", "summary": ["Saatlerden önce at var mı? (at seven)", "Sıklık zarfı fiilin önünde mi? (I always drink tea)", "“I am get up” gibi am + fiil yazdıysan am'i sil; cümleler büyük harfle başlasın."], "exampleIndex": 0}
+  ]},
+  {"screenId": "close", "intro": "Bugünün beş yapısı: komutlar, It's ile saat, at ile işin saati, fiilden önce sıklık zarfı ve he / she ile -s. Kendini değerlendir; Not yet işaretlediğin konuya geri dön.", "patterns": [
+   {"id": "cl-key-structures", "summary": ["Komut: Open your books. · Don't talk.", "Saat: It's half past seven. · İşin saati: I get up at seven.", "Sıklık: I always … · he / she: She gets up at six."], "exampleIndex": 1},
+   {"id": "cl-self-check", "summary": ["Her I can … cümlesi için kendine sor: Bunu şimdi yapabilir miyim?", "Yes! / Almost / Not yet işaretle; Not yet bir sonraki çalışma konusudur.", "Not yet için: özeti oku, örneği tekrar et, Kendini dene sorusunu cevapla."], "exampleIndex": 0}
+  ]}
+ ]
+}

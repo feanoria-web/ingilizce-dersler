@@ -1,0 +1,691 @@
+{
+ "version": 1,
+ "block": 1,
+ "chapters": [
+  {
+   "screenId": "warm",
+   "title": "Isınma: soruyu dinle, ne istediğini bul, kısa ve tam cevap ver",
+   "intro": [
+    "Bu ekranda geçen derslerde öğrendiğimiz soruları hatırlıyoruz. Amaç soruları ezbere bilmek değil; bir soruyu duyduğumuzda onun ne istediğini hemen anlamaktır. What day is it today? bir gün adı ister, How old are you? bir yaş ister, What do you do? bir meslek ister. Sorunun ilk kelimesi (what, how, where, who) bize hangi bilgiyi vermemiz gerektiğini söyler.",
+    "İngilizcede cevap verirken çoğu zaman sorunun bir parçasını kullanırız. What's your phone number? sorusuna It's … diye başlarız; How old are you? sorusuna I'm … diye başlarız. Böylece cevap hem kısa hem tam olur. Bugünkü dersin ilk dakikalarında bu küçük cevap kalıplarını yeniden hızlandırıyoruz; çünkü saat ve günlük işler konusunda da aynı kalıplarla konuşacağız: It's half past seven. I get up at six."
+   ],
+   "patterns": [
+    {
+     "id": "warm-question-words",
+     "title": "What day …? How old …? What do you do?",
+     "meaning": "Soru kelimesinden hangi bilginin istendiğini anlamak",
+     "explanation": [
+      "Soru cümlelerinin başındaki kelime bir pusula gibidir. What day? gün sorar; cevap Monday, Saturday gibi bir gündür. How old? yaş sorar; cevap bir sayıdır. What do you do? kelime kelime “Ne yaparsın?” gibi görünse de günlük konuşmada “Ne iş yaparsın?” anlamına gelir; cevap bir meslektir: I'm a nurse. Where? yer, Who? kişi sorar.",
+      "Bu soruları ayırt etmek için cevap vermeden önce bir saniye durup ilk iki kelimeyi düşünün. What day ile What time birbirine çok benzer ama biri gün, diğeri saat ister. Bugün What time …? sorusunu çok kullanacağız; o yüzden gün sorusu ile saat sorusunu şimdiden ayırmak önemlidir."
+     ],
+     "formula": [
+      "What day is it today? → It's + gün.",
+      "How old are you? → I'm + sayı.",
+      "What do you do? → I'm a / an + meslek."
+     ],
+     "examples": [
+      {
+       "en": "What day is it today? — It's Saturday.",
+       "tr": "Bugün günlerden ne? — Cumartesi.",
+       "why": ["Gün sorusunda cevap It's ile başlar. Gün adları İngilizcede her zaman büyük harfle yazılır: Saturday."]
+      },
+      {
+       "en": "How old are you? — I'm forty-two.",
+       "tr": "Kaç yaşındasınız? — Kırk iki yaşındayım.",
+       "why": ["Yaşı söylerken I'm + sayı yeterlidir. Türkçedeki gibi “yıl sahibiyim” demeyiz; I have forty-two years yanlıştır."]
+      },
+      {
+       "en": "What do you do? — I'm retired.",
+       "tr": "Ne iş yapıyorsunuz? — Emekliyim.",
+       "why": ["Meslek sorusuna emekli, ev hanımı veya öğrenci olduğumuzu da söyleyebiliriz. retired bir sıfat olduğu için önüne a gelmez."]
+      },
+      {
+       "en": "What's your phone number? — It's oh five three two …",
+       "tr": "Telefon numaranız ne? — Sıfır beş yüz otuz iki …",
+       "why": ["Telefon numarasında sıfır genellikle “oh” diye okunur ve rakamlar tek tek söylenir."]
+      }
+     ],
+     "checks": [
+      {"question": "What day is it today? sorusuna “Saat dokuz.” cevabı neden uymaz?", "answer": "Çünkü soru gün istiyor; cevap Monday, Saturday gibi bir gün olmalı: It's Saturday.", "why": "What day gün, What time saat sorar."},
+      {"question": "“Kırk yaşındayım” nasıl söylenir?", "answer": "I'm forty.", "why": "Yaş için I'm + sayı kullanılır."}
+     ],
+     "mistakes": [
+      {"wrong": "I have forty years.", "right": "I'm forty.", "why": "İngilizcede yaş have ile değil be (am) ile söylenir."}
+     ],
+     "contrasts": [
+      {"label": "What day …? / What time …?", "explanation": ["What day gün adını, What time saati sorar. İkisini karıştırmamak için day ve time kelimelerine dikkat edin."], "example": "What day is it? — It's Monday. · What time is it? — It's nine o'clock.", "tr": "Bugün günlerden ne? — Pazartesi. · Saat kaç? — Dokuz."}
+     ]
+    },
+    {
+     "id": "warm-short-answers",
+     "title": "It's … · I'm … · kısa ve tam cevap",
+     "meaning": "Cevabı It's ve I'm ile başlatarak tam cümle kurmak",
+     "explanation": [
+      "Günlük konuşmada sorulara tek kelimeyle de cevap verebiliriz: Saturday. Forty-two. Ama sınıfta tam cümle kurmak, kalıbı yerleştirmemize yardım eder. Eşya, gün, saat ve numara gibi bilgilerde cevap çoğunlukla It's ile başlar. Kendimizle ilgili bilgide ise I'm ile başlar: I'm forty-two. I'm a teacher. I'm from Bursa.",
+      "It's kelimesi it is'in kısaltmasıdır. Buradaki it Türkçeye çevrilmez; “o” diye düşünmeyin. Bugün saatleri söylerken de hep It's diyeceğiz: It's ten o'clock. Bu yüzden ısınmada It's ile cevap vermek, dersin geri kalanına hazırlıktır."
+     ],
+     "formula": [
+      "It's + gün / saat / numara.",
+      "I'm + yaş / meslek / nereli olduğum."
+     ],
+     "examples": [
+      {
+       "en": "It's Saturday. I'm at the English course.",
+       "tr": "Bugün cumartesi. İngilizce kursundayım.",
+       "why": ["İlk cümlede it gün bilgisini taşır. İkinci cümlede kendimizle ilgili yer bilgisi I'm ile verilir."]
+      },
+      {
+       "en": "I'm a nurse. I work at a hospital.",
+       "tr": "Hemşireyim. Bir hastanede çalışırım.",
+       "why": ["Meslekten önce a ya da an gelir. İkinci cümlede bir bilgi daha ekleyerek cevabı büyüttük."]
+      },
+      {
+       "en": "It's oh five four four, one two three, four five six seven.",
+       "tr": "0544 123 45 67.",
+       "why": ["Uzun numaraları gruplara ayırarak okumak, dinleyenin yazmasını kolaylaştırır."]
+      }
+     ],
+     "checks": [
+      {"question": "“Hemşireyim” cümlesini tam olarak yazın.", "answer": "I'm a nurse.", "why": "I'm + a + meslek."},
+      {"question": "It's Saturday cümlesindeki it Türkçeye nasıl çevrilir?", "answer": "Çevrilmez. Türkçede sadece “Cumartesi.” deriz.", "why": "İngilizce cümlede bir özne gerekir; bu görevi it üstlenir."}
+     ],
+     "mistakes": [
+      {"wrong": "Is Saturday.", "right": "It's Saturday.", "why": "İngilizce cümle öznesiz olmaz; it eklenir."}
+     ],
+     "contrasts": []
+    }
+   ]
+  },
+  {
+   "screenId": "commands",
+   "title": "Sınıf komutları: fiille başlayan cümleler",
+   "intro": [
+    "Öğretmenler derste çok kısa ve net cümleler kullanır: Open your books. Listen. Sit down. Bu cümlelerin hepsi bir fiille başlar ve başında kişi zamiri yoktur. Bunlara imperative, yani emir ya da rica cümlesi denir. Türkçedeki “Açın, dinleyin, oturun” gibi düşünebilirsiniz. Kaba değildir; sınıfta, tarifte, yol tarifinde ve kullanım kılavuzlarında her gün kullanılır.",
+    "Bu ekranda üç şeyi öğreniyoruz: komutu anlamak ve uygulamak, komutu kendimiz söyleyebilmek, olumsuz komut (Don't …) ve birlikte yapma önerisi (Let's …) kurmak. Komutları öğrenmenin en iyi yolu onları vücudumuzla yapmaktır. Bu yüzden Simon says gibi hareketli oyunlar oynuyoruz; kelime kas hafızasına da yerleşir."
+   ],
+   "patterns": [
+    {
+     "id": "cmd-imperative",
+     "title": "Open your books. · Fiil + nesne",
+     "meaning": "Birine bir işi yapmasını söylemek, talimat vermek",
+     "explanation": [
+      "İngilizcede emir cümlesi fiilin en sade hâliyle başlar: open, close, listen, write. Fiile hiçbir ek gelmez. Kimin yapacağını söylemeyiz; çünkü dinleyen kişi zaten “sen” ya da “siz”dir. Tek kişiye de bütün sınıfa da aynı cümle söylenir. Türkçede “Aç!” ile “Açın!” arasında fark vardır; İngilizcede ikisi de Open! olur.",
+      "Fiilden sonra neyi yapacağımızı (nesne) ve gerekirse nerede yapacağımızı ekleriz: Write + your name + on the paper. Bazı komutlar iki kelimelik fiillerdir: stand up (ayağa kalk), sit down (otur), put up your hand (parmak kaldır), turn to page 25 (25. sayfayı aç). Bu grupları tek bir parça gibi öğrenmek gerekir; up ve down kelimelerini atarsak anlam bozulur.",
+      "Sayfa söylerken page kelimesi sayıdan önce gelir: page 25 (page twenty-five). Türkçede “25. sayfa” deriz ama İngilizcede sıra sayısı kullanmayız; “twenty-fifth page” demek yerine page twenty-five deriz. Turn to page … ya da Open your books at page … kalıpları en yaygın olanlardır."
+     ],
+     "formula": [
+      "Fiil + nesne: Close the door.",
+      "Fiil + nesne + yer: Write your name on the paper.",
+      "Turn to page + sayı. / Open your books at page + sayı."
+     ],
+     "examples": [
+      {
+       "en": "Open your books at page twelve.",
+       "tr": "Kitaplarınızı on ikinci sayfada açın.",
+       "why": ["Fiil (open) başta, nesne (your books) ortada, sayfa bilgisi (at page twelve) sonda. Sayfa numarası page kelimesinden sonra gelir."],
+       "chunks": [
+        {"en": "Open", "tr": "açın", "note": "Fiilin yalın hâli; ek almaz."},
+        {"en": "your books", "tr": "kitaplarınızı", "note": "Kimin kitabı olduğunu your gösterir."},
+        {"en": "at page twelve", "tr": "on ikinci sayfada", "note": "Sayfa için at page + sayı."}
+       ]
+      },
+      {
+       "en": "Look at the board, please.",
+       "tr": "Tahtaya bakın, lütfen.",
+       "why": ["look at birlikte kullanılır: bir şeye bakmak. Sadece look the board demeyiz. Sondaki please cümleyi kibarlaştırır."]
+      },
+      {
+       "en": "Stand up. Now sit down.",
+       "tr": "Ayağa kalkın. Şimdi oturun.",
+       "why": ["stand up ve sit down iki kelimelik fiillerdir. up yukarı, down aşağı yönü gösterir; hareketi tamamlar."]
+      },
+      {
+       "en": "Work in pairs and ask your partner.",
+       "tr": "İkişerli çalışın ve arkadaşınıza sorun.",
+       "why": ["Bir cümlede iki komut and ile bağlanabilir. pair çift demektir; in pairs ikişerli anlamına gelir."]
+      }
+     ],
+     "checks": [
+      {"question": "“Defterinize yazın” nasıl söylenir?", "answer": "Write in your notebook.", "why": "Komut fiille başlar; you kullanılmaz."},
+      {"question": "“40. sayfayı açın” için iki kalıp yazın.", "answer": "Turn to page forty. / Open your books at page forty.", "why": "page + sayı; forty u'suz yazılır."},
+      {"question": "Stand up ile Sit down arasındaki fark nedir?", "answer": "Stand up ayağa kalkmak, sit down oturmaktır.", "why": "up yukarı, down aşağı yön verir."}
+     ],
+     "mistakes": [
+      {"wrong": "You open your book.", "right": "Open your book.", "why": "Komut cümlesinde özne (you) söylenmez; söylenirse cümle “Kitabını açarsın” gibi bir bildirime döner."},
+      {"wrong": "Open 25 page.", "right": "Turn to page 25.", "why": "İngilizcede sayfa numarası page kelimesinden sonra gelir."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "cmd-please-dont",
+     "title": "please · Don't talk. · Let's start.",
+     "meaning": "Komutu kibarlaştırmak, olumsuz komut vermek ve birlikte yapmayı önermek",
+     "explanation": [
+      "please kelimesi komutu bir ricaya dönüştürür. Cümlenin başında da sonunda da olabilir: Please sit down. / Sit down, please. Sonda kullanırken önüne virgül koyarız. Ses tonu da önemlidir; yumuşak bir tonla söylenen bir komut hiç kaba değildir.",
+      "Bir şeyi yapmamasını söylemek için fiilin önüne Don't getiririz. Don't, do not'ın kısaltmasıdır ve fiil yine yalın kalır: Don't talk. Don't use your phone. Türkçede fiile -me / -ma eki getirerek “Konuşmayın” deriz; İngilizcede bu görevi ayrı bir kelime yapar. No talk ya da Not talk gibi kısa yollar doğru değildir; tabelalarda gördüğümüz NO SMOKING kalıbı ise farklı bir yapıdır.",
+      "Let's (let us) “Hadi …-elim” demektir. Öğretmen sınıfla birlikte bir şey yapacağını söylerken kullanır: Let's start. Let's sing. Let's check the answers. Let's'ten sonra da fiil yalın gelir. Bu kalıp öğrenciler arasında da çok kullanışlıdır: Let's work together."
+     ],
+     "formula": [
+      "Please + fiil … / Fiil …, please.",
+      "Don't + fiil: Don't talk.",
+      "Let's + fiil: Let's start."
+     ],
+     "examples": [
+      {
+       "en": "Please close the door.",
+       "tr": "Lütfen kapıyı kapatın.",
+       "why": ["please başta olduğunda virgül gerekmez. Bu cümle bir rica olarak duyulur."]
+      },
+      {
+       "en": "Don't look at the answers.",
+       "tr": "Cevaplara bakmayın.",
+       "why": ["Don't + look at: fiil yalın kalır. Sınavda ya da alıştırmada sık duyulur."]
+      },
+      {
+       "en": "Don't use your phone in the lesson, please.",
+       "tr": "Derste telefonunuzu kullanmayın, lütfen.",
+       "why": ["Olumsuz komutla please birlikte kullanılabilir. in the lesson zamanı ve yeri belirtir."]
+      },
+      {
+       "en": "Let's check the answers together.",
+       "tr": "Hadi cevapları birlikte kontrol edelim.",
+       "why": ["Let's ile öğretmen de işe katılır. together (birlikte) cümlenin sonuna gelir."]
+      }
+     ],
+     "checks": [
+      {"question": "“Konuşmayın” nasıl söylenir?", "answer": "Don't talk.", "why": "Olumsuz komut: Don't + yalın fiil."},
+      {"question": "“Hadi başlayalım” cümlesini yazın.", "answer": "Let's start.", "why": "Let's + yalın fiil."}
+     ],
+     "mistakes": [
+      {"wrong": "No talk.", "right": "Don't talk.", "why": "Konuşmayı yasaklarken komut yapısı Don't + fiil'dir."},
+      {"wrong": "Sit down please you.", "right": "Sit down, please.", "why": "Komutta you kullanılmaz; please sona virgülle eklenir."}
+     ],
+     "contrasts": [
+      {"label": "Don't talk. / NO SMOKING", "explanation": ["Konuşurken olumsuz komut Don't + fiil ile kurulur. Tabelalarda ise kısa bir kalıp kullanılır: NO + fiil-ing (NO SMOKING, NO PARKING). Bu tabela kalıbını konuşmada komut olarak kullanmayız."], "example": "Don't smoke here. · NO SMOKING", "tr": "Burada sigara içmeyin. · Sigara içilmez."}
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "class-questions",
+   "title": "Sınıfta yardım istemek: tekrar, yavaş, anlam, heceleme",
+   "intro": [
+    "Yeni bir dil öğrenirken her şeyi ilk seferde anlamak mümkün değildir. Önemli olan anlamadığımızı söyleyebilmek ve yardım isteyebilmektir. Bu ekrandaki cümleler sınıfın can simidi gibidir: Can you repeat that, please? Can you speak slowly, please? What does … mean? How do you say … in English? Bunları ezberleyen bir öğrenci derste hiç kaybolmaz.",
+    "Bu cümlelerin çoğu iki kalıba dayanır. Can you …? başkasından bir şey yapmasını rica ederken, Can I …? kendimiz için izin isterken kullanılır. Diğer kalıplar ise kelime öğrenmek içindir: Bir İngilizce kelimenin anlamını sorarken What does … mean?, bir Türkçe kelimenin İngilizcesini sorarken How do you say … in English? deriz."
+   ],
+   "patterns": [
+    {
+     "id": "help-can-you",
+     "title": "Can you repeat that, please? · Can I go out?",
+     "meaning": "Kibarca rica etmek ve izin istemek",
+     "explanation": [
+      "Can you …? “… -ebilir misiniz?” anlamında bir ricadır. Can'den sonra fiil yalın gelir: Can you repeat that? Can you speak slowly? Sona please eklemek cümleyi daha kibar yapar. Burada that, karşımızdakinin az önce söylediği şeyi gösterir: “onu, az önce söylediğinizi”.",
+      "Can I …? ise “… -ebilir miyim?” demektir; kendimiz için izin isteriz: Can I go out, please? Can I open the window? Cevap genellikle Yes, of course. (Evet, tabii.) ya da Sorry, not now. (Üzgünüm, şimdi olmaz.) olur. Sınıfta tuvalete gitmek için Can I go to the toilet, please? ya da daha kısaca Can I go out, please? denir.",
+      "slowly kelimesine dikkat edin: slow yavaş (sıfat), slowly yavaşça (zarf) demektir. Konuşma şeklini anlatırken zarf gerekir: speak slowly. Benzer şekilde speak loudly (yüksek sesle konuş) denir."
+     ],
+     "formula": [
+      "Can you + fiil …, please? (rica)",
+      "Can I + fiil …, please? (izin)",
+      "Cevap: Yes, of course. / Sorry, not now."
+     ],
+     "examples": [
+      {
+       "en": "Sorry, can you repeat that, please?",
+       "tr": "Pardon, tekrar eder misiniz, lütfen?",
+       "why": ["Başa Sorry eklemek, sözü kestiğimiz için özür dilemek anlamına gelir ve cümleyi yumuşatır."],
+       "chunks": [
+        {"en": "Sorry,", "tr": "pardon", "note": "Dikkat çekmek ve kibar olmak için."},
+        {"en": "can you repeat", "tr": "tekrar eder misiniz", "note": "Can you + yalın fiil."},
+        {"en": "that, please?", "tr": "onu, lütfen", "note": "that az önce söyleneni gösterir."}
+       ]
+      },
+      {
+       "en": "Can you speak slowly, please? I'm a beginner.",
+       "tr": "Yavaş konuşur musunuz, lütfen? Yeni başlıyorum.",
+       "why": ["İkinci cümle nedenini açıklar. beginner yeni başlayan demektir."]
+      },
+      {
+       "en": "Can I open the window, please? — Yes, of course.",
+       "tr": "Pencereyi açabilir miyim, lütfen? — Evet, tabii.",
+       "why": ["Can I ile izin isteriz. of course tabii ki demektir."]
+      },
+      {
+       "en": "Can you write it on the board, please?",
+       "tr": "Tahtaya yazar mısınız, lütfen?",
+       "why": ["Duyduğumuz bir kelimeyi görmek istediğimizde çok kullanışlı bir cümledir."]
+      }
+     ],
+     "checks": [
+      {"question": "Öğretmen çok hızlı konuşuyor. Ne dersiniz?", "answer": "Can you speak slowly, please?", "why": "Rica: Can you + fiil; slowly zarftır."},
+      {"question": "Dışarı çıkmak için izin isteyin.", "answer": "Can I go out, please?", "why": "Kendimiz için izin: Can I."}
+     ],
+     "mistakes": [
+      {"wrong": "Can you speak slow?", "right": "Can you speak slowly?", "why": "Konuşmanın nasıl olduğunu anlatırken zarf (slowly) kullanılır."},
+      {"wrong": "Can I to go out?", "right": "Can I go out?", "why": "can'den sonra to gelmez; fiil yalındır."}
+     ],
+     "contrasts": [
+      {"label": "Can you …? / Can I …?", "explanation": ["Can you karşımızdakinden bir şey ister; işi o yapar. Can I izin ister; işi biz yaparız."], "example": "Can you open the window? · Can I open the window?", "tr": "Pencereyi açar mısınız? · Pencereyi açabilir miyim?"}
+     ]
+    },
+    {
+     "id": "help-what-mean",
+     "title": "What does … mean? · How do you say … in English?",
+     "meaning": "Bir kelimenin anlamını ya da İngilizcesini sormak",
+     "explanation": [
+      "Bir İngilizce kelimeyi anlamadığımızda What does … mean? deriz. Kelime ortaya gelir: What does early mean? Burada does yardımcı fiildir; bu yüzden sondaki fiil mean olarak kalır, means olmaz. Cevap genellikle It means … diye başlar: Early means erken.",
+      "Türkçe bir kelimenin İngilizcesini öğrenmek istediğimizde How do you say … in English? deriz: How do you say silgi in English? Buradaki you belirli bir kişi değil, “insanlar, genel olarak” anlamındadır. Cevap kısaca kelimenin kendisidir: Eraser. Ya da You say eraser.",
+      "Bir kelimeyi duyup yazamadığımızda How do you spell it? (Nasıl yazılıyor?) diye sorarız. Önceki derslerde öğrendiğimiz alfabe burada işe yarar: E, A, R, L, Y. Bu üç soruyu birlikte kullanırsak yeni bir kelimenin anlamını, yazılışını ve İngilizcesini kendimiz öğrenebiliriz."
+     ],
+     "formula": [
+      "What does + İngilizce kelime + mean? → It means …",
+      "How do you say + Türkçe kelime + in English? → You say …",
+      "How do you spell it? → harf harf"
+     ],
+     "examples": [
+      {
+       "en": "What does “weekend” mean? — It means hafta sonu.",
+       "tr": "“weekend” ne demek? — Hafta sonu demek.",
+       "why": ["Soruda does olduğu için mean ek almaz. Cevapta ise It means … kullanılır; burada means -s alır çünkü özne it'tir."]
+      },
+      {
+       "en": "How do you say “saat” in English? — Clock or time.",
+       "tr": "“Saat” İngilizcede nasıl denir? — Clock ya da time.",
+       "why": ["Bazı Türkçe kelimelerin birden fazla karşılığı vardır. Duvardaki saat clock, saat kaç sorusundaki saat time'dır."]
+      },
+      {
+       "en": "How do you spell “early”? — E, A, R, L, Y.",
+       "tr": "“early” nasıl yazılıyor? — E, A, R, L, Y.",
+       "why": ["Harfler tek tek söylenir. Yazılışla okunuş farklı olduğu için bu soru çok önemlidir."]
+      }
+     ],
+     "checks": [
+      {"question": "“quiet” kelimesinin anlamını sorun.", "answer": "What does “quiet” mean?", "why": "What does + kelime + mean?"},
+      {"question": "“kapı” kelimesinin İngilizcesini sorun.", "answer": "How do you say “kapı” in English?", "why": "Türkçe kelimenin İngilizcesi How do you say … in English? ile sorulur."}
+     ],
+     "mistakes": [
+      {"wrong": "What means “early”?", "right": "What does “early” mean?", "why": "Soru does ile kurulur; mean sona gelir."},
+      {"wrong": "What does “early” means?", "right": "What does “early” mean?", "why": "does varken fiil -s almaz."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "help-dont-understand",
+     "title": "I don't understand. · I don't know. · Sorry, I'm late.",
+     "meaning": "Anlamadığını, bilmediğini söylemek ve kibarca özür dilemek",
+     "explanation": [
+      "I don't understand anlamadığımızı, I don't know ise bilmediğimizi söyler. İkisi farklıdır: Öğretmen bir soru sorduğunda cevabı bilmiyorsak I don't know deriz; sorunun kendisini anlamadıysak I don't understand deriz. Her ikisinde de don't (do not) olumsuzluk yapar ve fiil yalın kalır.",
+      "Derse geç geldiğimizde Sorry, I'm late. deriz. late geç, early erken demektir. Bu cümlede am kullanıyoruz; çünkü late bir durum bildiren sıfattır: I'm late, I'm tired, I'm ready. Bitirdiğimizde I've finished. (Bitirdim.) ve kontrol ettirmek istediğimizde Is this correct? (Bu doğru mu?) sorularını da sık kullanırız."
+     ],
+     "formula": [
+      "I don't + fiil: I don't understand. I don't know.",
+      "Sorry, I'm + durum: Sorry, I'm late."
+     ],
+     "examples": [
+      {
+       "en": "Sorry, I don't understand. Can you repeat that?",
+       "tr": "Pardon, anlamadım. Tekrar eder misiniz?",
+       "why": ["Anlamadığımızı söyledikten sonra bir çözüm istemek konuşmayı sürdürür."]
+      },
+      {
+       "en": "What's the answer? — I don't know.",
+       "tr": "Cevap ne? — Bilmiyorum.",
+       "why": ["Soruyu anladık ama cevabı bilmiyoruz; bu yüzden know kullanılır."]
+      },
+      {
+       "en": "Sorry, I'm late. The bus was late.",
+       "tr": "Özür dilerim, geç kaldım. Otobüs geç kaldı.",
+       "why": ["İkinci cümle nedeni açıklar; was, am'in geçmiş hâlidir. Burada yalnızca tanımanız yeterli."]
+      }
+     ],
+     "checks": [
+      {"question": "Soruyu anlamadınız. Ne dersiniz?", "answer": "Sorry, I don't understand.", "why": "Soruyu anlamamak = understand."},
+      {"question": "“Geç kaldım” cümlesinde neden am var?", "answer": "Çünkü late bir durum bildirir: I'm late.", "why": "Durum ve duygu sıfatları am / is / are ile kullanılır."}
+     ],
+     "mistakes": [
+      {"wrong": "I not understand.", "right": "I don't understand.", "why": "Fiili olumsuz yapmak için don't gerekir."}
+     ],
+     "contrasts": [
+      {"label": "I don't understand / I don't know", "explanation": ["understand anlamak, know bilmektir. Soruyu anlamadıysanız understand, cevabı bilmiyorsanız know kullanın."], "example": "I don't understand the question. · I don't know the answer.", "tr": "Soruyu anlamıyorum. · Cevabı bilmiyorum."}
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "instructions",
+   "title": "Yönergeler: kitapta, sınavda ve öğretmenin ağzından",
+   "intro": [
+    "Her alıştırmanın başında kısa bir yönerge vardır ve bu yönergeler çoğu zaman aynı fiillerle yazılır: Circle, Underline, Tick, Match, Fill in the gaps, Choose. Bu fiilleri tanıyan bir öğrenci sınavda ne yapacağını hemen anlar. Yönergeyi yanlış anlamak, bilinen bir soruyu da yanlış cevaplamaya yol açar. Bu yüzden yönerge kelimelerini konu kelimeleri kadar önemli görmeliyiz.",
+    "Kitaplar yönergeleri resimlerle de destekler: bir daire, bir tik işareti, bir kalem. Resimler bize ipucu verir ama tek başına yetmez. Bu ekranda hem yazılı yönergeleri okuyup uyguluyoruz hem de öğretmenin sözlü olarak yaptığı açıklamaları dinleyip anlıyoruz: kiminle çalışacağız, ne yapacağız, ne kadar süremiz var ve sonunda ne olacak."
+   ],
+   "patterns": [
+    {
+     "id": "instr-verbs",
+     "title": "Circle · Underline · Tick · Match · Fill in the gaps",
+     "meaning": "Alıştırma yönergelerindeki fiilleri tanımak ve uygulamak",
+     "explanation": [
+      "Yönerge cümleleri de komut cümleleridir: fiil başta durur. circle daire içine almak, underline altını çizmek, tick (✓) işaretlemek, cross out üstünü çizmek, match eşleştirmek, fill in doldurmak, choose seçmek, complete tamamlamak, number numaralamak demektir. Fiilden sonra neyi yapacağımız gelir: Circle + the correct answer.",
+      "Bazı yönergeler bir sonucu da söyler: Put the words in order (kelimeleri sıraya koy), True or false? Write T or F. (Doğru mu yanlış mı? T ya da F yaz.). gap boşluk demektir; fill in the gaps “boşlukları doldurun” anlamına gelir. Sınav kâğıtlarında bunların yanında genellikle bir örnek (Example) de verilir; önce örneği okumak işi kolaylaştırır.",
+      "Yönergeyi okurken iki bilgiye dikkat edin: ne yapacağız (fiil) ve neyle yapacağız (nesne). Underline the verbs ile Underline the times farklı işlerdir; birinde fiillerin, diğerinde saatlerin altını çizeriz."
+     ],
+     "formula": [
+      "Fiil + the + ne: Circle the correct answer.",
+      "Fill in the gaps / Complete the sentences.",
+      "True or false? Write T or F."
+     ],
+     "examples": [
+      {
+       "en": "Circle the correct answer: I (am / is) a student.",
+       "tr": "Doğru cevabı daire içine alın: Ben öğrenciyim.",
+       "why": ["Parantez içindeki seçeneklerden doğru olanı (am) daire içine alırız."]
+      },
+      {
+       "en": "Underline the verbs: I get up at seven.",
+       "tr": "Fiillerin altını çizin: Yedide kalkarım.",
+       "why": ["Bu cümlede fiil get up'tır; iki kelimenin de altı çizilir."]
+      },
+      {
+       "en": "Tick the true sentences.",
+       "tr": "Doğru cümlelere tik atın.",
+       "why": ["tick ✓ işaretidir. Yanlış cümlelere ise genellikle cross (✗) konur."]
+      },
+      {
+       "en": "Match the words and the pictures.",
+       "tr": "Kelimeleri ve resimleri eşleştirin.",
+       "why": ["match eşleştirmek demektir. Cevap genellikle 1 – c, 2 – a gibi yazılır."]
+      },
+      {
+       "en": "Put the words in order: up / I / get / at six.",
+       "tr": "Kelimeleri sıraya koyun: altıda kalkarım.",
+       "why": ["Doğru sıra: I get up at six. Özne + fiil + zaman."]
+      }
+     ],
+     "checks": [
+      {"question": "Underline the times. Ne yaparsınız?", "answer": "Saatlerin altını çizerim.", "why": "underline = altını çizmek; times = saatler."},
+      {"question": "True or false? sorusuna nasıl cevap verilir?", "answer": "Doğruysa T (true), yanlışsa F (false) yazılır.", "why": "true doğru, false yanlış demektir."}
+     ],
+     "mistakes": [
+      {"wrong": "Circle the answer. → cevabın altını çizmek", "right": "Circle the answer. → cevabı daire içine almak", "why": "circle daire demektir; altını çizmek underline'dır."}
+     ],
+     "contrasts": [
+      {"label": "tick / cross out", "explanation": ["tick bir şeyi doğru ya da seçili olarak işaretler (✓). cross out bir kelimenin üstünü çizip yanlış olduğunu gösterir."], "example": "Tick the true sentences. · Cross out the wrong word.", "tr": "Doğru cümlelere tik atın. · Yanlış kelimenin üstünü çizin."}
+     ]
+    },
+    {
+     "id": "instr-teacher-talk",
+     "title": "Work in groups of three. You have five minutes.",
+     "meaning": "Öğretmenin etkinlik açıklamasından kim, ne, ne kadar ve sonra bilgilerini çıkarmak",
+     "explanation": [
+      "Öğretmen bir etkinliği anlatırken birkaç kısa cümle art arda söyler. Bu cümlelerden dört bilgiyi yakalamaya çalışın. Birincisi kiminle çalışacağımız: alone (tek başına), in pairs (ikişerli), in groups of three (üçerli gruplar). İkincisi ne yapacağımız: write five words, ask your partner, match the cards. Üçüncüsü süre: You have five minutes. Dördüncüsü sonunda ne olacağı: Then read your words to the class.",
+      "in groups of three kalıbında of'tan sonra gelen sayı, gruptaki kişi sayısını söyler. You have five minutes cümlesinde have sahip olmak anlamındadır: “Beş dakikanız var.” Then (sonra) sıradaki adımı haber verir. Ready? (Hazır mısınız?) ve Let's start! (Hadi başlayalım!) ise etkinliğin başladığını gösterir.",
+      "Her kelimeyi anlamasanız da bu dört bilgiyi yakaladıysanız etkinliği yapabilirsiniz. Eksik bilgi varsa tek kelimeyle sorabilirsiniz: Sorry, how many minutes? Sorry, groups of three or four?"
+     ],
+     "formula": [
+      "Kiminle: Work alone / in pairs / in groups of + sayı.",
+      "Süre: You have + sayı + minutes.",
+      "Sonra: Then + komut."
+     ],
+     "examples": [
+      {
+       "en": "Work in groups of three. Take a paper.",
+       "tr": "Üçerli gruplar hâlinde çalışın. Bir kâğıt alın.",
+       "why": ["İlk cümle kiminle çalışacağımızı, ikinci cümle ilk adımı söyler."],
+       "chunks": [
+        {"en": "Work", "tr": "çalışın", "note": "Komut fiili."},
+        {"en": "in groups", "tr": "gruplar hâlinde", "note": "Çoğul: groups."},
+        {"en": "of three", "tr": "üçerli", "note": "Gruptaki kişi sayısı."}
+       ]
+      },
+      {
+       "en": "You have five minutes.",
+       "tr": "Beş dakikanız var.",
+       "why": ["have burada sahip olmak demektir. Türkçede “var” deriz; İngilizcede you have kullanılır."]
+      },
+      {
+       "en": "Then read your words to the class.",
+       "tr": "Sonra kelimelerinizi sınıfa okuyun.",
+       "why": ["Then sıradaki adımı gösterir. read … to the class: sınıfa okumak."]
+      },
+      {
+       "en": "Work alone. Don't talk to your partner.",
+       "tr": "Tek başınıza çalışın. Arkadaşınızla konuşmayın.",
+       "why": ["alone tek başına demektir. Ardından gelen olumsuz komut kuralı açıklar."]
+      }
+     ],
+     "checks": [
+      {"question": "Öğretmen “Work in pairs. You have ten minutes.” dedi. Kaç kişiyle ve ne kadar süre çalışırsınız?", "answer": "Bir arkadaşla (ikişerli), on dakika.", "why": "in pairs = ikişerli; ten minutes = on dakika."},
+      {"question": "Süreyi anlamadınız. Ne sorarsınız?", "answer": "Sorry, how many minutes?", "why": "how many + çoğul isim ile sayı sorulur."}
+     ],
+     "mistakes": [
+      {"wrong": "You have five minute.", "right": "You have five minutes.", "why": "Birden fazla dakika olduğu için minutes çoğuldur."}
+     ],
+     "contrasts": []
+    }
+   ]
+  },
+  {
+   "screenId": "signs",
+   "title": "Tabela, afiş ve broşürlerde önemli bilgiyi bulmak",
+   "intro": [
+    "Okulda, hastanede, belediye binasında ya da bir alışveriş merkezinde her yerde tabelalar ve duyurular vardır. Bunlar çok kısa yazılır: EXIT, PULL, CLOSED, NO SMOKING. Tam cümle değildir; sadece en önemli bilgiyi verirler. Bu yüzden onları bir cümle gibi değil, bir işaret gibi okuruz.",
+    "Afiş ve broşürlerde ise daha çok bilgi vardır: gün, saat, yer, ücret. Hepsini okumak zorunda değiliz. Önce soruyu okuruz (Ne zaman? Nerede? Kaç lira?), sonra metinde gözümüzü gezdirerek sadece o bilgiyi ararız. Buna tarama (scanning) denir. Gün adları, saatler ve sayılar metinde kolay göze çarpar; bu da taramayı kolaylaştırır."
+   ],
+   "patterns": [
+    {
+     "id": "signs-short",
+     "title": "EXIT · PUSH · CLOSED · NO SMOKING",
+     "meaning": "Kısa tabelaları tanımak ve ne yapmamız gerektiğini anlamak",
+     "explanation": [
+      "Tabelalar genellikle tek kelime ya da iki kelimedir ve büyük harflerle yazılır. ENTRANCE giriş, EXIT çıkıştır. PUSH kapıyı itin, PULL kapıyı çekin demektir; Türkiye'de kapılarda gördüğümüz İTİNİZ / ÇEKİNİZ ile aynıdır. OPEN açık, CLOSED kapalıdır; bir dükkânın kapısında asılı durur.",
+      "Yasak bildiren tabelalar çoğu zaman NO ile başlar: NO SMOKING (sigara içilmez), NO ENTRY (girilmez), NO PARKING (park yapılmaz). NO'dan sonra -ing'li bir fiil ya da bir isim gelir. Bu kısa kalıp yalnızca tabelalarda kullanılır; konuşurken Don't smoke here. deriz.",
+      "Okuldaki yerlerin tabelaları da önemlidir: TOILETS, LIBRARY (kütüphane), CANTEEN (kantin), OFFICE (ofis, müdürlük), STAIRS (merdiven), LIFT (asansör). Kat bilgisinde İngiliz kullanımına dikkat edin: GROUND FLOOR zemin kat, FIRST FLOOR ise zeminin bir üstü yani birinci kattır."
+     ],
+     "formula": [
+      "NO + fiil-ing / isim: NO SMOKING, NO ENTRY.",
+      "Yer tabelası: LIBRARY, CANTEEN, TOILETS.",
+      "Kat: GROUND FLOOR (zemin) · FIRST FLOOR (1. kat)"
+     ],
+     "examples": [
+      {
+       "en": "PULL — I pull the door.",
+       "tr": "ÇEKİNİZ — Kapıyı çekerim.",
+       "why": ["Tabeladaki kelime bir komuttur. Kapıyı kendimize doğru çekeriz."]
+      },
+      {
+       "en": "The library is closed on Sunday.",
+       "tr": "Kütüphane pazar günü kapalıdır.",
+       "why": ["closed bir durumdur; is ile kullanılır. Gün için on kullanılır."]
+      },
+      {
+       "en": "NO ENTRY — Don't go in, please.",
+       "tr": "GİRİLMEZ — Lütfen içeri girmeyin.",
+       "why": ["Tabeladaki kısa yasak, konuşmada Don't + fiil ile söylenir."]
+      },
+      {
+       "en": "The toilets are on the ground floor, next to the stairs.",
+       "tr": "Tuvaletler zemin katta, merdivenlerin yanında.",
+       "why": ["Kat için on, yan yana olmak için next to kullanılır."]
+      }
+     ],
+     "checks": [
+      {"question": "Kapıda PUSH yazıyor. Ne yaparsınız?", "answer": "Kapıyı iterim.", "why": "push = itmek, pull = çekmek."},
+      {"question": "FIRST FLOOR hangi kattır?", "answer": "Zemin katın bir üstü, yani birinci kat.", "why": "Zemin kat GROUND FLOOR'dur."}
+     ],
+     "mistakes": [
+      {"wrong": "FIRST FLOOR = zemin kat", "right": "GROUND FLOOR = zemin kat; FIRST FLOOR = birinci kat", "why": "İngiliz kullanımında sayım zemin kattan sonra başlar."}
+     ],
+     "contrasts": [
+      {"label": "open / closed", "explanation": ["open açık, closed kapalıdır. Kapının üzerindeki tabela dükkânın şu anki durumunu gösterir. close (kapatmak) fiili ile closed (kapalı) durumunu karıştırmayın."], "example": "OPEN 9–5 · CLOSED on Sundays", "tr": "9–5 arası açık · Pazar günleri kapalı"}
+     ]
+    },
+    {
+     "id": "signs-scanning",
+     "title": "Every Tuesday at 4:30 · Room 12 · free",
+     "meaning": "Afiş ve duyurularda gün, saat, yer ve ücret bilgisini taramak",
+     "explanation": [
+      "Bir afişte birçok bilgi vardır ama sorular genellikle dört şey ister: hangi gün (day), saat kaçta (time), nerede (place) ve kaç para (money). Soruyu okuduktan sonra metinde o türdeki bilgiyi arayın. Gün sorusu için büyük harfle başlayan gün adlarına, saat sorusu için rakamlara ve a.m. / p.m. gibi işaretlere bakın.",
+      "Duyurularda sık geçen kalıplar şunlardır: Every Tuesday (her salı), Monday to Friday (pazartesiden cumaya), Opening hours (açılış saatleri), Room 12 (12 numaralı oda / sınıf), first floor (birinci kat), All levels welcome (her seviye katılabilir), It's free (ücretsiz). free burada bedava, ücretsiz demektir.",
+      "Bir bilgiyi bulduğunuzda soruya tam cevap verin: When is the English Club? — Every Tuesday at half past four. Where is it? — In Room 12, on the first floor. Rakamla yazılan saati okurken bugün öğrendiğimiz saat ifadelerini kullanırız: 4:30 → half past four."
+     ],
+     "formula": [
+      "Every + gün: every Tuesday.",
+      "gün to gün: Monday to Friday.",
+      "Opening hours: 9 a.m. – 6 p.m."
+     ],
+     "examples": [
+      {
+       "en": "The English Club is every Tuesday at half past four.",
+       "tr": "İngilizce kulübü her salı dört buçukta.",
+       "why": ["every Tuesday tekrar eden günü, at half past four saati verir. Saatten önce at gelir."],
+       "chunks": [
+        {"en": "every Tuesday", "tr": "her salı", "note": "Tekrar eden gün; on kullanılmaz."},
+        {"en": "at half past four", "tr": "dört buçukta", "note": "Saat için at."}
+       ]
+      },
+      {
+       "en": "The library is open from Monday to Friday, 9 a.m. to 6 p.m.",
+       "tr": "Kütüphane pazartesiden cumaya, sabah 9'dan akşam 6'ya kadar açık.",
+       "why": ["from … to … bir aralık bildirir: …-den …-e kadar."]
+      },
+      {
+       "en": "It's free. You don't pay.",
+       "tr": "Ücretsiz. Para ödemezsiniz.",
+       "why": ["free bu bağlamda ücretsiz demektir; pay ödemek fiilidir."]
+      }
+     ],
+     "checks": [
+      {"question": "Afişte “Every Tuesday · 4:30 p.m. · Room 12” yazıyor. Kulüp ne zaman?", "answer": "Every Tuesday at half past four (in the afternoon).", "why": "Gün + saat bilgisi."},
+      {"question": "Opening hours ne demek?", "answer": "Açılış saatleri, yani bir yerin açık olduğu saatler.", "why": "open açık, hours saatler."}
+     ],
+     "mistakes": [
+      {"wrong": "on every Tuesday", "right": "every Tuesday", "why": "every ile gün söylerken on kullanılmaz."}
+     ],
+     "contrasts": []
+    }
+   ]
+  },
+  {
+   "screenId": "school-dialogue",
+   "title": "Okulda bir diyalog: yer sormak, saat sormak, teşekkür etmek",
+   "intro": [
+    "Bu diyalogda Elif kursa ilk gün geliyor ve danışmadaki görevliden bilgi alıyor. Diyalog bize üç önemli işi öğretiyor: dikkat çekip söze başlamak (Excuse me), bir yeri sormak (Where's the English class?) ve bir saati sormak (What time does the lesson start?). Bu kalıpları okulda olduğu kadar hastanede, bankada ya da belediyede de kullanabiliriz.",
+    "Diyaloğu okurken önce soruları okuyun: Elif kim? Sınıf nerede? Ders kaçta başlıyor ve bitiyor? Sonra diyalogda bu bilgileri arayın. Her kelimeyi bilmeseniz de sorunun cevabını bulabilirsiniz. Ardından rolleri paylaşarak diyaloğu canlandırın; ikinci turda bilgileri değiştirin (başka bir sınıf, başka bir saat)."
+   ],
+   "patterns": [
+    {
+     "id": "dlg-excuse-where",
+     "title": "Excuse me, where's Room 12? — It's on the first floor.",
+     "meaning": "Kibarca söze girip bir yerin nerede olduğunu sormak ve söylemek",
+     "explanation": [
+      "Excuse me (affedersiniz) tanımadığımız birine söze başlarken kullanılır. Bir şey sormadan önce dikkat çeker ve nazik bir başlangıçtır. Sorry ise genellikle bir hatadan dolayı özür dilerken kullanılır; ama Sorry? (yükselen tonla) “Efendim, anlamadım” anlamına da gelir.",
+      "Yer sorusu Where is …? ya da kısaca Where's …? ile kurulur. Cevap It's … ile başlar ve bir yer edatı içerir: It's in Room 12 (12 numaralı odada), It's on the first floor (birinci katta), It's next to the stairs (merdivenlerin yanında), It's on the left (solda), It's on the right (sağda). Kat için on, oda ve bina için in kullanılır.",
+      "Birden fazla şeyden söz ederken are kullanılır: The stairs are on the left. (Merdivenler solda.) The toilets are next to the canteen. Çünkü stairs ve toilets çoğuldur."
+     ],
+     "formula": [
+      "Excuse me, where's + yer?",
+      "It's in + oda / bina. · It's on the + kat. · It's next to + yer.",
+      "Çoğul: The stairs are on the left."
+     ],
+     "examples": [
+      {
+       "en": "Excuse me. Where's the English class?",
+       "tr": "Affedersiniz. İngilizce dersi nerede?",
+       "why": ["Excuse me ile söze başlıyoruz; Where's = Where is."]
+      },
+      {
+       "en": "It's in Room 12, on the first floor.",
+       "tr": "12 numaralı sınıfta, birinci katta.",
+       "why": ["Oda için in, kat için on kullanılır. Room kelimesinden sonra numara gelir."],
+       "chunks": [
+        {"en": "It's", "tr": "o …-de", "note": "Yer bilgisinin başı."},
+        {"en": "in Room 12", "tr": "12 numaralı odada", "note": "Odanın içinde: in."},
+        {"en": "on the first floor", "tr": "birinci katta", "note": "Kat: on the … floor."}
+       ]
+      },
+      {
+       "en": "The stairs are on the left.",
+       "tr": "Merdivenler solda.",
+       "why": ["stairs çoğul olduğu için are kullanılır. on the left = solda."]
+      }
+     ],
+     "checks": [
+      {"question": "“Kütüphane nerede?” diye kibarca sorun.", "answer": "Excuse me, where's the library?", "why": "Excuse me + Where's …?"},
+      {"question": "“Zemin katta” nasıl söylenir?", "answer": "On the ground floor.", "why": "Kat için on the … floor."}
+     ],
+     "mistakes": [
+      {"wrong": "It's in the first floor.", "right": "It's on the first floor.", "why": "Katlar için on kullanılır."}
+     ],
+     "contrasts": [
+      {"label": "Excuse me / Sorry", "explanation": ["Excuse me bir şey sormadan önce dikkat çeker. Sorry bir hatadan sonra özür diler."], "example": "Excuse me, where's Room 12? · Sorry, I'm late.", "tr": "Affedersiniz, 12 numara nerede? · Özür dilerim, geç kaldım."}
+     ]
+    },
+    {
+     "id": "dlg-what-time-start",
+     "title": "What time does the lesson start? — It starts at nine.",
+     "meaning": "Bir etkinliğin başlama ve bitiş saatini sormak ve söylemek",
+     "explanation": [
+      "Bir dersin, filmin ya da otobüsün saatini sorarken What time does … start / finish? kalıbını kullanırız. Burada does vardır, çünkü özne the lesson'dır ve the lesson tekildir (it). Soruda fiil yalın kalır: start. Cevapta ise fiil -s alır: It starts at nine. It finishes at one. Bu -s'yi dersin 4. bölümünde ayrıntılı göreceğiz.",
+      "Saatten önce at gelir: at nine o'clock, at half past nine. Diyalogdaki Is there a break? sorusu “Mola var mı?” demektir; cevap Yes, there is. ya da birden fazlaysa Yes, there are three breaks. olur. Diyaloğun sonunda Here's your book. (İşte kitabınız.) ve Have a nice day! (İyi günler!) gibi günlük kalıplar da geçer."
+     ],
+     "formula": [
+      "What time does + the lesson + start / finish?",
+      "It starts / finishes + at + saat.",
+      "Is there a + isim? — Yes, there is. / No, there isn't."
+     ],
+     "examples": [
+      {
+       "en": "What time does the lesson start? — It starts at nine o'clock.",
+       "tr": "Ders saat kaçta başlıyor? — Saat dokuzda başlıyor.",
+       "why": ["Soruda does + yalın fiil (start), cevapta it + starts. Saat için at."]
+      },
+      {
+       "en": "And when does it finish? — At one.",
+       "tr": "Peki ne zaman bitiyor? — Birde.",
+       "why": ["Kısa cevapta yalnızca At + saat yeterlidir. when, what time'a benzer bir sorudur."]
+      },
+      {
+       "en": "Is there a break? — Yes, there are three breaks.",
+       "tr": "Mola var mı? — Evet, üç mola var.",
+       "why": ["Soru tekil sorulsa da cevapta sayı birden fazlaysa there are kullanılır."]
+      }
+     ],
+     "checks": [
+      {"question": "“Film saat kaçta başlıyor?” sorusunu yazın.", "answer": "What time does the film start?", "why": "the film = it → does; fiil yalın."},
+      {"question": "“Ders birde biter” cümlesini yazın.", "answer": "The lesson finishes at one.", "why": "the lesson tekil; finish → finishes."}
+     ],
+     "mistakes": [
+      {"wrong": "What time the lesson starts?", "right": "What time does the lesson start?", "why": "Soru does ile kurulur ve fiil yalın kalır."}
+     ],
+     "contrasts": []
+    }
+   ],
+   "sentenceNotes": [
+    {"en": "I'm a new student.", "tr": "Yeni bir öğrenciyim.", "why": ["new sıfatı isimden (student) önce gelir. a, new kelimesinin önünde durur."]},
+    {"en": "Here's your book.", "tr": "İşte kitabınız.", "why": ["Here's (here is) bir şeyi uzatırken söylenir: “İşte …”."]},
+    {"en": "Have a nice day!", "tr": "İyi günler!", "why": ["Vedalaşırken söylenen kalıp bir dilektir. Cevap: Thanks, you too! (Teşekkürler, size de!)"]}
+   ]
+  }
+ ],
+ "glossary": [
+  {"id": "open-books", "term": "Open / Close your books. · Turn to page …", "meaning": "kitaplarınızı açın / kapatın · … sayfayı açın", "partOfSpeech": "sınıf komutu", "sourceTerms": ["Open / Close your books.", "Turn to page …"], "explanation": ["Derslerin başında ve sonunda en sık duyulan komutlardır. open açmak, close kapatmaktır. Belirli bir sayfayı açtırmak için Turn to page + sayı ya da Open your books at page + sayı denir. Sayfa numarası page kelimesinden sonra gelir ve normal sayı olarak okunur: page forty-two. Kapı, pencere ve kitap için de aynı iki fiil kullanılır."], "collocations": [{"en": "open the window", "tr": "pencereyi açmak"}, {"en": "close the door", "tr": "kapıyı kapatmak"}], "examples": [{"en": "Open your books at page 25.", "tr": "Kitaplarınızı 25. sayfada açın.", "note": "page + sayı."}, {"en": "Turn to page forty-two, please.", "tr": "Kırk ikinci sayfayı açın, lütfen.", "note": "turn to = …-e geçmek."}, {"en": "Close your books. Let's play a game.", "tr": "Kitaplarınızı kapatın. Hadi bir oyun oynayalım.", "note": "Ardından Let's ile öneri."}], "commonMistake": "Open 25 page yerine Turn to page 25 ya da Open your books at page 25 kullanılır."},
+  {"id": "listen-repeat", "term": "Listen and repeat.", "meaning": "dinleyin ve tekrar edin", "partOfSpeech": "sınıf komutu", "sourceTerms": ["Listen and repeat."], "explanation": ["Telaffuz çalışmasının temel komutudur. Önce dinlenir, sonra aynı şekilde söylenir. listen dinlemek, repeat tekrar etmektir. Birine dinlenecek şeyi söylerken listen to kullanılır: Listen to the dialogue. Koro tekrarlarında öğretmen All together! (Hep birlikte!) diyebilir."], "collocations": [{"en": "listen to the dialogue", "tr": "diyaloğu dinlemek"}, {"en": "repeat after me", "tr": "benden sonra tekrar edin"}], "examples": [{"en": "Listen and repeat: half past seven.", "tr": "Dinleyin ve tekrar edin: yedi buçuk.", "note": "Ardından tekrar edilecek ifade gelir."}, {"en": "Listen to the dialogue.", "tr": "Diyaloğu dinleyin.", "note": "Bir şeyi dinlemek: listen to."}, {"en": "Repeat after me, please.", "tr": "Benden sonra tekrar edin, lütfen.", "note": "after me = benden sonra."}], "commonMistake": "Listen the dialogue yerine Listen to the dialogue denir."},
+  {"id": "look-board", "term": "Look at the board.", "meaning": "tahtaya bakın", "partOfSpeech": "sınıf komutu", "sourceTerms": ["Look at the board."], "explanation": ["look bakmak demektir; neye bakıldığını söylerken at gelir: look at the board, look at the picture, look at me. Ekranlı sınıflarda Look at the screen (ekrana bakın) da sık kullanılır. Dikkat çekmek için tek başına Look! de denir."], "collocations": [{"en": "look at the picture", "tr": "resme bakmak"}, {"en": "look at the screen", "tr": "ekrana bakmak"}], "examples": [{"en": "Look at the board, please.", "tr": "Tahtaya bakın, lütfen.", "note": "look at + yer / şey."}, {"en": "Look at the picture and say the time.", "tr": "Resme bakın ve saati söyleyin.", "note": "İki komut and ile bağlandı."}, {"en": "Look! It's half past nine.", "tr": "Bakın! Saat dokuz buçuk.", "note": "Tek başına Look! dikkat çeker."}], "commonMistake": "Look the board yerine Look at the board kullanılır."},
+  {"id": "stand-sit", "term": "Stand up · Sit down.", "meaning": "ayağa kalkın · oturun", "partOfSpeech": "iki kelimelik fiil (komut)", "sourceTerms": ["Stand up · Sit down."], "explanation": ["stand up ayağa kalkmak, sit down oturmaktır. up ve down kelimeleri hareketin yönünü gösterir ve fiilin ayrılmaz parçasıdır. Bir sandalyeye ya da kanepeye oturmak için sit on the chair, sit on the sofa denir. Simon says oyununda bu komutlar en sık kullanılanlardır."], "collocations": [{"en": "sit on a chair", "tr": "bir sandalyeye oturmak"}, {"en": "stand in a circle", "tr": "daire şeklinde durmak"}], "examples": [{"en": "Stand up, please.", "tr": "Ayağa kalkın, lütfen.", "note": "please sona virgülle eklendi."}, {"en": "Now sit down.", "tr": "Şimdi oturun.", "note": "now = şimdi."}, {"en": "Simon says: stand up!", "tr": "Simon diyor ki: ayağa kalk!", "note": "Oyunda komut Simon says ile başlarsa yapılır."}], "commonMistake": "Stand! ya da Sit! tek başına kaba duyulabilir; up / down ile tamamlayın."},
+  {"id": "pairs-groups", "term": "Work in pairs / in groups.", "meaning": "ikişerli / grup hâlinde çalışın", "partOfSpeech": "sınıf komutu", "sourceTerms": ["Work in pairs / in groups."], "explanation": ["pair çift demektir; work in pairs iki kişilik ekipler hâlinde çalışmak anlamına gelir. group grup demektir; kaç kişilik olduğu of + sayı ile söylenir: in groups of three (üçerli). Tek başına çalışmak work alone'dur. Birlikte çalıştığımız kişiye partner deriz: Ask your partner."], "collocations": [{"en": "in groups of four", "tr": "dörderli gruplar hâlinde"}, {"en": "ask your partner", "tr": "eşine / arkadaşına sor"}], "examples": [{"en": "Work in pairs. Ask and answer.", "tr": "İkişerli çalışın. Soru sorun ve cevaplayın.", "note": "Ask and answer sık yönergedir."}, {"en": "Work in groups of three.", "tr": "Üçerli gruplar hâlinde çalışın.", "note": "of + sayı."}, {"en": "Work alone first. Then check with your partner.", "tr": "Önce tek başınıza çalışın. Sonra arkadaşınızla kontrol edin.", "note": "first ve then ile sıra verildi."}], "commonMistake": "Work with pairs yerine Work in pairs denir."},
+  {"id": "hand-up", "term": "Put up your hand.", "meaning": "parmak kaldırın", "partOfSpeech": "sınıf komutu", "sourceTerms": ["Put up your hand."], "explanation": ["Söz istemek için el kaldırmayı anlatır. Türkçede “parmak kaldır” deriz; İngilizcede el (hand) kaldırılır. Aynı anlamda Raise your hand da kullanılır. Öğretmen bir soru sorduktan sonra Put up your hand if you know. (Biliyorsanız el kaldırın.) diyebilir."], "collocations": [{"en": "raise your hand", "tr": "elini kaldır"}, {"en": "put your hand down", "tr": "elini indir"}], "examples": [{"en": "Put up your hand, please.", "tr": "Parmak kaldırın, lütfen.", "note": "Söz almadan önce."}, {"en": "Put up your hand if you get up before seven.", "tr": "Yediden önce kalkıyorsanız el kaldırın.", "note": "if = eğer."}, {"en": "OK, put your hands down.", "tr": "Tamam, ellerinizi indirin.", "note": "Birden fazla kişi: hands."}], "commonMistake": "Put up your finger demeyiz; İngilizcede el (hand) kaldırılır."},
+  {"id": "dont-talk", "term": "Don't talk · Be quiet, please.", "meaning": "konuşmayın · sessiz olun, lütfen", "partOfSpeech": "olumsuz komut", "sourceTerms": ["Don't talk · Be quiet, please."], "explanation": ["Don't + fiil olumsuz komut kurar: Don't talk, Don't look, Don't use your phone. Be quiet ise bir durum ister: sessiz ol. Burada be fiili komut olarak kullanılır; Be careful (dikkatli ol), Be on time (zamanında gel) gibi. quiet sessiz demektir; yazılışı quite (oldukça) ile karıştırılmamalıdır."], "collocations": [{"en": "don't worry", "tr": "merak etme"}, {"en": "be on time", "tr": "zamanında gel"}], "examples": [{"en": "Don't talk during the test.", "tr": "Sınav sırasında konuşmayın.", "note": "during = sırasında."}, {"en": "Be quiet, please. The baby is sleeping.", "tr": "Sessiz olun lütfen. Bebek uyuyor.", "note": "Neden ikinci cümlede."}, {"en": "Don't worry. It's easy!", "tr": "Merak etmeyin. Kolay!", "note": "Sınıfta çok duyulan cesaretlendirme."}], "commonMistake": "Not talk ya da No talk yerine Don't talk denir."},
+  {"id": "repeat-slowly", "term": "Can you repeat that, please? · Can you speak slowly, please?", "meaning": "tekrar eder misiniz? · yavaş konuşur musunuz?", "partOfSpeech": "rica cümlesi", "sourceTerms": ["Can you repeat that, please?", "Can you speak slowly, please?"], "explanation": ["Anlamadığımızda kullandığımız en önemli iki cümledir. Can you + yalın fiil karşımızdakinden bir şey rica eder. that az önce söyleneni gösterir. slowly (yavaşça) konuşmanın biçimini anlatan zarftır; slow (yavaş) sıfatı burada kullanılmaz. Bu cümleleri telefonda, hastanede ya da yolda da kullanabilirsiniz."], "collocations": [{"en": "speak more slowly", "tr": "daha yavaş konuşmak"}, {"en": "say it again", "tr": "tekrar söylemek"}], "examples": [{"en": "Sorry, can you repeat that, please?", "tr": "Pardon, tekrar eder misiniz, lütfen?", "note": "Sorry ile yumuşatıldı."}, {"en": "Can you speak slowly, please? I'm a beginner.", "tr": "Yavaş konuşur musunuz? Yeni başlıyorum.", "note": "Neden eklendi."}, {"en": "Can you say it again, please?", "tr": "Tekrar söyler misiniz, lütfen?", "note": "repeat yerine say it again de olur."}], "commonMistake": "Can you speak slow? yerine Can you speak slowly? kullanılır."},
+  {"id": "what-mean", "term": "What does … mean? · How do you say … in English?", "meaning": "… ne demek? · … İngilizcede nasıl denir?", "partOfSpeech": "soru kalıbı", "sourceTerms": ["What does … mean?", "How do you say … in English?"], "explanation": ["İlk kalıp İngilizce bir kelimenin anlamını, ikincisi Türkçe bir kelimenin İngilizcesini sorar. What does … mean? sorusunda does yardımcıdır; mean ek almaz. Cevap It means … ile verilir. How do you say … in English? sorusundaki you genel olarak insanları kasteder. Bu iki soru, öğretmene bağımlı kalmadan kelime öğrenmenin anahtarıdır."], "collocations": [{"en": "It means …", "tr": "… demek"}, {"en": "You say …", "tr": "… dersiniz"}], "examples": [{"en": "What does “early” mean? — It means erken.", "tr": "“early” ne demek? — Erken demek.", "note": "Cevapta means -s alır."}, {"en": "How do you say “silgi” in English? — Eraser.", "tr": "“Silgi” İngilizcede nasıl denir? — Eraser.", "note": "Kısa cevap yeterli."}, {"en": "What does “canteen” mean? — It's a school café.", "tr": "“canteen” ne demek? — Okuldaki kafe.", "note": "Bazen anlam bir tanımla verilir."}], "commonMistake": "What means early? yerine What does early mean? kullanılır."},
+  {"id": "dont-understand", "term": "I don't understand.", "meaning": "anlamıyorum / anlamadım", "partOfSpeech": "olumsuz cümle", "sourceTerms": ["I don't understand."], "explanation": ["Anlamadığımızı söyleriz. don't (do not) fiilden önce gelir ve fiil yalın kalır. Türkçede “anlamadım” desek de İngilizcede bu durumda genellikle şimdiki ana bakan I don't understand kullanılır. Cevabı bilmemek ise I don't know'dur; ikisini karıştırmayın."], "collocations": [{"en": "I don't understand the question.", "tr": "Soruyu anlamıyorum."}, {"en": "I don't know the answer.", "tr": "Cevabı bilmiyorum."}], "examples": [{"en": "Sorry, I don't understand.", "tr": "Pardon, anlamadım.", "note": "Sorry ile kibar başlangıç."}, {"en": "I don't understand this word.", "tr": "Bu kelimeyi anlamıyorum.", "note": "this word = bu kelime."}, {"en": "I don't know. Can you help me?", "tr": "Bilmiyorum. Bana yardım eder misiniz?", "note": "know ile bilmemek."}], "commonMistake": "I not understand yerine I don't understand denir."},
+  {"id": "sorry-late", "term": "Sorry, I'm late.", "meaning": "özür dilerim, geç kaldım", "partOfSpeech": "kalıp cümle", "sourceTerms": ["Sorry, I'm late."], "explanation": ["Derse ya da bir buluşmaya geç geldiğimizde söyleriz. late geç demektir ve bir durum bildirdiği için am ile kullanılır: I'm late. Zamanında gelmek on time, erken gelmek early'dir. Öğretmen bazen That's OK. Sit down, please. diye cevap verir."], "collocations": [{"en": "on time", "tr": "zamanında"}, {"en": "a bit late", "tr": "biraz geç"}], "examples": [{"en": "Sorry, I'm late. The bus was late.", "tr": "Özür dilerim, geç kaldım. Otobüs geç kaldı.", "note": "was, am / is'in geçmişidir."}, {"en": "I'm never late. I'm always on time.", "tr": "Asla geç kalmam. Her zaman zamanındayım.", "note": "Sıklık zarfı am'den sonra."}, {"en": "Sorry, I'm a bit late. — That's OK.", "tr": "Pardon, biraz geç kaldım. — Sorun değil.", "note": "a bit = biraz."}], "commonMistake": "Sorry, I late yerine Sorry, I'm late denir; am unutulmaz."},
+  {"id": "circle-underline", "term": "circle · underline", "meaning": "daire içine almak · altını çizmek", "partOfSpeech": "yönerge fiili", "sourceTerms": ["circle · underline"], "explanation": ["circle hem daire (isim) hem daire içine almak (fiil) demektir. underline altını çizmektir; under (altında) ve line (çizgi) kelimelerinden oluşur. Sınavlarda Circle the correct answer ve Underline the verbs en sık yönergelerdendir."], "collocations": [{"en": "circle the correct answer", "tr": "doğru cevabı daire içine al"}, {"en": "underline the times", "tr": "saatlerin altını çiz"}], "examples": [{"en": "Circle the correct answer.", "tr": "Doğru cevabı daire içine alın.", "note": "Seçenekler arasından biri."}, {"en": "Underline the verbs in the text.", "tr": "Metindeki fiillerin altını çizin.", "note": "in the text = metinde."}, {"en": "Circle the numbers and underline the times.", "tr": "Sayıları daire içine alın, saatlerin altını çizin.", "note": "İki iş and ile bağlandı."}], "commonMistake": "Circle'ı altını çizmek sanmayın; altını çizmek underline'dır."},
+  {"id": "tick-cross", "term": "tick · cross out", "meaning": "tik atmak (✓) · üstünü çizmek (✗)", "partOfSpeech": "yönerge fiili", "sourceTerms": ["tick · cross out"], "explanation": ["tick ✓ işareti koymaktır; doğru olanı ya da yapılanları işaretler. cross out bir kelimenin üstünü çizerek iptal etmek demektir. Bir cümlede yanlış kelimeyi bulup üstünü çizdikten sonra doğrusunu yazmak sık bir alıştırmadır. Amerikan İngilizcesinde tick yerine check denir."], "collocations": [{"en": "tick the box", "tr": "kutuyu işaretle"}, {"en": "cross out the wrong word", "tr": "yanlış kelimenin üstünü çiz"}], "examples": [{"en": "Tick the true sentences.", "tr": "Doğru cümlelere tik atın.", "note": "true = doğru."}, {"en": "Tick the things you do every day.", "tr": "Her gün yaptığınız şeylere tik atın.", "note": "every day = her gün."}, {"en": "Cross out the wrong word: I has / have a car.", "tr": "Yanlış kelimenin üstünü çizin.", "note": "has'in üstü çizilir."}], "commonMistake": "Tick'i çarpı işareti sanmayın; çarpı cross'tur."},
+  {"id": "match-gaps", "term": "match · fill in the gaps · choose · complete", "meaning": "eşleştirmek · boşlukları doldurmak · seçmek · tamamlamak", "partOfSpeech": "yönerge fiili", "sourceTerms": ["match · fill in the gaps", "choose · complete"], "explanation": ["match iki listeyi eşleştirir: kelime ile resim, soru ile cevap. gap boşluktur; fill in the gaps boşlukları doldurmak demektir. complete (tamamlamak) da aynı işi anlatır. choose seçmektir: Choose a, b or c. Yönergede bir örnek varsa (Example: 1 – c) önce onu okuyun."], "collocations": [{"en": "match the questions and answers", "tr": "soruları ve cevapları eşleştir"}, {"en": "complete the sentences", "tr": "cümleleri tamamla"}], "examples": [{"en": "Match the words and the pictures.", "tr": "Kelimeleri ve resimleri eşleştirin.", "note": "Cevap: 1 – c gibi."}, {"en": "Fill in the gaps with at, in or on.", "tr": "Boşlukları at, in ya da on ile doldurun.", "note": "with = ile."}, {"en": "Choose the correct answer: a, b or c.", "tr": "Doğru cevabı seçin: a, b ya da c.", "note": "Tek doğru cevap vardır."}], "commonMistake": "Fill the gaps yerine fill in the gaps kalıbı yaygındır."},
+  {"id": "true-false", "term": "true or false", "meaning": "doğru mu, yanlış mı", "partOfSpeech": "yönerge kalıbı", "sourceTerms": ["true or false"], "explanation": ["Okuma ve dinleme alıştırmalarında bir cümlenin metne göre doğru (true) ya da yanlış (false) olduğunu sorar. Cevap genellikle T veya F harfiyle yazılır. Bazen üçüncü seçenek Doesn't say (metinde yazmıyor) olur. Yanlış cümleyi düzeltmek de istenebilir: Correct the false sentences."], "collocations": [{"en": "Write T or F.", "tr": "T ya da F yazın."}, {"en": "correct the false sentences", "tr": "yanlış cümleleri düzeltin"}], "examples": [{"en": "True or false? Ayşe is a teacher. — False. She's a nurse.", "tr": "Doğru mu yanlış mı? Ayşe öğretmen. — Yanlış. Hemşire.", "note": "Yanlışı düzelttik."}, {"en": "Write T (true) or F (false).", "tr": "T (doğru) ya da F (yanlış) yazın.", "note": "Kısaltmalar."}, {"en": "That's true!", "tr": "Bu doğru!", "note": "Günlük konuşmada da kullanılır."}], "commonMistake": "true'yu “gerçek” diye çevirmek bu alıştırmada yanlış anlamaya yol açar; burada doğru demektir."},
+  {"id": "entrance-exit", "term": "entrance · exit · push · pull", "meaning": "giriş · çıkış · itiniz · çekiniz", "partOfSpeech": "tabela", "sourceTerms": ["entrance · exit", "push · pull"], "explanation": ["entrance bir binaya girilen yer, exit çıkılan yerdir. Acil durum çıkışları EMERGENCY EXIT ya da FIRE EXIT diye yazılır. Kapılardaki PUSH ve PULL bizim İTİNİZ ve ÇEKİNİZ tabelalarımızdır. push itmek, pull çekmek fiilleridir ve konuşmada da kullanılır."], "collocations": [{"en": "main entrance", "tr": "ana giriş"}, {"en": "fire exit", "tr": "yangın çıkışı"}], "examples": [{"en": "The exit is on the left.", "tr": "Çıkış solda.", "note": "on the left = solda."}, {"en": "PULL — Pull the door, please.", "tr": "ÇEKİNİZ — Kapıyı çekin lütfen.", "note": "Tabela kelimesi fiil olarak."}, {"en": "Use the main entrance.", "tr": "Ana girişi kullanın.", "note": "main = ana."}], "commonMistake": "Push ile pull'u karıştırmayın: push itmek, pull çekmektir."},
+  {"id": "open-closed", "term": "open · closed · opening hours", "meaning": "açık · kapalı · açılış saatleri", "partOfSpeech": "tabela / sıfat", "sourceTerms": ["open · closed", "opening hours"], "explanation": ["open açık, closed kapalı demektir. Bir yerin durumunu söylerken is ile kullanılır: The library is open. The shop is closed on Sunday. opening hours bir yerin açık olduğu saatleri gösterir ve genellikle from … to … ile yazılır. close (kapatmak) fiil, closed (kapalı) durumdur."], "collocations": [{"en": "open every day", "tr": "her gün açık"}, {"en": "closed on Sundays", "tr": "pazarları kapalı"}], "examples": [{"en": "The library is closed on Sunday.", "tr": "Kütüphane pazar günü kapalı.", "note": "is + closed."}, {"en": "Opening hours: Monday to Friday, 9 a.m. – 6 p.m.", "tr": "Açılış saatleri: pazartesiden cumaya, 9:00 – 18:00.", "note": "a.m. / p.m. ile saat."}, {"en": "Is the canteen open now?", "tr": "Kantin şu an açık mı?", "note": "Soru: Is …?"}], "commonMistake": "The library is close yerine The library is closed denir."},
+  {"id": "no-smoking", "term": "no smoking · no entry", "meaning": "sigara içilmez · girilmez", "partOfSpeech": "yasak tabelası", "sourceTerms": ["no smoking · no entry"], "explanation": ["Yasak tabelaları NO ile başlar ve ardından -ing'li bir fiil ya da isim gelir: NO SMOKING, NO PARKING, NO ENTRY. Bu kısa kalıp tabelalara özgüdür. Konuşurken aynı yasağı Don't + fiil ile söyleriz: Don't smoke here. You can't go in."], "collocations": [{"en": "no parking", "tr": "park yapılmaz"}, {"en": "no photos", "tr": "fotoğraf çekilmez"}], "examples": [{"en": "No smoking in the building.", "tr": "Binada sigara içilmez.", "note": "Tabela dili."}, {"en": "NO ENTRY — Don't go in.", "tr": "GİRİLMEZ — İçeri girmeyin.", "note": "Konuşmadaki karşılığı."}, {"en": "Sorry, you can't smoke here.", "tr": "Üzgünüm, burada sigara içemezsiniz.", "note": "can't ile yasak."}], "commonMistake": "Konuşmada No smoke! demek yerine Don't smoke, please! denir."},
+  {"id": "school-places", "term": "toilets · library · canteen", "meaning": "tuvalet · kütüphane · kantin", "partOfSpeech": "isim (okuldaki yerler)", "sourceTerms": ["toilets · library · canteen"], "explanation": ["Okuldaki yerlerin adlarıdır. library kütüphanedir (kitapçı değil; kitapçı bookshop'tur). canteen okul ya da iş yerindeki yemekhane veya kantindir. toilets tabelalarda genellikle çoğul yazılır. Yer sorarken Where's the library? / Where are the toilets? denir."], "collocations": [{"en": "in the library", "tr": "kütüphanede"}, {"en": "in the canteen", "tr": "kantinde"}], "examples": [{"en": "The canteen is on the ground floor.", "tr": "Kantin zemin katta.", "note": "Kat için on."}, {"en": "Where are the toilets, please?", "tr": "Tuvaletler nerede acaba?", "note": "Çoğul: are."}, {"en": "Please be quiet in the library.", "tr": "Kütüphanede lütfen sessiz olun.", "note": "in the library."}], "commonMistake": "library'yi kitapçı sanmayın; kitapçı bookshop'tur."},
+  {"id": "floors", "term": "ground floor · first floor", "meaning": "zemin kat · birinci kat", "partOfSpeech": "isim (kat)", "sourceTerms": ["ground floor · first floor"], "explanation": ["İngiliz kullanımında binanın giriş katı ground floor'dur; onun bir üstü first floor (birinci kat), sonra second floor gelir. Kat bilgisi on the … floor ile verilir: on the ground floor, on the first floor. Amerikan kullanımında giriş katına first floor da denebilir; kursumuzda İngiliz kullanımını izliyoruz."], "collocations": [{"en": "on the second floor", "tr": "ikinci katta"}, {"en": "upstairs / downstairs", "tr": "üst kat / alt kat"}], "examples": [{"en": "Room 12 is on the first floor.", "tr": "12 numaralı sınıf birinci katta.", "note": "on the + kat."}, {"en": "The office is on the ground floor.", "tr": "Ofis zemin katta.", "note": "ground = zemin."}, {"en": "Take the stairs to the second floor.", "tr": "İkinci kata merdivenle çıkın.", "note": "take the stairs = merdiveni kullanmak."}], "commonMistake": "in the first floor yerine on the first floor denir."},
+  {"id": "free", "term": "free", "meaning": "ücretsiz, bedava", "partOfSpeech": "sıfat", "sourceTerms": ["free"], "explanation": ["Afiş ve duyurularda free ücretsiz demektir: It's free. Free entry (giriş ücretsiz). free'nin başka bir anlamı boş, serbesttir: Are you free on Saturday? (Cumartesi boş musun?) free time ise boş zamandır. Hangi anlamın kastedildiğini bağlam gösterir."], "collocations": [{"en": "free time", "tr": "boş zaman"}, {"en": "free entry", "tr": "ücretsiz giriş"}], "examples": [{"en": "The English Club is free.", "tr": "İngilizce kulübü ücretsiz.", "note": "Para ödenmez."}, {"en": "I read a book in my free time.", "tr": "Boş zamanımda kitap okurum.", "note": "free time = boş zaman."}, {"en": "Are you free on Saturday?", "tr": "Cumartesi boş musun?", "note": "free = müsait."}], "commonMistake": "free'yi her zaman özgür diye çevirmeyin; afişte ücretsiz demektir."}
+ ]
+}

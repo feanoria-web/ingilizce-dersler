@@ -1,0 +1,584 @@
+{
+ "version": 1,
+ "block": 4,
+ "chapters": [
+  {
+   "screenId": "he-she",
+   "title": "he / she / it ile fiile -s: başkasının gününü anlatmak",
+   "intro": [
+    "Şimdiye kadar kendi günümüzü anlattık: I get up, I have breakfast. Başka birini anlatırken (annem, eşim, Ayşe, öğretmenimiz) geniş zamanda küçük ama çok önemli bir değişiklik olur: he, she ve it ile fiilin sonuna -s gelir. I get up → She gets up. I watch → He watches. Bu kural İngilizce dilbilgisinin en temel kurallarından biridir ve en sık unutulanıdır.",
+    "Bu ekranda dört şeyi öğreniyoruz: -s'nin hangi kişilerde geldiği, -s / -es / -ies yazım kuralları ve düzensiz have → has, olumsuzda doesn't, soruda does. Ayrıca programdaki “bir cümlenin eylemini uygun zamana göre çekimler” kazanımı için her gün olan iş (geniş zaman) ile şu an olan iş (şimdiki zaman) arasındaki farkı tanıyoruz. Bugün asıl çalıştığımız zaman geniş zamandır."
+   ],
+   "patterns": [
+    {
+     "id": "hs-third-person",
+     "title": "I get up → she gets up",
+     "meaning": "he, she, it ile geniş zamanda fiile -s eklemek",
+     "explanation": [
+      "Geniş zamanda I, you, we, they ile fiil yalın kalır; he, she, it ile fiile -s eklenir: I work → she works, they read → he reads, we start → it starts. Bir kişinin adını ya da bir ismi kullandığımızda da aynı kural geçerlidir: Ayşe = she → Ayşe gets up. My husband = he → My husband works. The lesson = it → The lesson starts.",
+      "Türkçede her kişi için farklı ek vardır (kalkarım, kalkarsın, kalkar). İngilizcede ise yalnızca üçüncü tekil kişi farklıdır. Bu yüzden -s çok küçük görünse de unutulduğunda hemen fark edilir. Cümle kurarken kendinize şunu sorun: Özne he, she ya da it mi? Öyleyse -s ekle.",
+      "Birden fazla kişi varsa (my children, Ayşe and Murat, they) fiil yalın kalır: My children go to school. Ayşe and Murat have dinner at seven. -s yalnızca tek bir kişi ya da şey için gelir."
+     ],
+     "formula": [
+      "I / you / we / they + fiil: I get up.",
+      "he / she / it + fiil-s: She gets up.",
+      "İsimler de sayılır: Ayşe = she · my father = he · the bus = it"
+     ],
+     "examples": [
+      {
+       "en": "Ayşe gets up at six o'clock.",
+       "tr": "Ayşe saat altıda kalkar.",
+       "why": ["Ayşe tek bir kişidir, she ile aynıdır; bu yüzden gets."],
+       "chunks": [
+        {"en": "Ayşe", "tr": "Ayşe", "note": "Özne = she."},
+        {"en": "gets up", "tr": "kalkar", "note": "get + s."},
+        {"en": "at six o'clock", "tr": "saat altıda", "note": "Saat için at."}
+       ]
+      },
+      {
+       "en": "My husband works in a factory.",
+       "tr": "Eşim bir fabrikada çalışır.",
+       "why": ["my husband = he → works."]
+      },
+      {
+       "en": "The bus comes at quarter to eight.",
+       "tr": "Otobüs sekize çeyrek kala gelir.",
+       "why": ["the bus bir şeydir = it → comes."]
+      },
+      {
+       "en": "My children go to school, and my husband goes to work.",
+       "tr": "Çocuklarım okula, eşim işe gider.",
+       "why": ["my children çoğul (they) → go; my husband tekil (he) → goes."]
+      }
+     ],
+     "checks": [
+      {"question": "“Annem yedide kalkar” cümlesini yazın.", "answer": "My mother gets up at seven.", "why": "my mother = she → gets."},
+      {"question": "“Çocuklarım televizyon izler” cümlesinde fiil -s alır mı?", "answer": "Hayır: My children watch TV.", "why": "Çoğul özne → yalın fiil."}
+     ],
+     "mistakes": [
+      {"wrong": "She get up at six.", "right": "She gets up at six.", "why": "she ile -s unutulmaz."},
+      {"wrong": "They gets up at six.", "right": "They get up at six.", "why": "they ile -s gelmez."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "hs-spelling",
+     "title": "watches · goes · studies · has",
+     "meaning": "-s, -es ve -ies yazım kuralları ve düzensiz has, does",
+     "explanation": [
+      "Çoğu fiile sadece -s eklenir: get → gets, read → reads, come → comes. -s, -sh, -ch, -x ve -o ile biten fiillere -es eklenir: watch → watches, wash → washes, finish → finishes, go → goes, do → does. Bu fiillerde son hece ayrı bir ses olarak duyulur: watches “uaçız”, finishes “finişız”.",
+      "Sessiz harf + y ile biten fiillerde y düşer, -ies eklenir: study → studies, carry → carries. Ama sesli harf + y ile bitenlerde sadece -s eklenir: play → plays, pray → prays, stay → stays. Kısaca: y'den önce a, e, o gibi bir sesli harf varsa y kalır.",
+      "have fiili düzensizdir: he / she ile has olur. She has breakfast. He has a shower. haves diye bir kelime yoktur. do da does olur ve “daz” diye okunur: She does the housework."
+     ],
+     "formula": [
+      "Çoğu fiil + s: works, reads, starts",
+      "-s, -sh, -ch, -x, -o + es: watches, finishes, goes, does",
+      "sessiz + y → ies: studies · sesli + y → s: prays",
+      "have → has"
+     ],
+     "examples": [
+      {
+       "en": "He watches TV after dinner.",
+       "tr": "Akşam yemeğinden sonra televizyon izler.",
+       "why": ["watch -ch ile biter → watches."]
+      },
+      {
+       "en": "She goes to work by bus.",
+       "tr": "İşe otobüsle gider.",
+       "why": ["go -o ile biter → goes."]
+      },
+      {
+       "en": "My son studies English at the weekend.",
+       "tr": "Oğlum hafta sonu İngilizce çalışır.",
+       "why": ["study: d sessiz + y → studies."]
+      },
+      {
+       "en": "My mother prays five times a day.",
+       "tr": "Annem günde beş vakit namaz kılar.",
+       "why": ["pray: a sesli + y → sadece s: prays."]
+      },
+      {
+       "en": "She has breakfast with her family.",
+       "tr": "Ailesiyle kahvaltı yapar.",
+       "why": ["have → has (düzensiz). her family: onun ailesi."]
+      }
+     ],
+     "checks": [
+      {"question": "finish fiilini she ile yazın.", "answer": "she finishes", "why": "-sh → -es."},
+      {"question": "play ve study fiillerini he ile yazın.", "answer": "he plays · he studies", "why": "Sesli + y → s; sessiz + y → ies."},
+      {"question": "have fiilini he ile yazın.", "answer": "he has", "why": "have düzensizdir."}
+     ],
+     "mistakes": [
+      {"wrong": "She haves lunch at one.", "right": "She has lunch at one.", "why": "have → has."},
+      {"wrong": "He gos to work.", "right": "He goes to work.", "why": "-o ile bitenlere -es eklenir."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "hs-negative-question",
+     "title": "She doesn't drink coffee. · What time does he get up?",
+     "meaning": "he / she ile olumsuz ve soru cümlesi kurmak",
+     "explanation": [
+      "he / she / it ile olumsuz cümlede doesn't (does not) kullanılır ve fiil yalın kalır: She doesn't drink coffee. -s artık doesn't'ta olduğu için fiile ikinci bir -s eklenmez: She doesn't drinks ✗. I, you, we, they ile ise don't kullanılır: I don't drink coffee.",
+      "Soru cümlesi Does ile başlar ve fiil yine yalındır: Does she work on Saturdays? Kısa cevap: Yes, she does. / No, she doesn't. Soru kelimesiyle: What time does he get up? Where does she work? How often does he go shopping? Sıra her zaman soru kelimesi + does + özne + yalın fiil'dir.",
+      "Bu kural tek bir -s kuralıdır: cümlede -s bir kez görünür. Olumluda fiilde (she works), olumsuzda doesn't'ta, soruda does'ta. Bunu hatırlarsanız -s'yi iki kez yazma hatasından kurtulursunuz."
+     ],
+     "formula": [
+      "Olumsuz: he / she + doesn't + yalın fiil",
+      "Soru: Does + he / she + yalın fiil?",
+      "Soru kelimesi + does + he / she + yalın fiil?"
+     ],
+     "examples": [
+      {
+       "en": "He doesn't drink coffee.",
+       "tr": "Kahve içmez.",
+       "why": ["doesn't + yalın fiil (drink). -s doesn't'tadır."]
+      },
+      {
+       "en": "Does she work on Saturdays? — No, she doesn't.",
+       "tr": "Cumartesileri çalışır mı? — Hayır, çalışmaz.",
+       "why": ["Soru Does ile başlar; kısa cevapta doesn't kullanılır."]
+      },
+      {
+       "en": "What time does he get up? — At six.",
+       "tr": "Saat kaçta kalkar? — Altıda.",
+       "why": ["Soru kelimesi + does + he + get up (yalın)."],
+       "chunks": [
+        {"en": "What time", "tr": "saat kaçta", "note": "Soru kelimesi."},
+        {"en": "does he", "tr": "(o) …-ar mı", "note": "he ile does."},
+        {"en": "get up?", "tr": "kalkmak", "note": "Fiil yalın."}
+       ]
+      },
+      {
+       "en": "Where does your daughter study?",
+       "tr": "Kızın nerede okuyor?",
+       "why": ["your daughter = she → does; study yalın."]
+      }
+     ],
+     "checks": [
+      {"question": "He doesn't watches TV cümlesini düzeltin.", "answer": "He doesn't watch TV.", "why": "doesn't + yalın fiil."},
+      {"question": "“Ayşe saat kaçta işe gider?” sorusunu yazın.", "answer": "What time does Ayşe go to work?", "why": "What time + does + Ayşe + go."}
+     ],
+     "mistakes": [
+      {"wrong": "What time she gets up?", "right": "What time does she get up?", "why": "Soru does ile kurulur, fiil yalın kalır."},
+      {"wrong": "Does she gets up early?", "right": "Does she get up early?", "why": "Does varken fiil -s almaz."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "hs-tense-choice",
+     "title": "She has breakfast at seven. / She's having breakfast now.",
+     "meaning": "Her gün olan iş ile şu an olan işi ayırt etmek",
+     "explanation": [
+      "Bir cümlenin eylemini uygun zamana göre çekimlemek için önce şu soruyu sorarız: Bu iş her gün tekrar eden bir alışkanlık mı, yoksa şu anda mı oluyor? Her gün olan işler için geniş zaman kullanırız: She has breakfast at seven (every day). Şu an olan işler için şimdiki zaman kullanılır: She's having breakfast now.",
+      "Cümledeki zaman ifadeleri bize ipucu verir. every day, usually, always, on Saturdays, at seven gibi ifadeler genellikle geniş zaman ister. now, at the moment, Look! gibi ifadeler şimdiki zaman ister. Bugünün odağı geniş zamandır; şimdiki zamanı şu an yalnızca tanımanız yeterli. İlerleyen derslerde ayrıntılı işleyeceğiz.",
+      "Türkçede de bu ayrım vardır: “Yedide kahvaltı yapar.” (geniş zaman) ile “Şu an kahvaltı yapıyor.” (şimdiki zaman). İngilizcede de aynı mantıkla iki farklı yapı kullanılır."
+     ],
+     "formula": [
+      "Her gün / alışkanlık → geniş zaman: She has breakfast at seven.",
+      "Şu an → şimdiki zaman: She's having breakfast now.",
+      "İpuçları: every day, usually, always ↔ now, at the moment"
+     ],
+     "examples": [
+      {
+       "en": "I read a book in the evening.",
+       "tr": "Akşamları kitap okurum.",
+       "why": ["in the evening tekrar eden bir alışkanlık → geniş zaman."]
+      },
+      {
+       "en": "I'm reading a book now.",
+       "tr": "Şu an kitap okuyorum.",
+       "why": ["now şu anı gösterir → am reading. Bu yapıyı şimdilik tanımanız yeterli."]
+      },
+      {
+       "en": "My father usually watches the news at eight.",
+       "tr": "Babam genellikle sekizde haberleri izler.",
+       "why": ["usually alışkanlık bildirir → geniş zaman, he → watches."]
+      }
+     ],
+     "checks": [
+      {"question": "“Her gün yedide kahvaltı yaparım” cümlesinde hangi zaman kullanılır?", "answer": "Geniş zaman: I have breakfast at seven every day.", "why": "every day alışkanlık bildirir."},
+      {"question": "I'm reading a book now cümlesi ne zaman kullanılır?", "answer": "Şu anda kitap okuyorsak.", "why": "now şimdiki zaman ipucudur."}
+     ],
+     "mistakes": [
+      {"wrong": "I'm getting up at seven every day.", "right": "I get up at seven every day.", "why": "Her gün tekrar eden iş için geniş zaman kullanılır."}
+     ],
+     "contrasts": [
+      {"label": "every day / now", "explanation": ["every day alışkanlık, now şu an demektir; fiil yapısı buna göre değişir."], "example": "She works at a hospital. · She's working now.", "tr": "Bir hastanede çalışır. · Şu an çalışıyor."}
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "reading",
+   "title": "Okuma: Ayşe'nin günü — önce soruyu oku, sonra bilgiyi bul",
+   "intro": [
+    "Bu metin, Bursa'da hemşire olarak çalışan Ayşe'nin bir gününü anlatıyor. Metinde bugün öğrendiğimiz her şey var: saatler (at six o'clock, at quarter to eight), günlük işler (gets up, has breakfast, goes to work), sıklık zarfları (usually, always, never) ve sıralama kelimeleri (first, then, after work). Bu yüzden metni okumak, bütün dersin tekrarıdır.",
+    "Okumaya başlamadan önce soruları okuyun. Böylece metinde neyi arayacağınızı bilirsiniz. Saat sorusunda rakamlara ve at'li ifadelere, sıklık sorusunda always, never gibi kelimelere bakın. Bilmediğiniz bir kelimede durmayın; soruların cevabı için onu bilmeniz genellikle gerekmez. Metindeki renklendirme etkinliği de bu bilgileri bulmanızı kolaylaştırır."
+   ],
+   "patterns": [
+    {
+     "id": "rd-strategy",
+     "title": "What time does Ayşe …? — At …",
+     "meaning": "Okuma sorularına metinden bilgi bularak cevap vermek",
+     "explanation": [
+      "Okuma soruları genellikle metindeki cümleleri biraz değiştirerek sorar. Metinde She usually gets up at six o'clock yazıyorsa soru What time does she usually get up? olur. Sorudaki does'a dikkat edin: soruda fiil yalın (get up), metinde ve cevapta -s'lidir (gets up). Cevabı kısa (At six o'clock.) ya da tam cümleyle (She usually gets up at six o'clock.) verebilirsiniz.",
+      "Doğru / yanlış sorularında cümleyi metinle dikkatlice karşılaştırın. Bir tek kelime anlamı değiştirebilir: She often drinks coffee at work cümlesi yanlıştır, çünkü metinde She never drinks coffee at work yazıyor. Sıklık zarfları, saatler ve kişiler bu tür soruların en sık tuzaklarıdır.",
+      "Yanlış bir cümleyi düzeltirken metindeki doğru bilgiyi yazın: False. She never drinks coffee at work. She often drinks tea."
+     ],
+     "formula": [
+      "Soru: What time / Where / How does + Ayşe + yalın fiil?",
+      "Cevap: She + fiil-s … / At + saat.",
+      "True / False: cümleyi metinle kelime kelime karşılaştır."
+     ],
+     "examples": [
+      {
+       "en": "What time does Ayşe have breakfast? — At half past six.",
+       "tr": "Ayşe saat kaçta kahvaltı yapar? — Altı buçukta.",
+       "why": ["Soruda have (yalın), metinde has breakfast at half past six."]
+      },
+      {
+       "en": "How does she go to work? — By bus.",
+       "tr": "İşe nasıl gider? — Otobüsle.",
+       "why": ["How ulaşım şeklini sorar; cevap by + araç."]
+      },
+      {
+       "en": "She often drinks coffee at work. — False. She never drinks coffee at work.",
+       "tr": "İşte sık sık kahve içer. — Yanlış. İşte asla kahve içmez.",
+       "why": ["often ile never tamamen zıttır; tek kelime cümlenin doğruluğunu değiştirdi."]
+      }
+     ],
+     "checks": [
+      {"question": "What time does her work start? sorusunun cevabı nedir?", "answer": "At quarter to eight (7:45).", "why": "Metin: Her work starts at quarter to eight."},
+      {"question": "Ayşe cumartesileri ne yapar?", "answer": "She comes to the English course.", "why": "Metin: On Saturdays, Ayşe comes to the English course."}
+     ],
+     "mistakes": [
+      {"wrong": "What time does Ayşe gets up?", "right": "What time does Ayşe get up?", "why": "does varken fiil yalın kalır."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "rd-retell",
+     "title": "She gets up … First, she … After work, she …",
+     "meaning": "Okuduğu metni he / she ile kendi cümleleriyle yeniden anlatmak",
+     "explanation": [
+      "Bir metni anladığımızı göstermenin en iyi yolu onu kendi cümlelerimizle anlatmaktır. Ayşe'yi anlatırken her cümlede she ve fiile -s kullanırız: She gets up at six. First, she prays. Then she has a shower. Metindeki sıralama kelimelerini (first, then, after work) kullanmak anlatımı düzenli yapar.",
+      "Sonra Ayşe ile kendimizi karşılaştırabiliriz. Burada but (ama) çok kullanışlıdır: Ayşe gets up at six, but I get up at seven. Ayşe never drinks coffee, but I drink coffee every morning. Bu karşılaştırmada iki farklı kişiyi kullandığımız için fiilin biçimine dikkat edin: Ayşe gets ama I get."
+     ],
+     "formula": [
+      "She + fiil-s: She gets up at six.",
+      "Karşılaştırma: Ayşe + fiil-s …, but I + fiil …"
+     ],
+     "examples": [
+      {
+       "en": "She gets up at six. First, she prays. Then she has a shower.",
+       "tr": "Altıda kalkar. Önce namaz kılar. Sonra duş alır.",
+       "why": ["Her cümlede she + -s'li fiil. Sıralama kelimeleri metnin akışını korur."]
+      },
+      {
+       "en": "Ayşe gets up at six, but I get up at seven.",
+       "tr": "Ayşe altıda kalkar ama ben yedide kalkarım.",
+       "why": ["Ayşe ile gets, I ile get. but iki farklı bilgiyi bağlar."]
+      },
+      {
+       "en": "After work, she sometimes goes shopping.",
+       "tr": "İşten sonra bazen alışverişe gider.",
+       "why": ["after work başta, virgülle. sometimes fiilden önce."]
+      }
+     ],
+     "checks": [
+      {"question": "Ayşe'nin akşamını bir cümleyle anlatın.", "answer": "In the evening, she cooks dinner with her husband.", "why": "she → cooks."},
+      {"question": "Ayşe ile kendinizi bir cümlede karşılaştırın.", "answer": "Örnek: Ayşe goes to bed at half past ten, but I go to bed at eleven.", "why": "Ayşe → goes; I → go."}
+     ],
+     "mistakes": [
+      {"wrong": "Ayşe get up at six, but I gets up at seven.", "right": "Ayşe gets up at six, but I get up at seven.", "why": "-s Ayşe'nin (she) fiiline gelir, I'nın fiiline gelmez."}
+     ],
+     "contrasts": []
+    }
+   ],
+   "sentenceNotes": [
+    {"en": "She works at a hospital in Nilüfer, Bursa.", "tr": "Bursa Nilüfer'de bir hastanede çalışır.", "why": ["she → works. Küçük yerden büyüğe doğru: Nilüfer, Bursa."]},
+    {"en": "She always has breakfast with her family at half past six.", "tr": "Her zaman altı buçukta ailesiyle kahvaltı yapar.", "why": ["always fiilden (has) önce. her family = onun ailesi."]},
+    {"en": "She never drinks coffee at work, but she often drinks tea with her friends.", "tr": "İşte asla kahve içmez ama arkadaşlarıyla sık sık çay içer.", "why": ["never olumsuzdur; fiil olumlu kalır (drinks). but zıtlık bildirir."]},
+    {"en": "She hardly ever stays up late!", "tr": "Neredeyse hiç geç saate kadar oturmaz!", "why": ["stay up late geç saate kadar uyumamak demektir. stay → stays (sesli + y)."]}
+   ]
+  },
+  {
+   "screenId": "interview",
+   "title": "Röportaj: soru sormak, not almak, sınıfa he / she ile anlatmak",
+   "intro": [
+    "Bu ekranda öğrendiklerimizi gerçek bir konuşmada kullanıyoruz. Bir arkadaşımıza günü hakkında sorular soruyor, cevaplarını tabloya kısa notlar olarak yazıyor ve sonra onu sınıfa tanıtıyoruz. Bu etkinlik iki farklı yapıyı birlikte çalıştırır: soru sorarken you ile (What time do you get up?), sınıfa anlatırken he / she ile (He gets up at six).",
+    "Not alırken tam cümle yazmanıza gerek yoktur: get up – 6:00, breakfast – soup, TV – never. Ama anlatırken bu notları tam cümleye çevirin ve -s'yi unutmayın. Dinleyen arkadaşlarınız da bir soru sorarak katılır: Does he drink coffee? Bu, konuşmayı sınıfın tamamına yayar."
+   ],
+   "patterns": [
+    {
+     "id": "iv-asking",
+     "title": "What time do you …? · What do you … ? · How often do you …?",
+     "meaning": "Bir arkadaşa günlük hayatıyla ilgili sorular sormak",
+     "explanation": [
+      "Röportaj sorularında üç kalıp sık kullanılır. Saat için What time do you + fiil?, ne yaptığını sormak için What do you + fiil?, sıklık için How often do you + fiil? Örneğin: What time do you go to bed? What do you have for breakfast? How often do you watch TV?",
+      "What do you have for breakfast? sorusunda have yemek anlamındadır ve for breakfast kahvaltıda demektir. What do you do in the evening? sorusunda ilk do yardımcı, ikinci do yapmak fiilidir: “Akşam ne yaparsın?” Cevap: I watch TV. / I read a book.",
+      "Cevabı dinledikten sonra küçük tepkiler vermek konuşmayı doğal yapar: Really? (Gerçekten mi?), Me too! (Ben de!), Oh, that's early! (O erken!). Ardından And you? diye sormak sırayı karşı tarafa verir."
+     ],
+     "formula": [
+      "What time do you + fiil?",
+      "What do you + fiil (+ for breakfast / in the evening)?",
+      "How often do you + fiil?"
+     ],
+     "examples": [
+      {
+       "en": "What do you have for breakfast? — Bread, cheese and tea.",
+       "tr": "Kahvaltıda ne yersin? — Ekmek, peynir ve çay.",
+       "why": ["for breakfast = kahvaltıda. Kısa cevap yeterlidir."]
+      },
+      {
+       "en": "What do you do in the evening? — I usually cook dinner.",
+       "tr": "Akşam ne yaparsın? — Genellikle akşam yemeği pişiririm.",
+       "why": ["İlk do yardımcı fiil, ikinci do yapmak fiilidir."]
+      },
+      {
+       "en": "How often do you watch TV? — Every evening. And you?",
+       "tr": "Ne sıklıkla televizyon izlersin? — Her akşam. Ya sen?",
+       "why": ["Sıklık sorusuna every evening ile cevap verildi; And you? soruyu geri yöneltti."]
+      }
+     ],
+     "checks": [
+      {"question": "“Akşam ne yaparsın?” sorusunu yazın.", "answer": "What do you do in the evening?", "why": "What + do + you + do."},
+      {"question": "Arkadaşınız “I get up at five.” dedi. Kısa bir tepki verin.", "answer": "Really? That's early!", "why": "Tepki konuşmayı doğal yapar."}
+     ],
+     "mistakes": [
+      {"wrong": "What you have for breakfast?", "right": "What do you have for breakfast?", "why": "Soru do ile kurulur."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "iv-reporting",
+     "title": "This is Mehmet. He gets up at six.",
+     "meaning": "Notlardan yola çıkarak bir arkadaşı he / she ile sınıfa tanıtmak",
+     "explanation": [
+      "Sınıfa anlatırken arkadaşımızı tanıtarak başlarız: This is Mehmet. Sonra notlarımızı he / she ile tam cümleye çeviririz: He gets up at six. He always has soup for breakfast. He goes to bed at ten. Notta “get up – 6:00” yazsa da cümlede -s'li fiil kullanırız.",
+      "Sıklık zarfları ve sıralama kelimeleri anlatımı zenginleştirir: First, he prays. Then he has breakfast. He never watches TV. Dinleyenler soru sorarsa does ile sorarlar ve kısa cevap verilir: Does he drink coffee? — No, he doesn't."
+     ],
+     "formula": [
+      "This is + ad.",
+      "He / She + fiil-s + …",
+      "Soru: Does he / she …? — Yes, he / she does. / No, he / she doesn't."
+     ],
+     "examples": [
+      {
+       "en": "This is Mehmet. He gets up at five thirty.",
+       "tr": "Bu Mehmet. Beş otuzda kalkar.",
+       "why": ["This is ile tanıttık; he → gets."]
+      },
+      {
+       "en": "He always has soup for breakfast.",
+       "tr": "Kahvaltıda her zaman çorba içer.",
+       "why": ["have → has; always fiilden önce. Türkçede çorba içilir, İngilizcede have kullanılır."]
+      },
+      {
+       "en": "Does he drink coffee? — No, he doesn't. He drinks tea.",
+       "tr": "Kahve içer mi? — Hayır. Çay içer.",
+       "why": ["Soruda drink yalın, cevapta drinks -s'li."]
+      }
+     ],
+     "checks": [
+      {"question": "Notunuz: “Selin – go to bed – 11:00”. Cümleye çevirin.", "answer": "Selin goes to bed at eleven.", "why": "Selin = she → goes."},
+      {"question": "“Hiç televizyon izlemez” cümlesini he ile yazın.", "answer": "He never watches TV.", "why": "never + watches."}
+     ],
+     "mistakes": [
+      {"wrong": "This is Mehmet. He get up at six.", "right": "This is Mehmet. He gets up at six.", "why": "he ile -s."}
+     ],
+     "contrasts": []
+    }
+   ]
+  },
+  {
+   "screenId": "my-day",
+   "title": "Yazma: kendi günümü anlatan bir paragraf",
+   "intro": [
+    "Dersin sonunda bütün öğrendiklerimizi bir paragrafta bir araya getiriyoruz. İyi bir “My day” paragrafı sabahtan geceye bir sıra izler, saatleri at ile verir, sıklık zarflarıyla kendimiz hakkında bilgi verir ve first, then, after that gibi kelimelerle cümleleri bağlar. Örnek metni (Hülya'nın günü) okuyun; aynı planı kendi hayatınıza uygulayın.",
+    "Yazarken mükemmel olmaya çalışmayın; önce fikirlerinizi yazın, sonra kontrol listesiyle düzeltin. Yazma ekranı kelimeleri sayar ve bazı kalıpları kontrol eder: saat (at …), günlük işler, sıklık kelimeleri ve sıralama kelimeleri. Ayrıca en sık yapılan hata olan “I am get up” kalıbını da sizin için işaretler."
+   ],
+   "patterns": [
+    {
+     "id": "md-structure",
+     "title": "Sabah → gündüz → akşam: paragrafın planı",
+     "meaning": "Bir günü üç bölümde, düzenli bir paragraf olarak yazmak",
+     "explanation": [
+      "Paragrafa kendinizi kısaca tanıtarak başlayın: My name is … I'm a … and I live in … Sonra sabahı anlatın: kalkma saati, ilk yaptığınız iş, kahvaltı, işe ya da okula gitme. Ardından günün ortasını anlatın: iş, öğle yemeği, alışveriş, ziyaretler. En sonda akşamı anlatın: eve gelme, akşam yemeği, akşam yaptıklarınız ve yatma saati.",
+      "Her bölümde en az bir saat ve bir sıklık kelimesi kullanmaya çalışın: I usually get up at half past six. I often go to the market in the morning. I never go to bed late. Bu iki öğe paragrafı hem bilgilendirici hem kişisel yapar.",
+      "60–100 kelime bir A1 paragrafı için iyi bir uzunluktur. Bu yaklaşık 8–12 cümle eder. Cümleleriniz kısa olabilir; önemli olan doğru ve sıralı olmasıdır."
+     ],
+     "formula": [
+      "Giriş: My name is … I'm a … I live in …",
+      "Sabah: I usually get up at … First, I … Then I …",
+      "Gündüz: I have lunch at … In the afternoon, I …",
+      "Akşam: In the evening, I … I go to bed at …"
+     ],
+     "examples": [
+      {
+       "en": "My name is Hülya. I'm a housewife and I live in Osmangazi.",
+       "tr": "Adım Hülya. Ev hanımıyım ve Osmangazi'de yaşıyorum.",
+       "why": ["Paragraf kısa bir tanıtımla başlar. housewife bir meslek gibi a ile kullanılır."]
+      },
+      {
+       "en": "I usually get up at half past six. First, I pray. Then I have breakfast with my husband.",
+       "tr": "Genellikle altı buçukta kalkarım. Önce namaz kılarım. Sonra eşimle kahvaltı yaparım.",
+       "why": ["Sabah bölümü: saat, sıklık zarfı ve sıralama kelimeleri bir arada."]
+      },
+      {
+       "en": "In the evening, I cook dinner and we eat at seven.",
+       "tr": "Akşam yemek pişiririm ve saat yedide yemek yeriz.",
+       "why": ["Akşam bölümü in the evening ile başlar; we ile fiil yalın kalır."]
+      },
+      {
+       "en": "I never go to bed late. I go to bed at eleven o'clock.",
+       "tr": "Asla geç yatmam. Saat on birde yatarım.",
+       "why": ["Paragraf yatma saatiyle biter; never ile kişisel bir bilgi eklendi."]
+      }
+     ],
+     "checks": [
+      {"question": "Paragrafın üç bölümü nedir?", "answer": "Sabah, gündüz (öğle / öğleden sonra), akşam.", "why": "Bir günü sırasıyla anlatırız."},
+      {"question": "Akşam bölümüne bir giriş cümlesi yazın.", "answer": "Örnek: In the evening, I cook dinner.", "why": "in the evening ile başlanır."}
+     ],
+     "mistakes": [
+      {"wrong": "I am get up at seven. I am have breakfast.", "right": "I get up at seven. I have breakfast.", "why": "Geniş zamanda fiille am kullanılmaz."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "md-checking",
+     "title": "Kontrol listesi: at · zarfın yeri · I am get up yok",
+     "meaning": "Yazdığı paragrafı en sık hatalara göre kontrol etmek",
+     "explanation": [
+      "Yazdıktan sonra paragrafınızı beş soruyla kontrol edin. 1. Saatlerin önünde at var mı? (at seven) 2. Sıklık kelimesi fiilin önünde mi? (I always drink tea) 3. Sıralama kelimeleri var mı? (first, then, after that) 4. “I am + fiil” yazdığınız bir yer var mı? Varsa am'i silin. 5. Her cümle büyük harfle başlayıp noktayla bitiyor mu?",
+      "Bir arkadaşınızla paragraflarınızı değiştirip birbirinizinkini kontrol etmek de çok faydalıdır. Arkadaşınızın paragrafında bir hata görürseniz kibarca söyleyin: I think it's “I get up”, not “I am get up”. Sonra arkadaşınızın gününü he / she ile sınıfa anlatabilirsiniz: Her day is very busy! She gets up at six."
+     ],
+     "formula": [
+      "at + saat ✓",
+      "özne + zarf + fiil ✓ (I always drink …)",
+      "first / then / after that ✓",
+      "I am + fiil ✗ → I + fiil ✓"
+     ],
+     "examples": [
+      {
+       "en": "I get up seven. → I get up at seven.",
+       "tr": "Yedide kalkarım.",
+       "why": ["Saatten önce at eksikti."]
+      },
+      {
+       "en": "I drink always tea. → I always drink tea.",
+       "tr": "Her zaman çay içerim.",
+       "why": ["Zarf fiilden önce gelmeli."]
+      },
+      {
+       "en": "i go to bed at eleven → I go to bed at eleven.",
+       "tr": "On birde yatarım.",
+       "why": ["I her zaman büyük harfle yazılır ve cümle noktayla biter."]
+      }
+     ],
+     "checks": [
+      {"question": "I am watch TV in the evening cümlesini düzeltin.", "answer": "I watch TV in the evening.", "why": "Fiil varken am kullanılmaz."},
+      {"question": "I go always to bed at ten cümlesini düzeltin.", "answer": "I always go to bed at ten.", "why": "Zarf fiilden önce."}
+     ],
+     "mistakes": [
+      {"wrong": "i usually get up at seven", "right": "I usually get up at seven.", "why": "I büyük harfle yazılır; cümle noktayla biter."}
+     ],
+     "contrasts": []
+    }
+   ]
+  },
+  {
+   "screenId": "close",
+   "title": "Kapanış: bugün öğrendiklerimizi toparlamak",
+   "intro": [
+    "Bugün dört büyük konu işledik: sınıfta ve okulda İngilizce (komutlar, yardım istemek, yönergeler, tabelalar), sayılar ve saat (20–100, o'clock, half past, quarter past / to), kendi günümüz (günlük işler, saatler, sıklık zarfları, sıralama) ve başkasının günü (he / she ile -s, okuma, yazma). Kapanış ekranındaki kontrol listesiyle her konuda kendinizi değerlendirin: Not yet, Almost ya da Yes!",
+    "“Not yet” işaretlediğiniz konular için bu ekrandaki özetlere ve ilgili ders ekranlarındaki ayrıntılı anlatımlara geri dönün. Bugünün özeti sayfası bütün anlatımları tek sayfada toplar; ifade bankası ise bütün kelime ve kalıpları sesli olarak sunar. Ödevinizi yaparken yazma ekranını evde de kullanabilirsiniz."
+   ],
+   "patterns": [
+    {
+     "id": "cl-key-structures",
+     "title": "Bugünün beş temel yapısı",
+     "meaning": "Dersin en önemli kalıplarını bir arada tekrar etmek",
+     "explanation": [
+      "Bugünün beş temel yapısını hatırlayalım. Bir: Komutlar fiille başlar (Open your books. Don't talk.). İki: Saat It's ile söylenir (It's half past seven. It's quarter to eight.). Üç: Bir işin saati at ile verilir (I get up at seven.). Dört: Sıklık zarfı fiilin önüne gelir (I always brush my teeth.). Beş: he / she ile fiil -s alır (She gets up at six.).",
+      "Bu beş yapıyla bir günü baştan sona anlatabilirsiniz. Örneğin: It's seven o'clock. I always get up at seven. First, I pray. Then I have breakfast. My husband gets up at half past seven. He never has breakfast! Kısa ama tamamen doğru cümleler bunlar."
+     ],
+     "formula": [
+      "Komut: Fiil + … / Don't + fiil",
+      "Saat: It's + saat · iş + at + saat",
+      "Sıklık: özne + zarf + fiil · he / she + fiil-s"
+     ],
+     "examples": [
+      {
+       "en": "It's seven o'clock. I always get up at seven.",
+       "tr": "Saat yedi. Her zaman yedide kalkarım.",
+       "why": ["İlk cümle şu anki saati, ikincisi bir işin saatini verir."]
+      },
+      {
+       "en": "My husband gets up at half past seven. He never has breakfast!",
+       "tr": "Eşim yedi buçukta kalkar. Hiç kahvaltı yapmaz!",
+       "why": ["he → gets, has; never fiilden önce."]
+      },
+      {
+       "en": "Open your books at page fifty-five, please.",
+       "tr": "Kitaplarınızı elli beşinci sayfada açın, lütfen.",
+       "why": ["Komut ve sayı bir arada."]
+      }
+     ],
+     "checks": [
+      {"question": "7:45'i iki yolla söyleyin.", "answer": "quarter to eight · seven forty-five", "why": "to ile bir sonraki saat."},
+      {"question": "“Kızım hiç kahve içmez” cümlesini yazın.", "answer": "My daughter never drinks coffee.", "why": "never + drinks (she)."}
+     ],
+     "mistakes": [
+      {"wrong": "She always get up at seven.", "right": "She always gets up at seven.", "why": "Zarf olsa da she ile fiil -s alır."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "cl-self-check",
+     "title": "Not yet · Almost · Yes! — kendini değerlendirmek",
+     "meaning": "Öğrenme durumunu dürüstçe değerlendirip neyi tekrar edeceğine karar vermek",
+     "explanation": [
+      "Kontrol listesindeki her cümle bir “I can …” cümlesidir: I can ask and tell the time. Bunu okuyup kendinize sorun: Bunu bir arkadaşıma şimdi yapabilir miyim? Yapabiliyorsanız Yes!, biraz zorlanıyorsanız Almost, henüz yapamıyorsanız Not yet işaretleyin. Not yet bir başarısızlık değil, bir sonraki çalışmanızın konusudur.",
+      "Not yet işaretlediğiniz bir konu için üç adım önerilir: o konunun ders ekranına gidip kısa özeti okuyun, bir örnek cümleyi sesli tekrar edin ve “Kendini dene” sorusunu cevaplayın. Bir sonraki derste aynı konuyu tekrar değerlendirin."
+     ],
+     "formula": [
+      "I can + fiil: I can tell the time.",
+      "Not yet → özeti oku · örneği tekrar et · kendini dene"
+     ],
+     "examples": [
+      {
+       "en": "I can count from twenty to a hundred.",
+       "tr": "Yirmiden yüze kadar sayabilirim.",
+       "why": ["can'den sonra fiil yalın gelir: count."]
+      },
+      {
+       "en": "I can talk about my day with always, usually and never.",
+       "tr": "Günümü always, usually ve never ile anlatabilirim.",
+       "why": ["talk about = …-den bahsetmek."]
+      },
+      {
+       "en": "I can't write the times in words yet.",
+       "tr": "Saatleri henüz yazıyla yazamıyorum.",
+       "why": ["can't = yapamam; yet sonda “henüz” anlamı katar."]
+      }
+     ],
+     "checks": [
+      {"question": "“Saati sorup söyleyebilirim” cümlesini İngilizce yazın.", "answer": "I can ask and tell the time.", "why": "I can + yalın fiil."},
+      {"question": "Not yet işaretlediğiniz bir konu için ilk ne yaparsınız?", "answer": "O konunun ders ekranındaki kısa özeti okurum.", "why": "Önce özet, sonra örnek ve deneme."}
+     ],
+     "mistakes": [
+      {"wrong": "I can to tell the time.", "right": "I can tell the time.", "why": "can'den sonra to gelmez."}
+     ],
+     "contrasts": []
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {"id": "third-person-s", "term": "he gets up · she goes · he watches", "meaning": "kalkar · gider · izler (he / she ile -s)", "partOfSpeech": "dilbilgisi: geniş zaman 3. tekil kişi", "sourceTerms": ["he gets up · she goes · he watches"], "explanation": ["he, she ve it ile geniş zamanda fiile -s eklenir. -s, -sh, -ch, -x, -o ile biten fiillere -es gelir: goes, watches, finishes. Kişi adları ve tekil isimler de bu kurala uyar: Ayşe gets up, the lesson starts."], "collocations": [{"en": "she gets up early", "tr": "erken kalkar"}, {"en": "he goes to work", "tr": "işe gider"}], "examples": [{"en": "She gets up at six.", "tr": "Altıda kalkar.", "note": "get + s."}, {"en": "He goes to work by car.", "tr": "İşe arabayla gider.", "note": "go + es."}, {"en": "My father watches the news.", "tr": "Babam haberleri izler.", "note": "watch + es."}], "commonMistake": "She get up yerine She gets up denir."},
+  {"id": "has-does", "term": "has · does · studies", "meaning": "sahip olur / yer · yapar · çalışır (düzensiz ve -ies)", "partOfSpeech": "dilbilgisi: düzensiz biçimler", "sourceTerms": ["has · does · studies"], "explanation": ["have he / she ile has olur; do ise does olur (okunuşu “daz”). Sessiz harf + y ile biten fiillerde y → ies: study → studies. Sesli harf + y'de sadece -s eklenir: play → plays, pray → prays."], "collocations": [{"en": "she has breakfast", "tr": "kahvaltı yapar"}, {"en": "he does the housework", "tr": "ev işlerini yapar"}], "examples": [{"en": "She has breakfast at seven.", "tr": "Yedide kahvaltı yapar.", "note": "have → has."}, {"en": "My husband does the shopping.", "tr": "Alışverişi eşim yapar.", "note": "do → does."}, {"en": "My son studies English.", "tr": "Oğlum İngilizce çalışır.", "note": "study → studies."}], "commonMistake": "She haves yerine She has denir."},
+  {"id": "doesnt-does", "term": "doesn't · Does she …?", "meaning": "…-mez / …-maz · …-ir mi?", "partOfSpeech": "dilbilgisi: olumsuz ve soru", "sourceTerms": ["doesn't · Does she …?"], "explanation": ["he / she ile olumsuzda doesn't, soruda Does kullanılır ve fiil yalın kalır. -s cümlede yalnızca bir kez görünür: doesn't'ta ya da does'ta. Kısa cevaplar: Yes, she does. / No, she doesn't."], "collocations": [{"en": "she doesn't work", "tr": "çalışmaz"}, {"en": "What time does he …?", "tr": "saat kaçta …?"}], "examples": [{"en": "He doesn't drink coffee.", "tr": "Kahve içmez.", "note": "doesn't + yalın."}, {"en": "Does she work on Saturdays? — No, she doesn't.", "tr": "Cumartesileri çalışır mı? — Hayır.", "note": "Kısa cevap."}, {"en": "What time does he get up?", "tr": "Saat kaçta kalkar?", "note": "does + yalın."}], "commonMistake": "He doesn't drinks yerine He doesn't drink denir."}
+ ]
+}

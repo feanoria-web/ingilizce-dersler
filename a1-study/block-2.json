@@ -1,0 +1,513 @@
+{
+ "version": 1,
+ "block": 2,
+ "chapters": [
+  {
+   "screenId": "numbers",
+   "title": "20'den 100'e sayılar: onluklar, tireli sayılar ve -teen / -ty farkı",
+   "intro": [
+    "Sayılar saatleri, fiyatları, telefon numaralarını, yaşları ve sayfa numaralarını söylemek için gereklidir. Bugün özellikle saat için sayılara ihtiyacımız var: seven fifteen, ten forty-five. 20'den 100'e kadar olan sayıları öğrenmek aslında çok kolaydır; çünkü sekiz onluk kelimesini öğrendikten sonra geri kalan bütün sayılar aynı kurala göre kurulur.",
+    "Türkçede “kırk beş” dediğimiz gibi İngilizcede de önce onluk, sonra birlik söylenir: forty-five. Yazarken ikisinin arasına tire koyarız. En çok dikkat edilmesi gereken iki nokta vardır: forty kelimesinin u'suz yazılması ve thirteen (13) ile thirty (30) gibi sayıların vurguyla ayırt edilmesi. Bu ikisini öğrenen biri sayılarda neredeyse hiç hata yapmaz."
+   ],
+   "patterns": [
+    {
+     "id": "num-tens",
+     "title": "twenty · thirty · forty … ninety · a hundred",
+     "meaning": "Onluk sayıları söylemek ve doğru yazmak",
+     "explanation": [
+      "Onluk sayıların çoğu birlik sayıya -ty eklenerek yapılır: six → sixty, seven → seventy, nine → ninety. Bazılarında kelimenin kökü biraz değişir: two → twenty, three → thirty, five → fifty, eight → eighty (eight'in sonundaki t ile -ty birleşir, iki t yazılmaz). four → forty'de ise u harfi düşer.",
+      "forty en sık yanlış yazılan sayıdır: four (4) ve fourteen (14) u ile yazılır ama forty (40) u'suz yazılır. Bunu hatırlamak için “kırkta u yok” diye düşünebilirsiniz. 100 için one hundred ya da a hundred denir; sadece hundred demek eksiktir. Fiyat söylerken a hundred lira, yaş söylerken a hundred years old deriz.",
+      "Onlukları söylerken vurgu ilk hecededir: TWEN-ty, THIR-ty, FOR-ty. Sondaki -ty kısa ve hafif söylenir. Bu, -teen ile biten sayılardan ayrılmalarını sağlar."
+     ],
+     "formula": [
+      "birlik + -ty: six → sixty, seven → seventy, nine → ninety",
+      "Değişenler: twenty, thirty, forty, fifty, eighty",
+      "100: a hundred / one hundred"
+     ],
+     "examples": [
+      {
+       "en": "I'm forty. My mother is seventy.",
+       "tr": "Kırk yaşındayım. Annem yetmiş yaşında.",
+       "why": ["Yaşları söylerken sadece sayı yeterlidir. forty u'suz yazılır."]
+      },
+      {
+       "en": "My grandmother is eighty.",
+       "tr": "Babaannem / anneannem seksen yaşında.",
+       "why": ["eighty'de tek t vardır: eight + y. grandmother hem babaanne hem anneanne demektir."]
+      },
+      {
+       "en": "It's a hundred lira.",
+       "tr": "Yüz lira.",
+       "why": ["Fiyatta a hundred kullanılır. lira çoğul olsa da genellikle -s almaz: fifty lira."]
+      }
+     ],
+     "checks": [
+      {"question": "40 nasıl yazılır?", "answer": "forty", "why": "four'daki u, forty'de yoktur."},
+      {"question": "100'ü iki şekilde söyleyin.", "answer": "a hundred / one hundred", "why": "Sadece hundred eksik kalır."}
+     ],
+     "mistakes": [
+      {"wrong": "fourty", "right": "forty", "why": "40 u'suz yazılır."},
+      {"wrong": "eightty", "right": "eighty", "why": "eight'in t'si ile -ty'nin t'si tek t olarak yazılır."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "num-compound",
+     "title": "twenty-one · forty-five · ninety-nine",
+     "meaning": "Ara sayıları onluk + tire + birlik şeklinde kurmak",
+     "explanation": [
+      "21'den 99'a kadar onluk olmayan sayılar iki parçadır: önce onluk, sonra birlik. Yazarken araya tire (-) konur: twenty-one, thirty-four, forty-five, ninety-nine. Türkçedeki sıra ile aynıdır: kırk beş → forty-five. Bu yüzden bu sayıları kurmak Türkçe konuşanlar için kolaydır.",
+      "Bu sayılar saatlerde çok kullanılır. Saati dijital yolla söylerken dakikayı bu şekilde okuruz: 10:45 → ten forty-five, 7:25 → seven twenty-five. 1'den 9'a kadar olan dakikalarda ise başa “oh” (sıfır) eklenir: 6:05 → six oh five. Fiyatlarda da aynı sayıları kullanırız: forty-five lira.",
+      "Okurken tireyi duyamazsınız; tire yalnızca yazıda vardır. Ama yazarken unutmayın: twenty one değil twenty-one."
+     ],
+     "formula": [
+      "onluk + - + birlik: thirty-four, sixty-eight",
+      "Saatte: 10:45 → ten forty-five",
+      "1–9 dakika: 6:05 → six oh five"
+     ],
+     "examples": [
+      {
+       "en": "Turn to page forty-five.",
+       "tr": "Kırk beşinci sayfayı açın.",
+       "why": ["Sayfa numarası normal sayı olarak okunur. forty ve five arasında tire vardır."]
+      },
+      {
+       "en": "The bus is at seven twenty-five.",
+       "tr": "Otobüs yedi yirmi beşte.",
+       "why": ["Dijital saat okunuşu: saat + dakika. twenty-five tireyle yazılır."]
+      },
+      {
+       "en": "Room thirty-three is on the second floor.",
+       "tr": "33 numaralı oda ikinci katta.",
+       "why": ["Oda numaraları da aynı şekilde okunur: thirty-three."]
+      },
+      {
+       "en": "The film starts at nine oh five.",
+       "tr": "Film dokuzu beş geçe başlıyor.",
+       "why": ["9:05 dijital okunuşta “oh five” olur; oh sıfırı karşılar."]
+      }
+     ],
+     "checks": [
+      {"question": "68 nasıl yazılır?", "answer": "sixty-eight", "why": "Onluk + tire + birlik."},
+      {"question": "8:07 dijital yolla nasıl okunur?", "answer": "eight oh seven", "why": "Tek basamaklı dakikada oh eklenir."}
+     ],
+     "mistakes": [
+      {"wrong": "twenty one", "right": "twenty-one", "why": "Yazıda onluk ile birlik arasına tire konur."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "num-teen-ty",
+     "title": "thirteen ↔ thirty · fourteen ↔ forty",
+     "meaning": "-teen ve -ty ile biten sayıları dinlerken ve söylerken ayırt etmek",
+     "explanation": [
+      "13–19 arası sayılar -teen ile biter: thirteen, fourteen, fifteen … nineteen. 30, 40, 50 gibi onluklar ise -ty ile biter. Kulağa çok benzerler; özellikle telefonda, fiyatta ve saatte karışabilirler. Fark vurgudadır: -teen'li sayılarda vurgu sondadır ve “tiin” uzun söylenir: thir-TEEN. -ty'li sayılarda vurgu baştadır ve son hece kısadır: THIR-ty.",
+      "Dinlerken emin değilseniz rakam rakam sorabilirsiniz: Sorry, one-three or three-zero? Bu çok doğal ve kibar bir sorudur. Söylerken de karşınızdaki karıştırırsa aynı yolla yardımcı olabilirsiniz: Fifteen — one, five.",
+      "Saatlerde bu fark önemlidir: 2:15 (two fifteen) ile 2:50 (two fifty) arasında 35 dakika fark vardır! Bu yüzden saatleri dinlerken -teen ve -ty'ye özellikle dikkat edin."
+     ],
+     "formula": [
+      "-teen: vurgu sonda → thir-TEEN (13)",
+      "-ty: vurgu başta → THIR-ty (30)",
+      "Emin değilseniz: One-three or three-zero?"
+     ],
+     "examples": [
+      {
+       "en": "Is it fifteen or fifty? — Fifty. Five, zero.",
+       "tr": "On beş mi, elli mi? — Elli. Beş, sıfır.",
+       "why": ["Rakamları tek tek söylemek karışıklığı kesin olarak çözer."]
+      },
+      {
+       "en": "The lesson starts at two fifteen, not two fifty.",
+       "tr": "Ders iki on beşte başlıyor, iki ellide değil.",
+       "why": ["Saatlerde -teen / -ty karışırsa büyük bir zaman farkı oluşur."]
+      },
+      {
+       "en": "My son is thirteen. My husband is thirty-nine.",
+       "tr": "Oğlum on üç yaşında. Eşim otuz dokuz yaşında.",
+       "why": ["thir-TEEN vurgusu sonda, THIR-ty-nine vurgusu baştadır."]
+      }
+     ],
+     "checks": [
+      {"question": "Telefonda “forty” mu “fourteen” mi dendiğini anlamadınız. Ne sorarsınız?", "answer": "Sorry, four-zero or one-four?", "why": "Rakam rakam sormak en güvenli yoldur."},
+      {"question": "thirteen kelimesinde vurgu nerededir?", "answer": "Sonda: thir-TEEN.", "why": "-teen'li sayılarda vurgu sondadır."}
+     ],
+     "mistakes": [
+      {"wrong": "fourteen = 40", "right": "fourteen = 14 · forty = 40", "why": "-teen 13–19 arasındaki sayılardır."}
+     ],
+     "contrasts": [
+      {"label": "-teen / -ty", "explanation": ["-teen'li sayılar 13–19, -ty'li sayılar 20, 30 … 90'dır. Vurgu farkı ikisini ayırır."], "example": "sixTEEN (16) · SIXty (60)", "tr": "on altı · altmış"}
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "time",
+   "title": "Saat kaç? Soru, cevap ve saati söylemenin kolay yolu",
+   "intro": [
+    "Saati sormak ve söylemek günlük hayatın en sık ihtiyaçlarından biridir: otobüs saati, ders saati, doktor randevusu, ilaç saati. İngilizcede saat sorusu iki kalıpla sorulur: What time is it? ve What's the time? İkisi de “Saat kaç?” demektir. Cevap her zaman It's ile başlar: It's nine o'clock.",
+    "Saati söylemenin iki yolu vardır. Birincisi dijital, yani kolay yoldur: saati ve dakikayı rakamlar gibi okuruz (ten twenty). İkincisi geleneksel yoldur: past ve to kullanırız (twenty past ten). Bu ekranda tam saatleri ve kolay yolu öğreniyoruz; bir sonraki ekranda geleneksel yolu adım adım işleyeceğiz. İki yolu da tanımak gerekir, çünkü insanlar ikisini de kullanır."
+   ],
+   "patterns": [
+    {
+     "id": "time-question",
+     "title": "What time is it? · What's the time? — It's …",
+     "meaning": "Saati sormak ve It's ile cevap vermek",
+     "explanation": [
+      "What time is it? cümlesinde time saat ya da zaman demektir; it ise saati temsil eder. Türkçe “Saat kaç?” sorusuna göre daha uzun görünse de kalıp olarak öğrenilir. What's the time? da aynı anlamdadır ve günlük konuşmada çok yaygındır. Tanımadığımız birine sorarken başa Excuse me, sona please ekleriz: Excuse me, what time is it, please?",
+      "Cevap It's + saat şeklindedir. it'in Türkçede karşılığı söylenmez; sadece “Dokuz.” ya da “Saat dokuz.” deriz. İngilizcede ise it olmadan cümle kurulmaz: Is nine yanlıştır, It's nine doğrudur. Saati bilmiyorsak Sorry, I don't know. ya da Sorry, I don't have a watch. (Saatim yok.) deriz.",
+      "Dikkat: What time is it? şu anki saati sorar. Bir işin saatini sormak farklıdır: What time do you get up? (Saat kaçta kalkarsın?). Bu ikinci soruyu 3. bölümde göreceğiz."
+     ],
+     "formula": [
+      "What time is it? / What's the time?",
+      "It's + saat.",
+      "Kibar: Excuse me, what time is it, please?"
+     ],
+     "examples": [
+      {
+       "en": "Excuse me, what time is it, please? — It's ten o'clock.",
+       "tr": "Affedersiniz, saat kaç acaba? — Saat on.",
+       "why": ["Excuse me ve please soruyu kibarlaştırır. Cevapta it's kullanılır."],
+       "chunks": [
+        {"en": "Excuse me,", "tr": "affedersiniz", "note": "Söze nazikçe başlamak."},
+        {"en": "what time is it,", "tr": "saat kaç", "note": "Kalıp soru."},
+        {"en": "please?", "tr": "acaba / lütfen", "note": "Kibarlık."}
+       ]
+      },
+      {
+       "en": "What's the time? — It's ten twenty.",
+       "tr": "Saat kaç? — On yirmi.",
+       "why": ["What's the time? aynı soruyu sorar. Cevap kolay yolla verildi."]
+      },
+      {
+       "en": "Sorry, I don't know. I don't have a watch.",
+       "tr": "Üzgünüm, bilmiyorum. Saatim yok.",
+       "why": ["watch kol saati, clock duvar saatidir."]
+      }
+     ],
+     "checks": [
+      {"question": "Saati kibarca sorun.", "answer": "Excuse me, what time is it, please?", "why": "Excuse me + soru + please."},
+      {"question": "“Saat yedi.” cümlesini İngilizce yazın.", "answer": "It's seven o'clock.", "why": "It's + saat; tam saatte o'clock."}
+     ],
+     "mistakes": [
+      {"wrong": "What time is? / Is seven.", "right": "What time is it? / It's seven.", "why": "İngilizcede it unutulmaz; cümlenin öznesidir."}
+     ],
+     "contrasts": [
+      {"label": "watch / clock", "explanation": ["watch kola takılan saattir, clock duvarda ya da masada duran saattir. Saatin kendisi time değil; time zaman, saat bilgisidir."], "example": "I have a new watch. · The clock is on the wall.", "tr": "Yeni bir kol saatim var. · Saat duvarda."}
+     ]
+    },
+    {
+     "id": "time-oclock-easy",
+     "title": "It's nine o'clock. · It's ten twenty.",
+     "meaning": "Tam saati o'clock ile, diğer saatleri kolay yolla söylemek",
+     "explanation": [
+      "Tam saatlerde o'clock kullanılır: 9:00 → It's nine o'clock. o'clock, of the clock'un kısaltmasıdır ve yalnızca tam saatlerde söylenir. Dakika varsa o'clock kullanılmaz: It's nine fifteen ✓, It's nine fifteen o'clock ✗. Tam saati o'clock olmadan da söyleyebiliriz: It's nine. Bu da doğrudur.",
+      "Kolay yolda saat ve dakika ayrı sayılar olarak okunur: 10:20 → ten twenty, 8:45 → eight forty-five, 11:30 → eleven thirty. Dakika 1–9 arasındaysa başına oh gelir: 6:05 → six oh five, 9:08 → nine oh eight. Bu yol özellikle tren, uçak ve otobüs saatlerinde, televizyon programlarında ve telefonda sık kullanılır.",
+      "Kolay yol Türkçedeki “on yirmi, sekiz kırk beş” söyleyişine çok benzer. Bu yüzden başlangıçta kendinizi rahat hissettiğiniz yol budur. Ama dinlediğinizde past / to ile söylenen saatleri de anlayabilmek için bir sonraki ekranı mutlaka çalışın."
+     ],
+     "formula": [
+      "Tam saat: It's + saat + o'clock.",
+      "Kolay yol: It's + saat + dakika (10:20 → ten twenty).",
+      "1–9 dakika: oh + dakika (6:05 → six oh five)."
+     ],
+     "examples": [
+      {
+       "en": "It's twelve o'clock. Let's have lunch!",
+       "tr": "Saat on iki. Hadi öğle yemeği yiyelim!",
+       "why": ["Tam saat olduğu için o'clock kullanıldı."]
+      },
+      {
+       "en": "It's eight forty-five. The lesson starts at nine.",
+       "tr": "Saat sekiz kırk beş. Ders dokuzda başlıyor.",
+       "why": ["8:45 kolay yolla okundu. İkinci cümlede başlama saati at ile verildi."]
+      },
+      {
+       "en": "The train is at six oh five.",
+       "tr": "Tren altıyı beş geçe.",
+       "why": ["6:05'te sıfır oh olarak okunur."]
+      },
+      {
+       "en": "It's eleven thirty. — Oh no, I'm late!",
+       "tr": "Saat on bir buçuk. — Eyvah, geç kaldım!",
+       "why": ["11:30 kolay yolla eleven thirty olur; geleneksel yolla half past eleven."]
+      }
+     ],
+     "checks": [
+      {"question": "7:40'ı kolay yolla söyleyin.", "answer": "It's seven forty.", "why": "Saat + dakika."},
+      {"question": "It's five twenty o'clock cümlesindeki hata nedir?", "answer": "Dakika varken o'clock kullanılmaz: It's five twenty.", "why": "o'clock yalnızca tam saatlerde."}
+     ],
+     "mistakes": [
+      {"wrong": "It's six five.", "right": "It's six oh five.", "why": "Tek basamaklı dakikalarda oh eklenir."}
+     ],
+     "contrasts": []
+    }
+   ]
+  },
+  {
+   "screenId": "past-to",
+   "title": "half past, quarter past, quarter to: saati geleneksel yolla söylemek",
+   "intro": [
+    "İngiltere'de ve ders kitaplarında saatler çoğunlukla geleneksel yolla söylenir: quarter past nine, half past nine, quarter to ten. Bu yol Türkçedeki “dokuzu çeyrek geçiyor, dokuz buçuk, ona çeyrek var” söyleyişine çok benzer. İki önemli fark vardır: İngilizcede önce dakika, sonra saat söylenir ve “buçuk” için half past kullanılır.",
+    "Bu yolu öğrenmenin en kolay yöntemi saat kadranını ikiye bölmektir. Sağ yarı (1–30. dakikalar) past'tir: saati geçiyor. Sol yarı (31–59. dakikalar) to'dur: bir sonraki saate kaç dakika var. Çeyrek (15 dakika) için quarter, yarım saat için half kullanılır. Bu ekranda bu kuralları adım adım uygulayıp bol örnekle pekiştiriyoruz."
+   ],
+   "patterns": [
+    {
+     "id": "pt-past",
+     "title": "ten past nine · quarter past nine · half past nine",
+     "meaning": "Saatin ilk yarısında (1–30 dakika) past ile saat söylemek",
+     "explanation": [
+      "past “geçiyor, geçe” demektir. Sıra şöyledir: dakika + past + saat. 9:10 → ten past nine (dokuzu on geçiyor). Türkçede önce saati söyleriz (dokuzu), sonra dakikayı (on geçiyor); İngilizcede önce dakika (ten), sonra past, en son saat (nine) gelir. Bu sıra değişikliği başta zor gelebilir; ama birkaç tekrarla oturur.",
+      "15 dakika için quarter (çeyrek) kullanılır: 9:15 → quarter past nine. İsterseniz başına a eklenir: a quarter past nine; ikisi de doğrudur. 30 dakika için half (yarım) kullanılır: 9:30 → half past nine. Türkçede “dokuz buçuk” deriz ve saat önce gelir; İngilizcede half past önce, saat sonra gelir. half nine gibi kısa bir İngiliz söyleyişi de vardır ama A1'de kullanmayın; karışıklığa yol açabilir.",
+      "5'in katı olmayan dakikalarda minutes eklenir: 9:07 → seven minutes past nine. Ama bu kadar uzun söylemek yerine günlük hayatta çoğunlukla kolay yol kullanılır: nine oh seven."
+     ],
+     "formula": [
+      "dakika + past + saat: ten past nine (9:10)",
+      ":15 → quarter past · :30 → half past",
+      "5'in katı değilse: seven minutes past nine (9:07)"
+     ],
+     "examples": [
+      {
+       "en": "It's quarter past three.",
+       "tr": "Üçü çeyrek geçiyor.",
+       "why": ["3:15. Önce quarter, sonra past, en son saat (three)."]
+      },
+      {
+       "en": "It's half past seven. Breakfast is ready!",
+       "tr": "Saat yedi buçuk. Kahvaltı hazır!",
+       "why": ["7:30. Türkçedeki “buçuk” İngilizcede half past olur ve saatten önce gelir."],
+       "chunks": [
+        {"en": "half", "tr": "yarım", "note": "30 dakika."},
+        {"en": "past", "tr": "geçe", "note": "Saatin sağ yarısı."},
+        {"en": "seven", "tr": "yedi", "note": "Saat en sonda."}
+       ]
+      },
+      {
+       "en": "It's twenty past eleven.",
+       "tr": "On biri yirmi geçiyor.",
+       "why": ["11:20. Dakika (twenty) + past + saat (eleven)."]
+      },
+      {
+       "en": "It's five past one.",
+       "tr": "Biri beş geçiyor.",
+       "why": ["1:05. Burada oh kullanılmaz; geleneksel yolda dakika five olarak söylenir."]
+      }
+     ],
+     "checks": [
+      {"question": "4:30'u geleneksel yolla söyleyin.", "answer": "It's half past four.", "why": "half past + saat."},
+      {"question": "6:20'yi geleneksel yolla söyleyin.", "answer": "It's twenty past six.", "why": "dakika + past + saat."}
+     ],
+     "mistakes": [
+      {"wrong": "It's nine half.", "right": "It's half past nine.", "why": "Türkçedeki “dokuz buçuk” sırası İngilizcede tersine döner."},
+      {"wrong": "It's nine past ten. (9:10 için)", "right": "It's ten past nine.", "why": "Önce dakika, sonra saat."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "pt-to",
+     "title": "quarter to ten · ten to ten · twenty to two",
+     "meaning": "Saatin ikinci yarısında (31–59 dakika) to ile bir sonraki saate kalan dakikayı söylemek",
+     "explanation": [
+      "to “var, kala” demektir ve her zaman bir sonraki saati gösterir. Sıra yine dakika + to + saat'tir ama dakika, bir sonraki saate kalan dakikadır. 9:45'te ona 15 dakika kalmıştır → quarter to ten (ona çeyrek var). 9:50'de ona 10 dakika kalmıştır → ten to ten (ona on var).",
+      "En sık hata saati yanlış seçmektir: 9:45 için quarter to nine demek (8:45 olur!). Kural basit: to görürseniz saati bir artırın. Kalan dakikayı bulmak için 60'tan çıkarın: 9:40 → 60 − 40 = 20 → twenty to ten. 1:35 → 60 − 35 = 25 → twenty-five to two.",
+      "Türkçede de “ona çeyrek var” derken bir sonraki saati söyleriz; bu yüzden mantık aynıdır. Farklı olan yine sıradır: Türkçede saat önce (ona), İngilizcede dakika önce (quarter) gelir."
+     ],
+     "formula": [
+      "kalan dakika + to + bir sonraki saat",
+      ":45 → quarter to · :50 → ten to · :40 → twenty to",
+      "Kalan dakika = 60 − dakika"
+     ],
+     "examples": [
+      {
+       "en": "It's quarter to ten.",
+       "tr": "Ona çeyrek var.",
+       "why": ["9:45. Ona 15 dakika (quarter) kaldı; saat bir sonraki saattir: ten."],
+       "chunks": [
+        {"en": "quarter", "tr": "çeyrek", "note": "Kalan 15 dakika."},
+        {"en": "to", "tr": "var / kala", "note": "Saatin sol yarısı."},
+        {"en": "ten", "tr": "ona", "note": "Bir sonraki saat."}
+       ]
+      },
+      {
+       "en": "It's twenty to two.",
+       "tr": "İkiye yirmi var.",
+       "why": ["1:40. 60 − 40 = 20 dakika kaldı; bir sonraki saat two."]
+      },
+      {
+       "en": "It's five to nine. Hurry up!",
+       "tr": "Dokuza beş var. Acele et!",
+       "why": ["8:55. Dokuza 5 dakika kaldı. Hurry up = acele et."]
+      },
+      {
+       "en": "The bus comes at quarter to eight.",
+       "tr": "Otobüs sekize çeyrek kala gelir.",
+       "why": ["7:45. Bir işin saatini söylerken at kullanılır: at quarter to eight."]
+      }
+     ],
+     "checks": [
+      {"question": "10:45'i geleneksel yolla söyleyin.", "answer": "It's quarter to eleven.", "why": "to → bir sonraki saat (eleven)."},
+      {"question": "3:50'yi geleneksel yolla söyleyin.", "answer": "It's ten to four.", "why": "60 − 50 = 10; bir sonraki saat four."},
+      {"question": "It's twenty to six hangi saattir?", "answer": "5:40", "why": "Altıya 20 dakika var."}
+     ],
+     "mistakes": [
+      {"wrong": "It's quarter to nine. (9:45 için)", "right": "It's quarter to ten.", "why": "to ile her zaman bir sonraki saat söylenir."}
+     ],
+     "contrasts": [
+      {"label": "quarter past / quarter to", "explanation": ["quarter past saati 15 dakika geçmiştir; quarter to bir sonraki saate 15 dakika vardır. Aynı saat rakamıyla 30 dakika fark eder."], "example": "quarter past nine (9:15) · quarter to nine (8:45)", "tr": "dokuzu çeyrek geçiyor · dokuza çeyrek var"}
+     ]
+    },
+    {
+     "id": "pt-two-ways",
+     "title": "half past seven = seven thirty",
+     "meaning": "Aynı saati iki yolla söyleyebilmek ve duyduğunu iki yolla da anlamak",
+     "explanation": [
+      "Her saat iki yolla söylenebilir: quarter past three = three fifteen, half past seven = seven thirty, quarter to eight = seven forty-five. Dikkat: to yolunda saat bir artarken, kolay yolda saat aynı kalır: quarter to eight (7:45) = seven forty-five. Bu fark ilk başta kafa karıştırabilir; rakamı düşünmek yardımcı olur.",
+      "Hangi yolu kullanmalıyım? Konuşurken rahat olduğunuz yolu seçebilirsiniz. Ama dinlerken iki yolu da anlamanız gerekir; çünkü öğretmen, kitap veya karşınızdaki kişi farklı yolu kullanabilir. Kitaplar ve İngiliz İngilizcesi çoğunlukla past / to'yu, ilan panoları ve dijital saatler kolay yolu sever."
+     ],
+     "formula": [
+      "past yolu: saat aynı → quarter past three = three fifteen",
+      "to yolu: saat +1 → quarter to eight = seven forty-five"
+     ],
+     "examples": [
+      {
+       "en": "It's half past six. = It's six thirty.",
+       "tr": "Altı buçuk.",
+       "why": ["İki yol da 6:30'u gösterir; past yolunda saat değişmez."]
+      },
+      {
+       "en": "It's quarter to eight. = It's seven forty-five.",
+       "tr": "Sekize çeyrek var.",
+       "why": ["to yolunda saat eight, kolay yolda seven'dır; ikisi de 7:45 demektir."]
+      },
+      {
+       "en": "It's ten to five. = It's four fifty.",
+       "tr": "Beşe on var.",
+       "why": ["4:50'yi iki yolla söyledik. Kolay yolda dakika fifty'dir."]
+      }
+     ],
+     "checks": [
+      {"question": "quarter past two'yu kolay yolla söyleyin.", "answer": "two fifteen", "why": "past yolunda saat aynı kalır."},
+      {"question": "twenty to nine'ı kolay yolla söyleyin.", "answer": "eight forty", "why": "to yolunda saat bir eksiltilir: 8:40."}
+     ],
+     "mistakes": [
+      {"wrong": "quarter to eight = eight forty-five", "right": "quarter to eight = seven forty-five", "why": "to yolunda gösterilen saat bir sonraki saattir."}
+     ],
+     "contrasts": []
+    }
+   ]
+  },
+  {
+   "screenId": "time-write",
+   "title": "Saatleri yazıyla yazmak ve a.m. / p.m. kullanmak",
+   "intro": [
+    "Bir saati rakamla gördüğümüzde onu yazıyla yazabilmek, saati gerçekten anladığımızı gösterir. Sınavlarda bu sık sorulur: 7:45 → quarter to eight. Bu ekranda adım adım bir yöntem öğreniyoruz: önce dakikaya bakıyoruz, sonra past mı to mu olduğuna karar veriyoruz, en son saati yazıyoruz.",
+    "Türkiye'de günlük hayatta 24 saatlik sistem yaygındır: 15:00, 20:30. İngilizcede ise genellikle 12 saatlik sistem kullanılır ve sabah ile akşam a.m. / p.m. ya da in the morning / in the afternoon / in the evening ile ayrılır. 15:00 için fifteen o'clock denmez; three p.m. ya da three o'clock in the afternoon denir."
+   ],
+   "patterns": [
+    {
+     "id": "tw-method",
+     "title": "4:50 → ten to five",
+     "meaning": "Rakamla verilen saati adım adım yazıya çevirmek",
+     "explanation": [
+      "Birinci adım dakikaya bakmaktır. :00 ise o'clock yazarız. :15 quarter past, :30 half past, :45 quarter to'dur. Diğer dakikalarda 1–30 arası past, 31–59 arası to kullanılır.",
+      "İkinci adım saati seçmektir. past kullanıyorsak rakamdaki saati yazarız: 4:10 → ten past four. to kullanıyorsak bir sonraki saati yazarız ve dakikayı 60'tan çıkarırız: 4:50 → (60 − 50 = 10) → ten to five.",
+      "Üçüncü adım yazımı kontrol etmektir: tireli sayılar (twenty-five), forty'nin u'suz yazımı, o'clock'taki kesme işareti. Kolay yolu da yazmanız istenebilir: 4:50 → four fifty. Soru hangi yolu istiyorsa onu kullanın; istemiyorsa ikisi de doğrudur."
+     ],
+     "formula": [
+      "1. Dakika: :00 o'clock · :15 quarter past · :30 half past · :45 quarter to",
+      "2. past → aynı saat · to → bir sonraki saat (60 − dakika)",
+      "3. Yazımı kontrol: twenty-five, forty, o'clock"
+     ],
+     "examples": [
+      {
+       "en": "2:45 → It's quarter to three.",
+       "tr": "2:45 → Üçe çeyrek var.",
+       "why": [":45 → quarter to; bir sonraki saat three."]
+      },
+      {
+       "en": "11:25 → It's twenty-five past eleven.",
+       "tr": "11:25 → On biri yirmi beş geçiyor.",
+       "why": ["25 dakika, saatin sağ yarısında → past. twenty-five tireyle yazılır."]
+      },
+      {
+       "en": "6:00 → It's six o'clock.",
+       "tr": "6:00 → Saat altı.",
+       "why": ["Tam saat → o'clock. Kesme işaretini unutmayın: o'clock."]
+      },
+      {
+       "en": "12:40 → It's twenty to one.",
+       "tr": "12:40 → Bire yirmi var.",
+       "why": ["12'den sonraki saat one'dır. 60 − 40 = 20."]
+      }
+     ],
+     "checks": [
+      {"question": "8:35'i past / to ile yazın.", "answer": "It's twenty-five to nine.", "why": "60 − 35 = 25; bir sonraki saat nine."},
+      {"question": "1:15'i iki yolla yazın.", "answer": "quarter past one · one fifteen", "why": "past yolunda saat aynı kalır."}
+     ],
+     "mistakes": [
+      {"wrong": "It's ten to four. (4:50 için)", "right": "It's ten to five.", "why": "to ile bir sonraki saat yazılır."},
+      {"wrong": "It's four o'clock thirty.", "right": "It's half past four. / It's four thirty.", "why": "o'clock yalnızca tam saatte."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "tw-ampm",
+     "title": "7 a.m. · 3 p.m. · noon · midnight",
+     "meaning": "24 saatlik saatleri İngilizcedeki 12 saatlik sisteme çevirmek",
+     "explanation": [
+      "a.m. gece yarısından öğleye kadar olan saatleri, p.m. öğleden gece yarısına kadar olan saatleri gösterir. Türkiye'deki 07:00 → 7 a.m., 15:00 → 3 p.m., 20:30 → 8:30 p.m. olur. Çevirmek için 12'den büyük saatlerden 12 çıkarırız: 17 − 12 = 5 → 5 p.m.",
+      "Öğle 12:00 için noon ya da midday, gece 00:00 için midnight denir. 12 a.m. ve 12 p.m. karışık olduğu için bu iki kelimeyi kullanmak daha açıktır. Konuşmada a.m. / p.m. yerine çoğunlukla günün bölümleri söylenir: seven in the morning, three in the afternoon, eight in the evening, eleven at night.",
+      "Yazarken a.m. ve p.m. saatten sonra gelir: 9 a.m., 6:30 p.m. o'clock ile birlikte kullanılmaz: 9 o'clock a.m. yanlıştır. Ya nine o'clock in the morning ya da 9 a.m. deriz."
+     ],
+     "formula": [
+      "13:00–23:59 → saat − 12 + p.m.",
+      "12:00 → noon / midday · 00:00 → midnight",
+      "Konuşmada: in the morning / afternoon / evening, at night"
+     ],
+     "examples": [
+      {
+       "en": "The lesson finishes at 1 p.m.",
+       "tr": "Ders saat 13:00'te biter.",
+       "why": ["13 − 12 = 1 → 1 p.m. Öğleden sonra olduğunu p.m. gösterir."]
+      },
+      {
+       "en": "I have dinner at eight in the evening.",
+       "tr": "Akşam sekizde akşam yemeği yerim.",
+       "why": ["20:00'yi konuşmada eight in the evening diye söyledik."]
+      },
+      {
+       "en": "We have lunch at noon.",
+       "tr": "Öğlen on ikide öğle yemeği yeriz.",
+       "why": ["noon öğle saati 12:00'dir; önüne at gelir."]
+      },
+      {
+       "en": "I go to bed at midnight.",
+       "tr": "Gece yarısı yatarım.",
+       "why": ["midnight 00:00'dır. twelve p.m. demekten daha açıktır."]
+      }
+     ],
+     "checks": [
+      {"question": "18:30'u a.m. / p.m. ile yazın.", "answer": "6:30 p.m.", "why": "18 − 12 = 6; öğleden sonra → p.m."},
+      {"question": "15:00 için konuşmada ne dersiniz?", "answer": "three o'clock in the afternoon / three p.m.", "why": "fifteen o'clock denmez."}
+     ],
+     "mistakes": [
+      {"wrong": "It's fifteen o'clock.", "right": "It's three o'clock (in the afternoon).", "why": "İngilizcede günlük konuşmada 12 saatlik sistem kullanılır."},
+      {"wrong": "9 o'clock a.m.", "right": "9 a.m. / nine o'clock in the morning", "why": "o'clock ile a.m. birlikte kullanılmaz."}
+     ],
+     "contrasts": [
+      {"label": "a.m. / p.m.", "explanation": ["a.m. sabahı ve öğleden önceyi, p.m. öğleden sonrayı ve akşamı gösterir."], "example": "8 a.m. · 8 p.m.", "tr": "sabah 8 · akşam 8 (20:00)"}
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {"id": "tens", "term": "twenty · thirty · forty · fifty · sixty · seventy · eighty · ninety", "meaning": "yirmi · otuz · kırk · elli · altmış · yetmiş · seksen · doksan", "partOfSpeech": "sayı", "sourceTerms": ["twenty · thirty · forty · fifty", "sixty · seventy · eighty · ninety"], "explanation": ["Onluk sayılar -ty ile biter ve vurgu ilk hecededir: TWEN-ty, FOR-ty. two → twenty, three → thirty, five → fifty değişir; four → forty'de u düşer; eight → eighty'de tek t yazılır. -teen'li sayılarla (13–19) karıştırmamak için vurguya dikkat edin."], "collocations": [{"en": "forty years old", "tr": "kırk yaşında"}, {"en": "fifty lira", "tr": "elli lira"}], "examples": [{"en": "I'm forty.", "tr": "Kırk yaşındayım.", "note": "forty u'suz."}, {"en": "My grandmother is eighty.", "tr": "Anneannem seksen yaşında.", "note": "eighty tek t."}, {"en": "It's ninety lira.", "tr": "Doksan lira.", "note": "lira çoğulda da -s almaz."}], "commonMistake": "fourty yerine forty yazılır."},
+  {"id": "compound-numbers", "term": "twenty-one … ninety-nine", "meaning": "yirmi bir … doksan dokuz", "partOfSpeech": "sayı", "sourceTerms": ["twenty-one … ninety-nine"], "explanation": ["Ara sayılar onluk + tire + birlik şeklindedir: thirty-four, sixty-eight. Sıra Türkçedeki gibidir. Saat dakikalarında, fiyatlarda, sayfa ve oda numaralarında sık kullanılır. Yazarken tireyi unutmayın."], "collocations": [{"en": "page forty-five", "tr": "kırk beşinci sayfa"}, {"en": "seven twenty-five", "tr": "yedi yirmi beş (7:25)"}], "examples": [{"en": "Turn to page forty-five.", "tr": "Kırk beşinci sayfayı açın.", "note": "Sayfa numarası."}, {"en": "It's seven twenty-five.", "tr": "Saat yedi yirmi beş.", "note": "Kolay yolla saat."}, {"en": "My father is sixty-three.", "tr": "Babam altmış üç yaşında.", "note": "Yaş."}], "commonMistake": "twenty one yerine twenty-one yazılır."},
+  {"id": "hundred", "term": "a hundred", "meaning": "yüz (100)", "partOfSpeech": "sayı", "sourceTerms": ["a hundred"], "explanation": ["100 için a hundred ya da one hundred denir; tek başına hundred eksiktir. Fiyatlarda çok kullanılır: a hundred lira. 100'ün üstündeki sayılarda and gelir: a hundred and five (105). Bu derste yalnızca 100'e kadar sayıyoruz."], "collocations": [{"en": "a hundred lira", "tr": "yüz lira"}, {"en": "a hundred per cent", "tr": "yüzde yüz"}], "examples": [{"en": "A hundred lira, please.", "tr": "Yüz lira, lütfen.", "note": "Fiyat."}, {"en": "My grandfather is a hundred years old!", "tr": "Dedem yüz yaşında!", "note": "years old ile yaş."}, {"en": "I'm a hundred per cent sure.", "tr": "Yüzde yüz eminim.", "note": "Kalıp ifade."}], "commonMistake": "It's hundred lira yerine It's a hundred lira denir."},
+  {"id": "what-time", "term": "What time is it? · What's the time?", "meaning": "saat kaç?", "partOfSpeech": "soru kalıbı", "sourceTerms": ["What time is it? · What's the time?"], "explanation": ["Şu anki saati soran iki kalıptır; anlamları aynıdır. Cevap It's ile başlar. Kibar sormak için Excuse me ve please eklenir. What time …? kalıbı bir işin saatini sormak için de kullanılır ama o zaman do / does gelir: What time do you get up?"], "collocations": [{"en": "Excuse me, what time is it?", "tr": "Affedersiniz, saat kaç?"}, {"en": "It's … o'clock.", "tr": "Saat …"}], "examples": [{"en": "What time is it? — It's half past nine.", "tr": "Saat kaç? — Dokuz buçuk.", "note": "Cevap It's ile."}, {"en": "Excuse me, what's the time, please?", "tr": "Affedersiniz, saat kaç acaba?", "note": "Kibar soru."}, {"en": "What time is it in London now?", "tr": "Londra'da şu an saat kaç?", "note": "Yer eklenebilir."}], "commonMistake": "What time is? yerine What time is it? denir; it unutulmaz."},
+  {"id": "oclock", "term": "o'clock", "meaning": "tam (saat)", "partOfSpeech": "zaman ifadesi", "sourceTerms": ["o'clock"], "explanation": ["o'clock yalnızca tam saatlerde kullanılır: nine o'clock. Dakika varsa kullanılmaz. Yazarken kesme işareti (') unutulmamalıdır. Tam saatte o'clock'u hiç söylemeden de konuşabiliriz: It's nine."], "collocations": [{"en": "at six o'clock", "tr": "saat altıda"}, {"en": "seven o'clock in the morning", "tr": "sabah yedi"}], "examples": [{"en": "It's nine o'clock.", "tr": "Saat dokuz.", "note": "Tam saat."}, {"en": "I get up at six o'clock.", "tr": "Saat altıda kalkarım.", "note": "Bir işin saati: at."}, {"en": "The shop opens at ten o'clock.", "tr": "Mağaza saat onda açılır.", "note": "opens -s aldı (the shop = it)."}], "commonMistake": "It's nine thirty o'clock denmez; o'clock yalnızca tam saatte."},
+  {"id": "half-past", "term": "half past", "meaning": "buçuk (… buçuk)", "partOfSpeech": "zaman ifadesi", "sourceTerms": ["half past"], "explanation": ["half yarım demektir. half past + saat, o saatin otuz dakika geçtiğini söyler: half past seven (7:30). Türkçedeki “yedi buçuk” sıralamasının tersine, İngilizcede önce half past, sonra saat söylenir. Aynı saat kolay yolla seven thirty'dir."], "collocations": [{"en": "at half past six", "tr": "altı buçukta"}, {"en": "half an hour", "tr": "yarım saat"}], "examples": [{"en": "It's half past seven.", "tr": "Saat yedi buçuk.", "note": "7:30."}, {"en": "The lesson starts at half past nine.", "tr": "Ders dokuz buçukta başlar.", "note": "at + saat."}, {"en": "I have breakfast at half past six.", "tr": "Altı buçukta kahvaltı yaparım.", "note": "Günlük iş + saat."}], "commonMistake": "seven half yerine half past seven denir."},
+  {"id": "quarter", "term": "quarter past · quarter to", "meaning": "çeyrek geçiyor · çeyrek var", "partOfSpeech": "zaman ifadesi", "sourceTerms": ["quarter past · quarter to"], "explanation": ["quarter çeyrek, yani 15 dakikadır. quarter past + saat o saati 15 dakika geçtiğini söyler (9:15 → quarter past nine). quarter to + saat bir sonraki saate 15 dakika kaldığını söyler (9:45 → quarter to ten). Başına a eklenebilir: a quarter past nine."], "collocations": [{"en": "at quarter past eight", "tr": "sekizi çeyrek geçe"}, {"en": "at quarter to eight", "tr": "sekize çeyrek kala"}], "examples": [{"en": "It's quarter past three.", "tr": "Üçü çeyrek geçiyor.", "note": "3:15."}, {"en": "It's quarter to ten.", "tr": "Ona çeyrek var.", "note": "9:45 — bir sonraki saat."}, {"en": "My work starts at quarter to eight.", "tr": "İşim sekize çeyrek kala başlar.", "note": "7:45."}], "commonMistake": "9:45 için quarter to nine değil quarter to ten denir."},
+  {"id": "past-to-minutes", "term": "five past · ten to", "meaning": "beş geçiyor · on var", "partOfSpeech": "zaman ifadesi", "sourceTerms": ["five past · ten to"], "explanation": ["5'in katı dakikalar geleneksel yolda past ve to ile söylenir: five past, ten past, twenty past, twenty-five past (1–30); twenty-five to, twenty to, ten to, five to (31–59). to ile her zaman bir sonraki saat gelir ve dakika 60'tan çıkarılarak bulunur."], "collocations": [{"en": "twenty past one", "tr": "biri yirmi geçe"}, {"en": "five to nine", "tr": "dokuza beş kala"}], "examples": [{"en": "It's five past ten.", "tr": "Onu beş geçiyor.", "note": "10:05."}, {"en": "It's ten to five.", "tr": "Beşe on var.", "note": "4:50."}, {"en": "It's twenty-five to seven.", "tr": "Yediye yirmi beş var.", "note": "6:35 — 60 − 35 = 25."}], "commonMistake": "4:50 için ten to four değil ten to five denir."},
+  {"id": "am-pm", "term": "a.m. · p.m. · noon · midnight", "meaning": "öğleden önce · öğleden sonra · öğle · gece yarısı", "partOfSpeech": "zaman ifadesi", "sourceTerms": ["a.m. · p.m.", "noon · midnight"], "explanation": ["İngilizcede genellikle 12 saatlik sistem kullanılır. a.m. gece yarısından öğleye, p.m. öğleden gece yarısına kadardır: 15:00 → 3 p.m. Öğle 12:00 için noon (midday), gece 00:00 için midnight denir. Konuşmada çoğunlukla in the morning / afternoon / evening tercih edilir."], "collocations": [{"en": "at 9 a.m.", "tr": "sabah 9'da"}, {"en": "at midnight", "tr": "gece yarısında"}], "examples": [{"en": "The shop opens at 9 a.m.", "tr": "Mağaza sabah 9'da açılır.", "note": "a.m. saatten sonra."}, {"en": "The lesson finishes at 1 p.m.", "tr": "Ders 13:00'te biter.", "note": "13 − 12 = 1."}, {"en": "We have lunch at noon.", "tr": "Öğlen 12'de öğle yemeği yeriz.", "note": "noon = 12:00."}], "commonMistake": "fifteen o'clock denmez; three p.m. ya da three o'clock in the afternoon denir."}
+ ]
+}

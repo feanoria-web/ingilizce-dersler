@@ -56,6 +56,26 @@
     "url": "lessons/a1/day-03.html"
   },
   {
+    "id": "a1/day-04",
+    "level": "A1",
+    "title": "Okulda · Saat kaç? · Benim günüm",
+    "description": "A1 dördüncü ders: sınıf komutları ve yönergeler, sınıfta yardım istemek, okuldaki tabela ve afişler, okulda bir diyalog, 20–100 sayılar, saat sormak ve söylemek (o'clock, half past, quarter past / to), saatleri yazıyla yazmak, günlük işler ve saatleri, sıklık zarfları (always, usually, never), önce / sonra, he / she ile -s, bir kişinin gününü okumak ve kendi günümüzü yazmak. Her konuda kısa özet, ayrıntılı Türkçe anlatım, örnekler ve sınıf etkinlikleri.",
+    "number": 4,
+    "order": 4,
+    "date": "2026-11-01",
+    "duration": "230 dk",
+    "tags": [
+      "Sınıf dili",
+      "Tabelalar",
+      "Sayılar",
+      "Saat",
+      "Günlük işler",
+      "Sıklık zarfları",
+      "Okuma ve yazma"
+    ],
+    "url": "lessons/a1/day-04.html"
+  },
+  {
     "id": "a2/day-01",
     "level": "A2",
     "title": "Tanışma ve iletişim",

@@ -1,0 +1,498 @@
+{
+ "version": 1,
+ "block": 3,
+ "chapters": [
+  {
+   "screenId": "routines",
+   "title": "Günlük işler: fiil gruplarını bütün olarak öğrenmek",
+   "intro": [
+    "Bir günü anlatmak için çok fazla kelimeye ihtiyacımız yoktur. get up, have breakfast, go to work, have lunch, come home, have dinner, go to bed gibi on beş yirmi fiil grubuyla sabahtan geceye her şeyi söyleyebiliriz. Bu grupların çoğu iki ya da üç kelimedir ve tek tek çevirince anlamı kaybolur. Örneğin have breakfast kelime kelime “kahvaltıya sahip olmak” gibi görünür ama “kahvaltı yapmak” demektir.",
+    "Bu yüzden bu ekrandaki ifadeleri birer kalıp olarak öğreniyoruz. Her gün tekrar eden işleri anlatırken geniş zaman (present simple) kullanırız: I get up at seven. We have dinner at eight. Ben, sen, biz ve onlar için fiil hiç değişmez. Burada iki tuzağa dikkat edeceğiz: geniş zamanda am / is / are kullanmamak (I am get up yanlıştır) ve home ile to kullanmamak (go to home yanlıştır)."
+   ],
+   "patterns": [
+    {
+     "id": "rt-phrases",
+     "title": "get up · have breakfast · go to work · go to bed",
+     "meaning": "Günlük işleri fiil grupları ile söylemek",
+     "explanation": [
+      "Günlük işlerin çoğu bir fiil ile bir kelimenin birleşiminden oluşur. wake up uyanmak (gözleri açmak), get up ise yataktan kalkmaktır; ikisi farklı anlar olabilir: I wake up at six, but I get up at half past six. have a shower duş almak, get dressed giyinmek, brush my teeth dişlerimi fırçalamaktır. Akşam işleri için cook dinner (akşam yemeği pişirmek), do the housework (ev işlerini yapmak), watch TV (televizyon izlemek), read a book (kitap okumak) ve go to bed (yatmak) kullanılır.",
+      "have fiili yemek ve içmek için çok kullanılır: have breakfast, have lunch, have dinner, have a cup of tea. Öğün adlarının önüne a ya da the gelmez: I have breakfast ✓, I have a breakfast ✗. make breakfast ise kahvaltı hazırlamak demektir; anlam farklıdır.",
+      "go to + yer kalıbında da çoğu zaman the kullanılmaz: go to work, go to school, go to bed. Bu kalıplarda yerin kendisi değil, o yerin amacı düşünülür: işe gitmek, okula gitmek, uyumaya gitmek. home ise özeldir; to almaz: go home, come home. Dua etmek ya da namaz kılmak için pray fiili kullanılır."
+     ],
+     "formula": [
+      "I + fiil grubu (+ at + saat): I get up at seven.",
+      "have + öğün (a / the yok): have breakfast / lunch / dinner",
+      "go to work / school / bed · go home / come home (to yok)"
+     ],
+     "examples": [
+      {
+       "en": "I wake up at six, but I get up at half past six.",
+       "tr": "Altıda uyanırım ama altı buçukta kalkarım.",
+       "why": ["wake up ve get up farklı anlardır. but iki zıt bilgiyi bağlar."]
+      },
+      {
+       "en": "I have a shower, get dressed and have breakfast.",
+       "tr": "Duş alırım, giyinirim ve kahvaltı yaparım.",
+       "why": ["Aynı özneyle (I) birden fazla iş virgül ve and ile sıralanır; I'yı tekrar etmeye gerek yoktur."],
+       "chunks": [
+        {"en": "have a shower", "tr": "duş almak", "note": "a kullanılır: bir duş."},
+        {"en": "get dressed", "tr": "giyinmek", "note": "Kalıp; dress tek başına da olur."},
+        {"en": "have breakfast", "tr": "kahvaltı yapmak", "note": "Öğünde a yok."}
+       ]
+      },
+      {
+       "en": "I go to work by bus and I come home at six.",
+       "tr": "İşe otobüsle giderim ve altıda eve gelirim.",
+       "why": ["go to work'te the yok; come home'da to yok. by bus ulaşım aracını gösterir."]
+      },
+      {
+       "en": "In the evening, I cook dinner and do the housework.",
+       "tr": "Akşam yemek pişiririm ve ev işlerini yaparım.",
+       "why": ["do the housework kalıbında the vardır. housework sayılamaz, -s almaz."]
+      },
+      {
+       "en": "I pray and then I go to bed at eleven.",
+       "tr": "Namaz kılarım / dua ederim, sonra saat on birde yatarım.",
+       "why": ["pray dua etmek ve namaz kılmak için kullanılır. go to bed yatmak demektir."]
+      }
+     ],
+     "checks": [
+      {"question": "“Duş alırım” nasıl söylenir?", "answer": "I have a shower.", "why": "have a shower kalıbı."},
+      {"question": "I go to home at five cümlesini düzeltin.", "answer": "I go home at five.", "why": "home ile to kullanılmaz."},
+      {"question": "wake up ile get up farkı nedir?", "answer": "wake up uyanmak, get up yataktan kalkmaktır.", "why": "İkisi aynı an olmayabilir."}
+     ],
+     "mistakes": [
+      {"wrong": "I have a breakfast.", "right": "I have breakfast.", "why": "Öğün adlarının önünde a kullanılmaz."},
+      {"wrong": "I go to the bed.", "right": "I go to bed.", "why": "go to bed kalıbında the yoktur."}
+     ],
+     "contrasts": [
+      {"label": "have breakfast / make breakfast", "explanation": ["have breakfast kahvaltı yapmak (yemek), make breakfast kahvaltı hazırlamaktır."], "example": "I make breakfast for my children. Then we have breakfast together.", "tr": "Çocuklarım için kahvaltı hazırlarım. Sonra birlikte kahvaltı yaparız."}
+     ]
+    },
+    {
+     "id": "rt-present-simple",
+     "title": "I get up · we have · they go: geniş zaman",
+     "meaning": "Her gün tekrar eden işler için fiilin yalın hâlini kullanmak",
+     "explanation": [
+      "Alışkanlıkları ve her gün tekrar eden işleri anlatırken geniş zaman (present simple) kullanırız. I, you, we, they ile fiil yalın hâlde kalır: I get up, you get up, we get up, they get up. Türkçede fiile -ır / -er ekleriz (kalkarım, kalkarsın); İngilizcede bu kişiler için fiil hiç değişmez.",
+      "En sık hata, Türkçedeki “-ım” ekini am ile karşılamaya çalışmaktır: I am get up ✗. am / is / are yalnızca isim ve sıfatlarla kullanılır (I'm a nurse, I'm tired). Bir fiil varsa am eklenmez. Benzer şekilde I am work in a hospital ✗ değil, I work in a hospital ✓ deriz.",
+      "Kendi bedenimiz ve eşyalarımız için my kullanılır: brush my teeth, wash my face, call my family. Türkçede “dişlerimi” derken iyelik eki kullanırız; İngilizcede bunun yerine ayrı bir kelime (my) gerekir. my'yi atarsak cümle eksik kalır."
+     ],
+     "formula": [
+      "I / you / we / they + yalın fiil: I get up.",
+      "Fiil varsa am / is / are yok: I work (I am work ✗).",
+      "brush my teeth · wash my face · call my family"
+     ],
+     "examples": [
+      {
+       "en": "We have dinner at eight every evening.",
+       "tr": "Her akşam saat sekizde akşam yemeği yeriz.",
+       "why": ["we ile fiil yalın: have. every evening alışkanlığı gösterir ve cümle sonuna gelir."]
+      },
+      {
+       "en": "I brush my teeth and wash my face.",
+       "tr": "Dişlerimi fırçalarım ve yüzümü yıkarım.",
+       "why": ["Kendi bedenimiz için my kullanılır."]
+      },
+      {
+       "en": "My children go to school at half past seven.",
+       "tr": "Çocuklarım yedi buçukta okula gider.",
+       "why": ["my children = they; fiil yalın kalır: go. school'un önünde the yok."]
+      }
+     ],
+     "checks": [
+      {"question": "I am get up at seven cümlesindeki hata nedir?", "answer": "am fazladır: I get up at seven.", "why": "Fiil varken am kullanılmaz."},
+      {"question": "“Ailemi ararım” nasıl söylenir?", "answer": "I call my family.", "why": "call + my family."}
+     ],
+     "mistakes": [
+      {"wrong": "I am work in a factory.", "right": "I work in a factory.", "why": "Geniş zamanda fiille am kullanılmaz."},
+      {"wrong": "I brush teeth.", "right": "I brush my teeth.", "why": "Kendi dişlerimiz için my gerekir."}
+     ],
+     "contrasts": []
+    }
+   ]
+  },
+  {
+   "screenId": "what-time",
+   "title": "Saat kaçta? Günlük işlerin saatini sormak ve söylemek",
+   "intro": [
+    "“Saat kaç?” ile “Saat kaçta kalkarsın?” farklı sorulardır. İlki şu anki saati sorar: What time is it? İkincisi bir işin hangi saatte yapıldığını sorar: What time do you get up? İkinci soruda do yardımcı fiili vardır ve cevapta saatten önce at gelir: At seven. / I get up at seven.",
+    "Bu ekranda zaman ifadelerinin önüne gelen küçük kelimeleri de öğreniyoruz: saatlerde at, günün bölümlerinde in the, günlerde on. Türkçede bunların hepsini “-de / -da” eki karşılar: yedide, sabahleyin, pazartesi günü. İngilizcede ise hangi kelimenin kullanılacağı zaman ifadesinin türüne göre değişir. Birkaç kalıbı ezberlemek bu konuyu çok kolaylaştırır."
+   ],
+   "patterns": [
+    {
+     "id": "wt-question",
+     "title": "What time do you get up? — At seven.",
+     "meaning": "Bir kişiye günlük işlerinin saatini sormak ve cevap vermek",
+     "explanation": [
+      "Bir işin saatini sorarken What time + do + you + fiil? kalıbını kullanırız: What time do you get up? What time do you have lunch? Burada do yardımcı fiildir; Türkçeye çevrilmez, sadece soruyu kurar. Fiil yalın kalır. Cevap uzun ya da kısa olabilir: I get up at seven. / At seven. Kısa cevap konuşmada çok doğaldır.",
+      "Saati tam bilmiyorsak at about kullanırız: At about six. (Altı gibi.) Saat değişkense It depends. (Duruma göre değişir.) ya da Usually at seven, but on Sundays at nine. diyebiliriz. Röportaj yaparken cevabı dinledikten sonra And you? diye karşı soru sormak konuşmayı canlı tutar.",
+      "When (ne zaman) de benzer bir sorudur ama daha geneldir. What time kesin saat ister; When'e saat, gün ya da günün bölümüyle cevap verilebilir: When do you go shopping? — On Saturdays. / In the morning."
+     ],
+     "formula": [
+      "What time + do + you / we / they + fiil?",
+      "Cevap: I + fiil + at + saat. / At + saat.",
+      "Yaklaşık: at about + saat"
+     ],
+     "examples": [
+      {
+       "en": "What time do you get up? — At half past six. And you?",
+       "tr": "Saat kaçta kalkarsın? — Altı buçukta. Ya sen?",
+       "why": ["Kısa cevap At + saat. And you? soruyu karşı tarafa geri yöneltir."],
+       "chunks": [
+        {"en": "What time", "tr": "saat kaçta", "note": "Saat sorusu."},
+        {"en": "do you", "tr": "(sen) …-ır mısın", "note": "do yardımcıdır."},
+        {"en": "get up?", "tr": "kalkmak", "note": "Fiil yalın."}
+       ]
+      },
+      {
+       "en": "What time do you start work? — I start work at eight.",
+       "tr": "Saat kaçta işe başlarsın? — Sekizde işe başlarım.",
+       "why": ["Uzun cevapta sorunun fiili tekrar edilir: start work."]
+      },
+      {
+       "en": "What time do you come home? — At about six.",
+       "tr": "Saat kaçta eve gelirsin? — Altı gibi.",
+       "why": ["at about yaklaşık saati verir. come home'da to yok."]
+      },
+      {
+       "en": "When do you go shopping? — On Saturdays, in the morning.",
+       "tr": "Ne zaman alışverişe gidersin? — Cumartesileri, sabah.",
+       "why": ["When daha genel bir sorudur; gün ve günün bölümüyle cevaplandı."]
+      }
+     ],
+     "checks": [
+      {"question": "“Saat kaçta yatarsın?” sorusunu yazın.", "answer": "What time do you go to bed?", "why": "What time + do + you + fiil."},
+      {"question": "What time is it? ile What time do you get up? farkı nedir?", "answer": "İlki şu anki saati, ikincisi kalkma saatini sorar.", "why": "İkincisinde bir iş (fiil) vardır ve do kullanılır."}
+     ],
+     "mistakes": [
+      {"wrong": "What time you get up?", "right": "What time do you get up?", "why": "Soru do ile kurulur."},
+      {"wrong": "I get up seven.", "right": "I get up at seven.", "why": "Saatten önce at gelir."}
+     ],
+     "contrasts": [
+      {"label": "What time …? / When …?", "explanation": ["What time kesin saat ister. When ne zaman demektir; saat, gün ya da günün bölümüyle cevaplanabilir."], "example": "What time? — At seven. · When? — In the morning.", "tr": "Saat kaçta? — Yedide. · Ne zaman? — Sabah."}
+     ]
+    },
+    {
+     "id": "wt-prepositions",
+     "title": "at seven · in the morning · at night · on Saturday",
+     "meaning": "Zaman ifadelerinden önce doğru edatı kullanmak",
+     "explanation": [
+      "Saatlerden önce her zaman at gelir: at seven, at half past six, at noon, at midnight. Günün bölümlerinde in the kullanılır: in the morning (sabah), in the afternoon (öğleden sonra), in the evening (akşam). İki önemli istisna vardır: at night (gece) ve at the weekend (hafta sonu). Bunları kalıp olarak ezberleyin.",
+      "Günlerin önünde on gelir: on Monday, on Saturday. Her hafta tekrar eden bir alışkanlıkta gün çoğul olabilir: on Saturdays (cumartesileri). Gün ve günün bölümü birleşebilir: on Saturday morning (cumartesi sabahı); bu durumda in the kullanılmaz.",
+      "Cümlede birden fazla zaman bilgisi varsa genellikle küçük birimden büyüğe gideriz: at nine on Saturday (cumartesi saat dokuzda). every, this, next gibi kelimelerle birlikte edat kullanılmaz: every morning, every Saturday."
+     ],
+     "formula": [
+      "at + saat: at seven · at noon · at midnight",
+      "in the + morning / afternoon / evening · at night · at the weekend",
+      "on + gün: on Monday · on Saturdays · every / this ile edat yok"
+     ],
+     "examples": [
+      {
+       "en": "I read a book in the evening.",
+       "tr": "Akşam kitap okurum.",
+       "why": ["Günün bölümü: in the evening."]
+      },
+      {
+       "en": "I sleep well at night.",
+       "tr": "Geceleri iyi uyurum.",
+       "why": ["night bir istisnadır: at night."]
+      },
+      {
+       "en": "I come to the course on Saturdays at nine.",
+       "tr": "Cumartesileri saat dokuzda kursa gelirim.",
+       "why": ["Gün için on, saat için at. Saturdays her cumartesiyi anlatır."]
+      },
+      {
+       "en": "I drink tea every morning.",
+       "tr": "Her sabah çay içerim.",
+       "why": ["every ile edat kullanılmaz: in every morning değil every morning."]
+      }
+     ],
+     "checks": [
+      {"question": "Boşluğu doldurun: I go to the market ___ the morning.", "answer": "in", "why": "Günün bölümü: in the morning."},
+      {"question": "Boşluğu doldurun: I sleep ___ night.", "answer": "at", "why": "at night bir istisnadır."},
+      {"question": "Boşluğu doldurun: I visit my mother ___ Sundays.", "answer": "on", "why": "Gün için on."}
+     ],
+     "mistakes": [
+      {"wrong": "in the night", "right": "at night", "why": "Gece için at night kalıbı kullanılır."},
+      {"wrong": "on every Saturday", "right": "every Saturday", "why": "every ile edat kullanılmaz."}
+     ],
+     "contrasts": []
+    }
+   ]
+  },
+  {
+   "screenId": "frequency",
+   "title": "Sıklık zarfları: always, usually, often, sometimes, never",
+   "intro": [
+    "Bir işi ne sıklıkla yaptığımızı tek bir kelimeyle söyleyebiliriz. Programımızdaki örnekler tam olarak bunu gösteriyor: Daima dişlerimi fırçalarım (I always brush my teeth), Sık sık dua ederim (I often pray), Genellikle kitap okurum (I usually read books), Asla yalan söylemem (I never lie). Bu kelimelere sıklık zarfı denir ve hepsi bir ölçek üzerinde sıralanır: always (her zaman) en sık, never (asla) en seyrektir.",
+    "Sıklık zarflarının iki önemli kuralı vardır. Birincisi yerleri: fiilin hemen önüne gelirler (I always drink tea), ama am / is / are'den sonra gelirler (I'm always tired). İkincisi never'ın zaten olumsuz olması: never kullandığımızda ayrıca don't eklemeyiz. Ayrıca How often …? (Ne sıklıkla?) sorusunu ve every day, once a week gibi ifadeleri de öğreniyoruz."
+   ],
+   "patterns": [
+    {
+     "id": "fq-scale",
+     "title": "always · usually · often · sometimes · hardly ever · never",
+     "meaning": "Bir işin sıklığını ölçekten bir kelimeyle söylemek",
+     "explanation": [
+      "Sıklık zarflarını bir ölçek üzerinde düşünün. always (her zaman, daima) yaklaşık yüzde yüz demektir. usually (genellikle) çoğu zaman, often (sık sık) epey sık, sometimes (bazen) ara sıra, hardly ever (neredeyse hiç) çok nadiren, never (asla, hiç) sıfır demektir. Yüzdeler yaklaşık değerlerdir; önemli olan sıralamadır.",
+      "Bu kelimelerin Türkçe karşılıklarını birebir aramak yerine anlamı düşünün. usually ile often birbirine yakındır; usually “normalde, genellikle” anlamına daha yakındır. sometimes'ın sonundaki s'yi unutmayın: some time ayrı bir ifadedir. hardly ever iki kelimedir ve birlikte kullanılır.",
+      "Bu zarflar kendimiz hakkında dürüst ve ayrıntılı konuşmamızı sağlar. Sadece I drink coffee demek yerine I never drink coffee ya da I sometimes drink coffee dersek dinleyen bizi daha iyi tanır."
+     ],
+     "formula": [
+      "always (100%) → usually → often → sometimes → hardly ever → never (0%)",
+      "Özne + sıklık zarfı + fiil: I usually read books."
+     ],
+     "examples": [
+      {
+       "en": "I always brush my teeth.",
+       "tr": "Daima dişlerimi fırçalarım.",
+       "why": ["always her gün, istisnasız demektir. Zarf fiilden (brush) önce gelir."]
+      },
+      {
+       "en": "I usually read books in the evening.",
+       "tr": "Akşamları genellikle kitap okurum.",
+       "why": ["usually çoğu akşam demektir. Zaman ifadesi (in the evening) sona gelir."]
+      },
+      {
+       "en": "I often pray.",
+       "tr": "Sık sık dua ederim.",
+       "why": ["often sıklığın yüksek olduğunu gösterir; zarf fiilden önce."]
+      },
+      {
+       "en": "I sometimes cook dinner, but my husband usually cooks.",
+       "tr": "Bazen akşam yemeğini ben pişiririm ama genellikle eşim pişirir.",
+       "why": ["İki farklı sıklık but ile karşılaştırıldı. my husband = he olduğu için cooks -s aldı."]
+      },
+      {
+       "en": "I hardly ever eat fast food.",
+       "tr": "Neredeyse hiç fast food yemem.",
+       "why": ["hardly ever çok nadir demektir; cümle olumlu görünse de anlam neredeyse hiç'tir."]
+      }
+     ],
+     "checks": [
+      {"question": "“Genellikle kitap okurum” cümlesini yazın.", "answer": "I usually read books.", "why": "usually fiilden önce."},
+      {"question": "always, never, sometimes kelimelerini en sıktan en seyreğe sıralayın.", "answer": "always → sometimes → never", "why": "always en sık, never hiçtir."}
+     ],
+     "mistakes": [
+      {"wrong": "I drink always tea.", "right": "I always drink tea.", "why": "Sıklık zarfı fiilden önce gelir."},
+      {"wrong": "Sometime I cook.", "right": "Sometimes I cook. / I sometimes cook.", "why": "sometimes'ın sonunda s vardır."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "fq-position-never",
+     "title": "I never lie. · I'm always on time.",
+     "meaning": "never'ın olumsuz anlamı ve zarfın be fiiliyle yeri",
+     "explanation": [
+      "never “asla, hiçbir zaman” demektir ve kendi içinde olumsuzdur. Bu yüzden cümleye ayrıca don't eklemeyiz: I never lie ✓, I don't never lie ✗. Türkçede “Asla yalan söyle-me-m” derken fiile de olumsuzluk eki koyarız; İngilizcede ise olumsuzluk tek bir yerde, never'da olur. Fiil olumlu kalır: lie, drink, smoke.",
+      "Cümlede am / is / are varsa sıklık zarfı bunlardan sonra gelir: I'm always on time. She's never late. We're usually tired on Mondays. Kısaca hatırlamak için: fiil varsa önüne, be varsa arkasına.",
+      "Sıklık zarfı sorularda öznenin arkasına gelir: Do you always have breakfast? Do you often go to the cinema? Cevapta zarfı tekrar edebiliriz: Yes, I always have breakfast. / No, I never have breakfast."
+     ],
+     "formula": [
+      "never + olumlu fiil: I never drink coffee.",
+      "am / is / are + zarf: I'm always tired.",
+      "Soru: Do you + zarf + fiil? → Do you always …?"
+     ],
+     "examples": [
+      {
+       "en": "I never lie.",
+       "tr": "Asla yalan söylemem.",
+       "why": ["never olumsuzluğu taşıdığı için fiil olumlu kalır: lie."]
+      },
+      {
+       "en": "I'm always on time for the lesson.",
+       "tr": "Derse her zaman zamanında gelirim.",
+       "why": ["am olduğu için always ondan sonra geldi."]
+      },
+      {
+       "en": "She's never late.",
+       "tr": "Asla geç kalmaz.",
+       "why": ["is'ten sonra never. late bir sıfattır, be ile kullanılır."]
+      },
+      {
+       "en": "Do you always have breakfast? — No, I sometimes have only tea.",
+       "tr": "Hep kahvaltı yapar mısın? — Hayır, bazen sadece çay içerim.",
+       "why": ["Soruda zarf özneden (you) sonra gelir. only = sadece."]
+      }
+     ],
+     "checks": [
+      {"question": "I don't never smoke cümlesini düzeltin.", "answer": "I never smoke.", "why": "never ile don't birlikte kullanılmaz."},
+      {"question": "“Pazartesileri hep yorgunum” cümlesini yazın.", "answer": "I'm always tired on Mondays.", "why": "am'den sonra always."}
+     ],
+     "mistakes": [
+      {"wrong": "I never am late.", "right": "I'm never late.", "why": "be fiilinden sonra zarf gelir."}
+     ],
+     "contrasts": [
+      {"label": "never / don't", "explanation": ["don't sadece olumsuz yapar (yapmam); never ise “hiçbir zaman” anlamını ekler. İkisi aynı cümlede kullanılmaz."], "example": "I don't drink coffee. · I never drink coffee.", "tr": "Kahve içmem. · Asla kahve içmem."}
+     ]
+    },
+    {
+     "id": "fq-how-often",
+     "title": "How often …? — Every day. · Once a week.",
+     "meaning": "Sıklığı sormak ve sıklık ifadeleriyle cevap vermek",
+     "explanation": [
+      "Ne sıklıkla yapıldığını sormak için How often + do + you + fiil? kalıbı kullanılır: How often do you go shopping? Cevap bir sıklık zarfı ya da bir sıklık ifadesi olabilir: I usually go on Saturdays. / Once a week.",
+      "Sıklık ifadeleri genellikle cümlenin sonuna gelir: every day (her gün), every morning (her sabah), every Sunday (her pazar), once a week (haftada bir), twice a week (haftada iki), three times a week (haftada üç), once a month (ayda bir). Bir ve iki için özel kelimeler vardır: once, twice. Üç ve sonrası için sayı + times kullanılır.",
+      "Türkçede “haftada iki kez” deriz; İngilizcede “in” kullanılmaz: twice a week ✓, two times in a week ✗. a burada “her bir” anlamındadır: once a day = günde bir kez."
+     ],
+     "formula": [
+      "How often + do + you + fiil?",
+      "every day / every morning / every Sunday (cümle sonunda)",
+      "once / twice / three times + a + day / week / month"
+     ],
+     "examples": [
+      {
+       "en": "How often do you go shopping? — Once a week.",
+       "tr": "Ne sıklıkla alışverişe gidersin? — Haftada bir.",
+       "why": ["How often sıklık sorar. once a week = haftada bir."]
+      },
+      {
+       "en": "I go for a walk every evening.",
+       "tr": "Her akşam yürüyüşe çıkarım.",
+       "why": ["every evening cümlenin sonunda; önünde edat yok."]
+      },
+      {
+       "en": "I swim twice a week.",
+       "tr": "Haftada iki kez yüzerim.",
+       "why": ["twice iki kez demektir; a week'ten önce in gelmez."]
+      },
+      {
+       "en": "She prays five times a day.",
+       "tr": "Günde beş vakit namaz kılar.",
+       "why": ["Üç ve üzeri için sayı + times. she olduğu için prays -s aldı."]
+      }
+     ],
+     "checks": [
+      {"question": "“Ne sıklıkla televizyon izlersin?” sorusunu yazın.", "answer": "How often do you watch TV?", "why": "How often + do + you + fiil."},
+      {"question": "“Ayda bir kez” nasıl söylenir?", "answer": "once a month", "why": "once + a + month."}
+     ],
+     "mistakes": [
+      {"wrong": "two times in a week", "right": "twice a week", "why": "İki kez için twice; in kullanılmaz."}
+     ],
+     "contrasts": []
+    }
+   ]
+  },
+  {
+   "screenId": "sequence",
+   "title": "Önce, sonra, en sonunda: olayları sıraya koymak",
+   "intro": [
+    "Bir günü anlatırken cümleleri tek tek söylemek yerine onları birbirine bağlarız. İngilizcede bunun için first (önce), then (sonra), after that (ondan sonra) ve finally (en sonunda) kullanılır. Bu kelimeler dinleyene hangi işin önce, hangisinin sonra olduğunu söyler ve konuşmamızı daha akıcı yapar.",
+    "before (-den önce) ve after (-den sonra) ise iki işin arasındaki sırayı gösterir: before breakfast (kahvaltıdan önce), after work (işten sonra). Türkçede bu anlam ismin sonuna eklenen “-den önce / -den sonra” ile verilir; İngilizcede ise before ve after ismin önüne gelir. Programdaki “önce, sonra gibi edatları kullanır” kazanımı tam olarak bu ekranı anlatır."
+   ],
+   "patterns": [
+    {
+     "id": "sq-first-then",
+     "title": "First, … Then … After that, … Finally, …",
+     "meaning": "Bir anlatımdaki adımları sırayla bağlamak",
+     "explanation": [
+      "first ilk adımı, then ve after that ortadaki adımları, finally son adımı gösterir. Bu kelimeler cümlenin başına gelir. first, after that ve finally'den sonra genellikle virgül konur; then'den sonra virgül gerekmez: First, I get up. Then I have a shower. After that, I have breakfast. Finally, I go to work.",
+      "Aynı kelimeyi sürekli tekrar etmek yerine then ve after that'i sırayla kullanmak metni daha güzel yapar. Konuşmada and then (ve sonra) da çok yaygındır: I have breakfast and then I go to work.",
+      "finally “nihayet, en sonunda” demektir ve bir dizinin son adımında kullanılır. Bir günün sonunu anlatırken çok uygundur: Finally, I go to bed at eleven."
+     ],
+     "formula": [
+      "First, + cümle. → Then + cümle. → After that, + cümle. → Finally, + cümle.",
+      "Konuşmada: … and then …"
+     ],
+     "examples": [
+      {
+       "en": "First, I get up. Then I pray.",
+       "tr": "Önce kalkarım. Sonra namaz kılarım.",
+       "why": ["First'ten sonra virgül var, Then'den sonra yok."]
+      },
+      {
+       "en": "After that, I have breakfast with my family.",
+       "tr": "Ondan sonra ailemle kahvaltı yaparım.",
+       "why": ["After that tek başına “ondan sonra” demektir ve virgül alır."]
+      },
+      {
+       "en": "Finally, I go to work at half past seven.",
+       "tr": "En sonunda yedi buçukta işe giderim.",
+       "why": ["Finally son adımı gösterir."]
+      },
+      {
+       "en": "I have breakfast and then I go to work.",
+       "tr": "Kahvaltı yaparım, sonra işe giderim.",
+       "why": ["Konuşmada and then iki işi kısaca bağlar."]
+      }
+     ],
+     "checks": [
+      {"question": "“Önce duş alırım. Sonra giyinirim.” cümlelerini yazın.", "answer": "First, I have a shower. Then I get dressed.", "why": "First + virgül; Then."},
+      {"question": "Bir dizinin son adımında hangi kelime kullanılır?", "answer": "Finally.", "why": "finally = en sonunda."}
+     ],
+     "mistakes": [
+      {"wrong": "Firstly I get up, after I have breakfast.", "right": "First, I get up. After that, I have breakfast.", "why": "Tek başına “ondan sonra” için after that kullanılır."}
+     ],
+     "contrasts": []
+    },
+    {
+     "id": "sq-before-after",
+     "title": "before breakfast · after work",
+     "meaning": "Bir işin başka bir işten önce ya da sonra olduğunu söylemek",
+     "explanation": [
+      "before ve after bir ismin önüne gelir: before breakfast (kahvaltıdan önce), after work (işten sonra), after dinner (akşam yemeğinden sonra). Türkçede sıra terstir: isim önce, “-den önce / -den sonra” sonra gelir. İngilizcede önce before / after, sonra isim gelir.",
+      "after ile after that farklıdır. after'dan sonra mutlaka bir isim gelir: after lunch. after that ise tek başına durur ve “ondan sonra” demektir: After that, I go back to work. Tek başına After, I go… demek yanlıştır.",
+      "before / after ile kurulan zaman ifadesi cümlenin başında da sonunda da olabilir: I pray before breakfast. / Before breakfast, I pray. Başa geldiğinde arkasından virgül konur."
+     ],
+     "formula": [
+      "before + isim: before breakfast / before work",
+      "after + isim: after lunch / after dinner",
+      "Tek başına: after that (after değil)"
+     ],
+     "examples": [
+      {
+       "en": "I pray before breakfast.",
+       "tr": "Kahvaltıdan önce namaz kılarım.",
+       "why": ["before ismin önüne geldi: before breakfast."]
+      },
+      {
+       "en": "I watch TV after dinner.",
+       "tr": "Akşam yemeğinden sonra televizyon izlerim.",
+       "why": ["after + dinner. Türkçedeki ek sırası ters çevrildi."]
+      },
+      {
+       "en": "After work, I sometimes go shopping.",
+       "tr": "İşten sonra bazen alışverişe giderim.",
+       "why": ["Zaman ifadesi başa geldiği için virgül kondu."]
+      }
+     ],
+     "checks": [
+      {"question": "“İşten önce duş alırım” cümlesini yazın.", "answer": "I have a shower before work.", "why": "before + isim."},
+      {"question": "After, I go to bed cümlesini düzeltin.", "answer": "After that, I go to bed.", "why": "Tek başına after that kullanılır."}
+     ],
+     "mistakes": [
+      {"wrong": "breakfast before", "right": "before breakfast", "why": "İngilizcede before ismin önüne gelir."}
+     ],
+     "contrasts": [
+      {"label": "after / after that", "explanation": ["after bir isim ister (after lunch). after that tek başına “ondan sonra” demektir."], "example": "I rest after lunch. · I have lunch. After that, I rest.", "tr": "Öğle yemeğinden sonra dinlenirim. · Öğle yemeği yerim. Ondan sonra dinlenirim."}
+     ]
+    }
+   ],
+   "sentenceNotes": [
+    {"en": "First, Murat gets up at six o'clock.", "tr": "Önce Murat saat altıda kalkar.", "why": ["Murat = he olduğu için gets -s aldı. Bunu 4. bölümde ayrıntılı göreceğiz."]},
+    {"en": "He has breakfast with his family before work.", "tr": "İşten önce ailesiyle kahvaltı yapar.", "why": ["he ile have → has olur. before work ismin önünde."]},
+    {"en": "Finally, he goes to work by car at half past seven.", "tr": "En sonunda yedi buçukta arabayla işe gider.", "why": ["go → goes; by car ulaşım aracını gösterir."]}
+   ]
+  }
+ ],
+ "glossary": [
+  {"id": "wake-get-up", "term": "wake up · get up", "meaning": "uyanmak · kalkmak", "partOfSpeech": "fiil grubu", "sourceTerms": ["wake up · get up"], "explanation": ["wake up uykudan uyanmak, get up yataktan kalkmaktır. Çoğu zaman ikisi arasında birkaç dakika vardır. Saatle kullanılırken at gelir: I get up at seven. he / she ile: she wakes up, he gets up. Erken ve geç kalkmak için get up early / get up late denir."], "collocations": [{"en": "get up early", "tr": "erken kalkmak"}, {"en": "wake up late", "tr": "geç uyanmak"}], "examples": [{"en": "I wake up at six and get up at half past six.", "tr": "Altıda uyanır, altı buçukta kalkarım.", "note": "İki ayrı an."}, {"en": "What time do you get up?", "tr": "Saat kaçta kalkarsın?", "note": "Soru: do + get up."}, {"en": "My son gets up late on Sundays.", "tr": "Oğlum pazarları geç kalkar.", "note": "he → gets."}], "commonMistake": "I am get up yerine I get up denir."},
+  {"id": "shower-dressed", "term": "have a shower · get dressed", "meaning": "duş almak · giyinmek", "partOfSpeech": "fiil grubu", "sourceTerms": ["have a shower · get dressed"], "explanation": ["have a shower duş almaktır; take a shower da denir (Amerikan kullanımı). get dressed giyinmektir; dressed burada giyinik demektir. he / she ile: she has a shower, he gets dressed. Banyo yapmak (küvette) have a bath'tir."], "collocations": [{"en": "have a bath", "tr": "banyo yapmak (küvette)"}, {"en": "get dressed quickly", "tr": "hızlıca giyinmek"}], "examples": [{"en": "I have a shower in the morning.", "tr": "Sabah duş alırım.", "note": "in the morning."}, {"en": "Then I get dressed.", "tr": "Sonra giyinirim.", "note": "then ile sıra."}, {"en": "She has a shower and gets dressed.", "tr": "Duş alır ve giyinir.", "note": "she → has, gets."}], "commonMistake": "I make a shower yerine I have a shower denir."},
+  {"id": "have-meals", "term": "have breakfast / lunch / dinner", "meaning": "kahvaltı / öğle yemeği / akşam yemeği yemek", "partOfSpeech": "fiil grubu", "sourceTerms": ["have breakfast / lunch / dinner"], "explanation": ["Öğün yemek için have kullanılır. Öğün adlarının önünde a ya da the yoktur: have breakfast. Ne yediğimizi söylerken for kullanırız: I have bread and cheese for breakfast. make breakfast ise hazırlamaktır. he / she ile: she has lunch."], "collocations": [{"en": "have lunch at work", "tr": "işte öğle yemeği yemek"}, {"en": "for breakfast", "tr": "kahvaltıda"}], "examples": [{"en": "I have breakfast at seven.", "tr": "Yedide kahvaltı yaparım.", "note": "a yok."}, {"en": "We have dinner together in the evening.", "tr": "Akşam birlikte akşam yemeği yeriz.", "note": "together = birlikte."}, {"en": "I have tea and simit for breakfast.", "tr": "Kahvaltıda çay ve simit yerim.", "note": "for breakfast = kahvaltıda."}], "commonMistake": "I have a breakfast yerine I have breakfast denir."},
+  {"id": "brush-teeth", "term": "brush my teeth", "meaning": "dişlerimi fırçalamak", "partOfSpeech": "fiil grubu", "sourceTerms": ["brush my teeth"], "explanation": ["brush fırçalamak, teeth dişler (tekil tooth) demektir. Kendi dişlerimiz için my kullanılır; kişiye göre değişir: she brushes her teeth, they brush their teeth. brush -sh ile bittiği için he / she ile -es alır: brushes."], "collocations": [{"en": "brush your hair", "tr": "saçını taramak"}, {"en": "twice a day", "tr": "günde iki kez"}], "examples": [{"en": "I always brush my teeth.", "tr": "Daima dişlerimi fırçalarım.", "note": "Programdaki örnek."}, {"en": "I brush my teeth twice a day.", "tr": "Günde iki kez dişlerimi fırçalarım.", "note": "twice a day."}, {"en": "My daughter brushes her teeth before bed.", "tr": "Kızım yatmadan önce dişlerini fırçalar.", "note": "she → brushes her."}], "commonMistake": "I brush teeth yerine I brush my teeth denir."},
+  {"id": "go-to-work", "term": "go to work / school", "meaning": "işe / okula gitmek", "partOfSpeech": "fiil grubu", "sourceTerms": ["go to work / school"], "explanation": ["go to work ve go to school kalıplarında the kullanılmaz. Ulaşım aracı by ile söylenir: by bus, by car, by metro; yürüyerek ise on foot. he / she ile go → goes: She goes to work by bus."], "collocations": [{"en": "by bus", "tr": "otobüsle"}, {"en": "on foot", "tr": "yürüyerek"}], "examples": [{"en": "I go to work by bus.", "tr": "İşe otobüsle giderim.", "note": "by + araç."}, {"en": "My children go to school at half past seven.", "tr": "Çocuklarım yedi buçukta okula gider.", "note": "they → go."}, {"en": "She goes to work on foot.", "tr": "İşe yürüyerek gider.", "note": "she → goes."}], "commonMistake": "go to the work yerine go to work denir."},
+  {"id": "start-finish", "term": "start · finish work", "meaning": "işe başlamak · işi bitirmek", "partOfSpeech": "fiil grubu", "sourceTerms": ["start · finish work"], "explanation": ["start work işe başlamak, finish work işi bitirmektir. Bir etkinlik için de kullanılır: The lesson starts at nine. finish -sh ile bittiği için he / she / it ile -es alır: She finishes work at four."], "collocations": [{"en": "start at nine", "tr": "dokuzda başlamak"}, {"en": "finish late", "tr": "geç bitirmek"}], "examples": [{"en": "I start work at eight.", "tr": "Sekizde işe başlarım.", "note": "at + saat."}, {"en": "She finishes work at four o'clock.", "tr": "Saat dörtte işi bitirir.", "note": "finishes -es."}, {"en": "The film starts at nine.", "tr": "Film dokuzda başlar.", "note": "the film = it → starts."}], "commonMistake": "She finish work yerine She finishes work denir."},
+  {"id": "come-home", "term": "come home · go home", "meaning": "eve gelmek · eve gitmek", "partOfSpeech": "fiil grubu", "sourceTerms": ["come home · go home"], "explanation": ["home ile to kullanılmaz: come home, go home, get home. come konuşanın olduğu yere gelmeyi, go başka yere gitmeyi anlatır. Evdeyken at home deriz: I'm at home. he / she ile: she comes home, he goes home."], "collocations": [{"en": "at home", "tr": "evde"}, {"en": "get home", "tr": "eve varmak"}], "examples": [{"en": "I come home at six.", "tr": "Altıda eve gelirim.", "note": "to yok."}, {"en": "It's late. Let's go home.", "tr": "Geç oldu. Hadi eve gidelim.", "note": "Let's + go home."}, {"en": "My husband comes home at seven.", "tr": "Eşim yedide eve gelir.", "note": "he → comes."}], "commonMistake": "I go to home yerine I go home denir."},
+  {"id": "cook-housework", "term": "cook dinner · do the housework", "meaning": "akşam yemeği pişirmek · ev işlerini yapmak", "partOfSpeech": "fiil grubu", "sourceTerms": ["cook dinner · do the housework"], "explanation": ["cook pişirmek demektir: cook dinner, cook lunch. do the housework ev işlerinin genel adıdır; housework sayılamaz, -s almaz. Belirli işler için do the washing (çamaşır), do the cleaning (temizlik), do the shopping (alışveriş) denir. do, he / she ile does olur."], "collocations": [{"en": "do the cleaning", "tr": "temizlik yapmak"}, {"en": "do the washing", "tr": "çamaşır yıkamak"}], "examples": [{"en": "I cook dinner in the evening.", "tr": "Akşam yemeği pişiririm.", "note": "in the evening."}, {"en": "I do the housework in the morning.", "tr": "Sabah ev işlerini yaparım.", "note": "the housework."}, {"en": "My husband sometimes does the cleaning.", "tr": "Eşim bazen temizlik yapar.", "note": "he → does."}], "commonMistake": "I make the housework yerine I do the housework denir."},
+  {"id": "watch-read", "term": "watch TV · read a book", "meaning": "televizyon izlemek · kitap okumak", "partOfSpeech": "fiil grubu", "sourceTerms": ["watch TV · read a book"], "explanation": ["watch TV televizyon izlemektir; TV'nin önüne the gelmez. watch -ch ile bittiği için he / she ile watches olur. read a book kitap okumaktır; gazete için read the newspaper denir. Sıklık zarflarıyla çok kullanılır: I usually read in the evening."], "collocations": [{"en": "watch a film", "tr": "film izlemek"}, {"en": "read the newspaper", "tr": "gazete okumak"}], "examples": [{"en": "I watch TV after dinner.", "tr": "Akşam yemeğinden sonra televizyon izlerim.", "note": "after dinner."}, {"en": "I usually read a book in bed.", "tr": "Genellikle yatakta kitap okurum.", "note": "in bed = yatakta."}, {"en": "He watches the news at eight.", "tr": "Sekizde haberleri izler.", "note": "watch → watches."}], "commonMistake": "watch the TV yerine watch TV denir."},
+  {"id": "pray", "term": "pray", "meaning": "dua etmek · namaz kılmak", "partOfSpeech": "fiil", "sourceTerms": ["pray"], "explanation": ["pray dua etmek demektir ve namaz kılmak için de kullanılır. Sesli harf + y ile bittiği için he / she ile sadece -s alır: prays. Sıklık için five times a day (günde beş vakit) gibi ifadeler kullanılır. İsim hâli prayer'dır: morning prayer (sabah namazı)."], "collocations": [{"en": "pray five times a day", "tr": "günde beş vakit namaz kılmak"}, {"en": "morning prayer", "tr": "sabah namazı"}], "examples": [{"en": "I often pray.", "tr": "Sık sık dua ederim.", "note": "Programdaki örnek."}, {"en": "First, I pray. Then I have breakfast.", "tr": "Önce namaz kılarım. Sonra kahvaltı yaparım.", "note": "Sıralama."}, {"en": "My father prays five times a day.", "tr": "Babam günde beş vakit namaz kılar.", "note": "he → prays (y kalır)."}], "commonMistake": "He praies yerine He prays yazılır; sesli harf + y'de y değişmez."},
+  {"id": "go-to-bed", "term": "go to bed", "meaning": "yatmak (uyumaya gitmek)", "partOfSpeech": "fiil grubu", "sourceTerms": ["go to bed"], "explanation": ["go to bed yatağa gidip uyumaya hazırlanmaktır; the kullanılmaz. sleep ise uyumaktır. Geç yatmak go to bed late, erken yatmak go to bed early'dir. he / she ile: she goes to bed."], "collocations": [{"en": "go to bed early", "tr": "erken yatmak"}, {"en": "before bed", "tr": "yatmadan önce"}], "examples": [{"en": "I go to bed at eleven.", "tr": "On birde yatarım.", "note": "the yok."}, {"en": "I never go to bed late.", "tr": "Asla geç yatmam.", "note": "never + fiil."}, {"en": "The children go to bed at nine.", "tr": "Çocuklar dokuzda yatar.", "note": "they → go."}], "commonMistake": "go to the bed yerine go to bed denir."},
+  {"id": "at-in-on-time", "term": "at seven · in the morning · at night", "meaning": "yedide · sabah · gece", "partOfSpeech": "zaman edatları", "sourceTerms": ["at seven · in the morning · at night"], "explanation": ["Saat için at, günün bölümü için in the (morning, afternoon, evening), gün için on kullanılır. İstisnalar: at night, at the weekend. every, this, next ile edat kullanılmaz: every morning, this evening."], "collocations": [{"en": "in the afternoon", "tr": "öğleden sonra"}, {"en": "on Saturdays", "tr": "cumartesileri"}], "examples": [{"en": "I read in the evening.", "tr": "Akşam okurum.", "note": "in the evening."}, {"en": "I get up at seven.", "tr": "Yedide kalkarım.", "note": "at + saat."}, {"en": "I sleep well at night.", "tr": "Geceleri iyi uyurum.", "note": "at night istisna."}], "commonMistake": "in the night yerine at night denir."},
+  {"id": "always-usually-often", "term": "always · usually · often", "meaning": "her zaman · genellikle · sık sık", "partOfSpeech": "sıklık zarfı", "sourceTerms": ["always · usually · often"], "explanation": ["Ölçeğin üst kısmındaki sıklık zarflarıdır. Fiilden önce, am / is / are'den sonra gelirler: I always drink tea. I'm usually tired. often 't' harfi okunmadan “ofın” diye de söylenebilir."], "collocations": [{"en": "always on time", "tr": "her zaman zamanında"}, {"en": "usually at seven", "tr": "genellikle yedide"}], "examples": [{"en": "I always brush my teeth.", "tr": "Daima dişlerimi fırçalarım.", "note": "always + fiil."}, {"en": "I usually read books.", "tr": "Genellikle kitap okurum.", "note": "usually + fiil."}, {"en": "I often pray.", "tr": "Sık sık dua ederim.", "note": "often + fiil."}], "commonMistake": "I drink always tea yerine I always drink tea denir."},
+  {"id": "sometimes-never", "term": "sometimes · hardly ever · never", "meaning": "bazen · neredeyse hiç · asla", "partOfSpeech": "sıklık zarfı", "sourceTerms": ["sometimes · hardly ever · never"], "explanation": ["Ölçeğin alt kısmındaki zarflardır. never zaten olumsuzdur; don't ile birlikte kullanılmaz. hardly ever iki kelimedir ve “çok nadiren” demektir. sometimes cümle başına da gelebilir: Sometimes I cook."], "collocations": [{"en": "never late", "tr": "asla geç değil"}, {"en": "sometimes at the weekend", "tr": "bazen hafta sonu"}], "examples": [{"en": "I never lie.", "tr": "Asla yalan söylemem.", "note": "Programdaki örnek; fiil olumlu."}, {"en": "I sometimes cook dinner.", "tr": "Bazen akşam yemeğini pişiririm.", "note": "sometimes + fiil."}, {"en": "I hardly ever drink coffee.", "tr": "Neredeyse hiç kahve içmem.", "note": "Çok nadir."}], "commonMistake": "I don't never lie yerine I never lie denir."},
+  {"id": "how-often", "term": "How often …? · every day · once a week", "meaning": "ne sıklıkla? · her gün · haftada bir", "partOfSpeech": "soru ve sıklık ifadesi", "sourceTerms": ["How often …? · every day · once a week"], "explanation": ["How often + do + you + fiil? sıklık sorar. Cevapta every day / every Sunday, once a week, twice a week, three times a week gibi ifadeler cümlenin sonuna gelir. once bir kez, twice iki kez demektir; üç ve sonrası times ile söylenir."], "collocations": [{"en": "twice a week", "tr": "haftada iki kez"}, {"en": "three times a day", "tr": "günde üç kez"}], "examples": [{"en": "How often do you go shopping? — Once a week.", "tr": "Ne sıklıkla alışverişe gidersin? — Haftada bir.", "note": "Kısa cevap."}, {"en": "I walk every evening.", "tr": "Her akşam yürürüm.", "note": "every evening sonda."}, {"en": "I call my mother twice a week.", "tr": "Annemi haftada iki kez ararım.", "note": "twice a week."}], "commonMistake": "two times in a week yerine twice a week denir."},
+  {"id": "first-then", "term": "first · then · after that · finally", "meaning": "önce · sonra · ondan sonra · en sonunda", "partOfSpeech": "sıralama kelimesi", "sourceTerms": ["first · then · after that · finally"], "explanation": ["Bir anlatımda adımları sıralar. Cümle başına gelir. first, after that ve finally'den sonra genellikle virgül konur; then'den sonra konmaz. Konuşmada and then da çok kullanılır."], "collocations": [{"en": "and then", "tr": "ve sonra"}, {"en": "first of all", "tr": "her şeyden önce"}], "examples": [{"en": "First, I get up. Then I have a shower.", "tr": "Önce kalkarım. Sonra duş alırım.", "note": "First, … Then …"}, {"en": "After that, I have breakfast.", "tr": "Ondan sonra kahvaltı yaparım.", "note": "After that, …"}, {"en": "Finally, I go to bed.", "tr": "En sonunda yatarım.", "note": "Son adım."}], "commonMistake": "Tek başına After, … yerine After that, … kullanılır."},
+  {"id": "before-after", "term": "before · after", "meaning": "-den önce · -den sonra", "partOfSpeech": "edat", "sourceTerms": ["before · after"], "explanation": ["before ve after bir ismin önüne gelir: before breakfast, after work. Türkçede ek ismin sonuna gelir (kahvaltıdan önce); İngilizcede kelime ismin önüne gelir. Tek başına “ondan sonra” için after that kullanılır."], "collocations": [{"en": "before bed", "tr": "yatmadan önce"}, {"en": "after school", "tr": "okuldan sonra"}], "examples": [{"en": "I pray before breakfast.", "tr": "Kahvaltıdan önce namaz kılarım.", "note": "before + isim."}, {"en": "I watch TV after dinner.", "tr": "Akşam yemeğinden sonra televizyon izlerim.", "note": "after + isim."}, {"en": "After work, I go to the market.", "tr": "İşten sonra markete giderim.", "note": "Başta, virgülle."}], "commonMistake": "breakfast before yerine before breakfast denir."}
+ ]
+}

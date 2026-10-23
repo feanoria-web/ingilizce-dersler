@@ -14,7 +14,7 @@ test('recaps use correct examples and omit teacher notes and wrong options',()=>
 });
 
 test('all component recaps retain exact source indices and exclude breaks/resources',async()=>{
-  for(const file of ['a1/day-01','a1/day-02','a1/day-03','a2/day-02','a2/a1-review','a2/day-04','b1/day-02','b1/day-03','b1/day-04','b1/day-05']){
+  for(const file of ['a1/day-01','a1/day-02','a1/day-03','a1/day-04','a2/day-02','a2/a1-review','a2/day-04','b1/day-02','b1/day-03','b1/day-04','b1/day-05']){
     const source=await fs.readFile(new URL(`../lessons/${file}.html`,import.meta.url),'utf8');
     const pages=componentPages(source);
     assert.ok(pages.length>=15,file);
