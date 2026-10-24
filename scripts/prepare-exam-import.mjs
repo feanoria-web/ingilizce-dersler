@@ -23,9 +23,9 @@ export function buildExamImport(bundles,{studentIds,now=new Date().toISOString()
     for(const entry of results.students) {
       const {studentId,...result}=entry;
       validateResult(result,exam);
-      if(papers.has(result.paper))throw new Error(`${exam.id}: ${result.paper} numaralı kağıt iki kez var.`);
+      if(result.paper!==null&&papers.has(result.paper))throw new Error(`${exam.id}: ${result.paper} numaralı kağıt iki kez var.`);
       papers.add(result.paper);
-      if(studentId===null){skipped.push(`${exam.id} · kağıt ${result.paper} (${result.nameOnPaper})`);continue;}
+      if(studentId===null){skipped.push(`${exam.id} · kağıt ${result.paper ?? 'çevrim içi'} (${result.nameOnPaper})`);continue;}
       if(typeof studentId!=='string'||!/^[a-z0-9-]{2,64}$/.test(studentId)||students.has(studentId))throw new Error(`${exam.id}: kağıt ${result.paper} öğrenci kimliği geçersiz veya yinelenmiş.`);
       if(studentIds&&!studentIds.has(studentId))throw new Error(`${exam.id}: ${studentId} öğrenci listesinde yok.`);
       students.add(studentId);
@@ -37,8 +37,11 @@ export function buildExamImport(bundles,{studentIds,now=new Date().toISOString()
   });
   for(const {exam,payload,rows} of prepared) {
     sql.push(`INSERT INTO exams(id,title,exam_date,published,payload_json,updated_at) VALUES(${quote(exam.id)},${quote(exam.title)},${quote(exam.date)},${exam.published?1:0},${quote(payload)},${quote(now)}) ON CONFLICT(id) DO UPDATE SET title=excluded.title,exam_date=excluded.exam_date,published=excluded.published,payload_json=excluded.payload_json,updated_at=excluded.updated_at;`);
-    sql.push(`DELETE FROM exam_results WHERE exam_id=${quote(exam.id)};`);
-    for(const row of rows)sql.push(`INSERT INTO exam_results(exam_id,student_id,payload_json,updated_at) VALUES(${quote(exam.id)},${quote(row.studentId)},${quote(row.payload)},${quote(now)});`);
+    // Students' online submissions exist only in D1. Re-importing paper results
+    // replaces paper rows but never deletes or overwrites an online submission,
+    // unless the private file deliberately carries a corrected online result.
+    sql.push(`DELETE FROM exam_results WHERE exam_id=${quote(exam.id)} AND json_extract(payload_json,'$.source') IS NOT 'online';`);
+    for(const row of rows)sql.push(`INSERT INTO exam_results(exam_id,student_id,payload_json,updated_at) VALUES(${quote(exam.id)},${quote(row.studentId)},${quote(row.payload)},${quote(now)}) ON CONFLICT(exam_id,student_id) DO UPDATE SET payload_json=excluded.payload_json,updated_at=excluded.updated_at WHERE json_extract(exam_results.payload_json,'$.source') IS NOT 'online' OR json_extract(excluded.payload_json,'$.source')='online';`);
     resultCount+=rows.length;
   }
   if(sql.some(statement=>Buffer.byteLength(statement,'utf8')>90000))throw new Error('SQL aktarım satırı çok büyük.');

@@ -59,13 +59,13 @@ test('a student receives only their own published result, without teacher checks
   const text=JSON.stringify(one.data);
   for(const secret of ['Öğretmen kontrolü','Kağıt 2','Kağıt 3','İkinci','writingSets','"published"'])assert.ok(!text.includes(secret),`student response must not include ${secret}`);
   const three=await request(env,'/api/exam-results',{token:await login(env,'Üçüncü Öğrenci')});
-  assert.deepEqual(three.data,{exams:[]});
+  assert.deepEqual(three.data,{exams:[],available:[]},'offline-only exams are not offered for online taking');
   assert.equal((await request(env,'/api/admin/exam-results',{token:await login(env,'Birinci Öğrenci')})).status,403);
 });
 
 test('unpublished exams stay hidden from students but administrators can preview every result',async t=>{
   const env=await setup(t,{published:false,showLevel:true});
-  assert.deepEqual((await request(env,'/api/exam-results',{token:await login(env,'İkinci Öğrenci')})).data,{exams:[]});
+  assert.deepEqual((await request(env,'/api/exam-results',{token:await login(env,'İkinci Öğrenci')})).data,{exams:[],available:[]});
   const token=await admin(env);
   assert.equal((await request(env,'/api/exam-results',{token})).status,403);
   const all=await request(env,'/api/admin/exam-results',{token});
@@ -88,4 +88,62 @@ test('the importer validates every row and skips papers without a student accoun
   assert.throws(()=>buildExamImport([bundle({},[{...result(1,'a1-one','abc'),extra:true}])]),/Geçersiz sınav sonucu/);
   assert.throws(()=>validateExam(exam({questions:[question(1,0),question(2,1)]})),/Geçersiz sınav tanımı/);
   assert.throws(()=>validateExam({...exam(),questions:[{...question(1,0),why:['x',null,'y','z']},question(2,1),question(3,2)]}),/Geçersiz sınav tanımı/);
+});
+
+test('a student without a result takes the exam online once; the key stays private until submission',async t=>{
+  const env=await setup(t,{online:true,writingSets:{A:{title:'Yazılı bölüm',prompts:['Where do you live?']},B:{title:'Writing B1',prompts:['Your routine','A day you remember']}}});
+  await importStudents(env,[{id:'b1-four',name:'Dördüncü Öğrenci',group:'B1'}]);
+  const token=await login(env,'Üçüncü Öğrenci');
+  const listed=await request(env,'/api/exam-results',{token});
+  assert.deepEqual(listed.data.available,[{id:examId,title:"Deneme sınavı ' özel",date:'2026-01-01',description:'Açıklama',questionCount:3}]);
+  const paper=await request(env,`/api/exams/${examId}/paper`,{token});
+  assert.equal(paper.status,200);
+  assert.deepEqual(paper.data.questions[0],{n:1,prompt:'Soru 1: I ___ here.',options:['am','is','are','be']});
+  assert.equal(paper.data.writingSet.key,'A');
+  for(const secret of ['"answer"','explanation','"why"','Kural açıklaması','topic'])assert.ok(!JSON.stringify(paper.data).includes(secret),`paper must not reveal ${secret}`);
+  const b1Paper=await request(env,`/api/exams/${examId}/paper`,{token:await login(env,'Dördüncü Öğrenci')});
+  assert.equal(b1Paper.data.writingSet.key,'B','B1 students write the B1 tasks');
+
+  assert.equal((await request(env,`/api/exams/${examId}/submit`,{token,body:{answers:'ab',writing:['x']}})).status,400);
+  assert.equal((await request(env,`/api/exams/${examId}/submit`,{token,body:{answers:'abz',writing:['x']}})).status,400);
+  assert.equal((await request(env,`/api/exams/${examId}/submit`,{token,body:{answers:'abc',writing:['x','y']}})).status,400);
+  const submitted=await request(env,`/api/exams/${examId}/submit`,{token,body:{answers:'a-c',writing:['  I live in Bursa.  ']}});
+  assert.equal(submitted.status,200);
+  assert.equal(submitted.data.result.score.total,8,'2.5 + 5 = 7.5 rounds up to 8');
+  assert.deepEqual([submitted.data.result.score.correct,submitted.data.result.score.blank],[2,1]);
+  assert.equal(submitted.data.result.source,'online');
+  assert.equal(submitted.data.result.paper,null);
+  assert.equal(submitted.data.result.nameOnPaper,'Üçüncü Öğrenci');
+  assert.deepEqual(submitted.data.result.writing,{set:'A',pending:true,parts:[{original:'I live in Bursa.',corrected:'',fixes:[]}],strengths:'',focus:[]});
+  assert.equal(submitted.data.questions[0].explanation,'Kural açıklaması.','explanations arrive with the result');
+  assert.ok(submitted.data.result.notes.some(note=>/1 soruyu boş/.test(note)));
+
+  assert.equal((await request(env,`/api/exams/${examId}/submit`,{token,body:{answers:'abc',writing:['again']}})).status,409);
+  assert.equal((await request(env,`/api/exams/${examId}/paper`,{token})).status,409);
+  const after=await request(env,'/api/exam-results',{token});
+  assert.deepEqual(after.data.available,[]);
+  assert.equal(after.data.exams[0].result.answers,'a-c');
+  assert.equal((await request(env,`/api/exams/${examId}/paper`,{token:await login(env,'Birinci Öğrenci')})).status,409,'paper results also count as taken');
+
+  // Re-importing the private paper results keeps the online submission.
+  env.DB.exec(buildExamImport([bundle({online:true,writingSets:{A:{title:'Yazılı bölüm',prompts:['Where do you live?']},B:{title:'Writing B1',prompts:['Your routine','A day you remember']}}})]).sql);
+  const kept=await request(env,'/api/exam-results',{token});
+  assert.equal(kept.data.exams[0].result.source,'online');
+  const all=await request(env,'/api/admin/exam-results',{token:await admin(env)});
+  assert.ok(all.data.exams[0].results.some(r=>r.studentName==='Üçüncü Öğrenci'&&r.source==='online'));
+});
+
+test('offline, unpublished and unknown exams cannot be taken online',async t=>{
+  for(const overrides of [{},{online:true,published:false}]) {
+    const env=await setup(t,overrides);
+    const token=await login(env,'Üçüncü Öğrenci');
+    assert.equal((await request(env,`/api/exams/${examId}/paper`,{token})).status,404);
+    assert.equal((await request(env,`/api/exams/${examId}/submit`,{token,body:{answers:'abc',writing:['x']}})).status,404);
+  }
+  const env=await setup(t,{online:true});
+  const token=await login(env,'Üçüncü Öğrenci');
+  assert.equal((await request(env,'/api/exams/../paper',{token})).status,404);
+  assert.equal((await request(env,'/api/exams/unknown-exam/paper',{token})).status,404);
+  assert.equal((await request(env,`/api/exams/${examId}/paper`)).status,401);
+  assert.equal((await request(env,`/api/exams/${examId}/paper`,{token:await admin(env)})).status,403);
 });

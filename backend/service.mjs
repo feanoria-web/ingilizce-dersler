@@ -2,7 +2,7 @@ import {normalizeName,digest,newToken,passwordHash,verifyPassword,aliasesFor} fr
 import {CLIENT_TYPES,validLocation,validateQuestion,clientTime,validateContext,validateContextLocation,PRESENCE_WINDOW_SECONDS,CONTEXT_FIELDS,contextValues,onlineStudents,queryLogs,LOG_COLUMNS,LOG_JOIN,mapEvent} from './detailed-logs.mjs';
 import {validateLearning,queryLearning} from './learning-insights.mjs';
 import {listTeacherGuides,readTeacherGuide} from './teacher-guides.mjs';
-import {studentExamResults,adminExamResults} from './exam-results.mjs';
+import {studentExamResults,adminExamResults,examPaper,submitExam} from './exam-results.mjs';
 import {recordExamResultView,adminExamResultViews} from './exam-result-views.mjs';
 const iso = () => new Date().toISOString();
 const fail = (status,message) => { throw Object.assign(new Error(message),{status}); };
@@ -160,6 +160,12 @@ async function route(req,env,url) {
   if(req.method==='GET'&&path==='/api/exam-results') {
     const s=await authenticate(req,env);if(s.role!=='student')fail(403,'Öğrenci oturumu gerekli.');
     return reply(await studentExamResults(env,s.student_id));
+  }
+  const takeExam=path.match(/^\/api\/exams\/([^/]+)\/(paper|submit)$/);
+  if(takeExam) {
+    const s=await authenticate(req,env);if(s.role!=='student')fail(403,'Öğrenci oturumu gerekli.');
+    if(req.method==='GET'&&takeExam[2]==='paper')return reply(await examPaper(env,s,takeExam[1]));
+    if(req.method==='POST'&&takeExam[2]==='submit')return reply(await submitExam(env,s,takeExam[1],await jsonBody(req,60000)));
   }
   if(req.method==='POST'&&path==='/api/exam-results/view') {
     const s=await authenticate(req,env);if(s.role!=='student')fail(403,'Öğrenci oturumu gerekli.');

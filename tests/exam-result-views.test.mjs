@@ -44,7 +44,7 @@ test('view recording is student-only and reports are administrator-only, includi
 
 test('result fetches never count as views and malformed visit IDs cannot create records',async t=>{
   const env=await setup(t);
-  for(let i=0;i<2;i++)assert.deepEqual((await request(env,'/api/exam-results',{token:tokens.one})).data,{exams:[]});
+  for(let i=0;i<2;i++)assert.deepEqual((await request(env,'/api/exam-results',{token:tokens.one})).data,{exams:[],available:[]});
   assert.deepEqual(await counts(env),[0,0]);
   for(const invalid of [undefined,null,42,{},[],viewId+'x','not-a-uuid','00000000-0000-0000-0000-00000000000g','<script>'])assert.equal((await request(env,path,{token:tokens.one,body:{viewId:invalid}})).status,400,String(invalid));
   assert.equal((await request(env,path,{token:tokens.one,body:[]})).status,400);

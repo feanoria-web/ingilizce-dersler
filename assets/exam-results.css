@@ -80,6 +80,41 @@
 .exam-summary h3{font:500 18px Georgia,serif;margin:0 0 8px}.exam-summary p,.exam-summary ul{margin:0}.exam-summary ul{padding-left:18px}
 .exam-summary .is-good{background:var(--ok-bg)}.exam-summary .is-next{background:#f2e9d1}
 .exam-footnote{font-size:11px;line-height:1.7;color:var(--muted);margin-top:24px}
+.exam-pending-note{padding:14px 18px;background:#eef2ea;border-radius:10px;font-size:13px;line-height:1.7;color:var(--brand)}
+.exam-invite{background:var(--white);border:1px solid var(--line);border-left:6px solid var(--brand);border-radius:14px;padding:24px 28px;margin-bottom:24px}
+.exam-invite h2{font:500 26px/1.2 Georgia,serif;letter-spacing:-.6px;margin:0}
+.exam-invite-text{font-size:14px;line-height:1.75;margin:12px 0 18px}
+.exam-start{font-size:14px;padding:13px 22px}
+.exam-take{margin-bottom:40px}
+.exam-take-intro{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:22px 26px;margin-bottom:16px}
+.exam-take-intro .eyebrow{margin-bottom:8px;font-size:9px}
+.exam-take-intro h2{font:500 26px/1.2 Georgia,serif;letter-spacing:-.6px;margin:0 0 10px}
+.exam-take-rules{margin:0;padding-left:20px;font-size:13px;line-height:1.8;color:var(--muted)}
+.exam-progress{position:sticky;top:0;z-index:5;margin:0 0 14px;padding:10px 16px;border-radius:10px;background:var(--brand);color:var(--white);font-size:13px;font-weight:600}
+.exam-progress.is-complete{background:var(--ok)}
+.exam-take-question{background:var(--white);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin:0 0 12px;scroll-margin-top:60px}
+.exam-take-question legend{display:flex;align-items:flex-start;gap:10px;padding:0;margin-bottom:12px;float:left;width:100%}
+.exam-take-question legend+*{clear:both}
+.exam-take-prompt{font:17px/1.5 Georgia,serif;padding-top:3px}
+.exam-take-options{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px}
+.exam-take-option{display:flex;align-items:center;gap:10px;min-height:46px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;cursor:pointer}
+.exam-take-option:hover{border-color:#b9c3b4}
+.exam-take-option:has(input:checked){border-color:var(--brand);background:#e7efe9;font-weight:600}
+.exam-take-option input{width:18px;height:18px;margin:0;accent-color:var(--brand);flex-shrink:0}
+.exam-take-writing{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:22px 26px;margin:24px 0 16px}
+.exam-take-writing h2{font:500 22px/1.2 Georgia,serif;margin:0 0 6px}
+.exam-take-writing-item{display:grid;gap:8px;margin-top:16px;font-size:14px;font-weight:600}
+.exam-take-writing-item textarea{width:100%;min-height:120px;padding:12px 14px;border:1px solid #d2d6ca;border-radius:8px;background:#fffefa;font:15px/1.6 "Segoe UI",Arial,sans-serif;color:var(--ink);resize:vertical}
+.exam-take-writing-item textarea:focus{outline:2px solid var(--brand);outline-offset:2px}
+.exam-word-count{font-size:11px;font-weight:400;color:var(--muted)}
+.exam-take-actions{display:flex;gap:10px;flex-wrap:wrap}
+.exam-take-actions .button{font-size:14px;padding:13px 22px}
+@media(max-width:680px){
+  .exam-invite,.exam-take-intro,.exam-take-writing{padding:18px 16px}
+  .exam-take-question{padding:14px}
+  .exam-take-options{grid-template-columns:1fr}
+  .exam-take-actions .button{width:100%}
+}
 @media(max-width:680px){
   .exam-intro{padding:28px 0 18px}
   .exam-score,.exam-topics,.exam-part{padding:18px 16px}

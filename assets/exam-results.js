@@ -15,6 +15,10 @@
     const date = new Date(`${value}T12:00:00`);
     return Number.isNaN(date.getTime()) ? '' : new Intl.DateTimeFormat('tr-TR', {day: 'numeric', month: 'long', year: 'numeric'}).format(date);
   }
+  function timeLabel(value) {
+    const date = new Date(value);
+    return Number.isNaN(date.getTime()) ? '' : new Intl.DateTimeFormat('tr-TR', {day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Istanbul'}).format(date);
+  }
   function outcome(question, mark) {
     if (mark === '-') return 'blank';
     if (mark === '*') return 'invalid';
@@ -96,14 +100,15 @@
     const section = element('section', undefined, 'exam-writing');
     section.append(element('h2', set.title), element('p', 'Yazılı bölüm puana katılmadı; amacı hatalarını görmen ve doğrusunu öğrenmen.', 'exam-hint'));
     if (writing.empty) section.append(element('p', 'Yazılı bölüm boş bırakılmış.', 'exam-empty-note'));
+    if (writing.pending) section.append(element('p', 'Yazdıkların öğretmenine ulaştı. Düzeltmeler ve geri bildirim eklendiğinde bu bölümde görünecek.', 'exam-pending-note'));
     set.prompts.forEach((prompt, index) => {
       const part = writing.parts[index];
       if (!part) return;
       const card = element('article', undefined, 'exam-part');
       card.append(element('h3', `${index + 1}. ${prompt}`));
       const original = element('div', undefined, 'exam-text is-original'); original.append(element('span', 'Senin yazdığın', 'exam-label'), element('p', part.original || 'Bu soruyu boş bırakmışsın.'));
-      const corrected = element('div', undefined, 'exam-text is-corrected'); corrected.append(element('span', part.original ? 'Düzeltilmiş hâli' : 'Örnek cevap', 'exam-label'), element('p', part.corrected));
-      card.append(original, corrected);
+      card.append(original);
+      if (part.corrected) { const corrected = element('div', undefined, 'exam-text is-corrected'); corrected.append(element('span', part.original ? 'Düzeltilmiş hâli' : 'Örnek cevap', 'exam-label'), element('p', part.corrected)); card.append(corrected); }
       if (part.fixes.length) {
         const list = element('ol', undefined, 'exam-fixes');
         for (const fix of part.fixes) {
@@ -144,9 +149,10 @@
 
   function render(exam, result, {admin = false} = {}) {
     const article = element('article', undefined, 'exam-result');
+    const online = result.source === 'online';
     if (admin) {
       const box = element('div', undefined, 'exam-checks');
-      box.append(element('h2', `Kağıt no ${result.paper} · kağıttaki ad: ${result.nameOnPaper}`));
+      box.append(element('h2', online ? `Çevrim içi gönderim · ${timeLabel(result.submittedAt)}${result.writing.pending ? ' · yazılı bölüm değerlendirme bekliyor' : ''}` : `Kağıt no ${result.paper} · kağıttaki ad: ${result.nameOnPaper}`));
       if (result.checks?.length) { const list = element('ul'); for (const item of result.checks) list.append(element('li', item)); box.append(list); }
       else box.append(element('p', 'Kontrol notu yok.'));
       article.append(box);
@@ -155,15 +161,111 @@
     if (result.notes.length) { const notes = element('ul', undefined, 'exam-notes'); for (const note of result.notes) notes.append(element('li', note)); article.append(notes); }
     const topics = topicList(exam, result.answers); if (topics) article.append(topics);
     article.append(questions(exam, result.answers), writingSection(exam.writingSet, result.writing));
-    article.append(element('p', 'Kağıdın fotoğraftan aktarıldı. Bir işaret ya da kelime yanlış okunmuşsa öğretmenine söyle. [?] fotoğrafta okunamayan kelimeleri gösterir.', 'exam-footnote'));
+    article.append(element('p', online ? `Bu sınavı ${timeLabel(result.submittedAt)} tarihinde çevrim içi çözdün. Çoktan seçmeli bölüm otomatik olarak puanlandı.` : 'Kağıdın fotoğraftan aktarıldı. Bir işaret ya da kelime yanlış okunmuşsa öğretmenine söyle. [?] fotoğrafta okunamayan kelimeleri gösterir.', 'exam-footnote'));
     return article;
   }
 
-  function showStudent(data) {
+  /* Online exam: questions arrive without the answer key; the server scores the submission once. */
+  const draftKey = (session, id) => `english-exam-draft-v1:${session.student?.id || ''}:${id}`;
+  function readDraft(session, id) { try { const value = JSON.parse(localStorage.getItem(draftKey(session, id)) || 'null'); return value && typeof value === 'object' ? value : null; } catch (_) { return null; } }
+  function writeDraft(session, id, value) { try { localStorage.setItem(draftKey(session, id), JSON.stringify(value)); } catch (_) { /* The exam still works without a saved draft. */ } }
+  function dropDraft(session, id) { try { localStorage.removeItem(draftKey(session, id)); } catch (_) {} }
+  const words = value => (value.trim().match(/\S+/g) || []).length;
+
+  function invitation(exam, session) {
+    const card = element('section', undefined, 'exam-invite');
+    card.append(element('p', dateLabel(exam.date), 'exam-date'), element('h2', exam.title));
+    if (exam.description) card.append(element('p', exam.description, 'exam-description'));
+    const draft = readDraft(session, exam.id);
+    card.append(element('p', `Bu sınavın sonucu sende henüz yok. Sınavı şimdi burada çözebilirsin: ${exam.questionCount} çoktan seçmeli soru ve kısa bir yazılı bölüm. Süre sınırı yok; sınıftaki kağıt sınavda çoktan seçmeli bölüm için 30 dakika verilmişti.`, 'exam-invite-text'));
+    const button = element('button', draft ? 'Sınava devam et' : 'Sınava gir', 'button button-primary exam-start'); button.type = 'button';
+    button.addEventListener('click', () => startExam(exam, session, button));
+    card.append(button);
+    if (draft) card.append(element('p', 'Yarım kalan cevapların bu cihazda kayıtlı; kaldığın yerden devam edebilirsin.', 'exam-hint'));
+    return card;
+  }
+
+  async function startExam(exam, session, button) {
+    button.disabled = true; status('Sınav hazırlanıyor…');
+    try {
+      const paper = await access.request(`/api/exams/${encodeURIComponent(exam.id)}/paper`);
+      if (!pageActive || !sameSession(session)) return;
+      if (!Array.isArray(paper?.questions) || !Array.isArray(paper?.writingSet?.prompts)) throw new Error('Sınav soruları doğrulanamadı.');
+      showPaper(paper, session);
+    } catch (error) { status(error.message, true); button.disabled = false; }
+  }
+
+  function showPaper(paper, session) {
+    clear(); status('');
+    const draft = readDraft(session, paper.id) || {};
+    const savedAnswers = Array.isArray(draft.answers) && draft.answers.length === paper.questions.length ? draft.answers : [];
+    const chosen = paper.questions.map((question, index) => Number.isInteger(savedAnswers[index]) && savedAnswers[index] >= 0 && savedAnswers[index] < question.options.length ? savedAnswers[index] : null);
+    const texts = paper.writingSet.prompts.map((_, index) => Array.isArray(draft.writing) && typeof draft.writing[index] === 'string' ? draft.writing[index].slice(0, 4000) : '');
+    const save = () => writeDraft(session, paper.id, { answers: chosen, writing: texts });
+    const form = element('form', undefined, 'exam-take'); form.noValidate = true;
+    const intro = element('section', undefined, 'exam-take-intro');
+    intro.append(element('p', 'ÇEVRİM İÇİ SINAV', 'eyebrow'), element('h2', paper.title));
+    const rules = element('ul', undefined, 'exam-take-rules');
+    for (const rule of ['Her soruda tek bir doğru cevap var. Doğru şıkkı işaretle.', 'Bilmediğin soruda tahmin et; boş bırakılan soru puan getirmez.', 'Cevapların bu cihazda otomatik kaydedilir; sayfayı kapatsan bile kaldığın yerden devam edersin.', 'Sınavı yalnızca bir kez gönderebilirsin. Gönderdikten sonra sonucunu ve her sorunun açıklamasını hemen görürsün.']) rules.append(element('li', rule));
+    intro.append(rules);
+    const progress = element('p', '', 'exam-progress'); progress.setAttribute('role', 'status'); progress.setAttribute('aria-live', 'polite');
+    const paint = () => { const done = chosen.filter(value => value !== null).length; progress.textContent = `Cevaplanan: ${done} / ${paper.questions.length}`; progress.classList.toggle('is-complete', done === paper.questions.length); };
+    form.append(intro, progress);
+    paper.questions.forEach((question, index) => {
+      const set = element('fieldset', undefined, 'exam-take-question'); set.id = `sinav-soru-${question.n}`;
+      const legend = element('legend'); legend.append(element('span', question.n, 'exam-number'), element('span', question.prompt, 'exam-take-prompt'));
+      set.append(legend);
+      const options = element('div', undefined, 'exam-take-options');
+      question.options.forEach((option, optionIndex) => {
+        const label = element('label', undefined, 'exam-take-option'); const input = element('input');
+        input.type = 'radio'; input.name = `soru-${question.n}`; input.value = String(optionIndex); input.checked = chosen[index] === optionIndex;
+        input.addEventListener('change', () => { chosen[index] = optionIndex; save(); paint(); });
+        label.append(input, element('span', `${LETTERS[optionIndex]}) ${option}`)); options.append(label);
+      });
+      set.append(options); form.append(set);
+    });
+    const writing = element('section', undefined, 'exam-take-writing');
+    writing.append(element('h2', paper.writingSet.title), element('p', 'Her soruya birkaç cümleyle cevap ver. Yazılı bölümü öğretmenin okuyup düzeltecek; puana katılmaz.', 'exam-hint'));
+    paper.writingSet.prompts.forEach((prompt, index) => {
+      const label = element('label', undefined, 'exam-take-writing-item'); label.append(element('span', `${index + 1}. ${prompt}`));
+      const area = element('textarea'); area.rows = 5; area.maxLength = 4000; area.value = texts[index]; area.lang = 'en'; area.spellcheck = false;
+      const count = element('small', `${words(texts[index])} kelime`, 'exam-word-count');
+      area.addEventListener('input', () => { texts[index] = area.value; count.textContent = `${words(area.value)} kelime`; save(); });
+      label.append(area, count); writing.append(label);
+    });
+    form.append(writing);
+    const actions = element('div', undefined, 'exam-take-actions');
+    const submit = element('button', 'Sınavı gönder', 'button button-primary'); submit.type = 'submit';
+    const cancel = element('button', 'Daha sonra devam et', 'button'); cancel.type = 'button';
+    cancel.addEventListener('click', () => location.reload());
+    actions.append(submit, cancel); form.append(actions);
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      const blanks = chosen.filter(value => value === null).length;
+      const message = blanks ? `${blanks} soru boş. Yine de göndermek istiyor musun? Gönderdikten sonra cevaplarını değiştiremezsin.` : 'Sınavı göndermek istiyor musun? Gönderdikten sonra cevaplarını değiştiremezsin.';
+      if (!window.confirm(message)) { if (blanks) document.getElementById(`sinav-soru-${paper.questions[chosen.indexOf(null)].n}`)?.scrollIntoView({ block: 'center' }); return; }
+      submit.disabled = true; status('Cevapların gönderiliyor…');
+      try {
+        const result = await access.request(`/api/exams/${encodeURIComponent(paper.id)}/submit`, { method: 'POST', body: { answers: chosen.map(value => value === null ? '-' : LETTERS[value]).join(''), writing: texts } });
+        if (!pageActive || !sameSession(session)) return;
+        if (!result?.result) throw new Error('Sonuç doğrulanamadı. Sınav Sonuçlarım sayfasını yenile.');
+        dropDraft(session, paper.id); clear();
+        status('Sınavın gönderildi. Sonucun ve her sorunun açıklaması aşağıda.');
+        $('exam-root').append(render(result, result.result)); setFilter(filter);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } catch (error) { status(error.message, true); submit.disabled = false; }
+    });
+    $('exam-root').append(form); paint();
+    window.scrollTo({ top: 0 });
+  }
+
+  function showStudent(data, session) {
     clear();
     if (!Array.isArray(data?.exams)) throw new Error('Sınav sonuçları doğrulanamadı.');
-    if (!data.exams.length) { status(''); const empty = element('div', undefined, 'empty-state'); empty.append(element('span', '✎', 'empty-icon'), element('h3', 'Henüz bir sonucun yok.'), element('p', 'Sınav sonucun eklendiğinde burada görünecek.')); $('exam-root').append(empty); return; }
+    const available = Array.isArray(data.available) ? data.available : [];
     status('');
+    for (const exam of available) $('exam-root').append(invitation(exam, session));
+    if (!data.exams.length && !available.length) { const empty = element('div', undefined, 'empty-state'); empty.append(element('span', '✎', 'empty-icon'), element('h3', 'Henüz bir sonucun yok.'), element('p', 'Sınav sonucun eklendiğinde burada görünecek.')); $('exam-root').append(empty); return; }
     for (const exam of data.exams) $('exam-root').append(render(exam, exam.result));
     setFilter(filter);
   }
@@ -209,7 +311,7 @@
       const data=await access.request(session.role==='admin'?'/api/admin/exam-results':'/api/exam-results');
       if(!pageActive||initialEpoch!==pageEpoch||!sameSession(session))return;
       if(session.role==='admin')showAdmin(data);
-      else {showStudent(data);window.EnglishExamVisits?.rendered();}
+      else {showStudent(data,session);window.EnglishExamVisits?.rendered();}
     } catch (error) { if(pageActive&&initialEpoch===pageEpoch){clear();status(error.message,true);} }
   });
 })();

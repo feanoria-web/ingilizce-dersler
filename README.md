@@ -149,6 +149,12 @@ Giriş doğrulandıktan ve sonuçlar başarıyla ekrana yerleştirildikten sonra
 
 İlk yayın için `backend/migrations/0007_exam_result_views.sql` geçişi uygulanır, Worker ve site birlikte güncellenir. Hesaplara giriş yöntemi bu özellik tarafından değiştirilmez.
 
+## Çevrim içi sınava girme
+
+Özel `exam.json` dosyasında `"online": true` olan yayımlanmış bir sınavda sonucu bulunmayan öğrenci, “Sınav sonuçlarım” sayfasında **Sınava gir** düğmesini görür. `GET /api/exams/<kimlik>/paper` aynı soruları ve seçenekleri verir; cevap anahtarı, açıklamalar ve sınıf sonuçları gönderimden önce gelmez. Yazma bölümü B1/YDS öğrencilerinde B, diğerlerinde A setinden sorulur. Yarım kalan cevaplar yalnız bu cihazda saklanır ve **Sınava devam et** ile sürdürülür.
+
+`POST /api/exams/<kimlik>/submit` tek gönderim kabul eder: test kısmı sunucuda puanlanır, yazma kısmı “öğretmen değerlendirmesi bekleniyor” olarak kaydedilir. Sonucu olan öğrenci aynı sınava yeniden giremez. Kâğıt sonuçlarını yeniden aktarmak çevrim içi gönderimleri silmez. Yazma geri bildirimi eklemek için gönderim `"source": "online"` ile `results.json` dosyasına alınıp aktarım yeniden yapılır.
+
 ## Kontroller
 
 ```powershell
