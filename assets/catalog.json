@@ -147,6 +147,27 @@
     "url": "lessons/a2/day-04.html"
   },
   {
+    "id": "a2/day-05",
+    "level": "A2",
+    "title": "Hayvanlar · Şehirde yol tarifi · Günlük hayat",
+    "description": "A2 beşinci ders (26–27 Ekim, iki gün): zıt anlamlı sıfatlar (big – small, cheap – expensive, soft – hard), nesneleri betimlemek, hayvan isimleri ve yaşadıkları yerler, in / on / under, hayvanat bahçesi tabelaları ve uyarılar, hayvan sesleri, bir hayvanı betimlemek, en sevdiğim ve korktuğum hayvan, hayvanlardan elde ettiklerimiz; haritada binaların yeri (next to, opposite, on the corner), yol tarifi vermek ve anlamak, mahallemi çizmek, telefonda yol tarifi; günlük hayat ve rutinler, doğru / yanlış okuma, eş ve zıt anlamlı sıfatlar. Her konuda kısa özet, ayrıntılı Türkçe anlatım, bol örnek ve sınıf etkinlikleri.",
+    "number": 5,
+    "order": 5,
+    "date": "2026-10-26",
+    "duration": "400 dk",
+    "tags": [
+      "Sıfatlar",
+      "Hayvanlar",
+      "Hayvanat bahçesi",
+      "Yer edatları",
+      "Harita",
+      "Yol tarifi",
+      "Günlük hayat",
+      "Eş ve zıt anlamlılar"
+    ],
+    "url": "lessons/a2/day-05.html"
+  },
+  {
     "id": "a2/practice",
     "level": "A2",
     "title": "Tanışma ve konuşma · Ek çalışma",

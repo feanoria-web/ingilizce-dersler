@@ -1,0 +1,1937 @@
+{
+ "version": 1,
+ "block": 2,
+ "chapters": [
+  {
+   "screenId": "zoo-signs",
+   "title": "Hayvanat bahçesi tabelaları ve uyarıları",
+   "intro": [
+    "Tabelalar ve uyarı yazıları çok kısa yazılır; okuyucunun bir bakışta anlaması gerekir. Bu yüzden özne kullanılmaz, gereksiz kelimeler atılır. MEB kazanımındaki örnekler tam olarak bunlardır: Yüksek sesle konuşmayınız (Don't talk loudly), Hayvanlara yiyecek vermeyiniz (Don't feed the animals), Suya girmeyiniz (Don't go in the water / No swimming), Fotoğraf çekmek yasaktır (No photos).",
+    "Tabelalarda dört kalıp çok sık görülür: Don't + fiil, No + isim ya da fiil-ing, Please + fiil ve resmî Do not + fiil. Bir de bilgi tabelaları vardır: açılış saatleri, besleme saatleri, bilet fiyatları ve yön okları. Bu ekranda hem kuralları hem de bilgileri okuyoruz."
+   ],
+   "patterns": [
+    {
+     "id": "zs-dont",
+     "title": "Don't feed the animals. · Please don't talk loudly.",
+     "meaning": "Olumsuz emir cümlesiyle yasak ve uyarı bildirmek",
+     "explanation": [
+      "Emir cümlesi (imperative) fiille başlar ve özne içermez: Stay on the path. Olumsuz emir için fiilin önüne Don't (do not) getiririz: Don't feed the animals. Don't touch the glass. Don't climb the fence. Fiil yalın kalır.",
+      "Kibar bir uyarı için başa Please eklenir: Please don't talk loudly. Please stay on the path. Resmî ve güçlü yasaklarda Don't yerine Do not yazılır: Do not enter. Do not climb. Anlam aynıdır ama yazılı resmî tabelalarda Do not daha sık görülür.",
+      "Türkçede tabelalar genellikle “-meyiniz” ya da “yasaktır” ile biter. İngilizcede bunun karşılığı cümlenin başındadır: Don't. Türkçe sırayla düşünüp The animals don't feed yazmak anlamı tamamen değiştirir (Hayvanlar beslenmez). Doğru sıra: Don't + fiil + nesne."
+     ],
+     "formula": [
+      "Don't + yalın fiil (+ nesne): Don't feed the animals.",
+      "Please (don't) + fiil: Please stay on the path.",
+      "Do not + fiil: resmî tabela (Do not enter)"
+     ],
+     "examples": [
+      {
+       "en": "Don't feed the animals.",
+       "tr": "Hayvanlara yiyecek vermeyiniz.",
+       "why": [
+        "Olumsuz emir: Don't + feed. Özne yok."
+       ],
+       "chunks": [
+        {
+         "en": "Don't",
+         "tr": "-meyin",
+         "note": "do not'un kısası"
+        },
+        {
+         "en": "feed",
+         "tr": "beslemek, yiyecek vermek"
+        },
+        {
+         "en": "the animals",
+         "tr": "hayvanlar(a)"
+        }
+       ]
+      },
+      {
+       "en": "Please don't talk loudly near the birds.",
+       "tr": "Lütfen kuşların yakınında yüksek sesle konuşmayın.",
+       "why": [
+        "Please kibarlık katar; loudly (yüksek sesle) bir zarftır."
+       ]
+      },
+      {
+       "en": "Don't touch the glass.",
+       "tr": "Cama dokunmayın.",
+       "why": [
+        "Sürüngen evlerinde sık görülen bir uyarı."
+       ]
+      },
+      {
+       "en": "Do not climb the fence.",
+       "tr": "Çite tırmanmayınız.",
+       "why": [
+        "Resmî, güçlü yasak: Do not."
+       ]
+      },
+      {
+       "en": "Stay on the path, please.",
+       "tr": "Lütfen yoldan ayrılmayın.",
+       "why": [
+        "Olumlu emir; please sonda ise önüne virgül gelir."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Hayvanlara dokunmayın.” tabelası nasıl yazılır?",
+       "answer": "Don't touch the animals.",
+       "why": "Don't + fiil + nesne."
+      },
+      {
+       "question": "Don't talk loudly ile Please don't talk loudly farkı?",
+       "answer": "Anlam aynı; please daha kibar.",
+       "why": "please kibarlık katar."
+      },
+      {
+       "question": "“Yoldan ayrılmayın.” tabelası?",
+       "answer": "Stay on the path.",
+       "why": "Olumlu emirle de yasak anlatılabilir."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "No feed the animals.",
+       "right": "Don't feed the animals.",
+       "why": "Fiilden önce No değil Don't gelir."
+      },
+      {
+       "wrong": "You don't feed the animals.",
+       "right": "Don't feed the animals.",
+       "why": "Emir cümlesinde özne (you) kullanılmaz; you ile cümle bir bilgi gibi okunur."
+      }
+     ]
+    },
+    {
+     "id": "zs-no",
+     "title": "No swimming. · No photos. · Danger! Keep away.",
+     "meaning": "No + isim / fiil-ing ile kısa yasak tabelaları",
+     "explanation": [
+      "Tabelalarda daha da kısa bir kalıp vardır: No + fiil-ing ya da No + isim. No swimming = Yüzmek yasaktır (suya girmeyin). No smoking = Sigara içilmez. No photos / No photography = Fotoğraf çekmek yasaktır. No dogs = Köpek giremez.",
+      "No + -ing ile Don't + fiil aynı anlamı taşır: No swimming = Don't swim. Fark üsluptadır: No + -ing daha kısa ve daha resmîdir, tabelalar için idealdir. Konuşurken birini uyarırken ise Don't swim here! deriz.",
+      "Tehlike uyarıları büyük harfle ve ünlemle yazılır: DANGER! (Tehlike!) KEEP AWAY! (Yaklaşmayın!) KEEP OUT! (Girmeyin!). Bir fiil bile yazılmadan tek kelimeyle de uyarı yapılabilir: DANGER. Aynı tabelada hem uyarı hem sebep olabilir: Danger! Deep water. (Tehlike! Derin su.)"
+     ],
+     "formula": [
+      "No + fiil-ing: No swimming. No smoking.",
+      "No + isim: No photos. No dogs. No entry.",
+      "DANGER! · KEEP AWAY! · KEEP OUT!"
+     ],
+     "examples": [
+      {
+       "en": "No swimming in the lake.",
+       "tr": "Gölde yüzmek yasaktır.",
+       "why": [
+        "No + swimming; yer bilgisi sona eklenir."
+       ]
+      },
+      {
+       "en": "No photos in the night house.",
+       "tr": "Gece evinde fotoğraf çekmek yasaktır.",
+       "why": [
+        "No + isim (photos)."
+       ]
+      },
+      {
+       "en": "Danger! Deep water. Keep away.",
+       "tr": "Tehlike! Derin su. Yaklaşmayın.",
+       "why": [
+        "Kısa uyarılar; fiilsiz cümleler tabelalarda normaldir."
+       ]
+      },
+      {
+       "en": "Taking photos is not allowed.",
+       "tr": "Fotoğraf çekmek yasaktır.",
+       "why": [
+        "Daha uzun ve resmî biçim: -ing özne + is not allowed."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Sigara içilmez.” tabelası?",
+       "answer": "No smoking.",
+       "why": "No + -ing"
+      },
+      {
+       "question": "No swimming başka nasıl söylenir?",
+       "answer": "Don't swim. / Don't go in the water.",
+       "why": "Anlam aynı."
+      },
+      {
+       "question": "Keep away! ne demek?",
+       "answer": "Yaklaşmayın!",
+       "why": "Tehlike uyarısı."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "No swim.",
+       "right": "No swimming.",
+       "why": "No'dan sonra fiil -ing alır ya da isim gelir."
+      },
+      {
+       "wrong": "Photo take forbidden.",
+       "right": "No photos. / Taking photos is not allowed.",
+       "why": "Türkçe kelime sırası İngilizceye aktarılmaz."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "No swimming / Don't swim",
+       "explanation": [
+        "No swimming bir tabela dilidir, kısa ve resmîdir. Don't swim ise konuşmada birine doğrudan söylenir."
+       ],
+       "example": "Sign: No swimming. · Mother: Don't swim here, it's deep!",
+       "tr": [
+        "Tabela: Yüzmek yasak. · Anne: Burada yüzme, derin!"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "zs-info",
+     "title": "Bilgi tabelaları: opening hours · feeding time · tickets",
+     "meaning": "Saat, fiyat ve yön bilgilerini okumak",
+     "explanation": [
+      "Ziyaretçi panolarında kuralların yanında bilgiler de yazar. opening hours açılış saatleridir: 9 a.m. – 6 p.m. a.m. öğleden önce, p.m. öğleden sonra demektir. feeding time besleme saatidir: Lions: 2 p.m. tickets biletler, adults yetişkinler, children çocuklar, free ücretsizdir.",
+      "Bilgi tabelalarında da cümleler kısadır. Children under 3: free = 3 yaş altı çocuklar ücretsiz. under burada “altında, -den küçük” anlamındadır. We are open every day = Her gün açığız. In winter, we close at 5 p.m. = Kışın 17.00'de kapanırız.",
+      "Okurken önce ihtiyacın olan bilgiyi düşün: Saat mi arıyorsun? Rakamlara ve a.m. / p.m.'ye bak. Fiyat mı? TL ya da lira kelimesine bak. Kural mı? Don't ve No kelimelerine bak. Bu tarama (scanning) becerisi uzun metinleri hızla anlamanı sağlar."
+     ],
+     "formula": [
+      "opening hours: 9 a.m. – 6 p.m.",
+      "feeding time: 2 p.m. · tickets: adults / children / free",
+      "children under 3 = 3 yaş altı çocuklar"
+     ],
+     "examples": [
+      {
+       "en": "We are open every day from 9 a.m. to 6 p.m.",
+       "tr": "Her gün 9.00'dan 18.00'e kadar açığız.",
+       "why": [
+        "from … to … zaman aralığı bildirir."
+       ]
+      },
+      {
+       "en": "Feeding time: penguins at 11 a.m., lions at 2 p.m.",
+       "tr": "Besleme saati: penguenler 11.00, aslanlar 14.00.",
+       "why": [
+        "Saatlerle at kullanılır."
+       ]
+      },
+      {
+       "en": "Tickets: adults 150 TL, children 75 TL, under 3 free.",
+       "tr": "Biletler: yetişkin 150 TL, çocuk 75 TL, 3 yaş altı ücretsiz.",
+       "why": [
+        "free = ücretsiz."
+       ]
+      },
+      {
+       "en": "What time does the zoo close? — At six.",
+       "tr": "Hayvanat bahçesi kaçta kapanır? — Altıda.",
+       "why": [
+        "Bilgi tabelasını soru-cevapla okumak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "2 p.m. kaç demektir?",
+       "answer": "Öğleden sonra 2, yani 14.00.",
+       "why": "p.m. = öğleden sonra"
+      },
+      {
+       "question": "free bu tabelada ne demek?",
+       "answer": "ücretsiz",
+       "why": "Children under 3: free"
+      },
+      {
+       "question": "feeding time ne demek?",
+       "answer": "besleme saati",
+       "why": "Hayvanlara yemek verilen saat."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The zoo opens 9 a.m.",
+       "right": "The zoo opens at 9 a.m.",
+       "why": "Saatten önce at gelir."
+      },
+      {
+       "wrong": "free = özgür (bu tabelada)",
+       "right": "free = ücretsiz",
+       "why": "Fiyat bilgisinde free ücretsiz demektir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "animal-sounds",
+   "title": "Hayvan sesleri: What sound does a cow make?",
+   "intro": [
+    "MEB kazanımı: dinlediği hayvan seslerine karşılık olarak hayvanların isimlerini söyler. Hayvanlar her ülkede aynı sesi çıkarır ama insanlar bu sesleri kendi dillerinin harfleriyle yazar. Türkçede köpek “hav hav” der, İngilizcede “woof woof”. Türkçede kedi “miyav”, İngilizcede “meow” der. Bu yüzden İngilizce hayvan seslerini ayrıca öğrenmek eğlenceli ve yararlıdır.",
+    "Bu ekranda iki şey öğreniyoruz: sesi duyunca hayvanın adını söylemek (It's a cow!) ve ses hakkında soru sorup cevaplamak (What sound does a cow make? — It says moo.). Bir de bu seslerin fiil hâllerini görüyoruz: a dog barks, a lion roars, a snake hisses."
+   ],
+   "patterns": [
+    {
+     "id": "as-which",
+     "title": "Moo! — It's a cow! · Which animal says “baa”?",
+     "meaning": "Sesten hayvanı tanımak ve söylemek",
+     "explanation": [
+      "Sesi duyduğumuzda hayvanın adını It's a … ile söyleriz: Moo! — It's a cow! Quack! — It's a duck! Hoot! — It's an owl! (owl ünlüyle başlar → an). Emin değilsek soru sorarız: Is it a sheep? — Yes, it is. / No, it isn't. It's a goat.",
+      "İngilizce hayvan sesleri: cow → moo, sheep → baa, dog → woof, cat → meow, duck → quack, rooster → cock-a-doodle-doo, lion → roar, snake → hiss, bee → buzz, horse → neigh, frog → ribbit, owl → hoot. Bazıları Türkçeye benzer (buzz ~ vızz, hiss ~ tıs), bazıları çok farklıdır (woof ~ hav hav).",
+      "Sesi bilen birine soru sormak için Which animal says “baa”? deriz. Cevap kısa olur: A sheep does. Burada does, says'in yerini tutar; tekrar etmemek için kullanılır."
+     ],
+     "formula": [
+      "ses → It's a / an + hayvan: Hoot! — It's an owl!",
+      "Is it a …? — Yes, it is. / No, it isn't.",
+      "Which animal says “…”? — A … does."
+     ],
+     "examples": [
+      {
+       "en": "Woof! Woof! — It's a dog!",
+       "tr": "Hav hav! — Bu bir köpek!",
+       "why": [
+        "Türkçede hav hav, İngilizcede woof."
+       ]
+      },
+      {
+       "en": "Hoot! Hoot! — It's an owl.",
+       "tr": "Hu hu! — Bu bir baykuş.",
+       "why": [
+        "owl ünlüyle başlar → an owl."
+       ]
+      },
+      {
+       "en": "Is it a horse? — No, it isn't. It's a donkey.",
+       "tr": "At mı? — Hayır. Eşek.",
+       "why": [
+        "Tahmin sorusu ve düzeltme."
+       ]
+      },
+      {
+       "en": "Which animal says “quack”? — A duck does.",
+       "tr": "Hangi hayvan “vak” der? — Ördek.",
+       "why": [
+        "does burada says'i tekrar etmemek için kullanılır."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Buzz!” hangi hayvan?",
+       "answer": "It's a bee.",
+       "why": "buzz = vızz"
+      },
+      {
+       "question": "“Neigh!” hangi hayvan?",
+       "answer": "It's a horse.",
+       "why": "neigh = at kişnemesi"
+      },
+      {
+       "question": "Which animal says “moo”? sorusuna kısa cevap?",
+       "answer": "A cow does.",
+       "why": "does, says'in yerine."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It's a owl.",
+       "right": "It's an owl.",
+       "why": "Ünlüden önce an."
+      },
+      {
+       "wrong": "Which animal says baa? — Sheep says.",
+       "right": "A sheep does.",
+       "why": "Kısa cevapta a + hayvan + does."
+      }
+     ]
+    },
+    {
+     "id": "as-make",
+     "title": "What sound does a cow make? · A dog barks.",
+     "meaning": "Ses sormak ve sesi fiille söylemek",
+     "explanation": [
+      "Bir hayvanın sesini sormanın kalıbı: What sound does a … make? make a sound = ses çıkarmak. Soruda does olduğu için make yalın kalır. Cevapta günlük dilde say kullanılır: It says moo. A cow says moo. Bu kalıp özellikle çocuklarla konuşurken çok yaygındır.",
+      "Hayvan seslerinin bir de fiil hâli vardır; bunlar daha yetişkin ve doğal bir anlatımdır: A dog barks (havlar). A cat meows (miyavlar). A lion roars (kükrer). A snake hisses (tıslar). A bee buzzes (vızıldar). A horse neighs (kişner). A duck quacks. A rooster crows (öter). A frog croaks (vıraklar). An owl hoots.",
+      "Bu fiiller it ile -s alır; -ss, -zz ile bitenler -es alır: hisses, buzzes. Çoğul özneyle -s yoktur: Dogs bark and cats meow. Bir köpeğin şu an havladığını söylemek için şimdiki zaman: Listen! The dog is barking."
+     ],
+     "formula": [
+      "What sound does a + hayvan + make?",
+      "It says + ses: It says moo.",
+      "hayvan + ses fiili-s: A dog barks. A snake hisses."
+     ],
+     "examples": [
+      {
+       "en": "What sound does a duck make? — It says “quack”.",
+       "tr": "Ördek nasıl ses çıkarır? — “Vak” der.",
+       "why": [
+        "does + make (yalın). Cevapta says."
+       ],
+       "chunks": [
+        {
+         "en": "What sound",
+         "tr": "hangi ses"
+        },
+        {
+         "en": "make a sound",
+         "tr": "ses çıkarmak"
+        },
+        {
+         "en": "It says …",
+         "tr": "… der"
+        }
+       ]
+      },
+      {
+       "en": "Dogs bark and cats meow.",
+       "tr": "Köpekler havlar, kediler miyavlar.",
+       "why": [
+        "Çoğul özne → -s yok."
+       ]
+      },
+      {
+       "en": "At night, the owl hoots.",
+       "tr": "Gece baykuş öter.",
+       "why": [
+        "Tekil → hoots."
+       ]
+      },
+      {
+       "en": "Listen! A bee is buzzing near the flowers.",
+       "tr": "Dinle! Çiçeklerin yanında bir arı vızıldıyor.",
+       "why": [
+        "Şu an olan ses → is buzzing."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Aslan kükrer.” İngilizcesi?",
+       "answer": "A lion roars.",
+       "why": "roar + s"
+      },
+      {
+       "question": "What sound does a sheep make? cevabı?",
+       "answer": "It says baa.",
+       "why": "Ses: baa"
+      },
+      {
+       "question": "A snake ___ . (hiss)",
+       "answer": "hisses",
+       "why": "-ss → -es"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "What sound does a cow makes?",
+       "right": "What sound does a cow make?",
+       "why": "does'tan sonra fiil yalın."
+      },
+      {
+       "wrong": "A dog says hav hav.",
+       "right": "A dog says woof.",
+       "why": "İngilizce ses woof'tur."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "describe-animal",
+   "title": "Bir hayvanı özellikleriyle betimlemek",
+   "intro": [
+    "MEB kazanımı bir hayvanı özellikleriyle betimlemektir ve örnek de verilmiştir: Dört ayağı, uzun bir kuyruğu var. Bize süt verir. İngilizcesi: It has four legs and a long tail. It gives us milk. Bu iki cümle, betimleme için gereken en önemli iki kalıbı içerir: has (sahiplik) ve gives us (bize verir).",
+    "Bir hayvanı tam olarak anlatmak için beş soru düşünebiliriz: Neyi var? (It has …) Nasıl görünüyor? (It's big and grey.) Ne yapabilir? (It can swim.) Ne yer ve nerede yaşar? (It eats grass. It lives on a farm.) Bize ne verir? (It gives us milk.) Bu sorular hem konuşmada hem de bilmece oyunlarında çok işe yarar."
+   ],
+   "patterns": [
+    {
+     "id": "da-has",
+     "title": "It has four legs and a long tail.",
+     "meaning": "Bir hayvanın vücut özelliklerini has ile söylemek",
+     "explanation": [
+      "Türkçede sahiplik “-si var” ile anlatılır: Dört ayağı var. İngilizcede bunun karşılığı have / has fiilidir. it, he, she ile has; I, you, we, they ile have kullanılır: It has four legs. Birds have wings. There is / There are bu anlamda kullanılmaz; There is four legs yanlıştır.",
+      "Vücut bölümleri: legs (bacaklar), a tail (kuyruk), a neck (boyun), ears (kulaklar), a trunk (hortum), horns (boynuzlar), wings (kanatlar), feathers (kuş tüyleri), fur (kürk), scales (pullar), stripes (çizgiler), spots (benekler), sharp teeth (keskin dişler), claws (pençeler).",
+      "Sayı ve sıfat ismin önüne gelir: four legs, a long tail, big ears, sharp teeth. Birden fazla özelliği and ile sıralarız: It has big ears, a long trunk and two white tusks. Olumsuz için doesn't have: A snake doesn't have legs. Ya da kısaca: It has no legs."
+     ],
+     "formula": [
+      "It + has + (sayı / sıfat) + vücut bölümü: It has four legs.",
+      "They + have: Birds have wings.",
+      "doesn't have / has no: A snake has no legs."
+     ],
+     "examples": [
+      {
+       "en": "It has four legs and a long tail. It gives us milk.",
+       "tr": "Dört ayağı ve uzun bir kuyruğu var. Bize süt verir.",
+       "why": [
+        "Kazanımdaki örnek. Cevap: a cow."
+       ],
+       "chunks": [
+        {
+         "en": "It has",
+         "tr": "-si var",
+         "note": "it → has"
+        },
+        {
+         "en": "four legs",
+         "tr": "dört ayak"
+        },
+        {
+         "en": "a long tail",
+         "tr": "uzun bir kuyruk",
+         "note": "sıfat önce"
+        }
+       ]
+      },
+      {
+       "en": "A zebra has black and white stripes.",
+       "tr": "Zebranın siyah beyaz çizgileri var.",
+       "why": [
+        "has + renkler + isim."
+       ]
+      },
+      {
+       "en": "Birds have wings and feathers.",
+       "tr": "Kuşların kanatları ve tüyleri var.",
+       "why": [
+        "Çoğul özne → have."
+       ]
+      },
+      {
+       "en": "A snake doesn't have legs. It has no legs.",
+       "tr": "Yılanın ayakları yok.",
+       "why": [
+        "İki olumsuz biçim; ikisi de doğru."
+       ]
+      },
+      {
+       "en": "An elephant has big ears and a long trunk.",
+       "tr": "Filin büyük kulakları ve uzun bir hortumu var.",
+       "why": [
+        "İki özellik and ile."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Uzun bir boynu var.” İngilizcesi?",
+       "answer": "It has a long neck.",
+       "why": "has + a + sıfat + isim"
+      },
+      {
+       "question": "Birds ___ wings. (have / has)",
+       "answer": "have",
+       "why": "Çoğul özne."
+      },
+      {
+       "question": "“Yılanın ayakları yok.” iki biçimde?",
+       "answer": "A snake doesn't have legs. / A snake has no legs.",
+       "why": "Olumsuz sahiplik."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It have four legs.",
+       "right": "It has four legs.",
+       "why": "it ile has."
+      },
+      {
+       "wrong": "There is four legs.",
+       "right": "It has four legs.",
+       "why": "Sahiplik there is ile değil has ile söylenir."
+      }
+     ]
+    },
+    {
+     "id": "da-can-eats",
+     "title": "It can swim. It eats grass. It gives us milk.",
+     "meaning": "Yetenek, beslenme, yaşam yeri ve yarar bilgisiyle betimlemek",
+     "explanation": [
+      "Yetenek için can, yeteneksizlik için can't kullanılır; ikisinden sonra fiil yalın kalır: It can run fast. It can't fly. A penguin can swim, but it can't fly. Bu tür but cümleleri betimlemeyi çok canlı yapar.",
+      "Beslenme ve yaşam yeri geniş zamanla söylenir ve it ile -s alır: It eats grass. It eats meat. It lives in the desert. Hayvanın bize faydasını It gives us + ürün ile söyleriz: It gives us milk. It gives us wool. Çoğulda: They give us eggs.",
+      "Görünüşü It's + sıfat ile ekleriz: It's big and grey. It's black and white. It's very small. Bilmece kurarken en genelden en özele gideriz: önce It's an animal. It lives on a farm. sonra It has … ve en sonunda en belirleyici bilgi: It says moo."
+     ],
+     "formula": [
+      "It can / can't + yalın fiil: It can swim. It can't fly.",
+      "It eats … · It lives … (it → -s)",
+      "It gives us + ürün: It gives us milk."
+     ],
+     "examples": [
+      {
+       "en": "A penguin can swim, but it can't fly.",
+       "tr": "Penguen yüzebilir ama uçamaz.",
+       "why": [
+        "can / can't + yalın; but zıtlık."
+       ]
+      },
+      {
+       "en": "It eats leaves from tall trees.",
+       "tr": "Uzun ağaçlardan yaprak yer.",
+       "why": [
+        "eats -s alır. Cevap: a giraffe."
+       ]
+      },
+      {
+       "en": "It lives on a farm and it gives us wool.",
+       "tr": "Çiftlikte yaşar ve bize yün verir.",
+       "why": [
+        "Cevap: a sheep."
+       ]
+      },
+      {
+       "en": "It's small. It has wings. It gives us honey. — It's a bee!",
+       "tr": "Küçük. Kanatları var. Bize bal verir. — Arı!",
+       "why": [
+        "Genelden özele giden bir bilmece."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Uçamaz.” İngilizcesi?",
+       "answer": "It can't fly.",
+       "why": "can't + yalın"
+      },
+      {
+       "question": "A cow ___ grass. (eat)",
+       "answer": "eats",
+       "why": "it → -s"
+      },
+      {
+       "question": "“Bize yün verir.” İngilizcesi?",
+       "answer": "It gives us wool.",
+       "why": "gives us + ürün"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It can flies.",
+       "right": "It can fly.",
+       "why": "can'den sonra yalın fiil."
+      },
+      {
+       "wrong": "It gives to us milk.",
+       "right": "It gives us milk.",
+       "why": "Kısa ve doğal biçim: gives us + ürün."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "favourite",
+   "title": "En sevdiğim ve en korktuğum hayvan",
+   "intro": [
+    "MEB kazanımı: en çok sevdiği ve korktuğu hayvanı söyler. Bunun için iki kalıp öğreniyoruz: My favourite animal is … (En sevdiğim hayvan …) ve I'm scared of … / I'm afraid of … (…-den korkarım). Sebep belirtmek için de because kullanıyoruz.",
+    "Türkçeden çeviri yaparken iki tuzak vardır. Birincisi, “-den korkmak” Türkçede -den ekiyle kurulur ama İngilizcede edat from değil of'tur: scared of. İkincisi, genel olarak bir hayvan türünü sevdiğimizi ya da ondan korktuğumuzu söylerken İngilizcede çoğul kullanılır: I love cats. I'm scared of snakes."
+   ],
+   "patterns": [
+    {
+     "id": "fv-favourite",
+     "title": "My favourite animal is the dolphin.",
+     "meaning": "En sevdiği hayvanı ve sebebini söylemek",
+     "explanation": [
+      "favourite (en sevilen) bir sıfattır ve ismin önüne gelir: my favourite animal, her favourite colour. Kalıp: My favourite animal is the + hayvan. Burada the kullanılır, çünkü bütün türü (yunusları) temsil eden “yunus”tan söz ediyoruz. My favourite animals are dolphins da doğrudur.",
+      "Sevgiyi derecelendirmek için: I love … (çok severim), I like … (severim), I don't like … (sevmem), I hate … (nefret ederim). Bu fiillerden sonra hayvan genellikle çoğul olur: I love horses. I don't like mice.",
+      "Sebep because ile verilir: I love dolphins because they're clever and friendly. because'tan sonra tam bir cümle gelir (özne + fiil). Soru Why? ile sorulur: Why do you like horses? — Because they're beautiful."
+     ],
+     "formula": [
+      "My favourite animal is the + hayvan.",
+      "I love / like / don't like / hate + çoğul hayvan.",
+      "… because + cümle: because they're clever."
+     ],
+     "examples": [
+      {
+       "en": "My favourite animal is the dolphin because it's clever.",
+       "tr": "En sevdiğim hayvan yunus, çünkü akıllı.",
+       "why": [
+        "favourite + the + hayvan; because + tam cümle."
+       ],
+       "chunks": [
+        {
+         "en": "favourite",
+         "tr": "en sevilen"
+        },
+        {
+         "en": "the dolphin",
+         "tr": "yunus (tür olarak)"
+        },
+        {
+         "en": "because",
+         "tr": "çünkü"
+        }
+       ]
+      },
+      {
+       "en": "What's your favourite animal? — The horse.",
+       "tr": "En sevdiğin hayvan ne? — At.",
+       "why": [
+        "Kısa cevapta the + hayvan."
+       ]
+      },
+      {
+       "en": "I love cats, but I don't like dogs.",
+       "tr": "Kedileri çok severim ama köpekleri sevmem.",
+       "why": [
+        "Genel → çoğul; but zıtlık."
+       ]
+      },
+      {
+       "en": "Why do you like penguins? — Because they're funny.",
+       "tr": "Penguenleri neden seviyorsun? — Çünkü komikler.",
+       "why": [
+        "Why? → Because …"
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“En sevdiğim hayvan kartal.” İngilizcesi?",
+       "answer": "My favourite animal is the eagle.",
+       "why": "the + hayvan"
+      },
+      {
+       "question": "I like ___ . (cat)",
+       "answer": "cats",
+       "why": "Genel → çoğul"
+      },
+      {
+       "question": "“Çünkü sevimliler.” İngilizcesi?",
+       "answer": "Because they're cute.",
+       "why": "because + cümle"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "My most like animal is horse.",
+       "right": "My favourite animal is the horse.",
+       "why": "En sevilen için favourite kullanılır."
+      },
+      {
+       "wrong": "I like cat.",
+       "right": "I like cats.",
+       "why": "Genel konuşmada çoğul."
+      }
+     ]
+    },
+    {
+     "id": "fv-scared",
+     "title": "I'm scared of snakes. · I'm afraid of spiders.",
+     "meaning": "Korkuyu be + scared / afraid + of ile söylemek",
+     "explanation": [
+      "Korku bir durumdur ve be fiiliyle söylenir: I'm scared. (Korkuyorum.) Neyden korktuğumuzu of ile ekleriz: I'm scared of snakes. scared ve afraid aynı anlamdadır; afraid biraz daha resmîdir. Türkçedeki -den eki burada from değil, of olur.",
+      "Dereceyi değiştirmek için: I'm really scared of sharks. (Köpekbalıklarından çok korkarım.) I'm a bit scared of big dogs. (Büyük köpeklerden biraz korkarım.) Olumsuz: I'm not scared of spiders. Soru: Are you scared of snakes? — Yes, I am. / No, I'm not.",
+      "Hangi hayvandan korktuğunu sormak için: Which animal are you scared of? Bu soruda of cümlenin sonunda kalır; bu İngilizcede çok normaldir. Cevap: I'm scared of snakes because they're dangerous."
+     ],
+     "formula": [
+      "be + scared / afraid + of + çoğul hayvan",
+      "Are you scared of …? — Yes, I am. / No, I'm not.",
+      "Which animal are you scared of? (of sonda)"
+     ],
+     "examples": [
+      {
+       "en": "I'm scared of snakes because they're dangerous.",
+       "tr": "Yılanlardan korkarım çünkü tehlikeliler.",
+       "why": [
+        "be + scared + of; because sebep."
+       ]
+      },
+      {
+       "en": "My mother is afraid of mice.",
+       "tr": "Annem farelerden korkar.",
+       "why": [
+        "afraid of = scared of; mouse → mice."
+       ]
+      },
+      {
+       "en": "Are you scared of dogs? — No, I'm not. I love dogs.",
+       "tr": "Köpeklerden korkar mısın? — Hayır. Köpekleri çok severim.",
+       "why": [
+        "Kısa cevap be ile."
+       ]
+      },
+      {
+       "en": "Which animal are you scared of? — Spiders!",
+       "tr": "Hangi hayvandan korkuyorsun? — Örümceklerden!",
+       "why": [
+        "of soru sonunda kalır."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Arılardan korkarım.” İngilizcesi?",
+       "answer": "I'm scared of bees. / I'm afraid of bees.",
+       "why": "of + çoğul"
+      },
+      {
+       "question": "I ___ scared of sharks. (am / do)",
+       "answer": "am (I'm)",
+       "why": "Korku be ile söylenir."
+      },
+      {
+       "question": "“Köpeklerden korkmam.” İngilizcesi?",
+       "answer": "I'm not scared of dogs.",
+       "why": "Olumsuz: I'm not"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I'm scared from snakes.",
+       "right": "I'm scared of snakes.",
+       "why": "Edat of'tur."
+      },
+      {
+       "wrong": "I don't scared of dogs.",
+       "right": "I'm not scared of dogs.",
+       "why": "scared bir sıfattır; olumsuzu be ile yapılır."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "products",
+   "title": "Hayvanlardan elde ettiklerimiz",
+   "intro": [
+    "MEB kazanımı: hangi hayvandan ne elde edildiğini söyler. Örnekler: Tavuktan yumurta ve et. Koyundan et, süt ve yün. Türkçede kaynak -dan / -den ekiyle anlatılır; İngilizcede bunun karşılığı from edatıdır: We get eggs and meat from chickens. We get meat, milk and wool from sheep.",
+    "Aynı bilgiyi hayvanı özne yaparak da söyleyebiliriz: Chickens give us eggs and meat. Sheep give us meat, milk and wool. Bu ekranda ayrıca süt ürünlerini (cheese, butter, yoghurt) ve Bursa'nın ünlü ürünü ipeği (silk) öğreniyoruz. Ürün adlarının çoğu sayılamaz isimdir; -s almaz."
+   ],
+   "patterns": [
+    {
+     "id": "pr-get-from",
+     "title": "We get eggs and meat from chickens.",
+     "meaning": "get + ürün + from + hayvan kalıbı",
+     "explanation": [
+      "“Elde etmek” için en kolay fiil get'tir. Kalıp: We get + ürün + from + hayvan. Türkçede kaynak ekle (-dan) ve cümlenin başında gelir: Tavuktan yumurta elde ederiz. İngilizcede kaynak sonda ve from ile gelir: We get eggs from chickens.",
+      "Genel bilgi verdiğimiz için hayvan adları çoğul olur: from chickens, from cows, from bees. sheep çoğulda da sheep kalır: from sheep. Birden fazla ürünü virgül ve and ile sıralarız: We get meat, milk and wool from sheep.",
+      "İnsanların yaptığı ürünler için make … from … kullanılır: We make cheese from milk. We make yoghurt and butter from milk. get doğrudan hayvandan alınanlar, make ise işlenerek yapılanlar içindir."
+     ],
+     "formula": [
+      "We get + ürün + from + hayvanlar: We get eggs from chickens.",
+      "Birden fazla ürün: meat, milk and wool",
+      "We make + ürün + from + hammadde: We make cheese from milk."
+     ],
+     "examples": [
+      {
+       "en": "We get eggs and meat from chickens.",
+       "tr": "Tavuktan yumurta ve et elde ederiz.",
+       "why": [
+        "Kazanım örneği. Kaynak sonda, from ile."
+       ],
+       "chunks": [
+        {
+         "en": "We get",
+         "tr": "elde ederiz"
+        },
+        {
+         "en": "eggs and meat",
+         "tr": "yumurta ve et"
+        },
+        {
+         "en": "from chickens",
+         "tr": "tavuklardan",
+         "note": "genel → çoğul"
+        }
+       ]
+      },
+      {
+       "en": "We get meat, milk and wool from sheep.",
+       "tr": "Koyundan et, süt ve yün elde ederiz.",
+       "why": [
+        "Kazanım örneği. sheep değişmez."
+       ]
+      },
+      {
+       "en": "We get honey from bees.",
+       "tr": "Arıdan bal elde ederiz.",
+       "why": [
+        "honey sayılamaz; -s yok."
+       ]
+      },
+      {
+       "en": "We make cheese, butter and yoghurt from milk.",
+       "tr": "Sütten peynir, tereyağı ve yoğurt yaparız.",
+       "why": [
+        "İşlenen ürünler → make … from …"
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“İnekten süt elde ederiz.” İngilizcesi?",
+       "answer": "We get milk from cows.",
+       "why": "from + çoğul"
+      },
+      {
+       "question": "We get wool ___ sheep.",
+       "answer": "from",
+       "why": "-den → from"
+      },
+      {
+       "question": "“Sütten yoğurt yaparız.” İngilizcesi?",
+       "answer": "We make yoghurt from milk.",
+       "why": "make … from …"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "We get egg chicken from.",
+       "right": "We get eggs from chickens.",
+       "why": "from kaynağın önüne gelir."
+      },
+      {
+       "wrong": "We get wools from sheeps.",
+       "right": "We get wool from sheep.",
+       "why": "wool sayılamaz, sheep değişmez."
+      }
+     ]
+    },
+    {
+     "id": "pr-give-us",
+     "title": "Sheep give us meat, milk and wool. · A bee gives us honey.",
+     "meaning": "Hayvanı özne yapıp give us ile söylemek",
+     "explanation": [
+      "Hayvanı özne yaparsak give us (bize verir) kalıbını kullanırız: Cows give us milk. Bees give us honey. Tekil özneyle gives: A cow gives us milk. A bee gives us honey. Bu kalıp, bir önceki adımdaki It gives us milk betimlemesiyle aynıdır.",
+      "Ürünleri sayılabilir ve sayılamaz diye ikiye ayırmak gerekir. eggs sayılabilir: an egg, two eggs. Ama milk, meat, wool, honey, cheese, butter, leather, silk sayılamaz: -s almaz ve önüne a gelmez. Miktar için some kullanırız: some milk, some honey.",
+      "Hayvanların etleri için bazen ayrı kelimeler vardır: cow → beef (sığır eti), sheep → lamb (kuzu eti), chicken → chicken (tavuk eti, aynı kelime). Bursa'nın ünlü ipeği ise ipek böceğinden gelir: Silkworms give us silk. Bursa is famous for its silk."
+     ],
+     "formula": [
+      "çoğul hayvan + give us + ürün: Bees give us honey.",
+      "tekil hayvan + gives us + ürün: A bee gives us honey.",
+      "sayılamaz: milk, meat, wool, honey (a yok, -s yok)"
+     ],
+     "examples": [
+      {
+       "en": "Sheep give us meat, milk and wool.",
+       "tr": "Koyunlar bize et, süt ve yün verir.",
+       "why": [
+        "sheep burada çoğul → give."
+       ]
+      },
+      {
+       "en": "A cow gives us milk, meat and leather.",
+       "tr": "İnek bize süt, et ve deri verir.",
+       "why": [
+        "Tekil → gives."
+       ]
+      },
+      {
+       "en": "Silkworms give us silk. Bursa is famous for its silk.",
+       "tr": "İpek böcekleri bize ipek verir. Bursa ipeğiyle ünlüdür.",
+       "why": [
+        "famous for = ile ünlü."
+       ]
+      },
+      {
+       "en": "Can I have some honey, please?",
+       "tr": "Biraz bal alabilir miyim, lütfen?",
+       "why": [
+        "Sayılamaz isimle some."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "A bee ___ us honey. (give)",
+       "answer": "gives",
+       "why": "Tekil → gives"
+      },
+      {
+       "question": "“Tavuklar bize yumurta verir.” İngilizcesi?",
+       "answer": "Chickens give us eggs.",
+       "why": "Çoğul → give"
+      },
+      {
+       "question": "a milk doğru mu?",
+       "answer": "Hayır: milk ya da some milk.",
+       "why": "milk sayılamaz."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Bee give us honey.",
+       "right": "A bee gives us honey. / Bees give us honey.",
+       "why": "Tekil isimle a ve gives; ya da çoğul."
+      },
+      {
+       "wrong": "I want a honey.",
+       "right": "I want some honey.",
+       "why": "honey sayılamaz."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "get … from / give us",
+       "explanation": [
+        "İkisi aynı bilgiyi verir. get … from'da biz özneyiz, give us'ta hayvan özne olur."
+       ],
+       "example": "We get honey from bees. = Bees give us honey.",
+       "tr": [
+        "Arıdan bal elde ederiz. = Arılar bize bal verir."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "zoo-reading",
+   "title": "Okuma: hayvanat bahçesinde bir gün",
+   "intro": [
+    "Bu okuma metni 26 Ekim'in bütün konularını bir araya getirir: sıfatlar (big, heavy, slow), hayvanlar ve yaşadıkları yerler, tabelalar (Don't feed the animals), korkular (My mother is scared of snakes), sesler (The lions roar) ve ürünler (We get milk from cows).",
+    "Okurken iki aşamalı çalışırız. İlk okumada genel anlamı yakalarız: Oya kiminle, nereye gidiyor, hangi hayvanları görüyor? İkinci okumada ayrıntıları ararız: saatler, sebepler, sıfatlar. Doğru / yanlış sorularında cümlenin metinde nerede geçtiğini bulmak ve kelimeleri karşılaştırmak önemlidir; çoğu zaman tek bir kelime (not, never, can't) cevabı değiştirir."
+   ],
+   "patterns": [
+    {
+     "id": "zr-present",
+     "title": "Metinde geniş zaman: We go … · They live …",
+     "meaning": "Bir günü ve genel gerçekleri geniş zamanla anlatmak",
+     "explanation": [
+      "Oya'nın günlüğü geniş zamanla yazılmıştır: we go, we visit, they live, they eat. Bu metinde geniş zaman iki iş görür. Birincisi, hayvanlar hakkındaki genel gerçekleri anlatır: Giraffes eat leaves. Penguins live in cold water. İkincisi, günlük gibi canlı anlatımlarda olayları sırayla aktarır: First, we visit the elephants. We go home at five.",
+      "Sıra kelimeleri metni düzenler: First (önce), Next to (yanında), At two o'clock (saat ikide), too (de, da). Okurken bu kelimeler bize zaman çizgisini verir.",
+      "Metinde sıfatlar betimlemenin temelidir: big and heavy, slow and friendly, hot and dark, long green snake. Birden fazla sıfat ismin önüne gelebilir: a long green snake (uzun yeşil bir yılan). Boyut sıfatı renkten önce gelir."
+     ],
+     "formula": [
+      "genel gerçek: Giraffes eat leaves.",
+      "olay sırası: First, we visit … At two o'clock, we watch …",
+      "iki sıfat: a long green snake (boyut + renk)"
+     ],
+     "examples": [
+      {
+       "en": "First, we visit the elephants.",
+       "tr": "Önce filleri ziyaret ediyoruz.",
+       "why": [
+        "First sırayı başlatır; geniş zaman canlı anlatım."
+       ]
+      },
+      {
+       "en": "They're very big and heavy, but they're slow and friendly.",
+       "tr": "Çok büyük ve ağırlar ama yavaş ve dost canlısılar.",
+       "why": [
+        "and aynı yön, but zıt yön."
+       ]
+      },
+      {
+       "en": "There's a long green snake behind the glass.",
+       "tr": "Camın arkasında uzun yeşil bir yılan var.",
+       "why": [
+        "Boyut (long) + renk (green) + isim."
+       ]
+      },
+      {
+       "en": "We go home at five. I'm tired but happy.",
+       "tr": "Beşte eve gidiyoruz. Yorgunum ama mutluyum.",
+       "why": [
+        "Kapanış cümlesi; but zıt duygular."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Metinde zürafalar ne yer?",
+       "answer": "They eat leaves from the trees.",
+       "why": "Genel gerçek."
+      },
+      {
+       "question": "a green long snake mi, a long green snake mi?",
+       "answer": "a long green snake",
+       "why": "Boyut, renkten önce gelir."
+      },
+      {
+       "question": "Oya'nın ailesi kaçta eve gidiyor?",
+       "answer": "At five.",
+       "why": "We go home at five."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "a green long snake",
+       "right": "a long green snake",
+       "why": "Boyut sıfatı renk sıfatından önce gelir."
+      },
+      {
+       "wrong": "Giraffes are eat leaves.",
+       "right": "Giraffes eat leaves.",
+       "why": "Geniş zamanda be kullanılmaz."
+      }
+     ]
+    },
+    {
+     "id": "zr-tf",
+     "title": "True or false? Metindeki kanıtı bulmak",
+     "meaning": "Doğru / yanlış sorularını metne dayanarak cevaplamak",
+     "explanation": [
+      "True / False sorusunu cevaplarken tahmin etme; metinde o bilginin geçtiği cümleyi bul. Örneğin The tickets are very expensive cümlesi için metne bakarız: The tickets aren't expensive. Tek bir not (n't) kelimesi cevabı False yapar.",
+      "Olumsuz kelimelere özellikle dikkat et: not, never, can't, doesn't. Penguins can fly cümlesi False'tur, çünkü metinde They can't fly yazar. Aynı şekilde kişi ve yer bilgilerini karşılaştır: Oya's mother goes into the reptile house False'tur; metinde she waits outside (dışarıda bekler) yazar.",
+      "Yanlış cümleyi düzeltmek, anladığını göstermenin en iyi yoludur: False. She waits outside because she's scared of snakes. Düzeltirken metindeki kelimeleri kullanabilirsin; kendi kelimelerinle söylersen daha da iyi."
+     ],
+     "formula": [
+      "1 · İfadedeki anahtar kelimeyi bul (tickets, penguins, mother).",
+      "2 · Metinde aynı bilgiyi bul; not / never / can't'e dikkat.",
+      "3 · False ise düzelt: False. They can't fly."
+     ],
+     "examples": [
+      {
+       "en": "The tickets are very expensive. — False. The tickets aren't expensive.",
+       "tr": "Biletler çok pahalı. — Yanlış. Biletler pahalı değil.",
+       "why": [
+        "Tek bir n't cevabı değiştirir."
+       ]
+      },
+      {
+       "en": "Penguins can fly. — False. They can't fly, but they swim very fast.",
+       "tr": "Penguenler uçabilir. — Yanlış. Uçamazlar ama çok hızlı yüzerler.",
+       "why": [
+        "can't kelimesine dikkat."
+       ]
+      },
+      {
+       "en": "The giraffes eat leaves. — True.",
+       "tr": "Zürafalar yaprak yer. — Doğru.",
+       "why": [
+        "Metinde: they eat leaves from the trees."
+       ]
+      },
+      {
+       "en": "Oya's mother goes into the reptile house. — False. She waits outside.",
+       "tr": "Oya'nın annesi sürüngen evine giriyor. — Yanlış. Dışarıda bekliyor.",
+       "why": [
+        "Düzeltme metindeki kelimelerle."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "The family goes home at five. True mu?",
+       "answer": "True.",
+       "why": "We go home at five."
+      },
+      {
+       "question": "Oya's brother loves the lions. True mu?",
+       "answer": "False. He loves the monkeys.",
+       "why": "Hayvan farklı."
+      },
+      {
+       "question": "False bir cümleyi nasıl düzeltirsin?",
+       "answer": "Metindeki doğru bilgiyle yeni bir cümle kurarak.",
+       "why": "False. + doğru cümle"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "False because I think.",
+       "right": "False. The text says: They can't fly.",
+       "why": "Cevap kişisel fikre değil, metne dayanır."
+      },
+      {
+       "wrong": "True. (metinde olmayan bir bilgi için)",
+       "right": "False ya da Not given / metinde yok.",
+       "why": "Metinde olmayan bilgi doğru kabul edilmez."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "close-day1",
+   "title": "Birinci günün kapanışı: kendimi değerlendiriyorum",
+   "intro": [
+    "Günün sonunda neyi yapabildiğimizi dürüstçe işaretlemek, ertesi günü planlamak için önemlidir. Kontrol listesindeki her cümle bir kazanımın İngilizce özetidir. Zorlandığın bir maddeyi gördüğünde İfade bankasında ve Bugünün özeti sayfasında o adıma dönebilirsin.",
+    "Bu kapanışta günün en sık yapılan hatalarını da topluyoruz: be fiilini unutmak (The tea hot), -s'yi unutmak (A crocodile live), yanlış edat (scared from, in a farm) ve too ile very'yi karıştırmak. Bu dört hatayı düzelten biri 26 Ekim'in konularını büyük ölçüde öğrenmiş demektir."
+   ],
+   "patterns": [
+    {
+     "id": "cd-review",
+     "title": "Günün dört kuralı: is · -s · of / on · too",
+     "meaning": "Birinci günün en önemli kurallarını tekrar etmek",
+     "explanation": [
+      "Birinci kural: sıfatlı cümlelerde be fiili gerekir. The tea is hot. The animals are big. Türkçede “Çay sıcak” deriz; İngilizcede is olmadan cümle eksik kalır.",
+      "İkinci kural: it, he, she ile geniş zamanda fiil -s alır: A crocodile lives. A cow gives us milk. A bird flies. Soruda ve olumsuzda -s, does / doesn't'a geçer: Where does it live? It doesn't live in the sea.",
+      "Üçüncü kural: kalıp edatlarını olduğu gibi öğren: scared of, afraid of, on a farm, on land, in the water, from (kaynak). Dördüncü kural: too gereğinden fazla demektir ve sorun bildirir; olumlu bir durumda very kullanılır."
+     ],
+     "formula": [
+      "be + sıfat: The tea is hot.",
+      "it + fiil-s: It lives / It gives / It flies.",
+      "scared of · on a farm · in the water · from · too = sorun"
+     ],
+     "examples": [
+      {
+       "en": "A lion lives on land.",
+       "tr": "Aslan karada yaşar.",
+       "why": [
+        "Kazanım cümlesi: tekil özneyle lives ve kara için on land."
+       ]
+      },
+      {
+       "en": "It has four legs and a long tail. It gives us milk.",
+       "tr": "Dört ayağı ve uzun bir kuyruğu var. Bize süt verir.",
+       "why": [
+        "Kazanım cümlesi: has ve gives us, ikisi de -s ile."
+       ]
+      },
+      {
+       "en": "No photos. Don't feed the animals.",
+       "tr": "Fotoğraf çekmek yasaktır. Hayvanlara yiyecek vermeyiniz.",
+       "why": [
+        "Tabela kalıpları: No + isim ve Don't + fiil."
+       ]
+      },
+      {
+       "en": "This bed is too hard.",
+       "tr": "Bu yatak fazla sert.",
+       "why": [
+        "is unutulmaz; too bir sorun bildirir."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "The box ___ heavy. Boşluğa ne gelir?",
+       "answer": "is",
+       "why": "be + sıfat"
+      },
+      {
+       "question": "A bee ___ us honey. (give)",
+       "answer": "gives",
+       "why": "it → -s"
+      },
+      {
+       "question": "I'm scared ___ spiders.",
+       "answer": "of",
+       "why": "Kalıp edatı."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The animals big.",
+       "right": "The animals are big.",
+       "why": "be fiili eksik."
+      },
+      {
+       "wrong": "A camel live in the desert.",
+       "right": "A camel lives in the desert.",
+       "why": "Tekil özne → -s."
+      }
+     ]
+    },
+    {
+     "id": "cd-homework",
+     "title": "Ödev: en sevdiğim hayvan paragrafı",
+     "meaning": "5–6 cümlelik betimleyici bir paragraf yazmak",
+     "explanation": [
+      "Ödevde en sevdiğin hayvanı 5–6 cümleyle anlatacaksın. Paragrafa konuyu söyleyen bir cümleyle başla: My favourite animal is the horse. Sonra betimleme kalıplarıyla devam et: It has … It's … It can … It lives … It eats …",
+      "Sonunda kendi duygunu ve sebebini söyle: I like it because it's strong and beautiful. İstersen korktuğun bir hayvanı da ekle: I'm scared of snakes because they're dangerous.",
+      "Yazdıktan sonra kontrol et: Her cümlede fiil var mı? it ile -s eklendi mi? Sıfatlar isimden önce mi? Yarın bu paragrafı bilmece olarak okuyacağız; bu yüzden hayvanın adını ilk cümlede söylemeyen ikinci bir versiyon da hazırlayabilirsin."
+     ],
+     "formula": [
+      "1 · My favourite animal is the …",
+      "2–5 · It has … · It's … · It can … · It lives … · It eats …",
+      "6 · I like it because … · I'm scared of … because …"
+     ],
+     "examples": [
+      {
+       "en": "My favourite animal is the elephant.",
+       "tr": "En sevdiğim hayvan fil.",
+       "why": [
+        "Konu cümlesi."
+       ]
+      },
+      {
+       "en": "It's very big and grey. It has big ears and a long trunk.",
+       "tr": "Çok büyük ve gri. Büyük kulakları ve uzun bir hortumu var.",
+       "why": [
+        "Görünüş + vücut."
+       ]
+      },
+      {
+       "en": "It lives in Africa and Asia. It eats grass, leaves and fruit.",
+       "tr": "Afrika ve Asya'da yaşar. Ot, yaprak ve meyve yer.",
+       "why": [
+        "Yer + beslenme; -s."
+       ]
+      },
+      {
+       "en": "I like it because it's clever and it loves its family.",
+       "tr": "Onu seviyorum çünkü akıllı ve ailesini seviyor.",
+       "why": [
+        "Sebep: because."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Paragraf hangi cümleyle başlar?",
+       "answer": "My favourite animal is the …",
+       "why": "Konu cümlesi."
+      },
+      {
+       "question": "It ___ big ears. (have)",
+       "answer": "has",
+       "why": "it → has"
+      },
+      {
+       "question": "Sebep hangi kelimeyle verilir?",
+       "answer": "because",
+       "why": "I like it because …"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It's has a long tail.",
+       "right": "It has a long tail.",
+       "why": "is ve has birlikte kullanılmaz."
+      },
+      {
+       "wrong": "I like it because clever.",
+       "right": "I like it because it's clever.",
+       "why": "because'tan sonra tam cümle gelir."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "dont-feed",
+   "term": "Don't feed the animals.",
+   "meaning": "Hayvanlara yiyecek vermeyiniz.",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "Don't feed the animals."
+   ],
+   "explanation": [
+    "feed fiili beslemek, yiyecek vermek demektir. Hayvanat bahçelerinde hayvanların özel bir beslenme düzeni olduğu için ziyaretçilerin yiyecek vermesi yasaktır. Olumsuz emir: Don't + yalın fiil."
+   ],
+   "collocations": [
+    {
+     "en": "feed the cat",
+     "tr": "kediyi beslemek"
+    },
+    {
+     "en": "feeding time",
+     "tr": "besleme saati"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Please don't feed the animals. It's dangerous.",
+     "tr": "Lütfen hayvanlara yiyecek vermeyin. Tehlikeli."
+    },
+    {
+     "en": "The zookeeper feeds the lions at two.",
+     "tr": "Bakıcı aslanları saat ikide besler.",
+     "note": "feeds: -s"
+    },
+    {
+     "en": "Don't feed the ducks bread.",
+     "tr": "Ördeklere ekmek vermeyin."
+    }
+   ],
+   "commonMistake": "No feed the animals yerine Don't feed the animals denir."
+  },
+  {
+   "id": "dont-talk-loudly",
+   "term": "Don't talk loudly.",
+   "meaning": "Yüksek sesle konuşmayın.",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "Don't talk loudly."
+   ],
+   "explanation": [
+    "loudly (yüksek sesle) bir zarftır; loud sıfatından gelir (a loud sound). Kuşlar ve bazı hayvanlar gürültüden korktuğu için bu tabela sık görülür. Kibar biçimi: Please be quiet. / Please don't talk loudly."
+   ],
+   "collocations": [
+    {
+     "en": "speak quietly",
+     "tr": "sessizce konuşmak"
+    },
+    {
+     "en": "a loud noise",
+     "tr": "yüksek bir ses"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Don't talk loudly near the birds.",
+     "tr": "Kuşların yakınında yüksek sesle konuşmayın."
+    },
+    {
+     "en": "Please be quiet in the library.",
+     "tr": "Lütfen kütüphanede sessiz olun."
+    },
+    {
+     "en": "The lion's roar is very loud.",
+     "tr": "Aslanın kükremesi çok yüksek.",
+     "note": "loud: sıfat"
+    }
+   ],
+   "commonMistake": "Don't speak high yerine Don't talk loudly denir."
+  },
+  {
+   "id": "no-swimming",
+   "term": "No swimming. · Don't go in the water.",
+   "meaning": "Suya girmeyiniz. · Yüzmek yasaktır.",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "No swimming. · Don't go in the water."
+   ],
+   "explanation": [
+    "No + fiil-ing tabelalarda kısa yasak bildirir. Aynı anlam konuşmada Don't swim ya da Don't go in the water ile söylenir. Sebep de eklenebilir: The water is deep (Su derin)."
+   ],
+   "collocations": [
+    {
+     "en": "deep water",
+     "tr": "derin su"
+    },
+    {
+     "en": "go in the water",
+     "tr": "suya girmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "No swimming in the lake.",
+     "tr": "Gölde yüzmek yasaktır."
+    },
+    {
+     "en": "Don't go in the water. It's cold and deep.",
+     "tr": "Suya girmeyin. Soğuk ve derin."
+    },
+    {
+     "en": "Can we swim here? — No, there's a sign: No swimming.",
+     "tr": "Burada yüzebilir miyiz? — Hayır, tabela var: Yüzmek yasak."
+    }
+   ],
+   "commonMistake": "No swim yerine No swimming denir."
+  },
+  {
+   "id": "no-photos",
+   "term": "No photos. · Taking photos is not allowed.",
+   "meaning": "Fotoğraf çekmek yasaktır.",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "No photos. · Taking photos is not allowed."
+   ],
+   "explanation": [
+    "Fotoğraf çekmek take a photo / take photos ile söylenir (make değil). Tabelada kısaca No photos ya da No photography yazar. Daha uzun ve resmî biçim: Taking photos is not allowed. Flaş yasağı için: No flash photography."
+   ],
+   "collocations": [
+    {
+     "en": "take a photo",
+     "tr": "fotoğraf çekmek"
+    },
+    {
+     "en": "not allowed",
+     "tr": "izin verilmez"
+    }
+   ],
+   "examples": [
+    {
+     "en": "No photos in the night house.",
+     "tr": "Gece evinde fotoğraf çekmek yasaktır."
+    },
+    {
+     "en": "Taking photos is not allowed here.",
+     "tr": "Burada fotoğraf çekmek yasaktır."
+    },
+    {
+     "en": "Can I take a photo? — Yes, but no flash, please.",
+     "tr": "Fotoğraf çekebilir miyim? — Evet ama flaş yok lütfen."
+    }
+   ],
+   "commonMistake": "make a photo yerine take a photo denir."
+  },
+  {
+   "id": "stay-path",
+   "term": "Stay on the path. · Don't climb the fence.",
+   "meaning": "Yoldan ayrılmayın. · Çite tırmanmayın.",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "Stay on the path. · Don't climb the fence."
+   ],
+   "explanation": [
+    "path yürüyüş yoludur; stay on the path “yolun üstünde kalın, yoldan çıkmayın” demektir. fence çittir. Bu kurallar hem ziyaretçilerin hem de hayvanların güvenliği içindir."
+   ],
+   "collocations": [
+    {
+     "en": "a narrow path",
+     "tr": "dar bir patika"
+    },
+    {
+     "en": "a high fence",
+     "tr": "yüksek bir çit"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Please stay on the path.",
+     "tr": "Lütfen yoldan ayrılmayın."
+    },
+    {
+     "en": "Don't climb the fence. It's dangerous.",
+     "tr": "Çite tırmanmayın. Tehlikeli."
+    },
+    {
+     "en": "Children, stay with your parents.",
+     "tr": "Çocuklar, ailenizin yanında kalın."
+    }
+   ],
+   "commonMistake": "Don't go out the way yerine Stay on the path denir."
+  },
+  {
+   "id": "zoo-info",
+   "term": "opening hours · feeding time · ticket",
+   "meaning": "açılış saatleri · besleme saati · bilet",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "opening hours · feeding time · ticket"
+   ],
+   "explanation": [
+    "Ziyaretçi panolarının bilgi kelimeleri. opening hours her zaman çoğuldur. ticket bilettir; adult (yetişkin) ve child / children (çocuk / çocuklar) fiyatları ayrı yazılır. free ücretsizdir."
+   ],
+   "collocations": [
+    {
+     "en": "buy a ticket",
+     "tr": "bilet almak"
+    },
+    {
+     "en": "a ticket office",
+     "tr": "gişe"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Opening hours: 9 a.m. – 6 p.m.",
+     "tr": "Açılış saatleri: 9.00 – 18.00"
+    },
+    {
+     "en": "Feeding time for the penguins is at 11.",
+     "tr": "Penguenlerin besleme saati 11'de."
+    },
+    {
+     "en": "How much is a ticket? — 150 lira for adults.",
+     "tr": "Bilet ne kadar? — Yetişkinler için 150 lira."
+    }
+   ],
+   "commonMistake": "Saatten önce at unutulmaz: Feeding time is at two."
+  },
+  {
+   "id": "zookeeper",
+   "term": "zookeeper · cage",
+   "meaning": "hayvan bakıcısı · kafes",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "zookeeper · cage"
+   ],
+   "explanation": [
+    "zookeeper hayvanat bahçesinde hayvanlara bakan kişidir: onları besler, kafeslerini temizler, sağlıklarını kontrol eder. cage kafestir; büyük açık alanlar için enclosure da denir."
+   ],
+   "collocations": [
+    {
+     "en": "clean the cages",
+     "tr": "kafesleri temizlemek"
+    },
+    {
+     "en": "a big cage",
+     "tr": "büyük bir kafes"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The zookeeper cleans the cages every morning.",
+     "tr": "Bakıcı her sabah kafesleri temizler."
+    },
+    {
+     "en": "The lions are in a big cage.",
+     "tr": "Aslanlar büyük bir kafeste.",
+     "note": "in a cage"
+    },
+    {
+     "en": "Deniz is a zookeeper. She loves her job.",
+     "tr": "Deniz bir hayvan bakıcısı. İşini seviyor."
+    }
+   ],
+   "commonMistake": "in the cage yerine on the cage denmez; kafesin içi in'dir."
+  },
+  {
+   "id": "has-legs-tail",
+   "term": "It has four legs and a long tail.",
+   "meaning": "Dört ayağı ve uzun bir kuyruğu var.",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "It has four legs and a long tail."
+   ],
+   "explanation": [
+    "Kazanımdaki betimleme cümlesi. it ile has kullanılır; çoğulda have. Sayı ve sıfat isimden önce gelir. Ardından fayda cümlesi gelebilir: It gives us milk."
+   ],
+   "collocations": [
+    {
+     "en": "two wings",
+     "tr": "iki kanat"
+    },
+    {
+     "en": "a long neck",
+     "tr": "uzun bir boyun"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It has four legs and a long tail. It gives us milk.",
+     "tr": "Dört ayağı, uzun bir kuyruğu var. Bize süt verir.",
+     "note": "Cevap: inek"
+    },
+    {
+     "en": "A spider has eight legs.",
+     "tr": "Örümceğin sekiz bacağı var."
+    },
+    {
+     "en": "Dogs have four legs.",
+     "tr": "Köpeklerin dört ayağı var.",
+     "note": "Çoğul → have"
+    }
+   ],
+   "commonMistake": "It have four legs yerine It has four legs denir."
+  },
+  {
+   "id": "wings-feathers-fur",
+   "term": "wings · feathers · fur",
+   "meaning": "kanat · tüy · kürk",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "wings · feathers · fur"
+   ],
+   "explanation": [
+    "Hayvanların vücut örtüsü ve kanatları. Kuşların wings ve feathers'ı, kedi, köpek, ayı gibi hayvanların fur'ü vardır. fur sayılamaz (a fur denmez); feathers ve wings sayılabilir."
+   ],
+   "collocations": [
+    {
+     "en": "soft fur",
+     "tr": "yumuşak kürk"
+    },
+    {
+     "en": "colourful feathers",
+     "tr": "renkli tüyler"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Birds have wings and feathers.",
+     "tr": "Kuşların kanatları ve tüyleri var."
+    },
+    {
+     "en": "A bear has thick brown fur.",
+     "tr": "Ayının kalın kahverengi kürkü var.",
+     "note": "fur: sayılamaz"
+    },
+    {
+     "en": "A penguin has wings, but it can't fly.",
+     "tr": "Penguenin kanatları var ama uçamaz."
+    }
+   ],
+   "commonMistake": "Kuş tüyü feather, insan saçı hair, hayvan kürkü fur'dür; karıştırılmamalı."
+  },
+  {
+   "id": "can-fly",
+   "term": "It can fly / swim / climb.",
+   "meaning": "uçabilir / yüzebilir / tırmanabilir",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "It can fly / swim / climb."
+   ],
+   "explanation": [
+    "Yetenek can ile söylenir; can'den sonra fiil yalın kalır ve can hiç -s almaz. Olumsuzu can't (cannot), sorusu Can it …? — Yes, it can. / No, it can't."
+   ],
+   "collocations": [
+    {
+     "en": "can run fast",
+     "tr": "hızlı koşabilir"
+    },
+    {
+     "en": "can't fly",
+     "tr": "uçamaz"
+    }
+   ],
+   "examples": [
+    {
+     "en": "An eagle can fly very high.",
+     "tr": "Kartal çok yükseğe uçabilir."
+    },
+    {
+     "en": "A penguin can swim, but it can't fly.",
+     "tr": "Penguen yüzebilir ama uçamaz."
+    },
+    {
+     "en": "Can a snake climb trees? — Yes, it can.",
+     "tr": "Yılan ağaca tırmanabilir mi? — Evet."
+    }
+   ],
+   "commonMistake": "It cans swim / It can swims yerine It can swim denir."
+  },
+  {
+   "id": "animal-sound",
+   "term": "What sound does a cow make? · moo · bark · roar",
+   "meaning": "inek nasıl ses çıkarır? · möö · havlamak · kükremek",
+   "partOfSpeech": "kalıp + fiil",
+   "sourceTerms": [
+    "What sound does a cow make? · moo · bark · roar"
+   ],
+   "explanation": [
+    "Hayvan seslerini sorma kalıbı. Cevapta It says moo ya da ses fiili kullanılır: A dog barks. A lion roars. Diğer sesler: meow (kedi), baa (koyun), quack (ördek), hiss (yılan), buzz (arı), neigh (at), hoot (baykuş)."
+   ],
+   "collocations": [
+    {
+     "en": "make a sound",
+     "tr": "ses çıkarmak"
+    },
+    {
+     "en": "a loud roar",
+     "tr": "yüksek bir kükreme"
+    }
+   ],
+   "examples": [
+    {
+     "en": "What sound does a cow make? — It says moo.",
+     "tr": "İnek nasıl ses çıkarır? — Möö der."
+    },
+    {
+     "en": "Our neighbour's dog barks at night.",
+     "tr": "Komşumuzun köpeği gece havlar.",
+     "note": "barks"
+    },
+    {
+     "en": "The lions roar at feeding time.",
+     "tr": "Aslanlar besleme saatinde kükrer."
+    }
+   ],
+   "commonMistake": "What sound does a cow makes yerine make denir."
+  },
+  {
+   "id": "favourite-animal",
+   "term": "My favourite animal is …",
+   "meaning": "En sevdiğim hayvan …",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "My favourite animal is …"
+   ],
+   "explanation": [
+    "favourite İngiliz yazımıdır; Amerikan yazımı favorite. Okunuşu feyvırit. Kalıp: My favourite + isim + is … Soru: What's your favourite animal? Sebep: because."
+   ],
+   "collocations": [
+    {
+     "en": "my favourite colour",
+     "tr": "en sevdiğim renk"
+    },
+    {
+     "en": "What's your favourite …?",
+     "tr": "En sevdiğin … ne?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My favourite animal is the dolphin.",
+     "tr": "En sevdiğim hayvan yunus."
+    },
+    {
+     "en": "What's your favourite animal? — Horses.",
+     "tr": "En sevdiğin hayvan ne? — Atlar."
+    },
+    {
+     "en": "My son's favourite animals are dinosaurs!",
+     "tr": "Oğlumun en sevdiği hayvanlar dinozorlar!"
+    }
+   ],
+   "commonMistake": "My most like animal yerine My favourite animal denir."
+  },
+  {
+   "id": "scared-of",
+   "term": "I'm scared of … · I'm afraid of …",
+   "meaning": "… -den korkarım",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "I'm scared of … · I'm afraid of …"
+   ],
+   "explanation": [
+    "Korku be + scared / afraid + of ile söylenir. Türkçedeki -den eki burada of olur. Genel konuşmada hayvan çoğul gelir: I'm scared of snakes. Soru: Are you scared of …? / Which animal are you scared of?"
+   ],
+   "collocations": [
+    {
+     "en": "really scared of",
+     "tr": "çok korkan"
+    },
+    {
+     "en": "not afraid of",
+     "tr": "korkmayan"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm scared of snakes.",
+     "tr": "Yılanlardan korkarım."
+    },
+    {
+     "en": "My daughter is afraid of big dogs.",
+     "tr": "Kızım büyük köpeklerden korkar."
+    },
+    {
+     "en": "Are you scared of spiders? — No, I'm not.",
+     "tr": "Örümceklerden korkar mısın? — Hayır."
+    }
+   ],
+   "commonMistake": "scared from yerine scared of denir."
+  },
+  {
+   "id": "get-from",
+   "term": "We get eggs from chickens.",
+   "meaning": "Tavuklardan yumurta elde ederiz.",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "We get eggs from chickens."
+   ],
+   "explanation": [
+    "Kaynak bildiren kalıp: get + ürün + from + hayvan. Genel bilgide hayvan çoğul. Kazanım örneği: We get eggs and meat from chickens."
+   ],
+   "collocations": [
+    {
+     "en": "get milk from cows",
+     "tr": "inekten süt elde etmek"
+    },
+    {
+     "en": "get honey from bees",
+     "tr": "arıdan bal elde etmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We get eggs and meat from chickens.",
+     "tr": "Tavuktan yumurta ve et elde ederiz."
+    },
+    {
+     "en": "We get milk from cows and goats.",
+     "tr": "İnek ve keçiden süt elde ederiz."
+    },
+    {
+     "en": "We get leather from cows.",
+     "tr": "İnekten deri elde ederiz."
+    }
+   ],
+   "commonMistake": "from'u sona koymayın: We get eggs chickens from yanlıştır."
+  },
+  {
+   "id": "give-us",
+   "term": "Sheep give us meat, milk and wool.",
+   "meaning": "Koyunlar bize et, süt ve yün verir.",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "Sheep give us meat, milk and wool."
+   ],
+   "explanation": [
+    "Hayvanı özne yapan kalıp: hayvan + give(s) us + ürün. sheep burada çoğul olduğu için give. Tekil: A sheep gives us … Kazanım örneği: Koyundan et, süt ve yün."
+   ],
+   "collocations": [
+    {
+     "en": "give us milk",
+     "tr": "bize süt vermek"
+    },
+    {
+     "en": "give us honey",
+     "tr": "bize bal vermek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Sheep give us meat, milk and wool.",
+     "tr": "Koyunlar bize et, süt ve yün verir."
+    },
+    {
+     "en": "A cow gives us milk.",
+     "tr": "İnek bize süt verir.",
+     "note": "Tekil → gives"
+    },
+    {
+     "en": "Bees give us honey.",
+     "tr": "Arılar bize bal verir."
+    }
+   ],
+   "commonMistake": "Bee give us honey yerine A bee gives / Bees give denir."
+  },
+  {
+   "id": "honey-wool",
+   "term": "honey · wool · leather · silk",
+   "meaning": "bal · yün · deri · ipek",
+   "partOfSpeech": "isim (sayılamaz)",
+   "sourceTerms": [
+    "honey · wool · leather · silk"
+   ],
+   "explanation": [
+    "Hayvanlardan gelen ürünler. Hepsi sayılamazdır: -s almaz, a almaz. Bursa ipeğiyle ünlüdür; ipek ipek böceğinden (silkworm) gelir. Yünden kazak (a wool sweater), deriden ayakkabı (leather shoes) yapılır."
+   ],
+   "collocations": [
+    {
+     "en": "a wool sweater",
+     "tr": "yün kazak"
+    },
+    {
+     "en": "leather shoes",
+     "tr": "deri ayakkabılar"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Bursa is famous for its silk.",
+     "tr": "Bursa ipeğiyle ünlüdür."
+    },
+    {
+     "en": "We get wool from sheep.",
+     "tr": "Koyundan yün elde ederiz."
+    },
+    {
+     "en": "I have honey for breakfast.",
+     "tr": "Kahvaltıda bal yerim."
+    }
+   ],
+   "commonMistake": "wools, a honey denmez; sayılamaz isimlerdir."
+  },
+  {
+   "id": "milk-products",
+   "term": "milk → cheese · butter · yoghurt",
+   "meaning": "süt → peynir · tereyağı · yoğurt",
+   "partOfSpeech": "isim (sayılamaz)",
+   "sourceTerms": [
+    "milk → cheese · butter · yoghurt"
+   ],
+   "explanation": [
+    "Sütten yapılan ürünler. İşlenen ürünler için make … from … kullanılır: We make cheese from milk. Hepsi sayılamazdır. yoghurt İngiliz yazımıdır (Amerikan: yogurt) ve kelime Türkçe kökenlidir."
+   ],
+   "collocations": [
+    {
+     "en": "white cheese",
+     "tr": "beyaz peynir"
+    },
+    {
+     "en": "a glass of milk",
+     "tr": "bir bardak süt"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We make cheese, butter and yoghurt from milk.",
+     "tr": "Sütten peynir, tereyağı ve yoğurt yaparız."
+    },
+    {
+     "en": "I have bread, cheese and butter for breakfast.",
+     "tr": "Kahvaltıda ekmek, peynir ve tereyağı yerim."
+    },
+    {
+     "en": "Yoghurt is a Turkish word.",
+     "tr": "Yoğurt Türkçe bir kelimedir."
+    }
+   ],
+   "commonMistake": "We get cheese from cows değil, We make cheese from milk denir."
+  }
+ ]
+}

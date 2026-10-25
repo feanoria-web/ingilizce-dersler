@@ -9,6 +9,7 @@ export const STUDY_LESSON = 'lessons/b1/day-05.html';
 export const STUDY_LESSONS = Object.freeze({
   [STUDY_LESSON]: Object.freeze({ dir: 'b1-study', label: 'B1', extras: true, searchHint: 'alone, lonely, on the one hand, fatura…' }),
   'lessons/a1/day-04.html': Object.freeze({ dir: 'a1-study', label: 'A1', extras: false, searchHint: 'half past, get up, always, kahvaltı…' }),
+  'lessons/a2/day-05.html': Object.freeze({ dir: 'a2-study', label: 'A2', extras: false, searchHint: 'next to, turn left, lives, pahalı…' }),
 });
 export const serializeStudy = data => JSON.stringify(data).replace(/</g, '\\u003c').replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');
 export function readStudyLesson(html) {

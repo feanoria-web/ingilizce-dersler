@@ -1,0 +1,668 @@
+{
+ "version": 1,
+ "chapters": [
+  {
+   "screenId": "warm",
+   "intro": "Soruyu cevaplamadan önce ilk kelimelerine bak: Do you …? → Yes, I do; Where's …? → It's + edat; What's … like? → sıfat.",
+   "patterns": [
+    {
+     "id": "warm-answer-patterns",
+     "summary": [
+      "Do you …? sorusu Yes, I do / No, I don't ile cevaplanır.",
+      "Where's …? sorusuna It's + edat + yer ile cevap ver.",
+      "What's … like? karakter ya da özellik sorar; cevapta sıfat kullan."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "warm-animal-alphabet",
+     "summary": [
+      "Ünsüz sesten önce a, ünlü sesten önce an: a cat, an owl.",
+      "Araya sıfat girerse a / an sıfata bakar: a big elephant.",
+      "Bilmediğin hayvanı How do you say … in English? diye sor."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "adjectives",
+   "intro": "Sıfatlar ismin önünde (a big dog) ya da is / are'dan sonra (The dog is big) durur, hiç ek almaz. Zıt çiftlerle öğren: big ↔ small.",
+   "patterns": [
+    {
+     "id": "adj-position",
+     "summary": [
+      "Sıfat ismin önüne gelir: a cheap phone.",
+      "Ya da is / are'dan sonra: The phone is cheap. (is'i unutma!)",
+      "Sıfat çoğulda değişmez: two cheap phones."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "adj-opposites",
+     "summary": [
+      "Sıfatları çift çift öğren: big ↔ small, cheap ↔ expensive, heavy ↔ light.",
+      "comfortable → uncomfortable gibi bazı zıtlar un- ile yapılır, ama çoğu yapılmaz.",
+      "light hem hafif hem açık renk; hard hem sert hem zor demektir."
+     ],
+     "exampleIndex": 3
+    },
+    {
+     "id": "adj-intensifiers",
+     "summary": [
+      "very çok, quite oldukça, a bit biraz: sıfattan hemen önce.",
+      "too gereğinden fazla demektir ve sorun bildirir: too hot, too expensive.",
+      "Kibar olumsuzluk için isn't very: It isn't very comfortable."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "describe-things",
+   "intro": "What's it like? nasıl bir şey olduğunu sorar. İki sıfatı and (aynı yön) ya da but (zıt yön) ile bağla.",
+   "patterns": [
+    {
+     "id": "dt-whats-it-like",
+     "summary": [
+      "What's + isim + like? bir şeyin özelliklerini sorar; like burada “gibi”dir.",
+      "Cevapta sıfat kullan: It's small but comfortable.",
+      "Is it …? sorusuna Yes, it is / No, it isn't ile cevap ver."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "dt-and-but",
+     "summary": [
+      "Aynı yöndeki iki sıfatı and ile bağla: clean and comfortable.",
+      "Zıt yöndeki iki sıfatı but ile bağla: cheap but slow.",
+      "İki tam cümleyi bağlarken but'tan önce virgül koy."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "animals",
+   "intro": "Hayvanları gruplarla öğren. Çoğu -s alır ama sheep, fish değişmez; mouse → mice, wolf → wolves olur.",
+   "patterns": [
+    {
+     "id": "an-groups",
+     "summary": [
+      "Hayvanları gruplarla öğren: farm, pet, wild, water, birds and insects.",
+      "Kelime kelime çevirme: köpekbalığı = shark, japon balığı = goldfish.",
+      "pet evcil hayvan, wild animal vahşi hayvan demektir."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "an-plurals",
+     "summary": [
+      "Çoğu hayvan -s alır; fox → foxes, butterfly → butterflies, wolf → wolves.",
+      "sheep, fish, deer çoğulda değişmez: ten sheep.",
+      "Düzensizler ezberlenir: mouse → mice, goose → geese."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "habitats",
+   "intro": "Tek hayvan → lives (A crocodile lives in the river). Çoğul → live (Crocodiles live in rivers). Soru: Where does it live?",
+   "patterns": [
+    {
+     "id": "hb-lives",
+     "summary": [
+      "Tek hayvan (it) → lives: A camel lives in the desert.",
+      "Çoğul (they) → live: Camels live in the desert.",
+      "Sıra: özne + fiil + yer; yer cümlenin sonunda."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "hb-questions",
+     "summary": [
+      "Soru: Where does + tekil + live? / Where do + çoğul + live?",
+      "does'tan sonra fiil yalın: Where does it live? (lives değil)",
+      "Olumsuz: doesn't / don't + live."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "hb-places",
+     "summary": [
+      "Çoğu yaşam alanı in ile: in the river, in the forest, in the desert.",
+      "Çiftlik ve kara on ile: on a farm, on land.",
+      "Kutuplar at ile: at the South Pole; kıta adlarında the yok."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "land-water",
+   "intro": "Türkçedeki -de ve içinde İngilizcede yerin önüne gelen edatlardır: on land, in the water, under the ground, in the sky.",
+   "patterns": [
+    {
+     "id": "lw-de",
+     "summary": [
+      "İçinde → in: in the water, in a cage.",
+      "Yüzeyinde → on: on land, on a branch.",
+      "Altında → under: under the ground; havada üstünde → above."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "lw-verbs",
+     "summary": [
+      "Hareket fiilleri: swim, fly, run, climb, jump, crawl, dig, walk.",
+      "it ile -s: swims, climbs; fly → flies.",
+      "Yetenek: can / can't + yalın fiil (It can swim)."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "zoo-signs",
+   "intro": "Tabela kalıpları: Don't + fiil, No + -ing / isim, Please + fiil. Özne yok; okuyan kişi zaten “siz”dir.",
+   "patterns": [
+    {
+     "id": "zs-dont",
+     "summary": [
+      "Olumsuz emir: Don't + yalın fiil (Don't feed the animals).",
+      "Kibar uyarı için Please, resmî yasak için Do not kullanılır.",
+      "Emir cümlesinde özne yoktur; okuyan kişi “siz”dir."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "zs-no",
+     "summary": [
+      "No + fiil-ing ya da isim: No swimming, No photos.",
+      "No swimming ile Don't swim aynı anlamdadır; No kalıbı tabelalara özgüdür.",
+      "Tehlike: DANGER! KEEP AWAY! KEEP OUT!"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "zs-info",
+     "summary": [
+      "opening hours açılış saatleri, feeding time besleme saatidir.",
+      "a.m. öğleden önce, p.m. öğleden sonra; saatten önce at gelir.",
+      "free fiyat bilgisinde ücretsiz demektir: under 3 free."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "animal-sounds",
+   "intro": "Sesi duyunca It's a …! de. Soru: What sound does a … make? — It says … Fiiller: barks, meows, moos, roars, hisses.",
+   "patterns": [
+    {
+     "id": "as-which",
+     "summary": [
+      "Sesi duyunca It's a / an + hayvan de: Hoot! — It's an owl!",
+      "İngilizce sesler Türkçeden farklı yazılır: woof, meow, moo, baa.",
+      "Which animal says “…”? — A … does."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "as-make",
+     "summary": [
+      "Soru: What sound does a … make? (make yalın)",
+      "Cevap: It says moo. / A dog barks.",
+      "Ses fiilleri -s alır: barks, roars; hiss → hisses, buzz → buzzes."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "describe-animal",
+   "intro": "Betimleme beş kalıpla yapılır: It has … · It's … · It can … · It eats / lives … · It gives us …",
+   "patterns": [
+    {
+     "id": "da-has",
+     "summary": [
+      "Sahiplik: It has … (it / he / she), They have … (çoğul).",
+      "Sayı ve sıfat isimden önce: four legs, a long tail.",
+      "Olumsuz: doesn't have ya da has no: It has no legs."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "da-can-eats",
+     "summary": [
+      "Yetenek: It can / can't + yalın fiil.",
+      "Beslenme ve yer: It eats … · It lives … (-s ile).",
+      "Fayda: It gives us + ürün; bilmeceyi genelden özele kur."
+     ],
+     "exampleIndex": 3
+    }
+   ]
+  },
+  {
+   "screenId": "favourite",
+   "intro": "My favourite animal is … · I'm scared / afraid of + çoğul hayvan · sebep: because they're …",
+   "patterns": [
+    {
+     "id": "fv-favourite",
+     "summary": [
+      "En sevilen: My favourite animal is the + hayvan.",
+      "love / like / don't like / hate + çoğul hayvan: I love cats.",
+      "Sebep: because + tam cümle (because they're clever)."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "fv-scared",
+     "summary": [
+      "Korku: be + scared / afraid + of: I'm scared of snakes.",
+      "Türkçedeki -den burada from değil of'tur.",
+      "Olumsuz ve soru be ile: I'm not scared … / Are you scared of …?"
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "products",
+   "intro": "Kaynak from ile: We get wool from sheep. Ya da hayvan özne: Sheep give us wool. Ürünlerin çoğu sayılamaz: milk, wool, honey.",
+   "patterns": [
+    {
+     "id": "pr-get-from",
+     "summary": [
+      "Kalıp: We get + ürün + from + hayvanlar.",
+      "Türkçedeki -dan / -den → from; kaynak cümlenin sonunda.",
+      "İşlenen ürünler: We make cheese from milk."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "pr-give-us",
+     "summary": [
+      "Hayvan özne: Bees give us honey; tekilde gives.",
+      "milk, meat, wool, honey sayılamaz: a ve -s yok; some kullan.",
+      "Bursa ipeği: Silkworms give us silk."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "zoo-reading",
+   "intro": "İlk okumada genel anlam, ikinci okumada ayrıntı. Doğru / yanlışta metindeki cümleyi bul; not, never, can't gibi kelimelere dikkat et.",
+   "patterns": [
+    {
+     "id": "zr-present",
+     "summary": [
+      "Metin geniş zamanla yazılmış: genel gerçekler ve olay sırası.",
+      "First, At two o'clock gibi ifadeler zaman çizgisini verir.",
+      "İki sıfatta boyut renkten önce: a long green snake."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "zr-tf",
+     "summary": [
+      "Doğru / yanlışta tahmin etme; metindeki cümleyi bul.",
+      "not, never, can't, doesn't cevabı tersine çevirir.",
+      "False ise düzelt: False. They can't fly."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "close-day1",
+   "intro": "Günün dört büyük hatasını düzelt: be'yi unutma, it ile -s ekle, doğru edatı seç (scared of, on a farm), too = sorun.",
+   "patterns": [
+    {
+     "id": "cd-review",
+     "summary": [
+      "Sıfatlı cümlede is / are'ı unutma.",
+      "it ile geniş zamanda -s: lives, gives, flies.",
+      "Kalıp edatları: scared of, on a farm, in the water; too = sorun."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "cd-homework",
+     "summary": [
+      "Konu cümlesiyle başla: My favourite animal is the …",
+      "Betimle: It has … It's … It can … It lives … It eats …",
+      "Sebeple bitir: I like it because it's …"
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "warm2",
+   "intro": "Bilmece oyunu: Is it a …? — Yes, it is. / No, it isn't. Dünkü kalıpları hatırla: It has … It lives … We get … from …",
+   "patterns": [
+    {
+     "id": "w2-guess",
+     "summary": [
+      "Anahtar kelimeleri yakala: vücut, yer, ses, ürün.",
+      "Tahmin: Is it a …? — Yes, it is. / No, it isn't. (Yes, it's denmez)",
+      "Ek soruyla sohbeti sürdür: Why do you like it?"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "w2-yesterday",
+     "summary": [
+      "Dünün kalıpları: zıt sıfatlar, it lives, get … from …, Don't …",
+      "Tabelalar gibi yol tarifi de emir kipiyle yapılır.",
+      "Tekrar sorularına tam cümleyle cevap ver."
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "town-places",
+   "intro": "Yerleri gruplarla öğren. Dikkat: otogar = bus station, durak = bus stop; eczane = pharmacy; trafik ışıkları = the traffic lights.",
+   "patterns": [
+    {
+     "id": "tp-places",
+     "summary": [
+      "Yeri işleviyle öğren: You buy bread at the bakery.",
+      "Bilinen yer the ile (Where's the bank?), var mı sorusu a ile (Is there a bank …?).",
+      "otogar = bus station, durak = bus stop, eczane = pharmacy."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "tp-street",
+     "summary": [
+      "Sokak isimleri büyük harfle: High Street, Park Road.",
+      "the traffic lights hep çoğul; dönüş noktaları at ile.",
+      "Sokak köşesi on the corner, oda köşesi in the corner."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "map",
+   "intro": "Edat yerin önüne gelir: next to the cinema. Karşısında = opposite (of yok), köşede = on the corner, önünde = in front of.",
+   "patterns": [
+    {
+     "id": "mp-preps",
+     "summary": [
+      "next to bitişik, near yakın: next to the cinema.",
+      "opposite + yer (of yok); between A and B.",
+      "Köşe: on the corner of A and B; son: at the end of …"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "mp-front-above",
+     "summary": [
+      "in front of önünde ↔ behind arkasında.",
+      "above üstünde (üst kat) ↔ under altında.",
+      "Kat: on the first floor."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "mp-where",
+     "summary": [
+      "Where's the …? — It's + edat + yer; çoğulda Where are / They're.",
+      "Sokak adıyla on: It's on Station Road.",
+      "Is there a … near here? — Yes, there's one … / No, there isn't."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "directions",
+   "intro": "Tarif emir kipiyle: Go straight on, Turn left, Take the second right, Go past … Sonunda: It's on your left / right.",
+   "patterns": [
+    {
+     "id": "dr-asking",
+     "summary": [
+      "Excuse me ile başla: How do I get to the station?",
+      "home ile to yok: How do I get home?",
+      "Anlamazsan: Sorry, can you say that again? Sonunda: Thank you very much!"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "dr-giving",
+     "summary": [
+      "Düz: Go straight on / Go along … · Dön: Turn left / right.",
+      "Sıra sayısıyla take: Take the second right.",
+      "İşaret ve nokta: Go past the bank · at the traffic lights · into Park Road."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "dr-arriving",
+     "summary": [
+      "Varış: It's on your left / right (, opposite …).",
+      "Sağ ve sol yürüyen kişiye göre düşünülür.",
+      "Mesafe: It's not far · about five minutes' walk · a long way."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "follow",
+   "intro": "Dinlerken yön, dönüş yeri ve işaret binaları yakala. Sağ / sol yürüyen kişiye göre; döndükçe değişir.",
+   "patterns": [
+    {
+     "id": "fl-listen",
+     "summary": [
+      "Üç bilgiyi yakala: yön, dönüş yeri, işaret binalar.",
+      "Son cümle (It's on your …) hedefi verir; onu dikkatle dinle.",
+      "Anlamadığında netleştir: Sorry, left or right?"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "fl-turning",
+     "summary": [
+      "Sağ ve sol yürüyene göredir, haritaya göre değil.",
+      "Doğuya yürürken sol kuzey; güneye yürürken sol doğudur.",
+      "Her dönüşte haritayı yürüdüğün yöne çevir."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "neighbourhood",
+   "intro": "Anlatımın üç parçası: I live on … · There's a … next to / opposite … · I like it because it's …",
+   "patterns": [
+    {
+     "id": "nb-live",
+     "summary": [
+      "Şehir ve semt in ile: I live in Osmangazi.",
+      "Sokak on ile: I live on Gül Street (sokak adında the yok).",
+      "Tam adres at ile: at 12 Park Road; kat: on the second floor."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "nb-there-is",
+     "summary": [
+      "Tekil there's, çoğul there are: There are two supermarkets.",
+      "Edatı başa alırsan virgül koy: Opposite my building, there's a park.",
+      "Fikrini because ile bitir: I like it because it's quiet."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "phone",
+   "intro": "Telefonda: Hi, it's … · Where are you now? · Can you see …? · kısa parçalarla tarif · Call me when you get there.",
+   "patterns": [
+    {
+     "id": "ph-opening",
+     "summary": [
+      "Telefonda tanıtma: Hi, it's Kaan. (I'm Kaan değil)",
+      "Konum: Where are you now? — I'm at the station.",
+      "Kontrol: Can you see a …? — Yes, I can. / No, I can't."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ph-steps",
+     "summary": [
+      "Tarifi kısa parçalarla ver; karşı taraf And then? diye sorar.",
+      "Sorun: Sorry, I can't hear you. (hear, listen değil)",
+      "Kapanış: Call me when you get there. See you soon!"
+     ],
+     "exampleIndex": 3
+    }
+   ]
+  },
+  {
+   "screenId": "routines",
+   "intro": "Günlük işler geniş zamanla: I get up at six. He / she ile -s: She catches the bus. Olumsuz don't / doesn't, soru do / does.",
+   "patterns": [
+    {
+     "id": "rt-phrases",
+     "summary": [
+      "Günlük işleri fiil grubu olarak öğren: catch the bus, do the shopping, pick up the children.",
+      "Ev işleri ve alışveriş do ile; yemek hazırlamak make / cook ile.",
+      "go to bed yatmak, fall asleep uykuya dalmak."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "rt-forms",
+     "summary": [
+      "he / she ile -s: works, catches, goes, has.",
+      "Olumsuz: don't / doesn't + yalın fiil.",
+      "Soru: Do / Does + özne + yalın fiil: What time do you …?"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "rt-time-frequency",
+     "summary": [
+      "at + saat, in + the morning / evening, on + gün, at night.",
+      "Sıklık zarfı ana fiilden önce, be'den sonra: I usually … / I'm always …",
+      "Sıra: First, Then, After that, Finally; before / after + isim."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "zookeeper",
+   "intro": "Metin she ile yazılmış: gets up, catches, has. Doğru / yanlışta sıklık kelimelerine ve doesn't'a dikkat; yanlışsa düzelt.",
+   "patterns": [
+    {
+     "id": "zk-third",
+     "summary": [
+      "Başkasının gününde fiiller -s alır: gets up, starts, cleans.",
+      "catch → catches, finish → finishes, go → goes, have → has.",
+      "Olumsuz: doesn't + yalın; pick her up (zamir arada)."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "zk-truefalse",
+     "summary": [
+      "Metindeki cümleyi bul; kişi, saat, sıklık ve olumsuzluğu karşılaştır.",
+      "always, usually, never anlamı büyük ölçüde değiştirir.",
+      "False ise düzelt: She never drinks coffee. She drinks tea."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "synonyms",
+   "intro": "Eş anlamlı: big = large, fast = quick, small = little. Zıt: cheap ≠ expensive, early ≠ late, busy ≠ quiet. Nasıl yapıldığını zarf söyler: quickly, slowly.",
+   "patterns": [
+    {
+     "id": "sy-synonyms",
+     "summary": [
+      "big = large (large daha resmî), small = little (little isimden önce).",
+      "fast hareket hızı, quick kısa süren iş: a fast car, a quick breakfast.",
+      "Eş anlamlılar her yerde birbirinin yerine geçmez; örnekle öğren."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "sy-opposites",
+     "summary": [
+      "Günlük zıtlar: cheap ≠ expensive, early ≠ late, busy ≠ quiet, easy ≠ difficult.",
+      "busy hem meşgul hem kalabalık; zıttı quiet.",
+      "old ↔ new (eşya), old ↔ young (insan)."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "sy-adverbs",
+     "summary": [
+      "Sıfat ismi anlatır (a quick breakfast), zarf işin nasıl yapıldığını (eat quickly).",
+      "Çoğu zarf -ly ile: quickly, slowly, quietly.",
+      "fast, early, late, hard -ly almaz; hardly = neredeyse hiç."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "my-day",
+   "intro": "Röportajda What time / How often sor; arkadaşını she / he + -s ile anlat. Paragrafta saat, sıklık, sıra ve iki sıfat kullan.",
+   "patterns": [
+    {
+     "id": "md-interview",
+     "summary": [
+      "Röportaj: What time / How often + do you + yalın fiil?",
+      "Aktarım he / she ile: She gets up at six. She goes …",
+      "Ek sorularla ayrıntı topla: Is the bus busy?"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "md-paragraph",
+     "summary": [
+      "Konu cümlesiyle başla: My day starts early.",
+      "Saat, sıklık zarfı, sıra kelimesi ve en az iki sıfat kullan.",
+      "Bir değerlendirmeyle bitir: My day is busy, but I'm happy."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "close",
+   "intro": "Kontrol listesini dürüstçe işaretle; zayıf olduğun adımı Bugünün özeti ve İfade bankasından tekrar et.",
+   "patterns": [
+    {
+     "id": "cl-review",
+     "summary": [
+      "Birinci gün: sıfatlar, yaşam alanları, tabelalar, betimleme, ürünler.",
+      "İkinci gün: harita, yol tarifi, telefonda tarif, günlük hayat, eş / zıt anlamlılar.",
+      "Ortak kurallar: be + sıfat, it / she + -s, doğru edat, emirde özne yok."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "cl-plan",
+     "summary": [
+      "Zorlandığın adımı Bugünün özeti sayfasından ve ekrandan tekrar et.",
+      "İfade bankasını her gün sesli tekrar et; kendi cümleni kur.",
+      "Ödev: evden okula / işe yol tarifi; her cümlede tek hareket."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  }
+ ]
+}

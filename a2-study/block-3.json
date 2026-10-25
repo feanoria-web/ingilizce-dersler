@@ -1,0 +1,2184 @@
+{
+ "version": 1,
+ "block": 3,
+ "chapters": [
+  {
+   "screenId": "warm2",
+   "title": "Isınma: dünü hatırlamak ve bilmece sormak",
+   "intro": [
+    "İkinci günün ilk dakikalarında dünkü konuları hızla tekrar ediyoruz. Ödevdeki “en sevdiğim hayvan” paragrafları bilmeceye dönüşüyor: okuyan kişi hayvanın adını söylemez, sınıf Is it a …? diye tahmin eder. Bu oyun dünkü betimleme kalıplarını (It has … It can … It lives …) canlı tutar.",
+    "Tekrar kartlarında dünün kazanımları var: zıt sıfatlar, yaşam alanları, hayvanlardan elde edilen ürünler ve tabelalar. Bugün bu bilgilerin üzerine yer edatlarını ve yol tarifini kuracağız; dünkü in, on, under edatları şehirde de karşımıza çıkacak."
+   ],
+   "patterns": [
+    {
+     "id": "w2-guess",
+     "title": "Is it a giraffe? — Yes, it is! · Why do you like it?",
+     "meaning": "Bilmece cevabını tahmin etmek ve ek soru sormak",
+     "explanation": [
+      "Bilmece dinlerken anahtar kelimeleri yakala: vücut (a long neck), yer (in the desert), ses (it says moo), ürün (it gives us wool). Sonra tahminini soru biçiminde söyle: Is it a giraffe? Kısa cevaplar: Yes, it is. / No, it isn't.",
+      "Tahmin doğruysa sohbeti sürdürmek için ek soru sor: Why do you like it? What does it eat? Are you scared of it? Ek sorular hem dinlediğini gösterir hem de konuşmayı uzatır.",
+      "Bilmece okuyan kişi cevap verirken tam cümle kullanmaya çalışmalı: Yes, it is. I like giraffes because they're tall and beautiful. Kısa cevap + açıklama, A2 düzeyinde çok iyi bir konuşma alışkanlığıdır."
+     ],
+     "formula": [
+      "Is it a / an + hayvan? — Yes, it is. / No, it isn't.",
+      "Ek soru: Why do you like it? · What does it eat?",
+      "Cevap + açıklama: Yes, it is. I like it because …"
+     ],
+     "examples": [
+      {
+       "en": "It has a very long neck. — Is it a giraffe? — Yes, it is!",
+       "tr": "Boynu çok uzun. — Zürafa mı? — Evet!",
+       "why": [
+        "Anahtar bilgi: a long neck."
+       ]
+      },
+      {
+       "en": "Is it a horse? — No, it isn't. It's a donkey.",
+       "tr": "At mı? — Hayır. Eşek.",
+       "why": [
+        "Olumsuz cevap + doğru bilgi."
+       ]
+      },
+      {
+       "en": "Why do you like it? — Because it's clever.",
+       "tr": "Onu neden seviyorsun? — Çünkü akıllı.",
+       "why": [
+        "Why? → Because …"
+       ]
+      },
+      {
+       "en": "What does it eat? — It eats grass and carrots.",
+       "tr": "Ne yer? — Ot ve havuç yer.",
+       "why": [
+        "does + eat (yalın); cevapta eats."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Tahmin sorusu nasıl kurulur?",
+       "answer": "Is it a / an …?",
+       "why": "Is it a camel?"
+      },
+      {
+       "question": "Is it an owl? sorusuna kısa olumlu cevap?",
+       "answer": "Yes, it is.",
+       "why": "it is"
+      },
+      {
+       "question": "“Ne yer?” sorusu?",
+       "answer": "What does it eat?",
+       "why": "does + yalın fiil"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It is a giraffe? (soru tonlaması olmadan)",
+       "right": "Is it a giraffe?",
+       "why": "Soru için is başa gelir."
+      },
+      {
+       "wrong": "Yes, it's.",
+       "right": "Yes, it is.",
+       "why": "Kısa cevapta kısaltma yapılmaz."
+      }
+     ]
+    },
+    {
+     "id": "w2-yesterday",
+     "title": "Dünkü dört kalıp: opposites · lives · get from · Don't",
+     "meaning": "Birinci günün kalıplarını hızlıca kullanmak",
+     "explanation": [
+      "Dünün dört temel kalıbını tek tek hatırlayalım. Zıt sıfatlar: cheap ↔ expensive, heavy ↔ light. Yaşam alanı: A crocodile lives in the river (tekil → -s). Ürün: We get meat, milk and wool from sheep. Tabela: Don't feed the animals.",
+      "Bu kalıplar bugün de işimize yarayacak. Şehirdeki yerleri anlatırken sıfatlar (a big supermarket, a quiet street), yer edatları (in, on, under) ve emir cümleleri (Turn left, Go straight on) kullanacağız. Yol tarifi de tıpkı tabelalar gibi emir kipiyle yapılır.",
+      "Tekrar kartlarını cevaplarken tam cümle kur: What do we get from chickens? sorusuna sadece eggs demek yerine We get eggs and meat from chickens de. Tam cümle, kalıbı belleğe yerleştirir."
+     ],
+     "formula": [
+      "sıfat çiftleri: cheap ↔ expensive",
+      "it lives / we get … from … / Don't + fiil",
+      "Tam cümleyle cevap ver."
+     ],
+     "examples": [
+      {
+       "en": "The opposite of expensive is cheap.",
+       "tr": "Pahalının zıttı ucuzdur.",
+       "why": [
+        "the opposite of = … -nin zıttı."
+       ]
+      },
+      {
+       "en": "Where does a crocodile live? — It lives in the river.",
+       "tr": "Timsah nerede yaşar? — Nehirde.",
+       "why": [
+        "does + live; cevapta lives."
+       ]
+      },
+      {
+       "en": "We get meat, milk and wool from sheep.",
+       "tr": "Koyundan et, süt ve yün elde ederiz.",
+       "why": [
+        "Kazanım cümlesi."
+       ]
+      },
+      {
+       "en": "“Don't feed the animals” means “Hayvanlara yiyecek vermeyin”.",
+       "tr": "Tabelanın anlamı.",
+       "why": [
+        "mean = anlamına gelmek."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "The opposite of heavy?",
+       "answer": "light",
+       "why": "ağır ↔ hafif"
+      },
+      {
+       "question": "Tavuktan ne elde ederiz? (tam cümle)",
+       "answer": "We get eggs and meat from chickens.",
+       "why": "get … from …"
+      },
+      {
+       "question": "Yol tarifi hangi kiple yapılır?",
+       "answer": "Emir kipiyle: Turn left. Go straight on.",
+       "why": "Tabelalar gibi."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The opposite of cheap is not cheap.",
+       "right": "The opposite of cheap is expensive.",
+       "why": "Zıt anlamlı kelimeyi kullan."
+      },
+      {
+       "wrong": "A crocodile lives river.",
+       "right": "A crocodile lives in the river.",
+       "why": "Yer bilgisinde edat ve the gerekir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "town-places",
+   "title": "Şehirdeki yerler ve sokak kelimeleri",
+   "intro": [
+    "Haritayı okumak için önce yerlerin adlarını bilmek gerekir. Bu ekranda yerleri dört grupta öğreniyoruz: hizmet binaları (post office, bank, pharmacy, hospital, police station), ulaşım (bus station, bus stop, train station, car park), alışveriş ve boş zaman (supermarket, bakery, restaurant, café, cinema, library, park, mosque) ve sokak kelimeleri (street, road, traffic lights, crossroads, corner, zebra crossing, bridge).",
+    "Türkçe ile İngilizce arasında yanıltıcı benzerliklere dikkat: otogar bus station'dır, otobüs durağı ise bus stop. Eczane pharmacy'dir, eczacı pharmacist. Otopark car park'tır. Trafik ışıkları her zaman çoğul söylenir: the traffic lights."
+   ],
+   "patterns": [
+    {
+     "id": "tp-places",
+     "title": "post office · pharmacy · bus station · bakery",
+     "meaning": "Şehirdeki binaları adlandırmak ve ne yapıldığını söylemek",
+     "explanation": [
+      "Bir yerin adını öğrenirken orada ne yaptığımızı da öğrenmek kalıcılığı artırır: You send letters at the post office. You buy medicine at the pharmacy. You buy bread at the bakery. You borrow books from the library. You watch films at the cinema. You catch a bus to another city at the bus station.",
+      "Yer adlarıyla genellikle the kullanılır, çünkü konuşan ve dinleyen hangi yerden söz edildiğini bilir: I'm going to the bank. Where's the post office? Bir yerin var olup olmadığını sorarken ise a kullanılır: Is there a bank near here?",
+      "Bazı yer adları -'s ile dükkân anlamı taşır: the baker's (fırın), the butcher's (kasap), the greengrocer's (manav), the chemist's (İngiltere'de eczane). Bugün daha yaygın biçimleri öğreniyoruz: bakery, pharmacy."
+     ],
+     "formula": [
+      "You + fiil + at the + yer: You buy bread at the bakery.",
+      "the + yer (bilinen): Where's the bank?",
+      "a + yer (var mı?): Is there a bank near here?"
+     ],
+     "examples": [
+      {
+       "en": "You buy medicine at the pharmacy.",
+       "tr": "Eczaneden ilaç alırsın.",
+       "why": [
+        "Yer + yapılan iş; at the + yer."
+       ]
+      },
+      {
+       "en": "I want to send a letter. Where's the post office?",
+       "tr": "Mektup göndermek istiyorum. Postane nerede?",
+       "why": [
+        "Bilinen yer → the."
+       ]
+      },
+      {
+       "en": "Is there a bakery near here?",
+       "tr": "Buralarda fırın var mı?",
+       "why": [
+        "Var mı sorusu → a."
+       ]
+      },
+      {
+       "en": "The bus to Ankara leaves from the bus station.",
+       "tr": "Ankara otobüsü otogardan kalkar.",
+       "why": [
+        "Şehirlerarası otobüs → bus station."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "İlaç nereden alınır?",
+       "answer": "at the pharmacy",
+       "why": "pharmacy = eczane"
+      },
+      {
+       "question": "Otogar İngilizcede?",
+       "answer": "bus station",
+       "why": "Durak = bus stop"
+      },
+      {
+       "question": "“Buralarda banka var mı?” nasıl sorulur?",
+       "answer": "Is there a bank near here?",
+       "why": "a + yer"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I'm going to pharmacist.",
+       "right": "I'm going to the pharmacy.",
+       "why": "pharmacist eczacıdır; yer pharmacy'dir."
+      },
+      {
+       "wrong": "Is there the bank near here?",
+       "right": "Is there a bank near here?",
+       "why": "Var mı sorusunda a kullanılır."
+      }
+     ]
+    },
+    {
+     "id": "tp-street",
+     "title": "street · traffic lights · crossroads · corner",
+     "meaning": "Sokak ve kavşak kelimelerini kullanmak",
+     "explanation": [
+      "Yol tarifinin vazgeçilmez kelimeleri sokağın kendisiyle ilgilidir. street ve road sokak, cadde, yol demektir; isimlerde Street ve Road büyük harfle yazılır: High Street, Park Road. the traffic lights trafik ışıklarıdır ve hep çoğuldur. crossroads iki yolun kesiştiği kavşaktır ve tekilde de -s ile yazılır: a crossroads.",
+      "corner köşedir. Sokak köşesi için on the corner, oda köşesi için in the corner kullanılır: There's a bakery on the corner. (sokak) The TV is in the corner. (oda) zebra crossing yaya geçididir; bridge köprü, roundabout göbekli kavşaktır.",
+      "Bu kelimeler yol tarifinde dönüş noktası olarak kullanılır: Turn left at the traffic lights. Turn right at the crossroads. Cross the road at the zebra crossing. Hepsi at ile gelir, çünkü belli bir noktayı gösterir."
+     ],
+     "formula": [
+      "street / road: sokak, cadde (High Street, Park Road)",
+      "the traffic lights (çoğul) · a crossroads · the corner",
+      "dönüş noktası: at the traffic lights / at the crossroads"
+     ],
+     "examples": [
+      {
+       "en": "Turn left at the traffic lights.",
+       "tr": "Trafik ışıklarında sola dönün.",
+       "why": [
+        "at + belli nokta; traffic lights çoğul."
+       ]
+      },
+      {
+       "en": "There's a café on the corner of High Street and Park Road.",
+       "tr": "High Street ile Park Road'un köşesinde bir kafe var.",
+       "why": [
+        "Sokak köşesi → on the corner."
+       ]
+      },
+      {
+       "en": "Cross the road at the zebra crossing.",
+       "tr": "Yaya geçidinden karşıya geçin.",
+       "why": [
+        "zebra crossing = yaya geçidi."
+       ]
+      },
+      {
+       "en": "Go straight on at the crossroads.",
+       "tr": "Kavşakta dümdüz devam edin.",
+       "why": [
+        "crossroads tekilde de -s ile."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Sokak köşesi için hangi edat?",
+       "answer": "on the corner",
+       "why": "Oda köşesi in the corner."
+      },
+      {
+       "question": "“Trafik ışıklarında” nasıl söylenir?",
+       "answer": "at the traffic lights",
+       "why": "Çoğul ve at."
+      },
+      {
+       "question": "Yaya geçidi İngilizcede?",
+       "answer": "zebra crossing",
+       "why": "Ya da pedestrian crossing."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Turn left at the traffic light.",
+       "right": "Turn left at the traffic lights.",
+       "why": "Trafik ışıkları bir bütün olarak çoğul söylenir."
+      },
+      {
+       "wrong": "in the corner of the street",
+       "right": "on the corner of the street",
+       "why": "Sokak köşesi on ile."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "map",
+   "title": "Haritada yerler: The post office is next to the cinema.",
+   "intro": [
+    "MEB kazanımı: bir haritaya bakarak şehirdeki bazı binaların nerede olduğunu söyler; örnek: Postane sinemanın yanındadır (The post office is next to the cinema). Programın edat listesi de verilmiştir: köşede (on the corner), altında (under), karşısında (opposite), önünde (in front of), üstünde (above / on), bitişiğinde (next to), yakınında (near).",
+    "Türkçede bu edatlar ismin arkasına gelir: sinemanın yanında. İngilizcede ise ismin önüne gelir: next to the cinema. Ayrıca İngilizcede -nin eki yoktur; edat doğrudan the + yer ile birleşir. Haritamızdaki her binanın bir komşusu, bir karşısı ve bir köşesi var; bunları kullanarak yer tarifi yapıyoruz."
+   ],
+   "patterns": [
+    {
+     "id": "mp-preps",
+     "title": "next to · opposite · between · on the corner of",
+     "meaning": "Yatay ilişkileri anlatan yer edatları",
+     "explanation": [
+      "next to yanında, bitişiğindedir: The post office is next to the cinema. İki bina arasında başka bina yoktur. near ise yakınında demektir; bitişik olmak zorunda değildir: The bus station is near the train station. Dolayısıyla next to, near'dan daha yakındır.",
+      "opposite karşısındadır; genellikle yolun öbür tarafını anlatır: The bank is opposite the cinema. opposite'ten sonra of kullanılmaz; opposite of the bank yanlıştır. between … and … iki şeyin arasıdır: The cinema is between the post office and the bakery. Türkçedeki “ile” burada and olur.",
+      "on the corner köşededir. Hangi köşe olduğunu söylemek için iki sokağın adını ekleriz: The café is on the corner of High Street and Park Road. at the end of the street sokağın sonundadır: The mosque is at the end of High Street."
+     ],
+     "formula": [
+      "next to (bitişik) · near (yakın)",
+      "opposite + yer (of yok) · between A and B",
+      "on the corner of A and B · at the end of …"
+     ],
+     "examples": [
+      {
+       "en": "The post office is next to the cinema.",
+       "tr": "Postane sinemanın yanında.",
+       "why": [
+        "Kazanım örneği. Edat yerin önünde."
+       ],
+       "chunks": [
+        {
+         "en": "next to",
+         "tr": "yanında, bitişiğinde"
+        },
+        {
+         "en": "the cinema",
+         "tr": "sinema"
+        }
+       ]
+      },
+      {
+       "en": "The bank is opposite the cinema.",
+       "tr": "Banka sinemanın karşısında.",
+       "why": [
+        "opposite + yer; of yok."
+       ]
+      },
+      {
+       "en": "The cinema is between the post office and the bakery.",
+       "tr": "Sinema postane ile fırının arasında.",
+       "why": [
+        "between … and …"
+       ]
+      },
+      {
+       "en": "The café is on the corner of High Street and Park Road.",
+       "tr": "Kafe High Street ile Park Road'un köşesinde.",
+       "why": [
+        "on the corner of + iki sokak."
+       ]
+      },
+      {
+       "en": "The mosque is at the end of High Street, opposite the school.",
+       "tr": "Cami High Street'in sonunda, okulun karşısında.",
+       "why": [
+        "İki bilgi virgülle birleşir."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bankanın karşısında” nasıl söylenir?",
+       "answer": "opposite the bank",
+       "why": "of yok."
+      },
+      {
+       "question": "“Otelle eczanenin arasında” nasıl söylenir?",
+       "answer": "between the hotel and the pharmacy",
+       "why": "between … and …"
+      },
+      {
+       "question": "next to ile near farkı?",
+       "answer": "next to bitişik, yanında; near yakınında (bitişik olmayabilir).",
+       "why": "next to daha yakın."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "opposite of the bank",
+       "right": "opposite the bank",
+       "why": "opposite'ten sonra of gelmez."
+      },
+      {
+       "wrong": "between the bank with the hotel",
+       "right": "between the bank and the hotel",
+       "why": "between ile and kullanılır."
+      }
+     ]
+    },
+    {
+     "id": "mp-front-above",
+     "title": "in front of · above · under · behind",
+     "meaning": "Ön, arka, üst ve alt ilişkilerini anlatmak",
+     "explanation": [
+      "in front of önündedir: The bus stop is in front of the hospital. Üç kelimelik bir kalıptır; front of ya da in front the denmez. Zıttı behind (arkasında): The car park is behind the supermarket.",
+      "Binalarda üst ve alt katlar için above ve under kullanırız. above üstünde, daha yukarıda demektir: The dentist is above the pharmacy (eczanenin üst katında). Kat numarasıyla da söylenir: on the first floor. under altındadır: The car park is under the supermarket (yer altı otoparkı).",
+      "on da “üstünde” demektir ama temas gerektirir: The book is on the table. Bina katları için above daha doğaldır. MEB listesindeki “üstünde” bu ekranda above, eşyalar için on olarak düşünülebilir."
+     ],
+     "formula": [
+      "in front of (önünde) ↔ behind (arkasında)",
+      "above (üstünde, üst katta) ↔ under (altında)",
+      "on the first floor (birinci katta)"
+     ],
+     "examples": [
+      {
+       "en": "There's a bus stop in front of the hospital.",
+       "tr": "Hastanenin önünde bir otobüs durağı var.",
+       "why": [
+        "in front of üç kelime."
+       ]
+      },
+      {
+       "en": "The dentist is above the pharmacy, on the first floor.",
+       "tr": "Diş hekimi eczanenin üstünde, birinci katta.",
+       "why": [
+        "above: üst kat."
+       ]
+      },
+      {
+       "en": "The car park is under the supermarket.",
+       "tr": "Otopark süpermarketin altında.",
+       "why": [
+        "under: alt kat / yer altı."
+       ]
+      },
+      {
+       "en": "My flat is above a café.",
+       "tr": "Dairem bir kafenin üstünde.",
+       "why": [
+        "Telefon diyaloğundaki adres."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Hastanenin önünde” nasıl söylenir?",
+       "answer": "in front of the hospital",
+       "why": "in front of"
+      },
+      {
+       "question": "“Eczanenin üst katında” nasıl söylenir?",
+       "answer": "above the pharmacy / on the first floor",
+       "why": "above"
+      },
+      {
+       "question": "in front of'un zıttı?",
+       "answer": "behind",
+       "why": "arkasında"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "front of the hospital",
+       "right": "in front of the hospital",
+       "why": "in front of kalıbında in unutulmaz."
+      },
+      {
+       "wrong": "The dentist is on the pharmacy.",
+       "right": "The dentist is above the pharmacy.",
+       "why": "Bina katları için above daha doğaldır."
+      }
+     ]
+    },
+    {
+     "id": "mp-where",
+     "title": "Where's the …? — It's … · Is there a … near here?",
+     "meaning": "Yer sormak ve cevaplamak",
+     "explanation": [
+      "Tekil yer için Where's the …? (Where is), çoğul için Where are the …? sorulur. Cevapta yeri tekrar etmeyiz: It's next to the cinema. They're opposite the park. Birden fazla bilgiyi virgül ya da and ile birleştiririz: It's on High Street, next to the hotel.",
+      "Sokak adıyla on kullanırız: It's on Station Road. (İngiliz İngilizcesinde in de kullanılır: in Station Road. İkisi de doğrudur; bu derste on kullanıyoruz.)",
+      "Bir yerin yakında olup olmadığını sormak için Is there a … near here? Cevap: Yes, there's one on the corner. (one = a pharmacy) ya da No, there isn't. There's one in the city centre. Bu kalıp yabancı bir şehirde en çok işe yarayan sorulardan biridir."
+     ],
+     "formula": [
+      "Where's the + yer? — It's + edat + yer.",
+      "It's on + sokak adı: It's on Station Road.",
+      "Is there a … near here? — Yes, there's one … / No, there isn't."
+     ],
+     "examples": [
+      {
+       "en": "Where's the hospital? — It's on Station Road, next to the police station.",
+       "tr": "Hastane nerede? — Station Road'da, karakolun yanında.",
+       "why": [
+        "on + sokak; virgülle ikinci bilgi."
+       ]
+      },
+      {
+       "en": "Is there a pharmacy near here? — Yes, there's one on the corner.",
+       "tr": "Buralarda eczane var mı? — Evet, köşede bir tane var.",
+       "why": [
+        "one = a pharmacy."
+       ]
+      },
+      {
+       "en": "Where are the toilets? — They're behind the café.",
+       "tr": "Tuvaletler nerede? — Kafenin arkasında.",
+       "why": [
+        "Çoğul → Where are / They're."
+       ]
+      },
+      {
+       "en": "Is there a bank near here? — No, there isn't. There's one in the city centre.",
+       "tr": "Buralarda banka var mı? — Hayır, yok. Şehir merkezinde bir tane var.",
+       "why": [
+        "Olumsuz kısa cevap: there isn't."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Where's the bakery? sorusunun cevabı nasıl başlar?",
+       "answer": "It's …",
+       "why": "It's + edat"
+      },
+      {
+       "question": "“Station Road'da” nasıl söylenir?",
+       "answer": "on Station Road",
+       "why": "Sokak adıyla on"
+      },
+      {
+       "question": "Is there a café near here? olumsuz kısa cevap?",
+       "answer": "No, there isn't.",
+       "why": "there isn't"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Where is the toilets?",
+       "right": "Where are the toilets?",
+       "why": "Çoğul yer → are."
+      },
+      {
+       "wrong": "Yes, there's a one on the corner.",
+       "right": "Yes, there's one on the corner.",
+       "why": "one'dan önce a gelmez."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "directions",
+   "title": "Yol tarifi vermek",
+   "intro": [
+    "MEB kazanımı: bir harita veya krokiyi kullanarak yol tarif eder. Yol tarifi emir cümleleriyle yapılır: fiil başta, özne yok. Go straight on. Turn left. Take the second right. Go past the bank. Cross the road. Tarifin sonunda hedefin nerede olduğunu söyleriz: It's on your left.",
+    "İyi bir tarifin üç parçası vardır: kibar bir başlangıç (Excuse me, how do I get to …?), adım adım hareketler ve işaret binalarla desteklenen varış cümlesi. Mesafe bilgisi de eklenirse (It's about five minutes' walk) tarif tamamlanır. En önemli nokta: sağ ve sol yürüyen kişiye göredir, haritaya göre değil."
+   ],
+   "patterns": [
+    {
+     "id": "dr-asking",
+     "title": "Excuse me, how do I get to the station?",
+     "meaning": "Kibarca yol sormak",
+     "explanation": [
+      "Tanımadığımız birine Excuse me (affedersiniz) diye başlarız. Yol sormanın en yaygın kalıbı: How do I get to + yer? (… -e nasıl giderim?). get to burada “varmak, ulaşmak” anlamındadır. Diğer kalıplar: Where's the nearest pharmacy? (En yakın eczane nerede?) Is there a bank near here? (Buralarda banka var mı?) Is it far? (Uzak mı?)",
+      "home ile to kullanılmaz: How do I get home? Ama diğer yerlerle to gelir: How do I get to the museum? Türkçede “müzeye nasıl giderim” derken -e ekini kullanırız; İngilizcedeki karşılığı to'dur.",
+      "Tarifi anlamadıysak kibarca tekrar isteriz: Sorry, can you say that again, please? Can you speak more slowly, please? Sonunda teşekkür ederiz: Thank you very much! Karşımızdaki bilmiyorsa: Sorry, I don't know. I'm not from here."
+     ],
+     "formula": [
+      "Excuse me, how do I get to + the + yer?",
+      "Where's the nearest + yer? · Is there a … near here?",
+      "Sorry, can you say that again? · Thank you very much!"
+     ],
+     "examples": [
+      {
+       "en": "Excuse me, how do I get to the train station?",
+       "tr": "Affedersiniz, tren istasyonuna nasıl giderim?",
+       "why": [
+        "Kibar başlangıç + get to + yer."
+       ],
+       "chunks": [
+        {
+         "en": "Excuse me",
+         "tr": "affedersiniz"
+        },
+        {
+         "en": "How do I get to …?",
+         "tr": "… -e nasıl giderim?",
+         "note": "get to = varmak"
+        }
+       ]
+      },
+      {
+       "en": "Where's the nearest pharmacy?",
+       "tr": "En yakın eczane nerede?",
+       "why": [
+        "nearest = en yakın."
+       ]
+      },
+      {
+       "en": "Is it far? — No, it's about five minutes' walk.",
+       "tr": "Uzak mı? — Hayır, yürüyerek beş dakika kadar.",
+       "why": [
+        "Mesafe sorusu ve cevabı."
+       ]
+      },
+      {
+       "en": "Sorry, I don't know. I'm not from here.",
+       "tr": "Üzgünüm, bilmiyorum. Buralı değilim.",
+       "why": [
+        "Bilmediğinde kibar cevap."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Müzeye nasıl giderim?” nasıl sorulur?",
+       "answer": "How do I get to the museum?",
+       "why": "get to + yer"
+      },
+      {
+       "question": "“Eve nasıl giderim?” nasıl sorulur?",
+       "answer": "How do I get home?",
+       "why": "home ile to yok."
+      },
+      {
+       "question": "“Uzak mı?” İngilizcesi?",
+       "answer": "Is it far?",
+       "why": "far = uzak"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "How can I go museum?",
+       "right": "How do I get to the museum?",
+       "why": "to ve the eksik; kalıp get to."
+      },
+      {
+       "wrong": "How do I get to home?",
+       "right": "How do I get home?",
+       "why": "home ile to kullanılmaz."
+      }
+     ]
+    },
+    {
+     "id": "dr-giving",
+     "title": "Go straight on. · Turn left. · Take the second right.",
+     "meaning": "Adım adım yol tarifi vermek",
+     "explanation": [
+      "Tarif emir cümleleriyle yapılır. Düz gitmek için Go straight on (dümdüz gidin) ya da sokak adıyla Go along High Street (High Street boyunca gidin). Dönmek için Turn left / Turn right. Hangi sokaktan döneceğini söylemek için Take the first left (ilk soldan dönün), Take the second right (ikinci sağdan dönün).",
+      "İşaret binalar tarifi kolaylaştırır: Go past the bank (bankayı geçin). Dönüş noktası at ile söylenir: Turn left at the traffic lights. Turn right at the end of the street. Bir sokağa sapmak için into kullanılır: Turn right into Park Road. Karşıya geçmek için Cross the road / Cross Park Road.",
+      "Sıra kelimeleri tarifi düzenler: First, … Then … After that, … Ya da kısa cümleler arka arkaya sıralanır: Go along High Street. Go past the bank. Turn right at the traffic lights. Her cümle tek bir hareket anlatırsa dinleyen kişi kaybolmaz."
+     ],
+     "formula": [
+      "Go straight on. · Go along + sokak.",
+      "Turn left / right (at the …) (into …). · Take the first / second left / right.",
+      "Go past + bina. · Cross the road."
+     ],
+     "examples": [
+      {
+       "en": "Go along High Street and turn right at the traffic lights.",
+       "tr": "High Street boyunca gidin ve trafik ışıklarında sağa dönün.",
+       "why": [
+        "İki hareket and ile; dönüş noktası at ile."
+       ]
+      },
+      {
+       "en": "Take the second left.",
+       "tr": "İkinci soldan dönün.",
+       "why": [
+        "take the + sıra sayısı + yön."
+       ]
+      },
+      {
+       "en": "Go past the bank and the pharmacy.",
+       "tr": "Bankayı ve eczaneyi geçin.",
+       "why": [
+        "go past = yanından geçip ilerlemek."
+       ]
+      },
+      {
+       "en": "Turn right into Park Road and cross Station Road.",
+       "tr": "Sağa, Park Road'a dönün ve Station Road'dan karşıya geçin.",
+       "why": [
+        "into + sokak; cross + yol."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“İlk sağdan dönün.” İngilizcesi?",
+       "answer": "Take the first right.",
+       "why": "take the first …"
+      },
+      {
+       "question": "“Postaneyi geçin.” İngilizcesi?",
+       "answer": "Go past the post office.",
+       "why": "go past"
+      },
+      {
+       "question": "“Park Road'a sola dönün.” İngilizcesi?",
+       "answer": "Turn left into Park Road.",
+       "why": "into + sokak"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Turn to left.",
+       "right": "Turn left.",
+       "why": "left / right'tan önce to kullanılmaz."
+      },
+      {
+       "wrong": "Turn the second left.",
+       "right": "Take the second left.",
+       "why": "Sıra sayısıyla take kullanılır."
+      }
+     ]
+    },
+    {
+     "id": "dr-arriving",
+     "title": "It's on your left. · It's about five minutes' walk.",
+     "meaning": "Varış yerini ve mesafeyi söylemek",
+     "explanation": [
+      "Tarifin son cümlesi hedefin yerini söyler: It's on your left (solunuzda) / It's on your right (sağınızda). Edat on'dur: in your left denmez. Hedefi daha da netleştirmek için bir edat cümlesi ekleriz: It's on your left, opposite the bank.",
+      "Sağ ve sol, yürüyen kişinin yönüne göredir. Haritada aşağı doğru (güneye) yürüyen kişinin sağı, haritanın solu olur. Bu yüzden tarif verirken kendini yürüyenin yerine koy; haritayı gerekirse çevir.",
+      "Mesafe için: It's not far (uzak değil). It's near here (buraya yakın). It's about five minutes' walk (yürüyerek beş dakika kadar). It's a long way. Take a bus. (Çok uzak, otobüse binin.) minutes' kelimesindeki kesme işareti s'den sonradır, çünkü minutes çoğuldur."
+     ],
+     "formula": [
+      "It's on your left / right (, opposite / next to …).",
+      "Sağ / sol = yürüyen kişiye göre.",
+      "It's not far. · It's about five minutes' walk. · It's a long way."
+     ],
+     "examples": [
+      {
+       "en": "The library is on your left, next to the school.",
+       "tr": "Kütüphane solunuzda, okulun yanında.",
+       "why": [
+        "on your left + ek edat bilgisi."
+       ]
+      },
+      {
+       "en": "You can't miss it.",
+       "tr": "Kolayca bulursunuz. (Gözden kaçıramazsınız.)",
+       "why": [
+        "Tarif sonunda kullanılan kalıp."
+       ]
+      },
+      {
+       "en": "It's not far. It's about two minutes' walk.",
+       "tr": "Uzak değil. Yürüyerek iki dakika kadar.",
+       "why": [
+        "minutes' walk = … dakikalık yürüyüş."
+       ]
+      },
+      {
+       "en": "The hospital is a long way from here. Take the number 38 bus.",
+       "tr": "Hastane buradan çok uzak. 38 numaralı otobüse binin.",
+       "why": [
+        "a long way = çok uzak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Sağınızda” İngilizcede?",
+       "answer": "It's on your right.",
+       "why": "on your right"
+      },
+      {
+       "question": "“Yürüyerek on dakika” nasıl söylenir?",
+       "answer": "It's about ten minutes' walk.",
+       "why": "minutes' walk"
+      },
+      {
+       "question": "Haritada aşağı yürürken sağın neresidir?",
+       "answer": "Haritanın solu (batı).",
+       "why": "Sağ / sol yürüyene göre."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It's in your left.",
+       "right": "It's on your left.",
+       "why": "Edat on'dur."
+      },
+      {
+       "wrong": "It's five minutes walking.",
+       "right": "It's five minutes' walk.",
+       "why": "Kalıp: minutes' walk."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "on your left / on the left",
+       "explanation": [
+        "on your left yürüyen kişinin soluna göre konuşur ve yol tarifinde kullanılır. on the left genel bir konumdur (resmin solunda, yolun sol tarafında)."
+       ],
+       "example": "Turn right. The bank is on your left. · In the photo, my mother is on the left.",
+       "tr": [
+        "Sağa dönün. Banka solunuzda. · Fotoğrafta annem solda."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "follow",
+   "title": "Yol tarifini dinleyip anlamak",
+   "intro": [
+    "MEB kazanımı: kendisine yapılan yol tariflerini anlar. Dinleme sırasında her kelimeyi anlamaya çalışmak yorucudur ve gerekli değildir. Tarifte üç tür bilgi önemlidir: yön (left, right, straight on), dönüş yeri (at the traffic lights, the first right, into Park Road) ve işaret binalar (go past the bank, opposite the school).",
+    "Bu ekranda 📍 noktasından başlayan altı tarif dinliyoruz. Her tarifte parmağınızla haritada yürüyün. Dönüş yaptığınızda yönünüzün değiştiğini unutmayın: High Street'te doğuya yürürken sağa dönerseniz güneye yürümeye başlarsınız ve artık solunuz doğudur."
+   ],
+   "patterns": [
+    {
+     "id": "fl-listen",
+     "title": "Dinlerken neyi yakalamalı? yön · dönüş · işaret",
+     "meaning": "Yol tarifinde anahtar bilgileri ayırt etmek",
+     "explanation": [
+      "Yol tarifi genellikle hızlı söylenir ve birkaç hareket arka arkaya gelir. Dinlerken üç soruya cevap ara: Hangi yöne? (left, right, straight on) Nerede? (at the traffic lights, at the crossroads, the second street) Neyin yanından? (go past the bank, it's opposite the school).",
+      "Sıra kelimeleri (first, then, after that) tarifi bölümlere ayırır; her bölümde bir hareket vardır. Son cümle genellikle It's on your left / right ile başlar ve hedefi verir. O cümleyi özellikle dikkatle dinle.",
+      "Anlamadığında soru sormak dinlemenin bir parçasıdır: Sorry, left or right? Is it the first or the second street? Can you say that again, please? Kısa ve net sorular tarifi netleştirir."
+     ],
+     "formula": [
+      "yön: left · right · straight on",
+      "nerede: at the traffic lights · the first / second … · into …",
+      "işaret: go past … · opposite … · next to …"
+     ],
+     "examples": [
+      {
+       "en": "Go along High Street. Go past the bank. It's on your left, on the corner.",
+       "tr": "High Street boyunca gidin. Bankayı geçin. Solunuzda, köşede.",
+       "why": [
+        "Üç parça: hareket, işaret, varış. Cevap: eczane."
+       ]
+      },
+      {
+       "en": "At the traffic lights, turn right into Park Road.",
+       "tr": "Trafik ışıklarında sağa, Park Road'a dönün.",
+       "why": [
+        "Dönüş noktası cümlenin başında da gelebilir."
+       ]
+      },
+      {
+       "en": "Sorry, is it the first or the second left?",
+       "tr": "Pardon, ilk sol mu ikinci sol mu?",
+       "why": [
+        "Netleştirme sorusu."
+       ]
+      },
+      {
+       "en": "Can you say that again, please?",
+       "tr": "Tekrar söyler misiniz, lütfen?",
+       "why": [
+        "Kibar tekrar isteği."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Tarifte varış cümlesi genellikle nasıl başlar?",
+       "answer": "It's on your left / right …",
+       "why": "Hedef bu cümlede."
+      },
+      {
+       "question": "“İlk mi, ikinci mi?” diye nasıl sorulur?",
+       "answer": "Is it the first or the second …?",
+       "why": "Netleştirme."
+      },
+      {
+       "question": "go past ne demek?",
+       "answer": "yanından geçip devam etmek",
+       "why": "Go past the bank."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Repeat, please!",
+       "right": "Can you say that again, please?",
+       "why": "Daha kibar ve doğal biçim."
+      },
+      {
+       "wrong": "What? What? (anlamayınca)",
+       "right": "Sorry, left or right?",
+       "why": "Hangi bilgiyi kaçırdığını söyle."
+      }
+     ]
+    },
+    {
+     "id": "fl-turning",
+     "title": "Döndükçe sağ ve sol değişir",
+     "meaning": "Haritada yön değiştirerek tarifi doğru takip etmek",
+     "explanation": [
+      "Haritada kuzey yukarıdadır. 📍 noktasında doğuya (haritada sağa) bakıyoruz. Bu yönde yürürken solumuz kuzey (haritanın üstü), sağımız güneydir (haritanın altı). Bu yüzden High Street'te yürürken bankayı ve eczaneyi solumuzda, postaneyi ve sinemayı sağımızda görürüz.",
+      "Trafik ışıklarında sağa dönersek (Turn right into Park Road) güneye, yani haritada aşağı yürümeye başlarız. Artık solumuz doğu, sağımız batıdır. Bu yüzden Station Road'u geçtikten sonra otogar (bus station) solumuzda, süpermarket sağımızda kalır.",
+      "Pratik bir yol: kâğıt haritayı her dönüşte yürüdüğün yöne doğru çevir. Böylece haritadaki sol, senin solun olur. Ekranda çeviremiyorsan, parmağını yürüyen bir insan gibi düşün ve “şimdi yüzüm hangi yöne dönük?” diye sor."
+     ],
+     "formula": [
+      "doğuya yürürken: sol = kuzey, sağ = güney",
+      "güneye yürürken: sol = doğu, sağ = batı",
+      "Her dönüşte haritayı yürüdüğün yöne çevir."
+     ],
+     "examples": [
+      {
+       "en": "Go along High Street. It's on your right, opposite the bank.",
+       "tr": "High Street boyunca gidin. Sağınızda, bankanın karşısında.",
+       "why": [
+        "Doğuya yürürken sağ = güney: sinema."
+       ]
+      },
+      {
+       "en": "Turn right into Park Road. Cross Station Road. It's on your left.",
+       "tr": "Sağa, Park Road'a dönün. Station Road'dan karşıya geçin. Solunuzda.",
+       "why": [
+        "Güneye yürürken sol = doğu: otogar."
+       ]
+      },
+      {
+       "en": "Take the first right into Station Road. It's on your left.",
+       "tr": "İlk sağdan Station Road'a dönün. Solunuzda.",
+       "why": [
+        "Batıya yürürken sol = güney: karakol ya da hastane."
+       ]
+      },
+      {
+       "en": "Go along High Street to the end. It's on your right.",
+       "tr": "High Street'in sonuna kadar gidin. Sağınızda.",
+       "why": [
+        "Sonda, sağda (güney): cami."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "High Street'te doğuya yürürken banka hangi tarafta?",
+       "answer": "Solunuzda (on your left).",
+       "why": "Banka kuzey tarafta."
+      },
+      {
+       "question": "Park Road'da güneye yürürken otogar hangi tarafta?",
+       "answer": "Solunuzda.",
+       "why": "Otogar doğu tarafta."
+      },
+      {
+       "question": "Yönü karıştırmamak için ne yapabilirsin?",
+       "answer": "Haritayı yürüdüğün yöne çevirmek.",
+       "why": "Pratik yöntem."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Haritanın solu her zaman benim solumdur.",
+       "right": "Sol, yürüdüğün yöne göre değişir.",
+       "why": "Güneye yürürken haritanın solu senin sağındır."
+      },
+      {
+       "wrong": "Turn right = go right on the map",
+       "right": "Turn right = kendi sağına dön",
+       "why": "Dönüş yürüyen kişiye göredir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "neighbourhood",
+   "title": "Benim mahallem: çizmek ve anlatmak",
+   "intro": [
+    "MEB kazanımı: kendi oturduğu yeri, çevresindeki bina, cadde ve sokaklarla çizer. Bu ekranda önce kendi sokağımızın basit bir krokisini çiziyoruz, sonra onu İngilizce anlatıyoruz. Gerçek bir yeri anlatmak, edatları ve there is / there are kalıbını kalıcı olarak öğrenmenin en iyi yoludur.",
+    "Anlatım üç parçadan oluşur: nerede oturduğumuz (I live on Gül Street in Osmangazi), çevremizde neler olduğu (There's a bakery on the corner. Opposite my building, there's a park.) ve mahalle hakkındaki fikrimiz (I like my neighbourhood because it's quiet.). Bu yapı yazma ödevinde de kullanılır."
+   ],
+   "patterns": [
+    {
+     "id": "nb-live",
+     "title": "I live on Gül Street in Osmangazi.",
+     "meaning": "Oturduğu yeri sokak, semt ve şehirle söylemek",
+     "explanation": [
+      "Nerede oturduğumuzu söylerken live fiilini kullanırız: I live in Bursa. I live in Osmangazi. I live on Gül Street. Şehir ve semt için in, sokak adı için on kullanırız (İngiliz İngilizcesinde in Gül Street de olur). Ev tipiyle: I live in a flat / in a house.",
+      "Bilgileri küçükten büyüğe sıralarız: I live in a flat on Gül Street in Osmangazi, Bursa. Türkçede adres büyükten küçüğe de söylenebilir ama İngilizce cümlede genellikle en küçük birim önce gelir.",
+      "Adresin numarası sokak adından önce gelir: I live at 12 Park Road. Kat bilgisi: on the second floor. Tam adres için at kullanılır, çünkü belli bir nokta anlatılır."
+     ],
+     "formula": [
+      "I live in + şehir / semt: in Bursa, in Osmangazi",
+      "I live on + sokak: on Gül Street",
+      "I live at + numara + sokak: at 12 Park Road"
+     ],
+     "examples": [
+      {
+       "en": "I live in a flat on Gül Street in Osmangazi.",
+       "tr": "Osmangazi'de Gül Sokak'ta bir dairede oturuyorum.",
+       "why": [
+        "Küçükten büyüğe: daire → sokak → semt."
+       ]
+      },
+      {
+       "en": "We live in a house near the park.",
+       "tr": "Parkın yakınında bir evde oturuyoruz.",
+       "why": [
+        "near + yer."
+       ]
+      },
+      {
+       "en": "My flat is on the third floor.",
+       "tr": "Dairem üçüncü katta.",
+       "why": [
+        "Kat: on the … floor."
+       ]
+      },
+      {
+       "en": "My friend lives at 12 Park Road, above the café.",
+       "tr": "Arkadaşım Park Road 12 numarada, kafenin üstünde oturuyor.",
+       "why": [
+        "Tam adres → at; lives (-s)."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bursa'da oturuyorum.” İngilizcesi?",
+       "answer": "I live in Bursa.",
+       "why": "Şehir → in"
+      },
+      {
+       "question": "“Gül Sokak'ta oturuyorum.” İngilizcesi?",
+       "answer": "I live on Gül Street.",
+       "why": "Sokak → on"
+      },
+      {
+       "question": "“Dairem ikinci katta.” İngilizcesi?",
+       "answer": "My flat is on the second floor.",
+       "why": "on the … floor"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I'm living at Bursa.",
+       "right": "I live in Bursa.",
+       "why": "Şehirle in; kalıcı durum geniş zamanla."
+      },
+      {
+       "wrong": "I live in the Gül Street.",
+       "right": "I live on Gül Street.",
+       "why": "Sokak adından önce the gelmez."
+      }
+     ]
+    },
+    {
+     "id": "nb-there-is",
+     "title": "There's a bakery on the corner. · Opposite my building, there's a park.",
+     "meaning": "there is / there are ve edatlarla çevreyi betimlemek",
+     "explanation": [
+      "Çevremizde ne olduğunu there is (tekil) ve there are (çoğul) ile söyleriz: There's a bakery on the corner. There are two supermarkets near my home. Türkçedeki “var” kelimesinin karşılığıdır. Olumsuz: There isn't a cinema. There aren't any banks.",
+      "Edat bilgisini cümlenin sonuna ya da başına koyabiliriz: There's a park opposite my building. = Opposite my building, there's a park. Başa koyduğumuzda virgül kullanırız. Bu, anlatımı çeşitlendirir ve tekrarı azaltır.",
+      "Mahalle hakkında fikir bildirirken sıfat ve because kullanırız: I like my neighbourhood because it's quiet and the people are friendly. Olumsuz bir şey de söyleyebiliriz: The streets are busy in the morning, but it's quiet at night."
+     ],
+     "formula": [
+      "There's a + yer + edat + yer.",
+      "There are + çoğul / sayı + yer + edat …",
+      "Edat başta: Opposite my building, there's a park."
+     ],
+     "examples": [
+      {
+       "en": "There's a small bakery on the corner.",
+       "tr": "Köşede küçük bir fırın var.",
+       "why": [
+        "There's + a + sıfat + yer + edat."
+       ],
+       "chunks": [
+        {
+         "en": "There's",
+         "tr": "… var",
+         "note": "There is"
+        },
+        {
+         "en": "a small bakery",
+         "tr": "küçük bir fırın"
+        },
+        {
+         "en": "on the corner",
+         "tr": "köşede"
+        }
+       ]
+      },
+      {
+       "en": "Opposite my building, there's a park with big trees.",
+       "tr": "Binamın karşısında büyük ağaçlı bir park var.",
+       "why": [
+        "Edat başta; virgül."
+       ]
+      },
+      {
+       "en": "There are two pharmacies near my home.",
+       "tr": "Evimin yakınında iki eczane var.",
+       "why": [
+        "Çoğul → there are; pharmacy → pharmacies."
+       ]
+      },
+      {
+       "en": "I like my neighbourhood because it's quiet and the people are friendly.",
+       "tr": "Mahallemi seviyorum çünkü sakin ve insanlar dost canlısı.",
+       "why": [
+        "Fikir + because."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Köşede bir eczane var.” İngilizcesi?",
+       "answer": "There's a pharmacy on the corner.",
+       "why": "There's + a + yer"
+      },
+      {
+       "question": "“Evimin yakınında iki market var.” İngilizcesi?",
+       "answer": "There are two supermarkets near my home.",
+       "why": "Çoğul → there are"
+      },
+      {
+       "question": "Edatı başa koyarsak ne kullanırız?",
+       "answer": "Virgül: Opposite my building, there's a park.",
+       "why": "Virgül."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "There is two parks.",
+       "right": "There are two parks.",
+       "why": "Çoğul → there are."
+      },
+      {
+       "wrong": "Has a bakery on the corner.",
+       "right": "There's a bakery on the corner.",
+       "why": "“Var” anlamında there is kullanılır."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "phone",
+   "title": "Telefonda yol tarifi",
+   "intro": [
+    "MEB kazanımı: telefonda uygun kalıpları kullanarak birine yer yön tarifi yapar. Telefonda karşımızdakini ve onun gördüklerini göremeyiz. Bu yüzden önce nerede olduğunu (Where are you now?), sonra ne gördüğünü (Can you see a big mosque?) sorarız. Tarifi kısa parçalar hâlinde verir, her parçadan sonra kontrol ederiz.",
+    "Telefon dilinin kendine özgü kalıpları vardır: telefonu açınca Hello?, kendini tanıtırken I'm değil It's (Hi, it's Kaan), anlamadığında Sorry, can you say that again? ya da hat kötüyse Sorry, I can't hear you. Sonunda Call me when you get there ve See you soon! Bu ekranda bütün bu kalıpları diyalog içinde görüyoruz."
+   ],
+   "patterns": [
+    {
+     "id": "ph-opening",
+     "title": "Hello? — Hi, it's Kaan. · Where are you now?",
+     "meaning": "Telefonu açmak, kendini tanıtmak ve konumu sormak",
+     "explanation": [
+      "Telefonu açan kişi Hello? der. Arayan kişi kendini tanıtırken I'm Kaan değil, Hi, it's Kaan ya da This is Kaan der. Telefonda it's, “arayan kişi …” anlamını taşır.",
+      "Tarif vermeden önce karşımızdakinin nerede olduğunu öğrenmemiz gerekir: Where are you now? Cevap: I'm at the train station. / I'm in front of the mosque. / I'm on High Street. Belli bir yer için at, sokak için on, bir şeyin önü için in front of kullanılır.",
+      "Konumu netleştirmek için ne gördüğünü sorarız: Can you see a park? — Yes, I can. It's on my right. / No, I can't. Telefonda my right, my left: arayan kişi kendi sağını ve solunu anlatır."
+     ],
+     "formula": [
+      "Hello? — Hi, it's + ad.",
+      "Where are you now? — I'm at / on / in front of …",
+      "Can you see a …? — Yes, I can. / No, I can't."
+     ],
+     "examples": [
+      {
+       "en": "Hi Ece, it's Kaan. I'm at the train station.",
+       "tr": "Selam Ece, ben Kaan. Tren istasyonundayım.",
+       "why": [
+        "Telefonda it's ile tanıtma; at + yer."
+       ],
+       "chunks": [
+        {
+         "en": "it's Kaan",
+         "tr": "ben Kaan (arayan)",
+         "note": "telefona özgü"
+        },
+        {
+         "en": "I'm at …",
+         "tr": "…-deyim"
+        }
+       ]
+      },
+      {
+       "en": "Where are you now? — I'm in front of the main door.",
+       "tr": "Şimdi neredesin? — Ana kapının önündeyim.",
+       "why": [
+        "in front of ile konum."
+       ]
+      },
+      {
+       "en": "Can you see a park? — Yes, I can. It's on my right.",
+       "tr": "Bir park görebiliyor musun? — Evet. Sağımda.",
+       "why": [
+        "Can you see …? — Yes, I can."
+       ]
+      },
+      {
+       "en": "No, I can't see it. I can see a big supermarket.",
+       "tr": "Hayır, göremiyorum. Büyük bir süpermarket görebiliyorum.",
+       "why": [
+        "Olumsuz + gördüğünü söylemek."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Telefonda “Ben Kaan.” nasıl söylenir?",
+       "answer": "It's Kaan. / This is Kaan.",
+       "why": "I'm Kaan denmez."
+      },
+      {
+       "question": "“Şimdi neredesin?” İngilizcesi?",
+       "answer": "Where are you now?",
+       "why": "Konum sorusu."
+      },
+      {
+       "question": "Can you see a bank? sorusuna kısa olumlu cevap?",
+       "answer": "Yes, I can.",
+       "why": "can ile cevap."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Hello, I am Kaan. (telefonda)",
+       "right": "Hello? Hi, it's Kaan.",
+       "why": "Telefonda it's kullanılır."
+      },
+      {
+       "wrong": "I'm in station.",
+       "right": "I'm at the station.",
+       "why": "Belli bir nokta → at the."
+      }
+     ]
+    },
+    {
+     "id": "ph-steps",
+     "title": "Kısa parçalar · Call me when you get there.",
+     "meaning": "Telefonda tarifi bölerek vermek ve konuşmayı bitirmek",
+     "explanation": [
+      "Telefonda uzun bir tarif tek seferde verilmez. Bir ya da iki hareket söylenir, sonra kontrol edilir: Go along Station Road. Go past the restaurant. — OK. — Then turn right at the traffic lights. Dinleyen kişi OK, And then? (Sonra?) diyerek devam ister.",
+      "İletişim sorunları için kalıplar: Sorry, I can't hear you. (Seni duyamıyorum.) The line is bad. (Hat kötü.) Sorry, can you say that again? (Tekrar söyler misin?) Can you speak more slowly? Burada hear (duymak) kullanılır, listen (dinlemek) değil.",
+      "Konuşmayı bitirirken bir sonraki adımı söyleriz: Call me when you get there. (Oraya varınca beni ara.) when'den sonra geniş zaman kullanılır: when you get there (will get değil). Kapanış: OK. See you soon! / See you in five minutes!"
+     ],
+     "formula": [
+      "Bir–iki hareket → kontrol: OK? · And then?",
+      "Sorun: Sorry, I can't hear you. · Can you say that again?",
+      "Kapanış: Call me when you get there. · See you soon!"
+     ],
+     "examples": [
+      {
+       "en": "Go along Station Road. Go past the restaurant and the bus station.",
+       "tr": "Station Road boyunca yürü. Restoranı ve otogarı geç.",
+       "why": [
+        "Kısa parça: iki hareket."
+       ]
+      },
+      {
+       "en": "Past the bus station … OK. And then?",
+       "tr": "Otogarı geçtim … Tamam. Sonra?",
+       "why": [
+        "Dinleyen kişi devam ister."
+       ]
+      },
+      {
+       "en": "Sorry, I can't hear you. The line is bad.",
+       "tr": "Pardon, seni duyamıyorum. Hat kötü.",
+       "why": [
+        "hear = duymak."
+       ]
+      },
+      {
+       "en": "It's about five minutes' walk. Call me when you get there.",
+       "tr": "Yürüyerek beş dakika. Varınca beni ara.",
+       "why": [
+        "when + geniş zaman."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Sonra?” telefonda nasıl sorulur?",
+       "answer": "And then?",
+       "why": "Devam isteği."
+      },
+      {
+       "question": "“Seni duyamıyorum.” İngilizcesi?",
+       "answer": "I can't hear you.",
+       "why": "hear, listen değil."
+      },
+      {
+       "question": "“Varınca beni ara.” İngilizcesi?",
+       "answer": "Call me when you get there.",
+       "why": "when + geniş zaman"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I can't listen you.",
+       "right": "I can't hear you.",
+       "why": "Duymak hear'dır; listen to dikkatle dinlemektir."
+      },
+      {
+       "wrong": "Call me when you will arrive.",
+       "right": "Call me when you get there.",
+       "why": "when'den sonra will kullanılmaz."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "post-bank-pharmacy",
+   "term": "post office · bank · pharmacy",
+   "meaning": "postane · banka · eczane",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "post office · bank · pharmacy"
+   ],
+   "explanation": [
+    "Hizmet binaları. post office iki kelimedir. pharmacy eczanedir (İngiltere'de chemist's de denir); eczacı pharmacist'tir. Bankada para çekmek withdraw money ya da kısaca get money."
+   ],
+   "collocations": [
+    {
+     "en": "send a letter at the post office",
+     "tr": "postaneden mektup göndermek"
+    },
+    {
+     "en": "an all-night pharmacy",
+     "tr": "nöbetçi eczane"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The post office is next to the cinema.",
+     "tr": "Postane sinemanın yanında.",
+     "note": "Kazanım örneği"
+    },
+    {
+     "en": "Is there a bank near here?",
+     "tr": "Buralarda banka var mı?"
+    },
+    {
+     "en": "The pharmacy is on the corner.",
+     "tr": "Eczane köşede."
+    }
+   ],
+   "commonMistake": "Eczane için pharmacist değil pharmacy denir."
+  },
+  {
+   "id": "cinema-library-museum",
+   "term": "cinema · library · museum",
+   "meaning": "sinema · kütüphane · müze",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "cinema · library · museum"
+   ],
+   "explanation": [
+    "Boş zaman ve kültür yerleri. library kütüphanedir; kitapçı ise bookshop'tur. library'den kitap ödünç alınır (borrow books). museum'da sergiler gezilir."
+   ],
+   "collocations": [
+    {
+     "en": "go to the cinema",
+     "tr": "sinemaya gitmek"
+    },
+    {
+     "en": "borrow a book",
+     "tr": "kitap ödünç almak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The library is opposite the park.",
+     "tr": "Kütüphane parkın karşısında."
+    },
+    {
+     "en": "We go to the cinema on Saturdays.",
+     "tr": "Cumartesileri sinemaya gideriz."
+    },
+    {
+     "en": "The city museum is near the park.",
+     "tr": "Şehir müzesi parkın yakınında."
+    }
+   ],
+   "commonMistake": "library kitapçı değildir; kitapçı bookshop'tur."
+  },
+  {
+   "id": "hospital-police",
+   "term": "hospital · police station",
+   "meaning": "hastane · karakol",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "hospital · police station"
+   ],
+   "explanation": [
+    "Acil durumlarda gerekli yerler. police station karakoldur. Hastaneye gitmek go to hospital (İngiltere) ya da go to the hospital. Acil servis emergency department / A&E."
+   ],
+   "collocations": [
+    {
+     "en": "in hospital",
+     "tr": "hastanede (yatan)"
+    },
+    {
+     "en": "call the police",
+     "tr": "polisi aramak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The hospital is on Station Road.",
+     "tr": "Hastane Station Road'da."
+    },
+    {
+     "en": "The police station is between the hospital and the supermarket.",
+     "tr": "Karakol hastane ile süpermarketin arasında."
+    },
+    {
+     "en": "There's a bus stop in front of the hospital.",
+     "tr": "Hastanenin önünde bir otobüs durağı var."
+    }
+   ],
+   "commonMistake": "Karakol için police office değil police station denir."
+  },
+  {
+   "id": "stations",
+   "term": "bus station · train station · bus stop",
+   "meaning": "otogar · tren istasyonu · otobüs durağı",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "bus station · train station · bus stop"
+   ],
+   "explanation": [
+    "Ulaşım yerleri. bus station şehirlerarası otobüslerin kalktığı otogardır; bus stop şehir içi otobüs durağıdır. train station tren istasyonudur. Otobüse binmek catch / take the bus."
+   ],
+   "collocations": [
+    {
+     "en": "wait at the bus stop",
+     "tr": "durakta beklemek"
+    },
+    {
+     "en": "catch a train",
+     "tr": "trene binmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The bus to Ankara leaves from the bus station.",
+     "tr": "Ankara otobüsü otogardan kalkar."
+    },
+    {
+     "en": "I'm at the bus stop in front of the hospital.",
+     "tr": "Hastanenin önündeki duraktayım."
+    },
+    {
+     "en": "The restaurant is next to the train station.",
+     "tr": "Restoran tren istasyonunun yanında."
+    }
+   ],
+   "commonMistake": "Durak için bus station değil bus stop denir."
+  },
+  {
+   "id": "shops",
+   "term": "supermarket · bakery · restaurant · café",
+   "meaning": "süpermarket · fırın · restoran · kafe",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "supermarket · bakery · restaurant · café"
+   ],
+   "explanation": [
+    "Alışveriş ve yeme-içme yerleri. bakery fırındır; ekmekçi dükkânı için the baker's da denir. café'deki é aksanlı yazılır ama cafe de kabul edilir."
+   ],
+   "collocations": [
+    {
+     "en": "buy bread at the bakery",
+     "tr": "fırından ekmek almak"
+    },
+    {
+     "en": "have lunch at a restaurant",
+     "tr": "restoranda öğle yemeği yemek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "There's a small bakery on the corner.",
+     "tr": "Köşede küçük bir fırın var."
+    },
+    {
+     "en": "The supermarket is opposite the bus station.",
+     "tr": "Süpermarket otogarın karşısında."
+    },
+    {
+     "en": "My flat is above the café.",
+     "tr": "Dairem kafenin üstünde."
+    }
+   ],
+   "commonMistake": "Fırın için oven (ev fırını) değil bakery denir."
+  },
+  {
+   "id": "car-park-lights",
+   "term": "car park · traffic lights · crossroads",
+   "meaning": "otopark · trafik ışıkları · kavşak",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "car park · traffic lights · crossroads"
+   ],
+   "explanation": [
+    "Sokak ve trafik kelimeleri. car park İngiliz İngilizcesidir (Amerikan: parking lot). traffic lights hep çoğul. crossroads tekilde de -s ile yazılır: a crossroads."
+   ],
+   "collocations": [
+    {
+     "en": "at the traffic lights",
+     "tr": "trafik ışıklarında"
+    },
+    {
+     "en": "an underground car park",
+     "tr": "yer altı otoparkı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Turn left at the traffic lights.",
+     "tr": "Trafik ışıklarında sola dönün."
+    },
+    {
+     "en": "The car park is under the supermarket.",
+     "tr": "Otopark süpermarketin altında."
+    },
+    {
+     "en": "Go straight on at the crossroads.",
+     "tr": "Kavşakta düz devam edin."
+    }
+   ],
+   "commonMistake": "autopark denmez; car park ya da parking lot."
+  },
+  {
+   "id": "next-to",
+   "term": "next to",
+   "meaning": "yanında · bitişiğinde",
+   "partOfSpeech": "edat",
+   "sourceTerms": [
+    "next to"
+   ],
+   "explanation": [
+    "İki şeyin yan yana, aralarında başka bir şey olmadan durduğunu anlatır. MEB listesindeki “bitişiğinde” bu edattır. next to iki kelimedir ve to unutulmaz."
+   ],
+   "collocations": [
+    {
+     "en": "next to the door",
+     "tr": "kapının yanında"
+    },
+    {
+     "en": "sit next to me",
+     "tr": "yanıma otur"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The post office is next to the cinema.",
+     "tr": "Postane sinemanın yanında.",
+     "note": "Kazanım örneği"
+    },
+    {
+     "en": "The hotel is next to the bank.",
+     "tr": "Otel bankanın yanında."
+    },
+    {
+     "en": "Can I sit next to you?",
+     "tr": "Yanına oturabilir miyim?"
+    }
+   ],
+   "commonMistake": "next the cinema yerine next to the cinema denir."
+  },
+  {
+   "id": "opposite",
+   "term": "opposite",
+   "meaning": "karşısında",
+   "partOfSpeech": "edat",
+   "sourceTerms": [
+    "opposite"
+   ],
+   "explanation": [
+    "Bir şeyin karşısında, genellikle yolun öbür tarafında olduğunu anlatır. opposite'ten sonra of gelmez. Sıfat olarak zıt anlamına da gelir: the opposite of big."
+   ],
+   "collocations": [
+    {
+     "en": "opposite the bank",
+     "tr": "bankanın karşısında"
+    },
+    {
+     "en": "the opposite of",
+     "tr": "… -nin zıttı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The bank is opposite the cinema.",
+     "tr": "Banka sinemanın karşısında."
+    },
+    {
+     "en": "The library is opposite the park.",
+     "tr": "Kütüphane parkın karşısında."
+    },
+    {
+     "en": "The opposite of cheap is expensive.",
+     "tr": "Ucuzun zıttı pahalıdır.",
+     "note": "Farklı anlam: zıt"
+    }
+   ],
+   "commonMistake": "opposite of the bank yerine opposite the bank denir."
+  },
+  {
+   "id": "between",
+   "term": "between … and …",
+   "meaning": "… ile … arasında",
+   "partOfSpeech": "edat",
+   "sourceTerms": [
+    "between … and …"
+   ],
+   "explanation": [
+    "İki şeyin arasında olmayı anlatır. Türkçedeki “ile” and olur. Zaman için de kullanılır: between nine and five (dokuzla beş arası)."
+   ],
+   "collocations": [
+    {
+     "en": "between the bank and the café",
+     "tr": "bankayla kafenin arasında"
+    },
+    {
+     "en": "between 9 and 5",
+     "tr": "9 ile 5 arası"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The cinema is between the post office and the bakery.",
+     "tr": "Sinema postane ile fırının arasında."
+    },
+    {
+     "en": "The restaurant is between the bus station and the train station.",
+     "tr": "Restoran otogarla tren istasyonunun arasında."
+    },
+    {
+     "en": "The library is open between nine and six.",
+     "tr": "Kütüphane dokuzla altı arası açık."
+    }
+   ],
+   "commonMistake": "between the bank with the café yerine and kullanılır."
+  },
+  {
+   "id": "on-corner",
+   "term": "on the corner (of)",
+   "meaning": "köşede · … köşesinde",
+   "partOfSpeech": "edat kalıbı",
+   "sourceTerms": [
+    "on the corner (of)"
+   ],
+   "explanation": [
+    "Sokak köşesini anlatır. Hangi köşe olduğunu söylemek için of + iki sokak adı eklenir. Oda köşesi için in the corner kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "on the corner of the street",
+     "tr": "sokağın köşesinde"
+    },
+    {
+     "en": "just around the corner",
+     "tr": "hemen köşeyi dönünce"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The café is on the corner of High Street and Park Road.",
+     "tr": "Kafe High Street ile Park Road'un köşesinde."
+    },
+    {
+     "en": "There's a bakery on the corner.",
+     "tr": "Köşede bir fırın var."
+    },
+    {
+     "en": "The TV is in the corner of the room.",
+     "tr": "Televizyon odanın köşesinde.",
+     "note": "Oda köşesi → in"
+    }
+   ],
+   "commonMistake": "Sokak köşesi için in the corner değil on the corner denir."
+  },
+  {
+   "id": "front-behind",
+   "term": "in front of · behind",
+   "meaning": "önünde · arkasında",
+   "partOfSpeech": "edat",
+   "sourceTerms": [
+    "in front of · behind"
+   ],
+   "explanation": [
+    "in front of üç kelimelik bir edattır: önünde. Zıttı behind (arkasında). Bir bina, araç ya da kişi için kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "in front of the school",
+     "tr": "okulun önünde"
+    },
+    {
+     "en": "behind the house",
+     "tr": "evin arkasında"
+    }
+   ],
+   "examples": [
+    {
+     "en": "There's a bus stop in front of the hospital.",
+     "tr": "Hastanenin önünde bir otobüs durağı var."
+    },
+    {
+     "en": "The car park is behind the supermarket.",
+     "tr": "Otopark süpermarketin arkasında."
+    },
+    {
+     "en": "I'm in front of the main door.",
+     "tr": "Ana kapının önündeyim."
+    }
+   ],
+   "commonMistake": "front of the hospital yerine in front of the hospital denir."
+  },
+  {
+   "id": "near",
+   "term": "near",
+   "meaning": "yakınında",
+   "partOfSpeech": "edat / sıfat",
+   "sourceTerms": [
+    "near"
+   ],
+   "explanation": [
+    "Bir şeyin yakınında olmayı anlatır; bitişik olması gerekmez. Sorularda çok kullanılır: Is there a … near here? near'dan sonra to gelmez (near to da duyulur ama near yeterlidir)."
+   ],
+   "collocations": [
+    {
+     "en": "near here",
+     "tr": "buralarda, buraya yakın"
+    },
+    {
+     "en": "near my home",
+     "tr": "evimin yakınında"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Is there a pharmacy near here?",
+     "tr": "Buralarda eczane var mı?"
+    },
+    {
+     "en": "The bus station is near the train station.",
+     "tr": "Otogar tren istasyonunun yakınında."
+    },
+    {
+     "en": "I live near the park.",
+     "tr": "Parkın yakınında oturuyorum."
+    }
+   ],
+   "commonMistake": "near of the park yerine near the park denir."
+  },
+  {
+   "id": "above-under",
+   "term": "above · under",
+   "meaning": "üstünde · altında",
+   "partOfSpeech": "edat",
+   "sourceTerms": [
+    "above · under"
+   ],
+   "explanation": [
+    "above bir şeyin daha yukarısında, ona değmeden olmayı anlatır; binalarda üst kat için kullanılır. under altında demektir. Değerek üstünde olmak için on kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "above the pharmacy",
+     "tr": "eczanenin üstünde"
+    },
+    {
+     "en": "under the table",
+     "tr": "masanın altında"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The dentist is above the pharmacy.",
+     "tr": "Diş hekimi eczanenin üstünde."
+    },
+    {
+     "en": "The car park is under the supermarket.",
+     "tr": "Otopark süpermarketin altında."
+    },
+    {
+     "en": "My flat is above a café.",
+     "tr": "Dairem bir kafenin üstünde."
+    }
+   ],
+   "commonMistake": "Bina katları için on değil above daha doğaldır."
+  },
+  {
+   "id": "how-get-to",
+   "term": "Excuse me, how do I get to …?",
+   "meaning": "Affedersiniz, …-e nasıl giderim?",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "Excuse me, how do I get to …?"
+   ],
+   "explanation": [
+    "En yaygın yol sorma kalıbı. get to = varmak. home ile to kullanılmaz: How do I get home? Başa Excuse me eklemek kibarlıktır."
+   ],
+   "collocations": [
+    {
+     "en": "get to the station",
+     "tr": "istasyona varmak"
+    },
+    {
+     "en": "get home",
+     "tr": "eve varmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Excuse me, how do I get to the train station?",
+     "tr": "Affedersiniz, tren istasyonuna nasıl giderim?"
+    },
+    {
+     "en": "How do I get to your flat?",
+     "tr": "Dairene nasıl gelirim?"
+    },
+    {
+     "en": "How do I get home from here?",
+     "tr": "Buradan eve nasıl giderim?",
+     "note": "home → to yok"
+    }
+   ],
+   "commonMistake": "How can I go museum yerine How do I get to the museum denir."
+  },
+  {
+   "id": "go-straight",
+   "term": "Go straight on. · Go along …",
+   "meaning": "Dümdüz gidin. · … boyunca gidin.",
+   "partOfSpeech": "emir kalıbı",
+   "sourceTerms": [
+    "Go straight on. · Go along …"
+   ],
+   "explanation": [
+    "Düz gitmeyi anlatır. straight on İngiliz, straight ahead daha genel kullanımdır. Sokak adıyla go along: Go along High Street."
+   ],
+   "collocations": [
+    {
+     "en": "go straight ahead",
+     "tr": "dümdüz ilerlemek"
+    },
+    {
+     "en": "walk along the river",
+     "tr": "nehir boyunca yürümek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Go straight on at the crossroads.",
+     "tr": "Kavşakta dümdüz gidin."
+    },
+    {
+     "en": "Go along High Street.",
+     "tr": "High Street boyunca gidin."
+    },
+    {
+     "en": "Go straight on and cross the bridge.",
+     "tr": "Dümdüz gidin ve köprüyü geçin."
+    }
+   ],
+   "commonMistake": "Go straight go yerine Go straight on denir."
+  },
+  {
+   "id": "turn",
+   "term": "Turn left / right.",
+   "meaning": "Sola / sağa dönün.",
+   "partOfSpeech": "emir kalıbı",
+   "sourceTerms": [
+    "Turn left / right."
+   ],
+   "explanation": [
+    "Dönüş emri. left / right'tan önce to kullanılmaz. Dönüş noktası at, sokak adı into ile eklenir: Turn right at the traffic lights / into Park Road."
+   ],
+   "collocations": [
+    {
+     "en": "turn left at the lights",
+     "tr": "ışıklarda sola dönmek"
+    },
+    {
+     "en": "turn right into …",
+     "tr": "sağa, …-e sapmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Turn left at the traffic lights.",
+     "tr": "Trafik ışıklarında sola dönün."
+    },
+    {
+     "en": "Turn right into Park Road.",
+     "tr": "Sağa, Park Road'a dönün."
+    },
+    {
+     "en": "Turn left at the end of the street.",
+     "tr": "Sokağın sonunda sola dönün."
+    }
+   ],
+   "commonMistake": "Turn to left yerine Turn left denir."
+  },
+  {
+   "id": "take-first",
+   "term": "Take the first / second left.",
+   "meaning": "İlk / ikinci soldan dönün.",
+   "partOfSpeech": "emir kalıbı",
+   "sourceTerms": [
+    "Take the first / second left."
+   ],
+   "explanation": [
+    "Kaçıncı sokaktan dönüleceğini sıra sayısıyla söyleriz: first, second, third. Fiil take'tir. left / right burada “sol / sağ sokak” anlamındadır."
+   ],
+   "collocations": [
+    {
+     "en": "the third right",
+     "tr": "üçüncü sağ"
+    },
+    {
+     "en": "the next left",
+     "tr": "bir sonraki sol"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Take the second left.",
+     "tr": "İkinci soldan dönün."
+    },
+    {
+     "en": "Take the first right into Station Road.",
+     "tr": "İlk sağdan Station Road'a dönün."
+    },
+    {
+     "en": "Take the next left after the bank.",
+     "tr": "Bankadan sonraki ilk soldan dönün."
+    }
+   ],
+   "commonMistake": "Turn the second left yerine Take the second left denir."
+  },
+  {
+   "id": "go-past",
+   "term": "Go past … · Cross the road.",
+   "meaning": "…-i geçin · karşıya geçin",
+   "partOfSpeech": "emir kalıbı",
+   "sourceTerms": [
+    "Go past … · Cross the road."
+   ],
+   "explanation": [
+    "go past bir binanın yanından geçip ilerlemek demektir; işaret bina vermek için kullanılır. cross yolun karşısına geçmektir: Cross the road at the zebra crossing."
+   ],
+   "collocations": [
+    {
+     "en": "go past the bank",
+     "tr": "bankayı geçmek"
+    },
+    {
+     "en": "cross the street",
+     "tr": "caddeden karşıya geçmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Go past the bank and the pharmacy.",
+     "tr": "Bankayı ve eczaneyi geçin."
+    },
+    {
+     "en": "Cross the road at the traffic lights.",
+     "tr": "Trafik ışıklarında karşıya geçin."
+    },
+    {
+     "en": "Go past the park. The café is on your right.",
+     "tr": "Parkı geçin. Kafe sağınızda."
+    }
+   ],
+   "commonMistake": "Pass from the bank yerine Go past the bank denir."
+  },
+  {
+   "id": "on-your-left",
+   "term": "It's on your left / right.",
+   "meaning": "Solunuzda / sağınızda.",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "It's on your left / right."
+   ],
+   "explanation": [
+    "Varış cümlesi. Edat on'dur. Sağ ve sol yürüyen kişiye göredir. Ek bilgi virgülle eklenir: It's on your left, opposite the bank."
+   ],
+   "collocations": [
+    {
+     "en": "on the left side",
+     "tr": "sol tarafta"
+    },
+    {
+     "en": "You can't miss it.",
+     "tr": "Kolayca bulursunuz."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The museum is on your left.",
+     "tr": "Müze solunuzda."
+    },
+    {
+     "en": "It's on your right, next to the school.",
+     "tr": "Sağınızda, okulun yanında."
+    },
+    {
+     "en": "You can't miss it.",
+     "tr": "Kolayca bulursunuz."
+    }
+   ],
+   "commonMistake": "in your left yerine on your left denir."
+  },
+  {
+   "id": "not-far",
+   "term": "It's not far. · It's about five minutes' walk.",
+   "meaning": "Uzak değil · yürüyerek beş dakika kadar",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "It's not far. · It's about five minutes' walk."
+   ],
+   "explanation": [
+    "Mesafe bildiren kalıplar. far uzak demektir. … minutes' walk kalıbında kesme işareti s'den sonradır. Çok uzaksa: It's a long way. Take a bus."
+   ],
+   "collocations": [
+    {
+     "en": "a long way",
+     "tr": "çok uzak"
+    },
+    {
+     "en": "ten minutes by bus",
+     "tr": "otobüsle on dakika"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's not far. It's about five minutes' walk.",
+     "tr": "Uzak değil. Yürüyerek beş dakika kadar."
+    },
+    {
+     "en": "Is it far? — No, it's near here.",
+     "tr": "Uzak mı? — Hayır, buraya yakın."
+    },
+    {
+     "en": "It's a long way. Take the number 38 bus.",
+     "tr": "Çok uzak. 38 numaralı otobüse binin."
+    }
+   ],
+   "commonMistake": "five minutes walking yerine five minutes' walk denir."
+  },
+  {
+   "id": "where-now",
+   "term": "Where are you now? — I'm at …",
+   "meaning": "Şimdi neredesin? — …-deyim",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "Where are you now? — I'm at …"
+   ],
+   "explanation": [
+    "Telefonda konum sorma kalıbı. Belli nokta için at (at the station), sokak için on (on High Street), bir şeyin önü için in front of kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "I'm at the bus stop",
+     "tr": "duraktayım"
+    },
+    {
+     "en": "I'm on my way",
+     "tr": "yoldayım"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Where are you now? — I'm at the train station.",
+     "tr": "Şimdi neredesin? — Tren istasyonundayım."
+    },
+    {
+     "en": "I'm on High Street, near the bank.",
+     "tr": "High Street'teyim, bankanın yakınında."
+    },
+    {
+     "en": "I'm in front of the mosque.",
+     "tr": "Caminin önündeyim."
+    }
+   ],
+   "commonMistake": "I'm in station yerine I'm at the station denir."
+  },
+  {
+   "id": "can-you-see",
+   "term": "Can you see …?",
+   "meaning": "… görebiliyor musun?",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "Can you see …?"
+   ],
+   "explanation": [
+    "Telefonda karşı tarafın konumunu netleştirmek için sorulur. Cevap: Yes, I can. / No, I can't. Görülen şey on my left / on my right ile tarif edilir."
+   ],
+   "collocations": [
+    {
+     "en": "Can you see the sign?",
+     "tr": "Tabelayı görebiliyor musun?"
+    },
+    {
+     "en": "I can see a park",
+     "tr": "bir park görüyorum"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Can you see a big mosque?",
+     "tr": "Büyük bir cami görebiliyor musun?"
+    },
+    {
+     "en": "Yes, I can. It's on my right.",
+     "tr": "Evet. Sağımda."
+    },
+    {
+     "en": "No, I can't. I can see a supermarket.",
+     "tr": "Hayır. Bir süpermarket görüyorum."
+    }
+   ],
+   "commonMistake": "Are you seeing a park? yerine Can you see a park? denir."
+  },
+  {
+   "id": "call-me",
+   "term": "Call me when you get there.",
+   "meaning": "Oraya varınca beni ara.",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "Call me when you get there."
+   ],
+   "explanation": [
+    "Telefon konuşmasının kapanış kalıbı. when'den sonra will kullanılmaz; geniş zaman gelir: when you get there. get there = oraya varmak."
+   ],
+   "collocations": [
+    {
+     "en": "call me back",
+     "tr": "beni geri ara"
+    },
+    {
+     "en": "see you soon",
+     "tr": "görüşürüz"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Call me when you get there.",
+     "tr": "Oraya varınca beni ara."
+    },
+    {
+     "en": "Call me when you get to the café.",
+     "tr": "Kafeye varınca beni ara."
+    },
+    {
+     "en": "OK. See you soon!",
+     "tr": "Tamam. Görüşürüz!"
+    }
+   ],
+   "commonMistake": "when you will arrive yerine when you get there denir."
+  }
+ ]
+}

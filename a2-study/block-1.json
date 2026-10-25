@@ -1,0 +1,2038 @@
+{
+ "version": 1,
+ "block": 1,
+ "chapters": [
+  {
+   "screenId": "warm",
+   "title": "Isınma: geçen dersin sorularını cevaplamak",
+   "intro": [
+    "Yeni bir konuya başlamadan önce eski bilgileri canlandırmak, beynin yeni kelimeleri eskilerin yanına yerleştirmesini kolaylaştırır. Bu ekrandaki sorular geçen dersin konularıdır: duygular (How are you?), karakter (What's she like?), evdeki eşyaların yeri (Where's your sofa?) ve şehirde yapılabilecekler (What can you do in your town?).",
+    "Bu soruların her biri bir cevap kalıbı ister. Soru kelimesini ve fiili dikkatle dinlersen cevabın nasıl başlayacağını da bilirsin: Do you …? sorusu Yes, I do / No, I don't ister; Where's …? sorusu It's + edat ile cevaplanır; What's … like? sorusu ise sıfat ister. Bugün sıfatları çok kullanacağımız için bu son kalıp özellikle önemlidir."
+   ],
+   "patterns": [
+    {
+     "id": "warm-answer-patterns",
+     "title": "Soru → cevap kalıbı: Do you …? · Where's …? · What's … like?",
+     "meaning": "Sorunun biçimine göre cevabı başlatmak",
+     "explanation": [
+      "İngilizcede kısa ve doğru cevap vermenin sırrı, sorudaki yardımcı fiili ve soru kelimesini cevaba taşımaktır. Do you have a pet? sorusunda yardımcı fiil do'dur; kısa cevap da do ile kurulur: Yes, I do. ya da No, I don't. Yes, I have demek Türkçeden çeviri gibi durur ve bu soruya uygun değildir.",
+      "Where's the lamp? sorusu bir yer ister. Cevapta lambanın adını tekrar etmeyiz; It's ile başlar, sonra edat ve yer söyleriz: It's next to the sofa. What's she like? sorusu ise bir kişinin karakterini sorar; cevapta sıfat kullanırız: She's kind and funny. Burada like sevmek değil, “gibi” anlamındadır: “Nasıl biri?”",
+      "How are you? sorusunda duygunu söylerken pekiştireç ekleyebilirsin: I'm a bit tired. I'm really happy. a bit biraz, quite oldukça, very çok, really gerçekten anlamına gelir ve sıfattan hemen önce durur."
+     ],
+     "formula": [
+      "Do you …? → Yes, I do. / No, I don't.",
+      "Where's the …? → It's + edat + yer.",
+      "What's … like? → He's / She's / It's + sıfat."
+     ],
+     "examples": [
+      {
+       "en": "Do you have a pet? — Yes, I do. I have a cat.",
+       "tr": "Evcil hayvanın var mı? — Evet, var. Bir kedim var.",
+       "why": [
+        "Kısa cevap do ile; ardından bilgiyi tam cümleyle veririz."
+       ]
+      },
+      {
+       "en": "Where's your sofa? — It's opposite the TV.",
+       "tr": "Kanepen nerede? — Televizyonun karşısında.",
+       "why": [
+        "Yer sorusuna It's + edat ile cevap. opposite'ten sonra of gelmez."
+       ]
+      },
+      {
+       "en": "What's your best friend like? — She's kind and quite funny.",
+       "tr": "En iyi arkadaşın nasıl biri? — Kibar ve oldukça komik.",
+       "why": [
+        "What's … like? karakter sorar; iki sıfat and ile bağlanır."
+       ]
+      },
+      {
+       "en": "How are you today? — I'm a bit tired, but I'm happy.",
+       "tr": "Bugün nasılsın? — Biraz yorgunum ama mutluyum.",
+       "why": [
+        "a bit sıfatı yumuşatır; but iki zıt duyguyu bağlar."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Do you have a car? sorusuna kısa olumsuz cevap nedir?",
+       "answer": "No, I don't.",
+       "why": "Soru do ile kurulduğu için cevap da do ile kurulur."
+      },
+      {
+       "question": "Where's the bank? sorusunun cevabı nasıl başlar?",
+       "answer": "It's … (It's next to the cinema.)",
+       "why": "Yer sorusunda It's + edat kullanılır."
+      },
+      {
+       "question": "What's he like? ne sorar?",
+       "answer": "Onun karakterini, nasıl biri olduğunu sorar.",
+       "why": "like burada “gibi” anlamındadır."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Do you have a pet? — Yes, I have.",
+       "right": "Yes, I do.",
+       "why": "Kısa cevapta sorudaki yardımcı fiil (do) kullanılır."
+      },
+      {
+       "wrong": "What's she like? — She likes tea.",
+       "right": "She's kind and friendly.",
+       "why": "What's … like? karakter sorar, sevdiği şeyi değil."
+      }
+     ]
+    },
+    {
+     "id": "warm-animal-alphabet",
+     "title": "Hayvan alfabesi: a / an ile hayvan ve sıfat",
+     "meaning": "Bir hayvan adını a ya da an ile, bir sıfatla birlikte söylemek",
+     "explanation": [
+      "Isınma oyununda her harf için bir hayvan söylüyoruz. Tek bir hayvandan söz ederken önüne a ya da an koyarız. Seçimi hayvanın adının ilk sesi belirler: ünsüz sesle başlıyorsa a (a cat, a dog, a horse), ünlü sesle başlıyorsa an (an ant, an elephant, an owl, an eagle).",
+      "İkinci turda hayvana bir sıfat ekliyoruz. Sıfat hayvanın adından önce gelir ve a / an artık sıfata bakar: an elephant ama a big elephant; a turtle ama an old turtle. Bu küçük kural yazıda ve konuşmada çok sık karşımıza çıkar.",
+      "Bir hayvanın İngilizcesini bilmiyorsan sınıfta sormayı unutma: How do you say “deve” in English? Cevap: A camel. Sormak öğrenmenin en hızlı yoludur."
+     ],
+     "formula": [
+      "a + ünsüz sesle başlayan kelime: a cat, a big dog",
+      "an + ünlü sesle başlayan kelime: an owl, an old horse",
+      "How do you say … in English?"
+     ],
+     "examples": [
+      {
+       "en": "A is for ant: an ant.",
+       "tr": "A harfi: ant (karınca).",
+       "why": [
+        "ant ünlü sesle başlar, bu yüzden an ant."
+       ]
+      },
+      {
+       "en": "It's a big elephant.",
+       "tr": "Büyük bir fil.",
+       "why": [
+        "Sıfat (big) ünsüzle başladığı için a kullanılır; elephant'a bakılmaz."
+       ]
+      },
+      {
+       "en": "It's an old horse.",
+       "tr": "Yaşlı bir at.",
+       "why": [
+        "old ünlüyle başladığı için an; horse'a bakılmaz."
+       ]
+      },
+      {
+       "en": "How do you say “kaplumbağa” in English? — A turtle.",
+       "tr": "Kaplumbağa İngilizcede nasıl denir? — A turtle.",
+       "why": [
+        "Bilmediğin kelimeyi bu kalıpla sor."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "___ eagle: a mı an mı?",
+       "answer": "an eagle",
+       "why": "eagle ünlü sesle başlar."
+      },
+      {
+       "question": "___ small elephant: a mı an mı?",
+       "answer": "a small elephant",
+       "why": "a / an sıfata bakar; small ünsüzle başlar."
+      },
+      {
+       "question": "“Deve İngilizcede nasıl denir?” nasıl sorulur?",
+       "answer": "How do you say “deve” in English?",
+       "why": "Bilinmeyen kelimeyi sorma kalıbı."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "a elephant",
+       "right": "an elephant",
+       "why": "Ünlü sesle başlayan kelimeden önce an gelir."
+      },
+      {
+       "wrong": "an big dog",
+       "right": "a big dog",
+       "why": "a / an kendisinden sonraki kelimenin ilk sesine bakar: big."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "adjectives",
+   "title": "Sıfatlar ve zıt anlamlıları",
+   "intro": [
+    "Sıfat (adjective), bir ismin nasıl olduğunu anlatan kelimedir: büyük, ucuz, yumuşak, soğuk. Bu derste MEB programındaki on altı sıfatı öğreniyoruz: small, big, comfortable, expensive, cheap, soft, hard, cold, hot, long, short, light, heavy, fast, slow, clean. Hepsini zıt anlamlısıyla birlikte öğrenmek hem hatırlamayı kolaylaştırır hem de karşılaştırma yapmamızı sağlar.",
+    "İngilizce sıfatların çok rahat bir yanı var: Türkçedeki gibi ek almazlar ve tekil-çoğul ayrımı yapmazlar. a big dog, two big dogs, the big dogs: big hiç değişmez. Dikkat etmemiz gereken iki şey var: sıfatın cümledeki yeri ve be fiilini (is / are) unutmamak."
+   ],
+   "patterns": [
+    {
+     "id": "adj-position",
+     "title": "Sıfatın yeri: a big dog · The dog is big",
+     "meaning": "Sıfatı ismin önünde ya da be fiilinden sonra kullanmak",
+     "explanation": [
+      "Sıfat iki yerde kullanılır. Birincisi ismin hemen önüdür: a big dog, a cheap phone, soft pillows. Bu sıra Türkçe ile aynıdır: büyük bir köpek. Tek fark, İngilizcede a / an'ın en başa gelmesidir: a + sıfat + isim.",
+      "İkincisi be fiilinden (am, is, are) sonradır: The dog is big. The phones are cheap. Türkçede “Köpek büyük” deriz ve bir fiil kullanmayız. İngilizcede ise cümlenin fiili olmadan olmaz; bu yüzden is ya da are mutlaka gelir. The dog big demek çok sık yapılan bir hatadır.",
+      "Sıfatlar çoğul eki almaz. two bigs dogs yanlıştır, two big dogs doğrudur. Çoğulluğu isim taşır. Ayrıca sıfat ünlü sesle başlıyorsa a yerine an kullanılır: an expensive car, an old house, an easy question."
+     ],
+     "formula": [
+      "a / an + sıfat + isim: a cheap hotel",
+      "isim + is / are + sıfat: The hotel is cheap.",
+      "çoğul: two cheap hotels (sıfat değişmez)"
+     ],
+     "examples": [
+      {
+       "en": "It's an expensive car.",
+       "tr": "Pahalı bir araba.",
+       "why": [
+        "Sıfat ismin önünde; expensive ünlüyle başladığı için an."
+       ],
+       "chunks": [
+        {
+         "en": "an",
+         "tr": "bir",
+         "note": "Ünlü sesten önce."
+        },
+        {
+         "en": "expensive",
+         "tr": "pahalı"
+        },
+        {
+         "en": "car",
+         "tr": "araba"
+        }
+       ]
+      },
+      {
+       "en": "The car is expensive.",
+       "tr": "Araba pahalı.",
+       "why": [
+        "Aynı bilgi bu kez is'ten sonra sıfatla verilir. is unutulmamalı."
+       ]
+      },
+      {
+       "en": "These shoes are very comfortable.",
+       "tr": "Bu ayakkabılar çok rahat.",
+       "why": [
+        "Çoğul özne (shoes) → are. Sıfat (comfortable) değişmez."
+       ]
+      },
+      {
+       "en": "We have two small rooms and a big kitchen.",
+       "tr": "İki küçük odamız ve büyük bir mutfağımız var.",
+       "why": [
+        "small, çoğul isimden (rooms) önce de small kalır."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Çanta ağır.” İngilizcede nasıl söylenir?",
+       "answer": "The bag is heavy.",
+       "why": "be fiili (is) eklenir."
+      },
+      {
+       "question": "“İki ucuz bilet” nasıl yazılır?",
+       "answer": "two cheap tickets",
+       "why": "Sıfat çoğul eki almaz."
+      },
+      {
+       "question": "___ old car: a mı an mı?",
+       "answer": "an old car",
+       "why": "old ünlüyle başlar."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The tea hot.",
+       "right": "The tea is hot.",
+       "why": "Sıfatlı cümlede be fiili (is / are) gerekir."
+      },
+      {
+       "wrong": "two bigs dogs",
+       "right": "two big dogs",
+       "why": "Sıfat -s almaz; çoğulluğu isim gösterir."
+      }
+     ]
+    },
+    {
+     "id": "adj-opposites",
+     "title": "Zıt çiftler: big ↔ small, cheap ↔ expensive",
+     "meaning": "On altı sıfatı zıt anlamlısıyla birlikte öğrenmek",
+     "explanation": [
+      "Bu dersin sıfatlarını dört grupta düşünebiliriz. Boyut ve uzunluk: big (büyük) ↔ small (küçük), long (uzun) ↔ short (kısa). Ağırlık ve hız: heavy (ağır) ↔ light (hafif), fast (hızlı) ↔ slow (yavaş). Sıcaklık ve dokunma: hot (sıcak) ↔ cold (soğuk), soft (yumuşak) ↔ hard (sert). Fiyat, rahatlık ve temizlik: cheap (ucuz) ↔ expensive (pahalı), comfortable (rahat) ↔ uncomfortable (rahatsız), clean (temiz) ↔ dirty (kirli).",
+      "Bazı zıtlar bir ön ekle yapılır: comfortable → uncomfortable. un- “değil” anlamı katar. Ama bu kural her sıfata uymaz: uncheap ya da unbig diye kelime yoktur. Bu yüzden zıtları çift hâlinde ezberlemek en güvenli yoldur.",
+      "Bazı sıfatların iki anlamı vardır. light hem hafif hem de açık renk (light blue) demektir. hard hem sert (a hard bed) hem de zor (a hard question) anlamına gelir. short, uzunluk için long'un, boy için tall'ın zıttıdır: a short film, a short man."
+     ],
+     "formula": [
+      "big ↔ small · long ↔ short · heavy ↔ light · fast ↔ slow",
+      "hot ↔ cold · soft ↔ hard · cheap ↔ expensive",
+      "comfortable ↔ uncomfortable · clean ↔ dirty"
+     ],
+     "examples": [
+      {
+       "en": "An elephant is big, but a mouse is small.",
+       "tr": "Fil büyüktür ama fare küçüktür.",
+       "why": [
+        "but iki zıt bilgiyi bağlar; zıt sıfatlar karşılaştırmayı kolaylaştırır."
+       ]
+      },
+      {
+       "en": "My suitcase is heavy, but my bag is light.",
+       "tr": "Bavulum ağır ama çantam hafif.",
+       "why": [
+        "heavy ↔ light: ağırlık zıtlığı."
+       ]
+      },
+      {
+       "en": "This bed is soft and comfortable.",
+       "tr": "Bu yatak yumuşak ve rahat.",
+       "why": [
+        "İki olumlu sıfat and ile bağlanır."
+       ]
+      },
+      {
+       "en": "The bus is cheap but slow. A taxi is fast but expensive.",
+       "tr": "Otobüs ucuz ama yavaş. Taksi hızlı ama pahalı.",
+       "why": [
+        "İki zıt çift aynı anda kullanılmış: cheap ↔ expensive, slow ↔ fast."
+       ]
+      },
+      {
+       "en": "The kitchen is clean now. It isn't dirty.",
+       "tr": "Mutfak artık temiz. Kirli değil.",
+       "why": [
+        "clean ↔ dirty; olumsuz cümle isn't ile kurulur."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "comfortable'ın zıttı nedir?",
+       "answer": "uncomfortable",
+       "why": "un- ön eki “değil” anlamı katar."
+      },
+      {
+       "question": "light kelimesinin iki anlamı nedir?",
+       "answer": "hafif ve açık (renk)",
+       "why": "a light bag · light blue"
+      },
+      {
+       "question": "“Taksi pahalı ama hızlı.” cümlesini yazın.",
+       "answer": "A taxi is expensive but fast.",
+       "why": "but iki zıt bilgiyi bağlar."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "uncheap",
+       "right": "expensive",
+       "why": "Her sıfatın zıttı un- ile yapılmaz; cheap'in zıttı expensive'dir."
+      },
+      {
+       "wrong": "a long man",
+       "right": "a tall man",
+       "why": "İnsanın boyu için tall ↔ short kullanılır."
+      }
+     ]
+    },
+    {
+     "id": "adj-intensifiers",
+     "title": "very · quite · a bit · too · not very",
+     "meaning": "Sıfatın derecesini değiştirmek ve sorun bildirmek",
+     "explanation": [
+      "Sıfatın önüne bir kelime koyarak derecesini değiştirebiliriz: very (çok), quite (oldukça), a bit (biraz). The tea is very hot. The room is quite small. I'm a bit tired. Bu kelimeler her zaman sıfattan hemen önce gelir.",
+      "too çok önemli bir kelimedir ve very ile karıştırılır. too “gereğinden fazla” demektir ve bir sorun bildirir: The tea is too hot. (Çay o kadar sıcak ki içemiyorum.) The coat is too expensive. (Mont o kadar pahalı ki alamıyorum.) very ise sadece derece bildirir, sorun yoktur: The coat is very expensive, but I want it.",
+      "Kibar bir olumsuzluk için not very kullanırız: The bed isn't very comfortable. (Yatak pek rahat değil.) Bu, The bed is uncomfortable demekten daha yumuşaktır; özellikle birinin evi ya da hediyesi hakkında konuşurken kibarlık katar."
+     ],
+     "formula": [
+      "very / quite / a bit + sıfat: very hot, quite small, a bit tired",
+      "too + sıfat = fazla (sorun): too heavy, too expensive",
+      "isn't very + sıfat = pek … değil"
+     ],
+     "examples": [
+      {
+       "en": "The tea is very hot.",
+       "tr": "Çay çok sıcak.",
+       "why": [
+        "very sadece derece bildirir; içmek mümkün olabilir."
+       ]
+      },
+      {
+       "en": "The tea is too hot. I can't drink it.",
+       "tr": "Çay fazla sıcak. İçemiyorum.",
+       "why": [
+        "too bir sorun bildirir; ikinci cümle bu sorunu açıklar."
+       ]
+      },
+      {
+       "en": "This suitcase is too heavy for me.",
+       "tr": "Bu bavul benim için fazla ağır.",
+       "why": [
+        "too + sıfat + for me: benim taşıyamayacağım kadar."
+       ]
+      },
+      {
+       "en": "The hotel is quite cheap and the beds aren't very hard.",
+       "tr": "Otel oldukça ucuz ve yataklar pek sert değil.",
+       "why": [
+        "quite olumlu bir derece; aren't very kibar bir olumsuzluk."
+       ]
+      },
+      {
+       "en": "I'm a bit cold. Can you close the window?",
+       "tr": "Biraz üşüdüm. Pencereyi kapatır mısın?",
+       "why": [
+        "a bit + sıfat; I'm cold Türkçedeki “üşüdüm”ün karşılığıdır."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bu ayakkabılar bana fazla küçük.” nasıl söylenir?",
+       "answer": "These shoes are too small for me.",
+       "why": "Sorun var → too."
+      },
+      {
+       "question": "very hot ile too hot farkı nedir?",
+       "answer": "very hot çok sıcak; too hot fazla sıcak, bir sorun var (içilemez, dokunulamaz).",
+       "why": "too sorun bildirir."
+      },
+      {
+       "question": "“Pek rahat değil.” nasıl söylenir?",
+       "answer": "It isn't very comfortable.",
+       "why": "not very = pek … değil"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It's too nice! I love it.",
+       "right": "It's very nice! I love it.",
+       "why": "Olumlu bir durumda too değil very kullanılır."
+      },
+      {
+       "wrong": "I'm bit tired.",
+       "right": "I'm a bit tired.",
+       "why": "a bit iki kelimedir; a düşmez."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "very / too",
+       "explanation": [
+        "very sadece dereceyi artırır; too bir şeyin istenen sınırı aştığını ve bir soruna yol açtığını söyler."
+       ],
+       "example": "The box is very heavy, but I can carry it. · The box is too heavy. I can't carry it.",
+       "tr": [
+        "Kutu çok ağır ama taşıyabilirim. · Kutu fazla ağır. Taşıyamam."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "describe-things",
+   "title": "Nesneleri ve yerleri betimlemek: What's it like?",
+   "intro": [
+    "Sıfatları tek tek bildikten sonra onları cümlede kullanma zamanı. Bu ekranda bir eşyayı ya da yeri betimliyoruz: telefonumuz, yatağımız, otobüs, sınıfımız. Bunun için iki soru kalıbı öğreniyoruz: What's it like? (Nasıl bir şey?) ve Is it …? (… mi?).",
+    "Cevaplarda genellikle iki sıfat kullanırız. İki bilgi aynı yöndeyse and, zıt yöndeyse but kullanırız: It's cheap and comfortable. / It's cheap but uncomfortable. Bu küçük bağlaçlar konuşmanı hem daha uzun hem de daha doğal yapar."
+   ],
+   "patterns": [
+    {
+     "id": "dt-whats-it-like",
+     "title": "What's it like? · Is it …?",
+     "meaning": "Bir şeyin özelliklerini sormak ve cevaplamak",
+     "explanation": [
+      "What's it like? sorusu bir şeyin genel özelliklerini sorar. Kalıp What's + isim + like? şeklindedir: What's your new phone like? What's the hotel like? What are your neighbours like? Buradaki like fiil değildir, “gibi” anlamında bir edattır. Bu yüzden cevapta like kullanılmaz; sıfatlarla cevap verilir: It's light and fast.",
+      "Evet / hayır sorusu için Is it + sıfat? kullanırız: Is it heavy? Is it expensive? Kısa cevaplar: Yes, it is. / No, it isn't. Çoğul için Are they …? — Yes, they are. / No, they aren't. Tahmin oyunlarında bu kalıp çok işe yarar.",
+      "What's it like? ile Do you like it? farklı sorulardır. Do you like it? senin fikrini, beğenip beğenmediğini sorar: Yes, I do. What's it like? ise o şeyin özelliklerini sorar: It's small but comfortable."
+     ],
+     "formula": [
+      "What's + isim + like? → It's + sıfat (and / but + sıfat).",
+      "Is it + sıfat? → Yes, it is. / No, it isn't.",
+      "Are they + sıfat? → Yes, they are. / No, they aren't."
+     ],
+     "examples": [
+      {
+       "en": "What's your new flat like? — It's small but very comfortable.",
+       "tr": "Yeni dairen nasıl? — Küçük ama çok rahat.",
+       "why": [
+        "What's … like? sorusuna sıfatlarla cevap; but zıt bilgiyi bağlar."
+       ],
+       "chunks": [
+        {
+         "en": "What's … like?",
+         "tr": "… nasıl (bir şey)?",
+         "note": "like = gibi"
+        },
+        {
+         "en": "small but comfortable",
+         "tr": "küçük ama rahat"
+        }
+       ]
+      },
+      {
+       "en": "Is it heavy? — No, it isn't. It's quite light.",
+       "tr": "Ağır mı? — Hayır. Oldukça hafif.",
+       "why": [
+        "Is it …? kısa cevabı it is / it isn't; ardından doğru bilgi."
+       ]
+      },
+      {
+       "en": "What are the beds like? — They're hard and uncomfortable.",
+       "tr": "Yataklar nasıl? — Sert ve rahatsız.",
+       "why": [
+        "Çoğul: What are … like? → They're …"
+       ]
+      },
+      {
+       "en": "Do you like your phone? — Yes, I do. It's fast and cheap.",
+       "tr": "Telefonunu seviyor musun? — Evet. Hızlı ve ucuz.",
+       "why": [
+        "Do you like …? beğeni sorar; özellikleri ayrıca söyleriz."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Otelin nasıl?” nasıl sorulur?",
+       "answer": "What's your hotel like?",
+       "why": "What's + isim + like?"
+      },
+      {
+       "question": "Is it soft? sorusuna kısa olumsuz cevap?",
+       "answer": "No, it isn't.",
+       "why": "Is it …? → it isn't"
+      },
+      {
+       "question": "What's it like? sorusuna “It's like soft.” demek doğru mu?",
+       "answer": "Hayır. Doğrusu: It's soft.",
+       "why": "Cevapta like kullanılmaz."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "How is your flat like?",
+       "right": "What's your flat like?",
+       "why": "like'lı kalıp What ile kurulur. (How is your flat? de olur ama like olmadan.)"
+      },
+      {
+       "wrong": "What's it like? — I like it.",
+       "right": "It's big and bright.",
+       "why": "Soru beğeniyi değil, özellikleri sorar."
+      }
+     ]
+    },
+    {
+     "id": "dt-and-but",
+     "title": "and mi, but mı? İki sıfatı bağlamak",
+     "meaning": "İki özelliği aynı yönde ya da zıt yönde birleştirmek",
+     "explanation": [
+      "İki sıfat aynı yönde ise, yani ikisi de olumlu ya da ikisi de olumsuzsa and kullanırız: The hotel is clean and comfortable. The room is dark and dirty. Türkçedeki “ve” gibidir.",
+      "Sıfatlardan biri olumlu, diğeri olumsuzsa but kullanırız: The hotel is clean but expensive. (Temiz, güzel; ama pahalı, kötü.) My car is old but fast. (Eski, beklenen yavaşlık; ama hızlı, beklenmedik artı.) but Türkçedeki “ama, fakat”tır ve dinleyene bir zıtlık geleceğini haber verir.",
+      "Uzun cümlelerde but'tan sonra yeni bir cümle de başlatabiliriz: Taxis are fast, but they're expensive. Bu durumda but'tan önce genellikle virgül konur."
+     ],
+     "formula": [
+      "sıfat + and + sıfat: aynı yön (clean and comfortable)",
+      "sıfat + but + sıfat: zıt yön (cheap but slow)",
+      "cümle, but + cümle: Taxis are fast, but they're expensive."
+     ],
+     "examples": [
+      {
+       "en": "The park is big and clean.",
+       "tr": "Park büyük ve temiz.",
+       "why": [
+        "İki olumlu bilgi → and."
+       ]
+      },
+      {
+       "en": "The flat is nice but too expensive.",
+       "tr": "Daire güzel ama fazla pahalı.",
+       "why": [
+        "Olumlu + olumsuz → but; too sorunu vurgular."
+       ]
+      },
+      {
+       "en": "My bag is old but very comfortable.",
+       "tr": "Çantam eski ama çok rahat.",
+       "why": [
+        "Beklenmedik bir artı: but."
+       ]
+      },
+      {
+       "en": "Taxis are fast, but they're expensive.",
+       "tr": "Taksiler hızlı ama pahalı.",
+       "why": [
+        "but iki tam cümleyi bağlar; önüne virgül gelir."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Telefonum ucuz ama yavaş.” cümlesinde hangi bağlaç?",
+       "answer": "but: My phone is cheap but slow.",
+       "why": "Olumlu + olumsuz."
+      },
+      {
+       "question": "“Odası temiz ve rahat.” İngilizcesi?",
+       "answer": "The room is clean and comfortable.",
+       "why": "İki olumlu bilgi."
+      },
+      {
+       "question": "The sofa is soft ___ comfortable. Boşluğa ne gelir?",
+       "answer": "and",
+       "why": "İkisi de olumlu."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The hotel is cheap and dirty, but I like it and.",
+       "right": "The hotel is cheap and dirty, but I like it.",
+       "why": "and cümlenin sonunda kullanılmaz."
+      },
+      {
+       "wrong": "It's expensive and I don't buy it but.",
+       "right": "It's expensive, so I don't buy it.",
+       "why": "Sonuç bildirmek için so kullanılır; but cümle sonunda olmaz."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "animals",
+   "title": "Hayvan isimleri: gruplar, a / an ve düzensiz çoğullar",
+   "intro": [
+    "Hayvanları gruplar hâlinde öğrenmek akılda tutmayı kolaylaştırır: farm animals (çiftlik hayvanları), pets (evcil hayvanlar), wild animals (vahşi hayvanlar), water animals (su hayvanları), birds and insects (kuşlar ve böcekler). Bir hayvan birden fazla gruba girebilir; örneğin bir balık hem su hayvanı hem de evcil hayvan olabilir.",
+    "Hayvan isimlerinde iki dilbilgisi noktası önemlidir: tekilde a / an seçimi ve çoğul yapımı. Çoğu hayvan -s alır ama bazıları hiç değişmez (sheep, fish, deer) ya da düzensizdir (mouse → mice). Genel konuşurken çoğul kullanırız: I like cats. Lions live in Africa."
+   ],
+   "patterns": [
+    {
+     "id": "an-groups",
+     "title": "Hayvan grupları: farm · pet · wild · water · birds and insects",
+     "meaning": "Hayvan adlarını yaşadıkları ortama göre gruplamak",
+     "explanation": [
+      "Çiftlik hayvanları (farm animals): cow (inek), sheep (koyun), goat (keçi), horse (at), donkey (eşek), chicken (tavuk), duck (ördek), bee (arı). Evcil hayvanlar (pets): dog, cat, rabbit (tavşan), parrot (papağan), turtle (kaplumbağa), goldfish (japon balığı).",
+      "Vahşi hayvanlar (wild animals): lion (aslan), tiger (kaplan), bear (ayı), wolf (kurt), fox (tilki), elephant (fil), giraffe (zürafa), monkey (maymun), zebra, camel (deve). Sürüngenler ve su hayvanları: crocodile (timsah), snake (yılan), frog (kurbağa), fish (balık), dolphin (yunus), whale (balina), shark (köpekbalığı). Kuşlar ve böcekler: eagle (kartal), owl (baykuş), penguin (penguen), butterfly (kelebek), ant (karınca), spider (örümcek).",
+      "Türkçede “köpekbalığı” bir balık adı gibi görünse de İngilizcede tek kelimedir: shark. Tersine, İngilizcede goldfish tek kelimedir ama Türkçede “japon balığı” deriz. Kelimeyi kelime kelime çevirmeye çalışmak yerine hayvanın kendi adını öğrenin."
+     ],
+     "formula": [
+      "farm animals: cow, sheep, goat, horse, chicken, duck, bee",
+      "pets: dog, cat, rabbit, parrot · wild animals: lion, bear, elephant, monkey",
+      "water animals: fish, dolphin, whale, shark · birds: eagle, owl, penguin"
+     ],
+     "examples": [
+      {
+       "en": "My uncle has a farm. He has cows, sheep and chickens.",
+       "tr": "Amcamın bir çiftliği var. İnekleri, koyunları ve tavukları var.",
+       "why": [
+        "Çiftlik hayvanları; sheep çoğulda değişmez."
+       ]
+      },
+      {
+       "en": "Do you have a pet? — Yes, I have a parrot.",
+       "tr": "Evcil hayvanın var mı? — Evet, bir papağanım var.",
+       "why": [
+        "pet = evcil hayvan."
+       ]
+      },
+      {
+       "en": "Lions, tigers and bears are wild animals.",
+       "tr": "Aslanlar, kaplanlar ve ayılar vahşi hayvanlardır.",
+       "why": [
+        "Genel bilgi → çoğul isimler."
+       ]
+      },
+      {
+       "en": "A dolphin isn't a fish.",
+       "tr": "Yunus bir balık değildir.",
+       "why": [
+        "Yunus su hayvanıdır ama memelidir; isn't ile olumsuz."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Üç çiftlik hayvanı söyleyin.",
+       "answer": "cow, sheep, goat, horse, chicken, duck …",
+       "why": "farm animals"
+      },
+      {
+       "question": "“Köpekbalığı” İngilizcede nedir?",
+       "answer": "shark",
+       "why": "Tek kelime."
+      },
+      {
+       "question": "pet ne demek?",
+       "answer": "evcil hayvan",
+       "why": "I have a pet."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "dog fish",
+       "right": "shark",
+       "why": "Köpekbalığı kelime kelime çevrilmez."
+      },
+      {
+       "wrong": "I have a pet cat and pet dog.",
+       "right": "I have a cat and a dog.",
+       "why": "pet kelimesini her hayvanla tekrarlamaya gerek yok; a da unutulmamalı."
+      }
+     ]
+    },
+    {
+     "id": "an-plurals",
+     "title": "Tekil ve çoğul: a cat → cats · a sheep → sheep · a mouse → mice",
+     "meaning": "Hayvan isimlerinin çoğulunu doğru yapmak",
+     "explanation": [
+      "Çoğu hayvan adı -s ile çoğul olur: cats, dogs, lions, cows. -s, -x, -ch, -sh ile bitenler -es alır: fox → foxes. Sessiz harf + y ile bitenlerde y düşer, -ies gelir: butterfly → butterflies. -f ile bitenlerin bir kısmında f, v olur ve -es gelir: wolf → wolves.",
+      "Bazı hayvanlar çoğulda hiç değişmez: one sheep, two sheep; one fish, ten fish; one deer, three deer. Bu kelimelere -s eklemek çok sık yapılan bir hatadır. Bazıları da tamamen düzensizdir: mouse → mice (fareler), goose → geese (kazlar).",
+      "Tekilde a / an kullanılır: a lion, an elephant, an eagle, an owl, an ant. Genel bilgi verirken çoğul ve a / an'sız kullanırız: Elephants are big. Bir hayvan türünden genel olarak söz ederken a + tekil de olur: An elephant is big. Ama The elephant is big dersek belli bir fili kastederiz."
+     ],
+     "formula": [
+      "çoğu hayvan + s: cats, cows · -x / -s / -ch / -sh + es: foxes",
+      "sessiz + y → ies: butterflies · -f → ves: wolves",
+      "değişmez: sheep, fish, deer · düzensiz: mouse → mice, goose → geese"
+     ],
+     "examples": [
+      {
+       "en": "There are ten sheep and two goats on the farm.",
+       "tr": "Çiftlikte on koyun ve iki keçi var.",
+       "why": [
+        "sheep değişmez; goat -s alır."
+       ]
+      },
+      {
+       "en": "Wolves live in the forest.",
+       "tr": "Kurtlar ormanda yaşar.",
+       "why": [
+        "wolf → wolves."
+       ]
+      },
+      {
+       "en": "I'm scared of mice.",
+       "tr": "Farelerden korkarım.",
+       "why": [
+        "mouse'un çoğulu düzensiz: mice."
+       ]
+      },
+      {
+       "en": "Look! Three butterflies on the flowers.",
+       "tr": "Bak! Çiçeklerin üstünde üç kelebek.",
+       "why": [
+        "butterfly → butterflies (y → ies)."
+       ]
+      },
+      {
+       "en": "An owl can see at night.",
+       "tr": "Baykuş gece görebilir.",
+       "why": [
+        "owl ünlüyle başlar → an. Genel bilgi için a / an + tekil."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "one fish → two ___?",
+       "answer": "fish",
+       "why": "fish çoğulda genellikle değişmez."
+      },
+      {
+       "question": "one fox → two ___?",
+       "answer": "foxes",
+       "why": "-x ile bitenler -es alır."
+      },
+      {
+       "question": "one wolf → two ___?",
+       "answer": "wolves",
+       "why": "-f → -ves"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "three sheeps",
+       "right": "three sheep",
+       "why": "sheep çoğulda değişmez."
+      },
+      {
+       "wrong": "two mouses",
+       "right": "two mice",
+       "why": "mouse düzensiz çoğul yapar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "habitats",
+   "title": "Hayvanlar nerede yaşar? it lives · they live",
+   "intro": [
+    "Bu ekranın kazanımı hayvanların isimlerini ve yaşadıkları yerleri söylemektir: A crocodile lives in the river. Bunun için live (yaşamak) fiilini geniş zamanda kullanırız. Geniş zaman (present simple) genel gerçekleri anlatır; hayvanların yaşadığı yer de böyle bir gerçektir.",
+    "Burada hatırlamamız gereken kural, üçüncü tekil kişide fiile -s eklenmesidir. Bir hayvan için it kullanırız ve it de he / she gibi -s ister: it lives. Çoğulda ise -s yoktur: they live. Soruda does / do, olumsuzda doesn't / don't kullanırız."
+   ],
+   "patterns": [
+    {
+     "id": "hb-lives",
+     "title": "A crocodile lives in the river. · Crocodiles live in rivers.",
+     "meaning": "Bir hayvanın yaşadığı yeri geniş zamanla söylemek",
+     "explanation": [
+      "Tek bir hayvandan ya da bir türden a + tekil ile söz ettiğimizde fiil -s alır: A camel lives in the desert. It lives in the desert. Bu, he / she ile öğrendiğimiz kuralın aynısıdır; hayvanlar için it kullanılır.",
+      "Bütün türden genel olarak söz ederken çoğul daha doğaldır ve fiil -s almaz: Camels live in the desert. They live in the desert. İki cümlenin anlamı aynıdır; ikisi de doğru ve yaygındır. Önemli olan özne ile fiilin uyumudur: tekil özne + lives, çoğul özne + live.",
+      "Türkçede “Timsah nehirde yaşar” cümlesinde fiil sonda, yer ortadadır. İngilizcede sıra özne + fiil + yerdir: A crocodile (özne) lives (fiil) in the river (yer). Yer bilgisi cümlenin sonuna gelir."
+     ],
+     "formula": [
+      "a / an + hayvan (it) + lives + yer: A camel lives in the desert.",
+      "hayvanlar (they) + live + yer: Camels live in the desert.",
+      "sıra: özne + fiil + yer"
+     ],
+     "examples": [
+      {
+       "en": "A crocodile lives in the river.",
+       "tr": "Timsah nehirde yaşar.",
+       "why": [
+        "Tekil özne → lives. Yer cümlenin sonunda."
+       ],
+       "chunks": [
+        {
+         "en": "a crocodile",
+         "tr": "bir timsah (genel)"
+        },
+        {
+         "en": "lives",
+         "tr": "yaşar",
+         "note": "it → -s"
+        },
+        {
+         "en": "in the river",
+         "tr": "nehirde"
+        }
+       ]
+      },
+      {
+       "en": "Dolphins live in the sea.",
+       "tr": "Yunuslar denizde yaşar.",
+       "why": [
+        "Çoğul özne → live (-s yok)."
+       ]
+      },
+      {
+       "en": "A bear lives in the forest. It eats fish and fruit.",
+       "tr": "Ayı ormanda yaşar. Balık ve meyve yer.",
+       "why": [
+        "İkinci cümlede it ile devam; eats de -s alır."
+       ]
+      },
+      {
+       "en": "Cows and sheep live on farms.",
+       "tr": "İnekler ve koyunlar çiftliklerde yaşar.",
+       "why": [
+        "İki özne and ile bağlanınca çoğul olur → live."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "A monkey ___ in the jungle. (live)",
+       "answer": "lives",
+       "why": "Tekil özne."
+      },
+      {
+       "question": "Penguins ___ in cold places. (live)",
+       "answer": "live",
+       "why": "Çoğul özne."
+      },
+      {
+       "question": "“Deve çölde yaşar.” İngilizcesi?",
+       "answer": "A camel lives in the desert. / Camels live in the desert.",
+       "why": "İki biçim de doğru."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "A crocodile live in the river.",
+       "right": "A crocodile lives in the river.",
+       "why": "Tekil özneyle geniş zamanda fiil -s alır."
+      },
+      {
+       "wrong": "Dolphins lives in the sea.",
+       "right": "Dolphins live in the sea.",
+       "why": "Çoğul özneyle fiil -s almaz."
+      }
+     ]
+    },
+    {
+     "id": "hb-questions",
+     "title": "Where does it live? · It doesn't live …",
+     "meaning": "Yaşam alanını sormak ve olumsuz cümle kurmak",
+     "explanation": [
+      "Soru sorarken tekil için does, çoğul için do kullanırız: Where does a whale live? Where do penguins live? Soruda -s, does'a geçer; fiil yalın kalır: Where does it live? (lives değil). Bu, öğrencilerin en sık yaptığı hatalardan biridir.",
+      "Evet / hayır sorusu: Does a lion live in the jungle? — No, it doesn't. It lives in the savannah / in Africa. Do frogs live in water? — Yes, they do. Kısa cevapta yine does / do kullanılır.",
+      "Olumsuzda doesn't (does not) ve don't (do not) + yalın fiil: A penguin doesn't live in the desert. Lions don't live in the sea. Olumsuz cümlelerde de -s doesn't'tadır; fiil yalın kalır."
+     ],
+     "formula": [
+      "Where does + tekil + live? → It lives …",
+      "Where do + çoğul + live? → They live …",
+      "doesn't / don't + live: It doesn't live in the sea."
+     ],
+     "examples": [
+      {
+       "en": "Where does a camel live? — It lives in the desert.",
+       "tr": "Deve nerede yaşar? — Çölde.",
+       "why": [
+        "Soruda does + live (yalın)."
+       ]
+      },
+      {
+       "en": "Where do monkeys live? — They live in the trees.",
+       "tr": "Maymunlar nerede yaşar? — Ağaçlarda.",
+       "why": [
+        "Çoğul → do."
+       ]
+      },
+      {
+       "en": "Does a shark live in a river? — No, it doesn't. It lives in the sea.",
+       "tr": "Köpekbalığı nehirde mi yaşar? — Hayır. Denizde yaşar.",
+       "why": [
+        "Kısa cevap doesn't; ardından doğru bilgi."
+       ]
+      },
+      {
+       "en": "Polar bears don't live in Turkey.",
+       "tr": "Kutup ayıları Türkiye'de yaşamaz.",
+       "why": [
+        "Çoğul olumsuz → don't + live."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Where ___ a bear live?",
+       "answer": "does",
+       "why": "Tekil → does."
+      },
+      {
+       "question": "Where does an owl ___?",
+       "answer": "live",
+       "why": "does'tan sonra fiil yalın."
+      },
+      {
+       "question": "“Penguen çölde yaşamaz.” İngilizcesi?",
+       "answer": "A penguin doesn't live in the desert.",
+       "why": "doesn't + yalın fiil."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Where does a whale lives?",
+       "right": "Where does a whale live?",
+       "why": "does'tan sonra fiil yalın kalır."
+      },
+      {
+       "wrong": "A camel don't live in the sea.",
+       "right": "A camel doesn't live in the sea.",
+       "why": "Tekil özneyle doesn't."
+      }
+     ]
+    },
+    {
+     "id": "hb-places",
+     "title": "in the river · in the desert · on a farm · at the South Pole",
+     "meaning": "Yaşam alanı kelimelerini doğru edatla kullanmak",
+     "explanation": [
+      "Yaşam alanlarının çoğuyla in kullanırız, çünkü hayvan o alanın içindedir: in the river (nehirde), in the sea (denizde), in the ocean (okyanusta), in a lake (gölde), in the forest (ormanda), in the jungle (tropik ormanda), in the desert (çölde), in the mountains (dağlarda), in Africa, in cold places.",
+      "Çiftlik için on kullanılır: on a farm. Bu bir kalıptır; in a farm denmez. Kara için de on: on land. Kutuplar için at: at the North Pole, at the South Pole. Penguenler Güney Kutbu'nda ve soğuk denizlerde yaşar; kutup ayıları ise Kuzey Kutbu çevresinde.",
+      "Yer adlarından önce çoğunlukla the gelir: the river, the sea, the desert. Ama kıta ve ülke adlarında the yoktur: in Africa, in Turkey. Genel bir göl ya da çiftlikten söz ederken a da kullanılır: in a lake, on a farm."
+     ],
+     "formula": [
+      "in + the river / the sea / the forest / the jungle / the desert / the mountains",
+      "on + a farm · on land",
+      "at + the North / South Pole · in + Africa (the yok)"
+     ],
+     "examples": [
+      {
+       "en": "Camels live in the desert.",
+       "tr": "Develer çölde yaşar.",
+       "why": [
+        "Çöl bir alan → in the desert."
+       ]
+      },
+      {
+       "en": "Horses and donkeys live on farms.",
+       "tr": "Atlar ve eşekler çiftliklerde yaşar.",
+       "why": [
+        "Çiftlik kalıbı → on a farm / on farms."
+       ]
+      },
+      {
+       "en": "Penguins live at the South Pole and in cold seas.",
+       "tr": "Penguenler Güney Kutbu'nda ve soğuk denizlerde yaşar.",
+       "why": [
+        "Kutup → at; deniz → in."
+       ]
+      },
+      {
+       "en": "Gorillas live in the jungle in Africa.",
+       "tr": "Goriller Afrika'da tropik ormanda yaşar.",
+       "why": [
+        "jungle → in the; kıta adı → the yok."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Çiftlikte” nasıl söylenir?",
+       "answer": "on a farm",
+       "why": "Çiftlikte on kullanılır."
+      },
+      {
+       "question": "“Ormanda” nasıl söylenir?",
+       "answer": "in the forest",
+       "why": "in + the"
+      },
+      {
+       "question": "in the Africa doğru mu?",
+       "answer": "Hayır: in Africa.",
+       "why": "Kıta adlarında the yok."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Cows live in a farm.",
+       "right": "Cows live on a farm.",
+       "why": "farm ile on kullanılır."
+      },
+      {
+       "wrong": "Lions live in the Africa.",
+       "right": "Lions live in Africa.",
+       "why": "Kıta adlarından önce the gelmez."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "land-water",
+   "title": "Karada, suda, ağaçta: yer bildiren edatlar ve hareket fiilleri",
+   "intro": [
+    "MEB kazanımı bu ekranda Türkçe örneklerle verilir: “-de” Aslan karada yaşar; “içinde” Balık suyun içinde hareket eder. Türkçe yeri bir ekle (-de, -da) ya da bir son çekim edatıyla (içinde, altında) anlatır. İngilizce ise yerin önüne bir edat koyar: on land, in the water, under the ground.",
+    "Bu ekranda in, on, under, above, in the trees, in the sky gibi edat ve kalıpları hayvanlarla kullanıyoruz. Ayrıca hayvanların nasıl hareket ettiğini anlatan fiilleri öğreniyoruz: swim, fly, run, climb, jump, crawl, dig, walk. Hepsi it ile -s alır: A bird flies. A frog jumps."
+   ],
+   "patterns": [
+    {
+     "id": "lw-de",
+     "title": "Türkçedeki -de ve içinde: on land · in the water",
+     "meaning": "Türkçe yer eklerini İngilizce edatlarla karşılamak",
+     "explanation": [
+      "Türkçede “karada, suda, ağaçta, gökyüzünde” derken hep aynı eki kullanırız. İngilizcede ise yerin türüne bakarız. Bir şeyin içindeyse in: in the water (suyun içinde), in the sea, in a cage (kafeste). Bir yüzeyin üstündeyse on: on land (karada), on the ground (yerde), on a branch (dalda). Bir şeyin altındaysa under: under the ground (toprağın altında), under the water (suyun altında).",
+      "Bazı kalıpları olduğu gibi öğrenmek gerekir: in the sky (gökyüzünde), in the trees (ağaçlarda: dalların arasında), in the air (havada). Bir kuş ağacın tepesinde, havada uçuyorsa above the tree (ağacın üstünde, ona değmeden) deriz.",
+      "Edat İngilizcede yerin önüne gelir; Türkçede ise ek yerin sonuna gelir. Bu yüzden Türkçe sırayla düşünüp the water in demek yanlıştır. Doğru sıra: edat + the + yer: in the water."
+     ],
+     "formula": [
+      "-de (içinde) → in: in the water, in a cage",
+      "-de (yüzeyde) → on: on land, on a branch",
+      "altında → under: under the ground · üstünde (havada) → above"
+     ],
+     "examples": [
+      {
+       "en": "A lion lives on land.",
+       "tr": "Aslan karada yaşar.",
+       "why": [
+        "Kara bir yüzeydir → on land. land'den önce the gelmez."
+       ],
+       "chunks": [
+        {
+         "en": "on land",
+         "tr": "karada",
+         "note": "the yok"
+        },
+        {
+         "en": "lives",
+         "tr": "yaşar"
+        }
+       ]
+      },
+      {
+       "en": "A fish moves in the water.",
+       "tr": "Balık suyun içinde hareket eder.",
+       "why": [
+        "“İçinde” → in."
+       ]
+      },
+      {
+       "en": "A rabbit lives under the ground.",
+       "tr": "Tavşan toprağın altında yaşar.",
+       "why": [
+        "“Altında” → under."
+       ]
+      },
+      {
+       "en": "The owl is sitting on a branch.",
+       "tr": "Baykuş bir dalın üstünde oturuyor.",
+       "why": [
+        "Dal bir yüzey → on."
+       ]
+      },
+      {
+       "en": "An eagle is flying above the trees.",
+       "tr": "Bir kartal ağaçların üstünde uçuyor.",
+       "why": [
+        "Değmeden, yukarıda → above."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Karada” İngilizcede nasıl söylenir?",
+       "answer": "on land",
+       "why": "Yüzey → on; the yok."
+      },
+      {
+       "question": "“Suyun içinde” nasıl söylenir?",
+       "answer": "in the water",
+       "why": "İçinde → in."
+      },
+      {
+       "question": "“Toprağın altında” nasıl söylenir?",
+       "answer": "under the ground",
+       "why": "Altında → under."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "A lion lives in land.",
+       "right": "A lion lives on land.",
+       "why": "Kara için on kullanılır."
+      },
+      {
+       "wrong": "The fish is the water in.",
+       "right": "The fish is in the water.",
+       "why": "Edat yerin önüne gelir."
+      }
+     ]
+    },
+    {
+     "id": "lw-verbs",
+     "title": "Hareket fiilleri: swim · fly · run · climb · jump · crawl · dig",
+     "meaning": "Hayvanların nasıl hareket ettiğini anlatmak",
+     "explanation": [
+      "Hayvanları anlatırken nasıl hareket ettiklerini söyleriz: swim (yüzmek), fly (uçmak), run (koşmak), climb (tırmanmak), jump (zıplamak), crawl (sürünmek), dig (kazmak), walk (yürümek). Bu fiiller genellikle bir yer bilgisiyle birlikte gelir: A fish swims in the water. A bird flies in the sky. A monkey climbs trees.",
+      "it ile fiil -s alır. Dikkat edilecek yazım kuralları: fly → flies (sessiz harf + y → ies), catch → catches. Diğerleri sadece -s alır: swims, runs, climbs, jumps, crawls, digs, walks.",
+      "Yetenek söylerken can kullanırız ve can'den sonra fiil yalın kalır: A penguin can swim, but it can't fly. A snake can't walk; it crawls. can hiçbir zaman -s almaz."
+     ],
+     "formula": [
+      "it + fiil-s + yer: A fish swims in the water.",
+      "fly → flies · diğerleri + s: runs, climbs",
+      "can / can't + yalın fiil: It can swim. It can't fly."
+     ],
+     "examples": [
+      {
+       "en": "A bird flies in the sky.",
+       "tr": "Kuş gökyüzünde uçar.",
+       "why": [
+        "fly → flies; in the sky kalıbı."
+       ]
+      },
+      {
+       "en": "Monkeys climb trees and jump from branch to branch.",
+       "tr": "Maymunlar ağaçlara tırmanır ve daldan dala zıplar.",
+       "why": [
+        "Çoğul özne → -s yok."
+       ]
+      },
+      {
+       "en": "A snake can't walk. It crawls on the ground.",
+       "tr": "Yılan yürüyemez. Yerde sürünür.",
+       "why": [
+        "can't + yalın fiil; crawls -s alır."
+       ]
+      },
+      {
+       "en": "A frog lives in the water and on land. It can swim and jump.",
+       "tr": "Kurbağa suda ve karada yaşar. Yüzebilir ve zıplayabilir.",
+       "why": [
+        "İki yer: in the water ve on land."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "A bird ___ in the sky. (fly)",
+       "answer": "flies",
+       "why": "y → ies"
+      },
+      {
+       "question": "“Yılan sürünür.” İngilizcesi?",
+       "answer": "A snake crawls.",
+       "why": "crawl + s"
+      },
+      {
+       "question": "A penguin can ___ (swim).",
+       "answer": "swim",
+       "why": "can + yalın fiil"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "A bird flys.",
+       "right": "A bird flies.",
+       "why": "Sessiz harf + y → -ies."
+      },
+      {
+       "wrong": "It can swims.",
+       "right": "It can swim.",
+       "why": "can'den sonra fiil yalın kalır."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "big-small",
+   "term": "big · small",
+   "meaning": "büyük · küçük",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "big · small"
+   ],
+   "explanation": [
+    "Boyut bildiren en temel sıfat çifti. large, big ile aynı anlamdadır ve biraz daha resmîdir; little de small gibi küçük demektir ama daha çok duygusal bir sevimlilik katar (a little cat). Bina, hayvan, oda, şehir gibi her şey için kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "a big city",
+     "tr": "büyük bir şehir"
+    },
+    {
+     "en": "a small room",
+     "tr": "küçük bir oda"
+    }
+   ],
+   "examples": [
+    {
+     "en": "An elephant is big. A mouse is small.",
+     "tr": "Fil büyük. Fare küçük.",
+     "note": "Karşılaştırma için zıt çift."
+    },
+    {
+     "en": "We live in a small flat.",
+     "tr": "Küçük bir dairede oturuyoruz.",
+     "note": "a + sıfat + isim"
+    },
+    {
+     "en": "Is your town big? — No, it's quite small.",
+     "tr": "Şehrin büyük mü? — Hayır, oldukça küçük.",
+     "note": "quite derece bildirir."
+    }
+   ],
+   "commonMistake": "Bigs dogs yerine big dogs denir; sıfat çoğul olmaz."
+  },
+  {
+   "id": "long-short",
+   "term": "long · short",
+   "meaning": "uzun · kısa",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "long · short"
+   ],
+   "explanation": [
+    "Uzunluk ve süre için kullanılır: a long tail (uzun bir kuyruk), a short film (kısa bir film), a long day (uzun bir gün). İnsanın boyu için long değil tall kullanılır; tall'ın zıttı da short'tur."
+   ],
+   "collocations": [
+    {
+     "en": "long hair",
+     "tr": "uzun saç"
+    },
+    {
+     "en": "a short walk",
+     "tr": "kısa bir yürüyüş"
+    }
+   ],
+   "examples": [
+    {
+     "en": "A giraffe has a long neck.",
+     "tr": "Zürafanın uzun bir boynu var.",
+     "note": "Uzunluk"
+    },
+    {
+     "en": "The film is short: only forty minutes.",
+     "tr": "Film kısa: sadece kırk dakika.",
+     "note": "Süre"
+    },
+    {
+     "en": "My brother is tall, but I'm short.",
+     "tr": "Ağabeyim uzun boylu ama ben kısayım.",
+     "note": "Boy için tall ↔ short"
+    }
+   ],
+   "commonMistake": "a long man yerine a tall man denir."
+  },
+  {
+   "id": "heavy-light",
+   "term": "heavy · light",
+   "meaning": "ağır · hafif",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "heavy · light"
+   ],
+   "explanation": [
+    "Ağırlık bildiren çift. light'ın ikinci bir anlamı daha vardır: açık renk (light blue) ve aydınlık (a light room). heavy de mecazla kullanılır: heavy rain (şiddetli yağmur), heavy traffic (yoğun trafik)."
+   ],
+   "collocations": [
+    {
+     "en": "a heavy bag",
+     "tr": "ağır bir çanta"
+    },
+    {
+     "en": "light clothes",
+     "tr": "ince, hafif giysiler"
+    }
+   ],
+   "examples": [
+    {
+     "en": "This box is too heavy. I can't carry it.",
+     "tr": "Bu kutu fazla ağır. Taşıyamıyorum.",
+     "note": "too = sorun"
+    },
+    {
+     "en": "My new laptop is very light.",
+     "tr": "Yeni dizüstü bilgisayarım çok hafif."
+    },
+    {
+     "en": "An elephant is heavy, but a bird is light.",
+     "tr": "Fil ağır ama kuş hafiftir.",
+     "note": "Zıt çift"
+    }
+   ],
+   "commonMistake": "Hafif için soft değil light kullanılır; soft yumuşak demektir."
+  },
+  {
+   "id": "fast-slow",
+   "term": "fast · slow",
+   "meaning": "hızlı · yavaş",
+   "partOfSpeech": "sıfat / zarf",
+   "sourceTerms": [
+    "fast · slow"
+   ],
+   "explanation": [
+    "Hız bildiren çift. fast hem sıfat (a fast car) hem zarftır (He drives fast); fastly diye bir kelime yoktur. slow'un zarfı slowly'dir: Please speak slowly. quick de hızlı demektir ama daha çok kısa süren işler için kullanılır (a quick breakfast)."
+   ],
+   "collocations": [
+    {
+     "en": "a fast train",
+     "tr": "hızlı bir tren"
+    },
+    {
+     "en": "walk slowly",
+     "tr": "yavaş yürümek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "A cheetah is very fast.",
+     "tr": "Çita çok hızlıdır.",
+     "note": "Sıfat"
+    },
+    {
+     "en": "A turtle is slow.",
+     "tr": "Kaplumbağa yavaştır."
+    },
+    {
+     "en": "My computer is old and slow.",
+     "tr": "Bilgisayarım eski ve yavaş.",
+     "note": "and: aynı yön"
+    }
+   ],
+   "commonMistake": "He drives fastly yerine He drives fast denir."
+  },
+  {
+   "id": "hot-cold",
+   "term": "hot · cold",
+   "meaning": "sıcak · soğuk",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "hot · cold"
+   ],
+   "explanation": [
+    "Sıcaklık bildiren çift. Hava için de kullanılır: It's hot today. Kişinin üşümesi ya da sıcaklaması be fiiliyle söylenir: I'm cold (üşüyorum), I'm hot (sıcakladım). Daha hafif dereceler: warm (ılık, sıcakça) ve cool (serin)."
+   ],
+   "collocations": [
+    {
+     "en": "hot tea",
+     "tr": "sıcak çay"
+    },
+    {
+     "en": "a cold winter",
+     "tr": "soğuk bir kış"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The tea is too hot.",
+     "tr": "Çay fazla sıcak."
+    },
+    {
+     "en": "I'm cold. Can you close the window?",
+     "tr": "Üşüdüm. Pencereyi kapatır mısın?",
+     "note": "Türkçe “üşüdüm” → I'm cold"
+    },
+    {
+     "en": "Penguins live in cold places.",
+     "tr": "Penguenler soğuk yerlerde yaşar."
+    }
+   ],
+   "commonMistake": "Üşüyorum için I have cold değil I'm cold denir; a cold ise nezle demektir."
+  },
+  {
+   "id": "soft-hard",
+   "term": "soft · hard",
+   "meaning": "yumuşak · sert",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "soft · hard"
+   ],
+   "explanation": [
+    "Dokunma hissi için kullanılan çift. hard'ın ikinci anlamı zor'dur (a hard question) ve zarf olarak çok çalışmak anlamında kullanılır (work hard). Dikkat: hardly bambaşka bir kelimedir ve “neredeyse hiç” demektir."
+   ],
+   "collocations": [
+    {
+     "en": "a soft pillow",
+     "tr": "yumuşak bir yastık"
+    },
+    {
+     "en": "a hard bed",
+     "tr": "sert bir yatak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "This sofa is soft and comfortable.",
+     "tr": "Bu kanepe yumuşak ve rahat."
+    },
+    {
+     "en": "The bread is old and hard.",
+     "tr": "Ekmek bayat ve sert.",
+     "note": "Bayat ekmek için hard / old denebilir."
+    },
+    {
+     "en": "A sheep's wool is soft.",
+     "tr": "Koyunun yünü yumuşaktır."
+    }
+   ],
+   "commonMistake": "Sert yatak için strong bed değil hard bed denir."
+  },
+  {
+   "id": "cheap-expensive",
+   "term": "cheap · expensive",
+   "meaning": "ucuz · pahalı",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "cheap · expensive"
+   ],
+   "explanation": [
+    "Fiyat bildiren çift. expensive ünlüyle başladığı için a değil an alır: an expensive car. Kibar konuşmada cheap yerine not expensive ya da good value da denir; çünkü cheap bazen “kalitesiz” anlamı da taşıyabilir."
+   ],
+   "collocations": [
+    {
+     "en": "a cheap ticket",
+     "tr": "ucuz bir bilet"
+    },
+    {
+     "en": "an expensive watch",
+     "tr": "pahalı bir saat"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The bus is cheap, but a taxi is expensive.",
+     "tr": "Otobüs ucuz ama taksi pahalı.",
+     "note": "but: zıtlık"
+    },
+    {
+     "en": "The tickets aren't expensive: 150 lira.",
+     "tr": "Biletler pahalı değil: 150 lira."
+    },
+    {
+     "en": "It's too expensive. I can't buy it.",
+     "tr": "Fazla pahalı. Alamam.",
+     "note": "too = sorun"
+    }
+   ],
+   "commonMistake": "a expensive yerine an expensive denir."
+  },
+  {
+   "id": "comfortable",
+   "term": "comfortable · uncomfortable",
+   "meaning": "rahat · rahatsız",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "comfortable · uncomfortable"
+   ],
+   "explanation": [
+    "Eşyalar (sofa, shoes, bed) ve yerler için kullanılır. Okunuşu kamftıbıl'dır; ortadaki or neredeyse okunmaz. Zıttı un- ön ekiyle yapılır: uncomfortable. İnsan için I'm comfortable (rahatım) da denir."
+   ],
+   "collocations": [
+    {
+     "en": "comfortable shoes",
+     "tr": "rahat ayakkabılar"
+    },
+    {
+     "en": "an uncomfortable chair",
+     "tr": "rahatsız bir sandalye"
+    }
+   ],
+   "examples": [
+    {
+     "en": "These shoes are very comfortable.",
+     "tr": "Bu ayakkabılar çok rahat."
+    },
+    {
+     "en": "The chairs in the waiting room are uncomfortable.",
+     "tr": "Bekleme salonundaki sandalyeler rahatsız."
+    },
+    {
+     "en": "Our flat is small but comfortable.",
+     "tr": "Dairemiz küçük ama rahat.",
+     "note": "but: zıtlık"
+    }
+   ],
+   "commonMistake": "Rahat için relax değil comfortable kullanılır; relaxed ise kişinin rahatlamış olmasıdır."
+  },
+  {
+   "id": "clean-dirty",
+   "term": "clean · dirty",
+   "meaning": "temiz · kirli",
+   "partOfSpeech": "sıfat / fiil",
+   "sourceTerms": [
+    "clean · dirty"
+   ],
+   "explanation": [
+    "Temizlik bildiren çift. clean aynı zamanda temizlemek fiilidir: I clean the kitchen every day. Zookeepers clean the cages. dirty'nin zıttı clean'dir; uncleaned gibi bir kelime yerine dirty kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "clean water",
+     "tr": "temiz su"
+    },
+    {
+     "en": "dirty clothes",
+     "tr": "kirli çamaşırlar"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The cages at the zoo are very clean.",
+     "tr": "Hayvanat bahçesindeki kafesler çok temiz.",
+     "note": "Sıfat"
+    },
+    {
+     "en": "My shoes are dirty. It's muddy outside.",
+     "tr": "Ayakkabılarım kirli. Dışarısı çamurlu."
+    },
+    {
+     "en": "Deniz cleans the elephant house every morning.",
+     "tr": "Deniz her sabah fil evini temizler.",
+     "note": "Fiil olarak: cleans"
+    }
+   ],
+   "commonMistake": "Kirli için uncleaned değil dirty denir."
+  },
+  {
+   "id": "farm-animals",
+   "term": "cow · sheep · goat · horse",
+   "meaning": "inek · koyun · keçi · at",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "cow · sheep · goat · horse"
+   ],
+   "explanation": [
+    "Çiftliğin büyük hayvanları. sheep çoğulda değişmez (ten sheep). Etleri için farklı kelimeler kullanılır: cow → beef (sığır eti), sheep → lamb / mutton (kuzu / koyun eti). Erkek ve dişi için ayrı kelimeler de vardır ama A2'de genel adlar yeterlidir."
+   ],
+   "collocations": [
+    {
+     "en": "a herd of cows",
+     "tr": "bir inek sürüsü"
+    },
+    {
+     "en": "ride a horse",
+     "tr": "ata binmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We have two cows and ten sheep.",
+     "tr": "İki ineğimiz ve on koyunumuz var.",
+     "note": "sheep değişmez"
+    },
+    {
+     "en": "Goats can climb rocks.",
+     "tr": "Keçiler kayalara tırmanabilir."
+    },
+    {
+     "en": "My grandfather has a horse.",
+     "tr": "Dedemin bir atı var."
+    }
+   ],
+   "commonMistake": "ten sheeps yerine ten sheep denir."
+  },
+  {
+   "id": "chicken-duck-bee",
+   "term": "chicken · duck · bee",
+   "meaning": "tavuk · ördek · arı",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "chicken · duck · bee"
+   ],
+   "explanation": [
+    "Küçük çiftlik hayvanları. chicken hem hayvan hem de tavuk eti anlamına gelir: I eat chicken (tavuk eti yerim). hen dişi tavuk, rooster ise horozdur. bee bal yapan arıdır; arı kovanı beehive'dır."
+   ],
+   "collocations": [
+    {
+     "en": "free-range chickens",
+     "tr": "gezen tavuklar"
+    },
+    {
+     "en": "a bee sting",
+     "tr": "arı sokması"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We get eggs from chickens.",
+     "tr": "Tavuklardan yumurta elde ederiz."
+    },
+    {
+     "en": "Ducks swim in the lake.",
+     "tr": "Ördekler gölde yüzer."
+    },
+    {
+     "en": "Bees give us honey.",
+     "tr": "Arılar bize bal verir."
+    }
+   ],
+   "commonMistake": "Tavuk eti için I eat a chicken değil I eat chicken denir; a chicken bütün bir tavuktur."
+  },
+  {
+   "id": "pets",
+   "term": "dog · cat · rabbit · parrot",
+   "meaning": "köpek · kedi · tavşan · papağan",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "dog · cat · rabbit · parrot"
+   ],
+   "explanation": [
+    "En yaygın evcil hayvanlar (pets). Evcil hayvan sorarken Do you have a pet? deriz. Hayvanın cinsiyetini biliyorsak sahipleri he / she da kullanır: My cat is old. She's fifteen. Genel konuşurken çoğul: I love dogs."
+   ],
+   "collocations": [
+    {
+     "en": "walk the dog",
+     "tr": "köpeği gezdirmek"
+    },
+    {
+     "en": "feed the cat",
+     "tr": "kediyi beslemek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Do you have a pet? — Yes, I have a cat.",
+     "tr": "Evcil hayvanın var mı? — Evet, bir kedim var."
+    },
+    {
+     "en": "My children want a rabbit.",
+     "tr": "Çocuklarım bir tavşan istiyor."
+    },
+    {
+     "en": "Parrots can talk.",
+     "tr": "Papağanlar konuşabilir."
+    }
+   ],
+   "commonMistake": "I love dog yerine I love dogs denir."
+  },
+  {
+   "id": "big-cats",
+   "term": "lion · tiger · bear · wolf",
+   "meaning": "aslan · kaplan · ayı · kurt",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "lion · tiger · bear · wolf"
+   ],
+   "explanation": [
+    "Tehlikeli vahşi hayvanlar. Aslan ve kaplan büyük kediler (big cats) olarak anılır. wolf'un çoğulu wolves'tur. Aslan kükrer (roars), kurt uluur (howls). Hayvanat bahçesinde bu hayvanlar için genellikle Keep away! ya da Danger! tabelaları olur."
+   ],
+   "collocations": [
+    {
+     "en": "a pack of wolves",
+     "tr": "bir kurt sürüsü"
+    },
+    {
+     "en": "a brown bear",
+     "tr": "bir boz ayı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Lions and tigers are big cats.",
+     "tr": "Aslanlar ve kaplanlar büyük kedilerdir."
+    },
+    {
+     "en": "Bears live in the forest and in the mountains.",
+     "tr": "Ayılar ormanda ve dağlarda yaşar."
+    },
+    {
+     "en": "Wolves are clever animals.",
+     "tr": "Kurtlar akıllı hayvanlardır.",
+     "note": "wolf → wolves"
+    }
+   ],
+   "commonMistake": "wolfs yerine wolves denir."
+  },
+  {
+   "id": "african-animals",
+   "term": "elephant · giraffe · monkey · zebra",
+   "meaning": "fil · zürafa · maymun · zebra",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "elephant · giraffe · monkey · zebra"
+   ],
+   "explanation": [
+    "Hayvanat bahçelerinin en sevilen hayvanları. elephant ünlüyle başladığı için an elephant denir. Filin hortumu trunk, zebranın çizgileri stripes, zürafanın uzun boynu a long neck'tir. Maymunlar ağaçlarda yaşar ve tırmanır."
+   ],
+   "collocations": [
+    {
+     "en": "an African elephant",
+     "tr": "bir Afrika fili"
+    },
+    {
+     "en": "a baby giraffe",
+     "tr": "yavru bir zürafa"
+    }
+   ],
+   "examples": [
+    {
+     "en": "An elephant has a long trunk.",
+     "tr": "Filin uzun bir hortumu var.",
+     "note": "an elephant"
+    },
+    {
+     "en": "Giraffes eat leaves from tall trees.",
+     "tr": "Zürafalar uzun ağaçlardan yaprak yer."
+    },
+    {
+     "en": "Monkeys live in the trees.",
+     "tr": "Maymunlar ağaçlarda yaşar."
+    }
+   ],
+   "commonMistake": "a elephant yerine an elephant denir."
+  },
+  {
+   "id": "reptiles",
+   "term": "crocodile · snake · frog",
+   "meaning": "timsah · yılan · kurbağa",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "crocodile · snake · frog"
+   ],
+   "explanation": [
+    "Sürüngenler (reptiles) ve kurbağa. Timsah nehirde yaşar ve iyi yüzer; yılanın ayağı yoktur, sürünür (crawls) ve tıslar (hisses). Kurbağa hem suda hem karada yaşar ve zıplar. Birçok insan yılanlardan korkar: I'm scared of snakes."
+   ],
+   "collocations": [
+    {
+     "en": "a dangerous crocodile",
+     "tr": "tehlikeli bir timsah"
+    },
+    {
+     "en": "a green frog",
+     "tr": "yeşil bir kurbağa"
+    }
+   ],
+   "examples": [
+    {
+     "en": "A crocodile lives in the river.",
+     "tr": "Timsah nehirde yaşar."
+    },
+    {
+     "en": "I'm scared of snakes.",
+     "tr": "Yılanlardan korkarım.",
+     "note": "scared of"
+    },
+    {
+     "en": "Frogs can jump and swim.",
+     "tr": "Kurbağalar zıplayabilir ve yüzebilir."
+    }
+   ],
+   "commonMistake": "I'm scared from snakes yerine I'm scared of snakes denir."
+  },
+  {
+   "id": "sea-animals",
+   "term": "fish · dolphin · whale · shark",
+   "meaning": "balık · yunus · balina · köpekbalığı",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "fish · dolphin · whale · shark"
+   ],
+   "explanation": [
+    "Su hayvanları. fish çoğulda genellikle değişmez: two fish. Yunus ve balina balık değildir; memeli (mammal) hayvanlardır ama denizde yaşar. Köpekbalığı İngilizcede tek kelimedir: shark."
+   ],
+   "collocations": [
+    {
+     "en": "catch fish",
+     "tr": "balık tutmak"
+    },
+    {
+     "en": "a blue whale",
+     "tr": "bir mavi balina"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Dolphins live in the sea.",
+     "tr": "Yunuslar denizde yaşar."
+    },
+    {
+     "en": "A whale is very, very big.",
+     "tr": "Balina çok çok büyüktür."
+    },
+    {
+     "en": "Sharks have sharp teeth.",
+     "tr": "Köpekbalıklarının keskin dişleri var."
+    }
+   ],
+   "commonMistake": "fishes yerine çoğunlukla fish denir."
+  },
+  {
+   "id": "birds-desert",
+   "term": "eagle · owl · penguin · camel",
+   "meaning": "kartal · baykuş · penguen · deve",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "eagle · owl · penguin · camel"
+   ],
+   "explanation": [
+    "Kartal yükseklerde uçar; baykuş gece uçar ve büyük gözleri vardır; penguen uçamaz ama çok iyi yüzer; deve çölde yaşar ve günlerce susuz yürüyebilir. eagle ve owl ünlüyle başlar: an eagle, an owl."
+   ],
+   "collocations": [
+    {
+     "en": "an eagle's nest",
+     "tr": "kartal yuvası"
+    },
+    {
+     "en": "a camel ride",
+     "tr": "deve gezisi"
+    }
+   ],
+   "examples": [
+    {
+     "en": "An owl can see at night.",
+     "tr": "Baykuş gece görebilir.",
+     "note": "an owl"
+    },
+    {
+     "en": "Penguins can't fly, but they can swim.",
+     "tr": "Penguenler uçamaz ama yüzebilir."
+    },
+    {
+     "en": "A camel can walk for days without water.",
+     "tr": "Deve günlerce susuz yürüyebilir."
+    }
+   ],
+   "commonMistake": "a owl yerine an owl denir."
+  },
+  {
+   "id": "water-habitats",
+   "term": "live in the river · in the sea",
+   "meaning": "nehirde · denizde yaşamak",
+   "partOfSpeech": "fiil + yer",
+   "sourceTerms": [
+    "live in the river · in the sea"
+   ],
+   "explanation": [
+    "Su yaşam alanları in ile kullanılır: in the river, in the sea, in the ocean, in a lake. Tekil hayvanla lives: A crocodile lives in the river. Çoğulda live: Sharks live in the sea."
+   ],
+   "collocations": [
+    {
+     "en": "live in the ocean",
+     "tr": "okyanusta yaşamak"
+    },
+    {
+     "en": "swim in a lake",
+     "tr": "gölde yüzmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "A crocodile lives in the river.",
+     "tr": "Timsah nehirde yaşar.",
+     "note": "Kazanım örneği"
+    },
+    {
+     "en": "Whales live in the ocean.",
+     "tr": "Balinalar okyanusta yaşar."
+    },
+    {
+     "en": "Ducks live on farms and in lakes.",
+     "tr": "Ördekler çiftliklerde ve göllerde yaşar."
+    }
+   ],
+   "commonMistake": "A crocodile live in the river yerine lives denir."
+  },
+  {
+   "id": "land-habitats",
+   "term": "live in the forest · jungle · desert",
+   "meaning": "ormanda · tropik ormanda · çölde yaşamak",
+   "partOfSpeech": "fiil + yer",
+   "sourceTerms": [
+    "live in the forest · jungle · desert"
+   ],
+   "explanation": [
+    "forest serin ve ılıman ormanlar için, jungle ise sıcak ve yağmurlu tropik ormanlar için kullanılır. desert çöldür; dessert (tatlı) ile karıştırmayın: desert tek s, dessert çift s. Hepsi in the ile kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "in the mountains",
+     "tr": "dağlarda"
+    },
+    {
+     "en": "a hot desert",
+     "tr": "sıcak bir çöl"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Bears live in the forest.",
+     "tr": "Ayılar ormanda yaşar."
+    },
+    {
+     "en": "Monkeys and parrots live in the jungle.",
+     "tr": "Maymunlar ve papağanlar tropik ormanda yaşar."
+    },
+    {
+     "en": "Camels live in the desert.",
+     "tr": "Develer çölde yaşar.",
+     "note": "desert ≠ dessert"
+    }
+   ],
+   "commonMistake": "desert (çöl) ile dessert (tatlı) karıştırılmamalı."
+  },
+  {
+   "id": "farm-land",
+   "term": "live on a farm · on land",
+   "meaning": "çiftlikte · karada yaşamak",
+   "partOfSpeech": "fiil + yer",
+   "sourceTerms": [
+    "live on a farm · on land"
+   ],
+   "explanation": [
+    "farm ve land ile on kullanılır. on land kalıbında the yoktur. Karada ve suda yaşayan hayvanlar için in the water and on land denir. Kazanımdaki Türkçe örnek: Aslan karada yaşar → A lion lives on land."
+   ],
+   "collocations": [
+    {
+     "en": "work on a farm",
+     "tr": "çiftlikte çalışmak"
+    },
+    {
+     "en": "on land and in the water",
+     "tr": "karada ve suda"
+    }
+   ],
+   "examples": [
+    {
+     "en": "A lion lives on land.",
+     "tr": "Aslan karada yaşar.",
+     "note": "Kazanım örneği"
+    },
+    {
+     "en": "Cows and sheep live on farms.",
+     "tr": "İnekler ve koyunlar çiftliklerde yaşar."
+    },
+    {
+     "en": "Frogs live in the water and on land.",
+     "tr": "Kurbağalar suda ve karada yaşar."
+    }
+   ],
+   "commonMistake": "in a farm yerine on a farm denir."
+  },
+  {
+   "id": "in-under-trees",
+   "term": "in the water · under the ground · in the trees",
+   "meaning": "suyun içinde · toprağın altında · ağaçlarda",
+   "partOfSpeech": "edat + yer",
+   "sourceTerms": [
+    "in the water · under the ground · in the trees"
+   ],
+   "explanation": [
+    "Hayvanların bulunduğu yeri edatla anlatırız. in the water: suyun içinde; under the ground: toprağın altında; in the trees: ağaçların dalları arasında. Bir dalın üstü için on a branch, gökyüzü için in the sky denir."
+   ],
+   "collocations": [
+    {
+     "en": "in the sky",
+     "tr": "gökyüzünde"
+    },
+    {
+     "en": "on a branch",
+     "tr": "bir dalın üstünde"
+    }
+   ],
+   "examples": [
+    {
+     "en": "A fish moves in the water.",
+     "tr": "Balık suyun içinde hareket eder.",
+     "note": "Kazanım örneği"
+    },
+    {
+     "en": "Rabbits live under the ground.",
+     "tr": "Tavşanlar toprağın altında yaşar."
+    },
+    {
+     "en": "Monkeys live in the trees.",
+     "tr": "Maymunlar ağaçlarda yaşar."
+    }
+   ],
+   "commonMistake": "the water in yerine in the water: edat önce gelir."
+  },
+  {
+   "id": "move-verbs",
+   "term": "swim · fly · run · climb",
+   "meaning": "yüzmek · uçmak · koşmak · tırmanmak",
+   "partOfSpeech": "fiil",
+   "sourceTerms": [
+    "swim · fly · run · climb"
+   ],
+   "explanation": [
+    "Hayvanların hareket fiilleri. it ile -s alır; fly → flies. Yetenek için can: It can fly. Diğer hareketler: jump (zıplamak), crawl (sürünmek), dig (kazmak), walk (yürümek)."
+   ],
+   "collocations": [
+    {
+     "en": "fly in the sky",
+     "tr": "gökyüzünde uçmak"
+    },
+    {
+     "en": "climb a tree",
+     "tr": "ağaca tırmanmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "A bird flies.",
+     "tr": "Kuş uçar.",
+     "note": "fly → flies"
+    },
+    {
+     "en": "Horses can run very fast.",
+     "tr": "Atlar çok hızlı koşabilir.",
+     "note": "can + yalın"
+    },
+    {
+     "en": "A penguin can swim, but it can't fly.",
+     "tr": "Penguen yüzebilir ama uçamaz."
+    }
+   ],
+   "commonMistake": "It can flies yerine It can fly denir."
+  }
+ ]
+}

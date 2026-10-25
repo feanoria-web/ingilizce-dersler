@@ -1,0 +1,1538 @@
+{
+ "version": 1,
+ "block": 4,
+ "chapters": [
+  {
+   "screenId": "routines",
+   "title": "Günlük hayat ve rutinler: geniş zamanla bir gün",
+   "intro": [
+    "MEB kazanımı: bir gün boyunca yaptığı işleri anlatır. Her gün tekrar eden işleri İngilizcede geniş zamanla (present simple) anlatırız: I get up at six. I catch the bus at 7:30. She picks up the children at four. A1'de bu zamanı tanımıştık; A2'de daha fazla fiil grubu, olumsuz ve soru biçimleri, sıklık ve sıra kelimeleriyle zenginleştiriyoruz.",
+    "Bu ekranda üç araç birlikte çalışır: fiil grupları (catch the bus, do the shopping, pick up the children), zaman ifadeleri (at seven, in the morning, on Sundays) ve sıklık / sıra kelimeleri (usually, never, first, then). Bir de üçüncü tekil kişi kuralını tekrar ediyoruz: he / she ile fiil -s ya da -es alır."
+   ],
+   "patterns": [
+    {
+     "id": "rt-phrases",
+     "title": "catch the bus · do the shopping · pick up the children",
+     "meaning": "Günlük işleri fiil gruplarıyla söylemek",
+     "explanation": [
+      "Günlük işlerin çoğu iki üç kelimelik fiil gruplarıdır ve bütün olarak öğrenilmelidir. Sabah: wake up (uyanmak), get up (kalkmak), have a shower (duş almak), get dressed (giyinmek), have breakfast (kahvaltı yapmak), leave home (evden çıkmak), catch the bus (otobüse binmek, yetişmek).",
+      "Gün içi: start work (işe başlamak), have a break (mola vermek), have lunch (öğle yemeği yemek), finish work (işi bitirmek), pick up the children (çocukları almak), do the shopping (alışveriş yapmak). Akşam: cook dinner (yemek pişirmek), do the washing-up (bulaşık yıkamak), help with homework (ödevlere yardım etmek), go for a walk (yürüyüşe çıkmak), chat with neighbours (komşularla sohbet etmek), go to bed (yatmak), fall asleep (uykuya dalmak).",
+      "do ve make karıştırılmamalı: ev işleri ve alışveriş için do (do the shopping, do the housework, do the washing-up), yiyecek hazırlamak için make ya da cook (make breakfast, cook dinner). catch the bus otobüse yetişip binmek demektir; take the bus da aynı anlamda kullanılır."
+     ],
+     "formula": [
+      "sabah: get up · have a shower · get dressed · have breakfast · catch the bus",
+      "gün içi: start work · have a break · finish work · pick up the children · do the shopping",
+      "akşam: cook dinner · do the washing-up · go for a walk · go to bed"
+     ],
+     "examples": [
+      {
+       "en": "I catch the bus at 7:30 and start work at eight.",
+       "tr": "7.30'da otobüse binerim ve sekizde işe başlarım.",
+       "why": [
+        "İki fiil grubu and ile; saatler at ile."
+       ],
+       "chunks": [
+        {
+         "en": "catch the bus",
+         "tr": "otobüse binmek / yetişmek"
+        },
+        {
+         "en": "start work",
+         "tr": "işe başlamak",
+         "note": "work'ten önce the yok"
+        }
+       ]
+      },
+      {
+       "en": "After work, I do the shopping and pick up the children.",
+       "tr": "İşten sonra alışveriş yaparım ve çocukları alırım.",
+       "why": [
+        "do the shopping; pick up the children."
+       ]
+      },
+      {
+       "en": "In the evening, we cook dinner together.",
+       "tr": "Akşam birlikte yemek pişiririz.",
+       "why": [
+        "cook dinner; öğün adında a yok."
+       ]
+      },
+      {
+       "en": "After dinner, I do the washing-up and my husband helps the children with their homework.",
+       "tr": "Akşam yemeğinden sonra ben bulaşıkları yıkarım, eşim de çocuklara ödevlerinde yardım eder.",
+       "why": [
+        "do the washing-up; helps (he → -s)."
+       ]
+      },
+      {
+       "en": "I usually fall asleep at half past eleven.",
+       "tr": "Genellikle on bir buçukta uykuya dalarım.",
+       "why": [
+        "fall asleep = uykuya dalmak; go to bed = yatmak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Alışveriş yaparım.” İngilizcesi?",
+       "answer": "I do the shopping.",
+       "why": "do the shopping"
+      },
+      {
+       "question": "“Bulaşık yıkarım.” İngilizcesi?",
+       "answer": "I do the washing-up.",
+       "why": "do the washing-up"
+      },
+      {
+       "question": "go to bed ile fall asleep farkı?",
+       "answer": "go to bed yatağa gitmek, fall asleep uykuya dalmak.",
+       "why": "İki farklı an."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I make the shopping.",
+       "right": "I do the shopping.",
+       "why": "Alışveriş için do kullanılır."
+      },
+      {
+       "wrong": "I take a breakfast.",
+       "right": "I have breakfast.",
+       "why": "Öğünlerle have; a yok."
+      }
+     ]
+    },
+    {
+     "id": "rt-forms",
+     "title": "I don't … · She doesn't … · Do you …? · Does she …?",
+     "meaning": "Geniş zamanın bütün biçimlerini kullanmak",
+     "explanation": [
+      "Olumlu cümlede I, you, we, they ile fiil yalın; he, she, it ile -s alır: I work. She works. -ch, -sh, -s, -x, -o ile bitenler -es alır: catch → catches, wash → washes, go → goes, do → does. Sessiz harf + y → ies: study → studies. have düzensizdir: has.",
+      "Olumsuzda don't (I, you, we, they) ve doesn't (he, she, it) kullanılır; fiil yalın kalır: I don't work on Sundays. She doesn't drink coffee. doesn't'tan sonra -s yoktur: She doesn't works yanlıştır.",
+      "Soruda do / does başa gelir, fiil yalın kalır: Do you catch the bus? — Yes, I do. Does she work on Saturdays? — No, she doesn't. Soru kelimesiyle: What time do you get up? When does he finish work? Where do they have lunch?"
+     ],
+     "formula": [
+      "olumlu: I work · she works / catches / has",
+      "olumsuz: I don't work · she doesn't work",
+      "soru: Do you …? · Does she …? · What time do you …?"
+     ],
+     "examples": [
+      {
+       "en": "My husband gets up at six, but I get up at seven.",
+       "tr": "Eşim altıda kalkar ama ben yedide kalkarım.",
+       "why": [
+        "he → gets; I → get."
+       ]
+      },
+      {
+       "en": "She doesn't work on Sundays.",
+       "tr": "Pazar günleri çalışmaz.",
+       "why": [
+        "doesn't + yalın fiil."
+       ]
+      },
+      {
+       "en": "Does he catch the bus? — No, he doesn't. He walks to work.",
+       "tr": "Otobüse biner mi? — Hayır. İşe yürüyerek gider.",
+       "why": [
+        "Kısa cevap doesn't; walks -s."
+       ]
+      },
+      {
+       "en": "What time do you have lunch? — At half past twelve.",
+       "tr": "Öğle yemeğini saat kaçta yersin? — On iki buçukta.",
+       "why": [
+        "Soru kelimesi + do + you + yalın fiil."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "She ___ the bus at 7:30. (catch)",
+       "answer": "catches",
+       "why": "-ch → -es"
+      },
+      {
+       "question": "He ___ like coffee. (olumsuz)",
+       "answer": "doesn't",
+       "why": "he → doesn't"
+      },
+      {
+       "question": "___ you work on Saturdays?",
+       "answer": "Do",
+       "why": "you → do"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "She doesn't works.",
+       "right": "She doesn't work.",
+       "why": "doesn't'tan sonra fiil yalın."
+      },
+      {
+       "wrong": "What time you get up?",
+       "right": "What time do you get up?",
+       "why": "Soruda do gerekir."
+      }
+     ]
+    },
+    {
+     "id": "rt-time-frequency",
+     "title": "at seven · in the evening · on Sundays · usually · first, then",
+     "meaning": "Zaman, sıklık ve sıra ifadeleriyle günü düzenlemek",
+     "explanation": [
+      "Zaman edatları: saatle at (at seven, at half past six), günün bölümleriyle in (in the morning, in the afternoon, in the evening), gece için at (at night), günlerle on (on Sundays, on Monday morning), hafta sonu için at the weekend (İngiltere) ya da on the weekend.",
+      "Sıklık zarfları ana fiilden önce gelir: I usually have a quick breakfast. She never drinks coffee. Ama be fiilinden sonra gelir: I'm always tired on Mondays. Sıklık ölçeği: always (her zaman) > usually (genellikle) > often (sık sık) > sometimes (bazen) > hardly ever (neredeyse hiç) > never (asla). Daha kesin sıklık için ifadeler cümle sonuna gelir: every day, twice a week, once a month.",
+      "Sıra kelimeleri günü bir hikâye gibi anlatır: First, I have a shower. Then I get dressed. After that, I have breakfast. Finally, I leave home. before ve after + isim de çok kullanışlıdır: before work, after dinner."
+     ],
+     "formula": [
+      "at + saat · in + the morning / evening · on + gün · at night",
+      "sıklık zarfı + ana fiil; be + sıklık zarfı",
+      "First, … Then … After that, … Finally, … · before / after + isim"
+     ],
+     "examples": [
+      {
+       "en": "I usually have a quick breakfast in the morning.",
+       "tr": "Sabahları genellikle hızlı bir kahvaltı yaparım.",
+       "why": [
+        "usually fiilden önce; in the morning."
+       ]
+      },
+      {
+       "en": "We go for a walk twice a week, on Tuesdays and Fridays.",
+       "tr": "Haftada iki kez, salı ve cuma günleri yürüyüşe çıkarız.",
+       "why": [
+        "twice a week sonda; günlerle on."
+       ]
+      },
+      {
+       "en": "I'm always tired on Monday evenings.",
+       "tr": "Pazartesi akşamları hep yorgunumdur.",
+       "why": [
+        "be + always."
+       ]
+      },
+      {
+       "en": "First, I take the children to school. Then I do the housework.",
+       "tr": "Önce çocukları okula götürürüm. Sonra ev işlerini yaparım.",
+       "why": [
+        "First / Then ile sıra."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Akşamları” nasıl söylenir?",
+       "answer": "in the evening",
+       "why": "in + the + günün bölümü"
+      },
+      {
+       "question": "I ___ have coffee. (asla) — never nereye gelir?",
+       "answer": "I never have coffee.",
+       "why": "Fiilden önce."
+      },
+      {
+       "question": "“İşten sonra” nasıl söylenir?",
+       "answer": "after work",
+       "why": "after + isim"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I have usually breakfast.",
+       "right": "I usually have breakfast.",
+       "why": "Sıklık zarfı ana fiilden önce."
+      },
+      {
+       "wrong": "at the evening",
+       "right": "in the evening",
+       "why": "Günün bölümleri in ile; gece at night."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "zookeeper",
+   "title": "Okuma: bir hayvan bakıcısının günü (doğru / yanlış)",
+   "intro": [
+    "MEB kazanımı: bir kişinin günlük hayatını anlatan metinle ilgili cümlelerin doğru mu yanlış mı olduğunu söyler. Okuma metnimiz Deniz Aksoy adlı bir hayvan bakıcısının gününü anlatıyor; böylece dünkü hayvanat bahçesi konusu ile bugünkü günlük hayat konusu birleşiyor.",
+    "Metin üçüncü tekil kişiyle (she) yazıldığı için fiillerin çoğu -s ya da -es alır: gets up, catches, cleans, has, finishes. Olumsuzda doesn't + yalın fiil vardır: She doesn't go home by bus. Doğru / yanlış sorularını cevaplarken bu biçimlere ve özellikle never, always, usually gibi sıklık kelimelerine dikkat etmek gerekir."
+   ],
+   "patterns": [
+    {
+     "id": "zk-third",
+     "title": "she gets up · she catches · she has · she doesn't go",
+     "meaning": "Üçüncü tekil kişiyle bir günü okumak ve anlatmak",
+     "explanation": [
+      "Bir başkasının gününü anlatırken fiillerin hepsi -s alır. Okurken bu -s'leri fark etmek, fiilin kime ait olduğunu anlamanı kolaylaştırır: She gets up at half past five. She catches the bus at six fifteen. She starts work at seven.",
+      "Yazım kurallarına dikkat: catch → catches, finish → finishes, go → goes (-es); have → has (düzensiz); cleans, gives, checks, cooks (sadece -s). Okuma metnini sesli okurken -es ekinin ayrı bir hece gibi okunduğunu duyarsın: catch-es (keçiz), finish-es (finişiz).",
+      "Metinde bir olumsuz cümle de var: She doesn't go home by bus in the evening; her husband picks her up. Olumsuzda -s, doesn't'a geçer. pick up birini arabayla almak demektir: Her husband picks her up (Eşi onu alır). Nesne zamiri (her) pick ile up arasına girer."
+     ],
+     "formula": [
+      "she + fiil-s: gets up, starts, cleans",
+      "-ch / -sh / -o → -es: catches, finishes, goes · have → has",
+      "olumsuz: she doesn't + yalın fiil"
+     ],
+     "examples": [
+      {
+       "en": "She gets up at half past five and she has a quick breakfast.",
+       "tr": "Beş buçukta kalkar ve hızlı bir kahvaltı yapar.",
+       "why": [
+        "gets ve has: üçüncü tekil kişi."
+       ],
+       "chunks": [
+        {
+         "en": "gets up",
+         "tr": "kalkar"
+        },
+        {
+         "en": "has a quick breakfast",
+         "tr": "hızlı bir kahvaltı yapar",
+         "note": "have → has"
+        }
+       ]
+      },
+      {
+       "en": "She catches the bus at six fifteen.",
+       "tr": "Altıyı çeyrek geçe otobüse biner.",
+       "why": [
+        "catch → catches."
+       ]
+      },
+      {
+       "en": "First, she cleans the elephant house.",
+       "tr": "Önce fil evini temizler.",
+       "why": [
+        "clean → cleans; First sırayı başlatır."
+       ]
+      },
+      {
+       "en": "She doesn't go home by bus. Her husband picks her up.",
+       "tr": "Eve otobüsle gitmez. Eşi onu alır.",
+       "why": [
+        "doesn't go; picks her up (zamir arada)."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "She ___ work at five. (finish)",
+       "answer": "finishes",
+       "why": "-sh → -es"
+      },
+      {
+       "question": "“Eşi onu alır.” İngilizcesi?",
+       "answer": "Her husband picks her up.",
+       "why": "pick + zamir + up"
+      },
+      {
+       "question": "She doesn't ___ coffee. (drink)",
+       "answer": "drink",
+       "why": "doesn't + yalın"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "She catchs the bus.",
+       "right": "She catches the bus.",
+       "why": "-ch ile biten fiiller -es alır."
+      },
+      {
+       "wrong": "Her husband picks up her.",
+       "right": "Her husband picks her up.",
+       "why": "Zamir pick ile up arasına girer."
+      }
+     ]
+    },
+    {
+     "id": "zk-truefalse",
+     "title": "True or false? Sıklık kelimeleri ve düzeltme",
+     "meaning": "Metne dayanarak doğru / yanlış söylemek ve yanlışı düzeltmek",
+     "explanation": [
+      "Doğru / yanlış cümleleri çoğu zaman metindeki bir kelimeyi değiştirir. En sık değiştirilen kelimeler kişiler (lions ↔ elephants), saatler (late ↔ early), sıklık kelimeleri (always ↔ usually ↔ never) ve olumsuzluklardır (goes ↔ doesn't go). Bu yüzden ifadeyi okuduktan sonra metinde aynı konunun geçtiği cümleyi bul ve kelime kelime karşılaştır.",
+      "Sıklık kelimeleri anlamı büyük ölçüde değiştirir. Metinde She usually has lunch with the other zookeepers yazıyorsa, She always has lunch alone ifadesi iki yönden yanlıştır: usually ≠ always ve with the other zookeepers ≠ alone. She never drinks coffee yazıyorsa She drinks coffee in the morning yanlıştır.",
+      "Yanlış bir cümleyi düzeltirken iki yol vardır: olumsuz cümle (She doesn't drink coffee.) ya da doğru bilgi (She drinks tea.). En güçlü cevap ikisini birleştirir: False. She never drinks coffee. She drinks tea."
+     ],
+     "formula": [
+      "1 · İfadedeki anahtar kelimeyi bul.",
+      "2 · Metindeki cümleyle karşılaştır: kişi, saat, sıklık, olumsuzluk.",
+      "3 · False ise düzelt: olumsuz cümle + doğru bilgi."
+     ],
+     "examples": [
+      {
+       "en": "She drinks coffee in the morning. — False. She never drinks coffee.",
+       "tr": "Sabah kahve içer. — Yanlış. Hiç kahve içmez.",
+       "why": [
+        "never her şeyi değiştirir."
+       ]
+      },
+      {
+       "en": "She always has lunch alone. — False. She usually has lunch with the other zookeepers.",
+       "tr": "Öğle yemeğini hep yalnız yer. — Yanlış. Genellikle diğer bakıcılarla yer.",
+       "why": [
+        "İki fark: always / usually ve alone / with."
+       ]
+      },
+      {
+       "en": "The zoo opens at ten o'clock. — True.",
+       "tr": "Hayvanat bahçesi saat onda açılır. — Doğru.",
+       "why": [
+        "Metindeki bilgiyle aynı."
+       ]
+      },
+      {
+       "en": "Deniz thinks her job is boring. — False. She says it's never boring.",
+       "tr": "Deniz işinin sıkıcı olduğunu düşünüyor. — Yanlış. Asla sıkıcı olmadığını söylüyor.",
+       "why": [
+        "Doğrudan alıntıya dayalı düzeltme."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "She goes to bed late. Metinde: at ten o'clock, early. Cevap?",
+       "answer": "False. She goes to bed early, at ten o'clock.",
+       "why": "late ↔ early"
+      },
+      {
+       "question": "She gets up very early. Metinde: at half past five. Cevap?",
+       "answer": "True.",
+       "why": "Beş buçuk erken bir saat."
+      },
+      {
+       "question": "Yanlışı düzeltmenin en güçlü yolu nedir?",
+       "answer": "Olumsuz cümle + doğru bilgi.",
+       "why": "False. She never drinks coffee. She drinks tea."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "False. (düzeltme olmadan)",
+       "right": "False. She works with the elephants and the giraffes.",
+       "why": "Düzeltme anladığını gösterir."
+      },
+      {
+       "wrong": "True, because I think so.",
+       "right": "True. The text says: The zoo opens at ten.",
+       "why": "Cevap metne dayanmalı."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "synonyms",
+   "title": "Eş ve zıt anlamlı sıfatlar: big = large · big ≠ small",
+   "intro": [
+    "MEB kazanımı: günlük hayatta sık kullanılan sıfatların eş ve zıt anlamlılarını söyler ve cümlelerinde doğru kullanır; örnekler: büyük – küçük, sıcak – soğuk, ucuz – pahalı, çabuk, hızlı. Eş anlamlılar (synonyms) konuşmada tekrarı önler: My flat is big. — Yes, it's large! Zıt anlamlılar (opposites) karşılaştırma yapmamızı sağlar: The market is cheap, but the mall is expensive.",
+    "Bu ekranda bir de “çabuk, hızlı” örneğinin inceliğine bakıyoruz: fast ve quick ikisi de hızlı demektir ama aynı yerlerde kullanılmaz. Ayrıca bir işin nasıl yapıldığını anlatan zarfları (quickly, slowly) ve hem sıfat hem zarf olan kelimeleri (fast, early, late, hard) öğreniyoruz."
+   ],
+   "patterns": [
+    {
+     "id": "sy-synonyms",
+     "title": "big = large · small = little · fast = quick",
+     "meaning": "Eş anlamlı sıfatları doğru bağlamda kullanmak",
+     "explanation": [
+      "big ve large ikisi de büyük demektir. large biraz daha resmîdir ve ölçülerde sık görülür: a large house, a large coffee, size L (large). big günlük konuşmada daha yaygındır. small ve little ikisi de küçük demektir; little çoğunlukla duygusal bir sıcaklık taşır: a little girl, my little brother. little be'den sonra pek kullanılmaz: The room is small (The room is little yerine).",
+      "fast ve quick ikisi de hızlıdır. fast hareket hızını anlatır: a fast car, a fast train, a fast runner. quick ise kısa süren bir işi anlatır: a quick breakfast (hızlı, kısa bir kahvaltı), a quick shower, a quick question. Bu yüzden a fast breakfast pek doğal değildir.",
+      "Diğer eş anlamlılar: busy ≈ crowded (kalabalık), easy ≈ simple (kolay), difficult = hard (zor), happy ≈ glad (memnun). Eş anlamlıların hepsi her yerde birbirinin yerine geçmez; en güvenli yol onları örnek cümlelerle öğrenmektir."
+     ],
+     "formula": [
+      "big = large (resmî, ölçü) · small = little (duygusal, isimden önce)",
+      "fast: hareket hızı · quick: kısa süren iş",
+      "difficult = hard · busy ≈ crowded · easy ≈ simple"
+     ],
+     "examples": [
+      {
+       "en": "I have a quick breakfast because I'm always late.",
+       "tr": "Hep geç kaldığım için hızlı bir kahvaltı yaparım.",
+       "why": [
+        "quick: kısa süren iş."
+       ],
+       "chunks": [
+        {
+         "en": "a quick breakfast",
+         "tr": "hızlı, kısa bir kahvaltı"
+        },
+        {
+         "en": "because",
+         "tr": "çünkü"
+        }
+       ]
+      },
+      {
+       "en": "The train is fast. It takes only two hours to Ankara.",
+       "tr": "Tren hızlı. Ankara'ya sadece iki saat sürüyor.",
+       "why": [
+        "fast: hareket hızı."
+       ]
+      },
+      {
+       "en": "They live in a large house with five bedrooms.",
+       "tr": "Beş yatak odalı büyük bir evde oturuyorlar.",
+       "why": [
+        "large = big, biraz daha resmî."
+       ]
+      },
+      {
+       "en": "My little brother is six.",
+       "tr": "Küçük kardeşim altı yaşında.",
+       "why": [
+        "little isimden önce, sevgi tonu."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "fast'in eş anlamlısı?",
+       "answer": "quick",
+       "why": "fast = quick"
+      },
+      {
+       "question": "“Hızlı bir duş” için fast mı quick mi?",
+       "answer": "a quick shower",
+       "why": "Kısa süren iş → quick."
+      },
+      {
+       "question": "big'in resmî eş anlamlısı?",
+       "answer": "large",
+       "why": "big = large"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I have a fast breakfast.",
+       "right": "I have a quick breakfast.",
+       "why": "Kısa süren işler için quick."
+      },
+      {
+       "wrong": "The room is little.",
+       "right": "The room is small.",
+       "why": "little be'den sonra pek kullanılmaz."
+      }
+     ]
+    },
+    {
+     "id": "sy-opposites",
+     "title": "cheap ≠ expensive · early ≠ late · busy ≠ quiet · easy ≠ difficult",
+     "meaning": "Günlük hayatın zıt anlamlı sıfatlarıyla karşılaştırma yapmak",
+     "explanation": [
+      "Günlük hayatı anlatırken sık kullanılan zıt çiftler: hot ≠ cold, warm ≠ cool, cheap ≠ expensive, early ≠ late, busy ≠ quiet, easy ≠ difficult, clean ≠ dirty, new ≠ old, young ≠ old, happy ≠ sad. warm (ılık, sıcakça) ve cool (serin) hot ve cold'dan daha hafif derecelerdir.",
+      "busy iki anlamda kullanılır: kişi için meşgul (I'm busy today), yer için kalabalık, yoğun (The streets are busy in the morning). Zıttı quiet'tır: sakin, sessiz. old'un iki zıttı vardır: eşyalar için new (an old phone ↔ a new phone), insanlar için young (an old man ↔ a young man).",
+      "Zıt anlamlılar but ile çok güzel karşılaştırmalar kurar: The market is cheap, but the mall is expensive. I get up early on weekdays, but late on Sundays. Bu yapı yazma ödevinde paragrafı canlandırır."
+     ],
+     "formula": [
+      "hot ≠ cold · warm ≠ cool · cheap ≠ expensive · early ≠ late",
+      "busy (meşgul / kalabalık) ≠ quiet · easy ≠ difficult",
+      "old ≠ new (eşya) · old ≠ young (insan)"
+     ],
+     "examples": [
+      {
+       "en": "The streets are busy at eight and quiet at night.",
+       "tr": "Sokaklar sekizde kalabalık, gece sakin.",
+       "why": [
+        "busy ≠ quiet; and iki zamanı bağlar."
+       ]
+      },
+      {
+       "en": "I get up early on weekdays, but late on Sundays.",
+       "tr": "Hafta içi erken kalkarım ama pazar günleri geç.",
+       "why": [
+        "early ≠ late; but zıtlık."
+       ]
+      },
+      {
+       "en": "It's warm in the afternoon, but it's cool in the evening.",
+       "tr": "Öğleden sonra ılık ama akşam serin.",
+       "why": [
+        "warm ≠ cool: hafif dereceler."
+       ]
+      },
+      {
+       "en": "My job isn't difficult. It's quite easy.",
+       "tr": "İşim zor değil. Oldukça kolay.",
+       "why": [
+        "difficult ≠ easy; olumsuz + olumlu."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "busy'nin zıttı?",
+       "answer": "quiet",
+       "why": "kalabalık ≠ sakin"
+      },
+      {
+       "question": "old'un insanlar için zıttı?",
+       "answer": "young",
+       "why": "eşya için new"
+      },
+      {
+       "question": "warm'ın zıttı?",
+       "answer": "cool",
+       "why": "ılık ≠ serin"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The street is very crowd.",
+       "right": "The street is very busy / crowded.",
+       "why": "crowd isimdir; sıfat crowded ya da busy."
+      },
+      {
+       "wrong": "an old man ↔ a new man",
+       "right": "an old man ↔ a young man",
+       "why": "İnsanlar için young."
+      }
+     ]
+    },
+    {
+     "id": "sy-adverbs",
+     "title": "quick → quickly · slow → slowly · fast · early · hard",
+     "meaning": "Sıfat ile zarfı ayırt etmek",
+     "explanation": [
+      "Sıfat bir ismi anlatır: a quick breakfast, a slow bus. Zarf ise bir fiilin nasıl yapıldığını anlatır: I eat quickly. The bus goes slowly. Çoğu sıfattan zarf -ly ekiyle yapılır: quick → quickly, slow → slowly, quiet → quietly, loud → loudly, careful → carefully.",
+      "Bazı kelimeler hem sıfat hem zarftır ve -ly almaz: fast (a fast car / He drives fast), early (an early bus / I get up early), late (a late dinner / I go to bed late), hard (a hard job / She works hard). fastly diye bir kelime yoktur. hardly ise bambaşka bir anlama gelir: neredeyse hiç (I hardly ever watch TV).",
+      "Hangisini kullanacağına karar vermek için sor: Bir isim mi anlatıyorum (sıfat), yoksa bir işin nasıl yapıldığını mı (zarf)? be fiilinden sonra sıfat gelir: The bus is slow. Hareket fiilinden sonra zarf gelir: The bus goes slowly."
+     ],
+     "formula": [
+      "sıfat + isim: a quick breakfast · be + sıfat: The bus is slow.",
+      "fiil + zarf (-ly): I eat quickly. · Speak slowly.",
+      "-ly almayanlar: fast, early, late, hard (fastly yok!)"
+     ],
+     "examples": [
+      {
+       "en": "I'm late! I get dressed quickly.",
+       "tr": "Geç kaldım! Hızlıca giyinirim.",
+       "why": [
+        "Nasıl giyinirim? → quickly (zarf)."
+       ]
+      },
+      {
+       "en": "Please speak slowly. I'm a beginner.",
+       "tr": "Lütfen yavaş konuşun. Yeni başlayanım.",
+       "why": [
+        "speak + slowly."
+       ]
+      },
+      {
+       "en": "He drives fast, but he's a careful driver.",
+       "tr": "Hızlı araba kullanır ama dikkatli bir sürücüdür.",
+       "why": [
+        "fast zarf; careful sıfat."
+       ]
+      },
+      {
+       "en": "She works hard and she gets up early.",
+       "tr": "Çok çalışır ve erken kalkar.",
+       "why": [
+        "hard ve early zarf; -ly yok."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "He drives ___ . (fast / fastly)",
+       "answer": "fast",
+       "why": "fastly yok."
+      },
+      {
+       "question": "“Lütfen yavaş konuşun.” İngilizcesi?",
+       "answer": "Please speak slowly.",
+       "why": "speak + slowly"
+      },
+      {
+       "question": "The bus is ___ . (slow / slowly)",
+       "answer": "slow",
+       "why": "be + sıfat"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "He drives fastly.",
+       "right": "He drives fast.",
+       "why": "fast zarf olarak da fast kalır."
+      },
+      {
+       "wrong": "This job is hardly.",
+       "right": "This job is hard.",
+       "why": "hardly “neredeyse hiç” demektir."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "quick / quickly",
+       "explanation": [
+        "quick bir sıfattır ve isimden önce ya da be'den sonra gelir. quickly bir zarftır ve fiilden sonra gelir."
+       ],
+       "example": "I have a quick shower. · I have a shower quickly.",
+       "tr": [
+        "Hızlı bir duş alırım. · Hızlıca duş alırım."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "my-day",
+   "title": "Benim günüm: röportaj ve paragraf yazma",
+   "intro": [
+    "MEB kazanımları burada birleşiyor: bir gün boyunca yaptığı işleri anlatır ve basit ifadelerle yazar. Önce bir arkadaşımızla röportaj yapıyoruz; bu, soru biçimlerini (What time do you …? How often do you …?) pekiştirir. Sonra arkadaşımızın gününü sınıfa üçüncü tekil kişiyle anlatıyoruz. En son kendi günümüzü 80–140 kelimelik bir paragrafla yazıyoruz.",
+    "İyi bir “günüm” paragrafının dört özelliği vardır: saatler (at seven), sıklık kelimeleri (usually, never), sıra kelimeleri (first, then, after that) ve en az iki sıfat (busy, quiet, quick). Model metin bu dört özelliğin hepsini gösterir; kendi metnini yazarken onu bir iskelet gibi kullanabilirsin."
+   ],
+   "patterns": [
+    {
+     "id": "md-interview",
+     "title": "What time do you …? · How often do you …? · She gets up at six.",
+     "meaning": "Röportaj yapmak ve cevapları üçüncü tekil kişiyle aktarmak",
+     "explanation": [
+      "Röportaj soruları geniş zamanın soru biçimini kullanır: What time do you get up? What do you have for breakfast? How do you go to work? What do you do after work? How often do you go for a walk? Her soruda do + you + yalın fiil vardır.",
+      "Cevapları not ederken kısa yazabilirsin: 6:00, tea + bread, by bus. Ama sınıfa anlatırken tam cümle kurmalısın ve fiil üçüncü tekil kişiye göre -s almalıdır: Oya gets up at six. She has tea and bread for breakfast. She goes to work by bus.",
+      "Ek sorular sohbeti derinleştirir: Is the bus busy in the morning? Do you get up early at the weekend? Ek soruların cevapları paragrafa renk katar: She gets up early on weekdays, but late at the weekend."
+     ],
+     "formula": [
+      "What time / What / How / How often + do you + yalın fiil?",
+      "Aktarım: She / He + fiil-s: She gets up at six.",
+      "Ek soru: Is the bus busy? · Do you … at the weekend?"
+     ],
+     "examples": [
+      {
+       "en": "How often do you go for a walk? — Twice a week.",
+       "tr": "Ne sıklıkla yürüyüşe çıkarsın? — Haftada iki kez.",
+       "why": [
+        "How often sıklık sorar; cevap sıklık ifadesi."
+       ],
+       "chunks": [
+        {
+         "en": "How often",
+         "tr": "ne sıklıkla"
+        },
+        {
+         "en": "twice a week",
+         "tr": "haftada iki kez"
+        }
+       ]
+      },
+      {
+       "en": "What do you have for breakfast? — Tea, bread, cheese and olives.",
+       "tr": "Kahvaltıda ne yersin? — Çay, ekmek, peynir ve zeytin.",
+       "why": [
+        "have … for breakfast = kahvaltıda … yemek."
+       ]
+      },
+      {
+       "en": "Oya gets up at six and she has a quick breakfast.",
+       "tr": "Oya altıda kalkar ve hızlı bir kahvaltı yapar.",
+       "why": [
+        "Aktarım: gets, has."
+       ]
+      },
+      {
+       "en": "She doesn't drive. She goes to work by bus.",
+       "tr": "Araba kullanmaz. İşe otobüsle gider.",
+       "why": [
+        "doesn't + yalın; goes (-es); by bus."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Saat kaçta yatarsın?” sorusu?",
+       "answer": "What time do you go to bed?",
+       "why": "do + you + yalın fiil"
+      },
+      {
+       "question": "I go to work by bus → she ile?",
+       "answer": "She goes to work by bus.",
+       "why": "go → goes"
+      },
+      {
+       "question": "How often ne sorar?",
+       "answer": "Sıklık: ne sıklıkla?",
+       "why": "Cevap: every day, twice a week …"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "How often you go for a walk?",
+       "right": "How often do you go for a walk?",
+       "why": "Soruda do gerekir."
+      },
+      {
+       "wrong": "She go to work by bus.",
+       "right": "She goes to work by bus.",
+       "why": "she → goes."
+      }
+     ]
+    },
+    {
+     "id": "md-paragraph",
+     "title": "My day starts early. · First, … Then … · My day is busy, but I'm happy.",
+     "meaning": "Günü anlatan düzenli bir paragraf yazmak",
+     "explanation": [
+      "Paragrafa genel bir cümleyle başla: My day starts early. / I'm a nurse and my days are busy. Bu konu cümlesi okuyucuya ne anlatacağını söyler. Sonra sabahtan akşama doğru ilerle ve saatleri ekle: I get up at half past six. At half past seven, the children go to school.",
+      "Sıra kelimeleri ve sıklık zarflarıyla paragrafı akıcı yap: First, I do the housework. Then I go to the market. After dinner, we often go for a walk. En az iki sıfat ekle: The market near my home is cheap. The park is quiet in the evening.",
+      "Paragrafı bir duygu ya da değerlendirmeyle bitir: My day is busy, but I'm happy. / I'm always tired at night, but I love my job. Yazdıktan sonra kontrol listesini uygula: saatlerde at, fiilden önce sıklık kelimesi, sıra kelimeleri, iki sıfat ve I am get up gibi hatalardan kaçınma."
+     ],
+     "formula": [
+      "1 · Konu cümlesi: My day starts early.",
+      "2 · Sabahtan akşama: saat + iş + sıklık + sıra kelimesi + sıfat",
+      "3 · Bitiş: My day is busy, but I'm happy."
+     ],
+     "examples": [
+      {
+       "en": "My day starts early. I get up at half past six and I make breakfast for my family.",
+       "tr": "Günüm erken başlar. Altı buçukta kalkar ve ailem için kahvaltı hazırlarım.",
+       "why": [
+        "Konu cümlesi + ilk iş; make breakfast = hazırlamak."
+       ]
+      },
+      {
+       "en": "First, I do the housework. Then I go to the market.",
+       "tr": "Önce ev işlerini yaparım. Sonra pazara giderim.",
+       "why": [
+        "Sıra kelimeleri."
+       ]
+      },
+      {
+       "en": "The market near my home is cheap and the vegetables are fresh.",
+       "tr": "Evimin yakınındaki pazar ucuz ve sebzeler taze.",
+       "why": [
+        "İki sıfat: cheap, fresh."
+       ]
+      },
+      {
+       "en": "After dinner, we often go for a walk in the park. My day is busy, but I'm happy.",
+       "tr": "Akşam yemeğinden sonra sık sık parkta yürüyüşe çıkarız. Günüm yoğun ama mutluyum.",
+       "why": [
+        "Sıklık zarfı + bitiş cümlesi."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Paragraf nasıl başlar?",
+       "answer": "Bir konu cümlesiyle: My day starts early.",
+       "why": "Okuyucuya konuyu söyler."
+      },
+      {
+       "question": "Paragrafta kaç sıfat olmalı?",
+       "answer": "En az iki: busy, quiet, cheap …",
+       "why": "Kontrol listesi."
+      },
+      {
+       "question": "I am get up at six cümlesini düzeltin.",
+       "answer": "I get up at six.",
+       "why": "Geniş zamanda am kullanılmaz."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I am get up at six.",
+       "right": "I get up at six.",
+       "why": "Geniş zamanda be fiili kullanılmaz."
+      },
+      {
+       "wrong": "In seven o'clock I go to work.",
+       "right": "At seven o'clock I go to work.",
+       "why": "Saatle at kullanılır."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "close",
+   "title": "Kapanış: iki günün özeti",
+   "intro": [
+    "İki günlük dersin sonunda kazanımları tek tek kontrol ediyoruz. Kontrol listesindeki dokuz cümle iki günün bütün konularını özetler: sıfatlar, hayvanlar, tabelalar, haritada yer, yol tarifi, telefonda tarif, günlük hayat, doğru / yanlış okuma ve eş / zıt anlamlılar.",
+    "Kapanışın amacı, zorlandığın konuyu belirleyip tekrar planı yapmaktır. Bugünün özeti sayfasında bütün anlatım kutuları, İfade bankasında bütün ifadeler sesli olarak var. Ev ödevi üç parçadan oluşur: çalışma kâğıdı, “benim günüm” paragrafının temize çekilmesi ve ifade bankasının sesli tekrarı."
+   ],
+   "patterns": [
+    {
+     "id": "cl-review",
+     "title": "İki günün beş büyük kalıbı",
+     "meaning": "Kazanımları tek tek cümlelerle tekrar etmek",
+     "explanation": [
+      "Birinci gün: sıfatlar (The bed is too hard.), yaşam alanları (A crocodile lives in the river.), tabelalar (Don't feed the animals. No swimming.), betimleme (It has four legs and a long tail. It gives us milk.) ve ürünler (We get wool from sheep.).",
+      "İkinci gün: haritada yer (The post office is next to the cinema.), yol tarifi (Go along High Street. Take the second left. It's on your right.), telefonda tarif (Where are you now? Can you see …? Call me when you get there.), günlük hayat (She catches the bus at 7:30.) ve eş / zıt anlamlılar (big = large, early ≠ late).",
+      "Bu cümlelerin hepsinde ortak olan birkaç kural vardır: be fiilini unutmamak, he / she / it ile -s eklemek, edatları doğru seçmek (on land, opposite the bank, on your left) ve emir cümlesinde özne kullanmamak. Bu dört kural iki günün dilbilgisi omurgasıdır."
+     ],
+     "formula": [
+      "be + sıfat · it / she + -s",
+      "doğru edat: on land · opposite the bank · on your left",
+      "emir cümlesi özne almaz: Turn left. Don't feed the animals."
+     ],
+     "examples": [
+      {
+       "en": "The post office is next to the cinema.",
+       "tr": "Postane sinemanın yanında.",
+       "why": [
+        "Kazanım cümlesi: next to + the + yer."
+       ]
+      },
+      {
+       "en": "Take the second right. It's on your left.",
+       "tr": "İkinci sağdan dönün. Solunuzda.",
+       "why": [
+        "Emir + varış cümlesi."
+       ]
+      },
+      {
+       "en": "We get meat, milk and wool from sheep.",
+       "tr": "Koyundan et, süt ve yün elde ederiz.",
+       "why": [
+        "Kazanım cümlesi: get … from …"
+       ]
+      },
+      {
+       "en": "She catches the bus at 7:30 and has a quick breakfast.",
+       "tr": "7.30'da otobüse biner ve hızlı bir kahvaltı yapar.",
+       "why": [
+        "she + -es / has; quick sıfat."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bankanın karşısında” nasıl söylenir?",
+       "answer": "opposite the bank",
+       "why": "of yok"
+      },
+      {
+       "question": "“Yüzmek yasak” tabelası?",
+       "answer": "No swimming.",
+       "why": "No + -ing"
+      },
+      {
+       "question": "big'in eş anlamlısı ve zıttı?",
+       "answer": "large · small",
+       "why": "big = large, big ≠ small"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The bank is opposite of the cinema.",
+       "right": "The bank is opposite the cinema.",
+       "why": "opposite'ten sonra of yok."
+      },
+      {
+       "wrong": "She catch the bus.",
+       "right": "She catches the bus.",
+       "why": "she → catches."
+      }
+     ]
+    },
+    {
+     "id": "cl-plan",
+     "title": "Tekrar planı: özet, ifade bankası, ödev",
+     "meaning": "Dersten sonra kendi kendine çalışma planı yapmak",
+     "explanation": [
+      "Kontrol listesinde “zorlanıyorum” işaretlediğin bir madde varsa, önce Bugünün özeti sayfasında o adımın kutusunu oku. Adım adım anlatımlar orada tamamen açıktır. Sonra o ekrana giderek alıştırmaları yeniden yap.",
+      "İfade bankasındaki her ifadeyi sesli dinle ve tekrar et. Özellikle Nerede?, Yol tarifi ve Günlük hayat bölümlerini her gün beş dakika tekrar etmek, ifadeleri konuşmada kendiliğinden kullanmanı sağlar. Kendi cümleni kurarak tekrar et: The bakery is on the corner of my street.",
+      "Ev ödevinde Fotokopi 7'nin E bölümünde evinden okula ya da işe giden yolu tarif edeceksin. Bu ödev iki günün konularını birleştirir: yer edatları, yol tarifi ve günlük rutin. Kısa ve net cümleler kur; her cümlede tek bir hareket olsun."
+     ],
+     "formula": [
+      "1 · Zayıf maddeyi bul → Bugünün özeti → ekrandaki alıştırma",
+      "2 · İfade bankası: dinle, tekrar et, kendi cümleni kur",
+      "3 · Ödev: evden okula / işe yol tarifi (4–5 cümle)"
+     ],
+     "examples": [
+      {
+       "en": "I live on Gül Street, near the park.",
+       "tr": "Gül Sokak'ta, parkın yakınında oturuyorum.",
+       "why": [
+        "Ödevin ilk cümlesi: on + sokak, near + yer."
+       ]
+      },
+      {
+       "en": "Go out of my building and turn left.",
+       "tr": "Binamdan çıkın ve sola dönün.",
+       "why": [
+        "go out of = …-den çıkmak."
+       ]
+      },
+      {
+       "en": "Go past the bakery. The bus stop is on your right.",
+       "tr": "Fırını geçin. Otobüs durağı sağınızda.",
+       "why": [
+        "İşaret bina + varış."
+       ]
+      },
+      {
+       "en": "It's about ten minutes' walk.",
+       "tr": "Yürüyerek on dakika kadar.",
+       "why": [
+        "Mesafe cümlesiyle bitir."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Zorlandığın bir konuyu nerede tekrar edersin?",
+       "answer": "Bugünün özeti sayfasında ve o adımın ekranında.",
+       "why": "Anlatım kutuları orada açık."
+      },
+      {
+       "question": "“Binamdan çıkın.” İngilizcesi?",
+       "answer": "Go out of my building.",
+       "why": "go out of"
+      },
+      {
+       "question": "Ödevde her cümle neyi anlatmalı?",
+       "answer": "Tek bir hareketi.",
+       "why": "Kısa ve net tarif."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Go out from my building.",
+       "right": "Go out of my building.",
+       "why": "Çıkmak için go out of kullanılır."
+      },
+      {
+       "wrong": "It's ten minutes walk.",
+       "right": "It's ten minutes' walk.",
+       "why": "Kesme işareti: minutes'."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "wake-get-up",
+   "term": "wake up · get up",
+   "meaning": "uyanmak · kalkmak",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "wake up · get up"
+   ],
+   "explanation": [
+    "wake up uykudan uyanmak, get up yataktan kalkmaktır; ikisi farklı anlar olabilir. he / she ile wakes up, gets up. Erken / geç: get up early / late."
+   ],
+   "collocations": [
+    {
+     "en": "get up early",
+     "tr": "erken kalkmak"
+    },
+    {
+     "en": "wake up late",
+     "tr": "geç uyanmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I wake up at six, but I get up at half past six.",
+     "tr": "Altıda uyanırım ama altı buçukta kalkarım."
+    },
+    {
+     "en": "She gets up at half past five.",
+     "tr": "Beş buçukta kalkar.",
+     "note": "she → gets"
+    },
+    {
+     "en": "What time do you get up on Sundays?",
+     "tr": "Pazarları saat kaçta kalkarsın?"
+    }
+   ],
+   "commonMistake": "I am get up yerine I get up denir."
+  },
+  {
+   "id": "have-meals",
+   "term": "have breakfast / lunch / dinner",
+   "meaning": "kahvaltı / öğle / akşam yemeği yemek",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "have breakfast / lunch / dinner"
+   ],
+   "explanation": [
+    "Öğünler have ile söylenir ve önlerine a / the gelmez. Sıfat eklenirse a gelir: a quick breakfast, a big lunch. Hazırlamak için make / cook: make breakfast, cook dinner."
+   ],
+   "collocations": [
+    {
+     "en": "have a quick breakfast",
+     "tr": "hızlı bir kahvaltı yapmak"
+    },
+    {
+     "en": "have lunch at one",
+     "tr": "birde öğle yemeği yemek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We have dinner at seven.",
+     "tr": "Yedide akşam yemeği yeriz."
+    },
+    {
+     "en": "I have a quick breakfast.",
+     "tr": "Hızlı bir kahvaltı yaparım.",
+     "note": "Sıfatla a gelir."
+    },
+    {
+     "en": "She usually has lunch with her friends.",
+     "tr": "Genellikle arkadaşlarıyla öğle yemeği yer.",
+     "note": "she → has"
+    }
+   ],
+   "commonMistake": "I have a breakfast yerine I have breakfast denir."
+  },
+  {
+   "id": "catch-bus",
+   "term": "catch the bus · go to work",
+   "meaning": "otobüse binmek · işe gitmek",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "catch the bus · go to work"
+   ],
+   "explanation": [
+    "catch the bus otobüse yetişip binmektir; take the bus da aynı anlamdadır. go to work kalıbında the yoktur. Ulaşım aracı by ile: go to work by bus / by car / on foot."
+   ],
+   "collocations": [
+    {
+     "en": "take the bus",
+     "tr": "otobüse binmek"
+    },
+    {
+     "en": "go to work by bus",
+     "tr": "işe otobüsle gitmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I catch the bus at 7:30.",
+     "tr": "7.30 otobüsüne binerim."
+    },
+    {
+     "en": "She catches the bus at six fifteen.",
+     "tr": "Altıyı çeyrek geçe otobüse biner.",
+     "note": "-ch → -es"
+    },
+    {
+     "en": "My husband goes to work by car.",
+     "tr": "Eşim işe arabayla gider."
+    }
+   ],
+   "commonMistake": "go to the work yerine go to work denir."
+  },
+  {
+   "id": "do-shopping",
+   "term": "do the shopping · do the housework",
+   "meaning": "alışveriş yapmak · ev işi yapmak",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "do the shopping · do the housework"
+   ],
+   "explanation": [
+    "Ev işleri ve alışveriş do ile kullanılır, make ile değil. Diğer örnekler: do the washing-up (bulaşık), do the cleaning (temizlik), do the ironing (ütü). housework sayılamaz; -s almaz."
+   ],
+   "collocations": [
+    {
+     "en": "do the washing-up",
+     "tr": "bulaşık yıkamak"
+    },
+    {
+     "en": "do the cleaning",
+     "tr": "temizlik yapmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I do the shopping on Saturdays.",
+     "tr": "Cumartesileri alışveriş yaparım."
+    },
+    {
+     "en": "She does the housework in the morning.",
+     "tr": "Ev işlerini sabah yapar.",
+     "note": "do → does"
+    },
+    {
+     "en": "Who does the washing-up in your home?",
+     "tr": "Evinizde bulaşığı kim yıkar?"
+    }
+   ],
+   "commonMistake": "make the shopping yerine do the shopping denir."
+  },
+  {
+   "id": "pick-up",
+   "term": "pick up the children",
+   "meaning": "çocukları (okuldan) almak",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "pick up the children"
+   ],
+   "explanation": [
+    "pick up birini bir yerden alıp götürmek demektir. Zamirle kullanıldığında zamir araya girer: pick them up, picks her up. İsimle iki sıra da olur: pick up the children / pick the children up."
+   ],
+   "collocations": [
+    {
+     "en": "pick up from school",
+     "tr": "okuldan almak"
+    },
+    {
+     "en": "pick me up",
+     "tr": "beni al"
+    }
+   ],
+   "examples": [
+    {
+     "en": "She picks up the children at four.",
+     "tr": "Çocukları dörtte alır."
+    },
+    {
+     "en": "Her husband picks her up after work.",
+     "tr": "Eşi onu işten sonra alır.",
+     "note": "Zamir arada"
+    },
+    {
+     "en": "Can you pick me up at the station?",
+     "tr": "Beni istasyondan alabilir misin?"
+    }
+   ],
+   "commonMistake": "pick up her yerine pick her up denir."
+  },
+  {
+   "id": "go-walk",
+   "term": "go for a walk",
+   "meaning": "yürüyüşe çıkmak",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "go for a walk"
+   ],
+   "explanation": [
+    "Boş zaman için yürüyüşe çıkmak. Benzer kalıplar: go for a run (koşuya çıkmak), go for a drive (araba gezintisine çıkmak). walk to work ise işe yürüyerek gitmektir."
+   ],
+   "collocations": [
+    {
+     "en": "go for a walk in the park",
+     "tr": "parkta yürüyüşe çıkmak"
+    },
+    {
+     "en": "walk to work",
+     "tr": "işe yürüyerek gitmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We go for a walk after dinner.",
+     "tr": "Akşam yemeğinden sonra yürüyüşe çıkarız."
+    },
+    {
+     "en": "She goes for a walk with her dog.",
+     "tr": "Köpeğiyle yürüyüşe çıkar.",
+     "note": "go → goes"
+    },
+    {
+     "en": "How often do you go for a walk?",
+     "tr": "Ne sıklıkla yürüyüşe çıkarsın?"
+    }
+   ],
+   "commonMistake": "make a walk yerine go for a walk denir."
+  },
+  {
+   "id": "go-bed",
+   "term": "go to bed",
+   "meaning": "yatmak",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "go to bed"
+   ],
+   "explanation": [
+    "Uyumak için yatağa gitmek. go to bed kalıbında the yoktur. fall asleep uykuya dalmak, sleep uyumak, stay up late geç saate kadar oturmaktır."
+   ],
+   "collocations": [
+    {
+     "en": "go to bed early",
+     "tr": "erken yatmak"
+    },
+    {
+     "en": "fall asleep",
+     "tr": "uykuya dalmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I go to bed at eleven.",
+     "tr": "On birde yatarım."
+    },
+    {
+     "en": "She goes to bed early because she's always tired.",
+     "tr": "Erken yatar çünkü hep yorgundur."
+    },
+    {
+     "en": "On Saturdays, we go to bed late.",
+     "tr": "Cumartesileri geç yatarız."
+    }
+   ],
+   "commonMistake": "go to the bed yerine go to bed denir."
+  },
+  {
+   "id": "big-large",
+   "term": "big = large · small = little",
+   "meaning": "büyük · küçük",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "big = large · small = little"
+   ],
+   "explanation": [
+    "Eş anlamlı çiftler. large daha resmîdir ve ölçülerde kullanılır (a large coffee). little isimden önce, sevgi tonuyla kullanılır (my little girl); be'den sonra small tercih edilir."
+   ],
+   "collocations": [
+    {
+     "en": "a large flat",
+     "tr": "büyük bir daire"
+    },
+    {
+     "en": "a little house",
+     "tr": "küçücük bir ev"
+    }
+   ],
+   "examples": [
+    {
+     "en": "They live in a large house.",
+     "tr": "Büyük bir evde oturuyorlar."
+    },
+    {
+     "en": "My little brother is six.",
+     "tr": "Küçük kardeşim altı yaşında."
+    },
+    {
+     "en": "Our kitchen is small, but it's clean.",
+     "tr": "Mutfağımız küçük ama temiz.",
+     "note": "be + small"
+    }
+   ],
+   "commonMistake": "The room is little yerine The room is small denir."
+  },
+  {
+   "id": "fast-quick",
+   "term": "fast = quick",
+   "meaning": "hızlı · çabuk",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "fast = quick"
+   ],
+   "explanation": [
+    "Kazanımdaki “çabuk, hızlı” örneği. fast hareket hızı için (a fast car), quick kısa süren iş için (a quick breakfast). Zarf hâlleri: fast (değişmez) ve quickly."
+   ],
+   "collocations": [
+    {
+     "en": "a fast train",
+     "tr": "hızlı bir tren"
+    },
+    {
+     "en": "a quick question",
+     "tr": "kısa bir soru"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I have a quick breakfast.",
+     "tr": "Hızlı bir kahvaltı yaparım."
+    },
+    {
+     "en": "A cheetah is very fast.",
+     "tr": "Çita çok hızlıdır."
+    },
+    {
+     "en": "I get dressed quickly.",
+     "tr": "Hızlıca giyinirim.",
+     "note": "Zarf: quickly"
+    }
+   ],
+   "commonMistake": "He drives fastly yerine He drives fast denir."
+  },
+  {
+   "id": "hot-cold-warm-cool",
+   "term": "hot ≠ cold · warm ≠ cool",
+   "meaning": "sıcak ≠ soğuk · ılık ≠ serin",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "hot ≠ cold · warm ≠ cool"
+   ],
+   "explanation": [
+    "Sıcaklık çiftleri. warm ve cool daha hafif derecelerdir. Hava için It's warm today; kişinin hissi için I'm cold / I'm hot (üşüyorum / sıcakladım)."
+   ],
+   "collocations": [
+    {
+     "en": "warm water",
+     "tr": "ılık su"
+    },
+    {
+     "en": "a cool evening",
+     "tr": "serin bir akşam"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The tea is hot, but the milk is cold.",
+     "tr": "Çay sıcak ama süt soğuk."
+    },
+    {
+     "en": "It's warm in the afternoon and cool in the evening.",
+     "tr": "Öğleden sonra ılık, akşam serin."
+    },
+    {
+     "en": "I'm cold. Can you close the window?",
+     "tr": "Üşüdüm. Pencereyi kapatır mısın?"
+    }
+   ],
+   "commonMistake": "I have cold yerine I'm cold denir."
+  },
+  {
+   "id": "cheap-exp-2",
+   "term": "cheap ≠ expensive",
+   "meaning": "ucuz ≠ pahalı",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "cheap ≠ expensive"
+   ],
+   "explanation": [
+    "Kazanımdaki “ucuz – pahalı” çifti. Kibar anlatımda not very expensive ya da good value da denir. too expensive bir sorun bildirir: alamam."
+   ],
+   "collocations": [
+    {
+     "en": "cheap prices",
+     "tr": "ucuz fiyatlar"
+    },
+    {
+     "en": "too expensive",
+     "tr": "fazla pahalı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The market is cheap, but the mall is expensive.",
+     "tr": "Pazar ucuz ama AVM pahalı."
+    },
+    {
+     "en": "Is it expensive? — No, it's quite cheap.",
+     "tr": "Pahalı mı? — Hayır, oldukça ucuz."
+    },
+    {
+     "en": "Taxis are expensive, so I take the bus.",
+     "tr": "Taksiler pahalı, bu yüzden otobüse binerim.",
+     "note": "so = bu yüzden"
+    }
+   ],
+   "commonMistake": "a expensive yerine an expensive denir."
+  },
+  {
+   "id": "early-late",
+   "term": "early ≠ late",
+   "meaning": "erken ≠ geç",
+   "partOfSpeech": "sıfat / zarf",
+   "sourceTerms": [
+    "early ≠ late"
+   ],
+   "explanation": [
+    "Hem sıfat (an early bus) hem zarftır (I get up early); -ly almaz. late zarfı da late kalır; lately ise “son zamanlarda” demektir."
+   ],
+   "collocations": [
+    {
+     "en": "get up early",
+     "tr": "erken kalkmak"
+    },
+    {
+     "en": "be late for work",
+     "tr": "işe geç kalmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I get up early on weekdays and late on Sundays.",
+     "tr": "Hafta içi erken, pazarları geç kalkarım."
+    },
+    {
+     "en": "Sorry, I'm late!",
+     "tr": "Pardon, geç kaldım!"
+    },
+    {
+     "en": "We have an early dinner.",
+     "tr": "Erken bir akşam yemeği yeriz.",
+     "note": "Sıfat"
+    }
+   ],
+   "commonMistake": "I go to bed lately yerine I go to bed late denir."
+  },
+  {
+   "id": "busy-quiet",
+   "term": "busy ≠ quiet",
+   "meaning": "kalabalık, yoğun ≠ sakin",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "busy ≠ quiet"
+   ],
+   "explanation": [
+    "busy kişi için meşgul (I'm busy), yer için kalabalık ve yoğun (a busy street) demektir. Zıttı quiet: sakin, sessiz. crowded da kalabalık anlamında kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "a busy day",
+     "tr": "yoğun bir gün"
+    },
+    {
+     "en": "a quiet street",
+     "tr": "sakin bir sokak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The streets are busy in the morning.",
+     "tr": "Sokaklar sabahları kalabalık."
+    },
+    {
+     "en": "I like my neighbourhood because it's quiet.",
+     "tr": "Mahallemi seviyorum çünkü sakin."
+    },
+    {
+     "en": "I'm busy today. Can we meet tomorrow?",
+     "tr": "Bugün meşgulüm. Yarın buluşabilir miyiz?",
+     "note": "Kişi için busy"
+    }
+   ],
+   "commonMistake": "The street is very crowd yerine busy / crowded denir."
+  },
+  {
+   "id": "easy-difficult",
+   "term": "easy ≠ difficult",
+   "meaning": "kolay ≠ zor",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "easy ≠ difficult"
+   ],
+   "explanation": [
+    "difficult'ın eş anlamlısı hard'dır (a hard question). easy'nin zarfı easily'dir. hardly ise “neredeyse hiç” demektir; zor anlamında kullanılmaz."
+   ],
+   "collocations": [
+    {
+     "en": "an easy question",
+     "tr": "kolay bir soru"
+    },
+    {
+     "en": "a difficult job",
+     "tr": "zor bir iş"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My job isn't difficult. It's quite easy.",
+     "tr": "İşim zor değil. Oldukça kolay."
+    },
+    {
+     "en": "English isn't easy, but it's fun.",
+     "tr": "İngilizce kolay değil ama eğlenceli."
+    },
+    {
+     "en": "This exercise is hard.",
+     "tr": "Bu alıştırma zor.",
+     "note": "hard = difficult"
+    }
+   ],
+   "commonMistake": "This job is hardly yerine This job is hard denir."
+  }
+ ]
+}

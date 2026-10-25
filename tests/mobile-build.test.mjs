@@ -176,12 +176,12 @@ test('the complete build deduplicates media across lessons and is byte-stable on
   assert.equal((updated.match(/mobile-common\.css\?v=/g) || []).length, 1);
 });
 
-test('all 16 existing lessons keep their source files and receive the expected mobile family', async t => {
+test('all 17 existing lessons keep their source files and receive the expected mobile family', async t => {
   const f = await fixture(t);
   const families = {
     'a1/day-01': 'lesson', 'a1/day-02': 'lesson', 'a1/day-03': 'lesson', 'a1/day-04': 'lesson',
     'a2/a1-review': 'lesson', 'a2/day-01': 'board', 'a2/day-02': 'lesson',
-    'a2/day-04': 'lesson', 'a2/practice': 'board',
+    'a2/day-04': 'lesson', 'a2/day-05': 'lesson', 'a2/practice': 'board',
     'b1/day-01': 'board', 'b1/day-02': 'lesson', 'b1/day-03': 'lesson',
     'b1/day-04': 'lesson', 'b1/day-05': 'lesson', 'b1/practice': 'board',
     'yds/grammar-studio': 'yds',
@@ -194,7 +194,7 @@ test('all 16 existing lessons keep their source files and receive the expected m
     await f.write(file, source, true);
   }
   const report = await buildMobile(f.root);
-  assert.equal(report.length, 16);
+  assert.equal(report.length, 17);
   for (const [name, family] of Object.entries(families)) {
     const file = `lessons/${name}.html`;
     assert.equal(report.find(row => row.lesson === file).family, family, file);
