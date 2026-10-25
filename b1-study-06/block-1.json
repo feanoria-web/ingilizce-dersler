@@ -1,0 +1,3089 @@
+{
+ "version": 1,
+ "block": 1,
+ "chapters": [
+  {
+   "screenId": "warm",
+   "title": "Isınma: günlük kurallar ve cep harçlığı üzerine kısa fikirler",
+   "intro": [
+    "Bu ders, bir önceki dersin son kazanımıyla açılıyor: gündelik yaşamdaki kurallar ve cep harçlığı gibi konularda basit kelimelerle fikir bildirmek. Kısa fikir kartlarındaki sorular bilinçli olarak tartışmaya açıktır; tek doğru cevap yoktur. Önemli olan, fikrin yanına bir gerekçe koyabilmektir. B1 düzeyinde I think tek başına yeterli sayılmaz; because ile başlayan bir neden, ya da That's why ile gelen bir sonuç beklenir.",
+    "Isınmanın ikinci amacı günün ilk konusuna köprü kurmaktır. Son kart ve anket telefonla ilgilidir: Do you prefer calling or texting? Who do you call most? Bu sorular, birazdan çalışacağımız tanıdıklarla telefon görüşmesi konusuna doğal bir giriş yapar. Ayrıca kısa tepki ifadeleri (That's a good point. · I'm not sure.) sohbetin karşılıklı yürümesini sağlar; telefonda da aynı ifadelere ihtiyacımız olacak."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Should teenagers get pocket money every week?",
+     "tr": "Gençler her hafta cep harçlığı almalı mı?",
+     "why": [
+      "Should soruda başa gelir; teenagers özne, get yalın fiildir. every week sıklığı cümlenin sonunda verir."
+     ]
+    },
+    {
+     "en": "I think they should, because they learn to plan their money.",
+     "tr": "Bence almalılar, çünkü parayı planlamayı öğreniyorlar.",
+     "why": [
+      "they should kısa cevaptır; get pocket money tekrar edilmez. because tam bir cümleyle devam eder."
+     ]
+    },
+    {
+     "en": "Is it a good rule: no phones at the dinner table?",
+     "tr": "İyi bir kural mı: sofrada telefon yok?",
+     "why": [
+      "İki nokta üst üste kuralın kendisini tanıtır. no phones bir tabela gibi kısaltılmış bir kuraldır."
+     ]
+    },
+    {
+     "en": "Only if it's urgent. Most people are asleep or resting.",
+     "tr": "Sadece acilse. Çoğu insan uyuyor ya da dinleniyor.",
+     "why": [
+      "Only if bir koşulu sınırlar. asleep sıfattır (uyuyor), resting şimdiki zamandır."
+     ]
+    },
+    {
+     "en": "I don't think so, because money shouldn't be a prize for learning.",
+     "tr": "Sanmıyorum, çünkü para öğrenmenin ödülü olmamalı.",
+     "why": [
+      "I don't think so kalıplaşmış bir olumsuz cevaptır. shouldn't be olumsuz tavsiye; a prize for = … için bir ödül."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "wm-think-because",
+     "title": "I think … because … · I don't think … because …",
+     "meaning": "Basit bir fikri gerekçesiyle söylemek",
+     "explanation": [
+      "Fikir bildirmenin en kısa ve en güvenli kalıbı I think + tam cümle + because + tam cümle yapısıdır. I think teenagers should get pocket money because they learn to plan. Burada iki cümleciğin de kendi öznesi ve fiili vardır: teenagers should get ve they learn. Because'tan sonra sadece bir isim bırakmak (because responsibility) konuşmada anlaşılır ama B1 yazısında eksik görünür; because it teaches them responsibility demek daha tamdır.",
+      "Olumsuz fikirde İngilizce, olumsuzluğu think fiiline taşır: I don't think it's a good rule. Türkçede “Bence iyi bir kural değil” deriz; olumsuzluk kuralın üzerindedir. İngilizcede I think it isn't a good rule de dilbilgisel olarak doğrudur ama daha sert ve daha az doğal duyulur. Fikir bildirirken I don't think … kalıbı hem daha yaygın hem daha kibardır.",
+      "Should, fikir cümlelerinin en sık kullanılan modalıdır ve bir tavsiye ya da olması gerekeni anlatır: Children should help at home. Should'dan sonra fiil yalın kalır ve kişiye göre değişmez: he should, she should, they should. Should to help ya da shoulds gibi biçimler yanlıştır."
+     ],
+     "formula": [
+      "I think + özne + fiil … because + özne + fiil …",
+      "I don't think + özne + fiil … (olumsuzluk think'te)",
+      "özne + should + yalın fiil"
+     ],
+     "examples": [
+      {
+       "en": "I think teenagers should get pocket money because they learn to plan their money.",
+       "tr": "Bence gençler cep harçlığı almalı, çünkü parayı planlamayı öğreniyorlar.",
+       "why": [
+        "İki cümlecik because ile bağlanmış; ikisinin de öznesi ve fiili var."
+       ],
+       "chunks": [
+        {
+         "en": "should get",
+         "tr": "almalı",
+         "note": "should + yalın fiil"
+        },
+        {
+         "en": "learn to plan",
+         "tr": "planlamayı öğrenmek",
+         "note": "learn + to + fiil"
+        }
+       ]
+      },
+      {
+       "en": "I don't think pocket money should depend on school results.",
+       "tr": "Bence cep harçlığı okul başarısına bağlı olmamalı.",
+       "why": [
+        "Olumsuzluk think üzerinde; depend on kalıbı “-e bağlı olmak” anlamındadır."
+       ]
+      },
+      {
+       "en": "It's a good rule because families need time to talk.",
+       "tr": "İyi bir kural, çünkü ailelerin konuşmaya zamana ihtiyacı var.",
+       "why": [
+        "need time to talk: konuşmak için zaman gerekmek. Gerekçe genel bir doğrudur."
+       ]
+      },
+      {
+       "en": "Only if it's urgent. Most people are resting after ten.",
+       "tr": "Sadece acilse. Çoğu insan ondan sonra dinleniyor.",
+       "why": [
+        "Kısa cevaplar konuşmada doğaldır; ikinci cümle gerekçeyi verir."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "I think it isn't fair cümlesini daha doğal hâle getirin.",
+       "answer": "I don't think it's fair.",
+       "why": "Olumsuzluk think'e taşınır."
+      },
+      {
+       "question": "She shoulds help mi, she should help mi?",
+       "answer": "She should help.",
+       "why": "Should kişiye göre çekimlenmez."
+      },
+      {
+       "question": "Because responsibility yerine tam cümle kurun.",
+       "answer": "Because it teaches them responsibility.",
+       "why": "Because'tan sonra özne + fiil."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I think children should to help at home.",
+       "right": "I think children should help at home.",
+       "why": "Should'dan sonra to gelmez."
+      },
+      {
+       "wrong": "I am think it's a good idea.",
+       "right": "I think it's a good idea.",
+       "why": "Think durum değil fiildir; am ile kullanılmaz."
+      }
+     ]
+    },
+    {
+     "id": "wm-reactions",
+     "title": "That's a good point. · I'm not sure. · How much is enough?",
+     "meaning": "Karşıdakinin fikrine kısa bir tepki vermek ve soru sormak",
+     "explanation": [
+      "Bir tartışma iki kişinin sırayla konuşmasından ibaret değildir; dinleyen kişi de tepki verir. That's a good point (iyi bir nokta), I see what you mean (ne demek istediğini anlıyorum), I'm not sure (emin değilim) ve I'm not so sure about that (bundan pek emin değilim) en sık kullanılan kısa tepkilerdir. Bunlar hem kibarca dinlediğinizi gösterir hem de size düşünmek için zaman kazandırır.",
+      "Tepkiden sonra bir soru sormak, sohbeti derinleştirir: How much is enough? What about younger children? Why do you think so? Bu sorular B1 konuşma sınavlarında da puan getiren etkileşim davranışlarıdır. Karşı tarafın fikrini tekrar ederek de soru sorabilirsiniz: So you think it should depend on school results?",
+      "Katılmadığınızda doğrudan No, you're wrong demek İngilizcede çok serttir. Önce kabul, sonra itiraz yapısı daha kibardır: That's a good point, but … · I see what you mean, but …"
+     ],
+     "formula": [
+      "Kısa tepki: That's a good point. · I see what you mean. · I'm not sure.",
+      "Soru: Why do you think so? · What about …? · How much is enough?",
+      "Kibar itiraz: That's a good point, but …"
+     ],
+     "examples": [
+      {
+       "en": "That's a good point. How much is enough, do you think?",
+       "tr": "İyi bir nokta. Sence ne kadar yeterli?",
+       "why": [
+        "Tepki + soru; do you think sona eklenince soru yumuşar."
+       ]
+      },
+      {
+       "en": "I see what you mean, but young children can't plan money.",
+       "tr": "Ne demek istediğini anlıyorum ama küçük çocuklar parayı planlayamaz.",
+       "why": [
+        "Önce anlayış, sonra itiraz."
+       ]
+      },
+      {
+       "en": "I'm not so sure about that. What about families with less money?",
+       "tr": "Bundan pek emin değilim. Parası daha az olan aileler ne olacak?",
+       "why": [
+        "What about …? yeni bir bakış açısı getirir."
+       ]
+      },
+      {
+       "en": "So you think phones should stay in the kitchen?",
+       "tr": "Yani telefonların mutfakta kalması gerektiğini düşünüyorsun?",
+       "why": [
+        "Karşıdakinin fikrini tekrar ederek soru sormak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Ne demek istediğini anlıyorum.” İngilizcesi?",
+       "answer": "I see what you mean.",
+       "why": "Kibar anlayış ifadesi."
+      },
+      {
+       "question": "No, you're wrong yerine daha kibar ne denir?",
+       "answer": "That's a good point, but … / I see what you mean, but …",
+       "why": "Önce kabul, sonra itiraz."
+      },
+      {
+       "question": "“Neden öyle düşünüyorsun?” nasıl sorulur?",
+       "answer": "Why do you think so?",
+       "why": "so burada “öyle”dir."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "You are wrong.",
+       "right": "I see what you mean, but I'm not sure.",
+       "why": "Doğrudan suçlama İngilizcede serttir."
+      },
+      {
+       "wrong": "Why you think so?",
+       "right": "Why do you think so?",
+       "why": "Soruda do gerekir."
+      }
+     ]
+    },
+    {
+     "id": "wm-call-text",
+     "title": "Do you prefer calling or texting? · I prefer calling my family.",
+     "meaning": "Günün konusuna geçiş: iletişim tercihleri",
+     "explanation": [
+      "Isınmanın son kartı bir tercih sorusudur: Do you prefer calling or texting? prefer fiilinden sonra -ing ya da isim gelir: I prefer calling. I prefer phone calls. Bu soru, telefon görüşmesi konusuna doğal bir köprü kurar ve aynı zamanda 2 Kasım'da çalışacağımız tercih kalıplarına (prefer … to …) erken bir giriş yapar.",
+      "Tercihinizi kişiye göre ayırabilirsiniz: I prefer calling my family, but I text my friends. Burada text bir fiildir (mesaj atmak) ve call gibi kullanılır: text someone, call someone. Ayrıca send a message, send a voice message (sesli mesaj göndermek), make a video call (görüntülü arama yapmak) da günlük hayatta sık kullanılır.",
+      "Anket sorusu Who do you call most? bir özne sorusudur: kim? sorusunun cevabı nesnedir (ailemi ararım). Who do you call? doğru biçimdir; Who you call? yanlıştır. Cevapta tam cümle: I call my mother most, almost every day."
+     ],
+     "formula": [
+      "prefer + -ing / isim: I prefer calling.",
+      "call / text / video call + kişi",
+      "Who do you call most? — I call … most."
+     ],
+     "examples": [
+      {
+       "en": "I prefer calling my family, but I text my friends.",
+       "tr": "Ailemi aramayı tercih ederim ama arkadaşlarıma mesaj atarım.",
+       "why": [
+        "prefer + -ing; text fiil olarak kullanılmış."
+       ]
+      },
+      {
+       "en": "I call my mother most, almost every evening.",
+       "tr": "En çok annemi ararım, neredeyse her akşam.",
+       "why": [
+        "most burada “en çok” anlamında zarf."
+       ]
+      },
+      {
+       "en": "We usually make a video call on Sundays.",
+       "tr": "Pazar günleri genellikle görüntülü arama yaparız.",
+       "why": [
+        "make a video call kalıbı."
+       ]
+      },
+      {
+       "en": "I rarely call. I send voice messages.",
+       "tr": "Nadiren ararım. Sesli mesaj gönderirim.",
+       "why": [
+        "rarely = nadiren; fiilden önce."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Mesaj atmayı tercih ederim.” İngilizcesi?",
+       "answer": "I prefer texting.",
+       "why": "prefer + -ing"
+      },
+      {
+       "question": "“Görüntülü arama yapmak” nasıl söylenir?",
+       "answer": "make a video call",
+       "why": "make kalıbı"
+      },
+      {
+       "question": "Who you call most? sorusunu düzeltin.",
+       "answer": "Who do you call most?",
+       "why": "Soruda do gerekir."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I prefer to calling.",
+       "right": "I prefer calling. / I prefer to call.",
+       "why": "prefer + -ing ya da prefer + to + yalın fiil; karışık biçim olmaz."
+      },
+      {
+       "wrong": "I send message to my friends.",
+       "right": "I text my friends. / I send messages to my friends.",
+       "why": "message sayılabilir; tekilde a, çoğulda -s gerekir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "phone-calls",
+   "title": "Tanıdıklarla telefonda: açılış, sebep, rica ve kapanış",
+   "intro": [
+    "MEB kazanımı: şahsen tanıdığı insanlarla basit telefon görüşmeleri yapar. Tanıdıklarla telefon görüşmesi, resmî bir kuruma yapılan aramadan çok daha rahattır ama yine de belli bir düzeni vardır. İngilizce konuşan biri arkadaşını aradığında genellikle beş adım izler: kendini tanıtır, karşıdakinin uygun olup olmadığını sorar, arama sebebini söyler, konuşur ve kibarca kapatır. Bu adımları bilmek, telefon gibi yüz ifadesi görülemeyen bir ortamda kendinizi rahat hissetmenizi sağlar.",
+    "Telefon dilinin yüz yüze konuşmadan farklı birkaç kalıbı vardır. En önemlisi tanıtma biçimidir: Hi, it's Deniz. (I'm Deniz değil.) Karşıdakinin kimliğini sorarken de Is that Ayla? deriz (Are you Ayla? değil). Bunun yanında telefonda kısa tepkiler (Really? Oh no! I see.) çok daha sık kullanılır, çünkü karşı taraf başımızı sallayıp sallamadığımızı göremez. Son olarak kapanış birden yapılmaz; Anyway ile bir geçiş yapılır ve I'd better go ile kibarca bitirilir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Hi Ayla, it's me, Deniz. Have you got a minute?",
+     "tr": "Selam Ayla, benim, Deniz. Bir dakikan var mı?",
+     "why": [
+      "it's me telefon diline özgüdür. Have you got a minute? karşıdakinin uygun olup olmadığını sorar; got, have got yapısının parçasıdır."
+     ]
+    },
+    {
+     "en": "Oh, hi Deniz! Sure, I'm just making dinner. What's up?",
+     "tr": "Aa, selam Deniz! Tabii, sadece yemek yapıyorum. Ne oldu?",
+     "why": [
+      "I'm just making dinner şu an olan işi anlatır; just “sadece” anlamında. What's up? samimi bir “Ne var, ne oldu?”dur."
+     ]
+    },
+    {
+     "en": "I'm calling about my sister's wedding on Saturday. I wanted to ask you a favour.",
+     "tr": "Cumartesi günkü kız kardeşimin düğünü için arıyorum. Senden bir rica edecektim.",
+     "why": [
+      "I'm calling about + isim arama sebebini verir. I wanted to ask geçmiş zamanla yumuşatılmış bir istektir; aslında şimdiki bir ricadır."
+     ]
+    },
+    {
+     "en": "Could I borrow your camera? Mine is broken, and my phone isn't very good at night.",
+     "tr": "Fotoğraf makineni ödünç alabilir miyim? Benimki bozuk, telefonum da gece pek iyi değil.",
+     "why": [
+      "Could I borrow kibar bir izin isteğidir. Mine iyelik zamiridir (my camera). isn't very good kibar bir olumsuzlamadır."
+     ]
+    },
+    {
+     "en": "No problem. But I need it back on Sunday evening.",
+     "tr": "Sorun değil. Ama pazar akşamı geri lazım.",
+     "why": [
+      "Kabulün ardından gelen But bir koşul ekler. need it back = onu geri almaya ihtiyacım var."
+     ]
+    },
+    {
+     "en": "How about Friday after work? I'm at home after six.",
+     "tr": "Cuma işten sonra nasıl? Altıdan sonra evdeyim.",
+     "why": [
+      "How about + zaman bir öneri sunar. after work ve after six, after + isim / saat yapısındadır."
+     ]
+    },
+    {
+     "en": "Anyway, I'd better go. Say hi to Murat!",
+     "tr": "Neyse, kapatayım. Murat'a selam söyle!",
+     "why": [
+      "Anyway konuşmayı kapanışa taşır. I'd better go kibar bir “kapatmam lazım”dır. Say hi to + kişi selam iletmektir."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "pc-opening",
+     "title": "Hi, it's me. · Is that Ayla? · Have you got a minute?",
+     "meaning": "Telefonu açınca kendini tanıtmak ve uygunluğu sormak",
+     "explanation": [
+      "Telefonda kendimizi tanıtırken it's ya da this is kullanırız: Hi Ayla, it's Deniz. This is Deniz from the course. Bunun nedeni, telefonda konuşan kişinin bir ses olarak düşünülmesidir: bu ses Deniz'in sesidir. Çok yakın biriyle konuşurken numaranız zaten kayıtlıysa sadece Hi, it's me! (Selam, benim!) yeterlidir. Yüz yüze konuşmadaki I'm Deniz telefonda yanlış değildir ama alışılmadık ve biraz resmî duyulur.",
+      "Karşıdakinin kim olduğundan emin değilsek Is that Ayla? diye sorarız. Karşı taraf Speaking! (Benim, konuşuyorum) ya da Yes, it's me diye cevap verir. Telefonu başkası açtıysa Is Ayla there, please? ya da Can I speak to Ayla, please? deriz.",
+      "Tanıdık biri bile olsa, konuşmaya başlamadan önce uygun olup olmadığını sormak İngilizce konuşulan kültürlerde önemlidir: Have you got a minute? (Bir dakikan var mı?) Is this a good time? (Uygun bir zaman mı?) Are you busy? (Meşgul müsün?) Uygun değilse karşı taraf Sorry, I'm driving. Can I call you back? der; bu bir ret değil, kibar bir ertelemedir."
+     ],
+     "formula": [
+      "Hi, it's + ad / me. · This is + ad.",
+      "Is that + ad? — Speaking! / Yes, it's me.",
+      "Have you got a minute? · Is this a good time? · Are you busy?"
+     ],
+     "examples": [
+      {
+       "en": "Hi Ayla, it's me, Deniz. Have you got a minute?",
+       "tr": "Selam Ayla, benim, Deniz. Bir dakikan var mı?",
+       "why": [
+        "it's me telefona özgü tanıtma; Have you got a minute? uygunluğu sorar."
+       ],
+       "chunks": [
+        {
+         "en": "it's me",
+         "tr": "benim",
+         "note": "I'm me denmez"
+        },
+        {
+         "en": "Have you got a minute?",
+         "tr": "bir dakikan var mı?",
+         "note": "got burada sahiplik bildirir"
+        }
+       ]
+      },
+      {
+       "en": "Hello, is that Ayla? — Speaking!",
+       "tr": "Alo, Ayla mı? — Benim!",
+       "why": [
+        "Is that …? kimlik sorar; Speaking kalıplaşmış bir cevaptır."
+       ]
+      },
+      {
+       "en": "Is this a good time? — Not really, I'm at the doctor's. Can I call you back?",
+       "tr": "Uygun musun? — Pek değil, doktordayım. Seni sonra arayabilir miyim?",
+       "why": [
+        "Not really kibar bir hayırdır; call back = geri aramak."
+       ]
+      },
+      {
+       "en": "Can I speak to Murat, please? — Just a moment.",
+       "tr": "Murat'la konuşabilir miyim lütfen? — Bir saniye.",
+       "why": [
+        "Telefonu başkası açtığında kullanılan kalıp."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Telefonda “Ben Kaan.” nasıl söylenir?",
+       "answer": "It's Kaan. / This is Kaan.",
+       "why": "Telefonda I'm yerine it's / this is."
+      },
+      {
+       "question": "Are you Ayla? yerine telefonda ne denir?",
+       "answer": "Is that Ayla?",
+       "why": "Telefonda kimlik that ile sorulur."
+      },
+      {
+       "question": "“Uygun musun?” iki biçimde?",
+       "answer": "Is this a good time? / Have you got a minute?",
+       "why": "Uygunluk soruları."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Hello, I am Deniz. Are you Ayla?",
+       "right": "Hi, it's Deniz. Is that Ayla?",
+       "why": "Telefonda tanıtma ve kimlik sorma it / that ile yapılır."
+      },
+      {
+       "wrong": "Do you have one minute?",
+       "right": "Have you got a minute?",
+       "why": "Kalıp a minute ile kurulur; one minute süreyi sayar gibi durur."
+      }
+     ]
+    },
+    {
+     "id": "pc-reason",
+     "title": "I'm calling about … · I'm calling to … · Could I …?",
+     "meaning": "Arama sebebini söylemek ve rica etmek",
+     "explanation": [
+      "Arama sebebini söylemenin iki kalıbı vardır. Konu bir isimse I'm calling about + isim: I'm calling about the wedding. I'm calling about your message. Amaç bir eylemse I'm calling to + yalın fiil: I'm calling to ask you a favour. I'm calling to invite you. Daha yumuşak ve samimi bir başlangıç için I just wanted to + fiil (Sadece … istemiştim) kullanılır: I just wanted to say thank you.",
+      "Rica cümlelerinde Could I …? (… -ebilir miyim?) ve Could you …? (… -ebilir misin?) en kibar kalıplardır: Could I borrow your camera? Could you pick me up at six? Can ile de olur ama could daha naziktir. Ödünç almak borrow, ödünç vermek lend'dir: Could I borrow your camera? = Could you lend me your camera? Bu iki fiili karıştırmak çok yaygın bir hatadır.",
+      "Rica genellikle bir gerekçeyle birlikte gelir; gerekçe ricayı daha anlaşılır ve kabul edilebilir yapar: Mine is broken, and my phone isn't very good at night. Ricayı kabul eden kişi Of course / No problem / Sure der; bir koşul koyabilir: No problem, but I need it back on Sunday."
+     ],
+     "formula": [
+      "I'm calling about + isim · I'm calling to + yalın fiil",
+      "Could I + fiil? (izin) · Could you + fiil? (rica)",
+      "borrow = ödünç almak · lend = ödünç vermek"
+     ],
+     "examples": [
+      {
+       "en": "I'm calling about my sister's wedding on Saturday.",
+       "tr": "Cumartesi günkü kız kardeşimin düğünü için arıyorum.",
+       "why": [
+        "about + isim öbeği; on Saturday zamanı belirtir."
+       ]
+      },
+      {
+       "en": "I'm calling to ask you a favour.",
+       "tr": "Senden bir ricada bulunmak için arıyorum.",
+       "why": [
+        "ask someone a favour = birinden rica etmek."
+       ]
+      },
+      {
+       "en": "Could I borrow your camera? Mine is broken.",
+       "tr": "Fotoğraf makineni ödünç alabilir miyim? Benimki bozuk.",
+       "why": [
+        "Rica + gerekçe. Mine = my camera."
+       ],
+       "chunks": [
+        {
+         "en": "borrow",
+         "tr": "ödünç almak",
+         "note": "alan kişi özne"
+        },
+        {
+         "en": "Mine is broken.",
+         "tr": "Benimki bozuk.",
+         "note": "mine iyelik zamiri"
+        }
+       ]
+      },
+      {
+       "en": "No problem, but I need it back on Sunday evening.",
+       "tr": "Sorun değil ama pazar akşamı geri lazım.",
+       "why": [
+        "Kabul + koşul; need it back = geri almaya ihtiyacım var."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Partiyle ilgili arıyorum.” İngilizcesi?",
+       "answer": "I'm calling about the party.",
+       "why": "about + isim"
+      },
+      {
+       "question": "Could you borrow me your car? cümlesini düzeltin.",
+       "answer": "Could you lend me your car? / Could I borrow your car?",
+       "why": "lend = vermek, borrow = almak."
+      },
+      {
+       "question": "“Sadece teşekkür etmek istemiştim.” İngilizcesi?",
+       "answer": "I just wanted to say thank you.",
+       "why": "I just wanted to + fiil"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I'm calling for ask you something.",
+       "right": "I'm calling to ask you something.",
+       "why": "Amaç to + yalın fiil ile söylenir."
+      },
+      {
+       "wrong": "Can you borrow me your camera?",
+       "right": "Can you lend me your camera?",
+       "why": "Vermek anlamında lend kullanılır."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "borrow / lend",
+       "explanation": [
+        "borrow, bir şeyi geçici olarak alan kişinin fiilidir; lend, veren kişinin fiilidir. Türkçede ikisi de “ödünç” kelimesiyle anlatıldığı için karışır."
+       ],
+       "example": "Could I borrow your camera? = Could you lend me your camera?",
+       "tr": [
+        "Makineni ödünç alabilir miyim? = Bana makineni ödünç verebilir misin?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pc-closing",
+     "title": "Anyway, I'd better go. · Say hi to … · Speak soon!",
+     "meaning": "Telefonu kibarca kapatmak ve sorunları yönetmek",
+     "explanation": [
+      "İngilizcede telefonu birden kapatmak kaba bulunur. Önce bir geçiş kelimesiyle konuşmanın sonuna geldiğimizi işaret ederiz: Anyway, … (Neyse, …) ya da OK then, … (Tamam o zaman, …). Ardından kapanış kalıbı gelir: I'd better go (Kapatsam iyi olacak; artık gitmem lazım). I'd better = I had better; burada geçmiş zaman anlamı yoktur, “… -sem iyi olur” anlamı vardır.",
+      "Kapanışta sıcak bir dilek eklenir: Say hi to your mum (Annene selam söyle), Thanks for calling (Aradığın için teşekkürler), Speak soon! (Yakında konuşuruz), Take care! (Kendine iyi bak). Türkçedeki “Görüşürüz” telefonda Speak soon ya da See you (yüz yüze görüşecekseniz) olur.",
+      "Telefonda sorunlar için hazır kalıplar vardır: The line's bad (Hat kötü), You're breaking up (Sesin kesik kesik geliyor), Sorry, I can't hear you (Duyamıyorum), I'll call you back (Seni geri ararım). Bu kalıplar özellikle cep telefonu görüşmelerinde çok sık gerekir."
+     ],
+     "formula": [
+      "Anyway, … · OK then, … (geçiş)",
+      "I'd better go. · Thanks for calling. · Say hi to … · Speak soon!",
+      "The line's bad. · You're breaking up. · I'll call you back."
+     ],
+     "examples": [
+      {
+       "en": "Anyway, I'd better go. Say hi to Murat!",
+       "tr": "Neyse, kapatayım. Murat'a selam söyle!",
+       "why": [
+        "Anyway geçiş yapar; I'd better go kibar kapanış."
+       ],
+       "chunks": [
+        {
+         "en": "I'd better go",
+         "tr": "kapatsam iyi olur",
+         "note": "had better; geçmiş anlamı yok"
+        },
+        {
+         "en": "Say hi to …",
+         "tr": "… -e selam söyle"
+        }
+       ]
+      },
+      {
+       "en": "Thanks for calling. Speak soon!",
+       "tr": "Aradığın için teşekkürler. Görüşürüz!",
+       "why": [
+        "Thanks for + -ing."
+       ]
+      },
+      {
+       "en": "Sorry, you're breaking up. I'll call you back.",
+       "tr": "Pardon, sesin kesik geliyor. Seni geri ararım.",
+       "why": [
+        "breaking up = sesin parçalanması; call back = geri aramak."
+       ]
+      },
+      {
+       "en": "OK then, see you on Friday. Take care!",
+       "tr": "Tamam o zaman, cuma görüşürüz. Kendine iyi bak!",
+       "why": [
+        "Yüz yüze buluşma planı varsa see you kullanılır."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Neyse, kapatayım.” İngilizcesi?",
+       "answer": "Anyway, I'd better go.",
+       "why": "Geçiş + kapanış"
+      },
+      {
+       "question": "“Sesin kesik kesik geliyor.” İngilizcesi?",
+       "answer": "You're breaking up.",
+       "why": "Telefona özgü kalıp."
+      },
+      {
+       "question": "I'd better go cümlesinde 'd neyin kısaltmasıdır?",
+       "answer": "had (I had better go)",
+       "why": "Geçmiş anlamı yoktur."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I must close the phone.",
+       "right": "I'd better go.",
+       "why": "Telefonu kapatmak için close the phone denmez; hang up ya da I'd better go."
+      },
+      {
+       "wrong": "I will search you later.",
+       "right": "I'll call you later.",
+       "why": "Aramak (telefon) call'dur; search arama yapmak (bir şeyi aramak) demektir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "arrangements",
+   "title": "Telefonda plan yapmak: öneri, kabul, kibar ret ve mesaj",
+   "intro": [
+    "Telefon görüşmelerinin büyük bir kısmı plan yapmak içindir: bir buluşma, bir ziyaret, bir etkinlik. Bu ekranda üç dil aracı birlikte çalışır. Birincisi, karşı tarafın planını sormak için şimdiki zamanın gelecek anlamında kullanımıdır: What are you doing on Saturday? İkincisi öneri kalıplarıdır: Shall we …? How about …ing? Why don't we …? Let's … Üçüncüsü de cevap kalıplarıdır: kabul (That sounds great!), kibar ret (I'm afraid I can't. I'm …) ve yeni öneri (What about Sunday instead?).",
+    "Plan yaparken dikkat edilecek bir nokta da mesaj bırakmaktır. Aradığınız kişi telefonu açamadıysa ya da başkası açtıysa Can I leave a message? Could you tell her I called? Could you ask him to call me back? kalıpları kullanılır. Bu kalıplar hem iş hem de günlük hayatta çok işe yarar."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Listen, what are you doing on Saturday evening?",
+     "tr": "Bak, cumartesi akşamı ne yapıyorsun?",
+     "why": [
+      "Listen burada “bak, dinle” anlamında dikkat çeker. Continuous soru bir plan sorusudur."
+     ]
+    },
+    {
+     "en": "I'm going to my cousin's engagement party. Why?",
+     "tr": "Kuzenimin nişanına gidiyorum. Neden?",
+     "why": [
+      "I'm going to + yer burada going to (niyet) değil, go fiilinin continuous'udur: gidiyorum. cousin's iyelik ekidir."
+     ]
+    },
+    {
+     "en": "Oh, that's a pity. There's a new Turkish film at the cinema. Shall we go together?",
+     "tr": "Aa, ne yazık. Sinemada yeni bir Türk filmi var. Birlikte gidelim mi?",
+     "why": [
+      "That's a pity = ne yazık. There's + isim + yer. Shall we + yalın fiil öneri yapar."
+     ]
+    },
+    {
+     "en": "I'd love to, but Saturday doesn't work for me. How about Sunday afternoon?",
+     "tr": "Çok isterim ama cumartesi bana uymuyor. Pazar öğleden sonraya ne dersin?",
+     "why": [
+      "I'd love to = I would love to; kibar istekliliktir. doesn't work for me = bana uymuyor. How about + zaman yeni öneridir."
+     ]
+    },
+    {
+     "en": "Why don't we have a coffee before the film?",
+     "tr": "Neden filmden önce bir kahve içmiyoruz?",
+     "why": [
+      "Why don't we bir öneridir. before the film: before + isim."
+     ]
+    },
+    {
+     "en": "Let's meet at the café opposite the cinema at three.",
+     "tr": "Saat üçte sinemanın karşısındaki kafede buluşalım.",
+     "why": [
+      "Let's + yalın fiil kararı bildirir. Yer önce, saat sonra gelir: at the café … at three."
+     ]
+    },
+    {
+     "en": "Great. I'll book the tickets online. See you on Sunday!",
+     "tr": "Harika. Biletleri internetten alırım. Pazar görüşürüz!",
+     "why": [
+      "I'll book anlık bir karardır (will). book = rezervasyon yapmak, bilet ayırtmak."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ar-continuous",
+     "title": "What are you doing on Saturday? · I'm visiting my parents.",
+     "meaning": "Kesinleşmiş planları present continuous ile sormak ve söylemek",
+     "explanation": [
+      "Present continuous (am / is / are + -ing) sadece şu an olan işleri anlatmaz; takvime yazılmış, kesinleşmiş gelecek planları da anlatır. I'm visiting my parents on Saturday cümlesi “Cumartesi ailemi ziyaret ediyorum (plan belli)” demektir. Bu kullanımda mutlaka bir gelecek zaman ifadesi vardır ya da bağlamdan anlaşılır: on Saturday, tonight, next week, at the weekend.",
+      "Birinin planını sorarken de aynı zamanı kullanırız: What are you doing on Saturday evening? Bu soru, karşı tarafa “Boş musun?” demenin kibar ve dolaylı bir yoludur. What do you do on Saturdays? ise farklı bir sorudur: cumartesileri genelde ne yaptığını, yani alışkanlığını sorar.",
+      "Going to ile karşılaştırıldığında, present continuous daha çok başkalarıyla ayarlanmış planlar (randevu, buluşma, bilet alınmış etkinlik) için kullanılır; going to ise niyet ve karar bildirir: I'm going to clean the house this weekend (niyet). B1'de iki biçim de anlaşılır; plan konuşmalarında continuous çok doğaldır."
+     ],
+     "formula": [
+      "What are you doing + zaman? (plan sorusu)",
+      "I'm + -ing + zaman. (kesin plan): I'm meeting Ece at seven.",
+      "What do you do on Saturdays? = alışkanlık sorusu"
+     ],
+     "examples": [
+      {
+       "en": "What are you doing on Saturday evening?",
+       "tr": "Cumartesi akşamı ne yapıyorsun?",
+       "why": [
+        "Şimdiki zaman biçiminde ama gelecek planı soruyor."
+       ],
+       "chunks": [
+        {
+         "en": "What are you doing",
+         "tr": "ne yapıyorsun",
+         "note": "plan sorusu"
+        },
+        {
+         "en": "on Saturday evening",
+         "tr": "cumartesi akşamı",
+         "note": "gün + bölüm için on"
+        }
+       ]
+      },
+      {
+       "en": "I'm going to my cousin's engagement party.",
+       "tr": "Kuzenimin nişanına gidiyorum.",
+       "why": [
+        "Kesinleşmiş bir etkinlik; continuous."
+       ]
+      },
+      {
+       "en": "We're having dinner with my in-laws on Sunday.",
+       "tr": "Pazar günü kayınvalidemlerle akşam yemeği yiyoruz.",
+       "why": [
+        "have dinner continuous'ta having dinner olur; plan ayarlanmış."
+       ]
+      },
+      {
+       "en": "What do you do on Saturdays? — I usually go to the market.",
+       "tr": "Cumartesileri ne yaparsın? — Genelde pazara giderim.",
+       "why": [
+        "Alışkanlık sorusu → geniş zaman."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Yarın akşam ne yapıyorsun?” İngilizcesi?",
+       "answer": "What are you doing tomorrow evening?",
+       "why": "Plan sorusu continuous ile."
+      },
+      {
+       "question": "I visit my aunt tomorrow cümlesini plan olarak düzeltin.",
+       "answer": "I'm visiting my aunt tomorrow.",
+       "why": "Kesin plan → continuous."
+      },
+      {
+       "question": "What do you do on Fridays? ne sorar?",
+       "answer": "Cumaları genelde ne yaptığını (alışkanlık).",
+       "why": "Geniş zaman."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "What do you do on Saturday? (bu cumartesi için)",
+       "right": "What are you doing on Saturday?",
+       "why": "Belli bir günün planı continuous ile sorulur."
+      },
+      {
+       "wrong": "I meeting Ece at seven.",
+       "right": "I'm meeting Ece at seven.",
+       "why": "Continuous'ta am / is / are unutulmaz."
+      }
+     ]
+    },
+    {
+     "id": "ar-suggest",
+     "title": "Shall we …? · How about + -ing? · Why don't we …? · Let's …",
+     "meaning": "Öneri yapmak ve fiil biçimini doğru seçmek",
+     "explanation": [
+      "Öneri kalıplarının her biri farklı bir fiil biçimi ister ve en sık hata da burada yapılır. Shall we + yalın fiil: Shall we go to the cinema? Why don't we + yalın fiil: Why don't we meet at the station? Let's + yalın fiil: Let's meet at seven. Bu üçünde fiil yalındır, to gelmez.",
+      "How about ve What about ise edat gibi davranır; ardından isim ya da -ing gelir: How about going to the cinema? How about Sunday? What about a picnic? Aynı şekilde Do you fancy + isim / -ing (… ister misin?) samimi bir öneri kalıbıdır: Do you fancy a coffee? Do you fancy going for a walk?",
+      "Why don't we …? kalıbı soru biçimindedir ama bir öneridir; olumsuz anlamı yoktur. Türkçedeki “Neden … -miyoruz?” öneri anlamıyla birebir aynıdır. Cevapta Why not? (Neden olmasın?) çok doğal bir kabul ifadesidir."
+     ],
+     "formula": [
+      "Shall we / Why don't we / Let's + yalın fiil",
+      "How about / What about + isim / -ing",
+      "Do you fancy + isim / -ing?"
+     ],
+     "examples": [
+      {
+       "en": "Shall we go together? There's a new Turkish film.",
+       "tr": "Birlikte gidelim mi? Yeni bir Türk filmi var.",
+       "why": [
+        "Shall we + yalın fiil (go)."
+       ]
+      },
+      {
+       "en": "How about Sunday afternoon instead?",
+       "tr": "Bunun yerine pazar öğleden sonraya ne dersin?",
+       "why": [
+        "How about + isim; instead = onun yerine."
+       ]
+      },
+      {
+       "en": "Why don't we have a coffee before the film?",
+       "tr": "Neden filmden önce bir kahve içmiyoruz?",
+       "why": [
+        "Biçimi olumsuz soru ama anlamı öneri."
+       ],
+       "chunks": [
+        {
+         "en": "Why don't we …?",
+         "tr": "neden … -miyoruz? (öneri)"
+        },
+        {
+         "en": "have a coffee",
+         "tr": "kahve içmek",
+         "note": "have yiyecek-içecek için"
+        }
+       ]
+      },
+      {
+       "en": "Do you fancy going for a walk by the sea?",
+       "tr": "Deniz kenarında yürüyüşe çıkmak ister misin?",
+       "why": [
+        "fancy + -ing; samimi bir öneri."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "How about ___ (go) to the park?",
+       "answer": "going",
+       "why": "How about + -ing"
+      },
+      {
+       "question": "Shall we ___ (meet) at six?",
+       "answer": "meet",
+       "why": "Shall we + yalın"
+      },
+      {
+       "question": "Why don't we …? olumsuz bir anlam taşır mı?",
+       "answer": "Hayır, bir öneridir.",
+       "why": "Türkçedeki “Neden … -miyoruz?” gibi."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "How about go to the cinema?",
+       "right": "How about going to the cinema?",
+       "why": "How about'tan sonra -ing gelir."
+      },
+      {
+       "wrong": "Let's to meet at seven.",
+       "right": "Let's meet at seven.",
+       "why": "Let's + yalın fiil; to yok."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "Shall we …? / Let's …",
+       "explanation": [
+        "Shall we …? karşı tarafın fikrini sorar; Let's … daha kararlı bir öneri ya da son karardır."
+       ],
+       "example": "Shall we meet at the café? — Yes. OK, let's meet at three.",
+       "tr": [
+        "Kafede buluşalım mı? — Evet. Tamam, saat üçte buluşalım."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ar-answers",
+     "title": "That sounds great! · I'm afraid I can't. · What about … instead? · Can I leave a message?",
+     "meaning": "Öneriye cevap vermek, kibarca reddetmek ve mesaj bırakmak",
+     "explanation": [
+      "Kabul ederken kısa ve sıcak ifadeler kullanılır: That sounds great! Good idea! I'd love to. Why not? Sure, what time? Ret ise İngilizcede neredeyse her zaman yumuşatılır. Doğrudan No demek yerine I'm afraid I can't (Maalesef olmaz), I'd love to, but … (Çok isterim ama …) ya da Sorry, that doesn't work for me (Kusura bakma, bana uymuyor) denir.",
+      "İyi bir ret iki parçadan oluşur: bir gerekçe ve yeni bir öneri. I'm afraid I can't. I'm working on Saturday. What about Sunday instead? Gerekçe genellikle present continuous ile verilir, çünkü bu da bir plandır. instead (onun yerine) yeni önerinin eskisinin yerine geçtiğini gösterir.",
+      "Aradığınız kişi yoksa mesaj bırakırsınız: Is Ayla there, please? — I'm afraid she's out at the moment. — Can I leave a message? Could you tell her I called? Could you ask her to call me back? Burada tell someone (that) … ve ask someone to + fiil yapılarına dikkat: tell her I called, ask her to call me."
+     ],
+     "formula": [
+      "Kabul: That sounds great! · I'd love to. · Why not?",
+      "Ret: I'm afraid I can't. I'm + -ing. · I'd love to, but … · What about … instead?",
+      "Mesaj: Can I leave a message? · Could you tell her I called? · Could you ask her to call me back?"
+     ],
+     "examples": [
+      {
+       "en": "I'd love to, but Saturday doesn't work for me.",
+       "tr": "Çok isterim ama cumartesi bana uymuyor.",
+       "why": [
+        "Önce isteklilik, sonra ret; doesn't work for me kibar bir “uymuyor”."
+       ]
+      },
+      {
+       "en": "I'm afraid I can't. I'm working late on Friday. What about Saturday instead?",
+       "tr": "Maalesef olmaz. Cuma geç saate kadar çalışıyorum. Bunun yerine cumartesiye ne dersin?",
+       "why": [
+        "Ret + continuous gerekçe + instead ile yeni öneri."
+       ]
+      },
+      {
+       "en": "Could you tell her I called?",
+       "tr": "Aradığımı ona söyler misin?",
+       "why": [
+        "tell + kişi + (that) + cümle."
+       ]
+      },
+      {
+       "en": "Could you ask him to call me back this evening?",
+       "tr": "Bu akşam beni geri aramasını ona söyler misin?",
+       "why": [
+        "ask + kişi + to + yalın fiil."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Çok isterim ama meşgulüm.” İngilizcesi?",
+       "answer": "I'd love to, but I'm busy.",
+       "why": "Kibar ret."
+      },
+      {
+       "question": "“Bunun yerine pazar?” nasıl önerilir?",
+       "answer": "What about Sunday instead?",
+       "why": "instead = onun yerine"
+      },
+      {
+       "question": "“Beni geri aramasını söyler misin?” İngilizcesi?",
+       "answer": "Could you ask her / him to call me back?",
+       "why": "ask + kişi + to"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "No, I don't come.",
+       "right": "I'm afraid I can't come.",
+       "why": "Ret yumuşatılır; come gelecek plan için can't ile."
+      },
+      {
+       "wrong": "Could you say her I called?",
+       "right": "Could you tell her I called?",
+       "why": "Birine bir şey söylemek tell + kişi ile kurulur."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "describe-places",
+   "title": "Yerleri anlatmak: relative clauses ve bağlaçlarla tutarlı anlatım",
+   "intro": [
+    "MEB kazanımı: günlük şeyleri ve olayları tam ve birbiriyle ilişkili, birbirine bağlı ve tutarlı cümleler kullanarak tanımlar; örnek konular yerler, toplantılar ve okuldaki deneyimlerdir. Bu ekranda yerlerle başlıyoruz. A2 düzeyinde bir yeri kısa ve ayrı cümlelerle anlatırız: The café is small. It's near my office. I go there every day. B1 düzeyinde ise bu bilgileri birbirine bağlarız: There's a small café near my office where I go almost every day.",
+    "Bağlamanın iki ana aracı vardır. Birincisi relative clauses (ilgi cümlecikleri): where (yer), which / that (şey), who / that (insan), whose (sahiplik). Bunlar bir ismi daha ayrıntılı tanımlar. İkincisi bağlaçlardır: but, so, because, although, also. Bunlar cümleler arasındaki mantıksal ilişkiyi (zıtlık, sonuç, sebep, ekleme) gösterir. İkisini birlikte kullanınca anlatım hem tam hem tutarlı olur."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "There's a small café near my office where I go almost every day.",
+     "tr": "Ofisimin yakınında neredeyse her gün gittiğim küçük bir kafe var.",
+     "why": [
+      "There's + isim + yer, sonra where cümleciği. almost every day = neredeyse her gün."
+     ]
+    },
+    {
+     "en": "It's on a quiet street which is surrounded by old trees, so it's very peaceful in the morning.",
+     "tr": "Eski ağaçlarla çevrili sakin bir sokakta, bu yüzden sabahları çok huzurlu.",
+     "why": [
+      "which is surrounded by: sokağı tanımlayan cümlecik (edilgen yapı). so sonucu verir."
+     ]
+    },
+    {
+     "en": "The owner, a woman who used to be a teacher, makes the best Turkish coffee in the neighbourhood.",
+     "tr": "Sahibi, eskiden öğretmen olan bir kadın, mahallenin en iyi Türk kahvesini yapıyor.",
+     "why": [
+      "Virgüller arası açıklama: a woman who used to be a teacher. used to = eskiden … idi. the best: en üstünlük."
+     ]
+    },
+    {
+     "en": "The café isn't big, but it's cosy and it has a little garden at the back.",
+     "tr": "Kafe büyük değil ama samimi ve arkada küçük bir bahçesi var.",
+     "why": [
+      "but zıtlık kurar; at the back = arka tarafta."
+     ]
+    },
+    {
+     "en": "Although it gets crowded at lunchtime, I love going there early.",
+     "tr": "Öğle saatlerinde kalabalık olsa da oraya erken gitmeyi seviyorum.",
+     "why": [
+      "Although cümleciği başta, virgülle ayrılmış. love + -ing; early zarf."
+     ]
+    },
+    {
+     "en": "What I like most about it is that everyone knows your name.",
+     "tr": "En çok sevdiğim şey, herkesin adınızı biliyor olması.",
+     "why": [
+      "What I like most about it is that + cümle: paragrafı kişisel bir değerlendirmeyle bitirir."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "dp-where-which-who",
+     "title": "the café where we meet · a building which … · the woman who …",
+     "meaning": "İlgi cümlecikleriyle bir ismi tanımlamak",
+     "explanation": [
+      "İlgi cümleciği, bir ismin hemen arkasına gelip onu tanımlayan küçük bir cümledir. Türkçede bu iş genellikle -dığı, -an eklerine karşılık gelir: buluştuğumuz kafe, kafeyi işleten kadın. İngilizcede ise isim önce gelir, sonra ilgi zamiri ve cümlecik: the café where we meet, the woman who runs the café.",
+      "Hangi zamirin kullanılacağı, tanımlanan isme ve cümlecikteki işlevine bağlıdır. Yer bildiren bir isimden sonra, cümlecikte o yer “orada” anlamı taşıyorsa where kullanılır: the town where I was born (doğduğum kasaba). Bir şey ya da hayvan için which ya da that: a building which was built in 1890. Bir insan için who ya da that: a teacher who helped me a lot.",
+      "En sık yapılan hata, cümlecikte zamirin yerini tutan kelimeyi tekrar etmektir: a building which it was built (it fazla), the café where we meet there (there fazla). İlgi zamiri zaten o kelimenin yerine geçmiştir. Bir diğer hata, yer isimlerinden sonra her zaman where kullanmaktır: It's a park which has a big lake cümlesinde park cümleciğin öznesidir (park has), bu yüzden which gelir; where değil."
+     ],
+     "formula": [
+      "yer + where + özne + fiil: the café where we meet",
+      "şey + which / that + fiil: a building which was built in 1890",
+      "insan + who / that + fiil: the woman who runs the café"
+     ],
+     "examples": [
+      {
+       "en": "This is the café where we always meet.",
+       "tr": "Burası hep buluştuğumuz kafe.",
+       "why": [
+        "where cümlecikte “orada” anlamı taşır: we meet there."
+       ],
+       "chunks": [
+        {
+         "en": "the café where …",
+         "tr": "… -dığımız kafe"
+        },
+        {
+         "en": "always",
+         "tr": "hep",
+         "note": "fiilden önce"
+        }
+       ]
+      },
+      {
+       "en": "It's a building which was built in 1890.",
+       "tr": "1890'da yapılmış bir bina.",
+       "why": [
+        "which cümleciğin öznesidir; it tekrar edilmez."
+       ]
+      },
+      {
+       "en": "The woman who runs the café used to be a teacher.",
+       "tr": "Kafeyi işleten kadın eskiden öğretmendi.",
+       "why": [
+        "who runs the café, the woman'ı tanımlar; used to = eskiden."
+       ]
+      },
+      {
+       "en": "It's a park which has a big lake in the middle.",
+       "tr": "Ortasında büyük bir göl olan bir park.",
+       "why": [
+        "Park cümleciğin öznesi (it has) olduğu için which, where değil."
+       ]
+      },
+      {
+       "en": "I have a friend whose flat is right by the sea.",
+       "tr": "Dairesi denizin hemen kenarında olan bir arkadaşım var.",
+       "why": [
+        "whose sahiplik bildirir: her / his flat."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Doğduğum şehir” İngilizcesi?",
+       "answer": "the city where I was born",
+       "why": "Yer + where"
+      },
+      {
+       "question": "It's a museum ___ opened in 2020. (which / where)",
+       "answer": "which",
+       "why": "Müze cümleciğin öznesi."
+      },
+      {
+       "question": "the man which lives next door cümlesini düzeltin.",
+       "answer": "the man who lives next door",
+       "why": "İnsan için who / that."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "a building which it was built in 1890",
+       "right": "a building which was built in 1890",
+       "why": "İlgi zamiri it'in yerini tutar; tekrar edilmez."
+      },
+      {
+       "wrong": "It's a park where has a lake.",
+       "right": "It's a park which has a lake.",
+       "why": "Park cümleciğin öznesi; where sadece “orada” anlamında kullanılır."
+      }
+     ]
+    },
+    {
+     "id": "dp-linkers",
+     "title": "but · so · because · although · also",
+     "meaning": "Cümleler arasındaki ilişkiyi bağlaçlarla göstermek",
+     "explanation": [
+      "Bir yeri anlatırken genellikle artıları ve eksileri birlikte söyleriz. Zıtlık için but (ama): It's cosy, but it gets crowded. Daha resmî ve güçlü bir zıtlık için although (-e rağmen, … olsa da): Although it gets crowded at lunchtime, I love going there. Although'lu cümlecik cümlenin başında da sonunda da olabilir; başta ise ardından virgül gelir.",
+      "Sebep için because (çünkü), sonuç için so (bu yüzden) kullanılır. İkisi aynı ilişkiyi farklı yönlerden anlatır: We go on weekdays because it's crowded at weekends. = It's crowded at weekends, so we go on weekdays. Türkçede “çünkü” ve “bu yüzden” karıştırılmaz ama İngilizcede because ile so'yu yer değiştirmek anlamı tersine çevirir.",
+      "Ek bilgi için also (ayrıca) ya da and kullanılır: It also has a little garden at the back. Also cümle içinde ana fiilden önce, be'den sonra gelir. Bu bağlaçlar olmadan anlatım bir liste gibi kalır; onlarla bir paragrafa dönüşür. Dikkat: although ile but aynı cümlede birlikte kullanılmaz."
+     ],
+     "formula": [
+      "zıtlık: … , but … · Although …, …",
+      "sebep / sonuç: … because … · …, so …",
+      "ek bilgi: also (ana fiilden önce) · and"
+     ],
+     "examples": [
+      {
+       "en": "It's cosy, but it gets crowded at weekends.",
+       "tr": "Samimi bir yer ama hafta sonları kalabalık oluyor.",
+       "why": [
+        "but zıtlık; gets crowded = kalabalıklaşır."
+       ]
+      },
+      {
+       "en": "Although it gets crowded at lunchtime, I love going there early.",
+       "tr": "Öğle saatlerinde kalabalık olsa da oraya erken gitmeyi seviyorum.",
+       "why": [
+        "Although başta, ardından virgül; but kullanılmaz."
+       ]
+      },
+      {
+       "en": "It's crowded at weekends, so we usually go on weekdays.",
+       "tr": "Hafta sonları kalabalık, bu yüzden genelde hafta içi gidiyoruz.",
+       "why": [
+        "so sonucu verir; because ile ters yönden aynı bilgi."
+       ]
+      },
+      {
+       "en": "The café isn't big, but it also has a little garden at the back.",
+       "tr": "Kafe büyük değil ama ayrıca arkada küçük bir bahçesi de var.",
+       "why": [
+        "also ana fiilden (has) önce."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Although it was late, but we stayed. cümlesini düzeltin.",
+       "answer": "Although it was late, we stayed.",
+       "why": "although ve but birlikte olmaz."
+      },
+      {
+       "question": "“Ucuz, bu yüzden hep kalabalık.” İngilizcesi?",
+       "answer": "It's cheap, so it's always crowded.",
+       "why": "Sonuç → so"
+      },
+      {
+       "question": "also cümlede nereye gelir?",
+       "answer": "Ana fiilden önce, be'den sonra.",
+       "why": "It also has … / It's also …"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "We go on weekdays so it's crowded at weekends.",
+       "right": "We go on weekdays because it's crowded at weekends.",
+       "why": "Sebep because ile verilir; so sonucu verir."
+      },
+      {
+       "wrong": "It has also a garden.",
+       "right": "It also has a garden.",
+       "why": "also ana fiilden önce gelir."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "but / although",
+       "explanation": [
+        "But iki cümleciğin arasına gelir; although bir cümleciğin başına gelir ve o cümlecik ana cümlenin önünde ya da arkasında durabilir."
+       ],
+       "example": "It's small, but it's cosy. = Although it's small, it's cosy.",
+       "tr": [
+        "Küçük ama samimi. = Küçük olmasına rağmen samimi."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "dp-adjectives",
+     "title": "cosy · lively · peaceful · crowded · It's famous for … · What I like most about it is …",
+     "meaning": "Yerleri canlı sıfatlarla ve hazır kalıplarla anlatmak",
+     "explanation": [
+      "Good, nice, beautiful gibi genel sıfatlar bir yeri tarif etmekte yetersiz kalır. B1 düzeyinde daha anlamlı sıfatlar kullanırız: cosy (sıcak, samimi, rahat), lively (canlı, hareketli), peaceful (huzurlu), crowded (kalabalık), quiet (sakin), noisy (gürültülü), historic (tarihî), modern. Konum için by the sea (deniz kenarında), surrounded by trees (ağaçlarla çevrili), easy to get to (ulaşımı kolay) gibi ifadeler eklenir.",
+      "Birkaç hazır kalıp anlatımı zenginleştirir: It's famous for its silk (İpeğiyle ünlüdür). It's the kind of place where everyone knows your name (Herkesin adınızı bildiği türden bir yer). What I like most about it is the view (En çok sevdiğim şey manzarası). What I like most about it is that … yapısı paragrafın sonunu güçlü bir şekilde bağlar.",
+      "Tutarlı bir yer tarifinde sıra da önemlidir: önce genel bilgi (ne, nerede), sonra ayrıntılar (atmosfer, insanlar, artılar ve eksiler), en son kişisel değerlendirme (neden seviyorum). Model metin bu sırayı izler; kendi yazınızda da aynı iskeleti kullanabilirsiniz."
+     ],
+     "formula": [
+      "sıfatlar: cosy · lively · peaceful · crowded · historic · surrounded by trees",
+      "It's famous for + isim · It's the kind of place where …",
+      "What I like most about it is + isim / that + cümle"
+     ],
+     "examples": [
+      {
+       "en": "Bursa is famous for its silk and its İskender kebab.",
+       "tr": "Bursa ipeği ve İskender kebabıyla ünlüdür.",
+       "why": [
+        "famous for + isim; its = onun."
+       ]
+      },
+      {
+       "en": "It's the kind of place where everyone knows your name.",
+       "tr": "Herkesin adınızı bildiği türden bir yer.",
+       "why": [
+        "the kind of place + where cümleciği."
+       ]
+      },
+      {
+       "en": "The market is lively but very crowded on Saturdays.",
+       "tr": "Pazar canlı ama cumartesileri çok kalabalık.",
+       "why": [
+        "İki sıfat but ile zıtlık kurar."
+       ]
+      },
+      {
+       "en": "What I like most about it is that it's surrounded by old trees.",
+       "tr": "En çok sevdiğim şey, eski ağaçlarla çevrili olması.",
+       "why": [
+        "What I like most about it is that + cümle."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Kalabalık” ve “huzurlu” sıfatlarının İngilizcesi?",
+       "answer": "crowded · peaceful",
+       "why": "Atmosfer sıfatları."
+      },
+      {
+       "question": "“İznik çinileriyle ünlüdür.” İngilizcesi?",
+       "answer": "İznik is famous for its tiles.",
+       "why": "famous for + isim"
+      },
+      {
+       "question": "What I like most about it is … kalıbı paragrafın neresinde işe yarar?",
+       "answer": "Sonunda, kişisel değerlendirmede.",
+       "why": "Paragrafı güçlü bağlar."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It's famous with its silk.",
+       "right": "It's famous for its silk.",
+       "why": "famous for kalıbı."
+      },
+      {
+       "wrong": "It's a very cosy and nice and good place.",
+       "right": "It's a cosy little place with a lovely garden.",
+       "why": "Genel sıfatları üst üste yığmak yerine anlamlı ayrıntı verin."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "describe-events",
+   "title": "Olayları ve deneyimleri anlatmak: past simple + past continuous",
+   "intro": [
+    "Bu ekran aynı kazanımın ikinci yarısıdır: toplantılar ve okuldaki deneyimler gibi olayları tam, bağlı ve tutarlı cümlelerle anlatmak. Bir olayı anlatırken dinleyicinin kafasında bir film oluşturmaya çalışırız. Filmin bir arka planı (sahne) ve o arka planı kesen olayları vardır. İngilizcede arka plan past continuous (was / were + -ing), olaylar ise past simple ile anlatılır: I was waiting for the bus (sahne) when it started to rain (olay).",
+    "Tutarlılığı sağlayan ikinci araç sıralama ve bağlama kelimeleridir: at first, then, after that, a few minutes later, in the end (olay sırası); when, while (zaman ilişkisi); because, so, although (mantıksal ilişki); it turned out that (sürpriz sonuç). Üçüncü araç ise duygulardır: I felt nervous / relieved / proud. İyi bir anlatı bir duyguyla ya da değerlendirmeyle biter: I'll never forget that day."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "It was a rainy morning in October and I was standing at the bus stop with my new notebook.",
+     "tr": "Ekim'de yağmurlu bir sabahtı ve yeni defterimle otobüs durağında duruyordum.",
+     "why": [
+      "It was … sahneyi tanıtır; was standing arka plandır. with my new notebook ayrıntı katar."
+     ]
+    },
+    {
+     "en": "Although I was forty-five, I felt like a child on the first day at school.",
+     "tr": "Kırk beş yaşında olsam da okulun ilk gününde bir çocuk gibi hissettim.",
+     "why": [
+      "Although zıtlık kurar. feel like + isim = … gibi hissetmek."
+     ]
+    },
+    {
+     "en": "When I arrived, the other students were sitting in the classroom.",
+     "tr": "Vardığımda diğer öğrenciler sınıfta oturuyordu.",
+     "why": [
+      "arrived kısa olay (simple), were sitting süren durum (continuous)."
+     ]
+    },
+    {
+     "en": "A woman smiled at me and moved her bag, so I sat next to her.",
+     "tr": "Bir kadın bana gülümsedi ve çantasını çekti, bu yüzden yanına oturdum.",
+     "why": [
+      "Arka arkaya olaylar past simple; so sonucu verir. smile at = -e gülümsemek."
+     ]
+    },
+    {
+     "en": "While the teacher was explaining the present perfect, I was thinking about my children at home.",
+     "tr": "Öğretmen present perfect'i anlatırken ben evdeki çocuklarımı düşünüyordum.",
+     "why": [
+      "Aynı anda süren iki eylem: ikisi de continuous. think about = … hakkında düşünmek."
+     ]
+    },
+    {
+     "en": "In the end, it turned out that the woman next to me lived in my street.",
+     "tr": "Sonunda yanımdaki kadının benim sokağımda oturduğu ortaya çıktı.",
+     "why": [
+      "In the end + It turned out that: sürpriz sonuç. next to me, the woman'ı tanımlar."
+     ]
+    },
+    {
+     "en": "I felt really proud that day, and I still do.",
+     "tr": "O gün gerçekten gurur duydum ve hâlâ da duyuyorum.",
+     "why": [
+      "I still do = I still feel proud; do, tekrar etmemek için kullanılır."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "de-cont-simple",
+     "title": "I was waiting for the bus when it started to rain.",
+     "meaning": "Arka plan ve olayı iki geçmiş zamanla anlatmak",
+     "explanation": [
+      "Past continuous (was / were + -ing), geçmişte belli bir anda devam etmekte olan bir eylemi anlatır: At eight o'clock, I was having breakfast. Bu zaman tek başına bir hikâyeyi ilerletmez; sahneyi kurar. Past simple ise başlayıp biten, hikâyeyi ilerleten olayları anlatır: I arrived, I said hello, a woman smiled.",
+      "İkisi birlikte kullanıldığında uzun süren arka plan eylemi, kısa olay tarafından kesilir: I was waiting for the bus when it started to rain. Bu cümlede when'den sonra past simple gelir. Aynı ilişkiyi while ile de kurabiliriz; while'dan sonra genellikle continuous gelir: While I was waiting for the bus, it started to rain.",
+      "İki eylem aynı anda sürüyorsa ikisi de continuous olur: While I was cooking, my husband was setting the table. Olaylar arka arkaya oluyorsa hepsi past simple olur: I opened the door, saw the mess and called my sister. Türkçede “-yordum” ve “-dım” ayrımı bu ilişkiyi zaten iyi karşılar: bekliyordum (continuous) – başladı (simple)."
+     ],
+     "formula": [
+      "arka plan: was / were + -ing (I was waiting)",
+      "olay: past simple (it started)",
+      "… when + past simple · While + past continuous, …"
+     ],
+     "examples": [
+      {
+       "en": "I was waiting for the bus when it started to rain.",
+       "tr": "Otobüs bekliyordum ki yağmur başladı.",
+       "why": [
+        "Uzun eylem (was waiting) kısa olayla (started) kesiliyor."
+       ],
+       "chunks": [
+        {
+         "en": "was waiting for",
+         "tr": "bekliyordum",
+         "note": "wait for + kişi / şey"
+        },
+        {
+         "en": "when it started",
+         "tr": "… -dığında başladı",
+         "note": "when + past simple"
+        }
+       ]
+      },
+      {
+       "en": "While the teacher was talking, my phone rang.",
+       "tr": "Öğretmen konuşurken telefonum çaldı.",
+       "why": [
+        "While + continuous; ana cümle simple."
+       ]
+      },
+      {
+       "en": "While I was cooking, my husband was setting the table.",
+       "tr": "Ben yemek yaparken eşim sofrayı kuruyordu.",
+       "why": [
+        "Aynı anda süren iki eylem → ikisi de continuous."
+       ]
+      },
+      {
+       "en": "I opened the door, saw the mess and called my sister.",
+       "tr": "Kapıyı açtım, dağınıklığı gördüm ve kız kardeşimi aradım.",
+       "why": [
+        "Arka arkaya olaylar → hepsi past simple."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "I ___ (read) when the lights went out.",
+       "answer": "was reading",
+       "why": "Arka plan → continuous"
+      },
+      {
+       "question": "When I arrived, everyone ___ (sit) in the classroom.",
+       "answer": "was sitting",
+       "why": "Ben geldiğimde süren durum."
+      },
+      {
+       "question": "While ile when farkı nedir?",
+       "answer": "while genellikle uzun, süren eylemle (continuous); when kısa olayla (simple) kullanılır.",
+       "why": "While I was waiting, … / … when it started."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I waited the bus when the rain started.",
+       "right": "I was waiting for the bus when it started to rain.",
+       "why": "Arka plan continuous olmalı; wait for kalıbı."
+      },
+      {
+       "wrong": "When I was arriving, the teacher wrote on the board.",
+       "right": "When I arrived, the teacher was writing on the board.",
+       "why": "Kısa olay (arrived) simple, süren eylem (was writing) continuous."
+      }
+     ]
+    },
+    {
+     "id": "de-sequence",
+     "title": "At first · Then · After that · In the end · It turned out that …",
+     "meaning": "Olayları sıralamak ve sonucu açıklamak",
+     "explanation": [
+      "Bir olayı anlatırken dinleyicinin zaman çizgisinde kaybolmaması gerekir. Başlangıç için at first (önce, başlangıçta), devam için then, after that, a few minutes later, sonuç için in the end ya da finally kullanılır. At first genellikle bir değişimi haber verir: At first, I was nervous, but … (Önce gergindim ama …).",
+      "In the end ile at the end karıştırılmamalıdır. In the end “sonunda, nihayetinde” anlamındadır ve bir sürecin sonucunu verir: In the end, it went well. At the end of ise bir şeyin bitiş noktasıdır ve of ile kullanılır: at the end of the lesson (dersin sonunda).",
+      "It turned out that … (… olduğu ortaya çıktı) beklenmedik bir sonucu ya da sonradan öğrenilen bir bilgiyi açıklamak için çok kullanışlıdır: It turned out that it was just a test. It turned out that the woman next to me lived in my street. Bu kalıp anlatıya bir sürpriz ve doğallık katar."
+     ],
+     "formula": [
+      "başlangıç: At first, … · Last Monday, …",
+      "devam: Then … · After that, … · A few minutes later, …",
+      "sonuç: In the end, … · It turned out that …"
+     ],
+     "examples": [
+      {
+       "en": "At first, everyone was worried. Then we went outside.",
+       "tr": "Önce herkes endişelendi. Sonra dışarı çıktık.",
+       "why": [
+        "At first ve Then olay sırasını kurar."
+       ]
+      },
+      {
+       "en": "In the end, it turned out that it was just a fire drill.",
+       "tr": "Sonunda bunun sadece bir yangın tatbikatı olduğu ortaya çıktı.",
+       "why": [
+        "In the end + It turned out that: sürpriz sonuç."
+       ]
+      },
+      {
+       "en": "A few minutes later, the teacher came back with good news.",
+       "tr": "Birkaç dakika sonra öğretmen iyi haberle geri geldi.",
+       "why": [
+        "Zaman atlaması."
+       ]
+      },
+      {
+       "en": "At the end of the meeting, we all had tea in the garden.",
+       "tr": "Toplantının sonunda hepimiz bahçede çay içtik.",
+       "why": [
+        "at the end of + isim: bitiş noktası."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Sonunda iyi geçti.” İngilizcesi?",
+       "answer": "In the end, it went well.",
+       "why": "in the end = sonunda"
+      },
+      {
+       "question": "“Dersin sonunda” nasıl söylenir?",
+       "answer": "at the end of the lesson",
+       "why": "at the end of + isim"
+      },
+      {
+       "question": "“Toplantının iptal edildiği ortaya çıktı.” İngilizcesi?",
+       "answer": "It turned out that the meeting was cancelled.",
+       "why": "It turned out that …"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "At the end, it was a good day.",
+       "right": "In the end, it was a good day.",
+       "why": "Sonuç bildirmek için in the end."
+      },
+      {
+       "wrong": "It turned out the meeting cancelled.",
+       "right": "It turned out that the meeting was cancelled.",
+       "why": "Toplantı iptal edildi: edilgen was cancelled."
+      }
+     ]
+    },
+    {
+     "id": "de-feelings",
+     "title": "I felt nervous / relieved / proud · I'll never forget …",
+     "meaning": "Anlatıya duygu ve değerlendirme eklemek",
+     "explanation": [
+      "Bir deneyimi canlı yapan şey duygulardır. Duyguları feel + sıfat ile söyleriz: I felt nervous (gergin hissettim), I felt relieved (rahatladım), I felt proud (gurur duydum), I felt embarrassed (utandım), I felt confused (kafam karıştı). Daha güçlü anlatım için so ya da really: I felt so relieved.",
+      "Duygunun sebebini because ya da when ile verebiliriz: I felt relieved because nobody was hurt. When I saw the results, I felt really proud. Bazen duyguyu bir davranışla göstermek daha etkili olur: My face went red (Yüzüm kızardı), My hands were shaking (Ellerim titriyordu).",
+      "Anlatının sonunda genel bir değerlendirme yaparız: I'll never forget my first day at this course. It was one of the best days of my life. Now we're good friends and we always study together. Bu son cümleler okuyucuya olayın neden önemli olduğunu söyler ve anlatıyı tamamlar."
+     ],
+     "formula": [
+      "I felt + sıfat (nervous, relieved, proud, embarrassed)",
+      "… because … · When …, I felt …",
+      "Değerlendirme: I'll never forget … · It was one of the best days of my life."
+     ],
+     "examples": [
+      {
+       "en": "I said “Good morning” very quietly because I was so nervous.",
+       "tr": "Çok gergin olduğum için “Günaydın”ı çok sessizce söyledim.",
+       "why": [
+        "Duygu davranışın sebebi: because."
+       ]
+      },
+      {
+       "en": "My face went red, but I answered.",
+       "tr": "Yüzüm kızardı ama cevap verdim.",
+       "why": [
+        "Duyguyu davranışla göstermek: went red."
+       ]
+      },
+      {
+       "en": "I felt so relieved because nobody was hurt.",
+       "tr": "Kimse yaralanmadığı için çok rahatladım.",
+       "why": [
+        "so duyguyu güçlendirir."
+       ]
+      },
+      {
+       "en": "I'll never forget my first day at this course.",
+       "tr": "Bu kurstaki ilk günümü asla unutmayacağım.",
+       "why": [
+        "Anlatıyı bitiren değerlendirme cümlesi."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Rahatladım.” İngilizcesi?",
+       "answer": "I felt relieved.",
+       "why": "relieved = rahatlamış"
+      },
+      {
+       "question": "“Yüzüm kızardı.” İngilizcesi?",
+       "answer": "My face went red.",
+       "why": "go red = kızarmak"
+      },
+      {
+       "question": "Anlatıyı bitiren bir cümle örneği verin.",
+       "answer": "I'll never forget that day.",
+       "why": "Değerlendirme."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I felt relief.",
+       "right": "I felt relieved.",
+       "why": "feel + sıfat; relief isimdir."
+      },
+      {
+       "wrong": "I was very proud with myself.",
+       "right": "I was very proud of myself.",
+       "why": "proud of kalıbı."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "explain-device",
+   "title": "Bir cihazın nasıl kullanıldığını açıklamak",
+   "intro": [
+    "MEB kazanımı: gündelik hayatta kullanılan bir cihazın nasıl kullanıldığını anlaşılır bir şekilde açıklar; örnekler fotoğraf makinesi ve fotokopi makinesidir. Bir cihazı açıklamak, iyi bir öğretmen gibi düşünmeyi gerektirir: dinleyen kişi cihazı hiç kullanmamış olabilir. Bu yüzden her adım net, kısa ve sıralı olmalıdır. Bir adımda bir hareket, bir parça, gerekiyorsa bir uyarı.",
+    "Açıklamanın dili üç katmandan oluşur. Birinci katman parça adlarıdır: screen, button, lid, tray, glass, battery, lens, memory card. İkinci katman eylem fiilleridir: press, hold down, switch on, plug in, insert, select, adjust, zoom in. Üçüncü katman yapılardır: emir kipi (Press the button), amaç için to + fiil (To make a copy, press …), koşul için if (If you want …, press …) ve uyarılar (Make sure …, Be careful not to …, Don't forget to …)."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "First, switch on the machine and wait for the green light.",
+     "tr": "Önce makineyi açın ve yeşil ışığı bekleyin.",
+     "why": [
+      "First sırayı başlatır. switch on elektrikli cihazı açmaktır. wait for + isim."
+     ]
+    },
+    {
+     "en": "Lift the lid and put your document face down on the glass.",
+     "tr": "Kapağı kaldırın ve belgenizi yüzü aşağı gelecek şekilde camın üstüne koyun.",
+     "why": [
+      "İki emir and ile bağlanmış. face down zarf gibi çalışır: yüzü aşağı."
+     ]
+    },
+    {
+     "en": "To make more than one copy, select the number on the screen.",
+     "tr": "Birden fazla kopya almak için ekranda sayıyı seçin.",
+     "why": [
+      "To + make amaç bildirir; ardından virgül ve emir. more than one = birden fazla."
+     ]
+    },
+    {
+     "en": "If you want the copy darker, press the plus button.",
+     "tr": "Kopyanın daha koyu olmasını istiyorsanız artı düğmesine basın.",
+     "why": [
+      "If + geniş zaman, + emir. want something darker = bir şeyin daha koyu olmasını istemek."
+     ]
+    },
+    {
+     "en": "Before you start, charge the battery for three hours.",
+     "tr": "Başlamadan önce pili üç saat şarj edin.",
+     "why": [
+      "Before + cümle zaman bildirir. charge = şarj etmek; for three hours süre."
+     ]
+    },
+    {
+     "en": "Press the shutter button halfway to focus.",
+     "tr": "Odaklamak için deklanşöre yarıya kadar basın.",
+     "why": [
+      "to focus amaç sonda. halfway = yarı yola kadar."
+     ]
+    },
+    {
+     "en": "Be careful not to touch the lens with your fingers.",
+     "tr": "Lense parmaklarınızla dokunmamaya dikkat edin.",
+     "why": [
+      "Be careful not to + yalın fiil. with your fingers = parmaklarınızla."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ed-imperative",
+     "title": "First, switch on the machine. · Lift the lid. · Press the green button.",
+     "meaning": "Emir kipiyle sıralı adımlar vermek",
+     "explanation": [
+      "Talimatlar emir kipindedir: cümle yalın fiille başlar, özne yoktur. Switch on the machine. Lift the lid. Put your document on the glass. Türkçedeki “Makineyi açın, kapağı kaldırın” gibi. You switch on the machine dersek bir alışkanlığı anlatır gibi oluruz; bu da talimat dilinde doğal değildir (bazen konuşmada kullanılsa da).",
+      "Sıra kelimeleri dinleyicinin takip etmesini kolaylaştırır: First, … Then … Next, … After that, … Finally, … Her biri yeni bir adımı haber verir. Ayrıca once (… -ince, … -dıktan sonra) iki adımı bağlar: Once the light is green, press Start.",
+      "Phrasal verb'lerde nesnenin yeri önemlidir. Switch on the machine ya da switch the machine on ikisi de doğrudur. Ama nesne bir zamir (it) ise mutlaka araya girer: Switch it on (Switch on it yanlıştır). Aynı kural plug in, turn off, put down gibi fiillerde de geçerlidir."
+     ],
+     "formula": [
+      "Yalın fiil + nesne (+ yer): Put your document on the glass.",
+      "Sıra: First, … Then … Next, … Finally, … · Once …, …",
+      "Phrasal verb + zamir: Switch it on. (Switch on it ✗)"
+     ],
+     "examples": [
+      {
+       "en": "First, switch on the machine and wait for the green light.",
+       "tr": "Önce makineyi açın ve yeşil ışığı bekleyin.",
+       "why": [
+        "First sırayı başlatır; iki emir and ile bağlanmış."
+       ],
+       "chunks": [
+        {
+         "en": "switch on",
+         "tr": "açmak (elektrikli cihaz)",
+         "note": "open değil"
+        },
+        {
+         "en": "wait for",
+         "tr": "… -i beklemek",
+         "note": "for unutulmaz"
+        }
+       ]
+      },
+      {
+       "en": "Lift the lid and put your document face down on the glass.",
+       "tr": "Kapağı kaldırın ve belgenizi yüzü aşağı gelecek şekilde camın üstüne koyun.",
+       "why": [
+        "face down = yüzü aşağıda; on the glass yer bilgisi."
+       ]
+      },
+      {
+       "en": "Once the light is green, press the Start button.",
+       "tr": "Işık yeşil olunca Başlat düğmesine basın.",
+       "why": [
+        "Once iki adımı zamanla bağlar."
+       ]
+      },
+      {
+       "en": "The camera is off. Switch it on, please.",
+       "tr": "Makine kapalı. Lütfen açın.",
+       "why": [
+        "Zamir (it) phrasal verb'ün arasına girer."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Switch on it doğru mu?",
+       "answer": "Hayır: Switch it on.",
+       "why": "Zamir araya girer."
+      },
+      {
+       "question": "“Kapağı kaldırın.” İngilizcesi?",
+       "answer": "Lift the lid.",
+       "why": "Emir kipi"
+      },
+      {
+       "question": "Talimat dilinde neden özne yoktur?",
+       "answer": "Emir kipinde dinleyen kişi zaten “siz”dir.",
+       "why": "Yalın fiil başta."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Open the machine.",
+       "right": "Switch on the machine.",
+       "why": "Elektrikli cihaz switch on / turn on ile açılır; open kapağını açmaktır."
+      },
+      {
+       "wrong": "You must to press the button.",
+       "right": "Press the button.",
+       "why": "Talimat emir kipiyle verilir; must'tan sonra to gelmez."
+      }
+     ]
+    },
+    {
+     "id": "ed-purpose-if",
+     "title": "To make a copy, press … · If you want …, press …",
+     "meaning": "Amaç ve koşul bildirerek seçenekli adımları açıklamak",
+     "explanation": [
+      "Bir hareketin neden yapıldığını to + yalın fiil ile söyleriz: To make a copy, press the green button. To zoom in, turn the ring. Bu yapı Türkçedeki “… -mek için” karşılığıdır. For make a copy demek çok yaygın bir hatadır; amaç bildirirken for + yalın fiil kullanılmaz. For'dan sonra isim ya da -ing gelir: This button is for zooming. It's for photos.",
+      "Seçenekli adımlarda if kullanılır: If you want a double-sided copy, press the 2-sided button. If the paper gets stuck, open the side door. If cümleciğinde geniş zaman (want, gets), ana cümlede emir kipi vardır. Bu, sıfırıncı / birinci koşul cümlelerinin talimat dilindeki en yaygın kullanımıdır.",
+      "Amaç cümleciği cümlenin başında ya da sonunda olabilir: To see your photos, press the play button. = Press the play button to see your photos. Başta olursa virgül konur. Başta kullanmak, dinleyicinin önce amacı duyup sonra hareketi öğrenmesini sağlar; bu da açıklamayı daha anlaşılır yapar."
+     ],
+     "formula": [
+      "To + yalın fiil (amaç), + emir: To make a copy, press …",
+      "If + geniş zaman, + emir: If you want …, press …",
+      "for + isim / -ing: This button is for zooming."
+     ],
+     "examples": [
+      {
+       "en": "To make more than one copy, select the number on the screen.",
+       "tr": "Birden fazla kopya almak için ekranda sayıyı seçin.",
+       "why": [
+        "Amaç başta, ardından virgül ve emir."
+       ]
+      },
+      {
+       "en": "If you want the copy darker, press the plus button.",
+       "tr": "Kopyanın daha koyu olmasını istiyorsanız artı düğmesine basın.",
+       "why": [
+        "If + want (geniş zaman) + emir."
+       ],
+       "chunks": [
+        {
+         "en": "If you want …",
+         "tr": "… istiyorsanız"
+        },
+        {
+         "en": "darker",
+         "tr": "daha koyu",
+         "note": "dark + er"
+        }
+       ]
+      },
+      {
+       "en": "Press the button halfway to focus.",
+       "tr": "Odaklamak için düğmeye yarıya kadar basın.",
+       "why": [
+        "Amaç sonda; halfway = yarıya kadar."
+       ]
+      },
+      {
+       "en": "If the paper gets stuck, open the side door and remove it.",
+       "tr": "Kâğıt sıkışırsa yan kapağı açın ve çıkarın.",
+       "why": [
+        "get stuck = sıkışmak; remove = çıkarmak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "For make a copy, press the button. cümlesini düzeltin.",
+       "answer": "To make a copy, press the button.",
+       "why": "Amaç to + yalın fiil."
+      },
+      {
+       "question": "“Fotoğrafları görmek için oynatma düğmesine basın.” İngilizcesi?",
+       "answer": "To see the photos, press the play button.",
+       "why": "To + see"
+      },
+      {
+       "question": "If cümleciğinde hangi zaman kullanılır?",
+       "answer": "Geniş zaman: If you want …, If the paper gets stuck …",
+       "why": "Ana cümle emir."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "For zoom in, turn the ring.",
+       "right": "To zoom in, turn the ring.",
+       "why": "Amaç for ile değil to ile."
+      },
+      {
+       "wrong": "If you will want a copy, press Start.",
+       "right": "If you want a copy, press Start.",
+       "why": "If cümleciğinde will kullanılmaz."
+      }
+     ]
+    },
+    {
+     "id": "ed-warnings",
+     "title": "Make sure … · Be careful not to … · Don't forget to …",
+     "meaning": "Uyarılar ve hatırlatmalar eklemek",
+     "explanation": [
+      "İyi bir açıklama kullanıcıyı hatalardan korur. Bunun için üç uyarı kalıbı vardır. Make sure + cümle (… olduğundan emin olun): Make sure the lid is closed. Make sure your hand is steady. Be careful not to + yalın fiil (… -memeye dikkat edin): Be careful not to touch the lens. Don't forget to + yalın fiil (… -meyi unutmayın): Don't forget to take your original.",
+      "Be careful not to kalıbında not, to'nun önüne gelir: Be careful not to drop it. Be careful don't touch ya da Be careful to not touch biçimleri bu derste hedeflenen İngilizceye uymaz. Kılavuzlarda daha güçlü uyarılar da vardır: Never use it near water. Do not leave it in the sun. Use only the charger in the box.",
+      "Uyarının yeri de önemlidir: uyarı, ilgili adımın hemen yanında verilmelidir. Örneğin lensi temizleme adımında Be careful not to touch the lens with your fingers, fotoğraf çekme adımında Make sure your hand is steady. Açıklamanın sonunda ise genel bir hatırlatma yapılır: Don't forget to switch it off."
+     ],
+     "formula": [
+      "Make sure + özne + fiil: Make sure the lid is closed.",
+      "Be careful not to + yalın fiil: Be careful not to touch the lens.",
+      "Don't forget to + yalın fiil · Never … · Do not …"
+     ],
+     "examples": [
+      {
+       "en": "Make sure your hand is steady, especially at night.",
+       "tr": "Özellikle geceleri elinizin sabit olduğundan emin olun.",
+       "why": [
+        "Make sure + tam cümle; especially vurgu katar."
+       ],
+       "chunks": [
+        {
+         "en": "Make sure",
+         "tr": "… -den emin olun"
+        },
+        {
+         "en": "steady",
+         "tr": "sabit, titremeyen"
+        }
+       ]
+      },
+      {
+       "en": "Be careful not to touch the lens with your fingers.",
+       "tr": "Lense parmaklarınızla dokunmamaya dikkat edin.",
+       "why": [
+        "not, to'dan önce."
+       ]
+      },
+      {
+       "en": "Finally, take your copies and don't forget your original on the glass!",
+       "tr": "Son olarak kopyalarınızı alın ve camdaki aslını unutmayın!",
+       "why": [
+        "Don't forget + isim da olur: your original."
+       ]
+      },
+      {
+       "en": "Don't leave the camera in the sun or in a hot car.",
+       "tr": "Makineyi güneşte ya da sıcak bir arabada bırakmayın.",
+       "why": [
+        "Olumsuz emir; or iki yeri bağlar."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Kapağın kapalı olduğundan emin olun.” İngilizcesi?",
+       "answer": "Make sure the lid is closed.",
+       "why": "Make sure + cümle"
+      },
+      {
+       "question": "Be careful don't drop it cümlesini düzeltin.",
+       "answer": "Be careful not to drop it.",
+       "why": "not to + yalın fiil"
+      },
+      {
+       "question": "“Kapatmayı unutmayın.” İngilizcesi?",
+       "answer": "Don't forget to switch it off.",
+       "why": "Don't forget to + fiil"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Be careful to not touch the screen.",
+       "right": "Be careful not to touch the screen.",
+       "why": "Bu kalıpta not, to'dan önce gelir."
+      },
+      {
+       "wrong": "Make sure that you are close the lid.",
+       "right": "Make sure you close the lid. / Make sure the lid is closed.",
+       "why": "Make sure + doğru kurulmuş bir cümle."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "its-me",
+   "term": "Hi, it's me. · Is that Ayla?",
+   "meaning": "selam, benim · Ayla sen misin?",
+   "partOfSpeech": "telefon kalıbı",
+   "sourceTerms": [
+    "Hi, it's me. · Is that Ayla?"
+   ],
+   "explanation": [
+    "Telefonda kendini tanıtma ve karşıdakinin kimliğini sorma kalıpları. Telefonda konuşan kişi bir ses olarak düşünüldüğü için I'm yerine it's / this is, Are you yerine Is that kullanılır. Yakın biriyle konuşurken sadece It's me! yeterlidir; tanımadığı biri için ise adınızı ve gerekiyorsa nereden tanındığınızı söyleyin: This is Deniz from the English course."
+   ],
+   "collocations": [
+    {
+     "en": "This is … speaking",
+     "tr": "ben …"
+    },
+    {
+     "en": "Speaking!",
+     "tr": "benim (telefonda)"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Hi, it's me! Are you at home?",
+     "tr": "Selam, benim! Evde misin?"
+    },
+    {
+     "en": "Hello, is that Mr Kaya? — Speaking.",
+     "tr": "Alo, Bay Kaya mı? — Benim."
+    },
+    {
+     "en": "Hi Ece, this is Kaan from the course.",
+     "tr": "Selam Ece, ben kurstan Kaan."
+    }
+   ],
+   "commonMistake": "Telefonda I'm Deniz / Are you Ayla? yerine it's / Is that kullanılır."
+  },
+  {
+   "id": "got-a-minute",
+   "term": "Have you got a minute?",
+   "meaning": "bir dakikan var mı?",
+   "partOfSpeech": "telefon kalıbı",
+   "sourceTerms": [
+    "Have you got a minute?"
+   ],
+   "explanation": [
+    "Konuşmaya başlamadan önce karşıdakinin uygun olup olmadığını soran kibar kalıp. Have you got? İngiliz İngilizcesinde Do you have? ile aynı anlamdadır. Benzerleri: Is this a good time? · Are you busy? Uygun değilse cevap: Sorry, not right now. Can I call you back?"
+   ],
+   "collocations": [
+    {
+     "en": "Is this a good time?",
+     "tr": "uygun bir zaman mı?"
+    },
+    {
+     "en": "Are you free to talk?",
+     "tr": "konuşmaya müsait misin?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Hi, have you got a minute? I need some advice.",
+     "tr": "Selam, bir dakikan var mı? Bir tavsiyeye ihtiyacım var."
+    },
+    {
+     "en": "Have you got a minute? — Sure, go ahead.",
+     "tr": "Bir dakikan var mı? — Tabii, söyle.",
+     "note": "go ahead = devam et, söyle"
+    },
+    {
+     "en": "Is this a good time? — Not really, I'm driving.",
+     "tr": "Uygun musun? — Pek değil, araba kullanıyorum."
+    }
+   ],
+   "commonMistake": "Do you have one minute? yerine Have you got a minute? denir."
+  },
+  {
+   "id": "calling-about",
+   "term": "I'm calling about …",
+   "meaning": "… konusunda arıyorum",
+   "partOfSpeech": "telefon kalıbı",
+   "sourceTerms": [
+    "I'm calling about …"
+   ],
+   "explanation": [
+    "Arama sebebini bir isimle bildirir: I'm calling about the party. Sebep bir eylemse to + fiil kullanılır: I'm calling to invite you. Daha yumuşak bir başlangıç: I just wanted to ask … İş aramalarında da aynı kalıp kullanılır: I'm calling about the job advert."
+   ],
+   "collocations": [
+    {
+     "en": "I'm calling to ask …",
+     "tr": "… sormak için arıyorum"
+    },
+    {
+     "en": "I just wanted to …",
+     "tr": "sadece … istemiştim"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm calling about the party on Saturday.",
+     "tr": "Cumartesi günkü parti için arıyorum."
+    },
+    {
+     "en": "I'm calling to ask you a favour.",
+     "tr": "Senden bir rica için arıyorum.",
+     "note": "to + fiil"
+    },
+    {
+     "en": "I just wanted to say thank you for yesterday.",
+     "tr": "Dün için sadece teşekkür etmek istemiştim."
+    }
+   ],
+   "commonMistake": "I'm calling for ask … yerine I'm calling to ask … denir."
+  },
+  {
+   "id": "call-back",
+   "term": "Can I call you back later?",
+   "meaning": "seni sonra arayabilir miyim?",
+   "partOfSpeech": "telefon kalıbı",
+   "sourceTerms": [
+    "Can I call you back later?"
+   ],
+   "explanation": [
+    "Uygun olmadığınız bir anda gelen aramayı kibarca ertelemek için kullanılır. call back = geri aramak. Zamirle: call you back, call her back. Karşı taraf bir saat de verebilir: Sure, call me after six."
+   ],
+   "collocations": [
+    {
+     "en": "call someone back",
+     "tr": "birini geri aramak"
+    },
+    {
+     "en": "return someone's call",
+     "tr": "birinin aramasına dönmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm on the bus. Can I call you back later?",
+     "tr": "Otobüsteyim. Seni sonra arayabilir miyim?"
+    },
+    {
+     "en": "Sorry, I missed your call. I'm calling you back.",
+     "tr": "Kusura bakma, aramanı kaçırdım. Geri arıyorum."
+    },
+    {
+     "en": "She's in a meeting. She'll call you back.",
+     "tr": "Toplantıda. Seni geri arayacak."
+    }
+   ],
+   "commonMistake": "I search you later yerine I'll call you back later denir; search aramak (bir şeyi bulmaya çalışmak) demektir."
+  },
+  {
+   "id": "better-go",
+   "term": "I'd better go. · Speak soon!",
+   "meaning": "kapatsam iyi olacak · görüşürüz",
+   "partOfSpeech": "telefon kalıbı",
+   "sourceTerms": [
+    "I'd better go. · Speak soon!"
+   ],
+   "explanation": [
+    "Telefon görüşmesini kibarca bitirmek için kullanılır. I'd better = I had better; “… -sem iyi olur” demektir ve geçmiş anlamı yoktur. Genellikle Anyway, … ya da OK then, … ile başlayan bir geçişten sonra gelir. Speak soon! yakında tekrar konuşacağınızı söyleyen sıcak bir kapanıştır."
+   ],
+   "collocations": [
+    {
+     "en": "Anyway, …",
+     "tr": "neyse, …"
+    },
+    {
+     "en": "Take care!",
+     "tr": "kendine iyi bak!"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Anyway, I'd better go. Speak soon!",
+     "tr": "Neyse, kapatayım. Görüşürüz!"
+    },
+    {
+     "en": "OK then, I'd better get back to work.",
+     "tr": "Tamam o zaman, işime dönsem iyi olur."
+    },
+    {
+     "en": "Thanks for calling. Take care!",
+     "tr": "Aradığın için teşekkürler. Kendine iyi bak!"
+    }
+   ],
+   "commonMistake": "I must close the phone yerine I'd better go denir."
+  },
+  {
+   "id": "tell-called",
+   "term": "Could you tell him I called?",
+   "meaning": "aradığımı ona söyler misin?",
+   "partOfSpeech": "telefon kalıbı",
+   "sourceTerms": [
+    "Could you tell him I called?"
+   ],
+   "explanation": [
+    "Aradığınız kişi yoksa mesaj bırakmak için kullanılır. tell + kişi + (that) + cümle yapısındadır: tell him (that) I called. Geri aranmak istiyorsanız ask + kişi + to + fiil: Could you ask him to call me back? Önce Can I leave a message? diye sorulabilir."
+   ],
+   "collocations": [
+    {
+     "en": "leave a message",
+     "tr": "mesaj bırakmak"
+    },
+    {
+     "en": "take a message",
+     "tr": "mesaj almak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "He's out? Could you tell him I called?",
+     "tr": "Dışarıda mı? Aradığımı ona söyler misin?"
+    },
+    {
+     "en": "Can I leave a message?",
+     "tr": "Mesaj bırakabilir miyim?"
+    },
+    {
+     "en": "Could you ask her to call me back after five?",
+     "tr": "Beşten sonra beni geri aramasını söyler misin?",
+     "note": "ask + kişi + to"
+    }
+   ],
+   "commonMistake": "Could you say him I called? yerine tell him denir."
+  },
+  {
+   "id": "breaking-up",
+   "term": "The line's bad. · You're breaking up.",
+   "meaning": "hat kötü · sesin kesiliyor",
+   "partOfSpeech": "telefon kalıbı",
+   "sourceTerms": [
+    "The line's bad. · You're breaking up."
+   ],
+   "explanation": [
+    "Cep telefonu görüşmelerinde bağlantı sorunlarını anlatan kalıplar. break up burada sesin parça parça gelmesidir. Diğer sorunlar: I can't hear you (duyamıyorum), Can you speak up? (biraz yüksek konuşur musun?), I'm losing you (seni kaybediyorum)."
+   ],
+   "collocations": [
+    {
+     "en": "I can't hear you",
+     "tr": "seni duyamıyorum"
+    },
+    {
+     "en": "speak up",
+     "tr": "daha yüksek sesle konuşmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Sorry, you're breaking up. I'll call you back.",
+     "tr": "Pardon, sesin kesiliyor. Seni geri ararım."
+    },
+    {
+     "en": "The line's bad. Can you hear me?",
+     "tr": "Hat kötü. Beni duyabiliyor musun?"
+    },
+    {
+     "en": "Can you speak up a bit? It's very noisy here.",
+     "tr": "Biraz yüksek konuşur musun? Burası çok gürültülü."
+    }
+   ],
+   "commonMistake": "Your voice is cutting yerine You're breaking up denir."
+  },
+  {
+   "id": "what-doing",
+   "term": "What are you doing on Saturday?",
+   "meaning": "cumartesi ne yapıyorsun?",
+   "partOfSpeech": "plan sorusu",
+   "sourceTerms": [
+    "What are you doing on Saturday?"
+   ],
+   "explanation": [
+    "Present continuous ile belli bir günün planını sorar; dolaylı olarak “Boş musun?” anlamı taşır. Cevap da continuous olur: I'm visiting my parents. Alışkanlık sorusu What do you do on Saturdays? ise farklıdır."
+   ],
+   "collocations": [
+    {
+     "en": "What are you doing tonight?",
+     "tr": "bu akşam ne yapıyorsun?"
+    },
+    {
+     "en": "Are you free on …?",
+     "tr": "… müsait misin?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "What are you doing on Saturday? — Nothing special.",
+     "tr": "Cumartesi ne yapıyorsun? — Özel bir şey yok."
+    },
+    {
+     "en": "I'm meeting some friends on Friday evening.",
+     "tr": "Cuma akşamı birkaç arkadaşla buluşuyorum.",
+     "note": "Kesin plan"
+    },
+    {
+     "en": "Are you free on Sunday? — Yes, why?",
+     "tr": "Pazar müsait misin? — Evet, neden?"
+    }
+   ],
+   "commonMistake": "What do you do on Saturday? (bu cumartesi için) yerine What are you doing on Saturday? denir."
+  },
+  {
+   "id": "shall-how-about",
+   "term": "Shall we …? · How about …?",
+   "meaning": "… -elim mi? · … -meye ne dersin?",
+   "partOfSpeech": "öneri kalıbı",
+   "sourceTerms": [
+    "Shall we …? · How about …?"
+   ],
+   "explanation": [
+    "Öneri kalıpları. Shall we'den sonra yalın fiil gelir (Shall we go?). How about ve What about'tan sonra isim ya da -ing gelir (How about going? How about Sunday?). Benzer: Do you fancy + isim / -ing?"
+   ],
+   "collocations": [
+    {
+     "en": "What about …?",
+     "tr": "… ne dersin?"
+    },
+    {
+     "en": "Do you fancy …?",
+     "tr": "… ister misin?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Shall we go to the cinema?",
+     "tr": "Sinemaya gidelim mi?"
+    },
+    {
+     "en": "How about going to the new café?",
+     "tr": "Yeni kafeye gitmeye ne dersin?",
+     "note": "-ing"
+    },
+    {
+     "en": "What about Sunday afternoon?",
+     "tr": "Pazar öğleden sonraya ne dersin?",
+     "note": "isim"
+    }
+   ],
+   "commonMistake": "How about go …? yerine How about going …? denir."
+  },
+  {
+   "id": "why-dont-we",
+   "term": "Why don't we …?",
+   "meaning": "neden … -miyoruz?",
+   "partOfSpeech": "öneri kalıbı",
+   "sourceTerms": [
+    "Why don't we …?"
+   ],
+   "explanation": [
+    "Biçimi olumsuz soru olsa da anlamı bir öneridir; Türkçedeki “Neden … -miyoruz?” ile aynıdır. Ardından yalın fiil gelir. Cevap olarak Why not? (Neden olmasın?) çok doğaldır. Tek kişiye öneri: Why don't you …?"
+   ],
+   "collocations": [
+    {
+     "en": "Why not?",
+     "tr": "neden olmasın?"
+    },
+    {
+     "en": "Why don't you …?",
+     "tr": "neden … -miyorsun?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Why don't we meet at the station?",
+     "tr": "Neden istasyonda buluşmuyoruz?"
+    },
+    {
+     "en": "Why don't we have a coffee first? — Why not?",
+     "tr": "Neden önce bir kahve içmiyoruz? — Neden olmasın?"
+    },
+    {
+     "en": "Why don't you ask your sister?",
+     "tr": "Neden kız kardeşine sormuyorsun?",
+     "note": "Tek kişiye öneri"
+    }
+   ],
+   "commonMistake": "Why we don't meet …? yerine Why don't we meet …? denir."
+  },
+  {
+   "id": "sounds-great",
+   "term": "That sounds great!",
+   "meaning": "harika olur!",
+   "partOfSpeech": "tepki",
+   "sourceTerms": [
+    "That sounds great!"
+   ],
+   "explanation": [
+    "Bir öneriyi coşkuyla kabul etmenin en yaygın yolu. sound + sıfat = … gibi görünmek (duyulmak). Benzerleri: That sounds good / fun / interesting. Olumsuz: That sounds difficult. Kısaca Sounds great! de denir."
+   ],
+   "collocations": [
+    {
+     "en": "That sounds fun",
+     "tr": "eğlenceli olur"
+    },
+    {
+     "en": "Sounds good!",
+     "tr": "iyi olur!"
+    }
+   ],
+   "examples": [
+    {
+     "en": "A picnic on Sunday? That sounds great!",
+     "tr": "Pazar piknik mi? Harika olur!"
+    },
+    {
+     "en": "Dinner at my place? Sounds good!",
+     "tr": "Bende yemek mi? İyi olur!"
+    },
+    {
+     "en": "That sounds interesting. Tell me more.",
+     "tr": "İlginç görünüyor. Biraz daha anlat."
+    }
+   ],
+   "commonMistake": "That sounds greatly yerine That sounds great denir; sound'dan sonra sıfat gelir."
+  },
+  {
+   "id": "afraid-cant",
+   "term": "I'm afraid I can't. I'm …",
+   "meaning": "maalesef olmaz, … -iyorum",
+   "partOfSpeech": "kibar ret",
+   "sourceTerms": [
+    "I'm afraid I can't. I'm …"
+   ],
+   "explanation": [
+    "Bir öneriyi kibarca reddetmek için kullanılır. I'm afraid burada korku değil, kibar bir üzüntü (maalesef) bildirir. Ardından gerekçe genellikle present continuous ile verilir: I'm working. Sonra yeni bir öneri eklenir: What about … instead?"
+   ],
+   "collocations": [
+    {
+     "en": "I'd love to, but …",
+     "tr": "çok isterim ama …"
+    },
+    {
+     "en": "What about … instead?",
+     "tr": "bunun yerine … ne dersin?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm afraid I can't. I'm visiting my parents.",
+     "tr": "Maalesef olmaz. Ailemi ziyaret ediyorum."
+    },
+    {
+     "en": "I'd love to, but I'm working late.",
+     "tr": "Çok isterim ama geç saate kadar çalışıyorum."
+    },
+    {
+     "en": "Sorry, Friday doesn't work for me. What about Saturday instead?",
+     "tr": "Kusura bakma, cuma bana uymuyor. Bunun yerine cumartesiye ne dersin?"
+    }
+   ],
+   "commonMistake": "No, I don't come yerine I'm afraid I can't (come) denir."
+  },
+  {
+   "id": "lets-meet",
+   "term": "Let's meet at … at …",
+   "meaning": "… -de … saatte buluşalım",
+   "partOfSpeech": "karar kalıbı",
+   "sourceTerms": [
+    "Let's meet at … at …"
+   ],
+   "explanation": [
+    "Planı netleştiren kalıp: yer ve saat. İngilizcede sıra genellikle yer + saat şeklindedir: Let's meet at the café at seven. Let's + yalın fiil; to yok. Olumsuz: Let's not meet too late."
+   ],
+   "collocations": [
+    {
+     "en": "meet up",
+     "tr": "buluşmak (samimi)"
+    },
+    {
+     "en": "at seven sharp",
+     "tr": "tam yedide"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Let's meet at the café opposite the cinema at three.",
+     "tr": "Saat üçte sinemanın karşısındaki kafede buluşalım."
+    },
+    {
+     "en": "Let's meet in front of the station at half past six.",
+     "tr": "Altı buçukta istasyonun önünde buluşalım."
+    },
+    {
+     "en": "OK, let's meet up after work.",
+     "tr": "Tamam, işten sonra buluşalım."
+    }
+   ],
+   "commonMistake": "Let's to meet yerine Let's meet denir."
+  },
+  {
+   "id": "cafe-where",
+   "term": "the café where we meet",
+   "meaning": "buluştuğumuz kafe",
+   "partOfSpeech": "ilgi cümleciği",
+   "sourceTerms": [
+    "the café where we meet"
+   ],
+   "explanation": [
+    "Yer bildiren bir ismi tanımlayan ilgi cümleciği. where cümlecikte “orada” anlamı taşır: we meet there. Cümlecikte there tekrar edilmez. Türkçedeki -dığımız ekine karşılık gelir."
+   ],
+   "collocations": [
+    {
+     "en": "the town where I was born",
+     "tr": "doğduğum kasaba"
+    },
+    {
+     "en": "the shop where I work",
+     "tr": "çalıştığım dükkân"
+    }
+   ],
+   "examples": [
+    {
+     "en": "This is the café where we always meet.",
+     "tr": "Burası hep buluştuğumuz kafe."
+    },
+    {
+     "en": "That's the school where I studied.",
+     "tr": "Orası okuduğum okul."
+    },
+    {
+     "en": "I remember the street where we lived.",
+     "tr": "Oturduğumuz sokağı hatırlıyorum."
+    }
+   ],
+   "commonMistake": "the café where we meet there yerine there olmadan kullanılır."
+  },
+  {
+   "id": "which-that",
+   "term": "a building which / that …",
+   "meaning": "… olan bir bina",
+   "partOfSpeech": "ilgi cümleciği",
+   "sourceTerms": [
+    "a building which / that …"
+   ],
+   "explanation": [
+    "Bir şeyi ya da hayvanı tanımlayan cümlecikler which ya da that ile kurulur. Cümlecikte isim özne ise it tekrar edilmez: a building which was built in 1890 (which it was değil). İnsanlar için who / that, sahiplik için whose kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "the woman who runs the café",
+     "tr": "kafeyi işleten kadın"
+    },
+    {
+     "en": "a friend whose flat …",
+     "tr": "dairesi … olan bir arkadaş"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's a building which was built in 1890.",
+     "tr": "1890'da yapılmış bir bina."
+    },
+    {
+     "en": "I bought a phone that takes great photos.",
+     "tr": "Harika fotoğraflar çeken bir telefon aldım."
+    },
+    {
+     "en": "The woman who runs the café used to be a teacher.",
+     "tr": "Kafeyi işleten kadın eskiden öğretmendi.",
+     "note": "insan → who"
+    }
+   ],
+   "commonMistake": "a building which it was built yerine it olmadan kullanılır."
+  },
+  {
+   "id": "kind-of-place",
+   "term": "It's the kind of place where …",
+   "meaning": "… türden bir yer",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "It's the kind of place where …"
+   ],
+   "explanation": [
+    "Bir yerin karakterini anlatan kalıp. the kind of + isim = … türünden bir … Ardından where cümleciği gelir. Benzer: It's the kind of film that … / He's the kind of person who …"
+   ],
+   "collocations": [
+    {
+     "en": "the kind of person who …",
+     "tr": "… türden bir insan"
+    },
+    {
+     "en": "that kind of thing",
+     "tr": "o tür bir şey"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's the kind of place where everyone knows your name.",
+     "tr": "Herkesin adınızı bildiği türden bir yer."
+    },
+    {
+     "en": "It's the kind of café where you can work for hours.",
+     "tr": "Saatlerce çalışabileceğiniz türden bir kafe."
+    },
+    {
+     "en": "It isn't the kind of place where I'd take my children.",
+     "tr": "Çocuklarımı götüreceğim türden bir yer değil."
+    }
+   ],
+   "commonMistake": "It's a kind place … yerine It's the kind of place … denir."
+  },
+  {
+   "id": "place-adjectives",
+   "term": "cosy · crowded · peaceful · lively",
+   "meaning": "sıcak, samimi · kalabalık · huzurlu · canlı",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "cosy · crowded · peaceful · lively"
+   ],
+   "explanation": [
+    "Yerleri anlatan anlamlı sıfatlar. cosy küçük, sıcak ve rahat bir yer içindir; lively canlı ve hareketli; peaceful huzurlu ve sessiz; crowded kalabalık. get crowded = kalabalıklaşmak. Amerikan yazımı cozy'dir."
+   ],
+   "collocations": [
+    {
+     "en": "get crowded",
+     "tr": "kalabalıklaşmak"
+    },
+    {
+     "en": "a lively atmosphere",
+     "tr": "canlı bir atmosfer"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The market is lively but crowded.",
+     "tr": "Pazar canlı ama kalabalık."
+    },
+    {
+     "en": "It's a cosy little café with a garden.",
+     "tr": "Bahçeli, küçük, samimi bir kafe."
+    },
+    {
+     "en": "The park is very peaceful in the morning.",
+     "tr": "Park sabahları çok huzurlu."
+    }
+   ],
+   "commonMistake": "Kalabalık için crowd (isim) değil crowded (sıfat) kullanılır."
+  },
+  {
+   "id": "famous-for",
+   "term": "It's famous for …",
+   "meaning": "… ile ünlüdür",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "It's famous for …"
+   ],
+   "explanation": [
+    "Bir yerin neyle tanındığını söyleyen kalıp: famous for + isim / -ing. Benzerleri: known for (ile bilinen), popular with (… arasında sevilen). its, it'in iyelik biçimidir (it's değil)."
+   ],
+   "collocations": [
+    {
+     "en": "well known for",
+     "tr": "ile iyi bilinen"
+    },
+    {
+     "en": "popular with tourists",
+     "tr": "turistler arasında popüler"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Bursa is famous for its silk and its İskender.",
+     "tr": "Bursa ipeği ve İskender'iyle ünlüdür."
+    },
+    {
+     "en": "This café is famous for its cakes.",
+     "tr": "Bu kafe pastalarıyla ünlüdür."
+    },
+    {
+     "en": "The town is popular with tourists in summer.",
+     "tr": "Kasaba yazın turistler arasında popülerdir."
+    }
+   ],
+   "commonMistake": "famous with yerine famous for denir; its ile it's karıştırılmaz."
+  },
+  {
+   "id": "like-most",
+   "term": "What I like most about it is …",
+   "meaning": "en çok sevdiğim şey …",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "What I like most about it is …"
+   ],
+   "explanation": [
+    "Bir yer ya da şey hakkındaki kişisel değerlendirmeyi vurgulu söyleyen kalıp. Ardından isim ya da that + cümle gelir. Paragrafın sonunda kullanılınca güçlü bir kapanış yapar."
+   ],
+   "collocations": [
+    {
+     "en": "What I don't like is …",
+     "tr": "sevmediğim şey …"
+    },
+    {
+     "en": "the best thing about it",
+     "tr": "en iyi yanı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "What I like most about it is the view.",
+     "tr": "En çok sevdiğim şey manzarası."
+    },
+    {
+     "en": "What I like most about it is that everyone knows your name.",
+     "tr": "En çok sevdiğim şey herkesin adınızı biliyor olması.",
+     "note": "that + cümle"
+    },
+    {
+     "en": "The best thing about my town is the people.",
+     "tr": "Kasabamın en iyi yanı insanları."
+    }
+   ],
+   "commonMistake": "What I most like it is … gibi karışık sıra yerine What I like most about it is … denir."
+  },
+  {
+   "id": "was-doing-when",
+   "term": "was doing … when … happened",
+   "meaning": "… yapıyordum ki … oldu",
+   "partOfSpeech": "zaman yapısı",
+   "sourceTerms": [
+    "was doing … when … happened"
+   ],
+   "explanation": [
+    "Geçmişte süren bir eylemin (past continuous) kısa bir olayla (past simple) kesildiğini anlatan temel anlatı yapısı. when'den sonra past simple gelir. Sahneyi kurar ve olayı getirir."
+   ],
+   "collocations": [
+    {
+     "en": "was waiting when …",
+     "tr": "bekliyordum ki …"
+    },
+    {
+     "en": "was cooking when …",
+     "tr": "yemek yapıyordum ki …"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I was cooking when the lights went out.",
+     "tr": "Yemek yapıyordum ki elektrikler gitti."
+    },
+    {
+     "en": "We were having dinner when the phone rang.",
+     "tr": "Akşam yemeği yiyorduk ki telefon çaldı."
+    },
+    {
+     "en": "She was driving to work when she saw the accident.",
+     "tr": "İşe giderken kazayı gördü."
+    }
+   ],
+   "commonMistake": "I cooked when the lights went out yerine arka plan continuous olmalı: I was cooking."
+  },
+  {
+   "id": "while",
+   "term": "while",
+   "meaning": "… -ken",
+   "partOfSpeech": "bağlaç",
+   "sourceTerms": [
+    "while"
+   ],
+   "explanation": [
+    "İki eylemin aynı zamanda olduğunu anlatır; genellikle continuous ile kullanılır: While I was waiting, I read a book. İki eylem de süren eylemse ikisi de continuous olur. Türkçedeki -ken ekine karşılık gelir."
+   ],
+   "collocations": [
+    {
+     "en": "while I was waiting",
+     "tr": "beklerken"
+    },
+    {
+     "en": "while you're here",
+     "tr": "sen buradayken"
+    }
+   ],
+   "examples": [
+    {
+     "en": "While I was waiting, I read a book.",
+     "tr": "Beklerken bir kitap okudum."
+    },
+    {
+     "en": "While the teacher was talking, my phone rang.",
+     "tr": "Öğretmen konuşurken telefonum çaldı."
+    },
+    {
+     "en": "While I was cooking, my son was doing his homework.",
+     "tr": "Ben yemek yaparken oğlum ödevini yapıyordu.",
+     "note": "İki süren eylem"
+    }
+   ],
+   "commonMistake": "While I waited the bus yerine While I was waiting for the bus denir."
+  },
+  {
+   "id": "sequence-words",
+   "term": "at first · then · after that · in the end",
+   "meaning": "önce · sonra · ondan sonra · sonunda",
+   "partOfSpeech": "sıralama",
+   "sourceTerms": [
+    "at first · then · after that · in the end"
+   ],
+   "explanation": [
+    "Olay sırasını veren kelimeler. at first başlangıçtaki durumu (genellikle sonra değişen bir durumu) anlatır. in the end sonucu verir; at the end of + isim ise bitiş noktasıdır (at the end of the lesson)."
+   ],
+   "collocations": [
+    {
+     "en": "a few minutes later",
+     "tr": "birkaç dakika sonra"
+    },
+    {
+     "en": "finally",
+     "tr": "en sonunda"
+    }
+   ],
+   "examples": [
+    {
+     "en": "At first I was nervous, but in the end it went well.",
+     "tr": "Önce gergindim ama sonunda iyi geçti."
+    },
+    {
+     "en": "Then we went outside. After that, we waited.",
+     "tr": "Sonra dışarı çıktık. Ondan sonra bekledik."
+    },
+    {
+     "en": "At the end of the meeting, we had tea.",
+     "tr": "Toplantının sonunda çay içtik.",
+     "note": "at the end of + isim"
+    }
+   ],
+   "commonMistake": "At the end, it was fine yerine In the end, it was fine denir."
+  },
+  {
+   "id": "so-because-although",
+   "term": "so · because · although",
+   "meaning": "bu yüzden · çünkü · -e rağmen",
+   "partOfSpeech": "bağlaç",
+   "sourceTerms": [
+    "so · because · although"
+   ],
+   "explanation": [
+    "Mantıksal ilişki bağlaçları. because sebebi, so sonucu verir; ikisi yer değiştirince anlam ters döner. although zıtlık bildirir ve but ile aynı cümlede kullanılmaz. although başta ise ardından virgül gelir."
+   ],
+   "collocations": [
+    {
+     "en": "even though",
+     "tr": "-e rağmen (daha güçlü)"
+    },
+    {
+     "en": "that's why",
+     "tr": "bu yüzden"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Although it was raining, we went out.",
+     "tr": "Yağmur yağmasına rağmen dışarı çıktık."
+    },
+    {
+     "en": "I was tired, so I went to bed early.",
+     "tr": "Yorgundum, bu yüzden erken yattım."
+    },
+    {
+     "en": "I went to bed early because I was tired.",
+     "tr": "Erken yattım çünkü yorgundum."
+    }
+   ],
+   "commonMistake": "Although it was late, but we stayed yerine but olmadan kullanılır."
+  },
+  {
+   "id": "turned-out",
+   "term": "It turned out that …",
+   "meaning": "… olduğu ortaya çıktı",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "It turned out that …"
+   ],
+   "explanation": [
+    "Sonradan öğrenilen ya da beklenmedik bir sonucu bildirir. Hikâyelerde sürpriz sonları anlatmak için çok kullanılır. that bazen düşer: It turned out the meeting was cancelled."
+   ],
+   "collocations": [
+    {
+     "en": "it turned out to be",
+     "tr": "… olduğu ortaya çıktı"
+    },
+    {
+     "en": "as it turned out",
+     "tr": "anlaşıldığı üzere"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It turned out that the meeting was cancelled.",
+     "tr": "Toplantının iptal edildiği ortaya çıktı."
+    },
+    {
+     "en": "It turned out that she lived in my street.",
+     "tr": "Benim sokağımda oturduğu ortaya çıktı."
+    },
+    {
+     "en": "The test turned out to be easy.",
+     "tr": "Sınavın kolay olduğu ortaya çıktı.",
+     "note": "turn out to be"
+    }
+   ],
+   "commonMistake": "It came out that … yerine It turned out that … denir."
+  },
+  {
+   "id": "never-forget",
+   "term": "I'll never forget …",
+   "meaning": "… asla unutmayacağım",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "I'll never forget …"
+   ],
+   "explanation": [
+    "Bir deneyimin önemini vurgulayan değerlendirme kalıbı. Ardından isim ya da the day when … gelir. Anlatının başında ya da sonunda kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "I'll always remember …",
+     "tr": "… her zaman hatırlayacağım"
+    },
+    {
+     "en": "the day when …",
+     "tr": "… -dığı gün"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'll never forget my first day at school.",
+     "tr": "Okuldaki ilk günümü asla unutmayacağım."
+    },
+    {
+     "en": "I'll never forget the day when my son was born.",
+     "tr": "Oğlumun doğduğu günü asla unutmayacağım."
+    },
+    {
+     "en": "I'll always remember her kindness.",
+     "tr": "Onun nezaketini hep hatırlayacağım."
+    }
+   ],
+   "commonMistake": "I never forget (geniş zaman) yerine gelecek vurgusuyla I'll never forget denir."
+  },
+  {
+   "id": "felt-feelings",
+   "term": "I felt nervous / relieved / proud",
+   "meaning": "gergin / rahatlamış / gururlu hissettim",
+   "partOfSpeech": "duygu",
+   "sourceTerms": [
+    "I felt nervous / relieved / proud"
+   ],
+   "explanation": [
+    "Duyguları feel + sıfat ile söyleriz. nervous gergin, relieved rahatlamış (endişe sonrası), proud gururlu, embarrassed utanmış, confused kafası karışmış. proud of (… ile gurur duymak) kalıbına dikkat. Duyguyu so / really ile güçlendirebilirsiniz."
+   ],
+   "collocations": [
+    {
+     "en": "feel proud of",
+     "tr": "… ile gurur duymak"
+    },
+    {
+     "en": "feel so relieved",
+     "tr": "çok rahatlamak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "When I saw the results, I felt so relieved.",
+     "tr": "Sonuçları görünce çok rahatladım."
+    },
+    {
+     "en": "I felt nervous before the interview.",
+     "tr": "Görüşmeden önce gergindim."
+    },
+    {
+     "en": "I'm really proud of my children.",
+     "tr": "Çocuklarımla gerçekten gurur duyuyorum.",
+     "note": "proud of"
+    }
+   ],
+   "commonMistake": "I felt relief yerine I felt relieved denir; feel'den sonra sıfat gelir."
+  },
+  {
+   "id": "press-hold",
+   "term": "press · hold down · release",
+   "meaning": "basmak · basılı tutmak · bırakmak",
+   "partOfSpeech": "fiil",
+   "sourceTerms": [
+    "press · hold down · release"
+   ],
+   "explanation": [
+    "Düğmelerle ilgili fiiller. press bir kez basmak, hold down basılı tutmak, release bırakmaktır. Süre için for: Hold down the button for three seconds. Zamirle hold it down."
+   ],
+   "collocations": [
+    {
+     "en": "press and hold",
+     "tr": "basıp tutmak"
+    },
+    {
+     "en": "press halfway",
+     "tr": "yarıya kadar basmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Hold down the button for three seconds.",
+     "tr": "Düğmeyi üç saniye basılı tutun."
+    },
+    {
+     "en": "Press the button halfway to focus.",
+     "tr": "Odaklamak için düğmeye yarıya kadar basın."
+    },
+    {
+     "en": "Release the button when the light goes green.",
+     "tr": "Işık yeşil olunca düğmeyi bırakın."
+    }
+   ],
+   "commonMistake": "Press and wait the button yerine Hold down the button denir."
+  },
+  {
+   "id": "switch-plug",
+   "term": "switch on / off · plug in",
+   "meaning": "açmak / kapatmak · prize takmak",
+   "partOfSpeech": "fiil",
+   "sourceTerms": [
+    "switch on / off · plug in"
+   ],
+   "explanation": [
+    "Elektrikli cihazları açıp kapatmak switch on / off ya da turn on / off ile söylenir; open ve close kapak ve kapı içindir. plug in prize takmak, unplug fişten çekmektir. Zamir araya girer: switch it on, plug it in."
+   ],
+   "collocations": [
+    {
+     "en": "turn off",
+     "tr": "kapatmak"
+    },
+    {
+     "en": "unplug",
+     "tr": "fişten çekmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Plug in the machine and switch it on.",
+     "tr": "Makineyi prize takın ve açın."
+    },
+    {
+     "en": "Don't forget to switch off the lights.",
+     "tr": "Işıkları kapatmayı unutmayın."
+    },
+    {
+     "en": "Unplug it before you clean it.",
+     "tr": "Temizlemeden önce fişten çekin."
+    }
+   ],
+   "commonMistake": "Open the TV yerine Switch on / Turn on the TV denir."
+  },
+  {
+   "id": "insert-tray",
+   "term": "insert · put … in the tray",
+   "meaning": "yerleştirmek · tepsiye koymak",
+   "partOfSpeech": "fiil",
+   "sourceTerms": [
+    "insert · put … in the tray"
+   ],
+   "explanation": [
+    "insert bir şeyi bir yuvaya ya da aralığa sokmaktır: insert the card, insert the battery. Kâğıt tepsisi için put the paper in the tray. Konum kelimeleri önemlidir: face down (yüzü aşağı), face up (yüzü yukarı)."
+   ],
+   "collocations": [
+    {
+     "en": "insert the memory card",
+     "tr": "hafıza kartını takmak"
+    },
+    {
+     "en": "face down",
+     "tr": "yüzü aşağı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Insert the battery and the memory card.",
+     "tr": "Pili ve hafıza kartını takın."
+    },
+    {
+     "en": "Put the paper in the tray.",
+     "tr": "Kâğıdı tepsiye koyun."
+    },
+    {
+     "en": "Put the document face down on the glass.",
+     "tr": "Belgeyi yüzü aşağı camın üstüne koyun."
+    }
+   ],
+   "commonMistake": "Put the card inside to the camera yerine Insert the card denir."
+  },
+  {
+   "id": "select-adjust",
+   "term": "select · choose · adjust",
+   "meaning": "seçmek · seçmek · ayarlamak",
+   "partOfSpeech": "fiil",
+   "sourceTerms": [
+    "select · choose · adjust"
+   ],
+   "explanation": [
+    "select ve choose seçmek demektir; select menü ve ekran dilinde daha yaygındır. adjust ayarlamaktır: adjust the brightness (parlaklığı ayarlamak), adjust the size. Ekran talimatlarında tap (dokunmak) da sık geçer."
+   ],
+   "collocations": [
+    {
+     "en": "select the number of copies",
+     "tr": "kopya sayısını seçmek"
+    },
+    {
+     "en": "adjust the volume",
+     "tr": "sesi ayarlamak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Select the number of copies.",
+     "tr": "Kopya sayısını seçin."
+    },
+    {
+     "en": "Choose “black and white” on the screen.",
+     "tr": "Ekranda “siyah beyaz”ı seçin."
+    },
+    {
+     "en": "Adjust the brightness with the plus and minus buttons.",
+     "tr": "Parlaklığı artı ve eksi düğmeleriyle ayarlayın."
+    }
+   ],
+   "commonMistake": "Make the brightness yerine Adjust the brightness denir."
+  },
+  {
+   "id": "device-parts",
+   "term": "the screen · the button · the lid · the tray",
+   "meaning": "ekran · düğme · kapak · tepsi",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "the screen · the button · the lid · the tray"
+   ],
+   "explanation": [
+    "Cihaz parçalarının adları. lid kapak (fotokopi makinesinin, tencerenin), tray tepsi (kâğıt tepsisi), glass cam (tarama yüzeyi). Fotoğraf makinesinde lens (mercek), flash, battery, memory card. Konum: on the top, on the side, at the back."
+   ],
+   "collocations": [
+    {
+     "en": "the paper tray",
+     "tr": "kâğıt tepsisi"
+    },
+    {
+     "en": "on the side",
+     "tr": "yanda"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Lift the lid and put the page on the glass.",
+     "tr": "Kapağı kaldırın ve sayfayı camın üstüne koyun."
+    },
+    {
+     "en": "The power button is on the top.",
+     "tr": "Açma düğmesi üstte."
+    },
+    {
+     "en": "Take your copies from the output tray.",
+     "tr": "Kopyalarınızı çıkış tepsisinden alın."
+    }
+   ],
+   "commonMistake": "Fotokopi makinesinin kapağı için cover da denir ama lid daha yaygındır."
+  },
+  {
+   "id": "to-press",
+   "term": "To …, press …",
+   "meaning": "… için … -e basın",
+   "partOfSpeech": "amaç yapısı",
+   "sourceTerms": [
+    "To …, press …"
+   ],
+   "explanation": [
+    "Amaç bildiren to + yalın fiil, talimat dilinin temel yapısıdır. Başta kullanılırsa virgül konur. Türkçedeki “… -mek için” karşılığıdır. for + yalın fiil yanlıştır; for'dan sonra isim / -ing gelir."
+   ],
+   "collocations": [
+    {
+     "en": "to make a copy",
+     "tr": "kopya çekmek için"
+    },
+    {
+     "en": "to zoom in",
+     "tr": "yakınlaştırmak için"
+    }
+   ],
+   "examples": [
+    {
+     "en": "To zoom in, press the plus button.",
+     "tr": "Yakınlaştırmak için artı düğmesine basın."
+    },
+    {
+     "en": "To see your photos, press the play button.",
+     "tr": "Fotoğraflarınızı görmek için oynatma düğmesine basın."
+    },
+    {
+     "en": "Press the button halfway to focus.",
+     "tr": "Odaklamak için düğmeye yarıya kadar basın.",
+     "note": "Amaç sonda"
+    }
+   ],
+   "commonMistake": "For make a copy yerine To make a copy denir."
+  },
+  {
+   "id": "make-sure-careful",
+   "term": "Make sure … · Be careful not to …",
+   "meaning": "… olduğundan emin olun · … -memeye dikkat edin",
+   "partOfSpeech": "uyarı kalıbı",
+   "sourceTerms": [
+    "Make sure … · Be careful not to …"
+   ],
+   "explanation": [
+    "Talimatlarda uyarı ve hatırlatma kalıpları. Make sure + cümle; Be careful not to + yalın fiil (not, to'dan önce); Don't forget to + fiil. Uyarıyı ilgili adımın hemen yanına koymak açıklamayı daha güvenli yapar."
+   ],
+   "collocations": [
+    {
+     "en": "Don't forget to …",
+     "tr": "… -meyi unutmayın"
+    },
+    {
+     "en": "Never …",
+     "tr": "asla …"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Make sure the lid is closed.",
+     "tr": "Kapağın kapalı olduğundan emin olun."
+    },
+    {
+     "en": "Be careful not to touch the lens.",
+     "tr": "Lense dokunmamaya dikkat edin."
+    },
+    {
+     "en": "Don't forget to take your original.",
+     "tr": "Aslını almayı unutmayın."
+    }
+   ],
+   "commonMistake": "Be careful don't touch / to not touch yerine Be careful not to touch denir."
+  }
+ ]
+}

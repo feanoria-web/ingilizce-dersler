@@ -6,7 +6,7 @@ import {instrumentLearning} from '../scripts/instrument-learning.mjs';
 import {instrumentAssessments} from '../scripts/instrument-assessments.mjs';
 import {instrumentBreakReview} from '../scripts/inject-break-review.mjs';
 
-test('all 17 published lesson families load versioned static learning metadata without changing source lessons',async()=>{
+test('all 18 published lesson families load versioned static learning metadata without changing source lessons',async()=>{
   let count=0;
   for(const level of ['a1','a2','b1','yds'])for(const file of await fs.readdir(new URL(`../lessons/${level}/`,import.meta.url))){
     if(!file.endsWith('.html'))continue;
@@ -19,7 +19,7 @@ test('all 17 published lesson families load versioned static learning metadata w
     for(const [,attrs,script] of published.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi))if(!/application\/(json|ld\+json)/i.test(attrs)&&script.trim())new vm.Script(script);
     count++;
   }
-  assert.equal(count,17);
+  assert.equal(count,18);
 });
 
 test('component metadata excludes break/resources and connects exact per-question IDs and topics',async()=>{

@@ -1,0 +1,2626 @@
+{
+ "version": 1,
+ "block": 3,
+ "chapters": [
+  {
+   "screenId": "notes",
+   "title": "Acil kısa notlar: önemli bilgiyi açık ve kibar aktarmak",
+   "intro": [
+    "MEB kazanımı: önemli olduğunu düşündüğü noktaları anlaşılır bir biçimde aktaran, arkadaşlarına, görevli kişilere, öğretmenlere ve günlük hayatının bir parçası olan diğer insanlara acil gerekli olan basit bilgileri ifade eden kısa notlar yazar. Kısa notun başarısı tek bir ölçüye bağlıdır: okuyan kişi notu bir kez okuyunca ne olduğunu, ne zaman olduğunu, ne yapması gerektiğini ve size nasıl ulaşacağını bilmeli. Bilmiyorsa not yeniden yazılmalıdır.",
+    "Not dilinin iki özelliği vardır: kısalık ve kibarlık. Kısalık için gereksiz girişler atılır ve amaç ilk cümlede söylenir (I'm writing to let you know that …). Kibarlık için kötü haberler yumuşatılır (I'm afraid …), ricalar kibar kalıplarla yapılır (Could you please …?) ve not bir teşekkürle biter (Thanks in advance). Hitap, okuyucuya göre seçilir: öğretmene ve görevliye Dear Ms / Mr + soyad, komşu ve arkadaşa Hi + ad."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Dear Ms Yıldız, I'm writing to let you know that Emre has a high temperature, so I'm afraid he can't come to school tomorrow.",
+     "tr": "Sayın Yıldız Hanım, Emre'nin ateşi yüksek olduğu için maalesef yarın okula gelemeyecek.",
+     "why": [
+      "Hitap, amaç ve sonuç tek cümlede: let you know that …, so sonucu, I'm afraid kötü haberi yumuşatır."
+     ]
+    },
+    {
+     "en": "Could you please send me the homework by e-mail?",
+     "tr": "Ödevleri bana e-postayla gönderebilir misiniz?",
+     "why": [
+      "Could you please + yalın fiil kibar rica. send me the homework: send + kişi + şey."
+     ]
+    },
+    {
+     "en": "You can call me on 0532 111 22 33. Thanks in advance, Aylin Demir (Emre's mother)",
+     "tr": "Beni 0532 111 22 33'ten arayabilirsiniz. Şimdiden teşekkürler, Aylin Demir (Emre'nin annesi)",
+     "why": [
+      "call on + numara. Kapanışta kimlik bilgisi parantez içinde."
+     ]
+    },
+    {
+     "en": "There's water coming from the ceiling in our bathroom (flat 7).",
+     "tr": "Banyomuzun tavanından su geliyor (daire 7).",
+     "why": [
+      "There's + isim + -ing: süren bir durumu anlatır. Daire numarası okuyucunun işine yarar."
+     ]
+    },
+    {
+     "en": "It started last night and it's getting worse.",
+     "tr": "Dün gece başladı ve kötüleşiyor.",
+     "why": [
+      "started geçmiş, is getting worse şimdi süren değişim. get worse = kötüleşmek."
+     ]
+    },
+    {
+     "en": "Could you feed my cat in the evenings?",
+     "tr": "Akşamları kedimi besleyebilir misin?",
+     "why": [
+      "Arkadaşa daha samimi rica: Could you + fiil. in the evenings = akşamları."
+     ]
+    },
+    {
+     "en": "I'll be back on Sunday. Thanks a lot!",
+     "tr": "Pazar dönüyorum. Çok teşekkürler!",
+     "why": [
+      "be back = geri dönmüş olmak. Samimi kapanış: Thanks a lot!"
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "nt-structure",
+     "title": "Dear Ms Yıldız, · I'm writing to let you know that … · Thanks in advance,",
+     "meaning": "Notun parçalarını doğru sırayla kurmak",
+     "explanation": [
+      "İyi bir notun altı parçası vardır: hitap, amaç, ayrıntı, rica, iletişim ve kapanış. Hitap okuyucuya göre değişir. Öğretmen, yönetici ya da bir görevli için Dear Mr / Ms + soyad kullanılır: Dear Ms Yıldız. Kişinin adını bilmiyorsanız görevini yazabilirsiniz: To the building manager, Dear Sir or Madam (çok resmî). Arkadaş ve komşu için Hi Seda, ya da sadece Seda, yeterlidir.",
+      "Türkçede öğretmenlere “Hocam” deriz; bunun İngilizcedeki karşılığı Dear Teacher değildir. İngilizce konuşulan okullarda öğretmen soyadıyla anılır: Dear Mr Kaya, Dear Ms Yıldız. Ms, kadınlar için medeni durumu belirtmeyen ve en güvenli unvandır; Miss ve Mrs yerine tercih edilir.",
+      "Amaç, notun ilk cümlesinde verilir: I'm writing to let you know that … (… olduğunu bildirmek için yazıyorum). let someone know = birine haber vermek. Daha kısa ve samimi notlarda Just to let you know, … kullanılabilir. Kapanışta Thanks in advance, (şimdiden teşekkürler) ya da Best wishes, ve adınız gelir; gerekiyorsa daire numaranız ya da çocuğunuzun adı da eklenir: Aylin Demir (Emre's mother)."
+     ],
+     "formula": [
+      "Hitap: Dear Ms / Mr + soyad · To the … · Hi + ad",
+      "Amaç: I'm writing to let you know that … · Just to let you know, …",
+      "Kapanış: Thanks in advance, · Best wishes, + ad (+ daire / çocuğun adı)"
+     ],
+     "examples": [
+      {
+       "en": "Dear Ms Yıldız, I'm writing to let you know that Emre has a high temperature.",
+       "tr": "Sayın Yıldız Hanım, Emre'nin ateşinin yüksek olduğunu bildirmek için yazıyorum.",
+       "why": [
+        "Hitap + amaç ilk cümlede."
+       ],
+       "chunks": [
+        {
+         "en": "Dear Ms Yıldız",
+         "tr": "Sayın Yıldız Hanım",
+         "note": "soyadla hitap"
+        },
+        {
+         "en": "let you know",
+         "tr": "size haber vermek"
+        },
+        {
+         "en": "a high temperature",
+         "tr": "yüksek ateş"
+        }
+       ]
+      },
+      {
+       "en": "To the building manager, there's water coming from the ceiling in our bathroom.",
+       "tr": "Bina yöneticisine, banyomuzun tavanından su geliyor.",
+       "why": [
+        "Ad bilinmiyorsa göreve hitap."
+       ]
+      },
+      {
+       "en": "Just to let you know, I'll be home late tonight.",
+       "tr": "Haberin olsun, bu akşam eve geç geleceğim.",
+       "why": [
+        "Samimi ve kısa amaç cümlesi."
+       ]
+      },
+      {
+       "en": "Thanks in advance, Aylin Demir (Emre's mother)",
+       "tr": "Şimdiden teşekkürler, Aylin Demir (Emre'nin annesi)",
+       "why": [
+        "Kapanış + kimlik bilgisi."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Dear Teacher yerine ne yazılır?",
+       "answer": "Dear Ms / Mr + soyad (Dear Ms Yıldız)",
+       "why": "İsimle hitap."
+      },
+      {
+       "question": "“… olduğunu bildirmek için yazıyorum.” kalıbı?",
+       "answer": "I'm writing to let you know that …",
+       "why": "Amaç cümlesi."
+      },
+      {
+       "question": "Kadın öğretmene en güvenli unvan hangisi?",
+       "answer": "Ms",
+       "why": "Medeni durumu belirtmez."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Dear Teacher,",
+       "right": "Dear Ms Yıldız,",
+       "why": "Öğretmene soyadıyla hitap edilir."
+      },
+      {
+       "wrong": "I want to inform that my son is ill.",
+       "right": "I'm writing to let you know that my son is ill.",
+       "why": "inform + kişi gerekir; let you know daha doğal."
+      }
+     ]
+    },
+    {
+     "id": "nt-afraid-could",
+     "title": "I'm afraid … · Could you please …? · as soon as possible",
+     "meaning": "Kötü haberi yumuşatmak ve kibarca rica etmek",
+     "explanation": [
+      "Olumsuz bir haber verirken I'm afraid (maalesef) kullanılır: I'm afraid he can't come to school tomorrow. I'm afraid I have to leave early today. Burada afraid korku anlamı taşımaz; kibar bir üzüntü ve özür tonu katar. I'm afraid ile başlayan cümle okuyucuya kötü bir haber geleceğini yumuşak bir şekilde haber verir.",
+      "Rica için en kibar ve en yaygın kalıp Could you please + yalın fiil? sorusudur: Could you please send me the homework? Could you please send a plumber? please could'dan sonra ya da cümlenin sonunda olabilir. Daha doğrudan ama yine kibar bir biçim emir + please'tir: Please call me on 0532 … Notlarda bu da çok yaygındır.",
+      "Aciliyet zaman ifadeleriyle gösterilir: as soon as possible (en kısa sürede), today if possible (mümkünse bugün), by Friday (cumaya kadar), before 10 o'clock. by ile until farkına dikkat: by Friday cumadan önce ya da en geç cuma (bir son tarih), until Friday cumaya kadar süren bir durum anlatır: I'll be away until Friday."
+     ],
+     "formula": [
+      "Kötü haber: I'm afraid + cümle",
+      "Rica: Could you please + yalın fiil? · Please + emir",
+      "Aciliyet: as soon as possible · by Friday · today if possible"
+     ],
+     "examples": [
+      {
+       "en": "I'm afraid he can't come to school tomorrow.",
+       "tr": "Maalesef yarın okula gelemeyecek.",
+       "why": [
+        "I'm afraid kibar üzüntü; can't gelecek bir durum için."
+       ]
+      },
+      {
+       "en": "Could you please send a plumber as soon as possible?",
+       "tr": "Lütfen en kısa sürede bir tesisatçı gönderebilir misiniz?",
+       "why": [
+        "Kibar rica + aciliyet."
+       ],
+       "chunks": [
+        {
+         "en": "Could you please …?",
+         "tr": "lütfen … -ebilir misiniz?"
+        },
+        {
+         "en": "a plumber",
+         "tr": "tesisatçı"
+        },
+        {
+         "en": "as soon as possible",
+         "tr": "en kısa sürede"
+        }
+       ]
+      },
+      {
+       "en": "Could you please send me the homework by e-mail?",
+       "tr": "Ödevi bana e-postayla gönderebilir misiniz?",
+       "why": [
+        "send + kişi + şey; by e-mail = e-postayla."
+       ]
+      },
+      {
+       "en": "Please return the key by Friday.",
+       "tr": "Lütfen anahtarı cumaya kadar geri getirin.",
+       "why": [
+        "by + gün = en geç; son tarih."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Maalesef bugün gelemiyorum.” İngilizcesi?",
+       "answer": "I'm afraid I can't come today.",
+       "why": "Kibar kötü haber."
+      },
+      {
+       "question": "Could you please to call me? cümlesini düzeltin.",
+       "answer": "Could you please call me?",
+       "why": "could + yalın fiil"
+      },
+      {
+       "question": "by Friday ile until Friday farkı?",
+       "answer": "by Friday en geç cuma (son tarih); until Friday cumaya kadar süren durum.",
+       "why": "Zaman edatları."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Could you please to send the homework?",
+       "right": "Could you please send the homework?",
+       "why": "Could'dan sonra to gelmez."
+      },
+      {
+       "wrong": "in the shortest time",
+       "right": "as soon as possible",
+       "why": "Kalıp: as soon as possible (ASAP)."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "by / until",
+       "explanation": [
+        "by bir son tarihi gösterir (en geç o güne kadar bir kez olacak); until bir durumun o zamana kadar sürdüğünü anlatır."
+       ],
+       "example": "Please send it by Friday. · I'll be away until Friday.",
+       "tr": [
+        "Lütfen en geç cuma gönderin. · Cumaya kadar yokum."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "nt-clear",
+     "title": "What happened? · When? · What do I have to do? · How can I contact you?",
+     "meaning": "Okuyucunun sorularını önceden cevaplayan net bir not yazmak",
+     "explanation": [
+      "Notu yazdıktan sonra okuyucunun yerine geçin ve dört soru sorun. What happened? (Ne oldu?) — There's water coming from the ceiling. When? (Ne zaman?) — It started last night. What do I have to do? (Ne yapmalıyım?) — Send a plumber as soon as possible. How can I contact you? (Size nasıl ulaşırım?) — I'll be at home all day. 0544 … Bu soruların hepsine notta cevap varsa not başarılıdır.",
+      "Notlarda önemli bilgiler (saat, numara, yer) açıkça ve kesin yazılır: flat 7, after 5 p.m., 0532 111 22 33, the key is under the plant pot. Belirsiz ifadeler (soon, somewhere, later) okuyucuyu tekrar soru sormaya zorlar ve acil durumlarda zaman kaybettirir.",
+      "Notun uzunluğu 40–70 kelime civarındadır. Gereksiz ayrıntılar (neden geç kaldığınızın uzun hikâyesi) atılır; ama okuyucunun işine yarayacak ayrıntılar (mamanın nerede olduğu, anahtarın yeri) eklenir. Önemli olan uzunluk değil, işlevselliktir."
+     ],
+     "formula": [
+      "Kontrol: What happened? · When? · What do I have to do? · How can I contact you?",
+      "Kesin bilgi: saat, numara, yer (flat 7, after 5, 0532 …)",
+      "40–70 kelime: gereksizi at, işe yarayanı ekle."
+     ],
+     "examples": [
+      {
+       "en": "It started last night and it's getting worse.",
+       "tr": "Dün gece başladı ve kötüleşiyor.",
+       "why": [
+        "When? sorusunun cevabı + durumun gidişatı."
+       ]
+      },
+      {
+       "en": "The food is in the cupboard next to the fridge, and the key is under the plant pot.",
+       "tr": "Mama buzdolabının yanındaki dolapta, anahtar saksının altında.",
+       "why": [
+        "Okuyucunun işine yarayan kesin yer bilgileri."
+       ],
+       "chunks": [
+        {
+         "en": "in the cupboard next to the fridge",
+         "tr": "buzdolabının yanındaki dolapta"
+        },
+        {
+         "en": "under the plant pot",
+         "tr": "saksının altında"
+        }
+       ]
+      },
+      {
+       "en": "I'll be at home all day. You can call me on 0544 222 33 44.",
+       "tr": "Bütün gün evdeyim. Beni 0544 222 33 44'ten arayabilirsiniz.",
+       "why": [
+        "How can I contact you? sorusunun cevabı; call on + numara."
+       ]
+      },
+      {
+       "en": "I'll be back on Sunday. Call me if there's a problem.",
+       "tr": "Pazar dönüyorum. Sorun olursa ara.",
+       "why": [
+        "Dönüş zamanı ve koşullu iletişim."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Notu kontrol etmek için hangi dört soru sorulur?",
+       "answer": "What happened? When? What do I have to do? How can I contact you?",
+       "why": "Okuyucunun soruları."
+      },
+      {
+       "question": "“Beni şu numaradan arayın.” İngilizcesi?",
+       "answer": "Call me on 0532 …",
+       "why": "call on + numara"
+      },
+      {
+       "question": "soon ve later notta neden sorunludur?",
+       "answer": "Belirsizdir; okuyucu kesin zamanı bilmez.",
+       "why": "Kesin bilgi verin."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Call me from 0532 111 22 33.",
+       "right": "Call me on 0532 111 22 33.",
+       "why": "Telefon numarasıyla on."
+      },
+      {
+       "wrong": "I'll come back later.",
+       "right": "I'll be back at 6 p.m.",
+       "why": "Acil notlarda kesin saat verin."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "ask-seller",
+   "title": "Satıcıdan istemek ve özellik sormak",
+   "intro": [
+    "MEB kazanımı: ihtiyaç duyduğu ürünleri, yiyecekleri veya hizmetleri tanımlar, satıcıdan ister ve özelliklerini sorar. Mağazada bir alışveriş genellikle üç aşamada ilerler: ihtiyacı söylemek (I'm looking for a kettle), ürünün özelliklerini sormak (What's it made of? Does it come with a guarantee?) ve karar vermek (I'll take it / I'll think about it). Hizmetlerde (tamir, kuaför, kuru temizleme) sorular farklıdır: How long will it take? How much will it cost? When can I pick it up?",
+    "Bu ekranın önemli bir becerisi de adını bilmediğimiz bir şeyi tarif etmektir. Yabancı dilde her nesnenin adını bilemeyiz; ama işlevini, görünüşünü ve malzemesini anlatarak satıcının bulmasını sağlayabiliriz: It's a kind of tool for the kitchen. You use it for opening tins. It's small and made of metal. Bu “dolaylı anlatım” stratejisi, kelime eksikliğini iletişim engeli olmaktan çıkarır."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Yes, please. I'm looking for a kettle. My old one is very noisy and it takes ages to boil.",
+     "tr": "Evet, lütfen. Bir su ısıtıcısı arıyorum. Eskisi çok gürültülü ve kaynaması çok uzun sürüyor.",
+     "why": [
+      "look for = aramak. one, kettle kelimesini tekrar etmemek için kullanılır. take ages = çok uzun sürmek."
+     ]
+    },
+    {
+     "en": "What's the difference between them?",
+     "tr": "Aralarındaki fark ne?",
+     "why": [
+      "between + them (iki ürün). difference = fark."
+     ]
+    },
+    {
+     "en": "The more expensive one is much quieter and it boils in two minutes.",
+     "tr": "Pahalı olan çok daha sessiz ve iki dakikada kaynatıyor.",
+     "why": [
+      "the more expensive one: pahalı olan. much quieter: çok daha sessiz (much karşılaştırmayı güçlendirir)."
+     ]
+    },
+    {
+     "en": "It's made of steel, so it lasts longer.",
+     "tr": "Çelikten yapılmış, bu yüzden daha uzun dayanıyor.",
+     "why": [
+      "made of + malzeme. last = dayanmak; longer karşılaştırma."
+     ]
+    },
+    {
+     "en": "Plastic. It's lighter, but it isn't as strong.",
+     "tr": "Plastik. Daha hafif ama o kadar sağlam değil.",
+     "why": [
+      "lighter: light + er. isn't as strong (as the steel one): … kadar değil."
+     ]
+    },
+    {
+     "en": "OK, I'll take the steel one. Can I pay by card?",
+     "tr": "Tamam, çelik olanı alıyorum. Kartla ödeyebilir miyim?",
+     "why": [
+      "I'll take it: karar (will). pay by card = kartla ödemek."
+     ]
+    },
+    {
+     "en": "Of course. Keep the receipt for the guarantee.",
+     "tr": "Tabii. Garanti için fişi saklayın.",
+     "why": [
+      "keep = saklamak. for the guarantee = garanti için."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "as-need",
+     "title": "I'm looking for … · Do you sell …? · I need something for …",
+     "meaning": "İhtiyacı söylemek ve ürün istemek",
+     "explanation": [
+      "Mağazaya girince satıcı genellikle Can I help you? ya da Are you looking for anything in particular? diye sorar. İhtiyacınızı söylemenin en doğal yolu I'm looking for + isim kalıbıdır: I'm looking for a kettle. I'm looking for a winter coat for my son. look for = aramak (bulmaya çalışmak); search kelimesi daha çok internet ve dosyalar için kullanılır.",
+      "Dükkânda bir ürün olup olmadığını sormak için Do you sell …? ya da Do you have …? kullanılır: Do you sell phone chargers? Do you have this in blue? İşlevi söyleyerek istemek için I need something for + isim / -ing: I need something for a sore throat. I need something for cleaning the oven.",
+      "Sadece bakıyorsanız kibarca söyleyin: I'm just looking, thanks. Satıcı yardım ederse bilgi verirken ihtiyacınızı ayrıntılandırın: My old one is very noisy and it takes ages to boil. Bu ayrıntı, satıcının size doğru ürünü önermesini sağlar. takes ages = çok uzun sürer (konuşma dili)."
+     ],
+     "formula": [
+      "I'm looking for + isim (for + kişi)",
+      "Do you sell …? · Do you have this in …?",
+      "I need something for + isim / -ing · I'm just looking, thanks."
+     ],
+     "examples": [
+      {
+       "en": "I'm looking for a kettle. My old one is very noisy and it takes ages to boil.",
+       "tr": "Bir su ısıtıcısı arıyorum. Eskisi çok gürültülü ve kaynaması çok uzun sürüyor.",
+       "why": [
+        "İhtiyaç + ayrıntı; my old one = eskisi."
+       ],
+       "chunks": [
+        {
+         "en": "I'm looking for …",
+         "tr": "… arıyorum"
+        },
+        {
+         "en": "my old one",
+         "tr": "eskisi",
+         "note": "one = kettle"
+        },
+        {
+         "en": "it takes ages",
+         "tr": "çok uzun sürüyor"
+        }
+       ]
+      },
+      {
+       "en": "Do you sell phone chargers?",
+       "tr": "Telefon şarj aleti satıyor musunuz?",
+       "why": [
+        "Ürün olup olmadığını sormak."
+       ]
+      },
+      {
+       "en": "I need something for a sore throat.",
+       "tr": "Boğaz ağrısı için bir şey lazım.",
+       "why": [
+        "İşlevle istemek: something for + isim."
+       ]
+      },
+      {
+       "en": "I'm just looking, thanks.",
+       "tr": "Sadece bakıyorum, teşekkürler.",
+       "why": [
+        "Kibarca yardımı geri çevirmek."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bir kış montu arıyorum.” İngilizcesi?",
+       "answer": "I'm looking for a winter coat.",
+       "why": "look for"
+      },
+      {
+       "question": "I'm searching a kettle doğal mı?",
+       "answer": "Hayır: I'm looking for a kettle.",
+       "why": "Mağazada look for."
+      },
+      {
+       "question": "“Sadece bakıyorum.” İngilizcesi?",
+       "answer": "I'm just looking, thanks.",
+       "why": "Kibar ret."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I am searching a kettle.",
+       "right": "I'm looking for a kettle.",
+       "why": "Mağazada aramak look for'dur; search için for da gerekir."
+      },
+      {
+       "wrong": "I need something for clean the oven.",
+       "right": "I need something for cleaning the oven. / I need something to clean the oven.",
+       "why": "for + -ing ya da to + fiil."
+      }
+     ]
+    },
+    {
+     "id": "as-features",
+     "title": "What's it made of? · Does it come with a guarantee? · Do you have it in a larger size?",
+     "meaning": "Ürünün özelliklerini sormak",
+     "explanation": [
+      "Malzeme sorusu What's it made of? kalıbıyla sorulur: — It's made of steel / plastic / wool / cotton. made of + malzeme, ürünün neyden yapıldığını söyler. Türkçe sırayla düşünülünce From what is it made? gibi yanlış yapılar ortaya çıkar; doğru kalıp sonda of ile biter.",
+      "Garanti ve ek parça sorusu come with ile sorulur: Does it come with a guarantee? (Garantisi var mı?) Does it come with batteries? (Pilleri dahil mi?) Beden ve renk için: Do you have it in a larger / smaller size? Does it come in other colours? Kullanım özellikleri için: Is it easy to clean? How long does the battery last? Is it quiet?",
+      "İki ürün arasındaki farkı sormak için What's the difference between A and B? kullanılır. Satıcının cevabı genellikle bir karşılaştırma içerir: The more expensive one is much quieter. It isn't as strong as the steel one. Bu karşılaştırma dili bir sonraki adımda ayrıntılı çalışılacak."
+     ],
+     "formula": [
+      "malzeme: What's it made of? — It's made of …",
+      "ek / garanti: Does it come with …? · beden / renk: Do you have it in …? / Does it come in …?",
+      "fark: What's the difference between A and B?"
+     ],
+     "examples": [
+      {
+       "en": "What's it made of? — It's made of steel, so it lasts longer.",
+       "tr": "Neden yapılmış? — Çelikten, bu yüzden daha uzun dayanıyor.",
+       "why": [
+        "made of + malzeme; so sonuç."
+       ]
+      },
+      {
+       "en": "Does the steel one come with a guarantee? — Yes, two years.",
+       "tr": "Çelik olanın garantisi var mı? — Evet, iki yıl.",
+       "why": [
+        "come with = ile birlikte gelmek."
+       ],
+       "chunks": [
+        {
+         "en": "the steel one",
+         "tr": "çelik olan",
+         "note": "one = kettle"
+        },
+        {
+         "en": "come with a guarantee",
+         "tr": "garantili olmak"
+        }
+       ]
+      },
+      {
+       "en": "Do you have this coat in a larger size?",
+       "tr": "Bu montun daha büyük bedeni var mı?",
+       "why": [
+        "in a larger size = daha büyük bedende."
+       ]
+      },
+      {
+       "en": "What's the difference between them?",
+       "tr": "Aralarındaki fark ne?",
+       "why": [
+        "between + iki şey / them."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Neden yapılmış?” İngilizcesi?",
+       "answer": "What's it made of?",
+       "why": "made of"
+      },
+      {
+       "question": "“Pilleri dahil mi?” İngilizcesi?",
+       "answer": "Does it come with batteries?",
+       "why": "come with"
+      },
+      {
+       "question": "“Başka renkleri var mı?” İngilizcesi?",
+       "answer": "Does it come in other colours?",
+       "why": "come in + renk / beden"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "From what is it made?",
+       "right": "What's it made of?",
+       "why": "Edat sonda: made of."
+      },
+      {
+       "wrong": "Has it guarantee?",
+       "right": "Does it come with a guarantee?",
+       "why": "Kalıp: come with a guarantee."
+      }
+     ]
+    },
+    {
+     "id": "as-describe",
+     "title": "It's a thing you use for … · It's a kind of … · It looks like …",
+     "meaning": "Adını bilmediğin bir şeyi tarif etmek",
+     "explanation": [
+      "Adını bilmediğiniz bir ürünü istemek için dört adımlı bir tarif kullanın. Birincisi kategori: It's a kind of tool / machine / thing for the kitchen. İkincisi işlev: You use it for + -ing (You use it for opening tins) ya da You use it to + fiil (You use it to open tins). Üçüncüsü görünüş ve malzeme: It's small, it's made of metal and it looks like scissors. Dördüncüsü kontrol: satıcı doğru şeyi gösterince Yes, that's it!",
+      "Bu strateji sadece mağazada değil, her konuşmada işe yarar. Bir kelimeyi unuttuğunuzda konuşmayı durdurmak yerine çevresinden dolaşırsınız. Satıcı çoğu zaman kelimeyi söyler: Ah, a tin opener! Böylece yeni bir kelime de öğrenmiş olursunuz.",
+      "Hizmet isterken de benzer bir tarif gerekir: My phone screen is broken. Can you repair it? Hizmet soruları gelecekle ilgilidir ve will ile sorulur: How long will it take? How much will it cost? When can I pick it up? Cevaplarda süre ve fiyat bilgisi ana noktadır."
+     ],
+     "formula": [
+      "kategori: It's a kind of tool / machine …",
+      "işlev: You use it for + -ing / to + fiil",
+      "görünüş: It's small · made of metal · It looks like … · kontrol: Yes, that's it!"
+     ],
+     "examples": [
+      {
+       "en": "It's a kind of tool for the kitchen. You use it for opening tins.",
+       "tr": "Mutfak için bir tür alet. Konserve açmak için kullanılıyor.",
+       "why": [
+        "Kategori + işlev; for + -ing."
+       ],
+       "chunks": [
+        {
+         "en": "a kind of tool",
+         "tr": "bir tür alet"
+        },
+        {
+         "en": "use it for opening tins",
+         "tr": "konserve açmak için kullanmak"
+        }
+       ]
+      },
+      {
+       "en": "It's small, it's made of metal and it looks like scissors.",
+       "tr": "Küçük, metalden yapılmış ve makasa benziyor.",
+       "why": [
+        "Görünüş: look like + isim."
+       ]
+      },
+      {
+       "en": "Ah, a tin opener! — Yes, that's it!",
+       "tr": "Ah, konserve açacağı! — Evet, işte o!",
+       "why": [
+        "Kontrol ve onay."
+       ]
+      },
+      {
+       "en": "My phone screen is broken. How long will it take, and how much will it cost?",
+       "tr": "Telefonumun ekranı kırık. Ne kadar sürer ve ne kadar tutar?",
+       "why": [
+        "Hizmet soruları will ile."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Ekmek kesmek için kullandığın bir şey.” İngilizcesi?",
+       "answer": "It's a thing you use for cutting bread.",
+       "why": "for + -ing"
+      },
+      {
+       "question": "“… -e benziyor” kalıbı?",
+       "answer": "It looks like + isim.",
+       "why": "look like"
+      },
+      {
+       "question": "Tamir hizmetinde sorulan iki soru?",
+       "answer": "How long will it take? How much will it cost?",
+       "why": "Süre ve fiyat."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It's bread cut thing.",
+       "right": "It's a thing you use for cutting bread.",
+       "why": "Türkçe isim tamlaması sırası İngilizceye aktarılmaz."
+      },
+      {
+       "wrong": "It looks a scissors.",
+       "right": "It looks like scissors.",
+       "why": "look like + isim; scissors çoğuldur, a almaz."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "compare",
+   "title": "Fiyat, miktar ve kalite karşılaştırmak",
+   "intro": [
+    "MEB kazanımı: hizmetin niteliği veya ürünlerin miktar ve fiyatları ile ilgili sorular sorar, karşılaştırma yapar. Karşılaştırma dilinin üç temel yapısı vardır: iki şeyi karşılaştıran comparative (cheaper than, more expensive than), bir grubun en ucundakini gösteren superlative (the cheapest, the most expensive) ve eşitliği ya da eşitsizliği gösteren (not) as … as. Bu yapılar düzenli kurallara bağlıdır ama good / bad gibi sık kullanılan sıfatlar düzensizdir.",
+    "Akıllı alışverişte fiyat tek başına yeterli değildir; miktar ve kalite de hesaba katılır. Bu yüzden birim fiyatı sorarız (How much is it per kilo?) ve değer kavramını kullanırız: better value (fiyatına göre daha iyi), a good deal (iyi bir fırsat), It's worth the money (parasına değer). Kalite ve hizmet için de karşılaştırmalı sorular sorarız: Which one lasts longer? Is delivery included? How long is the guarantee?"
+   ],
+   "sentenceNotes": [
+    {
+     "en": "The plastic kettle is cheaper than the steel one.",
+     "tr": "Plastik ısıtıcı çelik olandan daha ucuz.",
+     "why": [
+      "cheap + er + than. the steel one: one = kettle."
+     ]
+    },
+    {
+     "en": "The steel one is much better quality and it lasts longer.",
+     "tr": "Çelik olan çok daha kaliteli ve daha uzun dayanıyor.",
+     "why": [
+      "much better: güçlendirilmiş karşılaştırma. last longer = daha uzun dayanmak."
+     ]
+    },
+    {
+     "en": "This sofa isn't as comfortable as that one.",
+     "tr": "Bu kanepe şunun kadar rahat değil.",
+     "why": [
+      "not as + sıfat + as: kibar eksiklik ifadesi."
+     ]
+    },
+    {
+     "en": "The 3-kilo bag is 150 lira, so it's 50 lira per kilo.",
+     "tr": "3 kiloluk torba 150 lira, yani kilosu 50 lira.",
+     "why": [
+      "3-kilo sıfat gibi tekil. so sonucu, per kilo birim fiyatı verir."
+     ]
+    },
+    {
+     "en": "It's more expensive, but it's worth the money.",
+     "tr": "Daha pahalı ama parasına değer.",
+     "why": [
+      "more expensive uzun sıfat. worth the money kalıbı."
+     ]
+    },
+    {
+     "en": "Big packs are not always better value!",
+     "tr": "Büyük paketler her zaman daha hesaplı değildir!",
+     "why": [
+      "not always = her zaman değil. better value karşılaştırma."
+     ]
+    },
+    {
+     "en": "Is delivery included in the price?",
+     "tr": "Teslimat fiyata dahil mi?",
+     "why": [
+      "included in = … -e dahil. Edilgen yapı: is included."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "cp-comparatives",
+     "title": "cheaper than · more expensive than · better · worse",
+     "meaning": "İki ürünü karşılaştırmak",
+     "explanation": [
+      "Tek heceli ve -y ile biten iki heceli sıfatlar -er alır: cheap → cheaper, strong → stronger, easy → easier (y → i), big → bigger (ünsüz-ünlü-ünsüz → son ünsüz çiftlenir). Uzun sıfatlar (iki heceden fazla ya da -y ile bitmeyen iki heceliler) more ile kurulur: more expensive, more comfortable, more modern. Karşılaştırılan şey than ile gelir: Model A is cheaper than Model B.",
+      "Düzensiz sıfatlar ezberlenmelidir: good → better, bad → worse, far → further. more good ya da badder gibi biçimler yanlıştır. Karşılaştırmayı güçlendirmek için much ya da a lot kullanılır: much quieter, a lot more expensive. Hafif bir farkı göstermek için a bit / slightly: a bit cheaper.",
+      "Konuşmada tekrardan kaçınmak için one kullanılır: The steel one is better than the plastic one. Bu yapıda one, daha önce söylenen ismin (kettle) yerine geçer. the more expensive one (pahalı olan), the cheaper one (ucuz olan) gibi yapılar mağaza konuşmalarında çok sık geçer."
+     ],
+     "formula": [
+      "kısa sıfat + -er + than: cheaper than · big → bigger · easy → easier",
+      "uzun sıfat: more + sıfat + than: more expensive than",
+      "düzensiz: good → better · bad → worse · güçlendirme: much / a lot / a bit"
+     ],
+     "examples": [
+      {
+       "en": "The plastic kettle is cheaper than the steel one.",
+       "tr": "Plastik ısıtıcı çelik olandan daha ucuz.",
+       "why": [
+        "cheap + er + than; one tekrarı önler."
+       ],
+       "chunks": [
+        {
+         "en": "cheaper than",
+         "tr": "-den daha ucuz"
+        },
+        {
+         "en": "the steel one",
+         "tr": "çelik olan"
+        }
+       ]
+      },
+      {
+       "en": "The steel one is much better quality and it lasts longer.",
+       "tr": "Çelik olan çok daha kaliteli ve daha uzun dayanıyor.",
+       "why": [
+        "much better: güçlendirilmiş düzensiz karşılaştırma."
+       ]
+      },
+      {
+       "en": "This sofa is more comfortable than that one, but it's a lot more expensive.",
+       "tr": "Bu kanepe şundan daha rahat ama çok daha pahalı.",
+       "why": [
+        "Uzun sıfatlar more ile; a lot güçlendirme."
+       ]
+      },
+      {
+       "en": "The online shop is a bit cheaper, but delivery takes longer.",
+       "tr": "İnternetteki dükkân biraz daha ucuz ama teslimat daha uzun sürüyor.",
+       "why": [
+        "a bit hafif fark; take longer = daha uzun sürmek."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "expensive'in karşılaştırma biçimi?",
+       "answer": "more expensive",
+       "why": "Uzun sıfat → more"
+      },
+      {
+       "question": "good'un karşılaştırma biçimi?",
+       "answer": "better",
+       "why": "Düzensiz"
+      },
+      {
+       "question": "This is more cheap from that cümlesini düzeltin.",
+       "answer": "This is cheaper than that.",
+       "why": "-er + than"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "more cheap",
+       "right": "cheaper",
+       "why": "Kısa sıfatlar -er alır."
+      },
+      {
+       "wrong": "more better",
+       "right": "better / much better",
+       "why": "better zaten karşılaştırmadır; more eklenmez."
+      }
+     ]
+    },
+    {
+     "id": "cp-superlative-asas",
+     "title": "the best · the cheapest · the most expensive · not as … as",
+     "meaning": "En üstünlük ve eşitlik / eşitsizlik karşılaştırmaları",
+     "explanation": [
+      "Bir grubun en ucundakini göstermek için superlative kullanılır ve önüne the gelir: the cheapest, the biggest, the easiest, the most expensive, the most comfortable. Düzensizler: the best, the worst. Genellikle bir grup ya da yer bilgisiyle birlikte gelir: the cheapest one in the shop, the best restaurant in town, the most expensive of the three.",
+      "(not) as + sıfat + as yapısı eşitliği ya da eşitsizliği gösterir. Olumlu: Shop A is as cheap as Shop B (B kadar ucuz, aynı). Olumsuz: The plastic one isn't as strong as the steel one (çelik olan kadar sağlam değil). Olumsuz biçim, bir ürünün eksik yanını kibarca söylemenin çok doğal bir yoludur; less strong demekten daha yaygındır.",
+      "Bu yapıların hepsi satıcıya soru sormak için de kullanılır: Which one is the best? Which is the cheapest? Is this one as good as that one? Bir hizmeti karşılaştırırken: Which hairdresser is the best in this area? Is the new café as good as the old one?"
+     ],
+     "formula": [
+      "the + -est / the most + sıfat (+ in / of …)",
+      "düzensiz: the best · the worst",
+      "as + sıfat + as (eşit) · not as + sıfat + as (daha az)"
+     ],
+     "examples": [
+      {
+       "en": "This is the cheapest one in the shop.",
+       "tr": "Bu, dükkândaki en ucuz olanı.",
+       "why": [
+        "the + -est + in + yer."
+       ]
+      },
+      {
+       "en": "The plastic one isn't as strong as the steel one.",
+       "tr": "Plastik olan çelik olan kadar sağlam değil.",
+       "why": [
+        "not as … as: kibar bir eksiklik ifadesi."
+       ],
+       "chunks": [
+        {
+         "en": "isn't as strong as",
+         "tr": "… kadar sağlam değil"
+        },
+        {
+         "en": "the steel one",
+         "tr": "çelik olan"
+        }
+       ]
+      },
+      {
+       "en": "Which hairdresser is the best in this area?",
+       "tr": "Bu bölgedeki en iyi kuaför hangisi?",
+       "why": [
+        "Hizmet karşılaştırması: the best."
+       ]
+      },
+      {
+       "en": "The market is as cheap as the supermarket, and the vegetables are fresher.",
+       "tr": "Pazar süpermarket kadar ucuz ve sebzeler daha taze.",
+       "why": [
+        "as … as eşitlik + karşılaştırma."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Kasabadaki en iyi lokanta” İngilizcesi?",
+       "answer": "the best restaurant in town",
+       "why": "the best + in"
+      },
+      {
+       "question": "“Şunun kadar rahat değil.” İngilizcesi?",
+       "answer": "It isn't as comfortable as that one.",
+       "why": "not as … as"
+      },
+      {
+       "question": "the most cheap doğru mu?",
+       "answer": "Hayır: the cheapest.",
+       "why": "Kısa sıfat -est."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It's not strong like that one.",
+       "right": "It isn't as strong as that one.",
+       "why": "Eşitsizlik not as … as ile."
+      },
+      {
+       "wrong": "the most good",
+       "right": "the best",
+       "why": "Düzensiz superlative."
+      }
+     ]
+    },
+    {
+     "id": "cp-value",
+     "title": "How much is it per kilo? · better value · a good deal · It's worth the money.",
+     "meaning": "Miktar, birim fiyat ve değer üzerine konuşmak",
+     "explanation": [
+      "Fiyat karşılaştırmasında paket büyüklükleri farklı olabilir; bu yüzden birim fiyat sorulur: How much is it per kilo? How much are they each? How many are there in a pack? Miktar kelimeleri: a kilo of, half a kilo, a litre of, a dozen (12), a pack(et) of, a bottle of. Birim fiyat hesaplanınca gerçek karşılaştırma ortaya çıkar: 3 kg for 150 lira is 50 lira per kilo.",
+      "Değer (value) kavramı fiyat ile kaliteyi birlikte düşünür. better value fiyatına göre daha iyi demektir: The big pack is better value. good value for money: fiyatına göre iyi. a good deal: iyi bir fırsat. It's worth the money / It's worth it: parasına değer. Olumsuzu: It's too expensive for what it is (olduğundan fazla pahalı), It isn't worth the money.",
+      "Büyük paket her zaman daha hesaplı değildir; bu yüzden hesap yapmak önemlidir. Tabloda deterjan örneğinde küçük paket (140 TL/kg) büyük paketten (150 TL/kg) daha hesaplıdır. Bu durumu aktarırken: Surprisingly, the small pack is better value. Surprisingly (şaşırtıcı bir şekilde) beklenmedik sonucu vurgular."
+     ],
+     "formula": [
+      "birim: How much is it per kilo? · How much are they each? · a dozen · a pack of",
+      "değer: better value · good value for money · a good deal",
+      "It's worth the money. · It isn't worth it. · too expensive for what it is"
+     ],
+     "examples": [
+      {
+       "en": "The 3-kilo bag is 150 lira, so it's 50 lira per kilo.",
+       "tr": "3 kiloluk torba 150 lira, yani kilosu 50 lira.",
+       "why": [
+        "Birim fiyat hesabı; per = başına."
+       ],
+       "chunks": [
+        {
+         "en": "the 3-kilo bag",
+         "tr": "3 kiloluk torba",
+         "note": "kilo tekil: sıfat gibi"
+        },
+        {
+         "en": "per kilo",
+         "tr": "kilo başına"
+        }
+       ]
+      },
+      {
+       "en": "The big pack is better value.",
+       "tr": "Büyük paket daha hesaplı.",
+       "why": [
+        "value: fiyat-kalite dengesi."
+       ]
+      },
+      {
+       "en": "It's more expensive, but it's worth the money.",
+       "tr": "Daha pahalı ama parasına değer.",
+       "why": [
+        "worth the money = parasına değer."
+       ]
+      },
+      {
+       "en": "Surprisingly, the small pack is better value.",
+       "tr": "Şaşırtıcı bir şekilde küçük paket daha hesaplı.",
+       "why": [
+        "Surprisingly beklenmedik sonuç."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Domatesin kilosu ne kadar?” İngilizcesi?",
+       "answer": "How much are the tomatoes per kilo?",
+       "why": "per kilo"
+      },
+      {
+       "question": "a dozen kaç tanedir?",
+       "answer": "12",
+       "why": "Yumurta için sık kullanılır."
+      },
+      {
+       "question": "“Parasına değmez.” İngilizcesi?",
+       "answer": "It isn't worth the money. / It isn't worth it.",
+       "why": "worth"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "a 3-kilos bag",
+       "right": "a 3-kilo bag",
+       "why": "Ölçü sıfat gibi kullanılınca tekil kalır."
+      },
+      {
+       "wrong": "It deserves its money.",
+       "right": "It's worth the money.",
+       "why": "Kalıp: be worth the money."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "labels",
+   "title": "Gıda etiketleri: tarih, saklama, hazırlama ve uyarılar",
+   "intro": [
+    "MEB kazanımı: gıda maddeleri üzerinde bulunan etiketlerdeki önemli bilgileri seçip bulur; örnekler son kullanım tarihi, kullanım ya da hazırlama ile ilgili talimatlar ve yönergelerdir. Etiket okumak bir tarama (scanning) becerisidir: etiketi baştan sona okumayız; ihtiyacımız olan bilgiyi ararız. Bu bilgi bir tarih, bir saklama koşulu, bir pişirme süresi ya da bir alerji uyarısı olabilir.",
+    "Etiket dilinin iki özelliği vardır. Birincisi talimatların emir kipinde olmasıdır: Keep refrigerated. Store in a cool, dry place. Cook from frozen. Do not refreeze. İkincisi kısaltılmış, fiilsiz ifadelerdir: Best before: 03.2027. Contains: milk, eggs. Per 100 g: 95 kcal. En önemli ayrım da iki tarih türü arasındadır: use by güvenlik tarihidir (bu tarihten sonra yemeyin), best before kalite tarihidir (tarihten sonra güvenli olabilir ama kalitesi düşebilir)."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Ingredients: flour, spinach (30%), white cheese (15%), onion, sunflower oil, eggs, salt.",
+     "tr": "İçindekiler: un, ıspanak (%30), beyaz peynir (%15), soğan, ayçiçek yağı, yumurta, tuz.",
+     "why": [
+      "Liste en çoktan en aza; parantez içi oranlar ana malzemelerin miktarını verir."
+     ]
+    },
+    {
+     "en": "Contains: wheat, milk, eggs. May contain traces of sesame.",
+     "tr": "İçerir: buğday, süt, yumurta. Eser miktarda susam içerebilir.",
+     "why": [
+      "Contains kesin bilgi; may contain olasılık (traces = eser miktar)."
+     ]
+    },
+    {
+     "en": "Keep frozen at -18 °C or below. Do not refreeze after defrosting.",
+     "tr": "-18 °C veya altında donmuş saklayın. Çözüldükten sonra tekrar dondurmayın.",
+     "why": [
+      "or below = veya altında. Do not resmî olumsuz emir; after + -ing."
+     ]
+    },
+    {
+     "en": "Best before: end of March 2027.",
+     "tr": "Tavsiye edilen tüketim: Mart 2027 sonu.",
+     "why": [
+      "best before kalite tarihidir; end of = … sonu."
+     ]
+    },
+    {
+     "en": "Preheat the oven to 200 °C. Cook from frozen.",
+     "tr": "Fırını 200 dereceye ısıtın. Çözdürmeden pişirin.",
+     "why": [
+      "preheat = önceden ısıtmak. from frozen = donmuş hâlden."
+     ]
+    },
+    {
+     "en": "Make sure the pie is very hot in the middle before serving.",
+     "tr": "Servis etmeden önce böreğin ortasının çok sıcak olduğundan emin olun.",
+     "why": [
+      "Make sure + cümle: güvenlik uyarısı. before + -ing."
+     ]
+    },
+    {
+     "en": "Not suitable for microwave cooking.",
+     "tr": "Mikrodalgada pişirmeye uygun değildir.",
+     "why": [
+      "Not suitable for + isim: olumsuz uyarı."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "lb-dates",
+     "title": "use by · best before (end) · expiry date",
+     "meaning": "Etiketteki tarih türlerini ayırt etmek",
+     "explanation": [
+      "use by (son tüketim tarihi) güvenlikle ilgilidir. Et, tavuk, süt ürünleri, hazır salatalar gibi çabuk bozulan gıdalarda bulunur. Bu tarihten sonra ürün yenmemelidir, görünüşü ve kokusu iyi olsa bile. Use by 04.11.2026 yazan bir yoğurt 6 Kasım'da atılmalıdır.",
+      "best before ya da best before end (tavsiye edilen tüketim tarihi) kaliteyle ilgilidir. Makarna, pirinç, konserve, kuruyemiş, bisküvi gibi uzun ömürlü gıdalarda bulunur. Tarih geçtiğinde ürün genellikle güvenlidir ama tadı, kokusu ya da dokusu eskisi kadar iyi olmayabilir. best before end 09.2027, Eylül 2027'nin sonuna kadar en iyi kalitede demektir.",
+      "expiry date (son kullanma tarihi) genel bir terimdir; ilaçlarda ve kozmetiklerde sık kullanılır: Check the expiry date on the box. Ayrıca bazı etiketlerde Once opened, use within 3 days ya da Eat within 2 days of opening gibi açıldıktan sonraki süreler yazar. Bu süre, ambalajdaki tarihten önce gelir: açılmış bir yoğurt, tarihine bakılmaksızın iki gün içinde yenmelidir."
+     ],
+     "formula": [
+      "use by + tarih: güvenlik, sonra yeme",
+      "best before (end) + tarih: kalite, sonra genellikle güvenli",
+      "Once opened, use within … days · expiry date (ilaç, kozmetik)"
+     ],
+     "examples": [
+      {
+       "en": "Yoghurt: Use by 04.11. Today is 06.11. — Don't eat it. Throw it away.",
+       "tr": "Yoğurt: Son tüketim 04.11. Bugün 06.11. — Yeme. At.",
+       "why": [
+        "use by geçmişse ürün atılır."
+       ],
+       "chunks": [
+        {
+         "en": "use by",
+         "tr": "son tüketim tarihi",
+         "note": "güvenlik"
+        },
+        {
+         "en": "throw away",
+         "tr": "atmak"
+        }
+       ]
+      },
+      {
+       "en": "Pasta: Best before end 09.2026. It's October now. — It's probably safe, but the quality may be lower.",
+       "tr": "Makarna: Tavsiye edilen tüketim Eylül 2026 sonu. Şimdi Ekim. — Muhtemelen güvenli ama kalitesi düşmüş olabilir.",
+       "why": [
+        "best before kalite tarihidir."
+       ]
+      },
+      {
+       "en": "Once opened, use within 3 days.",
+       "tr": "Açıldıktan sonra 3 gün içinde tüketin.",
+       "why": [
+        "Açılma sonrası süre ambalaj tarihinden önce gelir."
+       ]
+      },
+      {
+       "en": "Always check the expiry date on medicine boxes.",
+       "tr": "İlaç kutularındaki son kullanma tarihini her zaman kontrol edin.",
+       "why": [
+        "expiry date genel terim."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "use by ile best before farkı?",
+       "answer": "use by güvenlik (sonra yenmez); best before kalite (sonra genellikle güvenli).",
+       "why": "Temel ayrım."
+      },
+      {
+       "question": "Hangi ürünlerde use by görülür?",
+       "answer": "Et, tavuk, süt ürünleri, hazır salatalar gibi çabuk bozulanlarda.",
+       "why": "Taze gıdalar."
+      },
+      {
+       "question": "Once opened, use within 3 days ne demek?",
+       "answer": "Açıldıktan sonra 3 gün içinde tüketin.",
+       "why": "Açılma sonrası süre."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The yoghurt's use by date was yesterday, but it smells OK, so I'll eat it.",
+       "right": "The use by date was yesterday, so I won't eat it.",
+       "why": "use by güvenlik tarihidir; koku yeterli bir test değildir."
+      },
+      {
+       "wrong": "last use date",
+       "right": "use by date / expiry date",
+       "why": "Kelime kelime çeviri yerine etiket terimleri."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "use by / best before",
+       "explanation": [
+        "use by çabuk bozulan gıdaların güvenlik tarihidir; best before uzun ömürlü gıdaların kalite tarihidir."
+       ],
+       "example": "Chicken: use by 05.11 · Rice: best before end 12.2027",
+       "tr": [
+        "Tavuk: son tüketim 05.11 · Pirinç: tavsiye edilen tüketim Aralık 2027 sonu"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "lb-storage-prep",
+     "title": "Keep refrigerated. · Store in a cool, dry place. · Cook from frozen. · Do not refreeze.",
+     "meaning": "Saklama ve hazırlama talimatlarını anlamak",
+     "explanation": [
+      "Saklama talimatları emir kipindedir. Keep refrigerated (buzdolabında saklayın), Keep frozen at -18 °C (dondurucuda saklayın), Store in a cool, dry place (serin ve kuru yerde saklayın), Keep away from direct sunlight (doğrudan güneş ışığından uzak tutun). after opening ve once opened açılma sonrası koşulları belirtir: Keep refrigerated after opening.",
+      "Donmuş gıdalarda iki kritik talimat vardır: Cook from frozen (çözdürmeden pişirin) ve Do not refreeze after defrosting (çözüldükten sonra tekrar dondurmayın). defrost = çözdürmek, refreeze = tekrar dondurmak. Bu talimatlar güvenlikle ilgilidir ve ana bilgi olarak okunmalıdır.",
+      "Hazırlama talimatları sıralı emirlerdir ve sayılar önemli ayrıntılardır: Preheat the oven to 200 °C. Place the pieces on a baking tray. Bake for 25–30 minutes until golden. Stir well before serving. Shake before use. until golden (altın rengi olana kadar) bir sonuç ölçüsüdür. Not suitable for microwave cooking gibi olumsuz talimatlar da dikkatle okunmalıdır."
+     ],
+     "formula": [
+      "saklama: Keep refrigerated · Keep frozen · Store in a cool, dry place · after opening",
+      "dondurulmuş: Cook from frozen · Do not refreeze after defrosting",
+      "hazırlama: Preheat … · Bake for … until … · Stir / Shake before …"
+     ],
+     "examples": [
+      {
+       "en": "Keep refrigerated after opening and use within 3 days.",
+       "tr": "Açtıktan sonra buzdolabında saklayın ve 3 gün içinde tüketin.",
+       "why": [
+        "İki talimat and ile."
+       ],
+       "chunks": [
+        {
+         "en": "Keep refrigerated",
+         "tr": "buzdolabında saklayın"
+        },
+        {
+         "en": "after opening",
+         "tr": "açtıktan sonra",
+         "note": "after + -ing"
+        },
+        {
+         "en": "use within 3 days",
+         "tr": "3 gün içinde tüketin"
+        }
+       ]
+      },
+      {
+       "en": "Do not refreeze after defrosting.",
+       "tr": "Çözüldükten sonra tekrar dondurmayın.",
+       "why": [
+        "refreeze, defrost: re- ve de- ön ekleri."
+       ]
+      },
+      {
+       "en": "Preheat the oven to 200 °C. Cook from frozen for 25–30 minutes until golden.",
+       "tr": "Fırını 200 dereceye ısıtın. Çözdürmeden 25–30 dakika, altın rengi olana kadar pişirin.",
+       "why": [
+        "Sıralı talimat; until golden sonuç ölçüsü."
+       ]
+      },
+      {
+       "en": "Store in a cool, dry place away from sunlight.",
+       "tr": "Güneş ışığından uzakta, serin ve kuru bir yerde saklayın.",
+       "why": [
+        "away from = … -den uzakta."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Çözdürmeden pişirin.” İngilizcesi?",
+       "answer": "Cook from frozen.",
+       "why": "Donmuş hâlden."
+      },
+      {
+       "question": "refreeze ne demek?",
+       "answer": "Tekrar dondurmak.",
+       "why": "re- = tekrar"
+      },
+      {
+       "question": "“Kullanmadan önce çalkalayın.” İngilizcesi?",
+       "answer": "Shake before use.",
+       "why": "before use"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Keep in fridge cold.",
+       "right": "Keep refrigerated. / Keep in the fridge.",
+       "why": "Etiket kalıbı: Keep refrigerated."
+      },
+      {
+       "wrong": "after opened",
+       "right": "after opening / once opened",
+       "why": "after + -ing ya da once + opened."
+      }
+     ]
+    },
+    {
+     "id": "lb-warnings",
+     "title": "Ingredients · Contains … · May contain traces of … · Not suitable for …",
+     "meaning": "İçindekiler ve alerji uyarılarını bulmak",
+     "explanation": [
+      "İçindekiler listesi (Ingredients) genellikle en çok bulunandan en aza doğru sıralanır: flour, spinach (30%), white cheese (15%), onion … Parantez içindeki yüzdeler, ürünün adındaki malzemenin ne kadar olduğunu gösterir. Bir ürünün gerçekten ne içerdiğini anlamak için bu sıralamaya bakılır.",
+      "Alerji uyarıları iki düzeydedir. Contains: wheat, milk, eggs = kesinlikle içerir. May contain traces of sesame / nuts = eser miktarda içerebilir; ürün, bu maddeyi işleyen bir fabrikada üretilmiştir. Ciddi alerjisi olan kişiler için may contain uyarısı da risklidir. Ayrıca gluten-free (glutensiz), dairy-free (süt ürünü içermez), suitable for vegetarians (vejetaryenler için uygun) gibi bilgiler de etikette yer alır.",
+      "Not suitable for … (… için uygun değildir) olumsuz bir uyarıdır: Not suitable for children under 3. Not suitable for microwave cooking. Besin değerleri (nutrition) per 100 g ya da per piece / per serving (porsiyon başına) verilir: 310 kcal, fat 14 g, salt 1.1 g. Serves 4 = 4 kişiliktir."
+     ],
+     "formula": [
+      "Ingredients: en çoktan en aza · (30%) = oran",
+      "Contains … = kesin · May contain traces of … = eser miktarda olabilir",
+      "Not suitable for … · gluten-free · per 100 g / per piece · Serves 4"
+     ],
+     "examples": [
+      {
+       "en": "Contains: wheat, milk, eggs. May contain traces of sesame.",
+       "tr": "İçerir: buğday, süt, yumurta. Eser miktarda susam içerebilir.",
+       "why": [
+        "İki düzey uyarı: kesin ve olası."
+       ],
+       "chunks": [
+        {
+         "en": "Contains",
+         "tr": "içerir",
+         "note": "kesin"
+        },
+        {
+         "en": "May contain traces of",
+         "tr": "eser miktarda içerebilir",
+         "note": "olasılık"
+        }
+       ]
+      },
+      {
+       "en": "My son has a nut allergy, so I don't buy anything that may contain nuts.",
+       "tr": "Oğlumun fındık alerjisi var, bu yüzden fındık içerebilecek hiçbir şey almıyorum.",
+       "why": [
+        "may contain de alerjik biri için risklidir."
+       ]
+      },
+      {
+       "en": "Not suitable for children under 3.",
+       "tr": "3 yaşından küçük çocuklar için uygun değildir.",
+       "why": [
+        "under 3 = 3 yaşın altı."
+       ]
+      },
+      {
+       "en": "Per piece (150 g): 310 kcal. Serves 4.",
+       "tr": "Parça başına (150 g): 310 kalori. 4 kişilik.",
+       "why": [
+        "Besin bilgisi ve porsiyon."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Contains ile May contain farkı?",
+       "answer": "Contains kesin içerir; May contain eser miktarda içerebilir.",
+       "why": "İki düzey."
+      },
+      {
+       "question": "“Glutensiz” İngilizcesi?",
+       "answer": "gluten-free",
+       "why": "-free = … içermez"
+      },
+      {
+       "question": "Serves 4 ne demek?",
+       "answer": "4 kişilik.",
+       "why": "Porsiyon."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Can be nuts.",
+       "right": "May contain nuts.",
+       "why": "Etiket kalıbı: may contain."
+      },
+      {
+       "wrong": "Not suitable to children.",
+       "right": "Not suitable for children.",
+       "why": "suitable for kalıbı."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "market-roleplay",
+   "title": "Çarşıda canlandırma: bütün alışveriş becerilerini birleştirmek",
+   "intro": [
+    "Bu adım 28 Ekim'in bütün becerilerini bir araya getirir: ihtiyacı söylemek, özellik sormak, karşılaştırmak, etiket ve talimat bilgisini sormak ve gerekçeli bir karar vermek. Sınıf üç istasyonlu bir çarşıya dönüşür: manav (miktar ve birim fiyat), eczane (talimat ve uyarı) ve telefon tamircisi (hizmet kalitesi, süre, garanti). Her istasyonda farklı bir dil odağı vardır.",
+    "Eczane diyaloğu, ürün tavsiyesi ve kullanım talimatlarını birlikte içerir: How often do I use it? Is it suitable for children? Don't use it for more than five days. If it doesn't get better, see a doctor. Bu dil, etiket okuma becerisinin konuşmadaki karşılığıdır. Canlandırmanın sonunda her grup kararını PREP ile sunar; böylece 27 Ekim'deki fikir bildirme becerisi de tekrar edilmiş olur."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I need something for a sore throat. I've had it for two days.",
+     "tr": "Boğaz ağrısı için bir şey lazım. İki gündür var.",
+     "why": [
+      "something for + şikâyet. I've had it for: present perfect + for süre."
+     ]
+    },
+    {
+     "en": "The spray is a bit more expensive, but it works faster.",
+     "tr": "Sprey biraz daha pahalı ama daha hızlı etki ediyor.",
+     "why": [
+      "a bit more expensive: hafif fark. work faster = daha hızlı etki etmek."
+     ]
+    },
+    {
+     "en": "The lozenges are cheaper, but they aren't as strong.",
+     "tr": "Pastiller daha ucuz ama o kadar güçlü değil.",
+     "why": [
+      "cheaper + not as … as birlikte: artı ve eksi."
+     ]
+    },
+    {
+     "en": "Three times a day, after meals. Don't use it for more than five days.",
+     "tr": "Günde üç kez, yemeklerden sonra. Beş günden fazla kullanmayın.",
+     "why": [
+      "Sıklık ve zaman ayrıntıları; Don't + fiil uyarı."
+     ]
+    },
+    {
+     "en": "If it doesn't get better, see a doctor.",
+     "tr": "Geçmezse doktora görünün.",
+     "why": [
+      "If + geniş zaman + emir. get better = iyileşmek."
+     ]
+    },
+    {
+     "en": "For children, I recommend this syrup. Shake it well before use.",
+     "tr": "Çocuklar için şu şurubu öneririm. Kullanmadan önce iyice çalkalayın.",
+     "why": [
+      "recommend + isim. Shake it well before use: etiket dili."
+     ]
+    },
+    {
+     "en": "I chose the original screen because it's better quality and it comes with a one-year guarantee.",
+     "tr": "Orijinal ekranı seçtim çünkü daha kaliteli ve bir yıllık garantisi var.",
+     "why": [
+      "Rapor: chose geçmiş zaman; because iki gerekçe."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "mr-pharmacy",
+     "title": "I need something for a sore throat. · How often do I use it? · Is it suitable for children?",
+     "meaning": "Eczanede ürün istemek ve kullanım talimatı sormak",
+     "explanation": [
+      "Eczanede ihtiyaç genellikle bir şikâyetle söylenir: I need something for a sore throat / a headache / a cough / a cold. I've had it for two days (İki gündür var) gibi bir süre bilgisi eczacının doğru ürünü önermesini sağlar. have had + for süre, present perfect ile bir durumun ne zamandır sürdüğünü anlatır.",
+      "Kullanım soruları: How often do I take it / use it? (Ne sıklıkla?) — Three times a day, after meals. How many do I take? (Kaç tane?) Does it make you sleepy? (Uyku yapar mı?) Is it suitable for children? (Çocuklara uygun mu?) Cevaplardaki sayılar ve zamanlar ana bilgidir: three times a day, after meals, not for more than five days, not under six.",
+      "Eczacının uyarıları emir ve koşul cümleleridir: Don't use it for more than five days. If it doesn't get better, see a doctor. Shake it well before use. Bunlar, bir önceki adımdaki etiket talimatlarıyla aynı dil yapısını taşır. Tıbbi konularda emin değilseniz her zaman Can you write it down, please? diye isteyebilirsiniz."
+     ],
+     "formula": [
+      "ihtiyaç: I need something for + şikâyet · I've had it for + süre",
+      "sorular: How often do I take it? · Is it suitable for children? · Does it make you sleepy?",
+      "uyarılar: Don't use it for more than … · If it doesn't get better, see a doctor."
+     ],
+     "examples": [
+      {
+       "en": "I need something for a sore throat. I've had it for two days.",
+       "tr": "Boğaz ağrısı için bir şey lazım. İki gündür var.",
+       "why": [
+        "Şikâyet + süre (present perfect)."
+       ],
+       "chunks": [
+        {
+         "en": "a sore throat",
+         "tr": "boğaz ağrısı"
+        },
+        {
+         "en": "I've had it for two days",
+         "tr": "iki gündür var",
+         "note": "have had + for"
+        }
+       ]
+      },
+      {
+       "en": "How often do I use the spray? — Three times a day, after meals.",
+       "tr": "Spreyi ne sıklıkla kullanıyorum? — Günde üç kez, yemeklerden sonra.",
+       "why": [
+        "Sıklık sorusu ve cevabı."
+       ]
+      },
+      {
+       "en": "Don't use it for more than five days. If it doesn't get better, see a doctor.",
+       "tr": "Beş günden fazla kullanmayın. Geçmezse doktora görünün.",
+       "why": [
+        "Olumsuz emir + koşul."
+       ]
+      },
+      {
+       "en": "Is it suitable for children? — Not under six.",
+       "tr": "Çocuklar için uygun mu? — Altı yaşın altına değil.",
+       "why": [
+        "suitable for + kişi; not under six."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Baş ağrısı için bir şey lazım.” İngilizcesi?",
+       "answer": "I need something for a headache.",
+       "why": "something for + şikâyet"
+      },
+      {
+       "question": "“Üç gündür var.” İngilizcesi?",
+       "answer": "I've had it for three days.",
+       "why": "present perfect + for"
+      },
+      {
+       "question": "“Uyku yapar mı?” İngilizcesi?",
+       "answer": "Does it make you sleepy?",
+       "why": "make + kişi + sıfat"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I have it since two days.",
+       "right": "I've had it for two days.",
+       "why": "Süre için present perfect + for."
+      },
+      {
+       "wrong": "How many times I use it?",
+       "right": "How often do I use it? / How many times a day do I use it?",
+       "why": "Soruda do gerekir."
+      }
+     ]
+    },
+    {
+     "id": "mr-service",
+     "title": "How long will it take? · Which is better quality? · Does it come with a guarantee?",
+     "meaning": "Bir hizmeti seçenekleriyle karşılaştırmak",
+     "explanation": [
+      "Hizmet alırken (telefon tamiri, kuaför, kuru temizleme) üç soru öne çıkar: süre (How long will it take?), fiyat (How much will it cost?) ve kalite / güvence (Which is better quality? Does it come with a guarantee?). Gelecekte olacak bir hizmet için will kullanılır.",
+      "Telefon tamiri istasyonunda iki seçenek vardır: orijinal parça (3.500 TL, 1 yıl garanti, 2 gün) ve muadil parça (1.800 TL, 3 ay garanti, aynı gün). Bu bilgiler karşılaştırma dilini gerektirir: The original screen is more expensive, but it's better quality and it comes with a longer guarantee. The other one is cheaper and faster, but the guarantee isn't as long.",
+      "Karar verirken ihtiyacınızı gerekçe olarak kullanın: I need my phone today, so I'll take the faster option. ya da I'll keep this phone for a long time, so the original screen is worth the money. Böylece karar sadece fiyata değil, kişisel duruma dayanır; bu da olgun bir tüketici dilidir."
+     ],
+     "formula": [
+      "süre / fiyat: How long will it take? · How much will it cost?",
+      "kalite: Which is better quality? · Does it come with a guarantee? · How long is the guarantee?",
+      "karar + gerekçe: I need it today, so I'll take … · … is worth the money because …"
+     ],
+     "examples": [
+      {
+       "en": "How long will it take? — The original screen takes two days.",
+       "tr": "Ne kadar sürer? — Orijinal ekran iki gün sürer.",
+       "why": [
+        "Süre sorusu ve cevabı."
+       ]
+      },
+      {
+       "en": "The original screen is more expensive, but it's better quality and it comes with a longer guarantee.",
+       "tr": "Orijinal ekran daha pahalı ama daha kaliteli ve daha uzun garantili.",
+       "why": [
+        "Karşılaştırma: more expensive, better, longer."
+       ],
+       "chunks": [
+        {
+         "en": "better quality",
+         "tr": "daha kaliteli"
+        },
+        {
+         "en": "a longer guarantee",
+         "tr": "daha uzun garanti"
+        }
+       ]
+      },
+      {
+       "en": "I need my phone today, so I'll take the faster option.",
+       "tr": "Telefonuma bugün ihtiyacım var, bu yüzden hızlı seçeneği alıyorum.",
+       "why": [
+        "Kişisel ihtiyaç → karar."
+       ]
+      },
+      {
+       "en": "I chose the original screen because it's better quality.",
+       "tr": "Orijinal ekranı seçtim çünkü daha kaliteli.",
+       "why": [
+        "Sınıfa rapor: geçmiş zaman + gerekçe."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Ne kadar tutar?” hizmet için nasıl sorulur?",
+       "answer": "How much will it cost?",
+       "why": "will + cost"
+      },
+      {
+       "question": "“Garanti ne kadar?” İngilizcesi?",
+       "answer": "How long is the guarantee?",
+       "why": "Süre: how long"
+      },
+      {
+       "question": "Kararı gerekçelendiren bağlaç?",
+       "answer": "so / because",
+       "why": "I need it today, so …"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "How much time it takes?",
+       "right": "How long will it take?",
+       "why": "Süre sorusu how long + will."
+      },
+      {
+       "wrong": "I take the cheap because cheap.",
+       "right": "I'll take the cheaper one because it's cheaper and faster.",
+       "why": "Tam cümle ve karşılaştırma."
+      }
+     ]
+    },
+    {
+     "id": "mr-decide-report",
+     "title": "I'll take … because … · We decided to … · The main reason was that …",
+     "meaning": "Karar vermek ve kararı sınıfa raporlamak",
+     "explanation": [
+      "Mağazada karar iki biçimde söylenir: I'll take it (alıyorum) ya da I'll think about it (bir düşüneyim). Birden fazla ürün varsa: I'll take the spray and the syrup. Karar anında verildiği için will kullanılır.",
+      "Canlandırmadan sonra kararı sınıfa raporlarken geçmiş zaman kullanılır, çünkü karar verilmiştir: I chose the spray because it works faster. We decided to buy the big bag of tomatoes because it was better value. decide to + yalın fiil kalıbına dikkat. Gerekçe The main reason was that … ile güçlendirilebilir.",
+      "Rapor, 27 Ekim'deki PREP yapısıyla düzenlenebilir: Point (We decided to buy the original screen.), Reason (The main reason was that it comes with a one-year guarantee.), Example (For example, my last cheap screen broke after two months.), Point (That's why we think it was worth the money.). Böylece alışveriş becerisi fikir bildirme becerisiyle birleşir."
+     ],
+     "formula": [
+      "mağazada: I'll take it. · I'll think about it. · I'll take the … and the …",
+      "rapor: I chose … because … · We decided to + fiil",
+      "PREP rapor: decided → main reason was that → for example → that's why"
+     ],
+     "examples": [
+      {
+       "en": "OK, I'll take the spray and the syrup. Thank you.",
+       "tr": "Tamam, spreyi ve şurubu alıyorum. Teşekkürler.",
+       "why": [
+        "Anlık karar: I'll take."
+       ]
+      },
+      {
+       "en": "We decided to buy the big bag of tomatoes because it was better value.",
+       "tr": "Büyük domates torbasını almaya karar verdik çünkü daha hesaplıydı.",
+       "why": [
+        "decide to + fiil; rapor geçmiş zaman."
+       ]
+      },
+      {
+       "en": "The main reason was that it comes with a one-year guarantee.",
+       "tr": "Asıl sebep bir yıllık garantisinin olmasıydı.",
+       "why": [
+        "Gerekçe: The main reason was that …"
+       ],
+       "chunks": [
+        {
+         "en": "The main reason was that …",
+         "tr": "asıl sebep … idi"
+        },
+        {
+         "en": "a one-year guarantee",
+         "tr": "bir yıllık garanti",
+         "note": "one-year sıfat gibi tekil"
+        }
+       ]
+      },
+      {
+       "en": "That's why we think it was worth the money.",
+       "tr": "Bu yüzden parasına değdiğini düşünüyoruz.",
+       "why": [
+        "PREP'in son adımı."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bir düşüneyim.” İngilizcesi?",
+       "answer": "I'll think about it.",
+       "why": "Kararsızlık."
+      },
+      {
+       "question": "We decided buy cümlesini düzeltin.",
+       "answer": "We decided to buy …",
+       "why": "decide to + fiil"
+      },
+      {
+       "question": "Rapor hangi zamanla yapılır?",
+       "answer": "Geçmiş zaman (karar verildi).",
+       "why": "I chose … / We decided …"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I take it. (mağazada karar)",
+       "right": "I'll take it.",
+       "why": "Anlık karar will ile."
+      },
+      {
+       "wrong": "a one-years guarantee",
+       "right": "a one-year guarantee",
+       "why": "Sıfat gibi kullanılan ölçü tekil kalır."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "let-you-know",
+   "term": "I'm writing to let you know that …",
+   "meaning": "… olduğunu bildirmek için yazıyorum",
+   "partOfSpeech": "not kalıbı",
+   "sourceTerms": [
+    "I'm writing to let you know that …"
+   ],
+   "explanation": [
+    "Notun ve e-postanın amaç cümlesi. let someone know = birine haber vermek. Daha samimi: Just to let you know, … Resmî yazılarda I'm writing to inform you that … da kullanılır; inform'dan sonra kişi gerekir."
+   ],
+   "collocations": [
+    {
+     "en": "just to let you know",
+     "tr": "haberin olsun"
+    },
+    {
+     "en": "let me know",
+     "tr": "bana haber ver"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm writing to let you know that Emre is ill.",
+     "tr": "Emre'nin hasta olduğunu bildirmek için yazıyorum."
+    },
+    {
+     "en": "Just to let you know, the meeting is at ten.",
+     "tr": "Haberin olsun, toplantı onda."
+    },
+    {
+     "en": "Please let me know if you can come.",
+     "tr": "Gelebilirsen lütfen bana haber ver."
+    }
+   ],
+   "commonMistake": "I want to inform that … yerine I'm writing to let you know that … denir."
+  },
+  {
+   "id": "afraid-cant-2",
+   "term": "I'm afraid … can't …",
+   "meaning": "maalesef … -emeyecek",
+   "partOfSpeech": "not kalıbı",
+   "sourceTerms": [
+    "I'm afraid … can't …"
+   ],
+   "explanation": [
+    "Kötü bir haberi kibarca vermek için I'm afraid kullanılır; burada korku anlamı yoktur. Ardından tam cümle gelir: I'm afraid he can't come. Konuşmada da çok yaygındır: I'm afraid we're closed."
+   ],
+   "collocations": [
+    {
+     "en": "I'm afraid not",
+     "tr": "maalesef hayır"
+    },
+    {
+     "en": "I'm sorry, but …",
+     "tr": "üzgünüm ama …"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm afraid he can't come to school tomorrow.",
+     "tr": "Maalesef yarın okula gelemeyecek."
+    },
+    {
+     "en": "I'm afraid I have to leave early today.",
+     "tr": "Maalesef bugün erken çıkmam gerekiyor."
+    },
+    {
+     "en": "Is there any bread? — I'm afraid not.",
+     "tr": "Ekmek var mı? — Maalesef yok."
+    }
+   ],
+   "commonMistake": "I'm afraid'i korku olarak çevirmeyin; burada “maalesef” demektir."
+  },
+  {
+   "id": "could-please",
+   "term": "Could you please …?",
+   "meaning": "lütfen … -ebilir misiniz?",
+   "partOfSpeech": "rica kalıbı",
+   "sourceTerms": [
+    "Could you please …?"
+   ],
+   "explanation": [
+    "En kibar ve en yaygın rica kalıbı. Ardından yalın fiil gelir; to kullanılmaz. please could'dan sonra ya da cümle sonunda olabilir: Could you send it, please? Notlarda doğrudan Please + emir de kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "Could you possibly …?",
+     "tr": "acaba … -ebilir misiniz? (çok kibar)"
+    },
+    {
+     "en": "Please call me",
+     "tr": "lütfen beni arayın"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Could you please send me the homework?",
+     "tr": "Ödevi bana gönderebilir misiniz?"
+    },
+    {
+     "en": "Could you please call a plumber?",
+     "tr": "Lütfen bir tesisatçı çağırabilir misiniz?"
+    },
+    {
+     "en": "Please water the plants on Tuesday.",
+     "tr": "Lütfen salı günü çiçekleri sulayın.",
+     "note": "Please + emir"
+    }
+   ],
+   "commonMistake": "Could you please to send …? yerine Could you please send …? denir."
+  },
+  {
+   "id": "asap",
+   "term": "as soon as possible",
+   "meaning": "en kısa sürede",
+   "partOfSpeech": "zaman ifadesi",
+   "sourceTerms": [
+    "as soon as possible"
+   ],
+   "explanation": [
+    "Aciliyet bildiren kalıp; yazıda ASAP diye kısaltılır (resmî yazılarda kısaltma yerine tam biçim tercih edilir). Benzerleri: today if possible (mümkünse bugün), by Friday (en geç cuma), right away (hemen)."
+   ],
+   "collocations": [
+    {
+     "en": "right away",
+     "tr": "hemen"
+    },
+    {
+     "en": "by Friday",
+     "tr": "en geç cuma"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Please call a plumber as soon as possible.",
+     "tr": "Lütfen en kısa sürede bir tesisatçı çağırın."
+    },
+    {
+     "en": "Could you reply as soon as possible?",
+     "tr": "En kısa sürede cevap verebilir misiniz?"
+    },
+    {
+     "en": "Please return the form by Friday.",
+     "tr": "Lütfen formu en geç cuma geri verin.",
+     "note": "by + gün"
+    }
+   ],
+   "commonMistake": "in the shortest time yerine as soon as possible denir."
+  },
+  {
+   "id": "call-me-on",
+   "term": "Please call me on …",
+   "meaning": "lütfen beni … numaradan arayın",
+   "partOfSpeech": "not kalıbı",
+   "sourceTerms": [
+    "Please call me on …"
+   ],
+   "explanation": [
+    "Telefon numarasıyla on kullanılır (İngiliz İngilizcesi; Amerikan İngilizcesinde at). from kullanılmaz. Benzer: You can reach me on … · Text me on …"
+   ],
+   "collocations": [
+    {
+     "en": "text me on",
+     "tr": "bana … -den mesaj at"
+    },
+    {
+     "en": "reach me",
+     "tr": "bana ulaşmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Please call me on 0532 111 22 33.",
+     "tr": "Lütfen beni 0532 111 22 33'ten arayın."
+    },
+    {
+     "en": "You can reach me on this number after six.",
+     "tr": "Altıdan sonra bana bu numaradan ulaşabilirsiniz."
+    },
+    {
+     "en": "Text me on my mobile.",
+     "tr": "Cep telefonuma mesaj at."
+    }
+   ],
+   "commonMistake": "Call me from 0532 … yerine Call me on 0532 … denir."
+  },
+  {
+   "id": "thanks-advance",
+   "term": "Thanks in advance.",
+   "meaning": "şimdiden teşekkürler",
+   "partOfSpeech": "kapanış",
+   "sourceTerms": [
+    "Thanks in advance."
+   ],
+   "explanation": [
+    "Bir rica içeren notun ya da e-postanın kapanışı. Daha resmî: Thank you in advance. Diğer kapanışlar: Best wishes, · Kind regards, (resmî) · Thanks a lot! (samimi). Ardından ad yazılır."
+   ],
+   "collocations": [
+    {
+     "en": "Best wishes",
+     "tr": "en iyi dileklerle"
+    },
+    {
+     "en": "Kind regards",
+     "tr": "saygılarımla"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Thanks in advance. Best wishes, Aylin",
+     "tr": "Şimdiden teşekkürler. Sevgiler, Aylin"
+    },
+    {
+     "en": "Thank you in advance for your help.",
+     "tr": "Yardımınız için şimdiden teşekkürler."
+    },
+    {
+     "en": "Kind regards, Tolga Arslan, flat 7",
+     "tr": "Saygılarımla, Tolga Arslan, daire 7"
+    }
+   ],
+   "commonMistake": "Thanks from now yerine Thanks in advance denir."
+  },
+  {
+   "id": "looking-for",
+   "term": "I'm looking for …",
+   "meaning": "… arıyorum",
+   "partOfSpeech": "mağaza kalıbı",
+   "sourceTerms": [
+    "I'm looking for …"
+   ],
+   "explanation": [
+    "Mağazada ihtiyacı söylemenin en doğal yolu. look for = aramak (bulmaya çalışmak). search daha çok internet ve belgeler için kullanılır ve for ile kurulur: search for information. Sadece bakıyorsanız: I'm just looking, thanks."
+   ],
+   "collocations": [
+    {
+     "en": "I'm just looking",
+     "tr": "sadece bakıyorum"
+    },
+    {
+     "en": "look for a job",
+     "tr": "iş aramak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm looking for a quiet kettle.",
+     "tr": "Sessiz bir su ısıtıcısı arıyorum."
+    },
+    {
+     "en": "I'm looking for a coat for my son.",
+     "tr": "Oğlum için bir mont arıyorum."
+    },
+    {
+     "en": "Can I help you? — I'm just looking, thanks.",
+     "tr": "Yardımcı olabilir miyim? — Sadece bakıyorum, teşekkürler."
+    }
+   ],
+   "commonMistake": "I'm searching a kettle yerine I'm looking for a kettle denir."
+  },
+  {
+   "id": "larger-size",
+   "term": "Do you have this in a larger size?",
+   "meaning": "bunun bir büyük bedeni var mı?",
+   "partOfSpeech": "mağaza kalıbı",
+   "sourceTerms": [
+    "Do you have this in a larger size?"
+   ],
+   "explanation": [
+    "Beden ve renk sorma kalıbı: Do you have this in + beden / renk? Benzer: Does it come in other colours? Beden kelimeleri: small, medium, large; a size 38. Giysi denemek için Can I try it on?"
+   ],
+   "collocations": [
+    {
+     "en": "in a smaller size",
+     "tr": "daha küçük bedende"
+    },
+    {
+     "en": "in blue",
+     "tr": "mavisi"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Do you have this in a larger size, please?",
+     "tr": "Bunun daha büyük bedeni var mı lütfen?"
+    },
+    {
+     "en": "Do you have these shoes in a 40?",
+     "tr": "Bu ayakkabının 40 numarası var mı?"
+    },
+    {
+     "en": "Does it come in other colours?",
+     "tr": "Başka renkleri var mı?"
+    }
+   ],
+   "commonMistake": "Is there more big? yerine Do you have this in a larger size? denir."
+  },
+  {
+   "id": "made-of",
+   "term": "What's it made of?",
+   "meaning": "neden yapılmış?",
+   "partOfSpeech": "soru kalıbı",
+   "sourceTerms": [
+    "What's it made of?"
+   ],
+   "explanation": [
+    "Malzeme sorusu; edat sonda kalır. Cevap: It's made of steel / plastic / wool / cotton / leather. made from işlenerek dönüşen hammadde için de kullanılır: Paper is made from wood. Gıdalarda: made with (ile yapılmış)."
+   ],
+   "collocations": [
+    {
+     "en": "made of wool",
+     "tr": "yünden yapılmış"
+    },
+    {
+     "en": "made from wood",
+     "tr": "tahtadan yapılmış (dönüşerek)"
+    }
+   ],
+   "examples": [
+    {
+     "en": "What's it made of? — Steel.",
+     "tr": "Neden yapılmış? — Çelikten."
+    },
+    {
+     "en": "This bag is made of leather.",
+     "tr": "Bu çanta deriden yapılmış."
+    },
+    {
+     "en": "Paper is made from wood.",
+     "tr": "Kâğıt tahtadan yapılır.",
+     "note": "made from"
+    }
+   ],
+   "commonMistake": "From what is it made? yerine What's it made of? denir."
+  },
+  {
+   "id": "guarantee",
+   "term": "Does it come with a guarantee?",
+   "meaning": "garantisi var mı?",
+   "partOfSpeech": "soru kalıbı",
+   "sourceTerms": [
+    "Does it come with a guarantee?"
+   ],
+   "explanation": [
+    "come with = ile birlikte gelmek; garanti, aksesuar ve ekler için kullanılır. Garanti süresi: a two-year guarantee (sıfat gibi tekil). Fişi saklamak: Keep the receipt for the guarantee. Amerikan İngilizcesinde warranty de denir."
+   ],
+   "collocations": [
+    {
+     "en": "a two-year guarantee",
+     "tr": "iki yıllık garanti"
+    },
+    {
+     "en": "under guarantee",
+     "tr": "garanti kapsamında"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Does it come with a guarantee? — Yes, two years.",
+     "tr": "Garantisi var mı? — Evet, iki yıl."
+    },
+    {
+     "en": "Does it come with batteries?",
+     "tr": "Pilleri dahil mi?"
+    },
+    {
+     "en": "My phone is still under guarantee.",
+     "tr": "Telefonum hâlâ garanti kapsamında."
+    }
+   ],
+   "commonMistake": "Has it guarantee? yerine Does it come with a guarantee? denir."
+  },
+  {
+   "id": "thing-use-for",
+   "term": "It's a thing you use for …",
+   "meaning": "… için kullandığınız bir şey",
+   "partOfSpeech": "dolaylı anlatım",
+   "sourceTerms": [
+    "It's a thing you use for …"
+   ],
+   "explanation": [
+    "Adını bilmediğiniz bir nesneyi tarif etme kalıbı. for + -ing ya da to + fiil. Ardından görünüş (It's small, It looks like …) ve malzeme (made of metal) eklenir. Satıcı bulunca: Yes, that's it!"
+   ],
+   "collocations": [
+    {
+     "en": "It's a kind of …",
+     "tr": "bir tür …"
+    },
+    {
+     "en": "It looks like …",
+     "tr": "… -e benziyor"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's a thing you use for opening tins.",
+     "tr": "Konserve açmak için kullandığınız bir şey."
+    },
+    {
+     "en": "It's a kind of machine for making coffee.",
+     "tr": "Kahve yapmak için bir tür makine."
+    },
+    {
+     "en": "It looks like a small knife.",
+     "tr": "Küçük bir bıçağa benziyor."
+    }
+   ],
+   "commonMistake": "It's tin open thing yerine It's a thing you use for opening tins denir."
+  },
+  {
+   "id": "try-on",
+   "term": "Can I try it on?",
+   "meaning": "deneyebilir miyim?",
+   "partOfSpeech": "mağaza kalıbı",
+   "sourceTerms": [
+    "Can I try it on?"
+   ],
+   "explanation": [
+    "Giysi ve ayakkabı denemek için try on kullanılır; zamir araya girer: try it on, try them on. Deneme kabini changing room / fitting room'dur. Bir ürünü (yiyecek, parfüm) denemek için try tek başına: Can I try it?"
+   ],
+   "collocations": [
+    {
+     "en": "changing room",
+     "tr": "deneme kabini"
+    },
+    {
+     "en": "try them on",
+     "tr": "onları denemek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Can I try it on? Where are the changing rooms?",
+     "tr": "Deneyebilir miyim? Deneme kabinleri nerede?"
+    },
+    {
+     "en": "Can I try these shoes on?",
+     "tr": "Bu ayakkabıları deneyebilir miyim?"
+    },
+    {
+     "en": "Can I try the cheese?",
+     "tr": "Peyniri tadabilir miyim?",
+     "note": "Yiyecek → try"
+    }
+   ],
+   "commonMistake": "Can I try on it? yerine Can I try it on? denir."
+  },
+  {
+   "id": "ill-take-it",
+   "term": "I'll take it.",
+   "meaning": "bunu alıyorum",
+   "partOfSpeech": "karar kalıbı",
+   "sourceTerms": [
+    "I'll take it."
+   ],
+   "explanation": [
+    "Mağazada satın alma kararını bildirir; anlık karar olduğu için will kullanılır. Kararsızsanız: I'll think about it. Ödeme: Can I pay by card? Fiş: Can I have a receipt, please?"
+   ],
+   "collocations": [
+    {
+     "en": "I'll think about it",
+     "tr": "bir düşüneyim"
+    },
+    {
+     "en": "Can I have a receipt?",
+     "tr": "fiş alabilir miyim?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's perfect. I'll take it.",
+     "tr": "Mükemmel. Alıyorum."
+    },
+    {
+     "en": "I'll take the steel one, please.",
+     "tr": "Çelik olanı alıyorum, lütfen."
+    },
+    {
+     "en": "Thanks, I'll think about it.",
+     "tr": "Teşekkürler, bir düşüneyim."
+    }
+   ],
+   "commonMistake": "I buy this (geniş zaman) yerine I'll take it denir."
+  },
+  {
+   "id": "cheaper-than",
+   "term": "cheaper than · more expensive than",
+   "meaning": "-den daha ucuz · -den daha pahalı",
+   "partOfSpeech": "karşılaştırma",
+   "sourceTerms": [
+    "cheaper than · more expensive than"
+   ],
+   "explanation": [
+    "Kısa sıfatlar -er (cheaper, bigger, easier), uzun sıfatlar more (more expensive) ile karşılaştırılır; karşılaştırılan şey than ile gelir. Güçlendirmek için much / a lot, hafifletmek için a bit."
+   ],
+   "collocations": [
+    {
+     "en": "much cheaper",
+     "tr": "çok daha ucuz"
+    },
+    {
+     "en": "a bit more expensive",
+     "tr": "biraz daha pahalı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "This one is cheaper than that one.",
+     "tr": "Bu, şundan daha ucuz."
+    },
+    {
+     "en": "The steel kettle is more expensive than the plastic one.",
+     "tr": "Çelik ısıtıcı plastik olandan daha pahalı."
+    },
+    {
+     "en": "Online, it's a lot cheaper.",
+     "tr": "İnternette çok daha ucuz."
+    }
+   ],
+   "commonMistake": "more cheap from yerine cheaper than denir."
+  },
+  {
+   "id": "the-best",
+   "term": "the best · the cheapest",
+   "meaning": "en iyi · en ucuz",
+   "partOfSpeech": "en üstünlük",
+   "sourceTerms": [
+    "the best · the cheapest"
+   ],
+   "explanation": [
+    "Bir grubun en ucundakini gösterir; önüne the gelir. Kısa sıfatlar -est (the cheapest), uzun sıfatlar the most (the most expensive), düzensizler the best / the worst. Ardından genellikle in + yer ya da of + grup gelir."
+   ],
+   "collocations": [
+    {
+     "en": "the most expensive",
+     "tr": "en pahalı"
+    },
+    {
+     "en": "the best in town",
+     "tr": "şehrin en iyisi"
+    }
+   ],
+   "examples": [
+    {
+     "en": "This is the cheapest one in the shop.",
+     "tr": "Bu, dükkândaki en ucuz olanı."
+    },
+    {
+     "en": "It's the best restaurant in town.",
+     "tr": "Kasabanın en iyi lokantası."
+    },
+    {
+     "en": "That's the most expensive of the three.",
+     "tr": "Üçünün en pahalısı o."
+    }
+   ],
+   "commonMistake": "the most good yerine the best denir."
+  },
+  {
+   "id": "not-as-as",
+   "term": "not as … as",
+   "meaning": "… kadar … değil",
+   "partOfSpeech": "karşılaştırma",
+   "sourceTerms": [
+    "not as … as"
+   ],
+   "explanation": [
+    "Eşitsizliği kibarca gösterir: The plastic one isn't as strong as the steel one. Olumlu as … as eşitlik bildirir: It's as cheap as the other one. less + sıfat'tan daha yaygın ve doğaldır."
+   ],
+   "collocations": [
+    {
+     "en": "as good as",
+     "tr": "… kadar iyi"
+    },
+    {
+     "en": "not as strong as",
+     "tr": "… kadar sağlam değil"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It isn't as strong as the other one.",
+     "tr": "Diğeri kadar sağlam değil."
+    },
+    {
+     "en": "The market is as cheap as the supermarket.",
+     "tr": "Pazar süpermarket kadar ucuz."
+    },
+    {
+     "en": "This sofa isn't as comfortable as that one.",
+     "tr": "Bu kanepe şunun kadar rahat değil."
+    }
+   ],
+   "commonMistake": "It's not strong like that yerine It isn't as strong as that one denir."
+  },
+  {
+   "id": "per-kilo",
+   "term": "How much is it per kilo?",
+   "meaning": "kilosu ne kadar?",
+   "partOfSpeech": "soru kalıbı",
+   "sourceTerms": [
+    "How much is it per kilo?"
+   ],
+   "explanation": [
+    "Birim fiyat sorusu. per = başına: per kilo, per litre, per person. Tanesi için each: How much are they each? Çoğul ürünlerde are: How much are the tomatoes per kilo?"
+   ],
+   "collocations": [
+    {
+     "en": "per litre",
+     "tr": "litre başına"
+    },
+    {
+     "en": "each",
+     "tr": "tanesi"
+    }
+   ],
+   "examples": [
+    {
+     "en": "How much are the tomatoes per kilo?",
+     "tr": "Domatesin kilosu ne kadar?"
+    },
+    {
+     "en": "It's 50 lira per kilo.",
+     "tr": "Kilosu 50 lira."
+    },
+    {
+     "en": "How much are the eggs each?",
+     "tr": "Yumurtanın tanesi ne kadar?"
+    }
+   ],
+   "commonMistake": "Kilo how much? yerine How much is it per kilo? denir."
+  },
+  {
+   "id": "better-value",
+   "term": "better value · a good deal",
+   "meaning": "daha hesaplı · iyi bir fırsat",
+   "partOfSpeech": "değer ifadesi",
+   "sourceTerms": [
+    "better value · a good deal"
+   ],
+   "explanation": [
+    "value fiyat ile kalitenin dengesidir. better value fiyatına göre daha iyi demektir; good value for money da denir. a good deal iyi bir fırsat ya da anlaşmadır. Büyük paket her zaman better value değildir; birim fiyata bakın."
+   ],
+   "collocations": [
+    {
+     "en": "good value for money",
+     "tr": "fiyatına göre iyi"
+    },
+    {
+     "en": "a great deal",
+     "tr": "harika bir fırsat"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The big pack is better value.",
+     "tr": "Büyük paket daha hesaplı."
+    },
+    {
+     "en": "Three for the price of two? That's a good deal!",
+     "tr": "İki fiyatına üç mü? İyi fırsat!"
+    },
+    {
+     "en": "The lunch menu is good value for money.",
+     "tr": "Öğle menüsü fiyatına göre iyi."
+    }
+   ],
+   "commonMistake": "more cheap value gibi karışık biçim yerine better value denir."
+  },
+  {
+   "id": "quality-quantity",
+   "term": "quality · quantity",
+   "meaning": "kalite · miktar",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "quality · quantity"
+   ],
+   "explanation": [
+    "İki sık karıştırılan kelime: quality kalite, quantity miktar. better quality (daha kaliteli), high quality (yüksek kalite), a large quantity (büyük miktar). I care more about quality than quantity = Miktardan çok kaliteye önem veririm."
+   ],
+   "collocations": [
+    {
+     "en": "high quality",
+     "tr": "yüksek kalite"
+    },
+    {
+     "en": "a small quantity",
+     "tr": "az miktar"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I care more about quality than quantity.",
+     "tr": "Miktardan çok kaliteye önem veririm."
+    },
+    {
+     "en": "The steel one is better quality.",
+     "tr": "Çelik olan daha kaliteli."
+    },
+    {
+     "en": "We need a large quantity of paper for the course.",
+     "tr": "Kurs için büyük miktarda kâğıda ihtiyacımız var."
+    }
+   ],
+   "commonMistake": "quality ile quantity'yi karıştırmayın: biri kalite, diğeri miktar."
+  },
+  {
+   "id": "worth-money",
+   "term": "It's worth the money.",
+   "meaning": "parasına değer",
+   "partOfSpeech": "değer ifadesi",
+   "sourceTerms": [
+    "It's worth the money."
+   ],
+   "explanation": [
+    "Bir ürünün fiyatını hak ettiğini söyler. Kısaca It's worth it. Olumsuz: It isn't worth the money / It isn't worth it. worth bir sıfat gibi davranır; be ile kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "worth it",
+     "tr": "değer"
+    },
+    {
+     "en": "not worth it",
+     "tr": "değmez"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's expensive, but it's worth the money.",
+     "tr": "Pahalı ama parasına değer."
+    },
+    {
+     "en": "Is the guarantee worth it?",
+     "tr": "Garanti buna değer mi?"
+    },
+    {
+     "en": "Don't buy it. It isn't worth the money.",
+     "tr": "Alma. Parasına değmez."
+    }
+   ],
+   "commonMistake": "It deserves its money yerine It's worth the money denir."
+  },
+  {
+   "id": "use-by",
+   "term": "best before · use by",
+   "meaning": "tavsiye edilen tüketim tarihi · son tüketim tarihi",
+   "partOfSpeech": "etiket dili",
+   "sourceTerms": [
+    "best before · use by"
+   ],
+   "explanation": [
+    "use by güvenlik tarihidir: bu tarihten sonra ürün yenmemelidir (et, süt ürünleri). best before (end) kalite tarihidir: tarihten sonra genellikle güvenlidir ama kalitesi düşebilir (makarna, konserve). İlaç ve kozmetikte expiry date kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "expiry date",
+     "tr": "son kullanma tarihi"
+    },
+    {
+     "en": "best before end",
+     "tr": "… sonuna kadar tüketilmesi tavsiye edilir"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Use by 04.11: eat it before then.",
+     "tr": "Son tüketim 04.11: ondan önce tüketin."
+    },
+    {
+     "en": "Best before end 09.2027.",
+     "tr": "Eylül 2027 sonuna kadar tüketilmesi tavsiye edilir."
+    },
+    {
+     "en": "Check the expiry date on the medicine.",
+     "tr": "İlacın son kullanma tarihini kontrol edin."
+    }
+   ],
+   "commonMistake": "use by ile best before'u karıştırmayın: biri güvenlik, diğeri kalite tarihidir."
+  },
+  {
+   "id": "ingredients",
+   "term": "ingredients",
+   "meaning": "içindekiler",
+   "partOfSpeech": "etiket dili",
+   "sourceTerms": [
+    "ingredients"
+   ],
+   "explanation": [
+    "Ürünün içindeki maddelerin listesi; en çoktan en aza sıralanır. Parantez içindeki yüzdeler ana malzemenin oranını gösterir: spinach (30%). Yemek tarifindeki malzemeler de ingredients'tır."
+   ],
+   "collocations": [
+    {
+     "en": "the main ingredient",
+     "tr": "ana malzeme"
+    },
+    {
+     "en": "a list of ingredients",
+     "tr": "malzeme listesi"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Read the ingredients carefully.",
+     "tr": "İçindekileri dikkatle okuyun."
+    },
+    {
+     "en": "The main ingredient is spinach.",
+     "tr": "Ana malzeme ıspanak."
+    },
+    {
+     "en": "What are the ingredients for this cake?",
+     "tr": "Bu kekin malzemeleri neler?"
+    }
+   ],
+   "commonMistake": "materials yerine gıdalarda ingredients kullanılır."
+  },
+  {
+   "id": "may-contain",
+   "term": "contains · may contain nuts",
+   "meaning": "içerir · eser miktarda fındık içerebilir",
+   "partOfSpeech": "etiket dili",
+   "sourceTerms": [
+    "contains · may contain nuts"
+   ],
+   "explanation": [
+    "Alerji uyarılarının iki düzeyi. contains kesin içerir; may contain (traces of) aynı fabrikada işlendiği için eser miktarda bulunabilir demektir. nuts burada fındık, ceviz, badem gibi sert kabuklu yemişlerin genel adıdır."
+   ],
+   "collocations": [
+    {
+     "en": "traces of",
+     "tr": "eser miktarda"
+    },
+    {
+     "en": "nut-free",
+     "tr": "kuruyemiş içermez"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Contains: milk, eggs, wheat.",
+     "tr": "İçerir: süt, yumurta, buğday."
+    },
+    {
+     "en": "May contain traces of nuts.",
+     "tr": "Eser miktarda kuruyemiş içerebilir."
+    },
+    {
+     "en": "My son has a nut allergy, so we read every label.",
+     "tr": "Oğlumun kuruyemiş alerjisi var, bu yüzden her etiketi okuruz."
+    }
+   ],
+   "commonMistake": "Can be nuts yerine May contain nuts denir."
+  },
+  {
+   "id": "cool-dry",
+   "term": "Store in a cool, dry place.",
+   "meaning": "serin ve kuru yerde saklayın",
+   "partOfSpeech": "etiket dili",
+   "sourceTerms": [
+    "Store in a cool, dry place."
+   ],
+   "explanation": [
+    "Uzun ömürlü gıdaların saklama talimatı. store = saklamak, depolamak. Ek talimatlar: away from direct sunlight (doğrudan güneş ışığından uzakta), in an airtight container (hava almayan bir kapta)."
+   ],
+   "collocations": [
+    {
+     "en": "away from sunlight",
+     "tr": "güneş ışığından uzakta"
+    },
+    {
+     "en": "an airtight container",
+     "tr": "hava geçirmez kap"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Store in a cool, dry place away from sunlight.",
+     "tr": "Güneşten uzak, serin ve kuru yerde saklayın."
+    },
+    {
+     "en": "Once opened, keep in an airtight container.",
+     "tr": "Açıldıktan sonra hava geçirmez bir kapta saklayın."
+    },
+    {
+     "en": "Where do you store the rice?",
+     "tr": "Pirinci nerede saklıyorsun?"
+    }
+   ],
+   "commonMistake": "Keep in cold dry place gibi eksik biçim yerine Store in a cool, dry place denir."
+  },
+  {
+   "id": "refrigerated",
+   "term": "Keep refrigerated after opening.",
+   "meaning": "açıldıktan sonra buzdolabında saklayın",
+   "partOfSpeech": "etiket dili",
+   "sourceTerms": [
+    "Keep refrigerated after opening."
+   ],
+   "explanation": [
+    "Açıldıktan sonra soğukta saklanması gereken ürünlerin talimatı. refrigerated buzdolabında soğutulmuş demektir; konuşmada keep it in the fridge denir. Genellikle bir süreyle birlikte gelir: use within 3 days."
+   ],
+   "collocations": [
+    {
+     "en": "keep in the fridge",
+     "tr": "buzdolabında saklamak"
+    },
+    {
+     "en": "use within 3 days",
+     "tr": "3 gün içinde tüketin"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Keep refrigerated after opening and use within 3 days.",
+     "tr": "Açtıktan sonra buzdolabında saklayın ve 3 gün içinde tüketin."
+    },
+    {
+     "en": "Ketchup: keep refrigerated after opening.",
+     "tr": "Ketçap: açıldıktan sonra buzdolabında saklayın."
+    },
+    {
+     "en": "Put the milk back in the fridge, please.",
+     "tr": "Sütü buzdolabına geri koy lütfen."
+    }
+   ],
+   "commonMistake": "after opened yerine after opening denir."
+  },
+  {
+   "id": "cooking-instructions",
+   "term": "cooking instructions",
+   "meaning": "pişirme talimatları",
+   "partOfSpeech": "etiket dili",
+   "sourceTerms": [
+    "cooking instructions"
+   ],
+   "explanation": [
+    "Paketlerin arkasındaki hazırlama adımları; emir kipiyle ve sayılarla verilir: Preheat the oven to 200 °C. Bake for 25 minutes. Cook from frozen. Do not refreeze. Not suitable for microwave cooking."
+   ],
+   "collocations": [
+    {
+     "en": "preheat the oven",
+     "tr": "fırını önceden ısıtmak"
+    },
+    {
+     "en": "cook from frozen",
+     "tr": "donmuş hâlde pişirmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Follow the cooking instructions on the box.",
+     "tr": "Kutudaki pişirme talimatlarını uygulayın."
+    },
+    {
+     "en": "Preheat the oven to 200 °C and bake for 25 minutes.",
+     "tr": "Fırını 200 dereceye ısıtın ve 25 dakika pişirin."
+    },
+    {
+     "en": "Do not refreeze after defrosting.",
+     "tr": "Çözüldükten sonra tekrar dondurmayın."
+    }
+   ],
+   "commonMistake": "cooking rules yerine cooking instructions denir."
+  },
+  {
+   "id": "per-100g",
+   "term": "per 100 g · calories",
+   "meaning": "100 gramda · kalori",
+   "partOfSpeech": "etiket dili",
+   "sourceTerms": [
+    "per 100 g · calories"
+   ],
+   "explanation": [
+    "Besin değerleri per 100 g, per piece ya da per serving olarak verilir. kcal kilokaloridir; konuşmada calories denir. Diğer bilgiler: fat (yağ), sugar (şeker), salt (tuz), protein. Serves 4 = 4 kişilik."
+   ],
+   "collocations": [
+    {
+     "en": "per serving",
+     "tr": "porsiyon başına"
+    },
+    {
+     "en": "low in sugar",
+     "tr": "şekeri düşük"
+    }
+   ],
+   "examples": [
+    {
+     "en": "There are 95 calories per 100 g.",
+     "tr": "100 gramda 95 kalori var."
+    },
+    {
+     "en": "Per piece: 310 kcal, salt 1.1 g.",
+     "tr": "Parça başına: 310 kcal, tuz 1,1 g."
+    },
+    {
+     "en": "This yoghurt is low in sugar.",
+     "tr": "Bu yoğurdun şekeri düşük."
+    }
+   ],
+   "commonMistake": "in 100 g yerine etiket dilinde per 100 g kullanılır."
+  }
+ ]
+}

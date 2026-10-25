@@ -1,0 +1,1963 @@
+{
+ "version": 1,
+ "block": 4,
+ "chapters": [
+  {
+   "screenId": "shopping-ways",
+   "title": "Alışveriş biçimleri ve tercihler: prefer · would rather",
+   "intro": [
+    "MEB kazanımı: alışveriş biçimleriyle ilgili tercihlerini ifade eder; karşısındakilere soru sorar, tavsiye verir; örnekler mağazadan, internetten, taksitli, nakit gibi tercihlerdir. Bu ekranda önce alışveriş biçimlerinin kelimelerini öğreniyoruz: nerede (in store, online, at the market, on an app), nasıl ödeme (in cash, by card, in instalments, by phone) ve sonrası (delivery, return, refund, exchange, receipt, reviews). Edatlara dikkat: in cash, by card, in instalments.",
+    "Tercih bildirmenin iki temel kalıbı vardır ve ikisi farklı yapılar ister. Genel tercih için prefer A to B: I prefer shopping in store to shopping online. Belli bir durumdaki tercih için would rather + yalın fiil + than: I'd rather pay in cash than in instalments. Ayrıca kibar bir istek ya da tercih için would prefer to + fiil kullanılır: I'd prefer to see it in store first. Tercih tek başına zayıftır; her zaman bir gerekçe eklenir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I prefer markets to supermarkets.",
+     "tr": "Pazarları süpermarketlere tercih ederim.",
+     "why": [
+      "prefer A to B: genel tercih; than değil to."
+     ]
+    },
+    {
+     "en": "I'd rather wait for the sales than pay full price now.",
+     "tr": "Şimdi tam fiyat ödemektense indirimleri beklemeyi tercih ederim.",
+     "why": [
+      "would rather + yalın fiil (wait) + than + yalın fiil (pay). the sales = indirim dönemi."
+     ]
+    },
+    {
+     "en": "I'd prefer to try it on first. I'd rather not order it online.",
+     "tr": "Önce denemeyi tercih ederim. İnternetten sipariş vermemeyi tercih ederim.",
+     "why": [
+      "would prefer to + fiil; would rather not + fiil (olumsuz tercih)."
+     ]
+    },
+    {
+     "en": "I prefer paying in cash, because I can see how much I spend.",
+     "tr": "Nakit ödemeyi tercih ederim, çünkü ne kadar harcadığımı görebiliyorum.",
+     "why": [
+      "prefer + -ing; how much I spend dolaylı soru (düz sıra)."
+     ]
+    },
+    {
+     "en": "Would you rather shop online or in store? — It depends on what I'm buying.",
+     "tr": "İnternetten mi mağazadan mı almayı tercih edersin? — Ne aldığıma bağlı.",
+     "why": [
+      "Would you rather … or …? tercih sorusu. depend on + what cümleciği."
+     ]
+    },
+    {
+     "en": "We paid for the fridge in six instalments.",
+     "tr": "Buzdolabını altı taksitle ödedik.",
+     "why": [
+      "pay for + ürün; in + sayı + instalments."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "sw-vocabulary",
+     "title": "shop online · in store · pay in cash · by card · in instalments",
+     "meaning": "Alışveriş ve ödeme biçimlerini doğru edatla söylemek",
+     "explanation": [
+      "Alışverişin yeri: shop online (internetten), in store / in a shop (mağazadan), at the market (pazardan), on an app (uygulamadan). buy something online, buy something in store. Ödeme biçimi edatlarla söylenir ve her biri farklıdır: pay in cash (nakit), pay by card (kartla), pay in instalments (taksitle), pay by phone (telefonla). Bu edatlar kalıptır; pay with card konuşmada duyulsa da en yaygın ve doğru biçim by card'dır.",
+      "Taksit kelimesi instalment'tır (İngiliz yazımı; Amerikan: installment). Kaç taksit olduğu şöyle söylenir: We paid in six instalments. You can pay in 12 monthly instalments. Taksitli satın almanın bir diğer adı buy on credit'tir. Faizsiz taksit: with no extra charge / interest-free.",
+      "Alışverişten sonrası için de kelimeler gerekir. delivery teslimat, free delivery ücretsiz teslimattır. return bir ürünü iade etmek, refund para iadesi, exchange değişimdir: Can I get a refund? Can I exchange it for a larger size? receipt fiştir ve iade için gereklidir. reviews kullanıcı yorumlarıdır: I always read the reviews before I buy."
+     ],
+     "formula": [
+      "yer: shop online · in store · at the market · on an app",
+      "ödeme: pay in cash · by card · in instalments · by phone",
+      "sonrası: delivery · return · refund · exchange · receipt · reviews"
+     ],
+     "examples": [
+      {
+       "en": "We bought the fridge in six instalments, with no extra charge.",
+       "tr": "Buzdolabını altı taksitle, ek ücret olmadan aldık.",
+       "why": [
+        "in + sayı + instalments; with no extra charge = faizsiz."
+       ],
+       "chunks": [
+        {
+         "en": "in six instalments",
+         "tr": "altı taksitle"
+        },
+        {
+         "en": "with no extra charge",
+         "tr": "ek ücret olmadan"
+        }
+       ]
+      },
+      {
+       "en": "Can I pay by card? — Of course.",
+       "tr": "Kartla ödeyebilir miyim? — Tabii.",
+       "why": [
+        "by card kalıbı."
+       ]
+      },
+      {
+       "en": "These shoes are too small. Can I exchange them for a larger size?",
+       "tr": "Bu ayakkabılar çok küçük. Daha büyük bir numarayla değiştirebilir miyim?",
+       "why": [
+        "exchange A for B."
+       ]
+      },
+      {
+       "en": "Delivery is free for orders over 500 lira.",
+       "tr": "500 liranın üzerindeki siparişlerde teslimat ücretsiz.",
+       "why": [
+        "over = üzerinde; orders = siparişler."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Nakit ödemek” edatıyla nasıl söylenir?",
+       "answer": "pay in cash",
+       "why": "in cash"
+      },
+      {
+       "question": "“On iki taksitle” nasıl söylenir?",
+       "answer": "in twelve instalments",
+       "why": "in + instalments"
+      },
+      {
+       "question": "refund ile exchange farkı?",
+       "answer": "refund para iadesi, exchange başka bir ürünle değişim.",
+       "why": "İade türleri."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "We paid with taksit.",
+       "right": "We paid in instalments.",
+       "why": "Taksit = instalment; edat in."
+      },
+      {
+       "wrong": "Can I pay with cash?",
+       "right": "Can I pay in cash?",
+       "why": "Nakit için in cash kalıbı."
+      }
+     ]
+    },
+    {
+     "id": "sw-prefer",
+     "title": "I prefer A to B. · I'd rather … than … · I'd prefer to …",
+     "meaning": "Tercih kalıplarını doğru yapıyla kullanmak",
+     "explanation": [
+      "prefer genel ve kalıcı bir tercihi anlatır. Kalıp: prefer + isim / -ing + to + isim / -ing. I prefer markets to supermarkets. I prefer shopping in store to shopping online. Karşılaştırmada than değil to kullanılır; bu, Türkçeden ve diğer karşılaştırma yapılarından (cheaper than) gelen alışkanlık yüzünden çok sık yapılan bir hatadır.",
+      "would rather (kısaca 'd rather) belli bir durumdaki tercihi anlatır ve yalın fiil ister: I'd rather pay in cash than pay in instalments. İkinci fiil tekrar edilmeyebilir: I'd rather pay in cash than in instalments. would rather'dan sonra to gelmez (I'd rather to pay yanlış). Olumsuz: I'd rather not + yalın fiil: I'd rather not buy it online.",
+      "would prefer to + yalın fiil kibar bir istek ya da o an için tercih bildirir: I'd prefer to see it in store first. Bir tercihi sorarken: Would you rather shop online or in store? Do you prefer paying in cash or by card? Cevap çoğu zaman It depends on what I'm buying gibi dengeli bir ifade olabilir."
+     ],
+     "formula": [
+      "genel: I prefer + isim / -ing + to + isim / -ing (than değil)",
+      "belli durum: I'd rather + yalın fiil (+ than …) · I'd rather not + fiil",
+      "kibar: I'd prefer to + fiil · soru: Would you rather … or …?"
+     ],
+     "examples": [
+      {
+       "en": "I prefer shopping in store to shopping online.",
+       "tr": "Mağazadan alışverişi internetten alışverişe tercih ederim.",
+       "why": [
+        "prefer A to B; iki tarafta -ing."
+       ],
+       "chunks": [
+        {
+         "en": "prefer … to …",
+         "tr": "… -i … -e tercih etmek",
+         "note": "than değil to"
+        }
+       ]
+      },
+      {
+       "en": "I'd rather pay in cash than in instalments.",
+       "tr": "Taksitle ödemektense nakit ödemeyi tercih ederim.",
+       "why": [
+        "would rather + yalın fiil + than."
+       ]
+      },
+      {
+       "en": "I'd rather not buy shoes online. They're often the wrong size.",
+       "tr": "İnternetten ayakkabı almamayı tercih ederim. Çoğu zaman numarası yanlış oluyor.",
+       "why": [
+        "I'd rather not + fiil + gerekçe."
+       ]
+      },
+      {
+       "en": "Would you rather shop online or in store? — It depends on what I'm buying.",
+       "tr": "İnternetten mi mağazadan mı almayı tercih edersin? — Ne aldığıma bağlı.",
+       "why": [
+        "Tercih sorusu ve dengeli cevap."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "I prefer tea than coffee cümlesini düzeltin.",
+       "answer": "I prefer tea to coffee.",
+       "why": "prefer A to B"
+      },
+      {
+       "question": "I'd rather to stay at home cümlesini düzeltin.",
+       "answer": "I'd rather stay at home.",
+       "why": "would rather + yalın fiil"
+      },
+      {
+       "question": "“İnternetten almamayı tercih ederim.” İngilizcesi?",
+       "answer": "I'd rather not buy it online.",
+       "why": "I'd rather not + fiil"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I prefer the market than the supermarket.",
+       "right": "I prefer the market to the supermarket.",
+       "why": "prefer ile to kullanılır."
+      },
+      {
+       "wrong": "I'd rather paying in cash.",
+       "right": "I'd rather pay in cash.",
+       "why": "would rather + yalın fiil."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "prefer / would rather",
+       "explanation": [
+        "prefer genel ve kalıcı bir tercihi, would rather belli bir durumdaki seçimi anlatır. Yapıları da farklıdır: prefer A to B · would rather + yalın fiil + than."
+       ],
+       "example": "I prefer tea to coffee. · Tonight, I'd rather have coffee than tea.",
+       "tr": [
+        "Çayı kahveye tercih ederim. · Bu akşam çay yerine kahve içmeyi tercih ederim."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sw-reasons",
+     "title": "The problem with instalments is that … · because I can see how much I spend",
+     "meaning": "Tercihi artı ve eksilerle gerekçelendirmek",
+     "explanation": [
+      "Tercih gerekçesiz bırakılırsa sohbet ilerlemez. Gerekçe because ile verilebilir: I prefer paying in cash, because I can see how much I spend. Bir seçeneğin eksi yanını vurgulamak için The problem with + isim / -ing + is that …: The problem with instalments is that you're in debt for months. The problem with online shopping is that you can't try things on.",
+      "Artıları ve eksileri dengeli anlatmak B1 düzeyinin göstergesidir: Online shopping is cheaper and you can compare prices easily. On the other hand, you can't see the product, and returns take time. On the other hand (öte yandan) iki tarafı karşılaştırır. Ayrıca The good thing about … is that … artıyı vurgular.",
+      "Kişisel durumu gerekçe olarak kullanmak tercihi inandırıcı yapar: I live far from the shops, so I prefer shopping online. I work long hours, so delivery to my door is very useful. Bu cümlelerde so, kişisel durumdan tercihe giden mantığı gösterir."
+     ],
+     "formula": [
+      "because + cümle · The problem with … is that … · The good thing about … is that …",
+      "denge: … On the other hand, …",
+      "kişisel durum + so + tercih"
+     ],
+     "examples": [
+      {
+       "en": "I prefer paying in cash, because I can see how much I spend.",
+       "tr": "Nakit ödemeyi tercih ederim, çünkü ne kadar harcadığımı görebiliyorum.",
+       "why": [
+        "Tercih + because gerekçe; how much I spend dolaylı soru."
+       ]
+      },
+      {
+       "en": "The problem with instalments is that you're in debt for months.",
+       "tr": "Taksitlerin sorunu, aylarca borçlu olmanız.",
+       "why": [
+        "The problem with + isim + is that + cümle."
+       ],
+       "chunks": [
+        {
+         "en": "The problem with …",
+         "tr": "… -in sorunu"
+        },
+        {
+         "en": "be in debt",
+         "tr": "borçlu olmak"
+        }
+       ]
+      },
+      {
+       "en": "Online shopping is cheaper. On the other hand, you can't try things on.",
+       "tr": "İnternetten alışveriş daha ucuz. Öte yandan bir şeyleri deneyemezsiniz.",
+       "why": [
+        "On the other hand iki tarafı dengeler."
+       ]
+      },
+      {
+       "en": "I live far from the shops, so I prefer shopping online.",
+       "tr": "Dükkânlara uzak oturuyorum, bu yüzden internetten alışverişi tercih ediyorum.",
+       "why": [
+        "Kişisel durum → so → tercih."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“İnternetten alışverişin sorunu ürünü görememeniz.” İngilizcesi?",
+       "answer": "The problem with online shopping is that you can't see the product.",
+       "why": "The problem with … is that …"
+      },
+      {
+       "question": "“Öte yandan” İngilizcesi?",
+       "answer": "On the other hand, …",
+       "why": "Denge kurar."
+      },
+      {
+       "question": "“Ne kadar harcadığımı görebiliyorum.” İngilizcesi?",
+       "answer": "I can see how much I spend.",
+       "why": "Dolaylı soru: düz sıra."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I can see how much do I spend.",
+       "right": "I can see how much I spend.",
+       "why": "Dolaylı soruda düz cümle sırası, do yok."
+      },
+      {
+       "wrong": "The problem of instalments is …",
+       "right": "The problem with instalments is …",
+       "why": "Kalıp: the problem with."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "advice",
+   "title": "Soru sormak ve tavsiye vermek",
+   "intro": [
+    "Kazanımın ikinci yarısı: karşısındakilere soru sorar, tavsiye verir. Tavsiye konuşmasının üç tarafı vardır. Tavsiye isteyen kişi durumu anlatır ve sorar: What would you do? Do you think I should …? Tavsiye veren kişi önce bilgi toplar (How much can you spend?), sonra tavsiyesini gerekçesiyle verir (If I were you, I'd look online first, because …). Tavsiyeyi alan kişi de tepki verir: That's a good idea. / I'm not sure that would work.",
+    "Tavsiye kalıpları güçlerine göre farklıdır. You'd better (not) + fiil en güçlüsüdür ve bir uyarı tonu taşır: yapmazsan sorun olur. You should + fiil en yaygın ve nötr tavsiyedir. If I were you, I'd + fiil kişisel ve samimidir. Why don't you + fiil? ve It's a good idea to + fiil daha yumuşak önerilerdir. Make sure you + fiil bir hatırlatmadır. Bu kalıpların hepsinde fiil yalındır."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I need a new washing machine. Mine broke down yesterday. What would you do: buy one online or go to a shop?",
+     "tr": "Yeni bir çamaşır makinesine ihtiyacım var. Benimki dün bozuldu. Sen olsan ne yapardın: internetten mi alırdın, mağazaya mı giderdin?",
+     "why": [
+      "broke down = bozuldu (break down). What would you do? + iki seçenek."
+     ]
+    },
+    {
+     "en": "Not more than 20,000 lira. And I'd rather not pay in instalments.",
+     "tr": "En fazla 20.000 lira. Bir de taksitle ödememeyi tercih ederim.",
+     "why": [
+      "Not more than = en fazla. I'd rather not + fiil olumsuz tercih."
+     ]
+    },
+    {
+     "en": "Well, if I were you, I'd look online first. Prices are usually lower, and delivery is often free for big things.",
+     "tr": "Yerinde olsam önce internete bakardım. Fiyatlar genelde daha düşük ve büyük ürünlerde kargo çoğu zaman ücretsiz.",
+     "why": [
+      "If I were you + I'd + iki gerekçe. Well düşünerek başlamayı gösterir."
+     ]
+    },
+    {
+     "en": "But I can't see it online. What if it's very noisy?",
+     "tr": "Ama internette göremiyorum. Ya çok gürültülüyse?",
+     "why": [
+      "What if …? = ya … ise? Bir endişe bildirir."
+     ]
+    },
+    {
+     "en": "Why don't you go to a shop, look at the models and then compare the prices online?",
+     "tr": "Neden bir mağazaya gidip modellere bakmıyor, sonra fiyatları internetten karşılaştırmıyorsun?",
+     "why": [
+      "Why don't you + üç yalın fiil: yumuşak öneri; iki seçeneği birleştiren bir çözüm."
+     ]
+    },
+    {
+     "en": "You should read the reviews, and make sure installation is included.",
+     "tr": "Yorumları okumalısın ve kurulumun dahil olduğundan emin ol.",
+     "why": [
+      "should tavsiye; make sure + cümle hatırlatma. installation = kurulum."
+     ]
+    },
+    {
+     "en": "You'd better check the guarantee too.",
+     "tr": "Garantiyi de kontrol etsen iyi olur.",
+     "why": [
+      "had better güçlü tavsiye; too = de / da."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ad-asking",
+     "title": "What would you do? · Do you think I should …? · What do you think I should do?",
+     "meaning": "Tavsiye istemek ve önce soru sormak",
+     "explanation": [
+      "Tavsiye isterken önce durumu kısaca anlatırız, sonra sorarız. What would you do? (Sen olsan ne yapardın?) en doğal ve samimi sorudur. Do you think I should + fiil? belirli bir seçenek hakkında fikir sorar: Do you think I should buy a new one or repair it? What do you think I should do? genel bir tavsiye ister; dikkat: do you think'ten sonra düz sıra gelir (I should do), soru sırası değil.",
+      "İyi bir tavsiyeci hemen tavsiye vermez; önce soru sorar. How much can you spend? (Ne kadar harcayabilirsin?) How old is it? What do you use it for? When do you need it? Bu sorular tavsiyeyi kişiye özel yapar ve konuşmayı karşılıklı bir sohbete çevirir. Kazanımdaki “karşısındakilere soru sorar” kısmı tam olarak budur.",
+      "Tavsiye isteyen kişi de bilgi verirken tercihlerini söyler: Not more than 20,000 lira. And I'd rather not pay in instalments. Bu cümleler bir önceki adımdaki tercih kalıplarının (would rather) tavsiye konuşmasındaki kullanımıdır."
+     ],
+     "formula": [
+      "istemek: What would you do? · Do you think I should …? · What do you think I should do?",
+      "bilgi toplamak: How much can you spend? · How old is it? · When do you need it?",
+      "do you think + düz sıra: What do you think I should do?"
+     ],
+     "examples": [
+      {
+       "en": "My phone is very slow. Do you think I should buy a new one or repair it?",
+       "tr": "Telefonum çok yavaş. Sence yenisini mi almalıyım, tamir mi ettirmeliyim?",
+       "why": [
+        "Durum + seçenek sorusu."
+       ],
+       "chunks": [
+        {
+         "en": "Do you think I should …?",
+         "tr": "sence … -meli miyim?"
+        },
+        {
+         "en": "a new one",
+         "tr": "yenisi",
+         "note": "one = phone"
+        },
+        {
+         "en": "repair it",
+         "tr": "tamir ettirmek"
+        }
+       ]
+      },
+      {
+       "en": "What would you do: buy one online or go to a shop?",
+       "tr": "Sen olsan ne yapardın: internetten mi alırdın, mağazaya mı giderdin?",
+       "why": [
+        "What would you do? + iki seçenek."
+       ]
+      },
+      {
+       "en": "How much can you spend? — Not more than 20,000 lira.",
+       "tr": "Ne kadar harcayabilirsin? — En fazla 20.000 lira.",
+       "why": [
+        "Önce bilgi toplayan soru."
+       ]
+      },
+      {
+       "en": "What do you think I should do?",
+       "tr": "Sence ne yapmalıyım?",
+       "why": [
+        "do you think'ten sonra düz sıra: I should do."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "What do you think should I do? cümlesini düzeltin.",
+       "answer": "What do you think I should do?",
+       "why": "do you think + düz sıra"
+      },
+      {
+       "question": "“Sen olsan ne yapardın?” İngilizcesi?",
+       "answer": "What would you do?",
+       "why": "Tavsiye sorusu."
+      },
+      {
+       "question": "Tavsiye vermeden önce neden soru sorulur?",
+       "answer": "Tavsiyeyi kişinin durumuna göre vermek için.",
+       "why": "Kişiye özel tavsiye."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "What do you think should I do?",
+       "right": "What do you think I should do?",
+       "why": "do you think'ten sonra soru sırası kullanılmaz."
+      },
+      {
+       "wrong": "What you would do?",
+       "right": "What would you do?",
+       "why": "Soruda would özneden önce."
+      }
+     ]
+    },
+    {
+     "id": "ad-giving",
+     "title": "You should … · If I were you, I'd … · Why don't you …? · You'd better …",
+     "meaning": "Tavsiye kalıplarını güçlerine göre seçmek",
+     "explanation": [
+      "You should + yalın fiil en yaygın tavsiye kalıbıdır: You should read the reviews. Olumsuz: You shouldn't buy it without a guarantee. should kişiye göre değişmez ve to almaz. If I were you, I'd + yalın fiil (Yerinde olsam …) hayalî bir durum kurar ve tavsiyeyi kişisel, samimi yapar. Bu kalıpta were kullanılır; If I was you konuşmada duyulsa da sınav ve yazı dilinde were doğrudur.",
+      "Why don't you + yalın fiil? yumuşak bir öneri olarak tavsiye verir: Why don't you go to a shop and look at the models? It's a good idea to + fiil genel ve nazik bir tavsiyedir: It's a good idea to compare prices. Bu iki kalıp, karşı tarafı zorlamadan yönlendirir.",
+      "You'd better (not) + yalın fiil (= you had better) en güçlü tavsiyedir ve bir uyarı tonu taşır: You'd better check the guarantee (kontrol etsen iyi olur, yoksa sorun yaşarsın). You'd better to check yanlıştır. Make sure you + fiil ise bir hatırlatmadır: Make sure installation is included. Güçlü kalıpları sık kullanmak kaba duyulabilir; en çok should ve If I were you kullanılır."
+     ],
+     "formula": [
+      "nötr: You should / shouldn't + yalın fiil",
+      "samimi: If I were you, I'd + fiil · yumuşak: Why don't you …? · It's a good idea to …",
+      "güçlü / uyarı: You'd better (not) + fiil · hatırlatma: Make sure you …"
+     ],
+     "examples": [
+      {
+       "en": "If I were you, I'd look online first. Prices are usually lower.",
+       "tr": "Yerinde olsam önce internete bakardım. Fiyatlar genelde daha düşük.",
+       "why": [
+        "If I were you + I'd + gerekçe."
+       ],
+       "chunks": [
+        {
+         "en": "If I were you",
+         "tr": "yerinde olsam",
+         "note": "were, was değil"
+        },
+        {
+         "en": "I'd look",
+         "tr": "bakardım",
+         "note": "would + yalın"
+        }
+       ]
+      },
+      {
+       "en": "Why don't you go to a shop, look at the models and then compare the prices online?",
+       "tr": "Neden bir mağazaya gidip modellere bakmıyor, sonra fiyatları internetten karşılaştırmıyorsun?",
+       "why": [
+        "Why don't you + üç fiil: yumuşak öneri."
+       ]
+      },
+      {
+       "en": "You should read the reviews, and make sure installation is included.",
+       "tr": "Yorumları okumalısın ve kurulumun dahil olduğundan emin ol.",
+       "why": [
+        "should + hatırlatma."
+       ]
+      },
+      {
+       "en": "You'd better check the guarantee too.",
+       "tr": "Garantiyi de kontrol etsen iyi olur.",
+       "why": [
+        "Güçlü tavsiye / uyarı tonu."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "If I was you mı If I were you mu?",
+       "answer": "If I were you",
+       "why": "Hayalî durumda were."
+      },
+      {
+       "question": "You'd better to keep the receipt cümlesini düzeltin.",
+       "answer": "You'd better keep the receipt.",
+       "why": "had better + yalın fiil"
+      },
+      {
+       "question": "En güçlü tavsiye kalıbı hangisi?",
+       "answer": "You'd better …",
+       "why": "Uyarı tonu."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "You should to read the reviews.",
+       "right": "You should read the reviews.",
+       "why": "should'dan sonra to gelmez."
+      },
+      {
+       "wrong": "If I am you, I will wait.",
+       "right": "If I were you, I'd wait.",
+       "why": "Hayalî koşul: were + would."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "should / had better",
+       "explanation": [
+        "should genel bir tavsiyedir; had better belli bir durumda yapılmazsa sorun çıkacağını ima eden güçlü bir tavsiyedir."
+       ],
+       "example": "You should read more. · You'd better leave now, or you'll miss the bus.",
+       "tr": [
+        "Daha çok okumalısın. · Şimdi çıksan iyi olur, yoksa otobüsü kaçıracaksın."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ad-responding",
+     "title": "That's a good idea. · Thanks, that's really helpful. · I'm not sure that would work.",
+     "meaning": "Tavsiyeye tepki vermek ve karar söylemek",
+     "explanation": [
+      "Tavsiyeyi alan kişi tepki vermelidir; bu hem kibarlıktır hem de konuşmayı tamamlar. Olumlu tepkiler: That's a good idea. Thanks, that's really helpful. Good point, I didn't think of that. Maybe you're right. Bu ifadeler tavsiyeyi değerlendirdiğinizi gösterir.",
+      "Tavsiye size uymuyorsa kibarca itiraz edilir ve gerekçe verilir: I'm not sure that would work, because the shop is too far. That's true, but I can't wait two months. Burada would, hayalî bir durumu değerlendirir: “işe yarar mı emin değilim”. Doğrudan That's a bad idea demek kaba duyulur.",
+      "Konuşmanın sonunda kararınızı söyleyin: I think I'll ask how much a new battery costs. OK, I'll go to the shop first. I think I'll … anlık bir karardır ve tavsiye konuşmasını doğal bir şekilde bitirir. Hangi tavsiyeyi neden seçtiğinizi de ekleyebilirsiniz: I'll follow your advice because it's cheaper."
+     ],
+     "formula": [
+      "olumlu: That's a good idea. · Thanks, that's really helpful. · Maybe you're right.",
+      "kibar itiraz: I'm not sure that would work, because … · That's true, but …",
+      "karar: I think I'll … · I'll follow your advice because …"
+     ],
+     "examples": [
+      {
+       "en": "That's a good idea. I'll ask how much a new battery costs.",
+       "tr": "İyi fikir. Yeni pilin ne kadar olduğunu soracağım.",
+       "why": [
+        "Tepki + karar; how much … costs dolaylı soru."
+       ]
+      },
+      {
+       "en": "I'm not sure that would work, because the shop is too far from my home.",
+       "tr": "Bunun işe yarayacağından emin değilim, çünkü dükkân evime çok uzak.",
+       "why": [
+        "Kibar itiraz + gerekçe."
+       ],
+       "chunks": [
+        {
+         "en": "I'm not sure that would work",
+         "tr": "işe yarar mı emin değilim"
+        },
+        {
+         "en": "too far from",
+         "tr": "-e çok uzak"
+        }
+       ]
+      },
+      {
+       "en": "Thanks, that's really helpful!",
+       "tr": "Sağ ol, çok yardımcı oldu!",
+       "why": [
+        "Teşekkür tepkisi."
+       ]
+      },
+      {
+       "en": "Good point, I didn't think of that.",
+       "tr": "İyi nokta, bunu düşünmemiştim.",
+       "why": [
+        "think of = aklına gelmek."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bunun işe yarayacağından emin değilim.” İngilizcesi?",
+       "answer": "I'm not sure that would work.",
+       "why": "Kibar itiraz."
+      },
+      {
+       "question": "“Bunu düşünmemiştim.” İngilizcesi?",
+       "answer": "I didn't think of that.",
+       "why": "think of"
+      },
+      {
+       "question": "Konuşmayı karar cümlesiyle nasıl bitirirsiniz?",
+       "answer": "I think I'll …",
+       "why": "Anlık karar."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "That's a bad idea.",
+       "right": "I'm not sure that would work, because …",
+       "why": "Doğrudan ret kaba duyulur."
+      },
+      {
+       "wrong": "I'll ask how much does it cost.",
+       "right": "I'll ask how much it costs.",
+       "why": "Dolaylı soruda düz sıra."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "forum",
+   "title": "Forum: bir tavsiye gönderisini okumak ve cevap yazmak",
+   "intro": [
+    "Bu adım okuma ve yazma becerilerini birleştirir. Önce bir forum gönderisini ve üç cevabı okuyoruz. Gönderiyi yazan kişi kızı için bir dizüstü bilgisayar alacak ve iki seçenek arasında kararsız: faizsiz 12 taksit ya da nakit ödeyince yüzde 5 indirim. Üç cevap üç farklı tavsiye veriyor: taksiti seçmek, beklemek ve biriktirmek, ya da önce internetteki fiyatları karşılaştırmak. Okurken her cevabın ana tavsiyesini ve gerekçesini bulmak, ana noktaları anlama kazanımının yazılı bir uygulamasıdır.",
+    "Sonra kendi cevabımızı yazıyoruz. İyi bir tavsiye yazısının dört bölümü vardır: selam ve anlayış (Hi! I understand. Buying a laptop is a big decision.), ana tavsiye (If I were you, I'd …), gerekçe ve örnek (The main reason is that … For example, …) ve bir uyarı ile iyi dilek (Make sure you … Good luck!). Bu yapı, 27 Ekim'deki PREP ile 2 Kasım'daki tavsiye kalıplarını birleştirir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "The shop offers 12 instalments with no extra charge, or a 5% discount if I pay in cash.",
+     "tr": "Dükkân ek ücretsiz 12 taksit ya da nakit ödersem yüzde 5 indirim sunuyor.",
+     "why": [
+      "offer = sunmak. with no extra charge = ek ücret olmadan. if + geniş zaman."
+     ]
+    },
+    {
+     "en": "I'd rather not borrow money, but I haven't got all the money now.",
+     "tr": "Borç almamayı tercih ederim ama şu an paranın hepsi bende yok.",
+     "why": [
+      "I'd rather not + fiil. haven't got = yok (sahip değilim)."
+     ]
+    },
+    {
+     "en": "If I were you, I'd take the instalments, because there's no extra charge.",
+     "tr": "Yerinde olsam taksiti seçerdim, çünkü ek ücret yok.",
+     "why": [
+      "Hayalî tavsiye + gerekçe."
+     ]
+    },
+    {
+     "en": "I prefer paying in cash to paying in instalments, because I don't like owing money.",
+     "tr": "Nakit ödemeyi taksitle ödemeye tercih ederim, çünkü borçlu olmayı sevmem.",
+     "why": [
+      "prefer -ing to -ing. owe money = borçlu olmak."
+     ]
+    },
+    {
+     "en": "Prices often go down in the November sales.",
+     "tr": "Fiyatlar Kasım indirimlerinde çoğu zaman düşer.",
+     "why": [
+      "go down = düşmek. often fiilden önce."
+     ]
+    },
+    {
+     "en": "It's also a good idea to ask if there's a student discount.",
+     "tr": "Öğrenci indirimi olup olmadığını sormak da iyi bir fikir.",
+     "why": [
+      "It's a good idea to + fiil. ask if + cümle: dolaylı evet/hayır sorusu."
+     ]
+    },
+    {
+     "en": "You'd better check the guarantee, because online sellers sometimes give only one year.",
+     "tr": "Garantiyi kontrol etsen iyi olur, çünkü internetteki satıcılar bazen sadece bir yıl veriyor.",
+     "why": [
+      "had better güçlü tavsiye + gerekçe."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "fr-reading",
+     "title": "What's the main advice? · What's the reason?",
+     "meaning": "Forum cevaplarında tavsiye ve gerekçeyi ayırt etmek",
+     "explanation": [
+      "Forum cevapları genellikle kısa ve doğrudandır; her biri bir ana tavsiye ve bir iki gerekçe içerir. Mehtap_K'nin ana tavsiyesi taksiti seçmek (If I were you, I'd take the instalments), gerekçesi ek ücret olmaması ve indirimin küçük olması (A 5% discount is only 1,600 lira). Old_Teacher'ın tercihi nakit (I prefer paying in cash to paying in instalments), tavsiyesi beklemek ve biriktirmek (Why don't you wait two or three months and save?).",
+      "TechGuy_Bursa yeni bir bilgi getiriyor: aynı bilgisayar iki sitede 29.500 lira. Ana tavsiyesi fiyatları karşılaştırmak (You should compare prices online first) ve öğrenci indirimini sormak; uyarısı da garantiyi kontrol etmek (You'd better check the guarantee). Bu cevabı okurken yeni bilginin (cheaper online) diğer tavsiyeleri nasıl değiştirdiğini fark etmek önemlidir.",
+      "Kim ne öneriyor sorularını cevaplarken tavsiye kalıplarını (If I were you, Why don't you, You should, It's a good idea to, You'd better) işaret olarak kullanın. Gerekçeler ise because, The main reason, rakamlar ve so ile gelir. Metindeki renkli işaretler bu ayrımı görsel olarak gösterir."
+     ],
+     "formula": [
+      "tavsiye işaretleri: If I were you · Why don't you · You should · It's a good idea to · You'd better",
+      "gerekçe işaretleri: because · the main reason · rakamlar · so",
+      "yeni bilgi diğer tavsiyeleri değiştirebilir (cheaper online)."
+     ],
+     "examples": [
+      {
+       "en": "If I were you, I'd take the instalments, because there's no extra charge.",
+       "tr": "Yerinde olsam taksiti seçerdim, çünkü ek ücret yok.",
+       "why": [
+        "Tavsiye + gerekçe (because)."
+       ]
+      },
+      {
+       "en": "A 5% discount is only 1,600 lira, and you'd have to find 32,000 lira today.",
+       "tr": "Yüzde 5 indirim sadece 1.600 lira ve bugün 32.000 lira bulmanız gerekir.",
+       "why": [
+        "Rakamlarla gerekçe; you'd have to = zorunda kalırdınız."
+       ],
+       "chunks": [
+        {
+         "en": "only 1,600 lira",
+         "tr": "sadece 1.600 lira"
+        },
+        {
+         "en": "you'd have to",
+         "tr": "… zorunda kalırdınız",
+         "note": "hayalî durum"
+        }
+       ]
+      },
+      {
+       "en": "Why don't you wait two or three months and save?",
+       "tr": "Neden iki üç ay bekleyip biriktirmiyorsunuz?",
+       "why": [
+        "Yumuşak öneri; save = biriktirmek."
+       ]
+      },
+      {
+       "en": "You should compare prices online first. The same laptop is 29,500 lira on two websites.",
+       "tr": "Önce internetten fiyatları karşılaştırmalısınız. Aynı bilgisayar iki sitede 29.500 lira.",
+       "why": [
+        "Tavsiye + yeni bilgi."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Mehtap_K'nin ana tavsiyesi ne?",
+       "answer": "Taksiti seçmek.",
+       "why": "If I were you, I'd take the instalments."
+      },
+      {
+       "question": "Hangi cevap yeni bir fiyat bilgisi veriyor?",
+       "answer": "TechGuy_Bursa (29.500 lira).",
+       "why": "cheaper online"
+      },
+      {
+       "question": "Tavsiyeyi gösteren iki işaret kalıp söyleyin.",
+       "answer": "If I were you · You should (Why don't you, You'd better …)",
+       "why": "Tavsiye işaretleri."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Bütün cevapları aynı tavsiye sanmak.",
+       "right": "Her cevabın farklı ana tavsiyesini ve gerekçesini ayırmak.",
+       "why": "Kim ne öneriyor sorusu bunu ölçer."
+      },
+      {
+       "wrong": "Gerekçeyi tavsiye ile karıştırmak.",
+       "right": "Tavsiye: ne yapmalı; gerekçe: neden.",
+       "why": "If I were you … (tavsiye) · because … (gerekçe)"
+      }
+     ]
+    },
+    {
+     "id": "fr-hypothetical",
+     "title": "If I were you, I'd … · you'd have to …",
+     "meaning": "Hayalî durumla tavsiye ve sonuç anlatmak",
+     "explanation": [
+      "Forum cevaplarında hayalî (ikinci tip) koşul cümleleri sık görülür. If I were you, I'd + fiil kalıbında konuşan kişi kendini karşısındakinin yerine koyar: gerçekte o kişi değildir, bu yüzden hayalî bir durumdur. Bu yüzden past simple biçimi (were) ve would kullanılır; anlam geçmiş değil, şimdiki ya da gelecek bir tavsiyedir.",
+      "Aynı mantıkla bir seçeneğin hayalî sonucu would ile anlatılır: If you paid in cash, you'd have to find 32,000 lira today. Kısa biçimde: you'd have to find 32,000 lira today (nakit öderseniz). you'd = you would; ardından yalın fiil gelir. Bu yapı, seçeneklerin sonuçlarını karşılaştırırken çok işe yarar.",
+      "If I were you'dan sonra I wouldn't + fiil ile olumsuz tavsiye de verilir: If I were you, I wouldn't buy a second-hand machine without a guarantee. Bu, You shouldn't … ile aynı anlamdadır ama daha kişisel ve yumuşaktır."
+     ],
+     "formula": [
+      "If I were you, I'd + yalın fiil · If I were you, I wouldn't + yalın fiil",
+      "hayalî sonuç: you'd have to + fiil · If you paid …, you'd …",
+      "were: hayalî durum (geçmiş anlamı yok)"
+     ],
+     "examples": [
+      {
+       "en": "If I were you, I wouldn't buy a second-hand machine without a guarantee.",
+       "tr": "Yerinde olsam garantisiz ikinci el bir makine almazdım.",
+       "why": [
+        "Olumsuz hayalî tavsiye."
+       ],
+       "chunks": [
+        {
+         "en": "I wouldn't buy",
+         "tr": "almazdım"
+        },
+        {
+         "en": "second-hand",
+         "tr": "ikinci el"
+        },
+        {
+         "en": "without a guarantee",
+         "tr": "garantisiz"
+        }
+       ]
+      },
+      {
+       "en": "If you paid in cash, you'd have to find 32,000 lira today.",
+       "tr": "Nakit öderseniz bugün 32.000 lira bulmanız gerekir.",
+       "why": [
+        "İkinci tip koşul: paid + would."
+       ]
+      },
+      {
+       "en": "If I were you, I'd wait for the November sales.",
+       "tr": "Yerinde olsam Kasım indirimlerini beklerdim.",
+       "why": [
+        "Hayalî tavsiye; the sales = indirim dönemi."
+       ]
+      },
+      {
+       "en": "I'd ask about a student discount too.",
+       "tr": "Öğrenci indirimini de sorardım.",
+       "why": [
+        "If I were you anlaşılıyor; sadece I'd."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Yerinde olsam almazdım.” İngilizcesi?",
+       "answer": "If I were you, I wouldn't buy it.",
+       "why": "wouldn't + fiil"
+      },
+      {
+       "question": "If I were you cümlesinde were geçmiş anlamı taşır mı?",
+       "answer": "Hayır; hayalî bir durumu anlatır.",
+       "why": "Şimdiki / gelecek tavsiye."
+      },
+      {
+       "question": "you'd have to'da 'd neyin kısaltması?",
+       "answer": "would",
+       "why": "you would have to"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "If I am you, I will wait.",
+       "right": "If I were you, I'd wait.",
+       "why": "Hayalî durum: were + would."
+      },
+      {
+       "wrong": "If I were you, I would to wait.",
+       "right": "If I were you, I would wait.",
+       "why": "would + yalın fiil."
+      }
+     ]
+    },
+    {
+     "id": "fr-writing",
+     "title": "Hi! I understand … · The main reason is that … · Make sure you … · Good luck!",
+     "meaning": "Dört bölümlü bir tavsiye cevabı yazmak",
+     "explanation": [
+      "Birinci bölüm, karşıdakinin durumunu anladığınızı gösterir: Hi! I understand. Buying a laptop is a big decision. Congratulations to your daughter! Bu kısa giriş cevabınızı sıcak ve kişisel yapar. Forum dilinde Hi everyone, Hi Student_Mum gibi hitaplar kullanılır.",
+      "İkinci ve üçüncü bölüm tavsiye ve gerekçedir: If I were you, I'd compare prices online first. The main reason is that the same laptop is often cheaper on other websites. For example, my son bought his laptop online and saved 2,000 lira. Gerekçe, bir rakam ya da kişisel bir örnekle güçlenir. Birden fazla tavsiye verecekseniz sıralayın: First, … Also, …",
+      "Dördüncü bölüm bir uyarı ve iyi dilektir: Make sure you read the contract carefully. Don't forget to ask about the guarantee. Good luck! I hope your daughter enjoys university. Yazdıktan sonra kontrol edin: should to, If I was you, I'd rather to gibi hatalar var mı? Her tavsiyenin bir gerekçesi var mı?"
+     ],
+     "formula": [
+      "1 · Hi! I understand. … is a big decision.",
+      "2–3 · If I were you, I'd … · The main reason is that … · For example, …",
+      "4 · Make sure you … · Don't forget to … · Good luck!"
+     ],
+     "examples": [
+      {
+       "en": "Hi! I understand. Buying a laptop is a big decision.",
+       "tr": "Merhaba! Anlıyorum. Dizüstü bilgisayar almak büyük bir karar.",
+       "why": [
+        "Anlayış gösteren giriş; buying -ing özne."
+       ]
+      },
+      {
+       "en": "If I were you, I'd compare prices online first. The main reason is that the same laptop is often cheaper on other websites.",
+       "tr": "Yerinde olsam önce internetten fiyatları karşılaştırırdım. Asıl sebep, aynı bilgisayarın diğer sitelerde çoğu zaman daha ucuz olması.",
+       "why": [
+        "Tavsiye + gerekçe."
+       ],
+       "chunks": [
+        {
+         "en": "compare prices",
+         "tr": "fiyatları karşılaştırmak"
+        },
+        {
+         "en": "The main reason is that …",
+         "tr": "asıl sebep …"
+        }
+       ]
+      },
+      {
+       "en": "For example, my son bought his laptop online and saved 2,000 lira.",
+       "tr": "Örneğin oğlum bilgisayarını internetten aldı ve 2.000 lira tasarruf etti.",
+       "why": [
+        "Kişisel örnek + rakam."
+       ]
+      },
+      {
+       "en": "Make sure you read the contract carefully. Good luck!",
+       "tr": "Sözleşmeyi dikkatle okuduğunuzdan emin olun. İyi şanslar!",
+       "why": [
+        "Uyarı + iyi dilek."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Tavsiye cevabının dört bölümü?",
+       "answer": "Anlayış · tavsiye · gerekçe / örnek · uyarı ve iyi dilek.",
+       "why": "Yapı."
+      },
+      {
+       "question": "Gerekçeyi ne güçlendirir?",
+       "answer": "Bir rakam ya da kişisel bir örnek.",
+       "why": "For example, …"
+      },
+      {
+       "question": "Yazıdan sonra kontrol edilecek iki hata?",
+       "answer": "should to · If I was you (I'd rather to)",
+       "why": "Kontrol listesi."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "If I was you, you should to wait.",
+       "right": "If I were you, I'd wait. / You should wait.",
+       "why": "İki kalıbı karıştırmayın; were ve yalın fiil."
+      },
+      {
+       "wrong": "Tavsiyeyi gerekçesiz bırakmak.",
+       "right": "Her tavsiyeye because ya da The main reason is that ile gerekçe eklemek.",
+       "why": "Gerekçesiz tavsiye zayıftır."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "decide-together",
+   "title": "Birlikte karar vermek: karşılaştır, tercih et, uzlaş",
+   "intro": [
+    "Bu adım dört günün becerilerini tek bir görevde birleştirir. Grup, kursun mutfağı için bir kahve makinesi seçecek. Üç seçenek var: yerel dükkândan pahalı ama denenebilen bir makine, internetten hızlı teslimatlı bir makine ve ikinci el, garantisiz ama ucuz bir makine. Bütçe 9.000 lira. Grup seçenekleri karşılaştıracak (fiyat, ödeme, garanti, yorumlar), her üye kendi rolüne göre tercihini söyleyecek, birbirine soru soracak ve tavsiye verecek, sonunda ortak bir karara varacak.",
+    "Ortak karar vermenin kendine özgü bir dili vardır: öneri (Shall we go for B? What about A?), tercih (I'd rather pay more and get a guarantee.), fikir sorma (What do you think?), uzlaşma (That's fine with me. Can we find a compromise?) ve karar (OK, let's go for B, then. We all agree that …). Kararın sunumu ise PREP yapısıyla yapılır: We decided to buy … The main reasons are that … We didn't choose … because …"
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Our budget is 9,000 lira at most, and Machine B costs 7,900 lira plus 300 lira delivery.",
+     "tr": "Bütçemiz en fazla 9.000 lira, Makine B ise 7.900 lira artı 300 lira teslimat.",
+     "why": [
+      "at most = en fazla; plus = artı. Toplam 8.200 lira eder ve bütçe dahilindedir."
+     ]
+    },
+    {
+     "en": "Shall we go for Machine B?",
+     "tr": "Makine B'yi seçelim mi?",
+     "why": [
+      "Shall we + go for: öneri."
+     ]
+    },
+    {
+     "en": "I'd rather pay more and get a guarantee.",
+     "tr": "Daha fazla ödeyip garanti almayı tercih ederim.",
+     "why": [
+      "would rather + yalın fiil + and + yalın fiil."
+     ]
+    },
+    {
+     "en": "If I were you, I wouldn't buy a second-hand machine without a guarantee.",
+     "tr": "Yerinde olsam garantisiz ikinci el bir makine almazdım.",
+     "why": [
+      "Olumsuz hayalî tavsiye: wouldn't + fiil; without + isim."
+     ]
+    },
+    {
+     "en": "OK, let's go for B, then.",
+     "tr": "Tamam, o zaman B'yi seçelim.",
+     "why": [
+      "Let's + yalın fiil: karar. then = o zaman."
+     ]
+    },
+    {
+     "en": "We all agree that B is the best value.",
+     "tr": "Hepimiz B'nin en hesaplısı olduğunda hemfikiriz.",
+     "why": [
+      "agree that + cümle; be kullanılmaz (We are all agree ✗)."
+     ]
+    },
+    {
+     "en": "We decided to buy B. We didn't choose C because it had no guarantee.",
+     "tr": "B'yi almaya karar verdik. C'yi seçmedik çünkü garantisi yoktu.",
+     "why": [
+      "decide to + fiil; didn't + choose (yalın); had no = yoktu."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "dt-table",
+     "title": "Machine B costs 8,200 TL in total. · Machine A is outside the budget.",
+     "meaning": "Seçenek tablosunu okuyup hesaplamak ve karşılaştırmak",
+     "explanation": [
+      "Karar vermeden önce bilgiyi doğru okumak gerekir. Tabloda Machine B'nin fiyatı 7.900 lira ama teslimat 300 lira; toplam 8.200 lira eder: Machine B costs 8,200 lira in total. Machine A 9.800 lira ile bütçenin dışındadır: Machine A is outside our budget / over our budget. Machine C en ucuzudur (4.500 lira) ama garantisi yoktur.",
+      "Karşılaştırma dili burada tekrar devreye girer: Machine C is the cheapest, but it has no guarantee. Machine B is cheaper than A, and it has the best reviews. Machine A isn't as cheap as B, but you can try it in the shop. Her seçeneğin bir artısı ve bir eksisi vardır; but ve although bunu dengeler.",
+      "Ödeme ve hizmet bilgileri de karar ölçütüdür: Machine A: cash or card, 6 instalments. Machine B: card only, 3 instalments, free returns for 14 days. Machine C: cash only, you must collect it from Nilüfer. Bu ayrıntılar özellikle grup üyelerinin rollerine göre (fiyat, kalite, güvenlik, kolaylık) farklı önem taşır."
+     ],
+     "formula": [
+      "toplam: … costs … in total · outside / over our budget",
+      "karşılaştırma: the cheapest · cheaper than · not as … as · the best reviews",
+      "ayrıntı: card only · 3 instalments · free returns · you must collect it"
+     ],
+     "examples": [
+      {
+       "en": "Machine B costs 8,200 lira in total, because delivery is 300 lira.",
+       "tr": "Makine B toplam 8.200 lira, çünkü teslimat 300 lira.",
+       "why": [
+        "Toplam hesabı: in total."
+       ],
+       "chunks": [
+        {
+         "en": "in total",
+         "tr": "toplamda"
+        },
+        {
+         "en": "delivery",
+         "tr": "teslimat ücreti"
+        }
+       ]
+      },
+      {
+       "en": "Machine A is over our budget, so we can't choose it.",
+       "tr": "Makine A bütçemizin üzerinde, bu yüzden seçemeyiz.",
+       "why": [
+        "over budget = bütçe üstü; so sonuç."
+       ]
+      },
+      {
+       "en": "Machine C is the cheapest, but it has no guarantee.",
+       "tr": "Makine C en ucuzu ama garantisi yok.",
+       "why": [
+        "the cheapest + but eksi."
+       ]
+      },
+      {
+       "en": "Machine B has the best reviews, and it comes with free returns for 14 days.",
+       "tr": "Makine B en iyi yorumlara sahip ve 14 gün ücretsiz iade imkânı var.",
+       "why": [
+        "the best + ek artı."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Makine B'nin toplam fiyatı?",
+       "answer": "8,200 TL (7,900 + 300).",
+       "why": "in total"
+      },
+      {
+       "question": "Hangisi bütçe dışında?",
+       "answer": "Machine A (9,800 TL).",
+       "why": "over budget"
+      },
+      {
+       "question": "“Garantisi yok.” İngilizcesi?",
+       "answer": "It has no guarantee. / It doesn't come with a guarantee.",
+       "why": "no + isim"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Machine B is 7,900 TL. (teslimatı unutmak)",
+       "right": "Machine B costs 8,200 TL in total.",
+       "why": "Toplam maliyeti hesaplayın."
+      },
+      {
+       "wrong": "It's out of budget.",
+       "right": "It's over our budget. / It's outside our budget.",
+       "why": "Kalıp: over / outside the budget."
+      }
+     ]
+    },
+    {
+     "id": "dt-negotiate",
+     "title": "Shall we go for B? · I'd rather … · That's fine with me. · Can we find a compromise?",
+     "meaning": "Grupta öneri yapmak, tercih söylemek ve uzlaşmak",
+     "explanation": [
+      "go for + seçenek, bir seçeneği seçmeyi öneren samimi bir ifadedir: Shall we go for Machine B? Let's go for the second one, then. What about …? (… ne dersiniz?) başka bir seçeneği gündeme getirir. What do you think, Ece? diğer üyelerin fikrini sorar ve herkesin konuşmasını sağlar.",
+      "Tercih ve gerekçe would rather ile söylenir: I'd rather pay more and get a guarantee. I'd rather not buy a second-hand machine. Grup içinde fikir ayrılığı olduğunda kibar itiraz kalıpları kullanılır: I see your point, but the guarantee is important. That's true, but we'd have to collect it from Nilüfer.",
+      "Uzlaşma ifadeleri karara giden yolu açar: That's fine with me (Bana uyar). I don't mind (Benim için fark etmez). Can we find a compromise? (Orta yol bulabilir miyiz?) Karar: OK, let's go for B, then. We all agree that B is the best value. Bu ifadeler grubun birlikte karar verdiğini gösterir."
+     ],
+     "formula": [
+      "öneri: Shall we go for …? · What about …? · What do you think?",
+      "tercih / itiraz: I'd rather … · I see your point, but …",
+      "uzlaşma ve karar: That's fine with me. · I don't mind. · OK, let's go for …, then. · We all agree that …"
+     ],
+     "examples": [
+      {
+       "en": "Shall we go for Machine B? It has the best reviews.",
+       "tr": "Makine B'yi seçelim mi? En iyi yorumlar onun.",
+       "why": [
+        "go for = seçmek; öneri + gerekçe."
+       ],
+       "chunks": [
+        {
+         "en": "go for",
+         "tr": "seçmek, tercih etmek"
+        },
+        {
+         "en": "the best reviews",
+         "tr": "en iyi yorumlar"
+        }
+       ]
+      },
+      {
+       "en": "I'd rather pay more and get a guarantee.",
+       "tr": "Daha fazla ödeyip garanti almayı tercih ederim.",
+       "why": [
+        "would rather + iki yalın fiil."
+       ]
+      },
+      {
+       "en": "That's fine with me. What do you think, Ece?",
+       "tr": "Bana uyar. Sen ne düşünüyorsun, Ece?",
+       "why": [
+        "Uzlaşma + fikir sorma."
+       ]
+      },
+      {
+       "en": "OK, let's go for B, then. We all agree that it's the best value.",
+       "tr": "Tamam, o zaman B'yi seçelim. Hepimiz en hesaplısının o olduğunda hemfikiriz.",
+       "why": [
+        "Karar + ortak görüş."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“B'yi seçelim mi?” samimi biçimde?",
+       "answer": "Shall we go for B?",
+       "why": "go for"
+      },
+      {
+       "question": "“Bana uyar.” İngilizcesi?",
+       "answer": "That's fine with me.",
+       "why": "Uzlaşma."
+      },
+      {
+       "question": "“Orta yol bulabilir miyiz?” İngilizcesi?",
+       "answer": "Can we find a compromise?",
+       "why": "compromise"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I'd rather to pay more.",
+       "right": "I'd rather pay more.",
+       "why": "would rather + yalın fiil."
+      },
+      {
+       "wrong": "We are all agree.",
+       "right": "We all agree.",
+       "why": "agree be almaz."
+      }
+     ]
+    },
+    {
+     "id": "dt-present",
+     "title": "We decided to buy … · The main reasons are that … · We didn't choose … because …",
+     "meaning": "Grup kararını gerekçeleriyle sunmak",
+     "explanation": [
+      "Kararı sunarken geçmiş zaman kullanılır, çünkü karar verilmiştir: We decided to buy Machine B. decide to + yalın fiil kalıbına dikkat. Ardından gerekçeler gelir: The main reasons are that it's within our budget and it has the best reviews. İki gerekçe olduğu için reasons çoğul ve are kullanılır.",
+      "İyi bir sunum seçilmeyen seçeneklere de değinir; bu, kararın düşünülerek verildiğini gösterir: We didn't choose Machine A because it was over our budget. We didn't choose Machine C because it had no guarantee, and we'd have to collect it from Nilüfer. Bu cümlelerde because sebebi, and ek sebebi verir.",
+      "Sunum PREP yapısıyla düzenlenebilir: Point (We decided to buy B.), Reason (The main reasons are that …), Example (For example, it has free returns for 14 days, so if there's a problem, we can send it back.), Point (That's why we think B is the best value.). Bu yapı dört günün bütün becerilerini (karşılaştırma, tercih, gerekçe, tavsiye) tek bir konuşmada birleştirir."
+     ],
+     "formula": [
+      "karar: We decided to + yalın fiil",
+      "gerekçe: The main reasons are that … (çoğul) · The main reason is that … (tekil)",
+      "seçilmeyenler: We didn't choose … because … · sonuç: That's why we think …"
+     ],
+     "examples": [
+      {
+       "en": "We decided to buy Machine B. The main reasons are that it's within our budget and it has the best reviews.",
+       "tr": "Makine B'yi almaya karar verdik. Asıl sebepler bütçemiz dahilinde olması ve en iyi yorumlara sahip olması.",
+       "why": [
+        "decide to + fiil; reasons çoğul → are."
+       ],
+       "chunks": [
+        {
+         "en": "decided to buy",
+         "tr": "almaya karar verdik"
+        },
+        {
+         "en": "within our budget",
+         "tr": "bütçemiz dahilinde"
+        }
+       ]
+      },
+      {
+       "en": "We didn't choose Machine A because it was over our budget.",
+       "tr": "Makine A'yı seçmedik çünkü bütçemizin üzerindeydi.",
+       "why": [
+        "Seçilmeyen seçenek + sebep."
+       ]
+      },
+      {
+       "en": "For example, it has free returns for 14 days, so if there's a problem, we can send it back.",
+       "tr": "Örneğin 14 gün ücretsiz iadesi var, yani sorun olursa geri gönderebiliriz.",
+       "why": [
+        "Örnek + so + koşul."
+       ]
+      },
+      {
+       "en": "That's why we think Machine B is the best value.",
+       "tr": "Bu yüzden Makine B'nin en hesaplısı olduğunu düşünüyoruz.",
+       "why": [
+        "PREP'in son adımı."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "We decided buy cümlesini düzeltin.",
+       "answer": "We decided to buy …",
+       "why": "decide to + fiil"
+      },
+      {
+       "question": "İki gerekçe varsa hangi kalıp?",
+       "answer": "The main reasons are that …",
+       "why": "Çoğul."
+      },
+      {
+       "question": "Sunumda neden seçilmeyen seçeneklerden de bahsedilir?",
+       "answer": "Kararın düşünülerek verildiğini göstermek için.",
+       "why": "Olgun sunum."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The main reasons is that …",
+       "right": "The main reasons are that …",
+       "why": "reasons çoğul → are."
+      },
+      {
+       "wrong": "We didn't chose A.",
+       "right": "We didn't choose A.",
+       "why": "didn't'ten sonra yalın fiil."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "close",
+   "title": "Kapanış: dört günün özeti ve tekrar planı",
+   "intro": [
+    "Dört günlük ders on bir kazanımı kapsadı: tanıdıklarla telefon görüşmesi ve plan, yerleri ve olayları bağlantılı anlatmak, bir cihazı açıklamak, konuşmaların ana noktalarını anlamak, fikir ve gerekçe, kısa konuşma ve söyleşi, acil notlar, satıcıyla konuşmak, karşılaştırmak, gıda etiketleri ve alışveriş tercihleriyle tavsiye. Kontrol listesindeki her cümle bu kazanımlardan birinin İngilizce özetidir.",
+    "Kapanışın amacı zayıf noktaları belirleyip bir tekrar planı yapmaktır. Son kontrol soruları dört günün en sık yapılan hatalarını içerir: telefonda I'm yerine it's, where yerine which, for make yerine to make, after opened yerine after opening, If I was you yerine If I were you, I'd rather to yerine I'd rather. Bu altı hatayı düzelten biri dersin dilbilgisi omurgasını büyük ölçüde öğrenmiş demektir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I can make a simple phone call to someone I know and make plans.",
+     "tr": "Tanıdığım biriyle basit bir telefon görüşmesi yapıp plan kurabilirim.",
+     "why": [
+      "someone I know: ilgi zamiri düşmüş bir cümlecik (someone who I know)."
+     ]
+    },
+    {
+     "en": "I can describe places and events in connected sentences.",
+     "tr": "Yerleri ve olayları bağlantılı cümlelerle anlatabilirim.",
+     "why": [
+      "connected sentences = birbirine bağlı cümleler; kazanımın kendisi."
+     ]
+    },
+    {
+     "en": "I can find the important information on a food label.",
+     "tr": "Gıda etiketindeki önemli bilgileri bulabilirim.",
+     "why": [
+      "on a label: etiketin üstünde (on)."
+     ]
+    },
+    {
+     "en": "I can talk about my shopping preferences and give advice.",
+     "tr": "Alışveriş tercihlerimi anlatıp tavsiye verebilirim.",
+     "why": [
+      "give advice: advice sayılamaz (an advice ✗)."
+     ]
+    },
+    {
+     "en": "Write six to eight sentences about how to use a machine in your home.",
+     "tr": "Evinizdeki bir makinenin nasıl kullanıldığını altı-sekiz cümleyle yazın.",
+     "why": [
+      "Ev ödevi. how to use = nasıl kullanılacağı. First, To …, press …, Make sure …, Be careful not to … kalıplarını kullanın."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "cl-six-rules",
+     "title": "Dört günün altı kuralı",
+     "meaning": "En sık yapılan altı hatayı tekrar etmek",
+     "explanation": [
+      "Birinci kural telefon dilidir: telefonda kendini tanıtırken it's / this is kullanılır: Hi, it's me. This is Deniz. İkinci kural ilgi cümlecikleridir: yer bildiren ve cümlecikte “orada” anlamı taşıyan isimden sonra where (the café where we meet), şeylerden sonra which / that, insanlardan sonra who / that gelir ve zamir tekrar edilmez.",
+      "Üçüncü kural amaç yapısıdır: … -mek için anlamında to + yalın fiil kullanılır: To make a copy, press the green button. For make yanlıştır. Dördüncü kural etiket dilidir: after + -ing (after opening, after defrosting) ya da once + geçmiş ortaç (once opened).",
+      "Beşinci kural hayalî tavsiyedir: If I were you, I'd + yalın fiil. Altıncı kural tercih yapılarıdır: I'd rather + yalın fiil + than … (to yok) ve I prefer A to B (than değil). Bu altı kural dört günün en çok kullanılan yapılarıdır ve ifade bankasındaki cümlelerin çoğunda karşınıza çıkar."
+     ],
+     "formula": [
+      "telefon: Hi, it's me · ilgi: where / which / who (zamir tekrarı yok)",
+      "amaç: To + fiil · etiket: after opening / once opened",
+      "tavsiye: If I were you, I'd … · tercih: I'd rather + fiil · prefer A to B"
+     ],
+     "examples": [
+      {
+       "en": "Hi, it's me. Have you got a minute?",
+       "tr": "Selam, benim. Bir dakikan var mı?",
+       "why": [
+        "Telefon dili: it's me."
+       ]
+      },
+      {
+       "en": "This is the café where we always meet.",
+       "tr": "Burası hep buluştuğumuz kafe.",
+       "why": [
+        "Yer + where."
+       ]
+      },
+      {
+       "en": "To make a copy, press the green button.",
+       "tr": "Kopya çekmek için yeşil düğmeye basın.",
+       "why": [
+        "Amaç: To + fiil."
+       ]
+      },
+      {
+       "en": "If I were you, I'd rather pay in cash than in instalments.",
+       "tr": "Yerinde olsam taksit yerine nakit ödemeyi tercih ederdim.",
+       "why": [
+        "Hayalî tavsiye ve tercih birlikte."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Hello, I am Deniz (telefonda) cümlesini düzeltin.",
+       "answer": "Hi, it's Deniz.",
+       "why": "Telefon dili."
+      },
+      {
+       "question": "the café which we meet cümlesini düzeltin.",
+       "answer": "the café where we meet",
+       "why": "Yer → where"
+      },
+      {
+       "question": "I prefer tea than coffee cümlesini düzeltin.",
+       "answer": "I prefer tea to coffee.",
+       "why": "prefer A to B"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "For make a copy, press …",
+       "right": "To make a copy, press …",
+       "why": "Amaç to + fiil."
+      },
+      {
+       "wrong": "Keep refrigerated after opened.",
+       "right": "Keep refrigerated after opening.",
+       "why": "after + -ing."
+      }
+     ]
+    },
+    {
+     "id": "cl-plan",
+     "title": "Tekrar planı ve ev ödevi",
+     "meaning": "Dersten sonra kendi kendine çalışma planı yapmak",
+     "explanation": [
+      "Kontrol listesinde zorlandığınız bir madde varsa, önce Konu anlatımları sayfasında o adımın kutusunu okuyun; adım adım anlatımlar orada tamamen açıktır. Ardından o adımın ekranına gidip alıştırmaları yeniden yapın. Her ekranın başındaki ayrıntılı rehberde örnekler, sık hatalar ve kendini dene soruları vardır.",
+      "Kelime ve ifade bankasındaki ifadeleri sesli dinleyip tekrar edin ve her birine kendi hayatınızdan bir cümle kurun: I'm calling about the course. The bakery where I buy bread is on the corner. If I were you, I'd read the label. Kendi cümleniz, ifadeyi belleğe kalıcı olarak yerleştirir.",
+      "Ev ödevi üç parçadır: iki çalışma kâğıdı (Fotokopi 5 ve 6), evdeki bir cihazın kullanımını 6–8 cümleyle açıklamak (First, … To …, press … Make sure …) ve forum cevabınızı temize çekip bir arkadaşınıza İngilizce bir tavsiye mesajı göndermek. Son görev gerçek bir iletişim görevidir; dili sınıf dışına taşır."
+     ],
+     "formula": [
+      "1 · Zayıf madde → Konu anlatımları → ekrandaki alıştırma",
+      "2 · İfade bankası: dinle, tekrar et, kendi cümleni kur",
+      "3 · Ödev: çalışma kâğıtları · cihaz açıklaması · tavsiye mesajı"
+     ],
+     "examples": [
+      {
+       "en": "I'm calling about the English course on Saturday.",
+       "tr": "Cumartesi günkü İngilizce kursu için arıyorum.",
+       "why": [
+        "İfade bankasından kendi cümlesi."
+       ]
+      },
+      {
+       "en": "First, plug in the washing machine. To start it, press the round button.",
+       "tr": "Önce çamaşır makinesini prize takın. Başlatmak için yuvarlak düğmeye basın.",
+       "why": [
+        "Ödev: cihaz açıklaması."
+       ]
+      },
+      {
+       "en": "If I were you, I'd read the reviews before you buy it.",
+       "tr": "Yerinde olsam almadan önce yorumları okurdum.",
+       "why": [
+        "Tavsiye mesajı örneği."
+       ]
+      },
+      {
+       "en": "Make sure the door is closed before you start the machine.",
+       "tr": "Makineyi çalıştırmadan önce kapağın kapalı olduğundan emin olun.",
+       "why": [
+        "Cihaz açıklamasında uyarı."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Zorlandığınız konuyu nerede tekrar edersiniz?",
+       "answer": "Konu anlatımları sayfasında ve o adımın ekranında.",
+       "why": "Tekrar planı."
+      },
+      {
+       "question": "Cihaz açıklamasında hangi kalıplar kullanılır?",
+       "answer": "First, … To …, press … Make sure … Be careful not to …",
+       "why": "Talimat dili."
+      },
+      {
+       "question": "İfadeyi kalıcı öğrenmenin yolu?",
+       "answer": "Kendi hayatınızdan bir cümle kurmak.",
+       "why": "Kişiselleştirme."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Sadece listeyi okuyup geçmek.",
+       "right": "Her ifadeyle kendi cümlenizi kurmak.",
+       "why": "Aktif kullanım kalıcılık sağlar."
+      },
+      {
+       "wrong": "Ödevde tek kelimelik notlar yazmak.",
+       "right": "Tam cümlelerle 6–8 cümlelik bir açıklama yazmak.",
+       "why": "Ödev bir yazma görevidir."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "shop-online",
+   "term": "shop online · in store",
+   "meaning": "internetten · mağazadan alışveriş yapmak",
+   "partOfSpeech": "fiil + yer",
+   "sourceTerms": [
+    "shop online · in store"
+   ],
+   "explanation": [
+    "Alışverişin yerini anlatan ifadeler. shop online / buy online (internetten), shop in store / in a shop (mağazadan), at the market (pazardan), on an app (uygulamadan). online bir zarf gibi kullanılır; önüne edat gelmez (on online ✗)."
+   ],
+   "collocations": [
+    {
+     "en": "buy something online",
+     "tr": "internetten bir şey almak"
+    },
+    {
+     "en": "an online shop",
+     "tr": "internet mağazası"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I usually shop online, but I buy shoes in store.",
+     "tr": "Genelde internetten alışveriş yaparım ama ayakkabıyı mağazadan alırım."
+    },
+    {
+     "en": "Is it cheaper online or in the shop?",
+     "tr": "İnternette mi daha ucuz, dükkânda mı?"
+    },
+    {
+     "en": "I order groceries on an app.",
+     "tr": "Market alışverişini uygulamadan sipariş ederim."
+    }
+   ],
+   "commonMistake": "shop from online yerine shop online denir."
+  },
+  {
+   "id": "cash-card",
+   "term": "pay in cash · by card",
+   "meaning": "nakit · kartla ödemek",
+   "partOfSpeech": "ödeme kalıbı",
+   "sourceTerms": [
+    "pay in cash · by card"
+   ],
+   "explanation": [
+    "Ödeme biçimleri edatla söylenir: in cash (nakit), by card (kartla), by phone (telefonla), by bank transfer (havale ile). pay with card konuşmada duyulsa da by card en yaygın kalıptır. Soru: Can I pay by card? How would you like to pay?"
+   ],
+   "collocations": [
+    {
+     "en": "by bank transfer",
+     "tr": "havale ile"
+    },
+    {
+     "en": "contactless",
+     "tr": "temassız"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Can I pay by card? — Of course.",
+     "tr": "Kartla ödeyebilir miyim? — Tabii."
+    },
+    {
+     "en": "I always pay in cash at the market.",
+     "tr": "Pazarda hep nakit öderim."
+    },
+    {
+     "en": "How would you like to pay? — By card, please.",
+     "tr": "Nasıl ödemek istersiniz? — Kartla, lütfen."
+    }
+   ],
+   "commonMistake": "pay with cash yerine pay in cash denir."
+  },
+  {
+   "id": "instalments",
+   "term": "pay in instalments",
+   "meaning": "taksitle ödemek",
+   "partOfSpeech": "ödeme kalıbı",
+   "sourceTerms": [
+    "pay in instalments"
+   ],
+   "explanation": [
+    "Taksit = instalment (Amerikan: installment). Kalıp: pay in + sayı + instalments. Faizsiz taksit: with no extra charge / interest-free. Toplam fiyat bazen taksitte daha yüksek olabilir: the total price."
+   ],
+   "collocations": [
+    {
+     "en": "monthly instalments",
+     "tr": "aylık taksitler"
+    },
+    {
+     "en": "interest-free",
+     "tr": "faizsiz"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We paid for the fridge in six instalments.",
+     "tr": "Buzdolabını altı taksitle ödedik."
+    },
+    {
+     "en": "You can pay in 12 monthly instalments.",
+     "tr": "12 aylık taksitle ödeyebilirsiniz."
+    },
+    {
+     "en": "Check the total price before you choose instalments.",
+     "tr": "Taksiti seçmeden önce toplam fiyatı kontrol edin."
+    }
+   ],
+   "commonMistake": "paid with taksit yerine paid in instalments denir."
+  },
+  {
+   "id": "delivery",
+   "term": "delivery · free delivery",
+   "meaning": "teslimat · ücretsiz teslimat",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "delivery · free delivery"
+   ],
+   "explanation": [
+    "Siparişin adrese getirilmesi delivery'dir; fiili deliver. free delivery ücretsiz kargo, delivery charge kargo ücretidir. Süre: Delivery takes 3–5 days. Kurulum installation'dır."
+   ],
+   "collocations": [
+    {
+     "en": "delivery charge",
+     "tr": "kargo ücreti"
+    },
+    {
+     "en": "next-day delivery",
+     "tr": "ertesi gün teslimat"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Delivery is free for orders over 500 TL.",
+     "tr": "500 TL üzeri siparişlerde kargo ücretsiz."
+    },
+    {
+     "en": "How long does delivery take?",
+     "tr": "Teslimat ne kadar sürer?"
+    },
+    {
+     "en": "They delivered the sofa on Saturday.",
+     "tr": "Kanepeyi cumartesi teslim ettiler.",
+     "note": "deliver fiil"
+    }
+   ],
+   "commonMistake": "cargo free yerine free delivery denir; cargo İngilizcede yük gemisi / kargo yükü anlamındadır."
+  },
+  {
+   "id": "return-refund",
+   "term": "return · refund · exchange",
+   "meaning": "iade etmek · para iadesi · değişim",
+   "partOfSpeech": "isim / fiil",
+   "sourceTerms": [
+    "return · refund · exchange"
+   ],
+   "explanation": [
+    "Alışveriş sonrası haklar. return bir ürünü geri götürmek, refund paranın geri ödenmesi, exchange ürünü başka biriyle değiştirmektir: exchange it for a larger size. Fiş (receipt) genellikle gereklidir."
+   ],
+   "collocations": [
+    {
+     "en": "get a refund",
+     "tr": "paranı geri almak"
+    },
+    {
+     "en": "exchange it for …",
+     "tr": "… ile değiştirmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Can I get a refund or only an exchange?",
+     "tr": "Paramı geri alabilir miyim, yoksa sadece değişim mi?"
+    },
+    {
+     "en": "I'd like to return these shoes.",
+     "tr": "Bu ayakkabıları iade etmek istiyorum."
+    },
+    {
+     "en": "Can I exchange it for a larger size?",
+     "tr": "Daha büyük bir bedenle değiştirebilir miyim?"
+    }
+   ],
+   "commonMistake": "I want my money back mağazada anlaşılır ama Can I get a refund? daha kibardır."
+  },
+  {
+   "id": "prefer-to",
+   "term": "I prefer … to …",
+   "meaning": "… -i … -e tercih ederim",
+   "partOfSpeech": "tercih kalıbı",
+   "sourceTerms": [
+    "I prefer … to …"
+   ],
+   "explanation": [
+    "Genel ve kalıcı tercih. Kalıp: prefer + isim / -ing + to + isim / -ing. than kullanılmaz. Tek seçenek için: I prefer shopping in store. prefer to + fiil de olur: I prefer to pay in cash."
+   ],
+   "collocations": [
+    {
+     "en": "prefer tea to coffee",
+     "tr": "çayı kahveye tercih etmek"
+    },
+    {
+     "en": "I prefer to …",
+     "tr": "… -meyi tercih ederim"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I prefer shopping in store to shopping online.",
+     "tr": "Mağazadan alışverişi internetten alışverişe tercih ederim."
+    },
+    {
+     "en": "I prefer markets to supermarkets.",
+     "tr": "Pazarları süpermarketlere tercih ederim."
+    },
+    {
+     "en": "I prefer to pay in cash.",
+     "tr": "Nakit ödemeyi tercih ederim."
+    }
+   ],
+   "commonMistake": "I prefer the market than the supermarket yerine to kullanılır."
+  },
+  {
+   "id": "would-rather",
+   "term": "I'd rather … than …",
+   "meaning": "… -mektense … -meyi tercih ederim",
+   "partOfSpeech": "tercih kalıbı",
+   "sourceTerms": [
+    "I'd rather … than …"
+   ],
+   "explanation": [
+    "Belli bir durumdaki tercih. I'd rather = I would rather; ardından yalın fiil gelir (to yok). İkinci seçenek than ile: I'd rather pay in cash than in instalments. Olumsuz: I'd rather not + fiil. Soru: Would you rather … or …?"
+   ],
+   "collocations": [
+    {
+     "en": "I'd rather not",
+     "tr": "… -memeyi tercih ederim"
+    },
+    {
+     "en": "Would you rather …?",
+     "tr": "… -meyi mi tercih edersin?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'd rather pay in cash than in instalments.",
+     "tr": "Taksit yerine nakit ödemeyi tercih ederim."
+    },
+    {
+     "en": "I'd rather not buy it online.",
+     "tr": "İnternetten almamayı tercih ederim."
+    },
+    {
+     "en": "Would you rather wait or buy it now?",
+     "tr": "Beklemeyi mi tercih edersin, şimdi almayı mı?"
+    }
+   ],
+   "commonMistake": "I'd rather to pay yerine I'd rather pay denir."
+  },
+  {
+   "id": "what-would-you-do",
+   "term": "What would you do?",
+   "meaning": "sen olsan ne yapardın?",
+   "partOfSpeech": "tavsiye sorusu",
+   "sourceTerms": [
+    "What would you do?"
+   ],
+   "explanation": [
+    "Tavsiye istemenin samimi ve doğal yolu. Önce durum anlatılır, sonra sorulur. Benzerleri: Do you think I should …? · What do you think I should do? (do you think'ten sonra düz sıra)."
+   ],
+   "collocations": [
+    {
+     "en": "What should I do?",
+     "tr": "ne yapmalıyım?"
+    },
+    {
+     "en": "Do you think I should …?",
+     "tr": "sence … -meli miyim?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I've got two offers. What would you do?",
+     "tr": "İki teklifim var. Sen olsan ne yapardın?"
+    },
+    {
+     "en": "Do you think I should repair it?",
+     "tr": "Sence tamir ettirmeli miyim?"
+    },
+    {
+     "en": "What do you think I should do?",
+     "tr": "Sence ne yapmalıyım?"
+    }
+   ],
+   "commonMistake": "What do you think should I do? yerine What do you think I should do? denir."
+  },
+  {
+   "id": "should",
+   "term": "You should … · You shouldn't …",
+   "meaning": "… -melisin · … -memelisin",
+   "partOfSpeech": "tavsiye kalıbı",
+   "sourceTerms": [
+    "You should … · You shouldn't …"
+   ],
+   "explanation": [
+    "En yaygın ve nötr tavsiye kalıbı. should + yalın fiil; to almaz, kişiye göre değişmez. Daha güçlü ve uyarı tonlu: You'd better. Daha yumuşak: Why don't you …?"
+   ],
+   "collocations": [
+    {
+     "en": "you should try",
+     "tr": "denemelisin"
+    },
+    {
+     "en": "you shouldn't worry",
+     "tr": "endişelenmemelisin"
+    }
+   ],
+   "examples": [
+    {
+     "en": "You should read the reviews first.",
+     "tr": "Önce yorumları okumalısın."
+    },
+    {
+     "en": "You shouldn't buy it without a guarantee.",
+     "tr": "Garantisiz almamalısın."
+    },
+    {
+     "en": "Should I wait for the sales?",
+     "tr": "İndirimleri beklemeli miyim?"
+    }
+   ],
+   "commonMistake": "You should to read yerine You should read denir."
+  },
+  {
+   "id": "if-i-were-you",
+   "term": "If I were you, I'd …",
+   "meaning": "yerinde olsam …",
+   "partOfSpeech": "tavsiye kalıbı",
+   "sourceTerms": [
+    "If I were you, I'd …"
+   ],
+   "explanation": [
+    "Kişisel ve samimi tavsiye; hayalî bir durum kurar. were kullanılır (was konuşmada duyulsa da doğru biçim were). I'd = I would + yalın fiil. Olumsuz: If I were you, I wouldn't …"
+   ],
+   "collocations": [
+    {
+     "en": "If I were you, I wouldn't …",
+     "tr": "yerinde olsam … -mezdim"
+    },
+    {
+     "en": "I'd wait",
+     "tr": "beklerdim"
+    }
+   ],
+   "examples": [
+    {
+     "en": "If I were you, I'd wait for the sales.",
+     "tr": "Yerinde olsam indirimleri beklerdim."
+    },
+    {
+     "en": "If I were you, I wouldn't pay in instalments.",
+     "tr": "Yerinde olsam taksitle ödemezdim."
+    },
+    {
+     "en": "If I were you, I'd ask for a discount.",
+     "tr": "Yerinde olsam indirim isterdim."
+    }
+   ],
+   "commonMistake": "If I was in your place, I wait yerine If I were you, I'd wait denir."
+  },
+  {
+   "id": "why-dont-you",
+   "term": "Why don't you …?",
+   "meaning": "neden … -miyorsun?",
+   "partOfSpeech": "tavsiye kalıbı",
+   "sourceTerms": [
+    "Why don't you …?"
+   ],
+   "explanation": [
+    "Yumuşak bir öneri olarak tavsiye. Biçimi olumsuz soru ama anlamı öneridir. Ardından yalın fiil gelir. Cevap: That's a good idea. / Maybe I will."
+   ],
+   "collocations": [
+    {
+     "en": "Why not …?",
+     "tr": "neden … -mesin?"
+    },
+    {
+     "en": "Maybe I will",
+     "tr": "belki öyle yaparım"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Why don't you ask for a discount?",
+     "tr": "Neden indirim istemiyorsun?"
+    },
+    {
+     "en": "Why don't you compare the prices online?",
+     "tr": "Neden fiyatları internetten karşılaştırmıyorsun?"
+    },
+    {
+     "en": "Why don't you try it on first?",
+     "tr": "Neden önce denemiyorsun?"
+    }
+   ],
+   "commonMistake": "Why you don't ask …? yerine Why don't you ask …? denir."
+  },
+  {
+   "id": "good-idea",
+   "term": "It's a good idea to …",
+   "meaning": "… iyi bir fikir",
+   "partOfSpeech": "tavsiye kalıbı",
+   "sourceTerms": [
+    "It's a good idea to …"
+   ],
+   "explanation": [
+    "Genel ve nazik bir tavsiye; kişiyi doğrudan hedef almaz. Ardından to + yalın fiil gelir. Benzer: It's important to … · It's better to …"
+   ],
+   "collocations": [
+    {
+     "en": "it's important to",
+     "tr": "… önemli"
+    },
+    {
+     "en": "it's better to",
+     "tr": "… daha iyi"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's a good idea to keep the receipt.",
+     "tr": "Fişi saklamak iyi bir fikir."
+    },
+    {
+     "en": "It's a good idea to make a shopping list.",
+     "tr": "Bir alışveriş listesi yapmak iyi bir fikir."
+    },
+    {
+     "en": "It's better to compare prices first.",
+     "tr": "Önce fiyatları karşılaştırmak daha iyi."
+    }
+   ],
+   "commonMistake": "It's a good idea keeping … yerine It's a good idea to keep … denir."
+  },
+  {
+   "id": "had-better",
+   "term": "You'd better …",
+   "meaning": "… -sen iyi olur",
+   "partOfSpeech": "tavsiye kalıbı",
+   "sourceTerms": [
+    "You'd better …"
+   ],
+   "explanation": [
+    "En güçlü tavsiye; yapılmazsa sorun olacağını ima eder. You'd better = You had better; geçmiş anlamı yoktur. Ardından yalın fiil gelir (to yok). Olumsuz: You'd better not + fiil."
+   ],
+   "collocations": [
+    {
+     "en": "you'd better not",
+     "tr": "… -mesen iyi olur"
+    },
+    {
+     "en": "I'd better go",
+     "tr": "gitsem iyi olur"
+    }
+   ],
+   "examples": [
+    {
+     "en": "You'd better check the guarantee.",
+     "tr": "Garantiyi kontrol etsen iyi olur."
+    },
+    {
+     "en": "You'd better keep the receipt.",
+     "tr": "Fişi saklasan iyi olur."
+    },
+    {
+     "en": "You'd better not pay before you see it.",
+     "tr": "Görmeden ödemesen iyi olur."
+    }
+   ],
+   "commonMistake": "You had better to keep yerine You'd better keep denir."
+  }
+ ]
+}

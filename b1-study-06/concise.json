@@ -1,0 +1,689 @@
+{
+ "version": 1,
+ "chapters": [
+  {
+   "screenId": "warm",
+   "intro": "Fikrini tek cümlede bırakma: I think … because … Karşındakinin fikrine kısa bir tepki ver: That's a good point. / I'm not sure.",
+   "patterns": [
+    {
+     "id": "wm-think-because",
+     "summary": [
+      "Fikir + gerekçe: I think … because … (iki tarafta da özne + fiil).",
+      "Olumsuz fikir: I don't think … (I think … isn't değil).",
+      "should + yalın fiil; kişiye göre değişmez."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "wm-reactions",
+     "summary": [
+      "Kısa tepkiler: That's a good point · I see what you mean · I'm not sure.",
+      "Tepkiden sonra soru sor: Why do you think so? · What about …?",
+      "Kibar itiraz: önce kabul, sonra but."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "wm-call-text",
+     "summary": [
+      "prefer + -ing / isim: I prefer calling.",
+      "text, call, make a video call günlük iletişim fiilleridir.",
+      "Who do you call most? — I call … most."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "phone-calls",
+   "intro": "Telefonun beş adımı: Hi, it's … · Have you got a minute? · I'm calling about … · (Really? Oh no!) · Anyway, I'd better go. Speak soon!",
+   "patterns": [
+    {
+     "id": "pc-opening",
+     "summary": [
+      "Telefonda tanıtma: Hi, it's Deniz. / This is Deniz. (I'm değil)",
+      "Kimlik: Is that Ayla? — Speaking!",
+      "Önce uygunluğu sor: Have you got a minute? / Is this a good time?"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "pc-reason",
+     "summary": [
+      "Sebep: I'm calling about + isim / I'm calling to + fiil.",
+      "Rica: Could I …? / Could you …? (could, can'den kibardır).",
+      "borrow ödünç almak, lend ödünç vermek; karıştırma."
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "pc-closing",
+     "summary": [
+      "Kapanıştan önce geçiş: Anyway, … / OK then, …",
+      "Kibar kapanış: I'd better go. Thanks for calling. Speak soon!",
+      "Sorunlar: You're breaking up. I'll call you back."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "arrangements",
+   "intro": "Plan sor: What are you doing on …? Öner: Shall we …? / How about + -ing? Ret: I'm afraid I can't. I'm … Yeni öneri: What about … instead?",
+   "patterns": [
+    {
+     "id": "ar-continuous",
+     "summary": [
+      "Plan sorusu: What are you doing on Saturday? (gelecek anlamı)",
+      "Kesin plan: I'm visiting my parents on Sunday.",
+      "Alışkanlık sorusu farklıdır: What do you do on Saturdays?"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ar-suggest",
+     "summary": [
+      "Yalın fiil: Shall we go? · Why don't we go? · Let's go.",
+      "-ing ya da isim: How about going? · What about Sunday? · Do you fancy a coffee?",
+      "Why don't we …? bir öneridir; cevap: Why not?"
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "ar-answers",
+     "summary": [
+      "Kabul: That sounds great! / I'd love to.",
+      "Kibar ret: I'm afraid I can't. I'm … + What about … instead?",
+      "Mesaj: Could you tell her I called? / ask her to call me back?"
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "describe-places",
+   "intro": "Kısa cümleleri bağla: yer için where, şey için which / that, insan için who. İlişkiyi bağlaçla göster: but, so, because, although.",
+   "patterns": [
+    {
+     "id": "dp-where-which-who",
+     "summary": [
+      "İlgi cümleciği ismin arkasına gelir: the café where we meet.",
+      "Yer (orada) → where · şey → which / that · insan → who / that · sahiplik → whose.",
+      "Zamirin yerini tuttuğu kelimeyi tekrar etme: which it, where … there yanlış."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "dp-linkers",
+     "summary": [
+      "Zıtlık: but · although (although ile but birlikte olmaz).",
+      "Sebep because, sonuç so: ikisini karıştırmak anlamı ters çevirir.",
+      "also ana fiilden önce: It also has a garden."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "dp-adjectives",
+     "summary": [
+      "Genel sıfatlar yerine anlamlı olanlar: cosy, lively, peaceful, crowded.",
+      "Hazır kalıplar: It's famous for … · It's the kind of place where …",
+      "Bitiriş: What I like most about it is (that) …"
+     ],
+     "exampleIndex": 3
+    }
+   ]
+  },
+  {
+   "screenId": "describe-events",
+   "intro": "Sahne past continuous (was / were -ing), olay past simple: I was waiting … when it started to rain. Sıra: at first, then, in the end. Sonuç: It turned out that …",
+   "patterns": [
+    {
+     "id": "de-cont-simple",
+     "summary": [
+      "Sahne past continuous: I was waiting for the bus …",
+      "Olay past simple: … when it started to rain.",
+      "While + continuous; arka arkaya olaylar hepsi past simple."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "de-sequence",
+     "summary": [
+      "Sıra: At first → Then / After that → In the end.",
+      "in the end = sonunda; at the end of + isim = … -in sonunda.",
+      "Sürpriz sonuç: It turned out that …"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "de-feelings",
+     "summary": [
+      "Duygu: I felt nervous / relieved / proud / embarrassed.",
+      "Sebep: because / when; ya da davranışla göster: My face went red.",
+      "Değerlendirmeyle bitir: I'll never forget …"
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "explain-device",
+   "intro": "Her adımda bir hareket: First, switch on … To make a copy, press … If you want …, … Make sure … Be careful not to …",
+   "patterns": [
+    {
+     "id": "ed-imperative",
+     "summary": [
+      "Talimat emir kipindedir: Lift the lid. Press Start.",
+      "Sıra kelimeleri: First, Then, Next, Finally; Once …, …",
+      "Zamirle phrasal verb: Switch it on (Switch on it ✗)."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ed-purpose-if",
+     "summary": [
+      "Amaç: To + yalın fiil (For make ✗): To make a copy, press …",
+      "Seçenek: If + geniş zaman, + emir.",
+      "for + isim / -ing: This button is for zooming."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "ed-warnings",
+     "summary": [
+      "Make sure + cümle: Make sure the lid is closed.",
+      "Be careful not to + fiil (not, to'dan önce).",
+      "Don't forget to + fiil; uyarıyı ilgili adımın yanına koy."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "train",
+   "intro": "Önce ana noktalar (kim, nerede, sorun, karar), sonra ayrıntılar (saat, sayı). İşaret kelimeleri dinle: but, because of, so, I think I'll …",
+   "patterns": [
+    {
+     "id": "tr-main-detail",
+     "summary": [
+      "Ana nokta: konuşmanın sebebi ve sonucu (kim, nerede, sorun, karar).",
+      "Ayrıntı: saat, sayı, yer adı; ana noktayı destekler.",
+      "Soruları önceden okuyup hangi bilgiyi arayacağını belirle."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "tr-announcements",
+     "summary": [
+      "Gecikme: delayed by + süre; iptal: cancelled.",
+      "Sebep: because of / due to + isim (because + cümle).",
+      "Anons sonu: We apologise for the delay. Please do not …"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "tr-signals",
+     "summary": [
+      "Sorun sinyalleri: but · I'm worried · The problem is …",
+      "Karar sinyalleri: so · I think I'll … · In that case, …",
+      "Olasılık ve yedek plan: probably · If not, …"
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "restaurant-pool",
+   "intro": "Lokantada sorun–çözüm zincirini, havuzda bilgi kategorilerini (saat, fiyat, kural, kurs) dinle. Notu tam cümleyle değil, anahtar kelime ve sayıyla al.",
+   "patterns": [
+    {
+     "id": "rp-restaurant",
+     "summary": [
+      "Lokanta sırası: reservation → drinks → order → (problem) → bill.",
+      "Alerji: Does it contain …? · allergic to + isim.",
+      "Kibar şikâyet: This isn't what I ordered. · Çözüm: I'll change it right away."
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "rp-pool",
+     "summary": [
+      "Bilgi telefonunu tabloyla dinle: saat, fiyat, kural, kurs.",
+      "Saat aralığı: from … until …; fiyat: single ticket, monthly card.",
+      "Kurallar: have to / must / can't + yalın fiil."
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "rp-notes",
+     "summary": [
+      "Not alırken anahtar kelime, sayı ve ok kullan.",
+      "Aktarırken geçmiş zamanla tam cümle kur.",
+      "Önce ana nokta: The main problem was that … In the end, …"
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "opinions",
+   "intro": "PREP: Point (In my opinion …) · Reason (The main reason is that …) · Example (For example, …) · Point (That's why …).",
+   "patterns": [
+    {
+     "id": "op-starters",
+     "summary": [
+      "Nötr: I think / In my opinion · güçlü: I strongly believe · yumuşak: It seems to me that.",
+      "According to me demeyin; According to başkası içindir.",
+      "İki fikir başlatıcıyı üst üste kullanmayın."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "op-reasons",
+     "summary": [
+      "Gerekçe: The main reason is that + cümle; Another reason is that …",
+      "Örnek: For example, … / such as + isim (birlikte kullanma).",
+      "Sonuç: That's why … ile fikre dön."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "op-agree",
+     "summary": [
+      "Katılmak: I completely agree / That's a good point (I am agree ✗).",
+      "Kibar itiraz: I see your point, but … / I'm afraid I disagree.",
+      "Denge: It depends on … + iki taraf."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "school-talk",
+   "intro": "Konuşmanın haritası: I'd like to talk about … · First of all, … · Another point is … · One solution is to … · To sum up, … Saygılı dil: some students, behaviour, çözüm.",
+   "patterns": [
+    {
+     "id": "st-vocabulary",
+     "summary": [
+      "Konu kelimeleri: violence (sayılamaz), bullying, a bully, a victim, cyberbullying.",
+      "Çözüm fiilleri: report it to …, support the victim, talk to the school counsellor.",
+      "Edatlara dikkat: deal with, take it seriously."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "st-structure",
+     "summary": [
+      "Giriş: Today I'd like to talk about … + neden önemli.",
+      "Noktalar: First of all · Another point is that · Finally; çözüm: One solution is to …",
+      "Sonuç: To sum up, … Thank you for listening."
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "st-respectful",
+     "summary": [
+      "Genelleme yerine sınırlayıcı ifadeler: some students, in some schools.",
+      "Kişiyi değil davranışı anlat: bullying behaviour.",
+      "Çözüm odaklı bitir: We all have a role. Parents can help by …"
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "interview",
+   "intro": "Açık soru: Could you tell us about …? Takip: What do you mean by …? / Could you give an example? Aktarım: She said that … · She thinks that … · She told us to …",
+   "patterns": [
+    {
+     "id": "iv-open",
+     "summary": [
+      "Açık sorular sohbeti açar: Could you tell us about …? What do you like most …?",
+      "What do you think is …? (do you think'ten sonra düz sıra).",
+      "Kibar çerçeve: Thank you for talking to us · Is there anything you'd like to add?"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "iv-follow-up",
+     "summary": [
+      "Açıklama iste: What do you mean by that / by “…”?",
+      "Örnek ve duygu sor: Could you give us an example? How did you feel?",
+      "Önce kısa tepki, sonra soru: That's terrible. What can parents do?"
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "iv-reporting",
+     "summary": [
+      "Fikir: She thinks / believes that … (şimdiki zaman).",
+      "Söz: She said (that) …; kişiyle told: She told us that …",
+      "Emir / tavsiye: She told parents to … / not to …"
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "notes",
+   "intro": "Not okununca dört soru cevaplanmalı: Ne oldu? Ne zaman? Ne yapmalıyım? Sana nasıl ulaşırım? Kalıplar: I'm writing to let you know … · I'm afraid … · Could you please …? · Thanks in advance.",
+   "patterns": [
+    {
+     "id": "nt-structure",
+     "summary": [
+      "Hitap okuyucuya göre: Dear Ms / Mr + soyad · Hi + ad.",
+      "Amaç ilk cümlede: I'm writing to let you know that …",
+      "Kapanış: Thanks in advance, + ad (+ daire / çocuğun adı)."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "nt-afraid-could",
+     "summary": [
+      "Kötü haberi yumuşat: I'm afraid + cümle.",
+      "Kibar rica: Could you please + yalın fiil? (to yok)",
+      "Aciliyet: as soon as possible · by Friday (son tarih)."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "nt-clear",
+     "summary": [
+      "Dört soruyu kontrol et: Ne oldu? Ne zaman? Ne yapmalı? Nasıl ulaşılır?",
+      "Kesin bilgi yaz: saat, numara, yer; call me on + numara.",
+      "Kısa tut ama işe yarayan ayrıntıyı ekle."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "ask-seller",
+   "intro": "Üç aşama: I'm looking for … → What's it made of? / Does it come with …? → I'll take it. Adını bilmediğin şeyi tarif et: It's a thing you use for + -ing.",
+   "patterns": [
+    {
+     "id": "as-need",
+     "summary": [
+      "İhtiyaç: I'm looking for + isim (search değil).",
+      "Var mı: Do you sell …? / Do you have this in …?",
+      "İşlevle iste: I need something for + isim / -ing."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "as-features",
+     "summary": [
+      "Malzeme: What's it made of? — It's made of steel.",
+      "Garanti ve ekler: Does it come with …? · renk / beden: come in / Do you have it in …?",
+      "Fark: What's the difference between A and B?"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "as-describe",
+     "summary": [
+      "Dolaylı anlatım: kategori + işlev + görünüş + kontrol.",
+      "İşlev: You use it for + -ing / to + fiil; görünüş: It looks like …",
+      "Hizmet: How long will it take? How much will it cost?"
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "compare",
+   "intro": "Karşılaştır: cheaper than / more expensive than · the best / the cheapest · not as … as. Değerlendir: per kilo · better value · worth the money.",
+   "patterns": [
+    {
+     "id": "cp-comparatives",
+     "summary": [
+      "Kısa sıfat -er (cheaper), uzun sıfat more (more expensive) + than.",
+      "Düzensiz: good → better, bad → worse.",
+      "Güçlendir: much / a lot; hafiflet: a bit; tekrarı önle: the cheaper one."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "cp-superlative-asas",
+     "summary": [
+      "En üstünlük: the cheapest / the most expensive / the best (+ in / of).",
+      "Eşit: as … as; daha az: not as … as (kibar eksiklik).",
+      "Soru: Which one is the best? Is it as good as …?"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "cp-value",
+     "summary": [
+      "Birim fiyat sor: How much is it per kilo? / each?",
+      "Değer: better value · a good deal · It's worth the money.",
+      "Büyük paket her zaman hesaplı değildir: hesapla!"
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "labels",
+   "intro": "use by = güvenlik (sonra yeme) · best before = kalite. Saklama: Keep refrigerated / Store in a cool, dry place. Uyarı: Contains … / May contain …",
+   "patterns": [
+    {
+     "id": "lb-dates",
+     "summary": [
+      "use by = güvenlik: tarihten sonra yeme.",
+      "best before (end) = kalite: sonra genellikle güvenli ama daha az iyi.",
+      "Açıldıktan sonra: Once opened, use within … days."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "lb-storage-prep",
+     "summary": [
+      "Saklama: Keep refrigerated · Store in a cool, dry place · after opening.",
+      "Donmuş: Cook from frozen · Do not refreeze after defrosting.",
+      "Hazırlama: Preheat … · Bake for … until … · Shake / Stir before …"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "lb-warnings",
+     "summary": [
+      "Ingredients en çoktan en aza sıralanır; (30%) oranı gösterir.",
+      "Contains = kesin · May contain traces of = eser miktarda olabilir.",
+      "Not suitable for … · gluten-free · per 100 g · Serves 4."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "market-roleplay",
+   "intro": "Her istasyonda: ihtiyaç → soru → karşılaştırma → karar. Eczanede: How often do I take it? Is it suitable for children? Karar: I'll take … because …",
+   "patterns": [
+    {
+     "id": "mr-pharmacy",
+     "summary": [
+      "İhtiyaç + süre: I need something for … · I've had it for two days.",
+      "Kullanım soruları: How often …? · Is it suitable for children?",
+      "Uyarılar: Don't use it for more than … · If it doesn't get better, see a doctor."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "mr-service",
+     "summary": [
+      "Hizmet soruları: How long will it take? How much will it cost?",
+      "Kalite: Which is better quality? How long is the guarantee?",
+      "Kararı ihtiyaçla gerekçelendir: I need it today, so I'll take …"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "mr-decide-report",
+     "summary": [
+      "Mağazada: I'll take it. / I'll think about it.",
+      "Rapor geçmiş zamanla: I chose … because … · We decided to …",
+      "PREP ile raporla: decided → main reason → example → that's why."
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "shopping-ways",
+   "intro": "Edatlar: in cash · by card · in instalments. Tercih: I prefer A to B (genel) · I'd rather + yalın fiil + than … (belli durum) · I'd prefer to + fiil.",
+   "patterns": [
+    {
+     "id": "sw-vocabulary",
+     "summary": [
+      "Yer: online · in store · at the market.",
+      "Ödeme edatları: in cash · by card · in instalments.",
+      "Sonrası: delivery, return, refund, exchange, receipt, reviews."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "sw-prefer",
+     "summary": [
+      "Genel tercih: I prefer A to B (than değil).",
+      "Belli durum: I'd rather + yalın fiil + than … (to yok); olumsuz: I'd rather not.",
+      "Kibar: I'd prefer to + fiil; soru: Would you rather … or …?"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "sw-reasons",
+     "summary": [
+      "Gerekçe: because … · The problem with … is that …",
+      "Denge: The good thing about … · On the other hand, …",
+      "Kişisel durum + so + tercih: I live far away, so I shop online."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "advice",
+   "intro": "Tavsiye iste: What would you do? Ver: You should … · If I were you, I'd … · Why don't you …? · You'd better … Tepki: That's a good idea. / I'm not sure that would work.",
+   "patterns": [
+    {
+     "id": "ad-asking",
+     "summary": [
+      "Tavsiye iste: What would you do? · Do you think I should …?",
+      "do you think + düz sıra: What do you think I should do?",
+      "Tavsiyeden önce bilgi topla: How much can you spend?"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ad-giving",
+     "summary": [
+      "Nötr: You should + fiil · samimi: If I were you, I'd + fiil (were!).",
+      "Yumuşak: Why don't you …? · It's a good idea to …",
+      "Güçlü uyarı: You'd better + fiil (to yok) · hatırlatma: Make sure you …"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ad-responding",
+     "summary": [
+      "Olumlu tepki: That's a good idea. · Thanks, that's really helpful.",
+      "Kibar itiraz: I'm not sure that would work, because …",
+      "Kararla bitir: I think I'll … · I'll follow your advice because …"
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "forum",
+   "intro": "Her cevabın ana tavsiyesini ve gerekçesini bul. Kendi cevabın: anlayış → If I were you, I'd … → The main reason is that … → Make sure … Good luck!",
+   "patterns": [
+    {
+     "id": "fr-reading",
+     "summary": [
+      "Her cevapta ana tavsiyeyi (If I were you, You should …) bul.",
+      "Gerekçeyi (because, rakamlar, the main reason) ayrı işaretle.",
+      "Yeni bilgi (cheaper online) tavsiyeleri değiştirebilir."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "fr-hypothetical",
+     "summary": [
+      "Hayalî tavsiye: If I were you, I'd / I wouldn't + yalın fiil.",
+      "Hayalî sonuç: If you paid …, you'd have to …",
+      "were ve would burada geçmiş değil, hayalî durum bildirir."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "fr-writing",
+     "summary": [
+      "Giriş: Hi! I understand. … is a big decision.",
+      "Tavsiye + gerekçe + örnek: If I were you, I'd … The main reason is that … For example, …",
+      "Kapanış: Make sure you … Good luck! Sonra hataları kontrol et."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "decide-together",
+   "intro": "Uzlaşma dili: Shall we go for …? · What about …? · I'd rather … · That's fine with me. · OK, let's go for …, then. Sunum: We decided to … The main reasons are that …",
+   "patterns": [
+    {
+     "id": "dt-table",
+     "summary": [
+      "Toplam maliyeti hesapla: … costs … in total.",
+      "Karşılaştır: the cheapest · cheaper than · the best reviews · not as … as.",
+      "Ayrıntıları ölçüt olarak kullan: guarantee, returns, payment."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "dt-negotiate",
+     "summary": [
+      "Öneri: Shall we go for …? · What about …? · What do you think?",
+      "Tercih / itiraz: I'd rather … · I see your point, but …",
+      "Uzlaşma ve karar: That's fine with me. · OK, let's go for …, then. · We all agree that …"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "dt-present",
+     "summary": [
+      "Karar: We decided to + yalın fiil (geçmiş zaman).",
+      "Gerekçe: The main reasons are that … (iki sebep → are).",
+      "Seçilmeyenler: We didn't choose … because … · sonuç: That's why we think …"
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "close",
+   "intro": "Altı büyük hata: Hi, it's me (I'm değil) · the café where … · To make a copy · after opening · If I were you · I'd rather pay (to yok).",
+   "patterns": [
+    {
+     "id": "cl-six-rules",
+     "summary": [
+      "Telefon: it's me · ilgi cümleciği: where / which / who.",
+      "Amaç: To make … · etiket: after opening.",
+      "Tavsiye: If I were you, I'd … · tercih: I'd rather + fiil · prefer A to B."
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "cl-plan",
+     "summary": [
+      "Zayıf maddeyi Konu anlatımları ve ekrandaki alıştırmalarla tekrar et.",
+      "İfade bankasında her ifadeye kendi cümleni kur.",
+      "Ödev: iki çalışma kâğıdı, bir cihaz açıklaması, bir tavsiye mesajı."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2388 @@
+{
+ "version": 1,
+ "block": 2,
+ "chapters": [
+  {
+   "screenId": "train",
+   "title": "Dinleme: trende anonslar ve konuşmalar · ana nokta ile ayrıntı",
+   "intro": [
+    "MEB kazanımı: günlük hayatta dinlediği belli bir uzunluktaki bir konuşmanın ana noktalarını anlar; örnekler trende, lokantada veya yüzme havuzunda geçen konuşmalardır. Uzun bir konuşmayı dinlerken en büyük hata, her kelimeyi anlamaya çalışmaktır. Bilinmeyen bir kelimede takılıp kalan dinleyici, arkasından gelen önemli bilgiyi kaçırır. Bu yüzden dinlemeyi iki aşamaya ayırırız: önce ana noktalar (kim, nerede, sorun ne, karar ne), sonra ayrıntılar (saat, sayı, yer adı).",
+    "Tren dinlemesinde üç parça var: bir anons, iki yolcunun sohbeti ve kondüktörle konuşma. Anonsların kendine özgü bir dili vardır: delayed by twenty-five minutes, because of a signal problem, We apologise for the delay. Sohbetlerde ise sorunu ve kararı gösteren işaret kelimeleri dinlemek gerekir: but, the problem is, I'm worried, so, I think I'll … Bu kelimeler dinleyiciye konuşmanın nereye gittiğini haber verir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "The ten fifteen train to Eskişehir is delayed by approximately twenty-five minutes because of a signal problem.",
+     "tr": "Saat 10.15 Eskişehir treni sinyal arızası nedeniyle yaklaşık yirmi beş dakika rötarlı.",
+     "why": [
+      "delayed by + süre; approximately resmîdir. because of + isim sebebi verir."
+     ]
+    },
+    {
+     "en": "We apologise for the delay. Please do not leave the platform.",
+     "tr": "Gecikme için özür dileriz. Lütfen perondan ayrılmayın.",
+     "why": [
+      "apologise for + isim. Do not resmî olumsuz emirdir."
+     ]
+    },
+    {
+     "en": "Excuse me, is this seat free?",
+     "tr": "Affedersiniz, bu koltuk boş mu?",
+     "why": [
+      "Yolculukta en yaygın kibar soru. free burada boş demektir (ücretsiz değil)."
+     ]
+    },
+    {
+     "en": "Yes, I've got a job interview at one o'clock. And now the train is late!",
+     "tr": "Evet, saat birde iş görüşmem var. Ve şimdi tren geç kaldı!",
+     "why": [
+      "I've got = I have. And now … ile endişe vurgulanıyor."
+     ]
+    },
+    {
+     "en": "The journey only takes an hour and a half.",
+     "tr": "Yolculuk sadece bir buçuk saat sürüyor.",
+     "why": [
+      "take + süre: sürmek. only küçümseyerek rahatlatır."
+     ]
+    },
+    {
+     "en": "I know, but I need to take a bus from the station to the company, and the bus leaves every hour.",
+     "tr": "Biliyorum ama istasyondan şirkete otobüse binmem gerekiyor ve otobüs saat başı kalkıyor.",
+     "why": [
+      "but sorunu getirir. from … to … güzergâh. every hour sıklık."
+     ]
+    },
+    {
+     "en": "We'll arrive at about twelve twenty, so you'll probably catch it.",
+     "tr": "Yaklaşık on ikiyi yirmi geçe varacağız, yani muhtemelen yetişirsiniz.",
+     "why": [
+      "will gelecek tahmini; so sonuç; catch = yetişmek."
+     ]
+    },
+    {
+     "en": "I think I'll call the company and tell them anyway.",
+     "tr": "Sanırım yine de şirketi arayıp söyleyeceğim.",
+     "why": [
+      "I think I'll anlık karar. tell them = onlara söylemek; anyway = yine de."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "tr-main-detail",
+     "title": "main point · detail",
+     "meaning": "Bir konuşmada ana noktayı ayrıntıdan ayırmak",
+     "explanation": [
+      "Ana nokta (main point), konuşmanın neden yapıldığını ve sonucunu söyleyen bilgidir. Tren dinlemesinin ana noktası şudur: tren gecikiyor, bir yolcu iş görüşmesine yetişemeyeceğinden endişe ediyor ve şirketi aramaya karar veriyor. Ayrıntılar (details) ise bu ana noktayı destekler: gecikme 25 dakika, sebep sinyal arızası, görüşme saat birde, otobüs saat 12.30'da.",
+      "Ana noktayı yakalamak için kendinize dört soru sorun: Who is talking? (Kim konuşuyor?) Where are they? (Neredeler?) What's the problem? (Sorun ne?) What happens in the end? / What do they decide? (Sonunda ne oluyor?) Bu soruların cevapları genellikle konuşmanın başında ve sonunda yoğunlaşır.",
+      "Ayrıntı soruları için ise dinlemeden önce soruları okuyun ve hangi tür bilgiyi arayacağınızı belirleyin: bir saat mi, bir sayı mı, bir sebep mi? Böylece kulağınız doğru bilgiye hazırlanır. Örneğin What time is the interview? sorusunu okuduysanız, at ve saat bildiren sayılara dikkat edersiniz."
+     ],
+     "formula": [
+      "1. dinleme: Who? · Where? · What's the problem? · What do they decide?",
+      "2. dinleme: saat · sayı · sebep · yer adı",
+      "Soruları dinlemeden önce oku; hangi bilgi türünü arayacağını belirle."
+     ],
+     "examples": [
+      {
+       "en": "The main point is that the train is late and the passenger might miss the interview.",
+       "tr": "Ana nokta, trenin geç kalması ve yolcunun görüşmeyi kaçırabilecek olması.",
+       "why": [
+        "Ana noktayı özetleyen bir cümle: The main point is that + cümle."
+       ],
+       "chunks": [
+        {
+         "en": "The main point is that …",
+         "tr": "ana nokta şu ki …"
+        },
+        {
+         "en": "might miss",
+         "tr": "kaçırabilir",
+         "note": "olasılık"
+        }
+       ]
+      },
+      {
+       "en": "A detail: the delay is about twenty-five minutes.",
+       "tr": "Bir ayrıntı: gecikme yaklaşık yirmi beş dakika.",
+       "why": [
+        "Sayı bilgisi bir ayrıntıdır; ana noktayı destekler."
+       ]
+      },
+      {
+       "en": "In the end, the passenger decides to call the company.",
+       "tr": "Sonunda yolcu şirketi aramaya karar veriyor.",
+       "why": [
+        "Karar, konuşmanın sonunda gelir; ana noktanın bir parçasıdır."
+       ]
+      },
+      {
+       "en": "What's the problem? — The bus to the company only leaves every hour.",
+       "tr": "Sorun ne? — Şirkete giden otobüs sadece saat başı kalkıyor.",
+       "why": [
+        "Sorunu bulmak için but ve I need to gibi işaretleri dinleyin."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Gecikme 25 dakika” ana nokta mı ayrıntı mı?",
+       "answer": "Ayrıntı.",
+       "why": "Ana noktayı destekleyen bir sayı."
+      },
+      {
+       "question": "Ana noktayı bulmak için hangi dört soruyu sorarsınız?",
+       "answer": "Who? Where? What's the problem? What do they decide?",
+       "why": "Kim, nerede, sorun, karar."
+      },
+      {
+       "question": "Dinlemeden önce soruları okumanın faydası nedir?",
+       "answer": "Hangi tür bilgiyi (saat, sayı, sebep) arayacağınızı bilirsiniz.",
+       "why": "Kulağınızı hazırlar."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Her kelimeyi anlamaya çalışmak.",
+       "right": "Önce ana noktaları, sonra ayrıntıları dinlemek.",
+       "why": "Bilinmeyen kelimede takılan dinleyici önemli bilgiyi kaçırır."
+      },
+      {
+       "wrong": "The main point is the train is twenty-five minutes.",
+       "right": "The main point is that the train is delayed and the passenger is worried.",
+       "why": "Ana nokta sayı değil, durum ve sonuçtur."
+      }
+     ]
+    },
+    {
+     "id": "tr-announcements",
+     "title": "The 10:15 train is delayed by 25 minutes. · We apologise for the delay.",
+     "meaning": "Tren ve istasyon anonslarını anlamak",
+     "explanation": [
+      "Anonslar resmî ve kalıplaşmış bir dil kullanır. Gecikme: The 10:15 train to Eskişehir is delayed by approximately twenty-five minutes. delayed by + süre gecikme miktarını verir; approximately (yaklaşık) resmî bir kelimedir, konuşmada about kullanılır. İptal: The 8:40 train is cancelled. Peron: The train leaves from platform three.",
+      "Sebep because of + isim ya da due to + isim ile verilir: because of a signal problem, due to bad weather. because'tan sonra cümle gelir (because there is a problem), because of'tan sonra isim gelir (because of a problem). Anonslar genellikle bir özür cümlesiyle biter: We apologise for the delay / for any inconvenience.",
+      "Anonslarda bir de yapılması istenen davranış vardır: Please do not leave the platform. Please stand behind the yellow line. Passengers for Ankara, please change at Eskişehir (aktarma yapın). Bu talimatlar da ana noktanın bir parçasıdır: yolcunun ne yapması gerektiğini söyler."
+     ],
+     "formula": [
+      "delayed by + süre · cancelled · leaves from platform …",
+      "because of / due to + isim (because + cümle)",
+      "We apologise for the delay. · Please do not …"
+     ],
+     "examples": [
+      {
+       "en": "The ten fifteen train to Eskişehir is delayed by approximately twenty-five minutes.",
+       "tr": "Saat 10.15 Eskişehir treni yaklaşık yirmi beş dakika rötarlı.",
+       "why": [
+        "delayed by + süre; approximately = about."
+       ]
+      },
+      {
+       "en": "It's delayed because of a signal problem.",
+       "tr": "Sinyal arızası nedeniyle rötarlı.",
+       "why": [
+        "because of + isim öbeği."
+       ],
+       "chunks": [
+        {
+         "en": "because of",
+         "tr": "… nedeniyle",
+         "note": "ardından isim"
+        },
+        {
+         "en": "a signal problem",
+         "tr": "sinyal arızası"
+        }
+       ]
+      },
+      {
+       "en": "We apologise for the delay. Please do not leave the platform.",
+       "tr": "Gecikme için özür dileriz. Lütfen perondan ayrılmayın.",
+       "why": [
+        "Özür + talimat: anonsun kalıplaşmış sonu."
+       ]
+      },
+      {
+       "en": "Passengers for Ankara, please change at Eskişehir.",
+       "tr": "Ankara yolcuları, lütfen Eskişehir'de aktarma yapın.",
+       "why": [
+        "change = aktarma yapmak (tren değiştirmek)."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Yirmi dakika rötarlı” nasıl söylenir?",
+       "answer": "It's delayed by twenty minutes.",
+       "why": "delayed by + süre"
+      },
+      {
+       "question": "because a problem mı, because of a problem mı?",
+       "answer": "because of a problem",
+       "why": "because of + isim"
+      },
+      {
+       "question": "Anonslar genellikle hangi cümleyle biter?",
+       "answer": "We apologise for the delay.",
+       "why": "Kalıplaşmış özür."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The train is late twenty minutes.",
+       "right": "The train is twenty minutes late. / The train is delayed by twenty minutes.",
+       "why": "Süre late'ten önce gelir ya da delayed by ile verilir."
+      },
+      {
+       "wrong": "because of the weather is bad",
+       "right": "because the weather is bad / because of the bad weather",
+       "why": "because of'tan sonra cümle değil isim gelir."
+      }
+     ]
+    },
+    {
+     "id": "tr-signals",
+     "title": "but · I'm worried · so · I think I'll …",
+     "meaning": "Konuşmada sorunu ve kararı gösteren işaret kelimeleri",
+     "explanation": [
+      "Sohbetlerde konuşmacılar çoğu zaman sorunu açıkça söylemez; işaret kelimeleriyle hissettirir. but bir sorunun geleceğini haber verir: I know, but I need to take a bus. I'm worried / The problem is / What if … endişeyi gösterir. Bu kelimeleri duyduğunuzda dikkatinizi artırın: ana nokta geliyor.",
+      "Karar ve sonuç için so, I think I'll …, I'd better …, In that case … kullanılır: I think I'll call the company. I'd better leave now. In that case, I'll take a taxi. I'll + fiil burada konuşma anında verilen bir karardır; önceden planlanmış değildir.",
+      "Kondüktörün cevabı da önemli bir sinyal içerir: you'll probably catch it. If not, there are taxis outside the station. probably bir olasılığı, If not … bir yedek planı gösterir. Ana noktayı özetlerken bu bilgiyi de ekleriz: The passenger will probably catch the bus; if not, there are taxis."
+     ],
+     "formula": [
+      "sorun: but · I'm worried · The problem is · What if …?",
+      "karar: so · I think I'll … · I'd better … · In that case, …",
+      "olasılık: probably · If not, …"
+     ],
+     "examples": [
+      {
+       "en": "I know, but I need to take a bus from the station to the company.",
+       "tr": "Biliyorum ama istasyondan şirkete otobüse binmem gerekiyor.",
+       "why": [
+        "but sorunu getirir: need to = gerekmek."
+       ]
+      },
+      {
+       "en": "We'll arrive at about twelve twenty, so you'll probably catch it.",
+       "tr": "Yaklaşık 12.20'de varacağız, yani muhtemelen yetişirsiniz.",
+       "why": [
+        "so sonucu verir; probably olasılık."
+       ]
+      },
+      {
+       "en": "I think I'll call the company and tell them anyway.",
+       "tr": "Sanırım yine de şirketi arayıp söyleyeceğim.",
+       "why": [
+        "I think I'll + fiil: anlık karar. anyway = yine de."
+       ],
+       "chunks": [
+        {
+         "en": "I think I'll …",
+         "tr": "sanırım … -eceğim",
+         "note": "anlık karar"
+        },
+        {
+         "en": "anyway",
+         "tr": "yine de"
+        }
+       ]
+      },
+      {
+       "en": "If not, there are taxis outside the station.",
+       "tr": "Yetişemezseniz istasyonun dışında taksiler var.",
+       "why": [
+        "If not = olmazsa; yedek plan."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Sanırım bir taksiye bineceğim.” İngilizcesi?",
+       "answer": "I think I'll take a taxi.",
+       "why": "Anlık karar: I'll"
+      },
+      {
+       "question": "Konuşmada but duyunca neye dikkat etmelisiniz?",
+       "answer": "Bir sorun ya da zıt bilgi geleceğine.",
+       "why": "but bir sinyaldir."
+      },
+      {
+       "question": "If not ne anlama gelir?",
+       "answer": "Olmazsa, öyle değilse.",
+       "why": "Yedek plan."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I think I will to call them.",
+       "right": "I think I'll call them.",
+       "why": "will'den sonra to gelmez."
+      },
+      {
+       "wrong": "anyway = her neyse (her zaman)",
+       "right": "anyway burada “yine de” anlamındadır.",
+       "why": "Bağlama göre anlam değişir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "restaurant-pool",
+   "title": "Dinleme: lokantada ve havuzda · bilgiyi tabloya yerleştirmek",
+   "intro": [
+    "Aynı kazanımın lokanta ve yüzme havuzu bölümleridir. İki konuşmanın yapısı farklıdır. Lokanta konuşması bir olay örgüsüne sahiptir: rezervasyon, alerji sorusu, sipariş, yanlış gelen yemek, çözüm ve hesap. Havuz konuşması ise bir bilgi alma telefonudur: saatler, fiyatlar, kurallar ve kurs bilgisi. Bu yüzden ana noktaları bulmanın yolu da farklıdır: lokantada sorun–çözüm zincirine, havuzda bilgi kategorilerine odaklanırız.",
+    "Bilgi alma konuşmalarında not almanın en etkili yolu bir tablo kullanmaktır: her satır bir kategori (opening hours, price, rules, lessons). Dinlerken tam cümle yazmaya çalışmayın; anahtar kelime ve sayı yazın: 7–22, 120 TL, cap + shower. Lokanta konuşmasında ise kısa bir olay sırası yazabilirsiniz: reservation → nut allergy? → order → wrong kebab → changed + free drinks → pay by card."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Good evening. Do you have a reservation?",
+     "tr": "İyi akşamlar. Rezervasyonunuz var mı?",
+     "why": [
+      "Garsonun ilk sorusu. reservation = rezervasyon; book a table da denir."
+     ]
+    },
+    {
+     "en": "Could you tell us: does the soup of the day contain any nuts? My husband is allergic.",
+     "tr": "Bize söyleyebilir misiniz: günün çorbası kuruyemiş içeriyor mu? Eşimin alerjisi var.",
+     "why": [
+      "Could you tell us kibar bir giriş. contain any: soruda any. allergic sıfattır."
+     ]
+    },
+    {
+     "en": "Then I'd like the grilled fish, and my husband would like the chicken kebab.",
+     "tr": "Sonra ben ızgara balık istiyorum, eşim de tavuk kebap istiyor.",
+     "why": [
+      "I'd like = I would like, kibar sipariş. grilled = ızgara."
+     ]
+    },
+    {
+     "en": "Sorry, this isn't what I ordered. I asked for the chicken kebab, but this is lamb.",
+     "tr": "Pardon, bu sipariş ettiğim şey değil. Tavuk kebap istedim ama bu kuzu.",
+     "why": [
+      "what I ordered: sipariş ettiğim şey. ask for = istemek."
+     ]
+    },
+    {
+     "en": "I'll change it right away. The drinks are on the house.",
+     "tr": "Hemen değiştiriyorum. İçecekler bizden.",
+     "why": [
+      "I'll anlık karar ve söz. on the house = ikram."
+     ]
+    },
+    {
+     "en": "We're open from seven in the morning until ten at night on weekdays.",
+     "tr": "Hafta içi sabah yediden gece ona kadar açığız.",
+     "why": [
+      "from … until … aralık; on weekdays = hafta içi."
+     ]
+    },
+    {
+     "en": "You have to wear a swimming cap, and you must have a shower before you go into the pool.",
+     "tr": "Bone takmak zorundasınız ve havuza girmeden önce duş almalısınız.",
+     "why": [
+      "have to ve must zorunluluk; before + cümle zaman."
+     ]
+    },
+    {
+     "en": "There's a beginners' group on Tuesday and Thursday evenings at seven.",
+     "tr": "Salı ve perşembe akşamları saat yedide başlangıç grubu var.",
+     "why": [
+      "beginners' çoğul iyelik (kesme işareti s'den sonra). Gün + evenings + saat."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "rp-restaurant",
+     "title": "Do you have a reservation? · Are you ready to order? · This isn't what I ordered.",
+     "meaning": "Lokanta konuşmasının dilini ve olay sırasını anlamak",
+     "explanation": [
+      "Lokanta konuşmaları kalıplaşmış sorularla ilerler ve bu sorular olay sırasını da verir. Girişte: Do you have a reservation? (Rezervasyonunuz var mı?) A table for two, please. Sonra: Would you like something to drink? (İçecek bir şey ister misiniz?) Are you ready to order? (Sipariş vermeye hazır mısınız?) Sipariş: I'd like the grilled fish. Two lentil soups to start, please. Rice or salad with the kebab?",
+      "Alerji ve diyet soruları çok önemlidir ve dikkatle dinlenmelidir: Does the soup contain any nuts? My husband is allergic (to nuts). Garsonun cevabı (There are no nuts in it) güvenliği ilgilendiren bir ana noktadır. allergic to + isim kalıbına dikkat: allergic to nuts.",
+      "Sorunlu durumlarda kibar şikâyet kalıpları kullanılır: Excuse me, sorry, this isn't what I ordered. I asked for the chicken kebab, but this is lamb. Garson özür diler ve çözüm sunar: I'm very sorry. I'll change it right away. The drinks are on the house (İçecekler bizden). Sonunda: Could we have the bill, please? Can I pay by card?"
+     ],
+     "formula": [
+      "giriş: Do you have a reservation? · A table for two.",
+      "sipariş: Are you ready to order? · I'd like … · … to start",
+      "sorun: This isn't what I ordered. · I'm very sorry. I'll change it. · on the house"
+     ],
+     "examples": [
+      {
+       "en": "Do you have a reservation? — Yes, a table for two. The name is Aksoy.",
+       "tr": "Rezervasyonunuz var mı? — Evet, iki kişilik. İsim Aksoy.",
+       "why": [
+        "Kısa cevap + isim bilgisi."
+       ]
+      },
+      {
+       "en": "Does the soup of the day contain any nuts? My husband is allergic.",
+       "tr": "Günün çorbası kuruyemiş içeriyor mu? Eşimin alerjisi var.",
+       "why": [
+        "contain = içermek; allergic (to nuts)."
+       ],
+       "chunks": [
+        {
+         "en": "soup of the day",
+         "tr": "günün çorbası"
+        },
+        {
+         "en": "contain any nuts",
+         "tr": "kuruyemiş içermek",
+         "note": "soruda any"
+        },
+        {
+         "en": "allergic",
+         "tr": "alerjisi olan",
+         "note": "allergic to + isim"
+        }
+       ]
+      },
+      {
+       "en": "Sorry, this isn't what I ordered. I asked for the chicken kebab, but this is lamb.",
+       "tr": "Pardon, bu benim sipariş ettiğim şey değil. Tavuk kebap istedim ama bu kuzu.",
+       "why": [
+        "Kibar şikâyet: Sorry + açıklama."
+       ]
+      },
+      {
+       "en": "I'm very sorry. I'll change it right away. The drinks are on the house.",
+       "tr": "Çok özür dilerim. Hemen değiştiriyorum. İçecekler bizden.",
+       "why": [
+        "right away = hemen; on the house = ikram."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Sipariş vermeye hazır mısınız?” İngilizcesi?",
+       "answer": "Are you ready to order?",
+       "why": "Garsonun sorusu."
+      },
+      {
+       "question": "“Bu benim istediğim değil.” İngilizcesi?",
+       "answer": "This isn't what I ordered.",
+       "why": "Kibar şikâyet."
+      },
+      {
+       "question": "on the house ne demek?",
+       "answer": "İkram, ücretsiz (lokanta ödüyor).",
+       "why": "The drinks are on the house."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "My husband is allergic from nuts.",
+       "right": "My husband is allergic to nuts.",
+       "why": "allergic to kalıbı."
+      },
+      {
+       "wrong": "Account, please.",
+       "right": "Could we have the bill, please?",
+       "why": "Hesap bill'dir (ABD: check)."
+      }
+     ]
+    },
+    {
+     "id": "rp-pool",
+     "title": "What are your opening hours? · You have to wear a swimming cap. · Is there a lifeguard?",
+     "meaning": "Bilgi alma telefonunu tablo ile takip etmek",
+     "explanation": [
+      "Havuz konuşması bir bilgi alma telefonudur ve bilgi kategorileri bellidir. Saat: What are your opening hours? — We're open from seven in the morning until ten at night on weekdays. from … until / to … zaman aralığını verir. Fiyat: How much is a ticket? — A single ticket is 120 lira. A monthly card is 900 lira, and it's cheaper for students.",
+      "Kurallar have to, must, can't ile verilir: You have to wear a swimming cap. You must have a shower before you go into the pool. You can't eat or drink by the pool. Children under ten must be with an adult. Bu cümlelerin hepsi bir zorunluluk ya da yasak bildirir; tabloda kurallar satırına girer.",
+      "Kurs bilgisi ayrıntılarla doludur: There's a beginners' group on Tuesday and Thursday evenings at seven. It's eight lessons for 1,200 lira. Burada üç ayrıntı var: günler, saat ve fiyat. Kayıt sorusu: Can I register online? — Yes, on our website, or you can come to reception."
+     ],
+     "formula": [
+      "saat: from … until … · on weekdays / at the weekend",
+      "fiyat: a single ticket · a monthly card · cheaper for students",
+      "kural: have to · must · can't · under ten must be with an adult"
+     ],
+     "examples": [
+      {
+       "en": "We're open from seven in the morning until ten at night on weekdays.",
+       "tr": "Hafta içi sabah yediden gece ona kadar açığız.",
+       "why": [
+        "from … until … zaman aralığı."
+       ]
+      },
+      {
+       "en": "A single ticket is 120 lira. A monthly card is 900 lira, and it's cheaper for students.",
+       "tr": "Tek giriş bileti 120 lira. Aylık kart 900 lira ve öğrencilere daha ucuz.",
+       "why": [
+        "Fiyat satırı: iki bilgi ve bir indirim."
+       ]
+      },
+      {
+       "en": "You have to wear a swimming cap, and you must have a shower before you go into the pool.",
+       "tr": "Bone takmak zorundasınız ve havuza girmeden önce duş almalısınız.",
+       "why": [
+        "have to ve must zorunluluk bildirir."
+       ],
+       "chunks": [
+        {
+         "en": "have to wear",
+         "tr": "giymek zorunda",
+         "note": "dış kural"
+        },
+        {
+         "en": "have a shower",
+         "tr": "duş almak"
+        },
+        {
+         "en": "before you go into",
+         "tr": "… -e girmeden önce"
+        }
+       ]
+      },
+      {
+       "en": "Is there a lifeguard? — Yes, there are always two lifeguards on duty.",
+       "tr": "Cankurtaran var mı? — Evet, her zaman iki cankurtaran görevde.",
+       "why": [
+        "on duty = görevde."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Hafta sonu dokuzdan sekize kadar açığız.” İngilizcesi?",
+       "answer": "We're open from nine until eight at the weekend.",
+       "why": "from … until …"
+      },
+      {
+       "question": "Havuzun iki kuralını söyleyin.",
+       "answer": "You have to wear a swimming cap. You must have a shower first.",
+       "why": "have to / must"
+      },
+      {
+       "question": "Kurs bilgisinde hangi üç ayrıntı var?",
+       "answer": "Günler (salı, perşembe), saat (yedi), fiyat (8 ders 1.200 TL).",
+       "why": "Ayrıntı satırı."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "You must wearing a cap.",
+       "right": "You must wear a cap.",
+       "why": "must + yalın fiil."
+      },
+      {
+       "wrong": "Children under ten must with an adult.",
+       "right": "Children under ten must be with an adult.",
+       "why": "must'tan sonra be gerekir."
+      }
+     ]
+    },
+    {
+     "id": "rp-notes",
+     "title": "Not almak ve ana noktaları aktarmak",
+     "meaning": "Dinlerken kısa not almak ve sonra tam cümleyle aktarmak",
+     "explanation": [
+      "Dinlerken tam cümle yazmaya vakit yoktur. Bunun yerine anahtar kelimeler, sayılar ve oklar kullanılır: reservation 2 → nut allergy? NO → order: 2 soups, fish, chicken kebab → WRONG (lamb) → changed + free drinks → card. Bu notlar sizin içindir; dilbilgisi önemli değildir.",
+      "Aktarma aşamasında ise notları tam cümlelere dönüştürürüz ve geçmiş zaman kullanırız, çünkü konuşma artık bitmiştir: The couple had a reservation. The customer asked if the soup contained nuts. The waiter brought the wrong kebab, but he changed it and the drinks were free. Aktarırken ana noktaları önce, ayrıntıları sonra söyleriz.",
+      "Ana noktaları aktarmanın kalıpları: The main problem was that … In the end, … The most important information is that … Bu kalıplar bir sonraki adımlardaki (fikir, kısa konuşma, söyleşi) aktarım becerisinin de temelidir."
+     ],
+     "formula": [
+      "Not: anahtar kelime + sayı + ok (→)",
+      "Aktarım: geçmiş zaman + tam cümle",
+      "The main problem was that … · In the end, … · The most important information is that …"
+     ],
+     "examples": [
+      {
+       "en": "Notes: open 7–22 weekdays · 120 TL single · cap + shower · lessons Tue/Thu 7 p.m.",
+       "tr": "Notlar: hafta içi 7–22 · tek bilet 120 TL · bone + duş · kurs salı/perşembe 19.00",
+       "why": [
+        "Kısa notlar; tam cümle yok."
+       ]
+      },
+      {
+       "en": "The main problem was that the waiter brought the wrong kebab.",
+       "tr": "Asıl sorun garsonun yanlış kebabı getirmesiydi.",
+       "why": [
+        "Aktarım: geçmiş zaman, ana nokta önce."
+       ]
+      },
+      {
+       "en": "In the end, he changed it and the drinks were on the house.",
+       "tr": "Sonunda değiştirdi ve içecekler ikram edildi.",
+       "why": [
+        "Sonuç cümlesi."
+       ]
+      },
+      {
+       "en": "The most important information is that you have to wear a swimming cap.",
+       "tr": "En önemli bilgi bone takmanın zorunlu olması.",
+       "why": [
+        "Havuz konuşmasının en önemli kuralı."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Dinlerken neden tam cümle yazmayız?",
+       "answer": "Zaman yetmez; anahtar kelime ve sayı yeterlidir.",
+       "why": "Not sizin içindir."
+      },
+      {
+       "question": "Aktarırken hangi zamanı kullanırız?",
+       "answer": "Geçmiş zaman (konuşma bitti).",
+       "why": "The waiter brought …"
+      },
+      {
+       "question": "“Asıl sorun … idi.” kalıbı?",
+       "answer": "The main problem was that …",
+       "why": "Ana nokta aktarımı."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The waiter bring the wrong kebab. (aktarım)",
+       "right": "The waiter brought the wrong kebab.",
+       "why": "Aktarımda geçmiş zaman."
+      },
+      {
+       "wrong": "Önce bütün ayrıntıları sıralamak.",
+       "right": "Önce ana noktayı, sonra ayrıntıları söylemek.",
+       "why": "Dinleyici önce resmin bütününü görmeli."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "opinions",
+   "title": "Fikir ve gerekçe: PREP ile güçlü fikir cümlesi",
+   "intro": [
+    "MEB kazanımı: günlük hayattaki farklı konulara ilişkin fikirlerini söyler ve sebeplerini bildirir. A2 düzeyinde I think … because … yeterlidir. B1'de ise fikrin bir yapısı olması beklenir: fikir, gerekçe, örnek ve sonuç. Bu yapıya PREP denir: Point (fikir), Reason (gerekçe), Example (örnek), Point again (fikre dönüş). PREP ile kurulan dört cümlelik bir fikir, hem sınavlarda hem de günlük tartışmalarda çok ikna edicidir.",
+    "Bu ekranda üç dil grubu öğreniyoruz. Fikir başlatma ifadeleri gücüne göre sıralanır: I think (nötr), In my opinion (biraz daha resmî), I strongly believe (güçlü), As far as I'm concerned (kişisel vurgulu), It seems to me that (yumuşak). Gerekçe ve örnek ifadeleri: The main reason is that, Another reason is that, For example, For instance, That's why. Katılma ve katılmama ifadeleri: I completely agree, That's a good point, I see your point, but …, I'm afraid I disagree, It depends."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "In my opinion, shops should close on Sundays.",
+     "tr": "Bana göre dükkânlar pazar günleri kapanmalı.",
+     "why": [
+      "PREP'in P'si: fikir. In my opinion'dan sonra virgül."
+     ]
+    },
+    {
+     "en": "The main reason is that workers need a day with their families.",
+     "tr": "Asıl sebep, çalışanların aileleriyle bir güne ihtiyaç duyması.",
+     "why": [
+      "PREP'in R'si: that + tam cümle."
+     ]
+    },
+    {
+     "en": "For example, my sister works in a shop and she never sees her children at the weekend.",
+     "tr": "Örneğin kız kardeşim bir dükkânda çalışıyor ve hafta sonu çocuklarını hiç görmüyor.",
+     "why": [
+      "PREP'in E'si: kişisel örnek. never sıklık zarfı fiilden önce."
+     ]
+    },
+    {
+     "en": "That's why I believe one free day a week is fair.",
+     "tr": "Bu yüzden haftada bir boş günün adil olduğuna inanıyorum.",
+     "why": [
+      "PREP'in son P'si: fikre dönüş. a week = haftada."
+     ]
+    },
+    {
+     "en": "I strongly believe that public transport should be free for students, because it helps families save money.",
+     "tr": "Toplu taşımanın öğrencilere ücretsiz olması gerektiğine kesinlikle inanıyorum, çünkü ailelerin para biriktirmesine yardım ediyor.",
+     "why": [
+      "Güçlü görüş + because gerekçe. help + kişi + yalın fiil (help families save)."
+     ]
+    },
+    {
+     "en": "I see your point, but I don't agree. Online lessons can't replace a real teacher.",
+     "tr": "Ne demek istediğini anlıyorum ama katılmıyorum. Çevrim içi dersler gerçek öğretmenin yerini tutamaz.",
+     "why": [
+      "Kabul + itiraz + gerekçe. replace = yerini almak."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "op-starters",
+     "title": "In my opinion, … · I strongly believe … · As far as I'm concerned, …",
+     "meaning": "Fikir başlatma ifadelerini güçlerine göre seçmek",
+     "explanation": [
+      "Fikir başlatma ifadeleri dinleyiciye ne kadar emin olduğunuzu söyler. I think … ve In my opinion, … nötr ifadelerdir; In my opinion biraz daha resmîdir ve yazıda sık kullanılır. I strongly believe that … (… olduğuna kesinlikle inanıyorum) güçlü bir görüş bildirir; As far as I'm concerned, … (bana kalırsa) görüşün kişisel olduğunu vurgular. It seems to me that … (bana öyle geliyor ki) daha yumuşak ve temkinlidir.",
+      "Türkçeden çeviri yaparken iki tuzak vardır. Birincisi According to me, … kalıbıdır; bu İngilizcede doğal değildir. According to başkasının görüşü ya da bir kaynak için kullanılır: According to the news, … Kendi görüşümüz için In my opinion ya da I think kullanılır. İkincisi In my opinion I think … gibi iki ifadeyi üst üste kullanmaktır; birini seçmek yeterlidir.",
+      "Olumsuz görüşte yine olumsuzluk think'e taşınır: I don't think shops should open 24 hours. In my opinion ile ise olumsuzluk cümlenin içinde kalır: In my opinion, shops shouldn't open 24 hours. Fikri hangi güçte söyleyeceğinize konuya ve dinleyiciye göre karar verin: hassas bir konuda It seems to me that daha uygundur."
+     ],
+     "formula": [
+      "nötr: I think … · In my opinion, …",
+      "güçlü: I strongly believe (that) … · kişisel: As far as I'm concerned, …",
+      "yumuşak: It seems to me that … · olumsuz: I don't think …"
+     ],
+     "examples": [
+      {
+       "en": "In my opinion, working from home is better for families.",
+       "tr": "Bana göre evden çalışmak aileler için daha iyi.",
+       "why": [
+        "In my opinion + virgül + tam cümle."
+       ]
+      },
+      {
+       "en": "I strongly believe that public transport should be free for students.",
+       "tr": "Toplu taşımanın öğrencilere ücretsiz olması gerektiğine kesinlikle inanıyorum.",
+       "why": [
+        "Güçlü görüş; that bağlacı düşebilir."
+       ],
+       "chunks": [
+        {
+         "en": "I strongly believe",
+         "tr": "kesinlikle inanıyorum"
+        },
+        {
+         "en": "should be free",
+         "tr": "ücretsiz olmalı"
+        }
+       ]
+      },
+      {
+       "en": "As far as I'm concerned, phones shouldn't be allowed in class.",
+       "tr": "Bana kalırsa sınıfta telefona izin verilmemeli.",
+       "why": [
+        "Kişisel vurgu; shouldn't be allowed edilgen olumsuz."
+       ]
+      },
+      {
+       "en": "It seems to me that people read less these days.",
+       "tr": "Bana öyle geliyor ki insanlar bu aralar daha az okuyor.",
+       "why": [
+        "Yumuşak ve temkinli görüş."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "According to me yerine ne denir?",
+       "answer": "In my opinion, … / I think …",
+       "why": "According to başkasının görüşü içindir."
+      },
+      {
+       "question": "En güçlü fikir başlatıcı hangisi?",
+       "answer": "I strongly believe that …",
+       "why": "Güç sırası."
+      },
+      {
+       "question": "In my opinion, I think … doğru mu?",
+       "answer": "Hayır, birini seçin.",
+       "why": "Tekrar gereksiz."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "According to me, it's a good idea.",
+       "right": "In my opinion, it's a good idea.",
+       "why": "Kendi görüşünüz için According to kullanılmaz."
+      },
+      {
+       "wrong": "I am think that it's fair.",
+       "right": "I think that it's fair.",
+       "why": "think fiildir; am almaz."
+      }
+     ]
+    },
+    {
+     "id": "op-reasons",
+     "title": "The main reason is that … · For example, … · That's why …",
+     "meaning": "Gerekçe, örnek ve sonuçla fikri desteklemek",
+     "explanation": [
+      "Gerekçe vermenin kısa yolu because'tır; B1'de ise daha belirgin ifadeler kullanılır: The main reason is that + cümle (Asıl sebep şu ki …), Another reason is that + cümle (Bir diğer sebep …). The main reason is because demek konuşmada duyulsa da yazıda that tercih edilir: The main reason is that it saves time.",
+      "Örnek, fikri somutlaştırır ve inandırıcı yapar: For example, … ya da For instance, … Kendi hayatınızdan bir örnek en etkilisidir: For example, my sister works in a shop and she never sees her children at the weekend. such as + isim listesi de örnek verir ama cümle içinde: Some jobs, such as nursing, can't be done from home.",
+      "Sonuç cümlesi fikre geri döner ve dinleyiciye konuşmanın bittiğini haber verir: That's why … (Bu yüzden …), So, all in all, … (Sonuç olarak …). That's why'dan sonra fikir tekrar söylenir: That's why I think companies should offer both options. Böylece dört cümlelik PREP tamamlanır."
+     ],
+     "formula": [
+      "R: The main reason is that … · Another reason is that …",
+      "E: For example, … · For instance, … · such as + isim",
+      "P: That's why … · So, all in all, …"
+     ],
+     "examples": [
+      {
+       "en": "The main reason is that parents can spend more time with their children.",
+       "tr": "Asıl sebep, ebeveynlerin çocuklarıyla daha çok zaman geçirebilmesi.",
+       "why": [
+        "The main reason is that + tam cümle."
+       ]
+      },
+      {
+       "en": "For example, I don't spend two hours on the bus every day, so I can cook dinner with my son.",
+       "tr": "Örneğin her gün iki saat otobüste geçirmiyorum, bu yüzden oğlumla yemek yapabiliyorum.",
+       "why": [
+        "Kişisel örnek; so sonucu bağlar."
+       ],
+       "chunks": [
+        {
+         "en": "spend time on …",
+         "tr": "… -de zaman geçirmek"
+        },
+        {
+         "en": "so I can …",
+         "tr": "bu yüzden … -ebiliyorum"
+        }
+       ]
+      },
+      {
+       "en": "Some jobs, such as nursing, can't be done from home.",
+       "tr": "Hemşirelik gibi bazı işler evden yapılamaz.",
+       "why": [
+        "such as cümle içinde örnek."
+       ]
+      },
+      {
+       "en": "That's why I think companies should offer both options.",
+       "tr": "Bu yüzden bence şirketler iki seçeneği de sunmalı.",
+       "why": [
+        "Sonuç: fikre geri dönüş."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Asıl sebep zaman kazandırması.” İngilizcesi?",
+       "answer": "The main reason is that it saves time.",
+       "why": "that + cümle"
+      },
+      {
+       "question": "For example ile such as farkı?",
+       "answer": "For example yeni bir cümle başlatır; such as cümle içinde isim listesi verir.",
+       "why": "Yapı farkı."
+      },
+      {
+       "question": "PREP'in son P'si ne yapar?",
+       "answer": "Fikre geri döner: That's why …",
+       "why": "Sonuç."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The main reason is because time.",
+       "right": "The main reason is that it saves time.",
+       "why": "Gerekçe tam bir cümle olmalı; that tercih edilir."
+      },
+      {
+       "wrong": "For example such as my sister.",
+       "right": "For example, my sister … / … such as my sister.",
+       "why": "İki örnek ifadesi birlikte kullanılmaz."
+      }
+     ]
+    },
+    {
+     "id": "op-agree",
+     "title": "I completely agree. · I see your point, but … · I'm afraid I disagree. · It depends.",
+     "meaning": "Kibarca katılmak ve katılmamak",
+     "explanation": [
+      "Katılmak için: I completely agree (tamamen katılıyorum), I agree with you, That's a good point, Exactly! agree bir fiildir; I am agree demek yanlıştır, I agree yeterlidir. Kısmen katılmak için: I partly agree, That's true, but …",
+      "Katılmamak İngilizce konuşulan kültürlerde genellikle yumuşatılır. Önce karşı tarafın görüşünü kabul eder, sonra kendi görüşümüzü söyleriz: I see your point, but … (Ne demek istediğini anlıyorum ama …), I'm afraid I disagree (Maalesef katılmıyorum), I'm not so sure about that. Doğrudan You're wrong demek çok serttir.",
+      "Bazen en dürüst cevap It depends'tir (Duruma göre değişir). Ama It depends tek başına bırakılmaz; neye bağlı olduğu söylenir: It depends on the job. For some people, working from home is great, but for others it's lonely. Bu, olgun ve dengeli bir fikir bildirme biçimidir."
+     ],
+     "formula": [
+      "katılmak: I completely agree. · That's a good point. · Exactly!",
+      "kibar katılmamak: I see your point, but … · I'm afraid I disagree.",
+      "denge: It depends on … · For some people …, but for others …"
+     ],
+     "examples": [
+      {
+       "en": "I completely agree with you. Children need more free time.",
+       "tr": "Sana tamamen katılıyorum. Çocukların daha çok boş zamana ihtiyacı var.",
+       "why": [
+        "agree with + kişi."
+       ]
+      },
+      {
+       "en": "I see your point, but online lessons can't replace a real teacher.",
+       "tr": "Ne demek istediğini anlıyorum ama çevrim içi dersler gerçek bir öğretmenin yerini tutamaz.",
+       "why": [
+        "Önce kabul, sonra but ile itiraz."
+       ],
+       "chunks": [
+        {
+         "en": "I see your point",
+         "tr": "ne demek istediğini anlıyorum"
+        },
+        {
+         "en": "replace",
+         "tr": "yerini tutmak"
+        }
+       ]
+      },
+      {
+       "en": "I'm afraid I disagree. Shops need to be open on Sundays for working people.",
+       "tr": "Maalesef katılmıyorum. Çalışan insanlar için dükkânların pazar açık olması gerekiyor.",
+       "why": [
+        "I'm afraid kibar bir yumuşatıcı."
+       ]
+      },
+      {
+       "en": "It depends on the job. For some people it's great, but for others it's lonely.",
+       "tr": "İşe bağlı. Bazıları için harika ama diğerleri için yalnızlaştırıcı.",
+       "why": [
+        "It depends + neye bağlı olduğu."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "I am agree with you cümlesini düzeltin.",
+       "answer": "I agree with you.",
+       "why": "agree fiildir."
+      },
+      {
+       "question": "You're wrong yerine daha kibar ne denir?",
+       "answer": "I see your point, but … / I'm afraid I disagree.",
+       "why": "Yumuşatma."
+      },
+      {
+       "question": "It depends'ten sonra ne eklenmeli?",
+       "answer": "Neye bağlı olduğu: It depends on the job.",
+       "why": "Tek başına bırakılmaz."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I am agree.",
+       "right": "I agree.",
+       "why": "agree be ile kullanılmaz."
+      },
+      {
+       "wrong": "It depends. (başka bir şey söylemeden)",
+       "right": "It depends on the situation. For example, …",
+       "why": "Neye bağlı olduğunu açıklayın."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "I agree / I'm agree",
+       "explanation": [
+        "agree bir fiildir, sıfat değildir. Türkçedeki “katılıyorum” yapısı yüzünden am eklenir; bu yanlıştır."
+       ],
+       "example": "I agree with you. · Do you agree? — Yes, I do.",
+       "tr": [
+        "Sana katılıyorum. · Katılıyor musun? — Evet."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "school-talk",
+   "title": "Kısa konuşma: okulda şiddet ve zorbalık",
+   "intro": [
+    "Kazanımın örnek konusu okulda şiddet olayları hakkında kısa bir konuşmadır. Bu, hem dil hem de duyarlılık gerektiren bir görevdir. Kısa bir konuşma (2–3 dakika) dinleyiciye bir yol haritası sunmalıdır: konuyu tanıtan bir giriş, iki üç ana nokta, çözüm önerileri ve kısa bir sonuç. Bu yapıyı gösteren kalıplar (I'd like to talk about …, First of all, …, Another point is …, One solution is to …, To sum up, …) dinleyicinin sizi takip etmesini kolaylaştırır.",
+    "Konunun hassasiyeti nedeniyle saygılı bir dil kullanmak önemlidir. Genellemelerden kaçınırız (all students yerine some students, in some schools), kişileri değil davranışları anlatırız (bullying behaviour) ve suçlamak yerine çözüm öneririz. Konu kelimeleri: violence (şiddet), bullying (zorbalık), a bully (zorba), a victim (mağdur), cyberbullying (siber zorbalık), peer pressure (akran baskısı), to report (bildirmek), to support (desteklemek), a school counsellor (rehber öğretmen)."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Today I'd like to talk about violence at school, and especially about bullying.",
+     "tr": "Bugün okulda şiddet hakkında, özellikle de zorbalık hakkında konuşmak istiyorum.",
+     "why": [
+      "I'd like to kibar giriş. especially konuyu daraltır."
+     ]
+    },
+    {
+     "en": "I think it's a serious problem, because it can make a child's life very difficult.",
+     "tr": "Bence ciddi bir sorun, çünkü bir çocuğun hayatını çok zorlaştırabilir.",
+     "why": [
+      "make + nesne + sıfat: hayatı zorlaştırmak. can olasılık."
+     ]
+    },
+    {
+     "en": "First of all, bullying isn't always physical. It can be words, or it can happen online, on social media.",
+     "tr": "Öncelikle zorbalık her zaman fiziksel değildir. Sözlü olabilir ya da internette, sosyal medyada olabilir.",
+     "why": [
+      "First of all birinci nokta. isn't always = her zaman … değil."
+     ]
+    },
+    {
+     "en": "That's why parents and teachers sometimes don't notice it.",
+     "tr": "Bu yüzden veliler ve öğretmenler bazen bunu fark etmiyor.",
+     "why": [
+      "That's why sonuç; notice = fark etmek; sometimes fiilden önce (don't'tan önce)."
+     ]
+    },
+    {
+     "en": "Another point is that many victims don't tell anyone, because they feel ashamed or scared.",
+     "tr": "Bir diğer nokta, birçok mağdurun kimseye anlatmaması, çünkü utanıyor ya da korkuyorlar.",
+     "why": [
+      "Another point is that + cümle. don't tell anyone: olumsuzda anyone."
+     ]
+    },
+    {
+     "en": "One solution is to have a school counsellor that students trust.",
+     "tr": "Çözümlerden biri, öğrencilerin güvendiği bir rehber öğretmenin olması.",
+     "why": [
+      "One solution is to + fiil. that students trust: ilgi cümleciği."
+     ]
+    },
+    {
+     "en": "To sum up, I strongly believe that every school must be a safe place, and we all have a role in this.",
+     "tr": "Özetle, her okulun güvenli bir yer olması gerektiğine kesinlikle inanıyorum ve bunda hepimizin rolü var.",
+     "why": [
+      "To sum up sonucu başlatır. must güçlü zorunluluk; we all = hepimiz."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "st-vocabulary",
+     "title": "violence · bullying · a bully · a victim · cyberbullying · report · support",
+     "meaning": "Konuyla ilgili kelimeleri doğru kullanmak",
+     "explanation": [
+      "violence (şiddet) sayılamayan bir isimdir: violence at school (okulda şiddet), -s almaz. bullying (zorbalık), bir kişinin başka birini sürekli olarak incitmesi, korkutması ya da dışlamasıdır; fiili bully'dir: Some students bully others. Zorbalık yapan kişi a bully, mağdur a victim'dır. Çevrim içi zorbalık cyberbullying'dir.",
+      "Çözüm kelimeleri: report (bildirmek): Students should report it to a teacher. support (desteklemek): We must support the victim. a school counsellor (rehber öğretmen, okul psikolojik danışmanı). clear rules (açık kurallar). peer support (akran desteği). Türkçedeki “rehber öğretmen” kelime kelime guidance teacher diye çevrilebilir ama yaygın karşılık school counsellor'dır.",
+      "Bu kelimelerle cümle kurarken fiillerin edatlarına dikkat: report something to someone (birine bir şeyi bildirmek), talk to someone about something, deal with a problem (bir sorunla başa çıkmak), take something seriously (bir şeyi ciddiye almak). Doğru edatlar konuşmayı daha akıcı ve güvenilir yapar."
+     ],
+     "formula": [
+      "violence (sayılamaz) · bullying · a bully · a victim · cyberbullying",
+      "report it to a teacher · support the victim · talk to the school counsellor",
+      "deal with a problem · take it seriously"
+     ],
+     "examples": [
+      {
+       "en": "Bullying can happen online too. We call it cyberbullying.",
+       "tr": "Zorbalık internette de olabilir. Buna siber zorbalık diyoruz.",
+       "why": [
+        "too = de / da; call it + isim."
+       ],
+       "chunks": [
+        {
+         "en": "happen online",
+         "tr": "internette olmak"
+        },
+        {
+         "en": "cyberbullying",
+         "tr": "siber zorbalık"
+        }
+       ]
+      },
+      {
+       "en": "Students should report it to a teacher or the school counsellor.",
+       "tr": "Öğrenciler bunu bir öğretmene ya da rehber öğretmene bildirmeli.",
+       "why": [
+        "report it to + kişi."
+       ]
+      },
+      {
+       "en": "We must support the victim and take the problem seriously.",
+       "tr": "Mağduru desteklemeli ve sorunu ciddiye almalıyız.",
+       "why": [
+        "take … seriously = … -i ciddiye almak."
+       ]
+      },
+      {
+       "en": "Violence at school affects learning.",
+       "tr": "Okulda şiddet öğrenmeyi etkiliyor.",
+       "why": [
+        "violence sayılamaz, -s yok; affect = etkilemek."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Zorba” ve “mağdur” İngilizcesi?",
+       "answer": "a bully · a victim",
+       "why": "Kişi isimleri."
+      },
+      {
+       "question": "“Bunu öğretmene bildirmeliler.” İngilizcesi?",
+       "answer": "They should report it to a teacher.",
+       "why": "report it to"
+      },
+      {
+       "question": "violences doğru mu?",
+       "answer": "Hayır: violence (sayılamaz).",
+       "why": "-s almaz."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "They should say it to the guidance teacher.",
+       "right": "They should tell the school counsellor.",
+       "why": "Birine söylemek tell; yaygın karşılık school counsellor."
+      },
+      {
+       "wrong": "We must take it serious.",
+       "right": "We must take it seriously.",
+       "why": "take … seriously kalıbında zarf kullanılır."
+      }
+     ]
+    },
+    {
+     "id": "st-structure",
+     "title": "I'd like to talk about … · First of all, … · Another point is … · One solution is to … · To sum up, …",
+     "meaning": "Kısa bir konuşmayı planlamak ve yönlendirme ifadeleri kullanmak",
+     "explanation": [
+      "Kısa bir konuşmanın dört bölümü vardır. Giriş: konuyu duyurur ve neden önemli olduğunu söyler: Today I'd like to talk about violence at school. It's a serious problem because it can make a child's life very difficult. I'd like to = I would like to; kibar ve resmî bir giriştir.",
+      "Ana noktalar sıralama ifadeleriyle verilir: First of all, … (Öncelikle), Another point is that … (Bir diğer nokta şu ki), Finally, … (Son olarak). Her nokta bir gerekçe ya da örnekle desteklenir. Çözümler: One solution is to + fiil, Another solution is to …, Schools could also + fiil, Parents can help too, for example by + -ing.",
+      "Sonuç: To sum up, … / In conclusion, … ile ana fikir tek cümlede tekrar edilir ve konuşma teşekkürle biter: Thank you for listening. Bu yönlendirme ifadeleri (signposting) dinleyicinin konuşmanın neresinde olduğunu her an bilmesini sağlar; uzun konuşmalarda kaybolmayı önler."
+     ],
+     "formula": [
+      "giriş: Today I'd like to talk about … · It's a serious problem because …",
+      "noktalar: First of all, … · Another point is that … · Finally, …",
+      "çözüm ve sonuç: One solution is to … · To sum up, … · Thank you for listening."
+     ],
+     "examples": [
+      {
+       "en": "Today I'd like to talk about violence at school, and especially about bullying.",
+       "tr": "Bugün okulda şiddet hakkında, özellikle de zorbalık hakkında konuşmak istiyorum.",
+       "why": [
+        "Giriş: konu + odak (especially)."
+       ]
+      },
+      {
+       "en": "First of all, bullying isn't always physical. It can be words, or it can happen online.",
+       "tr": "Öncelikle zorbalık her zaman fiziksel değildir. Sözlü olabilir ya da internette olabilir.",
+       "why": [
+        "Birinci nokta + açıklama."
+       ]
+      },
+      {
+       "en": "One solution is to have a school counsellor that students trust.",
+       "tr": "Çözümlerden biri, öğrencilerin güvendiği bir rehber öğretmen olması.",
+       "why": [
+        "One solution is to + fiil; that students trust ilgi cümleciği."
+       ],
+       "chunks": [
+        {
+         "en": "One solution is to …",
+         "tr": "çözümlerden biri … -mektir"
+        },
+        {
+         "en": "that students trust",
+         "tr": "öğrencilerin güvendiği"
+        }
+       ]
+      },
+      {
+       "en": "To sum up, I strongly believe that every school must be a safe place. Thank you for listening.",
+       "tr": "Özetle, her okulun güvenli bir yer olması gerektiğine kesinlikle inanıyorum. Dinlediğiniz için teşekkürler.",
+       "why": [
+        "Sonuç + teşekkür."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Konuşmayı nasıl başlatırsınız?",
+       "answer": "Today I'd like to talk about …",
+       "why": "Kibar giriş."
+      },
+      {
+       "question": "“Çözümlerden biri … -mektir.” kalıbı?",
+       "answer": "One solution is to + fiil.",
+       "why": "Çözüm önerisi."
+      },
+      {
+       "question": "Sonuç bölümünü hangi ifade başlatır?",
+       "answer": "To sum up, … / In conclusion, …",
+       "why": "Özet."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Today I will talk about from violence.",
+       "right": "Today I'd like to talk about violence.",
+       "why": "talk about + isim; from fazla."
+      },
+      {
+       "wrong": "Shortly, schools must be safe.",
+       "right": "To sum up, schools must be safe.",
+       "why": "Özetlemek için shortly değil to sum up / in short."
+      }
+     ]
+    },
+    {
+     "id": "st-respectful",
+     "title": "some students · in some schools · bullying behaviour · We all have a role.",
+     "meaning": "Hassas bir konuda saygılı ve çözüm odaklı konuşmak",
+     "explanation": [
+      "Hassas konularda genelleme, dinleyiciyi incitebilir ve konuşmanın inandırıcılığını azaltır. All students are violent ya da Schools are dangerous gibi cümleler yerine some students, in some schools, sometimes, it can happen gibi sınırlayıcı ifadeler kullanılır: In some schools, some students face bullying.",
+      "Kişileri etiketlemek yerine davranışları anlatmak daha yapıcıdır: bad children yerine bullying behaviour, a student who bullies others. Bu, sorunun değiştirilebilir bir davranış olduğunu vurgular. Mağdurlar için de dikkatli olunur: Many victims don't tell anyone because they feel ashamed or scared. Bu cümle, sessiz kalan öğrencileri suçlamadan durumu açıklar.",
+      "Çözüm odaklı bir dil, konuşmayı umutlu bir yere taşır: We all have a role in this. Parents can help by talking to their children every day. Asking for help is never weak. Bu tür cümleler hem konunun ciddiyetini korur hem de dinleyiciye bir şey yapabileceğini hissettirir."
+     ],
+     "formula": [
+      "genelleme yerine: some students · in some schools · it can happen",
+      "kişi yerine davranış: bullying behaviour · a student who bullies others",
+      "çözüm dili: We all have a role. · Parents can help by + -ing."
+     ],
+     "examples": [
+      {
+       "en": "In some schools, some students face bullying, and we need to take it seriously.",
+       "tr": "Bazı okullarda bazı öğrenciler zorbalıkla karşılaşıyor ve bunu ciddiye almalıyız.",
+       "why": [
+        "Sınırlayıcı ifadeler: some, in some schools."
+       ]
+      },
+      {
+       "en": "Many victims don't tell anyone because they feel ashamed or scared.",
+       "tr": "Birçok mağdur kimseye anlatmıyor çünkü utanıyor ya da korkuyor.",
+       "why": [
+        "Suçlamadan açıklama; ashamed = utanmış."
+       ]
+      },
+      {
+       "en": "Parents can help too, for example by talking to their children every day.",
+       "tr": "Veliler de yardım edebilir, örneğin çocuklarıyla her gün konuşarak.",
+       "why": [
+        "by + -ing: … -erek."
+       ],
+       "chunks": [
+        {
+         "en": "help by + -ing",
+         "tr": "… -erek yardım etmek"
+        },
+        {
+         "en": "every day",
+         "tr": "her gün"
+        }
+       ]
+      },
+      {
+       "en": "We all have a role in this. Asking for help is never weak.",
+       "tr": "Bunda hepimizin bir rolü var. Yardım istemek asla zayıflık değildir.",
+       "why": [
+        "Umut veren, çözüm odaklı kapanış."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "All students are violent cümlesini daha saygılı yapın.",
+       "answer": "Some students behave violently in some schools.",
+       "why": "Genelleme yerine sınırlama."
+      },
+      {
+       "question": "“Her gün konuşarak” nasıl söylenir?",
+       "answer": "by talking every day",
+       "why": "by + -ing"
+      },
+      {
+       "question": "bad children yerine ne denir?",
+       "answer": "bullying behaviour / students who bully others",
+       "why": "Kişi yerine davranış."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Victims are weak because they don't tell.",
+       "right": "Many victims don't tell anyone because they feel scared.",
+       "why": "Mağduru suçlayan dil yerine durumu açıklayın."
+      },
+      {
+       "wrong": "Schools are very dangerous.",
+       "right": "Some schools have problems with violence.",
+       "why": "Genelleme inandırıcılığı azaltır."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "interview",
+   "title": "Söyleşi: açık uçlu sorular, takip soruları ve önemli noktaları aktarmak",
+   "intro": [
+    "Kazanımın ikinci örneği söyleşidir (interview). Söyleşide iki rol vardır: soran (interviewer) ve cevap veren (interviewee). Soran kişinin işi iyi sorular sormaktır: açık uçlu, yani yes / no ile bitmeyen sorular (Could you tell us about …? What do you think about …? Why?) ve cevabı derinleştiren takip soruları (What do you mean by that? Could you give us an example? How did you feel about that?). Cevap veren kişinin işi ise fikrini gerekçe ve örnekle anlatmaktır; bu da bir önceki adımdaki PREP becerisidir.",
+    "Söyleşiden sonra önemli noktaları başkalarına aktarırız. Bu, kazanımdaki “önemli olduğunu düşündüğü noktaları anlaşılır bir biçimde aktarma” becerisine de bağlanır. B1 düzeyinde iki basit aktarım yolu vardır: fikirler için She thinks / She believes that …, söylenenler için She said (that) … ve emir ya da tavsiyeler için She told us to … Aktarırken her şeyi değil, en önemli iki üç noktayı seçeriz."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Thank you for talking to us today, Ms Er. Could you tell us about your job?",
+     "tr": "Bugün bizimle konuştuğunuz için teşekkürler Bayan Er. Bize işinizden bahseder misiniz?",
+     "why": [
+      "Thank you for + -ing. Could you tell us about + isim: açık uçlu açılış."
+     ]
+    },
+    {
+     "en": "I listen to students, help them with problems and work with teachers and parents.",
+     "tr": "Öğrencileri dinliyorum, sorunlarına yardım ediyorum, öğretmen ve velilerle çalışıyorum.",
+     "why": [
+      "Üç geniş zaman fiili virgül ve and ile; help someone with something."
+     ]
+    },
+    {
+     "en": "What do you think is the biggest problem at schools today?",
+     "tr": "Sizce bugün okullardaki en büyük sorun ne?",
+     "why": [
+      "do you think araya girmiş; ardından düz sıra: is the biggest problem."
+     ]
+    },
+    {
+     "en": "In my opinion, it's bullying, especially online. The main reason is that it doesn't stop when the child goes home.",
+     "tr": "Bana göre zorbalık, özellikle internette. Asıl sebep, çocuk eve gidince bitmemesi.",
+     "why": [
+      "PREP'in P ve R'si. when the child goes home: zaman cümleciği."
+     ]
+    },
+    {
+     "en": "Now the messages continue at night, on the phone. For example, one of my students couldn't sleep for weeks.",
+     "tr": "Şimdi mesajlar gece de telefonda devam ediyor. Örneğin öğrencilerimden biri haftalarca uyuyamadı.",
+     "why": [
+      "one of + çoğul isim (students). couldn't = geçmişte yapamamak; for weeks süre."
+     ]
+    },
+    {
+     "en": "If a child tells you something, listen first. Then contact the school.",
+     "tr": "Bir çocuk size bir şey anlatırsa önce dinleyin. Sonra okulla iletişime geçin.",
+     "why": [
+      "If + geniş zaman + emir. contact + kurum: iletişime geçmek (contact with değil)."
+     ]
+    },
+    {
+     "en": "Bullying is never a joke, and asking for help is never weak.",
+     "tr": "Zorbalık asla şaka değildir ve yardım istemek asla zayıflık değildir.",
+     "why": [
+      "asking for help: -ing özne olarak. never be'den sonra."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "iv-open",
+     "title": "Could you tell us about …? · What do you think about …? · Why?",
+     "meaning": "Açık uçlu sorular sormak",
+     "explanation": [
+      "Kapalı sorular (Do you like your job? Is bullying a problem?) kısa cevaplar getirir: Yes / No. Söyleşide bunlar sohbeti hemen bitirir. Açık uçlu sorular ise cevap verene konuşma alanı açar: What do you like most about your job? Why do you think bullying happens? Could you tell us about your school days?",
+      "Could you tell us about + isim? söyleşinin en kibar ve en işlevsel açılış sorusudur. Could you tell us about your job? = Bize işinizden bahseder misiniz? tell us about kalıbında us unutulmamalıdır; explain us yanlıştır (explain to us olur). What do you think about + isim? fikir sorar; What do you think is the biggest problem? ise biraz daha karmaşık bir yapıdır: do you think araya girer, ardından düz cümle sırası gelir (is the biggest problem).",
+      "Söyleşinin başında ve sonunda kibarlık kalıpları kullanılır: Thank you for talking to us today. ve sonda Is there anything you'd like to add? (Eklemek istediğiniz bir şey var mı?) Bu son soru, cevap verene en önemli mesajını söyleme fırsatı verir ve genellikle söyleşinin en etkili cümlesi bu soruya verilen cevaptır."
+     ],
+     "formula": [
+      "açılış: Thank you for talking to us today. · Could you tell us about …?",
+      "fikir: What do you think about …? · What do you think is …?",
+      "kapanış: Is there anything you'd like to add?"
+     ],
+     "examples": [
+      {
+       "en": "Could you tell us about your job?",
+       "tr": "Bize işinizden bahseder misiniz?",
+       "why": [
+        "Kibar açılış sorusu; tell us about + isim."
+       ],
+       "chunks": [
+        {
+         "en": "Could you tell us about …?",
+         "tr": "bize … -den bahseder misiniz?"
+        },
+        {
+         "en": "your job",
+         "tr": "işiniz"
+        }
+       ]
+      },
+      {
+       "en": "What do you think is the biggest problem at schools today?",
+       "tr": "Sizce bugün okullardaki en büyük sorun ne?",
+       "why": [
+        "do you think araya girer; ardından is the biggest problem (düz sıra)."
+       ]
+      },
+      {
+       "en": "What do you like most about your job?",
+       "tr": "İşinizde en çok neyi seviyorsunuz?",
+       "why": [
+        "Açık soru; most = en çok."
+       ]
+      },
+      {
+       "en": "Is there anything you'd like to add?",
+       "tr": "Eklemek istediğiniz bir şey var mı?",
+       "why": [
+        "Kapanış sorusu."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Do you like your job? sorusunu açık uçlu yapın.",
+       "answer": "What do you like most about your job?",
+       "why": "Yes / No ile bitmeyen soru."
+      },
+      {
+       "question": "Can you explain us your job? cümlesini düzeltin.",
+       "answer": "Could you tell us about your job?",
+       "why": "explain us yanlış; tell us about."
+      },
+      {
+       "question": "Söyleşinin kapanış sorusu?",
+       "answer": "Is there anything you'd like to add?",
+       "why": "Son mesaj fırsatı."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "What do you think is it the biggest problem?",
+       "right": "What do you think is the biggest problem?",
+       "why": "do you think'ten sonra düz cümle sırası."
+      },
+      {
+       "wrong": "Can you explain us?",
+       "right": "Could you explain it to us? / Could you tell us about it?",
+       "why": "explain + to + kişi."
+      }
+     ]
+    },
+    {
+     "id": "iv-follow-up",
+     "title": "What do you mean by that? · Could you give us an example? · How did you feel?",
+     "meaning": "Takip sorularıyla cevabı derinleştirmek",
+     "explanation": [
+      "İyi bir söyleşiyi sıradan bir anketten ayıran şey takip sorularıdır. Cevap veren kişi genel bir şey söylediğinde (Bullying is the biggest problem, especially online.), soran kişi onu açıklamaya davet eder: What do you mean by that? (Bununla ne demek istiyorsunuz?) Belirli bir kelime için: What do you mean by “a safe school”?",
+      "Örnek istemek cevabı somutlaştırır: Could you give us an example? Duygu sormak söyleşiyi insanî yapar: How did you feel about that? Çözüm sormak söyleşiyi ileriye taşır: What can parents do? What should schools do? Bu sorular, dinlediğinizi gösterir ve cevap verene daha fazla konuşma fırsatı tanır.",
+      "Takip sorusu sormadan önce kısa bir tepki vermek doğaldır: That's terrible. That's interesting. I see. Bu tepkiler, söyleşinin bir sorgu değil bir sohbet olduğunu hissettirir. Örneğin danışman öğrencisinin haftalarca uyuyamadığını anlattığında soran kişi önce That's terrible der, sonra sorar: What can parents do?"
+     ],
+     "formula": [
+      "açıklama: What do you mean by that / by “…”?",
+      "örnek: Could you give us an example? · duygu: How did you feel about that?",
+      "tepki + soru: That's terrible. What can parents do?"
+     ],
+     "examples": [
+      {
+       "en": "What do you mean by that?",
+       "tr": "Bununla ne demek istiyorsunuz?",
+       "why": [
+        "Genel bir cevabı açtırır."
+       ]
+      },
+      {
+       "en": "Well, in the past, a child was safe at home. Now the messages continue at night, on the phone.",
+       "tr": "Eskiden çocuk evde güvendeydi. Şimdi mesajlar gece de telefonda devam ediyor.",
+       "why": [
+        "Takip sorusuna verilen açıklayıcı cevap: geçmiş ve şimdi karşılaştırması."
+       ],
+       "chunks": [
+        {
+         "en": "in the past",
+         "tr": "eskiden"
+        },
+        {
+         "en": "continue",
+         "tr": "devam etmek"
+        }
+       ]
+      },
+      {
+       "en": "That's terrible. What can parents do?",
+       "tr": "Bu korkunç. Veliler ne yapabilir?",
+       "why": [
+        "Tepki + çözüm sorusu."
+       ]
+      },
+      {
+       "en": "Could you give us an example? — For example, one of my students couldn't sleep for weeks.",
+       "tr": "Bir örnek verebilir misiniz? — Örneğin öğrencilerimden biri haftalarca uyuyamadı.",
+       "why": [
+        "Örnek sorusu ve somut cevap."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Güvenli okul derken ne demek istiyorsunuz?” İngilizcesi?",
+       "answer": "What do you mean by “a safe school”?",
+       "why": "mean by"
+      },
+      {
+       "question": "What do you want to say? doğal mı?",
+       "answer": "Hayır: What do you mean?",
+       "why": "Anlam sorusu mean ile."
+      },
+      {
+       "question": "Takip sorusundan önce ne söylenebilir?",
+       "answer": "Kısa bir tepki: That's interesting. / That's terrible.",
+       "why": "Sohbet hissi."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "What do you want to say with that?",
+       "right": "What do you mean by that?",
+       "why": "Ne demek istediğini sormak mean by ile."
+      },
+      {
+       "wrong": "Give an example me.",
+       "right": "Could you give us an example?",
+       "why": "give + kişi + şey; kibar biçim."
+      }
+     ]
+    },
+    {
+     "id": "iv-reporting",
+     "title": "She said (that) … · She thinks that … · She told parents to …",
+     "meaning": "Söyleşinin önemli noktalarını başkalarına aktarmak",
+     "explanation": [
+      "Söyleşiden sonra sınıfa ya da bir arkadaşa önemli noktaları aktarırız. B1 düzeyinde en kolay ve en doğru yol, fikirleri şimdiki zamanla aktarmaktır, çünkü kişinin fikri hâlâ geçerlidir: She thinks bullying is the biggest problem. She believes that asking for help is never weak.",
+      "Söylenen bir bilgiyi aktarırken said kullanırız ve zaman çoğu zaman bir adım geriye gider: “I'm a school counsellor.” → She said (that) she was a school counsellor. should, could, would gibi modallar değişmez: She said that parents should talk to their children. said'dan sonra kişi gelmez (said us yanlış); kişiyi söylemek istiyorsak told + kişi kullanırız: She told us that …",
+      "Emir ve tavsiyeler told + kişi + to + yalın fiil ile aktarılır: “Listen first.” → She told parents to listen first. Olumsuz: She told them not to panic. Aktarırken her şeyi tekrar etmeyiz; en önemli iki üç noktayı seçer ve The most important point was that … ile bitiririz."
+     ],
+     "formula": [
+      "fikir: She thinks / She believes that + şimdiki zaman",
+      "söz: She said (that) + bir adım geri zaman · said + kişi ✗ → told + kişi",
+      "emir / tavsiye: She told parents to + fiil · not to + fiil"
+     ],
+     "examples": [
+      {
+       "en": "She said that she was a school counsellor at a secondary school.",
+       "tr": "Bir ortaokulda rehber öğretmen olduğunu söyledi.",
+       "why": [
+        "said + bir adım geri zaman: am → was."
+       ]
+      },
+      {
+       "en": "She thinks bullying is the biggest problem, especially online.",
+       "tr": "Zorbalığın, özellikle internette, en büyük sorun olduğunu düşünüyor.",
+       "why": [
+        "Fikir hâlâ geçerli → thinks + is."
+       ],
+       "chunks": [
+        {
+         "en": "She thinks …",
+         "tr": "… düşünüyor",
+         "note": "fikir aktarımı"
+        },
+        {
+         "en": "especially online",
+         "tr": "özellikle internette"
+        }
+       ]
+      },
+      {
+       "en": "She told parents to listen first and not to panic.",
+       "tr": "Velilere önce dinlemelerini ve paniğe kapılmamalarını söyledi.",
+       "why": [
+        "told + kişi + to; olumsuz not to."
+       ]
+      },
+      {
+       "en": "The most important point was that bullying is never a joke.",
+       "tr": "En önemli nokta, zorbalığın asla şaka olmadığıydı.",
+       "why": [
+        "Aktarımı bitiren özet cümlesi."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Parents should talk to their children.” cümlesini aktarın.",
+       "answer": "She said that parents should talk to their children.",
+       "why": "should değişmez."
+      },
+      {
+       "question": "She said us to listen cümlesini düzeltin.",
+       "answer": "She told us to listen.",
+       "why": "Kişiyle told."
+      },
+      {
+       "question": "“Panic yapmayın.” tavsiyesini aktarın.",
+       "answer": "She told them not to panic.",
+       "why": "not to + fiil"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "She said us that it was important.",
+       "right": "She told us that it was important. / She said that it was important.",
+       "why": "said'dan sonra kişi gelmez."
+      },
+      {
+       "wrong": "She told parents listen first.",
+       "right": "She told parents to listen first.",
+       "why": "told + kişi + to + fiil."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "say / tell",
+       "explanation": [
+        "say'den sonra doğrudan kişi gelmez (say to someone olur); tell'den sonra kişi gelir. Aktarımda: She said that … / She told me that …"
+       ],
+       "example": "She said that she was tired. · She told me that she was tired.",
+       "tr": [
+        "Yorgun olduğunu söyledi. · Bana yorgun olduğunu söyledi."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "main-detail",
+   "term": "main point · detail",
+   "meaning": "ana nokta · ayrıntı",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "main point · detail"
+   ],
+   "explanation": [
+    "Dinleme ve okumada iki bilgi düzeyi. Ana nokta konuşmanın sebebi ve sonucudur; ayrıntı ise onu destekleyen saat, sayı, isim gibi bilgilerdir. Aktarırken The main point is that … kalıbı kullanılır. in detail = ayrıntılı olarak."
+   ],
+   "collocations": [
+    {
+     "en": "the main point is that …",
+     "tr": "ana nokta şu ki …"
+    },
+    {
+     "en": "in detail",
+     "tr": "ayrıntılı olarak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The main point is that the train is late.",
+     "tr": "Ana nokta trenin geç kalması."
+    },
+    {
+     "en": "Don't worry about every detail.",
+     "tr": "Her ayrıntıyı dert etme."
+    },
+    {
+     "en": "Can you explain it in more detail?",
+     "tr": "Daha ayrıntılı açıklayabilir misin?"
+    }
+   ],
+   "commonMistake": "Ana noktayı sayılarla karıştırmayın; ana nokta durum ve sonuçtur."
+  },
+  {
+   "id": "train-delayed",
+   "term": "The train is delayed.",
+   "meaning": "tren rötarlı",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "The train is delayed."
+   ],
+   "explanation": [
+    "İstasyon ve havaalanı anonslarının temel cümlesi. delayed by + süre gecikmeyi, because of / due to + isim sebebi verir. Benzer: cancelled (iptal), on time (zamanında), platform (peron)."
+   ],
+   "collocations": [
+    {
+     "en": "delayed by 20 minutes",
+     "tr": "20 dakika rötarlı"
+    },
+    {
+     "en": "on time",
+     "tr": "zamanında"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The 10:15 train to İzmir is delayed by twenty minutes.",
+     "tr": "10.15 İzmir treni yirmi dakika rötarlı."
+    },
+    {
+     "en": "The flight is delayed because of bad weather.",
+     "tr": "Uçuş kötü hava nedeniyle rötarlı."
+    },
+    {
+     "en": "Is the bus on time today?",
+     "tr": "Otobüs bugün zamanında mı?"
+    }
+   ],
+   "commonMistake": "The train is late twenty minutes yerine twenty minutes late ya da delayed by twenty minutes denir."
+  },
+  {
+   "id": "bill-please",
+   "term": "Could I have the bill, please?",
+   "meaning": "hesabı alabilir miyim?",
+   "partOfSpeech": "lokanta kalıbı",
+   "sourceTerms": [
+    "Could I have the bill, please?"
+   ],
+   "explanation": [
+    "Lokantada hesap istemek için kullanılır. İngiliz İngilizcesinde bill, Amerikan İngilizcesinde check denir. Ödeme sorusu: Can I pay by card? Bahşiş: tip. Hesap bölüşmek: split the bill."
+   ],
+   "collocations": [
+    {
+     "en": "pay by card",
+     "tr": "kartla ödemek"
+    },
+    {
+     "en": "split the bill",
+     "tr": "hesabı bölüşmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Excuse me, could I have the bill, please?",
+     "tr": "Affedersiniz, hesabı alabilir miyim?"
+    },
+    {
+     "en": "Can we split the bill?",
+     "tr": "Hesabı bölüşebilir miyiz?"
+    },
+    {
+     "en": "Is service included?",
+     "tr": "Servis ücreti dahil mi?"
+    }
+   ],
+   "commonMistake": "Account, please yerine Could I have the bill, please? denir."
+  },
+  {
+   "id": "not-ordered",
+   "term": "This isn't what I ordered.",
+   "meaning": "bu benim sipariş ettiğim şey değil",
+   "partOfSpeech": "şikâyet kalıbı",
+   "sourceTerms": [
+    "This isn't what I ordered."
+   ],
+   "explanation": [
+    "Lokantada kibar şikâyetin temel cümlesi. what I ordered = sipariş ettiğim şey. Ardından açıklama gelir: I asked for …, but this is … Garsonun cevabı: I'm very sorry. I'll change it right away."
+   ],
+   "collocations": [
+    {
+     "en": "I asked for …",
+     "tr": "… istemiştim"
+    },
+    {
+     "en": "right away",
+     "tr": "hemen"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Sorry, this isn't what I ordered.",
+     "tr": "Pardon, bu sipariş ettiğim şey değil."
+    },
+    {
+     "en": "I asked for the fish, but this is chicken.",
+     "tr": "Balık istemiştim ama bu tavuk."
+    },
+    {
+     "en": "I'm very sorry. I'll change it right away.",
+     "tr": "Çok özür dilerim. Hemen değiştiriyorum."
+    }
+   ],
+   "commonMistake": "This is not my order want gibi çeviriler yerine This isn't what I ordered denir."
+  },
+  {
+   "id": "lifeguard",
+   "term": "Is there a lifeguard?",
+   "meaning": "cankurtaran var mı?",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "Is there a lifeguard?"
+   ],
+   "explanation": [
+    "Havuz ve plajda güvenlik sorusu. lifeguard cankurtarandır; on duty görevde demektir. Diğer havuz kelimeleri: changing room (soyunma odası), locker (dolap), deep end / shallow end (derin / sığ taraf)."
+   ],
+   "collocations": [
+    {
+     "en": "on duty",
+     "tr": "görevde"
+    },
+    {
+     "en": "the shallow end",
+     "tr": "sığ taraf"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Is there a lifeguard? — Yes, there are two on duty.",
+     "tr": "Cankurtaran var mı? — Evet, iki tane görevde."
+    },
+    {
+     "en": "Children should stay in the shallow end.",
+     "tr": "Çocuklar sığ tarafta kalmalı."
+    },
+    {
+     "en": "Where are the changing rooms?",
+     "tr": "Soyunma odaları nerede?"
+    }
+   ],
+   "commonMistake": "Kurtarıcı anlamında saver değil lifeguard kullanılır."
+  },
+  {
+   "id": "swimming-cap",
+   "term": "You have to wear a swimming cap.",
+   "meaning": "bone takmak zorunludur",
+   "partOfSpeech": "kural kalıbı",
+   "sourceTerms": [
+    "You have to wear a swimming cap."
+   ],
+   "explanation": [
+    "Havuz kurallarından biri. have to dış bir kuralı, zorunluluğu anlatır. wear (giymek, takmak) kıyafet, gözlük, bone için kullanılır. Diğer kurallar: You must have a shower first. You can't eat by the pool."
+   ],
+   "collocations": [
+    {
+     "en": "wear goggles",
+     "tr": "yüzücü gözlüğü takmak"
+    },
+    {
+     "en": "have a shower",
+     "tr": "duş almak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "You have to wear a swimming cap in the pool.",
+     "tr": "Havuzda bone takmak zorundasınız."
+    },
+    {
+     "en": "You must have a shower before you swim.",
+     "tr": "Yüzmeden önce duş almalısınız."
+    },
+    {
+     "en": "You can't eat or drink by the pool.",
+     "tr": "Havuz kenarında yiyip içemezsiniz."
+    }
+   ],
+   "commonMistake": "You must wearing yerine You must wear; bonnet değil swimming cap denir."
+  },
+  {
+   "id": "in-my-opinion",
+   "term": "In my opinion, …",
+   "meaning": "bence, bana göre",
+   "partOfSpeech": "fikir kalıbı",
+   "sourceTerms": [
+    "In my opinion, …"
+   ],
+   "explanation": [
+    "Nötr ve biraz resmî fikir başlatıcı. Ardından virgül ve tam cümle gelir. According to me demek İngilizcede doğal değildir; According to başkasının görüşü içindir. In my opinion ile I think aynı cümlede birlikte kullanılmaz."
+   ],
+   "collocations": [
+    {
+     "en": "in my view",
+     "tr": "bence (resmî)"
+    },
+    {
+     "en": "personally",
+     "tr": "şahsen"
+    }
+   ],
+   "examples": [
+    {
+     "en": "In my opinion, children need more free time.",
+     "tr": "Bana göre çocukların daha çok boş zamana ihtiyacı var."
+    },
+    {
+     "en": "In my opinion, the rule isn't fair.",
+     "tr": "Bence kural adil değil."
+    },
+    {
+     "en": "Personally, I prefer working in an office.",
+     "tr": "Şahsen ofiste çalışmayı tercih ederim."
+    }
+   ],
+   "commonMistake": "According to me yerine In my opinion denir."
+  },
+  {
+   "id": "strongly-believe",
+   "term": "I strongly believe …",
+   "meaning": "… olduğuna kesinlikle inanıyorum",
+   "partOfSpeech": "fikir kalıbı",
+   "sourceTerms": [
+    "I strongly believe …"
+   ],
+   "explanation": [
+    "Güçlü bir görüş bildirir. strongly believe that + cümle; that düşebilir. Benzer güçlü ifadeler: I'm sure that …, I'm convinced that … Hassas konularda bu gücü dikkatli kullanın."
+   ],
+   "collocations": [
+    {
+     "en": "I firmly believe",
+     "tr": "kesinlikle inanıyorum"
+    },
+    {
+     "en": "I'm sure that",
+     "tr": "eminim ki"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I strongly believe that bullying is never a joke.",
+     "tr": "Zorbalığın asla şaka olmadığına kesinlikle inanıyorum."
+    },
+    {
+     "en": "I strongly believe every child should learn to swim.",
+     "tr": "Her çocuğun yüzmeyi öğrenmesi gerektiğine kesinlikle inanıyorum."
+    },
+    {
+     "en": "I'm sure that people will like the idea.",
+     "tr": "İnsanların fikri seveceğinden eminim."
+    }
+   ],
+   "commonMistake": "I am strongly believe yerine I strongly believe denir."
+  },
+  {
+   "id": "as-far-as",
+   "term": "As far as I'm concerned, …",
+   "meaning": "bana kalırsa",
+   "partOfSpeech": "fikir kalıbı",
+   "sourceTerms": [
+    "As far as I'm concerned, …"
+   ],
+   "explanation": [
+    "Görüşün kişisel olduğunu vurgulayan kalıp; “bana sorarsan, beni ilgilendirdiği kadarıyla”. Cümlenin başında kullanılır ve ardından virgül gelir. Biraz resmî ama konuşmada da yaygındır."
+   ],
+   "collocations": [
+    {
+     "en": "for me",
+     "tr": "benim için"
+    },
+    {
+     "en": "if you ask me",
+     "tr": "bana sorarsan"
+    }
+   ],
+   "examples": [
+    {
+     "en": "As far as I'm concerned, the rule is fair.",
+     "tr": "Bana kalırsa kural adil."
+    },
+    {
+     "en": "As far as I'm concerned, it's too expensive.",
+     "tr": "Bana kalırsa fazla pahalı."
+    },
+    {
+     "en": "If you ask me, we should wait.",
+     "tr": "Bana sorarsan beklemeliyiz."
+    }
+   ],
+   "commonMistake": "As far as I concern yerine As far as I'm concerned denir."
+  },
+  {
+   "id": "main-reason",
+   "term": "The main reason is that …",
+   "meaning": "asıl sebep şu ki",
+   "partOfSpeech": "gerekçe kalıbı",
+   "sourceTerms": [
+    "The main reason is that …"
+   ],
+   "explanation": [
+    "Fikrin en önemli gerekçesini verir. Ardından tam cümle gelir. Another reason is that … ikinci gerekçeyi ekler. The main reason is because konuşmada duyulsa da yazıda that tercih edilir."
+   ],
+   "collocations": [
+    {
+     "en": "another reason is that",
+     "tr": "bir diğer sebep"
+    },
+    {
+     "en": "the reason why",
+     "tr": "… nedeni"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The main reason is that it saves time.",
+     "tr": "Asıl sebep zaman kazandırması."
+    },
+    {
+     "en": "Another reason is that it's cheaper.",
+     "tr": "Bir diğer sebep daha ucuz olması."
+    },
+    {
+     "en": "That's the reason why I take the bus.",
+     "tr": "Otobüse binmemin nedeni bu."
+    }
+   ],
+   "commonMistake": "The main reason is because time yerine The main reason is that it saves time denir."
+  },
+  {
+   "id": "thats-why",
+   "term": "That's why …",
+   "meaning": "bu yüzden",
+   "partOfSpeech": "sonuç kalıbı",
+   "sourceTerms": [
+    "That's why …"
+   ],
+   "explanation": [
+    "Bir önceki cümlenin sonucunu verir ve PREP'in son adımında fikre geri döner. Ardından tam cümle gelir. so ile benzerdir ama That's why ayrı bir cümle başlatır ve daha vurguludur."
+   ],
+   "collocations": [
+    {
+     "en": "so",
+     "tr": "bu yüzden"
+    },
+    {
+     "en": "that's the reason",
+     "tr": "sebep bu"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Buses are cheap. That's why I take the bus.",
+     "tr": "Otobüsler ucuz. Bu yüzden otobüse binerim."
+    },
+    {
+     "en": "That's why I think companies should offer both options.",
+     "tr": "Bu yüzden bence şirketler iki seçeneği de sunmalı."
+    },
+    {
+     "en": "It was raining, so we stayed at home.",
+     "tr": "Yağmur yağıyordu, bu yüzden evde kaldık.",
+     "note": "so ile"
+    }
+   ],
+   "commonMistake": "That's because ile karıştırmayın: That's because sebebi, That's why sonucu verir."
+  },
+  {
+   "id": "for-example",
+   "term": "For example, … · For instance, …",
+   "meaning": "örneğin",
+   "partOfSpeech": "örnek kalıbı",
+   "sourceTerms": [
+    "For example, … · For instance, …"
+   ],
+   "explanation": [
+    "Fikri somutlaştıran örnek ifadeleri; ardından virgül ve tam cümle gelir. Cümle içinde isim listesi için such as kullanılır. İkisi birlikte kullanılmaz (For example such as ✗)."
+   ],
+   "collocations": [
+    {
+     "en": "such as",
+     "tr": "… gibi"
+    },
+    {
+     "en": "like",
+     "tr": "… gibi (konuşma dili)"
+    }
+   ],
+   "examples": [
+    {
+     "en": "For example, you can work from a café.",
+     "tr": "Örneğin bir kafeden çalışabilirsin."
+    },
+    {
+     "en": "For instance, my neighbour works at night.",
+     "tr": "Örneğin komşum geceleri çalışıyor."
+    },
+    {
+     "en": "Some jobs, such as nursing, can't be done from home.",
+     "tr": "Hemşirelik gibi bazı işler evden yapılamaz.",
+     "note": "such as"
+    }
+   ],
+   "commonMistake": "For example such as yerine birini seçin."
+  },
+  {
+   "id": "see-your-point",
+   "term": "I see your point, but …",
+   "meaning": "ne demek istediğini anlıyorum ama",
+   "partOfSpeech": "kibar itiraz",
+   "sourceTerms": [
+    "I see your point, but …"
+   ],
+   "explanation": [
+    "Önce karşı tarafın görüşünü kabul edip sonra itiraz etmenin kibar yolu. Benzer: I see what you mean, but … · That's true, but … Doğrudan You're wrong demekten çok daha yumuşaktır."
+   ],
+   "collocations": [
+    {
+     "en": "I see what you mean",
+     "tr": "ne demek istediğini anlıyorum"
+    },
+    {
+     "en": "That's true, but …",
+     "tr": "doğru ama …"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I see your point, but it's too expensive.",
+     "tr": "Ne demek istediğini anlıyorum ama fazla pahalı."
+    },
+    {
+     "en": "I see what you mean, but children need rules.",
+     "tr": "Ne demek istediğini anlıyorum ama çocukların kurala ihtiyacı var."
+    },
+    {
+     "en": "That's true, but not everyone has a car.",
+     "tr": "Doğru ama herkesin arabası yok."
+    }
+   ],
+   "commonMistake": "I understand your point but you're wrong gibi sert birleşimler yerine sadece but + kendi görüşünüz."
+  },
+  {
+   "id": "agree-disagree",
+   "term": "I completely agree / disagree.",
+   "meaning": "tamamen katılıyorum / katılmıyorum",
+   "partOfSpeech": "fikir kalıbı",
+   "sourceTerms": [
+    "I completely agree / disagree."
+   ],
+   "explanation": [
+    "agree ve disagree fiildir; be ile kullanılmaz (I am agree ✗). agree with + kişi, agree that + cümle. Kibar katılmama: I'm afraid I disagree. Kısmen: I partly agree."
+   ],
+   "collocations": [
+    {
+     "en": "agree with someone",
+     "tr": "birine katılmak"
+    },
+    {
+     "en": "I'm afraid I disagree",
+     "tr": "maalesef katılmıyorum"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I completely agree with you.",
+     "tr": "Sana tamamen katılıyorum."
+    },
+    {
+     "en": "I'm afraid I disagree. It isn't fair.",
+     "tr": "Maalesef katılmıyorum. Adil değil."
+    },
+    {
+     "en": "Do you agree? — Yes, I do.",
+     "tr": "Katılıyor musun? — Evet."
+    }
+   ],
+   "commonMistake": "I am agree yerine I agree denir."
+  },
+  {
+   "id": "bullying",
+   "term": "bullying · violence · a bully · a victim",
+   "meaning": "zorbalık · şiddet · zorba · mağdur",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "bullying · violence · a bully · a victim"
+   ],
+   "explanation": [
+    "Okulda şiddet konusunun temel kelimeleri. violence sayılamaz (-s almaz). bullying zorbalık davranışıdır; fiili bully'dir. a bully zorbalık yapan, a victim mağdurdur. Online zorbalık cyberbullying'dir. Saygılı bir dil için kişileri değil davranışları anlatmak tercih edilir."
+   ],
+   "collocations": [
+    {
+     "en": "cyberbullying",
+     "tr": "siber zorbalık"
+    },
+    {
+     "en": "violence at school",
+     "tr": "okulda şiddet"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Bullying can happen online too.",
+     "tr": "Zorbalık internette de olabilir."
+    },
+    {
+     "en": "We must support the victim.",
+     "tr": "Mağduru desteklemeliyiz."
+    },
+    {
+     "en": "Violence at school affects learning.",
+     "tr": "Okulda şiddet öğrenmeyi etkiler."
+    }
+   ],
+   "commonMistake": "violences yerine violence denir."
+  },
+  {
+   "id": "like-to-talk",
+   "term": "I'd like to talk about …",
+   "meaning": "… hakkında konuşmak istiyorum",
+   "partOfSpeech": "konuşma kalıbı",
+   "sourceTerms": [
+    "I'd like to talk about …"
+   ],
+   "explanation": [
+    "Kısa bir konuşmanın kibar ve resmî giriş cümlesi. I'd like to = I would like to. talk about + isim; from kullanılmaz. Ardından konunun neden önemli olduğu söylenir."
+   ],
+   "collocations": [
+    {
+     "en": "Today I'm going to talk about …",
+     "tr": "bugün … hakkında konuşacağım"
+    },
+    {
+     "en": "The topic of my talk is …",
+     "tr": "konuşmamın konusu …"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Today I'd like to talk about violence at school.",
+     "tr": "Bugün okulda şiddet hakkında konuşmak istiyorum."
+    },
+    {
+     "en": "I'd like to talk about my town.",
+     "tr": "Kasabam hakkında konuşmak istiyorum."
+    },
+    {
+     "en": "The topic of my talk is online shopping.",
+     "tr": "Konuşmamın konusu internetten alışveriş."
+    }
+   ],
+   "commonMistake": "talk about from yerine talk about denir."
+  },
+  {
+   "id": "first-of-all",
+   "term": "First of all, … · Another point is …",
+   "meaning": "öncelikle · bir diğer nokta",
+   "partOfSpeech": "yönlendirme",
+   "sourceTerms": [
+    "First of all, … · Another point is …"
+   ],
+   "explanation": [
+    "Konuşmada noktaları sıralayan yönlendirme ifadeleri. First of all birinci noktayı, Another point is that … sonraki noktayı, Finally son noktayı başlatır. Dinleyicinin konuşmanın neresinde olduğunu bilmesini sağlar."
+   ],
+   "collocations": [
+    {
+     "en": "Finally, …",
+     "tr": "son olarak"
+    },
+    {
+     "en": "Secondly, …",
+     "tr": "ikinci olarak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "First of all, we need to listen to students.",
+     "tr": "Öncelikle öğrencileri dinlememiz gerekiyor."
+    },
+    {
+     "en": "Another point is that many victims stay silent.",
+     "tr": "Bir diğer nokta, birçok mağdurun sessiz kalması."
+    },
+    {
+     "en": "Finally, parents can help too.",
+     "tr": "Son olarak veliler de yardım edebilir."
+    }
+   ],
+   "commonMistake": "Firstly of all gibi karışık biçim yerine First of all ya da Firstly."
+  },
+  {
+   "id": "one-solution",
+   "term": "One solution is to …",
+   "meaning": "çözümlerden biri … -mektir",
+   "partOfSpeech": "çözüm kalıbı",
+   "sourceTerms": [
+    "One solution is to …"
+   ],
+   "explanation": [
+    "Bir soruna çözüm önerir; ardından to + yalın fiil gelir. Another solution is to … ikinci çözümü verir. Benzer: Schools could …, It's important to …"
+   ],
+   "collocations": [
+    {
+     "en": "another solution is to",
+     "tr": "bir diğer çözüm"
+    },
+    {
+     "en": "it's important to",
+     "tr": "… önemli"
+    }
+   ],
+   "examples": [
+    {
+     "en": "One solution is to have a school counsellor.",
+     "tr": "Çözümlerden biri bir rehber öğretmen olması."
+    },
+    {
+     "en": "Another solution is to have clear rules.",
+     "tr": "Bir diğer çözüm açık kurallar koymak."
+    },
+    {
+     "en": "Schools could also start a peer support programme.",
+     "tr": "Okullar bir akran destek programı da başlatabilir."
+    }
+   ],
+   "commonMistake": "One solution is have yerine One solution is to have denir."
+  },
+  {
+   "id": "to-sum-up",
+   "term": "To sum up, …",
+   "meaning": "özetle",
+   "partOfSpeech": "sonuç kalıbı",
+   "sourceTerms": [
+    "To sum up, …"
+   ],
+   "explanation": [
+    "Konuşmanın ya da yazının sonucunu başlatır. Benzerleri: In conclusion, … (resmî), In short, … (kısaca). Shortly “yakında” demektir, özetlemek için kullanılmaz."
+   ],
+   "collocations": [
+    {
+     "en": "in conclusion",
+     "tr": "sonuç olarak"
+    },
+    {
+     "en": "in short",
+     "tr": "kısaca"
+    }
+   ],
+   "examples": [
+    {
+     "en": "To sum up, every school needs clear rules.",
+     "tr": "Özetle, her okulun açık kurallara ihtiyacı var."
+    },
+    {
+     "en": "In conclusion, I think it's a good idea.",
+     "tr": "Sonuç olarak bence iyi bir fikir."
+    },
+    {
+     "en": "In short, it was a great day.",
+     "tr": "Kısaca harika bir gündü."
+    }
+   ],
+   "commonMistake": "Shortly, … yerine To sum up / In short denir."
+  },
+  {
+   "id": "tell-us-about",
+   "term": "Could you tell us about …?",
+   "meaning": "bize … hakkında anlatır mısınız?",
+   "partOfSpeech": "söyleşi kalıbı",
+   "sourceTerms": [
+    "Could you tell us about …?"
+   ],
+   "explanation": [
+    "Söyleşinin kibar ve açık uçlu açılış sorusu. tell + kişi + about + isim. explain us yanlıştır; explain it to us olur. Benzer: Can you describe …?"
+   ],
+   "collocations": [
+    {
+     "en": "tell us more",
+     "tr": "bize daha fazla anlat"
+    },
+    {
+     "en": "describe",
+     "tr": "anlatmak, tarif etmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Could you tell us about your school days?",
+     "tr": "Bize okul yıllarınızı anlatır mısınız?"
+    },
+    {
+     "en": "Could you tell us more about your job?",
+     "tr": "Bize işiniz hakkında biraz daha anlatır mısınız?"
+    },
+    {
+     "en": "Can you describe a typical day?",
+     "tr": "Tipik bir gününüzü anlatabilir misiniz?"
+    }
+   ],
+   "commonMistake": "Can you explain us your job? yerine Could you tell us about your job? denir."
+  },
+  {
+   "id": "what-mean",
+   "term": "What do you mean by …?",
+   "meaning": "… derken ne demek istiyorsunuz?",
+   "partOfSpeech": "takip sorusu",
+   "sourceTerms": [
+    "What do you mean by …?"
+   ],
+   "explanation": [
+    "Bir ifadenin açıklanmasını isteyen takip sorusu. mean (demek istemek) ile kurulur; What do you want to say? doğal değildir. Kısaca: What do you mean?"
+   ],
+   "collocations": [
+    {
+     "en": "What do you mean?",
+     "tr": "ne demek istiyorsun?"
+    },
+    {
+     "en": "Could you explain that?",
+     "tr": "bunu açıklar mısın?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "What do you mean by “a safe school”?",
+     "tr": "“Güvenli okul” derken ne demek istiyorsunuz?"
+    },
+    {
+     "en": "What do you mean by that?",
+     "tr": "Bununla ne demek istiyorsunuz?"
+    },
+    {
+     "en": "Sorry, what do you mean?",
+     "tr": "Pardon, ne demek istiyorsun?"
+    }
+   ],
+   "commonMistake": "What do you want to say? yerine What do you mean? denir."
+  }
+ ]
+}

@@ -275,6 +275,30 @@
     "url": "lessons/b1/day-05.html"
   },
   {
+    "id": "b1/day-06",
+    "level": "B1",
+    "title": "Telefon · anlatmak · fikir · akıllı alışveriş",
+    "description": "B1 altıncı ders (26 Ekim – 2 Kasım, dört gün): tanıdıklarla telefon görüşmesi ve plan yapmak, yerleri ve olayları relative clauses ve past continuous ile bağlantılı anlatmak, fotokopi ve fotoğraf makinesinin kullanımını açıklamak, trende, lokantada ve havuzda geçen konuşmaların ana noktaları, fikir + gerekçe + örnek, okulda şiddet üzerine kısa konuşma ve söyleşi, öğretmene ve yöneticiye acil notlar, satıcıdan istemek ve özellik sormak, fiyat-miktar-kalite karşılaştırmak, gıda etiketleri, alışveriş tercihleri ve tavsiye. Kendi hızında çalışmak için çok kapsamlı Türkçe açıklamalar, cümle çözümlemeleri, Türkçeli örnekler, ayrıntılı kelime defteri ve küçük denemeler.",
+    "number": 6,
+    "order": 6,
+    "date": "2026-10-26",
+    "duration": "400 dk",
+    "tags": [
+      "Ayrıntılı Türkçe anlatım",
+      "Telefon",
+      "Relative clauses",
+      "Past continuous",
+      "Cihaz talimatı",
+      "Dinleme",
+      "Fikir ve gerekçe",
+      "Kısa notlar",
+      "Karşılaştırma",
+      "Gıda etiketleri",
+      "Alışveriş ve tavsiye"
+    ],
+    "url": "lessons/b1/day-06.html"
+  },
+  {
     "id": "b1/practice",
     "level": "B1",
     "title": "Tanışma ve konuşma · Ek çalışma",
