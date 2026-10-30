@@ -172,3 +172,14 @@ test('presence sequence zero preserves old contextual clients and malformed sequ
  for(const sequence of [-1,1.5,2147483648,'1',null])assert.equal((await request(e,'/api/presence',{token:s.token,body:{state:'active',lesson:'lessons/a2/day-01.html',activity:c.screenId,context:c,sequence}})).status,400);
  e.DB.close();
 });
+test('hidden-name students never receive their own name, while the teacher still sees it',async()=>{
+ const e=await setup();await importStudents(e,[{id:'a1-090',name:'Gizli Deneme',group:'A1',hideName:true}]);
+ const s=(await studentLogin(e,'gizli')).data;assert.equal(s.student.id,'a1-090');assert.equal(s.student.name,'');assert.equal(s.student.hideName,true);assert.ok(!JSON.stringify(s).includes('Gizli'));
+ const me=(await request(e,'/api/auth/me',{token:s.token})).data;assert.equal(me.student.name,'');assert.equal(me.student.hideName,true);assert.ok(!JSON.stringify(me).includes('Gizli'));
+ const visible=(await studentLogin(e)).data;assert.equal(visible.student.name,'Deniz Örnek');assert.equal(visible.student.hideName,false);
+ const a=(await adminLogin(e)).data,overview=(await request(e,'/api/admin/overview',{token:a.token})).data;assert.equal(overview.students.find(x=>x.id==='a1-090').name,'Gizli Deneme');
+ assert.equal((await e.DB.prepare('SELECT hide_name FROM students WHERE id=?').bind('a1-090').first()).hide_name,1);
+ await importStudents(e,[{id:'a1-090',name:'Gizli Deneme',group:'A1'}]);assert.equal((await studentLogin(e,'gizli')).data.student.name,'Gizli Deneme','re-import without hideName shows the name again');
+ await assert.rejects(importStudents(e,[{id:'a1-091',name:'Yanlış Ayar',group:'A1',hideName:'yes'}]),/isim gizleme/);
+ e.DB.close();
+});

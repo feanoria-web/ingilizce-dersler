@@ -7,7 +7,9 @@ import {recordExamResultView,adminExamResultViews} from './exam-result-views.mjs
 const iso = () => new Date().toISOString();
 const fail = (status,message) => { throw Object.assign(new Error(message),{status}); };
 const reply = (data,status=200) => new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json;charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
-const publicStudent = s => ({id:s.id,name:s.name,group:s.group_name,enabled:!!s.enabled,firstLogin:s.first_login,lastLogin:s.last_login});
+const publicStudent = s => ({id:s.id,name:s.name,group:s.group_name,enabled:!!s.enabled,hideName:!!s.hide_name,firstLogin:s.first_login,lastLogin:s.last_login});
+// The student's own browser never receives a hidden name; teacher endpoints use publicStudent.
+const ownStudent = s => s.hide_name ? {...publicStudent(s),name:''} : publicStudent(s);
 async function rows(db,sql,args=[]) { return (await db.prepare(sql).bind(...args).all()).results || []; }
 async function first(db,sql,args=[]) { return db.prepare(sql).bind(...args).first(); }
 async function run(db,sql,args=[]) { return db.prepare(sql).bind(...args).run(); }
@@ -21,7 +23,7 @@ async function authenticate(req,env,admin=false) {
   const value=req.headers.get('Authorization') || '';
   if(!/^Bearer [a-f0-9]{64}$/.test(value)) fail(401,'Oturum açmanız gerekiyor.');
   const hash=await digest(value.slice(7));
-  const session=await first(env.DB,'SELECT s.*, st.name,st.group_name,st.enabled,st.first_login,st.last_login FROM sessions s LEFT JOIN students st ON st.id=s.student_id WHERE token_hash=? AND expires_at>?',[hash,iso()]);
+  const session=await first(env.DB,'SELECT s.*, st.name,st.group_name,st.enabled,st.hide_name,st.first_login,st.last_login FROM sessions s LEFT JOIN students st ON st.id=s.student_id WHERE token_hash=? AND expires_at>?',[hash,iso()]);
   if(!session || (session.role==='student' && !session.enabled)) fail(401,'Oturumunuz sona erdi. Yeniden giriş yapın.');
   if(admin && session.role!=='admin') fail(403,'Bu alan yalnızca yönetici içindir.');
   return session;
@@ -44,16 +46,17 @@ async function createSession(db,role,student) {
     statements.push(db.prepare("INSERT INTO events(event_id,student_id,type,lesson,created_at) VALUES(?,?,'login','panel',?)").bind(crypto.randomUUID(),student.id,now));
   }
   await db.batch(statements);
-  return {token,role,expiresAt,...(student?{student:publicStudent(student)}:{})};
+  return {token,role,expiresAt,...(student?{student:ownStudent(student)}:{})};
 }
 export async function importStudents(env,students) {
   if(!Array.isArray(students)||students.length<1||students.length>500)fail(400,'Öğrenci listesi 1–500 kayıt içermeli.');
   const seen=new Set(),batch=[],now=iso();
   for(const s of students) {
     if(!/^[a-z0-9-]{2,64}$/.test(s.id||'')||seen.has(s.id)||typeof s.name!=='string'||s.name.trim().length<3||s.name.length>120||!['A1','A2','B1','YDS'].includes(s.group))fail(400,'Geçersiz veya yinelenmiş öğrenci kaydı.');
+    if(s.hideName!==undefined&&typeof s.hideName!=='boolean')fail(400,'Geçersiz isim gizleme ayarı.');
     if(s.aliases && (!Array.isArray(s.aliases)||s.aliases.length>12||s.aliases.some(x=>typeof x!=='string'||x.length>120)))fail(400,'Geçersiz alternatif yazım.');
     seen.add(s.id);
-    batch.push(env.DB.prepare('INSERT INTO students(id,name,group_name,enabled,created_at) VALUES(?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET name=excluded.name,group_name=excluded.group_name').bind(s.id,s.name.trim(),s.group,s.enabled===false?0:1,now));
+    batch.push(env.DB.prepare('INSERT INTO students(id,name,group_name,enabled,hide_name,created_at) VALUES(?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET name=excluded.name,group_name=excluded.group_name,hide_name=excluded.hide_name').bind(s.id,s.name.trim(),s.group,s.enabled===false?0:1,s.hideName?1:0,now));
     batch.push(env.DB.prepare('DELETE FROM student_aliases WHERE student_id=?').bind(s.id));
     for(const a of aliasesFor(s))batch.push(env.DB.prepare('INSERT INTO student_aliases(alias,student_id) VALUES(?,?)').bind(await digest(a),s.id));
   }
@@ -150,7 +153,7 @@ async function route(req,env,url) {
     return reply(await createSession(env.DB,'student',matches[0]));
   }
   if(req.method==='GET'&&path==='/api/auth/me') {
-    const s=await authenticate(req,env);return reply({role:s.role,expiresAt:s.expires_at,...(s.role==='student'?{student:publicStudent({...s,id:s.student_id})}:{})});
+    const s=await authenticate(req,env);return reply({role:s.role,expiresAt:s.expires_at,...(s.role==='student'?{student:ownStudent({...s,id:s.student_id})}:{})});
   }
   if(req.method==='POST'&&path==='/api/auth/logout') {
     const s=await authenticate(req,env),writes=[];
