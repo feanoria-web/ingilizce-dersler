@@ -76,6 +76,28 @@
     "url": "lessons/a1/day-04.html"
   },
   {
+    "id": "a1/day-05",
+    "level": "A1",
+    "title": "Günüm · ailem · mesleğim · this ve that",
+    "description": "A1 beşinci ders (8 Kasım, 14 Kasım ve sonraki ders): günlük işleri resimlerle sıraya koymak ve yazmak, fiil + kelime eşleri (watch a film, listen to music, cook dinner, pray), fiil çekimi ile boşluk doldurma, have got, my / your / his / her, aile kelimeleri ve soyağacı, 's ile sahiplik ve tamlama, Who / What / Where / When / How, meslekler, What do you do?, hayalimdeki meslek, nesneler hakkında soru, this / that / these / those, Atatürk'ün hayatı. Her konuda kısa özet, ayrıntılı Türkçe anlatım ve ekranda çözülen bol alıştırma.",
+    "number": 5,
+    "order": 5,
+    "date": "2026-11-08",
+    "duration": "450 dk",
+    "tags": [
+      "Günlük işler",
+      "Fiil + kelime",
+      "have got",
+      "Sahiplik",
+      "Aile ve soyağacı",
+      "Soru kelimeleri",
+      "Meslekler",
+      "this · that",
+      "Atatürk"
+    ],
+    "url": "lessons/a1/day-05.html"
+  },
+  {
     "id": "a2/day-01",
     "level": "A2",
     "title": "Tanışma ve iletişim",
