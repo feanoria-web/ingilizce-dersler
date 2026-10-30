@@ -4,127 +4,207 @@
  "chapters": [
   {
    "screenId": "warm",
-   "title": "Isınma: saat ve günlük işleri hatırlamak",
+   "title": "Isınma: geçen dersi yeni sorularla hatırlamak",
    "intro": [
-    "Geçen derste saati sormayı (What time is it?) ve günlük işlerimizi saatleriyle anlatmayı öğrendik. Bu dersin ilk konusu da günlük işler olduğu için ısınmayı aynı sorularla yapıyoruz. Bilgiyi tekrar etmek, yeni konuya sağlam bir temel kurar.",
-    "Isınmada iki şeye dikkat ediyoruz: saatten önce at (at seven) ve başkasından söz ederken fiile -s eklemek (My son gets up at eight). Bu iki kural bu derste de sürekli karşımıza çıkacak."
+    "Geçen derste saati ve günlük işlerimizi öğrendik. Bu ısınmada aynı bilgiyi geçen haftanın sorularını tekrar etmeden, yeni sorularla ve bir bilmeceyle hatırlıyoruz: evden kaçta çıkıyorsun, evde yemeği kim pişiriyor, aileni ne zaman arıyorsun? Bilmecede bir kişinin gününü okuyup mesleğini tahmin ediyoruz; bu, 14 Kasım'daki meslekler konusuna da bir köprü.",
+    "Isınmada üç kuralı yeniliyoruz: saat söyleme (ten past five, twenty to twelve), saatten önce at, günlerden önce on, günün bölümlerinden önce in the, ve başkasından söz ederken fiile -s eklemek (My brother leaves home at six). Bu üç kural bu dersin her bölümünde karşımıza çıkacak."
    ],
    "sentenceNotes": [
     {
-     "en": "What time do you get up?",
-     "tr": "Saat kaçta kalkarsın?",
+     "en": "What time do you leave home in the morning?",
+     "tr": "Sabah evden saat kaçta çıkarsın?",
      "why": [
-      "What time saat sorar; do yardımcı fiil; get up yalın fiil."
+      "What time saat sorar; leave home = evden çıkmak; in the morning günün bölümü."
      ]
     },
     {
-     "en": "It's half past nine.",
-     "tr": "Saat dokuz buçuk.",
+     "en": "Who cooks dinner in your house?",
+     "tr": "Evinizde akşam yemeğini kim pişirir?",
      "why": [
-      "Saat cümleleri It's ile başlar; half past = buçuk."
+      "Who özneyi soruyor; bu yüzden do yok ve fiil -s alır: cooks."
      ]
     },
     {
-     "en": "What time does your husband / wife get up? — He gets up at six. / She gets up at six.",
-     "tr": "Eşin saat kaçta kalkar? — Altıda kalkar.",
+     "en": "He gets up at three o'clock at night. He makes bread and simit.",
+     "tr": "Gece saat üçte kalkar. Ekmek ve simit yapar.",
      "why": [
-      "Soruda does (he / she için); cevapta gets (-s)."
+      "he → gets, makes; at night = gece."
      ]
     },
     {
-     "en": "My son gets up at eight.",
-     "tr": "Oğlum sekizde kalkar.",
+     "en": "It's twenty to twelve.",
+     "tr": "On ikiye yirmi var.",
      "why": [
-      "my son = he → gets."
+      "30 dakikadan sonra to ve bir sonraki saat."
      ]
     }
    ],
    "patterns": [
     {
      "id": "wm-time-routine",
-     "title": "What time do you get up? — I get up at seven.",
-     "meaning": "Günlük işin saatini sormak ve söylemek",
+     "title": "What time do you leave home? — I leave home at quarter past eight.",
+     "meaning": "Saat ve günlük işler hakkında yeni sorular",
      "explanation": [
-      "Bir işin saatini sormak için What time + do you + fiil? kalıbını kullanırız: What time do you get up? What time do you have lunch? Cevapta at + saat gelir: I get up at seven. I have lunch at half past twelve. Kısa cevap da olur: At seven.",
-      "Saat söylerken geçen dersteki kalıplar geçerlidir: o'clock (tam), half past (buçuk), quarter past (çeyrek geçe), quarter to (çeyrek kala). 7:30 = half past seven, 8:45 = quarter to nine. Ya da sayılarla: seven thirty, eight forty-five.",
-      "Başkasının gününden söz ederken fiil -s alır: My husband gets up at six. She has breakfast at seven. Bu kural bugünkü dersin dördüncü adımında ayrıntılı tekrar edilecek."
+      "Bir işin saatini sormak için What time + do you + fiil? kalıbını kullanırız. Bu derste yeni fiillerle soruyoruz: What time do you leave home? (Evden kaçta çıkarsın?) What time do the shops close? (Dükkânlar kaçta kapanır?) Cevapta at + saat gelir: I leave home at quarter past eight.",
+      "Dakikalı saatlerde 30'a kadar past (geçe), 30'dan sonra to (kala) kullanılır ve to'dan sonra bir sonraki saat söylenir: 5:10 = ten past five, 11:40 = twenty to twelve (on ikiye yirmi var), 7:50 = ten to eight. Bu, Türkçedeki “sekize on var” ile aynı mantıktır.",
+      "Başka sorular da günlük işleri anlatır: Who cooks dinner in your house? (Evinizde yemeği kim pişirir?) When do you call your family? (Aileni ne zaman ararsın?) How often do you go to bed after midnight? Cevaplarda sıklık zarfı fiilden önce gelir: I never go to bed after midnight."
      ],
      "formula": [
       "What time + do you + fiil? → I + fiil + at + saat.",
-      "What time + does he / she + fiil? → He / She + fiil-s + at + saat.",
-      "7:30 half past seven · 8:45 quarter to nine"
+      "5:10 ten past five · 11:40 twenty to twelve · 7:50 ten to eight",
+      "Who cooks …? · When do you …? · How often do you …?"
      ],
      "examples": [
       {
-       "en": "What time do you get up? — I get up at seven o'clock.",
-       "tr": "Saat kaçta kalkarsın? — Saat yedide kalkarım.",
+       "en": "What time do you leave home in the morning? — I leave home at quarter past eight.",
+       "tr": "Sabah evden kaçta çıkarsın? — Sekizi çeyrek geçe çıkarım.",
        "why": [
-        "Soru do ile; cevapta at + saat."
+        "leave home = evden çıkmak; at + saat."
        ],
        "chunks": [
         {
-         "en": "What time",
-         "tr": "saat kaçta"
+         "en": "leave home",
+         "tr": "evden çıkmak"
         },
         {
-         "en": "get up",
-         "tr": "kalkmak"
-        },
-        {
-         "en": "at seven o'clock",
-         "tr": "saat yedide"
+         "en": "at quarter past eight",
+         "tr": "sekizi çeyrek geçe"
         }
        ]
       },
       {
-       "en": "It's half past nine.",
-       "tr": "Saat dokuz buçuk.",
+       "en": "It's twenty to twelve.",
+       "tr": "On ikiye yirmi var.",
        "why": [
-        "half past = buçuk; saat kalıbı It's ile başlar."
+        "30'dan sonra to + sonraki saat."
        ]
       },
       {
-       "en": "My son gets up at eight on Saturdays.",
-       "tr": "Oğlum cumartesileri sekizde kalkar.",
+       "en": "Who cooks dinner in your house? — My husband cooks dinner on Fridays.",
+       "tr": "Evinizde akşam yemeğini kim pişirir? — Cuma günleri eşim pişirir.",
        "why": [
-        "he → gets; günlerle on."
+        "on + gün; he → cooks."
        ]
       },
       {
-       "en": "What do you do in the evening? — I cook dinner and watch TV.",
-       "tr": "Akşam ne yaparsın? — Yemek pişirir ve televizyon izlerim.",
+       "en": "I call my mother every evening.",
+       "tr": "Annemi her akşam ararım.",
        "why": [
-        "Akşam işlerini and ile sıralıyoruz."
+        "every evening: önünde edat yok."
        ]
       }
      ],
      "checks": [
       {
-       "question": "8:45'i iki şekilde söyleyin.",
-       "answer": "quarter to nine · eight forty-five",
-       "why": "quarter to = çeyrek kala"
+       "question": "11:40'ı İngilizce söyleyin.",
+       "answer": "It's twenty to twelve.",
+       "why": "kala → to + sonraki saat"
       },
       {
-       "question": "“Saat kaçta yatarsın?” nasıl sorulur?",
-       "answer": "What time do you go to bed?",
+       "question": "“Evden kaçta çıkarsın?” nasıl sorulur?",
+       "answer": "What time do you leave home?",
        "why": "What time + do you + fiil"
       },
       {
-       "question": "My mother (get up) at six.",
-       "answer": "My mother gets up at six.",
-       "why": "she → -s"
+       "question": "I call my mother in every evening cümlesini düzeltin.",
+       "answer": "I call my mother every evening.",
+       "why": "every ile edat yok"
       }
      ],
      "mistakes": [
       {
-       "wrong": "I get up seven o'clock.",
-       "right": "I get up at seven o'clock.",
-       "why": "Saatten önce at gelir."
+       "wrong": "It's forty past eleven.",
+       "right": "It's twenty to twelve.",
+       "why": "30'dan sonra to kullanılır."
       },
       {
-       "wrong": "It's seven half.",
-       "right": "It's half past seven.",
-       "why": "Buçuk half past ile söylenir."
+       "wrong": "I leave home quarter past eight.",
+       "right": "I leave home at quarter past eight.",
+       "why": "Saatten önce at gelir."
+      }
+     ]
+    },
+    {
+     "id": "wm-guess",
+     "title": "He gets up at three o'clock at night. He makes bread. — A baker!",
+     "meaning": "Bir kişinin gününden mesleğini tahmin etmek",
+     "explanation": [
+      "Bilmecede bir kişinin günü üç kısa cümleyle anlatılır ve mesleğini tahmin ederiz: He gets up at three o'clock at night. He makes bread and simit. He sleeps in the afternoon. — A baker! Cümleler he / she ile kurulduğu için fiiller -s alır: gets, makes, sleeps.",
+      "İpucu fiillerdedir: makes bread → baker (fırıncı), drives → driver (şoför), teaches → teacher (öğretmen), feeds the animals → farmer (çiftçi). Fiil ile meslek adı çoğu zaman aynı köktendir; bu ipucunu 14 Kasım'da meslekler konusunda yeniden kullanacağız.",
+      "Bilmecenin cevabı a / an ile söylenir: a baker, a bus driver, a teacher, a farmer. Kendi bilmecenizi de yazabilirsiniz: She gets up at five. She works in a hospital at night. She helps the doctors. — A nurse."
+     ],
+     "formula": [
+      "He / She + fiil-s … (üç ipucu) → A / An + meslek",
+      "makes bread → baker · drives → driver · teaches → teacher",
+      "kendi bilmecen: She gets up at … She works … She …"
+     ],
+     "examples": [
+      {
+       "en": "He gets up at three o'clock at night. He makes bread and simit. — A baker.",
+       "tr": "Gece saat üçte kalkar. Ekmek ve simit yapar. — Fırıncı.",
+       "why": [
+        "makes bread → baker."
+       ]
+      },
+      {
+       "en": "She starts work at six. She drives all day. — A bus driver.",
+       "tr": "İşe altıda başlar. Bütün gün araba kullanır. — Otobüs şoförü.",
+       "why": [
+        "drives → driver."
+       ]
+      },
+      {
+       "en": "She wakes up at five. She feeds the animals and works in the field. — A farmer.",
+       "tr": "Beşte uyanır. Hayvanları besler ve tarlada çalışır. — Çiftçi.",
+       "why": [
+        "Üç ipucu, üç -s."
+       ],
+       "chunks": [
+        {
+         "en": "feeds the animals",
+         "tr": "hayvanları besler"
+        },
+        {
+         "en": "works in the field",
+         "tr": "tarlada çalışır"
+        }
+       ]
+      },
+      {
+       "en": "My brother leaves home at six.",
+       "tr": "Ağabeyim evden altıda çıkar.",
+       "why": [
+        "he → leaves (-s)."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "He teaches children. He checks homework. — ?",
+       "answer": "A teacher.",
+       "why": "teaches → teacher"
+      },
+      {
+       "question": "She (drive) all day.",
+       "answer": "She drives all day.",
+       "why": "she → -s"
+      },
+      {
+       "question": "Bilmece cevabında neden a kullanılır?",
+       "answer": "Meslek adlarından önce a / an gelir: a baker.",
+       "why": "a + meslek"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "She drive a bus.",
+       "right": "She drives a bus.",
+       "why": "she → -s."
+      },
+      {
+       "wrong": "He is baker.",
+       "right": "He's a baker.",
+       "why": "Meslekte a şart."
       }
      ]
     },
@@ -133,14 +213,14 @@
      "title": "Üç günün planı: günüm, ailem, mesleğim, this ve that",
      "meaning": "Dersin yol haritasını bilmek",
      "explanation": [
-      "Bu ders üç güne yayılıyor. 8 Kasım'da günümüzü resimlerle sıraya koyuyor, fiil + kelime eşlerini, fiil çekimini, have got ile sahip olmayı, my / his / her gibi sahiplik sıfatlarını ve aile kelimelerini öğreniyoruz. 14 Kasım'da 's ile sahiplik, soru kelimeleri ve meslekler geliyor. Üçüncü derste hayalimizdeki mesleği, nesneleri, this / that / these / those'u ve Atatürk'ün hayatını çalışıyoruz.",
-      "Her konunun başında bu rehberde kısa bir özet, ayrıntılı açıklama, örnekler, sık hatalar ve kendini dene soruları var. Derste ekranda çok sayıda alıştırma çözeceğiz; anlamadığınız bir yer olursa bu rehbere dönün.",
+      "Bu ders üç güne yayılıyor. 8 Kasım'da bir günü resimlerle sıraya koyuyor, fiil + kelime eşlerini, fiil çekimini, have got ile sahip olmayı, my / his / her gibi sahiplik sıfatlarını ve aile kelimelerini öğreniyoruz. 14 Kasım'da 's ile sahiplik, soru kelimeleri ve meslekler geliyor. Üçüncü derste hayalimizdeki mesleği, nesneleri, this / that / these / those'u ve Atatürk'ün hayatını iki ekranda çalışıyoruz.",
+      "Her ekranda önce bir “Konu anlatımı” kutusu ve yeni örnekler, sonra alıştırmalar var. Bu rehberde de her konunun kısa özeti, ayrıntılı açıklaması, örnekleri, sık hataları ve kendini dene soruları bulunuyor.",
       "Konular birbirine bağlı: aile kelimeleri sahiplik sıfatlarını (my mother, his wife), meslekler soru kelimelerini (What do you do? Where do you work?), nesneler de işaret sözcüklerini (What's this?) kullanır. Bu yüzden sırayla ilerlemek önemlidir."
      ],
      "formula": [
-      "8 Kasım: günüm · fiil + kelime · fiil çekimi · have got · my, his, her · aile",
+      "8 Kasım: resimden metin · fiil + kelime · fiil çekimi · have got · my, his, her · aile",
       "14 Kasım: 's · Who, What, Where, When, How · meslekler",
-      "Sonraki ders: hayalimdeki meslek · nesneler · this, that · Atatürk"
+      "Sonraki ders: hayalimdeki meslek · nesneler · this, that · Atatürk (iki ekran)"
      ],
      "examples": [
       {
@@ -184,8 +264,8 @@
        "why": "Plan."
       },
       {
-       "question": "this ve that hangi derste?",
-       "answer": "Üçüncü derste.",
+       "question": "Atatürk konusu kaç ekranda?",
+       "answer": "İki ekranda: hayatı ve yaptıkları / bayramlar.",
        "why": "Plan."
       }
      ],
@@ -197,7 +277,7 @@
       },
       {
        "wrong": "Sadece kelime listesini okumak.",
-       "right": "Ekrandaki alıştırmaları çözmek ve rehberdeki örnekleri sesli okumak.",
+       "right": "Konu anlatımını okuyup ekrandaki alıştırmaları çözmek.",
        "why": "Kullanmadan öğrenme kalıcı olmaz."
       }
      ]
@@ -206,103 +286,109 @@
   },
   {
    "screenId": "routine-pictures",
-   "title": "Resimleri sıraya koymak ve günü anlatan bir metin yazmak",
+   "title": "Resimleri sıraya koymak ve bir günü anlatan metin yazmak: köyde bir gün",
    "intro": [
-    "MEB kazanımı: günlük faaliyetleri içeren bir dizi resmi sıraya koyar ve metin oluşturur. Bir günü anlatmak bir film şeridi gibidir. Önce resimleri mantıklı bir sıraya koyarız: uyanmak kalkmaktan, duş almak kahvaltıdan önce gelir. Sonra her resme bir cümle yazarız ve cümleleri sıra kelimeleriyle bağlarız.",
-    "Bu ekranda sıra kelimelerini öğreniyoruz: First (önce), Then (sonra), After that (ondan sonra), Finally (en sonunda). Ayrıca günün bölümlerini: in the morning, in the afternoon, in the evening, at night. Resimler, cümleler ve bağlayıcılar bir araya gelince düzenli bir metin ortaya çıkar."
+    "MEB kazanımı: günlük faaliyetleri içeren bir dizi resmi sıraya koyar ve metin oluşturur. Bu kez kendi günümüzü değil, Yılmaz ailesinin büyükanne ve büyükbabası Hasan ile Zehra'nın Gemlik yakınındaki köyde geçen gününü anlatıyoruz: tavukları beslemek, yumurtaları toplamak, zeytinlikte çalışmak, komşularla çay içmek, torunları aramak.",
+    "Bu ekranda geçen dersteki First, Then, After that, Finally'ye yeni bağlayıcılar ekliyoruz: Later (daha sonra) ve after / before + isim (after lunch = öğle yemeğinden sonra, before dinner = akşam yemeğinden önce). Ayrıca iki kişiyi (they, -s yok) ve tek kişiyi (he / she, -s var) anlatmayı karşılaştırıyoruz."
    ],
    "sentenceNotes": [
     {
-     "en": "First, I get up at seven.",
-     "tr": "Önce saat yedide kalkarım.",
+     "en": "They live in a small village near Gemlik.",
+     "tr": "Gemlik yakınında küçük bir köyde yaşarlar.",
      "why": [
-      "First, ilk işi gösterir ve ardından virgül gelir; at + saat."
+      "they → live (-s yok); near = yakınında."
      ]
     },
     {
-     "en": "Then I have a shower.",
-     "tr": "Sonra duş alırım.",
+     "en": "First, they wake up at half past five. Then Hasan prays and Zehra feeds the chickens.",
+     "tr": "Önce beş buçukta uyanırlar. Sonra Hasan namaz kılar, Zehra tavukları besler.",
      "why": [
-      "Then ikinci işi gösterir; have a shower kalıbında a vardır."
+      "they → wake up; Hasan → prays; Zehra → feeds."
      ]
     },
     {
-     "en": "After that, I have breakfast.",
-     "tr": "Ondan sonra kahvaltı yaparım.",
+     "en": "After that, Zehra collects the eggs, and they have breakfast in the garden at seven o'clock.",
+     "tr": "Ondan sonra Zehra yumurtaları toplar ve saat yedide bahçede kahvaltı yaparlar.",
      "why": [
-      "After that ortadaki iş; have breakfast'ta a yoktur."
+      "collects (-s); they have; at + saat."
      ]
     },
     {
-     "en": "Finally, I go to bed at eleven.",
-     "tr": "En sonunda on birde yatarım.",
+     "en": "After lunch, they have a rest.",
+     "tr": "Öğle yemeğinden sonra dinlenirler.",
      "why": [
-      "Finally son iş; go to bed kalıbında the yoktur."
+      "after + isim; have a rest = dinlenmek."
      ]
     },
     {
-     "en": "After dinner, the family watches a film or listens to music.",
-     "tr": "Akşam yemeğinden sonra aile film izler ya da müzik dinler.",
+     "en": "Before dinner, Zehra calls her son, Kemal.",
+     "tr": "Akşam yemeğinden önce Zehra oğlu Kemal'i arar.",
      "why": [
-      "the family tek bir grup (it) → watches, listens. after + isim."
+      "before + isim; her son = onun oğlu (sahip kadın)."
+     ]
+    },
+    {
+     "en": "Finally, they go to bed at ten o'clock, because they get up very early.",
+     "tr": "En sonunda saat onda yatarlar, çünkü çok erken kalkarlar.",
+     "why": [
+      "because sebep bildirir; very early = çok erken."
      ]
     }
    ],
    "patterns": [
     {
      "id": "rp-order",
-     "title": "wake up → get up → have a shower → have breakfast",
-     "meaning": "Günlük işleri zaman sırasına koymak",
+     "title": "feed the chickens → collect the eggs → have breakfast in the garden",
+     "meaning": "Resimleri zaman ve mantık sırasına koymak",
      "explanation": [
-      "Resimleri sıraya koyarken önce günün bölümüne bakın: sabah işleri (wake up, get up, pray, have a shower, get dressed, have breakfast), gün içi işleri (go to work, have lunch, go shopping), akşam işleri (come home, cook dinner, have dinner, watch a film) ve gece (go to bed).",
-      "Bazı işlerin sırası mantıktan bellidir: wake up (uyanmak) her zaman get up'tan (kalkmak) önce gelir; cook dinner (yemeği pişirmek) have dinner'dan (yemek) önce gelir. Bazılarının sırası kişiden kişiye değişir: biri kahvaltıdan önce duş alır, biri sonra. Bu durumda kendi gününüzü düşünün.",
-      "Saatler sıralamayı kolaylaştırır: 06:30 wake up, 07:30 have breakfast, 08:15 go to work. Ekrandaki gün şeridinde her resmin bir saati var; sıralama alıştırmasında bu saatleri hatırlayabilirsiniz."
+      "Resim dizisinde sırayı bulmak için üç ipucu kullanın. Saat: 05:30 sabah, 20:00 akşamdır. Işık: güneş mi doğuyor, ay mı çıkmış? Mantık: tavuklar beslenmeden yumurta toplanmaz, yemek pişmeden yenmez, çamaşır yıkanmadan asılmaz.",
+      "Köy gününde yeni fiil grupları var: feed the chickens (tavukları beslemek), collect the eggs (yumurtaları toplamak), work in the olive garden (zeytinlikte çalışmak), have a rest (dinlenmek), drink tea with the neighbours (komşularla çay içmek), call the grandchildren (torunları aramak). Ev işleri için: wash the clothes, hang out the washing, fold the clothes, wash the dishes.",
+      "Sıralama alıştırmasında üç resimlik küçük diziler var. Her diziyi önce Türkçe düşünün (önce yıkarım, sonra asarım, sonra katlarım), sonra İngilizce resimleri o sıraya koyun."
      ],
      "formula": [
-      "sabah: wake up → get up → (pray) → have a shower → get dressed → have breakfast",
-      "gün içi: go to work → have lunch → go shopping",
-      "akşam ve gece: come home → cook dinner → have dinner → watch a film → go to bed"
+      "ipuçları: saat · ışık · mantık",
+      "sabah: wake up → pray → feed the chickens → collect the eggs → have breakfast",
+      "çamaşır: wash the clothes → hang out the washing → fold the clothes"
      ],
      "examples": [
       {
-       "en": "I wake up at half past six and I get up at twenty-five to seven.",
-       "tr": "Altı buçukta uyanır, yediye yirmi beş kala kalkarım.",
+       "en": "They wake up at half past five and Zehra feeds the chickens.",
+       "tr": "Beş buçukta uyanırlar ve Zehra tavukları besler.",
        "why": [
-        "wake up ve get up farklı anlardır."
+        "they → wake up; Zehra → feeds."
        ]
       },
       {
-       "en": "I have a shower, get dressed and have breakfast.",
-       "tr": "Duş alırım, giyinirim ve kahvaltı yaparım.",
+       "en": "First, I wash the clothes. Then I hang out the washing. Finally, I fold the clothes.",
+       "tr": "Önce çamaşırları yıkarım. Sonra asarım. En sonunda katlarım.",
        "why": [
-        "Aynı özneyle üç iş: virgül ve and."
-       ]
-      },
-      {
-       "en": "I come home at six, cook dinner and have dinner at seven.",
-       "tr": "Altıda eve gelir, yemek pişirir ve yedide akşam yemeği yerim.",
-       "why": [
-        "Akşam işleri mantıklı sırada."
+        "Mantık sırası."
        ],
        "chunks": [
         {
-         "en": "come home",
-         "tr": "eve gelmek",
-         "note": "to yok"
+         "en": "wash the clothes",
+         "tr": "çamaşırları yıkamak"
         },
         {
-         "en": "cook dinner",
-         "tr": "yemek pişirmek"
+         "en": "hang out the washing",
+         "tr": "çamaşırları asmak"
         },
         {
-         "en": "have dinner",
-         "tr": "akşam yemeği yemek"
+         "en": "fold the clothes",
+         "tr": "giysileri katlamak"
         }
        ]
       },
       {
-       "en": "At night, I go to bed at eleven.",
-       "tr": "Gece on birde yatarım.",
+       "en": "After dinner, we wash the dishes and watch the news.",
+       "tr": "Akşam yemeğinden sonra bulaşıkları yıkar ve haberleri izleriz.",
+       "why": [
+        "after + isim."
+       ]
+      },
+      {
+       "en": "At night, the village is very quiet.",
+       "tr": "Gece köy çok sessizdir.",
        "why": [
         "at night: günün son bölümü."
        ]
@@ -310,195 +396,207 @@
      ],
      "checks": [
       {
-       "question": "wake up mı önce, get up mı?",
-       "answer": "wake up (önce uyanırız, sonra kalkarız).",
+       "question": "collect the eggs mi önce, feed the chickens mı?",
+       "answer": "feed the chickens (önce beslenir, sonra yumurta toplanır).",
        "why": "Mantık sırası."
       },
       {
-       "question": "cook dinner ile have dinner'ın sırası?",
-       "answer": "Önce cook dinner, sonra have dinner.",
-       "why": "Önce pişirilir, sonra yenir."
+       "question": "hang out the washing ne demek?",
+       "answer": "Çamaşırları asmak.",
+       "why": "Yeni fiil grubu."
       },
       {
-       "question": "go to bed günün hangi bölümünde?",
-       "answer": "Gece (at night).",
-       "why": "Son iş."
+       "question": "wash the dishes günün hangi bölümünde olabilir?",
+       "answer": "Yemekten sonra; örneğin akşam (in the evening).",
+       "why": "Sıralama."
       }
      ],
      "mistakes": [
       {
-       "wrong": "I go to home at six.",
-       "right": "I go home / come home at six.",
-       "why": "home ile to kullanılmaz."
+       "wrong": "They feeds the chickens.",
+       "right": "They feed the chickens.",
+       "why": "they → -s yok."
       },
       {
-       "wrong": "I have a breakfast.",
-       "right": "I have breakfast.",
-       "why": "Öğünlerde a yok."
+       "wrong": "I have a rest after the lunch.",
+       "right": "I have a rest after lunch.",
+       "why": "Öğünlerde the yok."
       }
      ]
     },
     {
      "id": "rp-sequence",
-     "title": "First, … Then … After that, … Finally, …",
-     "meaning": "Sıra kelimeleriyle cümleleri bağlamak",
+     "title": "After lunch, they have a rest. Before dinner, Zehra calls her son.",
+     "meaning": "Yeni bağlayıcılar: Later, after + isim, before + isim",
      "explanation": [
-      "Sıra kelimeleri metne bir iskelet verir. First (önce) ilk işi, Then (sonra) ve After that (ondan sonra) ortadaki işleri, Finally (en sonunda) son işi gösterir. First, After that ve Finally'den sonra genellikle virgül konur; Then'den sonra virgül şart değildir.",
-      "Her cümlede bir iş anlatmak okuyucunun takip etmesini kolaylaştırır: First, I get up. Then I pray. After that, I have breakfast. Finally, I go to work. İki işi and ile de birleştirebilirsiniz: Then I have a shower and get dressed.",
-      "Uzun bir metinde sıra kelimelerini günün bölümleriyle birlikte kullanın: In the morning, first I … Then … In the evening, … Finally, at eleven o'clock, I go to bed. Böylece metin hem sıralı hem de zamanı belli olur."
+      "Geçen derste First, Then, After that, Finally'yi öğrendik. Bu derste üç yeni ifade ekliyoruz. Later (daha sonra) Then'e benzer ama biraz zaman geçtiğini gösterir: Later, they drink tea with the neighbours.",
+      "after + isim ve before + isim bir işi başka bir işe göre yerleştirir: after lunch (öğle yemeğinden sonra), after work (işten sonra), before dinner (akşam yemeğinden önce), before bed (yatmadan önce). Türkçede ek sondadır (-den sonra / -den önce); İngilizcede kelime başta gelir. Öğünlerden önce the kullanılmaz: after lunch (after the lunch ✗).",
+      "Bu ifadeler cümlenin başına geldiğinde ardından virgül konur: After lunch, they have a rest. Cümlenin sonuna da gelebilir; o zaman virgül gerekmez: They have a rest after lunch."
      ],
      "formula": [
-      "First, + ilk iş",
-      "Then / After that, + ortadaki işler",
-      "Finally, + son iş · In the morning / evening, …"
+      "Later, … = daha sonra",
+      "after + isim: after lunch / after work / after the course",
+      "before + isim: before dinner / before bed · başta ise virgül"
      ],
      "examples": [
       {
-       "en": "First, I get up. Then I pray. After that, I have breakfast.",
-       "tr": "Önce kalkarım. Sonra namaz kılarım. Ondan sonra kahvaltı yaparım.",
+       "en": "After lunch, they have a rest.",
+       "tr": "Öğle yemeğinden sonra dinlenirler.",
        "why": [
-        "Üç cümle, üç sıra kelimesi."
+        "after + isim; başta virgül."
        ],
        "chunks": [
         {
-         "en": "First,",
-         "tr": "önce",
-         "note": "virgül"
+         "en": "After lunch,",
+         "tr": "öğle yemeğinden sonra",
+         "note": "the yok"
         },
         {
-         "en": "Then",
-         "tr": "sonra"
-        },
-        {
-         "en": "After that,",
-         "tr": "ondan sonra",
-         "note": "virgül"
+         "en": "have a rest",
+         "tr": "dinlenmek"
         }
        ]
       },
       {
-       "en": "Finally, I go to bed at eleven.",
-       "tr": "En sonunda on birde yatarım.",
+       "en": "Before dinner, Zehra calls her son, Kemal.",
+       "tr": "Akşam yemeğinden önce Zehra oğlu Kemal'i arar.",
        "why": [
-        "Finally son işi gösterir."
+        "before + isim; she → calls."
        ]
       },
       {
-       "en": "In the evening, I cook dinner. Then we watch a film together.",
-       "tr": "Akşam yemek pişiririm. Sonra birlikte film izleriz.",
+       "en": "Before bed, I read a story to my son.",
+       "tr": "Yatmadan önce oğluma bir hikâye okurum.",
        "why": [
-        "Günün bölümü + sıra kelimesi."
+        "before bed = yatmadan önce."
        ]
       },
       {
-       "en": "First, she wakes up at six. Then she prays and has a shower.",
-       "tr": "Önce altıda uyanır. Sonra namaz kılar ve duş alır.",
+       "en": "Later, my grandmother waters the flowers.",
+       "tr": "Daha sonra büyükannem çiçekleri sular.",
        "why": [
-        "Başkasının günü: -s ve has."
+        "Later + virgül; she → waters."
        ]
       }
      ],
      "checks": [
       {
-       "question": "“En sonunda” İngilizcesi?",
-       "answer": "Finally",
-       "why": "Son iş."
+       "question": "“İşten sonra” İngilizcesi?",
+       "answer": "after work",
+       "why": "after + isim"
       },
       {
-       "question": "Hangi sıra kelimelerinden sonra virgül konur?",
-       "answer": "First, After that, Finally (Then'den sonra şart değil).",
-       "why": "Yazım."
+       "question": "“Akşam yemeğinden önce” İngilizcesi?",
+       "answer": "before dinner",
+       "why": "before + isim"
       },
       {
-       "question": "“Önce kalkarım, sonra duş alırım.” İngilizcesi?",
-       "answer": "First, I get up. Then I have a shower.",
-       "why": "Sıra kelimeleri."
+       "question": "After the lunch, … cümlesini düzeltin.",
+       "answer": "After lunch, …",
+       "why": "Öğünlerde the yok"
       }
      ],
      "mistakes": [
       {
-       "wrong": "Firstly I get up, finally I have breakfast, finally I go to work.",
-       "right": "First, I get up. Then I have breakfast. Finally, I go to work.",
-       "why": "Finally sadece son iş için bir kez."
+       "wrong": "Lunch after, they have a rest.",
+       "right": "After lunch, they have a rest.",
+       "why": "after başa gelir."
       },
       {
-       "wrong": "At the end I go to bed.",
-       "right": "Finally, I go to bed.",
-       "why": "Günün son işi için Finally."
+       "wrong": "Before of dinner, …",
+       "right": "Before dinner, …",
+       "why": "before'dan sonra of yok."
       }
      ]
     },
     {
      "id": "rp-text",
-     "title": "Selma's day: başkasının gününü okumak ve yazmak",
-     "meaning": "Bir kişinin gününü he / she ile anlatmak",
+     "title": "Hasan works in the olive garden. Zehra doesn't work in the garden.",
+     "meaning": "they ile he / she'yi karşılaştırarak metin yazmak",
      "explanation": [
-      "Resimdeki kişi biz değilsek fiil üçüncü tekil kişiye göre çekimlenir: she wakes up, she prays, she has a shower, she goes to work. Okuma metnindeki Selma'nın günü bu şekilde yazılmıştır. Metni okurken renkli işaretler sıra kelimelerini, saatleri ve fiilleri gösterir.",
-      "Kendi gününüzü yazdıktan sonra aynı metni bir arkadaşınız için he / she ile yeniden yazmak çok iyi bir alıştırmadır: I get up → She gets up, I have → She has, I go → She goes, I watch → She watches. -s, -es ve has değişimlerine dikkat edin.",
-      "Metin yazarken kontrol listesi: sıra kelimesi var mı? Saatlerde at var mı? Günün bölümü var mı? I am get up gibi bir hata var mı? Ekrandaki yazma kutusu bu maddeleri sizin için kontrol eder."
+      "Okuma metninde iki kişi birlikte bir şey yapıyorsa özne they'dir ve fiil yalın kalır: They wake up at half past five. They have breakfast in the garden. Tek bir kişi bir şey yapıyorsa fiil -s alır: Hasan prays. Zehra feeds the chickens. Hasan watches the news.",
+      "Olumsuzda -s doesn't'a geçer: Zehra doesn't work in the garden; she makes jam and cleans the house. Noktalı virgül (;) burada iki zıt bilgiyi bağlar; but da kullanılabilir.",
+      "Yazma alıştırmasında kendi gününüzü değil, ailenizden birinin gününü he / she ile yazıyorsunuz. Kontrol listesi: sıra kelimesi, after / before + isim, at + saat ve her fiilde -s. Ekrandaki yazma kutusu “she get / he go” gibi -s'siz biçimleri uyarır."
      ],
      "formula": [
-      "I get up → She gets up · I have → She has",
-      "I go → She goes · I watch → She watches",
-      "Kontrol: sıra kelimesi · at + saat · günün bölümü"
+      "they + yalın fiil: They wake up. They have a rest.",
+      "he / she + fiil-s: Zehra feeds. Hasan watches.",
+      "olumsuz: Zehra doesn't work in the garden."
      ],
      "examples": [
       {
-       "en": "Selma is a nurse. She works at a hospital in Bursa.",
-       "tr": "Selma bir hemşire. Bursa'da bir hastanede çalışıyor.",
+       "en": "Hasan and Zehra are Deniz and Ece's grandparents.",
+       "tr": "Hasan ve Zehra, Deniz ile Ece'nin büyükanne ve büyükbabası.",
        "why": [
-        "Meslek a ile; works -s alır."
+        "Ortak sahiplik: 's sonda."
        ]
       },
       {
-       "en": "First, she wakes up at six o'clock. Then she prays and has a shower.",
-       "tr": "Önce saat altıda uyanır. Sonra namaz kılar ve duş alır.",
+       "en": "They've got a big garden, twenty olive trees and ten chickens.",
+       "tr": "Büyük bir bahçeleri, yirmi zeytin ağacı ve on tavukları var.",
        "why": [
-        "wakes, prays, has: üçüncü tekil."
+        "they → have got."
        ]
       },
       {
-       "en": "Her children, Deniz and Ece, do their homework.",
-       "tr": "Çocukları Deniz ve Ece ödevlerini yapar.",
+       "en": "Zehra doesn't work in the garden; she makes jam and cleans the house.",
+       "tr": "Zehra bahçede çalışmaz; reçel yapar ve evi temizler.",
        "why": [
-        "Çoğul özne (children) → do; their."
+        "doesn't + yalın; sonra -s."
+       ],
+       "chunks": [
+        {
+         "en": "doesn't work",
+         "tr": "çalışmaz",
+         "note": "-s yok"
+        },
+        {
+         "en": "makes jam",
+         "tr": "reçel yapar",
+         "note": "+s"
+        },
+        {
+         "en": "cleans the house",
+         "tr": "evi temizler",
+         "note": "+s"
+        }
        ]
       },
       {
-       "en": "Finally, Selma goes to bed at eleven o'clock.",
-       "tr": "En sonunda Selma saat on birde yatar.",
+       "en": "Finally, they go to bed at ten o'clock, because they get up very early.",
+       "tr": "En sonunda saat onda yatarlar, çünkü çok erken kalkarlar.",
        "why": [
-        "goes: -o → -es."
+        "because ile sebep."
        ]
       }
      ],
      "checks": [
       {
-       "question": "I have a shower → She …?",
-       "answer": "She has a shower.",
-       "why": "have → has"
+       "question": "They (wake up) at half past five.",
+       "answer": "They wake up at half past five.",
+       "why": "they → yalın"
       },
       {
-       "question": "I go to work → He …?",
-       "answer": "He goes to work.",
-       "why": "-o → -es"
+       "question": "Hasan (watch) the news.",
+       "answer": "Hasan watches the news.",
+       "why": "-ch → -es"
       },
       {
-       "question": "Neden “Her children do” (does değil)?",
-       "answer": "children çoğul (they) → do.",
-       "why": "Özne uyumu."
+       "question": "Zehra (not / work) in the garden.",
+       "answer": "Zehra doesn't work in the garden.",
+       "why": "doesn't + yalın"
       }
      ],
      "mistakes": [
       {
-       "wrong": "She have breakfast at seven.",
-       "right": "She has breakfast at seven.",
-       "why": "she → has."
+       "wrong": "Zehra feed the chickens.",
+       "right": "Zehra feeds the chickens.",
+       "why": "she → -s."
       },
       {
-       "wrong": "Selma go to bed at eleven.",
-       "right": "Selma goes to bed at eleven.",
-       "why": "she → goes."
+       "wrong": "They has breakfast in the garden.",
+       "right": "They have breakfast in the garden.",
+       "why": "they → have."
       }
      ]
     }

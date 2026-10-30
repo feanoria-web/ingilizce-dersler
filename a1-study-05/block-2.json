@@ -750,8 +750,8 @@
      ]
     },
     {
-     "en": "How do you go to work? — By bus.",
-     "tr": "İşe nasıl gidersin? — Otobüsle.",
+     "en": "How do you come to the course? — By bus.",
+     "tr": "Kursa nasıl gelirsin? — Otobüsle.",
      "why": [
       "How araç sorar; cevap by + araç."
      ]
@@ -765,7 +765,7 @@
      "explanation": [
       "Who kişi sorar: Who is your teacher? — Gürkan Öztürk. What şey ya da bilgi sorar: What is your job? — I'm a nurse. What time saat, What colour renk sorar.",
       "Where yer sorar: Where do you live? — In Bursa. Türkçedeki “nereye” için de Where kullanılır; hedefi gösteren to genellikle cevapta gelir: Where do you go on Sundays? — To the market. Konuşmada sorunun sonuna to eklenebilir (Where are you going to?) ama gerekmez.",
-      "When zaman sorar: When is your birthday? — In May. / On 12 May. Saat için çoğunlukla What time kullanılır. How yol, araç ya da durum sorar: How do you go to work? — By bus. How are you? — I'm fine. How old yaş, How many sayı sorar."
+      "When zaman sorar: When is your birthday? — In May. / On 12 May. Saat için çoğunlukla What time kullanılır. How yol, araç ya da durum sorar: How do you come to the course? — By bus. How are you? — I'm fine. How old yaş, How many sayı sorar."
      ],
      "formula": [
       "Who → kişi · What → şey / bilgi (What time, What colour)",
@@ -806,8 +806,8 @@
        ]
       },
       {
-       "en": "How do you go to work? — On foot.",
-       "tr": "İşe nasıl gidersin? — Yürüyerek.",
+       "en": "How do you come to the course? — On foot.",
+       "tr": "Kursa nasıl gelirsin? — Yürüyerek.",
        "why": [
         "How → yol, araç."
        ]
@@ -2258,7 +2258,7 @@
     "How …?"
    ],
    "explanation": [
-    "Yol, araç ya da durum sorar: How do you go to work? — By bus. How are you? How old yaş, How many sayı sorar."
+    "Yol, araç ya da durum sorar: How do you come to the course? — By bus. How are you? How old yaş, How many sayı sorar."
    ],
    "collocations": [
     {
@@ -2272,8 +2272,8 @@
    ],
    "examples": [
     {
-     "en": "How do you go to work? — By bus.",
-     "tr": "İşe nasıl gidersin? — Otobüsle."
+     "en": "How do you come to the course? — By bus.",
+     "tr": "Kursa nasıl gelirsin? — Otobüsle."
     },
     {
      "en": "How does he go to work? — By motorbike.",

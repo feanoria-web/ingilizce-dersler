@@ -3,21 +3,30 @@
  "chapters": [
   {
    "screenId": "warm",
-   "intro": "Saat sorusu: What time is it? — It's half past nine. Günlük iş: I get up at seven. Başkası: She gets up at seven (-s).",
+   "intro": "Yeni sorular: What time do you leave home? Who cooks dinner? When do you call your family? Saat: ten past five, twenty to twelve. Kural: at + saat, on + gün, he / she → -s.",
    "patterns": [
     {
      "id": "wm-time-routine",
      "summary": [
       "What time do you …? — I … at + saat.",
-      "Saat: half past (buçuk), quarter to (çeyrek kala).",
-      "Başkası için fiil -s alır: She gets up at six."
+      "30'dan sonra to: twenty to twelve.",
+      "Who cooks …? · When do you …? · How often …?"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "wm-guess",
+     "summary": [
+      "Üç ipucu cümlesi → meslek.",
+      "İpucu fiilde: makes bread → baker.",
+      "Cevap a / an ile: a farmer."
      ],
      "exampleIndex": 0
     },
     {
      "id": "wm-plan",
      "summary": [
-      "8 Kasım: günüm, fiiller, have got, sahiplik, aile.",
+      "8 Kasım: resimden metin, fiiller, have got, sahiplik, aile.",
       "14 Kasım: 's, soru kelimeleri, meslekler.",
       "Sonraki ders: hayal meslek, nesneler, this / that, Atatürk."
      ],
@@ -27,34 +36,34 @@
   },
   {
    "screenId": "routine-pictures",
-   "intro": "Resimleri zamana göre sırala, her resme bir cümle yaz (I get up. I have a shower.), cümleleri First, Then, After that, Finally ile bağla.",
+   "intro": "Resimleri saat, ışık ve mantıkla sırala. Yeni bağlayıcılar: Later · after lunch · before dinner. they → yalın fiil (they wake up), he / she → -s (Zehra feeds).",
    "patterns": [
     {
      "id": "rp-order",
      "summary": [
-      "Önce günün bölümüne bak: sabah, gün içi, akşam, gece.",
-      "Mantık sırası: wake up → get up; cook dinner → have dinner.",
-      "Saatler sıralamaya yardım eder."
+      "Sıra için saat, ışık ve mantığa bak.",
+      "Yeni fiiller: feed the chickens, collect the eggs, have a rest.",
+      "Önce Türkçe düşün, sonra resimleri sırala."
      ],
      "exampleIndex": 1
     },
     {
      "id": "rp-sequence",
      "summary": [
-      "First → Then / After that → Finally.",
-      "First, After that, Finally'den sonra virgül.",
-      "Günün bölümleriyle birleştir: In the evening, …"
+      "Later = daha sonra.",
+      "after / before + isim: after lunch, before dinner.",
+      "Başta virgül; öğünlerde the yok."
      ],
      "exampleIndex": 0
     },
     {
      "id": "rp-text",
      "summary": [
-      "Başkasının günü: fiil -s / -es; have → has.",
-      "Kendi metnini he / she ile yeniden yaz.",
-      "Kontrol: sıra kelimesi, at + saat, günün bölümü."
+      "they → yalın fiil; he / she → -s.",
+      "Olumsuz: doesn't + yalın fiil.",
+      "Aile üyesinin gününü he / she ile yaz."
      ],
-     "exampleIndex": 1
+     "exampleIndex": 2
     }
    ]
   },
@@ -602,6 +611,48 @@
       "Soru kelimesi aranacak bilgiyi söyler.",
       "When was he born? · When did he die?",
       "Yanlış cümleyi doğru bilgiyle düzelt."
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "at-was-were",
+     "summary": [
+      "tekil → was, çoğul → were.",
+      "Düzenli: -ed (started, died).",
+      "Düzensiz: went, became, got, gave, won."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "ataturk-today",
+   "intro": "Tarih okuma: 23 April = the twenty-third of April (first, second, third, -th; twenty → twentieth). Bayramlar: 23 April, 19 May, 30 August, 29 October. 10 Kasım: The sirens sound at five past nine.",
+   "patterns": [
+    {
+     "id": "td-dates",
+     "summary": [
+      "Tarihte gün sıra sayısıyla okunur.",
+      "first, second, third düzensiz; diğerleri -th.",
+      "twenty → twentieth · gün varsa on."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "td-days",
+     "summary": [
+      "Her bayram Atatürk'ün hayatındaki bir tarihe bağlı.",
+      "Bayram: geniş zaman (is); olay: geçmiş zaman (won, gave).",
+      "Bayram adları büyük harfle."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "td-legacy",
+     "summary": [
+      "Yaptıkları: geçmiş zaman (started, taught, got).",
+      "10 Kasım her yıl: geniş zaman (sound, stand, visit).",
+      "Turks / Turkish büyük harfle."
      ],
      "exampleIndex": 2
     }

@@ -1283,6 +1283,20 @@
      ]
     },
     {
+     "en": "His maths teacher gave him the name “Kemal”.",
+     "tr": "Matematik öğretmeni ona “Kemal” adını verdi.",
+     "why": [
+      "give → gave; gave him = ona verdi."
+     ]
+    },
+    {
+     "en": "On 30 August 1922, the Turkish army won the Great Victory.",
+     "tr": "30 Ağustos 1922'de Türk ordusu Büyük Zafer'i kazandı.",
+     "why": [
+      "win → won; on + gün ay yıl."
+     ]
+    },
+    {
      "en": "Every year on 10 November, people in Turkey remember him.",
      "tr": "Her yıl 10 Kasım'da Türkiye'de insanlar onu anar.",
      "why": [
@@ -1462,6 +1476,398 @@
        "wrong": "Where did he born?",
        "right": "Where was he born?",
        "why": "be born kalıbı was ile sorulur."
+      }
+     ]
+    },
+    {
+     "id": "at-was-were",
+     "title": "He was a commander. His parents were … · go → went · win → won",
+     "meaning": "was / were ve geçmiş zaman fiillerini tanımak",
+     "explanation": [
+      "be fiilinin geçmişi iki biçimlidir: tekil öznelerle (I, he, she, it, his mother) was, çoğul öznelerle (we, you, they, his parents) were. He was a very good student. His mother was Zübeyde Hanım. His parents were Zübeyde Hanım and Ali Rıza Efendi.",
+      "Düzenli fiiller geçmişte -ed alır: start → started, open → opened, change → changed, finish → finished. Sonu -e ile bitenler yalnızca -d alır: live → lived, die → died. started ve founded gibi -t ya da -d ile biten fiillerde -ed hecesi /ıd/ diye okunur.",
+      "Düzensiz fiiller ezberlenir. Atatürk metinlerindekiler: go → went (gitti), become → became (oldu), get → got (aldı), give → gave (verdi), win → won (kazandı), teach → taught (öğretti), say → said (dedi). Metni okurken bu biçimleri görünce bugünkü hâlini düşünün: went = go."
+     ],
+     "formula": [
+      "tekil → was · çoğul → were",
+      "-ed: started, opened, finished · -e → -d: lived, died",
+      "ezber: went · became · got · gave · won · taught · said"
+     ],
+     "examples": [
+      {
+       "en": "His parents were Zübeyde Hanım and Ali Rıza Efendi.",
+       "tr": "Anne babası Zübeyde Hanım ve Ali Rıza Efendi idi.",
+       "why": [
+        "Çoğul özne → were."
+       ]
+      },
+      {
+       "en": "His maths teacher gave him the name “Kemal”.",
+       "tr": "Matematik öğretmeni ona “Kemal” adını verdi.",
+       "why": [
+        "give → gave."
+       ],
+       "chunks": [
+        {
+         "en": "His maths teacher",
+         "tr": "matematik öğretmeni"
+        },
+        {
+         "en": "gave him the name",
+         "tr": "ona adını verdi",
+         "note": "give → gave"
+        }
+       ]
+      },
+      {
+       "en": "On 30 August 1922, the Turkish army won the Great Victory.",
+       "tr": "30 Ağustos 1922'de Türk ordusu Büyük Zafer'i kazandı.",
+       "why": [
+        "win → won; on + gün."
+       ]
+      },
+      {
+       "en": "In 1905, he finished the Military Academy in Istanbul.",
+       "tr": "1905'te İstanbul'da Harp Akademisi'ni bitirdi.",
+       "why": [
+        "finish → finished (-ed)."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "His parents ___ Zübeyde Hanım and Ali Rıza Efendi. (was / were)",
+       "answer": "were",
+       "why": "çoğul"
+      },
+      {
+       "question": "win'in geçmişi?",
+       "answer": "won",
+       "why": "düzensiz"
+      },
+      {
+       "question": "live'ın geçmişi?",
+       "answer": "lived",
+       "why": "-e → -d"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "His parents was …",
+       "right": "His parents were …",
+       "why": "Çoğul özne → were."
+      },
+      {
+       "wrong": "He goed to Samsun.",
+       "right": "He went to Samsun.",
+       "why": "go düzensiz: went."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "ataturk-today",
+   "title": "Atatürkçülük: Atatürk'ün yaptıkları, millî bayramlar ve 10 Kasım",
+   "intro": [
+    "Atatürk'ün hayatının ikinci ekranında onun yaptıklarının bugün hayatımızdaki izlerine bakıyoruz: kullandığımız harfler (1928), soyadlarımız (1934), kadınların seçme hakkı (1934) ve millî bayramlarımız. Her bayramın Atatürk'ün hayatındaki bir tarihe bağlı olduğunu görüyoruz: 23 Nisan, 19 Mayıs, 30 Ağustos, 29 Ekim ve 10 Kasım.",
+    "Dil tarafında tarihleri İngilizce okumayı öğreniyoruz. Tarihte gün sıra sayısıyla okunur: 23 April = the twenty-third of April. Bu yüzden first, second, third ve -th ile biten sıra sayılarını çalışıyoruz. 10 Kasım'da yaptıklarımızı ise her yıl tekrarlandığı için geniş zamanla anlatıyoruz: The sirens sound at five past nine."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "23 April is National Sovereignty and Children's Day.",
+     "tr": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı'dır.",
+     "why": [
+      "Her yıl tekrarlanan bilgi → is; bayram adı büyük harfle."
+     ]
+    },
+    {
+     "en": "Atatürk gave this day to children.",
+     "tr": "Atatürk bu günü çocuklara armağan etti.",
+     "why": [
+      "give → gave (geçmiş); to children = çocuklara."
+     ]
+    },
+    {
+     "en": "In 1928, Turkey started to use a new alphabet.",
+     "tr": "1928'de Türkiye yeni bir alfabe kullanmaya başladı.",
+     "why": [
+      "start → started; in + yıl."
+     ]
+    },
+    {
+     "en": "The surname “Atatürk” means “father of the Turks”.",
+     "tr": "“Atatürk” soyadı “Türklerin atası” demektir.",
+     "why": [
+      "means: geniş zaman (genel gerçek); Turks büyük harfle."
+     ]
+    },
+    {
+     "en": "Every year on 10 November, the sirens sound at five past nine.",
+     "tr": "Her yıl 10 Kasım'da sirenler dokuzu beş geçe çalar.",
+     "why": [
+      "every year → geniş zaman; at + saat."
+     ]
+    },
+    {
+     "en": "He said, “Peace at home, peace in the world.”",
+     "tr": "“Yurtta sulh, cihanda sulh.” dedi.",
+     "why": [
+      "say → said; Atatürk'ün ünlü sözü."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "td-dates",
+     "title": "the twenty-third of April · the twenty-ninth of October · the thirtieth of August",
+     "meaning": "Tarihleri sıra sayısıyla okumak",
+     "explanation": [
+      "İngilizcede tarihteki gün sıra sayısıyla okunur. Yazarken çoğunlukla rakam yazılır (23 April), ama okurken the twenty-third of April ya da April the twenty-third deriz. Türkçede de “Nisan'ın yirmi üçü” deriz; mantık benzerdir.",
+      "Sıra sayılarının çoğu -th ile yapılır: fourth, fifth (five → fifth), sixth, tenth, nineteenth. İlk üç düzensizdir: first, second, third. Bileşik sayılarda yalnızca son kısım sıra sayısı olur: twenty-first, twenty-third, twenty-ninth. -ty ile biten onlar y'yi ie'ye çevirir: twenty → twentieth, thirty → thirtieth.",
+      "Kısaltmalar: 1st, 2nd, 3rd, 4th, 23rd, 29th, 30th. Edat kuralı aynıdır: gün varsa on (on 23 April), sadece ay ya da yıl varsa in (in April, in 1920). Bayramın tarihini sormak için: When is Republic Day? — It's on 29 October."
+     ],
+     "formula": [
+      "1st first · 2nd second · 3rd third · 4th fourth · 5th fifth",
+      "23rd twenty-third · 29th twenty-ninth · 30th thirtieth",
+      "When is … Day? — It's on the …th of …"
+     ],
+     "examples": [
+      {
+       "en": "Republic Day is on the twenty-ninth of October.",
+       "tr": "Cumhuriyet Bayramı 29 Ekim'de.",
+       "why": [
+        "on + sıra sayısıyla tarih."
+       ],
+       "chunks": [
+        {
+         "en": "Republic Day",
+         "tr": "Cumhuriyet Bayramı"
+        },
+        {
+         "en": "on the twenty-ninth of October",
+         "tr": "29 Ekim'de",
+         "note": "sıra sayısı"
+        }
+       ]
+      },
+      {
+       "en": "Children's Day is on the twenty-third of April.",
+       "tr": "Çocuk Bayramı 23 Nisan'da.",
+       "why": [
+        "twenty-third: bileşik sayıda son kısım sıra sayısı."
+       ]
+      },
+      {
+       "en": "Victory Day is on the thirtieth of August.",
+       "tr": "Zafer Bayramı 30 Ağustos'ta.",
+       "why": [
+        "thirty → thirtieth."
+       ]
+      },
+      {
+       "en": "When is Youth and Sports Day? — It's on the nineteenth of May.",
+       "tr": "Gençlik ve Spor Bayramı ne zaman? — 19 Mayıs'ta.",
+       "why": [
+        "nineteenth."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "29 October nasıl okunur?",
+       "answer": "the twenty-ninth of October",
+       "why": "ninth (e yok)"
+      },
+      {
+       "question": "“Birinci, ikinci, üçüncü” İngilizcesi?",
+       "answer": "first, second, third",
+       "why": "düzensiz"
+      },
+      {
+       "question": "30 nasıl sıra sayısı olur?",
+       "answer": "thirtieth",
+       "why": "y → ie + th"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "the twenty-three of April",
+       "right": "the twenty-third of April",
+       "why": "Tarihte sıra sayısı kullanılır."
+      },
+      {
+       "wrong": "Republic Day is in 29 October.",
+       "right": "Republic Day is on 29 October.",
+       "why": "Gün → on."
+      }
+     ]
+    },
+    {
+     "id": "td-days",
+     "title": "23 April · 19 May · 30 August · 29 October · 10 November",
+     "meaning": "Millî bayramlar ve Atatürk'ün hayatıyla bağları",
+     "explanation": [
+      "23 April, National Sovereignty and Children's Day (Ulusal Egemenlik ve Çocuk Bayramı): 23 Nisan 1920'de Büyük Millet Meclisi açıldı; Atatürk bu günü çocuklara armağan etti. 19 May, Commemoration of Atatürk, Youth and Sports Day: 19 Mayıs 1919'da Samsun'a çıktı; bu günü gençlere armağan etti.",
+      "30 August, Victory Day (Zafer Bayramı): 30 Ağustos 1922'de Türk ordusu Büyük Zafer'i kazandı. 29 October, Republic Day (Cumhuriyet Bayramı): 29 Ekim 1923'te Türkiye Cumhuriyeti kuruldu. 10 November, Atatürk Memorial Day: 1938'de vefat etti; her yıl onu anarız.",
+      "Bayramı İngilizce anlatırken iki cümle yeterlidir: tarih ve olay. 30 August is Victory Day. In 1922, the Turkish army won the Great Victory. İlk cümle geniş zaman (her yıl), ikinci cümle geçmiş zamandır (bir kez oldu)."
+     ],
+     "formula": [
+      "23 April → Children's Day · 1920",
+      "19 May → Youth and Sports Day · 1919 · 30 August → Victory Day · 1922",
+      "29 October → Republic Day · 1923 · 10 November → 1938"
+     ],
+     "examples": [
+      {
+       "en": "23 April is National Sovereignty and Children's Day. Atatürk gave this day to children.",
+       "tr": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı. Atatürk bu günü çocuklara armağan etti.",
+       "why": [
+        "is (her yıl) + gave (geçmiş)."
+       ]
+      },
+      {
+       "en": "30 August is Victory Day. In 1922, the Turkish army won the Great Victory.",
+       "tr": "30 Ağustos Zafer Bayramı. 1922'de Türk ordusu Büyük Zafer'i kazandı.",
+       "why": [
+        "win → won."
+       ]
+      },
+      {
+       "en": "19 May is Youth and Sports Day. He gave this day to young people.",
+       "tr": "19 Mayıs Gençlik ve Spor Bayramı. Bu günü gençlere armağan etti.",
+       "why": [
+        "give → gave."
+       ],
+       "chunks": [
+        {
+         "en": "Youth and Sports Day",
+         "tr": "Gençlik ve Spor Bayramı"
+        },
+        {
+         "en": "gave … to young people",
+         "tr": "gençlere verdi / armağan etti"
+        }
+       ]
+      },
+      {
+       "en": "29 October is Republic Day.",
+       "tr": "29 Ekim Cumhuriyet Bayramı.",
+       "why": [
+        "Bayram adı büyük harfle."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Victory Day ne zaman?",
+       "answer": "On 30 August (the thirtieth of August).",
+       "why": "30 Ağustos"
+      },
+      {
+       "question": "Atatürk hangi günü çocuklara armağan etti?",
+       "answer": "23 April.",
+       "why": "Çocuk Bayramı"
+      },
+      {
+       "question": "give'in geçmişi?",
+       "answer": "gave",
+       "why": "düzensiz"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Atatürk give this day to children.",
+       "right": "Atatürk gave this day to children.",
+       "why": "Geçmiş: gave."
+      },
+      {
+       "wrong": "republic day",
+       "right": "Republic Day",
+       "why": "Bayram adları büyük harfle yazılır."
+      }
+     ]
+    },
+    {
+     "id": "td-legacy",
+     "title": "In 1928, Turkey started to use a new alphabet. · The sirens sound at five past nine.",
+     "meaning": "Atatürk'ün yaptıklarını ve 10 Kasım'ı anlatmak",
+     "explanation": [
+      "Atatürk'ün yaptıklarını geçmiş zamanla anlatırız: In 1928, Turkey started to use a new alphabet. Atatürk taught the new letters to people; people called him the Head Teacher (Başöğretmen). In 1934, every family got a surname. In 1934, Turkish women got the right to vote. teach → taught, get → got, call → called.",
+      "“Atatürk” soyadı “Türklerin atası” anlamına gelir: The surname “Atatürk” means “father of the Turks”. Milliyet adları İngilizcede büyük harfle başlar: Turks, Turkish (turks ✗). Atatürk'ün ünlü sözü: “Peace at home, peace in the world.” (Yurtta sulh, cihanda sulh.)",
+      "10 Kasım'da yaptıklarımız her yıl tekrarlandığı için geniş zamanla anlatılır: Every year on 10 November, the sirens sound at five past nine. People stop and stand in silence. Many people visit Anıtkabir in Ankara. people çoğul olduğu için fiil yalın kalır."
+     ],
+     "formula": [
+      "geçmiş: started · taught · got · called",
+      "Turks / Turkish büyük harfle · Peace at home, peace in the world.",
+      "her yıl: The sirens sound … People stand in silence."
+     ],
+     "examples": [
+      {
+       "en": "Atatürk taught the new letters to people. People called him the Head Teacher.",
+       "tr": "Atatürk yeni harfleri halka öğretti. Halk ona Başöğretmen dedi.",
+       "why": [
+        "teach → taught; call → called."
+       ]
+      },
+      {
+       "en": "In 1934, Turkish women got the right to vote.",
+       "tr": "1934'te Türk kadınları seçme hakkı kazandı.",
+       "why": [
+        "get → got; the right to vote = seçme hakkı."
+       ]
+      },
+      {
+       "en": "Every year on 10 November, the sirens sound at five past nine. People stop and stand in silence.",
+       "tr": "Her yıl 10 Kasım'da sirenler dokuzu beş geçe çalar. İnsanlar durur ve saygı duruşunda bulunur.",
+       "why": [
+        "Her yıl → geniş zaman."
+       ],
+       "chunks": [
+        {
+         "en": "the sirens sound",
+         "tr": "sirenler çalar"
+        },
+        {
+         "en": "stand in silence",
+         "tr": "saygı duruşunda bulunmak"
+        }
+       ]
+      },
+      {
+       "en": "He said, “Peace at home, peace in the world.”",
+       "tr": "“Yurtta sulh, cihanda sulh.” dedi.",
+       "why": [
+        "say → said; alıntı tırnak içinde."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "teach'in geçmişi?",
+       "answer": "taught",
+       "why": "düzensiz"
+      },
+      {
+       "question": "“Sirenler dokuzu beş geçe çalar.” İngilizcesi?",
+       "answer": "The sirens sound at five past nine.",
+       "why": "geniş zaman"
+      },
+      {
+       "question": "“Yurtta sulh, cihanda sulh.” İngilizcesi?",
+       "answer": "Peace at home, peace in the world.",
+       "why": "ünlü söz"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "In 1928, Turkey start to use a new alphabet.",
+       "right": "In 1928, Turkey started to use a new alphabet.",
+       "why": "Geçmiş: started."
+      },
+      {
+       "wrong": "People stands in silence.",
+       "right": "People stand in silence.",
+       "why": "people çoğul → -s yok."
       }
      ]
     }
@@ -2233,6 +2639,120 @@
     }
    ],
    "commonMistake": "Anıtkabir is in Istanbul yanlıştır; Anıtkabir Ankara'dadır."
+  },
+  {
+   "id": "was-were-went",
+   "term": "was · were · went · became",
+   "meaning": "idi · idiler · gitti · oldu",
+   "partOfSpeech": "geçmiş zaman",
+   "sourceTerms": [
+    "was · were · went · became"
+   ],
+   "explanation": [
+    "Geçmişi anlatan biçimler. be → was (tekil) / were (çoğul); go → went; become → became. Düzenli fiiller -ed alır: started, opened, died. Atatürk'ün hayatını anlatırken bu kalıplar kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "was born",
+     "tr": "doğdu"
+    },
+    {
+     "en": "won the victory",
+     "tr": "zaferi kazandı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "He was a commander at Çanakkale.",
+     "tr": "Çanakkale'de komutandı."
+    },
+    {
+     "en": "His parents were Zübeyde Hanım and Ali Rıza Efendi.",
+     "tr": "Anne babası Zübeyde Hanım ve Ali Rıza Efendi idi.",
+     "note": "were"
+    },
+    {
+     "en": "He went to Samsun in 1919.",
+     "tr": "1919'da Samsun'a çıktı.",
+     "note": "went"
+    }
+   ],
+   "commonMistake": "His parents was yerine His parents were denir."
+  },
+  {
+   "id": "national-days",
+   "term": "23 April · 19 May · 30 August",
+   "meaning": "23 Nisan · 19 Mayıs · 30 Ağustos",
+   "partOfSpeech": "tarih ve bayram",
+   "sourceTerms": [
+    "23 April · 19 May · 30 August"
+   ],
+   "explanation": [
+    "Atatürk'ün hayatına bağlı millî bayramlar. Tarihte gün sıra sayısıyla okunur: the twenty-third of April, the nineteenth of May, the thirtieth of August. Gün olduğu için on: on 23 April."
+   ],
+   "collocations": [
+    {
+     "en": "Children's Day",
+     "tr": "Çocuk Bayramı"
+    },
+    {
+     "en": "Victory Day",
+     "tr": "Zafer Bayramı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "23 April is National Sovereignty and Children's Day.",
+     "tr": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı'dır."
+    },
+    {
+     "en": "19 May is Youth and Sports Day.",
+     "tr": "19 Mayıs Gençlik ve Spor Bayramı'dır."
+    },
+    {
+     "en": "Victory Day is on the thirtieth of August.",
+     "tr": "Zafer Bayramı 30 Ağustos'tadır.",
+     "note": "thirtieth"
+    }
+   ],
+   "commonMistake": "the twenty-three of April yerine the twenty-third of April denir."
+  },
+  {
+   "id": "peace-at-home",
+   "term": "Peace at home, peace in the world.",
+   "meaning": "Yurtta sulh, cihanda sulh.",
+   "partOfSpeech": "ünlü söz",
+   "sourceTerms": [
+    "Peace at home, peace in the world."
+   ],
+   "explanation": [
+    "Atatürk'ün en bilinen sözlerinden biri; barışın önce yurtta, sonra bütün dünyada olması gerektiğini anlatır. peace = barış, at home = yurtta (evde), in the world = dünyada."
+   ],
+   "collocations": [
+    {
+     "en": "peace",
+     "tr": "barış"
+    },
+    {
+     "en": "in the world",
+     "tr": "dünyada"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Atatürk said, “Peace at home, peace in the world.”",
+     "tr": "Atatürk “Yurtta sulh, cihanda sulh.” dedi."
+    },
+    {
+     "en": "We want peace in the world.",
+     "tr": "Dünyada barış istiyoruz."
+    },
+    {
+     "en": "Peace is very important.",
+     "tr": "Barış çok önemlidir."
+    }
+   ],
+   "commonMistake": "Alıntı tırnak içinde yazılır ve said ile verilir: Atatürk said, “…”."
   }
  ]
 }
