@@ -1,0 +1,3357 @@
+{
+ "version": 1,
+ "block": 1,
+ "chapters": [
+  {
+   "screenId": "warm",
+   "title": "Isınma: saat ve günlük işleri hatırlamak",
+   "intro": [
+    "Geçen derste saati sormayı (What time is it?) ve günlük işlerimizi saatleriyle anlatmayı öğrendik. Bu dersin ilk konusu da günlük işler olduğu için ısınmayı aynı sorularla yapıyoruz. Bilgiyi tekrar etmek, yeni konuya sağlam bir temel kurar.",
+    "Isınmada iki şeye dikkat ediyoruz: saatten önce at (at seven) ve başkasından söz ederken fiile -s eklemek (My son gets up at eight). Bu iki kural bu derste de sürekli karşımıza çıkacak."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "What time do you get up?",
+     "tr": "Saat kaçta kalkarsın?",
+     "why": [
+      "What time saat sorar; do yardımcı fiil; get up yalın fiil."
+     ]
+    },
+    {
+     "en": "It's half past nine.",
+     "tr": "Saat dokuz buçuk.",
+     "why": [
+      "Saat cümleleri It's ile başlar; half past = buçuk."
+     ]
+    },
+    {
+     "en": "What time does your husband / wife get up? — He gets up at six. / She gets up at six.",
+     "tr": "Eşin saat kaçta kalkar? — Altıda kalkar.",
+     "why": [
+      "Soruda does (he / she için); cevapta gets (-s)."
+     ]
+    },
+    {
+     "en": "My son gets up at eight.",
+     "tr": "Oğlum sekizde kalkar.",
+     "why": [
+      "my son = he → gets."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "wm-time-routine",
+     "title": "What time do you get up? — I get up at seven.",
+     "meaning": "Günlük işin saatini sormak ve söylemek",
+     "explanation": [
+      "Bir işin saatini sormak için What time + do you + fiil? kalıbını kullanırız: What time do you get up? What time do you have lunch? Cevapta at + saat gelir: I get up at seven. I have lunch at half past twelve. Kısa cevap da olur: At seven.",
+      "Saat söylerken geçen dersteki kalıplar geçerlidir: o'clock (tam), half past (buçuk), quarter past (çeyrek geçe), quarter to (çeyrek kala). 7:30 = half past seven, 8:45 = quarter to nine. Ya da sayılarla: seven thirty, eight forty-five.",
+      "Başkasının gününden söz ederken fiil -s alır: My husband gets up at six. She has breakfast at seven. Bu kural bugünkü dersin dördüncü adımında ayrıntılı tekrar edilecek."
+     ],
+     "formula": [
+      "What time + do you + fiil? → I + fiil + at + saat.",
+      "What time + does he / she + fiil? → He / She + fiil-s + at + saat.",
+      "7:30 half past seven · 8:45 quarter to nine"
+     ],
+     "examples": [
+      {
+       "en": "What time do you get up? — I get up at seven o'clock.",
+       "tr": "Saat kaçta kalkarsın? — Saat yedide kalkarım.",
+       "why": [
+        "Soru do ile; cevapta at + saat."
+       ],
+       "chunks": [
+        {
+         "en": "What time",
+         "tr": "saat kaçta"
+        },
+        {
+         "en": "get up",
+         "tr": "kalkmak"
+        },
+        {
+         "en": "at seven o'clock",
+         "tr": "saat yedide"
+        }
+       ]
+      },
+      {
+       "en": "It's half past nine.",
+       "tr": "Saat dokuz buçuk.",
+       "why": [
+        "half past = buçuk; saat kalıbı It's ile başlar."
+       ]
+      },
+      {
+       "en": "My son gets up at eight on Saturdays.",
+       "tr": "Oğlum cumartesileri sekizde kalkar.",
+       "why": [
+        "he → gets; günlerle on."
+       ]
+      },
+      {
+       "en": "What do you do in the evening? — I cook dinner and watch TV.",
+       "tr": "Akşam ne yaparsın? — Yemek pişirir ve televizyon izlerim.",
+       "why": [
+        "Akşam işlerini and ile sıralıyoruz."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "8:45'i iki şekilde söyleyin.",
+       "answer": "quarter to nine · eight forty-five",
+       "why": "quarter to = çeyrek kala"
+      },
+      {
+       "question": "“Saat kaçta yatarsın?” nasıl sorulur?",
+       "answer": "What time do you go to bed?",
+       "why": "What time + do you + fiil"
+      },
+      {
+       "question": "My mother (get up) at six.",
+       "answer": "My mother gets up at six.",
+       "why": "she → -s"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I get up seven o'clock.",
+       "right": "I get up at seven o'clock.",
+       "why": "Saatten önce at gelir."
+      },
+      {
+       "wrong": "It's seven half.",
+       "right": "It's half past seven.",
+       "why": "Buçuk half past ile söylenir."
+      }
+     ]
+    },
+    {
+     "id": "wm-plan",
+     "title": "Üç günün planı: günüm, ailem, mesleğim, this ve that",
+     "meaning": "Dersin yol haritasını bilmek",
+     "explanation": [
+      "Bu ders üç güne yayılıyor. 8 Kasım'da günümüzü resimlerle sıraya koyuyor, fiil + kelime eşlerini, fiil çekimini, have got ile sahip olmayı, my / his / her gibi sahiplik sıfatlarını ve aile kelimelerini öğreniyoruz. 14 Kasım'da 's ile sahiplik, soru kelimeleri ve meslekler geliyor. Üçüncü derste hayalimizdeki mesleği, nesneleri, this / that / these / those'u ve Atatürk'ün hayatını çalışıyoruz.",
+      "Her konunun başında bu rehberde kısa bir özet, ayrıntılı açıklama, örnekler, sık hatalar ve kendini dene soruları var. Derste ekranda çok sayıda alıştırma çözeceğiz; anlamadığınız bir yer olursa bu rehbere dönün.",
+      "Konular birbirine bağlı: aile kelimeleri sahiplik sıfatlarını (my mother, his wife), meslekler soru kelimelerini (What do you do? Where do you work?), nesneler de işaret sözcüklerini (What's this?) kullanır. Bu yüzden sırayla ilerlemek önemlidir."
+     ],
+     "formula": [
+      "8 Kasım: günüm · fiil + kelime · fiil çekimi · have got · my, his, her · aile",
+      "14 Kasım: 's · Who, What, Where, When, How · meslekler",
+      "Sonraki ders: hayalimdeki meslek · nesneler · this, that · Atatürk"
+     ],
+     "examples": [
+      {
+       "en": "I've got a big family.",
+       "tr": "Kalabalık bir ailem var.",
+       "why": [
+        "have got sahiplik bildirir; bugünün konularından biri."
+       ]
+      },
+      {
+       "en": "What do you do? — I'm a nurse.",
+       "tr": "Ne iş yapıyorsun? — Hemşireyim.",
+       "why": [
+        "Meslek sorusu; 14 Kasım'ın konusu."
+       ]
+      },
+      {
+       "en": "This is my phone. Those are my keys.",
+       "tr": "Bu benim telefonum. Şunlar benim anahtarlarım.",
+       "why": [
+        "İşaret sözcükleri; üçüncü dersin konusu."
+       ]
+      },
+      {
+       "en": "Atatürk was born in 1881.",
+       "tr": "Atatürk 1881'de doğdu.",
+       "why": [
+        "Atatürk'ün hayatı; 10 Kasım'a bağlı konu."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Bu ders kaç güne yayılıyor?",
+       "answer": "Üç güne: 8 Kasım, 14 Kasım ve sonraki ders.",
+       "why": "Dersin planı."
+      },
+      {
+       "question": "Meslekler hangi gün işleniyor?",
+       "answer": "14 Kasım (ve sonraki derste yazma ve hayal meslek).",
+       "why": "Plan."
+      },
+      {
+       "question": "this ve that hangi derste?",
+       "answer": "Üçüncü derste.",
+       "why": "Plan."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Konuları atlayarak çalışmak.",
+       "right": "Sırayla çalışmak: aile → sahiplik → sorular → meslekler.",
+       "why": "Konular birbirine bağlı."
+      },
+      {
+       "wrong": "Sadece kelime listesini okumak.",
+       "right": "Ekrandaki alıştırmaları çözmek ve rehberdeki örnekleri sesli okumak.",
+       "why": "Kullanmadan öğrenme kalıcı olmaz."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "routine-pictures",
+   "title": "Resimleri sıraya koymak ve günü anlatan bir metin yazmak",
+   "intro": [
+    "MEB kazanımı: günlük faaliyetleri içeren bir dizi resmi sıraya koyar ve metin oluşturur. Bir günü anlatmak bir film şeridi gibidir. Önce resimleri mantıklı bir sıraya koyarız: uyanmak kalkmaktan, duş almak kahvaltıdan önce gelir. Sonra her resme bir cümle yazarız ve cümleleri sıra kelimeleriyle bağlarız.",
+    "Bu ekranda sıra kelimelerini öğreniyoruz: First (önce), Then (sonra), After that (ondan sonra), Finally (en sonunda). Ayrıca günün bölümlerini: in the morning, in the afternoon, in the evening, at night. Resimler, cümleler ve bağlayıcılar bir araya gelince düzenli bir metin ortaya çıkar."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "First, I get up at seven.",
+     "tr": "Önce saat yedide kalkarım.",
+     "why": [
+      "First, ilk işi gösterir ve ardından virgül gelir; at + saat."
+     ]
+    },
+    {
+     "en": "Then I have a shower.",
+     "tr": "Sonra duş alırım.",
+     "why": [
+      "Then ikinci işi gösterir; have a shower kalıbında a vardır."
+     ]
+    },
+    {
+     "en": "After that, I have breakfast.",
+     "tr": "Ondan sonra kahvaltı yaparım.",
+     "why": [
+      "After that ortadaki iş; have breakfast'ta a yoktur."
+     ]
+    },
+    {
+     "en": "Finally, I go to bed at eleven.",
+     "tr": "En sonunda on birde yatarım.",
+     "why": [
+      "Finally son iş; go to bed kalıbında the yoktur."
+     ]
+    },
+    {
+     "en": "After dinner, the family watches a film or listens to music.",
+     "tr": "Akşam yemeğinden sonra aile film izler ya da müzik dinler.",
+     "why": [
+      "the family tek bir grup (it) → watches, listens. after + isim."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "rp-order",
+     "title": "wake up → get up → have a shower → have breakfast",
+     "meaning": "Günlük işleri zaman sırasına koymak",
+     "explanation": [
+      "Resimleri sıraya koyarken önce günün bölümüne bakın: sabah işleri (wake up, get up, pray, have a shower, get dressed, have breakfast), gün içi işleri (go to work, have lunch, go shopping), akşam işleri (come home, cook dinner, have dinner, watch a film) ve gece (go to bed).",
+      "Bazı işlerin sırası mantıktan bellidir: wake up (uyanmak) her zaman get up'tan (kalkmak) önce gelir; cook dinner (yemeği pişirmek) have dinner'dan (yemek) önce gelir. Bazılarının sırası kişiden kişiye değişir: biri kahvaltıdan önce duş alır, biri sonra. Bu durumda kendi gününüzü düşünün.",
+      "Saatler sıralamayı kolaylaştırır: 06:30 wake up, 07:30 have breakfast, 08:15 go to work. Ekrandaki gün şeridinde her resmin bir saati var; sıralama alıştırmasında bu saatleri hatırlayabilirsiniz."
+     ],
+     "formula": [
+      "sabah: wake up → get up → (pray) → have a shower → get dressed → have breakfast",
+      "gün içi: go to work → have lunch → go shopping",
+      "akşam ve gece: come home → cook dinner → have dinner → watch a film → go to bed"
+     ],
+     "examples": [
+      {
+       "en": "I wake up at half past six and I get up at twenty-five to seven.",
+       "tr": "Altı buçukta uyanır, yediye yirmi beş kala kalkarım.",
+       "why": [
+        "wake up ve get up farklı anlardır."
+       ]
+      },
+      {
+       "en": "I have a shower, get dressed and have breakfast.",
+       "tr": "Duş alırım, giyinirim ve kahvaltı yaparım.",
+       "why": [
+        "Aynı özneyle üç iş: virgül ve and."
+       ]
+      },
+      {
+       "en": "I come home at six, cook dinner and have dinner at seven.",
+       "tr": "Altıda eve gelir, yemek pişirir ve yedide akşam yemeği yerim.",
+       "why": [
+        "Akşam işleri mantıklı sırada."
+       ],
+       "chunks": [
+        {
+         "en": "come home",
+         "tr": "eve gelmek",
+         "note": "to yok"
+        },
+        {
+         "en": "cook dinner",
+         "tr": "yemek pişirmek"
+        },
+        {
+         "en": "have dinner",
+         "tr": "akşam yemeği yemek"
+        }
+       ]
+      },
+      {
+       "en": "At night, I go to bed at eleven.",
+       "tr": "Gece on birde yatarım.",
+       "why": [
+        "at night: günün son bölümü."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "wake up mı önce, get up mı?",
+       "answer": "wake up (önce uyanırız, sonra kalkarız).",
+       "why": "Mantık sırası."
+      },
+      {
+       "question": "cook dinner ile have dinner'ın sırası?",
+       "answer": "Önce cook dinner, sonra have dinner.",
+       "why": "Önce pişirilir, sonra yenir."
+      },
+      {
+       "question": "go to bed günün hangi bölümünde?",
+       "answer": "Gece (at night).",
+       "why": "Son iş."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I go to home at six.",
+       "right": "I go home / come home at six.",
+       "why": "home ile to kullanılmaz."
+      },
+      {
+       "wrong": "I have a breakfast.",
+       "right": "I have breakfast.",
+       "why": "Öğünlerde a yok."
+      }
+     ]
+    },
+    {
+     "id": "rp-sequence",
+     "title": "First, … Then … After that, … Finally, …",
+     "meaning": "Sıra kelimeleriyle cümleleri bağlamak",
+     "explanation": [
+      "Sıra kelimeleri metne bir iskelet verir. First (önce) ilk işi, Then (sonra) ve After that (ondan sonra) ortadaki işleri, Finally (en sonunda) son işi gösterir. First, After that ve Finally'den sonra genellikle virgül konur; Then'den sonra virgül şart değildir.",
+      "Her cümlede bir iş anlatmak okuyucunun takip etmesini kolaylaştırır: First, I get up. Then I pray. After that, I have breakfast. Finally, I go to work. İki işi and ile de birleştirebilirsiniz: Then I have a shower and get dressed.",
+      "Uzun bir metinde sıra kelimelerini günün bölümleriyle birlikte kullanın: In the morning, first I … Then … In the evening, … Finally, at eleven o'clock, I go to bed. Böylece metin hem sıralı hem de zamanı belli olur."
+     ],
+     "formula": [
+      "First, + ilk iş",
+      "Then / After that, + ortadaki işler",
+      "Finally, + son iş · In the morning / evening, …"
+     ],
+     "examples": [
+      {
+       "en": "First, I get up. Then I pray. After that, I have breakfast.",
+       "tr": "Önce kalkarım. Sonra namaz kılarım. Ondan sonra kahvaltı yaparım.",
+       "why": [
+        "Üç cümle, üç sıra kelimesi."
+       ],
+       "chunks": [
+        {
+         "en": "First,",
+         "tr": "önce",
+         "note": "virgül"
+        },
+        {
+         "en": "Then",
+         "tr": "sonra"
+        },
+        {
+         "en": "After that,",
+         "tr": "ondan sonra",
+         "note": "virgül"
+        }
+       ]
+      },
+      {
+       "en": "Finally, I go to bed at eleven.",
+       "tr": "En sonunda on birde yatarım.",
+       "why": [
+        "Finally son işi gösterir."
+       ]
+      },
+      {
+       "en": "In the evening, I cook dinner. Then we watch a film together.",
+       "tr": "Akşam yemek pişiririm. Sonra birlikte film izleriz.",
+       "why": [
+        "Günün bölümü + sıra kelimesi."
+       ]
+      },
+      {
+       "en": "First, she wakes up at six. Then she prays and has a shower.",
+       "tr": "Önce altıda uyanır. Sonra namaz kılar ve duş alır.",
+       "why": [
+        "Başkasının günü: -s ve has."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“En sonunda” İngilizcesi?",
+       "answer": "Finally",
+       "why": "Son iş."
+      },
+      {
+       "question": "Hangi sıra kelimelerinden sonra virgül konur?",
+       "answer": "First, After that, Finally (Then'den sonra şart değil).",
+       "why": "Yazım."
+      },
+      {
+       "question": "“Önce kalkarım, sonra duş alırım.” İngilizcesi?",
+       "answer": "First, I get up. Then I have a shower.",
+       "why": "Sıra kelimeleri."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Firstly I get up, finally I have breakfast, finally I go to work.",
+       "right": "First, I get up. Then I have breakfast. Finally, I go to work.",
+       "why": "Finally sadece son iş için bir kez."
+      },
+      {
+       "wrong": "At the end I go to bed.",
+       "right": "Finally, I go to bed.",
+       "why": "Günün son işi için Finally."
+      }
+     ]
+    },
+    {
+     "id": "rp-text",
+     "title": "Selma's day: başkasının gününü okumak ve yazmak",
+     "meaning": "Bir kişinin gününü he / she ile anlatmak",
+     "explanation": [
+      "Resimdeki kişi biz değilsek fiil üçüncü tekil kişiye göre çekimlenir: she wakes up, she prays, she has a shower, she goes to work. Okuma metnindeki Selma'nın günü bu şekilde yazılmıştır. Metni okurken renkli işaretler sıra kelimelerini, saatleri ve fiilleri gösterir.",
+      "Kendi gününüzü yazdıktan sonra aynı metni bir arkadaşınız için he / she ile yeniden yazmak çok iyi bir alıştırmadır: I get up → She gets up, I have → She has, I go → She goes, I watch → She watches. -s, -es ve has değişimlerine dikkat edin.",
+      "Metin yazarken kontrol listesi: sıra kelimesi var mı? Saatlerde at var mı? Günün bölümü var mı? I am get up gibi bir hata var mı? Ekrandaki yazma kutusu bu maddeleri sizin için kontrol eder."
+     ],
+     "formula": [
+      "I get up → She gets up · I have → She has",
+      "I go → She goes · I watch → She watches",
+      "Kontrol: sıra kelimesi · at + saat · günün bölümü"
+     ],
+     "examples": [
+      {
+       "en": "Selma is a nurse. She works at a hospital in Bursa.",
+       "tr": "Selma bir hemşire. Bursa'da bir hastanede çalışıyor.",
+       "why": [
+        "Meslek a ile; works -s alır."
+       ]
+      },
+      {
+       "en": "First, she wakes up at six o'clock. Then she prays and has a shower.",
+       "tr": "Önce saat altıda uyanır. Sonra namaz kılar ve duş alır.",
+       "why": [
+        "wakes, prays, has: üçüncü tekil."
+       ]
+      },
+      {
+       "en": "Her children, Deniz and Ece, do their homework.",
+       "tr": "Çocukları Deniz ve Ece ödevlerini yapar.",
+       "why": [
+        "Çoğul özne (children) → do; their."
+       ]
+      },
+      {
+       "en": "Finally, Selma goes to bed at eleven o'clock.",
+       "tr": "En sonunda Selma saat on birde yatar.",
+       "why": [
+        "goes: -o → -es."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "I have a shower → She …?",
+       "answer": "She has a shower.",
+       "why": "have → has"
+      },
+      {
+       "question": "I go to work → He …?",
+       "answer": "He goes to work.",
+       "why": "-o → -es"
+      },
+      {
+       "question": "Neden “Her children do” (does değil)?",
+       "answer": "children çoğul (they) → do.",
+       "why": "Özne uyumu."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "She have breakfast at seven.",
+       "right": "She has breakfast at seven.",
+       "why": "she → has."
+      },
+      {
+       "wrong": "Selma go to bed at eleven.",
+       "right": "Selma goes to bed at eleven.",
+       "why": "she → goes."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "collocations",
+   "title": "Fiil + kelime eşleri: watch a film, listen to music, cook dinner, pray",
+   "intro": [
+    "MEB kazanımı: birlikte kullanılması gereken kelimelerle fiilleri doğru eşleştirir; örnekler film izlemek, müzik dinlemek, yemek yapmak ve namaz kılmaktır. Her dilde bazı fiiller belli kelimelerle birlikte kullanılır. Türkçede “ödev yapmak” deriz ama “yemek yapmak” da deriz; İngilizcede bu ikisi farklı fiillerle söylenir: do homework, cook / make food.",
+    "Bu yüzden bu eşleri tek tek kelime olarak değil, bir bütün olarak öğrenmek gerekir. Bu ekranda dokuz fiil var: watch (izlemek), listen to (dinlemek), read (okumak), cook (pişirmek), make (yapmak, hazırlamak), do (yapmak), play (oynamak), go (gitmek), take (almak, çekmek) ve tek başına pray (namaz kılmak)."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I listen to music in the car.",
+     "tr": "Arabada müzik dinlerim.",
+     "why": [
+      "listen to music: to şarttır; in the car yer bilgisi."
+     ]
+    },
+    {
+     "en": "My mother makes breakfast for the family.",
+     "tr": "Annem aile için kahvaltı hazırlar.",
+     "why": [
+      "make breakfast; she → makes; for the family = aile için."
+     ]
+    },
+    {
+     "en": "My father prays five times a day.",
+     "tr": "Babam günde beş vakit namaz kılar.",
+     "why": [
+      "pray tek başına; five times a day = günde beş kez."
+     ]
+    },
+    {
+     "en": "The boys play football in the park.",
+     "tr": "Çocuklar parkta futbol oynar.",
+     "why": [
+      "play football; çoğul özne → play (-s yok)."
+     ]
+    },
+    {
+     "en": "I take the bus to work.",
+     "tr": "İşe otobüsle giderim.",
+     "why": [
+      "take the bus = otobüse binmek; to work = işe."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "co-watch-listen",
+     "title": "watch a film · listen to music · read a book",
+     "meaning": "Gözle ve kulakla ilgili fiil eşleri",
+     "explanation": [
+      "İzlemek için watch kullanılır: watch a film (film izlemek), watch TV (televizyon izlemek), watch a match (maç izlemek). Türkçeden çevirirken look (bakmak) ya da see (görmek) kullanmak yanlış olur: I look a film yanlıştır.",
+      "Dinlemek için listen to kullanılır ve to kesinlikle düşmez: listen to music, listen to the radio, listen to the teacher. Türkçede “müzik dinlemek”te bir edat olmadığı için Türk öğrenciler sık sık to'yu unutur. listen music yanlıştır.",
+      "Okumak read'dir: read a book (kitap okumak), read the newspaper (gazete okumak), read a message (mesaj okumak). he / she ile watch → watches (-es), listen → listens, read → reads olur."
+     ],
+     "formula": [
+      "watch + a film / TV / a match",
+      "listen to + music / the radio / the teacher (to şart!)",
+      "read + a book / the newspaper"
+     ],
+     "examples": [
+      {
+       "en": "We watch a film on Saturday evenings.",
+       "tr": "Cumartesi akşamları film izleriz.",
+       "why": [
+        "watch a film; günlerle on."
+       ],
+       "chunks": [
+        {
+         "en": "watch a film",
+         "tr": "film izlemek"
+        },
+        {
+         "en": "on Saturday evenings",
+         "tr": "cumartesi akşamları"
+        }
+       ]
+      },
+      {
+       "en": "I listen to music in the car.",
+       "tr": "Arabada müzik dinlerim.",
+       "why": [
+        "listen to: to unutulmaz."
+       ]
+      },
+      {
+       "en": "My grandfather reads the newspaper every morning.",
+       "tr": "Dedem her sabah gazete okur.",
+       "why": [
+        "he → reads."
+       ]
+      },
+      {
+       "en": "She watches TV after dinner.",
+       "tr": "Akşam yemeğinden sonra televizyon izler.",
+       "why": [
+        "watch → watches (-ch → -es)."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Radyo dinlerim.” İngilizcesi?",
+       "answer": "I listen to the radio.",
+       "why": "listen to"
+      },
+      {
+       "question": "I look a film cümlesini düzeltin.",
+       "answer": "I watch a film.",
+       "why": "izlemek = watch"
+      },
+      {
+       "question": "He (watch) TV.",
+       "answer": "He watches TV.",
+       "why": "-ch → -es"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I listen music.",
+       "right": "I listen to music.",
+       "why": "listen'dan sonra to gelir."
+      },
+      {
+       "wrong": "I see a film every week.",
+       "right": "I watch a film every week.",
+       "why": "Film izlemek watch ile söylenir (sinemada see a film da olur)."
+      }
+     ]
+    },
+    {
+     "id": "co-do-make-cook",
+     "title": "cook dinner · make breakfast · do homework · do the housework",
+     "meaning": "“Yapmak” fiilinin İngilizcedeki karşılıkları",
+     "explanation": [
+      "Türkçedeki “yapmak” fiili İngilizcede birkaç farklı fiille karşılanır. Yemek pişirmek cook'tur: cook dinner, cook rice. Yiyecek ya da içecek hazırlamak make'tir: make breakfast (kahvaltı hazırlamak), make tea (çay demlemek), make a cake (kek yapmak).",
+      "İş ve görevler için do kullanılır: do homework (ödev yapmak), do the housework (ev işi yapmak), do the washing (çamaşır yıkamak), do the shopping (alışveriş yapmak). I make homework demek yanlıştır.",
+      "Kazanımdaki “yemek yapmak” bu yüzden cook dinner / cook food ya da make dinner olarak söylenebilir; ikisi de doğrudur. “Namaz kılmak” ise tek bir fiildir: pray. Önüne make ya da do gelmez: I pray five times a day."
+     ],
+     "formula": [
+      "cook + yemek: cook dinner, cook rice",
+      "make + hazırlanan yiyecek / içecek: make breakfast, make tea",
+      "do + iş / görev: do homework, do the housework · pray (tek başına)"
+     ],
+     "examples": [
+      {
+       "en": "My mother cooks dinner every day.",
+       "tr": "Annem her gün akşam yemeği pişirir.",
+       "why": [
+        "cook dinner; she → cooks."
+       ]
+      },
+      {
+       "en": "I make breakfast for my family and my husband makes tea.",
+       "tr": "Ailem için kahvaltı hazırlarım, eşim de çay demler.",
+       "why": [
+        "make: yiyecek ve içecek hazırlamak."
+       ],
+       "chunks": [
+        {
+         "en": "make breakfast",
+         "tr": "kahvaltı hazırlamak"
+        },
+        {
+         "en": "make tea",
+         "tr": "çay demlemek"
+        }
+       ]
+      },
+      {
+       "en": "The children do their homework after school.",
+       "tr": "Çocuklar okuldan sonra ödevlerini yapar.",
+       "why": [
+        "do homework; their = onların."
+       ]
+      },
+      {
+       "en": "My father prays five times a day.",
+       "tr": "Babam günde beş vakit namaz kılar.",
+       "why": [
+        "pray tek başına; he → prays."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Ev işi yaparım.” İngilizcesi?",
+       "answer": "I do the housework.",
+       "why": "do"
+      },
+      {
+       "question": "“Çay demlerim.” İngilizcesi?",
+       "answer": "I make tea.",
+       "why": "make"
+      },
+      {
+       "question": "I make pray cümlesini düzeltin.",
+       "answer": "I pray.",
+       "why": "pray tek başına."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I make homework.",
+       "right": "I do homework.",
+       "why": "Ödev do ile."
+      },
+      {
+       "wrong": "She does breakfast.",
+       "right": "She makes breakfast.",
+       "why": "Kahvaltı hazırlamak make ile."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "do / make",
+       "explanation": [
+        "do genellikle bir işi, görevi yapmayı; make bir şeyi üretmeyi, hazırlamayı anlatır."
+       ],
+       "example": "I do the housework and I make dinner.",
+       "tr": [
+        "Ev işlerini yaparım ve akşam yemeğini hazırlarım."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "co-play-go-take",
+     "title": "play football · go shopping · go for a walk · take a photo · take the bus",
+     "meaning": "Hareket ve dışarıyla ilgili fiil eşleri",
+     "explanation": [
+      "Oyun ve sporlarla play kullanılır: play football (futbol oynamak), play chess (satranç oynamak), play with the children (çocuklarla oynamak). Sporun adından önce the gelmez: play football (play the football ✗).",
+      "go + -ing bir etkinliğe gitmeyi anlatır: go shopping (alışverişe gitmek), go swimming (yüzmeye gitmek). go for a walk ise yürüyüşe çıkmaktır. go to + yer ile karıştırmayın: go to the market (pazara gitmek).",
+      "take birçok kalıpta kullanılır: take a photo (fotoğraf çekmek), take the bus (otobüse binmek), take a taxi (taksiye binmek). Türkçedeki “fotoğraf çekmek” kelime kelime pull a photo diye çevrilmez. Ayrıca drink tea (çay içmek), eat fruit (meyve yemek), call my mother (annemi aramak) gibi basit eşler de günlük konuşmada çok kullanılır."
+     ],
+     "formula": [
+      "play + spor / oyun: play football (the yok)",
+      "go + -ing: go shopping · go for a walk · go to + yer",
+      "take a photo · take the bus / a taxi"
+     ],
+     "examples": [
+      {
+       "en": "My son plays football on Sundays.",
+       "tr": "Oğlum pazar günleri futbol oynar.",
+       "why": [
+        "play football; he → plays."
+       ]
+      },
+      {
+       "en": "On Saturdays, we go shopping and then we go for a walk.",
+       "tr": "Cumartesileri alışverişe gideriz, sonra yürüyüşe çıkarız.",
+       "why": [
+        "go shopping ve go for a walk."
+       ],
+       "chunks": [
+        {
+         "en": "go shopping",
+         "tr": "alışverişe gitmek"
+        },
+        {
+         "en": "go for a walk",
+         "tr": "yürüyüşe çıkmak"
+        }
+       ]
+      },
+      {
+       "en": "I take the bus to work.",
+       "tr": "İşe otobüsle giderim.",
+       "why": [
+        "take the bus = otobüse binmek."
+       ]
+      },
+      {
+       "en": "She takes a lot of photos of her grandchildren.",
+       "tr": "Torunlarının çok fotoğrafını çeker.",
+       "why": [
+        "take a photo; she → takes."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Satranç oynarım.” İngilizcesi?",
+       "answer": "I play chess.",
+       "why": "play + oyun"
+      },
+      {
+       "question": "“Yürüyüşe çıkarız.” İngilizcesi?",
+       "answer": "We go for a walk.",
+       "why": "go for a walk"
+      },
+      {
+       "question": "I pull a photo cümlesini düzeltin.",
+       "answer": "I take a photo.",
+       "why": "take a photo"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I play the football.",
+       "right": "I play football.",
+       "why": "Spor adından önce the yok."
+      },
+      {
+       "wrong": "We go to shopping.",
+       "right": "We go shopping.",
+       "why": "go + -ing kalıbında to yok."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "verb-forms",
+   "title": "Fiil çekimi: boşluklu metni zamana ve şahsa göre tamamlamak",
+   "intro": [
+    "MEB kazanımı: verilen bir metne ilişkin boşluk doldurmalı cümleleri fiil çekimini uygun zaman ve şahsa göre doğru kullanarak tamamlar. Boşluk doldururken iki soru sorarız: Kim? (Özne kim?) ve Ne zaman? (Her gün mü, şu an mı?). Bu dersin metinleri günlük işleri anlattığı için çoğunlukla geniş zaman (present simple) kullanıyoruz.",
+    "Geniş zamanda I, you, we, they ile fiil yalın, he, she, it ile fiil -s / -es alır. Olumsuzda don't / doesn't, soruda Do / Does kullanılır ve fiil yalın kalır. Ayrıca be fiilini (am, is, are) eylem fiilleriyle karıştırmamak gerekir: I am a nurse ama I work in a hospital."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "On Sundays, my family gets up late.",
+     "tr": "Pazar günleri ailem geç kalkar.",
+     "why": [
+      "my family tek bir grup → gets up. On Sundays = pazar günleri."
+     ]
+    },
+    {
+     "en": "My husband makes breakfast and I make tea.",
+     "tr": "Eşim kahvaltıyı hazırlar, ben de çay demlerim.",
+     "why": [
+      "he → makes; I → make."
+     ]
+    },
+    {
+     "en": "My daughter doesn't play football; she reads a book.",
+     "tr": "Kızım futbol oynamaz; kitap okur.",
+     "why": [
+      "doesn't + play (yalın); reads -s alır."
+     ]
+    },
+    {
+     "en": "We don't come home late because the children go to school on Monday.",
+     "tr": "Eve geç gelmeyiz çünkü çocuklar pazartesi okula gidiyor.",
+     "why": [
+      "we → don't come; children → go (çoğul)."
+     ]
+    },
+    {
+     "en": "Our daughter studies at university.",
+     "tr": "Kızımız üniversitede okuyor.",
+     "why": [
+      "study → studies: sessiz harf + y → -ies."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "vf-subject",
+     "title": "I work · she works · they work",
+     "meaning": "Özneye göre doğru fiil biçimini seçmek",
+     "explanation": [
+      "Boşluktan önceki kelimeye bakın ve onu bir zamire çevirin: My father = he, My parents = they, Our son = he, The children = they, My family = it. Sonra kuralı uygulayın: I, you, we, they → yalın fiil; he, she, it → fiil + s.",
+      "Yazım kuralları: çoğu fiil -s alır (works, reads, cooks, prays). -ch, -sh, -s, -x, -o ile bitenler -es alır (watches, washes, goes, does). Sessiz harf + y ile bitenlerde y düşer, -ies gelir (study → studies). Sesli harf + y ile bitenler sadece -s alır (pray → prays, play → plays). have düzensizdir: has.",
+      "Metinde aynı kişi için birden fazla fiil varsa hepsi -s alır: She gets up, has a shower and goes to work. Ama çoğul özneyle hiçbiri -s almaz: They get up, have a shower and go to work."
+     ],
+     "formula": [
+      "My father / My mother / Our son = he / she → fiil + s",
+      "My parents / The children = they → yalın fiil",
+      "-es: watches, goes, does · -ies: studies · prays, plays · has"
+     ],
+     "examples": [
+      {
+       "en": "My husband works in a factory. He gets up at five o'clock.",
+       "tr": "Eşim bir fabrikada çalışır. Saat beşte kalkar.",
+       "why": [
+        "my husband = he → works, gets up."
+       ],
+       "chunks": [
+        {
+         "en": "works",
+         "tr": "çalışır",
+         "note": "+s"
+        },
+        {
+         "en": "gets up",
+         "tr": "kalkar",
+         "note": "+s"
+        }
+       ]
+      },
+      {
+       "en": "Our daughter studies at university.",
+       "tr": "Kızımız üniversitede okuyor.",
+       "why": [
+        "study → studies (-y → -ies)."
+       ]
+      },
+      {
+       "en": "My parents live in a village.",
+       "tr": "Annem ve babam bir köyde yaşar.",
+       "why": [
+        "parents = they → live (-s yok)."
+       ]
+      },
+      {
+       "en": "My grandmother prays five times a day.",
+       "tr": "Babaannem günde beş vakit namaz kılar.",
+       "why": [
+        "pray → prays (sesli harf + y → s)."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Our son ___ (go) to school by bus.",
+       "answer": "goes",
+       "why": "-o → -es"
+      },
+      {
+       "question": "The children ___ (watch) cartoons.",
+       "answer": "watch",
+       "why": "Çoğul → yalın"
+      },
+      {
+       "question": "She ___ (study) English.",
+       "answer": "studies",
+       "why": "-y → -ies"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "My mother work in a hospital.",
+       "right": "My mother works in a hospital.",
+       "why": "she → -s."
+      },
+      {
+       "wrong": "My parents lives in İnegöl.",
+       "right": "My parents live in İnegöl.",
+       "why": "Çoğul özne → -s yok."
+      }
+     ]
+    },
+    {
+     "id": "vf-neg-question",
+     "title": "I don't · she doesn't · Do you …? · Does she …?",
+     "meaning": "Olumsuz ve soru boşluklarını doldurmak",
+     "explanation": [
+      "Boşlukta (not) yazıyorsa olumsuz cümle kurulur: I / you / we / they ile don't, he / she / it ile doesn't. Olumsuzda -s, doesn't'a geçer ve fiil yalın kalır: He doesn't drink tea (drinks ✗). Uzun biçimler do not ve does not yazıda da kullanılır.",
+      "Soru cümlesinde Do / Does başa gelir: Do you work on Saturdays? Does your sister live in Bursa? Soruda da fiil yalındır: Does she live (lives ✗). Kısa cevaplar: Yes, I do. / No, I don't. · Yes, she does. / No, she doesn't.",
+      "Soru kelimesiyle: Where do you live? What time does he get up? Sıra: soru kelimesi + do / does + özne + yalın fiil."
+     ],
+     "formula": [
+      "olumsuz: don't / doesn't + yalın fiil",
+      "soru: Do / Does + özne + yalın fiil?",
+      "kısa cevap: Yes, I do. / No, she doesn't."
+     ],
+     "examples": [
+      {
+       "en": "I don't work. I'm a housewife.",
+       "tr": "Çalışmıyorum. Ev hanımıyım.",
+       "why": [
+        "I → don't; ikinci cümle be ile."
+       ]
+      },
+      {
+       "en": "My husband doesn't drink tea in the evening.",
+       "tr": "Eşim akşamları çay içmez.",
+       "why": [
+        "he → doesn't + drink (yalın)."
+       ],
+       "chunks": [
+        {
+         "en": "doesn't drink",
+         "tr": "içmez",
+         "note": "-s yok"
+        },
+        {
+         "en": "in the evening",
+         "tr": "akşamları"
+        }
+       ]
+      },
+      {
+       "en": "Does your sister work in a bank? — Yes, she does.",
+       "tr": "Kız kardeşin bankada mı çalışıyor? — Evet.",
+       "why": [
+        "Does + work (yalın); kısa cevap does."
+       ]
+      },
+      {
+       "en": "Do your children like fish? — No, they don't.",
+       "tr": "Çocukların balık sever mi? — Hayır.",
+       "why": [
+        "Çoğul → Do; kısa cevap don't."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "He ___ (not / like) coffee.",
+       "answer": "doesn't like",
+       "why": "doesn't + yalın"
+      },
+      {
+       "question": "___ your parents live in Bursa?",
+       "answer": "Do",
+       "why": "Çoğul → Do"
+      },
+      {
+       "question": "Does she has a car? cümlesini düzeltin.",
+       "answer": "Does she have a car?",
+       "why": "Does + yalın (have)"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "She doesn't works on Sundays.",
+       "right": "She doesn't work on Sundays.",
+       "why": "doesn't'tan sonra fiil yalın."
+      },
+      {
+       "wrong": "He don't drink coffee.",
+       "right": "He doesn't drink coffee.",
+       "why": "he → doesn't."
+      }
+     ]
+    },
+    {
+     "id": "vf-be-or-verb",
+     "title": "I am a nurse. · I work in a hospital.",
+     "meaning": "be fiili ile eylem fiilini ayırt etmek",
+     "explanation": [
+      "Boşluk doldururken en sık yapılan hatalardan biri am / is / are'ı eylem fiilleriyle birlikte kullanmaktır: I am work, She is go. Türkçede “çalışıyorum” gibi biçimler bu hataya yol açar. Kural basit: cümlede bir eylem fiili (work, go, get up, cook) varsa geniş zamanda be kullanılmaz.",
+      "be fiili meslek, yer, yaş, duygu ve özellik bildirir: I am a nurse. She is at home. He is forty. They are tired. Bu cümlelerde başka bir fiil yoktur. Olumsuzu not ile yapılır: I'm not a teacher. She isn't at home.",
+      "Bir metinde ikisi yan yana gelebilir: My name is Ayşegül. I live in Osmangazi. I don't work. I'm a housewife. Boşluk doldururken cümlenin bir eylem mi yoksa bir durum mu anlattığına bakın."
+     ],
+     "formula": [
+      "be: meslek, yer, yaş, duygu → I am a nurse. She is at home.",
+      "eylem fiili: work, go, cook → I work. She goes.",
+      "I am work ✗ → I work ✓"
+     ],
+     "examples": [
+      {
+       "en": "I am a teacher. I work in a school.",
+       "tr": "Öğretmenim. Bir okulda çalışıyorum.",
+       "why": [
+        "İlk cümle be (meslek), ikinci cümle eylem fiili."
+       ]
+      },
+      {
+       "en": "My mother is at home. She cooks dinner.",
+       "tr": "Annem evde. Akşam yemeği pişiriyor / pişirir.",
+       "why": [
+        "Yer → is; eylem → cooks."
+       ]
+      },
+      {
+       "en": "We are tired. We go to bed early.",
+       "tr": "Yorgunuz. Erken yatarız.",
+       "why": [
+        "Duygu → are; eylem → go."
+       ]
+      },
+      {
+       "en": "My name is Ayşegül. I don't work. I'm a housewife.",
+       "tr": "Adım Ayşegül. Çalışmıyorum. Ev hanımıyım.",
+       "why": [
+        "Metinde be ve eylem fiili yan yana."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "I am get up at seven cümlesini düzeltin.",
+       "answer": "I get up at seven.",
+       "why": "Eylem fiiliyle am kullanılmaz."
+      },
+      {
+       "question": "She ___ a nurse. (be)",
+       "answer": "is",
+       "why": "Meslek → be"
+      },
+      {
+       "question": "He ___ (work) in a bank.",
+       "answer": "works",
+       "why": "Eylem fiili"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "She is work in a bank.",
+       "right": "She works in a bank.",
+       "why": "Eylem fiiliyle is kullanılmaz."
+      },
+      {
+       "wrong": "I nurse.",
+       "right": "I am a nurse.",
+       "why": "Meslek cümlesinde be ve a gerekir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "have-got",
+   "title": "Sahip olmak: have got, has got, Have you got …?",
+   "intro": [
+    "MEB kazanımı: kendisinin veya başkasının sahip olduğu varlıkları söyler, yazar ve konuşulanları anlar. Türkçede sahipliği “var” ile söyleriz: Bir arabam var. İkiz kardeşim var. İngilizcede bunun karşılığı have got'tur: I've got a car. I've got a twin sister. he / she / it ile has got: She's got two sons.",
+    "have got'un kısa biçimleri konuşmada çok yaygındır: I've got, you've got, we've got, they've got, he's got, she's got. Burada she's, she is değil she has'tir; arkasından got gelmesinden anlarız. Olumsuz haven't got / hasn't got, soru Have you got …? / Has she got …? biçimindedir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I'm a taxi driver. I've got a yellow taxi.",
+     "tr": "Taksi şoförüyüm. Sarı bir taksim var.",
+     "why": [
+      "I'm = I am (meslek); I've got = I have got (sahiplik)."
+     ]
+    },
+    {
+     "en": "My wife, Aylin, is a teacher. She hasn't got a car.",
+     "tr": "Eşim Aylin öğretmen. Arabası yok.",
+     "why": [
+      "Virgüller arası isim açıklama; hasn't got olumsuz sahiplik."
+     ]
+    },
+    {
+     "en": "He's got a red bike and a lot of books.",
+     "tr": "Kırmızı bir bisikleti ve bir sürü kitabı var.",
+     "why": [
+      "He's got = he has got; a lot of = çok."
+     ]
+    },
+    {
+     "en": "Our neighbours have got a big dog.",
+     "tr": "Komşularımızın büyük bir köpeği var.",
+     "why": [
+      "neighbours çoğul → have got."
+     ]
+    },
+    {
+     "en": "Have you got a pet? — No, I haven't.",
+     "tr": "Evcil hayvanın var mı? — Hayır, yok.",
+     "why": [
+      "Soru Have ile; kısa cevapta got yok."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "hg-positive",
+     "title": "I've got a car. · She's got two sons.",
+     "meaning": "Sahip olunan şeyleri olumlu cümleyle söylemek",
+     "explanation": [
+      "I, you, we, they ile have got; he, she, it ile has got kullanılır. Konuşmada kısa biçimler tercih edilir: I've got, we've got, they've got, he's got, she's got, it's got. Yazıda uzun biçim de doğrudur: I have got a car.",
+      "Sahip olunan şey bir eşya, bir aile üyesi, bir hayvan ya da bir özellik olabilir: I've got a red car. She's got two daughters. We've got a cat. Our cat has got green eyes. Sayı ve sıfat isimden önce gelir: two daughters, a big house, green eyes.",
+      "Türkçedeki “var” cümlelerini İngilizcede there is ile karıştırmayın. there is bir yerde bir şeyin bulunduğunu söyler (There is a park near my house); sahiplik ise have got ile söylenir (I've got a garden). Bir arabam var = I've got a car (There is my car ✗)."
+     ],
+     "formula": [
+      "I / you / we / they + have got ('ve got) + isim",
+      "he / she / it + has got ('s got) + isim",
+      "sayı / sıfat + isim: two sons, a big house"
+     ],
+     "examples": [
+      {
+       "en": "I've got a small flat in Nilüfer.",
+       "tr": "Nilüfer'de küçük bir dairem var.",
+       "why": [
+        "I've got = I have got; sıfat isimden önce."
+       ],
+       "chunks": [
+        {
+         "en": "I've got",
+         "tr": "-im var",
+         "note": "kısa biçim"
+        },
+        {
+         "en": "a small flat",
+         "tr": "küçük bir daire"
+        }
+       ]
+      },
+      {
+       "en": "My husband has got a white car.",
+       "tr": "Eşimin beyaz bir arabası var.",
+       "why": [
+        "he → has got."
+       ]
+      },
+      {
+       "en": "We've got three children: two sons and a daughter.",
+       "tr": "Üç çocuğumuz var: iki oğul ve bir kız.",
+       "why": [
+        "we → have got; iki nokta listeyi açar."
+       ]
+      },
+      {
+       "en": "Our cat has got green eyes.",
+       "tr": "Kedimizin yeşil gözleri var.",
+       "why": [
+        "it (kedi) → has got."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“İki erkek kardeşim var.” İngilizcesi?",
+       "answer": "I've got two brothers.",
+       "why": "I → have got"
+      },
+      {
+       "question": "My sister ___ got a new phone.",
+       "answer": "has",
+       "why": "she → has"
+      },
+      {
+       "question": "She's got bir cümlede she's neyin kısaltmasıdır?",
+       "answer": "she has",
+       "why": "got'tan anlaşılır."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "My brother have got a car.",
+       "right": "My brother has got a car.",
+       "why": "he → has."
+      },
+      {
+       "wrong": "There is my car.",
+       "right": "I've got a car.",
+       "why": "Sahiplik have got ile söylenir."
+      }
+     ]
+    },
+    {
+     "id": "hg-neg-question",
+     "title": "I haven't got · Have you got …? — Yes, I have.",
+     "meaning": "Olumsuz cümle, soru ve kısa cevap",
+     "explanation": [
+      "Olumsuz için have / has'tan sonra not gelir: I haven't got a car. She hasn't got any brothers. Çoğul ya da sayılamayan isimlerle any kullanılır: We haven't got any children. I haven't got any money. Türkçedeki “hiç … yok” anlamını verir.",
+      "Soruda have / has özneden önce gelir, got yerinde kalır: Have you got a pet? Has your mother got a car? Kısa cevaplarda got kullanılmaz: Yes, I have. / No, I haven't. · Yes, she has. / No, she hasn't. Yes, I have got demek yanlıştır.",
+      "have got yerine sadece have da kullanılabilir; bu durumda olumsuz ve soru do / does ile kurulur: I don't have a car. Do you have a pet? Does she have a car? İki sistemi karıştırmayın: Do you have got? ✗ · I don't have got ✗."
+     ],
+     "formula": [
+      "olumsuz: haven't got / hasn't got (+ any)",
+      "soru: Have / Has + özne + got …? — Yes, I have. / No, she hasn't.",
+      "alternatif: Do you have …? · I don't have … (got'suz)"
+     ],
+     "examples": [
+      {
+       "en": "Have you got a pet? — Yes, I have. I've got a cat.",
+       "tr": "Evcil hayvanın var mı? — Evet, var. Bir kedim var.",
+       "why": [
+        "Kısa cevapta got yok."
+       ],
+       "chunks": [
+        {
+         "en": "Have you got …?",
+         "tr": "… var mı?"
+        },
+        {
+         "en": "Yes, I have.",
+         "tr": "Evet, var.",
+         "note": "got yok"
+        }
+       ]
+      },
+      {
+       "en": "My sister hasn't got a car. She takes the bus.",
+       "tr": "Kız kardeşimin arabası yok. Otobüse biner.",
+       "why": [
+        "she → hasn't got."
+       ]
+      },
+      {
+       "en": "We haven't got any children.",
+       "tr": "Hiç çocuğumuz yok.",
+       "why": [
+        "Çoğulla any."
+       ]
+      },
+      {
+       "en": "Do you have a pen? — Yes, I do. Here you are.",
+       "tr": "Kalemin var mı? — Evet. Buyur.",
+       "why": [
+        "got'suz sistem: Do you have …? — Yes, I do."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Has your brother got a car? — olumsuz kısa cevap?",
+       "answer": "No, he hasn't.",
+       "why": "got yok"
+      },
+      {
+       "question": "We don't have got a garden cümlesini düzeltin.",
+       "answer": "We haven't got a garden. / We don't have a garden.",
+       "why": "Sistemleri karıştırma."
+      },
+      {
+       "question": "“Hiç erkek kardeşi yok.” (kadın)",
+       "answer": "She hasn't got any brothers.",
+       "why": "any"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Yes, I have got.",
+       "right": "Yes, I have.",
+       "why": "Kısa cevapta got kullanılmaz."
+      },
+      {
+       "wrong": "Are you have a car?",
+       "right": "Have you got a car? / Do you have a car?",
+       "why": "Soru have ya da do ile kurulur."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "have got / have",
+       "explanation": [
+        "İkisi aynı anlamdadır. have got'ta soru ve olumsuz have ile; have'de do / does ile kurulur."
+       ],
+       "example": "Have you got a car? = Do you have a car?",
+       "tr": [
+        "Araban var mı?"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hg-reading",
+     "title": "He's got ≠ He's ten: metinde sahiplik ifadelerini anlamak",
+     "meaning": "Okuma metninde 's got ve 's ayrımını yapmak",
+     "explanation": [
+      "Okuma metninde 's iki farklı anlama gelebilir: he's got (he has got, sahiplik) ve he's ten (he is ten, yaş). Arkasındaki kelimeye bakın: got varsa has, yoksa genellikle is. Murat metninde: He's ten (yaş) ve He's got a red bike (sahiplik).",
+      "Metindeki soruları cevaplarken kısa cevabı sorunun yardımcı fiiliyle kurun: Has Aylin got a car? — No, she hasn't. Has the family got a garden? — No, they haven't. Ardından bilgiyi tam cümleyle ekleyin: She walks to her school.",
+      "Okurken sahipliği gösteren üç ipucu vardır: have / has got, haven't / hasn't got ve sahiplik sıfatları (my, his, her, our, their). Renkli işaretler bu üç grubu ayrı ayrı gösterir; bir sonraki adımda sahiplik sıfatlarını ayrıntılı çalışıyoruz."
+     ],
+     "formula": [
+      "'s got = has got (sahiplik) · 's + sayı / sıfat = is",
+      "Has … got …? — Yes, she has. / No, she hasn't.",
+      "ipuçları: has got · hasn't got · my, his, her"
+     ],
+     "examples": [
+      {
+       "en": "He's ten. He's got a red bike.",
+       "tr": "On yaşında. Kırmızı bir bisikleti var.",
+       "why": [
+        "İlk 's = is (yaş), ikinci 's = has (sahiplik)."
+       ]
+      },
+      {
+       "en": "She hasn't got a car. She walks to her school.",
+       "tr": "Arabası yok. Okuluna yürür.",
+       "why": [
+        "hasn't got + her (sahiplik sıfatı)."
+       ]
+      },
+      {
+       "en": "Our flat is small, but it's got a nice balcony.",
+       "tr": "Dairemiz küçük ama güzel bir balkonu var.",
+       "why": [
+        "it's got = it has got."
+       ]
+      },
+      {
+       "en": "Has the family got a garden? — No, they haven't.",
+       "tr": "Ailenin bahçesi var mı? — Hayır, yok.",
+       "why": [
+        "family burada they olarak cevaplanmış."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "She's a teacher. 's = ?",
+       "answer": "is",
+       "why": "got yok."
+      },
+      {
+       "question": "She's got a teacher? Bu cümle ne anlama gelir?",
+       "answer": "Anlamsız; sahiplikte got'tan sonra sahip olunan şey gelir.",
+       "why": "Dikkat."
+      },
+      {
+       "question": "Has Can got a phone? — olumsuz kısa cevap?",
+       "answer": "No, he hasn't.",
+       "why": "got yok"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "He's got ten.",
+       "right": "He's ten.",
+       "why": "Yaş be ile söylenir."
+      },
+      {
+       "wrong": "Has Aylin got a car? — No, she doesn't.",
+       "right": "No, she hasn't.",
+       "why": "Soru has ile kurulduysa cevap da has ile."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "possessive-adj",
+   "title": "Sahiplik sıfatları: my, your, his, her, its, our, their",
+   "intro": [
+    "MEB kazanımları: şahıs zamirleri ile sahiplik bildiren sıfatları eşleştirir; verilen bir metindeki sahiplik bildiren ifadeleri anlar ve ilgili soruları cevaplar. Türkçede sahipliği isme eklenen eklerle gösteririz: çanta-m, araba-sı, ev-imiz. İngilizcede ise ismin önüne bir kelime koyarız: my bag, his car, our house.",
+    "Yedi şahıs zamirinin yedi sahiplik sıfatı vardır: I → my, you → your, he → his, she → her, it → its, we → our, they → their. En önemli fark üçüncü tekil kişidedir: Türkçedeki tek “onun” İngilizcede sahibin cinsiyetine göre his ya da her olur; şeyler ve hayvanlar için its kullanılır."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Mr Arslan lives on the first floor. His wife is a hairdresser.",
+     "tr": "Bay Arslan birinci katta oturuyor. Karısı kuaför.",
+     "why": [
+      "Mr (erkek) → his; meslekte a."
+     ]
+    },
+    {
+     "en": "Mrs Güneş lives next to us. Her husband is retired.",
+     "tr": "Bayan Güneş yanımızda oturuyor. Kocası emekli.",
+     "why": [
+      "Mrs (kadın) → her; retired sıfat (a yok)."
+     ]
+    },
+    {
+     "en": "Her cat sleeps on our balcony!",
+     "tr": "Kedisi bizim balkonumuzda uyuyor!",
+     "why": [
+      "her cat (Bayan Güneş'in kedisi), our balcony (bizim balkonumuz)."
+     ]
+    },
+    {
+     "en": "Their children play football with my son in the garden.",
+     "tr": "Çocukları bahçede oğlumla futbol oynuyor.",
+     "why": [
+      "their = Özdemir ailesinin; my son = benim oğlum."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "pa-pairs",
+     "title": "I → my · he → his · she → her · they → their",
+     "meaning": "Şahıs zamirini sahiplik sıfatıyla eşleştirmek",
+     "explanation": [
+      "Her zamirin bir sahiplik eşi vardır ve bunları çift olarak ezberlemek en kolay yoldur: I – my (ben – benim), you – your (sen – senin / siz – sizin), he – his (o – onun, erkek), she – her (o – onun, kadın), it – its (o – onun, şey / hayvan), we – our (biz – bizim), they – their (onlar – onların).",
+      "Sahiplik sıfatı her zaman bir isimden önce gelir ve o isim tekil ya da çoğul olabilir; sıfat değişmez: my car, my cars; their child, their children. Sahiplik sıfatıyla birlikte a, an ya da the kullanılmaz: my car (my a car ✗, the my car ✗).",
+      "you – your hem tekil hem çoğul için aynıdır: your book (senin kitabın / sizin kitabınız). Türkçedeki “siz” saygı biçimi de your ile karşılanır: What's your name? (Adınız ne?)."
+     ],
+     "formula": [
+      "I → my · you → your · he → his · she → her",
+      "it → its · we → our · they → their",
+      "sahiplik sıfatı + isim (a / the yok): my car"
+     ],
+     "examples": [
+      {
+       "en": "I'm Deniz. My sister is Ece.",
+       "tr": "Ben Deniz. Kız kardeşim Ece.",
+       "why": [
+        "I → my."
+       ],
+       "chunks": [
+        {
+         "en": "My sister",
+         "tr": "kız kardeşim"
+        }
+       ]
+      },
+      {
+       "en": "We live in Bursa. Our flat is near the park.",
+       "tr": "Bursa'da oturuyoruz. Dairemiz parkın yakınında.",
+       "why": [
+        "we → our."
+       ]
+      },
+      {
+       "en": "The children are in their room.",
+       "tr": "Çocuklar odalarında.",
+       "why": [
+        "children → they → their."
+       ]
+      },
+      {
+       "en": "Excuse me, what's your name?",
+       "tr": "Affedersiniz, adınız ne?",
+       "why": [
+        "you → your; saygı biçimi de your."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "we → ?",
+       "answer": "our",
+       "why": "bizim"
+      },
+      {
+       "question": "they → ?",
+       "answer": "their",
+       "why": "onların"
+      },
+      {
+       "question": "This is my a bag cümlesini düzeltin.",
+       "answer": "This is my bag.",
+       "why": "my + isim"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "the my car",
+       "right": "my car",
+       "why": "Sahiplik sıfatıyla the kullanılmaz."
+      },
+      {
+       "wrong": "They love there children.",
+       "right": "They love their children.",
+       "why": "their (sahiplik) ≠ there (orada)."
+      }
+     ]
+    },
+    {
+     "id": "pa-his-her",
+     "title": "Murat and his wife · Aylin and her husband · its name",
+     "meaning": "his, her ve its'i doğru seçmek",
+     "explanation": [
+      "Türkçede “Murat ve eşi”, “Aylin ve eşi” deriz; “eşi” kelimesi sahibin cinsiyetini göstermez. İngilizcede sahibin cinsiyetine bakarız: sahip erkekse his, kadınsa her. Murat and his wife (Murat ve onun karısı). Aylin and her husband (Aylin ve onun kocası). Sahip olunan şeyin cinsiyeti önemli değildir: her son (kadının oğlu), his daughter (erkeğin kızı).",
+      "Şeyler ve hayvanlar için its kullanılır: The cat is in its bed. The car is new, but its doors are old. its kesme işareti almaz. it's ise it is'in kısaltmasıdır: It's a cat. Its name is Pamuk.",
+      "Benzer bir karışıklık their / there / they're arasında olur. their sahipliktir (their house), there yer bildirir (over there), they're they are'dır (They're at home). Okunuşları benzer; yazarken anlamı düşünün."
+     ],
+     "formula": [
+      "sahip erkek → his · sahip kadın → her",
+      "şey / hayvan → its (it's = it is)",
+      "their (onların) · there (orada) · they're (they are)"
+     ],
+     "examples": [
+      {
+       "en": "Kemal is a doctor. His wife is a nurse.",
+       "tr": "Kemal doktor. Karısı hemşire.",
+       "why": [
+        "Sahip Kemal (erkek) → his."
+       ],
+       "chunks": [
+        {
+         "en": "His wife",
+         "tr": "onun karısı",
+         "note": "sahip erkek"
+        }
+       ]
+      },
+      {
+       "en": "Selma is a nurse. Her husband is a doctor.",
+       "tr": "Selma hemşire. Kocası doktor.",
+       "why": [
+        "Sahip Selma (kadın) → her."
+       ]
+      },
+      {
+       "en": "Mrs Güneş lives next to us. Her cat sleeps on our balcony.",
+       "tr": "Bayan Güneş yanımızda oturuyor. Kedisi bizim balkonda uyuyor.",
+       "why": [
+        "Kedinin sahibi kadın → her cat."
+       ]
+      },
+      {
+       "en": "The dog is in its house in the garden.",
+       "tr": "Köpek bahçedeki kulübesinde.",
+       "why": [
+        "Hayvan → its."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Murat ve karısı” İngilizcesi?",
+       "answer": "Murat and his wife",
+       "why": "Sahip erkek"
+      },
+      {
+       "question": "“Aylin ve oğlu” İngilizcesi?",
+       "answer": "Aylin and her son",
+       "why": "Sahip kadın"
+      },
+      {
+       "question": "The cat is in it's bed cümlesini düzeltin.",
+       "answer": "The cat is in its bed.",
+       "why": "its sahiplik"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Murat and her wife",
+       "right": "Murat and his wife",
+       "why": "Sahip erkek → his."
+      },
+      {
+       "wrong": "It's name is Pamuk.",
+       "right": "Its name is Pamuk.",
+       "why": "Sahiplikte kesme işareti yok."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "his / her",
+       "explanation": [
+        "Türkçedeki tek “onun” İngilizcede ikiye ayrılır. Seçimi sahip olunan şey değil, sahip belirler."
+       ],
+       "example": "Mr Arslan and his daughter · Mrs Güneş and her son",
+       "tr": [
+        "Bay Arslan ve kızı · Bayan Güneş ve oğlu"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "family-words",
+   "title": "Aile kelimeleri ve 's ile akrabalık bağları",
+   "intro": [
+    "MEB kazanımı: sahiplik bildiren ifadeleri kullanarak akrabalık bağlarını açıklar. Türkçede akraba adları çok ayrıntılıdır: dayı, amca, enişte, teyze, hala, yenge, anneanne, babaanne. İngilizcede bu ayrıntı tek kelimelerle değil açıklamalarla verilir: annenin erkek kardeşi de, babanın erkek kardeşi de, teyzenin kocası da uncle'dır.",
+    "Bu yüzden İngilizcede akrabalığı açıklamak için 's kullanırız: Ali is my mother's brother. He's my uncle. Böylece Türkçedeki dayı ile amca farkını da göstermiş oluruz. Bu ekranda aile kelimelerini erkek-kadın çiftleri hâlinde öğreniyoruz: brother – sister, son – daughter, husband – wife, uncle – aunt, nephew – niece, grandfather – grandmother."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Ali is my mother's brother. He's my uncle.",
+     "tr": "Ali annemin erkek kardeşi. O benim dayım.",
+     "why": [
+      "my mother's brother açıklama; uncle tek kelime."
+     ]
+    },
+    {
+     "en": "My uncle is my father's brother.",
+     "tr": "Amcam babamın erkek kardeşi.",
+     "why": [
+      "Aynı uncle kelimesi bu kez amca anlamında."
+     ]
+    },
+    {
+     "en": "My sister's son is my nephew.",
+     "tr": "Kız kardeşimin oğlu yeğenim.",
+     "why": [
+      "nephew = erkek yeğen; niece = kız yeğen."
+     ]
+    },
+    {
+     "en": "My parents' house is in İnegöl.",
+     "tr": "Annemle babamın evi İnegöl'de.",
+     "why": [
+      "parents -s ile bittiği için sadece kesme işareti: parents'."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "fw-words",
+     "title": "mother · father · brother · sister · son · daughter · husband · wife",
+     "meaning": "Çekirdek ve geniş aile kelimelerini çift olarak öğrenmek",
+     "explanation": [
+      "Çekirdek aile: mother (anne), father (baba), parents (anne ve baba birlikte), brother (erkek kardeş / ağabey), sister (kız kardeş / abla), son (oğul), daughter (kız evlat), children (çocuklar; tekili child), husband (koca), wife (karı). İngilizcede ağabey ile erkek kardeş ayrımı yoktur; gerekirse older brother (ağabey), younger sister (küçük kız kardeş) denir.",
+      "Geniş aile: grandmother (büyükanne), grandfather (büyükbaba), grandparents (ikisi birlikte), grandson (erkek torun), granddaughter (kız torun), aunt (teyze, hala, yenge), uncle (dayı, amca, enişte), cousin (kuzen; kız ve erkek için aynı), nephew (erkek yeğen), niece (kız yeğen).",
+      "Bu kelimeleri erkek-kadın çiftleri olarak öğrenmek karışıklığı azaltır: brother – sister, son – daughter, husband – wife, grandfather – grandmother, uncle – aunt, nephew – niece, grandson – granddaughter. cousin ve parents için ayrı kadın-erkek biçimi yoktur."
+     ],
+     "formula": [
+      "brother – sister · son – daughter · husband – wife",
+      "grandfather – grandmother · uncle – aunt · nephew – niece",
+      "parents · grandparents · children · cousin (cinsiyetsiz)"
+     ],
+     "examples": [
+      {
+       "en": "My parents live in İnegöl.",
+       "tr": "Annem ve babam İnegöl'de yaşıyor.",
+       "why": [
+        "parents = anne ve baba birlikte."
+       ]
+      },
+      {
+       "en": "They've got a son and a daughter.",
+       "tr": "Bir oğulları ve bir kızları var.",
+       "why": [
+        "son – daughter çifti."
+       ],
+       "chunks": [
+        {
+         "en": "a son",
+         "tr": "bir oğul"
+        },
+        {
+         "en": "a daughter",
+         "tr": "bir kız (evlat)"
+        }
+       ]
+      },
+      {
+       "en": "My older brother is a police officer.",
+       "tr": "Ağabeyim polis memuru.",
+       "why": [
+        "Ağabey = older brother."
+       ]
+      },
+      {
+       "en": "Can is my cousin.",
+       "tr": "Can benim kuzenim.",
+       "why": [
+        "cousin kız ve erkek için aynı."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "nephew'un kadın karşılığı?",
+       "answer": "niece",
+       "why": "Çift."
+      },
+      {
+       "question": "“Ağabeyim” nasıl söylenir?",
+       "answer": "my older brother",
+       "why": "older + brother"
+      },
+      {
+       "question": "“Anneannem ve dedem” tek kelimeyle?",
+       "answer": "my grandparents",
+       "why": "grandparents"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "my mother father",
+       "right": "my parents",
+       "why": "Anne ve baba birlikte parents."
+      },
+      {
+       "wrong": "my cousin girl",
+       "right": "my cousin",
+       "why": "cousin cinsiyetsiz."
+      }
+     ]
+    },
+    {
+     "id": "fw-s-relations",
+     "title": "Ali is my mother's brother. He's my uncle.",
+     "meaning": "Akrabalığı 's ile açıklamak ve Türkçe akraba adlarını karşılamak",
+     "explanation": [
+      "İngilizcede tek kelime (uncle) Türkçedeki üç kelimeyi (dayı, amca, enişte) karşılar. Hangisini kastettiğimizi göstermek için 's ile açıklama yaparız: my mother's brother (dayı), my father's brother (amca), my aunt's husband (enişte). Aynı şekilde aunt için: my mother's sister (teyze), my father's sister (hala), my uncle's wife (yenge).",
+      "'s, Türkçedeki -in / -nın ekine karşılık gelir ve sıra Türkçe ile aynıdır: my mother's brother = annemin erkek kardeşi. Önce açıklama, sonra tek kelime söylenir: Ali is my mother's brother. He's my uncle.",
+      "İki katlı açıklama da olur: my father's sister's son = halamın oğlu = my cousin. -s ile biten çoğul isimlerde sadece kesme işareti konur: my parents' house (annemle babamın evi)."
+     ],
+     "formula": [
+      "dayı = my mother's brother · amca = my father's brother · enişte = my aunt's husband → uncle",
+      "teyze = my mother's sister · hala = my father's sister · yenge = my uncle's wife → aunt",
+      "anneanne = my mother's mother → grandmother · yeğen = my brother's / sister's son / daughter → nephew / niece"
+     ],
+     "examples": [
+      {
+       "en": "Ali is my mother's brother. He's my uncle.",
+       "tr": "Ali annemin erkek kardeşi. O benim dayım.",
+       "why": [
+        "Önce 's ile açıklama, sonra tek kelime."
+       ],
+       "chunks": [
+        {
+         "en": "my mother's brother",
+         "tr": "annemin erkek kardeşi",
+         "note": "'s = -in"
+        },
+        {
+         "en": "my uncle",
+         "tr": "dayım / amcam / eniştem"
+        }
+       ]
+      },
+      {
+       "en": "Hatice is my father's sister. She's my aunt.",
+       "tr": "Hatice babamın kız kardeşi. O benim halam.",
+       "why": [
+        "hala = my father's sister = aunt."
+       ]
+      },
+      {
+       "en": "Can is my father's sister's son. He's my cousin.",
+       "tr": "Can halamın oğlu. Kuzenim.",
+       "why": [
+        "İki katlı 's."
+       ]
+      },
+      {
+       "en": "My sister's son is my nephew.",
+       "tr": "Kız kardeşimin oğlu yeğenim.",
+       "why": [
+        "nephew = erkek yeğen."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Teyzem” İngilizcede nasıl açıklanır?",
+       "answer": "my mother's sister (my aunt)",
+       "why": "'s ile açıklama"
+      },
+      {
+       "question": "My uncle's wife is my ___ .",
+       "answer": "aunt",
+       "why": "yenge"
+      },
+      {
+       "question": "My brother's daughter is my ___ .",
+       "answer": "niece",
+       "why": "kız yeğen"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "my mother brother",
+       "right": "my mother's brother",
+       "why": "'s unutulmaz."
+      },
+      {
+       "wrong": "brother of my mother's",
+       "right": "my mother's brother",
+       "why": "Basit ve doğal biçim 's ile."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "family-tree",
+   "title": "Soyağacına göre akrabalık ilişkilerini söylemek",
+   "intro": [
+    "MEB kazanımı: verilen bir soyağacına göre akrabalık ilişkilerini ifade eder. Yılmaz ailesinin soyağacında üç kuşak var: Hasan ve Zehra (büyükanne ve büyükbaba), çocukları Kemal, Aylin ve Orhan (eşleriyle birlikte Selma ve Murat) ve torunlar Deniz, Ece ve Can. Kalpli çizgiler evli çiftleri, aşağı inen çizgiler çocukları gösterir.",
+    "Soyağacını okurken en önemli şey bakış açısıdır. Kemal, Deniz'in father'ı, Hasan'ın son'u, Selma'nın husband'ı ve Can'ın uncle'ıdır. Bu yüzden her cümlede kimin gözünden baktığımızı 's ile belirtiriz: Kemal is Deniz's father. Kemal is Hasan's son."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Hasan and Zehra are husband and wife.",
+     "tr": "Hasan ve Zehra karı koca.",
+     "why": [
+      "❤ çizgisi evli çifti gösterir."
+     ]
+    },
+    {
+     "en": "Kemal is Deniz's father. He's Hasan's son.",
+     "tr": "Kemal Deniz'in babası. Hasan'ın oğlu.",
+     "why": [
+      "Aynı kişi, iki farklı bakış açısı."
+     ]
+    },
+    {
+     "en": "Can is Deniz's cousin. Deniz is Aylin's nephew.",
+     "tr": "Can Deniz'in kuzeni. Deniz Aylin'in yeğeni.",
+     "why": [
+      "cousin ve nephew; 's bakış açısını verir."
+     ]
+    },
+    {
+     "en": "Who is Can's mother? — Aylin.",
+     "tr": "Can'ın annesi kim? — Aylin.",
+     "why": [
+      "Who is + 's + akraba; kısa cevap."
+     ]
+    },
+    {
+     "en": "Has Orhan got any children?",
+     "tr": "Orhan'ın hiç çocuğu var mı?",
+     "why": [
+      "have got sorusu; any soruda kullanılır."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ft-read",
+     "title": "Kemal is Deniz's father. He's Hasan's son.",
+     "meaning": "Soyağacını bakış açısına göre okumak",
+     "explanation": [
+      "Soyağacında üç tür çizgi vardır. Kalpli çizgi evli çifti gösterir: Hasan and Zehra are husband and wife. Bir çiftten aşağı inen çizgi çocuklarını gösterir: Kemal, Aylin and Orhan are Hasan and Zehra's children. Aynı satırdaki kardeşler birbirinin brother'ı ve sister'ıdır: Aylin is Kemal's sister.",
+      "Bir kişinin akrabalık adı kime göre baktığımıza bağlıdır. Kemal'i Deniz'in gözünden görürsek father, Hasan'ın gözünden son, Selma'nın gözünden husband, Can'ın gözünden uncle'dır. Cümlede bakış açısını 's ile belirtiriz: Kemal is Can's uncle.",
+      "İki kişinin ortak çocukları ya da ortak malı için 's sadece sondaki isme eklenir: Deniz and Ece are Kemal and Selma's children. Hasan and Zehra's grandchildren are Deniz, Ece and Can."
+     ],
+     "formula": [
+      "❤ = husband and wife · aşağı çizgi = children",
+      "Bakış açısı 's ile: Kemal is Deniz's father / Hasan's son.",
+      "Ortak: Kemal and Selma's children ('s sonda)"
+     ],
+     "examples": [
+      {
+       "en": "Kemal is Deniz's father. He's Hasan's son.",
+       "tr": "Kemal Deniz'in babası. Hasan'ın oğlu.",
+       "why": [
+        "Aynı kişi, iki bakış açısı."
+       ],
+       "chunks": [
+        {
+         "en": "Deniz's father",
+         "tr": "Deniz'in babası"
+        },
+        {
+         "en": "Hasan's son",
+         "tr": "Hasan'ın oğlu"
+        }
+       ]
+      },
+      {
+       "en": "Selma is Kemal's wife.",
+       "tr": "Selma Kemal'in karısı.",
+       "why": [
+        "❤ çizgisi: evli çift."
+       ]
+      },
+      {
+       "en": "Deniz and Ece are Kemal and Selma's children.",
+       "tr": "Deniz ve Ece, Kemal ile Selma'nın çocukları.",
+       "why": [
+        "Ortak sahiplik: 's sonda."
+       ]
+      },
+      {
+       "en": "Aylin is Kemal's sister and Can's mother.",
+       "tr": "Aylin Kemal'in kız kardeşi ve Can'ın annesi.",
+       "why": [
+        "Bir kişi, iki ilişki."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Orhan is Ece's ___ .",
+       "answer": "uncle",
+       "why": "Babasının erkek kardeşi."
+      },
+      {
+       "question": "Hasan is Selma's ___ .",
+       "answer": "father-in-law (kayınpeder)",
+       "why": "Ekstra bilgi; A1'de Hasan is Kemal's father demek yeterli."
+      },
+      {
+       "question": "Zehra is Can's ___ .",
+       "answer": "grandmother",
+       "why": "Annesinin annesi."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Kemal and Selma's's children",
+       "right": "Kemal and Selma's children",
+       "why": "Ortak sahiplikte 's bir kez, sonda."
+      },
+      {
+       "wrong": "Kemal is father of Deniz.",
+       "right": "Kemal is Deniz's father.",
+       "why": "İnsanlarla 's daha doğal."
+      }
+     ]
+    },
+    {
+     "id": "ft-questions",
+     "title": "Who is Ece's grandmother? — Zehra. · Who are Zehra's grandchildren?",
+     "meaning": "Soyağacı hakkında soru sormak ve cevaplamak",
+     "explanation": [
+      "Soyağacı hakkında soru Who ile sorulur: Who is Ece's grandmother? (Ece'nin büyükannesi kim?) Cevap kısa olabilir: Zehra. Ya da tam cümle: Zehra is Ece's grandmother. Çoğul için Who are: Who are Zehra's grandchildren? — Deniz, Ece and Can.",
+      "Bir kişinin sahip olduğu akrabaları have got ile sorabiliriz: Has Orhan got any children? — No, he hasn't. Has Aylin got a son? — Yes, she has. His name is Can. Bu, önceki adımdaki have got bilgisini soyağacıyla birleştirir.",
+      "Kendi soyağacınızı anlatırken önce kişiyi tanıtın, sonra ilişkisini açıklayın: Hatice is my mother's sister. She's my aunt. Her husband is Ali. They've got two children. Bu dört cümle aile anlatımının temel iskeletidir."
+     ],
+     "formula": [
+      "Who is + kişi's + akraba? — İsim (is).",
+      "Who are + kişi's + çoğul akraba? — İsimler.",
+      "Has … got any …? — Yes, he has. / No, he hasn't."
+     ],
+     "examples": [
+      {
+       "en": "Who is Ece's grandmother? — Zehra.",
+       "tr": "Ece'nin büyükannesi kim? — Zehra.",
+       "why": [
+        "Who is + 's + akraba."
+       ]
+      },
+      {
+       "en": "Who are Zehra's grandchildren? — Deniz, Ece and Can.",
+       "tr": "Zehra'nın torunları kim? — Deniz, Ece ve Can.",
+       "why": [
+        "Çoğul → Who are."
+       ]
+      },
+      {
+       "en": "Has Orhan got any children? — No, he hasn't.",
+       "tr": "Orhan'ın hiç çocuğu var mı? — Hayır, yok.",
+       "why": [
+        "have got sorusu soyağacıyla."
+       ],
+       "chunks": [
+        {
+         "en": "any children",
+         "tr": "hiç çocuk",
+         "note": "soruda any"
+        },
+        {
+         "en": "No, he hasn't.",
+         "tr": "Hayır, yok."
+        }
+       ]
+      },
+      {
+       "en": "Hatice is my mother's sister. She's my aunt. Her husband is Ali.",
+       "tr": "Hatice annemin kız kardeşi. Teyzem. Kocası Ali.",
+       "why": [
+        "Kendi ailesini anlatma iskeleti."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Can'ın annesi kim?” İngilizcesi?",
+       "answer": "Who is Can's mother?",
+       "why": "Who is + 's"
+      },
+      {
+       "question": "Who ___ Kemal's children? (is / are)",
+       "answer": "are",
+       "why": "Çoğul"
+      },
+      {
+       "question": "Has Aylin got a son? — Yes, she ___ .",
+       "answer": "has",
+       "why": "Kısa cevap"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Who is Zehra's grandchildren?",
+       "right": "Who are Zehra's grandchildren?",
+       "why": "Çoğul → are."
+      },
+      {
+       "wrong": "Who is the mother of Can's?",
+       "right": "Who is Can's mother?",
+       "why": "'s doğru yerde."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "get-up-dressed",
+   "term": "get up · get dressed",
+   "meaning": "kalkmak · giyinmek",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "get up · get dressed"
+   ],
+   "explanation": [
+    "Sabahın ilk işleri. get up yataktan kalkmak, get dressed giyinmektir. he / she ile gets up, gets dressed. wake up (uyanmak) get up'tan önce gelir."
+   ],
+   "collocations": [
+    {
+     "en": "get up early",
+     "tr": "erken kalkmak"
+    },
+    {
+     "en": "get dressed quickly",
+     "tr": "hızlıca giyinmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I get up at seven and get dressed.",
+     "tr": "Yedide kalkar ve giyinirim."
+    },
+    {
+     "en": "My son gets up late on Sundays.",
+     "tr": "Oğlum pazarları geç kalkar.",
+     "note": "he → gets"
+    },
+    {
+     "en": "First, I wake up. Then I get up.",
+     "tr": "Önce uyanırım. Sonra kalkarım."
+    }
+   ],
+   "commonMistake": "I am get up yerine I get up denir."
+  },
+  {
+   "id": "have-meals-a1",
+   "term": "have breakfast / lunch / dinner",
+   "meaning": "kahvaltı / öğle / akşam yemeği yemek",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "have breakfast / lunch / dinner"
+   ],
+   "explanation": [
+    "Öğünler have ile söylenir; önlerine a / the gelmez. she → has breakfast. Hazırlamak için make (make breakfast), pişirmek için cook (cook dinner)."
+   ],
+   "collocations": [
+    {
+     "en": "have breakfast together",
+     "tr": "birlikte kahvaltı yapmak"
+    },
+    {
+     "en": "have lunch at work",
+     "tr": "işte öğle yemeği yemek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We have dinner at eight.",
+     "tr": "Sekizde akşam yemeği yeriz."
+    },
+    {
+     "en": "She has breakfast with her husband.",
+     "tr": "Eşiyle kahvaltı yapar.",
+     "note": "she → has"
+    },
+    {
+     "en": "I have lunch at half past twelve.",
+     "tr": "On iki buçukta öğle yemeği yerim."
+    }
+   ],
+   "commonMistake": "I have a breakfast yerine I have breakfast denir."
+  },
+  {
+   "id": "work-home",
+   "term": "go to work · come home",
+   "meaning": "işe gitmek · eve gelmek",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "go to work · come home"
+   ],
+   "explanation": [
+    "go to work kalıbında the yoktur; home ile to kullanılmaz: come home, go home. Araç by ile: go to work by bus. he / she → goes, comes."
+   ],
+   "collocations": [
+    {
+     "en": "go to work by bus",
+     "tr": "işe otobüsle gitmek"
+    },
+    {
+     "en": "come home late",
+     "tr": "eve geç gelmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My husband comes home at six.",
+     "tr": "Eşim eve altıda gelir."
+    },
+    {
+     "en": "I go to work by bus.",
+     "tr": "İşe otobüsle giderim."
+    },
+    {
+     "en": "She goes home after the course.",
+     "tr": "Kurstan sonra eve gider."
+    }
+   ],
+   "commonMistake": "go to home yerine go home denir."
+  },
+  {
+   "id": "go-bed-a1",
+   "term": "go to bed",
+   "meaning": "yatmak",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "go to bed"
+   ],
+   "explanation": [
+    "Uyumak için yatmak. the yoktur: go to bed. he / she → goes to bed. Saatle: at eleven."
+   ],
+   "collocations": [
+    {
+     "en": "go to bed early",
+     "tr": "erken yatmak"
+    },
+    {
+     "en": "go to bed late",
+     "tr": "geç yatmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I go to bed at eleven.",
+     "tr": "On birde yatarım."
+    },
+    {
+     "en": "Finally, she goes to bed at eleven o'clock.",
+     "tr": "En sonunda saat on birde yatar."
+    },
+    {
+     "en": "The children go to bed at nine.",
+     "tr": "Çocuklar dokuzda yatar."
+    }
+   ],
+   "commonMistake": "go to the bed yerine go to bed denir."
+  },
+  {
+   "id": "sequence-a1",
+   "term": "First … Then … After that … Finally …",
+   "meaning": "önce … sonra … ondan sonra … en sonunda",
+   "partOfSpeech": "sıra kelimeleri",
+   "sourceTerms": [
+    "First … Then … After that … Finally …"
+   ],
+   "explanation": [
+    "Olayları sıraya koyan kelimeler. First, After that ve Finally'den sonra virgül konur. Finally sadece son iş için bir kez kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "first of all",
+     "tr": "her şeyden önce"
+    },
+    {
+     "en": "after breakfast",
+     "tr": "kahvaltıdan sonra"
+    }
+   ],
+   "examples": [
+    {
+     "en": "First, I pray. Then I have breakfast.",
+     "tr": "Önce namaz kılarım. Sonra kahvaltı yaparım."
+    },
+    {
+     "en": "After that, I go to work.",
+     "tr": "Ondan sonra işe giderim."
+    },
+    {
+     "en": "Finally, I go to bed.",
+     "tr": "En sonunda yatarım."
+    }
+   ],
+   "commonMistake": "At the end I go to bed yerine Finally, I go to bed denir."
+  },
+  {
+   "id": "watch-film",
+   "term": "watch a film · watch TV",
+   "meaning": "film izlemek · televizyon izlemek",
+   "partOfSpeech": "fiil + isim",
+   "sourceTerms": [
+    "watch a film · watch TV"
+   ],
+   "explanation": [
+    "İzlemek watch'tır. watch a match (maç izlemek) de olur. he / she → watches (-ch → -es). look (bakmak) ya da see (görmek) bu anlamda kullanılmaz."
+   ],
+   "collocations": [
+    {
+     "en": "watch a match",
+     "tr": "maç izlemek"
+    },
+    {
+     "en": "watch the news",
+     "tr": "haberleri izlemek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We watch a film on Saturday evenings.",
+     "tr": "Cumartesi akşamları film izleriz."
+    },
+    {
+     "en": "She watches TV after dinner.",
+     "tr": "Akşam yemeğinden sonra televizyon izler.",
+     "note": "watches"
+    },
+    {
+     "en": "My husband watches a match on TV.",
+     "tr": "Eşim televizyonda maç izler."
+    }
+   ],
+   "commonMistake": "I look a film yerine I watch a film denir."
+  },
+  {
+   "id": "listen-music",
+   "term": "listen to music · listen to the radio",
+   "meaning": "müzik dinlemek · radyo dinlemek",
+   "partOfSpeech": "fiil + edat + isim",
+   "sourceTerms": [
+    "listen to music · listen to the radio"
+   ],
+   "explanation": [
+    "Dinlemek listen to'dur; to asla düşmez. Neyi dinlediğimizi to'dan sonra söyleriz: listen to the teacher. he / she → listens to."
+   ],
+   "collocations": [
+    {
+     "en": "listen to the teacher",
+     "tr": "öğretmeni dinlemek"
+    },
+    {
+     "en": "listen to the news",
+     "tr": "haberleri dinlemek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I listen to music in the car.",
+     "tr": "Arabada müzik dinlerim."
+    },
+    {
+     "en": "My father listens to the radio in the morning.",
+     "tr": "Babam sabahları radyo dinler."
+    },
+    {
+     "en": "Listen to the teacher, please.",
+     "tr": "Lütfen öğretmeni dinleyin."
+    }
+   ],
+   "commonMistake": "I listen music yerine I listen to music denir."
+  },
+  {
+   "id": "cook-make",
+   "term": "cook dinner · make breakfast",
+   "meaning": "akşam yemeği pişirmek · kahvaltı hazırlamak",
+   "partOfSpeech": "fiil + isim",
+   "sourceTerms": [
+    "cook dinner · make breakfast"
+   ],
+   "explanation": [
+    "Pişirmek cook, hazırlamak make'tir. Kazanımdaki “yemek yapmak” cook dinner / cook food ya da make dinner olarak söylenir. make tea (çay demlemek), make a cake (kek yapmak)."
+   ],
+   "collocations": [
+    {
+     "en": "cook rice",
+     "tr": "pilav pişirmek"
+    },
+    {
+     "en": "make tea",
+     "tr": "çay demlemek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My mother cooks dinner every day.",
+     "tr": "Annem her gün akşam yemeği pişirir."
+    },
+    {
+     "en": "I make breakfast for my family.",
+     "tr": "Ailem için kahvaltı hazırlarım."
+    },
+    {
+     "en": "My husband makes tea after dinner.",
+     "tr": "Eşim akşam yemeğinden sonra çay demler."
+    }
+   ],
+   "commonMistake": "I do breakfast yerine I make breakfast denir."
+  },
+  {
+   "id": "pray",
+   "term": "pray",
+   "meaning": "namaz kılmak · dua etmek",
+   "partOfSpeech": "fiil",
+   "sourceTerms": [
+    "pray"
+   ],
+   "explanation": [
+    "Kazanımdaki “namaz kılmak” İngilizcede pray ile söylenir; önüne make ya da do gelmez. he / she → prays. Sıklıkla: five times a day (günde beş vakit)."
+   ],
+   "collocations": [
+    {
+     "en": "pray five times a day",
+     "tr": "günde beş vakit namaz kılmak"
+    },
+    {
+     "en": "pray for someone",
+     "tr": "biri için dua etmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My father prays five times a day.",
+     "tr": "Babam günde beş vakit namaz kılar."
+    },
+    {
+     "en": "First, I get up. Then I pray.",
+     "tr": "Önce kalkarım. Sonra namaz kılarım."
+    },
+    {
+     "en": "We pray for our family.",
+     "tr": "Ailemiz için dua ederiz."
+    }
+   ],
+   "commonMistake": "I make pray yerine I pray denir."
+  },
+  {
+   "id": "read-book",
+   "term": "read a book · read the newspaper",
+   "meaning": "kitap okumak · gazete okumak",
+   "partOfSpeech": "fiil + isim",
+   "sourceTerms": [
+    "read a book · read the newspaper"
+   ],
+   "explanation": [
+    "Okumak read'dir. he / she → reads. read a message (mesaj okumak), read aloud (sesli okumak)."
+   ],
+   "collocations": [
+    {
+     "en": "read a message",
+     "tr": "mesaj okumak"
+    },
+    {
+     "en": "read aloud",
+     "tr": "sesli okumak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My grandfather reads the newspaper every morning.",
+     "tr": "Dedem her sabah gazete okur."
+    },
+    {
+     "en": "I read a book before bed.",
+     "tr": "Yatmadan önce kitap okurum."
+    },
+    {
+     "en": "My daughter doesn't play football; she reads a book.",
+     "tr": "Kızım futbol oynamaz; kitap okur."
+    }
+   ],
+   "commonMistake": "I read to a book yerine I read a book denir."
+  },
+  {
+   "id": "play-football",
+   "term": "play football · play with the children",
+   "meaning": "futbol oynamak · çocuklarla oynamak",
+   "partOfSpeech": "fiil + isim",
+   "sourceTerms": [
+    "play football · play with the children"
+   ],
+   "explanation": [
+    "Oyun ve spor play ile söylenir; spor adından önce the gelmez. Biriyle oynamak: play with + kişi. he / she → plays."
+   ],
+   "collocations": [
+    {
+     "en": "play chess",
+     "tr": "satranç oynamak"
+    },
+    {
+     "en": "play games",
+     "tr": "oyun oynamak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My son plays football on Sundays.",
+     "tr": "Oğlum pazar günleri futbol oynar."
+    },
+    {
+     "en": "I play with the children in the park.",
+     "tr": "Parkta çocuklarla oynarım."
+    },
+    {
+     "en": "My grandfather plays chess.",
+     "tr": "Dedem satranç oynar."
+    }
+   ],
+   "commonMistake": "play the football yerine play football denir."
+  },
+  {
+   "id": "do-homework",
+   "term": "do homework · do the housework",
+   "meaning": "ödev yapmak · ev işi yapmak",
+   "partOfSpeech": "fiil + isim",
+   "sourceTerms": [
+    "do homework · do the housework"
+   ],
+   "explanation": [
+    "İş ve görevler do ile: do homework, do the housework, do the washing (çamaşır), do the shopping (alışveriş). he / she → does."
+   ],
+   "collocations": [
+    {
+     "en": "do the washing",
+     "tr": "çamaşır yıkamak"
+    },
+    {
+     "en": "do the shopping",
+     "tr": "alışveriş yapmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The children do their homework after school.",
+     "tr": "Çocuklar okuldan sonra ödevlerini yapar."
+    },
+    {
+     "en": "We do the housework on Saturdays.",
+     "tr": "Cumartesileri ev işi yaparız."
+    },
+    {
+     "en": "She does the shopping on Fridays.",
+     "tr": "Cuma günleri alışveriş yapar.",
+     "note": "does"
+    }
+   ],
+   "commonMistake": "I make homework yerine I do homework denir."
+  },
+  {
+   "id": "go-shopping-walk",
+   "term": "go shopping · go for a walk",
+   "meaning": "alışverişe gitmek · yürüyüşe çıkmak",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "go shopping · go for a walk"
+   ],
+   "explanation": [
+    "go + -ing bir etkinliğe gitmeyi anlatır: go shopping, go swimming. go for a walk yürüyüşe çıkmaktır. Yer için go to: go to the market."
+   ],
+   "collocations": [
+    {
+     "en": "go swimming",
+     "tr": "yüzmeye gitmek"
+    },
+    {
+     "en": "go to the market",
+     "tr": "pazara gitmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We go for a walk after dinner.",
+     "tr": "Akşam yemeğinden sonra yürüyüşe çıkarız."
+    },
+    {
+     "en": "I go shopping on Saturdays.",
+     "tr": "Cumartesileri alışverişe giderim."
+    },
+    {
+     "en": "She goes to the market on Tuesdays.",
+     "tr": "Salı günleri pazara gider."
+    }
+   ],
+   "commonMistake": "go to shopping yerine go shopping denir."
+  },
+  {
+   "id": "take-photo-bus",
+   "term": "take a photo · take the bus",
+   "meaning": "fotoğraf çekmek · otobüse binmek",
+   "partOfSpeech": "fiil + isim",
+   "sourceTerms": [
+    "take a photo · take the bus"
+   ],
+   "explanation": [
+    "take birçok kalıpta kullanılır: take a photo (fotoğraf çekmek), take the bus / a taxi (otobüse / taksiye binmek). he / she → takes."
+   ],
+   "collocations": [
+    {
+     "en": "take a taxi",
+     "tr": "taksiye binmek"
+    },
+    {
+     "en": "take a lot of photos",
+     "tr": "çok fotoğraf çekmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I take the bus to work.",
+     "tr": "İşe otobüsle giderim."
+    },
+    {
+     "en": "She takes a lot of photos of her grandchildren.",
+     "tr": "Torunlarının çok fotoğrafını çeker."
+    },
+    {
+     "en": "Can you take a photo of us?",
+     "tr": "Bizim bir fotoğrafımızı çeker misin?"
+    }
+   ],
+   "commonMistake": "pull a photo yerine take a photo denir."
+  },
+  {
+   "id": "drink-eat",
+   "term": "drink tea · eat fruit",
+   "meaning": "çay içmek · meyve yemek",
+   "partOfSpeech": "fiil + isim",
+   "sourceTerms": [
+    "drink tea · eat fruit"
+   ],
+   "explanation": [
+    "İçmek drink, yemek eat'tir. Öğünler için have kullanılır (have breakfast), tek tek yiyecekler için eat ya da have. fruit genellikle sayılamaz: eat fruit."
+   ],
+   "collocations": [
+    {
+     "en": "drink water",
+     "tr": "su içmek"
+    },
+    {
+     "en": "eat vegetables",
+     "tr": "sebze yemek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We drink tea after dinner.",
+     "tr": "Akşam yemeğinden sonra çay içeriz."
+    },
+    {
+     "en": "My children eat fruit every day.",
+     "tr": "Çocuklarım her gün meyve yer."
+    },
+    {
+     "en": "He doesn't drink coffee.",
+     "tr": "Kahve içmez."
+    }
+   ],
+   "commonMistake": "eat tea yerine drink tea denir."
+  },
+  {
+   "id": "work-works",
+   "term": "I work · she works",
+   "meaning": "çalışırım · çalışır",
+   "partOfSpeech": "fiil çekimi",
+   "sourceTerms": [
+    "I work · she works"
+   ],
+   "explanation": [
+    "Geniş zamanda he / she / it ile fiil -s alır. -ch, -sh, -s, -x, -o ile bitenler -es (watches, goes), sessiz + y → -ies (studies), have → has."
+   ],
+   "collocations": [
+    {
+     "en": "she goes",
+     "tr": "o gider"
+    },
+    {
+     "en": "he studies",
+     "tr": "o okur (çalışır)"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I work in a shop. My sister works in a bank.",
+     "tr": "Ben bir dükkânda çalışırım. Kız kardeşim bankada çalışır."
+    },
+    {
+     "en": "Our son goes to school by bus.",
+     "tr": "Oğlumuz okula otobüsle gider.",
+     "note": "goes"
+    },
+    {
+     "en": "Our daughter studies at university.",
+     "tr": "Kızımız üniversitede okur.",
+     "note": "studies"
+    }
+   ],
+   "commonMistake": "She work yerine She works denir."
+  },
+  {
+   "id": "dont-doesnt",
+   "term": "I don't · she doesn't",
+   "meaning": "-mam · -maz",
+   "partOfSpeech": "olumsuz",
+   "sourceTerms": [
+    "I don't · she doesn't"
+   ],
+   "explanation": [
+    "Olumsuz geniş zaman: I / you / we / they → don't, he / she / it → doesn't. Ardından fiil yalın kalır (doesn't works ✗)."
+   ],
+   "collocations": [
+    {
+     "en": "don't like",
+     "tr": "sevmem"
+    },
+    {
+     "en": "doesn't work",
+     "tr": "çalışmaz"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I don't drink coffee.",
+     "tr": "Kahve içmem."
+    },
+    {
+     "en": "He doesn't drink tea in the evening.",
+     "tr": "Akşamları çay içmez."
+    },
+    {
+     "en": "My son doesn't like fish.",
+     "tr": "Oğlum balık sevmez."
+    }
+   ],
+   "commonMistake": "She doesn't works yerine She doesn't work denir."
+  },
+  {
+   "id": "do-does-q",
+   "term": "Do you …? · Does she …?",
+   "meaning": "… -ir misin? · … -ir mi?",
+   "partOfSpeech": "soru",
+   "sourceTerms": [
+    "Do you …? · Does she …?"
+   ],
+   "explanation": [
+    "Geniş zamanda soru Do / Does ile başlar, fiil yalın kalır. Kısa cevap: Yes, I do / No, she doesn't. Soru kelimesiyle: Where do you live?"
+   ],
+   "collocations": [
+    {
+     "en": "Do you like …?",
+     "tr": "… sever misin?"
+    },
+    {
+     "en": "Does he work …?",
+     "tr": "… çalışır mı?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Does your sister work in a bank? — Yes, she does.",
+     "tr": "Kız kardeşin bankada mı çalışıyor? — Evet."
+    },
+    {
+     "en": "Do you work on Saturdays? — No, I don't.",
+     "tr": "Cumartesi çalışır mısın? — Hayır."
+    },
+    {
+     "en": "Where do your parents live?",
+     "tr": "Annenle baban nerede yaşıyor?"
+    }
+   ],
+   "commonMistake": "Does she has …? yerine Does she have …? denir."
+  },
+  {
+   "id": "am-is-are",
+   "term": "am · is · are",
+   "meaning": "-im · -dir · -iz / -ler",
+   "partOfSpeech": "be fiili",
+   "sourceTerms": [
+    "am · is · are"
+   ],
+   "explanation": [
+    "be fiili meslek, yer, yaş, duygu bildirir: I am a nurse. She is at home. They are tired. Eylem fiilleriyle geniş zamanda kullanılmaz (I am work ✗)."
+   ],
+   "collocations": [
+    {
+     "en": "I'm a student",
+     "tr": "öğrenciyim"
+    },
+    {
+     "en": "She's at home",
+     "tr": "evde"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I am a teacher. I work in a school.",
+     "tr": "Öğretmenim. Bir okulda çalışırım."
+    },
+    {
+     "en": "My mother is at home.",
+     "tr": "Annem evde."
+    },
+    {
+     "en": "We are tired today.",
+     "tr": "Bugün yorgunuz."
+    }
+   ],
+   "commonMistake": "I am get up yerine I get up denir."
+  },
+  {
+   "id": "have-got-i",
+   "term": "I have got · I've got",
+   "meaning": "-im var",
+   "partOfSpeech": "sahiplik",
+   "sourceTerms": [
+    "I have got · I've got"
+   ],
+   "explanation": [
+    "I / you / we / they ile sahiplik have got ile söylenir; kısa biçim 've got. Sayı ve sıfat isimden önce: I've got two children."
+   ],
+   "collocations": [
+    {
+     "en": "I've got a car",
+     "tr": "arabam var"
+    },
+    {
+     "en": "we've got a garden",
+     "tr": "bahçemiz var"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I've got a red car.",
+     "tr": "Kırmızı bir arabam var."
+    },
+    {
+     "en": "We've got three children.",
+     "tr": "Üç çocuğumuz var."
+    },
+    {
+     "en": "They've got a big house.",
+     "tr": "Büyük bir evleri var."
+    }
+   ],
+   "commonMistake": "There is my car yerine I've got a car denir."
+  },
+  {
+   "id": "has-got",
+   "term": "she has got · she's got",
+   "meaning": "-i var",
+   "partOfSpeech": "sahiplik",
+   "sourceTerms": [
+    "she has got · she's got"
+   ],
+   "explanation": [
+    "he / she / it ile has got; kısa biçim 's got. she's got = she has got (she is değil; got'tan anlaşılır)."
+   ],
+   "collocations": [
+    {
+     "en": "she's got two sons",
+     "tr": "iki oğlu var"
+    },
+    {
+     "en": "it's got a balcony",
+     "tr": "balkonu var"
+    }
+   ],
+   "examples": [
+    {
+     "en": "She's got two daughters.",
+     "tr": "İki kızı var."
+    },
+    {
+     "en": "My husband has got a white car.",
+     "tr": "Eşimin beyaz bir arabası var."
+    },
+    {
+     "en": "Our flat has got a nice balcony.",
+     "tr": "Dairemizin güzel bir balkonu var."
+    }
+   ],
+   "commonMistake": "She have got yerine She has got denir."
+  },
+  {
+   "id": "have-you-got",
+   "term": "Have you got …? — Yes, I have. / No, I haven't.",
+   "meaning": "… var mı? — Evet, var. / Hayır, yok.",
+   "partOfSpeech": "soru ve kısa cevap",
+   "sourceTerms": [
+    "Have you got …? — Yes, I have. / No, I haven't."
+   ],
+   "explanation": [
+    "Soruda have / has başa gelir, got yerinde kalır. Kısa cevapta got kullanılmaz. got'suz sistem: Do you have …? — Yes, I do."
+   ],
+   "collocations": [
+    {
+     "en": "Has she got …?",
+     "tr": "onun … var mı?"
+    },
+    {
+     "en": "Do you have …?",
+     "tr": "… var mı? (got'suz)"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Have you got a pet? — No, I haven't.",
+     "tr": "Evcil hayvanın var mı? — Hayır."
+    },
+    {
+     "en": "Has your mother got a car? — Yes, she has.",
+     "tr": "Annenin arabası var mı? — Evet."
+    },
+    {
+     "en": "Do you have a pen? — Yes, I do.",
+     "tr": "Kalemin var mı? — Evet.",
+     "note": "got'suz"
+    }
+   ],
+   "commonMistake": "Yes, I have got yerine Yes, I have denir."
+  },
+  {
+   "id": "havent-got",
+   "term": "I haven't got · she hasn't got",
+   "meaning": "-im yok · -i yok",
+   "partOfSpeech": "olumsuz sahiplik",
+   "sourceTerms": [
+    "I haven't got · she hasn't got"
+   ],
+   "explanation": [
+    "Olumsuz sahiplik: haven't got / hasn't got. Çoğul ve sayılamayan isimlerle any: We haven't got any children. got'suz sistemde: I don't have."
+   ],
+   "collocations": [
+    {
+     "en": "haven't got any money",
+     "tr": "hiç param yok"
+    },
+    {
+     "en": "hasn't got a car",
+     "tr": "arabası yok"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We haven't got a garden.",
+     "tr": "Bahçemiz yok."
+    },
+    {
+     "en": "My sister hasn't got a car.",
+     "tr": "Kız kardeşimin arabası yok."
+    },
+    {
+     "en": "He hasn't got any brothers.",
+     "tr": "Hiç erkek kardeşi yok."
+    }
+   ],
+   "commonMistake": "We don't have got yerine We haven't got / We don't have denir."
+  },
+  {
+   "id": "my-your",
+   "term": "my · your",
+   "meaning": "benim · senin / sizin",
+   "partOfSpeech": "sahiplik sıfatı",
+   "sourceTerms": [
+    "my · your"
+   ],
+   "explanation": [
+    "I → my, you → your. İsimden önce gelir; a / the almaz. your hem tekil hem çoğul, saygı biçimi (siz) için de your."
+   ],
+   "collocations": [
+    {
+     "en": "my name",
+     "tr": "adım"
+    },
+    {
+     "en": "your phone",
+     "tr": "telefonun"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My name is Deniz. What's your name?",
+     "tr": "Adım Deniz. Senin adın ne?"
+    },
+    {
+     "en": "Is this your pen?",
+     "tr": "Bu senin kalemin mi?"
+    },
+    {
+     "en": "My children are at school.",
+     "tr": "Çocuklarım okulda."
+    }
+   ],
+   "commonMistake": "the my book yerine my book denir."
+  },
+  {
+   "id": "his-her-its",
+   "term": "his · her · its",
+   "meaning": "onun (erkek) · onun (kadın) · onun (şey, hayvan)",
+   "partOfSpeech": "sahiplik sıfatı",
+   "sourceTerms": [
+    "his · her · its"
+   ],
+   "explanation": [
+    "Türkçedeki “onun” sahibe göre üçe ayrılır: erkek → his, kadın → her, şey / hayvan → its. its kesme işareti almaz (it's = it is)."
+   ],
+   "collocations": [
+    {
+     "en": "his wife",
+     "tr": "onun karısı"
+    },
+    {
+     "en": "her husband",
+     "tr": "onun kocası"
+    }
+   ],
+   "examples": [
+    {
+     "en": "His car is blue. Her bag is new.",
+     "tr": "Onun (erkek) arabası mavi. Onun (kadın) çantası yeni."
+    },
+    {
+     "en": "Murat and his wife live in Bursa.",
+     "tr": "Murat ve karısı Bursa'da oturuyor."
+    },
+    {
+     "en": "The cat is in its bed.",
+     "tr": "Kedi yatağında.",
+     "note": "its"
+    }
+   ],
+   "commonMistake": "Murat and her wife yerine Murat and his wife denir."
+  },
+  {
+   "id": "our-their",
+   "term": "our · their",
+   "meaning": "bizim · onların",
+   "partOfSpeech": "sahiplik sıfatı",
+   "sourceTerms": [
+    "our · their"
+   ],
+   "explanation": [
+    "we → our, they → their. their ile there (orada) ve they're (they are) karıştırılmamalı."
+   ],
+   "collocations": [
+    {
+     "en": "our house",
+     "tr": "evimiz"
+    },
+    {
+     "en": "their children",
+     "tr": "çocukları"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Our house is small. Their house is big.",
+     "tr": "Bizim evimiz küçük. Onların evi büyük."
+    },
+    {
+     "en": "The children are in their room.",
+     "tr": "Çocuklar odalarında."
+    },
+    {
+     "en": "Our neighbours love their dog.",
+     "tr": "Komşularımız köpeklerini çok seviyor."
+    }
+   ],
+   "commonMistake": "there house yerine their house denir."
+  },
+  {
+   "id": "parents",
+   "term": "mother · father · parents",
+   "meaning": "anne · baba · anne-baba",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "mother · father · parents"
+   ],
+   "explanation": [
+    "parents anne ve babanın ikisini birlikte anlatır; tekil olarak bir ebeveyn için parent denir. Türkçedeki “ailem” bazen my parents ile karşılanır."
+   ],
+   "collocations": [
+    {
+     "en": "my parents' house",
+     "tr": "annemle babamın evi"
+    },
+    {
+     "en": "live with my parents",
+     "tr": "annemle babamla yaşamak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My parents live in İnegöl.",
+     "tr": "Annem ve babam İnegöl'de yaşıyor."
+    },
+    {
+     "en": "My mother's name is Selma.",
+     "tr": "Annemin adı Selma."
+    },
+    {
+     "en": "My father is retired.",
+     "tr": "Babam emekli."
+    }
+   ],
+   "commonMistake": "my mother father yerine my parents denir."
+  },
+  {
+   "id": "brother-sister",
+   "term": "brother · sister",
+   "meaning": "erkek kardeş, ağabey · kız kardeş, abla",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "brother · sister"
+   ],
+   "explanation": [
+    "İngilizcede büyük-küçük ayrımı tek kelimeyle yapılmaz: ağabey older brother, abla older sister, küçük kardeş younger brother / sister."
+   ],
+   "collocations": [
+    {
+     "en": "older brother",
+     "tr": "ağabey"
+    },
+    {
+     "en": "younger sister",
+     "tr": "küçük kız kardeş"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I've got two brothers.",
+     "tr": "İki erkek kardeşim var."
+    },
+    {
+     "en": "My older sister is a nurse.",
+     "tr": "Ablam hemşire."
+    },
+    {
+     "en": "Ece is Deniz's sister.",
+     "tr": "Ece Deniz'in kız kardeşi."
+    }
+   ],
+   "commonMistake": "big brother konuşmada olur ama older brother daha yaygındır."
+  },
+  {
+   "id": "son-daughter",
+   "term": "son · daughter · children",
+   "meaning": "oğul · kız evlat · çocuklar",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "son · daughter · children"
+   ],
+   "explanation": [
+    "son oğul, daughter kız evlattır. children çocuklar demektir; tekili child'dır (childs ✗)."
+   ],
+   "collocations": [
+    {
+     "en": "an only child",
+     "tr": "tek çocuk"
+    },
+    {
+     "en": "have two children",
+     "tr": "iki çocuğu olmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "They've got a son and a daughter.",
+     "tr": "Bir oğulları ve bir kızları var."
+    },
+    {
+     "en": "Our children go to school by bus.",
+     "tr": "Çocuklarımız okula otobüsle gider."
+    },
+    {
+     "en": "Can is Aylin's son.",
+     "tr": "Can Aylin'in oğlu."
+    }
+   ],
+   "commonMistake": "two childs yerine two children denir."
+  },
+  {
+   "id": "husband-wife",
+   "term": "husband · wife",
+   "meaning": "koca, eş · karı, eş",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "husband · wife"
+   ],
+   "explanation": [
+    "Türkçedeki “eş” kelimesi İngilizcede kocası için husband, karısı için wife'tır. Cinsiyetsiz partner da kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "my husband's family",
+     "tr": "eşimin ailesi"
+    },
+    {
+     "en": "husband and wife",
+     "tr": "karı koca"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Her husband is a teacher.",
+     "tr": "Kocası öğretmen."
+    },
+    {
+     "en": "Selma is Kemal's wife.",
+     "tr": "Selma Kemal'in karısı."
+    },
+    {
+     "en": "Hasan and Zehra are husband and wife.",
+     "tr": "Hasan ve Zehra karı koca."
+    }
+   ],
+   "commonMistake": "Murat and her wife yerine Murat and his wife denir."
+  },
+  {
+   "id": "grandparents",
+   "term": "grandmother · grandfather · grandparents",
+   "meaning": "büyükanne · büyükbaba · büyükanne ve büyükbaba",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "grandmother · grandfather · grandparents"
+   ],
+   "explanation": [
+    "anneanne ve babaanne grandmother, dede grandfather'dır. Farkı 's ile gösteririz: my mother's mother (anneanne). Konuşmada grandma, grandpa / granddad da denir."
+   ],
+   "collocations": [
+    {
+     "en": "my grandparents' village",
+     "tr": "büyükannemlerin köyü"
+    },
+    {
+     "en": "grandma",
+     "tr": "nine (konuşma)"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My grandparents live in a village.",
+     "tr": "Büyükannem ve büyükbabam köyde yaşıyor."
+    },
+    {
+     "en": "Zehra is Deniz's grandmother.",
+     "tr": "Zehra Deniz'in büyükannesi."
+    },
+    {
+     "en": "My grandfather is a farmer.",
+     "tr": "Dedem çiftçi."
+    }
+   ],
+   "commonMistake": "anneanne için mother's mother açıklaması yeterlidir; ayrı kelime yoktur."
+  },
+  {
+   "id": "aunt-uncle",
+   "term": "aunt · uncle",
+   "meaning": "teyze, hala, yenge · dayı, amca, enişte",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "aunt · uncle"
+   ],
+   "explanation": [
+    "uncle = dayı, amca, enişte; aunt = teyze, hala, yenge. Hangisi olduğunu 's ile açıklarız: my mother's brother (dayı), my father's sister (hala)."
+   ],
+   "collocations": [
+    {
+     "en": "my uncle's farm",
+     "tr": "dayımın / amcamın çiftliği"
+    },
+    {
+     "en": "my aunt's house",
+     "tr": "teyzemin / halamın evi"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My uncle is my father's brother.",
+     "tr": "Amcam babamın erkek kardeşi."
+    },
+    {
+     "en": "Ali is my mother's brother. He's my uncle.",
+     "tr": "Ali annemin kardeşi. Dayım."
+    },
+    {
+     "en": "Aylin is Deniz's aunt.",
+     "tr": "Aylin Deniz'in halası."
+    }
+   ],
+   "commonMistake": "Türkçedeki her akraba adı için ayrı İngilizce kelime aranmaz; 's ile açıklanır."
+  },
+  {
+   "id": "cousin",
+   "term": "cousin",
+   "meaning": "kuzen",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "cousin"
+   ],
+   "explanation": [
+    "Amca, dayı, teyze ya da halanın çocuğu. Kız ve erkek için aynı kelimedir. Çoğul cousins."
+   ],
+   "collocations": [
+    {
+     "en": "my favourite cousin",
+     "tr": "en sevdiğim kuzenim"
+    },
+    {
+     "en": "cousins",
+     "tr": "kuzenler"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Can is my cousin.",
+     "tr": "Can benim kuzenim."
+    },
+    {
+     "en": "My uncle's son is my cousin.",
+     "tr": "Amcamın oğlu kuzenim."
+    },
+    {
+     "en": "I've got ten cousins.",
+     "tr": "On kuzenim var."
+    }
+   ],
+   "commonMistake": "my cousin girl / my cousin boy yerine sadece my cousin denir."
+  },
+  {
+   "id": "nephew-niece",
+   "term": "nephew · niece",
+   "meaning": "erkek yeğen · kız yeğen",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "nephew · niece"
+   ],
+   "explanation": [
+    "Kardeşin çocukları: oğlu nephew, kızı niece. Türkçedeki tek “yeğen” İngilizcede cinsiyete göre ikiye ayrılır."
+   ],
+   "collocations": [
+    {
+     "en": "my nephew's school",
+     "tr": "yeğenimin okulu"
+    },
+    {
+     "en": "nephews and nieces",
+     "tr": "yeğenler"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My sister's son is my nephew.",
+     "tr": "Kız kardeşimin oğlu yeğenim."
+    },
+    {
+     "en": "Ece is Aylin's niece.",
+     "tr": "Ece Aylin'in yeğeni."
+    },
+    {
+     "en": "I've got two nephews and a niece.",
+     "tr": "İki erkek, bir kız yeğenim var."
+    }
+   ],
+   "commonMistake": "Kız yeğen için nephew değil niece denir."
+  },
+  {
+   "id": "grandson",
+   "term": "grandson · granddaughter",
+   "meaning": "erkek torun · kız torun",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "grandson · granddaughter"
+   ],
+   "explanation": [
+    "Çocuğun çocukları. Çoğul ve cinsiyetsiz: grandchildren."
+   ],
+   "collocations": [
+    {
+     "en": "grandchildren",
+     "tr": "torunlar"
+    },
+    {
+     "en": "my first grandson",
+     "tr": "ilk erkek torunum"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Deniz is Hasan's grandson.",
+     "tr": "Deniz Hasan'ın erkek torunu."
+    },
+    {
+     "en": "Ece is Zehra's granddaughter.",
+     "tr": "Ece Zehra'nın kız torunu."
+    },
+    {
+     "en": "My parents love their grandchildren.",
+     "tr": "Annemle babam torunlarını çok seviyor."
+    }
+   ],
+   "commonMistake": "grandchilds yerine grandchildren denir."
+  }
+ ]
+}

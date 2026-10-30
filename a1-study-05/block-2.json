@@ -1,0 +1,2777 @@
+{
+ "version": 1,
+ "block": 2,
+ "chapters": [
+  {
+   "screenId": "warm2",
+   "title": "Isınma: Yılmaz ailesini hatırlamak",
+   "intro": [
+    "8 Kasım'da Yılmaz ailesinin soyağacını okuduk. Bugünkü ısınmada aynı ağaç bu kez isim etiketleri olmadan, sadece kişilerin adlarıyla ekranda. Kimin kim olduğunu hatırlayarak 's ile cümle kuruyoruz: Deniz is Kemal's son. Aylin is Can's mother.",
+    "Bu ısınma bugünün ilk konusuna doğrudan bağlanır. 's ekini geçen derste akrabalık için kullandık; bugün eşyalar, isimler ve yerler için de kullanacağız ve Whose …? (Kimin?) sorusunu öğreneceğiz."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Who is Ece's uncle? — Orhan.",
+     "tr": "Ece'nin amcası kim? — Orhan.",
+     "why": [
+      "Who is + Ece's + uncle; kısa cevapta sadece isim."
+     ]
+    },
+    {
+     "en": "Kemal and Selma are Deniz and Ece's parents.",
+     "tr": "Kemal ve Selma, Deniz ile Ece'nin anne babası.",
+     "why": [
+      "Ortak sahiplik: 's sadece son isme (Ece's)."
+     ]
+    },
+    {
+     "en": "Has Orhan got any children? — No, he hasn't.",
+     "tr": "Orhan'ın hiç çocuğu var mı? — Hayır.",
+     "why": [
+      "have got sorusu; kısa cevapta got yok."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "w2-recall",
+     "title": "Who is Can's mother? — Aylin. · Deniz is Kemal's son.",
+     "meaning": "Soyağacını hafızadan anlatmak",
+     "explanation": [
+      "Etiketsiz ağaçta önce kuşakları hatırlayın: en üstte Hasan ve Zehra, ortada çocukları ve eşleri (Kemal ❤ Selma, Aylin ❤ Murat, Orhan), en altta torunlar (Deniz, Ece, Can). Sonra her kişi için en az iki cümle kurun: Kemal is Deniz's father. He's Hasan's son.",
+      "Hızlı sorularda kısa cevap yeterlidir: Who is Ece's uncle? — Orhan. Has Orhan got any children? — No, he hasn't. Ama sınıfta tam cümleyle tekrar etmek akıcılığı artırır: Orhan is Ece's uncle.",
+      "Geçen dersteki sahiplik sıfatlarını da kullanın: Kemal and his wife, Aylin and her husband, Hasan and Zehra and their grandchildren. Böylece 's ile my / his / her birlikte pekişir."
+     ],
+     "formula": [
+      "Who is + kişi's + akraba? — İsim.",
+      "Kişi + is + kişi's + akraba.",
+      "his wife · her husband · their grandchildren"
+     ],
+     "examples": [
+      {
+       "en": "Who is Can's mother? — Aylin.",
+       "tr": "Can'ın annesi kim? — Aylin.",
+       "why": [
+        "Who is + 's; kısa cevap."
+       ]
+      },
+      {
+       "en": "Deniz is Kemal's son. Ece is his daughter.",
+       "tr": "Deniz Kemal'in oğlu. Ece onun kızı.",
+       "why": [
+        "'s ve his birlikte."
+       ],
+       "chunks": [
+        {
+         "en": "Kemal's son",
+         "tr": "Kemal'in oğlu"
+        },
+        {
+         "en": "his daughter",
+         "tr": "onun kızı",
+         "note": "sahip Kemal → his"
+        }
+       ]
+      },
+      {
+       "en": "Orhan is Ece's uncle. He hasn't got any children.",
+       "tr": "Orhan Ece'nin amcası. Hiç çocuğu yok.",
+       "why": [
+        "Akrabalık + have got."
+       ]
+      },
+      {
+       "en": "Hasan and Zehra love their grandchildren.",
+       "tr": "Hasan ve Zehra torunlarını çok seviyor.",
+       "why": [
+        "their: iki kişinin ortak torunları."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Murat is Can's ___ .",
+       "answer": "father",
+       "why": "Aylin'in eşi"
+      },
+      {
+       "question": "Who ___ Hasan's children? (is / are)",
+       "answer": "are",
+       "why": "Çoğul"
+      },
+      {
+       "question": "Selma is Ece's ___ .",
+       "answer": "mother",
+       "why": "Kemal'in eşi"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Aylin is Can mother.",
+       "right": "Aylin is Can's mother.",
+       "why": "'s unutulmaz."
+      },
+      {
+       "wrong": "Kemal and her wife",
+       "right": "Kemal and his wife",
+       "why": "Sahip erkek → his."
+      }
+     ]
+    },
+    {
+     "id": "w2-plan",
+     "title": "Bugün: 's · Whose? · tamlama · soru kelimeleri · meslekler",
+     "meaning": "14 Kasım'ın yol haritası",
+     "explanation": [
+      "Bugünün ilk yarısında sahiplik ve sorular var: 's ve s' ile kimin olduğunu söylemek, Whose …? ile kimin olduğunu sormak, of ile şeylerin tamlamasını kurmak ve altı soru kelimesini (Who, What, Where, Where … to, When, How) kullanmak.",
+      "İkinci yarıda meslekler geliyor: meslek adları, a / an kuralı, What do you do? ve Where do you work? soruları, anne ve babamızın mesleğini anlatmak, görselleri ve tanımları mesleklerle eşleştirmek.",
+      "Bu konular birbirini tamamlar: What does your father do? sorusu hem soru kelimesi hem meslek konusudur; Where does your mother work? hem Where sorusu hem iş yeri konusudur."
+     ],
+     "formula": [
+      "1. yarı: 's · s' · Whose …? · of · Who / What / Where / When / How",
+      "2. yarı: meslekler · a / an · What do you do? · Where do you work?",
+      "bağlantı: What does your father do? — He's a farmer."
+     ],
+     "examples": [
+      {
+       "en": "Whose bag is this? — It's Ece's.",
+       "tr": "Bu kimin çantası? — Ece'nin.",
+       "why": [
+        "Whose …?: bugünün ilk sorusu."
+       ]
+      },
+      {
+       "en": "Where do you go on Sundays? — To the market.",
+       "tr": "Pazar günleri nereye gidersin? — Pazara.",
+       "why": [
+        "Where … to: nereye."
+       ]
+      },
+      {
+       "en": "What does your father do? — He's a farmer.",
+       "tr": "Baban ne iş yapıyor? — Çiftçi.",
+       "why": [
+        "Soru kelimesi + meslek."
+       ]
+      },
+      {
+       "en": "She's a nurse. She works in a hospital.",
+       "tr": "Hemşire. Hastanede çalışıyor.",
+       "why": [
+        "a + meslek; in + iş yeri."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Bugünün ilk konusu ne?",
+       "answer": "'s ve Whose …? ile sahiplik.",
+       "why": "Plan."
+      },
+      {
+       "question": "Meslek sorusu nasıl sorulur?",
+       "answer": "What do you do?",
+       "why": "Plan."
+      },
+      {
+       "question": "Altı soru kelimesini sayın.",
+       "answer": "Who, What, Where, Where … to, When, How",
+       "why": "Plan."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Meslek konusunu soru kelimelerinden ayrı düşünmek.",
+       "right": "What do you do? / Where do you work? sorularını birlikte çalışmak.",
+       "why": "Konular bağlantılı."
+      },
+      {
+       "wrong": "'s'yi sadece aile için kullanmak.",
+       "right": "Eşyalar için de: Ali's car, the teacher's bag.",
+       "why": "Bugünün yeniliği."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "possessive-s",
+   "title": "'s · s' · Whose …?: kimin olduğunu söylemek ve sormak",
+   "intro": [
+    "MEB kazanımı: verilen bir cümledeki boşluklara sahiplik bildiren uygun ek veya ifadeleri yazar. Türkçede sahibi -in / -nın ekiyle söyleriz: Ali'nin arabası, öğretmenin çantası. İngilizcede sahibin adına 's ekleriz: Ali's car, the teacher's bag. Sıra Türkçeyle aynıdır: önce sahip, sonra sahip olunan şey.",
+    "Kimin olduğunu sormak için Whose …? kullanılır: Whose bag is this? (Bu kimin çantası?) Cevap: It's Ece's. ya da It's her bag. Whose ile Who's'un okunuşu aynıdır ama anlamları farklıdır; bu ayrımı da bu ekranda çalışıyoruz."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "My mother's name is Gülsüm.",
+     "tr": "Annemin adı Gülsüm.",
+     "why": [
+      "my mother's = annemin; name'de iyelik eki yok."
+     ]
+    },
+    {
+     "en": "My parents' house is in İnegöl.",
+     "tr": "Annemle babamın evi İnegöl'de.",
+     "why": [
+      "parents -s ile bittiği için sadece kesme işareti."
+     ]
+    },
+    {
+     "en": "The children's room is very small.",
+     "tr": "Çocukların odası çok küçük.",
+     "why": [
+      "children düzensiz çoğul; 's alır."
+     ]
+    },
+    {
+     "en": "Whose phone is this? — It's Kaan's.",
+     "tr": "Bu kimin telefonu? — Kaan'ın.",
+     "why": [
+      "Whose + phone + is this; cevapta eşya tekrar edilmez."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ps-rules",
+     "title": "Ali's car · my parents' house · the children's room",
+     "meaning": "'s ve s' kurallarını uygulamak",
+     "explanation": [
+      "Tek kişi ya da tekil isimle 's eklenir: Ali's car, my sister's son, the teacher's bag. -s ile biten tekil isimler de genellikle 's alır: Deniz's bike, James's bag.",
+      "-s ile biten çoğul isimlerde sadece kesme işareti (') eklenir: my parents' house (annemle babamın evi), the students' books (öğrencilerin kitapları). Okunuşu değişmez; fark yazıda görülür. -s ile bitmeyen düzensiz çoğullarda 's eklenir: the children's room, women's clothes.",
+      "İki kişinin ortak bir şeyi varsa 's sadece son isme gelir: Kemal and Selma's house (ortak ev). Türkçedeki iyelik eki (-sı, -i) İngilizcede ayrıca söylenmez: Ali'nin araba-sı → Ali's car."
+     ],
+     "formula": [
+      "tekil: isim + 's → Ali's car · Deniz's bike",
+      "-s ile biten çoğul: isim + ' → my parents' house",
+      "düzensiz çoğul: children's · ortak: Kemal and Selma's house"
+     ],
+     "examples": [
+      {
+       "en": "This is my brother's car.",
+       "tr": "Bu ağabeyimin arabası.",
+       "why": [
+        "Tekil sahip → 's."
+       ],
+       "chunks": [
+        {
+         "en": "my brother's",
+         "tr": "ağabeyimin",
+         "note": "'s = -in"
+        },
+        {
+         "en": "car",
+         "tr": "arabası",
+         "note": "iyelik eki yok"
+        }
+       ]
+      },
+      {
+       "en": "My parents' house is in İnegöl.",
+       "tr": "Annemle babamın evi İnegöl'de.",
+       "why": [
+        "-s ile biten çoğul → sadece '."
+       ]
+      },
+      {
+       "en": "The children's room is very small.",
+       "tr": "Çocukların odası çok küçük.",
+       "why": [
+        "children düzensiz çoğul → 's."
+       ]
+      },
+      {
+       "en": "The teacher's bag is on the table.",
+       "tr": "Öğretmenin çantası masanın üstünde.",
+       "why": [
+        "the teacher's bag."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Öğrencilerin kitapları” İngilizcesi?",
+       "answer": "the students' books",
+       "why": "-s çoğul → '"
+      },
+      {
+       "question": "“Kız kardeşimin oğlu” İngilizcesi?",
+       "answer": "my sister's son",
+       "why": "tekil → 's"
+      },
+      {
+       "question": "“Kemal ile Selma'nın evi” İngilizcesi?",
+       "answer": "Kemal and Selma's house",
+       "why": "'s sonda"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "my parents's house",
+       "right": "my parents' house",
+       "why": "-s ile biten çoğulda sadece kesme işareti."
+      },
+      {
+       "wrong": "Ali car / the car of Ali",
+       "right": "Ali's car",
+       "why": "İnsanlarla 's kullanılır."
+      }
+     ]
+    },
+    {
+     "id": "ps-whose",
+     "title": "Whose bag is this? — It's Ece's. / It's her bag.",
+     "meaning": "Kimin olduğunu sormak ve cevaplamak",
+     "explanation": [
+      "Whose = kimin. Ardından genellikle sahip olunan isim gelir: Whose bag is this? Whose phone is that? Çoğulda be fiili are olur: Whose keys are these? İsim olmadan da sorulabilir: Whose is this? (Bu kimin?)",
+      "Cevapta eşyayı tekrar etmek gerekmez: It's Ece's. (= It's Ece's bag.) They're my husband's. (anahtarlar için) Sahiplik sıfatıyla da cevap verilebilir: It's her bag. It's my phone.",
+      "Kısa cevapta 's unutulmamalıdır. It's Ece demek “O Ece'dir” anlamına gelir; doğrusu It's Ece's (Ece'nin)."
+     ],
+     "formula": [
+      "Whose + isim + is this / that? · Whose + çoğul + are these / those?",
+      "Cevap: It's + kişi's. · They're + kişi's.",
+      "It's her bag. · It's my phone."
+     ],
+     "examples": [
+      {
+       "en": "Whose phone is this? — It's Kaan's.",
+       "tr": "Bu kimin telefonu? — Kaan'ın.",
+       "why": [
+        "Kısa cevapta eşya tekrar edilmez."
+       ],
+       "chunks": [
+        {
+         "en": "Whose phone",
+         "tr": "kimin telefonu"
+        },
+        {
+         "en": "It's Kaan's.",
+         "tr": "Kaan'ın.",
+         "note": "'s şart"
+        }
+       ]
+      },
+      {
+       "en": "Whose keys are these? — They're my husband's.",
+       "tr": "Bunlar kimin anahtarları? — Eşimin.",
+       "why": [
+        "Çoğul → are, They're."
+       ]
+      },
+      {
+       "en": "Whose is that umbrella? — It's my mother's.",
+       "tr": "Şu şemsiye kimin? — Annemin.",
+       "why": [
+        "Whose is + nesne de olur."
+       ]
+      },
+      {
+       "en": "Whose bag is this? — It's her bag.",
+       "tr": "Bu kimin çantası? — Onun çantası.",
+       "why": [
+        "Sahiplik sıfatıyla cevap."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bunlar kimin ayakkabıları?” İngilizcesi?",
+       "answer": "Whose shoes are these?",
+       "why": "Çoğul → are"
+      },
+      {
+       "question": "Whose bag is this? — It's Ece. Cevabı düzeltin.",
+       "answer": "It's Ece's.",
+       "why": "'s şart"
+      },
+      {
+       "question": "“Şu araba kimin?” İngilizcesi?",
+       "answer": "Whose car is that?",
+       "why": "Whose + isim"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Who's bag is this?",
+       "right": "Whose bag is this?",
+       "why": "Whose = kimin; Who's = who is."
+      },
+      {
+       "wrong": "Whose are this bag?",
+       "right": "Whose bag is this?",
+       "why": "Tekil → is; sıra: Whose + isim + is + this."
+      }
+     ]
+    },
+    {
+     "id": "ps-s-meanings",
+     "title": "Ali's car · Ali's a doctor · Ali's got two cars",
+     "meaning": "'s'nin üç anlamını ayırt etmek",
+     "explanation": [
+      "İngilizcede 's üç farklı anlama gelebilir. Sahiplik: Ali's car (Ali'nin arabası). is'in kısaltması: Ali's a doctor (Ali doktordur). has'in kısaltması: Ali's got two cars (Ali'nin iki arabası var).",
+      "Hangisi olduğunu arkasından gelen kelimeye bakarak anlarız. Arkasında bir isim varsa (car, bag, son) sahipliktir. Arkasında a / an + meslek, sıfat, yer ya da sayı varsa is'tir. Arkasında got varsa has'tir.",
+      "Who's ve Whose de bu yüzden karışır. Who's that? = Who is that? (Şu kim?) Whose car is that? (Şu kimin arabası?) Okunuşları aynıdır; yazarken anlama dikkat edin."
+     ],
+     "formula": [
+      "'s + isim → sahiplik: Ali's car",
+      "'s + a / sıfat / yer → is: Ali's a doctor. Ali's at home.",
+      "'s + got → has: Ali's got two cars. · Who's = who is ≠ Whose"
+     ],
+     "examples": [
+      {
+       "en": "Ali's car is new. Ali's a doctor. Ali's got two cars.",
+       "tr": "Ali'nin arabası yeni. Ali doktor. Ali'nin iki arabası var.",
+       "why": [
+        "Üç 's, üç anlam."
+       ]
+      },
+      {
+       "en": "Who's that man? — He's my uncle.",
+       "tr": "Şu adam kim? — Dayım.",
+       "why": [
+        "Who's = who is."
+       ]
+      },
+      {
+       "en": "Whose car is that? — It's my uncle's.",
+       "tr": "Şu kimin arabası? — Dayımın.",
+       "why": [
+        "Whose = kimin."
+       ],
+       "chunks": [
+        {
+         "en": "Whose car",
+         "tr": "kimin arabası"
+        },
+        {
+         "en": "my uncle's",
+         "tr": "dayımın"
+        }
+       ]
+      },
+      {
+       "en": "My sister's at home. She's got a cold.",
+       "tr": "Kız kardeşim evde. Soğuk algınlığı var.",
+       "why": [
+        "sister's = sister is; she's got = she has got."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Ece's a teacher. 's = ?",
+       "answer": "is",
+       "why": "a + meslek"
+      },
+      {
+       "question": "Ece's got a cat. 's = ?",
+       "answer": "has",
+       "why": "got"
+      },
+      {
+       "question": "Ece's cat is white. 's = ?",
+       "answer": "sahiplik",
+       "why": "+ isim"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Who's is this?",
+       "right": "Whose is this?",
+       "why": "Kimin = Whose."
+      },
+      {
+       "wrong": "Whose that man?",
+       "right": "Who's that man?",
+       "why": "Kim = Who is."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "Who's / Whose",
+       "explanation": [
+        "Okunuşları aynıdır. Who's kim olduğunu, Whose kimin olduğunu sorar."
+       ],
+       "example": "Who's that? — My uncle. Whose car is that? — My uncle's.",
+       "tr": [
+        "Şu kim? — Dayım. Şu kimin arabası? — Dayımın."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "noun-phrases",
+   "title": "Tamlama kurmak: 's mi, of mu? İki katlı tamlama",
+   "intro": [
+    "MEB kazanımı: sahiplik bildiren ifadeleri kullanarak tamlama yapar. Türkçedeki isim tamlamaları (Ali'nin arabası, sokağın adı, kız kardeşimin kocasının adı) İngilizcede iki yolla kurulur. İnsanlar ve hayvanlarla genellikle 's kullanılır: Ali's car, the cat's food. Şeyler ve yerlerle çoğunlukla of kullanılır: the name of the street, the door of the car.",
+    "'s ile kurulan tamlamada sıra Türkçe ile aynıdır: my mother's name = annemin adı. of ile kurulan tamlamada sıra terstir: the name of the street = sokağın adı (önce ad, sonra sokak). İki katlı tamlama da kurulabilir: my sister's husband's name = kız kardeşimin kocasının adı."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "What's the name of the street?",
+     "tr": "Sokağın adı ne?",
+     "why": [
+      "Şeylerle of; sıra Türkçeye göre ters: the name of the street."
+     ]
+    },
+    {
+     "en": "My sister's husband's name is Ahmet.",
+     "tr": "Kız kardeşimin kocasının adı Ahmet.",
+     "why": [
+      "İki 's; her biri bir -in ekine karşılık gelir."
+     ]
+    },
+    {
+     "en": "Her son's school is near our house.",
+     "tr": "Oğlunun okulu evimizin yakınında.",
+     "why": [
+      "her son's school; near our house = evimizin yakınında."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "np-s-of",
+     "title": "Ali's car · the name of the street",
+     "meaning": "'s ile of arasında seçim yapmak",
+     "explanation": [
+      "Sahip bir insan ya da hayvansa 's kullanın: Ali's car, my mother's name, the cat's food, the teacher's desk. Sıra Türkçeyle aynıdır: sahip önce, sahip olunan sonra.",
+      "Sahip bir şey ya da yerse çoğunlukla of kullanılır: the name of the street (sokağın adı), the door of the car (arabanın kapısı), the end of the film (filmin sonu), the top of the page (sayfanın üstü). Burada sıra Türkçeye göre terstir: önce sahip olunan, sonra of + sahip. Başta genellikle the vardır.",
+      "Bu bir eğilimdir, kesin bir yasa değildir. Bazı yer adlarıyla 's de doğaldır: Bursa's parks, Turkey's capital. A1 düzeyinde basit kural yeterlidir: insan ve hayvan → 's, şey → of."
+     ],
+     "formula": [
+      "insan / hayvan: kişi + 's + şey → Ali's car",
+      "şey / yer: the + şey + of + the + şey → the name of the street",
+      "sıra: 's Türkçe gibi · of ters"
+     ],
+     "examples": [
+      {
+       "en": "What's the name of the street?",
+       "tr": "Sokağın adı ne?",
+       "why": [
+        "Şey → of; sıra ters."
+       ],
+       "chunks": [
+        {
+         "en": "the name",
+         "tr": "adı",
+         "note": "önce"
+        },
+        {
+         "en": "of the street",
+         "tr": "sokağın",
+         "note": "sonra"
+        }
+       ]
+      },
+      {
+       "en": "The door of the car is open.",
+       "tr": "Arabanın kapısı açık.",
+       "why": [
+        "the door of the car."
+       ]
+      },
+      {
+       "en": "The cat's food is in the kitchen.",
+       "tr": "Kedinin maması mutfakta.",
+       "why": [
+        "Hayvan → 's."
+       ]
+      },
+      {
+       "en": "I don't like the end of the film.",
+       "tr": "Filmin sonunu sevmiyorum.",
+       "why": [
+        "the end of the film."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Sayfanın üstü” İngilizcesi?",
+       "answer": "the top of the page",
+       "why": "Şey → of"
+      },
+      {
+       "question": "“Öğretmenin masası” İngilizcesi?",
+       "answer": "the teacher's desk",
+       "why": "İnsan → 's"
+      },
+      {
+       "question": "the street's name ile the name of the street hangisi daha doğal?",
+       "answer": "the name of the street",
+       "why": "Şey → of"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "the car's door of",
+       "right": "the door of the car",
+       "why": "of tamlamasında sıra: the + şey + of + the + şey."
+      },
+      {
+       "wrong": "the name the street",
+       "right": "the name of the street",
+       "why": "of unutulmaz."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "'s / of",
+       "explanation": [
+        "'s ile sahip önce gelir; of ile sahip olunan önce gelir."
+       ],
+       "example": "Ali's car · the name of the street",
+       "tr": [
+        "Ali'nin arabası · sokağın adı"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "np-double",
+     "title": "My sister's husband's name is Ahmet.",
+     "meaning": "İki katlı tamlama ve sahiplik sıfatıyla başlayan tamlama",
+     "explanation": [
+      "İki kez 's kullanarak iki katlı tamlama kurabilirsiniz: my sister's husband's name (kız kardeşimin kocasının adı), my father's brother's son (amcamın oğlu). Sıra yine Türkçeyle aynıdır; her 's bir -in ekine karşılık gelir.",
+      "Tamlama bir sahiplik sıfatıyla başlayabilir: my friend's car (arkadaşımın arabası), her son's school (oğlunun okulu), our neighbour's dog (komşumuzun köpeği). Sahiplik sıfatı ilk sahibin kime ait olduğunu gösterir.",
+      "Çok uzun tamlamalar (üç dört kat) İngilizcede de ağırdır; böyle durumlarda cümleyi ikiye bölmek daha doğaldır: My sister's husband is Ahmet. His brother's name is Ali."
+     ],
+     "formula": [
+      "iki kat: my sister's husband's name",
+      "sahiplik sıfatı + kişi's + şey: her son's school",
+      "çok uzunsa böl: My sister's husband is Ahmet. His brother is Ali."
+     ],
+     "examples": [
+      {
+       "en": "My sister's husband's name is Ahmet.",
+       "tr": "Kız kardeşimin kocasının adı Ahmet.",
+       "why": [
+        "İki 's, Türkçe sırayla."
+       ],
+       "chunks": [
+        {
+         "en": "My sister's",
+         "tr": "kız kardeşimin"
+        },
+        {
+         "en": "husband's",
+         "tr": "kocasının"
+        },
+        {
+         "en": "name",
+         "tr": "adı"
+        }
+       ]
+      },
+      {
+       "en": "Her son's school is near our house.",
+       "tr": "Oğlunun okulu evimizin yakınında.",
+       "why": [
+        "her + son's + school."
+       ]
+      },
+      {
+       "en": "My father's brother's son is my cousin.",
+       "tr": "Amcamın oğlu kuzenim.",
+       "why": [
+        "İki katlı akrabalık."
+       ]
+      },
+      {
+       "en": "Our neighbour's dog is very big.",
+       "tr": "Komşumuzun köpeği çok büyük.",
+       "why": [
+        "our + neighbour's + dog."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Arkadaşımın arabası” İngilizcesi?",
+       "answer": "my friend's car",
+       "why": "my + friend's"
+      },
+      {
+       "question": "“Annemin kız kardeşinin evi” İngilizcesi?",
+       "answer": "my mother's sister's house",
+       "why": "İki kat"
+      },
+      {
+       "question": "“Oğlunun okulu” (kadın) İngilizcesi?",
+       "answer": "her son's school",
+       "why": "her + 's"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "my sister husband name",
+       "right": "my sister's husband's name",
+       "why": "Her katta 's gerekir."
+      },
+      {
+       "wrong": "the name of my sister's of husband",
+       "right": "my sister's husband's name",
+       "why": "İnsanlarla 's yeterli."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "wh-questions",
+   "title": "Soru kelimeleri: Who, What, Where, Where … to, When, How",
+   "intro": [
+    "MEB kazanımı: Kim?, Ne?, Nerede?, Nereye?, Ne zaman?, Nasıl? sorularını kullanır ve bunlarla ilgili kendisine verilen sorulara cevap verir. İngilizcede soru kelimesi her zaman cümlenin başındadır: Where do you live? Türkçede soru kelimesi ortada olabilir: Sen nerede oturuyorsun?",
+    "Soru kelimesinden sonra bir yardımcı fiil gelir. Cümlede bir eylem fiili varsa do / does (Where do you live?), yoksa is / are (Where is your house? Who is your teacher?) kullanılır. Bu sırayı öğrenmek bütün soru cümlelerinin anahtarıdır."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Where do you live? — In Bursa.",
+     "tr": "Nerede oturuyorsun? — Bursa'da.",
+     "why": [
+      "Soru kelimesi başta; do yardımcı fiil; kısa cevap in + yer."
+     ]
+    },
+    {
+     "en": "Where do you go on Sundays? — To the market.",
+     "tr": "Pazar günleri nereye gidersin? — Pazara.",
+     "why": [
+      "Nereye sorusu Where ile; hedef cevapta to ile gelir."
+     ]
+    },
+    {
+     "en": "When is your birthday? — In May.",
+     "tr": "Doğum günün ne zaman? — Mayıs'ta.",
+     "why": [
+      "Fiil yok → is; ay ile in."
+     ]
+    },
+    {
+     "en": "How do you go to work? — By bus.",
+     "tr": "İşe nasıl gidersin? — Otobüsle.",
+     "why": [
+      "How araç sorar; cevap by + araç."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "wh-words",
+     "title": "Who = kim · What = ne · Where = nerede / nereye · When = ne zaman · How = nasıl",
+     "meaning": "Soru kelimelerinin anlamlarını ve sordukları bilgiyi bilmek",
+     "explanation": [
+      "Who kişi sorar: Who is your teacher? — Gürkan Öztürk. What şey ya da bilgi sorar: What is your job? — I'm a nurse. What time saat, What colour renk sorar.",
+      "Where yer sorar: Where do you live? — In Bursa. Türkçedeki “nereye” için de Where kullanılır; hedefi gösteren to genellikle cevapta gelir: Where do you go on Sundays? — To the market. Konuşmada sorunun sonuna to eklenebilir (Where are you going to?) ama gerekmez.",
+      "When zaman sorar: When is your birthday? — In May. / On 12 May. Saat için çoğunlukla What time kullanılır. How yol, araç ya da durum sorar: How do you go to work? — By bus. How are you? — I'm fine. How old yaş, How many sayı sorar."
+     ],
+     "formula": [
+      "Who → kişi · What → şey / bilgi (What time, What colour)",
+      "Where → yer · Where … (to) → hedef: — To the market.",
+      "When → zaman · How → yol, araç, durum (How old, How many)"
+     ],
+     "examples": [
+      {
+       "en": "Who is your best friend? — Ece.",
+       "tr": "En iyi arkadaşın kim? — Ece.",
+       "why": [
+        "Who → kişi."
+       ]
+      },
+      {
+       "en": "Where do you go after the course? — To my mother's house.",
+       "tr": "Kurstan sonra nereye gidersin? — Annemin evine.",
+       "why": [
+        "Where … to: cevapta to."
+       ],
+       "chunks": [
+        {
+         "en": "Where do you go",
+         "tr": "nereye gidersin"
+        },
+        {
+         "en": "To my mother's house.",
+         "tr": "Annemin evine.",
+         "note": "to = -e"
+        }
+       ]
+      },
+      {
+       "en": "When do you go to the market? — On Tuesdays.",
+       "tr": "Pazara ne zaman gidersin? — Salı günleri.",
+       "why": [
+        "When → zaman."
+       ]
+      },
+      {
+       "en": "How do you go to work? — On foot.",
+       "tr": "İşe nasıl gidersin? — Yürüyerek.",
+       "why": [
+        "How → yol, araç."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Ne zaman?” İngilizcesi?",
+       "answer": "When?",
+       "why": "zaman"
+      },
+      {
+       "question": "Where do you go on Sundays? sorusunun cevabında hangi edat gelir?",
+       "answer": "to (To the market.)",
+       "why": "nereye"
+      },
+      {
+       "question": "Yaş hangi soruyla sorulur?",
+       "answer": "How old …?",
+       "why": "How old"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "What is your teacher? (kişiyi sormak için)",
+       "right": "Who is your teacher?",
+       "why": "Kişi → Who."
+      },
+      {
+       "wrong": "Where do you go? — In the market.",
+       "right": "To the market.",
+       "why": "Nereye sorusunun cevabı to ile."
+      }
+     ]
+    },
+    {
+     "id": "wh-order",
+     "title": "Where do you live? · Where does your sister work? · Who is your teacher?",
+     "meaning": "Soru cümlesini doğru sırayla kurmak",
+     "explanation": [
+      "Soru cümlesinin sırası: soru kelimesi + yardımcı fiil + özne + fiil. Cümlede bir eylem fiili (live, work, go) varsa yardımcı fiil do / does'tur: Where do you live? Where does your sister work? does ile fiil yalın kalır (works ✗).",
+      "Cümlede eylem fiili yoksa, yani bir yer, isim, sıfat ya da yaş soruluyorsa yardımcı fiil is / are'dır: Who is your teacher? When is your birthday? Where are your keys? Bu cümlelere do eklenmez: Where do your keys? ✗",
+      "Türkçe sırayla düşünmek en sık hatanın kaynağıdır: Sen nerede oturuyorsun? → Where you live? ✗ Yardımcı fiil unutulmamalı: Where do you live? ✓ Benzer şekilde Where are you live? ✗ (eylem fiiliyle are kullanılmaz)."
+     ],
+     "formula": [
+      "soru kelimesi + do / does + özne + yalın fiil? → Where do you live?",
+      "soru kelimesi + is / are + özne? → Who is your teacher?",
+      "Where you live? ✗ · Where are you live? ✗"
+     ],
+     "examples": [
+      {
+       "en": "Where does your sister work? — In a bank.",
+       "tr": "Kız kardeşin nerede çalışıyor? — Bir bankada.",
+       "why": [
+        "does + work (yalın)."
+       ]
+      },
+      {
+       "en": "When is your birthday? — In May.",
+       "tr": "Doğum günün ne zaman? — Mayıs'ta.",
+       "why": [
+        "Fiil yok → is."
+       ]
+      },
+      {
+       "en": "How do your children go to school? — By bus.",
+       "tr": "Çocukların okula nasıl gidiyor? — Otobüsle.",
+       "why": [
+        "Çoğul özne → do."
+       ],
+       "chunks": [
+        {
+         "en": "How do",
+         "tr": "nasıl",
+         "note": "soru + do"
+        },
+        {
+         "en": "your children",
+         "tr": "çocukların",
+         "note": "özne"
+        },
+        {
+         "en": "go to school",
+         "tr": "okula gitmek",
+         "note": "yalın fiil"
+        }
+       ]
+      },
+      {
+       "en": "Where are my keys? — They're on the table.",
+       "tr": "Anahtarlarım nerede? — Masanın üstünde.",
+       "why": [
+        "Fiil yok, çoğul → are."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Annen nerede yaşıyor?” İngilizcesi?",
+       "answer": "Where does your mother live?",
+       "why": "does + live"
+      },
+      {
+       "question": "Where you work? cümlesini düzeltin.",
+       "answer": "Where do you work?",
+       "why": "do eksik"
+      },
+      {
+       "question": "“Öğretmenin kim?” İngilizcesi?",
+       "answer": "Who is your teacher?",
+       "why": "Fiil yok → is"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Where does she lives?",
+       "right": "Where does she live?",
+       "why": "does'tan sonra fiil yalın."
+      },
+      {
+       "wrong": "Where is your father work?",
+       "right": "Where does your father work?",
+       "why": "Eylem fiili → does."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "wh-practice",
+   "title": "Okuma: Orhan's week ve soru kelimeleriyle cevaplar",
+   "intro": [
+    "Bu ekranda Yılmaz ailesinden Orhan'ın haftasını okuyoruz. Orhan Mudanya'da yaşayan, bir balık restoranında çalışan bir aşçı. Metindeki renkli işaretler kişileri (who), yerleri (where) ve zamanları (when) gösteriyor. Her sorunun cevabı metinde var.",
+    "Okuma sorularını cevaplarken önce soru kelimesine bakın: Who kişi, Where yer, When zaman, How yol arar. Sonra metinde o bilgiyi bulun. Cevap kısa olabilir (By motorbike.) ya da tam cümle (He goes to work by motorbike.)."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Orhan is Hasan and Zehra's son. He's thirty-five.",
+     "tr": "Orhan, Hasan ile Zehra'nın oğlu. Otuz beş yaşında.",
+     "why": [
+      "Ortak sahiplik 's sonda; yaş be ile."
+     ]
+    },
+    {
+     "en": "He lives in a small flat in Mudanya.",
+     "tr": "Mudanya'da küçük bir dairede yaşıyor.",
+     "why": [
+      "lives (-s); in a small flat in Mudanya iki yer bilgisi."
+     ]
+    },
+    {
+     "en": "He goes to work at ten o'clock by motorbike.",
+     "tr": "Saat onda motosikletle işe gidiyor.",
+     "why": [
+      "goes (-es); at + saat; by + araç."
+     ]
+    },
+    {
+     "en": "On Mondays, the restaurant is closed.",
+     "tr": "Pazartesileri restoran kapalı.",
+     "why": [
+      "On Mondays = pazartesileri; closed sıfat."
+     ]
+    },
+    {
+     "en": "His birthday is in July, and every year the family has a picnic at the beach.",
+     "tr": "Doğum günü temmuzda ve her yıl aile sahilde piknik yapıyor.",
+     "why": [
+      "in + ay; the family → has; at the beach."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "wp-find",
+     "title": "Where does he live? — In a small flat in Mudanya.",
+     "meaning": "Metinden bilgi bulup soruları cevaplamak",
+     "explanation": [
+      "Soru kelimesi hangi bilgiyi arayacağınızı söyler. Where does Orhan live? sorusu için metinde bir yer ararsınız: in a small flat in Mudanya. When is his birthday? için bir zaman ararsınız: in July. How does he go to work? için bir araç ararsınız: by motorbike.",
+      "Kısa cevap konuşmada çok doğaldır: In July. By motorbike. To Bursa. Tam cevapta özneyi zamirle değiştirin ve fiile -s ekleyin: He goes to work by motorbike. His birthday is in July.",
+      "Metindeki iki küçük kurala dikkat edin. Soruda does varsa fiil yalın kalır: Where does he live? (lives ✗). Nereye sorusunun cevabı to ile gelir: Where does he go on Mondays? — To Bursa."
+     ],
+     "formula": [
+      "Who → kişi · Where → yer · When → zaman · How → araç / yol",
+      "kısa cevap: In July. / By motorbike. / To Bursa.",
+      "tam cevap: He goes to work by motorbike."
+     ],
+     "examples": [
+      {
+       "en": "Who is Orhan? — He's Hasan and Zehra's son.",
+       "tr": "Orhan kim? — Hasan ile Zehra'nın oğlu.",
+       "why": [
+        "Who → kişi; ortak sahiplik 's sonda."
+       ]
+      },
+      {
+       "en": "How does he go to work? — By motorbike.",
+       "tr": "İşe nasıl gidiyor? — Motosikletle.",
+       "why": [
+        "How → araç; by + araç."
+       ],
+       "chunks": [
+        {
+         "en": "How does he go",
+         "tr": "nasıl gidiyor"
+        },
+        {
+         "en": "By motorbike.",
+         "tr": "Motosikletle.",
+         "note": "by + araç"
+        }
+       ]
+      },
+      {
+       "en": "Where does he go on Mondays? — To Bursa.",
+       "tr": "Pazartesileri nereye gidiyor? — Bursa'ya.",
+       "why": [
+        "Nereye → to."
+       ]
+      },
+      {
+       "en": "When is his birthday? — In July.",
+       "tr": "Doğum günü ne zaman? — Temmuz'da.",
+       "why": [
+        "When → zaman; ay ile in."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "What does Orhan do?",
+       "answer": "He's a cook.",
+       "why": "Meslek sorusu"
+      },
+      {
+       "question": "Who is his best friend?",
+       "answer": "Ali, the restaurant's waiter.",
+       "why": "Who → kişi"
+      },
+      {
+       "question": "Where does he work?",
+       "answer": "In a fish restaurant by the sea.",
+       "why": "Where → yer"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Where does he lives?",
+       "right": "Where does he live?",
+       "why": "does + yalın fiil."
+      },
+      {
+       "wrong": "Where does he go on Mondays? — In Bursa.",
+       "right": "To Bursa.",
+       "why": "Nereye → to."
+      }
+     ]
+    },
+    {
+     "id": "wp-ask",
+     "title": "Kendi sorularını kurmak: Where does …? When is …?",
+     "meaning": "Metne ve bir arkadaşa soru sormak",
+     "explanation": [
+      "Kazanımın son kısmı kendisinin soru sormasıdır. Bir bilgiyi cevap olarak düşünüp onun sorusunu kurun: In a fish restaurant → Where does he work? At ten o'clock → What time does he go to work? On Mondays → When does he go to Bursa?",
+      "Arkadaşınıza aynı soruları sen ile sorun: Where do you live? What do you do? How do you come to the course? When is your birthday? Cevaplarını defterinize üçüncü tekil kişiyle yazın: She lives in Osmangazi. She comes to the course by bus.",
+      "Soru kurarken iki kontrol yapın: Soru kelimesi başta mı? Yardımcı fiil (do / does / is / are) özneden önce mi? Bu iki kontrol hataların çoğunu önler."
+     ],
+     "formula": [
+      "cevap → soru: In a restaurant → Where does he work?",
+      "arkadaşa: Where do you live? How do you come to the course?",
+      "kontrol: soru kelimesi başta · yardımcı fiil özneden önce"
+     ],
+     "examples": [
+      {
+       "en": "He visits his parents. → Who does he visit?",
+       "tr": "Annesiyle babasını ziyaret ediyor. → Kimi ziyaret ediyor?",
+       "why": [
+        "Who + does + özne + yalın fiil."
+       ]
+      },
+      {
+       "en": "At ten o'clock. → What time does he go to work?",
+       "tr": "Saat onda. → İşe saat kaçta gidiyor?",
+       "why": [
+        "Saat → What time."
+       ]
+      },
+      {
+       "en": "How do you come to the course? — By bus.",
+       "tr": "Kursa nasıl geliyorsun? — Otobüsle.",
+       "why": [
+        "Arkadaşa sor."
+       ],
+       "chunks": [
+        {
+         "en": "How do you come",
+         "tr": "nasıl geliyorsun"
+        },
+        {
+         "en": "to the course",
+         "tr": "kursa"
+        }
+       ]
+      },
+      {
+       "en": "She comes to the course by bus.",
+       "tr": "Kursa otobüsle geliyor.",
+       "why": [
+        "Cevabı üçüncü tekil kişiyle yaz."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Cevap: In Mudanya. Soru?",
+       "answer": "Where does he live?",
+       "why": "Yer → Where"
+      },
+      {
+       "question": "Cevap: In July. Soru?",
+       "answer": "When is his birthday?",
+       "why": "Zaman → When"
+      },
+      {
+       "question": "Cevap: He's a cook. Soru?",
+       "answer": "What does he do?",
+       "why": "Meslek"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Who he visits?",
+       "right": "Who does he visit?",
+       "why": "Yardımcı fiil gerekli."
+      },
+      {
+       "wrong": "When does his birthday?",
+       "right": "When is his birthday?",
+       "why": "Fiil yok → is."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "jobs",
+   "title": "Meslekler: görselden mesleği tanımak ve a / an kuralı",
+   "intro": [
+    "MEB kazanımı: bir meslek ile ilgili verilen görselden mesleği tanır. Bu ekranda otuza yakın meslek adını beş grupta öğreniyoruz: sağlık (doctor, nurse, dentist, pharmacist), okul ve güvenlik (teacher, student, police officer, firefighter, soldier), yiyecek ve tarım (farmer, baker, cook, waiter), yol ve yapı (driver, pilot, mechanic, engineer, builder, electrician) ve hizmet (hairdresser, tailor, cleaner, shop assistant, cashier).",
+    "Meslek söylerken İngilizcede a / an şarttır: She's a nurse. He's an engineer. Türkçede “O hemşire” deriz; İngilizcede She's nurse yanlıştır. retired (emekli) ve unemployed (işsiz) ise meslek adı değil sıfattır; önlerine a gelmez."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "She's a nurse. He's an engineer.",
+     "tr": "O (kadın) hemşire. O (erkek) mühendis.",
+     "why": [
+      "Meslekte a / an şart; engineer ünlü sesle başladığı için an."
+     ]
+    },
+    {
+     "en": "My mother is a housewife. My father is retired.",
+     "tr": "Annem ev hanımı. Babam emekli.",
+     "why": [
+      "housewife isim → a; retired sıfat → a yok."
+     ]
+    },
+    {
+     "en": "He's a bus driver.",
+     "tr": "Otobüs şoförü.",
+     "why": [
+      "bus driver birleşik meslek adı; a ile."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "jb-names",
+     "title": "doctor · nurse · farmer · mechanic · engineer · hairdresser",
+     "meaning": "Meslek adlarını gruplar hâlinde öğrenmek",
+     "explanation": [
+      "Meslekleri iş yerine göre gruplamak hatırlamayı kolaylaştırır. Hastanede ve sağlıkta: doctor (doktor), nurse (hemşire), dentist (diş hekimi), pharmacist (eczacı). Okulda ve güvenlikte: teacher, student, police officer (polis memuru), firefighter (itfaiyeci), soldier (asker).",
+      "Yiyecek ve tarımda: farmer (çiftçi), baker (fırıncı), cook (aşçı), waiter (garson). Yolda ve yapıda: driver (şoför), pilot, mechanic (tamirci), engineer (mühendis), builder (inşaat işçisi), electrician (elektrikçi). Hizmette: hairdresser (kuaför, berber), tailor (terzi), cleaner (temizlik görevlisi), shop assistant (tezgâhtar), cashier (kasiyer).",
+      "Birçok meslek adı -er, -or, -ist, -ian ile biter: teacher, driver, doctor, dentist, electrician. cook hem fiil (pişirmek) hem meslek (aşçı) anlamındadır; cooker ise ocak demektir, meslek değildir. Bazı meslek adları kadın ve erkek için aynıdır: doctor, teacher, police officer, firefighter."
+     ],
+     "formula": [
+      "sağlık: doctor · nurse · dentist · pharmacist",
+      "yiyecek ve tarım: farmer · baker · cook · waiter · yol ve yapı: driver · pilot · mechanic · engineer · builder · electrician",
+      "hizmet: hairdresser · tailor · cleaner · shop assistant · cashier"
+     ],
+     "examples": [
+      {
+       "en": "My sister is a nurse.",
+       "tr": "Kız kardeşim hemşire.",
+       "why": [
+        "a + meslek."
+       ]
+      },
+      {
+       "en": "My grandfather is a farmer.",
+       "tr": "Dedem çiftçi.",
+       "why": [
+        "farmer: çiftçi."
+       ]
+      },
+      {
+       "en": "He's a bus driver. He drives the number 38 bus.",
+       "tr": "Otobüs şoförü. 38 numaralı otobüsü kullanıyor.",
+       "why": [
+        "bus + driver: birleşik meslek adı."
+       ],
+       "chunks": [
+        {
+         "en": "a bus driver",
+         "tr": "otobüs şoförü"
+        },
+        {
+         "en": "drives",
+         "tr": "kullanır",
+         "note": "+s"
+        }
+       ]
+      },
+      {
+       "en": "My neighbour is a hairdresser.",
+       "tr": "Komşum kuaför.",
+       "why": [
+        "hairdresser: kuaför, berber."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Eczacı” İngilizcesi?",
+       "answer": "pharmacist",
+       "why": "sağlık"
+      },
+      {
+       "question": "“Tamirci” İngilizcesi?",
+       "answer": "mechanic",
+       "why": "yol ve yapı"
+      },
+      {
+       "question": "cook ile cooker'ın farkı?",
+       "answer": "cook = aşçı; cooker = ocak.",
+       "why": "Dikkat"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "He's a cooker.",
+       "right": "He's a cook.",
+       "why": "Aşçı cook'tur; cooker ocak."
+      },
+      {
+       "wrong": "She's a policeman.",
+       "right": "She's a police officer.",
+       "why": "Cinsiyetsiz biçim police officer."
+      }
+     ]
+    },
+    {
+     "id": "jb-a-an",
+     "title": "She's a nurse. He's an engineer. I'm retired. They're teachers.",
+     "meaning": "a, an ya da hiçbiri",
+     "explanation": [
+      "Meslek adının ilk sesi ünlüyse an kullanılır: an engineer, an electrician, an artist. İlk sesi ünsüzse a: a doctor, a nurse, a pilot. Kural harfe değil sese göredir: a university (yu sesi), an hour (h okunmaz). Meslek adlarında bu istisnalar azdır.",
+      "Sıfat varsa a / an sıfata göre seçilir: an engineer ama a good engineer; a cook ama an excellent cook.",
+      "retired (emekli) ve unemployed (işsiz) birer sıfattır; önlerine a gelmez: My father is retired. I'm unemployed. Çoğulda da a kullanılmaz ve meslek adı çoğul olur: They're teachers. My parents are farmers."
+     ],
+     "formula": [
+      "ünlü ses → an: an engineer, an electrician",
+      "ünsüz ses → a: a doctor, a nurse · sıfata göre: a good engineer",
+      "retired / unemployed / çoğul → a yok: They're teachers."
+     ],
+     "examples": [
+      {
+       "en": "She's an engineer. Her husband is a builder.",
+       "tr": "Mühendis. Kocası inşaat işçisi.",
+       "why": [
+        "Ünlü ses → an; ünsüz ses → a."
+       ],
+       "chunks": [
+        {
+         "en": "an engineer",
+         "tr": "mühendis",
+         "note": "e ünlü"
+        },
+        {
+         "en": "a builder",
+         "tr": "inşaat işçisi",
+         "note": "b ünsüz"
+        }
+       ]
+      },
+      {
+       "en": "My father was a farmer. Now he's retired.",
+       "tr": "Babam çiftçiydi. Şimdi emekli.",
+       "why": [
+        "retired → a yok."
+       ]
+      },
+      {
+       "en": "My parents are teachers.",
+       "tr": "Annem ve babam öğretmen.",
+       "why": [
+        "Çoğul → a yok, teachers."
+       ]
+      },
+      {
+       "en": "He's a very good electrician.",
+       "tr": "Çok iyi bir elektrikçi.",
+       "why": [
+        "Sıfat var → a (very ünsüz)."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "___ electrician (a / an)",
+       "answer": "an",
+       "why": "ünlü ses"
+      },
+      {
+       "question": "My mother is ___ retired. (a / an / —)",
+       "answer": "— (a yok)",
+       "why": "sıfat"
+      },
+      {
+       "question": "“Onlar hemşire.” İngilizcesi?",
+       "answer": "They're nurses.",
+       "why": "Çoğul"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "She's nurse.",
+       "right": "She's a nurse.",
+       "why": "Meslekte a şart."
+      },
+      {
+       "wrong": "He's a retired.",
+       "right": "He's retired.",
+       "why": "retired sıfat; a yok."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "what-do-you-do",
+   "title": "What do you do? Kendi mesleğini ve ailenin mesleklerini anlatmak",
+   "intro": [
+    "MEB kazanımları: kendi mesleğini söyler ve karşısındaki kişiye mesleğini sorar; anne ve babasının mesleğini söyler ve yazar. Meslek sormanın en doğal yolu What do you do? sorusudur. Kelime kelime “Ne yaparsın?” demektir ama mesleği sorar. Cevap: I'm a nurse. Şu anda ne yaptığını sormak için ise What are you doing? kullanılır.",
+    "Nerede çalıştığımızı söylemek için Where do you work? — I work in a hospital. kullanırız. Bir binanın içi için in (in a hospital, in a shop), çiftlik ve şantiye için on (on a farm), ev ve belirli bir nokta için at (at home) kullanılır."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Hi, I'm Kaan. What do you do?",
+     "tr": "Selam, ben Kaan. Ne iş yapıyorsun?",
+     "why": [
+      "What do you do? mesleği sorar."
+     ]
+    },
+    {
+     "en": "I'm a hairdresser. I work in a small salon in Yıldırım. And you?",
+     "tr": "Kuaförüm. Yıldırım'da küçük bir salonda çalışıyorum. Ya sen?",
+     "why": [
+      "a + meslek; in + a + bina; And you? soruyu geri sorar."
+     ]
+    },
+    {
+     "en": "I'm a mechanic. I work in a garage near the bus station.",
+     "tr": "Tamirciyim. Otogarın yakınında bir tamirhanede çalışıyorum.",
+     "why": [
+      "near = yakınında; bus station = otogar."
+     ]
+    },
+    {
+     "en": "My mother is a tailor and my father is retired. He was a bus driver.",
+     "tr": "Annem terzi, babam emekli. Otobüs şoförüydü.",
+     "why": [
+      "retired → a yok; was = geçmişteki meslek."
+     ]
+    },
+    {
+     "en": "Where's their farm? — It's in a village near İnegöl.",
+     "tr": "Çiftlikleri nerede? — İnegöl yakınında bir köyde.",
+     "why": [
+      "Where's = Where is; their = onların."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "wd-ask",
+     "title": "What do you do? — I'm a nurse. And you?",
+     "meaning": "Mesleği sormak ve söylemek",
+     "explanation": [
+      "Mesleği sormanın üç yolu vardır: What do you do? (en yaygın), What's your job? ve daha resmî What do you do for a living? A1 düzeyinde ilk ikisi yeterlidir. Cevap I'm a / an + meslek: I'm a nurse. I'm an engineer.",
+      "Çalışmayanlar için faydalı cevaplar: I'm a housewife. (Ev hanımıyım.) I'm retired. (Emekliyim.) I'm a student. (Öğrenciyim.) I'm unemployed. / I'm looking for a job. (İşsizim. / İş arıyorum.)",
+      "Konuşmayı sürdürmek için soruyu geri sorun: And you? What do you do? Ve iş yerini ekleyin: I'm a hairdresser. I work in a small salon in Yıldırım."
+     ],
+     "formula": [
+      "What do you do? / What's your job? — I'm a / an …",
+      "I'm a housewife. · I'm retired. · I'm a student.",
+      "geri sor: And you? What do you do?"
+     ],
+     "examples": [
+      {
+       "en": "What do you do? — I'm a hairdresser. And you?",
+       "tr": "Ne iş yapıyorsun? — Kuaförüm. Ya sen?",
+       "why": [
+        "Meslek sorusu ve geri sorma."
+       ],
+       "chunks": [
+        {
+         "en": "What do you do?",
+         "tr": "ne iş yapıyorsun?"
+        },
+        {
+         "en": "And you?",
+         "tr": "ya sen?"
+        }
+       ]
+      },
+      {
+       "en": "I'm a mechanic. I work in a garage near the bus station.",
+       "tr": "Tamirciyim. Otogarın yakınında bir tamirhanede çalışıyorum.",
+       "why": [
+        "Meslek + iş yeri."
+       ]
+      },
+      {
+       "en": "I'm a housewife. I work at home.",
+       "tr": "Ev hanımıyım. Evde çalışıyorum.",
+       "why": [
+        "at home."
+       ]
+      },
+      {
+       "en": "I'm retired. I was a teacher.",
+       "tr": "Emekliyim. Öğretmendim.",
+       "why": [
+        "was = -di (geçmiş)."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "What do you do? ne sorar?",
+       "answer": "Mesleği.",
+       "why": "Şu anki eylemi değil."
+      },
+      {
+       "question": "“Emekliyim.” İngilizcesi?",
+       "answer": "I'm retired.",
+       "why": "a yok"
+      },
+      {
+       "question": "Şu anda ne yaptığını sormak için?",
+       "answer": "What are you doing?",
+       "why": "Fark"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "What is your work do?",
+       "right": "What do you do? / What's your job?",
+       "why": "Karışık yapı."
+      },
+      {
+       "wrong": "I'm work in a hospital.",
+       "right": "I work in a hospital.",
+       "why": "Eylem fiiliyle am kullanılmaz."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "What do you do? / What are you doing?",
+       "explanation": [
+        "Birincisi mesleği, ikincisi şu anki eylemi sorar."
+       ],
+       "example": "What do you do? — I'm a nurse. What are you doing? — I'm cooking.",
+       "tr": [
+        "Ne iş yapıyorsun? — Hemşireyim. Ne yapıyorsun? — Yemek pişiriyorum."
+       ]
+      }
+     ]
+    },
+    {
+     "id": "wd-where",
+     "title": "Where do you work? — I work in a hospital / on a farm / at home.",
+     "meaning": "İş yerini in, on, at ile söylemek",
+     "explanation": [
+      "Bir binanın içinde çalışılıyorsa in kullanılır: in a hospital, in a school, in a shop, in a restaurant, in a bank, in a factory, in a pharmacy. Türkçedeki -de ekinin en sık karşılığı budur.",
+      "Açık alanlar ve yüzeyler için on kullanılır: on a farm (çiftlikte), on a building site (şantiyede). Ev ve belirli bir nokta için at: at home (evde), at the airport (havalimanında). Okul için in ve at ikisi de olur: in / at a school.",
+      "İş yerinden önce a / an unutulmamalıdır: I work in a hospital (in hospital ✗ bu “hastanede yatıyor” anlamına gelebilir). Belirli bir yer söylüyorsanız the ya da isim: I work in the big hospital in Nilüfer. I work at Bursa Airport."
+     ],
+     "formula": [
+      "in + a + bina: in a hospital / shop / bank / factory",
+      "on + açık alan: on a farm / on a building site",
+      "at + nokta: at home / at the airport · in / at a school"
+     ],
+     "examples": [
+      {
+       "en": "A nurse works in a hospital.",
+       "tr": "Hemşire hastanede çalışır.",
+       "why": [
+        "Bina → in."
+       ]
+      },
+      {
+       "en": "My father is a farmer. He works on a farm.",
+       "tr": "Babam çiftçi. Çiftlikte çalışıyor.",
+       "why": [
+        "Çiftlik → on."
+       ],
+       "chunks": [
+        {
+         "en": "on a farm",
+         "tr": "çiftlikte",
+         "note": "on!"
+        }
+       ]
+      },
+      {
+       "en": "A builder works on a building site.",
+       "tr": "İnşaat işçisi şantiyede çalışır.",
+       "why": [
+        "Şantiye → on."
+       ]
+      },
+      {
+       "en": "My mother is a housewife. She works at home.",
+       "tr": "Annem ev hanımı. Evde çalışıyor.",
+       "why": [
+        "Ev → at home."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Eczanede çalışırım.” İngilizcesi?",
+       "answer": "I work in a pharmacy.",
+       "why": "in + a"
+      },
+      {
+       "question": "He works ___ a farm.",
+       "answer": "on",
+       "why": "çiftlik"
+      },
+      {
+       "question": "She works ___ home.",
+       "answer": "at",
+       "why": "at home"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "He works in a farm.",
+       "right": "He works on a farm.",
+       "why": "Çiftlik → on."
+      },
+      {
+       "wrong": "I work at hospital.",
+       "right": "I work in a hospital.",
+       "why": "Bina → in a."
+      }
+     ]
+    },
+    {
+     "id": "wd-parents",
+     "title": "What does your mother do? — She's a tailor. My father is retired.",
+     "meaning": "Anne ve babanın mesleğini sormak, söylemek ve yazmak",
+     "explanation": [
+      "Başkasının mesleğini sorarken does kullanılır ve sondaki do yalın kalır: What does your mother do? What does your father do? (What does your mother does? ✗) Cevap: She's a teacher. He's a farmer.",
+      "Anne ve babanızı anlatırken her biri için üç bilgi verin: meslek, iş yeri ve küçük bir ayrıntı. My mother is a tailor. She works in a small shop in Yıldırım. She makes beautiful dresses. Emekli ya da vefat etmiş bir ebeveyn için was kullanılabilir: My father was a bus driver. Now he's retired.",
+      "Yazma alıştırmasında kontrol listesi: a / an + meslek var mı? works -s ile mi? İş yeri in / on / at ile mi? Ekrandaki yazma kutusu bu maddeleri işaretler."
+     ],
+     "formula": [
+      "What does your mother / father do? — She's / He's a …",
+      "My mother is a … She works in / at / on … She …",
+      "geçmiş: My father was a bus driver. Now he's retired."
+     ],
+     "examples": [
+      {
+       "en": "What does your mother do? — She's a teacher.",
+       "tr": "Annen ne iş yapıyor? — Öğretmen.",
+       "why": [
+        "does + do (yalın)."
+       ],
+       "chunks": [
+        {
+         "en": "What does",
+         "tr": "ne"
+        },
+        {
+         "en": "your mother do?",
+         "tr": "annen yapar?",
+         "note": "do yalın"
+        }
+       ]
+      },
+      {
+       "en": "My mother is a tailor and my father is retired. He was a bus driver.",
+       "tr": "Annem terzi, babam emekli. Otobüs şoförüydü.",
+       "why": [
+        "Kaan'ın cevabı; was = -di."
+       ]
+      },
+      {
+       "en": "My father is a farmer and my mother is a housewife.",
+       "tr": "Babam çiftçi, annem ev hanımı.",
+       "why": [
+        "Gizem'in cevabı."
+       ]
+      },
+      {
+       "en": "Where's their farm? — It's in a village near İnegöl.",
+       "tr": "Çiftlikleri nerede? — İnegöl yakınında bir köyde.",
+       "why": [
+        "their = onların (Gizem'in anne babası)."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Baban ne iş yapıyor?” İngilizcesi?",
+       "answer": "What does your father do?",
+       "why": "does + do"
+      },
+      {
+       "question": "What does your mother does? cümlesini düzeltin.",
+       "answer": "What does your mother do?",
+       "why": "does + yalın"
+      },
+      {
+       "question": "“Babam şofördü.” İngilizcesi?",
+       "answer": "My father was a driver.",
+       "why": "was"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "My mother teacher.",
+       "right": "My mother is a teacher.",
+       "why": "be ve a gerekli."
+      },
+      {
+       "wrong": "She work in a shop.",
+       "right": "She works in a shop.",
+       "why": "she → works."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "jobs-match",
+   "title": "Meslek eşleştirme: görsel, iş yeri ve tanım",
+   "intro": [
+    "MEB kazanımı: verilen görsellerle meslek isimlerini eşleştirir. Bir mesleği üç bilgiyle tanırız: görsel (🧑‍🌾), iş yeri (on a farm) ve yaptığı iş (grows vegetables). Bu ekranda görselleri, tanımları ve iş yerlerini mesleklerle eşleştiriyoruz.",
+    "Meslek tanımları geniş zamanda ve üçüncü tekil kişiyle yazılır: A doctor helps sick people. A baker makes bread. Bilmecelerde ise This person … kalıbı kullanılır: This person repairs cars. — A mechanic."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "A doctor helps sick people.",
+     "tr": "Doktor hasta insanlara yardım eder.",
+     "why": [
+      "Genel gerçek → geniş zaman; helps (-s)."
+     ]
+    },
+    {
+     "en": "A firefighter puts out fires.",
+     "tr": "İtfaiyeci yangın söndürür.",
+     "why": [
+      "put out = söndürmek; puts (-s)."
+     ]
+    },
+    {
+     "en": "A mechanic repairs cars.",
+     "tr": "Tamirci araba tamir eder.",
+     "why": [
+      "repair → repairs; cars çoğul, genel anlam."
+     ]
+    },
+    {
+     "en": "This person sells medicine. — A pharmacist.",
+     "tr": "Bu kişi ilaç satar. — Eczacı.",
+     "why": [
+      "Bilmece kalıbı; cevapta a + meslek."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "jm-definitions",
+     "title": "A doctor helps sick people. A farmer grows vegetables.",
+     "meaning": "Meslekleri tanımlarıyla eşleştirmek",
+     "explanation": [
+      "Meslek tanımı bir genel gerçektir; bu yüzden geniş zamanla ve -s ile yazılır: A baker makes bread. A pilot flies planes. A tailor makes and repairs clothes. A firefighter puts out fires. A teacher teaches students. A mechanic repairs cars.",
+      "Tanımlardaki fiilleri öğrenmek meslekleri hatırlamayı kolaylaştırır: help (yardım etmek), grow (yetiştirmek), make (yapmak), fly (uçurmak; flies), repair (tamir etmek), put out (söndürmek), cut hair (saç kesmek), sell (satmak).",
+      "Bilmecede This person … ile başlayan bir tanım okunur ve meslek a / an ile söylenir: This person cuts hair. — A hairdresser. This person sells medicine. — A pharmacist."
+     ],
+     "formula": [
+      "A / An + meslek + fiil-s + …: A baker makes bread.",
+      "fiiller: help · grow · make · fly (flies) · repair · put out · cut · sell",
+      "bilmece: This person repairs cars. — A mechanic."
+     ],
+     "examples": [
+      {
+       "en": "A farmer grows vegetables and fruit.",
+       "tr": "Çiftçi sebze ve meyve yetiştirir.",
+       "why": [
+        "grow → grows."
+       ]
+      },
+      {
+       "en": "A pilot flies planes.",
+       "tr": "Pilot uçak uçurur.",
+       "why": [
+        "fly → flies (-y → -ies)."
+       ],
+       "chunks": [
+        {
+         "en": "flies",
+         "tr": "uçurur",
+         "note": "-ies"
+        },
+        {
+         "en": "planes",
+         "tr": "uçaklar"
+        }
+       ]
+      },
+      {
+       "en": "A tailor makes and repairs clothes.",
+       "tr": "Terzi giysi diker ve tamir eder.",
+       "why": [
+        "İki fiil, ikisi de -s."
+       ]
+      },
+      {
+       "en": "This person sells medicine. — A pharmacist.",
+       "tr": "Bu kişi ilaç satar. — Eczacı.",
+       "why": [
+        "Bilmece kalıbı."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "This person makes bread. — ?",
+       "answer": "A baker.",
+       "why": "fırıncı"
+      },
+      {
+       "question": "A firefighter ___ out fires.",
+       "answer": "puts",
+       "why": "put → puts"
+      },
+      {
+       "question": "A teacher ___ students.",
+       "answer": "teaches",
+       "why": "-ch → -es"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "A pilot flys planes.",
+       "right": "A pilot flies planes.",
+       "why": "Sessiz + y → -ies."
+      },
+      {
+       "wrong": "This person cut hair. — Hairdresser.",
+       "right": "This person cuts hair. — A hairdresser.",
+       "why": "-s ve a."
+      }
+     ]
+    },
+    {
+     "id": "jm-places",
+     "title": "Where do they work? hospital · restaurant · school · farm",
+     "meaning": "Meslekleri iş yerleriyle eşleştirmek",
+     "explanation": [
+      "Sıralama alıştırmasında meslekleri dört iş yerine yerleştiriyoruz. Hastanede: doctor, nurse. Restoranda: cook, waiter. Okulda: teacher, student. Çiftlikte ya da dışarıda: farmer, builder, police officer, firefighter.",
+      "Bazı meslekler birden fazla yerde çalışabilir: bir cook hastanenin mutfağında da çalışabilir, bir cleaner hem okulda hem hastanede. Alıştırmada en tipik yeri seçin.",
+      "Eşleştirmeden sonra cümleyle söyleyin: A nurse works in a hospital. A waiter works in a restaurant. A farmer works on a farm. Böylece meslek, iş yeri ve in / on / at bir arada pekişir."
+     ],
+     "formula": [
+      "🏥 hospital: doctor · nurse · dentist",
+      "🍽️ restaurant: cook · waiter · 🏫 school: teacher · student",
+      "🌾 farm / outside: farmer · builder · police officer · firefighter"
+     ],
+     "examples": [
+      {
+       "en": "A waiter works in a restaurant.",
+       "tr": "Garson restoranda çalışır.",
+       "why": [
+        "restaurant → in."
+       ]
+      },
+      {
+       "en": "A farmer works on a farm.",
+       "tr": "Çiftçi çiftlikte çalışır.",
+       "why": [
+        "farm → on."
+       ]
+      },
+      {
+       "en": "A police officer works outside and in a police station.",
+       "tr": "Polis memuru dışarıda ve karakolda çalışır.",
+       "why": [
+        "İki iş yeri."
+       ],
+       "chunks": [
+        {
+         "en": "outside",
+         "tr": "dışarıda",
+         "note": "edat yok"
+        },
+        {
+         "en": "in a police station",
+         "tr": "karakolda"
+        }
+       ]
+      },
+      {
+       "en": "A pharmacist works in a pharmacy.",
+       "tr": "Eczacı eczanede çalışır.",
+       "why": [
+        "pharmacist → pharmacy."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "A cook works in a ___ .",
+       "answer": "restaurant (ya da kitchen)",
+       "why": "iş yeri"
+      },
+      {
+       "question": "A builder works ___ a building site.",
+       "answer": "on",
+       "why": "şantiye"
+      },
+      {
+       "question": "Bir dentist nerede çalışır?",
+       "answer": "in a clinic / in a hospital",
+       "why": "sağlık"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "A farmer works in a farm.",
+       "right": "A farmer works on a farm.",
+       "why": "on a farm."
+      },
+      {
+       "wrong": "A teacher works in the school (genel anlamda).",
+       "right": "A teacher works in / at a school.",
+       "why": "Genel anlamda a."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "alis-car",
+   "term": "Ali's car",
+   "meaning": "Ali'nin arabası",
+   "partOfSpeech": "sahiplik 's",
+   "sourceTerms": [
+    "Ali's car"
+   ],
+   "explanation": [
+    "Tekil sahibin adına 's eklenir; sıra Türkçeyle aynıdır. Türkçedeki iyelik eki (-sı) ayrıca söylenmez."
+   ],
+   "collocations": [
+    {
+     "en": "my brother's car",
+     "tr": "ağabeyimin arabası"
+    },
+    {
+     "en": "the teacher's bag",
+     "tr": "öğretmenin çantası"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Ali's car is white.",
+     "tr": "Ali'nin arabası beyaz."
+    },
+    {
+     "en": "This is my brother's car.",
+     "tr": "Bu ağabeyimin arabası."
+    },
+    {
+     "en": "The teacher's bag is on the table.",
+     "tr": "Öğretmenin çantası masanın üstünde."
+    }
+   ],
+   "commonMistake": "Ali car ya da the car of Ali yerine Ali's car denir."
+  },
+  {
+   "id": "mothers-name",
+   "term": "my mother's name",
+   "meaning": "annemin adı",
+   "partOfSpeech": "sahiplik 's",
+   "sourceTerms": [
+    "my mother's name"
+   ],
+   "explanation": [
+    "Sahiplik sıfatıyla başlayan tamlama: my + mother's + name. her son's school (oğlunun okulu), our neighbour's dog (komşumuzun köpeği)."
+   ],
+   "collocations": [
+    {
+     "en": "my friend's car",
+     "tr": "arkadaşımın arabası"
+    },
+    {
+     "en": "her son's school",
+     "tr": "oğlunun okulu"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My mother's name is Selma.",
+     "tr": "Annemin adı Selma."
+    },
+    {
+     "en": "Her son's school is near our house.",
+     "tr": "Oğlunun okulu evimizin yakınında."
+    },
+    {
+     "en": "My sister's husband's name is Ahmet.",
+     "tr": "Kız kardeşimin kocasının adı Ahmet.",
+     "note": "iki kat"
+    }
+   ],
+   "commonMistake": "my mother name yerine my mother's name denir."
+  },
+  {
+   "id": "parents-house",
+   "term": "my parents' house",
+   "meaning": "ailemin (anne-babamın) evi",
+   "partOfSpeech": "sahiplik s'",
+   "sourceTerms": [
+    "my parents' house"
+   ],
+   "explanation": [
+    "-s ile biten çoğul isimlerde sadece kesme işareti eklenir: parents', students'. -s ile bitmeyen düzensiz çoğullar 's alır: children's, women's."
+   ],
+   "collocations": [
+    {
+     "en": "the students' books",
+     "tr": "öğrencilerin kitapları"
+    },
+    {
+     "en": "the children's room",
+     "tr": "çocukların odası"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My parents' house is in Mudanya.",
+     "tr": "Annemle babamın evi Mudanya'da."
+    },
+    {
+     "en": "The students' books are on the desk.",
+     "tr": "Öğrencilerin kitapları masada."
+    },
+    {
+     "en": "The children's room is very small.",
+     "tr": "Çocukların odası çok küçük.",
+     "note": "children's"
+    }
+   ],
+   "commonMistake": "my parents's house yerine my parents' house yazılır."
+  },
+  {
+   "id": "whose",
+   "term": "Whose … is this? — It's …'s.",
+   "meaning": "bu kimin …? — …'in.",
+   "partOfSpeech": "soru",
+   "sourceTerms": [
+    "Whose … is this? — It's …'s."
+   ],
+   "explanation": [
+    "Whose = kimin. Çoğulda are: Whose keys are these? Cevapta eşya tekrar edilmez: It's Ece's. Whose ile Who's (who is) okunuşça aynı, anlamca farklıdır."
+   ],
+   "collocations": [
+    {
+     "en": "Whose keys are these?",
+     "tr": "bunlar kimin anahtarları?"
+    },
+    {
+     "en": "Whose is that?",
+     "tr": "şu kimin?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Whose bag is this? — It's Ece's.",
+     "tr": "Bu kimin çantası? — Ece'nin."
+    },
+    {
+     "en": "Whose phone is this? — It's Kaan's.",
+     "tr": "Bu kimin telefonu? — Kaan'ın."
+    },
+    {
+     "en": "Whose keys are these? — They're my husband's.",
+     "tr": "Bunlar kimin anahtarları? — Eşimin."
+    }
+   ],
+   "commonMistake": "Who's bag is this? yerine Whose bag is this? yazılır."
+  },
+  {
+   "id": "name-of-street",
+   "term": "the name of the street",
+   "meaning": "sokağın adı",
+   "partOfSpeech": "of tamlaması",
+   "sourceTerms": [
+    "the name of the street"
+   ],
+   "explanation": [
+    "Şeyler ve yerlerle tamlama çoğunlukla of ile kurulur; sıra Türkçeye göre terstir: the name of the street = sokağın adı."
+   ],
+   "collocations": [
+    {
+     "en": "the door of the car",
+     "tr": "arabanın kapısı"
+    },
+    {
+     "en": "the end of the film",
+     "tr": "filmin sonu"
+    }
+   ],
+   "examples": [
+    {
+     "en": "What's the name of the street?",
+     "tr": "Sokağın adı ne?"
+    },
+    {
+     "en": "The door of the car is open.",
+     "tr": "Arabanın kapısı açık."
+    },
+    {
+     "en": "I don't like the end of the film.",
+     "tr": "Filmin sonunu sevmiyorum."
+    }
+   ],
+   "commonMistake": "the name the street yerine the name of the street denir."
+  },
+  {
+   "id": "who-q",
+   "term": "Who …?",
+   "meaning": "kim?",
+   "partOfSpeech": "soru kelimesi",
+   "sourceTerms": [
+    "Who …?"
+   ],
+   "explanation": [
+    "Kişi sorar. Fiil yoksa Who is …?: Who is your teacher? Çoğulda Who are …? Who's = Who is."
+   ],
+   "collocations": [
+    {
+     "en": "Who is that man?",
+     "tr": "şu adam kim?"
+    },
+    {
+     "en": "Who are your friends?",
+     "tr": "arkadaşların kim?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Who is your teacher?",
+     "tr": "Öğretmenin kim?"
+    },
+    {
+     "en": "Who is your best friend? — Ece.",
+     "tr": "En iyi arkadaşın kim? — Ece."
+    },
+    {
+     "en": "Who is Can's mother? — Aylin.",
+     "tr": "Can'ın annesi kim? — Aylin."
+    }
+   ],
+   "commonMistake": "Kişiyi sormak için What değil Who kullanılır."
+  },
+  {
+   "id": "what-q",
+   "term": "What …?",
+   "meaning": "ne?",
+   "partOfSpeech": "soru kelimesi",
+   "sourceTerms": [
+    "What …?"
+   ],
+   "explanation": [
+    "Şey ya da bilgi sorar: What is your job? What do you do? What time saat, What colour renk sorar."
+   ],
+   "collocations": [
+    {
+     "en": "What time …?",
+     "tr": "saat kaçta?"
+    },
+    {
+     "en": "What colour …?",
+     "tr": "ne renk?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "What is your job?",
+     "tr": "Mesleğin ne?"
+    },
+    {
+     "en": "What do you do on Saturdays?",
+     "tr": "Cumartesileri ne yaparsın?"
+    },
+    {
+     "en": "What does your father do?",
+     "tr": "Baban ne iş yapıyor?"
+    }
+   ],
+   "commonMistake": "What do you do? mesleği sorar; şu anki eylem için What are you doing?"
+  },
+  {
+   "id": "where-q",
+   "term": "Where …?",
+   "meaning": "nerede?",
+   "partOfSpeech": "soru kelimesi",
+   "sourceTerms": [
+    "Where …?"
+   ],
+   "explanation": [
+    "Yer sorar. Fiil varsa do / does: Where do you live? Fiil yoksa is / are: Where is your house?"
+   ],
+   "collocations": [
+    {
+     "en": "Where do you live?",
+     "tr": "nerede oturuyorsun?"
+    },
+    {
+     "en": "Where is …?",
+     "tr": "… nerede?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Where do you live? — In Bursa.",
+     "tr": "Nerede oturuyorsun? — Bursa'da."
+    },
+    {
+     "en": "Where does your sister work? — In a bank.",
+     "tr": "Kız kardeşin nerede çalışıyor? — Bankada."
+    },
+    {
+     "en": "Where are my keys?",
+     "tr": "Anahtarlarım nerede?"
+    }
+   ],
+   "commonMistake": "Where you live? yerine Where do you live? denir."
+  },
+  {
+   "id": "where-to-q",
+   "term": "Where … to?",
+   "meaning": "nereye?",
+   "partOfSpeech": "soru kelimesi",
+   "sourceTerms": [
+    "Where … to?"
+   ],
+   "explanation": [
+    "Nereye sorusu da Where ile sorulur; hedef cevapta to ile gelir: — To the market. Sorunun sonuna to eklemek (Where are you going to?) mümkün ama gerekli değildir."
+   ],
+   "collocations": [
+    {
+     "en": "Where do you go?",
+     "tr": "nereye gidersin?"
+    },
+    {
+     "en": "To the market.",
+     "tr": "pazara."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Where do you go on Sundays? — To the market.",
+     "tr": "Pazarları nereye gidersin? — Pazara."
+    },
+    {
+     "en": "Where does he go on Mondays? — To Bursa.",
+     "tr": "Pazartesileri nereye gidiyor? — Bursa'ya."
+    },
+    {
+     "en": "Where do you go after the course?",
+     "tr": "Kurstan sonra nereye gidersin?"
+    }
+   ],
+   "commonMistake": "Nereye sorusunun cevabında in değil to kullanılır: To the market."
+  },
+  {
+   "id": "when-q",
+   "term": "When …?",
+   "meaning": "ne zaman?",
+   "partOfSpeech": "soru kelimesi",
+   "sourceTerms": [
+    "When …?"
+   ],
+   "explanation": [
+    "Zaman sorar: When is your birthday? Saat için çoğunlukla What time. Cevapta ay / yıl ile in, gün ile on."
+   ],
+   "collocations": [
+    {
+     "en": "When is …?",
+     "tr": "… ne zaman?"
+    },
+    {
+     "en": "When do you …?",
+     "tr": "ne zaman … -sin?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "When is your birthday? — In May.",
+     "tr": "Doğum günün ne zaman? — Mayıs'ta."
+    },
+    {
+     "en": "When do you go to the market? — On Tuesdays.",
+     "tr": "Pazara ne zaman gidersin? — Salıları."
+    },
+    {
+     "en": "When is his birthday? — In July.",
+     "tr": "Doğum günü ne zaman? — Temmuz'da."
+    }
+   ],
+   "commonMistake": "When does your birthday? yerine When is your birthday? denir."
+  },
+  {
+   "id": "how-q",
+   "term": "How …?",
+   "meaning": "nasıl?",
+   "partOfSpeech": "soru kelimesi",
+   "sourceTerms": [
+    "How …?"
+   ],
+   "explanation": [
+    "Yol, araç ya da durum sorar: How do you go to work? — By bus. How are you? How old yaş, How many sayı sorar."
+   ],
+   "collocations": [
+    {
+     "en": "How old …?",
+     "tr": "kaç yaşında?"
+    },
+    {
+     "en": "How many …?",
+     "tr": "kaç tane?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "How do you go to work? — By bus.",
+     "tr": "İşe nasıl gidersin? — Otobüsle."
+    },
+    {
+     "en": "How does he go to work? — By motorbike.",
+     "tr": "İşe nasıl gidiyor? — Motosikletle."
+    },
+    {
+     "en": "How are you? — I'm fine.",
+     "tr": "Nasılsın? — İyiyim."
+    }
+   ],
+   "commonMistake": "How you go? yerine How do you go? denir."
+  },
+  {
+   "id": "health-jobs",
+   "term": "doctor · nurse · dentist · pharmacist",
+   "meaning": "doktor · hemşire · diş hekimi · eczacı",
+   "partOfSpeech": "meslek",
+   "sourceTerms": [
+    "doctor · nurse · dentist · pharmacist"
+   ],
+   "explanation": [
+    "Sağlık meslekleri. pharmacist'te f sesi ph ile yazılır. İş yeri: in a hospital, in a clinic, in a pharmacy."
+   ],
+   "collocations": [
+    {
+     "en": "work in a hospital",
+     "tr": "hastanede çalışmak"
+    },
+    {
+     "en": "go to the dentist",
+     "tr": "dişçiye gitmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My sister is a nurse.",
+     "tr": "Kız kardeşim hemşire."
+    },
+    {
+     "en": "A doctor helps sick people.",
+     "tr": "Doktor hasta insanlara yardım eder."
+    },
+    {
+     "en": "A pharmacist works in a pharmacy.",
+     "tr": "Eczacı eczanede çalışır."
+    }
+   ],
+   "commonMistake": "She's nurse yerine She's a nurse denir."
+  },
+  {
+   "id": "teacher-student",
+   "term": "teacher · student",
+   "meaning": "öğretmen · öğrenci",
+   "partOfSpeech": "meslek",
+   "sourceTerms": [
+    "teacher · student"
+   ],
+   "explanation": [
+    "student meslek değil durum bildirse de a ile söylenir: I'm a student. Okul için in ya da at: in / at a school."
+   ],
+   "collocations": [
+    {
+     "en": "a student at this course",
+     "tr": "bu kursun öğrencisi"
+    },
+    {
+     "en": "an English teacher",
+     "tr": "İngilizce öğretmeni"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm a student at this course.",
+     "tr": "Bu kursun öğrencisiyim."
+    },
+    {
+     "en": "A teacher teaches students.",
+     "tr": "Öğretmen öğrencilere ders verir."
+    },
+    {
+     "en": "My parents are teachers.",
+     "tr": "Annem ve babam öğretmen.",
+     "note": "çoğul"
+    }
+   ],
+   "commonMistake": "an English teacher'da an, English ünlü sesle başladığı için."
+  },
+  {
+   "id": "safety-jobs",
+   "term": "police officer · firefighter · soldier",
+   "meaning": "polis memuru · itfaiyeci · asker",
+   "partOfSpeech": "meslek",
+   "sourceTerms": [
+    "police officer · firefighter · soldier"
+   ],
+   "explanation": [
+    "Güvenlik meslekleri. Cinsiyetsiz biçimler (police officer, firefighter) policeman, fireman'den daha çok kullanılır. firefighter = fire + fighter."
+   ],
+   "collocations": [
+    {
+     "en": "put out fires",
+     "tr": "yangın söndürmek"
+    },
+    {
+     "en": "a police station",
+     "tr": "karakol"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My son is a police officer.",
+     "tr": "Oğlum polis memuru."
+    },
+    {
+     "en": "A firefighter puts out fires.",
+     "tr": "İtfaiyeci yangın söndürür."
+    },
+    {
+     "en": "My older brother is a soldier.",
+     "tr": "Ağabeyim asker."
+    }
+   ],
+   "commonMistake": "She's a policeman yerine She's a police officer denir."
+  },
+  {
+   "id": "food-jobs",
+   "term": "farmer · baker · cook",
+   "meaning": "çiftçi · fırıncı · aşçı",
+   "partOfSpeech": "meslek",
+   "sourceTerms": [
+    "farmer · baker · cook"
+   ],
+   "explanation": [
+    "cook hem fiil (pişirmek) hem meslek (aşçı); cooker ocak demektir. Çiftçi on a farm çalışır."
+   ],
+   "collocations": [
+    {
+     "en": "work on a farm",
+     "tr": "çiftlikte çalışmak"
+    },
+    {
+     "en": "make bread",
+     "tr": "ekmek yapmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My grandfather is a farmer.",
+     "tr": "Dedem çiftçi."
+    },
+    {
+     "en": "A baker makes bread.",
+     "tr": "Fırıncı ekmek yapar."
+    },
+    {
+     "en": "Orhan is a cook in a fish restaurant.",
+     "tr": "Orhan bir balık restoranında aşçı."
+    }
+   ],
+   "commonMistake": "He's a cooker yerine He's a cook denir."
+  },
+  {
+   "id": "transport-jobs",
+   "term": "driver · pilot · mechanic",
+   "meaning": "şoför · pilot · tamirci",
+   "partOfSpeech": "meslek",
+   "sourceTerms": [
+    "driver · pilot · mechanic"
+   ],
+   "explanation": [
+    "driver birleşik adlarla: bus driver, taxi driver. mechanic'te k sesi ch ile yazılır. pilot flies planes (fly → flies)."
+   ],
+   "collocations": [
+    {
+     "en": "a bus driver",
+     "tr": "otobüs şoförü"
+    },
+    {
+     "en": "repair cars",
+     "tr": "araba tamir etmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "He's a bus driver.",
+     "tr": "Otobüs şoförü."
+    },
+    {
+     "en": "A pilot flies planes.",
+     "tr": "Pilot uçak uçurur."
+    },
+    {
+     "en": "A mechanic repairs cars.",
+     "tr": "Tamirci araba tamir eder."
+    }
+   ],
+   "commonMistake": "mekanik yazımı yerine m-e-c-h-a-n-i-c yazılır."
+  },
+  {
+   "id": "building-jobs",
+   "term": "engineer · builder · electrician",
+   "meaning": "mühendis · inşaat işçisi · elektrikçi",
+   "partOfSpeech": "meslek",
+   "sourceTerms": [
+    "engineer · builder · electrician"
+   ],
+   "explanation": [
+    "engineer ve electrician ünlü sesle başlar: an engineer, an electrician. builder on a building site (şantiyede) çalışır."
+   ],
+   "collocations": [
+    {
+     "en": "an engineer",
+     "tr": "bir mühendis"
+    },
+    {
+     "en": "on a building site",
+     "tr": "şantiyede"
+    }
+   ],
+   "examples": [
+    {
+     "en": "She's an engineer.",
+     "tr": "Mühendis.",
+     "note": "an"
+    },
+    {
+     "en": "Her husband is a builder.",
+     "tr": "Kocası inşaat işçisi."
+    },
+    {
+     "en": "He's a very good electrician.",
+     "tr": "Çok iyi bir elektrikçi."
+    }
+   ],
+   "commonMistake": "a engineer yerine an engineer denir."
+  },
+  {
+   "id": "service-jobs",
+   "term": "hairdresser · tailor · cleaner",
+   "meaning": "kuaför, berber · terzi · temizlik görevlisi",
+   "partOfSpeech": "meslek",
+   "sourceTerms": [
+    "hairdresser · tailor · cleaner"
+   ],
+   "explanation": [
+    "hairdresser = hair + dresser (iki s). tailor makes and repairs clothes. cleaner birçok iş yerinde çalışabilir."
+   ],
+   "collocations": [
+    {
+     "en": "cut hair",
+     "tr": "saç kesmek"
+    },
+    {
+     "en": "repair clothes",
+     "tr": "giysi tamir etmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My neighbour is a hairdresser.",
+     "tr": "Komşum kuaför."
+    },
+    {
+     "en": "My mother is a tailor.",
+     "tr": "Annem terzi."
+    },
+    {
+     "en": "A cleaner works in our school.",
+     "tr": "Okulumuzda bir temizlik görevlisi çalışıyor."
+    }
+   ],
+   "commonMistake": "hairdreser yerine hairdresser (iki s) yazılır."
+  },
+  {
+   "id": "shop-jobs",
+   "term": "shop assistant · waiter · cashier",
+   "meaning": "tezgâhtar · garson · kasiyer",
+   "partOfSpeech": "meslek",
+   "sourceTerms": [
+    "shop assistant · waiter · cashier"
+   ],
+   "explanation": [
+    "shop assistant ve cashier in a shop / supermarket, waiter in a restaurant / café çalışır."
+   ],
+   "collocations": [
+    {
+     "en": "work in a supermarket",
+     "tr": "süpermarkette çalışmak"
+    },
+    {
+     "en": "work in a café",
+     "tr": "kafede çalışmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My daughter is a shop assistant.",
+     "tr": "Kızım tezgâhtar."
+    },
+    {
+     "en": "A waiter works in a restaurant.",
+     "tr": "Garson restoranda çalışır."
+    },
+    {
+     "en": "She's a cashier in a supermarket.",
+     "tr": "Süpermarkette kasiyer."
+    }
+   ],
+   "commonMistake": "He's waiter yerine He's a waiter denir."
+  },
+  {
+   "id": "housewife-retired",
+   "term": "housewife · retired · unemployed",
+   "meaning": "ev hanımı · emekli · işsiz",
+   "partOfSpeech": "çalışma durumu",
+   "sourceTerms": [
+    "housewife · retired · unemployed"
+   ],
+   "explanation": [
+    "housewife isimdir ve a alır: I'm a housewife. retired ve unemployed sıfattır; a almaz: I'm retired. I'm unemployed."
+   ],
+   "collocations": [
+    {
+     "en": "work at home",
+     "tr": "evde çalışmak"
+    },
+    {
+     "en": "look for a job",
+     "tr": "iş aramak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My mother is a housewife. My father is retired.",
+     "tr": "Annem ev hanımı. Babam emekli."
+    },
+    {
+     "en": "I'm a housewife. I work at home.",
+     "tr": "Ev hanımıyım. Evde çalışırım."
+    },
+    {
+     "en": "He's unemployed. He's looking for a job.",
+     "tr": "İşsiz. İş arıyor."
+    }
+   ],
+   "commonMistake": "He's a retired yerine He's retired denir."
+  },
+  {
+   "id": "what-do-you-do",
+   "term": "What do you do? — I'm a …",
+   "meaning": "ne iş yapıyorsun? — … -im",
+   "partOfSpeech": "meslek sorusu",
+   "sourceTerms": [
+    "What do you do? — I'm a …"
+   ],
+   "explanation": [
+    "Mesleği sormanın en doğal yolu. What's your job? de olur. Şu anki eylem için What are you doing? kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "What's your job?",
+     "tr": "mesleğin ne?"
+    },
+    {
+     "en": "And you?",
+     "tr": "ya sen?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "What do you do? — I'm a nurse.",
+     "tr": "Ne iş yapıyorsun? — Hemşireyim."
+    },
+    {
+     "en": "What do you do? — I'm a hairdresser. And you?",
+     "tr": "Ne iş yapıyorsun? — Kuaförüm. Ya sen?"
+    },
+    {
+     "en": "What do you do? — I'm retired.",
+     "tr": "Ne iş yapıyorsun? — Emekliyim."
+    }
+   ],
+   "commonMistake": "What is your work do? yerine What do you do? denir."
+  },
+  {
+   "id": "where-work",
+   "term": "Where do you work? — I work in / at …",
+   "meaning": "nerede çalışıyorsun? — …-de çalışıyorum",
+   "partOfSpeech": "iş yeri sorusu",
+   "sourceTerms": [
+    "Where do you work? — I work in / at …"
+   ],
+   "explanation": [
+    "Bina → in a (in a hospital), çiftlik / şantiye → on (on a farm), ev / nokta → at (at home)."
+   ],
+   "collocations": [
+    {
+     "en": "in a factory",
+     "tr": "fabrikada"
+    },
+    {
+     "en": "at home",
+     "tr": "evde"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Where do you work? — I work in a hospital.",
+     "tr": "Nerede çalışıyorsun? — Bir hastanede."
+    },
+    {
+     "en": "He works on a farm.",
+     "tr": "Çiftlikte çalışıyor.",
+     "note": "on"
+    },
+    {
+     "en": "She works at home.",
+     "tr": "Evde çalışıyor.",
+     "note": "at"
+    }
+   ],
+   "commonMistake": "I work at hospital yerine I work in a hospital denir."
+  },
+  {
+   "id": "mother-do",
+   "term": "What does your mother do?",
+   "meaning": "annen ne iş yapıyor?",
+   "partOfSpeech": "meslek sorusu",
+   "sourceTerms": [
+    "What does your mother do?"
+   ],
+   "explanation": [
+    "Başkasının mesleği does ile sorulur; sondaki do yalın kalır. Cevap: She's a / an …"
+   ],
+   "collocations": [
+    {
+     "en": "What does your father do?",
+     "tr": "baban ne iş yapıyor?"
+    },
+    {
+     "en": "What do your parents do?",
+     "tr": "annen baban ne iş yapıyor?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "What does your mother do? — She's a teacher.",
+     "tr": "Annen ne iş yapıyor? — Öğretmen."
+    },
+    {
+     "en": "What does your father do? — He's a farmer.",
+     "tr": "Baban ne iş yapıyor? — Çiftçi."
+    },
+    {
+     "en": "What do your parents do?",
+     "tr": "Annen baban ne iş yapıyor?",
+     "note": "çoğul → do"
+    }
+   ],
+   "commonMistake": "What does your mother does? yerine What does your mother do? denir."
+  },
+  {
+   "id": "want-to-be",
+   "term": "I want to be a … · my dream job",
+   "meaning": "… olmak istiyorum · hayalimdeki meslek",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "I want to be a … · my dream job"
+   ],
+   "explanation": [
+    "want to be + a / an + meslek; to unutulmaz. he / she → wants to be. Sebep because ile: because I love travelling."
+   ],
+   "collocations": [
+    {
+     "en": "What do you want to be?",
+     "tr": "ne olmak istiyorsun?"
+    },
+    {
+     "en": "When I was a child, I wanted to be …",
+     "tr": "çocukken … olmak istiyordum"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I want to be a pilot. It's my dream job.",
+     "tr": "Pilot olmak istiyorum. Hayalimdeki meslek."
+    },
+    {
+     "en": "My daughter wants to be a doctor.",
+     "tr": "Kızım doktor olmak istiyor.",
+     "note": "wants"
+    },
+    {
+     "en": "My dream job is a chef. I love cooking.",
+     "tr": "Hayalimdeki meslek aşçılık. Yemek yapmayı çok seviyorum."
+    }
+   ],
+   "commonMistake": "I want be pilot yerine I want to be a pilot denir."
+  }
+ ]
+}

@@ -19,7 +19,7 @@ test('all 18 published lesson families load versioned static learning metadata w
     for(const [,attrs,script] of published.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi))if(!/application\/(json|ld\+json)/i.test(attrs)&&script.trim())new vm.Script(script);
     count++;
   }
-  assert.equal(count,18);
+  assert.equal(count,19);
 });
 
 test('component metadata excludes break/resources and connects exact per-question IDs and topics',async()=>{

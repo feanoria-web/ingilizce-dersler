@@ -1,0 +1,635 @@
+{
+ "version": 1,
+ "chapters": [
+  {
+   "screenId": "warm",
+   "intro": "Saat sorusu: What time is it? — It's half past nine. Günlük iş: I get up at seven. Başkası: She gets up at seven (-s).",
+   "patterns": [
+    {
+     "id": "wm-time-routine",
+     "summary": [
+      "What time do you …? — I … at + saat.",
+      "Saat: half past (buçuk), quarter to (çeyrek kala).",
+      "Başkası için fiil -s alır: She gets up at six."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "wm-plan",
+     "summary": [
+      "8 Kasım: günüm, fiiller, have got, sahiplik, aile.",
+      "14 Kasım: 's, soru kelimeleri, meslekler.",
+      "Sonraki ders: hayal meslek, nesneler, this / that, Atatürk."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "routine-pictures",
+   "intro": "Resimleri zamana göre sırala, her resme bir cümle yaz (I get up. I have a shower.), cümleleri First, Then, After that, Finally ile bağla.",
+   "patterns": [
+    {
+     "id": "rp-order",
+     "summary": [
+      "Önce günün bölümüne bak: sabah, gün içi, akşam, gece.",
+      "Mantık sırası: wake up → get up; cook dinner → have dinner.",
+      "Saatler sıralamaya yardım eder."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "rp-sequence",
+     "summary": [
+      "First → Then / After that → Finally.",
+      "First, After that, Finally'den sonra virgül.",
+      "Günün bölümleriyle birleştir: In the evening, …"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "rp-text",
+     "summary": [
+      "Başkasının günü: fiil -s / -es; have → has.",
+      "Kendi metnini he / she ile yeniden yaz.",
+      "Kontrol: sıra kelimesi, at + saat, günün bölümü."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "collocations",
+   "intro": "Eşleri bütün olarak öğren: watch a film · listen to music (to şart!) · cook dinner / make breakfast · do homework · play football · go shopping · take a photo · pray.",
+   "patterns": [
+    {
+     "id": "co-watch-listen",
+     "summary": [
+      "izlemek = watch: watch a film / TV / a match.",
+      "dinlemek = listen to: to asla düşmez.",
+      "okumak = read: read a book / the newspaper."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "co-do-make-cook",
+     "summary": [
+      "Pişirmek cook: cook dinner.",
+      "Yiyecek / içecek hazırlamak make: make breakfast, make tea.",
+      "İş ve görev do: do homework, do the housework; namaz kılmak pray."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "co-play-go-take",
+     "summary": [
+      "Oyun ve spor: play football (the yok).",
+      "go shopping · go for a walk · go to + yer.",
+      "take a photo · take the bus · drink tea · eat fruit."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "verb-forms",
+   "intro": "Önce özneyi bul: I / you / we / they → work · he / she / it → works. Olumsuz: don't / doesn't + yalın fiil. Meslek ve yer için be: I am a nurse.",
+   "patterns": [
+    {
+     "id": "vf-subject",
+     "summary": [
+      "Özneyi zamire çevir: my father = he, my parents = they.",
+      "he / she / it → -s / -es / -ies; have → has.",
+      "Çoğul özneyle fiil yalın."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "vf-neg-question",
+     "summary": [
+      "Olumsuz: don't / doesn't + yalın fiil (doesn't works ✗).",
+      "Soru: Do / Does + özne + yalın fiil?",
+      "Kısa cevap do / does ile: Yes, she does."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "vf-be-or-verb",
+     "summary": [
+      "Eylem fiili varsa am / is / are kullanma: I work.",
+      "Meslek, yer, yaş, duygu için be: I am a nurse.",
+      "Metinde ikisi yan yana olabilir; cümleye tek tek bak."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "have-got",
+   "intro": "Sahiplik: I've got a car. She's got two sons. Olumsuz: I haven't got / she hasn't got. Soru: Have you got …? — Yes, I have. (got kısa cevapta yok)",
+   "patterns": [
+    {
+     "id": "hg-positive",
+     "summary": [
+      "I / you / we / they → have got ('ve got).",
+      "he / she / it → has got ('s got); she's got = she has got.",
+      "Sahiplik there is ile değil have got ile."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "hg-neg-question",
+     "summary": [
+      "Olumsuz: haven't / hasn't got (+ any).",
+      "Soru: Have you got …? — Yes, I have. / No, I haven't. (got yok)",
+      "Alternatif: Do you have …? — Yes, I do. Sistemleri karıştırma."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "hg-reading",
+     "summary": [
+      "'s got = has got; 's + yaş / sıfat = is.",
+      "Kısa cevabı sorunun yardımcı fiiliyle kur: Has …? — No, she hasn't.",
+      "Sahiplik ipuçları: has got, hasn't got, my / his / her."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "possessive-adj",
+   "intro": "I → my · you → your · he → his · she → her · it → its · we → our · they → their. his / her sahibe göre seçilir: Murat and his wife, Aylin and her husband.",
+   "patterns": [
+    {
+     "id": "pa-pairs",
+     "summary": [
+      "Çift olarak öğren: I–my, you–your, he–his, she–her, it–its, we–our, they–their.",
+      "Sahiplik sıfatı + isim; a / the yok.",
+      "your hem senin hem sizin."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "pa-his-her",
+     "summary": [
+      "Sahibe bak: erkek → his, kadın → her.",
+      "Şey / hayvan → its; it's = it is.",
+      "their ≠ there ≠ they're."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "family-words",
+   "intro": "Kelimeleri çift öğren: uncle – aunt, nephew – niece. Açıklama 's ile: Ali is my mother's brother. He's my uncle. (dayı = uncle, amca = uncle)",
+   "patterns": [
+    {
+     "id": "fw-words",
+     "summary": [
+      "Çift öğren: brother–sister, son–daughter, husband–wife, uncle–aunt, nephew–niece.",
+      "parents, grandparents, children, cousin için tek biçim.",
+      "Ağabey / abla: older brother / older sister."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "fw-s-relations",
+     "summary": [
+      "uncle = dayı, amca, enişte; aunt = teyze, hala, yenge.",
+      "Farkı 's ile göster: my mother's brother, my father's sister.",
+      "Önce açıklama, sonra kelime: … He's my uncle."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "family-tree",
+   "intro": "Bakış açısını 's ile ver: Kemal is Deniz's father / Hasan's son. ❤ evli çift, aşağı çizgi çocuklar. Soru: Who is …'s …? — … is.",
+   "patterns": [
+    {
+     "id": "ft-read",
+     "summary": [
+      "❤ evli çift, aşağı çizgi çocuklar, aynı satır kardeşler.",
+      "Bakış açısını 's ile ver: Kemal is Deniz's father.",
+      "Ortak sahiplikte 's sonda: Kemal and Selma's children."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ft-questions",
+     "summary": [
+      "Who is …'s …? / Who are …'s …? (çoğul)",
+      "Has … got any …? — Yes, he has. / No, he hasn't.",
+      "Kendi ailen: … is my mother's sister. She's my aunt."
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "warm2",
+   "intro": "Etiketsiz ağaçta kim kimin nesi? 's ile söyle: Deniz is Kemal's son. Who is Can's mother? — Aylin.",
+   "patterns": [
+    {
+     "id": "w2-recall",
+     "summary": [
+      "Kuşakları hatırla: Hasan–Zehra → çocuklar → torunlar.",
+      "Her kişi için iki cümle: … is …'s father. He's …'s son.",
+      "his / her / their ile pekiştir."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "w2-plan",
+     "summary": [
+      "1. yarı: 's, Whose, of, soru kelimeleri.",
+      "2. yarı: meslekler, a / an, What do you do?",
+      "Konular birbirine bağlı."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "possessive-s",
+   "intro": "Sahip + 's + şey: Ali's car. -s ile biten çoğulda sadece ': my parents' house. Soru: Whose bag is this? — It's Ece's. (Whose = kimin, Who's = who is)",
+   "patterns": [
+    {
+     "id": "ps-rules",
+     "summary": [
+      "Tekil: 's (Ali's car).",
+      "-s ile biten çoğul: ' (my parents' house).",
+      "Düzensiz çoğul 's (children's); ortak sahiplikte 's sonda."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "ps-whose",
+     "summary": [
+      "Whose + isim + is this? / are these?",
+      "Cevap: It's Ece's. / They're my husband's.",
+      "'s unutma: It's Ece's (It's Ece ✗)."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ps-s-meanings",
+     "summary": [
+      "'s + isim = sahiplik; 's + a / sıfat = is; 's + got = has.",
+      "Arkasındaki kelimeye bak.",
+      "Who's = who is (kim) · Whose = kimin."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "noun-phrases",
+   "intro": "İnsan / hayvan → 's (sıra Türkçe gibi): my mother's name. Şey / yer → of (sıra ters): the name of the street. İki kat: my sister's husband's name.",
+   "patterns": [
+    {
+     "id": "np-s-of",
+     "summary": [
+      "İnsan / hayvan → 's: my mother's name.",
+      "Şey / yer → of: the name of the street.",
+      "'s sırası Türkçe gibi, of sırası ters."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "np-double",
+     "summary": [
+      "İki kat: my sister's husband's name.",
+      "Sahiplik sıfatıyla başla: her son's school.",
+      "Çok uzunsa cümleyi böl."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "wh-questions",
+   "intro": "Sıra: soru kelimesi + do / does (fiil varsa) ya da is / are (fiil yoksa) + özne (+ fiil)? Where do you live? Who is your teacher? Nereye = Where … (to)?",
+   "patterns": [
+    {
+     "id": "wh-words",
+     "summary": [
+      "Who kişi, What şey, Where yer, When zaman, How yol / durum.",
+      "Nereye: Where …? — To the market.",
+      "What time saat, How old yaş, How many sayı."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "wh-order",
+     "summary": [
+      "Fiil varsa: soru kelimesi + do / does + özne + yalın fiil.",
+      "Fiil yoksa: soru kelimesi + is / are + özne.",
+      "Yardımcı fiili unutma: Where do you live?"
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "wh-practice",
+   "intro": "Önce soru kelimesine bak: Who → kişi, Where → yer, When → zaman, How → yol. Metinde o bilgiyi bul. Kısa cevap: By motorbike. Tam cevap: He goes to work by motorbike.",
+   "patterns": [
+    {
+     "id": "wp-find",
+     "summary": [
+      "Soru kelimesi aranacak bilgiyi söyler.",
+      "Kısa cevap: By motorbike. Tam cevap: He goes to work by motorbike.",
+      "does + yalın fiil; nereye → to."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "wp-ask",
+     "summary": [
+      "Cevaptan soruyu kur.",
+      "Arkadaşa you ile sor, cevabı he / she ile yaz.",
+      "Kontrol: soru kelimesi başta, yardımcı fiil özneden önce."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "jobs",
+   "intro": "Meslekte a / an şart: She's a nurse. He's an engineer (ünlü ses → an). retired, unemployed ve çoğul → a yok: I'm retired. They're teachers.",
+   "patterns": [
+    {
+     "id": "jb-names",
+     "summary": [
+      "Meslekleri iş yerine göre grupla.",
+      "Çoğu -er, -or, -ist, -ian ile biter.",
+      "cook = aşçı, cooker = ocak."
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "jb-a-an",
+     "summary": [
+      "Ünlü ses → an engineer; ünsüz ses → a nurse.",
+      "Sıfat varsa a / an sıfata göre: a good engineer.",
+      "retired, unemployed, çoğul → a yok."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "what-do-you-do",
+   "intro": "What do you do? — I'm a nurse. Where do you work? — I work in a hospital (bina → in, çiftlik → on, ev → at). What does your mother do? — She's a teacher.",
+   "patterns": [
+    {
+     "id": "wd-ask",
+     "summary": [
+      "What do you do? = Ne iş yapıyorsun?",
+      "I'm a / an … · I'm retired · I'm a housewife.",
+      "And you? ile soruyu geri sor."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "wd-where",
+     "summary": [
+      "Bina → in a: in a hospital, in a shop.",
+      "Çiftlik, şantiye → on: on a farm.",
+      "Ev, nokta → at: at home, at the airport."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "wd-parents",
+     "summary": [
+      "What does your mother do? (sondaki do yalın)",
+      "Üç bilgi: meslek, iş yeri, ayrıntı.",
+      "Geçmiş: He was a bus driver. Now he's retired."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "jobs-match",
+   "intro": "Mesleği üç ipucuyla tanı: görsel, iş yeri, yaptığı iş. Tanım: A baker makes bread. Bilmece: This person repairs cars. — A mechanic.",
+   "patterns": [
+    {
+     "id": "jm-definitions",
+     "summary": [
+      "Tanım geniş zamanla: A baker makes bread.",
+      "Tanım fiillerini öğren: grow, repair, fly, sell.",
+      "Bilmece: This person … — A / An …"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "jm-places",
+     "summary": [
+      "Dört yer: hospital, restaurant, school, farm / outside.",
+      "En tipik yeri seç.",
+      "Cümleyle söyle: A nurse works in a hospital."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "write-jobs",
+   "intro": "Görselin altına a / an + meslek yaz. Zor yazımlar: ph-armacist (f sesi), me-ch-anic (k sesi), hairdre-ss-er (iki s), engin-ee-r (iki e), electric-ian.",
+   "patterns": [
+    {
+     "id": "wj-spelling",
+     "summary": [
+      "ph = f (pharmacist), ch = k (mechanic).",
+      "Birleşik adlar: hair + dresser, fire + fighter.",
+      "Yazdıktan sonra a / an'ı kontrol et."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "wj-dictation",
+     "summary": [
+      "Dinlerken ilk sese dikkat: an engineer.",
+      "İngilizce harf adlarını tekrar et.",
+      "Okunuşa göre değil doğru yazımla yaz."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "dream-job",
+   "intro": "I want to be a / an + meslek (to unutulmaz). Sebep: because I love travelling. Başkası: She wants to be a doctor. Çocukken: When I was a child, I wanted to be a teacher.",
+   "patterns": [
+    {
+     "id": "dj-want",
+     "summary": [
+      "I want to be + a / an + meslek.",
+      "he / she → wants to be.",
+      "My dream job is a … · What do you want to be?"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "dj-because",
+     "summary": [
+      "because + tam cümle.",
+      "like / love + -ing: I love travelling.",
+      "Çocukluk: When I was a child, I wanted to be …"
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "objects",
+   "intro": "Sorular: What's this? What colour is it? Is it new or old? Whose is it? What's it for? Tanıtma: It's a … → It's small and black. → It's my mother's. → You use it for …",
+   "patterns": [
+    {
+     "id": "ob-questions",
+     "summary": [
+      "What's this? — It's a / an …",
+      "Renk, boyut, yaş: What colour …? Is it big or small? Is it new or old?",
+      "glasses, scissors çoğul: They're …"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ob-describe",
+     "summary": [
+      "Dört adım: ad, özellik, sahip, işlev.",
+      "İşlev: You use it for + -ing / to + fiil.",
+      "Tariften nesneyi bul."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "this-that",
+   "intro": "Yakın + tek this · uzak + tek that · yakın + çok these · uzak + çok those. Fiil uyumu: this / that is · these / those are. Tanıtma: This is my husband.",
+   "patterns": [
+    {
+     "id": "tt-four",
+     "summary": [
+      "Yakın: this / these · uzak: that / those.",
+      "this / that is · these / those are.",
+      "Cevapta it (tek) ya da they (çok)."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "tt-adj-pron",
+     "summary": [
+      "Zamir: This is new. Sıfat: This bag is new.",
+      "Uyum: this bag / these bags.",
+      "Tanıtma: This is my husband."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "describe",
+   "intro": "Bunlar yenidir = These are new. Şunlar eskidir = Those are old. Onlar yenidir = They are new. those gösterir, they yerini tutar. Sıfat çoğulda değişmez: new shoes.",
+   "patterns": [
+    {
+     "id": "ds-tr-en",
+     "summary": [
+      "-dir = is / are; İngilizcede düşmez.",
+      "Zamir: These are new. Sıfat: These shoes are new.",
+      "and / but ile iki betimlemeyi birleştir."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ds-those-they",
+     "summary": [
+      "those gösterir, they yerini tutar.",
+      "Göster, sonra they ile devam et.",
+      "Sıfat çoğulda değişmez: new shoes."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "picture-say",
+   "intro": "Yakın: What's this? — It's a pen. / What are these? — They're keys. Uzak: What's that? / What are those? Cevapta it (tek) ve they (çok); çoğulda a yok.",
+   "patterns": [
+    {
+     "id": "pc-q-a",
+     "summary": [
+      "Yakın / uzak ve tek / çok'a göre soru seç.",
+      "Cevap: It's a / an … · They're …s.",
+      "Çoğulda a yok; cevaba bir özellik ekle."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "pc-dictation",
+     "summary": [
+      "this kısa i + is · these uzun i + are.",
+      "Fiil ipucudur: is → this / that, are → these / those.",
+      "Büyük harf, uyum, çoğul -s ve noktalamayı kontrol et."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "ataturk",
+   "intro": "Kalıplar: was born (doğdu) · went (gitti) · became (oldu) · died (vefat etti) · was founded (kuruldu). Tarih: in 1881 (yıl) · on 29 October 1923 (gün + ay).",
+   "patterns": [
+    {
+     "id": "at-dates",
+     "summary": [
+      "was born, went, became, died, was founded: geçmiş kalıplar.",
+      "in + yıl / ay · on + gün.",
+      "Yılları ikişer ikişer oku: eighteen eighty-one."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "at-reading",
+     "summary": [
+      "Soru kelimesi aranacak bilgiyi söyler.",
+      "When was he born? · When did he die?",
+      "Yanlış cümleyi doğru bilgiyle düzelt."
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "close",
+   "intro": "Kendini değerlendir (I can …), büyük son kontrolü çöz, ev ödevi: soyağacı (8 cümle), meslekler (5–6 cümle), evden beş eşya (this / that), sesli tekrar.",
+   "patterns": [
+    {
+     "id": "cl-review",
+     "summary": [
+      "1. gün: günüm, fiiller, have got, sahiplik, aile.",
+      "2. gün: 's, Whose, soru kelimeleri, meslekler.",
+      "3. gün: hayal meslek, nesneler, this / that, Atatürk."
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "cl-homework",
+     "summary": [
+      "Ödev 1: soyağacı, 8 cümle.",
+      "Ödev 2: meslekler ve hayal meslek, 5–6 cümle.",
+      "Ödev 3: evden beş eşya; ödev 4: sesli tekrar."
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  }
+ ]
+}

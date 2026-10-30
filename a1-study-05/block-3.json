@@ -1,0 +1,2238 @@
+{
+ "version": 1,
+ "block": 3,
+ "chapters": [
+  {
+   "screenId": "write-jobs",
+   "title": "Meslek isimlerini yazmak ve doğru hecelemek",
+   "intro": [
+    "MEB kazanımı: verilen görsellerin altına meslek isimlerini yazar. Geçen derste meslekleri söyledik ve eşleştirdik; bugün yazıyoruz. Yazarken iki şeye dikkat ediyoruz: mesleğin önüne a / an koymak ve kelimeyi doğru hecelemek.",
+    "İngilizcede bazı sesler Türkçeden farklı yazılır: eczacı (pharmacist) kelimesindeki f sesi ph ile, tamirci (mechanic) kelimesindeki k sesi ch ile yazılır. hairdresser'da iki s, engineer'da sonda iki e vardır. Bu ekranda dikte ve harf harf heceleme oyunuyla bu zor kelimeleri çalışıyoruz."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "She's a pharmacist. She works in a pharmacy.",
+     "tr": "Eczacı. Eczanede çalışıyor.",
+     "why": [
+      "pharmacist ve pharmacy aynı köktendir; ikisi de ph ile."
+     ]
+    },
+    {
+     "en": "He's a firefighter.",
+     "tr": "İtfaiyeci.",
+     "why": [
+      "fire + fighter birleşik ad."
+     ]
+    },
+    {
+     "en": "D-O-C-T-O-R",
+     "tr": "doctor (doktor)",
+     "why": [
+      "Heceleme oyunu: harfleri İngilizce okuyun."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "wj-spelling",
+     "title": "pharmacist · mechanic · hairdresser · engineer · electrician",
+     "meaning": "Zor meslek adlarını doğru yazmak",
+     "explanation": [
+      "İngilizcede yazım ile okunuş her zaman aynı değildir. f sesi bazen ph ile yazılır: pharmacist (farmısist). k sesi bazen ch ile yazılır: mechanic (mıkenik). Bu kelimeleri harf harf heceleyerek öğrenmek en güvenli yoldur: P-H-A-R-M-A-C-I-S-T.",
+      "Bazı meslek adları iki kelimenin birleşimidir ve bu, yazımı kolaylaştırır: hairdresser = hair (saç) + dresser, firefighter = fire (ateş) + fighter (savaşan), housewife = house (ev) + wife. hairdresser'da dresser'ın iki s'si korunur.",
+      "Ekleri tanımak da işe yarar: -er (teacher, driver, farmer, builder), -or (doctor), -ist (dentist, pharmacist), -ian (electrician). engineer -eer ile biter (iki e). Yazdıktan sonra a / an kuralını kontrol edin: an engineer, an electrician."
+     ],
+     "formula": [
+      "f sesi → ph: pharmacist · k sesi → ch: mechanic",
+      "birleşik: hair + dresser · fire + fighter · house + wife",
+      "ekler: -er · -or · -ist · -ian · -eer (engineer)"
+     ],
+     "examples": [
+      {
+       "en": "She's a pharmacist. P-H-A-R-M-A-C-I-S-T.",
+       "tr": "Eczacı. P-H-A-R-M-A-C-I-S-T.",
+       "why": [
+        "f sesi ph ile."
+       ],
+       "chunks": [
+        {
+         "en": "pharmacist",
+         "tr": "eczacı",
+         "note": "ph = f"
+        }
+       ]
+      },
+      {
+       "en": "He's a mechanic. He repairs cars.",
+       "tr": "Tamirci. Araba tamir eder.",
+       "why": [
+        "k sesi ch ile."
+       ]
+      },
+      {
+       "en": "My neighbour is a hairdresser.",
+       "tr": "Komşum kuaför.",
+       "why": [
+        "hair + dresser, iki s."
+       ]
+      },
+      {
+       "en": "She's an engineer and he's an electrician.",
+       "tr": "O mühendis, o da elektrikçi.",
+       "why": [
+        "İki an; -eer ve -ian."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Eczacı” kelimesini harf harf heceleyin.",
+       "answer": "P-H-A-R-M-A-C-I-S-T",
+       "why": "ph"
+      },
+      {
+       "question": "hairdreser yazımını düzeltin.",
+       "answer": "hairdresser",
+       "why": "iki s"
+      },
+      {
+       "question": "enginer yazımını düzeltin.",
+       "answer": "engineer",
+       "why": "iki e"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "farmasist",
+       "right": "pharmacist",
+       "why": "f sesi ph ile yazılır."
+      },
+      {
+       "wrong": "mekanik",
+       "right": "mechanic",
+       "why": "k sesi ch ile yazılır."
+      }
+     ]
+    },
+    {
+     "id": "wj-dictation",
+     "title": "Dinle ve yaz: a nurse · an engineer · a firefighter",
+     "meaning": "Dikte ve heceleme oyunu",
+     "explanation": [
+      "Dikte alıştırmasında öğretmen ya da ekrandaki ses bir meslek adını a / an ile söyler; siz duyduğunuzu yazarsınız. a ile an arasındaki farkı duymak için kelimenin ilk sesine dikkat edin: an engineer'da a ile e birleşir (ın-encinir).",
+      "Heceleme oyununda resmi görünce mesleği harf harf söylersiniz: D-O-C-T-O-R. İngilizce harflerin okunuşu Türkçeden farklıdır: A (ey), E (ii), I (ay), R (aar), H (eyç), C (sii). Zor harfleri önceden tekrar edin.",
+      "Hata düzeltme alıştırmasında yanlış yazılmış meslek adlarını düzeltirsiniz. Yaygın hatalar: Türkçe okunuşa göre yazmak (ticır), harf eksiltmek (enginer) ya da harf eklemek (pilott)."
+     ],
+     "formula": [
+      "dinle: ilk ses ünlüyse an (an engineer)",
+      "hecele: A = ey · E = ii · I = ay · R = aar · H = eyç",
+      "düzelt: ticır → teacher · enginer → engineer"
+     ],
+     "examples": [
+      {
+       "en": "A-N  E-N-G-I-N-E-E-R",
+       "tr": "an engineer",
+       "why": [
+        "Heceleme; a / an ayrı kelime."
+       ]
+      },
+      {
+       "en": "Listen and write: a firefighter.",
+       "tr": "Dinle ve yaz: bir itfaiyeci.",
+       "why": [
+        "fire + fighter."
+       ]
+      },
+      {
+       "en": "D-O-C-T-O-R: doctor",
+       "tr": "doktor",
+       "why": [
+        "-or ile biter."
+       ]
+      },
+      {
+       "en": "ticır → teacher",
+       "tr": "öğretmen",
+       "why": [
+        "Okunuşa göre değil, doğru yazımla."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "E harfi İngilizcede nasıl okunur?",
+       "answer": "ii",
+       "why": "harfler"
+      },
+      {
+       "question": "I harfi nasıl okunur?",
+       "answer": "ay",
+       "why": "harfler"
+      },
+      {
+       "question": "pilott yazımını düzeltin.",
+       "answer": "pilot",
+       "why": "tek t"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "an doctor",
+       "right": "a doctor",
+       "why": "Ünsüz ses → a."
+      },
+      {
+       "wrong": "a electrician",
+       "right": "an electrician",
+       "why": "Ünlü ses → an."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "dream-job",
+   "title": "Hayalimdeki meslek: I want to be a … because …",
+   "intro": [
+    "Hayalimizdeki mesleği söylemek için I want to be a … kalıbını kullanırız: I want to be a nurse. Sebebi because ile ekleriz: because I like helping people. Ayrıca My dream job is … (Hayalimdeki meslek …) kalıbı da kullanılır.",
+    "Çocukken istediğimiz mesleği söylemek için geçmiş zaman kalıbı vardır: When I was a child, I wanted to be a teacher. Bu kalıbı şimdilik bir bütün olarak öğreniyoruz; sınıf anketinde herkes çocukken ne olmak istediğini söylüyor."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I want to be a pilot because I love travelling.",
+     "tr": "Pilot olmak istiyorum çünkü seyahat etmeyi çok seviyorum.",
+     "why": [
+      "want to be + a; because + cümle; love + -ing."
+     ]
+    },
+    {
+     "en": "My daughter wants to be a doctor because she likes helping people.",
+     "tr": "Kızım doktor olmak istiyor çünkü insanlara yardım etmeyi seviyor.",
+     "why": [
+      "she → wants, likes; helping (-ing)."
+     ]
+    },
+    {
+     "en": "When I was a child, I wanted to be a teacher.",
+     "tr": "Çocukken öğretmen olmak istiyordum.",
+     "why": [
+      "was ve wanted geçmiş zaman; kalıp olarak öğrenilir."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "dj-want",
+     "title": "I want to be a pilot. · She wants to be a doctor.",
+     "meaning": "want to be kalıbını kullanmak",
+     "explanation": [
+      "Kalıp: I want to be + a / an + meslek. to unutulmamalıdır: I want to be (I want be ✗). Meslek adından önce a / an yine şarttır: I want to be a pilot. I want to be an engineer.",
+      "Başkasının hayalinden söz ederken want -s alır: My daughter wants to be a doctor. My son wants to be a footballer. Olumsuz: He doesn't want to be a teacher. Soru: What do you want to be? Does she want to be a nurse?",
+      "Alternatif kalıp: My dream job is a chef. (Hayalimdeki meslek aşçılık.) Bu kalıpta meslek adı yine a ile gelir. Çocuklara sorulan klasik soru: What do you want to be when you grow up? (Büyüyünce ne olmak istiyorsun?)"
+     ],
+     "formula": [
+      "I want to be + a / an + meslek",
+      "he / she → wants to be · doesn't want to be",
+      "My dream job is a … · What do you want to be?"
+     ],
+     "examples": [
+      {
+       "en": "I want to be a pilot. It's my dream job.",
+       "tr": "Pilot olmak istiyorum. Hayalimdeki meslek.",
+       "why": [
+        "want to be + a."
+       ],
+       "chunks": [
+        {
+         "en": "want to be",
+         "tr": "olmak istemek",
+         "note": "to şart"
+        },
+        {
+         "en": "my dream job",
+         "tr": "hayalimdeki meslek"
+        }
+       ]
+      },
+      {
+       "en": "My daughter wants to be a doctor.",
+       "tr": "Kızım doktor olmak istiyor.",
+       "why": [
+        "she → wants."
+       ]
+      },
+      {
+       "en": "My son wants to be a footballer.",
+       "tr": "Oğlum futbolcu olmak istiyor.",
+       "why": [
+        "footballer: futbolcu."
+       ]
+      },
+      {
+       "en": "What do you want to be? — I want to be an engineer.",
+       "tr": "Ne olmak istiyorsun? — Mühendis olmak istiyorum.",
+       "why": [
+        "Soru ve cevap."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Hemşire olmak istiyorum.” İngilizcesi?",
+       "answer": "I want to be a nurse.",
+       "why": "to + a"
+      },
+      {
+       "question": "My son (want) to be a pilot.",
+       "answer": "wants",
+       "why": "he → -s"
+      },
+      {
+       "question": "I want be teacher cümlesini düzeltin.",
+       "answer": "I want to be a teacher.",
+       "why": "to ve a"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I want be a pilot.",
+       "right": "I want to be a pilot.",
+       "why": "to unutulmaz."
+      },
+      {
+       "wrong": "My daughter want to be a doctor.",
+       "right": "My daughter wants to be a doctor.",
+       "why": "she → wants."
+      }
+     ]
+    },
+    {
+     "id": "dj-because",
+     "title": "… because I love travelling. · When I was a child, I wanted to be …",
+     "meaning": "Sebep söylemek ve çocukluk hayalini anlatmak",
+     "explanation": [
+      "Sebebi because (çünkü) ile ekleriz. because'tan sonra tam bir cümle gelir: because I love travelling, because I like helping people, because it's a good job. like / love'dan sonra fiil -ing alır: I like helping (I like help ✗), I love cooking.",
+      "Sebebi kısa da söyleyebiliriz: I want to be a chef. I love cooking. İki cümle de doğrudur; because ile bağlamak cümleyi daha akıcı yapar.",
+      "Çocukluk hayalini söylemek için: When I was a child, I wanted to be a teacher. (Çocukken öğretmen olmak istiyordum.) was ve wanted geçmiş zaman biçimleridir; bu kalıbı şimdilik ezber olarak kullanın. Anket sorusu: When you were a child, what did you want to be?"
+     ],
+     "formula": [
+      "… because + özne + fiil: because I love travelling",
+      "like / love + fiil-ing: I like helping people.",
+      "When I was a child, I wanted to be a …"
+     ],
+     "examples": [
+      {
+       "en": "I want to be a nurse because I like helping people.",
+       "tr": "Hemşire olmak istiyorum çünkü insanlara yardım etmeyi seviyorum.",
+       "why": [
+        "because + cümle; like + -ing."
+       ],
+       "chunks": [
+        {
+         "en": "because",
+         "tr": "çünkü"
+        },
+        {
+         "en": "I like helping people",
+         "tr": "insanlara yardım etmeyi severim",
+         "note": "help → helping"
+        }
+       ]
+      },
+      {
+       "en": "My dream job is a chef. I love cooking.",
+       "tr": "Hayalimdeki meslek aşçılık. Yemek yapmayı çok seviyorum.",
+       "why": [
+        "love + -ing."
+       ]
+      },
+      {
+       "en": "When I was a child, I wanted to be a teacher.",
+       "tr": "Çocukken öğretmen olmak istiyordum.",
+       "why": [
+        "Geçmiş kalıp."
+       ]
+      },
+      {
+       "en": "I'm a housewife, but my dream job is a tailor.",
+       "tr": "Ev hanımıyım ama hayalimdeki meslek terzilik.",
+       "why": [
+        "but = ama."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Çünkü yemek yapmayı seviyorum.” İngilizcesi?",
+       "answer": "Because I like cooking.",
+       "why": "like + -ing"
+      },
+      {
+       "question": "“Çocukken pilot olmak istiyordum.” İngilizcesi?",
+       "answer": "When I was a child, I wanted to be a pilot.",
+       "why": "Geçmiş kalıp"
+      },
+      {
+       "question": "I like help people cümlesini düzeltin.",
+       "answer": "I like helping people.",
+       "why": "-ing"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Because I like cook.",
+       "right": "Because I like cooking.",
+       "why": "like + -ing."
+      },
+      {
+       "wrong": "When I am a child, I want to be a teacher.",
+       "right": "When I was a child, I wanted to be a teacher.",
+       "why": "Geçmiş için was / wanted."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "objects",
+   "title": "Bir nesne hakkında soru sormak ve nesneyi tanıtmak",
+   "intro": [
+    "MEB kazanımları: bir nesne hakkındaki basit bilgileri sorar; nesnelerin tarif ve tanımlamalarını anlar; çevresindeki nesneleri tanıtır. Bir nesne hakkında birkaç temel soru sorabiliriz: What's this? (Bu ne?), What colour is it? (Ne renk?), Is it big or small? (Büyük mü küçük mü?), Is it new or old? (Yeni mi eski mi?), Whose is it? (Kimin?), What's it for? (Ne işe yarar?).",
+    "Bir nesneyi tanıtırken dört adım izleriz: ad (It's an umbrella.), özellik (It's small and black.), sahip (It's my mother's.) ve işlev (You use it for writing.). Dialogda Deniz babaannesi Zehra'ya eski bir kahve değirmenini soruyor."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Grandma, what's this? — It's a coffee grinder. It's very old.",
+     "tr": "Babaanne, bu ne? — Kahve değirmeni. Çok eski.",
+     "why": [
+      "What's this? — It's a …; very old = çok eski."
+     ]
+    },
+    {
+     "en": "You use it for making Turkish coffee.",
+     "tr": "Türk kahvesi yapmak için kullanılır.",
+     "why": [
+      "for + -ing (making); make coffee kalıbı."
+     ]
+    },
+    {
+     "en": "Whose is it? — It was my mother's. Now it's mine.",
+     "tr": "Kimin? — Annemindi. Şimdi benim.",
+     "why": [
+      "was = -di (geçmiş); mine = benimki."
+     ]
+    },
+    {
+     "en": "No, it isn't gold. It's brass. It's yellow and brown.",
+     "tr": "Hayır, altın değil. Pirinç. Sarı ve kahverengi.",
+     "why": [
+      "isn't olumsuz; iki renk and ile."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ob-questions",
+     "title": "What's this? — It's an umbrella. What colour is it? — It's black.",
+     "meaning": "Nesne hakkında temel sorular",
+     "explanation": [
+      "En temel soru What's this? (Bu ne?) — It's a pen. / It's an umbrella. Cevapta it kullanılır; this tekrar edilmez. Uzaktaki nesne için What's that? sorulur.",
+      "Renk için What colour is it? — It's black. Boyut için Is it big or small? — It's small. Yaş için Is it new or old? — It's new. Bu or sorularında cevap iki seçenekten biridir. Fiyat için How much is it? — It's 50 lira. Kimin olduğunu sormak için Whose is it? — It's my sister's.",
+      "Bazı nesneler İngilizcede her zaman çoğuldur: glasses (gözlük), scissors (makas), trousers (pantolon). Bunlar için What are these? — They're glasses. kullanılır. Türkçede tekil düşündüğümüz için bu bir tuzaktır."
+     ],
+     "formula": [
+      "What's this? — It's a / an … · What colour is it? — It's …",
+      "Is it big or small? · Is it new or old? · Whose is it? · How much is it?",
+      "her zaman çoğul: glasses · scissors → They're …"
+     ],
+     "examples": [
+      {
+       "en": "What's this? — It's an umbrella.",
+       "tr": "Bu ne? — Şemsiye.",
+       "why": [
+        "Cevapta it; ünlü ses → an."
+       ],
+       "chunks": [
+        {
+         "en": "What's this?",
+         "tr": "bu ne?"
+        },
+        {
+         "en": "It's an umbrella.",
+         "tr": "şemsiye.",
+         "note": "an"
+        }
+       ]
+      },
+      {
+       "en": "What colour is it? — It's black.",
+       "tr": "Ne renk? — Siyah.",
+       "why": [
+        "Renk sorusu."
+       ]
+      },
+      {
+       "en": "Is it new or old? — It's new.",
+       "tr": "Yeni mi eski mi? — Yeni.",
+       "why": [
+        "or sorusu: bir seçenek."
+       ]
+      },
+      {
+       "en": "What are these? — They're my glasses.",
+       "tr": "Bunlar ne? — Gözlüğüm.",
+       "why": [
+        "glasses her zaman çoğul."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Ne renk?” İngilizcesi?",
+       "answer": "What colour is it?",
+       "why": "renk"
+      },
+      {
+       "question": "“Makas” için doğru cevap: It's a scissors / They're scissors?",
+       "answer": "They're scissors.",
+       "why": "her zaman çoğul"
+      },
+      {
+       "question": "“Ne kadar?” İngilizcesi?",
+       "answer": "How much is it?",
+       "why": "fiyat"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "What is colour?",
+       "right": "What colour is it?",
+       "why": "Sıra: What colour + is + it."
+      },
+      {
+       "wrong": "It's a glasses.",
+       "right": "They're glasses.",
+       "why": "glasses çoğul."
+      }
+     ]
+    },
+    {
+     "id": "ob-describe",
+     "title": "It's small and black. It's my mother's. You use it for writing.",
+     "meaning": "Bir nesneyi dört adımda tanıtmak",
+     "explanation": [
+      "1. Ad: It's a pen. It's an umbrella. 2. Özellik: It's small and black. İki özelliği and ile bağlayın. Sıfat isimden önce de gelebilir: It's a small black bag. 3. Sahip: It's my phone. It's my mother's.",
+      "4. İşlev: You use it for + -ing (You use it for writing.) ya da You use it to + fiil (You use it to cut paper.). What's it for? (Ne işe yarar?) sorusunun cevabı budur. Burada you genel anlamdadır: herkes, insanlar.",
+      "Tarif okuma alıştırmasında bu bilgilerden nesneyi bulursunuz: It's small. It's got numbers. You use it for counting. — A calculator. It's long and thin. You use it for writing. You can erase it. — A pencil."
+     ],
+     "formula": [
+      "1 ad: It's a / an … · 2 özellik: It's small and black.",
+      "3 sahip: It's my … / It's my mother's.",
+      "4 işlev: You use it for + -ing / to + fiil."
+     ],
+     "examples": [
+      {
+       "en": "It's an umbrella. It's black and it's new.",
+       "tr": "Bu bir şemsiye. Siyah ve yeni.",
+       "why": [
+        "Ad + iki özellik."
+       ]
+      },
+      {
+       "en": "You use it for cutting paper.",
+       "tr": "Kâğıt kesmek için kullanırsın.",
+       "why": [
+        "for + -ing."
+       ],
+       "chunks": [
+        {
+         "en": "You use it",
+         "tr": "onu kullanırsın",
+         "note": "genel you"
+        },
+        {
+         "en": "for cutting paper",
+         "tr": "kâğıt kesmek için",
+         "note": "for + -ing"
+        }
+       ]
+      },
+      {
+       "en": "It's my mother's umbrella.",
+       "tr": "Annemin şemsiyesi.",
+       "why": [
+        "Sahip: 's."
+       ]
+      },
+      {
+       "en": "It's small. It's got numbers. You use it for counting. — A calculator.",
+       "tr": "Küçük. Üstünde sayılar var. Saymak için kullanılır. — Hesap makinesi.",
+       "why": [
+        "Tarif → nesne."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Yazmak için kullanırsın.” İngilizcesi?",
+       "answer": "You use it for writing.",
+       "why": "for + -ing"
+      },
+      {
+       "question": "Kalemi dört adımda tanıtın.",
+       "answer": "It's a pen. It's blue. It's my pen. You use it for writing.",
+       "why": "dört adım"
+      },
+      {
+       "question": "You use it for cut paper cümlesini düzeltin.",
+       "answer": "You use it for cutting paper. / You use it to cut paper.",
+       "why": "-ing ya da to"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "You use it for write.",
+       "right": "You use it for writing.",
+       "why": "for'dan sonra -ing."
+      },
+      {
+       "wrong": "It's black and small bag.",
+       "right": "It's a small black bag. / It's small and black.",
+       "why": "Sıfat isimden önce ya da be'den sonra."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "this-that",
+   "title": "İşaret sözcükleri: this, that, these, those",
+   "intro": [
+    "MEB kazanımı: işaret sıfatlarını ve işaret zamirlerini yerinde kullanır. Doğru sözcüğü seçmek için iki soru sorarız: nesne yakın mı uzak mı? Bir tane mi, çok mu? Yakın + tek = this (bu), uzak + tek = that (şu, o), yakın + çok = these (bunlar), uzak + çok = those (şunlar).",
+    "Bu sözcükler tek başına kullanılınca zamirdir: This is new. (Bu yeni.) Bir isimden önce gelince sıfattır: This bag is new. (Bu çanta yeni.) Her iki durumda da tekil-çoğul uyumu sürer: this bag / these bags. Fiil de uyar: this is, these are."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "This is my pen.",
+     "tr": "Bu benim kalemim.",
+     "why": [
+      "Yakın, tek → this; is."
+     ]
+    },
+    {
+     "en": "That's my brother's car.",
+     "tr": "Şu ağabeyimin arabası.",
+     "why": [
+      "That's = That is; my brother's = ağabeyimin."
+     ]
+    },
+    {
+     "en": "These are my keys. Those are your shoes.",
+     "tr": "Bunlar benim anahtarlarım. Şunlar senin ayakkabıların.",
+     "why": [
+      "Çoğul → are; yakın these, uzak those."
+     ]
+    },
+    {
+     "en": "This bag is new. These bags are old.",
+     "tr": "Bu çanta yeni. Bu çantalar eski.",
+     "why": [
+      "Sıfat olarak kullanımda da tekil-çoğul uyumu sürer."
+     ]
+    },
+    {
+     "en": "This is my husband, Murat. That's my son over there.",
+     "tr": "Bu eşim Murat. Şuradaki oğlum.",
+     "why": [
+      "Tanıtmada This is; over there = şurada."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "tt-four",
+     "title": "This is my phone. That is my car. These are my keys. Those are my shoes.",
+     "meaning": "Dört sözcüğü yakınlık ve sayıya göre seçmek",
+     "explanation": [
+      "Elinizdeki ya da yanınızdaki tek şey için this: This is my pen. Uzaktaki tek şey için that: That is the board. Yakındaki birden çok şey için these: These are my keys. Uzaktaki birden çok şey için those: Those are your shoes.",
+      "Fiil sözcüğe uyar: this / that ile is, these / those ile are. That is'in kısa biçimi That's'tir; This is'in kısa biçimi yoktur. these ve those'un ardından gelen isim de çoğul olur: these keys, those shoes.",
+      "Soru ve cevapta zamir değişir: What's this? — It's a pen. What are these? — They're apples. Cevapta this / these tekrar edilmez; tekil için it, çoğul için they kullanılır."
+     ],
+     "formula": [
+      "🤚 yakın: this (tek) · these (çok)",
+      "👉 uzak: that (tek) · those (çok)",
+      "this / that + is · these / those + are · cevap: it / they"
+     ],
+     "examples": [
+      {
+       "en": "These are my keys. Those are your shoes.",
+       "tr": "Bunlar benim anahtarlarım. Şunlar senin ayakkabıların.",
+       "why": [
+        "Yakın çok / uzak çok; are."
+       ],
+       "chunks": [
+        {
+         "en": "These are",
+         "tr": "bunlar",
+         "note": "yakın, çok"
+        },
+        {
+         "en": "Those are",
+         "tr": "şunlar",
+         "note": "uzak, çok"
+        }
+       ]
+      },
+      {
+       "en": "That's my brother's car.",
+       "tr": "Şu ağabeyimin arabası.",
+       "why": [
+        "That's = That is."
+       ]
+      },
+      {
+       "en": "What are these? — They're apples.",
+       "tr": "Bunlar ne? — Elma.",
+       "why": [
+        "Cevapta they."
+       ]
+      },
+      {
+       "en": "This is my pen.",
+       "tr": "Bu benim kalemim.",
+       "why": [
+        "Yakın, tek."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "👉 🏠 ___ is my house.",
+       "answer": "That",
+       "why": "uzak, tek"
+      },
+      {
+       "question": "🤚 🔑🔑 ___ are my keys.",
+       "answer": "These",
+       "why": "yakın, çok"
+      },
+      {
+       "question": "These ___ my children. (is / are)",
+       "answer": "are",
+       "why": "çoğul"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "These is my bag.",
+       "right": "This is my bag.",
+       "why": "Tekil → this is."
+      },
+      {
+       "wrong": "This are my keys.",
+       "right": "These are my keys.",
+       "why": "Çoğul → these are."
+      }
+     ]
+    },
+    {
+     "id": "tt-adj-pron",
+     "title": "This is new. · This bag is new. · This is my husband, Murat.",
+     "meaning": "Zamir ve sıfat kullanımı, insanları tanıtmak",
+     "explanation": [
+      "Tek başına kullanıldığında işaret sözcüğü bir zamirdir ve bir ismin yerini tutar: This is new. (Bu yeni.) Those are old. (Şunlar eski.) Bir isimden önce kullanıldığında sıfattır ve o ismi işaret eder: This bag is new. Those shoes are old.",
+      "Sıfat olarak kullanıldığında da tekil-çoğul uyumu sürer: this bag / these bags, that house / those houses. Sıfat ile birlikte başka bir sıfat da gelebilir: this new bag, those old shoes.",
+      "Birini tanıtırken This is kullanılır: This is my husband, Murat. (He is my husband ✗ tanıtma anlamında doğal değildir.) Uzaktaki birini göstermek için That's: That's my son over there. Telefonda kendini tanıtmak için de This is Kaan. denir."
+     ],
+     "formula": [
+      "zamir: This is new. · sıfat: This bag is new.",
+      "uyum: this bag / these bags · that house / those houses",
+      "tanıtma: This is my husband, Murat. · That's my son over there."
+     ],
+     "examples": [
+      {
+       "en": "This bag is new. These bags are old.",
+       "tr": "Bu çanta yeni. Bu çantalar eski.",
+       "why": [
+        "Sıfat; tekil-çoğul uyumu."
+       ]
+      },
+      {
+       "en": "This is my husband, Murat. That's my son over there.",
+       "tr": "Bu eşim Murat. Şuradaki oğlum.",
+       "why": [
+        "İnsanları tanıtmak."
+       ],
+       "chunks": [
+        {
+         "en": "This is my husband",
+         "tr": "bu eşim",
+         "note": "tanıtma"
+        },
+        {
+         "en": "over there",
+         "tr": "şurada"
+        }
+       ]
+      },
+      {
+       "en": "Those old shoes are my father's.",
+       "tr": "Şu eski ayakkabılar babamın.",
+       "why": [
+        "those + sıfat + isim; 's."
+       ]
+      },
+      {
+       "en": "Hello, this is Kaan.",
+       "tr": "Merhaba, ben Kaan.",
+       "why": [
+        "Telefonda kendini tanıtmak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bu çanta yeni.” İngilizcesi?",
+       "answer": "This bag is new.",
+       "why": "sıfat"
+      },
+      {
+       "question": "“Şu evler büyük.” İngilizcesi?",
+       "answer": "Those houses are big.",
+       "why": "uzak, çok"
+      },
+      {
+       "question": "Annenizi tanıtın.",
+       "answer": "This is my mother.",
+       "why": "This is"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "These bag is new.",
+       "right": "This bag is new.",
+       "why": "Tekil isim → this."
+      },
+      {
+       "wrong": "That houses are old.",
+       "right": "Those houses are old.",
+       "why": "Çoğul isim → those."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "describe",
+   "title": "İşaret sözcükleriyle betimlemek: These are new. Those are old.",
+   "intro": [
+    "MEB kazanımı: nesne veya kişilerin özelliklerini işaret sıfatlarını kullanarak betimler. Kazanımdaki örnek: Bunlar yenidir. Şunlar eskidir. Onlar yenidir. İngilizcesi: These are new. Those are old. They are new. Türkçedeki -dir eki İngilizcede is / are olur.",
+    "Burada önemli bir ayrım var: those uzaktaki şeyleri gösterir (parmağımızla işaret ederiz); they ise daha önce söylediğimiz şeylerin yerini tutar, göstermeye gerek yoktur: I've got new shoes. They are black. Türkçede “onlar” hem insanlar hem şeyler için kullanılır; İngilizcede they de öyledir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "These are new. Those are old. They are new.",
+     "tr": "Bunlar yenidir. Şunlar eskidir. Onlar yenidir.",
+     "why": [
+      "Kazanımdaki üç cümle: these (yakın), those (uzak), they (yerini tutar)."
+     ]
+    },
+    {
+     "en": "Those houses are old, but they're beautiful.",
+     "tr": "Şu evler eski ama çok güzeller.",
+     "why": [
+      "those gösterir; they aynı evlerin yerini tutar; but zıtlık."
+     ]
+    },
+    {
+     "en": "These are my children's shoes. They're very small.",
+     "tr": "Bunlar çocuklarımın ayakkabıları. Çok küçükler.",
+     "why": [
+      "children's = çocuklarımın; they ile devam."
+     ]
+    },
+    {
+     "en": "This phone is cheap and that phone is expensive.",
+     "tr": "Bu telefon ucuz, şu telefon pahalı.",
+     "why": [
+      "this / that + isim; cheap ↔ expensive."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ds-tr-en",
+     "title": "Bunlar yenidir. = These are new. · Şunlar eskidir. = Those are old.",
+     "meaning": "Türkçe betimleme cümlelerini İngilizceye çevirmek",
+     "explanation": [
+      "Türkçe betimleme cümlelerinde -dir eki is / are'a karşılık gelir: Bunlar yenidir = These are new. Bu çanta eskidir = This bag is old. Konuşma Türkçesinde -dir çoğu zaman söylenmez (Bunlar yeni) ama İngilizcede is / are asla düşmez: These new ✗.",
+      "İşaret sözcüğü tek başına mı yoksa isimle mi? Bunlar yenidir → These are new (zamir). Bu ayakkabılar yenidir → These shoes are new (sıfat). Şu adam benim babam → That man is my father.",
+      "Bağlaçlarla iki betimlemeyi birleştirin: and (ve) aynı yönde, but (ama) zıt yönde: This car is new, but that car is old. These apples are red and those apples are green."
+     ],
+     "formula": [
+      "-dir = is / are: Bunlar yenidir = These are new.",
+      "Bu çanta eskidir = This bag is old. · Şu adam babam = That man is my father.",
+      "and / but: This car is new, but that car is old."
+     ],
+     "examples": [
+      {
+       "en": "This car is new, but that car is old.",
+       "tr": "Bu araba yeni ama şu araba eski.",
+       "why": [
+        "but ile zıtlık."
+       ],
+       "chunks": [
+        {
+         "en": "This car is new",
+         "tr": "bu araba yeni"
+        },
+        {
+         "en": "but",
+         "tr": "ama"
+        },
+        {
+         "en": "that car is old",
+         "tr": "şu araba eski"
+        }
+       ]
+      },
+      {
+       "en": "These apples are red. Those apples are green.",
+       "tr": "Bu elmalar kırmızı. Şu elmalar yeşil.",
+       "why": [
+        "these / those + isim."
+       ]
+      },
+      {
+       "en": "That man is my uncle. He's a farmer.",
+       "tr": "Şu adam amcam. Çiftçi.",
+       "why": [
+        "that + isim; sonra he."
+       ]
+      },
+      {
+       "en": "This phone is cheap and that phone is expensive.",
+       "tr": "Bu telefon ucuz, şu telefon pahalı.",
+       "why": [
+        "cheap / expensive."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Şunlar eskidir.” İngilizcesi?",
+       "answer": "Those are old.",
+       "why": "uzak, çok"
+      },
+      {
+       "question": "“Bu ev büyüktür.” İngilizcesi?",
+       "answer": "This house is big.",
+       "why": "sıfat"
+      },
+      {
+       "question": "These new cümlesini düzeltin.",
+       "answer": "These are new.",
+       "why": "are şart"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "These apples is sweet.",
+       "right": "These apples are sweet.",
+       "why": "Çoğul → are."
+      },
+      {
+       "wrong": "Those man is my father.",
+       "right": "That man is my father.",
+       "why": "Tekil isim → that."
+      }
+     ]
+    },
+    {
+     "id": "ds-those-they",
+     "title": "those (gösterir) ↔ they (yerini tutar) · new shoes (news ✗)",
+     "meaning": "those ile they ayrımı ve sıfat uyumu",
+     "explanation": [
+      "those uzaktaki şeyleri gösterir: Those are old. (Parmağınızla uzaktaki ayakkabıları gösteriyorsunuz.) they ise daha önce söylenen şeylerin yerini tutar: I've got new shoes. They are black. (They = new shoes.) İkinci cümlede bir şey göstermiyoruz; sadece tekrar etmemek için they diyoruz.",
+      "they hem insanlar hem şeyler için kullanılır: My parents? They're in İnegöl. My keys? They're in my bag. Bu yüzden betimlemede sık sık iki adım görülür: önce gösteririz (These are my children's shoes.), sonra they ile devam ederiz (They're very small.).",
+      "İngilizcede sıfatlar çoğulda değişmez: new shoes (news shoes ✗), old houses, small children. Sıfat isimden önce ya da be'den sonra gelir: These are new shoes. / These shoes are new."
+     ],
+     "formula": [
+      "those = şunlar (gösterir) · they = onlar (yerini tutar)",
+      "göster + devam et: These are my shoes. They're small.",
+      "sıfat çoğulda değişmez: new shoes · old houses"
+     ],
+     "examples": [
+      {
+       "en": "I've got new shoes. They are black.",
+       "tr": "Yeni ayakkabılarım var. Onlar siyah.",
+       "why": [
+        "they = new shoes."
+       ],
+       "chunks": [
+        {
+         "en": "new shoes",
+         "tr": "yeni ayakkabılar",
+         "note": "new değişmez"
+        },
+        {
+         "en": "They are black.",
+         "tr": "onlar siyah",
+         "note": "they yerini tutar"
+        }
+       ]
+      },
+      {
+       "en": "These are my children's shoes. They're very small.",
+       "tr": "Bunlar çocuklarımın ayakkabıları. Çok küçükler.",
+       "why": [
+        "Göster + they ile devam."
+       ]
+      },
+      {
+       "en": "Those houses are old, but they're beautiful.",
+       "tr": "Şu evler eski ama çok güzeller.",
+       "why": [
+        "those gösterir, they devam eder."
+       ]
+      },
+      {
+       "en": "My parents? They're in İnegöl.",
+       "tr": "Annemle babam mı? İnegöl'deler.",
+       "why": [
+        "they insanlar için de."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Yeni ayakkabılarım var. Onlar siyah.” İkinci cümlede those mu they mi?",
+       "answer": "They",
+       "why": "yerini tutar"
+      },
+      {
+       "question": "news shoes yazımını düzeltin.",
+       "answer": "new shoes",
+       "why": "sıfat değişmez"
+      },
+      {
+       "question": "“Anahtarlarım mı? Çantamda.” İngilizcesi?",
+       "answer": "My keys? They're in my bag.",
+       "why": "they"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I've got new shoes. Those is black.",
+       "right": "I've got new shoes. They are black.",
+       "why": "Yerini tutmak için they; çoğul are."
+      },
+      {
+       "wrong": "olds houses",
+       "right": "old houses",
+       "why": "Sıfat çoğul eki almaz."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "those / they",
+       "explanation": [
+        "İkisi de çoğuldur. those uzaktakini işaret eder; they daha önce söyleneni tekrar etmemek için kullanılır."
+       ],
+       "example": "Those are my shoes. They're new.",
+       "tr": [
+        "Şunlar benim ayakkabılarım. Onlar yeni."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "picture-say",
+   "title": "Resimde ne var? İşaret zamirleriyle yazmak ve söylemek",
+   "intro": [
+    "MEB kazanımı: verilen resmin ne olduğunu işaret zamirlerini kullanarak yazar ve söyler. Resim yakındaysa What's this? / What are these?, uzaktaysa What's that? / What are those? diye sorarız. Cevapta tek şey için it, çok şey için they kullanırız: It's a pen. They're keys.",
+    "Bu ekranda resimlere bakıp hem soruyu hem cevabı yazıyor, dikte alıştırmasında duyduğumuz cümleleri kelime kelime yazıyoruz. Yazarken a / an'ı ve çoğul -s'yi kontrol etmek önemli."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "What's this? — It's a pen.",
+     "tr": "Bu ne? — Kalem.",
+     "why": [
+      "Yakın, tek; cevapta it."
+     ]
+    },
+    {
+     "en": "What are those? — They're keys.",
+     "tr": "Şunlar ne? — Anahtarlar.",
+     "why": [
+      "Uzak, çok; cevapta they; çoğulda a yok."
+     ]
+    },
+    {
+     "en": "What's that? — It's an aeroplane.",
+     "tr": "Şu ne? — Uçak.",
+     "why": [
+      "Uzak, tek; aeroplane ünlü sesle başlar → an."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "pc-q-a",
+     "title": "What's this? — It's a pen. · What are those? — They're keys.",
+     "meaning": "Resim için doğru soru ve cevabı kurmak",
+     "explanation": [
+      "Önce resimdeki nesnenin yakın mı uzak mı, tek mi çok mu olduğuna bakın. Yakın ve tek: What's this? — It's a pen. Yakın ve çok: What are these? — They're keys. Uzak ve tek: What's that? — It's a bus. Uzak ve çok: What are those? — They're birds.",
+      "Cevapta this / that / these / those tekrar edilmez. Tekil için It's + a / an + isim, çoğul için They're + çoğul isim. Çoğulda a kullanılmaz: They're keys (They're a keys ✗).",
+      "Cevaba bir özellik eklemek konuşmayı zenginleştirir: It's a pen. It's red. They're keys. They're my keys. Ekrandaki resimli alıştırmalarda önce kısa cevabı, sonra bir özellik cümlesini yazın."
+     ],
+     "formula": [
+      "yakın: What's this? — It's a / an … · What are these? — They're …s",
+      "uzak: What's that? — It's … · What are those? — They're …s",
+      "çoğulda a yok: They're keys."
+     ],
+     "examples": [
+      {
+       "en": "What are these? — They're my keys.",
+       "tr": "Bunlar ne? — Anahtarlarım.",
+       "why": [
+        "Yakın, çok; they."
+       ],
+       "chunks": [
+        {
+         "en": "What are these?",
+         "tr": "bunlar ne?"
+        },
+        {
+         "en": "They're my keys.",
+         "tr": "anahtarlarım."
+        }
+       ]
+      },
+      {
+       "en": "What's that? — It's an aeroplane.",
+       "tr": "Şu ne? — Uçak.",
+       "why": [
+        "Uzak, tek; an."
+       ]
+      },
+      {
+       "en": "What are those? — They're birds.",
+       "tr": "Şunlar ne? — Kuşlar.",
+       "why": [
+        "Uzak, çok."
+       ]
+      },
+      {
+       "en": "What's this? — It's a pen. It's red.",
+       "tr": "Bu ne? — Kalem. Kırmızı.",
+       "why": [
+        "Cevap + özellik."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "🤚 🍎🍎 için soru ve cevap?",
+       "answer": "What are these? — They're apples.",
+       "why": "yakın, çok"
+      },
+      {
+       "question": "👉 🚌 için soru ve cevap?",
+       "answer": "What's that? — It's a bus.",
+       "why": "uzak, tek"
+      },
+      {
+       "question": "They're a keys cümlesini düzeltin.",
+       "answer": "They're keys.",
+       "why": "çoğulda a yok"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "What's these?",
+       "right": "What are these?",
+       "why": "Çoğul → are."
+      },
+      {
+       "wrong": "This is a pen. (What's this? sorusuna cevap olarak)",
+       "right": "It's a pen.",
+       "why": "Cevapta it kullanılır."
+      }
+     ]
+    },
+    {
+     "id": "pc-dictation",
+     "title": "Dinle ve yaz: kelime kelime dikte",
+     "meaning": "Duyduğu işaret cümlelerini doğru yazmak",
+     "explanation": [
+      "Dikte alıştırmasında ekrandaki ses bir cümle okur (These are my keys.) ve siz kelime kelime yazarsınız. this ile these'nin okunuşları birbirine yakındır: this kısa i (dhis), these uzun i (dhiiz). Ardından gelen fiil de ipucudur: is duyarsanız this, are duyarsanız these.",
+      "that ile those'u ayırmak daha kolaydır: that (dhet), those (dhouz). Yine fiile bakın: That is / Those are.",
+      "Yazdıktan sonra kontrol listesi: cümle büyük harfle başlıyor mu? İşaret sözcüğü ile fiil uyumlu mu (these are)? Çoğul isim -s almış mı? Nokta ya da soru işareti var mı?"
+     ],
+     "formula": [
+      "this (dhis, kısa) + is · these (dhiiz, uzun) + are",
+      "that (dhet) + is · those (dhouz) + are",
+      "kontrol: büyük harf · uyum · çoğul -s · noktalama"
+     ],
+     "examples": [
+      {
+       "en": "These are my keys.",
+       "tr": "Bunlar benim anahtarlarım.",
+       "why": [
+        "dhiiz + are."
+       ]
+      },
+      {
+       "en": "This is my phone.",
+       "tr": "Bu benim telefonum.",
+       "why": [
+        "dhis + is."
+       ]
+      },
+      {
+       "en": "Those are your shoes.",
+       "tr": "Şunlar senin ayakkabıların.",
+       "why": [
+        "dhouz + are."
+       ]
+      },
+      {
+       "en": "What's that? It's a bus.",
+       "tr": "Şu ne? Otobüs.",
+       "why": [
+        "Soru işareti ve nokta."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“dhiiz ar may kiiz” duydunuz. Ne yazarsınız?",
+       "answer": "These are my keys.",
+       "why": "uzun i + are"
+      },
+      {
+       "question": "this ile these'yi nasıl ayırırsınız?",
+       "answer": "Sesin uzunluğu ve ardından gelen fiil (is / are).",
+       "why": "ipucu"
+      },
+      {
+       "question": "those are your shoe yazımını düzeltin.",
+       "answer": "Those are your shoes.",
+       "why": "büyük harf + çoğul -s"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "This are my keys.",
+       "right": "These are my keys.",
+       "why": "are duyduysanız these."
+      },
+      {
+       "wrong": "these are my keys (küçük harf, noktasız)",
+       "right": "These are my keys.",
+       "why": "Büyük harf ve nokta."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "ataturk",
+   "title": "Atatürkçülük: Atatürk'ün hayatı",
+   "intro": [
+    "10 Kasım'da Atatürk'ü saygıyla anıyoruz. Bu ekranda onun hayatını basit İngilizceyle okuyoruz. Mustafa Kemal 1881'de Selanik'te doğdu; annesi Zübeyde Hanım, babası Ali Rıza Efendi'dir. 1915'te Çanakkale'de komutandı, 19 Mayıs 1919'da Samsun'a çıktı, 23 Nisan 1920'de Ankara'da Büyük Millet Meclisi açıldı ve 29 Ekim 1923'te Türkiye Cumhuriyeti kuruldu; Atatürk ilk cumhurbaşkanı oldu.",
+    "Metinde geçmişi anlatan birkaç kalıp var: was born (doğdu), went (gitti), became (oldu), died (öldü, vefat etti), was founded (kuruldu). Bunlar geçmiş zaman (past simple) biçimleridir; A1 düzeyinde bunları kalıp olarak öğreniyoruz. Tarihlerde sadece yıl için in (in 1881), gün ve ay için on (on 29 October 1923) kullanılır."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Mustafa Kemal was born in 1881 in Thessaloniki.",
+     "tr": "Mustafa Kemal 1881'de Selanik'te doğdu.",
+     "why": [
+      "was born kalıbı; yıl ve şehir ile in."
+     ]
+    },
+    {
+     "en": "His mother was Zübeyde Hanım and his father was Ali Rıza Efendi.",
+     "tr": "Annesi Zübeyde Hanım, babası Ali Rıza Efendi idi.",
+     "why": [
+      "his = onun (erkek); was = idi."
+     ]
+    },
+    {
+     "en": "On 19 May 1919, he went to Samsun, and the War of Independence started.",
+     "tr": "19 Mayıs 1919'da Samsun'a çıktı ve Kurtuluş Savaşı başladı.",
+     "why": [
+      "on + gün; went (go), started (start) geçmiş."
+     ]
+    },
+    {
+     "en": "On 29 October 1923, the Republic of Turkey was founded and he became the first president.",
+     "tr": "29 Ekim 1923'te Türkiye Cumhuriyeti kuruldu ve ilk cumhurbaşkanı oldu.",
+     "why": [
+      "was founded = kuruldu; became = oldu (become)."
+     ]
+    },
+    {
+     "en": "Atatürk died on 10 November 1938 at five past nine in the morning in Dolmabahçe Palace in Istanbul.",
+     "tr": "Atatürk 10 Kasım 1938'de sabah dokuzu beş geçe İstanbul'da Dolmabahçe Sarayı'nda vefat etti.",
+     "why": [
+      "died; five past nine = dokuzu beş geçe; in the morning = sabah."
+     ]
+    },
+    {
+     "en": "Every year on 10 November, people in Turkey remember him.",
+     "tr": "Her yıl 10 Kasım'da Türkiye'de insanlar onu anar.",
+     "why": [
+      "Geniş zaman: her yıl tekrarlanan olay; remember = anmak, hatırlamak."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "at-dates",
+     "title": "Atatürk was born in 1881. · The Republic of Turkey was founded on 29 October 1923.",
+     "meaning": "Önemli tarihleri İngilizce söylemek",
+     "explanation": [
+      "Önemli tarihler: 1881 doğumu (He was born in Thessaloniki.), 1915 Çanakkale (He was a commander at Çanakkale.), 19 May 1919 Samsun (He went to Samsun. The War of Independence started.), 23 April 1920 Meclis (The Grand National Assembly opened in Ankara.), 29 October 1923 Cumhuriyet (The Republic of Turkey was founded. He became the first president.).",
+      "Sonraki tarihler: 1928 yeni alfabe (Turkey started to use a new alphabet.), 1934 soyadı (He got the surname “Atatürk”.), 10 November 1938 vefatı (He died in Dolmabahçe Palace in Istanbul.). Anıtkabir Ankara'dadır: Anıtkabir is in Ankara.",
+      "Tarih edatları: sadece yıl ya da ay için in (in 1881, in November), gün içeren tarih için on (on 19 May 1919, on 10 November). Yıl okunuşu: 1881 = eighteen eighty-one, 1923 = nineteen twenty-three, 1938 = nineteen thirty-eight. Tarih okunuşu: 29 October = the twenty-ninth of October."
+     ],
+     "formula": [
+      "in + yıl / ay: in 1881 · in November",
+      "on + gün: on 29 October 1923 · on 10 November",
+      "1881 = eighteen eighty-one · 1923 = nineteen twenty-three"
+     ],
+     "examples": [
+      {
+       "en": "Atatürk was born in 1881 in Thessaloniki.",
+       "tr": "Atatürk 1881'de Selanik'te doğdu.",
+       "why": [
+        "was born + in + yıl + in + yer."
+       ],
+       "chunks": [
+        {
+         "en": "was born",
+         "tr": "doğdu",
+         "note": "kalıp"
+        },
+        {
+         "en": "in 1881",
+         "tr": "1881'de",
+         "note": "yıl → in"
+        },
+        {
+         "en": "in Thessaloniki",
+         "tr": "Selanik'te"
+        }
+       ]
+      },
+      {
+       "en": "On 19 May 1919, he went to Samsun.",
+       "tr": "19 Mayıs 1919'da Samsun'a çıktı.",
+       "why": [
+        "gün → on; go → went."
+       ]
+      },
+      {
+       "en": "The Republic of Turkey was founded on 29 October 1923.",
+       "tr": "Türkiye Cumhuriyeti 29 Ekim 1923'te kuruldu.",
+       "why": [
+        "was founded = kuruldu."
+       ]
+      },
+      {
+       "en": "Atatürk died on 10 November 1938.",
+       "tr": "Atatürk 10 Kasım 1938'de vefat etti.",
+       "why": [
+        "die → died; on + gün."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "He was born ___ 1881. (in / on)",
+       "answer": "in",
+       "why": "sadece yıl"
+      },
+      {
+       "question": "The Republic was founded ___ 29 October 1923.",
+       "answer": "on",
+       "why": "gün"
+      },
+      {
+       "question": "1923 nasıl okunur?",
+       "answer": "nineteen twenty-three",
+       "why": "yıl okunuşu"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Atatürk born in 1881.",
+       "right": "Atatürk was born in 1881.",
+       "why": "was born kalıbında was şart."
+      },
+      {
+       "wrong": "He was born on 1881.",
+       "right": "He was born in 1881.",
+       "why": "Sadece yıl → in."
+      }
+     ]
+    },
+    {
+     "id": "at-reading",
+     "title": "Who were his mother and father? — Zübeyde Hanım and Ali Rıza Efendi.",
+     "meaning": "Metni okuyup soruları cevaplamak",
+     "explanation": [
+      "Okuma metninde renkli işaretler tarihleri (date), yerleri (place) ve kişileri (person) gösterir. Soruları cevaplarken önce soru kelimesine bakın: When → tarih, Where → yer, Who → kişi, What happened → olay.",
+      "Geçmişle ilgili sorular was / were ya da did ile kurulur: When was Atatürk born? — In 1881. Where was he born? — In Thessaloniki. Who were his mother and father? — Zübeyde Hanım and Ali Rıza Efendi. When did he die? — On 10 November 1938. Kısa cevaplar yeterlidir.",
+      "Doğru-yanlış alıştırmasında yanlış cümleleri düzeltin: He went to Samsun on 23 April 1920. — False. He went to Samsun on 19 May 1919. Anıtkabir is in Istanbul. — False. It's in Ankara."
+     ],
+     "formula": [
+      "When → tarih · Where → yer · Who → kişi · What happened → olay",
+      "When was he born? — In 1881. · When did he die? — On 10 November 1938.",
+      "yanlışı düzelt: False. It's in Ankara."
+     ],
+     "examples": [
+      {
+       "en": "When was Atatürk born? — In 1881.",
+       "tr": "Atatürk ne zaman doğdu? — 1881'de.",
+       "why": [
+        "When → tarih."
+       ]
+      },
+      {
+       "en": "Where was he born? — In Thessaloniki.",
+       "tr": "Nerede doğdu? — Selanik'te.",
+       "why": [
+        "Where → yer."
+       ]
+      },
+      {
+       "en": "What happened on 29 October 1923? — The Republic of Turkey was founded.",
+       "tr": "29 Ekim 1923'te ne oldu? — Türkiye Cumhuriyeti kuruldu.",
+       "why": [
+        "What happened → olay."
+       ],
+       "chunks": [
+        {
+         "en": "What happened",
+         "tr": "ne oldu"
+        },
+        {
+         "en": "was founded",
+         "tr": "kuruldu"
+        }
+       ]
+      },
+      {
+       "en": "Anıtkabir is in Istanbul. — False. It's in Ankara.",
+       "tr": "Anıtkabir İstanbul'da. — Yanlış. Ankara'da.",
+       "why": [
+        "Yanlışı düzeltme."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Who was his mother?",
+       "answer": "Zübeyde Hanım.",
+       "why": "Who → kişi"
+      },
+      {
+       "question": "When did he die?",
+       "answer": "On 10 November 1938, at five past nine in the morning.",
+       "why": "When → tarih"
+      },
+      {
+       "question": "Where is Anıtkabir?",
+       "answer": "In Ankara.",
+       "why": "Where → yer"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "When Atatürk was born?",
+       "right": "When was Atatürk born?",
+       "why": "Soruda was özneden önce."
+      },
+      {
+       "wrong": "Where did he born?",
+       "right": "Where was he born?",
+       "why": "be born kalıbı was ile sorulur."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "close",
+   "title": "Kapanış: üç günün özeti ve ev ödevi",
+   "intro": [
+    "Üç günde günlük işlerimizden ailemize, mesleklerden çevremizdeki eşyalara ve Atatürk'ün hayatına kadar çok konu çalıştık. Kapanışta önce kendimizi değerlendiriyoruz: “I can …” listesinde yapabildiklerimizi işaretliyoruz. Sonra büyük son kontrolde her konudan bir soru çözüyoruz.",
+    "Ev ödevinde dört görev var: kendi soyağacımızı çizip sekiz cümleyle anlatmak, ailemizin ve kendi mesleğimizi ve hayalimizdeki mesleği yazmak, evimizden beş eşyayı this / that / these / those ile anlatmak ve özet sayfasında zorlandığımız bölümü sesli tekrar etmek."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I can put pictures of my day in order and write a text.",
+     "tr": "Günümün resimlerini sıraya koyup bir metin yazabilirim.",
+     "why": [
+      "I can + yalın fiil = yapabilirim; in order = sırayla."
+     ]
+    },
+    {
+     "en": "I can explain family relations with 's and read a family tree.",
+     "tr": "Akrabalık ilişkilerini 's ile açıklayıp bir soyağacı okuyabilirim.",
+     "why": [
+      "can'den sonra iki yalın fiil: explain ve read."
+     ]
+    },
+    {
+     "en": "I can say important dates in Atatürk's life.",
+     "tr": "Atatürk'ün hayatındaki önemli tarihleri söyleyebilirim.",
+     "why": [
+      "Atatürk's life = Atatürk'ün hayatı ('s)."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "cl-review",
+     "title": "Üç günün en önemli kuralları",
+     "meaning": "Büyük son kontroldeki konuları tekrar etmek",
+     "explanation": [
+      "Birinci gün: listen to music (to şart), she works (-s), she's got two sons (has got), Murat and his wife (sahibe göre his / her), my mother's brother = my uncle ('s ile akrabalık). İkinci gün: Whose bag is this? (Whose = kimin), Where do you live? (do şart), He's an engineer (ünlü ses → an), What does your mother do? (does + do).",
+      "Üçüncü gün: I want to be a pilot (to + a), You use it for writing (for + -ing), These are new (çoğul → these are), I've got new shoes. They're black. (they yerini tutar), Atatürk was born in 1881 (was born + in + yıl).",
+      "Büyük son kontrolde yanlış yaptığınız her soru için bu rehberde ilgili ekrana dönün ve “Sık hatalar” bölümünü okuyun. Hataların çoğu Türkçe düşünmekten gelir: I listen music, She is work, He's engineer, Atatürk born."
+     ],
+     "formula": [
+      "1. gün: listen to · she works · she's got · his / her · my mother's brother",
+      "2. gün: Whose …? · Where do you …? · an engineer · What does … do?",
+      "3. gün: want to be a … · for + -ing · these are · they · was born in"
+     ],
+     "examples": [
+      {
+       "en": "I listen to music. My sister works in a bank.",
+       "tr": "Müzik dinlerim. Kız kardeşim bankada çalışır.",
+       "why": [
+        "1. gün: to ve -s."
+       ]
+      },
+      {
+       "en": "Whose bag is this? — It's Ece's.",
+       "tr": "Bu kimin çantası? — Ece'nin.",
+       "why": [
+        "2. gün: Whose ve 's."
+       ]
+      },
+      {
+       "en": "He's an engineer. He wants to be a pilot.",
+       "tr": "Mühendis. Pilot olmak istiyor.",
+       "why": [
+        "2. ve 3. gün."
+       ],
+       "chunks": [
+        {
+         "en": "an engineer",
+         "tr": "mühendis",
+         "note": "an"
+        },
+        {
+         "en": "wants to be",
+         "tr": "olmak istiyor",
+         "note": "-s + to"
+        }
+       ]
+      },
+      {
+       "en": "These are new. Atatürk was born in 1881.",
+       "tr": "Bunlar yeni. Atatürk 1881'de doğdu.",
+       "why": [
+        "3. gün."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Bu çanta kimin? İngilizcesi?",
+       "answer": "Whose bag is this?",
+       "why": "Whose"
+      },
+      {
+       "question": "O bir mühendis. (erkek)",
+       "answer": "He's an engineer.",
+       "why": "an"
+      },
+      {
+       "question": "Atatürk 1881'de doğdu.",
+       "answer": "Atatürk was born in 1881.",
+       "why": "was born in"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "She's got two sons → She have got two sons.",
+       "right": "She's got two sons.",
+       "why": "she → has got."
+      },
+      {
+       "wrong": "Who's bag is this?",
+       "right": "Whose bag is this?",
+       "why": "Whose = kimin."
+      }
+     ]
+    },
+    {
+     "id": "cl-homework",
+     "title": "Ev ödevi: soyağacım, mesleklerimiz, evimdeki eşyalar",
+     "meaning": "Ev ödevini planlamak ve yazmak",
+     "explanation": [
+      "1. Kendi soyağacınızı çizin ve sekiz cümleyle anlatın. Örnek iskelet: Ali is my mother's brother. He's my uncle. His wife is Hatice. They've got two children. Their son is my cousin. Her name … Kullanmanız gerekenler: 's, his / her / their, have got.",
+      "2. Annenizin, babanızın ve sizin mesleğinizi, ardından hayalinizdeki mesleği yazın (5–6 cümle): My mother is a housewife. My father was a farmer. Now he's retired. I'm a shop assistant. I work in a supermarket. I want to be a tailor because I love making clothes.",
+      "3. Evinizden beş eşyayı this / that / these / those ile anlatın: This is my kettle. It's new. That is our sofa. It's big and brown. These are my glasses. You use them for reading. 4. Özet sayfasında zorlandığınız bölümü sesli tekrar edin."
+     ],
+     "formula": [
+      "soyağacı: 8 cümle · 's · his / her / their · have got",
+      "meslekler: My mother is a … · I work in … · I want to be a … because …",
+      "eşyalar: This is my … It's … · These are … You use them for …"
+     ],
+     "examples": [
+      {
+       "en": "Hatice is my mother's sister. She's my aunt. Her husband is Ali.",
+       "tr": "Hatice annemin kız kardeşi. Teyzem. Kocası Ali.",
+       "why": [
+        "Soyağacı iskeleti."
+       ]
+      },
+      {
+       "en": "I'm a shop assistant. I work in a supermarket.",
+       "tr": "Tezgâhtarım. Bir süpermarkette çalışıyorum.",
+       "why": [
+        "Meslek + iş yeri."
+       ]
+      },
+      {
+       "en": "These are my glasses. You use them for reading.",
+       "tr": "Bunlar benim gözlüğüm. Okumak için kullanırsın.",
+       "why": [
+        "Çoğul nesne → them."
+       ],
+       "chunks": [
+        {
+         "en": "These are my glasses",
+         "tr": "bunlar gözlüğüm",
+         "note": "glasses çoğul"
+        },
+        {
+         "en": "You use them",
+         "tr": "onları kullanırsın",
+         "note": "them = çoğul"
+        }
+       ]
+      },
+      {
+       "en": "This is my kettle. It's new.",
+       "tr": "Bu benim su ısıtıcım. Yeni.",
+       "why": [
+        "this + it."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Soyağacı ödevinde kaç cümle yazılacak?",
+       "answer": "Sekiz.",
+       "why": "ödev 1"
+      },
+      {
+       "question": "Çoğul bir eşyanın işlevi: You use ___ for reading.",
+       "answer": "them",
+       "why": "çoğul nesne"
+      },
+      {
+       "question": "Meslek ödevinde hangi kalıp hayal mesleği anlatır?",
+       "answer": "I want to be a … because …",
+       "why": "ödev 2"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "These are my glasses. You use it for reading.",
+       "right": "You use them for reading.",
+       "why": "Çoğul nesne → them."
+      },
+      {
+       "wrong": "My father is a retired.",
+       "right": "My father is retired.",
+       "why": "retired → a yok."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "whats-this",
+   "term": "What's this? — It's a …",
+   "meaning": "bu ne? — bu bir …",
+   "partOfSpeech": "soru ve cevap",
+   "sourceTerms": [
+    "What's this? — It's a …"
+   ],
+   "explanation": [
+    "Yakındaki tek nesneyi sorar. Cevapta it: It's a pen. / It's an umbrella. Uzak için What's that?, çoğul için What are these? — They're …"
+   ],
+   "collocations": [
+    {
+     "en": "What's that?",
+     "tr": "şu ne?"
+    },
+    {
+     "en": "What are these?",
+     "tr": "bunlar ne?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "What's this? — It's a pencil case.",
+     "tr": "Bu ne? — Kalem kutusu."
+    },
+    {
+     "en": "What's this? — It's an umbrella.",
+     "tr": "Bu ne? — Şemsiye.",
+     "note": "an"
+    },
+    {
+     "en": "What are these? — They're my glasses.",
+     "tr": "Bunlar ne? — Gözlüğüm.",
+     "note": "çoğul"
+    }
+   ],
+   "commonMistake": "What's this? sorusuna This is a pen yerine It's a pen diye cevap verilir."
+  },
+  {
+   "id": "what-colour",
+   "term": "What colour is it?",
+   "meaning": "ne renk?",
+   "partOfSpeech": "soru",
+   "sourceTerms": [
+    "What colour is it?"
+   ],
+   "explanation": [
+    "Renk sorar. Cevap: It's black. Çoğul için What colour are they? — They're red. İki renk and ile: It's yellow and brown."
+   ],
+   "collocations": [
+    {
+     "en": "What colour are they?",
+     "tr": "onlar ne renk?"
+    },
+    {
+     "en": "It's dark blue.",
+     "tr": "lacivert."
+    }
+   ],
+   "examples": [
+    {
+     "en": "What colour is it? — It's black.",
+     "tr": "Ne renk? — Siyah."
+    },
+    {
+     "en": "What colour is your car? — It's white.",
+     "tr": "Araban ne renk? — Beyaz."
+    },
+    {
+     "en": "It's yellow and brown.",
+     "tr": "Sarı ve kahverengi."
+    }
+   ],
+   "commonMistake": "What is colour? yerine What colour is it? denir."
+  },
+  {
+   "id": "new-or-old",
+   "term": "Is it new or old?",
+   "meaning": "yeni mi eski mi?",
+   "partOfSpeech": "soru",
+   "sourceTerms": [
+    "Is it new or old?"
+   ],
+   "explanation": [
+    "or ile iki seçenekli soru; cevap bir seçenektir: It's new. Benzer: Is it big or small? Is it cheap or expensive?"
+   ],
+   "collocations": [
+    {
+     "en": "Is it big or small?",
+     "tr": "büyük mü küçük mü?"
+    },
+    {
+     "en": "Is it cheap or expensive?",
+     "tr": "ucuz mu pahalı mı?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Is it new or old? — It's new.",
+     "tr": "Yeni mi eski mi? — Yeni."
+    },
+    {
+     "en": "Is it big or small? — It's small.",
+     "tr": "Büyük mü küçük mü? — Küçük."
+    },
+    {
+     "en": "Is your phone new or old? — It's old.",
+     "tr": "Telefonun yeni mi eski mi? — Eski."
+    }
+   ],
+   "commonMistake": "or sorusuna Yes / No ile değil seçenekle cevap verilir."
+  },
+  {
+   "id": "whats-it-for",
+   "term": "What's it for? — You use it for …",
+   "meaning": "ne işe yarar? — … için kullanırsın",
+   "partOfSpeech": "soru ve cevap",
+   "sourceTerms": [
+    "What's it for? — You use it for …"
+   ],
+   "explanation": [
+    "İşlev sorar. Cevap: You use it for + -ing ya da You use it to + fiil. you burada genel anlamdadır. Çoğul nesnede them: You use them for reading."
+   ],
+   "collocations": [
+    {
+     "en": "for writing",
+     "tr": "yazmak için"
+    },
+    {
+     "en": "to cut paper",
+     "tr": "kâğıt kesmek için"
+    }
+   ],
+   "examples": [
+    {
+     "en": "You use it for cutting paper.",
+     "tr": "Kâğıt kesmek için kullanırsın."
+    },
+    {
+     "en": "What's it for? — You use it for making Turkish coffee.",
+     "tr": "Ne işe yarar? — Türk kahvesi yapmak için."
+    },
+    {
+     "en": "These are my glasses. You use them for reading.",
+     "tr": "Bunlar gözlüğüm. Okumak için kullanırsın.",
+     "note": "them"
+    }
+   ],
+   "commonMistake": "You use it for write yerine You use it for writing denir."
+  },
+  {
+   "id": "this-that",
+   "term": "this · that",
+   "meaning": "bu · şu",
+   "partOfSpeech": "işaret sözcüğü",
+   "sourceTerms": [
+    "this · that"
+   ],
+   "explanation": [
+    "Yakın tek şey this, uzak tek şey that. İkisiyle de is kullanılır. That is'in kısa biçimi That's; This is'in kısa biçimi yoktur."
+   ],
+   "collocations": [
+    {
+     "en": "this bag",
+     "tr": "bu çanta"
+    },
+    {
+     "en": "that house",
+     "tr": "şu ev"
+    }
+   ],
+   "examples": [
+    {
+     "en": "This is my phone. That is my bag.",
+     "tr": "Bu benim telefonum. Şu benim çantam."
+    },
+    {
+     "en": "That's my brother's car.",
+     "tr": "Şu ağabeyimin arabası."
+    },
+    {
+     "en": "This bag is new.",
+     "tr": "Bu çanta yeni.",
+     "note": "sıfat"
+    }
+   ],
+   "commonMistake": "This are yerine This is denir."
+  },
+  {
+   "id": "these-those",
+   "term": "these · those",
+   "meaning": "bunlar · şunlar",
+   "partOfSpeech": "işaret sözcüğü",
+   "sourceTerms": [
+    "these · those"
+   ],
+   "explanation": [
+    "Yakın çok şey these, uzak çok şey those. İkisiyle de are ve çoğul isim kullanılır: these keys, those shoes."
+   ],
+   "collocations": [
+    {
+     "en": "these keys",
+     "tr": "bu anahtarlar"
+    },
+    {
+     "en": "those shoes",
+     "tr": "şu ayakkabılar"
+    }
+   ],
+   "examples": [
+    {
+     "en": "These are my keys. Those are your shoes.",
+     "tr": "Bunlar anahtarlarım. Şunlar senin ayakkabıların."
+    },
+    {
+     "en": "These apples are red.",
+     "tr": "Bu elmalar kırmızı."
+    },
+    {
+     "en": "Those houses are old.",
+     "tr": "Şu evler eski."
+    }
+   ],
+   "commonMistake": "These is yerine These are denir."
+  },
+  {
+   "id": "this-is",
+   "term": "This is … · That's …",
+   "meaning": "bu … · şu …",
+   "partOfSpeech": "tanıtma",
+   "sourceTerms": [
+    "This is … · That's …"
+   ],
+   "explanation": [
+    "Birini ya da bir şeyi tanıtırken This is kullanılır: This is my husband. Uzaktaki için That's: That's my son over there. Telefonda: This is Kaan."
+   ],
+   "collocations": [
+    {
+     "en": "This is my friend",
+     "tr": "bu arkadaşım"
+    },
+    {
+     "en": "over there",
+     "tr": "şurada"
+    }
+   ],
+   "examples": [
+    {
+     "en": "This is my husband. That's my son.",
+     "tr": "Bu eşim. Şu oğlum."
+    },
+    {
+     "en": "This is my husband, Murat.",
+     "tr": "Bu eşim Murat."
+    },
+    {
+     "en": "Hello, this is Kaan.",
+     "tr": "Merhaba, ben Kaan.",
+     "note": "telefon"
+    }
+   ],
+   "commonMistake": "Tanıtırken He is my husband yerine This is my husband denir."
+  },
+  {
+   "id": "these-are",
+   "term": "These are … · Those are …",
+   "meaning": "bunlar … · şunlar …",
+   "partOfSpeech": "işaret + be",
+   "sourceTerms": [
+    "These are … · Those are …"
+   ],
+   "explanation": [
+    "Çoğul işaret zamiri + are. Kazanımdaki örnek: Bunlar yenidir = These are new. Şunlar eskidir = Those are old."
+   ],
+   "collocations": [
+    {
+     "en": "These are new.",
+     "tr": "bunlar yeni"
+    },
+    {
+     "en": "Those are old.",
+     "tr": "şunlar eski"
+    }
+   ],
+   "examples": [
+    {
+     "en": "These are new. Those are old.",
+     "tr": "Bunlar yeni. Şunlar eski."
+    },
+    {
+     "en": "These are my children's shoes.",
+     "tr": "Bunlar çocuklarımın ayakkabıları."
+    },
+    {
+     "en": "Those are my parents.",
+     "tr": "Şunlar annemle babam."
+    }
+   ],
+   "commonMistake": "These new yerine These are new denir; are düşmez."
+  },
+  {
+   "id": "this-bag-new",
+   "term": "This bag is new. · Those shoes are old.",
+   "meaning": "bu çanta yeni · şu ayakkabılar eski",
+   "partOfSpeech": "işaret sıfatı",
+   "sourceTerms": [
+    "This bag is new. · Those shoes are old."
+   ],
+   "explanation": [
+    "İşaret sözcüğü isimden önce gelince sıfattır. Tekil-çoğul uyumu sürer: this bag / these bags. Sıfat çoğulda değişmez: new shoes."
+   ],
+   "collocations": [
+    {
+     "en": "these bags",
+     "tr": "bu çantalar"
+    },
+    {
+     "en": "those old shoes",
+     "tr": "şu eski ayakkabılar"
+    }
+   ],
+   "examples": [
+    {
+     "en": "This bag is new, but those shoes are old.",
+     "tr": "Bu çanta yeni ama şu ayakkabılar eski."
+    },
+    {
+     "en": "This car is new, but that car is old.",
+     "tr": "Bu araba yeni ama şu araba eski."
+    },
+    {
+     "en": "These bags are old.",
+     "tr": "Bu çantalar eski."
+    }
+   ],
+   "commonMistake": "These bag yerine This bag ya da These bags denir."
+  },
+  {
+   "id": "adjectives-basic",
+   "term": "new · old · big · small",
+   "meaning": "yeni · eski · büyük · küçük",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "new · old · big · small"
+   ],
+   "explanation": [
+    "Temel betimleme sıfatları. Sıfat isimden önce (a big house) ya da be'den sonra (The house is big) gelir; çoğulda değişmez (big houses). Zıtlar: new ↔ old, big ↔ small, cheap ↔ expensive."
+   ],
+   "collocations": [
+    {
+     "en": "a big house",
+     "tr": "büyük bir ev"
+    },
+    {
+     "en": "cheap ↔ expensive",
+     "tr": "ucuz ↔ pahalı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Our car is old, but it's big.",
+     "tr": "Arabamız eski ama büyük."
+    },
+    {
+     "en": "It's small and black.",
+     "tr": "Küçük ve siyah."
+    },
+    {
+     "en": "I've got new shoes. They are black.",
+     "tr": "Yeni ayakkabılarım var. Siyahlar."
+    }
+   ],
+   "commonMistake": "news shoes yerine new shoes denir; sıfat çoğul eki almaz."
+  },
+  {
+   "id": "was-born",
+   "term": "was born in 1881",
+   "meaning": "1881'de doğdu",
+   "partOfSpeech": "geçmiş kalıp",
+   "sourceTerms": [
+    "was born in 1881"
+   ],
+   "explanation": [
+    "Doğmak İngilizcede be born kalıbıyla söylenir; geçmişte was born. Yıl için in, gün için on: was born on 19 May. Soru: When were you born?"
+   ],
+   "collocations": [
+    {
+     "en": "I was born in Bursa",
+     "tr": "Bursa'da doğdum"
+    },
+    {
+     "en": "When were you born?",
+     "tr": "ne zaman doğdun?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Atatürk was born in 1881 in Thessaloniki.",
+     "tr": "Atatürk 1881'de Selanik'te doğdu."
+    },
+    {
+     "en": "I was born in 1985.",
+     "tr": "1985'te doğdum."
+    },
+    {
+     "en": "When was Atatürk born? — In 1881.",
+     "tr": "Atatürk ne zaman doğdu? — 1881'de."
+    }
+   ],
+   "commonMistake": "Atatürk born in 1881 yerine Atatürk was born in 1881 denir."
+  },
+  {
+   "id": "republic",
+   "term": "Republic of Turkey · 29 October 1923",
+   "meaning": "Türkiye Cumhuriyeti · 29 Ekim 1923",
+   "partOfSpeech": "tarih ve kavram",
+   "sourceTerms": [
+    "Republic of Turkey · 29 October 1923"
+   ],
+   "explanation": [
+    "Cumhuriyet 29 Ekim 1923'te kuruldu: was founded. Gün içeren tarih on ile: on 29 October 1923. Okunuşu: the twenty-ninth of October, nineteen twenty-three."
+   ],
+   "collocations": [
+    {
+     "en": "Republic Day",
+     "tr": "Cumhuriyet Bayramı"
+    },
+    {
+     "en": "was founded",
+     "tr": "kuruldu"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The Republic of Turkey was founded on 29 October 1923.",
+     "tr": "Türkiye Cumhuriyeti 29 Ekim 1923'te kuruldu."
+    },
+    {
+     "en": "29 October is Republic Day.",
+     "tr": "29 Ekim Cumhuriyet Bayramı'dır."
+    },
+    {
+     "en": "On 23 April 1920, the Grand National Assembly opened in Ankara.",
+     "tr": "23 Nisan 1920'de Ankara'da Büyük Millet Meclisi açıldı."
+    }
+   ],
+   "commonMistake": "in 29 October yerine on 29 October denir."
+  },
+  {
+   "id": "first-president",
+   "term": "the first president",
+   "meaning": "ilk cumhurbaşkanı",
+   "partOfSpeech": "isim grubu",
+   "sourceTerms": [
+    "the first president"
+   ],
+   "explanation": [
+    "first (ilk, birinci) sıra sayısıdır ve önünde the gelir. become → became (oldu)."
+   ],
+   "collocations": [
+    {
+     "en": "became the first president",
+     "tr": "ilk cumhurbaşkanı oldu"
+    },
+    {
+     "en": "the first day",
+     "tr": "ilk gün"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Atatürk was the first president of Turkey.",
+     "tr": "Atatürk Türkiye'nin ilk cumhurbaşkanıydı."
+    },
+    {
+     "en": "He became the first president in 1923.",
+     "tr": "1923'te ilk cumhurbaşkanı oldu."
+    },
+    {
+     "en": "He was a commander at Çanakkale.",
+     "tr": "Çanakkale'de komutandı."
+    }
+   ],
+   "commonMistake": "He became first president yerine He became the first president denir."
+  },
+  {
+   "id": "nov-10",
+   "term": "10 November 1938",
+   "meaning": "10 Kasım 1938",
+   "partOfSpeech": "tarih",
+   "sourceTerms": [
+    "10 November 1938"
+   ],
+   "explanation": [
+    "Atatürk 10 Kasım 1938'de sabah dokuzu beş geçe Dolmabahçe Sarayı'nda vefat etti. die → died. Her yıl 10 Kasım'da onu anarız: remember."
+   ],
+   "collocations": [
+    {
+     "en": "died on 10 November",
+     "tr": "10 Kasım'da vefat etti"
+    },
+    {
+     "en": "at five past nine",
+     "tr": "dokuzu beş geçe"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Atatürk died on 10 November 1938.",
+     "tr": "Atatürk 10 Kasım 1938'de vefat etti."
+    },
+    {
+     "en": "He died at five past nine in the morning.",
+     "tr": "Sabah dokuzu beş geçe vefat etti."
+    },
+    {
+     "en": "Every year on 10 November, people in Turkey remember him.",
+     "tr": "Her yıl 10 Kasım'da Türkiye'de insanlar onu anar."
+    }
+   ],
+   "commonMistake": "He dead on 10 November yerine He died on 10 November denir."
+  },
+  {
+   "id": "anitkabir",
+   "term": "Anıtkabir",
+   "meaning": "Anıtkabir",
+   "partOfSpeech": "özel isim",
+   "sourceTerms": [
+    "Anıtkabir"
+   ],
+   "explanation": [
+    "Atatürk'ün anıt mezarı (mausoleum). Ankara'dadır. Özel isim olduğu için önüne the gelmez."
+   ],
+   "collocations": [
+    {
+     "en": "his mausoleum",
+     "tr": "onun anıt mezarı"
+    },
+    {
+     "en": "visit Anıtkabir",
+     "tr": "Anıtkabir'i ziyaret etmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Anıtkabir is in Ankara.",
+     "tr": "Anıtkabir Ankara'da."
+    },
+    {
+     "en": "Today his mausoleum, Anıtkabir, is in Ankara.",
+     "tr": "Bugün anıt mezarı Anıtkabir Ankara'dadır."
+    },
+    {
+     "en": "We visit Anıtkabir every year.",
+     "tr": "Her yıl Anıtkabir'i ziyaret ederiz."
+    }
+   ],
+   "commonMistake": "Anıtkabir is in Istanbul yanlıştır; Anıtkabir Ankara'dadır."
+  }
+ ]
+}
