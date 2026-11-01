@@ -1,0 +1,1674 @@
+{
+ "version": 1,
+ "block": 4,
+ "chapters": [
+  {
+   "screenId": "problems",
+   "title": "Sorunlar ve tavsiye: What should I do? — You should …",
+   "intro": [
+    "MEB kazanımı: günlük hayatta evde, okulda, işte karşılaştığı problemleri söyler; karşısındaki kişiden yardım, çözüm veya öneri ister; kendisine sorulduğunda tavsiye verir. Kazanımdaki örnekler: Kıyafetlere çok para harcıyorum, ne yapmalıyım? — Hemen alma, indirimi bekle. Sürekli okula geç kalıyorum. — Daha erken yatmalısın.",
+    "Bir tavsiye konuşması üç adımdır: sorunu söyle (I'm always late.), tavsiye iste (What should I do?), tavsiyeyi dinle ve cevap ver (That's a good idea. Thanks!). Tavsiye vermek için should / shouldn't, Why don't you …?, You can … ve olumsuz emir (Don't …) kullanılır."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I'm always late for work. My manager isn't happy. What should I do?",
+     "tr": "Hep işe geç kalıyorum. Müdürüm memnun değil. Ne yapmalıyım?",
+     "why": [
+      "always be'den sonra; late for work; What should I do?"
+     ]
+    },
+    {
+     "en": "Very late. I usually watch series until one o'clock.",
+     "tr": "Çok geç. Genellikle saat bire kadar dizi izliyorum.",
+     "why": [
+      "usually fiilden önce; until = -e kadar."
+     ]
+    },
+    {
+     "en": "Well, you should go to bed earlier.",
+     "tr": "O zaman daha erken yatmalısın.",
+     "why": [
+      "should + go; earlier = daha erken."
+     ]
+    },
+    {
+     "en": "Why don't you talk to them?",
+     "tr": "Neden onlarla konuşmuyorsun?",
+     "why": [
+      "Why don't you + yalın fiil = yumuşak öneri."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "pr-ask",
+     "title": "I spend too much money on clothes. What should I do?",
+     "meaning": "Sorunu söylemek ve tavsiye istemek",
+     "explanation": [
+      "Sorunu söylerken geniş zaman ve sıklık zarfları çok kullanılır: I'm always late for school. I spend too much money on clothes. I can't sleep at night. I can't decide what to cook. My neighbours are very noisy at night. Şimdiye etkisi süren sorunlar için have / has + fiilin üçüncü hâli kalıp olarak öğrenilir: I've put on weight. (Kilo aldım.) I've lost my keys. (Anahtarlarımı kaybettim.)",
+      "Tavsiye istemenin yolları: What should I do? (Ne yapmalıyım?) · What do you think I should do? (Sence ne yapmalıyım?) · What do you suggest? (Ne önerirsin?) · What can I do? (Ne yapabilirim?) · Can you help me? (Bana yardım eder misin?) · Have you got any ideas? (Bir fikrin var mı?) Soruda should özneden önce gelir: What should I do? (What I should do ✗)",
+      "Konuşmaya kibarca başlamak için: Can I ask you something? I have a problem. (Sana bir şey sorabilir miyim? Bir sorunum var.) Karşı taraf ilgisini gösterir: Of course. What's wrong? (Tabii. Ne oldu?)"
+     ],
+     "formula": [
+      "sorun: I'm always … · I can't … · I spend too much …",
+      "istek: What should I do? · What do you suggest? · Can you help me?",
+      "başlangıç: Can I ask you something? — Of course. What's wrong?"
+     ],
+     "examples": [
+      {
+       "en": "I spend too much money on clothes. What should I do?",
+       "tr": "Kıyafetlere çok para harcıyorum. Ne yapmalıyım?",
+       "why": [
+        "Kazanım cümlesi."
+       ],
+       "chunks": [
+        {
+         "en": "spend money on",
+         "tr": "… -e para harcamak"
+        },
+        {
+         "en": "too much",
+         "tr": "çok fazla"
+        },
+        {
+         "en": "What should I do?",
+         "tr": "ne yapmalıyım?"
+        }
+       ]
+      },
+      {
+       "en": "I can't decide what to cook. What do you think I should do?",
+       "tr": "Ne pişireceğime karar veremiyorum. Sence ne yapmalıyım?",
+       "why": [
+        "what to cook = ne pişireceğim."
+       ]
+      },
+      {
+       "en": "I'm always late for school. What do you suggest?",
+       "tr": "Okula hep geç kalıyorum. Ne önerirsin?",
+       "why": [
+        "always + late for."
+       ]
+      },
+      {
+       "en": "I've put on a lot of weight. What can I do?",
+       "tr": "Çok kilo aldım. Ne yapabilirim?",
+       "why": [
+        "put on weight = kilo almak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Ne yapmalıyım?” İngilizcesi?",
+       "answer": "What should I do?",
+       "why": "should özneden önce"
+      },
+      {
+       "question": "“Ne önerirsin?” İngilizcesi?",
+       "answer": "What do you suggest?",
+       "why": "suggest"
+      },
+      {
+       "question": "“Çok para harcıyorum.” İngilizcesi?",
+       "answer": "I spend too much money.",
+       "why": "too much"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "What I should do?",
+       "right": "What should I do?",
+       "why": "Soruda should özneden önce."
+      },
+      {
+       "wrong": "I spend very money.",
+       "right": "I spend too much money.",
+       "why": "too much + sayılamayan."
+      }
+     ]
+    },
+    {
+     "id": "pr-give",
+     "title": "You should go to bed earlier. · Why don't you take the metro?",
+     "meaning": "Tavsiye vermek ve tavsiyeye cevap vermek",
+     "explanation": [
+      "should / shouldn't + yalın fiil (-meli / -memeli): You should go to bed earlier. You should go on a diet. You shouldn't drink coffee at night. should her kişiyle aynıdır, -s almaz ve ardından to gelmez: She should rest. (shoulds ✗, should to ✗)",
+      "Daha yumuşak öneriler: Why don't you …? (Neden … -mıyorsun?) Why don't you talk to them? · You can … (-ebilirsin) You can make pasta. · Try to … (… -meye çalış) Try to save some money every month. · Olumsuz emir: Don't buy it now. Wait for the sales. Kazanımdaki “Hemen alma, indirimi bekle” bu kalıptır.",
+      "Tavsiyeye cevap: That's a good idea! Thanks. (İyi fikir, teşekkürler.) · Maybe you're right. (Belki haklısın.) · I'll try that. (Bunu deneyeceğim.) Kabul etmiyorsanız kibarca: I'm not sure. I haven't got time. Konuşma şöyle biter: Thanks for your help. — No problem. Good luck!"
+     ],
+     "formula": [
+      "You should / shouldn't + yalın fiil",
+      "Why don't you …? · You can … · Try to … · Don't …",
+      "cevap: That's a good idea! · Maybe you're right. · I'll try that."
+     ],
+     "examples": [
+      {
+       "en": "You should go to bed earlier.",
+       "tr": "Daha erken yatmalısın.",
+       "why": [
+        "Kazanım tavsiyesi."
+       ]
+      },
+      {
+       "en": "Don't buy things immediately. Wait for the sales.",
+       "tr": "Bir şeyleri hemen alma. İndirimi bekle.",
+       "why": [
+        "Olumsuz emir + emir."
+       ],
+       "chunks": [
+        {
+         "en": "Don't buy",
+         "tr": "alma"
+        },
+        {
+         "en": "immediately",
+         "tr": "hemen"
+        },
+        {
+         "en": "Wait for the sales.",
+         "tr": "indirimi bekle"
+        }
+       ]
+      },
+      {
+       "en": "Why don't you put your phone in the kitchen at night?",
+       "tr": "Neden geceleri telefonunu mutfağa koymuyorsun?",
+       "why": [
+        "Yumuşak öneri."
+       ]
+      },
+      {
+       "en": "In the kitchen? That's a good idea. Thanks!",
+       "tr": "Mutfağa mı? İyi fikir. Teşekkürler!",
+       "why": [
+        "Tavsiyeye cevap."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Diyet yapmalısın.” İngilizcesi?",
+       "answer": "You should go on a diet.",
+       "why": "should"
+      },
+      {
+       "question": "You should to rest cümlesini düzeltin.",
+       "answer": "You should rest.",
+       "why": "to yok"
+      },
+      {
+       "question": "“Neden metroya binmiyorsun?” (öneri)",
+       "answer": "Why don't you take the metro?",
+       "why": "Why don't you"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "She shoulds rest.",
+       "right": "She should rest.",
+       "why": "should -s almaz."
+      },
+      {
+       "wrong": "Why you don't take the metro?",
+       "right": "Why don't you take the metro?",
+       "why": "Sıra: Why + don't + you."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "should / Why don't you",
+       "explanation": [
+        "İkisi de tavsiyedir; should daha doğrudan, Why don't you …? daha yumuşak ve samimidir."
+       ],
+       "example": "You should talk to your neighbours. · Why don't you talk to your neighbours?",
+       "tr": [
+        "Komşularınla konuşmalısın. · Neden komşularınla konuşmuyorsun?"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "advice-practice",
+   "title": "Tavsiye kartları: sorun, tavsiye, cevap",
+   "intro": [
+    "Bu ekranda tavsiye kalıplarını kartlarla konuşarak pekiştiriyoruz. Her kartta evde, okulda, işte ya da parayla ilgili bir sorun var. Kartı açan kişi sorunu kendi sorunu gibi söyler ve tavsiye ister; arkadaşı iki farklı kalıpla tavsiye verir.",
+    "Ardından üç soruna yazılı tavsiye yazıyoruz ve radyo tavsiye programı canlandırıyoruz. Hedef: should, shouldn't, Why don't you …? ve You can … kalıplarını rahatça kullanmak."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I'm always late for my English course.",
+     "tr": "İngilizce kursuma hep geç kalıyorum.",
+     "why": [
+      "be + always; late for + yer / etkinlik."
+     ]
+    },
+    {
+     "en": "You should ask the teacher after the lesson. You can also read the Turkish guide on the website.",
+     "tr": "Dersten sonra öğretmene sormalısın. Web sitesindeki Türkçe rehberi de okuyabilirsin.",
+     "why": [
+      "should + can; also = da, ayrıca."
+     ]
+    },
+    {
+     "en": "Why don't you tell them politely: “Sorry, I'm busy now”?",
+     "tr": "Neden onlara kibarca “Üzgünüm, şu an meşgulüm” demiyorsun?",
+     "why": [
+      "politely = kibarca (zarf)."
+     ]
+    },
+    {
+     "en": "Thanks for calling. Good luck!",
+     "tr": "Aradığınız için teşekkürler. İyi şanslar!",
+     "why": [
+      "Thanks for + -ing; radyo programı kapanışı."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ap-conversation",
+     "title": "I can't sleep at night. I think about work all the time.",
+     "meaning": "İyi bir tavsiye konuşması kurmak",
+     "explanation": [
+      "Sorunu söylerken bir sebep ya da ayrıntı ekleyin; tavsiye veren kişi daha iyi öneri bulur: I can't sleep at night. I think about work all the time. My flat is always messy. I work until seven every day.",
+      "Tavsiye vermeden önce soru sormak doğal ve kibardır: What time do you go to sleep? How often do you exercise? Do you drink coffee in the evening? Sonra cevaba uygun tavsiye verin: You shouldn't drink coffee after six. Why don't you walk for half an hour in the evening?",
+      "Tavsiyelerde kalıpları değiştirin; aynı kalıbı üst üste kullanmak konuşmayı tekdüze yapar. Bir should, bir Why don't you …?, bir You can … ideal bir dengedir. Dinleyen kişi cevap verir: Good idea! / Thanks, I'll try that. / Hmm, I'm not sure."
+     ],
+     "formula": [
+      "sorun + sebep: I can't sleep. I think about work.",
+      "önce soru: What time do you …? How often do you …?",
+      "kalıp değiştir: should · Why don't you …? · You can …"
+     ],
+     "examples": [
+      {
+       "en": "My flat is always messy. — You should clean one room every day.",
+       "tr": "Evim hep dağınık. — Her gün bir oda temizlemelisin.",
+       "why": [
+        "Sorun + should."
+       ],
+       "chunks": [
+        {
+         "en": "messy",
+         "tr": "dağınık"
+        },
+        {
+         "en": "one room every day",
+         "tr": "her gün bir oda"
+        }
+       ]
+      },
+      {
+       "en": "Why don't you ask your children to help?",
+       "tr": "Neden çocuklarından yardım istemiyorsun?",
+       "why": [
+        "Why don't you + ask … to …"
+       ]
+      },
+      {
+       "en": "You can make a soup with the vegetables in the fridge.",
+       "tr": "Buzdolabındaki sebzelerle çorba yapabilirsin.",
+       "why": [
+        "You can = öneri."
+       ]
+      },
+      {
+       "en": "Thanks, I'll try that.",
+       "tr": "Teşekkürler, bunu deneyeceğim.",
+       "why": [
+        "Cevap kalıbı."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Tavsiye vermeden önce sorulabilecek bir soru?",
+       "answer": "What time do you go to sleep? / How often do you exercise?",
+       "why": "soru"
+      },
+      {
+       "question": "Üç farklı tavsiye kalıbı?",
+       "answer": "should · Why don't you …? · You can …",
+       "why": "denge"
+      },
+      {
+       "question": "“Bunu deneyeceğim.” İngilizcesi?",
+       "answer": "I'll try that.",
+       "why": "cevap"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "You should … You should … You should …",
+       "right": "You should … Why don't you …? You can …",
+       "why": "Kalıp değiştir."
+      },
+      {
+       "wrong": "Why don't you to ask your children?",
+       "right": "Why don't you ask your children?",
+       "why": "to yok."
+      }
+     ]
+    },
+    {
+     "id": "ap-places",
+     "title": "At home · at school · at work · with money",
+     "meaning": "Farklı alanlardaki sorunlara uygun tavsiye",
+     "explanation": [
+      "Evde: dağınık ev, ne pişireceğini bilememek, gürültülü komşular, sebze yemeyen çocuklar. Tavsiyeler: You should clean one room every day. You can make pasta. Why don't you talk to your neighbours? You should cook vegetables in a soup.",
+      "Okulda ve kursta: geç kalmak, dil bilgisini anlamamak, kelimeleri unutmak, sınav gerginliği. Tavsiyeler: You should leave home ten minutes earlier. You should ask the teacher after the lesson. Try to write new words on small cards. You shouldn't study all night before an exam.",
+      "İşte ve parayla: çok konuşan iş arkadaşı, sırt ağrısı, fazla iş, kahveye çok para harcamak. Tavsiyeler: Why don't you tell them politely: “Sorry, I'm busy now”? You should walk at lunchtime. You should ask your manager for help. Why don't you make coffee at home and take it in a flask?"
+     ],
+     "formula": [
+      "evde: clean one room · make pasta · talk to your neighbours",
+      "okulda: leave earlier · ask the teacher · write words on cards",
+      "işte / para: walk at lunchtime · ask your manager · make coffee at home"
+     ],
+     "examples": [
+      {
+       "en": "I forget new English words. — Try to write them on small cards.",
+       "tr": "Yeni İngilizce kelimeleri unutuyorum. — Onları küçük kartlara yazmaya çalış.",
+       "why": [
+        "Okul sorunu."
+       ]
+      },
+      {
+       "en": "I sit at a desk all day and my back hurts. — You should walk at lunchtime.",
+       "tr": "Bütün gün masada oturuyorum ve sırtım ağrıyor. — Öğle arasında yürümelisin.",
+       "why": [
+        "İş sorunu."
+       ],
+       "chunks": [
+        {
+         "en": "my back hurts",
+         "tr": "sırtım ağrıyor"
+        },
+        {
+         "en": "at lunchtime",
+         "tr": "öğle arasında"
+        }
+       ]
+      },
+      {
+       "en": "I spend too much money on coffee. — Why don't you make coffee at home?",
+       "tr": "Kahveye çok para harcıyorum. — Neden evde kahve yapmıyorsun?",
+       "why": [
+        "Para sorunu."
+       ]
+      },
+      {
+       "en": "I have too much work. — You should ask your manager for help.",
+       "tr": "Çok fazla işim var. — Müdüründen yardım istemelisin.",
+       "why": [
+        "ask … for help."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Sırtım ağrıyor.” İngilizcesi?",
+       "answer": "My back hurts.",
+       "why": "hurt"
+      },
+      {
+       "question": "“Öğretmene dersten sonra sormalısın.” İngilizcesi?",
+       "answer": "You should ask the teacher after the lesson.",
+       "why": "should"
+      },
+      {
+       "question": "“Müdürüne yardım için sor.” kalıbı?",
+       "answer": "ask your manager for help",
+       "why": "ask for"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "My back is hurting me always.",
+       "right": "My back hurts. / My back always hurts.",
+       "why": "Basit geniş zaman yeterli."
+      },
+      {
+       "wrong": "ask help to your manager",
+       "right": "ask your manager for help",
+       "why": "ask + kişi + for + şey."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "possibility",
+   "title": "Olasılık: can · might · might not",
+   "intro": [
+    "MEB kazanımı: olasılık bildiren cümleler kurar (Bu aradıklarını belki Ulus'ta bulabilirsin. Aldığın hediyeyi beğenmeyebilir.). can bir şeyin mümkün olduğunu, might / may emin olmadığımız bir olasılığı, might not ise olumsuz olasılığı söyler.",
+    "Olasılık kalıpları tavsiyeyle çok iyi birleşir: Take an umbrella. It might rain. Call the pharmacy first. It might be closed. Bu yüzden e-posta yazarken de kullanılır: The next exam might be easier."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "You might find what you're looking for in Ulus.",
+     "tr": "Aradığını belki Ulus'ta bulabilirsin.",
+     "why": [
+      "Kazanım cümlesi; what you're looking for = aradığın şey."
+     ]
+    },
+    {
+     "en": "Take an umbrella. It might rain this afternoon.",
+     "tr": "Şemsiye al. Öğleden sonra yağmur yağabilir.",
+     "why": [
+      "Tavsiye (emir) + olasılık (might)."
+     ]
+    },
+    {
+     "en": "Hmm, she might not like the colour.",
+     "tr": "Hımm, rengini beğenmeyebilir.",
+     "why": [
+      "might not + like (yalın)."
+     ]
+    },
+    {
+     "en": "Where can I find a nice plant? — You can find one at the flower market.",
+     "tr": "Güzel bir bitkiyi nerede bulabilirim? — Çiçek pazarında bulabilirsin.",
+     "why": [
+      "Where can I …? · one = a plant."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ps-might",
+     "title": "It might rain. · She might not like the present.",
+     "meaning": "might ve might not ile olasılık",
+     "explanation": [
+      "might + yalın fiil, emin olmadığımız bir olasılığı söyler; Türkçedeki “belki … -ebilir”e karşılık gelir: It might rain this afternoon. We might go to Gemlik on Sunday. You might find what you're looking for in Ulus. may aynı anlamda biraz daha resmîdir: It may snow tonight.",
+      "might not + yalın fiil olumsuz olasılıktır: “belki … -meyebilir”. She might not like the present. The shop might not be open on Sunday. He might not come to the party. might her kişiyle aynıdır (-s almaz) ve ardından to gelmez: It might rain. (mights ✗, might to ✗) Olumsuzu doesn't ile yapılmaz: She doesn't might ✗.",
+      "maybe (belki) bir zarftır, genellikle cümle başında durur ve fiil normal kalır: Maybe she doesn't like it. = She might not like it. Maybe the bus is late. = The bus might be late. Kesin bildiğimiz şeyler için olasılık kalıbı kullanmayız: It's raining now. (kesin)"
+     ],
+     "formula": [
+      "might / may + yalın fiil = belki -ebilir",
+      "might not + yalın fiil = belki -meyebilir",
+      "maybe + normal cümle"
+     ],
+     "examples": [
+      {
+       "en": "She might not like the present.",
+       "tr": "Hediyeyi beğenmeyebilir.",
+       "why": [
+        "Kazanım cümlesi."
+       ],
+       "chunks": [
+        {
+         "en": "might not",
+         "tr": "-meyebilir"
+        },
+        {
+         "en": "like",
+         "tr": "beğenmek",
+         "note": "yalın"
+        },
+        {
+         "en": "the present",
+         "tr": "hediye"
+        }
+       ]
+      },
+      {
+       "en": "Take a jacket. It might be cold in the evening.",
+       "tr": "Ceket al. Akşam soğuk olabilir.",
+       "why": [
+        "Tavsiye + olasılık."
+       ]
+      },
+      {
+       "en": "Call the pharmacy first. It might be closed.",
+       "tr": "Önce eczaneyi ara. Kapalı olabilir.",
+       "why": [
+        "might be + sıfat."
+       ]
+      },
+      {
+       "en": "Maybe the bus is late because of the snow.",
+       "tr": "Belki otobüs kar yüzünden gecikiyor.",
+       "why": [
+        "maybe + normal cümle."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Yarın yağmur yağabilir.” İngilizcesi?",
+       "answer": "It might rain tomorrow.",
+       "why": "might"
+      },
+      {
+       "question": "She doesn't might like it cümlesini düzeltin.",
+       "answer": "She might not like it.",
+       "why": "might not"
+      },
+      {
+       "question": "Maybe ile: “Belki dükkân kapalı.”",
+       "answer": "Maybe the shop is closed.",
+       "why": "maybe"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It might to rain.",
+       "right": "It might rain.",
+       "why": "to yok."
+      },
+      {
+       "wrong": "He mights come.",
+       "right": "He might come.",
+       "why": "-s yok."
+      }
+     ]
+    },
+    {
+     "id": "ps-can",
+     "title": "You can find cheap fabric in Kapalıçarşı. · Where can I find …?",
+     "meaning": "can ile mümkünlük ve yer sorma",
+     "explanation": [
+      "can + yalın fiil bir şeyin mümkün olduğunu, bir imkânın bulunduğunu söyler: You can buy fresh fish at the market in Mudanya. You can find cheap fabric in Kapalıçarşı. Burada can “yapabilme yeteneği” değil, “orada bu imkân var” demektir.",
+      "can genel olasılıklar için de kullanılır: It can be very cold in Erzurum in January. (Ocakta Erzurum çok soğuk olabilir; bu bazen olur.) The roads to Uludağ can be dangerous in winter. Bu cümleler genel bir doğruyu söyler; might ise belirli bir zamandaki tahmindir: It might be cold tomorrow.",
+      "Yer sormak için: Where can I find a good tailor? (İyi bir terzi nerede bulabilirim?) Cevap can ya da might ile: You can find one near the old market. / You might find one near the old market. Soruda can özneden önce gelir: Where can I …? (Where I can ✗)"
+     ],
+     "formula": [
+      "can = mümkün, imkân var: You can find it in …",
+      "genel olasılık: It can be very cold in January.",
+      "Where can I find …? — You can / might find one …"
+     ],
+     "examples": [
+      {
+       "en": "You can buy fresh fish at the market in Mudanya.",
+       "tr": "Mudanya'daki pazarda taze balık alabilirsin.",
+       "why": [
+        "İmkân."
+       ]
+      },
+      {
+       "en": "Where can I find a good tailor? — You might find one near the old market.",
+       "tr": "İyi bir terzi nerede bulabilirim? — Belki eski çarşının yakınında bulursun.",
+       "why": [
+        "Yer sorusu + olasılık."
+       ],
+       "chunks": [
+        {
+         "en": "Where can I find …?",
+         "tr": "… nerede bulabilirim?"
+        },
+        {
+         "en": "one",
+         "tr": "bir tane",
+         "note": "tailor yerine"
+        }
+       ]
+      },
+      {
+       "en": "The roads to Uludağ can be dangerous in winter.",
+       "tr": "Uludağ yolları kışın tehlikeli olabilir.",
+       "why": [
+        "Genel olasılık."
+       ]
+      },
+      {
+       "en": "It can be very cold in Kars in December, so take warm clothes.",
+       "tr": "Aralıkta Kars çok soğuk olabilir, o yüzden kalın giysiler al.",
+       "why": [
+        "can + tavsiye."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bunu nerede bulabilirim?” İngilizcesi?",
+       "answer": "Where can I find this?",
+       "why": "soru"
+      },
+      {
+       "question": "Where I can buy bread? cümlesini düzeltin.",
+       "answer": "Where can I buy bread?",
+       "why": "can özneden önce"
+      },
+      {
+       "question": "can mı might mı: “Belki yarın gelirim.”",
+       "answer": "might: I might come tomorrow.",
+       "why": "belirli tahmin"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It cans be cold.",
+       "right": "It can be cold.",
+       "why": "can -s almaz."
+      },
+      {
+       "wrong": "Where I can find a tailor?",
+       "right": "Where can I find a tailor?",
+       "why": "Soruda can başa yakın."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "can / might",
+       "explanation": [
+        "can genel bir mümkünlüğü ya da imkânı, might ise belirli bir durum hakkında emin olmadığımız tahmini söyler."
+       ],
+       "example": "It can be cold in Bursa in April. · It might be cold tomorrow.",
+       "tr": [
+        "Nisanda Bursa soğuk olabilir (bazen olur). · Yarın soğuk olabilir (tahmin)."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "advice-email",
+   "title": "Tavsiye e-postası: düşük not alan bir arkadaşa",
+   "intro": [
+    "MEB kazanımı: bir arkadaşının yaşadığı bir olaya ilişkin tavsiye içerikli bir e-posta yazar (okuldaki bir dersten çok düşük not almış bir arkadaş için tavsiye metni). Bu görev iki günün bütün kalıplarını birleştirir: duygu, tavsiye (should, Why don't you …?), olasılık (might) ve sıklık (twice a week).",
+    "Önce Deniz'in sorunu anlatan e-postasını, sonra Oya'nın cevabını okuyoruz. Cevabın bölümlerini renklerle işaretliyoruz: selamlama ve kapanış, tavsiye, olasılık. Sonra 70–130 kelimelik kendi e-postamızı yazıyoruz."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I got a very low mark in my maths exam: 35 out of 100!",
+     "tr": "Matematik sınavından çok düşük not aldım: 100 üzerinden 35!",
+     "why": [
+      "got a low mark = düşük not almak (geçmiş, kalıp); out of = üzerinden."
+     ]
+    },
+    {
+     "en": "Teachers usually like students who ask questions.",
+     "tr": "Öğretmenler genellikle soru soran öğrencileri sever.",
+     "why": [
+      "usually fiilden önce; who ask questions = soru soran."
+     ]
+    },
+    {
+     "en": "Why don't you study with a friend twice a week?",
+     "tr": "Neden haftada iki kez bir arkadaşınla çalışmıyorsun?",
+     "why": [
+      "Why don't you + twice a week (sıklık)."
+     ]
+    },
+    {
+     "en": "Finally, you shouldn't study all night before the next exam. Sleep is important!",
+     "tr": "Son olarak, bir sonraki sınavdan önce bütün gece çalışmamalısın. Uyku önemli!",
+     "why": [
+      "Finally son tavsiye; shouldn't + study."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "em-parts",
+     "title": "Dear Deniz, … I'm sorry to hear about your maths exam.",
+     "meaning": "E-postanın bölümleri ve kalıpları",
+     "explanation": [
+      "1. Selamlama: Dear Deniz, (sevgili) ya da daha samimi Hi Deniz, Virgülden sonra yeni satıra geçilir. 2. Teşekkür ve anlayış: Thanks for your e-mail. I'm sorry to hear about your maths exam. / I'm sorry to hear that you got a low mark. Don't worry. Everybody has bad days. (about + isim; that + cümle)",
+      "3. Tavsiyeler e-postanın en uzun bölümüdür (3–4 tavsiye) ve sıralama kelimeleriyle düzenlenir: First, you should talk to your teacher. Why don't you study with a friend twice a week? You can also watch short videos online. Finally, you shouldn't study all night before the next exam.",
+      "4. Olasılık ve cesaret: The next exam might be easier. You can do it! 5. Kapanış: Good luck! Write back soon. / Let me know how it goes. 6. İmza: Best wishes, Oya ya da yakın arkadaşa Love, Oya. Konu satırı kısa olmalı: Re: My maths exam ya da Some advice."
+     ],
+     "formula": [
+      "Dear … , / Hi … , · Thanks for your e-mail.",
+      "I'm sorry to hear about … / that … · Don't worry.",
+      "First, … · Why don't you …? · Finally, … · It might … · Best wishes,"
+     ],
+     "examples": [
+      {
+       "en": "Thanks for your e-mail. I'm sorry to hear about your maths exam.",
+       "tr": "E-postan için teşekkürler. Matematik sınavını duyduğuma üzüldüm.",
+       "why": [
+        "Teşekkür + anlayış."
+       ],
+       "chunks": [
+        {
+         "en": "Thanks for",
+         "tr": "… için teşekkürler"
+        },
+        {
+         "en": "I'm sorry to hear about",
+         "tr": "… duyduğuma üzüldüm",
+         "note": "+ isim"
+        }
+       ]
+      },
+      {
+       "en": "Don't worry, everybody has bad days.",
+       "tr": "Üzülme, herkesin kötü günleri olur.",
+       "why": [
+        "everybody tekil → has."
+       ]
+      },
+      {
+       "en": "First, you should talk to your teacher after the lesson.",
+       "tr": "Önce, dersten sonra öğretmeninle konuşmalısın.",
+       "why": [
+        "First + should."
+       ]
+      },
+      {
+       "en": "The next exam might be easier. You can do it!",
+       "tr": "Bir sonraki sınav daha kolay olabilir. Başarabilirsin!",
+       "why": [
+        "Olasılık + cesaret."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Duyduğuma üzüldüm” kalıbı?",
+       "answer": "I'm sorry to hear that … / about …",
+       "why": "anlayış"
+      },
+      {
+       "question": "Yakın bir arkadaşa imza?",
+       "answer": "Love, … / Best wishes, …",
+       "why": "kapanış"
+      },
+      {
+       "question": "Tavsiyeleri sıralayan kelimeler?",
+       "answer": "First, Also, Finally",
+       "why": "düzen"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I'm sorry for hear that.",
+       "right": "I'm sorry to hear that.",
+       "why": "sorry to + hear."
+      },
+      {
+       "wrong": "Dear Deniz. (nokta ile)",
+       "right": "Dear Deniz,",
+       "why": "Selamlamadan sonra virgül."
+      }
+     ]
+    },
+    {
+     "id": "em-write",
+     "title": "Write your own advice e-mail (70–130 words)",
+     "meaning": "Kendi tavsiye e-postanı planlamak ve yazmak",
+     "explanation": [
+      "Yazmadan önce bir plan yapın: arkadaşınızın sorunu ne? (low mark, lost job, new city, failed driving test) Hangi üç tavsiyeyi vereceksiniz? Hangi olasılık cümlesiyle umut vereceksiniz? Planı birkaç kelimeyle not edin, sonra cümleye çevirin.",
+      "Yazma kutusunun kontrol listesi: selamlama (Dear / Hi), anlayış (sorry to hear), en az iki tavsiye kalıbı (should, Why don't you, You can), olasılık (might / may), kapanış (Best wishes / Love / Good luck). Ünlem kutusu “should to / might to” hatasını yakalar.",
+      "Erken bitirenler için ikinci konular: arkadaşınız işini kaybetti (You might find a better job. Why don't you update your CV?), yeni bir şehre taşındı ve yalnız (You can join a course. Why don't you visit the old town at the weekend?), ehliyet sınavını geçemedi (You should practise with a teacher. The next test might be easier.)."
+     ],
+     "formula": [
+      "plan: sorun → 3 tavsiye → olasılık",
+      "kontrol: Dear · sorry to hear · should / Why don't you · might · Best wishes",
+      "ikinci konu: lost job · new city · driving test"
+     ],
+     "examples": [
+      {
+       "en": "Dear Leyla, I'm sorry to hear that you lost your job.",
+       "tr": "Sevgili Leyla, işini kaybettiğini duyduğuma üzüldüm.",
+       "why": [
+        "İkinci konu: iş kaybı."
+       ]
+      },
+      {
+       "en": "Why don't you update your CV and look online every day?",
+       "tr": "Neden özgeçmişini güncelleyip her gün internette bakmıyorsun?",
+       "why": [
+        "Tavsiye + sıklık."
+       ],
+       "chunks": [
+        {
+         "en": "update your CV",
+         "tr": "özgeçmişini güncellemek"
+        },
+        {
+         "en": "every day",
+         "tr": "her gün"
+        }
+       ]
+      },
+      {
+       "en": "You might find a better job soon.",
+       "tr": "Yakında daha iyi bir iş bulabilirsin.",
+       "why": [
+        "Olasılık."
+       ]
+      },
+      {
+       "en": "Good luck, and write back soon. Best wishes, Kaan",
+       "tr": "Bol şans, bana yine yaz. Sevgiler, Kaan",
+       "why": [
+        "Kapanış ve imza."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "E-postada kaç tavsiye vermek iyidir?",
+       "answer": "3–4",
+       "why": "plan"
+      },
+      {
+       "question": "Olasılık için hangi kelime?",
+       "answer": "might / may",
+       "why": "kontrol"
+      },
+      {
+       "question": "Yeni şehirde yalnız arkadaşa bir tavsiye?",
+       "answer": "You can join a course. / Why don't you visit the old town?",
+       "why": "ikinci konu"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "You should to study more.",
+       "right": "You should study more.",
+       "why": "to yok."
+      },
+      {
+       "wrong": "E-postayı imzasız bitirmek.",
+       "right": "Best wishes, + adınız",
+       "why": "İmza unutulmaz."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "close",
+   "title": "Kapanış: iki günün özeti ve ev ödevi",
+   "intro": [
+    "İki günün sonunda “I can …” listesiyle kendimizi değerlendiriyoruz: tabelalar, yasak, gerek yok, tavsiye istemek ve vermek, olasılık ve e-posta. Büyük son kontrolde iki günün bütün konularından birer soru var.",
+    "Ev ödevinde tavsiye e-postasını bitirmek, evimizin ya da iş yerimizin dört kuralını yazmak, bu hafta gördüğümüz üç tabelayı İngilizce yazmak ve özet sayfasında zorlandığımız bölümü sesli tekrar etmek var."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I can say what is not allowed: You mustn't / can't park here.",
+     "tr": "Neyin yasak olduğunu söyleyebilirim.",
+     "why": [
+      "what is not allowed = izin verilmeyen şey."
+     ]
+    },
+    {
+     "en": "I can say what isn't necessary: You don't have to get up early.",
+     "tr": "Neyin gerekli olmadığını söyleyebilirim.",
+     "why": [
+      "necessary = gerekli; don't have to."
+     ]
+    },
+    {
+     "en": "I can write an e-mail with advice to a friend.",
+     "tr": "Bir arkadaşıma tavsiye içeren bir e-posta yazabilirim.",
+     "why": [
+      "with advice = tavsiye içeren; advice sayılamaz."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "cl-review",
+     "title": "İki günün en önemli kuralları",
+     "meaning": "Büyük son kontroldeki konuları tekrar etmek",
+     "explanation": [
+      "Birinci gün: zıt sıfat + but (It's cheap, but it's slow.), zarf (speak slowly), genel gerçek (The Earth goes around the Sun.), zaman ifadesi (on Sundays, every day), sıklık (I go to the cinema once a week. I often meet my friends.).",
+      "İkinci gün: tabela (KEEP OFF THE GRASS = çimlere basmayınız), yasak (You mustn't park here.), gerek yok (You don't have to get up early on Sundays.), tavsiye (You should go to bed earlier.), olasılık (She might not like the present.), e-posta (Dear … · Best wishes,).",
+      "Son kontrolde yanlış yaptığınız konu için rehberin ilgili bölümüne dönün. En sık karışan iki çift: mustn't (yasak) ↔ don't have to (gerek yok) ve should + yalın fiil (should to ✗). Ayrıca might not (doesn't might ✗)."
+     ],
+     "formula": [
+      "1. gün: but · -ly · goes · on Sundays · once a week",
+      "2. gün: KEEP OFF · mustn't · don't have to · should · might not",
+      "karışanlar: mustn't ↔ don't have to · should to ✗"
+     ],
+     "examples": [
+      {
+       "en": "It's cheap, but it's slow.",
+       "tr": "Ucuz ama yavaş.",
+       "why": [
+        "1. gün."
+       ]
+      },
+      {
+       "en": "I go to the cinema once a week.",
+       "tr": "Haftada bir sinemaya giderim.",
+       "why": [
+        "1. gün."
+       ]
+      },
+      {
+       "en": "You don't have to get up early on Sundays.",
+       "tr": "Pazar günleri erken kalkmak zorunda değilsin.",
+       "why": [
+        "2. gün."
+       ],
+       "chunks": [
+        {
+         "en": "don't have to",
+         "tr": "zorunda değil"
+        },
+        {
+         "en": "on Sundays",
+         "tr": "pazarları"
+        }
+       ]
+      },
+      {
+       "en": "She might not like the present.",
+       "tr": "Hediyeyi beğenmeyebilir.",
+       "why": [
+        "2. gün."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Buraya park etmek yasak.” mustn't mı don't have to mı?",
+       "answer": "mustn't",
+       "why": "yasak"
+      },
+      {
+       "question": "“Daha erken yatmalısın.” İngilizcesi?",
+       "answer": "You should go to bed earlier.",
+       "why": "should"
+      },
+      {
+       "question": "“Dünya Güneş'in etrafında döner.” İngilizcesi?",
+       "answer": "The Earth goes around the Sun.",
+       "why": "-es"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "You don't have to park here. (yasak için)",
+       "right": "You mustn't park here.",
+       "why": "Yasak → mustn't."
+      },
+      {
+       "wrong": "She doesn't might like it.",
+       "right": "She might not like it.",
+       "why": "might not."
+      }
+     ]
+    },
+    {
+     "id": "cl-homework",
+     "title": "Ev ödevi: e-posta, dört kural, üç tabela",
+     "meaning": "Ödevi planlamak",
+     "explanation": [
+      "1) Tavsiye e-postanızı bitirin (70–120 kelime) ve bir arkadaşınıza ya da öğretmeninize gönderin. Kontrol listesini kullanın: Dear, sorry to hear, should, Why don't you, might, Best wishes.",
+      "2) Evinizde ya da iş yerinizde dört kural yazın, her biri farklı kalıpla: We have to … (zorunlu) · You mustn't … (yasak) · You don't have to … (gerek yok) · You can … (izin). Örnek: At home, we have to take off our shoes. You mustn't smoke on the balcony. You don't have to make your bed on Sundays. You can watch TV after dinner.",
+      "3) Bu hafta gördüğünüz üç tabelayı İngilizce yazın ve açıklayın: It says “…”. You see it in / on … . It means … . 4) Bugünün özeti ve ifade bankasından zorlandığınız bölümü sesli tekrar edin."
+     ],
+     "formula": [
+      "e-posta: 70–120 kelime + kontrol listesi",
+      "dört kural: have to · mustn't · don't have to · can",
+      "üç tabela: It says … · You see it … · It means …"
+     ],
+     "examples": [
+      {
+       "en": "At home, we have to take off our shoes.",
+       "tr": "Evde ayakkabılarımızı çıkarmak zorundayız.",
+       "why": [
+        "Zorunlu."
+       ]
+      },
+      {
+       "en": "You mustn't smoke on the balcony.",
+       "tr": "Balkonda sigara içmemelisin.",
+       "why": [
+        "Yasak."
+       ]
+      },
+      {
+       "en": "You don't have to make your bed on Sundays.",
+       "tr": "Pazarları yatağını toplamak zorunda değilsin.",
+       "why": [
+        "Gerek yok."
+       ],
+       "chunks": [
+        {
+         "en": "make your bed",
+         "tr": "yatağını toplamak"
+        },
+        {
+         "en": "on Sundays",
+         "tr": "pazarları"
+        }
+       ]
+      },
+      {
+       "en": "It says “Out of order”. You see it on lifts. It means it doesn't work.",
+       "tr": "“Arızalı” yazıyor. Asansörlerde görürsün. Çalışmıyor demek.",
+       "why": [
+        "Tabela açıklaması."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Dört kuralın kalıpları?",
+       "answer": "have to · mustn't · don't have to · can",
+       "why": "ödev 2"
+      },
+      {
+       "question": "Tabela açıklamasının üç cümlesi?",
+       "answer": "It says … · You see it … · It means …",
+       "why": "ödev 3"
+      },
+      {
+       "question": "E-posta kaç kelime olmalı?",
+       "answer": "70–120",
+       "why": "ödev 1"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "At home, we must to take off our shoes.",
+       "right": "At home, we have to take off our shoes.",
+       "why": "must + to ✗."
+      },
+      {
+       "wrong": "You see it in the bus.",
+       "right": "You see it on the bus.",
+       "why": "Toplu taşıma → on."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "what-should",
+   "term": "What should I do?",
+   "meaning": "ne yapmalıyım?",
+   "partOfSpeech": "tavsiye isteme",
+   "sourceTerms": [
+    "What should I do?"
+   ],
+   "explanation": [
+    "Tavsiye istemenin en yaygın yolu. Soruda should özneden önce gelir. Benzeri: What do you think I should do?"
+   ],
+   "collocations": [
+    {
+     "en": "What do you think I should do?",
+     "tr": "sence ne yapmalıyım?"
+    },
+    {
+     "en": "What can I do?",
+     "tr": "ne yapabilirim?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm always tired. What should I do?",
+     "tr": "Hep yorgunum. Ne yapmalıyım?"
+    },
+    {
+     "en": "I spend too much money on clothes. What should I do?",
+     "tr": "Kıyafetlere çok para harcıyorum. Ne yapmalıyım?"
+    },
+    {
+     "en": "I can't decide what to cook. What do you think I should do?",
+     "tr": "Ne pişireceğime karar veremiyorum. Sence ne yapmalıyım?"
+    }
+   ],
+   "commonMistake": "What I should do? yerine What should I do? denir."
+  },
+  {
+   "id": "you-should",
+   "term": "You should … · You shouldn't …",
+   "meaning": "… -melisin · … -memelisin",
+   "partOfSpeech": "tavsiye",
+   "sourceTerms": [
+    "You should … · You shouldn't …"
+   ],
+   "explanation": [
+    "should / shouldn't + yalın fiil. Her kişiyle aynı; -s ve to almaz. Yasak değil öğüttür."
+   ],
+   "collocations": [
+    {
+     "en": "You should rest.",
+     "tr": "dinlenmelisin"
+    },
+    {
+     "en": "You shouldn't worry.",
+     "tr": "endişelenmemelisin"
+    }
+   ],
+   "examples": [
+    {
+     "en": "You should drink more water.",
+     "tr": "Daha çok su içmelisin."
+    },
+    {
+     "en": "You should go to bed earlier.",
+     "tr": "Daha erken yatmalısın."
+    },
+    {
+     "en": "You shouldn't drink coffee at night.",
+     "tr": "Geceleri kahve içmemelisin."
+    }
+   ],
+   "commonMistake": "You should to go yerine You should go denir."
+  },
+  {
+   "id": "why-dont-you",
+   "term": "Why don't you …?",
+   "meaning": "neden … -mıyorsun? (öneri)",
+   "partOfSpeech": "öneri",
+   "sourceTerms": [
+    "Why don't you …?"
+   ],
+   "explanation": [
+    "Soru biçiminde yumuşak bir öneridir; gerçek bir “neden” sorusu değildir. Why don't you + yalın fiil?"
+   ],
+   "collocations": [
+    {
+     "en": "Why don't we …?",
+     "tr": "neden … -mıyoruz? (öneri)"
+    },
+    {
+     "en": "How about …?",
+     "tr": "… -e ne dersin?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Why don't you take the metro?",
+     "tr": "Neden metroya binmiyorsun?"
+    },
+    {
+     "en": "Why don't you talk to your neighbours?",
+     "tr": "Neden komşularınla konuşmuyorsun?"
+    },
+    {
+     "en": "Why don't you study with a friend twice a week?",
+     "tr": "Neden haftada iki kez bir arkadaşınla çalışmıyorsun?"
+    }
+   ],
+   "commonMistake": "Why you don't take …? yerine Why don't you take …? denir."
+  },
+  {
+   "id": "can-you-help",
+   "term": "Can you help me?",
+   "meaning": "bana yardım eder misin?",
+   "partOfSpeech": "yardım isteme",
+   "sourceTerms": [
+    "Can you help me?"
+   ],
+   "explanation": [
+    "Yardım istemenin basit ve kibar yolu. Daha kibar: Could you help me, please?"
+   ],
+   "collocations": [
+    {
+     "en": "Could you help me, please?",
+     "tr": "bana yardım eder misiniz lütfen?"
+    },
+    {
+     "en": "Can I ask you something?",
+     "tr": "sana bir şey sorabilir miyim?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My computer doesn't work. Can you help me?",
+     "tr": "Bilgisayarım çalışmıyor. Bana yardım eder misin?"
+    },
+    {
+     "en": "Can I ask you something? I have a problem.",
+     "tr": "Sana bir şey sorabilir miyim? Bir sorunum var."
+    },
+    {
+     "en": "Could you help me with this box, please?",
+     "tr": "Bu kutu için bana yardım eder misiniz lütfen?"
+    }
+   ],
+   "commonMistake": "Can you help to me? yerine Can you help me? denir."
+  },
+  {
+   "id": "what-suggest",
+   "term": "What do you suggest?",
+   "meaning": "ne önerirsin?",
+   "partOfSpeech": "öneri isteme",
+   "sourceTerms": [
+    "What do you suggest?"
+   ],
+   "explanation": [
+    "suggest = önermek. Tavsiye istemenin biraz daha resmî yolu."
+   ],
+   "collocations": [
+    {
+     "en": "suggest",
+     "tr": "önermek"
+    },
+    {
+     "en": "a suggestion",
+     "tr": "bir öneri"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I can't sleep at night. What do you suggest?",
+     "tr": "Geceleri uyuyamıyorum. Ne önerirsin?"
+    },
+    {
+     "en": "I'm always late for school. What do you suggest?",
+     "tr": "Okula hep geç kalıyorum. Ne önerirsin?"
+    },
+    {
+     "en": "I suggest a short walk after dinner.",
+     "tr": "Akşam yemeğinden sonra kısa bir yürüyüş öneririm."
+    }
+   ],
+   "commonMistake": "What do you suggest me? yerine What do you suggest? denir."
+  },
+  {
+   "id": "wait-sales",
+   "term": "wait for the sales",
+   "meaning": "indirimi beklemek",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "wait for the sales"
+   ],
+   "explanation": [
+    "the sales = indirim dönemi. wait for + isim = … -i beklemek."
+   ],
+   "collocations": [
+    {
+     "en": "wait for the bus",
+     "tr": "otobüsü beklemek"
+    },
+    {
+     "en": "on sale",
+     "tr": "indirimde"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Don't buy it now. Wait for the sales.",
+     "tr": "Şimdi alma. İndirimi bekle."
+    },
+    {
+     "en": "I always wait for the sales in January.",
+     "tr": "Ocaktaki indirimi hep beklerim."
+    },
+    {
+     "en": "Coats are cheap in the sales.",
+     "tr": "İndirim döneminde montlar ucuz."
+    }
+   ],
+   "commonMistake": "wait the sales yerine wait for the sales denir."
+  },
+  {
+   "id": "put-on-weight",
+   "term": "put on weight · go on a diet",
+   "meaning": "kilo almak · diyet yapmak",
+   "partOfSpeech": "fiil grupları",
+   "sourceTerms": [
+    "put on weight · go on a diet"
+   ],
+   "explanation": [
+    "put on weight = kilo almak (zıttı lose weight = kilo vermek). go on a diet = diyete başlamak; be on a diet = diyette olmak."
+   ],
+   "collocations": [
+    {
+     "en": "lose weight",
+     "tr": "kilo vermek"
+    },
+    {
+     "en": "be on a diet",
+     "tr": "diyette olmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I've put on a lot of weight. What can I do?",
+     "tr": "Çok kilo aldım. Ne yapabilirim?"
+    },
+    {
+     "en": "You should go on a diet.",
+     "tr": "Diyet yapmalısın."
+    },
+    {
+     "en": "I put on weight in winter, so I go on a diet in spring.",
+     "tr": "Kışın kilo alırım, bu yüzden ilkbaharda diyet yaparım."
+    }
+   ],
+   "commonMistake": "make diet yerine go on a diet denir."
+  },
+  {
+   "id": "can-possible",
+   "term": "can (mümkün)",
+   "meaning": "-ebilirsin",
+   "partOfSpeech": "olasılık",
+   "sourceTerms": [
+    "can (mümkün)"
+   ],
+   "explanation": [
+    "can bir imkânı ya da genel bir mümkünlüğü söyler: You can find it in Ulus. It can be cold in January."
+   ],
+   "collocations": [
+    {
+     "en": "You can find …",
+     "tr": "… bulabilirsin"
+    },
+    {
+     "en": "Where can I …?",
+     "tr": "nerede … -ebilirim?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "You can find cheap fabric in Kapalıçarşı.",
+     "tr": "Kapalıçarşı'da ucuz kumaş bulabilirsin."
+    },
+    {
+     "en": "You can buy fresh fish at the market in Mudanya.",
+     "tr": "Mudanya pazarında taze balık alabilirsin."
+    },
+    {
+     "en": "It can be very cold in Kars in December.",
+     "tr": "Aralıkta Kars çok soğuk olabilir.",
+     "note": "genel"
+    }
+   ],
+   "commonMistake": "It cans be cold yerine It can be cold denir."
+  },
+  {
+   "id": "might-may",
+   "term": "might · may",
+   "meaning": "-ebilir (belki)",
+   "partOfSpeech": "olasılık",
+   "sourceTerms": [
+    "might · may"
+   ],
+   "explanation": [
+    "Emin olmadığımız olasılık: might / may + yalın fiil. -s ve to almaz."
+   ],
+   "collocations": [
+    {
+     "en": "It might rain.",
+     "tr": "yağmur yağabilir"
+    },
+    {
+     "en": "We might go …",
+     "tr": "belki … gideriz"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Take an umbrella. It might rain.",
+     "tr": "Şemsiye al. Yağmur yağabilir."
+    },
+    {
+     "en": "We might go to Gemlik on Sunday.",
+     "tr": "Belki pazar günü Gemlik'e gideriz."
+    },
+    {
+     "en": "Call the pharmacy first. It might be closed.",
+     "tr": "Önce eczaneyi ara. Kapalı olabilir."
+    }
+   ],
+   "commonMistake": "It might to rain yerine It might rain denir."
+  },
+  {
+   "id": "might-not",
+   "term": "might not",
+   "meaning": "-meyebilir",
+   "partOfSpeech": "olasılık",
+   "sourceTerms": [
+    "might not"
+   ],
+   "explanation": [
+    "Olumsuz olasılık: might not + yalın fiil. doesn't might ✗."
+   ],
+   "collocations": [
+    {
+     "en": "might not come",
+     "tr": "gelmeyebilir"
+    },
+    {
+     "en": "might not be open",
+     "tr": "açık olmayabilir"
+    }
+   ],
+   "examples": [
+    {
+     "en": "She might not like the present.",
+     "tr": "Hediyeyi beğenmeyebilir."
+    },
+    {
+     "en": "The shop might not be open on Sunday.",
+     "tr": "Dükkân pazar günü açık olmayabilir."
+    },
+    {
+     "en": "He might not come to the party.",
+     "tr": "Partiye gelmeyebilir."
+    }
+   ],
+   "commonMistake": "She doesn't might like it yerine She might not like it denir."
+  },
+  {
+   "id": "maybe",
+   "term": "maybe",
+   "meaning": "belki",
+   "partOfSpeech": "zarf",
+   "sourceTerms": [
+    "maybe"
+   ],
+   "explanation": [
+    "Cümle başında durur; ardından normal cümle gelir. Maybe she doesn't like it. = She might not like it."
+   ],
+   "collocations": [
+    {
+     "en": "maybe not",
+     "tr": "belki değil"
+    },
+    {
+     "en": "perhaps",
+     "tr": "belki (resmî)"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Maybe the shop is closed today.",
+     "tr": "Belki dükkân bugün kapalı."
+    },
+    {
+     "en": "Maybe the bus is late because of the snow.",
+     "tr": "Belki otobüs kar yüzünden gecikiyor."
+    },
+    {
+     "en": "Maybe you're right.",
+     "tr": "Belki haklısın."
+    }
+   ],
+   "commonMistake": "Maybe she home yerine Maybe she is at home denir."
+  },
+  {
+   "id": "dear",
+   "term": "Dear … ,",
+   "meaning": "Sevgili …,",
+   "partOfSpeech": "e-posta açılışı",
+   "sourceTerms": [
+    "Dear … ,"
+   ],
+   "explanation": [
+    "E-posta ve mektup açılışı; ardından virgül. Daha samimi: Hi … , Resmî: Dear Mr / Mrs … ,"
+   ],
+   "collocations": [
+    {
+     "en": "Hi …,",
+     "tr": "selam …,"
+    },
+    {
+     "en": "Dear Sir or Madam,",
+     "tr": "sayın yetkili (resmî)"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Dear Aylin,",
+     "tr": "Sevgili Aylin,"
+    },
+    {
+     "en": "Dear Deniz, thanks for your e-mail.",
+     "tr": "Sevgili Deniz, e-postan için teşekkürler."
+    },
+    {
+     "en": "Hi Oya, I have a problem.",
+     "tr": "Selam Oya, bir sorunum var.",
+     "note": "samimi"
+    }
+   ],
+   "commonMistake": "Dear Deniz. (noktayla) yerine Dear Deniz, (virgülle) yazılır."
+  },
+  {
+   "id": "sorry-to-hear",
+   "term": "I'm sorry to hear that …",
+   "meaning": "… duyduğuma üzüldüm",
+   "partOfSpeech": "e-posta kalıbı",
+   "sourceTerms": [
+    "I'm sorry to hear that …"
+   ],
+   "explanation": [
+    "Kötü bir haber karşısında anlayış: I'm sorry to hear that + cümle / I'm sorry to hear about + isim."
+   ],
+   "collocations": [
+    {
+     "en": "sorry to hear about …",
+     "tr": "… duyduğuma üzüldüm"
+    },
+    {
+     "en": "That's a shame.",
+     "tr": "çok yazık"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm sorry to hear that you're ill.",
+     "tr": "Hasta olduğunu duyduğuma üzüldüm."
+    },
+    {
+     "en": "I'm sorry to hear about your maths exam.",
+     "tr": "Matematik sınavını duyduğuma üzüldüm."
+    },
+    {
+     "en": "I'm sorry to hear that you lost your job.",
+     "tr": "İşini kaybettiğini duyduğuma üzüldüm."
+    }
+   ],
+   "commonMistake": "I'm sorry for hear that yerine I'm sorry to hear that denir."
+  },
+  {
+   "id": "dont-worry",
+   "term": "Don't worry.",
+   "meaning": "üzülme, merak etme",
+   "partOfSpeech": "teselli",
+   "sourceTerms": [
+    "Don't worry."
+   ],
+   "explanation": [
+    "Teselli ve cesaret verme. Devamında: Everybody makes mistakes. / Everybody has bad days. / You can do it!"
+   ],
+   "collocations": [
+    {
+     "en": "Everybody makes mistakes.",
+     "tr": "herkes hata yapar"
+    },
+    {
+     "en": "You can do it!",
+     "tr": "başarabilirsin!"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Don't worry. Everybody makes mistakes.",
+     "tr": "Üzülme. Herkes hata yapar."
+    },
+    {
+     "en": "Don't worry, everybody has bad days.",
+     "tr": "Üzülme, herkesin kötü günleri olur."
+    },
+    {
+     "en": "Don't worry about the exam. You can do it!",
+     "tr": "Sınav için endişelenme. Başarabilirsin!"
+    }
+   ],
+   "commonMistake": "Don't worry for the exam yerine Don't worry about the exam denir."
+  },
+  {
+   "id": "good-luck",
+   "term": "Good luck!",
+   "meaning": "bol şans!",
+   "partOfSpeech": "kapanış",
+   "sourceTerms": [
+    "Good luck!"
+   ],
+   "explanation": [
+    "Kapanışta iyi dilek. Good luck with + isim: Good luck with your exam!"
+   ],
+   "collocations": [
+    {
+     "en": "Good luck with …",
+     "tr": "… için bol şans"
+    },
+    {
+     "en": "Fingers crossed!",
+     "tr": "şansın açık olsun!"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Good luck with your exam!",
+     "tr": "Sınavında bol şans!"
+    },
+    {
+     "en": "Good luck, and write back soon.",
+     "tr": "Bol şans, bana yine yaz."
+    },
+    {
+     "en": "Thanks for calling. Good luck!",
+     "tr": "Aradığın için teşekkürler. Bol şans!"
+    }
+   ],
+   "commonMistake": "Good lucks yerine Good luck denir."
+  },
+  {
+   "id": "best-wishes",
+   "term": "Best wishes, · Write back soon.",
+   "meaning": "sevgiler · bana yine yaz",
+   "partOfSpeech": "e-posta kapanışı",
+   "sourceTerms": [
+    "Best wishes, · Write back soon."
+   ],
+   "explanation": [
+    "İmzadan önceki kapanış. Best wishes, (sevgiler, saygılar) her arkadaşa uygundur; Love, yakın arkadaşa. Write back soon. = Bana yakında yaz."
+   ],
+   "collocations": [
+    {
+     "en": "Love,",
+     "tr": "sevgiler (yakın)"
+    },
+    {
+     "en": "Let me know how it goes.",
+     "tr": "nasıl geçtiğini bana haber ver"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Best wishes, Oya",
+     "tr": "Sevgiler, Oya"
+    },
+    {
+     "en": "Write back soon. Love, Kaan",
+     "tr": "Bana yine yaz. Sevgiler, Kaan"
+    },
+    {
+     "en": "Let me know how it goes. Best wishes,",
+     "tr": "Nasıl geçtiğini haber ver. Sevgiler,"
+    }
+   ],
+   "commonMistake": "Best wish yerine Best wishes denir."
+  }
+ ]
+}

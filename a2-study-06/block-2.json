@@ -1,0 +1,1659 @@
+{
+ "version": 1,
+ "block": 2,
+ "chapters": [
+  {
+   "screenId": "time-expressions",
+   "title": "Zaman ifadeleri: every day, in winter, on Sundays, at night",
+   "intro": [
+    "MEB kazanımı: her zaman yaptığı işleri anlatırken uygun zaman ifadelerini kullanır (her gün, her hafta, her ay, akşamları, yazın, kışın, pazarları). Türkçede bu ifadeler ekle yapılır (yaz-ın, akşam-ları, pazar-ları); İngilizcede ise önlerine in, on, at gelir ya da every ile hiç edat gelmez.",
+    "Kuralı dört grupta düşünün: every + zaman (edat yok), in + günün bölümü / mevsim / ay / yıl, on + gün, at + saat / night / the weekend. Bu dört grup alışkanlık cümlelerinin neredeyse hepsini karşılar."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I water the flowers on the balcony every day.",
+     "tr": "Her gün balkondaki çiçekleri sularım.",
+     "why": [
+      "every day edatsız; water burada fiil (sulamak)."
+     ]
+    },
+    {
+     "en": "In winter, my mother makes tarhana soup.",
+     "tr": "Kışın annem tarhana çorbası yapar.",
+     "why": [
+      "in + mevsim; my mother = she → makes."
+     ]
+    },
+    {
+     "en": "On Sundays, the whole family has breakfast together.",
+     "tr": "Pazarları bütün aile birlikte kahvaltı yapar.",
+     "why": [
+      "on + gün; family tekil → has."
+     ]
+    },
+    {
+     "en": "My son plays basketball every other day.",
+     "tr": "Oğlum gün aşırı basketbol oynar.",
+     "why": [
+      "every other day = gün aşırı; plays (-s)."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "te-prepositions",
+     "title": "every day · in winter · on Sundays · at night",
+     "meaning": "Zaman ifadelerinde doğru edatı seçmek",
+     "explanation": [
+      "every ile kurulan ifadelerde edat yoktur: every day, every week, every month, every year, every morning, every Sunday. Türkçedeki “her” kelimesiyle aynıdır: I water the flowers every day. (on every day ✗, in every day ✗)",
+      "in günün bölümleri (in the morning, in the afternoon, in the evening), mevsimler (in summer, in winter), aylar (in May) ve yıllarla (in 2026) kullanılır. Çoğul -s (in the evenings) “akşamları, her akşam” anlamını güçlendirir. Dikkat: gece için in değil at kullanılır: at night.",
+      "on günlerle kullanılır: on Monday, on Sundays (pazarları), on Friday evenings (cuma akşamları), on my birthday. Bir günün bölümü de gün sayılır: on Saturday morning. at saatler ve bazı sabit kalıplarla: at 7 o'clock, at noon, at night, at the weekend (İngiliz İngilizcesi; Amerikan İngilizcesinde on the weekend)."
+     ],
+     "formula": [
+      "every + zaman → edat yok",
+      "in + morning / evening / summer / May / 2026",
+      "on + Sunday(s) / Friday evenings · at + saat / night / the weekend"
+     ],
+     "examples": [
+      {
+       "en": "In the evenings, my husband and I drink tea on the balcony.",
+       "tr": "Akşamları eşimle balkonda çay içeriz.",
+       "why": [
+        "in + günün bölümü (çoğul)."
+       ],
+       "chunks": [
+        {
+         "en": "In the evenings",
+         "tr": "akşamları",
+         "note": "in"
+        },
+        {
+         "en": "on the balcony",
+         "tr": "balkonda",
+         "note": "yer"
+        }
+       ]
+      },
+      {
+       "en": "The library is closed on Mondays.",
+       "tr": "Kütüphane pazartesileri kapalıdır.",
+       "why": [
+        "on + gün (çoğul)."
+       ]
+      },
+      {
+       "en": "We pay the bills every month.",
+       "tr": "Her ay faturaları öderiz.",
+       "why": [
+        "every → edat yok."
+       ]
+      },
+      {
+       "en": "Owls hunt at night.",
+       "tr": "Baykuşlar geceleyin avlanır.",
+       "why": [
+        "at night."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Kışın” İngilizcesi?",
+       "answer": "in winter",
+       "why": "mevsim → in"
+      },
+      {
+       "question": "“Cuma akşamları” İngilizcesi?",
+       "answer": "on Friday evenings",
+       "why": "gün → on"
+      },
+      {
+       "question": "I go swimming ___ every week. Edat gerekir mi?",
+       "answer": "Hayır: every week.",
+       "why": "every"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "in every day",
+       "right": "every day",
+       "why": "every ile edat yok."
+      },
+      {
+       "wrong": "in night",
+       "right": "at night",
+       "why": "Gece → at."
+      }
+     ]
+    },
+    {
+     "id": "te-position",
+     "title": "On Sundays, I visit my aunt. · I visit my aunt on Sundays.",
+     "meaning": "Zaman ifadesinin cümledeki yeri ve özel ifadeler",
+     "explanation": [
+      "Zaman ifadesi genellikle cümlenin sonunda durur: I visit my aunt on Sundays. Vurgulamak ya da bir metne düzen vermek için başa da gelebilir; o zaman ardından çoğunlukla virgül konur: On Sundays, I visit my aunt. In winter, my mother makes tarhana soup.",
+      "Özel ifadeler: every other day (gün aşırı), every two weeks (iki haftada bir), every weekend (her hafta sonu), all day (bütün gün), on weekdays (hafta içi). Bunlar da edatsız ya da kendi edatlarıyla kalıplaşmıştır: My son plays basketball every other day.",
+      "Bir alışkanlık tablosu hazırlarken (inputTable alıştırması) her satıra bir zaman ifadesi ve bir fiil yazın: every day → I walk to work. every month → I pay the rent. in summer → we go to the seaside. on Sundays → I visit my parents. Ardından arkadaşınıza sorun: What do you do on Sundays?"
+     ],
+     "formula": [
+      "sonda: I visit my aunt on Sundays.",
+      "başta + virgül: On Sundays, I visit my aunt.",
+      "every other day · every two weeks · on weekdays"
+     ],
+     "examples": [
+      {
+       "en": "In summer, we go to my uncle's house in Mudanya.",
+       "tr": "Yazın Mudanya'daki amcamın evine gideriz.",
+       "why": [
+        "Başta, virgülle."
+       ]
+      },
+      {
+       "en": "My son plays basketball every other day.",
+       "tr": "Oğlum gün aşırı basketbol oynar.",
+       "why": [
+        "every other day."
+       ]
+      },
+      {
+       "en": "What do you do on Sundays? — I visit my parents.",
+       "tr": "Pazarları ne yaparsın? — Annemle babamı ziyaret ederim.",
+       "why": [
+        "Soru ve cevapta zaman ifadesi."
+       ],
+       "chunks": [
+        {
+         "en": "on Sundays",
+         "tr": "pazarları"
+        },
+        {
+         "en": "visit",
+         "tr": "ziyaret etmek"
+        }
+       ]
+      },
+      {
+       "en": "On weekdays I get up at six.",
+       "tr": "Hafta içi altıda kalkarım.",
+       "why": [
+        "on weekdays = hafta içi."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Gün aşırı” İngilizcesi?",
+       "answer": "every other day",
+       "why": "kalıp"
+      },
+      {
+       "question": "Zaman ifadesi başa gelince ne konur?",
+       "answer": "Genellikle virgül.",
+       "why": "noktalama"
+      },
+      {
+       "question": "“İki haftada bir” İngilizcesi?",
+       "answer": "every two weeks",
+       "why": "kalıp"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I on Sundays visit my aunt.",
+       "right": "I visit my aunt on Sundays. / On Sundays, I visit my aunt.",
+       "why": "Zaman ifadesi özne ile fiil arasına girmez."
+      },
+      {
+       "wrong": "in weekdays",
+       "right": "on weekdays",
+       "why": "Günler → on."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "frequency",
+   "title": "Sıklık: always, often, sometimes, once a week",
+   "intro": [
+    "MEB kazanımı: sıklık zarflarını kullanarak bir şeyi ne sıklıkla yaptığını söyler (Haftada bir sinemaya giderim. Her sabah koşarım. Her gün dua ederim. Sık sık arkadaşlarımla buluşurum. Zaman zaman ihtiyaç sahiplerine yardımcı olurum.). How often …? sorusu sıklığı sorar.",
+    "Sıklığı iki yolla söyleriz: sıklık zarfları (always, usually, often, sometimes, rarely, never) ana fiilden önce gelir; sayı ifadeleri (once a week, twice a month, every morning) cümlenin sonunda durur. be fiiliyle zarf be'den sonra gelir: She is never late."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I pray every day.",
+     "tr": "Her gün dua ederim.",
+     "why": [
+      "Kazanım cümlesi; pray = dua etmek / namaz kılmak; every day sonda."
+     ]
+    },
+    {
+     "en": "We usually eat fish on Fridays.",
+     "tr": "Cuma günleri genellikle balık yeriz.",
+     "why": [
+      "usually fiilden önce; on Fridays sonda."
+     ]
+    },
+    {
+     "en": "The buses are always full in the morning.",
+     "tr": "Otobüsler sabahları hep dolu.",
+     "why": [
+      "be + always; full (dolu) zıt sıfat konusundan."
+     ]
+    },
+    {
+     "en": "Do you ever help people in need? — Yes, from time to time.",
+     "tr": "Hiç ihtiyaç sahiplerine yardım eder misin? — Evet, zaman zaman.",
+     "why": [
+      "Do you ever …? sıklık sorar; people in need = ihtiyaç sahipleri."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "fq-adverbs",
+     "title": "I often meet my friends. · She is never late.",
+     "meaning": "Sıklık zarflarını anlamak ve doğru yere koymak",
+     "explanation": [
+      "Sıklık zarflarını bir yüzde ölçeği gibi düşünün: always (her zaman, %100), usually (genellikle, %85), often (sık sık, %65), sometimes (bazen, %45), rarely (nadiren, %15), never (asla, hiç, %0). Kazanımdaki “sık sık” often, “zaman zaman” sometimes ya da from time to time ile söylenir.",
+      "Yer kuralı: zarf ana fiilden önce gelir: I often meet my friends. We usually eat fish on Fridays. Ama be fiilinden (am, is, are) sonra gelir: She is never late. The buses are always full in the morning. Olumsuz ve soruda da ana fiilden önce durur: He doesn't often watch TV. Do you usually walk to work?",
+      "never zaten olumsuz anlam taşır; yanına not ya da don't gelmez: I never drink coffee. (I don't never drink ✗) sometimes cümle başına da gelebilir: Sometimes I cook pasta. Diğer zarfların başa gelmesi daha az doğaldır."
+     ],
+     "formula": [
+      "özne + zarf + ana fiil: I often meet …",
+      "be + zarf: She is never late.",
+      "never + olumlu fiil (don't never ✗)"
+     ],
+     "examples": [
+      {
+       "en": "I often meet my friends.",
+       "tr": "Sık sık arkadaşlarımla buluşurum.",
+       "why": [
+        "Kazanım cümlesi: often fiilden önce."
+       ],
+       "chunks": [
+        {
+         "en": "often",
+         "tr": "sık sık",
+         "note": "zarf"
+        },
+        {
+         "en": "meet",
+         "tr": "buluşmak",
+         "note": "ana fiil"
+        }
+       ]
+      },
+      {
+       "en": "The doctor is never late.",
+       "tr": "Doktor asla geç kalmaz.",
+       "why": [
+        "be + never."
+       ]
+      },
+      {
+       "en": "My grandfather never uses a computer.",
+       "tr": "Dedem hiç bilgisayar kullanmaz.",
+       "why": [
+        "never + uses (olumlu)."
+       ]
+      },
+      {
+       "en": "He doesn't often watch TV.",
+       "tr": "Pek sık televizyon izlemez.",
+       "why": [
+        "doesn't + often + yalın fiil."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "I meet often my friends cümlesini düzeltin.",
+       "answer": "I often meet my friends.",
+       "why": "zarf fiilden önce"
+      },
+      {
+       "question": "She never is late cümlesini düzeltin.",
+       "answer": "She is never late.",
+       "why": "be + zarf"
+      },
+      {
+       "question": "“Nadiren” İngilizcesi?",
+       "answer": "rarely",
+       "why": "ölçek"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I don't never eat fast food.",
+       "right": "I never eat fast food.",
+       "why": "never zaten olumsuz."
+      },
+      {
+       "wrong": "Always I am tired.",
+       "right": "I am always tired.",
+       "why": "be + zarf."
+      }
+     ]
+    },
+    {
+     "id": "fq-expressions",
+     "title": "I go to the cinema once a week. · How often do you …?",
+     "meaning": "Sayı ifadeleri ve How often sorusu",
+     "explanation": [
+      "Sayıyla sıklık: once (bir kez), twice (iki kez), three / four times (üç / dört kez) + a day / a week / a month / a year. I go to the cinema once a week. I pray five times a day. My sister calls our mother twice a day. Bu ifadeler ve every morning, every day gibi ifadeler cümlenin sonunda durur: I run every morning.",
+      "Soru: How often do you …? (… ne sıklıkla yaparsın?) How often does your son …? Cevap bir zarf (Often. / Never!), bir sayı ifadesi (Twice a month.) ya da kibar bir belirsizlik olabilir (Not very often. / It depends.). How much often ✗ yanlıştır.",
+      "Zaman zaman, arada bir: from time to time, now and then. Neredeyse hiç: hardly ever. Do you ever …? (Hiç … yapar mısın?) sorusu da sıklık sorar: Do you ever help people in need? — Yes, from time to time."
+     ],
+     "formula": [
+      "once / twice / three times + a day / week / month / year (sonda)",
+      "How often do you …? — Twice a month.",
+      "from time to time · hardly ever · Do you ever …?"
+     ],
+     "examples": [
+      {
+       "en": "I go to the cinema once a week.",
+       "tr": "Haftada bir sinemaya giderim.",
+       "why": [
+        "Kazanım cümlesi."
+       ]
+      },
+      {
+       "en": "I run every morning.",
+       "tr": "Her sabah koşarım.",
+       "why": [
+        "every morning sonda."
+       ]
+      },
+      {
+       "en": "How often do you go to the dentist? — Once a year.",
+       "tr": "Dişçiye ne sıklıkla gidersin? — Yılda bir.",
+       "why": [
+        "How often + kısa cevap."
+       ],
+       "chunks": [
+        {
+         "en": "How often",
+         "tr": "ne sıklıkla"
+        },
+        {
+         "en": "Once a year",
+         "tr": "yılda bir"
+        }
+       ]
+      },
+      {
+       "en": "From time to time, I help people in need.",
+       "tr": "Zaman zaman ihtiyaç sahiplerine yardım ederim.",
+       "why": [
+        "Kazanım cümlesi: from time to time."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Ayda iki kez” İngilizcesi?",
+       "answer": "twice a month",
+       "why": "twice"
+      },
+      {
+       "question": "“Günde beş vakit namaz kılarım.” İngilizcesi?",
+       "answer": "I pray five times a day.",
+       "why": "times a day"
+      },
+      {
+       "question": "“Annene ne sıklıkla gidersin?” İngilizcesi?",
+       "answer": "How often do you visit your mother?",
+       "why": "How often"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "one time in a week",
+       "right": "once a week",
+       "why": "Kalıp: once a week."
+      },
+      {
+       "wrong": "How much often do you swim?",
+       "right": "How often do you swim?",
+       "why": "How often."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "often / How often",
+       "explanation": [
+        "often bir sıklık zarfıdır (sık sık); How often ise sıklığı soran soru kalıbıdır."
+       ],
+       "example": "I often go swimming. · How often do you go swimming?",
+       "tr": [
+        "Sık sık yüzmeye giderim. · Ne sıklıkla yüzmeye gidersin?"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "weekend",
+   "title": "Hafta sonum: at the weekend, on Saturday mornings",
+   "intro": [
+    "MEB kazanımı: hafta sonlarında ne yaptığını anlatır. Hafta sonunu anlatmak birinci günün bütün kalıplarını birleştirir: zaman ifadeleri (on Saturday mornings), sıklık zarfları (I usually …), geniş zaman ve hafta içi ile karşılaştırma (but).",
+    "Okuma metninde bir hemşirenin hafta sonunu okuyoruz: hafta içi çok çalışıyor, cumartesi sabahları geç kalkıyor, öğleden sonra pazara gidiyor, pazarları dinleniyor. Sonra kendi hafta sonumuzu 50–100 kelimeyle yazıyoruz."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I'm a nurse, so I work very hard on weekdays.",
+     "tr": "Hemşireyim, bu yüzden hafta içi çok çalışırım.",
+     "why": [
+      "so = bu yüzden; work hard = çok çalışmak; on weekdays = hafta içi."
+     ]
+    },
+    {
+     "en": "My son never helps; he plays football with his friends in the park.",
+     "tr": "Oğlum hiç yardım etmez; parkta arkadaşlarıyla futbol oynar.",
+     "why": [
+      "never + helps (olumlu fiil); noktalı virgül iki cümleyi bağlar."
+     ]
+    },
+    {
+     "en": "The vegetables there are cheap and fresh.",
+     "tr": "Oradaki sebzeler ucuz ve taze.",
+     "why": [
+      "vegetables çoğul → are; cheap and fresh aynı yön."
+     ]
+    },
+    {
+     "en": "From time to time I work on Sundays at the hospital.",
+     "tr": "Zaman zaman pazarları hastanede çalışırım.",
+     "why": [
+      "from time to time = zaman zaman; on Sundays + at the hospital."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "wk-talk",
+     "title": "What do you do at the weekend? — On Saturday mornings I usually sleep late.",
+     "meaning": "Hafta sonu etkinliklerini anlatmak",
+     "explanation": [
+      "Hafta sonu sorusu: What do you do at the weekend? / What do you usually do on Saturdays? Cevapta günün bölümlerini kullanmak anlatımı düzenler: On Saturday mornings, I clean the house. On Saturday evenings, we visit relatives. On Sundays, I sleep late.",
+      "Sık kullanılan ifadeler: sleep late / have a lie-in (geç kalkmak), clean the house (evi temizlemek), do the washing (çamaşır yıkamak), do the shopping (alışveriş yapmak), visit relatives (akrabaları ziyaret etmek), go on a picnic (pikniğe gitmek), go for a drive (arabayla gezmeye gitmek), meet friends (arkadaşlarla buluşmak), relax at home (evde dinlenmek).",
+      "Başkasının hafta sonunu anlatırken fiil -s alır: My husband goes fishing on Sunday mornings. Mrs Ateş sleeps late on Saturdays. Olumsuz: We don't cook on Sundays; we order lahmacun."
+     ],
+     "formula": [
+      "What do you do at the weekend?",
+      "On Saturday mornings / On Sundays + I …",
+      "sleep late · visit relatives · go on a picnic · do the washing"
+     ],
+     "examples": [
+      {
+       "en": "On Saturday mornings, I do the washing and clean the kitchen.",
+       "tr": "Cumartesi sabahları çamaşır yıkar, mutfağı temizlerim.",
+       "why": [
+        "do the washing."
+       ]
+      },
+      {
+       "en": "My husband goes fishing on Sunday mornings.",
+       "tr": "Eşim pazar sabahları balığa gider.",
+       "why": [
+        "Başkası → goes."
+       ],
+       "chunks": [
+        {
+         "en": "goes fishing",
+         "tr": "balığa gider",
+         "note": "go + -ing"
+        },
+        {
+         "en": "on Sunday mornings",
+         "tr": "pazar sabahları"
+        }
+       ]
+      },
+      {
+       "en": "We don't cook on Sundays; we order lahmacun.",
+       "tr": "Pazarları yemek yapmayız; lahmacun söyleriz.",
+       "why": [
+        "Olumsuz + noktalı virgül."
+       ]
+      },
+      {
+       "en": "We sometimes go for a drive to Cumalıkızık.",
+       "tr": "Bazen arabayla Cumalıkızık'a gezmeye gideriz.",
+       "why": [
+        "go for a drive."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Geç kalkmak” için iki ifade?",
+       "answer": "sleep late · have a lie-in",
+       "why": "kalıplar"
+      },
+      {
+       "question": "“Akrabaları ziyaret ederiz.” İngilizcesi?",
+       "answer": "We visit relatives.",
+       "why": "visit"
+      },
+      {
+       "question": "My son (play) football on Saturdays.",
+       "answer": "plays",
+       "why": "-s"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I go to picnic.",
+       "right": "I go on a picnic.",
+       "why": "Kalıp: go on a picnic."
+      },
+      {
+       "wrong": "in the weekend",
+       "right": "at the weekend",
+       "why": "İngiliz İngilizcesi: at the weekend."
+      }
+     ]
+    },
+    {
+     "id": "wk-compare",
+     "title": "On weekdays I get up at six, but on Sundays I sleep late.",
+     "meaning": "Hafta içi ile hafta sonunu karşılaştırmak ve yazmak",
+     "explanation": [
+      "Hafta sonu yazısını ilginç yapmanın yolu karşılaştırmadır: On weekdays I get up at half past five, but at the weekend I sleep until nine. I work very hard on weekdays, but on Sundays I relax at home. but iki zıt durumu bağlar.",
+      "Sıklık zarflarını hafta sonu etkinlikleriyle birleştirin: I usually sleep late. My son never helps with the housework. We often go to the market. From time to time I work on Sundays. Yazma görevinde en az iki sıklık zarfı ve bir sayı ifadesi (once a month) kullanın.",
+      "Yazıyı bir duygu cümlesiyle bitirin: I love Sundays because nobody is in a hurry. (Pazarları severim çünkü kimse acele etmez.) because cümleye sebep ekler. Yazma kontrol listesi: zaman ifadesi, iki zarf, sayı ifadesi, but; “don't never” yok."
+     ],
+     "formula": [
+      "On weekdays …, but at the weekend …",
+      "zarf + sayı ifadesi: I usually … · once a month",
+      "bitiriş: I love … because …"
+     ],
+     "examples": [
+      {
+       "en": "I'm a nurse, so I work very hard on weekdays.",
+       "tr": "Hemşireyim, o yüzden hafta içi çok çalışırım.",
+       "why": [
+        "so = bu yüzden."
+       ]
+      },
+      {
+       "en": "At the weekend, my children sleep until ten.",
+       "tr": "Hafta sonu çocuklarım ona kadar uyur.",
+       "why": [
+        "until = -e kadar."
+       ],
+       "chunks": [
+        {
+         "en": "At the weekend",
+         "tr": "hafta sonu"
+        },
+        {
+         "en": "until ten",
+         "tr": "ona kadar"
+        }
+       ]
+      },
+      {
+       "en": "In spring and summer we go on a picnic once a month.",
+       "tr": "İlkbahar ve yazın ayda bir pikniğe gideriz.",
+       "why": [
+        "Mevsim + sayı ifadesi."
+       ]
+      },
+      {
+       "en": "I love Sundays because nobody is in a hurry.",
+       "tr": "Pazarları severim çünkü kimse acele etmez.",
+       "why": [
+        "because + sebep."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Hafta içi çalışırım ama hafta sonu dinlenirim.” İngilizcesi?",
+       "answer": "I work on weekdays, but at the weekend I relax.",
+       "why": "but"
+      },
+      {
+       "question": "“Ona kadar uyurum.” İngilizcesi?",
+       "answer": "I sleep until ten.",
+       "why": "until"
+      },
+      {
+       "question": "Yazma görevinde neyi yazmamalıyız?",
+       "answer": "“don't never”",
+       "why": "olumsuz hatası"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I sleep until to ten.",
+       "right": "I sleep until ten.",
+       "why": "until'den sonra to yok."
+      },
+      {
+       "wrong": "Because I love Sundays nobody is in a hurry.",
+       "right": "I love Sundays because nobody is in a hurry.",
+       "why": "Sebep because'tan sonra gelir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "dialogue-gap",
+   "title": "Boşluklu diyalog: fiili şahsa göre çekimlemek",
+   "intro": [
+    "MEB kazanımı: fiilleri şahsa göre doğru çekimleyerek boş bırakılmış bir diyaloğu tamamlar. Her boşlukta iki soru sorun: Özne kim? Cümle olumlu mu, olumsuz mu, soru mu? Bu iki cevap doğru biçimi verir.",
+    "Diyalogda Kaan ve Leyla kursa nasıl geldiklerini, aile üyelerinin işlerini ve hafta sonlarını konuşuyor. Alıştırmada da Oya ve Tolga'nın diyaloğunu parantezdeki fiilleri çekimleyerek tamamlıyoruz."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I take the metro. It's quick, and it's never late.",
+     "tr": "Metroya biniyorum. Hızlı ve hiç gecikmiyor.",
+     "why": [
+      "take the metro = metroya binmek; be + never."
+     ]
+    },
+    {
+     "en": "Yes, she does. She works in a bank, but she doesn't work at the weekend.",
+     "tr": "Evet. Bankada çalışıyor ama hafta sonu çalışmıyor.",
+     "why": [
+      "Kısa cevap does; works (-s); doesn't + work."
+     ]
+    },
+    {
+     "en": "We usually visit her parents. They live in İznik, and they have an olive farm.",
+     "tr": "Genellikle onun anne babasını ziyaret ediyoruz. İznik'te yaşıyorlar, zeytin bahçeleri var.",
+     "why": [
+      "usually fiilden önce; they → live, have."
+     ]
+    },
+    {
+     "en": "Twice a month. In autumn we help with the olives.",
+     "tr": "Ayda iki kez. Sonbaharda zeytin toplamaya yardım ediyoruz.",
+     "why": [
+      "twice a month; in autumn (mevsim → in)."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "dg-persons",
+     "title": "I live · she lives · they don't live · Does he live …?",
+     "meaning": "Fiili kişiye ve cümle türüne göre çekimlemek",
+     "explanation": [
+      "Geniş zamanda fiil yalnızca üçüncü tekil kişide (he, she, it, my brother, the shop) değişir: I live, you live, she lives, we live, they live. Yazım kuralları: -ch, -sh, -s, -x, -o → -es (watches, goes, does); sessiz harf + y → -ies (studies); have → has.",
+      "Olumsuz: don't (I, you, we, they) / doesn't (he, she, it) + yalın fiil. -s doesn't'a geçer, fiil yalın kalır: He doesn't have breakfast. (doesn't has ✗) My parents don't eat breakfast.",
+      "Soru: Do / Does + özne + yalın fiil? Does your brother study at the university? Kısa cevaplarda yardımcı fiil tekrarlanır: Yes, he does. / No, they don't. Soru kelimesi varsa en başa gelir: What time does he get up?"
+     ],
+     "formula": [
+      "he / she / it → fiil + s (has, goes, studies)",
+      "don't / doesn't + yalın fiil",
+      "Do / Does + özne + yalın fiil? — Yes, she does."
+     ],
+     "examples": [
+      {
+       "en": "Does your wife work? — Yes, she does. She works in a bank.",
+       "tr": "Eşin çalışıyor mu? — Evet. Bankada çalışıyor.",
+       "why": [
+        "Soru, kısa cevap, olumlu."
+       ],
+       "chunks": [
+        {
+         "en": "Does … work?",
+         "tr": "çalışıyor mu?",
+         "note": "yalın"
+        },
+        {
+         "en": "Yes, she does.",
+         "tr": "evet"
+        },
+        {
+         "en": "She works",
+         "tr": "çalışıyor",
+         "note": "-s"
+        }
+       ]
+      },
+      {
+       "en": "He gets up at seven, but he doesn't have breakfast.",
+       "tr": "Yedide kalkar ama kahvaltı yapmaz.",
+       "why": [
+        "gets (-s) · doesn't have (yalın)."
+       ]
+      },
+      {
+       "en": "My parents don't eat breakfast either.",
+       "tr": "Annemle babam da kahvaltı yapmaz.",
+       "why": [
+        "Çoğul → don't; either = da (olumsuzda)."
+       ]
+      },
+      {
+       "en": "He studies engineering.",
+       "tr": "Mühendislik okuyor.",
+       "why": [
+        "study → studies."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "___ your brother live near here? (Do / Does)",
+       "answer": "Does",
+       "why": "he"
+      },
+      {
+       "question": "My mother ___ (say) breakfast is important.",
+       "answer": "says",
+       "why": "she → -s"
+      },
+      {
+       "question": "They ___ (not / drink) coffee.",
+       "answer": "don't drink",
+       "why": "they"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "He doesn't has breakfast.",
+       "right": "He doesn't have breakfast.",
+       "why": "doesn't + yalın."
+      },
+      {
+       "wrong": "My parents doesn't live here.",
+       "right": "My parents don't live here.",
+       "why": "Çoğul → don't."
+      }
+     ]
+    },
+    {
+     "id": "dg-strategy",
+     "title": "Boşluktan önceki ve sonraki kelimeye bak",
+     "meaning": "Boşluklu diyalog stratejisi ve hata düzeltme",
+     "explanation": [
+      "Boşluktan önceki kelime genellikle özneyi verir: My brother ___ (not / like) fish → my brother = he → doesn't like. Boşluktan sonraki kelime cümle türünü gösterir: ___ you live …? soru işareti → Do. Kısa cevapta (Yes, he ___.) yardımcı fiil gelir: does.",
+      "Diyalogda bir soruya verilen cevap aynı yardımcı fiili kullanır: Do you work on Saturdays? — No, I don't. Does she drive? — Yes, she does. Soru Do ile kurulduysa cevap do / don't; Does ile kurulduysa does / doesn't.",
+      "Hata düzeltme alıştırmasında en sık hatalar: does + -s (Does she works?), çoğul özneyle doesn't (My parents doesn't), kısa cevapta yanlış yardımcı fiil (Yes, he do.) ve yardımcı fiilin unutulması (Where you work?). Bu dört hatayı tanıyınca diyalogları güvenle tamamlarsınız."
+     ],
+     "formula": [
+      "önceki kelime → özne · sonraki kelime / ? → cümle türü",
+      "soru Do ise cevap do / don't; Does ise does / doesn't",
+      "4 hata: Does she works · parents doesn't · he do · Where you work"
+     ],
+     "examples": [
+      {
+       "en": "Do you come to the course by bus? — No, I don't. I walk.",
+       "tr": "Kursa otobüsle mi geliyorsun? — Hayır. Yürüyorum.",
+       "why": [
+        "Do → don't."
+       ]
+      },
+      {
+       "en": "Where do you work?",
+       "tr": "Nerede çalışıyorsun?",
+       "why": [
+        "Yardımcı fiil unutulmaz."
+       ]
+      },
+      {
+       "en": "How often do you go there? — Twice a month.",
+       "tr": "Oraya ne sıklıkla gidiyorsunuz? — Ayda iki kez.",
+       "why": [
+        "Diyalogda sıklık sorusu."
+       ],
+       "chunks": [
+        {
+         "en": "How often",
+         "tr": "ne sıklıkla"
+        },
+        {
+         "en": "Twice a month",
+         "tr": "ayda iki kez"
+        }
+       ]
+      },
+      {
+       "en": "They live in İznik, and they have an olive farm.",
+       "tr": "İznik'te yaşıyorlar ve bir zeytin bahçeleri var.",
+       "why": [
+        "they → live, have."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Yes, he do. cümlesini düzeltin.",
+       "answer": "Yes, he does.",
+       "why": "he → does"
+      },
+      {
+       "question": "Does she works on Saturdays? cümlesini düzeltin.",
+       "answer": "Does she work on Saturdays?",
+       "why": "Does + yalın"
+      },
+      {
+       "question": "Where you work? cümlesini düzeltin.",
+       "answer": "Where do you work?",
+       "why": "do eksik"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Do she live here?",
+       "right": "Does she live here?",
+       "why": "she → Does."
+      },
+      {
+       "wrong": "No, I doesn't.",
+       "right": "No, I don't.",
+       "why": "I → don't."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "close-day1",
+   "title": "Birinci günün kapanışı",
+   "intro": [
+    "Birinci günün sonunda yedi “I can …” cümlesiyle kendimizi değerlendiriyoruz: zıt sıfatlar, zarflar, genel gerçekler, zaman ifadeleri, sıklık, hafta sonu ve diyalog tamamlama. Emin olmadığınız maddeyi işaretlemeyin; evde rehberden tekrar edin.",
+    "Kısa kontrolde her konudan bir soru var. Ev ödevinde şehrinizle ilgili beş gerçek, bir aile üyenizin hafta sonu ve yakınınızdaki bir tabela yer alıyor; bu son madde ikinci günün ilk konusuna hazırlıktır."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I can use opposites: cheap – expensive, early – late, full – empty.",
+     "tr": "Zıt anlamlı sıfatları kullanabilirim.",
+     "why": [
+      "I can + yalın fiil = yapabilirim."
+     ]
+    },
+    {
+     "en": "I can say facts: It snows in winter. The Earth goes around the Sun.",
+     "tr": "Genel gerçekleri söyleyebilirim.",
+     "why": [
+      "Geniş zamanla genel gerçekler."
+     ]
+    },
+    {
+     "en": "I can say how often I do things: I often …, once a week.",
+     "tr": "Ne sıklıkla yaptığımı söyleyebilirim.",
+     "why": [
+      "how often = ne sıklıkla."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "cd-review",
+     "title": "Birinci günün yedi kuralı",
+     "meaning": "Birinci günün kurallarını hızlıca tekrar etmek",
+     "explanation": [
+      "1) Zıt sıfat + but: The bus is cheap, but it's slow. 2) Zarf: speak slowly, drive carefully, run fast. 3) Genel gerçek: It snows in winter. The Earth goes around the Sun. 4) Zaman ifadesi: every day (edatsız), in winter, on Sundays, at night.",
+      "5) Sıklık zarfı ana fiilden önce, be'den sonra: I often meet my friends. She is never late. Sayı ifadesi sonda: once a week. 6) Hafta sonu: On Saturday mornings I usually … 7) Şahsa göre çekim: she works, she doesn't work, Does she work? — Yes, she does.",
+      "Kısa kontroldeki yanlışlarınızı rehberin ilgili bölümüne dönerek çalışın. Hataların çoğu Türkçe düşünmekten gelir: Snows in winter (it yok), I visit my mother in Sundays (on olmalı), I meet often my friends (zarfın yeri), Please speak slow (zarf olmalı)."
+     ],
+     "formula": [
+      "sıfat + but · zarf -ly · It snows …",
+      "every / in / on / at · zarf fiilden önce",
+      "hafta sonu · she works / doesn't work / Does she …?"
+     ],
+     "examples": [
+      {
+       "en": "It snows in winter.",
+       "tr": "Kışın kar yağar.",
+       "why": [
+        "it şart."
+       ]
+      },
+      {
+       "en": "I visit my mother on Sundays.",
+       "tr": "Pazarları annemi ziyaret ederim.",
+       "why": [
+        "on + gün."
+       ]
+      },
+      {
+       "en": "I often meet my friends.",
+       "tr": "Sık sık arkadaşlarımla buluşurum.",
+       "why": [
+        "Zarf fiilden önce."
+       ],
+       "chunks": [
+        {
+         "en": "often",
+         "tr": "sık sık"
+        },
+        {
+         "en": "meet",
+         "tr": "buluşmak"
+        }
+       ]
+      },
+      {
+       "en": "My sister doesn't work at the weekend.",
+       "tr": "Kız kardeşim hafta sonu çalışmaz.",
+       "why": [
+        "doesn't + yalın."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Lütfen yavaş konuşun.” İngilizcesi?",
+       "answer": "Please speak slowly.",
+       "why": "zarf"
+      },
+      {
+       "question": "“Pazarları” edatı?",
+       "answer": "on Sundays",
+       "why": "on"
+      },
+      {
+       "question": "“Kışın kar yağar.” İngilizcesi?",
+       "answer": "It snows in winter.",
+       "why": "it"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Snows in winter.",
+       "right": "It snows in winter.",
+       "why": "Özne it."
+      },
+      {
+       "wrong": "I visit my mother in Sundays.",
+       "right": "I visit my mother on Sundays.",
+       "why": "Günler → on."
+      }
+     ]
+    },
+    {
+     "id": "cd-homework",
+     "title": "Ev ödevi: şehrim, bir aile üyesinin hafta sonu, bir tabela",
+     "meaning": "Ödevi planlamak",
+     "explanation": [
+      "1) Şehriniz hakkında beş gerçek: It snows on Uludağ in winter. Farmers grow peaches. The city centre is busy, but the villages are quiet. Tekil özneyle fiile -s eklemeyi ve hava cümlelerinde it kullanmayı unutmayın.",
+      "2) Bir aile üyenizin hafta sonu (6 cümle): My brother usually sleeps late on Saturdays. He plays football with his friends in the afternoon. On Sundays he visits our grandmother. Üçüncü tekil kişi olduğu için fiiller -s alır; en az iki sıklık zarfı kullanın.",
+      "3) Evinizin ya da iş yerinizin yakınındaki bir tabelayı not edin ya da fotoğrafını çekin. Türkçeyse İngilizcesini tahmin etmeye çalışın. İkinci günün ilk konusu tabelalar; derste bu notlarla “Tabela avı” etkinliğini yapacağız."
+     ],
+     "formula": [
+      "5 gerçek: it snows · farmers grow · busy, but quiet",
+      "6 cümle: My brother usually … (-s)",
+      "1 tabela: yazısı + nerede + ne demek"
+     ],
+     "examples": [
+      {
+       "en": "Farmers grow peaches and chestnuts near Bursa.",
+       "tr": "Bursa yakınlarında çiftçiler şeftali ve kestane yetiştirir.",
+       "why": [
+        "Çoğul özne → grow."
+       ]
+      },
+      {
+       "en": "My brother usually sleeps late on Saturdays.",
+       "tr": "Ağabeyim cumartesileri genellikle geç kalkar.",
+       "why": [
+        "Üçüncü tekil + zarf."
+       ],
+       "chunks": [
+        {
+         "en": "usually",
+         "tr": "genellikle"
+        },
+        {
+         "en": "sleeps late",
+         "tr": "geç kalkar",
+         "note": "-s"
+        }
+       ]
+      },
+      {
+       "en": "On Sundays he visits our grandmother.",
+       "tr": "Pazarları büyükannemizi ziyaret eder.",
+       "why": [
+        "on + gün; visits."
+       ]
+      },
+      {
+       "en": "There's a “No parking” sign in front of my building.",
+       "tr": "Binamın önünde bir “Park yapılmaz” tabelası var.",
+       "why": [
+        "Tabela notu."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Aile üyesi ödevinde fiiller neden -s alır?",
+       "answer": "Üçüncü tekil kişi (he / she).",
+       "why": "çekim"
+      },
+      {
+       "question": "Şehir ödevinde hava cümlesi nasıl başlar?",
+       "answer": "It … (It snows / It rains)",
+       "why": "it"
+      },
+      {
+       "question": "Tabela ödevi hangi etkinlikte kullanılacak?",
+       "answer": "Tabela avı (ikinci gün).",
+       "why": "plan"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "My brother usually sleep late.",
+       "right": "My brother usually sleeps late.",
+       "why": "he → -s."
+      },
+      {
+       "wrong": "Rains a lot in Bursa in spring.",
+       "right": "It rains a lot in Bursa in spring.",
+       "why": "it şart."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "every-day",
+   "term": "every day · every week · every month",
+   "meaning": "her gün · her hafta · her ay",
+   "partOfSpeech": "zaman ifadesi",
+   "sourceTerms": [
+    "every day · every week · every month"
+   ],
+   "explanation": [
+    "every ile edat kullanılmaz. Sonda ya da başta durur. every other day = gün aşırı; every two weeks = iki haftada bir."
+   ],
+   "collocations": [
+    {
+     "en": "every morning",
+     "tr": "her sabah"
+    },
+    {
+     "en": "every other day",
+     "tr": "gün aşırı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I water the flowers every day.",
+     "tr": "Her gün çiçekleri sularım."
+    },
+    {
+     "en": "We pay the bills every month.",
+     "tr": "Her ay faturaları öderiz."
+    },
+    {
+     "en": "My son plays basketball every other day.",
+     "tr": "Oğlum gün aşırı basketbol oynar."
+    }
+   ],
+   "commonMistake": "on every day yerine every day denir."
+  },
+  {
+   "id": "in-evenings",
+   "term": "in the mornings · in the evenings",
+   "meaning": "sabahları · akşamları",
+   "partOfSpeech": "zaman ifadesi",
+   "sourceTerms": [
+    "in the mornings · in the evenings"
+   ],
+   "explanation": [
+    "Günün bölümleriyle in kullanılır; çoğul -s “her sabah / akşam” anlamını güçlendirir. Gece için at night."
+   ],
+   "collocations": [
+    {
+     "en": "in the afternoon",
+     "tr": "öğleden sonra"
+    },
+    {
+     "en": "at night",
+     "tr": "geceleyin"
+    }
+   ],
+   "examples": [
+    {
+     "en": "In the evenings, we drink tea on the balcony.",
+     "tr": "Akşamları balkonda çay içeriz."
+    },
+    {
+     "en": "My father reads the newspaper in the mornings.",
+     "tr": "Babam sabahları gazete okur."
+    },
+    {
+     "en": "It's quite cold in the mornings.",
+     "tr": "Sabahları oldukça soğuk."
+    }
+   ],
+   "commonMistake": "in night yerine at night denir."
+  },
+  {
+   "id": "in-summer",
+   "term": "in summer · in winter",
+   "meaning": "yazın · kışın",
+   "partOfSpeech": "zaman ifadesi",
+   "sourceTerms": [
+    "in summer · in winter"
+   ],
+   "explanation": [
+    "Mevsimlerle in kullanılır: in spring, in summer, in autumn, in winter. the kullanmak da mümkündür (in the summer)."
+   ],
+   "collocations": [
+    {
+     "en": "in spring",
+     "tr": "ilkbaharda"
+    },
+    {
+     "en": "in autumn",
+     "tr": "sonbaharda"
+    }
+   ],
+   "examples": [
+    {
+     "en": "In summer we go to the seaside.",
+     "tr": "Yazın deniz kenarına gideriz."
+    },
+    {
+     "en": "In winter, my mother makes tarhana soup.",
+     "tr": "Kışın annem tarhana çorbası yapar."
+    },
+    {
+     "en": "It snows on Uludağ in winter.",
+     "tr": "Kışın Uludağ'a kar yağar."
+    }
+   ],
+   "commonMistake": "on winter yerine in winter denir."
+  },
+  {
+   "id": "on-sundays",
+   "term": "on Sundays · at the weekend",
+   "meaning": "pazarları · hafta sonu",
+   "partOfSpeech": "zaman ifadesi",
+   "sourceTerms": [
+    "on Sundays · at the weekend"
+   ],
+   "explanation": [
+    "Günlerle on: on Sundays, on Friday evenings. Hafta sonu için İngiliz İngilizcesinde at the weekend, Amerikan İngilizcesinde on the weekend."
+   ],
+   "collocations": [
+    {
+     "en": "on weekdays",
+     "tr": "hafta içi"
+    },
+    {
+     "en": "on Saturday mornings",
+     "tr": "cumartesi sabahları"
+    }
+   ],
+   "examples": [
+    {
+     "en": "On Sundays I visit my aunt.",
+     "tr": "Pazarları teyzemi ziyaret ederim."
+    },
+    {
+     "en": "The library is closed on Mondays.",
+     "tr": "Kütüphane pazartesileri kapalı."
+    },
+    {
+     "en": "We go to the village at the weekend.",
+     "tr": "Hafta sonu köye gideriz."
+    }
+   ],
+   "commonMistake": "in Sundays yerine on Sundays denir."
+  },
+  {
+   "id": "at-night",
+   "term": "at night · at noon",
+   "meaning": "geceleyin · öğle vakti",
+   "partOfSpeech": "zaman ifadesi",
+   "sourceTerms": [
+    "at night · at noon"
+   ],
+   "explanation": [
+    "at saatlerle ve bazı kalıplarla kullanılır: at 7 o'clock, at night, at noon (öğlen 12), at midnight (gece yarısı)."
+   ],
+   "collocations": [
+    {
+     "en": "at midnight",
+     "tr": "gece yarısı"
+    },
+    {
+     "en": "at 9 o'clock",
+     "tr": "saat dokuzda"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Owls hunt at night.",
+     "tr": "Baykuşlar geceleyin avlanır."
+    },
+    {
+     "en": "The shop closes at noon on Saturdays.",
+     "tr": "Dükkân cumartesileri öğlen kapanır."
+    },
+    {
+     "en": "Our street is quiet at night.",
+     "tr": "Sokağımız gece sessiz."
+    }
+   ],
+   "commonMistake": "in the night (geceleyin anlamında) yerine at night daha doğaldır."
+  },
+  {
+   "id": "always-usually",
+   "term": "always · usually",
+   "meaning": "her zaman · genellikle",
+   "partOfSpeech": "sıklık zarfı",
+   "sourceTerms": [
+    "always · usually"
+   ],
+   "explanation": [
+    "Ana fiilden önce, be'den sonra gelir: I always lock the door. The shop is always busy."
+   ],
+   "collocations": [
+    {
+     "en": "almost always",
+     "tr": "neredeyse her zaman"
+    },
+    {
+     "en": "as usual",
+     "tr": "her zamanki gibi"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The shop is always busy on Fridays.",
+     "tr": "Dükkân cumaları hep kalabalık."
+    },
+    {
+     "en": "We usually eat fish on Fridays.",
+     "tr": "Cumaları genellikle balık yeriz."
+    },
+    {
+     "en": "I always lock the door at night.",
+     "tr": "Geceleri kapıyı hep kilitlerim."
+    }
+   ],
+   "commonMistake": "I lock always the door yerine I always lock the door denir."
+  },
+  {
+   "id": "often-sometimes",
+   "term": "often · sometimes",
+   "meaning": "sık sık · bazen",
+   "partOfSpeech": "sıklık zarfı",
+   "sourceTerms": [
+    "often · sometimes"
+   ],
+   "explanation": [
+    "often ana fiilden önce gelir. sometimes cümle başına da gelebilir: Sometimes I cook pasta."
+   ],
+   "collocations": [
+    {
+     "en": "quite often",
+     "tr": "oldukça sık"
+    },
+    {
+     "en": "not very often",
+     "tr": "pek sık değil"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I often meet my friends at the café.",
+     "tr": "Sık sık kafede arkadaşlarımla buluşurum."
+    },
+    {
+     "en": "I sometimes help people in need.",
+     "tr": "Bazen ihtiyaç sahiplerine yardım ederim."
+    },
+    {
+     "en": "Sometimes I cook pasta.",
+     "tr": "Bazen makarna yaparım.",
+     "note": "başta"
+    }
+   ],
+   "commonMistake": "I meet often my friends yerine I often meet my friends denir."
+  },
+  {
+   "id": "rarely-never",
+   "term": "rarely · never",
+   "meaning": "nadiren · asla",
+   "partOfSpeech": "sıklık zarfı",
+   "sourceTerms": [
+    "rarely · never"
+   ],
+   "explanation": [
+    "Olumsuz anlamlıdır; yanlarına not gelmez. never + olumlu fiil: I never drink coffee. hardly ever = neredeyse hiç."
+   ],
+   "collocations": [
+    {
+     "en": "hardly ever",
+     "tr": "neredeyse hiç"
+    },
+    {
+     "en": "never again",
+     "tr": "bir daha asla"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I rarely eat fast food.",
+     "tr": "Nadiren fast food yerim."
+    },
+    {
+     "en": "My grandfather never uses a computer.",
+     "tr": "Dedem hiç bilgisayar kullanmaz."
+    },
+    {
+     "en": "The doctor is never late.",
+     "tr": "Doktor asla geç kalmaz.",
+     "note": "be + never"
+    }
+   ],
+   "commonMistake": "I don't never drink coffee yerine I never drink coffee denir."
+  },
+  {
+   "id": "once-a-week",
+   "term": "once / twice / three times a week",
+   "meaning": "haftada bir / iki / üç kez",
+   "partOfSpeech": "sıklık ifadesi",
+   "sourceTerms": [
+    "once / twice / three times a week"
+   ],
+   "explanation": [
+    "once = bir kez, twice = iki kez, üç ve sonrası … times. a day / a week / a month / a year ile; cümle sonunda."
+   ],
+   "collocations": [
+    {
+     "en": "once a month",
+     "tr": "ayda bir"
+    },
+    {
+     "en": "five times a day",
+     "tr": "günde beş kez"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I go to the cinema once a week.",
+     "tr": "Haftada bir sinemaya giderim."
+    },
+    {
+     "en": "My sister calls our mother twice a day.",
+     "tr": "Kız kardeşim annemizi günde iki kez arar."
+    },
+    {
+     "en": "I pray five times a day.",
+     "tr": "Günde beş vakit namaz kılarım."
+    }
+   ],
+   "commonMistake": "one time in a week yerine once a week denir."
+  },
+  {
+   "id": "how-often",
+   "term": "How often …?",
+   "meaning": "ne sıklıkla?",
+   "partOfSpeech": "soru kalıbı",
+   "sourceTerms": [
+    "How often …?"
+   ],
+   "explanation": [
+    "Sıklığı sorar: How often do you …? Cevap: Often. / Twice a month. / Not very often. / Never!"
+   ],
+   "collocations": [
+    {
+     "en": "How often do you …?",
+     "tr": "ne sıklıkla … -sin?"
+    },
+    {
+     "en": "Do you ever …?",
+     "tr": "hiç … yapar mısın?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "How often do you visit your parents?",
+     "tr": "Annenle babanı ne sıklıkla ziyaret edersin?"
+    },
+    {
+     "en": "How often do you go to the dentist? — Once a year.",
+     "tr": "Dişçiye ne sıklıkla gidersin? — Yılda bir."
+    },
+    {
+     "en": "How often does the bus come? — Every ten minutes.",
+     "tr": "Otobüs ne sıklıkla gelir? — On dakikada bir."
+    }
+   ],
+   "commonMistake": "How much often yerine How often denir."
+  },
+  {
+   "id": "time-to-time",
+   "term": "from time to time",
+   "meaning": "zaman zaman",
+   "partOfSpeech": "sıklık ifadesi",
+   "sourceTerms": [
+    "from time to time"
+   ],
+   "explanation": [
+    "sometimes ile benzer anlam; genellikle cümle başında ya da sonunda. now and then = arada bir."
+   ],
+   "collocations": [
+    {
+     "en": "now and then",
+     "tr": "arada bir"
+    },
+    {
+     "en": "from time to time",
+     "tr": "zaman zaman"
+    }
+   ],
+   "examples": [
+    {
+     "en": "From time to time, I help people in need.",
+     "tr": "Zaman zaman ihtiyaç sahiplerine yardım ederim."
+    },
+    {
+     "en": "We eat out from time to time.",
+     "tr": "Zaman zaman dışarıda yemek yeriz."
+    },
+    {
+     "en": "From time to time I work on Sundays.",
+     "tr": "Zaman zaman pazarları çalışırım."
+    }
+   ],
+   "commonMistake": "time to time (from olmadan) eksiktir; from time to time denir."
+  },
+  {
+   "id": "at-weekend",
+   "term": "at the weekend",
+   "meaning": "hafta sonunda",
+   "partOfSpeech": "zaman ifadesi",
+   "sourceTerms": [
+    "at the weekend"
+   ],
+   "explanation": [
+    "İngiliz İngilizcesinde at the weekend; Amerikan İngilizcesinde on the weekend. Hafta içi: on weekdays."
+   ],
+   "collocations": [
+    {
+     "en": "every weekend",
+     "tr": "her hafta sonu"
+    },
+    {
+     "en": "on weekdays",
+     "tr": "hafta içi"
+    }
+   ],
+   "examples": [
+    {
+     "en": "What do you do at the weekend?",
+     "tr": "Hafta sonu ne yaparsın?"
+    },
+    {
+     "en": "She doesn't work at the weekend.",
+     "tr": "Hafta sonu çalışmaz."
+    },
+    {
+     "en": "At the weekend, my children sleep until ten.",
+     "tr": "Hafta sonu çocuklarım ona kadar uyur."
+    }
+   ],
+   "commonMistake": "in the weekend yerine at the weekend denir."
+  },
+  {
+   "id": "sleep-late",
+   "term": "sleep late · have a lie-in",
+   "meaning": "geç kalkmak",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "sleep late · have a lie-in"
+   ],
+   "explanation": [
+    "Hafta sonu geç saate kadar uyumak. have a lie-in İngiliz İngilizcesinde yaygındır."
+   ],
+   "collocations": [
+    {
+     "en": "sleep until ten",
+     "tr": "ona kadar uyumak"
+    },
+    {
+     "en": "get up late",
+     "tr": "geç kalkmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "On Sundays I sleep late.",
+     "tr": "Pazarları geç kalkarım."
+    },
+    {
+     "en": "On Saturday mornings I usually have a lie-in.",
+     "tr": "Cumartesi sabahları genellikle geç kalkarım."
+    },
+    {
+     "en": "My children sleep until ten at the weekend.",
+     "tr": "Çocuklarım hafta sonu ona kadar uyur."
+    }
+   ],
+   "commonMistake": "sleep lately yerine sleep late denir."
+  },
+  {
+   "id": "visit-relatives",
+   "term": "visit relatives",
+   "meaning": "akrabaları ziyaret etmek",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "visit relatives"
+   ],
+   "explanation": [
+    "relatives = akrabalar. visit + kişi / yer: visit my aunt, visit Anıtkabir."
+   ],
+   "collocations": [
+    {
+     "en": "visit my parents",
+     "tr": "annemle babamı ziyaret etmek"
+    },
+    {
+     "en": "visit a friend",
+     "tr": "bir arkadaşı ziyaret etmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We visit relatives on Sunday afternoons.",
+     "tr": "Pazar öğleden sonraları akrabaları ziyaret ederiz."
+    },
+    {
+     "en": "On Saturday evenings we sometimes visit my parents.",
+     "tr": "Cumartesi akşamları bazen annemle babamı ziyaret ederiz."
+    },
+    {
+     "en": "How often do you visit your relatives?",
+     "tr": "Akrabalarını ne sıklıkla ziyaret edersin?"
+    }
+   ],
+   "commonMistake": "visit to my aunt yerine visit my aunt denir."
+  },
+  {
+   "id": "go-picnic",
+   "term": "go on a picnic",
+   "meaning": "pikniğe gitmek",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "go on a picnic"
+   ],
+   "explanation": [
+    "Kalıp: go on a picnic (go to picnic ✗). Benzer: go for a drive (arabayla gezmeye gitmek), go fishing (balığa gitmek)."
+   ],
+   "collocations": [
+    {
+     "en": "have a picnic",
+     "tr": "piknik yapmak"
+    },
+    {
+     "en": "go for a drive",
+     "tr": "arabayla gezmeye gitmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "In spring we go on a picnic.",
+     "tr": "İlkbaharda pikniğe gideriz."
+    },
+    {
+     "en": "We go on a picnic once a month in summer.",
+     "tr": "Yazın ayda bir pikniğe gideriz."
+    },
+    {
+     "en": "We sometimes go for a drive to Cumalıkızık.",
+     "tr": "Bazen arabayla Cumalıkızık'a gideriz."
+    }
+   ],
+   "commonMistake": "go to picnic yerine go on a picnic denir."
+  },
+  {
+   "id": "clean-house",
+   "term": "clean the house · do the washing",
+   "meaning": "evi temizlemek · çamaşır yıkamak",
+   "partOfSpeech": "fiil grubu",
+   "sourceTerms": [
+    "clean the house · do the washing"
+   ],
+   "explanation": [
+    "Ev işleri: clean the house, do the washing (çamaşır), do the ironing (ütü), do the shopping (alışveriş), wash the dishes (bulaşık)."
+   ],
+   "collocations": [
+    {
+     "en": "do the ironing",
+     "tr": "ütü yapmak"
+    },
+    {
+     "en": "do the shopping",
+     "tr": "alışveriş yapmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I clean the house on Saturday mornings.",
+     "tr": "Cumartesi sabahları evi temizlerim."
+    },
+    {
+     "en": "On Saturday mornings, I do the washing.",
+     "tr": "Cumartesi sabahları çamaşır yıkarım."
+    },
+    {
+     "en": "My husband and I clean the house together.",
+     "tr": "Eşimle evi birlikte temizleriz."
+    }
+   ],
+   "commonMistake": "make the washing yerine do the washing denir."
+  }
+ ]
+}

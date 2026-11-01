@@ -1,0 +1,1596 @@
+{
+ "version": 1,
+ "block": 3,
+ "chapters": [
+  {
+   "screenId": "warm3",
+   "title": "Isınma: dünün kalıplarıyla yeni sorular",
+   "intro": [
+    "İkinci günün ısınmasında dünkü konuları (sıklık, genel gerçekler, zıt sıfatlar, hafta sonu) tekrar ediyoruz ama dünkü cümleleri değil, yeni soruları kullanıyoruz: What do you usually do on Friday evenings? How often do you take a taxi?",
+    "Son kart bugünün ilk konusuna köprü kurar: Which signs do you see on your way to the course? Dün ödev olarak not ettiğiniz tabela burada işe yarar."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "What do you usually do on Friday evenings?",
+     "tr": "Cuma akşamları genellikle ne yaparsın?",
+     "why": [
+      "usually do arasında; on Friday evenings gün → on."
+     ]
+    },
+    {
+     "en": "Tell me a fact about your hometown.",
+     "tr": "Memleketin hakkında bir gerçek söyle.",
+     "why": [
+      "Emir cümlesi; hometown = memleket."
+     ]
+    },
+    {
+     "en": "Which signs do you see on your way to the course?",
+     "tr": "Kursa gelirken hangi tabelaları görüyorsun?",
+     "why": [
+      "on your way to = … yolunda, giderken."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "w3-recall",
+     "title": "What do you usually do on Friday evenings? — I usually watch a series.",
+     "meaning": "Dünkü kalıpları yeni sorularla canlandırmak",
+     "explanation": [
+      "Sıklık sorusunu cevaplarken soruda kullanılan zarfı cevapta da kullanın: What do you usually do …? — I usually … How often do you …? sorusuna sayı ifadesiyle ya da zarfla cevap verin: Rarely. Taxis are expensive. Cevaba bir sebep eklemek konuşmayı uzatır.",
+      "Genel gerçek isteyen soruda (Tell me a fact about your hometown.) geniş zaman ve hava cümlesi kullanın: It rains a lot in Trabzon, so everything is green. so “bu yüzden” anlamında sonuç bildirir.",
+      "Bir aile üyesi hakkında sorulduğunda kısa cevabı sorunun yardımcı fiiliyle verin, sonra ayrıntı ekleyin: Does anybody in your family work at the weekend? — Yes, my son does. He works in a café on Saturdays."
+     ],
+     "formula": [
+      "What do you usually …? — I usually …",
+      "How often …? — Rarely. / Once a week.",
+      "Does anybody …? — Yes, my son does."
+     ],
+     "examples": [
+      {
+       "en": "What do you usually do on Friday evenings? — I usually watch a series with my family.",
+       "tr": "Cuma akşamları genellikle ne yaparsın? — Genellikle ailemle dizi izlerim.",
+       "why": [
+        "Soruda ve cevapta usually."
+       ]
+      },
+      {
+       "en": "How often do you take a taxi? — Rarely. Taxis are expensive.",
+       "tr": "Ne sıklıkla taksiye binersin? — Nadiren. Taksiler pahalı.",
+       "why": [
+        "Zarf + sebep."
+       ],
+       "chunks": [
+        {
+         "en": "take a taxi",
+         "tr": "taksiye binmek"
+        },
+        {
+         "en": "Rarely.",
+         "tr": "nadiren"
+        },
+        {
+         "en": "expensive",
+         "tr": "pahalı",
+         "note": "zıt sıfat"
+        }
+       ]
+      },
+      {
+       "en": "It rains a lot in Trabzon, so everything is green.",
+       "tr": "Trabzon'a çok yağmur yağar, bu yüzden her yer yeşil.",
+       "why": [
+        "Genel gerçek + so."
+       ]
+      },
+      {
+       "en": "Yes, my son does. He works in a café on Saturdays.",
+       "tr": "Evet, oğlum çalışıyor. Cumartesileri bir kafede çalışıyor.",
+       "why": [
+        "Kısa cevap + ayrıntı."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Ne sıklıkla otobüse binersin?” İngilizcesi?",
+       "answer": "How often do you take the bus?",
+       "why": "How often"
+      },
+      {
+       "question": "Does anybody in your family …? sorusuna kısa olumlu cevap (oğlum)?",
+       "answer": "Yes, my son does.",
+       "why": "does"
+      },
+      {
+       "question": "so ne anlama gelir?",
+       "answer": "bu yüzden",
+       "why": "sonuç"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "How often do you take a taxi? — Yes, I do.",
+       "right": "Rarely. / Once a month.",
+       "why": "How often sorusuna sıklıkla cevap verilir."
+      },
+      {
+       "wrong": "Yes, my son do.",
+       "right": "Yes, my son does.",
+       "why": "my son = he → does."
+      }
+     ]
+    },
+    {
+     "id": "w3-plan",
+     "title": "Today: signs → mustn't → don't have to → rules → advice",
+     "meaning": "İkinci günün yol haritası",
+     "explanation": [
+      "İkinci günün ilk bölümünde önce günlük tabelaları ve uyarıları tanıyoruz (KEEP OFF THE GRASS, BEWARE OF THE DOG). Sonra bu tabelaları cümleye çeviriyoruz: You mustn't walk on the grass. Ardından yasakla karıştırılan “gerek yok” kalıbını öğreniyoruz: You don't have to …",
+      "Bölümün sonunda bütün kalıpları ev, iş ve kurs kurallarında birlikte kullanıyoruz: have to (zorunlu), mustn't / can't (yasak), don't have to (gerek yok), can (serbest).",
+      "Moladan sonra ikinci bölümde sorunlar ve tavsiyeler (should, Why don't you …?), olasılık (can, might) ve tavsiye e-postası var. Tabela ve kural dili, tavsiye dilinin temelidir: You mustn't … (kural) ile You shouldn't … (tavsiye) arasındaki farkı bugün göreceğiz."
+     ],
+     "formula": [
+      "3. bölüm: signs · mustn't · don't have to · rules",
+      "4. bölüm: should · might · e-posta",
+      "kural (mustn't) ↔ tavsiye (shouldn't)"
+     ],
+     "examples": [
+      {
+       "en": "KEEP OFF THE GRASS → You mustn't walk on the grass.",
+       "tr": "Çimlere basmayınız → Çimlerde yürümemelisin.",
+       "why": [
+        "Tabela → cümle."
+       ]
+      },
+      {
+       "en": "You don't have to buy a book.",
+       "tr": "Kitap almak zorunda değilsin.",
+       "why": [
+        "Gerek yok."
+       ]
+      },
+      {
+       "en": "At home, we have to take off our shoes.",
+       "tr": "Evde ayakkabılarımızı çıkarmak zorundayız.",
+       "why": [
+        "Kural: have to."
+       ]
+      },
+      {
+       "en": "You shouldn't drink coffee at night.",
+       "tr": "Geceleri kahve içmemelisin.",
+       "why": [
+        "Tavsiye: shouldn't."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Tabelalardan sonra hangi kalıp geliyor?",
+       "answer": "mustn't / can't (yasak).",
+       "why": "plan"
+      },
+      {
+       "question": "“Gerek yok” kalıbı nedir?",
+       "answer": "don't have to",
+       "why": "plan"
+      },
+      {
+       "question": "mustn't ile shouldn't arasındaki fark?",
+       "answer": "mustn't kural / yasak; shouldn't tavsiye.",
+       "why": "plan"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "mustn't ile don't have to'yu aynı sanmak.",
+       "right": "mustn't = yasak; don't have to = gerek yok.",
+       "why": "Bugünün en önemli farkı."
+      },
+      {
+       "wrong": "Tabelayı kelime kelime Türkçeye çevirmek.",
+       "right": "Tabela kalıbını tanıyıp anlamını söylemek.",
+       "why": "Tabela dili kısadır."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "signs",
+   "title": "Tabelalar ve uyarılar: tabela dilini anlamak",
+   "intro": [
+    "MEB kazanımı: her gün karşılaşılan tabela ve uyarı metinlerini anlar (Çimlere basmayınız, Dikkat köpek var, Şoförle konuşmayınız, Yaşlılara yer veriniz, Cep telefonunuzu kapatınız, Yüksek sesle konuşmayınız, Fotoğraf çekmeyiniz). Tabelalar kısa yazılır; özne ve çoğu zaman artikel yoktur.",
+    "Birkaç kalıbı tanıyınca neredeyse her tabelayı anlarsınız: emir (KEEP OFF …, TURN OFF …), olumsuz emir (DO NOT …), yasak (NO + isim / -ing), uyarı (BEWARE OF …, CAUTION) ve bilgi (OUT OF ORDER, STAFF ONLY, PUSH / PULL)."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "KEEP OFF THE GRASS",
+     "tr": "Çimlere basmayınız.",
+     "why": [
+      "keep off = uzak durmak; tabelada özne yok, fiil başta."
+     ]
+    },
+    {
+     "en": "PLEASE GIVE YOUR SEAT TO OLDER PEOPLE",
+     "tr": "Yaşlılara yer veriniz.",
+     "why": [
+      "give your seat to = yerini … -e vermek; older people = yaşlılar."
+     ]
+    },
+    {
+     "en": "A young man stands up and gives his seat to an old woman.",
+     "tr": "Genç bir adam ayağa kalkıp yerini yaşlı bir kadına veriyor.",
+     "why": [
+      "stands up, gives (-s); young ↔ old zıt sıfat."
+     ]
+    },
+    {
+     "en": "In the waiting room, everybody turns off their phones.",
+     "tr": "Bekleme odasında herkes telefonunu kapatır.",
+     "why": [
+      "everybody tekil → turns; their phones."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "sg-patterns",
+     "title": "KEEP OFF THE GRASS · DO NOT TALK TO THE DRIVER · NO PHOTOGRAPHY",
+     "meaning": "Tabela kalıplarını tanımak",
+     "explanation": [
+      "Emir cümlesi fiille başlar ve öznesi yoktur: KEEP OFF THE GRASS (çimlerden uzak dur, çimlere basmayınız; keep off = uzak durmak), TURN OFF YOUR MOBILE PHONE (telefonunuzu kapatınız), MIND THE STEP (basamağa dikkat), MIND THE GAP (boşluğa dikkat; metroda). Kibarlık için PLEASE eklenir: PLEASE GIVE YOUR SEAT TO OLDER PEOPLE.",
+      "Olumsuz emir DO NOT / DON'T + fiil ile kurulur: DO NOT TALK TO THE DRIVER, DO NOT TOUCH. Resmî tabelalarda uzun biçim DO NOT daha yaygındır. Yasak NO + isim ya da NO + fiil-ing ile söylenir: NO PHOTOGRAPHY, NO PARKING, NO SMOKING, NO ENTRY (giriş yok), NO BALL GAMES.",
+      "Uyarı tabelaları: BEWARE OF THE DOG (dikkat, köpek var; beware of = … -e dikkat et), CAUTION: WET FLOOR (dikkat, ıslak zemin), DANGER (tehlike). Bilgi tabelaları: OUT OF ORDER (arızalı, çalışmıyor), STAFF ONLY (sadece personel), PUSH / PULL (itiniz / çekiniz), OPEN / CLOSED, EXIT (çıkış), QUIET, PLEASE (lütfen sessiz olun)."
+     ],
+     "formula": [
+      "emir: KEEP OFF … · TURN OFF … · MIND … · PLEASE …",
+      "olumsuz: DO NOT + fiil · yasak: NO + isim / -ing",
+      "uyarı: BEWARE OF … · CAUTION · bilgi: OUT OF ORDER · STAFF ONLY"
+     ],
+     "examples": [
+      {
+       "en": "PLEASE TURN OFF YOUR MOBILE PHONE",
+       "tr": "Cep telefonunuzu kapatınız.",
+       "why": [
+        "Kibar emir: please + fiil."
+       ],
+       "chunks": [
+        {
+         "en": "turn off",
+         "tr": "kapatmak"
+        },
+        {
+         "en": "your mobile phone",
+         "tr": "cep telefonunuz"
+        }
+       ]
+      },
+      {
+       "en": "BEWARE OF THE DOG",
+       "tr": "Dikkat, köpek var!",
+       "why": [
+        "beware of + isim."
+       ]
+      },
+      {
+       "en": "NO PHOTOGRAPHY",
+       "tr": "Fotoğraf çekmeyiniz.",
+       "why": [
+        "no + isim."
+       ]
+      },
+      {
+       "en": "OUT OF ORDER",
+       "tr": "Arızalı.",
+       "why": [
+        "Bilgi tabelası."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "KEEP OFF THE GRASS ne demek?",
+       "answer": "Çimlere basmayınız.",
+       "why": "keep off"
+      },
+      {
+       "question": "PULL ne demek?",
+       "answer": "Çekiniz (kapıyı kendinize çekin).",
+       "why": "push ↔ pull"
+      },
+      {
+       "question": "“Giriş yok” tabelası?",
+       "answer": "NO ENTRY",
+       "why": "no + isim"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "NO PHOTOGRAPHY = Burada fotoğraf yok.",
+       "right": "Fotoğraf çekmek yasak.",
+       "why": "NO + isim yasak bildirir."
+      },
+      {
+       "wrong": "OUT OF ORDER = Sıra dışı.",
+       "right": "Arızalı, çalışmıyor.",
+       "why": "Kalıplaşmış ifade."
+      }
+     ]
+    },
+    {
+     "id": "sg-explain",
+     "title": "You see this sign on buses. It means you can't talk to the driver.",
+     "meaning": "Tabelanın yerini ve anlamını açıklamak",
+     "explanation": [
+      "Bir tabelayı birine anlatırken üç bilgi verin: ne yazıyor (It says “…”), nerede görülür (You see it in a park / on a bus / in a hospital / in a museum) ve ne anlama gelir (It means you can't … / It means please …). Yer edatlarına dikkat: on a bus, on the metro, in a park, in a hospital, at the door.",
+      "Tabela → cümle dönüşümü bir sonraki ekranın konusudur ama burada da başlar: NO PARKING → You can't park here. KEEP OFF THE GRASS → You mustn't walk on the grass. PLEASE GIVE YOUR SEAT TO OLDER PEOPLE → You should give your seat to older people.",
+      "Tabela avı etkinliğinde Türkçe tabelaları da İngilizceye çevirmeye çalışıyoruz. Kelime kelime değil, tabela kalıbıyla çevirin: “Kapıyı açık bırakmayınız” → PLEASE CLOSE THE DOOR. “Sadece personel” → STAFF ONLY. “Asansör arızalı” → LIFT OUT OF ORDER."
+     ],
+     "formula": [
+      "It says “…”.",
+      "You see it on a bus / in a park / in a hospital.",
+      "It means you can't … / please …"
+     ],
+     "examples": [
+      {
+       "en": "You see this sign on city buses.",
+       "tr": "Bu tabelayı şehir otobüslerinde görürsün.",
+       "why": [
+        "on + bus."
+       ]
+      },
+      {
+       "en": "There's a “Keep off the grass” sign in the park, so we sit on the benches.",
+       "tr": "Parkta “Çimlere basmayınız” tabelası var, o yüzden banklarda oturuyoruz.",
+       "why": [
+        "Tabela + sonuç."
+       ],
+       "chunks": [
+        {
+         "en": "There's a … sign",
+         "tr": "bir … tabelası var"
+        },
+        {
+         "en": "so",
+         "tr": "bu yüzden"
+        },
+        {
+         "en": "on the benches",
+         "tr": "banklarda"
+        }
+       ]
+      },
+      {
+       "en": "The lift is out of order, so we take the stairs.",
+       "tr": "Asansör arızalı, o yüzden merdivenden çıkıyoruz.",
+       "why": [
+        "out of order kullanımı."
+       ]
+      },
+      {
+       "en": "“Kapıyı açık bırakmayınız” → PLEASE CLOSE THE DOOR.",
+       "tr": "Türkçe tabelayı tabela kalıbıyla çevirmek.",
+       "why": [
+        "Kelime kelime değil."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bu tabelayı müzelerde görürsün.” İngilizcesi?",
+       "answer": "You see this sign in museums.",
+       "why": "in"
+      },
+      {
+       "question": "NO PARKING'i cümleyle açıklayın.",
+       "answer": "You can't / mustn't park here.",
+       "why": "dönüşüm"
+      },
+      {
+       "question": "“Asansör arızalı” tabelası?",
+       "answer": "LIFT OUT OF ORDER",
+       "why": "bilgi"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "You see it in the bus.",
+       "right": "You see it on the bus.",
+       "why": "Toplu taşıma → on."
+      },
+      {
+       "wrong": "It means you mustn't to park.",
+       "right": "It means you mustn't park.",
+       "why": "mustn't + yalın fiil."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "mustnt",
+   "title": "Yasak: You mustn't park here. · You can't park here.",
+   "intro": [
+    "MEB kazanımı: yasak bildiren cümleler kurar (Buraya park etmek yasaktır. Buraya park etmemelisin.). Bir tabelayı söze dökerken üç kalıp kullanırız: mustn't (kesin yasak, kural), can't (izin yok, konuşma dili), is / are not allowed (resmî).",
+    "shouldn't ise yasak değil tavsiyedir: “yapmasan iyi olur”. Kazanımdaki “park etmemelisin” cümlesi kural varsa mustn't, öğütse shouldn't ile söylenir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "You mustn't park in front of the hospital gate.",
+     "tr": "Hastane kapısının önüne park etmemelisin.",
+     "why": [
+      "mustn't + park (yalın); in front of = önünde."
+     ]
+    },
+    {
+     "en": "Dogs are not allowed on the beach in summer.",
+     "tr": "Yazın plaja köpek girmesine izin verilmez.",
+     "why": [
+      "Dogs çoğul → are not allowed; in summer mevsim."
+     ]
+    },
+    {
+     "en": "Excuse me, you can't use your phone here. It's not allowed.",
+     "tr": "Affedersiniz, burada telefonunuzu kullanamazsınız. İzin verilmiyor.",
+     "why": [
+      "Kibar uyarı: Excuse me + can't + not allowed."
+     ]
+    },
+    {
+     "en": "Oh, sorry! I didn't see the sign.",
+     "tr": "Ah, özür dilerim! Tabelayı görmedim.",
+     "why": [
+      "Kalıp özür cümlesi; didn't see geçmiş zaman (kalıp olarak)."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "mn-forms",
+     "title": "You mustn't park here. · Smoking is not allowed.",
+     "meaning": "Yasak bildiren üç kalıp",
+     "explanation": [
+      "mustn't (must not) + yalın fiil kesin bir yasağı ya da kuralı söyler: You mustn't park here. Drivers mustn't use their phones. Her kişiyle aynıdır (he mustn't, they mustn't); -s almaz ve ardından to gelmez (mustn't to ✗). Okunuşta ilk t düşer: /ˈmʌsnt/.",
+      "can't + yalın fiil konuşmada en yaygın yasak kalıbıdır: You can't smoke in the hospital. You can't take photos in this museum. Soru biçimi izin istemektir: Can I park here? — No, you can't. Yes, you can.",
+      "not allowed resmî duyurularda kullanılır: Smoking is not allowed here. Dogs are not allowed on the beach. Burada özne yasaklanan şeydir; tekilse is, çoğulsa are kullanılır. Bir fiil yasaklanıyorsa -ing biçimi özne olur: Parking is not allowed. Eating is not allowed in the library."
+     ],
+     "formula": [
+      "You mustn't + yalın fiil (kural)",
+      "You can't + yalın fiil (izin yok)",
+      "-ing / isim + is / are not allowed (resmî)"
+     ],
+     "examples": [
+      {
+       "en": "You mustn't park in front of the hospital gate.",
+       "tr": "Hastane kapısının önüne park etmemelisin.",
+       "why": [
+        "Kesin kural."
+       ],
+       "chunks": [
+        {
+         "en": "mustn't park",
+         "tr": "park etmemelisin",
+         "note": "yalın fiil"
+        },
+        {
+         "en": "in front of",
+         "tr": "önüne / önünde"
+        }
+       ]
+      },
+      {
+       "en": "You can't take photos in this museum.",
+       "tr": "Bu müzede fotoğraf çekemezsin.",
+       "why": [
+        "İzin yok."
+       ]
+      },
+      {
+       "en": "Dogs are not allowed on the beach in summer.",
+       "tr": "Yazın plaja köpek girmesine izin verilmez.",
+       "why": [
+        "Çoğul → are."
+       ]
+      },
+      {
+       "en": "Can I sit on the grass? — No, you can't. Keep off the grass!",
+       "tr": "Çimlere oturabilir miyim? — Hayır. Çimlere basmayınız!",
+       "why": [
+        "İzin sorusu ve cevap."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "NO SMOKING → You ___ smoke here.",
+       "answer": "mustn't / can't",
+       "why": "yasak"
+      },
+      {
+       "question": "“Burada yemek yemeye izin verilmez.” İngilizcesi?",
+       "answer": "Eating is not allowed here.",
+       "why": "-ing + is"
+      },
+      {
+       "question": "He ___ park here. (mustn't / mustn'ts)",
+       "answer": "mustn't",
+       "why": "-s yok"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "You mustn't to smoke here.",
+       "right": "You mustn't smoke here.",
+       "why": "to yok."
+      },
+      {
+       "wrong": "Dogs not allowed.",
+       "right": "Dogs are not allowed.",
+       "why": "be fiili gerekli."
+      }
+     ]
+    },
+    {
+     "id": "mn-shouldnt",
+     "title": "You mustn't park here (kural) ↔ You shouldn't park here (tavsiye)",
+     "meaning": "Yasak ile tavsiyeyi ayırt etmek ve tabelayı cümleye çevirmek",
+     "explanation": [
+      "shouldn't + yalın fiil bir yasağı değil, bir tavsiyeyi söyler: “yapmasan iyi olur”. You shouldn't park here; the street is very narrow. (Buraya park etmesen iyi olur; sokak çok dar.) Burada kanun yok, sadece akıllıca bir öneri var. You shouldn't walk alone in the forest at night.",
+      "Karar vermek için sorun: Bir kural, kanun ya da tabela var mı? Varsa mustn't / can't. Yoksa ve sadece öğüt veriyorsanız shouldn't. Örnek: Sınavda telefon kullanmak kurala aykırı → mustn't. Çok kahve içmek sağlığa kötü → shouldn't.",
+      "Tabela → cümle dönüşümleri: NO PARKING → You can't / mustn't park here. NO PHOTOGRAPHY → You mustn't take photos. KEEP OFF THE GRASS → You mustn't walk on the grass. DO NOT TALK TO THE DRIVER → Passengers mustn't talk to the driver. NO DOGS → Dogs are not allowed."
+     ],
+     "formula": [
+      "kural / tabela / kanun → mustn't, can't",
+      "öğüt → shouldn't",
+      "NO X → You mustn't / can't X. · NO DOGS → Dogs are not allowed."
+     ],
+     "examples": [
+      {
+       "en": "You shouldn't walk alone in the forest at night.",
+       "tr": "Gece ormanda yalnız yürümesen iyi olur.",
+       "why": [
+        "Tavsiye."
+       ]
+      },
+      {
+       "en": "Students mustn't use their phones in the exam.",
+       "tr": "Öğrenciler sınavda telefon kullanmamalı.",
+       "why": [
+        "Kural."
+       ],
+       "chunks": [
+        {
+         "en": "Students",
+         "tr": "öğrenciler"
+        },
+        {
+         "en": "mustn't use",
+         "tr": "kullanmamalı",
+         "note": "kural"
+        }
+       ]
+      },
+      {
+       "en": "Passengers mustn't talk to the driver.",
+       "tr": "Yolcular şoförle konuşmamalı.",
+       "why": [
+        "Tabela → cümle."
+       ]
+      },
+      {
+       "en": "You shouldn't drink so much coffee.",
+       "tr": "Bu kadar çok kahve içmemelisin.",
+       "why": [
+        "Öğüt → shouldn't."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Hastanede sigara içmek kanunen yasak: mustn't mı shouldn't mı?",
+       "answer": "mustn't",
+       "why": "kanun"
+      },
+      {
+       "question": "“Çok tatlı yememelisin” (öğüt): ?",
+       "answer": "You shouldn't eat so many sweets.",
+       "why": "öğüt"
+      },
+      {
+       "question": "NO PHOTOGRAPHY → ?",
+       "answer": "You mustn't take photos.",
+       "why": "dönüşüm"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "You shouldn't smoke in the hospital. (kanun için)",
+       "right": "You mustn't smoke in the hospital.",
+       "why": "Kanun → mustn't."
+      },
+      {
+       "wrong": "You mustn't drink so much coffee. (öğüt için)",
+       "right": "You shouldn't drink so much coffee.",
+       "why": "Öğüt → shouldn't."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "mustn't / shouldn't",
+       "explanation": [
+        "mustn't bir kuralı, yasağı söyler; shouldn't ise sadece bir öğüttür."
+       ],
+       "example": "You mustn't park here. (tabela var) · You shouldn't park here. (sokak dar)",
+       "tr": [
+        "Buraya park etmemelisin (yasak). · Buraya park etmesen iyi olur (öğüt)."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "dont-have-to",
+   "title": "Gerek yok: You don't have to get up early on Sundays.",
+   "intro": [
+    "MEB kazanımı: zorunlu olmayan halleri bildiren cümleler kurar (Pazar günleri erken kalkmak zorunda değilsin. Yazmak zorunda değilsiniz, size fotokopi vereceğim.). Bu ekranın en önemli dersi şu farktır: mustn't = yasak, yapma; don't have to = gerek yok, istersen yap.",
+    "have to / has to bir zorunluluğu söyler (zorunda olmak). Olumsuzu don't / doesn't have to zorunluluk olmadığını söyler. Türkçede “-mamalısın” ile “-mak zorunda değilsin” arasındaki fark burada İngilizceye taşınır."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "You don't have to get up early on Sundays.",
+     "tr": "Pazar günleri erken kalkmak zorunda değilsin.",
+     "why": [
+      "Kazanım cümlesi; don't have to + yalın fiil; on Sundays."
+     ]
+    },
+    {
+     "en": "No, you don't have to buy a book. I give photocopies every week.",
+     "tr": "Hayır, kitap almanıza gerek yok. Her hafta fotokopi veriyorum.",
+     "why": [
+      "Kısa cevap + don't have to; every week edatsız."
+     ]
+    },
+    {
+     "en": "But you have to sign the list every lesson.",
+     "tr": "Ama her derste listeyi imzalamak zorundasınız.",
+     "why": [
+      "have to = zorunluluk; but zıtlık."
+     ]
+    },
+    {
+     "en": "You can use the dictionary on it, but you mustn't answer calls in the classroom.",
+     "tr": "Sözlük için kullanabilirsiniz ama sınıfta telefona cevap vermemelisiniz.",
+     "why": [
+      "can (izin) ↔ mustn't (yasak)."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "dh-have-to",
+     "title": "Nurses have to work at night. · You don't have to pay.",
+     "meaning": "have to ve don't have to biçimleri",
+     "explanation": [
+      "have to + yalın fiil bir zorunluluğu söyler: Nurses have to work at night. Drivers have to stop at a red light. he / she / it ile has to olur: My husband has to get up at five because he's a baker. Okunuşu: have to /ˈhæf tə/, has to /ˈhæs tə/.",
+      "don't have to / doesn't have to + yalın fiil zorunluluk olmadığını söyler: You don't have to get up early on Sundays. You don't have to write; I'll give you a photocopy. Children under six don't have to pay on the bus. She doesn't have to cook tonight. Burada yasak yok: istersen yaparsın.",
+      "Soru: Do / Does + özne + have to + yalın fiil? Do I have to bring my passport? — Yes, you do. / No, you don't. Does he have to work on Saturdays? Benzer anlam: You don't need to pay. (Ödemene gerek yok.) Must I …? biçimi eski ve resmîdir; günlük konuşmada Do I have to …? tercih edilir."
+     ],
+     "formula": [
+      "have to / has to + yalın fiil = zorunda",
+      "don't / doesn't have to = zorunda değil",
+      "Do I have to …? — Yes, you do. / No, you don't."
+     ],
+     "examples": [
+      {
+       "en": "You don't have to write. I'll give you a photocopy.",
+       "tr": "Yazmak zorunda değilsiniz, size fotokopi vereceğim.",
+       "why": [
+        "Kazanım cümlesi."
+       ],
+       "chunks": [
+        {
+         "en": "don't have to write",
+         "tr": "yazmak zorunda değilsiniz"
+        },
+        {
+         "en": "I'll give",
+         "tr": "vereceğim",
+         "note": "will (gelecek)"
+        }
+       ]
+      },
+      {
+       "en": "My husband has to get up at five because he's a baker.",
+       "tr": "Eşim fırıncı olduğu için beşte kalkmak zorunda.",
+       "why": [
+        "he → has to."
+       ]
+      },
+      {
+       "en": "Children under six don't have to pay on the bus.",
+       "tr": "Altı yaşından küçük çocuklar otobüste ödemek zorunda değil.",
+       "why": [
+        "under six = altı yaş altı."
+       ]
+      },
+      {
+       "en": "Do I have to bring my passport? — Yes, you do.",
+       "tr": "Pasaportumu getirmem gerekiyor mu? — Evet.",
+       "why": [
+        "Soru + kısa cevap."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "She ___ work on Saturday. (zorunda)",
+       "answer": "has to",
+       "why": "she"
+      },
+      {
+       "question": "“Ödemek zorunda değilsin.” İngilizcesi?",
+       "answer": "You don't have to pay.",
+       "why": "gerek yok"
+      },
+      {
+       "question": "“Bilet almam gerekiyor mu?” İngilizcesi?",
+       "answer": "Do I have to buy a ticket?",
+       "why": "soru"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "She have to work.",
+       "right": "She has to work.",
+       "why": "she → has to."
+      },
+      {
+       "wrong": "Have I to buy a ticket?",
+       "right": "Do I have to buy a ticket?",
+       "why": "Soru Do ile kurulur."
+      }
+     ]
+    },
+    {
+     "id": "dh-contrast",
+     "title": "You mustn't tell anybody (yasak) ↔ You don't have to tell anybody (gerek yok)",
+     "meaning": "mustn't ile don't have to farkını kesinleştirmek",
+     "explanation": [
+      "Bu iki kalıp Türkçeye çevirince ikisi de olumsuz göründüğü için çok karışır. You mustn't tell anybody. = Kimseye söyleme! (yasak, sır) You don't have to tell anybody. = Kimseye söylemene gerek yok. (istersen söyle, istersen söyleme)",
+      "Kontrol sorusu: “İstersen yapabilir misin?” Cevap evetse don't have to; cevap “hayır, kesinlikle yapma” ise mustn't. Ücretsiz müze: Bilet alabilir misin? Almana gerek yok ama yasak da değil → don't have to. Camide ayakkabıyla girmek: İstersen girebilir misin? Hayır → mustn't.",
+      "Sıralama alıştırmasında durumları iki kutuya ayırıyoruz: hastanede sigara, sınavda arkadaşının kâğıdına bakmak, kırmızı ışıkta geçmek, müzede tablolara dokunmak → mustn't. Pazar günü erken kalkmak, ücretsiz müzede bilet almak, fotokopi varken not yazmak, düğüne kravat takmak → don't have to."
+     ],
+     "formula": [
+      "mustn't = yasak (yapma!)",
+      "don't have to = gerek yok (istersen yap)",
+      "test: “İstersen yapabilir misin?” evet → don't have to"
+     ],
+     "examples": [
+      {
+       "en": "You mustn't pay with cash here. Card only.",
+       "tr": "Burada nakit ödeyemezsin. Sadece kart.",
+       "why": [
+        "Yasak."
+       ]
+      },
+      {
+       "en": "You don't have to pay. The museum is free today.",
+       "tr": "Ödemene gerek yok. Müze bugün ücretsiz.",
+       "why": [
+        "Gerek yok."
+       ]
+      },
+      {
+       "en": "You mustn't swim here, but you don't have to leave the beach.",
+       "tr": "Burada yüzmemelisin ama plajdan ayrılmak zorunda değilsin.",
+       "why": [
+        "İkisi bir cümlede."
+       ],
+       "chunks": [
+        {
+         "en": "mustn't swim",
+         "tr": "yüzmemelisin",
+         "note": "yasak"
+        },
+        {
+         "en": "don't have to leave",
+         "tr": "ayrılmak zorunda değilsin",
+         "note": "serbest"
+        }
+       ]
+      },
+      {
+       "en": "This is a secret. You mustn't tell anybody!",
+       "tr": "Bu bir sır. Kimseye söylememelisin!",
+       "why": [
+        "Yasak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Ücretsiz müze: You ___ buy a ticket.",
+       "answer": "don't have to",
+       "why": "gerek yok"
+      },
+      {
+       "question": "Müzede tablolar: You ___ touch the paintings.",
+       "answer": "mustn't",
+       "why": "yasak"
+      },
+      {
+       "question": "“Gelmek zorunda değilsin (istersen gel).” İngilizcesi?",
+       "answer": "You don't have to come.",
+       "why": "gerek yok"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "You mustn't come. (istersen gel anlamında)",
+       "right": "You don't have to come.",
+       "why": "mustn't = gelme!"
+      },
+      {
+       "wrong": "You don't have to smoke in the hospital. (yasak için)",
+       "right": "You mustn't smoke in the hospital.",
+       "why": "Yasak → mustn't."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "mustn't / don't have to",
+       "explanation": [
+        "mustn't bir şeyi yasaklar; don't have to ise zorunluluğu kaldırır ama yasaklamaz."
+       ],
+       "example": "You mustn't wear shoes in the mosque. · You don't have to wear a tie at the wedding.",
+       "tr": [
+        "Camiye ayakkabıyla girmemelisin. · Düğünde kravat takmak zorunda değilsin."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "rules",
+   "title": "Kurallar: evde, işte, kursta",
+   "intro": [
+    "Bu ekranda bütün kalıpları bir arada kullanıyoruz: have to (zorunlu), mustn't / can't (yasak), don't have to (gerek yok), can (izin, serbest). İki örnek kural listesi okuyoruz: bir ailenin ev kuralları ve bir gıda fabrikasının iş kuralları.",
+    "Sonra kendi evimizin, iş yerimizin ya da okulumuzun ve kursumuzun kurallarını yazıyoruz. Son görev eğlenceli: hayalimizdeki evin iki komik kuralı."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "We have to take off our shoes at the door.",
+     "tr": "Kapıda ayakkabılarımızı çıkarmak zorundayız.",
+     "why": [
+      "have to + take off; our shoes = ayakkabılarımız."
+     ]
+    },
+    {
+     "en": "Workers have to wear a white hat.",
+     "tr": "İşçiler beyaz bir şapka takmak zorunda.",
+     "why": [
+      "Çoğul özne → have to; wear = giymek, takmak."
+     ]
+    },
+    {
+     "en": "You mustn't eat or drink near the machines.",
+     "tr": "Makinelerin yanında yiyip içmemelisin.",
+     "why": [
+      "mustn't iki fiile (eat, drink) birden etki eder."
+     ]
+    },
+    {
+     "en": "Everybody can choose the film on Friday nights.",
+     "tr": "Cuma geceleri herkes filmi seçebilir.",
+     "why": [
+      "can = izin; everybody tekil."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "rl-three-questions",
+     "title": "At home, we have to take off our shoes.",
+     "meaning": "Bir yerin kurallarını düzenli anlatmak",
+     "explanation": [
+      "Bir yerin kurallarını üç soruyla düzenleyin. Ne zorunlu? → have to / has to: Workers have to wear a white hat. Ne yasak? → mustn't / can't: You mustn't eat or drink near the machines. Ne serbest ya da gereksiz? → don't have to / can: Office staff don't have to wear a uniform. You can have lunch in the canteen at 12:30.",
+      "Kendi kurallarınızdan söz ederken öznede we ya da I kullanın: At home, we have to take off our shoes at the door. I don't have to cook on Fridays. Başkası için has to / doesn't have to: My son has to do his homework before dinner.",
+      "Sıklık zarflarıyla kurallar daha doğal olur: We always have to sign the list. The children never eat in the living room. Everybody can choose the film on Friday nights."
+     ],
+     "formula": [
+      "zorunlu: have to / has to",
+      "yasak: mustn't / can't",
+      "serbest: don't have to / can"
+     ],
+     "examples": [
+      {
+       "en": "At home, we have to take off our shoes at the door.",
+       "tr": "Evde kapıda ayakkabılarımızı çıkarmak zorundayız.",
+       "why": [
+        "Ev kuralı."
+       ],
+       "chunks": [
+        {
+         "en": "take off",
+         "tr": "çıkarmak"
+        },
+        {
+         "en": "at the door",
+         "tr": "kapıda"
+        }
+       ]
+      },
+      {
+       "en": "The children mustn't play on their phones at dinner.",
+       "tr": "Çocuklar akşam yemeğinde telefonla oynamamalı.",
+       "why": [
+        "Yasak."
+       ]
+      },
+      {
+       "en": "Office staff don't have to wear a uniform.",
+       "tr": "Ofis çalışanları üniforma giymek zorunda değil.",
+       "why": [
+        "Gerek yok."
+       ]
+      },
+      {
+       "en": "You can have lunch in the canteen at 12:30.",
+       "tr": "12.30'da yemekhanede öğle yemeği yiyebilirsin.",
+       "why": [
+        "İzin: can."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Fabrikada işçiler beyaz şapka takmak zorunda: ?",
+       "answer": "Workers have to wear a white hat.",
+       "why": "have to"
+      },
+      {
+       "question": "“Pazarları yatak toplamak zorunda değiliz.” İngilizcesi?",
+       "answer": "We don't have to make the beds on Sundays.",
+       "why": "don't have to"
+      },
+      {
+       "question": "İzin bildiren kelime?",
+       "answer": "can",
+       "why": "serbest"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "We must to take off our shoes.",
+       "right": "We have to take off our shoes. / We must take off our shoes.",
+       "why": "must'tan sonra to yok."
+      },
+      {
+       "wrong": "My son have to do his homework.",
+       "right": "My son has to do his homework.",
+       "why": "he → has to."
+      }
+     ]
+    },
+    {
+     "id": "rl-write",
+     "title": "Write the rules: my home, my work, our course",
+     "meaning": "Kural listesi yazmak",
+     "explanation": [
+      "Yazma görevinde her alan için en az üç kural yazın ve üç kalıbı karıştırın: At home, we have to … The children mustn't … We don't have to … Örnek: At home, we have to take off our shoes. The children mustn't eat sweets before dinner. We don't have to get up early on Sundays.",
+      "İş yeri için: At work, I have to wear a uniform. We can't use our phones on the shop floor. I can have a break at eleven. Kurs için: We have to sign the list every lesson. We mustn't answer calls in class. We don't have to buy a book.",
+      "Hayalinizdeki evin komik kuralları için can ve don't have to çok işe yarar: In my dream house, you can eat dessert before dinner. You don't have to wash the dishes — a robot does it! Komik kurallar dil bilgisini eğlenceli biçimde pekiştirir."
+     ],
+     "formula": [
+      "evim: we have to … · mustn't … · don't have to …",
+      "işim: I have to … · We can't … · I can …",
+      "hayal evim: you can … · you don't have to …"
+     ],
+     "examples": [
+      {
+       "en": "At work, I have to wear a uniform.",
+       "tr": "İşte üniforma giymek zorundayım.",
+       "why": [
+        "Zorunluluk."
+       ]
+      },
+      {
+       "en": "We mustn't answer calls in class.",
+       "tr": "Sınıfta telefona cevap vermemeliyiz.",
+       "why": [
+        "Kurs kuralı."
+       ]
+      },
+      {
+       "en": "In my dream house, you can eat dessert before dinner.",
+       "tr": "Hayalimdeki evde akşam yemeğinden önce tatlı yiyebilirsin.",
+       "why": [
+        "Komik kural."
+       ],
+       "chunks": [
+        {
+         "en": "dream house",
+         "tr": "hayal ev"
+        },
+        {
+         "en": "can eat",
+         "tr": "yiyebilirsin",
+         "note": "izin"
+        },
+        {
+         "en": "before dinner",
+         "tr": "yemekten önce"
+        }
+       ]
+      },
+      {
+       "en": "You don't have to wash the dishes — a robot does it!",
+       "tr": "Bulaşık yıkamak zorunda değilsin, bir robot yıkıyor!",
+       "why": [
+        "Gerek yok."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Kurs için bir zorunlu kural yazın.",
+       "answer": "We have to sign the list every lesson.",
+       "why": "have to"
+      },
+      {
+       "question": "İş yeri için bir yasak yazın.",
+       "answer": "We can't use our phones on the shop floor.",
+       "why": "can't"
+      },
+      {
+       "question": "Hayal evi için bir serbest kural yazın.",
+       "answer": "You can … / You don't have to …",
+       "why": "can"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "We don't have to answer calls in class. (yasak için)",
+       "right": "We mustn't answer calls in class.",
+       "why": "Yasak → mustn't."
+      },
+      {
+       "wrong": "You can to eat dessert.",
+       "right": "You can eat dessert.",
+       "why": "can + yalın fiil."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "keep-off-grass",
+   "term": "KEEP OFF THE GRASS",
+   "meaning": "çimlere basmayınız",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "KEEP OFF THE GRASS"
+   ],
+   "explanation": [
+    "keep off = uzak durmak. Parklarda ve bahçelerde görülür. Cümleyle: You mustn't walk on the grass."
+   ],
+   "collocations": [
+    {
+     "en": "keep off",
+     "tr": "uzak durmak"
+    },
+    {
+     "en": "walk on the grass",
+     "tr": "çimlerde yürümek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "There's a sign in the park: Keep off the grass.",
+     "tr": "Parkta bir tabela var: Çimlere basmayınız."
+    },
+    {
+     "en": "You mustn't walk on the grass.",
+     "tr": "Çimlerde yürümemelisin.",
+     "note": "cümle"
+    },
+    {
+     "en": "Can I sit on the grass? — No, keep off the grass!",
+     "tr": "Çimlere oturabilir miyim? — Hayır, çimlere basmayınız!"
+    }
+   ],
+   "commonMistake": "KEEP OF THE GRASS yazımı yanlıştır; off iki f ile."
+  },
+  {
+   "id": "beware-dog",
+   "term": "BEWARE OF THE DOG",
+   "meaning": "dikkat, köpek var",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "BEWARE OF THE DOG"
+   ],
+   "explanation": [
+    "beware of + isim = … -e dikkat et. Evlerin bahçe kapılarında görülür."
+   ],
+   "collocations": [
+    {
+     "en": "beware of",
+     "tr": "… -e dikkat"
+    },
+    {
+     "en": "a dangerous dog",
+     "tr": "tehlikeli bir köpek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Don't open that gate. Beware of the dog!",
+     "tr": "O kapıyı açma. Dikkat, köpek var!"
+    },
+    {
+     "en": "There's a “Beware of the dog” sign on the gate.",
+     "tr": "Kapıda “Dikkat köpek var” tabelası var."
+    },
+    {
+     "en": "It means there's a dangerous dog here.",
+     "tr": "Burada tehlikeli bir köpek var demek."
+    }
+   ],
+   "commonMistake": "BE CAREFUL THE DOG yerine BEWARE OF THE DOG ya da BE CAREFUL OF THE DOG denir."
+  },
+  {
+   "id": "dont-talk-driver",
+   "term": "DO NOT TALK TO THE DRIVER",
+   "meaning": "şoförle konuşmayınız",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "DO NOT TALK TO THE DRIVER"
+   ],
+   "explanation": [
+    "Otobüslerde görülür. Olumsuz emir: DO NOT + fiil. talk to + kişi = biriyle konuşmak."
+   ],
+   "collocations": [
+    {
+     "en": "talk to",
+     "tr": "… ile konuşmak"
+    },
+    {
+     "en": "passengers",
+     "tr": "yolcular"
+    }
+   ],
+   "examples": [
+    {
+     "en": "You see this sign on city buses.",
+     "tr": "Bu tabelayı şehir otobüslerinde görürsün."
+    },
+    {
+     "en": "Passengers mustn't talk to the driver.",
+     "tr": "Yolcular şoförle konuşmamalı.",
+     "note": "cümle"
+    },
+    {
+     "en": "Please don't talk to the driver while the bus is moving.",
+     "tr": "Lütfen otobüs hareket hâlindeyken şoförle konuşmayın."
+    }
+   ],
+   "commonMistake": "Talk with the driver da olur ama tabelada TALK TO kullanılır."
+  },
+  {
+   "id": "give-seat",
+   "term": "PLEASE GIVE YOUR SEAT TO OLDER PEOPLE",
+   "meaning": "yaşlılara yer veriniz",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "PLEASE GIVE YOUR SEAT TO OLDER PEOPLE"
+   ],
+   "explanation": [
+    "Otobüs ve metroda görülür. give your seat to = yerini … -e vermek. older people, elderly people = yaşlılar."
+   ],
+   "collocations": [
+    {
+     "en": "give up your seat",
+     "tr": "yerini vermek"
+    },
+    {
+     "en": "elderly people",
+     "tr": "yaşlılar"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Stand up and give your seat to the old man.",
+     "tr": "Kalk ve yerini yaşlı adama ver."
+    },
+    {
+     "en": "A young man gives his seat to an old woman.",
+     "tr": "Genç bir adam yerini yaşlı bir kadına veriyor."
+    },
+    {
+     "en": "You should give your seat to older people.",
+     "tr": "Yaşlılara yer vermelisin.",
+     "note": "should"
+    }
+   ],
+   "commonMistake": "Give place to old yerine Give your seat to older people denir."
+  },
+  {
+   "id": "turn-off-phone",
+   "term": "PLEASE TURN OFF YOUR MOBILE PHONE",
+   "meaning": "cep telefonunuzu kapatınız",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "PLEASE TURN OFF YOUR MOBILE PHONE"
+   ],
+   "explanation": [
+    "turn off = kapatmak; zıttı turn on (açmak). Hastane, sinema, cami ve sınav salonlarında görülür."
+   ],
+   "collocations": [
+    {
+     "en": "turn off",
+     "tr": "kapatmak"
+    },
+    {
+     "en": "turn on",
+     "tr": "açmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Please turn off your phone in the hospital.",
+     "tr": "Lütfen hastanede telefonunuzu kapatın."
+    },
+    {
+     "en": "In the waiting room, everybody turns off their phones.",
+     "tr": "Bekleme odasında herkes telefonunu kapatır."
+    },
+    {
+     "en": "Turn off your phones before the exam.",
+     "tr": "Sınavdan önce telefonlarınızı kapatın."
+    }
+   ],
+   "commonMistake": "Close your phone yerine Turn off your phone denir."
+  },
+  {
+   "id": "quiet-please",
+   "term": "QUIET, PLEASE",
+   "meaning": "yüksek sesle konuşmayınız, sessiz olunuz",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "QUIET, PLEASE"
+   ],
+   "explanation": [
+    "Kütüphane ve hastanelerde görülür. Cümleyle: Please keep your voice down. / Don't speak loudly."
+   ],
+   "collocations": [
+    {
+     "en": "keep your voice down",
+     "tr": "sesini alçalt"
+    },
+    {
+     "en": "speak quietly",
+     "tr": "sessiz konuşmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Quiet, please. People are reading.",
+     "tr": "Lütfen sessiz olun. İnsanlar okuyor."
+    },
+    {
+     "en": "Please keep your voice down in the library.",
+     "tr": "Lütfen kütüphanede sesinizi alçaltın."
+    },
+    {
+     "en": "You can't talk loudly in the hospital.",
+     "tr": "Hastanede yüksek sesle konuşamazsın."
+    }
+   ],
+   "commonMistake": "QUITE, PLEASE yazımı yanlıştır; quiet (sessiz) ile quite (oldukça) farklıdır."
+  },
+  {
+   "id": "no-photography",
+   "term": "NO PHOTOGRAPHY",
+   "meaning": "fotoğraf çekmeyiniz",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "NO PHOTOGRAPHY"
+   ],
+   "explanation": [
+    "Müze ve sergilerde görülür. NO + isim = yasak. Cümleyle: You mustn't take photos."
+   ],
+   "collocations": [
+    {
+     "en": "take photos",
+     "tr": "fotoğraf çekmek"
+    },
+    {
+     "en": "no flash",
+     "tr": "flaş kullanmayın"
+    }
+   ],
+   "examples": [
+    {
+     "en": "No photography in the museum.",
+     "tr": "Müzede fotoğraf çekmek yasak."
+    },
+    {
+     "en": "You can't take photos in this museum.",
+     "tr": "Bu müzede fotoğraf çekemezsin."
+    },
+    {
+     "en": "You mustn't take photos of the paintings.",
+     "tr": "Tabloların fotoğrafını çekmemelisin."
+    }
+   ],
+   "commonMistake": "pull photos yerine take photos denir."
+  },
+  {
+   "id": "no-parking",
+   "term": "NO PARKING",
+   "meaning": "park etmek yasaktır",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "NO PARKING"
+   ],
+   "explanation": [
+    "NO + fiil-ing = yasak. Cümleyle: You can't / mustn't park here. Resmî: Parking is not allowed."
+   ],
+   "collocations": [
+    {
+     "en": "car park",
+     "tr": "otopark"
+    },
+    {
+     "en": "park the car",
+     "tr": "arabayı park etmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "You can't leave your car here. No parking.",
+     "tr": "Arabanı buraya bırakamazsın. Park yasak."
+    },
+    {
+     "en": "You mustn't park in front of the gate.",
+     "tr": "Kapının önüne park etmemelisin."
+    },
+    {
+     "en": "Parking is not allowed here.",
+     "tr": "Burada park etmeye izin verilmez.",
+     "note": "resmî"
+    }
+   ],
+   "commonMistake": "Park is forbidden here yerine Parking is not allowed here denir."
+  },
+  {
+   "id": "wet-floor",
+   "term": "WET FLOOR",
+   "meaning": "ıslak zemin",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "WET FLOOR"
+   ],
+   "explanation": [
+    "Genellikle CAUTION: WET FLOOR (Dikkat, ıslak zemin) olarak görülür. wet ↔ dry (ıslak ↔ kuru)."
+   ],
+   "collocations": [
+    {
+     "en": "caution",
+     "tr": "dikkat"
+    },
+    {
+     "en": "slippery",
+     "tr": "kaygan"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Be careful! Wet floor.",
+     "tr": "Dikkat! Islak zemin."
+    },
+    {
+     "en": "The floor is wet and slippery.",
+     "tr": "Zemin ıslak ve kaygan."
+    },
+    {
+     "en": "Caution: wet floor. Please walk slowly.",
+     "tr": "Dikkat, ıslak zemin. Lütfen yavaş yürüyün."
+    }
+   ],
+   "commonMistake": "Wet ground daha çok dış mekân için; iç mekân tabelası WET FLOOR'dur."
+  },
+  {
+   "id": "out-of-order",
+   "term": "OUT OF ORDER",
+   "meaning": "arızalı, çalışmıyor",
+   "partOfSpeech": "tabela",
+   "sourceTerms": [
+    "OUT OF ORDER"
+   ],
+   "explanation": [
+    "Asansör, makine, telefon için. Kalıplaşmış ifade: The lift is out of order."
+   ],
+   "collocations": [
+    {
+     "en": "the lift is out of order",
+     "tr": "asansör arızalı"
+    },
+    {
+     "en": "it doesn't work",
+     "tr": "çalışmıyor"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The lift is out of order. Take the stairs.",
+     "tr": "Asansör arızalı. Merdiveni kullanın."
+    },
+    {
+     "en": "The ticket machine is out of order.",
+     "tr": "Bilet makinesi arızalı."
+    },
+    {
+     "en": "It means it doesn't work.",
+     "tr": "Çalışmıyor demek."
+    }
+   ],
+   "commonMistake": "OUT OF ORDER “sıra dışı” demek değildir."
+  },
+  {
+   "id": "must-mustnt",
+   "term": "must · mustn't",
+   "meaning": "-meli · -memeli (yasak)",
+   "partOfSpeech": "kip",
+   "sourceTerms": [
+    "must · mustn't"
+   ],
+   "explanation": [
+    "must zorunluluk, mustn't yasak bildirir; her kişiyle aynı, -s ve to almaz. Günlük konuşmada zorunluluk için have to daha yaygındır."
+   ],
+   "collocations": [
+    {
+     "en": "You must …",
+     "tr": "… -melisin"
+    },
+    {
+     "en": "You mustn't …",
+     "tr": "… -memelisin, yasak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "You mustn't smoke in the hospital.",
+     "tr": "Hastanede sigara içmemelisin."
+    },
+    {
+     "en": "Drivers mustn't use their phones.",
+     "tr": "Şoförler telefon kullanmamalı."
+    },
+    {
+     "en": "You must wear a seat belt.",
+     "tr": "Emniyet kemeri takmalısın."
+    }
+   ],
+   "commonMistake": "You mustn't to smoke yerine You mustn't smoke denir."
+  },
+  {
+   "id": "cant-not-allowed",
+   "term": "can't · not allowed",
+   "meaning": "yapamazsın · izin yok",
+   "partOfSpeech": "yasak kalıpları",
+   "sourceTerms": [
+    "can't · not allowed"
+   ],
+   "explanation": [
+    "can't konuşmada yasak bildirir; not allowed resmîdir: … is / are not allowed."
+   ],
+   "collocations": [
+    {
+     "en": "Can I …?",
+     "tr": "… -ebilir miyim?"
+    },
+    {
+     "en": "It's not allowed.",
+     "tr": "izin verilmiyor"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Dogs are not allowed in the shop.",
+     "tr": "Dükkâna köpek girmesine izin verilmez."
+    },
+    {
+     "en": "You can't eat in the library.",
+     "tr": "Kütüphanede yemek yiyemezsin."
+    },
+    {
+     "en": "Can I park here? — No, you can't.",
+     "tr": "Buraya park edebilir miyim? — Hayır."
+    }
+   ],
+   "commonMistake": "Dogs not allowed yerine Dogs are not allowed denir."
+  },
+  {
+   "id": "have-to",
+   "term": "have to · has to",
+   "meaning": "zorunda olmak",
+   "partOfSpeech": "zorunluluk",
+   "sourceTerms": [
+    "have to · has to"
+   ],
+   "explanation": [
+    "Zorunluluk: have to + yalın fiil; he / she / it ile has to. Soru: Do I have to …?"
+   ],
+   "collocations": [
+    {
+     "en": "have to work",
+     "tr": "çalışmak zorunda olmak"
+    },
+    {
+     "en": "Do I have to …?",
+     "tr": "… zorunda mıyım?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Nurses have to work at night.",
+     "tr": "Hemşireler gece çalışmak zorunda."
+    },
+    {
+     "en": "My husband has to get up at five.",
+     "tr": "Eşim beşte kalkmak zorunda."
+    },
+    {
+     "en": "Do I have to bring my passport? — Yes, you do.",
+     "tr": "Pasaportumu getirmem gerekiyor mu? — Evet."
+    }
+   ],
+   "commonMistake": "She have to yerine She has to denir."
+  },
+  {
+   "id": "dont-have-to-g",
+   "term": "don't have to · doesn't have to",
+   "meaning": "zorunda değil, gerek yok",
+   "partOfSpeech": "zorunlu olmayan",
+   "sourceTerms": [
+    "don't have to · doesn't have to"
+   ],
+   "explanation": [
+    "Zorunluluk yok; istersen yap. mustn't (yasak) ile karıştırılmamalı."
+   ],
+   "collocations": [
+    {
+     "en": "don't need to",
+     "tr": "gerek yok"
+    },
+    {
+     "en": "you don't have to pay",
+     "tr": "ödemek zorunda değilsin"
+    }
+   ],
+   "examples": [
+    {
+     "en": "You don't have to bring a pen; we have pens.",
+     "tr": "Kalem getirmen gerekmiyor; kalemimiz var."
+    },
+    {
+     "en": "She doesn't have to wear a uniform.",
+     "tr": "Üniforma giymek zorunda değil."
+    },
+    {
+     "en": "You don't have to get up early on Sundays.",
+     "tr": "Pazar günleri erken kalkmak zorunda değilsin."
+    }
+   ],
+   "commonMistake": "You mustn't come (istersen gel anlamında) yerine You don't have to come denir."
+  }
+ ]
+}

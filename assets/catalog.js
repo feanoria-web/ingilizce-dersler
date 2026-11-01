@@ -191,6 +191,30 @@ window.LESSON_CATALOG = [
     "url": "lessons/a2/day-05.html"
   },
   {
+    "id": "a2/day-06",
+    "level": "A2",
+    "title": "Gerçekler ve alışkanlıklar · Tabelalar ve kurallar · Sorunlar ve tavsiye",
+    "description": "A2 altıncı ders (iki gün): zıt anlamlı sıfatlar (büyük – küçük, sıcak – soğuk, ucuz – pahalı, hızlı – yavaş ve yeni çiftler), sıfat ve zarf (quick – quickly, fast, carefully), geniş zamanla genel gerçekler (It snows in winter. The Earth goes around the Sun.), Türkiye hakkında bir okuma, zaman ifadeleri (every day, in winter, on Sundays, at night), sıklık zarfları (always, often, sometimes, once a week), hafta sonum, şahsa göre fiil çekimiyle diyalog tamamlama; günlük tabela ve uyarılar (Keep off the grass, Beware of the dog, Do not talk to the driver), yasak (mustn't, can't, not allowed), zorunlu olmayan durumlar (don't have to), kurallar, sorun anlatıp tavsiye istemek ve vermek (What should I do? You should … Why don't you …?), olasılık (can, might, might not) ve tavsiye e-postası. Her ekranda konu anlatımı, yeni örnekler ve bol alıştırma.",
+    "number": 6,
+    "order": 6,
+    "date": "",
+    "duration": "400 dk",
+    "tags": [
+      "Zıt sıfatlar",
+      "Sıfat ve zarf",
+      "Genel gerçekler",
+      "Zaman ifadeleri",
+      "Sıklık zarfları",
+      "Hafta sonu",
+      "Tabelalar",
+      "Yasak ve zorunluluk",
+      "Tavsiye",
+      "Olasılık",
+      "E-posta"
+    ],
+    "url": "lessons/a2/day-06.html"
+  },
+  {
     "id": "a2/practice",
     "level": "A2",
     "title": "Tanışma ve konuşma · Ek çalışma",

@@ -11,6 +11,7 @@ export const STUDY_LESSONS = Object.freeze({
   'lessons/a1/day-04.html': Object.freeze({ dir: 'a1-study', label: 'A1', extras: false, searchHint: 'half past, get up, always, kahvaltı…' }),
   'lessons/a1/day-05.html': Object.freeze({ dir: 'a1-study-05', label: 'A1', extras: false, searchHint: 'listen to, has got, whose, uncle, this…' }),
   'lessons/a2/day-05.html': Object.freeze({ dir: 'a2-study', label: 'A2', extras: false, searchHint: 'next to, turn left, lives, pahalı…' }),
+  'lessons/a2/day-06.html': Object.freeze({ dir: 'a2-study-06', label: 'A2', extras: false, searchHint: "often, mustn't, should, tabela…" }),
   'lessons/b1/day-06.html': Object.freeze({ dir: 'b1-study-06', label: 'B1', extras: false, searchHint: 'calling about, where, worth the money, taksit…' }),
 });
 export const serializeStudy = data => JSON.stringify(data).replace(/</g, '\\u003c').replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');

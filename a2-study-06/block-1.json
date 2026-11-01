@@ -1,0 +1,1773 @@
+{
+ "version": 1,
+ "block": 1,
+ "chapters": [
+  {
+   "screenId": "warm",
+   "title": "Isınma: bu haftayı İngilizce anlatmak",
+   "intro": [
+    "Isınmada geçen dersin cümlelerini tekrar etmiyoruz; onun yerine bu haftayı konuşuyoruz: hava nasıl, ev kursa yakın mı, ucuz ve lezzetli bir yemek ne? Bu sorular, dersin ilk konusu olan zıt anlamlı sıfatlara (warm ↔ cold, near ↔ far, cheap ↔ expensive) doğal bir giriş yapar.",
+    "Sohbet kartlarında sorular kısa, cevaplar ise bir iki cümledir. Cevap verirken tek kelimeyle kalmamaya çalışın: “It's near.” yerine “It's near. I walk here in ten minutes.” Bu, iki günün sonunda yazacağımız e-postaya da hazırlıktır."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Is it warm or cold in Bursa this week?",
+     "tr": "Bu hafta Bursa'da hava ılık mı, soğuk mu?",
+     "why": [
+      "Hava için it kullanılır; or iki seçenek sunar."
+     ]
+    },
+    {
+     "en": "It's near. I walk here in ten minutes.",
+     "tr": "Yakın. Buraya on dakikada yürürüm.",
+     "why": [
+      "in ten minutes = on dakikada (süre)."
+     ]
+    },
+    {
+     "en": "Yes, there's a “No parking” sign in front of the pharmacy.",
+     "tr": "Evet, eczanenin önünde bir “Park yapılmaz” tabelası var.",
+     "why": [
+      "there's = there is; in front of = önünde."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "wm-questions",
+     "title": "Is it warm or cold this week? — It's quite cold in the mornings.",
+     "meaning": "or ile iki seçenekli sorular ve kısa cevaplar",
+     "explanation": [
+      "or (ya da) ile kurulan sorularda cevap iki seçenekten biridir; Yes ya da No ile cevap verilmez: Is your flat near or far? — It's near. Are you an early bird or a night owl? — I'm an early bird. Bu tür sorular zıt anlamlı sıfatları çalışmak için idealdir çünkü iki zıt seçenek yan yana gelir.",
+      "Cevabı uzatmanın en kolay yolu bir sebep ya da ayrıntı eklemektir: It's near. I walk here in ten minutes. It's quite cold in the mornings, but the afternoons are nice. Burada quite (oldukça) ve but (ama) kelimeleri cevaba renk katar.",
+      "early bird (erken kalkan kişi) ve night owl (gece kuşu) İngilizcede çok kullanılan iki deyimdir. Kelime kelime “erken kuş” ve “gece baykuşu” demektir. Sıklık zarflarıyla birleşince güzel cümleler çıkar: I always get up at six, even on Saturdays."
+     ],
+     "formula": [
+      "Is it A or B? — It's A.",
+      "Are you A or B? — I'm A.",
+      "cevap + ayrıntı: It's near. I walk here in ten minutes."
+     ],
+     "examples": [
+      {
+       "en": "Is your flat near the course or far from it? — It's near.",
+       "tr": "Evin kursa yakın mı, uzak mı? — Yakın.",
+       "why": [
+        "or sorusu: cevap bir seçenek."
+       ],
+       "chunks": [
+        {
+         "en": "near the course",
+         "tr": "kursa yakın"
+        },
+        {
+         "en": "far from it",
+         "tr": "ondan uzak",
+         "note": "far from + yer"
+        }
+       ]
+      },
+      {
+       "en": "It's quite cold in the mornings, but the afternoons are nice.",
+       "tr": "Sabahları oldukça soğuk ama öğleden sonraları güzel.",
+       "why": [
+        "quite = oldukça; but zıtlık."
+       ]
+      },
+      {
+       "en": "I'm an early bird. I get up at six, even on Saturdays.",
+       "tr": "Erken kalkan biriyim. Cumartesileri bile altıda kalkarım.",
+       "why": [
+        "even = bile."
+       ]
+      },
+      {
+       "en": "Lentil soup! It's cheap, easy and very tasty.",
+       "tr": "Mercimek çorbası! Ucuz, kolay ve çok lezzetli.",
+       "why": [
+        "Üç sıfat: virgül ve and."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Erken kalkan biri misin, gece kuşu mu?” İngilizcesi?",
+       "answer": "Are you an early bird or a night owl?",
+       "why": "or sorusu"
+      },
+      {
+       "question": "Is it cheap or expensive? sorusuna Yes ile cevap verilir mi?",
+       "answer": "Hayır; seçeneklerden biriyle: It's cheap.",
+       "why": "or sorusu"
+      },
+      {
+       "question": "“Oldukça uzak” İngilizcesi?",
+       "answer": "quite far",
+       "why": "quite"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Is your flat near or far? — Yes.",
+       "right": "It's near. / It's far.",
+       "why": "or sorusuna seçenekle cevap verilir."
+      },
+      {
+       "wrong": "It's far my house.",
+       "right": "It's far from my house.",
+       "why": "far'dan sonra from gelir."
+      }
+     ]
+    },
+    {
+     "id": "wm-plan",
+     "title": "Two days: facts and habits · signs and rules · problems and advice",
+     "meaning": "İki günün yol haritası",
+     "explanation": [
+      "Birinci gün dünyayı ve kendimizi anlatıyoruz. Önce zıt anlamlı sıfatlar (cheap ↔ expensive, early ↔ late) ve sıfat-zarf farkı (quick ↔ quickly), sonra genel gerçekler (It snows in winter.) ve Türkiye hakkında bir okuma metni geliyor. Birinci günün ikinci yarısında zaman ifadeleri, sıklık zarfları, hafta sonumuz ve boşluklu bir diyalog var.",
+      "İkinci gün sokağa çıkıyoruz: günlük tabelalar ve uyarılar, yasak bildiren cümleler (You mustn't park here.), zorunlu olmayan durumlar (You don't have to get up early.) ve kurallar. Son bölümde sorunlarımızı anlatıp tavsiye istiyor ve veriyor, olasılık bildiriyor (It might rain.) ve bir arkadaşımıza tavsiye e-postası yazıyoruz.",
+      "Konular birbirine bağlıdır: genel gerçekler ve alışkanlıklar geniş zamanla anlatılır; tabelalar yasak kalıplarına dönüşür; tavsiyeler ve olasılıklar da e-postada bir araya gelir. Bu yüzden konuları sırayla çalışmak önemlidir."
+     ],
+     "formula": [
+      "1. gün: sıfatlar · gerçekler · sıklık · hafta sonu",
+      "2. gün: tabelalar · mustn't · don't have to · kurallar",
+      "2. gün: should · might · e-posta"
+     ],
+     "examples": [
+      {
+       "en": "Winters are cold, but summers are hot.",
+       "tr": "Kışlar soğuk ama yazlar sıcak.",
+       "why": [
+        "1. gün: zıt sıfatlar."
+       ]
+      },
+      {
+       "en": "I go to the cinema once a week.",
+       "tr": "Haftada bir sinemaya giderim.",
+       "why": [
+        "1. gün: sıklık."
+       ]
+      },
+      {
+       "en": "You mustn't park here.",
+       "tr": "Buraya park etmemelisin.",
+       "why": [
+        "2. gün: yasak."
+       ]
+      },
+      {
+       "en": "You should go to bed earlier.",
+       "tr": "Daha erken yatmalısın.",
+       "why": [
+        "2. gün: tavsiye."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Tabelalar hangi gün işleniyor?",
+       "answer": "İkinci gün.",
+       "why": "plan"
+      },
+      {
+       "question": "Genel gerçekler hangi zamanla anlatılır?",
+       "answer": "Geniş zaman (present simple).",
+       "why": "plan"
+      },
+      {
+       "question": "Dersin son yazma görevi nedir?",
+       "answer": "Bir arkadaşa tavsiye e-postası.",
+       "why": "plan"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Konuları atlayarak çalışmak.",
+       "right": "Sırayla çalışmak: sıfatlar → gerçekler → sıklık → kurallar → tavsiye.",
+       "why": "Konular birbirine bağlı."
+      },
+      {
+       "wrong": "Sadece ifade bankasını ezberlemek.",
+       "right": "Ekrandaki alıştırmaları çözmek ve örnekleri sesli okumak.",
+       "why": "Kullanmadan öğrenme kalıcı olmaz."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "opposites",
+   "title": "Zıt anlamlı sıfatlar ve but ile karşılaştırma",
+   "intro": [
+    "MEB kazanımı: sık kullanılan sıfatları zıt anlamlılarıyla kullanır (büyük – küçük, sıcak – soğuk, ucuz – pahalı, çabuk / hızlı – yavaş). Bu derste kazanımdaki çiftlere yeni çiftler ekliyoruz: early ↔ late, easy ↔ difficult, full ↔ empty, open ↔ closed, noisy ↔ quiet, near ↔ far, safe ↔ dangerous, young / new ↔ old.",
+    "Zıt anlamlı sıfatlar en çok karşılaştırma yaparken işe yarar: The bus is cheap, but it's slow. Bu cümlede iki zıt bilgiyi but bağlar. Aynı yöndeki iki bilgiyi ise and bağlar: The metro is quick and clean."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "The metro is quick, but the old bus is slow.",
+     "tr": "Metro hızlı ama eski otobüs yavaş.",
+     "why": [
+      "quick ↔ slow; but iki zıt bilgiyi bağlar."
+     ]
+    },
+    {
+     "en": "Our street is noisy in the day, but it's quiet at night.",
+     "tr": "Sokağımız gündüz gürültülü ama gece sessiz.",
+     "why": [
+      "noisy ↔ quiet; in the day / at night zaman ifadeleri."
+     ]
+    },
+    {
+     "en": "The first exercise is easy; the last one is difficult.",
+     "tr": "İlk alıştırma kolay; sonuncusu zor.",
+     "why": [
+      "the last one = sonuncusu; noktalı virgül iki cümleyi ayırır."
+     ]
+    },
+    {
+     "en": "I prefer the bus. It's slow, but it's cheap.",
+     "tr": "Otobüsü tercih ederim. Yavaş ama ucuz.",
+     "why": [
+      "prefer = tercih etmek; but ile gerekçe."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "op-pairs",
+     "title": "cheap ↔ expensive · early ↔ late · full ↔ empty",
+     "meaning": "Zıt çiftleri tanımak ve doğru yerde kullanmak",
+     "explanation": [
+      "Kazanımdaki dört çift: big ↔ small (büyük ↔ küçük), hot ↔ cold (sıcak ↔ soğuk), cheap ↔ expensive (ucuz ↔ pahalı), fast / quick ↔ slow (hızlı, çabuk ↔ yavaş). Yeni çiftler: early ↔ late (erken ↔ geç), easy ↔ difficult (kolay ↔ zor), full ↔ empty (dolu ↔ boş), open ↔ closed (açık ↔ kapalı), noisy ↔ quiet (gürültülü ↔ sessiz), near ↔ far (yakın ↔ uzak), safe ↔ dangerous (güvenli ↔ tehlikeli).",
+      "old kelimesinin iki zıddı vardır: insanlar için young ↔ old (genç ↔ yaşlı), eşyalar için new ↔ old (yeni ↔ eski). My grandmother is old, but her phone is new. cümlesinde iki ayrı old ↔ zıtlığı görürsünüz. Benzer şekilde quiet hem noisy'nin hem de busy'nin (kalabalık, hareketli) zıddı olabilir.",
+      "Sıfat iki yerde durur: isimden önce (an expensive coat, a quiet street) ya da be fiilinden sonra (The coat is expensive.). Sıfat çoğul eki almaz: two cheap tickets (cheaps ✗). Ünlü sesle başlayan sıfattan önce an gelir: an easy exercise, an empty bottle. far genellikle be'den sonra kullanılır ve from alır: The station is far from my house."
+     ],
+     "formula": [
+      "sıfat + isim: a quiet street · an empty bottle",
+      "be + sıfat: The street is quiet.",
+      "young ↔ old (insan) · new ↔ old (eşya)"
+     ],
+     "examples": [
+      {
+       "en": "Simit is cheap, but a taxi to the airport is expensive.",
+       "tr": "Simit ucuz ama havalimanına taksi pahalı.",
+       "why": [
+        "Fiyat zıtlığı; but ile."
+       ],
+       "chunks": [
+        {
+         "en": "cheap",
+         "tr": "ucuz"
+        },
+        {
+         "en": "expensive",
+         "tr": "pahalı"
+        },
+        {
+         "en": "to the airport",
+         "tr": "havalimanına"
+        }
+       ]
+      },
+      {
+       "en": "The fridge is empty. Let's go to the market.",
+       "tr": "Buzdolabı boş. Pazara gidelim.",
+       "why": [
+        "empty ↔ full; Let's = haydi."
+       ]
+      },
+      {
+       "en": "The bakery is open early, and it closes late.",
+       "tr": "Fırın erkenden açık ve geç kapanır.",
+       "why": [
+        "open (sıfat), close (fiil) ayrımı."
+       ]
+      },
+      {
+       "en": "My grandmother is old, but her phone is brand new.",
+       "tr": "Babaannem yaşlı ama telefonu yepyeni.",
+       "why": [
+        "old (insan) ↔ new (eşya)."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "dangerous'ın zıttı?",
+       "answer": "safe",
+       "why": "güvenli"
+      },
+      {
+       "question": "“Boş bir şişe” İngilizcesi?",
+       "answer": "an empty bottle",
+       "why": "an + ünlü ses"
+      },
+      {
+       "question": "Eşya için old'un zıttı?",
+       "answer": "new",
+       "why": "new ↔ old"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "My car is young.",
+       "right": "My car is new.",
+       "why": "Eşya için new."
+      },
+      {
+       "wrong": "two expensives coats",
+       "right": "two expensive coats",
+       "why": "Sıfat çoğul eki almaz."
+      }
+     ]
+    },
+    {
+     "id": "op-but-too",
+     "title": "The bus is cheap, but it's slow. · too expensive",
+     "meaning": "but, and, very, quite, too ile sıfatları cümlede kullanmak",
+     "explanation": [
+      "İki zıt bilgiyi aynı cümlede söylemek için but kullanılır: The hotel is near the sea, but it's noisy. (yakın = iyi, gürültülü = kötü). İki bilgi aynı yöndeyse and kullanılır: The hotel is near the sea and it's quiet. but'tan önce genellikle virgül konur.",
+      "Sıfatın gücünü ayarlayan kelimeler: very (çok), quite (oldukça), a bit (biraz), not very (pek değil). The museum is very quiet. The flat is quite far. The tea is a bit cold. The test isn't very difficult. not very, doğrudan olumsuz bir sıfat kullanmaktan daha kibardır: The room isn't very big. (The room is small. demekten daha yumuşak.)",
+      "too “gereğinden fazla” demektir ve bir sorun olduğunu gösterir: The shoes are too expensive. I can't buy them. very sadece “çok” demektir, sorun bildirmez: The shoes are very expensive, but I love them, so I buy them. Türkçede ikisi de “çok” diye çevrilebildiği için bu fark sık karışır."
+     ],
+     "formula": [
+      "zıt bilgi: …, but … · aynı yön: … and …",
+      "very · quite · a bit · not very + sıfat",
+      "too + sıfat = fazla (sorun var)"
+     ],
+     "examples": [
+      {
+       "en": "The metro is quick and clean.",
+       "tr": "Metro hızlı ve temiz.",
+       "why": [
+        "Aynı yön → and."
+       ]
+      },
+      {
+       "en": "The test is short, but it's difficult.",
+       "tr": "Sınav kısa ama zor.",
+       "why": [
+        "Beklenmedik zıtlık → but."
+       ],
+       "chunks": [
+        {
+         "en": "short",
+         "tr": "kısa"
+        },
+        {
+         "en": "but",
+         "tr": "ama",
+         "note": "zıtlık"
+        },
+        {
+         "en": "difficult",
+         "tr": "zor"
+        }
+       ]
+      },
+      {
+       "en": "These shoes are too expensive. I can't buy them.",
+       "tr": "Bu ayakkabılar fazla pahalı. Alamam.",
+       "why": [
+        "too = sorun."
+       ]
+      },
+      {
+       "en": "The station isn't very far.",
+       "tr": "İstasyon pek uzak değil.",
+       "why": [
+        "not very = kibar olumsuz."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Otel denize yakın ama gürültülü.” İngilizcesi?",
+       "answer": "The hotel is near the sea, but it's noisy.",
+       "why": "but"
+      },
+      {
+       "question": "“Çay fazla sıcak, içemiyorum.” too mu very mi?",
+       "answer": "too: The tea is too hot.",
+       "why": "sorun → too"
+      },
+      {
+       "question": "“Pek pahalı değil.” İngilizcesi?",
+       "answer": "It isn't very expensive.",
+       "why": "not very"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The test is short and difficult. (beklenmedik zıtlık için)",
+       "right": "The test is short, but it's difficult.",
+       "why": "Zıt bilgi → but."
+      },
+      {
+       "wrong": "The tea is very hot, I can't drink it.",
+       "right": "The tea is too hot. I can't drink it.",
+       "why": "Sorun varsa too."
+      }
+     ],
+     "contrasts": [
+      {
+       "label": "very / too",
+       "explanation": [
+        "very sadece “çok” demektir; too gereğinden fazla olduğunu ve bir sorun çıktığını söyler."
+       ],
+       "example": "The bag is very heavy, but I can carry it. · The bag is too heavy. I can't carry it.",
+       "tr": [
+        "Çanta çok ağır ama taşıyabilirim. · Çanta fazla ağır, taşıyamam."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "fast-slow",
+   "title": "Hızlı mı, yavaş mı? Sıfat ve zarf farkı",
+   "intro": [
+    "Türkçede “hızlı” kelimesi hem bir şeyi (hızlı bir araba) hem de bir işi (hızlı sürer) anlatır. İngilizcede ikinci durumda çoğu zaman sıfata -ly eklenir: quick → quickly, slow → slowly. Sıfat ismi, zarf fiili anlatır.",
+    "Bazı kelimeler düzensizdir: fast ve hard zarf olarak da aynı kalır (He drives fast. She works hard.), good ise well olur (a good cook → She cooks well). Kazanımdaki “çabuk, hızlı” anlamı için fast ve quick eş anlamlıdır; zıtları slow'dur."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "My son is a fast runner. He runs fast.",
+     "tr": "Oğlum hızlı bir koşucu. Hızlı koşar.",
+     "why": [
+      "fast önce sıfat (runner'ı anlatır), sonra zarf (runs'ı anlatır)."
+     ]
+    },
+    {
+     "en": "Tortoises move slowly.",
+     "tr": "Kaplumbağalar yavaş hareket eder.",
+     "why": [
+      "slowly fiili (move) anlatır; özne çoğul → move."
+     ]
+    },
+    {
+     "en": "My father drives carefully in the snow.",
+     "tr": "Babam karda dikkatli sürer.",
+     "why": [
+      "drives (-s) + carefully (zarf); in the snow = karda."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "fs-adverbs",
+     "title": "a careful driver · drives carefully",
+     "meaning": "Sıfattan zarf yapmak ve zarfı fiilden sonra kullanmak",
+     "explanation": [
+      "Zarf bir işin nasıl yapıldığını söyler ve genellikle fiilden (varsa nesneden) sonra gelir: She eats quickly. Please speak slowly. He opens the box carefully. Sıfat ise bir ismi anlatır: a quick lunch, a slow train, a careful driver.",
+      "Zarf yapımı: çoğu sıfata -ly eklenir: quick → quickly, slow → slowly, careful → carefully, quiet → quietly, bad → badly. y ile bitenlerde y → i: easy → easily, happy → happily. Düzensizler: fast → fast, hard → hard, good → well. fastly diye bir kelime yoktur; hardly ise “neredeyse hiç” anlamına gelir, hard ile karıştırılmamalıdır.",
+      "Bir cümlede ikisini birlikte görmek farkı netleştirir: He's a careful driver. He drives carefully. My son is a fast runner. He runs fast. My aunt is a good cook. She cooks well. Bu dönüşüm alıştırması derste de yapılır."
+     ],
+     "formula": [
+      "sıfat + isim: a careful driver",
+      "fiil + zarf: drive carefully",
+      "fast → fast · hard → hard · good → well · easy → easily"
+     ],
+     "examples": [
+      {
+       "en": "He's a careful driver. He drives carefully.",
+       "tr": "Dikkatli bir şoför. Dikkatli sürer.",
+       "why": [
+        "Aynı kök, iki görev."
+       ],
+       "chunks": [
+        {
+         "en": "a careful driver",
+         "tr": "dikkatli bir şoför",
+         "note": "sıfat"
+        },
+        {
+         "en": "drives carefully",
+         "tr": "dikkatli sürer",
+         "note": "zarf"
+        }
+       ]
+      },
+      {
+       "en": "Trains in Japan go very fast.",
+       "tr": "Japonya'da trenler çok hızlı gider.",
+       "why": [
+        "fast zarf olarak da fast."
+       ]
+      },
+      {
+       "en": "Farmers work hard in summer.",
+       "tr": "Çiftçiler yazın çok çalışır.",
+       "why": [
+        "hard = sıkı, çok."
+       ]
+      },
+      {
+       "en": "My aunt cooks very well.",
+       "tr": "Teyzem çok iyi yemek yapar.",
+       "why": [
+        "good → well."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "quiet → zarf?",
+       "answer": "quietly",
+       "why": "-ly"
+      },
+      {
+       "question": "easy → zarf?",
+       "answer": "easily",
+       "why": "y → ily"
+      },
+      {
+       "question": "“İyi yüzer.” İngilizcesi?",
+       "answer": "He / She swims well.",
+       "why": "good → well"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "He drives fastly.",
+       "right": "He drives fast.",
+       "why": "fast düzensiz."
+      },
+      {
+       "wrong": "She speaks English good.",
+       "right": "She speaks English well.",
+       "why": "Fiili zarf anlatır: well."
+      }
+     ]
+    },
+    {
+     "id": "fs-fast-quick",
+     "title": "fast ≈ quick ↔ slow · a quick question",
+     "meaning": "fast ile quick farkı ve kibar ricada zarflar",
+     "explanation": [
+      "fast ve quick çoğu zaman eş anlamlıdır; ikisi de “hızlı, çabuk” demektir ve zıtları slow'dur. Küçük bir eğilim farkı vardır: fast daha çok hareketin hızını anlatır (a fast car, a fast runner, a fast train); quick daha çok kısa süren işleri anlatır (a quick question, a quick shower, a quick lunch).",
+      "Bu yüzden “Kısa bir soru sorabilir miyim?” için Can I ask a quick question? deriz (a fast question ✗ kulağa tuhaf gelir). “Hızlı bir araba” için a fast car daha doğaldır. İki kelimenin zarfları: fast → fast, quick → quickly.",
+      "Zarflar kibar rica cümlelerinde çok kullanılır: Could you speak more slowly, please? (Lütfen daha yavaş konuşur musunuz?) Please drive carefully. (Lütfen dikkatli sürün.) Talk quietly, the baby is asleep. (Sessiz konuşun, bebek uyuyor.)"
+     ],
+     "formula": [
+      "fast: hareketin hızı (a fast car)",
+      "quick: kısa süren iş (a quick question)",
+      "Could you speak more slowly, please?"
+     ],
+     "examples": [
+      {
+       "en": "I have a quick breakfast on weekdays.",
+       "tr": "Hafta içi çabuk bir kahvaltı yaparım.",
+       "why": [
+        "quick + kısa süren iş."
+       ]
+      },
+      {
+       "en": "My son is a fast runner.",
+       "tr": "Oğlum hızlı bir koşucu.",
+       "why": [
+        "fast + hareket."
+       ]
+      },
+      {
+       "en": "Could you repeat that slowly, please?",
+       "tr": "Lütfen onu yavaşça tekrar eder misiniz?",
+       "why": [
+        "Kibar rica + zarf."
+       ],
+       "chunks": [
+        {
+         "en": "Could you …?",
+         "tr": "… -ir misiniz?",
+         "note": "kibar"
+        },
+        {
+         "en": "slowly",
+         "tr": "yavaşça",
+         "note": "zarf"
+        }
+       ]
+      },
+      {
+       "en": "Snails are slow, but rabbits are quick.",
+       "tr": "Salyangozlar yavaş ama tavşanlar çabuk.",
+       "why": [
+        "slow ↔ quick."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Kısa bir soru” için fast mı quick mi?",
+       "answer": "a quick question",
+       "why": "kısa süren iş"
+      },
+      {
+       "question": "slow'un zıddı?",
+       "answer": "fast / quick",
+       "why": "eş anlamlılar"
+      },
+      {
+       "question": "“Lütfen sessiz konuşun.” İngilizcesi?",
+       "answer": "Please talk quietly.",
+       "why": "zarf"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Can I ask a fast question?",
+       "right": "Can I ask a quick question?",
+       "why": "Kısa süren iş → quick."
+      },
+      {
+       "wrong": "Please speak slow.",
+       "right": "Please speak slowly.",
+       "why": "Fiili zarf anlatır."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "facts",
+   "title": "Genel gerçekler: It snows in winter.",
+   "intro": [
+    "MEB kazanımı: her zaman geçerli durumları anlatmak için geniş zaman cümle yapısını kullanır (Kışın kar yağar. Dünya güneşin etrafında döner.). Geniş zaman yalnızca alışkanlıkları değil, doğa, bilim ve coğrafya hakkındaki genel doğruları da anlatır.",
+    "Kural, geniş zamanın bilinen kuralıdır: tekil özne (the Earth, water, it) ile fiil -s alır; çoğul özne (bees, penguins) ile fiil yalın kalır. Hava olaylarında özne olarak it kullanılır: It snows. It rains. Türkçedeki öznesiz “kar yağar” cümlesinin karşılığında it şarttır."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "It snows on Uludağ in winter.",
+     "tr": "Kışın Uludağ'a kar yağar.",
+     "why": [
+      "Hava olayı → it snows; in winter mevsim → in."
+     ]
+    },
+    {
+     "en": "Water freezes at 0 degrees.",
+     "tr": "Su 0 derecede donar.",
+     "why": [
+      "water sayılamayan → tekil → freezes."
+     ]
+    },
+    {
+     "en": "Penguins don't fly.",
+     "tr": "Penguenler uçmaz.",
+     "why": [
+      "Çoğul özne → don't + yalın fiil."
+     ]
+    },
+    {
+     "en": "Cows eat grass and give us milk.",
+     "tr": "İnekler ot yer ve bize süt verir.",
+     "why": [
+      "Çoğul özne; iki fiil (eat, give) and ile."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "fc-present",
+     "title": "The Earth goes around the Sun. · Bees make honey.",
+     "meaning": "Genel gerçekleri geniş zamanla söylemek",
+     "explanation": [
+      "Her zaman doğru olan bilgiler geniş zamanla söylenir: The Moon goes around the Earth. Water freezes at 0 degrees. Ice melts in the sun. Cows eat grass. Bu cümleler dün de doğruydu, yarın da doğru olacak; bu yüzden şimdiki zaman (is going) değil geniş zaman (goes) kullanılır.",
+      "Özneyi kontrol edin. Tekil özne (the Earth, the Moon, water, the sun, a cat) ile fiil -s alır: The sun sets in the west. Çoğul özne (cows, bees, people, leaves, olive trees) ile fiil yalın kalır: Leaves fall from the trees in autumn. Yazım: go → goes, fly → flies, watch → watches, freeze → freezes.",
+      "Sayılamayan isimler (water, ice, milk, tea) tekil sayılır: Water boils at 100 degrees. Tea grows in Rize. people çoğuldur: People in Türkiye drink a lot of tea (drinks ✗)."
+     ],
+     "formula": [
+      "tekil / sayılamayan + fiil-s: Water boils …",
+      "çoğul + yalın fiil: Bees make …",
+      "people = çoğul: People drink …"
+     ],
+     "examples": [
+      {
+       "en": "The Moon goes around the Earth.",
+       "tr": "Ay Dünya'nın etrafında döner.",
+       "why": [
+        "Tekil özne → goes."
+       ],
+       "chunks": [
+        {
+         "en": "The Moon",
+         "tr": "Ay",
+         "note": "tekil"
+        },
+        {
+         "en": "goes around",
+         "tr": "etrafında döner",
+         "note": "-es"
+        }
+       ]
+      },
+      {
+       "en": "Leaves fall from the trees in autumn.",
+       "tr": "Sonbaharda ağaçlardan yapraklar düşer.",
+       "why": [
+        "Çoğul özne → fall."
+       ]
+      },
+      {
+       "en": "Olive trees grow near the sea.",
+       "tr": "Zeytin ağaçları deniz kenarında yetişir.",
+       "why": [
+        "grow = yetişmek."
+       ]
+      },
+      {
+       "en": "People in Türkiye drink a lot of tea.",
+       "tr": "Türkiye'de insanlar çok çay içer.",
+       "why": [
+        "people çoğul → drink."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Water ___ at 0 degrees. (freeze)",
+       "answer": "freezes",
+       "why": "sayılamayan → -s"
+      },
+      {
+       "question": "Many birds ___ south in autumn. (fly)",
+       "answer": "fly",
+       "why": "çoğul"
+      },
+      {
+       "question": "The Earth ___ around the Sun. (go)",
+       "answer": "goes",
+       "why": "-es"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The Earth go around the Sun.",
+       "right": "The Earth goes around the Sun.",
+       "why": "Tekil → -es."
+      },
+      {
+       "wrong": "People drinks a lot of tea.",
+       "right": "People drink a lot of tea.",
+       "why": "people çoğul."
+      }
+     ]
+    },
+    {
+     "id": "fc-weather",
+     "title": "It snows on Uludağ in winter. · It doesn't snow in Antalya.",
+     "meaning": "Hava olayları, olumsuz ve soru",
+     "explanation": [
+      "Hava olaylarında özne it'tir: It rains a lot in the Black Sea region. It snows on Uludağ in winter. It's windy on the coast. Türkçede “yağmur yağar” cümlesinin öznesi yoktur; İngilizcede özne olmadan cümle kurulamaz (Rains a lot ✗).",
+      "Olumsuz: doesn't / don't + yalın fiil. It doesn't snow in Antalya. Penguins don't fly. The Moon doesn't make its own light. -s doesn't'a geçer; fiil yalın kalır (doesn't snows ✗).",
+      "Soru: Does / Do + özne + yalın fiil? Does it snow in Bursa? — Yes, it does. Do penguins fly? — No, they don't. Soru kelimesiyle: Where does tea grow? — In Rize. When do leaves fall? — In autumn."
+     ],
+     "formula": [
+      "hava: It rains / It snows / It's windy",
+      "olumsuz: It doesn't snow · Penguins don't fly",
+      "soru: Does it snow …? — Yes, it does."
+     ],
+     "examples": [
+      {
+       "en": "It rains a lot in the Black Sea region.",
+       "tr": "Karadeniz bölgesinde çok yağmur yağar.",
+       "why": [
+        "Hava → it."
+       ]
+      },
+      {
+       "en": "It doesn't snow in Antalya in summer.",
+       "tr": "Antalya'ya yazın kar yağmaz.",
+       "why": [
+        "Olumsuz: doesn't + yalın."
+       ],
+       "chunks": [
+        {
+         "en": "doesn't snow",
+         "tr": "kar yağmaz",
+         "note": "yalın fiil"
+        },
+        {
+         "en": "in summer",
+         "tr": "yazın"
+        }
+       ]
+      },
+      {
+       "en": "Does it snow in Bursa? — Yes, it does.",
+       "tr": "Bursa'ya kar yağar mı? — Evet.",
+       "why": [
+        "Soru ve kısa cevap."
+       ]
+      },
+      {
+       "en": "Where does tea grow in Türkiye? — In Rize.",
+       "tr": "Türkiye'de çay nerede yetişir? — Rize'de.",
+       "why": [
+        "Soru kelimesi + does."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Kışın kar yağar.” İngilizcesi?",
+       "answer": "It snows in winter.",
+       "why": "it şart"
+      },
+      {
+       "question": "Penguins ___ fly. (olumsuz)",
+       "answer": "don't",
+       "why": "çoğul"
+      },
+      {
+       "question": "“Antalya'ya kar yağar mı?” İngilizcesi?",
+       "answer": "Does it snow in Antalya?",
+       "why": "Does + it"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Snows in winter.",
+       "right": "It snows in winter.",
+       "why": "Özne it şart."
+      },
+      {
+       "wrong": "Is it rain a lot in Rize?",
+       "right": "Does it rain a lot in Rize?",
+       "why": "Eylem fiili → Does."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "turkey-facts",
+   "title": "Okuma: Türkiye, dört mevsimli bir ülke",
+   "intro": [
+    "Okuma metni bir turizm broşüründen alınmış gibi yazıldı: Türkiye'nin iklimi, bölgeleri, şehirleri ve insanları hakkında genel bilgiler. Bütün bilgiler her zaman geçerli olduğu için metin geniş zamanla yazılmıştır ve birinci ekranlardaki zıt sıfatları bol bol kullanır.",
+    "Metni üç adımda okuyun: önce başlık ve paragrafların ilk cümleleri (konu ne?), sonra renkli işaretlerle sıfat, fiil ve zaman ifadesi bulma, en son sorular ve doğru / yanlış alıştırması. Yanlış cümleleri düzeltirken doesn't / don't kullanın."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Türkiye is a big country with four seasons.",
+     "tr": "Türkiye dört mevsimli büyük bir ülkedir.",
+     "why": [
+      "with four seasons = dört mevsimli; a big country sıfat + isim."
+     ]
+    },
+    {
+     "en": "It rains every month in the Black Sea region, so the hills are always green.",
+     "tr": "Karadeniz bölgesinde her ay yağmur yağar, bu yüzden tepeler hep yeşildir.",
+     "why": [
+      "every month (edatsız); so = bu yüzden; always be'den sonra."
+     ]
+    },
+    {
+     "en": "Public transport in big cities is cheap and quick.",
+     "tr": "Büyük şehirlerde toplu taşıma ucuz ve hızlıdır.",
+     "why": [
+      "public transport sayılamayan → is; and aynı yön."
+     ]
+    },
+    {
+     "en": "Visitors often say that Turkish people are friendly and very helpful.",
+     "tr": "Ziyaretçiler sık sık Türk insanının cana yakın ve çok yardımsever olduğunu söyler.",
+     "why": [
+      "often fiilden önce; say that + cümle."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "tf-reading",
+     "title": "The south coast is hot and dry in summer, but the east is very cold in winter.",
+     "meaning": "Bilgi metninden bilgi bulmak",
+     "explanation": [
+      "Metnin dört paragrafı dört konuyu anlatır: 1) iklim ve bölgeler (sıcak güney, soğuk doğu, kar), 2) yağmur ve tarım (Karadeniz'de çay ve fındık, batıda zeytin), 3) şehirler ve ulaşım (kalabalık İstanbul, sessiz köyler, ucuz ve hızlı toplu taşıma), 4) insanlar ve çay.",
+      "Sorulara cevap verirken soru kelimesi hangi bilgiyi aradığınızı söyler: What is the weather like …? → sıfat (hot and dry), Where does it snow …? → yer (in Erzurum and Kars), Why …? → sebep (because it rains every month), When …? → zaman (in the morning, in the afternoon and at night).",
+      "What is … like? kalıbı bir şeyin nasıl olduğunu sorar; cevap sıfatlarla verilir: What is public transport like? — It's cheap and quick. like burada “sevmek” değil, “gibi, nasıl” anlamındadır."
+     ],
+     "formula": [
+      "What is … like? → sıfat: It's cheap and quick.",
+      "Where …? → yer · Why …? → because …",
+      "When …? → zaman ifadesi"
+     ],
+     "examples": [
+      {
+       "en": "What is the weather like on the south coast in summer? — It's hot and dry.",
+       "tr": "Güney kıyısında yazın hava nasıl? — Sıcak ve kuru.",
+       "why": [
+        "What … like? → sıfat."
+       ]
+      },
+      {
+       "en": "Why are the hills in the Black Sea region always green? — Because it rains every month.",
+       "tr": "Karadeniz'de tepeler neden hep yeşil? — Çünkü her ay yağmur yağıyor.",
+       "why": [
+        "Why → because."
+       ],
+       "chunks": [
+        {
+         "en": "Why",
+         "tr": "neden"
+        },
+        {
+         "en": "Because",
+         "tr": "çünkü"
+        },
+        {
+         "en": "every month",
+         "tr": "her ay",
+         "note": "edat yok"
+        }
+       ]
+      },
+      {
+       "en": "Farmers there grow tea and hazelnuts.",
+       "tr": "Oradaki çiftçiler çay ve fındık yetiştirir.",
+       "why": [
+        "Çoğul özne → grow."
+       ]
+      },
+      {
+       "en": "Istanbul is a busy and noisy city, but small villages in the mountains are quiet.",
+       "tr": "İstanbul kalabalık ve gürültülü bir şehir ama dağlardaki küçük köyler sessiz.",
+       "why": [
+        "Zıt sıfatlar + but."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "What do farmers grow in the Black Sea region?",
+       "answer": "Tea and hazelnuts.",
+       "why": "metin"
+      },
+      {
+       "question": "What is public transport like in big cities?",
+       "answer": "It's cheap and quick.",
+       "why": "What … like?"
+      },
+      {
+       "question": "When do people drink tea?",
+       "answer": "In the morning, in the afternoon and at night.",
+       "why": "When"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "What is the weather like? — I like it.",
+       "right": "It's hot and dry.",
+       "why": "What … like? nasıl olduğunu sorar."
+      },
+      {
+       "wrong": "Why …? — Because of it rains.",
+       "right": "Because it rains every month.",
+       "why": "because + cümle."
+      }
+     ]
+    },
+    {
+     "id": "tf-correct",
+     "title": "False. It doesn't rain much in the east. It rains a lot in the Black Sea region.",
+     "meaning": "Yanlış cümleleri düzeltmek ve kendi şehrini anlatmak",
+     "explanation": [
+      "Doğru / yanlış alıştırmasında yanlış bir cümleyi iki adımda düzeltin: önce olumsuz yapın (The east isn't hot in winter.), sonra doğru bilgiyi verin (It's very cold.). Fiilli cümlelerde doesn't / don't kullanılır: Farmers in the west don't grow tea. They grow olives.",
+      "Kendi şehriniz hakkında beş gerçek yazarken metnin kalıplarını kullanın: Bursa is a big city in the north-west of Türkiye. It snows on Uludağ in winter. Farmers grow peaches and chestnuts. The city is busy, but the villages are quiet. People eat İskender kebab.",
+      "Yazma kontrol listesi: tekil özneyle fiil -s almış mı? Hava cümlelerinde it var mı? En az bir zıt sıfat çifti ve but var mı? En az bir olumsuz cümle (doesn't / don't) var mı? Ekrandaki yazma kutusu bu maddeleri işaretler."
+     ],
+     "formula": [
+      "yanlış → olumsuz + doğrusu",
+      "şehrim: It snows … · Farmers grow … · … is busy, but …",
+      "kontrol: -s · it · but · doesn't"
+     ],
+     "examples": [
+      {
+       "en": "Istanbul is a quiet city. — False. Istanbul is busy and noisy.",
+       "tr": "İstanbul sessiz bir şehir. — Yanlış. İstanbul kalabalık ve gürültülü.",
+       "why": [
+        "Yanlışı düzelt."
+       ]
+      },
+      {
+       "en": "Farmers in the west don't grow tea. They grow olives.",
+       "tr": "Batıdaki çiftçiler çay yetiştirmez. Zeytin yetiştirir.",
+       "why": [
+        "Olumsuz + doğrusu."
+       ]
+      },
+      {
+       "en": "Bursa is a big city. It snows on Uludağ in winter.",
+       "tr": "Bursa büyük bir şehir. Kışın Uludağ'a kar yağar.",
+       "why": [
+        "Kendi şehrin hakkında gerçekler."
+       ],
+       "chunks": [
+        {
+         "en": "a big city",
+         "tr": "büyük bir şehir"
+        },
+        {
+         "en": "It snows",
+         "tr": "kar yağar",
+         "note": "it şart"
+        }
+       ]
+      },
+      {
+       "en": "The city centre is busy, but the villages are quiet.",
+       "tr": "Şehir merkezi kalabalık ama köyler sessiz.",
+       "why": [
+        "Zıt sıfat + but."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "People make olive oil every spring. Doğru mu?",
+       "answer": "False: every autumn.",
+       "why": "metin"
+      },
+      {
+       "question": "Kendi şehriniz için bir hava cümlesi yazın.",
+       "answer": "It rains a lot in … / It snows in … in winter.",
+       "why": "it"
+      },
+      {
+       "question": "Hangi kelime iki zıt bilgiyi bağlar?",
+       "answer": "but",
+       "why": "bağlaç"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Snows on Uludağ in winter.",
+       "right": "It snows on Uludağ in winter.",
+       "why": "it şart."
+      },
+      {
+       "wrong": "Farmers grows peaches.",
+       "right": "Farmers grow peaches.",
+       "why": "Çoğul → yalın."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "cheap-expensive",
+   "term": "cheap ↔ expensive",
+   "meaning": "ucuz ↔ pahalı",
+   "partOfSpeech": "sıfat çifti",
+   "sourceTerms": [
+    "cheap ↔ expensive"
+   ],
+   "explanation": [
+    "Fiyat bildiren zıt sıfatlar. expensive ünlü sesle başladığı için an alır: an expensive coat. Fazla pahalı (sorun): too expensive."
+   ],
+   "collocations": [
+    {
+     "en": "too expensive",
+     "tr": "fazla pahalı"
+    },
+    {
+     "en": "a cheap ticket",
+     "tr": "ucuz bir bilet"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Simit is cheap, but a taxi is expensive.",
+     "tr": "Simit ucuz ama taksi pahalı."
+    },
+    {
+     "en": "These shoes are too expensive.",
+     "tr": "Bu ayakkabılar fazla pahalı.",
+     "note": "too"
+    },
+    {
+     "en": "The market is cheaper than the mall.",
+     "tr": "Pazar alışveriş merkezinden daha ucuz.",
+     "note": "karşılaştırma (ileri düzey)"
+    }
+   ],
+   "commonMistake": "an cheap yerine a cheap, a expensive yerine an expensive denir."
+  },
+  {
+   "id": "hot-cold",
+   "term": "hot ↔ cold",
+   "meaning": "sıcak ↔ soğuk",
+   "partOfSpeech": "sıfat çifti",
+   "sourceTerms": [
+    "hot ↔ cold"
+   ],
+   "explanation": [
+    "Sıcaklık bildiren zıt sıfatlar. Hava için de kullanılır: It's hot today. Daha yumuşak biçimler: warm (ılık) ↔ cool (serin)."
+   ],
+   "collocations": [
+    {
+     "en": "hot tea",
+     "tr": "sıcak çay"
+    },
+    {
+     "en": "a cold winter",
+     "tr": "soğuk bir kış"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Summers in Antalya are hot.",
+     "tr": "Antalya'da yazlar sıcak."
+    },
+    {
+     "en": "It's very cold on Uludağ in January.",
+     "tr": "Ocakta Uludağ çok soğuk.",
+     "note": "hava → it"
+    },
+    {
+     "en": "The soup is hot, but the salad is cold.",
+     "tr": "Çorba sıcak ama salata soğuk."
+    }
+   ],
+   "commonMistake": "Hava için It's cold denir; Türkçedeki gibi öznesiz Cold today ✗."
+  },
+  {
+   "id": "big-small",
+   "term": "big ↔ small",
+   "meaning": "büyük ↔ küçük",
+   "partOfSpeech": "sıfat çifti",
+   "sourceTerms": [
+    "big ↔ small"
+   ],
+   "explanation": [
+    "Boyut bildiren zıt sıfatlar. Eş anlamlıları: large (büyük), little (küçük). Sıfat isimden önce: a big city."
+   ],
+   "collocations": [
+    {
+     "en": "a big city",
+     "tr": "büyük bir şehir"
+    },
+    {
+     "en": "a small village",
+     "tr": "küçük bir köy"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Istanbul is a big city. Gölyazı is a small village.",
+     "tr": "İstanbul büyük bir şehir. Gölyazı küçük bir köy."
+    },
+    {
+     "en": "Their garden is big, but their house is small.",
+     "tr": "Bahçeleri büyük ama evleri küçük."
+    },
+    {
+     "en": "My flat isn't very big.",
+     "tr": "Dairem pek büyük değil.",
+     "note": "not very"
+    }
+   ],
+   "commonMistake": "two bigs houses yerine two big houses denir."
+  },
+  {
+   "id": "fast-quick-slow",
+   "term": "fast / quick ↔ slow",
+   "meaning": "hızlı, çabuk ↔ yavaş",
+   "partOfSpeech": "sıfat çifti",
+   "sourceTerms": [
+    "fast / quick ↔ slow"
+   ],
+   "explanation": [
+    "fast ve quick eş anlamlıdır; fast daha çok hareket hızı (a fast car), quick kısa süren iş (a quick question) için. Zıttı slow. Zarfları: fast, quickly, slowly."
+   ],
+   "collocations": [
+    {
+     "en": "a fast train",
+     "tr": "hızlı bir tren"
+    },
+    {
+     "en": "a quick shower",
+     "tr": "kısa bir duş"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The metro is quick, but the old bus is slow.",
+     "tr": "Metro hızlı ama eski otobüs yavaş."
+    },
+    {
+     "en": "My son is a fast runner.",
+     "tr": "Oğlum hızlı bir koşucu."
+    },
+    {
+     "en": "Can I ask a quick question?",
+     "tr": "Kısa bir soru sorabilir miyim?"
+    }
+   ],
+   "commonMistake": "He drives fastly yerine He drives fast denir."
+  },
+  {
+   "id": "early-late",
+   "term": "early ↔ late",
+   "meaning": "erken ↔ geç",
+   "partOfSpeech": "sıfat / zarf çifti",
+   "sourceTerms": [
+    "early ↔ late"
+   ],
+   "explanation": [
+    "Zaman bildiren zıt kelimeler; hem sıfat hem zarf olarak aynı kalır: an early train / get up early. late'in zarfı da late'tir (lately = son zamanlarda, farklı anlam)."
+   ],
+   "collocations": [
+    {
+     "en": "get up early",
+     "tr": "erken kalkmak"
+    },
+    {
+     "en": "be late for work",
+     "tr": "işe geç kalmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The baker gets up early.",
+     "tr": "Fırıncı erken kalkar."
+    },
+    {
+     "en": "I'm always late for school.",
+     "tr": "Okula hep geç kalıyorum."
+    },
+    {
+     "en": "The last bus is very late.",
+     "tr": "Son otobüs çok geç."
+    }
+   ],
+   "commonMistake": "I'm late to work yerine I'm late for work denir."
+  },
+  {
+   "id": "easy-difficult",
+   "term": "easy ↔ difficult",
+   "meaning": "kolay ↔ zor",
+   "partOfSpeech": "sıfat çifti",
+   "sourceTerms": [
+    "easy ↔ difficult"
+   ],
+   "explanation": [
+    "Zorluk bildiren zıt sıfatlar. difficult yerine hard de kullanılır. easy'nin zarfı easily'dir."
+   ],
+   "collocations": [
+    {
+     "en": "an easy exercise",
+     "tr": "kolay bir alıştırma"
+    },
+    {
+     "en": "a difficult question",
+     "tr": "zor bir soru"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The first exercise is easy; the last one is difficult.",
+     "tr": "İlk alıştırma kolay; sonuncusu zor."
+    },
+    {
+     "en": "Turkish grammar is difficult for foreigners.",
+     "tr": "Türkçe dil bilgisi yabancılar için zor."
+    },
+    {
+     "en": "She finds the answers easily.",
+     "tr": "Cevapları kolayca bulur.",
+     "note": "zarf"
+    }
+   ],
+   "commonMistake": "a easy exercise yerine an easy exercise denir."
+  },
+  {
+   "id": "full-empty",
+   "term": "full ↔ empty",
+   "meaning": "dolu ↔ boş",
+   "partOfSpeech": "sıfat çifti",
+   "sourceTerms": [
+    "full ↔ empty"
+   ],
+   "explanation": [
+    "Doluluk bildiren zıt sıfatlar. full of + isim: full of people (insan dolu)."
+   ],
+   "collocations": [
+    {
+     "en": "full of people",
+     "tr": "insan dolu"
+    },
+    {
+     "en": "an empty bottle",
+     "tr": "boş bir şişe"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The bus is full in the morning.",
+     "tr": "Otobüs sabahları dolu."
+    },
+    {
+     "en": "The fridge is empty. Let's go to the market.",
+     "tr": "Buzdolabı boş. Pazara gidelim."
+    },
+    {
+     "en": "The park is full of children on Sundays.",
+     "tr": "Park pazarları çocuk dolu.",
+     "note": "full of"
+    }
+   ],
+   "commonMistake": "full with people yerine full of people denir."
+  },
+  {
+   "id": "open-closed",
+   "term": "open ↔ closed",
+   "meaning": "açık ↔ kapalı",
+   "partOfSpeech": "sıfat çifti",
+   "sourceTerms": [
+    "open ↔ closed"
+   ],
+   "explanation": [
+    "Dükkân, kapı, pencere için. open hem sıfat hem fiil; zıt sıfat closed'dır (close fiil: The shop closes at nine)."
+   ],
+   "collocations": [
+    {
+     "en": "open 24 hours",
+     "tr": "24 saat açık"
+    },
+    {
+     "en": "closed on Mondays",
+     "tr": "pazartesileri kapalı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Banks are closed on Sundays.",
+     "tr": "Bankalar pazarları kapalı."
+    },
+    {
+     "en": "The bakery is open early.",
+     "tr": "Fırın erkenden açık."
+    },
+    {
+     "en": "Is the pharmacy open now?",
+     "tr": "Eczane şu an açık mı?"
+    }
+   ],
+   "commonMistake": "The shop is close yerine The shop is closed denir."
+  },
+  {
+   "id": "noisy-quiet",
+   "term": "noisy ↔ quiet",
+   "meaning": "gürültülü ↔ sessiz",
+   "partOfSpeech": "sıfat çifti",
+   "sourceTerms": [
+    "noisy ↔ quiet"
+   ],
+   "explanation": [
+    "Ses bildiren zıt sıfatlar. quiet aynı zamanda busy'nin (kalabalık) zıddıdır. Zarfı quietly."
+   ],
+   "collocations": [
+    {
+     "en": "a quiet street",
+     "tr": "sessiz bir sokak"
+    },
+    {
+     "en": "noisy neighbours",
+     "tr": "gürültülü komşular"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Our street is quiet at night.",
+     "tr": "Sokağımız gece sessiz."
+    },
+    {
+     "en": "The city centre is noisy.",
+     "tr": "Şehir merkezi gürültülü."
+    },
+    {
+     "en": "Please talk quietly.",
+     "tr": "Lütfen sessiz konuşun.",
+     "note": "zarf"
+    }
+   ],
+   "commonMistake": "quite (oldukça) ile quiet (sessiz) karıştırılmamalı."
+  },
+  {
+   "id": "near-far",
+   "term": "near ↔ far",
+   "meaning": "yakın ↔ uzak",
+   "partOfSpeech": "sıfat / edat çifti",
+   "sourceTerms": [
+    "near ↔ far"
+   ],
+   "explanation": [
+    "Uzaklık bildirir. near + yer (near my flat); far from + yer (far from my flat). far genellikle soru ve olumsuzda ya da be'den sonra kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "near here",
+     "tr": "buraya yakın"
+    },
+    {
+     "en": "far from the city",
+     "tr": "şehirden uzak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The market is near my flat.",
+     "tr": "Pazar daireme yakın."
+    },
+    {
+     "en": "My office is far from my house.",
+     "tr": "Ofisim evimden uzak.",
+     "note": "far from"
+    },
+    {
+     "en": "Is it far? — No, it's quite near.",
+     "tr": "Uzak mı? — Hayır, oldukça yakın."
+    }
+   ],
+   "commonMistake": "far my house yerine far from my house denir."
+  },
+  {
+   "id": "safe-dangerous",
+   "term": "safe ↔ dangerous",
+   "meaning": "güvenli ↔ tehlikeli",
+   "partOfSpeech": "sıfat çifti",
+   "sourceTerms": [
+    "safe ↔ dangerous"
+   ],
+   "explanation": [
+    "Güvenlik bildiren zıt sıfatlar. Zarf: safely (güvenle). Tabelada: DANGER! (tehlike)."
+   ],
+   "collocations": [
+    {
+     "en": "a safe place",
+     "tr": "güvenli bir yer"
+    },
+    {
+     "en": "a dangerous road",
+     "tr": "tehlikeli bir yol"
+    }
+   ],
+   "examples": [
+    {
+     "en": "This road is dangerous at night.",
+     "tr": "Bu yol gece tehlikeli."
+    },
+    {
+     "en": "Our neighbourhood is safe for children.",
+     "tr": "Mahallemiz çocuklar için güvenli."
+    },
+    {
+     "en": "Drive safely!",
+     "tr": "Güvenle sür!",
+     "note": "zarf"
+    }
+   ],
+   "commonMistake": "It's danger yerine It's dangerous denir (danger isim)."
+  },
+  {
+   "id": "young-new-old",
+   "term": "young ↔ old · new ↔ old",
+   "meaning": "genç ↔ yaşlı · yeni ↔ eski",
+   "partOfSpeech": "sıfat çiftleri",
+   "sourceTerms": [
+    "young ↔ old · new ↔ old"
+   ],
+   "explanation": [
+    "old iki zıtlığa girer: insanlar için young ↔ old, eşyalar için new ↔ old. brand new = yepyeni."
+   ],
+   "collocations": [
+    {
+     "en": "brand new",
+     "tr": "yepyeni"
+    },
+    {
+     "en": "an old house",
+     "tr": "eski bir ev"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My grandmother is old, but her phone is new.",
+     "tr": "Babaannem yaşlı ama telefonu yeni."
+    },
+    {
+     "en": "My grandfather is old, but he feels young.",
+     "tr": "Dedem yaşlı ama kendini genç hissediyor."
+    },
+    {
+     "en": "We live in an old house.",
+     "tr": "Eski bir evde oturuyoruz.",
+     "note": "an + ünlü"
+    }
+   ],
+   "commonMistake": "My car is young yerine My car is new denir."
+  },
+  {
+   "id": "quickly-slowly",
+   "term": "quickly · slowly",
+   "meaning": "hızlıca · yavaşça",
+   "partOfSpeech": "zarf",
+   "sourceTerms": [
+    "quickly · slowly"
+   ],
+   "explanation": [
+    "Sıfat + -ly ile yapılan zarflar; işin nasıl yapıldığını anlatır ve fiilden sonra gelir. Diğerleri: carefully, quietly, easily, badly."
+   ],
+   "collocations": [
+    {
+     "en": "speak slowly",
+     "tr": "yavaş konuşmak"
+    },
+    {
+     "en": "eat quickly",
+     "tr": "hızlı yemek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Please speak slowly.",
+     "tr": "Lütfen yavaş konuşun."
+    },
+    {
+     "en": "Come quickly! The bus is here.",
+     "tr": "Çabuk gel! Otobüs geldi."
+    },
+    {
+     "en": "Tortoises move slowly.",
+     "tr": "Kaplumbağalar yavaş hareket eder."
+    }
+   ],
+   "commonMistake": "Please speak slow yerine Please speak slowly denir."
+  },
+  {
+   "id": "fast-hard-adv",
+   "term": "fast · hard (zarf)",
+   "meaning": "hızlı · sıkı, çok",
+   "partOfSpeech": "düzensiz zarf",
+   "sourceTerms": [
+    "fast · hard (zarf)"
+   ],
+   "explanation": [
+    "fast ve hard zarf olarak da aynı kalır. fastly yoktur; hardly ise “neredeyse hiç” demektir. good'un zarfı well'dir."
+   ],
+   "collocations": [
+    {
+     "en": "run fast",
+     "tr": "hızlı koşmak"
+    },
+    {
+     "en": "work hard",
+     "tr": "çok çalışmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My son runs fast.",
+     "tr": "Oğlum hızlı koşar."
+    },
+    {
+     "en": "Farmers work hard in summer.",
+     "tr": "Çiftçiler yazın çok çalışır."
+    },
+    {
+     "en": "My aunt cooks very well.",
+     "tr": "Teyzem çok iyi yemek yapar.",
+     "note": "good → well"
+    }
+   ],
+   "commonMistake": "She works hardly (neredeyse hiç çalışmaz!) yerine She works hard denir."
+  },
+  {
+   "id": "careful-driver",
+   "term": "a fast driver · drives fast",
+   "meaning": "hızlı bir şoför · hızlı sürer",
+   "partOfSpeech": "sıfat ↔ zarf",
+   "sourceTerms": [
+    "a fast driver · drives fast"
+   ],
+   "explanation": [
+    "Aynı kelimenin sıfat ve zarf kullanımı: sıfat ismi (driver), zarf fiili (drives) anlatır. a careful driver → drives carefully."
+   ],
+   "collocations": [
+    {
+     "en": "a careful driver",
+     "tr": "dikkatli bir şoför"
+    },
+    {
+     "en": "drive carefully",
+     "tr": "dikkatli sürmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "He's a careful driver. He drives carefully.",
+     "tr": "Dikkatli bir şoför. Dikkatli sürer."
+    },
+    {
+     "en": "She's a fast driver. She drives fast.",
+     "tr": "Hızlı bir şoför. Hızlı sürer."
+    },
+    {
+     "en": "Please drive carefully in the snow.",
+     "tr": "Lütfen karda dikkatli sürün."
+    }
+   ],
+   "commonMistake": "He drives careful yerine He drives carefully denir."
+  },
+  {
+   "id": "snows-winter",
+   "term": "It snows in winter.",
+   "meaning": "Kışın kar yağar.",
+   "partOfSpeech": "genel gerçek",
+   "sourceTerms": [
+    "It snows in winter."
+   ],
+   "explanation": [
+    "Hava olayları it ile söylenir: It snows, It rains. Olumsuz: It doesn't snow. Soru: Does it snow …?"
+   ],
+   "collocations": [
+    {
+     "en": "It rains a lot",
+     "tr": "çok yağmur yağar"
+    },
+    {
+     "en": "It doesn't snow",
+     "tr": "kar yağmaz"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It snows on Uludağ in winter.",
+     "tr": "Kışın Uludağ'a kar yağar."
+    },
+    {
+     "en": "It doesn't snow in Antalya.",
+     "tr": "Antalya'ya kar yağmaz."
+    },
+    {
+     "en": "Does it snow in Bursa? — Yes, it does.",
+     "tr": "Bursa'ya kar yağar mı? — Evet."
+    }
+   ],
+   "commonMistake": "Snows in winter yerine It snows in winter denir."
+  },
+  {
+   "id": "earth-sun",
+   "term": "The Earth goes around the Sun.",
+   "meaning": "Dünya Güneş'in etrafında döner.",
+   "partOfSpeech": "genel gerçek",
+   "sourceTerms": [
+    "The Earth goes around the Sun."
+   ],
+   "explanation": [
+    "Bilimsel gerçek; tekil özne → goes. go around = etrafında dönmek."
+   ],
+   "collocations": [
+    {
+     "en": "go around",
+     "tr": "etrafında dönmek"
+    },
+    {
+     "en": "the Moon",
+     "tr": "Ay"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The Earth goes around the Sun.",
+     "tr": "Dünya Güneş'in etrafında döner."
+    },
+    {
+     "en": "The Moon goes around the Earth.",
+     "tr": "Ay Dünya'nın etrafında döner."
+    },
+    {
+     "en": "The Earth takes a year to go around the Sun.",
+     "tr": "Dünya'nın Güneş'in etrafında dönmesi bir yıl sürer."
+    }
+   ],
+   "commonMistake": "The Earth go around yerine The Earth goes around denir."
+  },
+  {
+   "id": "water-boils",
+   "term": "Water boils at 100 degrees.",
+   "meaning": "Su 100 derecede kaynar.",
+   "partOfSpeech": "genel gerçek",
+   "sourceTerms": [
+    "Water boils at 100 degrees."
+   ],
+   "explanation": [
+    "water sayılamayan isimdir, tekil sayılır: boils, freezes. at + derece."
+   ],
+   "collocations": [
+    {
+     "en": "boil",
+     "tr": "kaynamak"
+    },
+    {
+     "en": "freeze",
+     "tr": "donmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Water boils at 100 degrees.",
+     "tr": "Su 100 derecede kaynar."
+    },
+    {
+     "en": "Water freezes at 0 degrees.",
+     "tr": "Su 0 derecede donar."
+    },
+    {
+     "en": "Ice melts in the sun.",
+     "tr": "Buz güneşte erir."
+    }
+   ],
+   "commonMistake": "Water boil yerine Water boils denir."
+  },
+  {
+   "id": "sun-sets",
+   "term": "The sun sets in the west.",
+   "meaning": "Güneş batıdan batar.",
+   "partOfSpeech": "genel gerçek",
+   "sourceTerms": [
+    "The sun sets in the west."
+   ],
+   "explanation": [
+    "set = batmak; zıttı come up / rise (doğmak). Kışın güneş erken batar: In winter the sun sets early."
+   ],
+   "collocations": [
+    {
+     "en": "sunset",
+     "tr": "gün batımı"
+    },
+    {
+     "en": "come up in the east",
+     "tr": "doğudan doğmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The sun sets in the west.",
+     "tr": "Güneş batıdan batar."
+    },
+    {
+     "en": "In winter the sun sets early.",
+     "tr": "Kışın güneş erken batar."
+    },
+    {
+     "en": "The sun comes up in the east every morning.",
+     "tr": "Güneş her sabah doğudan doğar."
+    }
+   ],
+   "commonMistake": "The sun set in the west yerine The sun sets in the west denir."
+  }
+ ]
+}

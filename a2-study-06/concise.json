@@ -1,0 +1,485 @@
+{
+ "version": 1,
+ "chapters": [
+  {
+   "screenId": "warm",
+   "intro": "Bu haftayı kısa sorularla konuş: Is it warm or cold? Is your flat near or far? Cevaba bir cümle daha ekle.",
+   "patterns": [
+    {
+     "id": "wm-questions",
+     "summary": [
+      "or sorusunun cevabı bir seçenektir: It's near.",
+      "Cevaba bir ayrıntı ekle.",
+      "quite = oldukça · but = ama."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "wm-plan",
+     "summary": [
+      "1. gün: sıfatlar, gerçekler, sıklık, hafta sonu.",
+      "2. gün: tabelalar, yasak, gerek yok, kurallar.",
+      "Son bölüm: tavsiye, olasılık, e-posta."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "opposites",
+   "intro": "Sıfatı zıttıyla öğren: cheap ↔ expensive, early ↔ late. Yeri: a cheap ticket / The ticket is cheap. Zıt bilgi → but, aynı yön → and. Fazla (sorun) → too.",
+   "patterns": [
+    {
+     "id": "op-pairs",
+     "summary": [
+      "Çiftler: cheap ↔ expensive, early ↔ late, full ↔ empty, near ↔ far.",
+      "Sıfat isimden önce ya da be'den sonra.",
+      "old: young ↔ old (insan), new ↔ old (eşya)."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "op-but-too",
+     "summary": [
+      "Zıt bilgi → but, aynı yön → and.",
+      "very, quite, a bit, not very sıfatın gücünü ayarlar.",
+      "too = fazla, bir sorun var."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "fast-slow",
+   "intro": "Sıfat + isim: a quick lunch. Fiil + zarf: eat quickly. Düzensiz: fast → fast, hard → hard, good → well. fast ≈ quick ↔ slow.",
+   "patterns": [
+    {
+     "id": "fs-adverbs",
+     "summary": [
+      "Zarf = sıfat + -ly: quickly, slowly, carefully.",
+      "Düzensiz: fast, hard, well.",
+      "Zarf fiilden (ve nesneden) sonra gelir."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "fs-fast-quick",
+     "summary": [
+      "fast ≈ quick ↔ slow.",
+      "fast: hareket hızı · quick: kısa süren iş.",
+      "Kibar rica: Could you speak more slowly, please?"
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "facts",
+   "intro": "Genel gerçek = geniş zaman. Tekil özne → -s (The Earth goes …), çoğul → yalın (Bees make …). Hava: It snows / It rains. Olumsuz: doesn't / don't + yalın fiil.",
+   "patterns": [
+    {
+     "id": "fc-present",
+     "summary": [
+      "Genel gerçek → geniş zaman.",
+      "Tekil / sayılamayan → -s; çoğul → yalın.",
+      "people çoğuldur."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "fc-weather",
+     "summary": [
+      "Hava olaylarının öznesi it'tir.",
+      "Olumsuz: doesn't / don't + yalın.",
+      "Soru: Does it …? — Yes, it does."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "turkey-facts",
+   "intro": "Bilgi metni geniş zamanla yazılır. Sıfatları, fiilleri ve zaman ifadelerini işaretle. Yanlışı düzelt: It doesn't … · It … (doğrusu).",
+   "patterns": [
+    {
+     "id": "tf-reading",
+     "summary": [
+      "Her paragraf bir konu anlatır.",
+      "Soru kelimesi aranacak bilgiyi söyler.",
+      "What is … like? → sıfatla cevap."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "tf-correct",
+     "summary": [
+      "Yanlışı düzelt: olumsuz cümle + doğru bilgi.",
+      "Şehrini anlat: it snows, farmers grow, busy but quiet.",
+      "Kontrol listesi: -s, it, but, doesn't."
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "time-expressions",
+   "intro": "every day (edat yok) · in the evenings / in winter / in May · on Sundays · at 8 o'clock / at night / at the weekend. Zaman ifadesi sonda ya da başta (virgülle).",
+   "patterns": [
+    {
+     "id": "te-prepositions",
+     "summary": [
+      "every → edat yok.",
+      "in: günün bölümü, mevsim, ay, yıl.",
+      "on: günler · at: saat, night, the weekend."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "te-position",
+     "summary": [
+      "Zaman ifadesi sonda ya da başta (virgülle).",
+      "every other day, every two weeks, on weekdays.",
+      "Soru: What do you do on Sundays?"
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "frequency",
+   "intro": "always → usually → often → sometimes → rarely → never. Zarf ana fiilden önce, be'den sonra. once / twice / three times a week sonda. Soru: How often …?",
+   "patterns": [
+    {
+     "id": "fq-adverbs",
+     "summary": [
+      "Ölçek: always, usually, often, sometimes, rarely, never.",
+      "Zarf ana fiilden önce, be'den sonra.",
+      "never yanına not almaz."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "fq-expressions",
+     "summary": [
+      "once / twice / … times a week (sonda).",
+      "How often do you …?",
+      "from time to time = zaman zaman."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "weekend",
+   "intro": "Soru: What do you do at the weekend? Cevap: On Saturday mornings I usually … On Sundays I … · Hafta içi ile karşılaştır: On weekdays I …, but at the weekend …",
+   "patterns": [
+    {
+     "id": "wk-talk",
+     "summary": [
+      "What do you do at the weekend?",
+      "Günün bölümleriyle düzenle: On Saturday mornings …",
+      "Başkası için -s: He goes fishing."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "wk-compare",
+     "summary": [
+      "Karşılaştır: On weekdays …, but at the weekend …",
+      "Zarflar ve sayı ifadeleri ekle.",
+      "Duyguyla bitir: I love … because …"
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "dialogue-gap",
+   "intro": "I / you / we / they → yalın · he / she / it → -s (has, goes, studies). Olumsuz: don't / doesn't + yalın. Soru: Do / Does + özne + yalın? Kısa cevap: Yes, she does.",
+   "patterns": [
+    {
+     "id": "dg-persons",
+     "summary": [
+      "Sadece he / she / it ile -s.",
+      "don't / doesn't + yalın fiil.",
+      "Do / Does + özne + yalın? Kısa cevapta yardımcı fiil."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "dg-strategy",
+     "summary": [
+      "Önceki kelime özneyi, ? soru olduğunu söyler.",
+      "Cevap sorunun yardımcı fiiliyle.",
+      "4 sık hatayı tanı ve düzelt."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "close-day1",
+   "intro": "Kendini değerlendir (I can …), kısa kontrolü çöz, ödev: şehrinle ilgili 5 gerçek, bir aile üyesinin hafta sonu, bir tabela.",
+   "patterns": [
+    {
+     "id": "cd-review",
+     "summary": [
+      "Sıfat + but, zarf -ly, genel gerçek it ile.",
+      "every / in / on / at; zarf fiilden önce.",
+      "Şahsa göre çekim: works / doesn't work / Does … work?"
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "cd-homework",
+     "summary": [
+      "Şehrin: beş gerçek (it, -s, but).",
+      "Bir aile üyesinin hafta sonu: -s ve zarflar.",
+      "Bir tabela not et: yarın kullanılacak."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "warm3",
+   "intro": "Dünün kalıpları, yeni sorular: What do you usually …? How often do you …? Tell me a fact about … Bugün: tabelalar → kurallar → tavsiye.",
+   "patterns": [
+    {
+     "id": "w3-recall",
+     "summary": [
+      "Soruda hangi zarf varsa cevapta da kullan.",
+      "How often → zarf ya da sayı ifadesi.",
+      "Kısa cevap + ayrıntı."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "w3-plan",
+     "summary": [
+      "Tabelalar → yasak cümleleri.",
+      "mustn't (yasak) ≠ don't have to (gerek yok).",
+      "Sonra: tavsiye, olasılık, e-posta."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "signs",
+   "intro": "Tabela kalıpları: KEEP OFF / TURN OFF (emir) · DO NOT + fiil · NO + isim / -ing · BEWARE OF + isim · CAUTION · OUT OF ORDER · STAFF ONLY · PUSH / PULL.",
+   "patterns": [
+    {
+     "id": "sg-patterns",
+     "summary": [
+      "Emir: KEEP OFF / TURN OFF / MIND.",
+      "DO NOT + fiil · NO + isim / -ing.",
+      "BEWARE OF · CAUTION · OUT OF ORDER · STAFF ONLY."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "sg-explain",
+     "summary": [
+      "Üç bilgi: It says … · You see it … · It means …",
+      "on a bus · in a park · in a hospital.",
+      "Türkçe tabelayı kalıpla çevir."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "mustnt",
+   "intro": "Yasak: You mustn't / can't + yalın fiil · … is not allowed. Tavsiye: You shouldn't … mustn't her kişiyle aynı, -s ve to almaz. Soru: Can I park here? — No, you can't.",
+   "patterns": [
+    {
+     "id": "mn-forms",
+     "summary": [
+      "mustn't: kural, yasak.",
+      "can't: izin yok (konuşma).",
+      "… is / are not allowed: resmî."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "mn-shouldnt",
+     "summary": [
+      "Kural varsa mustn't / can't.",
+      "Sadece öğütse shouldn't.",
+      "Tabelayı cümleye çevir: NO X → You mustn't X."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "dont-have-to",
+   "intro": "have to / has to = zorunda · don't / doesn't have to = zorunda değil, gerek yok · mustn't = yasak. Soru: Do I have to …? — No, you don't.",
+   "patterns": [
+    {
+     "id": "dh-have-to",
+     "summary": [
+      "have to / has to = zorunda.",
+      "don't / doesn't have to = gerek yok.",
+      "Do I have to …? — No, you don't."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "dh-contrast",
+     "summary": [
+      "mustn't = yasak · don't have to = gerek yok.",
+      "Test: İstersen yapabilir misin?",
+      "İkisi bir cümlede: You mustn't …, but you don't have to …"
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "rules",
+   "intro": "Kuralları üç soruyla düzenle: Ne zorunlu? (have to) Ne yasak? (mustn't / can't) Ne serbest? (don't have to / can). Kendi kuralların için we / I kullan.",
+   "patterns": [
+    {
+     "id": "rl-three-questions",
+     "summary": [
+      "Üç soru: zorunlu, yasak, serbest.",
+      "we / I ile kendi kuralların.",
+      "Başkası için has to."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "rl-write",
+     "summary": [
+      "Her alan için üç kural: zorunlu, yasak, serbest.",
+      "Kalıpları karıştır.",
+      "Hayal evinde can ve don't have to."
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "problems",
+   "intro": "Sorun: I'm always … / I can't … / I spend too much … · İstek: What should I do? What do you suggest? · Tavsiye: You should / shouldn't … · Why don't you …? · You can … · Don't …",
+   "patterns": [
+    {
+     "id": "pr-ask",
+     "summary": [
+      "Sorun: always, can't, too much.",
+      "İstek: What should I do? What do you suggest?",
+      "Kibar giriş: Can I ask you something?"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "pr-give",
+     "summary": [
+      "should / shouldn't + yalın fiil.",
+      "Yumuşak: Why don't you …? · You can … · Try to …",
+      "Cevap: That's a good idea! Thanks."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "advice-practice",
+   "intro": "Sorun + sebep söyle. Tavsiyede kalıp değiştir: should · Why don't you …? · You can … Önce soru sorabilirsin: What time do you …? Cevap: Good idea! / I'll try that.",
+   "patterns": [
+    {
+     "id": "ap-conversation",
+     "summary": [
+      "Sorun + sebep söyle.",
+      "Önce soru, sonra tavsiye.",
+      "Kalıpları değiştir; cevap ver."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ap-places",
+     "summary": [
+      "Ev: temizlik, yemek, komşular.",
+      "Okul: geç kalma, dil bilgisi, kelimeler.",
+      "İş ve para: ağrı, yoğunluk, harcama."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "possibility",
+   "intro": "can = mümkün (You can find it in Ulus.) · might / may = belki -ebilir (It might rain.) · might not = belki -meyebilir (She might not like it.) · maybe + normal cümle.",
+   "patterns": [
+    {
+     "id": "ps-might",
+     "summary": [
+      "might / may = belki -ebilir.",
+      "might not = belki -meyebilir.",
+      "maybe + normal cümle."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ps-can",
+     "summary": [
+      "can = mümkün, imkân.",
+      "Genel olasılık: It can be very cold.",
+      "Where can I find …?"
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "advice-email",
+   "intro": "Bölümler: Dear … , · Thanks for your e-mail. I'm sorry to hear … · First, you should … Why don't you …? You can … Finally, you shouldn't … · It might … You can do it! · Good luck! Best wishes,",
+   "patterns": [
+    {
+     "id": "em-parts",
+     "summary": [
+      "Selamlama + teşekkür + anlayış.",
+      "3–4 tavsiye: First … Finally …",
+      "Olasılık, cesaret, kapanış, imza."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "em-write",
+     "summary": [
+      "Önce plan: sorun, tavsiyeler, olasılık.",
+      "Kontrol listesini uygula.",
+      "Erken bitirene ikinci konu."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "close",
+   "intro": "Kendini değerlendir, son kontrolü çöz. Ödev: e-postayı bitir, dört kural yaz (have to · mustn't · don't have to · can), üç tabela yaz, sesli tekrar et.",
+   "patterns": [
+    {
+     "id": "cl-review",
+     "summary": [
+      "1. gün: sıfatlar, gerçekler, sıklık, hafta sonu.",
+      "2. gün: tabelalar, kurallar, tavsiye, olasılık, e-posta.",
+      "Karışan çiftleri tekrar et."
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "cl-homework",
+     "summary": [
+      "E-postayı bitir ve gönder.",
+      "Dört kural, dört kalıp.",
+      "Üç tabela + sesli tekrar."
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  }
+ ]
+}
