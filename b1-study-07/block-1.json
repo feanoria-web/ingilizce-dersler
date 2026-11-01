@@ -1,0 +1,2402 @@
+{
+ "version": 1,
+ "block": 1,
+ "chapters": [
+  {
+   "screenId": "warm",
+   "title": "Isınma: alışveriş hikâyeleri ve iki günün planı",
+   "intro": [
+    "Bu ders bir önceki B1 dersinin bıraktığı yerden başlar. 6. derste alışveriş tercihlerimizi (mağaza mı internet mi, nakit mi taksit mi) ve gıda etiketlerini konuştuk; bu yüzden onları tekrar etmiyoruz. Bu iki günde alışverişin içine giriyoruz: pazarlık, ödeme, internetten sipariş, memnuniyet ve şikâyet. Isınmadaki sohbet kartları, her birine bir giriş yapacak şekilde seçildi: pazarda daha düşük fiyat istemek pazarlığa, internetten son alınan şey siparişe, mağazaya geri götürülen ütü şikâyete, anketler anket konusuna, Atatürk'ün okul yılları da ikinci bölümdeki okumaya hazırlıktır.",
+    "Kartlardaki soruların çoğu deneyim sorar: Have you ever …? Bu yapı present perfect'tir ve hayatımızın herhangi bir anında olmuş bir deneyimi sorar. Cevabın ayrıntısı ise past simple ile verilir: Yes, at the Sunday market. The man gave me the cherries a bit cheaper. B1 düzeyinde beklenen, tek kelimelik cevapta kalmamak; bir bilgi ve bir ayrıntı vermek, karşıdakinin de bir takip sorusu sormasıdır. Bu küçük alışkanlık iki gün boyunca bütün konuşma etkinliklerinin temelidir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Where do you usually buy your clothes?",
+     "tr": "Kıyafetlerini genellikle nereden alırsın?",
+     "why": [
+      "Where + do + you + usually + buy: alışkanlık sorusu; usually yalın fiilden önce."
+     ]
+    },
+    {
+     "en": "Yes, at the Sunday market. The man gave me the cherries a bit cheaper.",
+     "tr": "Evet, pazar pazarında. Adam kirazları biraz daha ucuza verdi.",
+     "why": [
+      "gave me the cherries: give + kişi + şey. a bit cheaper = biraz daha ucuza."
+     ]
+    },
+    {
+     "en": "A phone case. It arrived in two days, but the colour was different.",
+     "tr": "Bir telefon kılıfı. İki günde geldi ama rengi farklıydı.",
+     "why": [
+      "arrive in two days = iki günde gelmek (süre). but beklenmedik bir sorunu ekler."
+     ]
+    },
+    {
+     "en": "Have you ever taken something back to a shop?",
+     "tr": "Hiç bir şeyi mağazaya geri götürdün mü?",
+     "why": [
+      "take something back = bir şeyi geri götürmek (iade için). taken, take fiilinin V3 hâli."
+     ]
+    },
+    {
+     "en": "Only short ones. If it has more than ten questions, I close it.",
+     "tr": "Sadece kısa olanları. On sorudan fazlası varsa kapatırım.",
+     "why": [
+      "ones = surveys (tekrarı önler). If + present simple, present simple: genel bir alışkanlık koşulu."
+     ]
+    },
+    {
+     "en": "He went to military schools, and a teacher gave him the name Kemal.",
+     "tr": "Askerî okullara gitti ve bir öğretmen ona Kemal adını verdi.",
+     "why": [
+      "give someone a name = birine ad vermek. Bu bilgi ikinci bölümdeki okumada ayrıntılı geçer."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "wm-have-you-ever",
+     "title": "Have you ever …? — Yes, once. / No, never.",
+     "meaning": "Present perfect ile deneyim sormak, past simple ile ayrıntı vermek",
+     "explanation": [
+      "Have you ever + V3 (fiilin üçüncü hâli) kalıbı hayatın herhangi bir anındaki deneyimi sorar; zaman belli değildir: Have you ever taken something back to a shop? (Hiç bir şeyi mağazaya geri götürdün mü?) Cevap kısa olabilir: Yes, I have. / Yes, once. / No, never. / No, I haven't. Türkçede “hiç … mi?” diye sorduğumuz her deneyim sorusu bu kalıba uyar.",
+      "Deneyimden söz edip ayrıntıya geçince zaman değişir. Ne zaman, nerede, ne oldu soruları belirli bir geçmiş zamana işaret eder ve past simple ister: Yes, I have. I took an iron back last year. It leaked the first time I used it. Bu geçiş B1'in en önemli zaman becerilerinden biridir: genel deneyim present perfect, belirli olay past simple.",
+      "Sık yapılan hata, belirli bir zaman ifadesini present perfect ile kullanmaktır: I have bought it last week yanlıştır; last week, yesterday, in 2020 gibi ifadeler past simple ister: I bought it last week. Tersine, ever ve never deneyim sorularında doğal olarak present perfect ile gelir: I've never bargained in a big shop."
+     ],
+     "formula": [
+      "Soru: Have you ever + V3 …?",
+      "Kısa cevap: Yes, I have. / Yes, once. / No, never.",
+      "Ayrıntı: past simple + zaman (last year, at the market)"
+     ],
+     "examples": [
+      {
+       "en": "Have you ever asked for a lower price? — Yes, at the Sunday market.",
+       "tr": "Hiç daha düşük bir fiyat istedin mi? — Evet, pazar pazarında.",
+       "why": [
+        "Have you ever + asked: deneyim; cevapta yer bilgisi."
+       ],
+       "chunks": [
+        {
+         "en": "asked for a lower price",
+         "tr": "daha düşük bir fiyat istedi"
+        },
+        {
+         "en": "at the Sunday market",
+         "tr": "pazar günü kurulan pazarda"
+        }
+       ]
+      },
+      {
+       "en": "Yes, an iron. It leaked the first time I used it.",
+       "tr": "Evet, bir ütü. İlk kullandığımda su sızdırdı.",
+       "why": [
+        "Ayrıntıya geçince past simple: leaked, used.",
+        "the first time I used it = onu ilk kullandığımda."
+       ]
+      },
+      {
+       "en": "I've never filled in a survey in English.",
+       "tr": "Hiç İngilizce anket doldurmadım.",
+       "why": [
+        "never + present perfect: hayatım boyunca hiç."
+       ]
+      },
+      {
+       "en": "Have you ever ordered food on an app? — No, I haven't. I always cook.",
+       "tr": "Hiç uygulamadan yemek sipariş ettin mi? — Hayır. Hep ben pişiririm.",
+       "why": [
+        "Kısa olumsuz cevap: No, I haven't."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Hiç pazarlık yaptın mı?” İngilizcesi?",
+       "answer": "Have you ever bargained?",
+       "why": "Have you ever + V3."
+      },
+      {
+       "question": "I have bought it last week. Doğru mu?",
+       "answer": "Hayır: I bought it last week.",
+       "why": "last week belirli zaman, past simple ister."
+      },
+      {
+       "question": "“Evet, bir kez.” kısa cevabı?",
+       "answer": "Yes, once.",
+       "why": "once = bir kez."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Did you ever bargain?",
+       "right": "Have you ever bargained?",
+       "why": "Hayat boyu deneyim için present perfect daha doğaldır."
+      },
+      {
+       "wrong": "Yes, I have. I have taken it back last month.",
+       "right": "Yes, I have. I took it back last month.",
+       "why": "Zaman belli olunca past simple."
+      }
+     ]
+    },
+    {
+     "id": "wm-follow-up",
+     "title": "Really? What happened then? How much was it?",
+     "meaning": "Takip sorusu sorarak sohbeti sürdürmek",
+     "explanation": [
+      "Sohbetin karşılıklı yürümesi için cevabı dinleyen kişinin bir tepki ve bir soru eklemesi gerekir. Kısa tepkiler: Really? · Oh no! · Lucky you! · That's a good deal! Bu kelimeler karşıdakine onu dinlediğimizi gösterir. Ardından gelen soru sohbeti derinleştirir: What happened then? (Sonra ne oldu?) · How much was it? (Kaça aldın?) · Did you get your money back?",
+      "Takip soruları çoğunlukla past simple ile kurulur, çünkü anlatılan olay geçmiştedir: What did the shop say? · How long did it take? · Where did you buy it? Soru kelimesi + did + özne + yalın fiil sırasına dikkat: Where did you buy it? (Where you bought it? değil.) Fiil yalın kalır, çünkü geçmiş bilgisi did üzerindedir.",
+      "B1 düzeyinde takip sorusu, karşıdakinin söylediği bir kelimeyi yakalayarak sorulur. Karşınızdaki “The colour was different” dediyse: Different? What colour was it? Bu teknik hem dinlediğinizi gösterir hem de konuşmayı doğal kılar. Isınma etkinliğinde her kartta en az bir takip sorusu sorulması bu yüzden istenir."
+     ],
+     "formula": [
+      "Tepki: Really? · Oh no! · Lucky you!",
+      "Soru: What happened then? · How much was it?",
+      "Wh- + did + özne + yalın fiil: Where did you buy it?"
+     ],
+     "examples": [
+      {
+       "en": "Really? What happened then?",
+       "tr": "Gerçekten mi? Sonra ne oldu?",
+       "why": [
+        "Kısa tepki + takip sorusu."
+       ]
+      },
+      {
+       "en": "It arrived in two days, but the colour was different. — Different? What did you do?",
+       "tr": "İki günde geldi ama rengi farklıydı. — Farklı mı? Ne yaptın?",
+       "why": [
+        "Karşıdakinin kelimesini (different) yakalayarak soru."
+       ]
+      },
+      {
+       "en": "How much was it? — Only 150 lira.",
+       "tr": "Kaça aldın? — Sadece 150 lira.",
+       "why": [
+        "How much was it? = Kaçaydı?"
+       ]
+      },
+      {
+       "en": "Did you get your money back? — Yes, but it took a week.",
+       "tr": "Paranı geri aldın mı? — Evet ama bir hafta sürdü.",
+       "why": [
+        "it took a week = bir hafta sürdü."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Nereden aldın?” sorusunu past simple ile kur.",
+       "answer": "Where did you buy it?",
+       "why": "did + yalın fiil."
+      },
+      {
+       "question": "Karşınızdaki “It was cheap” dedi. Bir takip sorusu?",
+       "answer": "Cheap? How much was it?",
+       "why": "Kelimeyi yakala, soru sor."
+      },
+      {
+       "question": "“Sonra ne oldu?” İngilizcesi?",
+       "answer": "What happened then?",
+       "why": "happen fiili, past simple."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Where you bought it?",
+       "right": "Where did you buy it?",
+       "why": "Soruda did yardımcı fiili gerekir, fiil yalın kalır."
+      },
+      {
+       "wrong": "What did happen then?",
+       "right": "What happened then?",
+       "why": "Özne soru kelimesinin kendisiyse (what) did kullanılmaz."
+      }
+     ]
+    },
+    {
+     "id": "wm-where-buy",
+     "title": "Where do you usually buy …? — Mostly online, but …",
+     "meaning": "Alışkanlığı sıklık ve karşıtlıkla anlatmak",
+     "explanation": [
+      "Alışkanlık sorusu present simple ile sorulur: Where do you usually buy your clothes? Cevapta sıklık zarfı ya da mostly (çoğunlukla) kullanmak cevabı doğal kılar: Mostly online. · I usually buy them at the market. Sıklık zarfı (usually, often, sometimes) fiilden önce gelir: I usually buy …; be fiilinden sonra gelir: I'm usually at the market on Sundays.",
+      "Alışkanlıkta istisnayı but ile ekleriz: Mostly online, but I buy shoes in a shop because I want to walk in them first. Burada üç parça var: genel alışkanlık (mostly online), istisna (but … shoes in a shop) ve sebep (because …). B1 düzeyinde bu üç parçalı cevap, tek cümlelik cevaptan çok daha zengindir.",
+      "Alışveriş yerinin edatları: in a shop / in store, online (edatsız), at the market, on an app, from a neighbour (bir komşudan). buy something from someone (birinden almak) kalıbında from kullanılır: I bought eggs from a neighbour. Bu edatlar bir önceki dersin tercih konusuyla bağlantılıdır ama burada alışkanlık anlatırken kullanılır."
+     ],
+     "formula": [
+      "Soru: Where do you usually buy …?",
+      "Cevap: Mostly / Usually + yer, but + istisna + because …",
+      "Yer: in a shop · online · at the market · on an app · from a neighbour"
+     ],
+     "examples": [
+      {
+       "en": "Mostly online, but I buy shoes in a shop because I want to walk in them first.",
+       "tr": "Çoğunlukla internetten ama ayakkabıyı mağazadan alırım, çünkü önce içinde yürümek isterim.",
+       "why": [
+        "Genel alışkanlık + but istisna + because sebep."
+       ]
+      },
+      {
+       "en": "I usually buy fruit at the market. It's fresher and cheaper.",
+       "tr": "Meyveyi genellikle pazardan alırım. Daha taze ve daha ucuz.",
+       "why": [
+        "usually fiilden önce."
+       ]
+      },
+      {
+       "en": "We buy eggs from a neighbour who has chickens.",
+       "tr": "Yumurtayı tavukları olan bir komşudan alırız.",
+       "why": [
+        "buy from + kişi."
+       ]
+      },
+      {
+       "en": "I rarely buy anything on apps. I don't trust them.",
+       "tr": "Uygulamalardan nadiren bir şey alırım. Onlara güvenmem.",
+       "why": [
+        "rarely = nadiren; olumlu fiille kullanılır."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Kıyafetlerimi çoğunlukla internetten alırım.”",
+       "answer": "I mostly buy my clothes online.",
+       "why": "mostly fiilden önce."
+      },
+      {
+       "question": "online kelimesinden önce edat gelir mi?",
+       "answer": "Hayır: I buy them online.",
+       "why": "online edatsız kullanılır."
+      },
+      {
+       "question": "“Bir komşudan aldım.”",
+       "answer": "I bought it from a neighbour.",
+       "why": "buy from + kişi."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I buy usually my clothes online.",
+       "right": "I usually buy my clothes online.",
+       "why": "Sıklık zarfı fiilden önce gelir."
+      },
+      {
+       "wrong": "I buy them on online.",
+       "right": "I buy them online.",
+       "why": "online edatsız."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "haggle",
+   "title": "Pazarlık: teklif vermek, karşı teklif ve anlaşmak",
+   "intro": [
+    "Pazarlık (bargaining, haggling) Türkiye'de çarşıda, pazarda, ikinci el alışverişte ve el yapımı ürünlerde sık yapılır. İngilizcede pazarlık yapılabilir ama kibarlık kuralları vardır: fiyata doğrudan itiraz etmek yerine ürünü över, fiyatı biraz yüksek bulduğumuzu yumuşakça söyler ve teklifimizi soru biçiminde veririz. Dersteki diyalog, Bursa'nın ipek pazarında iki eşarp için yapılan bir pazarlıktır ve beş adımın hepsini içerir: fiyatı sormak, tepki, teklif, koşul ve anlaşma.",
+    "Bu bölümde üç kalıp grubu çalışıyoruz. Birincisi teklif kalıpları: Could you do it for …? · Would you take …? İkincisi pazarlığın motoru olan first conditional: If I buy two, will you give me a discount? Üçüncüsü satıcının karşı teklifi ve anlaşma dili: The best I can do is … · Let's meet halfway. · It's a deal! Anlaşamazsak kibarca ayrılmayı da öğreniyoruz: Thanks, I'll have a look around. Pazarlık kartları ve bit pazarı tezgâhları bu kalıpları gerçek bir konuşmada kullanmak içindir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Excuse me, how much do you want for this silk scarf?",
+     "tr": "Affedersiniz, bu ipek eşarp için ne kadar istiyorsunuz?",
+     "why": [
+      "Excuse me ile dikkat çekme; want for + ürün pazarlığın açılış sorusudur."
+     ]
+    },
+    {
+     "en": "That one is pure Bursa silk. It's 1,200 lira.",
+     "tr": "O saf Bursa ipeği. 1.200 lira.",
+     "why": [
+      "pure = saf. Satıcı fiyatı söylemeden önce ürünün değerini anlatır."
+     ]
+    },
+    {
+     "en": "I'm afraid I can't go that low. It's handmade. I can do 1,050.",
+     "tr": "Maalesef o kadar inemem. El yapımı. 1.050 yapabilirim.",
+     "why": [
+      "I'm afraid reddi yumuşatır; go that low = o kadar aşağı inmek; I can do + fiyat = karşı teklif."
+     ]
+    },
+    {
+     "en": "What if I buy two, one for my mother as well? Would you take 1,800 for both?",
+     "tr": "Annem için de bir tane, iki tane alırsam? İkisine 1.800 alır mısınız?",
+     "why": [
+      "What if + present simple: koşullu öneri. for both = ikisi için."
+     ]
+    },
+    {
+     "en": "Let's meet halfway: 1,950 for both, and I'll throw in a gift box.",
+     "tr": "Ortada buluşalım: ikisi 1.950, bir de hediye kutusunu bedava vereyim.",
+     "why": [
+      "meet halfway = ortada buluşmak; throw in = yanında bedava vermek; I'll: o anda verilen söz."
+     ]
+    },
+    {
+     "en": "If you make it 1,900, it's a deal.",
+     "tr": "1.900 yaparsanız anlaştık.",
+     "why": [
+      "First conditional: If + present simple (make), sonuç bölümünde present simple da olabilir çünkü anlaşma kesin."
+     ]
+    },
+    {
+     "en": "All right, 1,900. You drive a hard bargain!",
+     "tr": "Peki, 1.900. Sıkı pazarlık ediyorsunuz!",
+     "why": [
+      "drive a hard bargain = sıkı pazarlık etmek (deyim); övgü ve şaka karışık."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "hg-offer",
+     "title": "That's a bit steep. Could you do it for 800? · Would you take 800?",
+     "meaning": "Fiyata kibarca tepki vermek ve teklif yapmak",
+     "explanation": [
+      "Pazarlık bir soruyla başlar: How much do you want for this rug? (Bu halı için ne istiyorsunuz?) Bu soru, fiyatın sabit olmadığı yerlerde kullanılır. Etiketli bir üründe How much is it? daha doğaldır. Fiyatı duyunca hemen “Too expensive!” demek yerine ürünü övüp fiyatı yumuşakça yüksek bulduğumuzu söyleriz: It's lovely, but that's a bit steep. (steep: dik; mecazi anlamda tuzlu, yüksek fiyat.) Alternatifler: It's a bit over my budget. · It's more than I wanted to pay.",
+      "Teklif soru biçiminde verilir; bu, satıcıya saygı gösterir ve konuşmayı açık tutar. Could you do it for 800? (800'e verebilir misiniz?) burada do it for kalıbı “o fiyata yapmak, vermek” demektir. Would you take 800? (800 kabul eder misiniz?) satıcının parayı “alması” üzerine kuruludur. Daha doğrudan ama yine kibar: I'll give you 800. · How about 800? Emir kipiyle teklif (Give me it for 800) İngilizcede kabadır.",
+      "a bit (biraz) ve but (ama) pazarlığın yumuşatıcılarıdır. That's a bit steep cümlesi “pahalı” demekten daha naziktir ve satıcıya indirim için alan bırakır. İlk teklifin hedefinizden biraz düşük olması pazarlığın doğal kuralıdır; satıcı yukarı çekecek, siz biraz çıkacaksınız. Dersteki diyalogda Pınar 1.200 liralık eşarba önce 800 teklif eder."
+     ],
+     "formula": [
+      "Fiyat: How much do you want for …?",
+      "Tepki: It's lovely, but that's a bit steep.",
+      "Teklif: Could you do it for …? · Would you take …? · How about …?"
+     ],
+     "examples": [
+      {
+       "en": "It's lovely, but that's a bit more than I wanted to pay. Could you do it for 800?",
+       "tr": "Çok güzel ama ödemek istediğimden biraz fazla. 800'e verebilir misiniz?",
+       "why": [
+        "Övgü + yumuşak tepki + soru biçiminde teklif."
+       ],
+       "chunks": [
+        {
+         "en": "a bit more than I wanted to pay",
+         "tr": "ödemek istediğimden biraz fazla"
+        },
+        {
+         "en": "do it for 800",
+         "tr": "800'e vermek"
+        }
+       ]
+      },
+      {
+       "en": "How much do you want for the copper tray?",
+       "tr": "Bakır tepsi için ne kadar istiyorsunuz?",
+       "why": [
+        "want for + ürün: pazarlıkta fiyat sorusu."
+       ]
+      },
+      {
+       "en": "Would you take 2,000 if I collect the sofa myself?",
+       "tr": "Kanepeyi kendim alırsam 2.000 kabul eder misiniz?",
+       "why": [
+        "take = kabul etmek; if ile gerekçe."
+       ]
+      },
+      {
+       "en": "It's nice, but it's a bit over my budget.",
+       "tr": "Güzel ama bütçemi biraz aşıyor.",
+       "why": [
+        "over my budget = bütçemin üstünde."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bu lamba için ne kadar istiyorsunuz?”",
+       "answer": "How much do you want for this lamp?",
+       "why": "want for + ürün."
+      },
+      {
+       "question": "“That's a bit steep.” ne demek?",
+       "answer": "Biraz tuzlu, biraz pahalı.",
+       "why": "steep = yüksek fiyat (mecaz)."
+      },
+      {
+       "question": "Kibar teklif: 500 / take",
+       "answer": "Would you take 500?",
+       "why": "Would you take + fiyat?"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Give me it for 800.",
+       "right": "Could you do it for 800?",
+       "why": "Emir kipiyle teklif kaba duyulur."
+      },
+      {
+       "wrong": "How much you want for it?",
+       "right": "How much do you want for it?",
+       "why": "Soruda do yardımcı fiili gerekir."
+      }
+     ]
+    },
+    {
+     "id": "hg-conditional",
+     "title": "If I buy two, will you give me a discount?",
+     "meaning": "First conditional ile koşullu teklif yapmak",
+     "explanation": [
+      "Pazarlıkta satıcıya indirim için bir sebep sunarız: daha çok almak, nakit ödemek, ürünü kendimiz taşımak. Bu sebepler first conditional (birinci tip koşul) cümlesiyle söylenir: If + present simple, will + yalın fiil. If I buy two, will you give me a discount? (İki tane alırsam indirim yapar mısınız?) Gerçekleşmesi mümkün, yakın gelecekle ilgili bir koşuldur.",
+      "Satıcı da aynı yapıyı kullanır: If you pay in cash, I'll take 100 off. (Nakit öderseniz 100 düşerim.) If you buy three, I'll throw in a small one. (Üç alırsanız küçük bir tane hediye ederim.) Cümlenin iki parçası yer değiştirebilir: I'll take 100 off if you pay in cash. if başta gelirse araya virgül konur; sonda gelirse virgül gerekmez.",
+      "En sık hata, if bölümünde will kullanmaktır: If I will buy two yanlıştır. Türkçede “alacak olursam” dediğimiz için gelecek eki eklemek isteriz ama İngilizcede if bölümü present simple'dır. Diğer bir kalıp What if …? (… ise ne dersiniz?): What if I buy two, one for my mother as well? Bu soru, koşulu daha yumuşak ve sohbet havasında sunar. Kibarlık için will yerine could da olur: If I pay in cash, could you do it for 900?"
+     ],
+     "formula": [
+      "Alıcı: If I + present simple, will you + yalın fiil?",
+      "Satıcı: If you + present simple, I'll + yalın fiil.",
+      "Yumuşak: What if I …? · If I …, could you …?"
+     ],
+     "examples": [
+      {
+       "en": "If I buy the two cushions as well, will you take 900 for everything?",
+       "tr": "Yastıkları da alırsam hepsine 900 alır mısınız?",
+       "why": [
+        "if + present simple (buy), will + yalın (take)."
+       ],
+       "chunks": [
+        {
+         "en": "as well",
+         "tr": "de, da (ayrıca)"
+        },
+        {
+         "en": "for everything",
+         "tr": "hepsi için"
+        }
+       ]
+      },
+      {
+       "en": "If you pay in cash, I'll knock 100 off.",
+       "tr": "Nakit öderseniz 100 düşerim.",
+       "why": [
+        "Satıcının koşulu; knock off = düşmek."
+       ]
+      },
+      {
+       "en": "What if I buy two, one for my mother as well?",
+       "tr": "Annem için de bir tane, iki tane alırsam ne dersiniz?",
+       "why": [
+        "What if … = … olursa ne dersiniz?"
+       ]
+      },
+      {
+       "en": "I'll throw in a gift box if you make it 1,900.",
+       "tr": "1.900 yaparsanız bir hediye kutusu da veririm.",
+       "why": [
+        "if sonda: virgül yok."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "If I ___ (pay) in cash, will you give me a discount?",
+       "answer": "pay",
+       "why": "if bölümü present simple."
+      },
+      {
+       "question": "“Üç alırsanız bir tane hediye ederim.” (satıcı)",
+       "answer": "If you buy three, I'll throw in one.",
+       "why": "If + present, I'll + yalın."
+      },
+      {
+       "question": "“If I will buy two” neden yanlış?",
+       "answer": "if bölümünde will kullanılmaz: If I buy two.",
+       "why": "First conditional kuralı."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "If I will buy two, will you give me a discount?",
+       "right": "If I buy two, will you give me a discount?",
+       "why": "if bölümü present simple."
+      },
+      {
+       "wrong": "If you pay in cash, I take 100 off.",
+       "right": "If you pay in cash, I'll take 100 off.",
+       "why": "Sonuç bölümü will + yalın fiil."
+      }
+     ]
+    },
+    {
+     "id": "hg-agree",
+     "title": "The best I can do is … · Let's meet halfway. · It's a deal!",
+     "meaning": "Karşı teklif, ortada buluşmak, anlaşmak ve kibarca ayrılmak",
+     "explanation": [
+      "Satıcının karşı teklifi genellikle şu kalıplarla gelir: The best I can do is 1,050. (En fazla 1.050 yapabilirim.) · I can't go lower than 950. (950'nin altına inemem.) · That's my final price. (Son fiyatım bu.) · I'm afraid I can't go that low. (Maalesef o kadar inemem.) Burada go low / go lower “fiyatta aşağı inmek” anlamındadır.",
+      "İki fiyat arasında uzlaşmak için: Let's meet halfway. (Ortada buluşalım.) Dersteki diyalogda Pınar iki eşarba 1.800, satıcı 2.100 diyor; ortası 1.950'dir. Son bir yakınlaşma için: Shall we say 1,900? (1.900 diyelim mi?) · We're not far apart. (Aramızda çok fark yok.) Anlaşınca: It's a deal! · Deal! · OK, you've got a deal. Satıcı şakayla You drive a hard bargain! diyebilir: Sıkı pazarlık ediyorsunuz!",
+      "Pazarlığa özgü iki fiil: knock off / take off (fiyattan düşmek): Can you knock 50 off? ve throw in (yanında bedava vermek): Can you throw in the batteries? Anlaşamazsanız kibarca ayrılın: Thanks, but it's still too much. I'll have a look around. · Thanks anyway. I'll think about it. Bu cümleler kapıyı açık bırakır; satıcı bazen arkanızdan son bir teklifle seslenir."
+     ],
+     "formula": [
+      "Karşı teklif: The best I can do is … · I can't go lower than …",
+      "Uzlaşma: Let's meet halfway. · Shall we say …?",
+      "Anlaşma: It's a deal! · Ayrılma: Thanks, I'll have a look around."
+     ],
+     "examples": [
+      {
+       "en": "The best I can do is 650. That's my final price.",
+       "tr": "En fazla 650 yapabilirim. Son fiyatım bu.",
+       "why": [
+        "the best I can do = yapabileceğimin en iyisi."
+       ]
+      },
+      {
+       "en": "Two scarves for 1,800 … Let's meet halfway: 1,950 for both.",
+       "tr": "İki eşarp 1.800 … Ortada buluşalım: ikisi 1.950.",
+       "why": [
+        "meet halfway: iki teklifin ortası."
+       ]
+      },
+      {
+       "en": "We're not far apart. Shall we say 1,400?",
+       "tr": "Aramızda çok fark yok. 1.400 diyelim mi?",
+       "why": [
+        "Shall we say …? = … diyelim mi?"
+       ]
+      },
+      {
+       "en": "Thanks, but it's still too much. I'll have a look around.",
+       "tr": "Teşekkürler ama hâlâ fazla. Biraz etrafa bakacağım.",
+       "why": [
+        "Kibarca ayrılma; have a look around = etrafa bakmak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Ortada buluşalım.”",
+       "answer": "Let's meet halfway.",
+       "why": "Kalıp ifade."
+      },
+      {
+       "question": "“Pilleri de yanında verir misiniz?”",
+       "answer": "Can you throw in the batteries?",
+       "why": "throw in = bedava eklemek."
+      },
+      {
+       "question": "Satıcı 2.100, siz 1.800 dediniz. Ortası?",
+       "answer": "1,950",
+       "why": "halfway = tam orta."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Let's find the middle.",
+       "right": "Let's meet halfway.",
+       "why": "Uzlaşma için kalıp meet halfway'dir."
+      },
+      {
+       "wrong": "Can you make a discount?",
+       "right": "Can you give me a discount?",
+       "why": "İngilizcede give a discount denir; make a discount doğal değildir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "pay",
+   "title": "Kasada ödeme: toplam, yöntem, kart ve küçük sorunlar",
+   "intro": [
+    "Kasada geçen konuşma kısa ama kalıplıdır ve dünyanın her yerinde aşağı yukarı aynı sırayla ilerler: selam, ürünlerin okutulması, toplam, ödeme yöntemi, kart işlemi, fiş ve poşet, para üstü. Bu kalıpları bilen biri hem kasiyer hem müşteri rolünü rahatça oynar. Dersteki elektronik mağazası diyaloğunda Okan'ın kartı reddedilir, Okan da sakin bir şekilde diğer kartını kullanır. Bu, kasada çıkabilecek küçük sorunların tipik bir örneğidir.",
+    "Bu bölümde üç kalıp grubu var. Birincisi kasiyerin ve müşterinin sıradan cümleleri: That comes to … · How would you like to pay? İkincisi ödeme edatları: in cash, by card, with my phone, pay for. Üçüncüsü sorunlar: Your card has been declined. · Do you have anything smaller? · I think you've given me the wrong change. Bu son grupta present perfect ve present perfect passive kullanılır, çünkü sorun şu an önümüzdedir. Kasa listesiyle yapılan canlandırmada toplamı hesaplamak da sayıları İngilizce söyleme pratiğidir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Hi there. Is that everything?",
+     "tr": "Merhaba. Hepsi bu mu?",
+     "why": [
+      "Hi there: samimi ama kibar selam. Is that everything? kasanın açılış sorusudur."
+     ]
+    },
+    {
+     "en": "That comes to 2,340 lira. How would you like to pay?",
+     "tr": "Toplam 2.340 lira. Nasıl ödemek istersiniz?",
+     "why": [
+      "come to + tutar: toplamı etmek. How would you like to + fiil: kibar soru."
+     ]
+    },
+    {
+     "en": "By card. Do you take contactless?",
+     "tr": "Kartla. Temassız alıyor musunuz?",
+     "why": [
+      "by card: yöntem edatı. take burada kabul etmek: Do you take credit cards?"
+     ]
+    },
+    {
+     "en": "OK … Oh, it says “declined”. That's strange.",
+     "tr": "Tamam … Aa, “reddedildi” yazıyor. Garip.",
+     "why": [
+      "it says = (ekranda) yazıyor. Yazılı bir metin için say fiili kullanılır."
+     ]
+    },
+    {
+     "en": "Don't worry, it happens. Would you like to try again or pay another way?",
+     "tr": "Merak etmeyin, oluyor. Tekrar denemek mi istersiniz, başka bir yolla mı ödersiniz?",
+     "why": [
+      "it happens = olur böyle. Would you like to … or …? iki seçenekli kibar soru."
+     ]
+    },
+    {
+     "en": "Yes, please. I might need it for the guarantee.",
+     "tr": "Evet, lütfen. Garanti için lazım olabilir.",
+     "why": [
+      "might = olasılık (belki). need it for = … için ona ihtiyaç duymak."
+     ]
+    },
+    {
+     "en": "No need, thanks. I've got my own.",
+     "tr": "Gerek yok, teşekkürler. Kendi poşetim var.",
+     "why": [
+      "No need = gerek yok. my own = kendime ait olan (own isimsiz kullanılabilir)."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "py-till",
+     "title": "That comes to 2,340 lira. How would you like to pay?",
+     "meaning": "Kasiyerin ve müşterinin kalıp cümleleri",
+     "explanation": [
+      "Kasiyer toplamı iki biçimde söyler: That's 640 lira, please. ya da That comes to 640 lira. (Toplam 640 lira ediyor.) come to + tutar “toplamı … etmek” demektir. Bazen altogether eklenir: That's 185 lira altogether. (Hepsi 185 lira.) Önce de Is that everything? (Hepsi bu mu?) diye sorar; cevap: Yes, that's all, thanks.",
+      "Ödeme yöntemi sorusu: How would you like to pay? (Nasıl ödemek istersiniz?) ya da kısaca Cash or card? Kart işleminde: Just tap your card here. (Kartınızı buraya dokundurun: temassız.) · Please insert your card and enter your PIN. (Kartınızı takın ve şifrenizi girin.) PIN, kartın şifresidir ve asla kimseyle paylaşılmaz. Dersteki diyalogda tutar yüksek olduğu için temassız değil, şifreli ödeme istenir.",
+      "İşlem bitince: Would you like the receipt? (Fişi ister misiniz?) · Do you need a bag? (Poşet ister misiniz?) Müşteri: Yes, please. I might need it for the guarantee. · No need, thanks. I've got my own. Ödeme başarılı olunca kasiyer It's gone through. (Geçti.) der. go through = işlemin onaylanması. Nakitte son cümle: Here's your change. (Para üstünüz.)"
+     ],
+     "formula": [
+      "Toplam: That's … please. · That comes to … (altogether)",
+      "Yöntem: How would you like to pay? · Cash or card?",
+      "Kart: Tap your card. · Insert your card and enter your PIN."
+     ],
+     "examples": [
+      {
+       "en": "That comes to 2,340 lira. How would you like to pay?",
+       "tr": "Toplam 2.340 lira. Nasıl ödemek istersiniz?",
+       "why": [
+        "come to + tutar; How would you like to …? kibar soru."
+       ],
+       "chunks": [
+        {
+         "en": "comes to",
+         "tr": "toplamı … ediyor"
+        },
+        {
+         "en": "How would you like to pay?",
+         "tr": "nasıl ödemek istersiniz?"
+        }
+       ]
+      },
+      {
+       "en": "For this amount, you need to insert your card and enter your PIN.",
+       "tr": "Bu tutar için kartınızı takıp şifrenizi girmeniz gerekiyor.",
+       "why": [
+        "insert = takmak; enter = girmek (şifre)."
+       ]
+      },
+      {
+       "en": "Perfect, it's gone through. Would you like the receipt?",
+       "tr": "Harika, geçti. Fişi ister misiniz?",
+       "why": [
+        "go through = onaylanmak; it's gone = it has gone."
+       ]
+      },
+      {
+       "en": "Is that everything? — Yes, that's all, thanks.",
+       "tr": "Hepsi bu mu? — Evet, bu kadar, teşekkürler.",
+       "why": [
+        "Kasanın açılış sorusu."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Toplam 450 lira ediyor.”",
+       "answer": "That comes to 450 lira.",
+       "why": "come to + tutar."
+      },
+      {
+       "question": "“Kartınızı buraya dokundurun.” (temassız)",
+       "answer": "Tap your card here.",
+       "why": "tap = hafifçe dokunmak."
+      },
+      {
+       "question": "“It's gone through.” ne demek?",
+       "answer": "İşlem onaylandı, ödeme geçti.",
+       "why": "go through."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Total is 450.",
+       "right": "That's 450 lira, please. / That comes to 450 lira.",
+       "why": "Kasada tam ve kibar cümle kullanılır."
+      },
+      {
+       "wrong": "Enter your password, please.",
+       "right": "Please enter your PIN.",
+       "why": "Banka kartı şifresi İngilizcede PIN'dir."
+      }
+     ]
+    },
+    {
+     "id": "py-prepositions",
+     "title": "pay in cash · pay by card · pay with my phone · pay for something",
+     "meaning": "Ödeme edatlarını doğru kullanmak",
+     "explanation": [
+      "Ödeme yöntemi edatlarla söylenir ve Türkçeden farklıdır: pay in cash (nakit ödemek), pay by card (kartla ödemek), pay by phone (telefonla). Belirli bir araçtan söz ederken with kullanılır: pay with my phone, pay with a gift card, pay with my other card. Dersteki Okan “I'll use my other card” der; aynı anlam pay with my other card ile de söylenir.",
+      "Ne için ödediğimizi for ile söyleriz: I paid for the shoes. (Ayakkabıların parasını ödedim.) We paid for the tickets online. Türkçede “ayakkabıları ödedim” dediğimiz için for'u unutmak çok yaygın bir hatadır. Ancak bazı kalıplarda for yoktur: pay the bill (faturayı, hesabı ödemek), pay the rent (kirayı ödemek), pay 500 lira (500 lira ödemek).",
+      "Karma ödeme: Can I pay half in cash and half by card? (Yarısını nakit, yarısını kartla ödeyebilir miyim?) Para üstü bırakmak: Keep the change. (Üstü kalsın.) Bozuk para: change aynı zamanda “bozukluk” demektir: Do you have any change? Kasadaki receipt (fiş) ile lokantadaki bill (hesap) ve evdeki bill (fatura) karıştırılmamalı; recipe ise yemek tarifidir."
+     ],
+     "formula": [
+      "in cash · by card · by phone",
+      "with + belirli araç: with my phone, with a gift card",
+      "pay for + ürün · pay the bill / the rent / 500 lira"
+     ],
+     "examples": [
+      {
+       "en": "Can I pay half in cash and half by card?",
+       "tr": "Yarısını nakit, yarısını kartla ödeyebilir miyim?",
+       "why": [
+        "in cash ve by card aynı cümlede."
+       ]
+      },
+      {
+       "en": "I paid for the tickets online last night.",
+       "tr": "Biletlerin parasını dün akşam internetten ödedim.",
+       "why": [
+        "pay for + ürün."
+       ]
+      },
+      {
+       "en": "Can I pay with my phone? — Of course, just hold it near the machine.",
+       "tr": "Telefonumla ödeyebilir miyim? — Tabii, makineye yaklaştırmanız yeterli.",
+       "why": [
+        "with + belirli araç."
+       ]
+      },
+      {
+       "en": "Keep the change.",
+       "tr": "Üstü kalsın.",
+       "why": [
+        "change = para üstü."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Nakit ödeyeceğim.”",
+       "answer": "I'll pay in cash.",
+       "why": "in cash."
+      },
+      {
+       "question": "“Kirayı ödedim.” for gerekir mi?",
+       "answer": "Hayır: I paid the rent.",
+       "why": "pay the rent kalıbı."
+      },
+      {
+       "question": "receipt mi recipe mi? “fiş”",
+       "answer": "receipt",
+       "why": "recipe = tarif."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I'll pay by cash.",
+       "right": "I'll pay in cash.",
+       "why": "Nakit için edat in."
+      },
+      {
+       "wrong": "I paid the shoes.",
+       "right": "I paid for the shoes.",
+       "why": "Ürün için pay for."
+      }
+     ]
+    },
+    {
+     "id": "py-problems",
+     "title": "Your card has been declined. · Do you have anything smaller? · the wrong change",
+     "meaning": "Kasadaki küçük sorunları kibarca çözmek",
+     "explanation": [
+      "Kart geçmediğinde kasiyer Sorry, your card has been declined. der. Bu cümle present perfect passive'dir: has been + V3. Kartı kimin reddettiği (banka) önemli değildir; önemli olan sonucun şu an geçerli olmasıdır. Daha gündelik biçimler: It didn't go through. · It says “declined”. Müşterinin cevapları: Can I try again? · I'll pay another way. · I'll use my other card.",
+      "Nakitte sorun büyük banknottur. Kasiyer Do you have anything smaller? (Daha küçük paranız var mı?) diye sorar. Müşteri: Sorry, I've only got a 200-lira note. (note = banknot.) Makine çalışmıyorsa: The machine isn't working at the moment. Have you got cash? Bu cümlelerde have got, have ile aynı anlamdadır ve İngiliz İngilizcesinde çok kullanılır.",
+      "Para üstü yanlışsa sakin ve kibar olun: I think you've given me the wrong change. I gave you 500. Burada iki zaman yan yana gelir: present perfect (you've given: sonuç şu an elimde) ve past simple (I gave you 500: belirli bir an). I think ile başlamak suçlamayı yumuşatır. Kasiyer: Oh, I'm so sorry. Let me check."
+     ],
+     "formula": [
+      "Kart: Your card has been declined. → Can I try again?",
+      "Nakit: Do you have anything smaller? → I've only got a …-lira note.",
+      "Para üstü: I think you've given me the wrong change."
+     ],
+     "examples": [
+      {
+       "en": "Sorry, your card has been declined. Would you like to try again?",
+       "tr": "Kusura bakmayın, kartınız reddedildi. Tekrar denemek ister misiniz?",
+       "why": [
+        "has been declined: present perfect passive."
+       ]
+      },
+      {
+       "en": "Sorry, I've only got a 200-lira note.",
+       "tr": "Kusura bakmayın, sadece 200'lük banknotum var.",
+       "why": [
+        "I've got = I have; note = banknot."
+       ]
+      },
+      {
+       "en": "I think you've given me the wrong change. I gave you 500.",
+       "tr": "Sanırım para üstünü yanlış verdiniz. Size 500 vermiştim.",
+       "why": [
+        "Present perfect (sonuç) + past simple (an)."
+       ],
+       "chunks": [
+        {
+         "en": "you've given me",
+         "tr": "bana verdiniz (sonuç şimdi elimde)"
+        },
+        {
+         "en": "the wrong change",
+         "tr": "yanlış para üstü"
+        }
+       ]
+      },
+      {
+       "en": "The machine isn't working at the moment. Have you got cash?",
+       "tr": "Makine şu an çalışmıyor. Nakitiniz var mı?",
+       "why": [
+        "at the moment = şu an."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Kartınız reddedildi.”",
+       "answer": "Your card has been declined.",
+       "why": "has been + V3."
+      },
+      {
+       "question": "Kasiyer “Do you have anything smaller?” diye sordu. Ne istiyor?",
+       "answer": "Daha küçük bir banknot ya da bozuk para.",
+       "why": "smaller = daha küçük (para)."
+      },
+      {
+       "question": "Para üstü yanlış. Kibar cümle?",
+       "answer": "I think you've given me the wrong change.",
+       "why": "I think ile yumuşatma."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "My card didn't pass.",
+       "right": "My card was declined. / It didn't go through.",
+       "why": "Kart için pass kullanılmaz."
+      },
+      {
+       "wrong": "You gave wrong money!",
+       "right": "I think you've given me the wrong change.",
+       "why": "change kelimesi ve I think ile kibarlık."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "online-shop",
+   "title": "İnternetten alışveriş: ekran dili, sipariş mesajları ve adımları anlatmak",
+   "intro": [
+    "Bir alışveriş sitesi ya da uygulaması bizimle çok kısa cümlelerle konuşur. Düğmelerin neredeyse hepsi emir kipindedir: Search, Filter, Select, Add to basket, Proceed to checkout, Place order. Bu fiilleri tanıyan biri, dilini hiç bilmediği bir sitede bile ne yapacağını anlar. Siparişten sonra gelen e-posta ve mesajlar ise başka bir yapı kullanır: present perfect passive. Your order has been placed. Your parcel has been dispatched. Bu cümleler “siparişiniz alındı, kargoya verildi” demektir.",
+    "Bu bölümde üç beceri çalışıyoruz. Birincisi ekrandaki kelimeleri ve emir kipi düğmeleri anlamak (basket ile cart, out of stock, continue as a guest gibi). İkincisi sipariş mesajlarındaki has / have been + V3 yapısını okumak. Üçüncüsü bir arkadaşa adımları sırayla anlatmak: First … Then … Once you've chosen …, … Finally … Bu sonuncusu “bir işlemi anlatma” becerisidir ve zaman bağlaçlarından sonra will kullanılmaması kuralını içerir. Arkadaşına anlat etkinliğinde siparişi gerçekten vermiyoruz; sadece adımları gösteriyoruz."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Hi Sibel, thank you for shopping with Patika Home!",
+     "tr": "Merhaba Sibel, Patika Home'dan alışveriş yaptığınız için teşekkürler!",
+     "why": [
+      "thank you for + -ing: … ettiğiniz için teşekkürler. shop with + mağaza = o mağazadan alışveriş yapmak."
+     ]
+    },
+    {
+     "en": "Your order has been placed and your payment has been received.",
+     "tr": "Siparişiniz alındı ve ödemeniz alındı.",
+     "why": [
+      "İki present perfect passive: has been + V3. Sonuç şu an geçerli, yapan önemsiz."
+     ]
+    },
+    {
+     "en": "Once your parcel has been dispatched, we'll send you a tracking link by text message.",
+     "tr": "Kargonuz yola çıkınca size kısa mesajla bir takip bağlantısı göndereceğiz.",
+     "why": [
+      "once bölümünde will yok; by text message = kısa mesajla."
+     ]
+    },
+    {
+     "en": "Delivery: free on orders over 1,000 TL.",
+     "tr": "Teslimat: 1.000 TL üzerindeki siparişlerde ücretsiz.",
+     "why": [
+      "on orders over … = … üzerindeki siparişlerde. Notlar gibi kısaltılmış bir cümle."
+     ]
+    },
+    {
+     "en": "You can change the address before your parcel has been dispatched.",
+     "tr": "Kargonuz yola çıkmadan önce adresi değiştirebilirsiniz.",
+     "why": [
+      "before + present perfect passive: zaman bağlacından sonra will yok."
+     ]
+    },
+    {
+     "en": "After delivery, you have 14 days to return any item in its original packaging.",
+     "tr": "Teslimattan sonra herhangi bir ürünü orijinal ambalajında iade etmek için 14 gününüz var.",
+     "why": [
+      "have + süre + to + fiil: … için … süreniz var. its original packaging = kendi orijinal ambalajı."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "os-imperatives",
+     "title": "Search · Filter · Add to basket · Proceed to checkout · Place order",
+     "meaning": "Ekrandaki emir kipi düğmeleri ve kelimeleri anlamak",
+     "explanation": [
+      "Web sitesi düğmeleri emir kipindedir, yani fiilin yalın hâli ile başlar ve özne yoktur: Search (ara), Filter (filtrele), Sort by (… göre sırala), Select (seç), Add to basket (sepete ekle), Remove (kaldır), Apply (uygula), Proceed to checkout (ödeme adımına geç), Continue as a guest (üye olmadan devam et), Sign in (giriş yap), Place order (siparişi ver), Track your order (siparişini takip et).",
+      "İngiliz ve Amerikan İngilizcesi farkları sitelerde sık görülür: basket (BrE) = cart (AmE), postcode = zip code, delivery = shipping. Ürün durumları: in stock (stokta var), out of stock (stokta yok), Notify me (gelince haber ver), Only 2 left! (son 2 ürün). Sıralama seçenekleri: price: low to high (artan fiyat), newest (en yeni), best-selling (en çok satan), customer rating (müşteri puanı).",
+      "Ödeme sayfasında karşılaşılan kelimeler: delivery address (teslimat adresi), billing address (fatura adresi), standard / express delivery (standart / hızlı teslimat), payment method (ödeme yöntemi), discount code / promo code (indirim kodu), Review your order (siparişini gözden geçir), Terms and conditions (şartlar ve koşullar). Güvenlik: adres çubuğundaki kilit simgesi güvenli bağlantıyı gösterir; kart bilgilerinizi ya da şifrenizi mesajla, telefonla kimseye vermeyin."
+     ],
+     "formula": [
+      "Bul: Search · Filter · Sort by · Select",
+      "Sepet: Add to basket (cart) · Remove · Apply a discount code",
+      "Ödeme: Proceed to checkout · Continue as a guest · Place order"
+     ],
+     "examples": [
+      {
+       "en": "Select your size and colour, then click “Add to basket”.",
+       "tr": "Bedeninizi ve renginizi seçin, sonra “Sepete ekle”ye basın.",
+       "why": [
+        "Emir kipi: Select, click."
+       ]
+      },
+      {
+       "en": "Sorry, the blue one is out of stock. Click “Notify me”.",
+       "tr": "Maalesef mavi olan stokta yok. “Bana haber ver”e basın.",
+       "why": [
+        "out of stock = stokta yok."
+       ]
+      },
+      {
+       "en": "Click “Proceed to checkout”. Sign in or continue as a guest.",
+       "tr": "“Ödeme adımına geç”e basın. Giriş yapın ya da üye olmadan devam edin.",
+       "why": [
+        "proceed = ilerlemek; as a guest = misafir olarak."
+       ],
+       "chunks": [
+        {
+         "en": "proceed to checkout",
+         "tr": "ödeme adımına geçmek"
+        },
+        {
+         "en": "continue as a guest",
+         "tr": "üye olmadan devam etmek"
+        }
+       ]
+      },
+      {
+       "en": "Sort the results by price, from low to high.",
+       "tr": "Sonuçları fiyata göre, düşükten yükseğe sıralayın.",
+       "why": [
+        "sort by = … göre sıralamak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Amerikan İngilizcesinde basket nedir?",
+       "answer": "cart",
+       "why": "BrE basket = AmE cart."
+      },
+      {
+       "question": "“Out of stock” ne demek?",
+       "answer": "Stokta yok.",
+       "why": "in stock = stokta var."
+      },
+      {
+       "question": "Hesap açmadan sipariş vermek için hangi düğme?",
+       "answer": "Continue as a guest",
+       "why": "guest = misafir."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Add to the cargo.",
+       "right": "Add to basket.",
+       "why": "Sepet basket ya da cart'tır; cargo yük demektir."
+      },
+      {
+       "wrong": "There is no stock.",
+       "right": "It's out of stock.",
+       "why": "Ürün için kalıp out of stock'tur."
+      }
+     ]
+    },
+    {
+     "id": "os-passive",
+     "title": "Your order has been placed. · Your parcel has been dispatched.",
+     "meaning": "Sipariş mesajlarındaki present perfect passive",
+     "explanation": [
+      "Sipariş sonrası mesajlar present perfect passive kullanır: has / have been + V3. Your order has been placed. (Siparişiniz verildi, alındı.) Your payment has been received. (Ödemeniz alındı.) Your parcel has been dispatched / shipped. (Kargonuz yola çıktı.) Your item has been delivered. (Ürününüz teslim edildi.) Bu yapı hem passive'dir (işi yapan söylenmez) hem present perfect'tir (sonuç şimdi geçerli).",
+      "Neden passive? Çünkü işi kimin yaptığı önemli değildir: siparişi sistem kaydetti, paketi depo çalışanı hazırladı, kargocu getirdi. Önemli olan siparişin durumudur. Neden present perfect? Çünkü mesaj “şu an siparişiniz bu aşamada” demektedir; ne zaman olduğu ayrıca söylenmez. Zaman eklenirse past simple passive kullanılır: Your parcel was delivered at 10.15 this morning.",
+      "Aynı yapının olumsuzu ve sorusu: Your order hasn't been dispatched yet. (Siparişiniz henüz kargoya verilmedi.) Has my order been dispatched? (Siparişim kargoya verildi mi?) Müşteri hizmetlerine yazarken de işe yarar: My order was placed on 20 October, but it hasn't been dispatched yet. Burada iki yapı yan yana: past simple passive (was placed: belirli tarih) ve present perfect passive (hasn't been dispatched yet: şu ana kadar)."
+     ],
+     "formula": [
+      "Olumlu: Your order has been placed / dispatched / delivered.",
+      "Olumsuz: It hasn't been dispatched yet.",
+      "Soru: Has my order been dispatched?"
+     ],
+     "examples": [
+      {
+       "en": "Your order has been placed and your payment has been received.",
+       "tr": "Siparişiniz alındı ve ödemeniz alındı.",
+       "why": [
+        "İki present perfect passive yan yana."
+       ],
+       "chunks": [
+        {
+         "en": "has been placed",
+         "tr": "verildi, kaydedildi"
+        },
+        {
+         "en": "has been received",
+         "tr": "alındı"
+        }
+       ]
+      },
+      {
+       "en": "Good news: your parcel has been dispatched.",
+       "tr": "Müjde: kargonuz yola çıktı.",
+       "why": [
+        "dispatch = göndermek, yola çıkarmak."
+       ]
+      },
+      {
+       "en": "My order was placed on 20 October, but it hasn't been dispatched yet.",
+       "tr": "Siparişim 20 Ekim'de verildi ama henüz kargoya verilmedi.",
+       "why": [
+        "Tarih → was placed; şu ana kadar → hasn't been … yet."
+       ]
+      },
+      {
+       "en": "Your parcel was delivered at 10.15 this morning.",
+       "tr": "Kargonuz bu sabah 10.15'te teslim edildi.",
+       "why": [
+        "Saat belirtilince past simple passive."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Siparişiniz alındı.” (place)",
+       "answer": "Your order has been placed.",
+       "why": "has been + V3."
+      },
+      {
+       "question": "“Siparişim henüz kargoya verilmedi.”",
+       "answer": "My order hasn't been dispatched yet.",
+       "why": "hasn't been + V3 + yet."
+      },
+      {
+       "question": "“Kargonuz dün teslim edildi.” hangi yapı?",
+       "answer": "Your parcel was delivered yesterday. (past simple passive)",
+       "why": "yesterday → past simple."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Your order has placed.",
+       "right": "Your order has been placed.",
+       "why": "Passive için been gerekir."
+      },
+      {
+       "wrong": "Your parcel has been delivered yesterday.",
+       "right": "Your parcel was delivered yesterday.",
+       "why": "Belirli zaman → past simple passive."
+      }
+     ]
+    },
+    {
+     "id": "os-sequence",
+     "title": "First … Then … Once you've chosen the size, … Finally …",
+     "meaning": "Bir işlemi sırayla anlatmak ve zaman bağlaçlarından sonra will kullanmamak",
+     "explanation": [
+      "Bir arkadaşa bir işlemin adımlarını anlatırken sıralama kelimeleri kullanırız: First, … (önce) · Then, … / Next, … (sonra) · After that, … (ondan sonra) · Finally, … (son olarak). Fiiller emir kipinde olabilir: First, search for the mug. Then, choose the colour. Ya da you ile: First, you search for the mug.",
+      "Once (… yaptıktan sonra, … yapar yapmaz) bir adımın bitmesini bir sonraki adımın şartı yapar: Once you've chosen the size, click “Add to basket”. Once'tan sonra present perfect (you've chosen) ya da present simple (you choose) gelir. Aynı kural when, after, before, as soon as için de geçerlidir: When you get the e-mail, check the order number.",
+      "En önemli kural: once, when, after, before gibi zaman bağlaçlarından sonra gelecek anlamı için will kullanılmaz. Once your parcel has been dispatched, we'll send you a link. (Once your parcel will be dispatched yanlış.) Will ana cümlede kalır: we'll send. Türkçedeki “kargonuz yola çıktığında size bir bağlantı göndereceğiz” cümlesinde de yalnızca ana cümlede gelecek eki vardır; İngilizce aynı mantığı izler."
+     ],
+     "formula": [
+      "Sıra: First, … Then, … After that, … Finally, …",
+      "Once / When / After + present perfect / present simple, …",
+      "Zaman bağlacından sonra will yok: Once it has been dispatched, we'll …"
+     ],
+     "examples": [
+      {
+       "en": "First, search for the book. Then, open the product page and read the reviews.",
+       "tr": "Önce kitabı ara. Sonra ürün sayfasını aç ve yorumları oku.",
+       "why": [
+        "First / Then + emir kipi."
+       ]
+      },
+      {
+       "en": "Once you've chosen the size, click “Add to basket”.",
+       "tr": "Bedeni seçtikten sonra “Sepete ekle”ye bas.",
+       "why": [
+        "Once + present perfect: önceki adım bitti."
+       ],
+       "chunks": [
+        {
+         "en": "Once you've chosen",
+         "tr": "seçtikten sonra"
+        },
+        {
+         "en": "click",
+         "tr": "tıkla, bas"
+        }
+       ]
+      },
+      {
+       "en": "Once your parcel has been dispatched, we'll send you a tracking link.",
+       "tr": "Kargonuz yola çıkınca size bir takip bağlantısı göndereceğiz.",
+       "why": [
+        "once bölümünde will yok; ana cümlede we'll."
+       ]
+      },
+      {
+       "en": "Finally, check your address and click “Place order”.",
+       "tr": "Son olarak adresini kontrol et ve “Siparişi ver”e bas.",
+       "why": [
+        "Finally = son olarak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "___ you've entered your address, choose a delivery option. (… yaptıktan sonra)",
+       "answer": "Once",
+       "why": "Once / When / After."
+      },
+      {
+       "question": "“When the parcel will arrive, I'll call you.” Doğru mu?",
+       "answer": "Hayır: When the parcel arrives, I'll call you.",
+       "why": "Zaman bağlacından sonra will yok."
+      },
+      {
+       "question": "“Son olarak” İngilizcesi?",
+       "answer": "Finally",
+       "why": "Sıralama kelimesi."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Once you will choose the size, click “Add to basket”.",
+       "right": "Once you've chosen (you choose) the size, click “Add to basket”.",
+       "why": "Zaman bağlacından sonra will kullanılmaz."
+      },
+      {
+       "wrong": "At last, click “Place order”.",
+       "right": "Finally, click “Place order”.",
+       "why": "Sıralamada son adım Finally ile verilir; at last uzun bir bekleyişten sonra “nihayet” demektir."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "complain-shop",
+   "title": "Mağazada memnuniyet ve şikâyet",
+   "intro": [
+    "Memnuniyet bildirmek ve şikâyet etmek aynı becerinin iki yüzüdür: bir ürün ya da hizmet hakkında açık ve kibar bir geri bildirim vermek. Memnun kaldığımızda bunu söylemek çalışanlar için değerlidir ve ilişkiyi güçlendirir: I'm really pleased with the repair. You've been very helpful. Memnun kalmadığımızda ise sakin, açık ve kararlı bir şikâyet hem sorunun çözülmesini kolaylaştırır hem de karşı tarafı savunmaya itmez. Dersteki müşteri hizmetleri diyaloğunda Gizem'in su ısıtıcısı sızdırır; Gizem sorunu, zamanı, kanıtı ve isteğini sırayla söyler ve sonunda teşekkür eder.",
+    "Bu bölümde üç kalıp grubu çalışıyoruz. Birincisi memnuniyet: pleased with, works perfectly, I'd definitely recommend. İkincisi sorunu anlatmak: present perfect (It has stopped working), past simple (I bought it last Tuesday) ve tekrarlayan sorun için keep + -ing (It keeps switching off). Üçüncüsü kibar ama kararlı istek: I'd like a refund / a replacement, Could you repair it?, There seems to be a problem with …, Could I speak to the manager? Kültür notunda kusurlu (ayıplı) ürünlerde tüketicinin onarım, değişim, indirim ya da para iadesi isteme hakkını da hatırlatıyoruz."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Hi. I'm afraid there's a problem with this kettle. I bought it here last Tuesday.",
+     "tr": "Merhaba. Maalesef bu su ısıtıcısında bir sorun var. Geçen salı buradan aldım.",
+     "why": [
+      "I'm afraid kötü haberi yumuşatır; there's a problem with + ürün; last Tuesday → past simple."
+     ]
+    },
+    {
+     "en": "I'm sorry to hear that. What's wrong with it?",
+     "tr": "Bunu duyduğuma üzüldüm. Nesi var?",
+     "why": [
+      "I'm sorry to hear that = duyduğuma üzüldüm. What's wrong with …? = …in nesi var?"
+     ]
+    },
+    {
+     "en": "Water keeps coming out of the bottom, and yesterday it switched itself off while it was boiling.",
+     "tr": "Altından sürekli su geliyor, dün de kaynarken kendi kendine kapandı.",
+     "why": [
+      "keep + -ing: tekrarlayan sorun. switched itself off = kendi kendine kapandı; while + past continuous: arka plan."
+     ]
+    },
+    {
+     "en": "Yes, here it is. I've only used it three or four times.",
+     "tr": "Evet, buyurun. Sadece üç dört kez kullandım.",
+     "why": [
+      "here it is = işte burada, buyurun. I've only used: şimdiye kadarki deneyim, present perfect."
+     ]
+    },
+    {
+     "en": "We can send it for repair, but that takes about two weeks.",
+     "tr": "Onarıma gönderebiliriz ama yaklaşık iki hafta sürer.",
+     "why": [
+      "send for repair = onarıma göndermek. take + süre = sürmek."
+     ]
+    },
+    {
+     "en": "The money will go back on your card. It might take a few days.",
+     "tr": "Para kartınıza geri yatacak. Birkaç gün sürebilir.",
+     "why": [
+      "go back on your card = kartınıza iade olmak. might = olasılık."
+     ]
+    },
+    {
+     "en": "This is rubbish! Give me my money back!",
+     "tr": "Bu berbat! Paramı geri verin!",
+     "why": [
+      "Kaba örnek: rubbish = çöp, berbat; emir kipi isteği sertleştirir. Kibar biçimi: Could I get a refund, please?"
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "cs-pleased",
+     "title": "I'm really pleased with it. · It works perfectly. · I'd definitely recommend this shop.",
+     "meaning": "Memnuniyet bildirmek",
+     "explanation": [
+      "Memnuniyet kalıplarının temelinde pleased with ve happy with vardır: I'm really pleased with my new boots. (Yeni botlarımdan çok memnunum.) · We're very happy with the service. Edat with'tir; Türkçedeki “-den memnun” yüzünden from kullanmak sık yapılan bir hatadır. Daha güçlü: I'm delighted with it. (Bayıldım, çok memnunum.)",
+      "Ürünün iyi çalıştığını söylemek: It works perfectly. (Mükemmel çalışıyor.) · It's exactly what I wanted. (Tam istediğim şey.) Hizmeti övmek: The service was excellent. · The staff were friendly and patient. · You've been very helpful. (Çok yardımcı oldunuz.) Son cümle present perfect'tir, çünkü yardım şu ana kadar süren ve sonucu ortada olan bir şeydir.",
+      "Tavsiye ederek memnuniyet: I'd definitely recommend this shop. (Bu mağazayı kesinlikle tavsiye ederim.) I'd = I would; burada gelecekteki ya da varsayımsal bir durumu anlatır: biri sorsa tavsiye ederim. definitely (kesinlikle) would'dan sonra, ana fiilden önce gelir. Memnuniyet bildirmek şikâyetten sonra da önemlidir: sorun çözülünce teşekkür etmek iyi bir müşterinin işaretidir."
+     ],
+     "formula": [
+      "I'm (really / very) pleased with … · happy with …",
+      "It works perfectly. · It's exactly what I wanted.",
+      "You've been very helpful. · I'd definitely recommend …"
+     ],
+     "examples": [
+      {
+       "en": "I'm really pleased with the repair. It works perfectly now.",
+       "tr": "Onarımdan çok memnunum. Şimdi mükemmel çalışıyor.",
+       "why": [
+        "pleased with; works perfectly."
+       ]
+      },
+      {
+       "en": "The staff were friendly and patient. I'd definitely recommend this shop.",
+       "tr": "Çalışanlar güler yüzlü ve sabırlıydı. Bu mağazayı kesinlikle tavsiye ederim.",
+       "why": [
+        "staff çoğul fiil alabilir: were."
+       ]
+      },
+      {
+       "en": "Thank you, you've been really helpful.",
+       "tr": "Teşekkürler, çok yardımcı oldunuz.",
+       "why": [
+        "Present perfect: yardımın sonucu ortada."
+       ]
+      },
+      {
+       "en": "It's exactly what I wanted, and it was cheaper than I expected.",
+       "tr": "Tam istediğim şey ve beklediğimden ucuzdu.",
+       "why": [
+        "exactly what I wanted = tam istediğim."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Yeni koltuğumdan çok memnunum.”",
+       "answer": "I'm really pleased with my new sofa.",
+       "why": "pleased with."
+      },
+      {
+       "question": "“Çok yardımcı oldunuz.” hangi zaman?",
+       "answer": "You've been very helpful. (present perfect)",
+       "why": "Sonuç şimdi."
+      },
+      {
+       "question": "definitely kelimesinin yeri: I'd ___ recommend it.",
+       "answer": "I'd definitely recommend it.",
+       "why": "would ile fiil arasında."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I'm very pleased from the service.",
+       "right": "I'm very pleased with the service.",
+       "why": "pleased with."
+      },
+      {
+       "wrong": "I would recommend definitely this shop.",
+       "right": "I'd definitely recommend this shop.",
+       "why": "Zarf ana fiilden önce."
+      }
+     ]
+    },
+    {
+     "id": "cs-problem",
+     "title": "It has stopped working. · It keeps switching off. · I bought it last Tuesday.",
+     "meaning": "Sorunu doğru zamanla anlatmak",
+     "explanation": [
+      "Sorunu anlatırken iki zaman birlikte kullanılır. Present perfect, sonucu şu an görülen değişikliği anlatır: It has stopped working. (Çalışmayı bıraktı: şu an çalışmıyor.) · The colour has faded. (Rengi soldu.) · A button has come off. (Bir düğmesi koptu.) · I've only used it twice. (Sadece iki kez kullandım: şimdiye kadar.) Past simple ise belirli zamanı söyler: I bought it here last Tuesday. · It broke yesterday.",
+      "Tekrarlayan, sinir bozucu sorunlar için keep + -ing kullanılır: It keeps switching off. (Sürekli kapanıyor.) · The screen keeps going black. (Ekran sürekli kararıyor.) · Water keeps coming out of the bottom. (Altından sürekli su geliyor.) keep'ten sonra fiil her zaman -ing alır; keep to switch yanlıştır. Aynı kural stop için de geçerlidir: stop working (çalışmayı bırakmak).",
+      "stop + -ing ile stop + to + fiil farklı anlamlar taşır: It stopped working. (Çalışmayı bıraktı.) ama I stopped to buy water. (Su almak için durdum.) Şikâyette her zaman stop + -ing gerekir. Sorun kelimeleri: faulty (arızalı), It leaks (sızdırıyor), It's cracked (çatlak), It shrank in the wash (yıkamada çekti; shrink – shrank – shrunk), The sole has come off (tabanı ayrıldı)."
+     ],
+     "formula": [
+      "Şimdiki sonuç: It has stopped working. · The colour has faded.",
+      "Belirli zaman: I bought it last Tuesday. · It broke yesterday.",
+      "Tekrarlayan sorun: It keeps + -ing."
+     ],
+     "examples": [
+      {
+       "en": "I've only had these boots for a month, and the sole has come off.",
+       "tr": "Bu botlar bir aydır bende ve tabanı ayrıldı.",
+       "why": [
+        "for a month: süre; has come off: şimdiki sonuç."
+       ],
+       "chunks": [
+        {
+         "en": "I've only had",
+         "tr": "sadece … süredir bende"
+        },
+        {
+         "en": "has come off",
+         "tr": "ayrıldı, çıktı"
+        }
+       ]
+      },
+      {
+       "en": "It leaks. Water keeps coming out of the bottom.",
+       "tr": "Su sızdırıyor. Altından sürekli su geliyor.",
+       "why": [
+        "keep + -ing: tekrarlayan sorun."
+       ]
+      },
+      {
+       "en": "It shrank the first time I washed it, and I followed the instructions.",
+       "tr": "İlk yıkamada çekti, üstelik talimatlara uydum.",
+       "why": [
+        "shrink – shrank: düzensiz fiil."
+       ]
+      },
+      {
+       "en": "The screen keeps going black.",
+       "tr": "Ekran sürekli kararıyor.",
+       "why": [
+        "go black = kararmak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Çalışmayı bıraktı.” İngilizcesi?",
+       "answer": "It has stopped working. / It stopped working.",
+       "why": "stop + -ing."
+      },
+      {
+       "question": "The printer keeps ___ (jam).",
+       "answer": "jamming",
+       "why": "keep + -ing."
+      },
+      {
+       "question": "“Geçen salı aldım.” hangi zaman?",
+       "answer": "I bought it last Tuesday. (past simple)",
+       "why": "last Tuesday belirli zaman."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It stopped to work.",
+       "right": "It stopped working.",
+       "why": "stop to = bir şey yapmak için durmak."
+      },
+      {
+       "wrong": "I have bought it last Tuesday.",
+       "right": "I bought it last Tuesday.",
+       "why": "Belirli zaman → past simple."
+      }
+     ]
+    },
+    {
+     "id": "cs-request",
+     "title": "I'm afraid there's a problem with … · I'd like a refund. · Could you repair it?",
+     "meaning": "Kibar ama kararlı biçimde şikâyet etmek ve istekte bulunmak",
+     "explanation": [
+      "Şikâyete kibar bir açılışla başlanır: Excuse me, I'd like to make a complaint. (Şikâyette bulunmak istiyorum.) · I'm afraid there's a problem with this kettle. (Maalesef bu su ısıtıcısında bir sorun var.) · There seems to be a problem with the phone I bought here. (Buradan aldığım telefonda bir sorun var gibi görünüyor.) I'm afraid ve there seems to be kalıpları sorunu suçlamadan söyler; konuşma çözüme daha kolay gider.",
+      "İstek için I'd like + isim ve Could you + fiil kalıpları kullanılır: I'd like a refund. (Para iadesi istiyorum.) · Could I have a replacement? (Yenisini alabilir miyim?) · Could you repair it? (Onarabilir misiniz?) · What can you do about it? (Bu konuda ne yapabilirsiniz?) Tercih belirtmek için would prefer: I'd prefer a refund, actually. Mağaza çeki isteniyorsa: A credit note is fine.",
+      "Sorun çözülmezse yine sakin kalın: Could I speak to the manager, please? Türkiye'de kusurlu (ayıplı) bir ürün için tüketici onarım, değişim, indirim ya da para iadesi isteyebilir; çözülmeyen durumlarda Tüketici Hakem Heyeti'ne başvurabilir. Kanıt her zaman işe yarar: Here's the receipt. · I've got the box and the guarantee. Görevli genellikle iki seçenek sunar; seçiminizi bir gerekçeyle söylemek iyi bir kapanıştır."
+     ],
+     "formula": [
+      "Açılış: I'm afraid there's a problem with … · There seems to be …",
+      "İstek: I'd like a refund / a replacement. · Could you repair it?",
+      "İleri adım: Could I speak to the manager, please?"
+     ],
+     "examples": [
+      {
+       "en": "I'm afraid there's a problem with this kettle. I bought it here last Tuesday.",
+       "tr": "Maalesef bu su ısıtıcısında bir sorun var. Geçen salı buradan aldım.",
+       "why": [
+        "Kibar açılış + zaman."
+       ]
+      },
+      {
+       "en": "I'd prefer a refund, actually. I don't want the same model again.",
+       "tr": "Aslında para iadesini tercih ederim. Aynı modeli bir daha istemiyorum.",
+       "why": [
+        "would prefer + isim; actually = aslında."
+       ]
+      },
+      {
+       "en": "If it can't be repaired, I'd like my money back.",
+       "tr": "Onarılamıyorsa paramı geri istiyorum.",
+       "why": [
+        "can't be repaired: modal passive."
+       ]
+      },
+      {
+       "en": "There seems to be a problem with the phone I bought here.",
+       "tr": "Buradan aldığım telefonda bir sorun var gibi görünüyor.",
+       "why": [
+        "Suçlamadan sorun bildirme."
+       ],
+       "chunks": [
+        {
+         "en": "There seems to be",
+         "tr": "… var gibi görünüyor"
+        },
+        {
+         "en": "the phone I bought here",
+         "tr": "buradan aldığım telefon"
+        }
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Yenisiyle değişim istemek:",
+       "answer": "Could I have a replacement?",
+       "why": "replacement = yenisi."
+      },
+      {
+       "question": "“This is rubbish!” yerine kibar bir cümle?",
+       "answer": "I'm afraid I'm not happy with this.",
+       "why": "I'm afraid + not happy with."
+      },
+      {
+       "question": "Sorun çözülmedi. Ne istersiniz?",
+       "answer": "Could I speak to the manager, please?",
+       "why": "Kibar ileri adım."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I want to complain you.",
+       "right": "I'd like to make a complaint. / I'd like to complain about this.",
+       "why": "complain about + konu."
+      },
+      {
+       "wrong": "Give me a new one!",
+       "right": "Could I have a replacement, please?",
+       "why": "Emir yerine kibar istek."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "want-for",
+   "term": "How much do you want for it?",
+   "meaning": "bunun için ne kadar istiyorsunuz?",
+   "partOfSpeech": "pazarlık kalıbı",
+   "sourceTerms": [
+    "How much do you want for it?"
+   ],
+   "explanation": [
+    "Fiyatın sabit olmadığı yerlerde (pazar, çarşı, ikinci el) fiyat sorma kalıbı. want for + ürün “… için istemek” demektir. Etiketli ürünlerde How much is it? daha doğaldır."
+   ],
+   "collocations": [
+    {
+     "en": "How much is it?",
+     "tr": "kaç para?"
+    },
+    {
+     "en": "What's the price?",
+     "tr": "fiyatı ne?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "How much do you want for the old radio?",
+     "tr": "Eski radyo için ne kadar istiyorsunuz?"
+    },
+    {
+     "en": "How much do you want for both chairs?",
+     "tr": "İki sandalye için ne kadar istiyorsunuz?",
+     "note": "both = ikisi"
+    },
+    {
+     "en": "How much do you want for it? — 900, but I can talk.",
+     "tr": "Ne kadar istiyorsunuz? — 900 ama konuşuruz."
+    }
+   ],
+   "commonMistake": "How much you want? yerine How much do you want for it? denir."
+  },
+  {
+   "id": "bit-steep",
+   "term": "That's a bit steep.",
+   "meaning": "biraz tuzlu, pahalı",
+   "partOfSpeech": "tepki",
+   "sourceTerms": [
+    "That's a bit steep."
+   ],
+   "explanation": [
+    "Fiyatın yüksek olduğunu yumuşakça söyleyen gündelik ifade. steep aslında “dik, sarp” demektir; fiyat için mecazi kullanılır. a bit ifadeyi yumuşatır ve satıcıya indirim için alan bırakır."
+   ],
+   "collocations": [
+    {
+     "en": "a bit over my budget",
+     "tr": "bütçemi biraz aşıyor"
+    },
+    {
+     "en": "more than I wanted to pay",
+     "tr": "ödemek istediğimden fazla"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's lovely, but that's a bit steep for me.",
+     "tr": "Çok güzel ama benim için biraz tuzlu."
+    },
+    {
+     "en": "1,200 for a scarf? That's a bit steep.",
+     "tr": "Bir eşarba 1.200 mü? Biraz tuzlu."
+    },
+    {
+     "en": "The hotel is nice, but the price is a bit steep.",
+     "tr": "Otel güzel ama fiyatı biraz tuzlu."
+    }
+   ],
+   "commonMistake": "Too expensive! demek sert duyulur; That's a bit steep daha kibardır."
+  },
+  {
+   "id": "do-it-for",
+   "term": "Could you do it for …? · Would you take …?",
+   "meaning": "…'e verir misiniz? · … kabul eder misiniz?",
+   "partOfSpeech": "teklif",
+   "sourceTerms": [
+    "Could you do it for …? · Would you take …?"
+   ],
+   "explanation": [
+    "Pazarlıkta teklif vermenin iki kibar kalıbı. do it for + fiyat “o fiyata yapmak, vermek”; take + fiyat “o parayı kabul etmek” demektir. Soru biçimi teklifi kibar yapar."
+   ],
+   "collocations": [
+    {
+     "en": "How about …?",
+     "tr": "… ne dersiniz?"
+    },
+    {
+     "en": "I'll give you …",
+     "tr": "size … vereyim"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Could you do it for 600 if I take both?",
+     "tr": "İkisini alırsam 600'e verir misiniz?"
+    },
+    {
+     "en": "Would you take 2,000 for the sofa?",
+     "tr": "Kanepe için 2.000 kabul eder misiniz?"
+    },
+    {
+     "en": "How about 450? — Make it 500 and it's yours.",
+     "tr": "450'ye ne dersiniz? — 500 yapın, sizin olsun."
+    }
+   ],
+   "commonMistake": "Give me it for 600. emir kipiyle teklif kabadır."
+  },
+  {
+   "id": "best-i-can",
+   "term": "The best I can do is …",
+   "meaning": "en fazla … yapabilirim",
+   "partOfSpeech": "karşı teklif",
+   "sourceTerms": [
+    "The best I can do is …"
+   ],
+   "explanation": [
+    "Satıcının son ya da son sayılan karşı teklifi. Benzerleri: I can't go lower than … (… altına inemem) · That's my final price. (Son fiyatım bu.)"
+   ],
+   "collocations": [
+    {
+     "en": "I can't go lower than …",
+     "tr": "… altına inemem"
+    },
+    {
+     "en": "my final price",
+     "tr": "son fiyatım"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Sorry, the best I can do is 1,000.",
+     "tr": "Kusura bakmayın, en fazla 1.000 yapabilirim."
+    },
+    {
+     "en": "The best I can do is 650, with the cushion.",
+     "tr": "Yastıkla birlikte en fazla 650 yapabilirim."
+    },
+    {
+     "en": "I can't go lower than 950. It's handmade.",
+     "tr": "950'nin altına inemem. El yapımı."
+    }
+   ],
+   "commonMistake": "What is the last price? yerine What's your best price? denir."
+  },
+  {
+   "id": "knock-throw",
+   "term": "knock off · throw in",
+   "meaning": "fiyattan düşmek · yanında bedava vermek",
+   "partOfSpeech": "phrasal verb",
+   "sourceTerms": [
+    "knock off · throw in"
+   ],
+   "explanation": [
+    "Pazarlığın iki deyimsel fiili. knock off / take off + tutar: fiyattan o kadar düşmek. throw in + şey: ürünün yanında bedava vermek."
+   ],
+   "collocations": [
+    {
+     "en": "knock 50 off",
+     "tr": "50 düşmek"
+    },
+    {
+     "en": "throw in a bag",
+     "tr": "bir çantayı bedava vermek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "If you pay in cash, I'll knock 50 off.",
+     "tr": "Nakit öderseniz 50 düşerim."
+    },
+    {
+     "en": "Can you throw in the batteries?",
+     "tr": "Pilleri de yanında verir misiniz?"
+    },
+    {
+     "en": "They took 10% off because there was a small mark.",
+     "tr": "Küçük bir leke olduğu için %10 indirim yaptılar.",
+     "note": "take off = düşmek"
+    }
+   ],
+   "commonMistake": "Can you make a discount? yerine Can you knock a bit off? / give me a discount denir."
+  },
+  {
+   "id": "halfway-deal",
+   "term": "Let's meet halfway. · It's a deal!",
+   "meaning": "ortada buluşalım · anlaştık",
+   "partOfSpeech": "anlaşma",
+   "sourceTerms": [
+    "Let's meet halfway. · It's a deal!"
+   ],
+   "explanation": [
+    "İki fiyatın ortasında uzlaşma önerisi ve anlaşmayı kapatan kalıp. Shall we say …? (… diyelim mi?) son yakınlaşma için kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "Shall we say …?",
+     "tr": "… diyelim mi?"
+    },
+    {
+     "en": "You've got a deal.",
+     "tr": "anlaştık"
+    }
+   ],
+   "examples": [
+    {
+     "en": "You say 700, I say 500. Let's meet halfway.",
+     "tr": "Sen 700 diyorsun, ben 500. Ortada buluşalım."
+    },
+    {
+     "en": "Shall we say 950? — It's a deal!",
+     "tr": "950 diyelim mi? — Anlaştık!"
+    },
+    {
+     "en": "OK, 1,900. You drive a hard bargain!",
+     "tr": "Peki, 1.900. Sıkı pazarlık ediyorsunuz!",
+     "note": "deyim"
+    }
+   ],
+   "commonMistake": "Let's find the middle. denmez; Let's meet halfway. kalıptır."
+  },
+  {
+   "id": "comes-to",
+   "term": "That comes to …",
+   "meaning": "toplam … ediyor",
+   "partOfSpeech": "kasa kalıbı",
+   "sourceTerms": [
+    "That comes to …"
+   ],
+   "explanation": [
+    "Kasiyerin toplamı söyleme kalıbı. come to + tutar “toplamı … etmek” demektir. Kısa biçimi: That's … please. altogether (hepsi) eklenebilir."
+   ],
+   "collocations": [
+    {
+     "en": "That's … altogether.",
+     "tr": "hepsi …"
+    },
+    {
+     "en": "The total is …",
+     "tr": "toplam …"
+    }
+   ],
+   "examples": [
+    {
+     "en": "That comes to 712 lira, please.",
+     "tr": "Toplam 712 lira, lütfen."
+    },
+    {
+     "en": "That's 185 lira altogether.",
+     "tr": "Hepsi 185 lira."
+    },
+    {
+     "en": "How much does it come to?",
+     "tr": "Toplam ne kadar tutuyor?"
+    }
+   ],
+   "commonMistake": "Total 450. gibi kısa söz yerine That comes to 450 lira. denir."
+  },
+  {
+   "id": "how-pay",
+   "term": "How would you like to pay?",
+   "meaning": "nasıl ödemek istersiniz?",
+   "partOfSpeech": "kasa kalıbı",
+   "sourceTerms": [
+    "How would you like to pay?"
+   ],
+   "explanation": [
+    "Kasiyerin ödeme yöntemini sorduğu kibar kalıp. Kısa biçimi: Cash or card? Cevap edatla verilir: In cash. · By card. · With my phone."
+   ],
+   "collocations": [
+    {
+     "en": "Cash or card?",
+     "tr": "nakit mi kart mı?"
+    },
+    {
+     "en": "By card, please.",
+     "tr": "kartla, lütfen"
+    }
+   ],
+   "examples": [
+    {
+     "en": "How would you like to pay? — In cash.",
+     "tr": "Nasıl ödemek istersiniz? — Nakit."
+    },
+    {
+     "en": "How would you like to pay? — By card. Do you take contactless?",
+     "tr": "Nasıl ödersiniz? — Kartla. Temassız alıyor musunuz?"
+    },
+    {
+     "en": "Cash or card? — Card, please.",
+     "tr": "Nakit mi kart mı? — Kart, lütfen."
+    }
+   ],
+   "commonMistake": "How do you want to pay? de olur ama kasada How would you like to pay? daha kibardır."
+  },
+  {
+   "id": "contactless-pin",
+   "term": "contactless · insert your card · enter your PIN",
+   "meaning": "temassız · kartı takın · şifrenizi girin",
+   "partOfSpeech": "kart işlemi",
+   "sourceTerms": [
+    "contactless · insert your card · enter your PIN"
+   ],
+   "explanation": [
+    "Kartla ödemenin iki yolu: temassız (contactless: kartı dokundurmak, tap) ve kartı takıp (insert) şifreyi girmek (enter your PIN). Tutar yüksekse temassız yerine şifre istenir. PIN asla paylaşılmaz."
+   ],
+   "collocations": [
+    {
+     "en": "tap your card",
+     "tr": "kartı dokundurmak"
+    },
+    {
+     "en": "over the limit",
+     "tr": "limitin üstünde"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's over the limit, so please insert your card.",
+     "tr": "Limitin üstünde, lütfen kartınızı takın."
+    },
+    {
+     "en": "Just tap your card here.",
+     "tr": "Kartınızı buraya dokundurun yeterli."
+    },
+    {
+     "en": "Please enter your PIN and press the green button.",
+     "tr": "Şifrenizi girip yeşil tuşa basın."
+    }
+   ],
+   "commonMistake": "Kart şifresi için password değil PIN denir."
+  },
+  {
+   "id": "declined",
+   "term": "Your card has been declined.",
+   "meaning": "kartınız reddedildi",
+   "partOfSpeech": "kasa sorunu",
+   "sourceTerms": [
+    "Your card has been declined."
+   ],
+   "explanation": [
+    "Kart işlemi onaylanmadığında söylenen present perfect passive cümle. Gündelik biçimler: It didn't go through. · It says “declined”. Cevaplar: Can I try again? · I'll pay another way."
+   ],
+   "collocations": [
+    {
+     "en": "go through",
+     "tr": "işlem onaylanmak"
+    },
+    {
+     "en": "try again",
+     "tr": "tekrar denemek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm sorry, your card has been declined. Do you have another one?",
+     "tr": "Kusura bakmayın, kartınız reddedildi. Başka kartınız var mı?"
+    },
+    {
+     "en": "It didn't go through. I'll pay in cash.",
+     "tr": "Geçmedi. Nakit öderim."
+    },
+    {
+     "en": "Perfect, it's gone through.",
+     "tr": "Harika, geçti.",
+     "note": "it's gone = it has gone"
+    }
+   ],
+   "commonMistake": "My card didn't pass. denmez; was declined / didn't go through denir."
+  },
+  {
+   "id": "receipt-change",
+   "term": "a receipt · change · Keep the change.",
+   "meaning": "fiş · para üstü · üstü kalsın",
+   "partOfSpeech": "kasa kelimeleri",
+   "sourceTerms": [
+    "a receipt · change · Keep the change."
+   ],
+   "explanation": [
+    "receipt alışveriş fişidir (p okunmaz). change hem para üstü hem bozuk paradır. Keep the change. bahşiş gibi üstünü bırakmaktır. bill lokantada hesap ya da faturadır; recipe yemek tarifidir."
+   ],
+   "collocations": [
+    {
+     "en": "Would you like the receipt?",
+     "tr": "fişi ister misiniz?"
+    },
+    {
+     "en": "Do you have anything smaller?",
+     "tr": "daha küçük paranız var mı?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Here's your receipt and your change.",
+     "tr": "Fişiniz ve para üstünüz."
+    },
+    {
+     "en": "I think you've given me the wrong change.",
+     "tr": "Sanırım para üstünü yanlış verdiniz."
+    },
+    {
+     "en": "Thanks. Keep the change.",
+     "tr": "Teşekkürler. Üstü kalsın."
+    }
+   ],
+   "commonMistake": "Fiş için bill ya da recipe değil receipt kullanılır."
+  },
+  {
+   "id": "search-filter",
+   "term": "search · filter · sort by",
+   "meaning": "ara · filtrele · sırala",
+   "partOfSpeech": "ekran dili",
+   "sourceTerms": [
+    "search · filter · sort by"
+   ],
+   "explanation": [
+    "Ürünü bulma aşamasının üç fiili. search for + ürün (aramak), filter by + özellik (filtrelemek), sort by + ölçüt (sıralamak). Ekranda emir kipindedir."
+   ],
+   "collocations": [
+    {
+     "en": "filter by size",
+     "tr": "bedene göre filtrele"
+    },
+    {
+     "en": "sort by price: low to high",
+     "tr": "fiyata göre artan sırala"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Filter by size and sort by price.",
+     "tr": "Bedene göre filtrele ve fiyata göre sırala."
+    },
+    {
+     "en": "Search for “wool blanket” and see the results.",
+     "tr": "“Yün battaniye” diye ara ve sonuçlara bak."
+    },
+    {
+     "en": "Sort the results by customer rating.",
+     "tr": "Sonuçları müşteri puanına göre sırala."
+    }
+   ],
+   "commonMistake": "search the product değil search for the product denir (arama yapılan şey for ile)."
+  },
+  {
+   "id": "add-basket",
+   "term": "add to basket (cart)",
+   "meaning": "sepete ekle",
+   "partOfSpeech": "ekran dili",
+   "sourceTerms": [
+    "add to basket (cart)"
+   ],
+   "explanation": [
+    "Ürünü sanal sepete koyma düğmesi. İngiliz İngilizcesinde basket, Amerikan İngilizcesinde cart denir. Sepete eklemek ödemek demek değildir; ödeme checkout adımındadır."
+   ],
+   "collocations": [
+    {
+     "en": "view basket",
+     "tr": "sepeti görüntüle"
+    },
+    {
+     "en": "remove item",
+     "tr": "ürünü kaldır"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Choose the colour, then add it to your basket.",
+     "tr": "Rengi seç, sonra sepete ekle."
+    },
+    {
+     "en": "I added three items to my cart, but I only bought one.",
+     "tr": "Sepetime üç ürün ekledim ama sadece birini aldım."
+    },
+    {
+     "en": "Your basket is empty.",
+     "tr": "Sepetiniz boş."
+    }
+   ],
+   "commonMistake": "Add to the cargo denmez; kargo cargo değil delivery'dir."
+  },
+  {
+   "id": "checkout",
+   "term": "proceed to checkout",
+   "meaning": "ödeme adımına geçmek",
+   "partOfSpeech": "ekran dili",
+   "sourceTerms": [
+    "proceed to checkout"
+   ],
+   "explanation": [
+    "Sepetten adres ve ödeme sayfasına geçme düğmesi. proceed = ilerlemek; checkout = mağazada kasa, internette ödeme adımı."
+   ],
+   "collocations": [
+    {
+     "en": "at the checkout",
+     "tr": "kasada / ödeme adımında"
+    },
+    {
+     "en": "go to checkout",
+     "tr": "ödemeye git"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Check your basket before you proceed to checkout.",
+     "tr": "Ödeme adımına geçmeden önce sepetini kontrol et."
+    },
+    {
+     "en": "When you're ready, click “Proceed to checkout”.",
+     "tr": "Hazır olunca “Ödeme adımına geç”e bas."
+    },
+    {
+     "en": "The discount code is applied at the checkout.",
+     "tr": "İndirim kodu ödeme adımında uygulanır."
+    }
+   ],
+   "commonMistake": "proceed checkout değil proceed to checkout denir."
+  },
+  {
+   "id": "guest-sign-in",
+   "term": "continue as a guest · sign in",
+   "meaning": "üye olmadan devam etmek · giriş yapmak",
+   "partOfSpeech": "ekran dili",
+   "sourceTerms": [
+    "continue as a guest · sign in"
+   ],
+   "explanation": [
+    "Ödeme adımında iki seçenek: hesabınıza giriş yapmak (sign in / log in) ya da hesap açmadan misafir olarak devam etmek (continue as a guest). create an account hesap oluşturmaktır."
+   ],
+   "collocations": [
+    {
+     "en": "create an account",
+     "tr": "hesap oluştur"
+    },
+    {
+     "en": "log in",
+     "tr": "giriş yap"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I didn't want an account, so I continued as a guest.",
+     "tr": "Hesap istemedim, bu yüzden üye olmadan devam ettim."
+    },
+    {
+     "en": "Sign in to see your orders.",
+     "tr": "Siparişlerini görmek için giriş yap."
+    },
+    {
+     "en": "You can continue as a guest or create an account.",
+     "tr": "Üye olmadan devam edebilir ya da hesap oluşturabilirsiniz."
+    }
+   ],
+   "commonMistake": "continue like a guest değil continue as a guest denir."
+  },
+  {
+   "id": "out-of-stock",
+   "term": "out of stock · in stock",
+   "meaning": "stokta yok · stokta var",
+   "partOfSpeech": "ürün durumu",
+   "sourceTerms": [
+    "out of stock · in stock"
+   ],
+   "explanation": [
+    "Ürünün mevcut olup olmadığını gösteren kalıplar. Notify me (gelince haber ver) düğmesi genellikle out of stock yanındadır. Only 2 left! son ürünler için kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "Notify me",
+     "tr": "bana haber ver"
+    },
+    {
+     "en": "back in stock",
+     "tr": "yeniden stokta"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My size is out of stock until next week.",
+     "tr": "Bedenim gelecek haftaya kadar stokta yok."
+    },
+    {
+     "en": "Good news: the blue one is back in stock.",
+     "tr": "Müjde: mavisi yeniden stokta."
+    },
+    {
+     "en": "Is this lamp in stock? — Yes, we have three.",
+     "tr": "Bu lamba stokta var mı? — Evet, üç tane var."
+    }
+   ],
+   "commonMistake": "There is no stock of it. yerine It's out of stock. denir."
+  },
+  {
+   "id": "order-placed",
+   "term": "Your order has been placed / dispatched.",
+   "meaning": "siparişiniz alındı / kargoya verildi",
+   "partOfSpeech": "present perfect passive",
+   "sourceTerms": [
+    "Your order has been placed / dispatched."
+   ],
+   "explanation": [
+    "Sipariş mesajlarının kalıbı: has been + V3. placed (verildi), received (alındı), dispatched / shipped (kargoya verildi), delivered (teslim edildi). Yapan önemli değil, sonuç şimdi geçerli."
+   ],
+   "collocations": [
+    {
+     "en": "place an order",
+     "tr": "sipariş vermek"
+    },
+    {
+     "en": "hasn't been dispatched yet",
+     "tr": "henüz kargoya verilmedi"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Good news: your order has been dispatched.",
+     "tr": "Müjde: siparişiniz kargoya verildi."
+    },
+    {
+     "en": "I placed the order last night, but it hasn't been dispatched yet.",
+     "tr": "Siparişi dün akşam verdim ama henüz kargoya verilmedi."
+    },
+    {
+     "en": "Your item has been delivered to your neighbour.",
+     "tr": "Ürününüz komşunuza teslim edildi."
+    }
+   ],
+   "commonMistake": "I gave my order. denmez; I placed my order. / I ordered it. denir."
+  },
+  {
+   "id": "track-order",
+   "term": "track your order",
+   "meaning": "siparişi takip etmek",
+   "partOfSpeech": "ekran dili",
+   "sourceTerms": [
+    "track your order"
+   ],
+   "explanation": [
+    "Kargonun nerede olduğunu izlemek. tracking number / tracking link takip numarası ve bağlantısıdır."
+   ],
+   "collocations": [
+    {
+     "en": "a tracking number",
+     "tr": "takip numarası"
+    },
+    {
+     "en": "a tracking link",
+     "tr": "takip bağlantısı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Use the link in the text message to track your order.",
+     "tr": "Siparişini takip etmek için kısa mesajdaki bağlantıyı kullan."
+    },
+    {
+     "en": "I tracked the parcel. It's in Bursa now.",
+     "tr": "Kargoyu takip ettim. Şu an Bursa'da."
+    },
+    {
+     "en": "Where's my tracking number? I can't find it.",
+     "tr": "Takip numaram nerede? Bulamıyorum."
+    }
+   ],
+   "commonMistake": "I'm following my order. yerine I'm tracking my order. denir."
+  },
+  {
+   "id": "pleased-with",
+   "term": "I'm really pleased with …",
+   "meaning": "… çok memnunum",
+   "partOfSpeech": "memnuniyet",
+   "sourceTerms": [
+    "I'm really pleased with …"
+   ],
+   "explanation": [
+    "Memnuniyet bildirmenin temel kalıbı; edat with'tir. Benzerleri: happy with, delighted with (çok memnun, bayıldım)."
+   ],
+   "collocations": [
+    {
+     "en": "happy with",
+     "tr": "memnun"
+    },
+    {
+     "en": "delighted with",
+     "tr": "çok memnun"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm really pleased with the new sofa.",
+     "tr": "Yeni kanepeden çok memnunum."
+    },
+    {
+     "en": "We're very happy with the service.",
+     "tr": "Hizmetten çok memnunuz."
+    },
+    {
+     "en": "She was delighted with her birthday present.",
+     "tr": "Doğum günü hediyesine bayıldı."
+    }
+   ],
+   "commonMistake": "pleased from değil pleased with denir."
+  },
+  {
+   "id": "make-complaint",
+   "term": "I'd like to make a complaint.",
+   "meaning": "şikâyette bulunmak istiyorum",
+   "partOfSpeech": "şikâyet",
+   "sourceTerms": [
+    "I'd like to make a complaint."
+   ],
+   "explanation": [
+    "Şikâyetin kibar açılışı. Fiil olarak: complain about + konu, complain to + kişi. I'm afraid there's a problem with … daha yumuşak bir başlangıçtır."
+   ],
+   "collocations": [
+    {
+     "en": "complain about",
+     "tr": "… hakkında şikâyet etmek"
+    },
+    {
+     "en": "There seems to be a problem with …",
+     "tr": "… bir sorun var gibi"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Excuse me, I'd like to make a complaint about my order.",
+     "tr": "Affedersiniz, siparişim hakkında şikâyette bulunmak istiyorum."
+    },
+    {
+     "en": "I complained to the manager about the noise.",
+     "tr": "Gürültüyü müdüre şikâyet ettim."
+    },
+    {
+     "en": "I'm afraid there's a problem with this jacket.",
+     "tr": "Maalesef bu cekette bir sorun var."
+    }
+   ],
+   "commonMistake": "I want to complain you. yanlış; complain about this / make a complaint denir."
+  },
+  {
+   "id": "faulty",
+   "term": "faulty · It doesn't work.",
+   "meaning": "arızalı, kusurlu · çalışmıyor",
+   "partOfSpeech": "sorun kelimesi",
+   "sourceTerms": [
+    "faulty · It doesn't work."
+   ],
+   "explanation": [
+    "faulty üretim ya da çalışma hatası olan ürün için kullanılır. defective daha resmîdir. broken kırık, cracked çatlak, damaged hasarlı demektir."
+   ],
+   "collocations": [
+    {
+     "en": "a faulty charger",
+     "tr": "arızalı şarj aleti"
+    },
+    {
+     "en": "It doesn't work at all.",
+     "tr": "hiç çalışmıyor"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The hairdryer is faulty. It doesn't work at all.",
+     "tr": "Saç kurutma makinesi arızalı. Hiç çalışmıyor."
+    },
+    {
+     "en": "I think the plug is faulty.",
+     "tr": "Sanırım fiş arızalı."
+    },
+    {
+     "en": "It doesn't work when I press the button.",
+     "tr": "Düğmeye basınca çalışmıyor."
+    }
+   ],
+   "commonMistake": "It isn't working ve It doesn't work ikisi de doğrudur; It not works yanlıştır."
+  },
+  {
+   "id": "stopped-keeps",
+   "term": "It has stopped working. · It keeps …-ing.",
+   "meaning": "çalışmayı bıraktı · sürekli …",
+   "partOfSpeech": "sorun kalıbı",
+   "sourceTerms": [
+    "It has stopped working. · It keeps …-ing."
+   ],
+   "explanation": [
+    "stop + -ing bir işin bitmesi; keep + -ing tekrarlayan, sinir bozucu bir durumdur. İkisinde de fiil -ing alır."
+   ],
+   "collocations": [
+    {
+     "en": "keep switching off",
+     "tr": "sürekli kapanmak"
+    },
+    {
+     "en": "stop working",
+     "tr": "çalışmayı bırakmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The radio keeps losing the signal.",
+     "tr": "Radyo sürekli sinyali kaybediyor."
+    },
+    {
+     "en": "My phone has stopped charging.",
+     "tr": "Telefonum şarj olmayı bıraktı."
+    },
+    {
+     "en": "The door keeps opening by itself.",
+     "tr": "Kapı sürekli kendi kendine açılıyor."
+    }
+   ],
+   "commonMistake": "It stopped to work. yanlış; It stopped working. denir."
+  },
+  {
+   "id": "refund-replacement",
+   "term": "a refund · a replacement · a repair",
+   "meaning": "para iadesi · yenisiyle değişim · onarım",
+   "partOfSpeech": "istek",
+   "sourceTerms": [
+    "a refund · a replacement · a repair"
+   ],
+   "explanation": [
+    "Şikâyetteki üç temel istek. refund paranın geri verilmesi, replacement aynı ürünün yenisi, repair onarımdır. credit note mağaza çekidir."
+   ],
+   "collocations": [
+    {
+     "en": "a full refund",
+     "tr": "paranın tamamının iadesi"
+    },
+    {
+     "en": "send for repair",
+     "tr": "onarıma göndermek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "They offered me a repair, but I asked for a replacement.",
+     "tr": "Onarım önerdiler ama ben yenisini istedim."
+    },
+    {
+     "en": "I'd like a full refund, please.",
+     "tr": "Paranın tamamının iadesini istiyorum lütfen."
+    },
+    {
+     "en": "Can you send it for repair?",
+     "tr": "Onarıma gönderebilir misiniz?"
+    }
+   ],
+   "commonMistake": "Para iadesi için return değil refund kullanılır; return ürünü geri götürmektir."
+  },
+  {
+   "id": "recommend",
+   "term": "I'd definitely recommend …",
+   "meaning": "… kesinlikle tavsiye ederim",
+   "partOfSpeech": "memnuniyet",
+   "sourceTerms": [
+    "I'd definitely recommend …"
+   ],
+   "explanation": [
+    "Memnuniyeti başkasına tavsiye ederek gösteren kalıp. I'd = I would. recommend + isim / + -ing: I'd recommend booking early."
+   ],
+   "collocations": [
+    {
+     "en": "highly recommend",
+     "tr": "çok tavsiye etmek"
+    },
+    {
+     "en": "recommend + -ing",
+     "tr": "… yapmayı tavsiye etmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'd definitely recommend the tailor on our street.",
+     "tr": "Sokağımızdaki terziyi kesinlikle tavsiye ederim."
+    },
+    {
+     "en": "I'd recommend ordering a size up.",
+     "tr": "Bir beden büyük sipariş etmeyi tavsiye ederim."
+    },
+    {
+     "en": "Would you recommend this blender? — Definitely!",
+     "tr": "Bu blenderı tavsiye eder misin? — Kesinlikle!"
+    }
+   ],
+   "commonMistake": "recommend to buy değil recommend buying denir."
+  }
+ ]
+}

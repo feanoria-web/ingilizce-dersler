@@ -1,0 +1,2550 @@
+{
+ "version": 1,
+ "block": 2,
+ "chapters": [
+  {
+   "screenId": "complain-online",
+   "title": "Yazılı şikâyet: kusurlu teslimat için e-posta ve kısa yorumlar",
+   "intro": [
+    "İnternetten alınan ürün hasarlı, eksik, arızalı ya da açıklamadan farklı geldiğinde karşımızda bir satıcı yoktur; derdimizi yazarak anlatırız. Yazılı şikâyetin sözlü şikâyetten farkı, kalıcı olması ve resmî bir dil gerektirmesidir. Dersteki model e-postada Tolga, internetten aldığı lambanın kırık geldiğini, kutunun kötü paketlendiğini ve hızlı teslimat için ek ücret ödediği hâlde paketin bir hafta geç geldiğini anlatır; fotoğraf ekler ve önce yenisini, olmazsa para iadesini ister.",
+    "Bu bölümde üç beceri var. Birincisi resmî e-postanın altı parçalı yapısı ve kısaltmasız resmî dil. İkincisi olanları anlatırken past simple passive (The parcel was delivered …) ve daha önce olanı göstermek için past perfect (I had paid extra …). Üçüncüsü kibar ama kararlı istek: I would like … · I would be grateful if you could … Bölüm, memnuniyetin yazılı biçimi olan kısa yorumlarla biter. Yorumlar e-postanın tam tersidir: kısa, not gibi, çoğu zaman öznesiz cümleler (Arrived on time. Exactly as described.)."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "The parcel was delivered on 27 October.",
+     "tr": "Paket 27 Ekim'de teslim edildi.",
+     "why": [
+      "Past simple passive: was + V3; on + tarih."
+     ]
+    },
+    {
+     "en": "However, when I opened the box, I found that the glass shade was broken and the base was badly scratched.",
+     "tr": "Ancak kutuyu açtığımda cam abajurun kırık, gövdenin de kötü çizilmiş olduğunu gördüm.",
+     "why": [
+      "However beklenmedik sorunu bağlar; find that + cümle = … olduğunu görmek."
+     ]
+    },
+    {
+     "en": "There was no protective material inside the box.",
+     "tr": "Kutunun içinde koruyucu malzeme yoktu.",
+     "why": [
+      "There was no + isim = hiç … yoktu. protective material = koruyucu malzeme."
+     ]
+    },
+    {
+     "en": "I had paid 120 TL extra for next-day delivery, but the parcel arrived a week later.",
+     "tr": "Ertesi gün teslimat için 120 TL fazla ödemiştim ama paket bir hafta sonra geldi.",
+     "why": [
+      "Past perfect (had paid) gecikmeden önceki ödemeyi gösterir; a week later = bir hafta sonra."
+     ]
+    },
+    {
+     "en": "If this is not possible, I would like a full refund, including the delivery charge.",
+     "tr": "Bu mümkün değilse teslimat ücreti dahil paranın tamamının iadesini istiyorum.",
+     "why": [
+      "Alternatif istek; including = dahil; resmî dilde is not (kısaltmasız)."
+     ]
+    },
+    {
+     "en": "Good quality, but the sizes are small. Order one size up.",
+     "tr": "Kalitesi iyi ama bedenleri küçük. Bir beden büyük alın.",
+     "why": [
+      "Yorum dili: ilk cümlede özne yok; one size up = bir beden büyük."
+     ]
+    },
+    {
+     "en": "Disappointed. It looks nothing like the photo, and returning it was difficult.",
+     "tr": "Hayal kırıklığı. Fotoğrafa hiç benzemiyor, iade etmek de zordu.",
+     "why": [
+      "look nothing like = hiç benzememek; returning it: -ing özne olarak (iade etmek)."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "co-structure",
+     "title": "Subject · Dear … · I am writing to complain about … · I look forward to hearing from you.",
+     "meaning": "Resmî şikâyet e-postasının yapısı ve resmî dil",
+     "explanation": [
+      "Resmî şikâyet e-postası altı parçadan oluşur. (1) Konu satırı: sipariş numarası ve sorun, kısa: Order PH-51907: damaged lamp. (2) Hitap: isim bilinmiyorsa Dear Customer Services Team, ya da Dear Sir or Madam, isim biliniyorsa Dear Ms Demir, (3) Yazma sebebi: I am writing to complain about … / I am writing regarding order … (4) Ne oldu? (5) Ne istiyorsunuz ve kanıt. (6) Kapanış: I look forward to hearing from you. ve imza.",
+      "Kapanış selamı hitaba göre değişir: Dear Sir or Madam ile başlayan bir mektup Yours faithfully, ile; Dear Ms Demir gibi isimle başlayan bir mektup Yours sincerely, ile biter. Kind regards, iki durumda da kullanılabilen, biraz daha az resmî ama çok yaygın bir kapanıştır. I look forward to hearing from you kalıbında to bir edattır, bu yüzden ardından -ing gelir: look forward to hearing (look forward to hear yanlış).",
+      "Resmî yazının en belirgin özelliği kısaltma kullanılmamasıdır: I'm yerine I am, I'd like yerine I would like, doesn't yerine does not, it's yerine it is. Ayrıca gündelik kelimeler yerine daha resmî karşılıklar seçilir: The box was rubbish yerine The item was poorly packed; Send me a new one yerine I would be grateful if you could send me a replacement. Dersteki tablo bu dönüşümleri yan yana gösterir."
+     ],
+     "formula": [
+      "Subject: Order … : sorun",
+      "Dear Customer Services Team, · Dear Sir or Madam, · Dear Ms …,",
+      "I am writing to complain about … · I look forward to hearing from you."
+     ],
+     "examples": [
+      {
+       "en": "I am writing to complain about a table lamp (order number PH-51907) which I ordered from your website on 20 October.",
+       "tr": "Web sitenizden 20 Ekim'de sipariş ettiğim bir masa lambası (sipariş no PH-51907) hakkında şikâyette bulunmak için yazıyorum.",
+       "why": [
+        "Sebep cümlesi; which ile ürün tanımlanır; on + tarih."
+       ],
+       "chunks": [
+        {
+         "en": "I am writing to complain about",
+         "tr": "… hakkında şikâyet etmek için yazıyorum"
+        },
+        {
+         "en": "which I ordered",
+         "tr": "sipariş ettiğim"
+        }
+       ]
+      },
+      {
+       "en": "Dear Sir or Madam, … Yours faithfully, Tolga Aksoy",
+       "tr": "Sayın yetkili, … Saygılarımla, Tolga Aksoy",
+       "why": [
+        "İsimsiz hitap → Yours faithfully."
+       ]
+      },
+      {
+       "en": "I look forward to hearing from you.",
+       "tr": "Yanıtınızı bekliyorum.",
+       "why": [
+        "look forward to + -ing."
+       ]
+      },
+      {
+       "en": "I am writing regarding order TK-2290, which was delivered on 29 October.",
+       "tr": "29 Ekim'de teslim edilen TK-2290 numaralı siparişle ilgili yazıyorum.",
+       "why": [
+        "regarding = ile ilgili (resmî)."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Dear Ms Demir ile başlayan e-posta hangi kapanışla biter?",
+       "answer": "Yours sincerely,",
+       "why": "İsimli hitap → sincerely."
+      },
+      {
+       "question": "I look forward to ___ (hear) from you.",
+       "answer": "hearing",
+       "why": "to edat → -ing."
+      },
+      {
+       "question": "Resmî yazıda I'd like yerine?",
+       "answer": "I would like",
+       "why": "Kısaltma yok."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I'm waiting your answer.",
+       "right": "I look forward to hearing from you.",
+       "why": "Resmî kapanış kalıbı."
+      },
+      {
+       "wrong": "Dear Sir or Madam, … Yours sincerely,",
+       "right": "Dear Sir or Madam, … Yours faithfully,",
+       "why": "İsimsiz hitapta faithfully."
+      }
+     ]
+    },
+    {
+     "id": "co-what-happened",
+     "title": "The parcel was delivered on 27 October. · I had paid extra for next-day delivery.",
+     "meaning": "Olanları past simple passive ve past perfect ile anlatmak",
+     "explanation": [
+      "Şikâyet e-postasının orta paragrafında olanlar tarihleriyle anlatılır. İşi yapan çoğu zaman belli değildir ya da önemsizdir (kargocu, depo, sistem); bu yüzden past simple passive (was / were + V3) doğaldır: The parcel was delivered on 27 October. (Paket 27 Ekim'de teslim edildi.) · It was badly packed. (Kötü paketlenmişti.) · The item was sent to the wrong address. (Ürün yanlış adrese gönderildi.)",
+      "Bir olaydan daha önce olan bir şeyi vurgulamak için past perfect (had + V3) kullanılır: I had paid 120 TL extra for next-day delivery, but the parcel arrived a week later. Ödeme gecikmeden önce olmuştur; had paid bu sırayı gösterir ve şikâyetin haklılığını güçlendirir. When I opened the box, I found that the glass shade was broken: kutuyu açma ve fark etme past simple ile sırayla anlatılır.",
+      "Sorun kelimeleri dikkatle seçilmelidir: damaged (dışarıdan zarar görmüş: kırık, ezik, çizik), faulty / defective (çalışmıyor, içten arızalı), missing (eksik), scratched (çizik), dented (göçük), the wrong size / colour / item (yanlış beden / renk / ürün), does not match the description (açıklamaya uymuyor). However (ancak) ile beklenmedik sorun bağlanır: The parcel was delivered on time. However, when I opened it, …"
+     ],
+     "formula": [
+      "Past passive: The parcel was delivered … · It was badly packed.",
+      "Past perfect: I had paid extra …, but it arrived late.",
+      "Sorun: damaged · faulty · missing · does not match the description"
+     ],
+     "examples": [
+      {
+       "en": "When I opened the box, I found that the glass shade was broken and the base was badly scratched.",
+       "tr": "Kutuyu açtığımda cam abajurun kırık, gövdenin de kötü çizilmiş olduğunu gördüm.",
+       "why": [
+        "found that + cümle; badly scratched = kötü çizilmiş."
+       ],
+       "chunks": [
+        {
+         "en": "the glass shade",
+         "tr": "cam abajur"
+        },
+        {
+         "en": "badly scratched",
+         "tr": "kötü çizilmiş"
+        }
+       ]
+      },
+      {
+       "en": "I had paid 120 TL extra for next-day delivery, but the parcel arrived a week later.",
+       "tr": "Ertesi gün teslimat için 120 TL fazla ödemiştim ama paket bir hafta sonra geldi.",
+       "why": [
+        "had paid: daha önceki eylem."
+       ]
+      },
+      {
+       "en": "The item was sent to the wrong address.",
+       "tr": "Ürün yanlış adrese gönderildi.",
+       "why": [
+        "was sent: past simple passive."
+       ]
+      },
+      {
+       "en": "Two glasses arrived broken. There was no protective material inside the box.",
+       "tr": "İki bardak kırık geldi. Kutunun içinde koruyucu malzeme yoktu.",
+       "why": [
+        "arrive + sıfat: … olarak gelmek."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Paket 30 Ekim'de teslim edildi.”",
+       "answer": "The parcel was delivered on 30 October.",
+       "why": "was + V3."
+      },
+      {
+       "question": "“Hızlı teslimat için ödeme yapmıştım.”",
+       "answer": "I had paid for express delivery.",
+       "why": "had + V3."
+      },
+      {
+       "question": "Ürün çalışmıyor: damaged mı faulty mi?",
+       "answer": "faulty",
+       "why": "damaged dış hasar, faulty arıza."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The parcel delivered on 27 October.",
+       "right": "The parcel was delivered on 27 October.",
+       "why": "Paket teslim etmez, teslim edilir: passive."
+      },
+      {
+       "wrong": "The product came damage.",
+       "right": "The item arrived damaged.",
+       "why": "arrive + sıfat (damaged)."
+      }
+     ]
+    },
+    {
+     "id": "co-request-review",
+     "title": "I would be grateful if you could … · I have attached … · Arrived on time. Exactly as described.",
+     "meaning": "Resmî istek, kanıt ve kısa yorum dili",
+     "explanation": [
+      "Resmî istek için iki kalıp öne çıkar: I would like + isim (I would like a full refund.) ve I would be grateful if you could + yalın fiil (I would be grateful if you could send me a replacement as soon as possible.). İkincisi “… yaparsanız minnettar olurum” demektir ve hem kibar hem kararlıdır. Alternatif bir istek de eklenebilir: If this is not possible, I would like a full refund, including the delivery charge.",
+      "Kanıt present perfect ile söylenir: I have attached three photos. (Üç fotoğraf ekledim: ekler şu an e-postada.) Alternatif kalıp: Please find attached three photos of the lamp. İstediğiniz süreyi belirtmek: within seven days (yedi gün içinde), as soon as possible (en kısa zamanda). Türkiye'de internet alışverişinde genellikle 14 günlük cayma hakkı vardır; kusurlu üründe onarım, değişim, indirim ya da iade istenebilir.",
+      "Yorumlar (reviews) e-postanın tam tersidir: kısa, kişisel ve not gibidir. Özne sık sık düşer: Arrived on time and well packed. (= It arrived …) · Exactly as described. · Great value for money. Olumsuz yorumda da kibar ve somut olun: Disappointed. The zip broke after a week. Dengeli yorum: Good quality, but the sizes are small. Order one size up. Yıldız sayısı genellikle beşten verilir: five stars, two stars."
+     ],
+     "formula": [
+      "İstek: I would like … · I would be grateful if you could …",
+      "Kanıt: I have attached … · Please find attached …",
+      "Yorum: Arrived on time. · Exactly as described. · Disappointed. …"
+     ],
+     "examples": [
+      {
+       "en": "I would be grateful if you could send me a replacement as soon as possible.",
+       "tr": "En kısa zamanda yenisini gönderirseniz minnettar olurum.",
+       "why": [
+        "grateful if you could + yalın fiil."
+       ]
+      },
+      {
+       "en": "I have attached three photos of the lamp and the box.",
+       "tr": "Lambanın ve kutunun üç fotoğrafını ekledim.",
+       "why": [
+        "have attached: ekler şu an e-postada."
+       ]
+      },
+      {
+       "en": "Arrived a day early and very well packed. Exactly as described.",
+       "tr": "Bir gün erken ve çok iyi paketlenmiş geldi. Tam açıklandığı gibi.",
+       "why": [
+        "Yorum dili: özne yok, kısa ifadeler."
+       ],
+       "chunks": [
+        {
+         "en": "well packed",
+         "tr": "iyi paketlenmiş"
+        },
+        {
+         "en": "exactly as described",
+         "tr": "tam açıklandığı gibi"
+        }
+       ]
+      },
+      {
+       "en": "The zip broke after a week. Customer service replied quickly, though.",
+       "tr": "Fermuar bir hafta sonra bozuldu. Yine de müşteri hizmetleri hızlı cevap verdi.",
+       "why": [
+        "though cümle sonunda = yine de."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Yenisini gönderirseniz minnettar olurum.”",
+       "answer": "I would be grateful if you could send me a replacement.",
+       "why": "Resmî istek."
+      },
+      {
+       "question": "“Fotoğrafları ekledim.”",
+       "answer": "I have attached the photos.",
+       "why": "present perfect."
+      },
+      {
+       "question": "Yorumda “It arrived on time.” nasıl kısalır?",
+       "answer": "Arrived on time.",
+       "why": "Yorumda özne düşer."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I would be grateful if you can send …",
+       "right": "I would be grateful if you could send …",
+       "why": "Bu kalıpta could kullanılır."
+      },
+      {
+       "wrong": "Photos are in the add.",
+       "right": "I have attached two photos.",
+       "why": "Ek için attach / attached."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "survey",
+   "title": "Anket doldurmak ve sonuçları raporlamak",
+   "intro": [
+    "Anketler (survey, questionnaire) günlük hayatın parçasıdır: mağazalar alışverişten sonra, bankalar işlemden sonra, belediyeler hizmetler hakkında görüşümüzü sorar. Bir anketi doğru doldurmak için soru türlerini tanımak gerekir: tek seçim mi, birden fazla seçim mi, puanlama mı, katılım ölçeği mi, açık uçlu soru mu? Dersteki üç anket sorusu ve dört açık uçlu soru bu türlerin her birini içerir. Online anketlerin ekran dili de (required, optional, Submit) bu bölümde.",
+    "İkinci beceri, bir sınıf anketinin sonuçlarını İngilizce raporlamaktır. Bunun için miktar ifadeleri kullanılır: Most of us, Half of the class, Only a few people, Two out of twelve people, None of us. Dersteki örnek rapor bu ifadelerin hepsini doğal bir metinde gösterir. Üçüncü beceri kendi anket sorularımızı yazmaktır: How often …? · To what extent do you agree that …? · What is the main reason why …? Grup etkinliğinde bu üç beceri birleşir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "How often do you shop online?",
+     "tr": "Ne sıklıkla internetten alışveriş yaparsınız?",
+     "why": [
+      "How often + present simple: sıklık sorusu. shop online: online edatsız."
+     ]
+    },
+    {
+     "en": "What do you usually buy online? (Tick all that apply.)",
+     "tr": "Genellikle internetten ne alırsınız? (Uygun olanların hepsini işaretleyin.)",
+     "why": [
+      "Tick all that apply: birden fazla seçenek işaretlenebilir."
+     ]
+    },
+    {
+     "en": "“I often buy things I don't really need.”",
+     "tr": "“Gerçekten ihtiyacım olmayan şeyleri sık sık alırım.”",
+     "why": [
+      "things I don't really need: ilgi zamiri (that) düşmüş bir ilgi cümleciği. Bu bir katılım ölçeği ifadesidir."
+     ]
+    },
+    {
+     "en": "Half of the class agreed that they often buy things they don't really need.",
+     "tr": "Sınıfın yarısı, gerçekten ihtiyaçları olmayan şeyleri sık sık aldıklarına katıldı.",
+     "why": [
+      "agree that + cümle; rapor geçmiş zamanda (agreed) ama genel alışkanlık present simple kalabilir."
+     ]
+    },
+    {
+     "en": "On average, we spend between 500 and 1,500 lira a month on clothes.",
+     "tr": "Ortalama olarak ayda kıyafete 500 ile 1.500 lira arasında harcıyoruz.",
+     "why": [
+      "on average edatsız; between … and … aralık; spend … on …"
+     ]
+    },
+    {
+     "en": "Two out of twelve people have never bought anything second-hand, and none of us pays for clothes in instalments.",
+     "tr": "On iki kişiden ikisi hiç ikinci el bir şey almamış ve hiçbirimiz kıyafeti taksitle ödemiyor.",
+     "why": [
+      "never + present perfect: deneyim; none of us: tek olumsuzluk."
+     ]
+    },
+    {
+     "en": "The main reason why people use local shops is that they are friendly and close to home.",
+     "tr": "İnsanların mahalle dükkânlarını kullanmasının asıl sebebi güler yüzlü ve eve yakın olmaları.",
+     "why": [
+      "The main reason why … is that …: sebebi açıklayan rapor cümlesi."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "sv-question-types",
+     "title": "Tick all that apply. · Rate … from 1 to 5. · strongly agree → strongly disagree · Other (please specify)",
+     "meaning": "Anket soru türlerini ve ekran dilini anlamak",
+     "explanation": [
+      "Anket sorularının yönergeleri kısa ve kalıplıdır. Choose one answer. (Bir cevap seçin.) · Tick all that apply. (Uygun olanların hepsini işaretleyin: birden fazla seçim.) · Rate our service from 1 to 5. (Hizmetimizi 1'den 5'e puanlayın.) genellikle 1 = very poor (çok kötü), 5 = excellent (mükemmel) açıklamasıyla gelir. Seçeneklerde cevabınız yoksa Other (please specify) (Diğer, lütfen belirtin) kutusuna yazarsınız.",
+      "Katılım ölçeği (Likert ölçeği) beş basamaklıdır: strongly agree (kesinlikle katılıyorum), agree (katılıyorum), neither agree nor disagree (ne katılıyorum ne katılmıyorum), disagree (katılmıyorum), strongly disagree (kesinlikle katılmıyorum). Sıklık ölçeği: always, often, sometimes, rarely, never. Bu ölçekler bir ifadeye ne kadar katıldığınızı ya da bir şeyi ne sıklıkla yaptığınızı ölçer.",
+      "Online anket ekranında: required (zorunlu, çoğu zaman yıldız * ile), optional (isteğe bağlı), Next (sonraki), Back (geri), Submit (gönder). Giriş metinlerinde This survey takes about five minutes. (Bu anket yaklaşık beş dakika sürer.) ve Your answers are anonymous. (Cevaplarınız isimsizdir.) gibi cümleler olur. Submit'e basmadan önce gizlilik notunu okumak ve kişisel bilgileri sadece gerekliyse yazmak iyi bir alışkanlıktır."
+     ],
+     "formula": [
+      "Choose one answer. · Tick all that apply.",
+      "Rate … from 1 to 5 (1 = very poor, 5 = excellent)",
+      "strongly agree · agree · neither … nor … · disagree · strongly disagree"
+     ],
+     "examples": [
+      {
+       "en": "Which of the following do you buy online? Tick all that apply.",
+       "tr": "Aşağıdakilerden hangilerini internetten alırsınız? Uygun olanların hepsini işaretleyin.",
+       "why": [
+        "Which of the following = aşağıdakilerden hangisi."
+       ]
+      },
+      {
+       "en": "Please rate our delivery from 1 to 5, where 5 is excellent.",
+       "tr": "Lütfen teslimatımızı 1'den 5'e puanlayın; 5 mükemmeldir.",
+       "why": [
+        "where 5 is … = 5'in … olduğu."
+       ]
+      },
+      {
+       "en": "“I often buy things I don't really need.” — Neither agree nor disagree.",
+       "tr": "“Gerçekten ihtiyacım olmayan şeyleri sık sık alırım.” — Ne katılıyorum ne katılmıyorum.",
+       "why": [
+        "Katılım ölçeğinin orta basamağı."
+       ],
+       "chunks": [
+        {
+         "en": "things I don't really need",
+         "tr": "gerçekten ihtiyacım olmayan şeyler"
+        },
+        {
+         "en": "neither agree nor disagree",
+         "tr": "ne katılıyorum ne katılmıyorum"
+        }
+       ]
+      },
+      {
+       "en": "Fields marked with * are required.",
+       "tr": "Yıldızlı alanlar zorunludur.",
+       "why": [
+        "required = zorunlu."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Tick all that apply.” kaç kutu işaretlenir?",
+       "answer": "Uygun olanların hepsi; birden fazla olabilir.",
+       "why": "apply = geçerli olmak, uymak."
+      },
+      {
+       "question": "Ölçeğin tam ortası?",
+       "answer": "neither agree nor disagree",
+       "why": "neither … nor …"
+      },
+      {
+       "question": "Submit düğmesi ne yapar?",
+       "answer": "Anketi gönderir.",
+       "why": "submit = sunmak, göndermek."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Sign all of them.",
+       "right": "Tick all that apply.",
+       "why": "İşaretlemek tick'tir; sign imzalamaktır."
+      },
+      {
+       "wrong": "I filled the survey.",
+       "right": "I filled in the survey. / I completed the survey.",
+       "why": "Form için fill in kalıbı."
+      }
+     ]
+    },
+    {
+     "id": "sv-questions",
+     "title": "How often do you …? · On average, how much …? · What is the main reason why …?",
+     "meaning": "Anket soruları sormak ve açık uçlu sorulara cevap vermek",
+     "explanation": [
+      "Anket soruları birkaç kalıba dayanır. Sıklık: How often do you shop online? Miktar: On average, how much do you spend on clothes a month? (Ayda kıyafete ortalama ne kadar harcarsınız?) Seçim: Which of the following …? Katılım: To what extent do you agree that adverts are useful? (Reklamların faydalı olduğuna ne ölçüde katılıyorsunuz?) Sebep: What is the main reason why you shop in local shops? Deneyim: Have you ever bought something second-hand?",
+      "on average (ortalama olarak) cümle başında ya da sonunda gelir ve önüne edat almaz: On average, I spend 1,000 lira a month. (I spend average 1,000 yanlış.) a month, a week (ayda, haftada) sıklık ve miktar için kullanılır: twice a month, 500 lira a week. between … and … aralık bildirir: between 500 and 1,500 lira.",
+      "Açık uçlu soruya tam cümle ve gerekçeyle cevap verilir: What is the main reason why you shop in local shops? — The main reason is that I know the owners, and they are always friendly. The main reason is that + cümle kalıbı bir önceki dersten tanıdıktır; burada yazılı cevapta kullanılır. Any other comments? sorusuna kısa bir öneri yazılabilir: It would be nice to have free delivery on Sundays."
+     ],
+     "formula": [
+      "How often do you …? · Have you ever …?",
+      "On average, how much do you spend on … a month?",
+      "To what extent do you agree that …? · What is the main reason why …?"
+     ],
+     "examples": [
+      {
+       "en": "On average, how much do you spend on clothes a month?",
+       "tr": "Ayda kıyafete ortalama ne kadar harcarsınız?",
+       "why": [
+        "spend on + isim; a month = ayda."
+       ]
+      },
+      {
+       "en": "To what extent do you agree that adverts are useful?",
+       "tr": "Reklamların faydalı olduğuna ne ölçüde katılıyorsunuz?",
+       "why": [
+        "Resmî katılım sorusu."
+       ],
+       "chunks": [
+        {
+         "en": "To what extent",
+         "tr": "ne ölçüde"
+        },
+        {
+         "en": "agree that",
+         "tr": "… olduğuna katılmak"
+        }
+       ]
+      },
+      {
+       "en": "The main reason is that I know the owners, and they are always friendly.",
+       "tr": "Asıl sebep, sahiplerini tanımam ve onların hep güler yüzlü olması.",
+       "why": [
+        "The main reason is that + cümle."
+       ]
+      },
+      {
+       "en": "On average, I buy one book a month.",
+       "tr": "Ortalama ayda bir kitap alırım.",
+       "why": [
+        "on average edatsız; a month."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Ortalama olarak haftada 300 lira harcarım.”",
+       "answer": "On average, I spend 300 lira a week.",
+       "why": "on average · a week."
+      },
+      {
+       "question": "Sebep sorusu kur: local shops",
+       "answer": "What is the main reason why you shop in local shops?",
+       "why": "the main reason why …"
+      },
+      {
+       "question": "I spend average 2,000 a month. Düzelt.",
+       "answer": "On average, I spend 2,000 lira a month.",
+       "why": "on average kalıbı."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "How much do you spend for clothes?",
+       "right": "How much do you spend on clothes?",
+       "why": "spend on + isim."
+      },
+      {
+       "wrong": "What is the main reason that why you …?",
+       "right": "What is the main reason why you …?",
+       "why": "Tek bağlaç yeter."
+      }
+     ]
+    },
+    {
+     "id": "sv-report",
+     "title": "Most of us … · Half of the class … · Only a few people … · None of us …",
+     "meaning": "Anket sonuçlarını miktar ifadeleriyle raporlamak",
+     "explanation": [
+      "Sonuç raporunun ilk cümlesi kaç kişinin katıldığını söyler: Twelve people answered our survey about shopping habits. Ardından miktar ifadeleriyle sonuçlar verilir: Most of us (çoğumuz), The majority of the class (sınıfın çoğunluğu), Half of the class (sınıfın yarısı), About a third (yaklaşık üçte biri), Only a few people (sadece birkaç kişi), Two out of twelve people (on iki kişiden ikisi), Nobody / None of us (hiçbirimiz).",
+      "Fiil uyumu: Most of us, Half of the class, Only a few people ifadelerinden sonra çoğul fiil gelir: Most of us shop online. (shops değil.) None of us ile tekil ya da çoğul fiil ikisi de kabul edilir (None of us pays / pay); ama None of us zaten olumsuzdur, ikinci bir olumsuzluk eklenmez: None of us don't pay yanlıştır. Nobody tekil fiil alır: Nobody buys food online.",
+      "Raporda karşıtlık ve en yüksek sonuç vurgulanır: Most of us shop online at least once a month, but only three people buy food online. · Clothes and books are the most popular things to buy on the internet. Sebep cümlesi raporu bitirir: The main reason why people use local shops is that they are friendly and close to home. Bu yapı bir anket raporunun klasik akışıdır: katılım, ana sonuç, karşıtlık, en popüler, sebep."
+     ],
+     "formula": [
+      "Katılım: Twelve people answered our survey.",
+      "Çoğunluk → azınlık: Most of us · Half of … · Only a few … · None of us",
+      "Vurgu: the most popular … · The main reason why … is that …"
+     ],
+     "examples": [
+      {
+       "en": "Most of us shop online at least once a month, but only three people buy food online.",
+       "tr": "Çoğumuz ayda en az bir kez internetten alışveriş yapıyor ama sadece üç kişi internetten yiyecek alıyor.",
+       "why": [
+        "Most of us + çoğul fiil; but karşıtlık."
+       ]
+      },
+      {
+       "en": "Two out of twelve people have never bought anything second-hand.",
+       "tr": "On iki kişiden ikisi hiç ikinci el bir şey almamış.",
+       "why": [
+        "X out of Y = Y kişiden X'i."
+       ]
+      },
+      {
+       "en": "None of us pays for clothes in instalments.",
+       "tr": "Hiçbirimiz kıyafeti taksitle ödemiyor.",
+       "why": [
+        "None of us: tek olumsuzluk."
+       ],
+       "chunks": [
+        {
+         "en": "None of us",
+         "tr": "hiçbirimiz"
+        },
+        {
+         "en": "in instalments",
+         "tr": "taksitle"
+        }
+       ]
+      },
+      {
+       "en": "Clothes and books are the most popular things to buy on the internet.",
+       "tr": "Kıyafet ve kitap internetten en çok alınan şeyler.",
+       "why": [
+        "the most popular things to buy = en popüler alınacak şeyler."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Most of us ___ (use) cash.",
+       "answer": "use",
+       "why": "Most of us + çoğul fiil."
+      },
+      {
+       "question": "“Hiçbirimiz nakit kullanmıyor.”",
+       "answer": "None of us uses (use) cash.",
+       "why": "Çift olumsuz yok."
+      },
+      {
+       "question": "“On iki kişiden beşi”",
+       "answer": "five out of twelve people",
+       "why": "out of."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Most of us shops online.",
+       "right": "Most of us shop online.",
+       "why": "Çoğul fiil."
+      },
+      {
+       "wrong": "None of us don't buy food online.",
+       "right": "None of us buys food online.",
+       "why": "None zaten olumsuz."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "ataturk-life",
+   "title": "Atatürk'ün hayatı: biyografi dili ve tarihler",
+   "intro": [
+    "Bu bölüm Atatürkçülük kazanımı için hazırlandı ve 10 Kasım öncesinde Atatürk'ün hayatını İngilizce, tarihleri ve olaylarıyla ayrıntılı anlatır. Metin dört döneme ayrılır: Selanik'teki çocukluk ve okul yılları, genç subaylık ve Çanakkale, Kurtuluş Savaşı, Cumhuriyet'in ilanı. Her dönem önemli tarihlerle verilir: 1881'de doğum, 1893'te askerî ortaokul ve Kemal adı, 1905'te kurmay yüzbaşı, 1915 Çanakkale, 19 Mayıs 1919 Samsun, 23 Nisan 1920 Meclis, 30 Ağustos 1922 Büyük Zafer, 29 Ekim 1923 Cumhuriyet, 1934 Atatürk soyadı ve 10 Kasım 1938.",
+    "Dil açısından bu bölüm B1'in biyografi anlatımını öğretir. Olaylar past simple ile anlatılır (went, became, led, won). Kişiye yapılan işler past passive ile söylenir (was born, was given the name Kemal, was elected President, was proclaimed). Önce olan olaylar past perfect ile gösterilir (When he landed in Samsun, the Greek army had already landed in İzmir. By 1905, he had graduated …). Tarih ifadelerinde in, on, at the age of, from … to … kullanımı ve yılların okunuşu da çalışılır. Okuma metnindeki renkli işaretler bu dört dil öğesini ayırt etmek içindir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Mustafa was born in Selanik (Thessaloniki), then a city of the Ottoman Empire, in 1881.",
+     "tr": "Mustafa, 1881'de, o zaman Osmanlı Devleti'nin bir şehri olan Selanik'te doğdu.",
+     "why": [
+      "was born: doğmak pasiftir. then a city of … araya giren açıklamadır: o zamanlar … şehri."
+     ]
+    },
+    {
+     "en": "His mother, Zübeyde Hanım, wanted him to go to a traditional neighbourhood school, but his father preferred a modern one.",
+     "tr": "Annesi Zübeyde Hanım onun geleneksel bir mahalle mektebine gitmesini istedi ama babası modern bir okulu tercih etti.",
+     "why": [
+      "want someone to do = birinin bir şey yapmasını istemek. a modern one: one, school kelimesinin tekrarını önler."
+     ]
+    },
+    {
+     "en": "He was excellent at mathematics, and his mathematics teacher gave him a second name: Kemal, which means “perfection”.",
+     "tr": "Matematikte çok başarılıydı ve matematik öğretmeni ona ikinci bir ad verdi: “olgunluk, mükemmellik” anlamına gelen Kemal.",
+     "why": [
+      "excellent at = … konusunda çok iyi. which means … = … anlamına gelen."
+     ]
+    },
+    {
+     "en": "By 1905 he had graduated from the Staff College as a staff captain.",
+     "tr": "1905'e gelindiğinde Harp Akademisinden kurmay yüzbaşı olarak mezun olmuştu.",
+     "why": [
+      "By + yıl + past perfect; graduate from = …den mezun olmak; as = … olarak."
+     ]
+    },
+    {
+     "en": "Four days earlier, the Greek army had landed in İzmir.",
+     "tr": "Dört gün önce Yunan ordusu İzmir'e çıkarma yapmıştı.",
+     "why": [
+      "Past perfect: Samsun'a çıkıştan (19 Mayıs) önce olan olay (15 Mayıs)."
+     ]
+    },
+    {
+     "en": "After the Battle of Sakarya in 1921, the Assembly gave him the title “Gazi” and the rank of marshal.",
+     "tr": "1921'deki Sakarya Savaşı'ndan sonra Meclis ona Gazi unvanını ve mareşal rütbesini verdi.",
+     "why": [
+      "give someone something: iki nesne. Edilgen biçimi: He was given the title “Gazi”."
+     ]
+    },
+    {
+     "en": "In 1934, after the Surname Law was passed, the Assembly gave him the surname “Atatürk”, which means “Father of the Turks”.",
+     "tr": "1934'te Soyadı Kanunu kabul edildikten sonra Meclis ona “Türklerin babası” anlamına gelen Atatürk soyadını verdi.",
+     "why": [
+      "was passed: yasa kabul edildi (pass a law). which means: açıklayıcı ilgi cümleciği."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "al-past-simple",
+     "title": "He went to school in Selanik. · He became famous at Çanakkale. · He led the War of Independence.",
+     "meaning": "Biyografide olayları past simple ile sıralamak",
+     "explanation": [
+      "Bir hayat hikâyesinin omurgası past simple'dır; olaylar birbirini izler: He entered the military middle school in 1893. He studied at the military high school in Manastır. In 1899 he went to the Military Academy in Istanbul. Düzenli fiiller -ed alır (enter – entered, study – studied, serve – served, land – landed, die – died); düzensiz fiillerin geçmiş hâli ezberlenir.",
+      "Biyografilerde sık geçen düzensiz fiiller: go – went (gitti), become – became (oldu), lead – led (yönetti), give – gave (verdi), win – won (kazandı), fight – fought (savaştı), take – took (aldı), begin – began (başladı), send – sent (gönderdi), make – made (yaptı). Dersteki okumada The War of Independence lasted from 1919 to 1922 cümlesindeki last (sürmek) düzenli bir fiildir.",
+      "Olayları bağlamak için zaman ifadeleri kullanılır: After that, … (ondan sonra), Two years later, … (iki yıl sonra), At the end of the First World War, … (Birinci Dünya Savaşı'nın sonunda), After + -ing (After graduating, he served in Damascus. = Mezun olduktan sonra Şam'da görev yaptı.). After + -ing yapısında özne tekrar edilmez; ana cümlenin öznesiyle aynıdır."
+     ],
+     "formula": [
+      "Düzenli: entered · studied · served · landed · died",
+      "Düzensiz: went · became · led · gave · won · fought · began",
+      "Bağlama: After that · Two years later · After + -ing"
+     ],
+     "examples": [
+      {
+       "en": "In 1899 he went to the Military Academy in Istanbul.",
+       "tr": "1899'da İstanbul'daki Harbiye'ye gitti.",
+       "why": [
+        "go – went; in + yıl."
+       ]
+      },
+      {
+       "en": "In 1915 he became famous at Çanakkale (Gallipoli), where his soldiers stopped the Allied armies.",
+       "tr": "1915'te Çanakkale'de ün kazandı; orada askerleri İtilaf ordularını durdurdu.",
+       "why": [
+        "become – became; where ile yer bilgisi."
+       ]
+      },
+      {
+       "en": "After graduating, he served in Damascus.",
+       "tr": "Mezun olduktan sonra Şam'da görev yaptı.",
+       "why": [
+        "After + -ing: özne tekrar edilmez."
+       ],
+       "chunks": [
+        {
+         "en": "After graduating",
+         "tr": "mezun olduktan sonra"
+        },
+        {
+         "en": "served",
+         "tr": "görev yaptı"
+        }
+       ]
+      },
+      {
+       "en": "The War of Independence lasted from 1919 to 1922.",
+       "tr": "Kurtuluş Savaşı 1919'dan 1922'ye kadar sürdü.",
+       "why": [
+        "last = sürmek; from … to …"
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "become fiilinin geçmiş hâli?",
+       "answer": "became",
+       "why": "Düzensiz fiil."
+      },
+      {
+       "question": "“1922'de Büyük Zafer'i kazandılar.”",
+       "answer": "In 1922 they won the Great Victory.",
+       "why": "win – won."
+      },
+      {
+       "question": "“Mezun olduktan sonra …” (After + -ing)",
+       "answer": "After graduating, …",
+       "why": "After + -ing."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "He goed to Istanbul.",
+       "right": "He went to Istanbul.",
+       "why": "go düzensizdir."
+      },
+      {
+       "wrong": "After he graduating, he served in Damascus.",
+       "right": "After graduating, he served in Damascus. / After he graduated, …",
+       "why": "After + -ing'de özne yok."
+      }
+     ]
+    },
+    {
+     "id": "al-passive",
+     "title": "He was born in 1881. · He was given the name Kemal. · He was elected President.",
+     "meaning": "Biyografide past passive: kişiye yapılan işler",
+     "explanation": [
+      "Past passive (was / were + V3) kişinin işi yapan değil, işin kendisine yapıldığı durumları anlatır. He was given the name Kemal. (Ona Kemal adı verildi.) · In 1916 he was promoted to general. (1916'da generalliğe yükseltildi.) · He was elected the first President. (İlk Cumhurbaşkanı seçildi.) · The Republic was proclaimed on 29 October 1923. (Cumhuriyet ilan edildi.)",
+      "En önemli tuzak doğmaktır: Türkçede “doğdu” etken bir fiildir ama İngilizcede doğmak pasif bir yapıdır: be born. He was born in Selanik in 1881. Şimdiki zaman için: I am born yerine geçmişi kullanırız, çünkü doğum her zaman geçmiştedir: I was born in 1990. He born ve He was borned yanlıştır. Born, bear (doğurmak) fiilinin özel bir V3 biçimidir.",
+      "Etkenden edilgene çevirmek: His mathematics teacher gave him the name Kemal. → He was given the name Kemal. Etken cümlede işi yapan (öğretmen) öndedir; edilgende kişi (o) öne çıkar ve işi yapan çoğu zaman söylenmez. Gerekirse by ile eklenir: The surname was given by the Assembly. Biyografilerde edilgen yapı daha sık kullanılır, çünkü odak kişinin başına gelenlerdir."
+     ],
+     "formula": [
+      "was / were + V3: was born · was given · was elected · was proclaimed",
+      "be born her zaman pasif: I was born in …",
+      "İşi yapan gerekirse: by + kişi / kurum"
+     ],
+     "examples": [
+      {
+       "en": "Mustafa was born in Selanik (Thessaloniki), then a city of the Ottoman Empire, in 1881.",
+       "tr": "Mustafa 1881'de, o zaman Osmanlı Devleti'nin bir şehri olan Selanik'te doğdu.",
+       "why": [
+        "was born; then a city of … = o zaman … bir şehri."
+       ]
+      },
+      {
+       "en": "He was given the title “Gazi” and the rank of marshal.",
+       "tr": "Ona Gazi unvanı ve mareşal rütbesi verildi.",
+       "why": [
+        "give someone something → someone was given something."
+       ],
+       "chunks": [
+        {
+         "en": "the title",
+         "tr": "unvan"
+        },
+        {
+         "en": "the rank of marshal",
+         "tr": "mareşal rütbesi"
+        }
+       ]
+      },
+      {
+       "en": "On 23 April 1920 the Grand National Assembly was opened in Ankara, and he was elected its president.",
+       "tr": "23 Nisan 1920'de TBMM Ankara'da açıldı ve o, Meclis'in başkanı seçildi.",
+       "why": [
+        "Two passives: was opened, was elected."
+       ]
+      },
+      {
+       "en": "The Treaty of Lausanne was signed on 24 July 1923.",
+       "tr": "Lozan Antlaşması 24 Temmuz 1923'te imzalandı.",
+       "why": [
+        "was signed: past passive."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“O 1881'de doğdu.”",
+       "answer": "He was born in 1881.",
+       "why": "be born."
+      },
+      {
+       "question": "Edilgen yap: The Assembly elected him President.",
+       "answer": "He was elected President.",
+       "why": "was + V3."
+      },
+      {
+       "question": "“Cumhuriyet ilan edildi.”",
+       "answer": "The Republic was proclaimed.",
+       "why": "proclaim = ilan etmek."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "He born in Selanik.",
+       "right": "He was born in Selanik.",
+       "why": "Doğmak pasif."
+      },
+      {
+       "wrong": "He was given to the title Gazi.",
+       "right": "He was given the title “Gazi”.",
+       "why": "give someone something: to yok."
+      }
+     ]
+    },
+    {
+     "id": "al-past-perfect",
+     "title": "When he landed in Samsun, the Greek army had already landed in İzmir. · By 1905, he had graduated.",
+     "meaning": "Past perfect ve tarih ifadeleri",
+     "explanation": [
+      "Past perfect (had + V3) geçmişteki iki olaydan daha önce olanı gösterir. Mustafa Kemal 19 Mayıs 1919'da Samsun'a çıktı; Yunan ordusu ise 15 Mayıs'ta İzmir'e çıkarma yapmıştı. İngilizcede bu sıra şöyle söylenir: When he landed in Samsun, the Greek army had already landed in İzmir. ya da Four days earlier, the Greek army had landed in İzmir. already (çoktan) ve earlier (daha önce) past perfect'in sık arkadaşlarıdır.",
+      "By + zaman da past perfect ister: By 1905, he had graduated from the Staff College. (1905'e gelindiğinde Harp Akademisinden mezun olmuştu.) By the age of 24, he had become a staff captain. By, “o zamana kadar, en geç o zaman” demektir; eylem o tarihte artık tamamlanmıştır. Past perfect bir hikâyede az kullanılır; sadece sırayı vurgulamak gerektiğinde gelir, geri kalan olaylar past simple'dır.",
+      "Tarih ifadeleri: yıl, ay ve mevsim için in (in 1881, in May, in winter); gün ve tarih için on (on 19 May 1919, on Monday); saat için at (at 9.05); yaş için at the age of (at the age of twelve); aralık için from … to … (from 1919 to 1922). Okunuş: 1881 = eighteen eighty-one, 1919 = nineteen nineteen, 1938 = nineteen thirty-eight; 19 May = the nineteenth of May ya da May the nineteenth."
+     ],
+     "formula": [
+      "Önce olan: had + V3 · already · earlier",
+      "By + zaman + had + V3: By 1905, he had graduated.",
+      "in 1881 · on 19 May 1919 · at 9.05 · at the age of … · from … to …"
+     ],
+     "examples": [
+      {
+       "en": "Four days earlier, the Greek army had landed in İzmir.",
+       "tr": "Dört gün önce Yunan ordusu İzmir'e çıkarma yapmıştı.",
+       "why": [
+        "had landed: Samsun'dan önce olan olay."
+       ],
+       "chunks": [
+        {
+         "en": "Four days earlier",
+         "tr": "dört gün önce (o andan)"
+        },
+        {
+         "en": "had landed",
+         "tr": "çıkarma yapmıştı"
+        }
+       ]
+      },
+      {
+       "en": "By 1905 he had graduated from the Staff College as a staff captain.",
+       "tr": "1905'e gelindiğinde Harp Akademisinden kurmay yüzbaşı olarak mezun olmuştu.",
+       "why": [
+        "By + yıl + had + V3."
+       ]
+      },
+      {
+       "en": "He died at Dolmabahçe Palace in Istanbul on 10 November 1938, at 9.05 in the morning.",
+       "tr": "10 Kasım 1938'de sabah 9.05'te İstanbul'da Dolmabahçe Sarayı'nda hayatını kaybetti.",
+       "why": [
+        "on + tarih, at + saat, in + şehir."
+       ]
+      },
+      {
+       "en": "When the Republic was proclaimed, the War of Independence had already ended.",
+       "tr": "Cumhuriyet ilan edildiğinde Kurtuluş Savaşı çoktan bitmişti.",
+       "why": [
+        "had already ended: önce biten olay."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“1923'e gelindiğinde savaş bitmişti.”",
+       "answer": "By 1923, the war had ended.",
+       "why": "By + had + V3."
+      },
+      {
+       "question": "___ 19 May 1919 · ___ 1919 · ___ 9.05",
+       "answer": "on · in · at",
+       "why": "Tarih edatları."
+      },
+      {
+       "question": "1881 nasıl okunur?",
+       "answer": "eighteen eighty-one",
+       "why": "İkişer ikişer."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "He landed in Samsun in 19 May 1919.",
+       "right": "He landed in Samsun on 19 May 1919.",
+       "why": "Tam tarih için on."
+      },
+      {
+       "wrong": "When he landed in Samsun, the Greek army already landed in İzmir.",
+       "right": "… the Greek army had already landed in İzmir.",
+       "why": "Önce olan için had + V3."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "ataturk-legacy",
+   "title": "Cumhuriyet yılları ve miras: inkılaplar, millî günler ve 10 Kasım",
+   "intro": [
+    "Cumhuriyet'in ilanından vefatına kadar geçen on beş yılda Atatürk'ün önderliğinde eğitimden hukuka, alfabeden günlük hayata kadar pek çok alanda inkılap yapıldı: 1924'te öğretim birliği, 1925'te uluslararası takvim ve saat, 1926'da Medeni Kanun, 1928'de yeni Türk harfleri ve Millet Mektepleri, 1930 ve 1934'te kadınlara seçme ve seçilme hakkı, 1931'de Ölçüler Kanunu ve Türk Tarih Kurumu, 1932'de Türk Dil Kurumu, 1934'te Soyadı Kanunu. Bu bölüm bu inkılapları, millî günlerin onun hayatıyla bağlantısını ve 10 Kasım'daki anmayı İngilizce anlatır.",
+    "Dil açısından üç yapı öne çıkar. Past passive inkılapları anlatır (was introduced, was adopted, were given). used to eskiden olan ama artık olmayan durumları anlatır (Turkish used to be written in Arabic letters.), present perfect + since ise o tarihten bugüne süren durumu (Since 1928, Turkish has been written in Latin letters.). Anma dili de ayrı bir kalıp grubudur: a minute of silence, flags at half-mast, commemorate, remember him with respect and gratitude. Bölümün sonunda öğrenciler bu yapılarla kısa bir anma yazısı yazar."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Education was brought under one ministry in 1924.",
+     "tr": "1924'te eğitim tek bakanlık altında toplandı.",
+     "why": [
+      "bring – brought – brought; was brought: past passive."
+     ]
+    },
+    {
+     "en": "Before 1928, Turkish used to be written in Arabic letters.",
+     "tr": "1928'den önce Türkçe Arap harfleriyle yazılırdı.",
+     "why": [
+      "used to + be + V3: geçmişte süren ama artık olmayan durum, edilgen."
+     ]
+    },
+    {
+     "en": "Atatürk introduced the new letters himself in parks and squares.",
+     "tr": "Atatürk yeni harfleri parklarda ve meydanlarda bizzat tanıttı.",
+     "why": [
+      "himself = bizzat; introduce = tanıtmak, getirmek."
+     ]
+    },
+    {
+     "en": "In 1935, the first women entered the Assembly as members of parliament.",
+     "tr": "1935'te ilk kadın milletvekilleri Meclis'e girdi.",
+     "why": [
+      "the first women: ilk kadınlar; as members of parliament = milletvekili olarak."
+     ]
+    },
+    {
+     "en": "By 1938, the country had changed in many ways.",
+     "tr": "1938'e gelindiğinde ülke pek çok açıdan değişmişti.",
+     "why": [
+      "By + yıl + past perfect: o tarihte tamamlanmış değişim."
+     ]
+    },
+    {
+     "en": "Since 1928, Turkish has been written in the Latin alphabet.",
+     "tr": "1928'den beri Türkçe Latin alfabesiyle yazılıyor.",
+     "why": [
+      "has been written: present perfect passive + since (başlangıç noktası)."
+     ]
+    },
+    {
+     "en": "Every year on 10 November, we stop at 9.05 and remember him with respect.",
+     "tr": "Her yıl 10 Kasım'da saat 9.05'te durur ve onu saygıyla anarız.",
+     "why": [
+      "present simple: her yıl tekrarlanan olay; on + tarih, at + saat."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "lg-reforms",
+     "title": "The new alphabet was introduced in 1928. · Women were given the right to vote in 1934.",
+     "meaning": "İnkılapları past passive ile anlatmak",
+     "explanation": [
+      "İnkılapları anlatırken önemli olan yapılan değişikliktir; bu yüzden past passive doğaldır: The Civil Code was adopted in 1926. (Medeni Kanun 1926'da kabul edildi.) · The new Turkish alphabet was introduced in 1928. (Yeni Türk harfleri 1928'de kabul edildi, tanıtıldı.) · The metric system was adopted in 1931. · The Surname Law was passed in 1934. adopt bir sistemi benimsemek, introduce yeni bir şeyi getirmek, pass bir yasayı kabul etmektir.",
+      "Kişilere tanınan haklar için were given kullanılır: Women were given the right to vote, first in local elections in 1930 and then in national elections in 1934. (Kadınlara önce 1930'da yerel, sonra 1934'te genel seçimlerde seçme hakkı verildi.) gain (kazanmak) etken bir alternatiftir: Women gained equal rights in marriage, divorce and inheritance. Kurumlar için was founded (kuruldu): The Turkish Language Association was founded in 1932.",
+      "Yapılan inkılabın kişisel boyutu da etkenle anlatılabilir: Atatürk introduced the new letters himself in parks and squares. (Yeni harfleri parklarda ve meydanlarda bizzat tanıttı.) himself “bizzat, kendisi” demektir. 24 Kasım 1928'de Millet Mekteplerinin Başöğretmeni oldu (He became the Head Teacher of the Nation Schools); 24 Kasım'ın Öğretmenler Günü olması buna dayanır."
+     ],
+     "formula": [
+      "was adopted · was introduced · was passed · was founded",
+      "were given the right to vote · gained equal rights",
+      "Etken: He introduced the new letters himself."
+     ],
+     "examples": [
+      {
+       "en": "All schools were brought under the Ministry of Education in 1924.",
+       "tr": "1924'te bütün okullar Millî Eğitim Bakanlığına bağlandı.",
+       "why": [
+        "bring – brought; were brought under = … altına alındı."
+       ]
+      },
+      {
+       "en": "Women were given the right to vote, first in local and then in national elections.",
+       "tr": "Kadınlara önce yerel, sonra genel seçimlerde seçme hakkı verildi.",
+       "why": [
+        "were given + the right to vote."
+       ],
+       "chunks": [
+        {
+         "en": "the right to vote",
+         "tr": "oy kullanma hakkı"
+        },
+        {
+         "en": "local elections",
+         "tr": "yerel seçimler"
+        }
+       ]
+      },
+      {
+       "en": "The Turkish History Society and the Turkish Language Association were founded in 1931 and 1932.",
+       "tr": "Türk Tarih Kurumu ve Türk Dil Kurumu 1931 ve 1932'de kuruldu.",
+       "why": [
+        "were founded: kuruldu."
+       ]
+      },
+      {
+       "en": "In 1935, the first women entered the Assembly as members of parliament.",
+       "tr": "1935'te ilk kadın milletvekilleri Meclis'e girdi.",
+       "why": [
+        "members of parliament = milletvekilleri."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Medeni Kanun 1926'da kabul edildi.”",
+       "answer": "The Civil Code was adopted in 1926.",
+       "why": "adopt → was adopted."
+      },
+      {
+       "question": "Women ___ (give) the right to vote in 1934.",
+       "answer": "were given",
+       "why": "Çoğul özne → were."
+      },
+      {
+       "question": "24 Kasım neden Öğretmenler Günü?",
+       "answer": "In 1928 Atatürk became the Head Teacher of the Nation Schools.",
+       "why": "Başöğretmen."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The new alphabet introduced in 1928.",
+       "right": "The new alphabet was introduced in 1928.",
+       "why": "Alfabe kendini getirmez: passive."
+      },
+      {
+       "wrong": "Women was given the right to vote.",
+       "right": "Women were given the right to vote.",
+       "why": "women çoğul → were."
+      }
+     ]
+    },
+    {
+     "id": "lg-then-now",
+     "title": "Turkish used to be written in Arabic letters. · Since 1928, it has been written in Latin letters.",
+     "meaning": "used to ile eskiyi, present perfect + since ile bugüne uzananı anlatmak",
+     "explanation": [
+      "used to + yalın fiil, geçmişte olan ama artık olmayan bir durumu ya da alışkanlığı anlatır: Before 1928, Turkish used to be written in Arabic letters. (1928'den önce Türkçe Arap harfleriyle yazılırdı.) Burada used to be written edilgen bir yapıdır: used to + be + V3. Olumsuzu: People didn't use to have surnames. (İnsanların eskiden soyadı yoktu.) Olumsuzda use (d'siz) yazılır.",
+      "O tarihten bugüne süren durumu present perfect ve since anlatır: Since 1928, Turkish has been written in the Latin alphabet. · Since 1934, every citizen has had a surname. since + başlangıç noktası (since 1928), for + süre (for almost a hundred years). Bu iki yapı yan yana kullanıldığında “eskiden … ama o tarihten beri …” anlamı çok net çıkar.",
+      "Dönemi bir bütün olarak özetlemek için By 1938 + past perfect: By 1938, the country had changed in many ways. · By 1938, women had gained the right to vote. Bu üç yapı (used to, present perfect + since, by + past perfect) tarih anlatımında farklı zaman noktalarını gösterir: eskiden, o tarihten beri, o tarihe kadar."
+     ],
+     "formula": [
+      "Eskiden: used to + yalın fiil · used to be + V3",
+      "O tarihten beri: has / have + V3 + since …",
+      "O tarihe kadar: By 1938, … had + V3"
+     ],
+     "examples": [
+      {
+       "en": "Before 1934, people didn't use to have surnames.",
+       "tr": "1934'ten önce insanların soyadı yoktu.",
+       "why": [
+        "didn't use to: olumsuzda d yok."
+       ],
+       "chunks": [
+        {
+         "en": "didn't use to have",
+         "tr": "eskiden yoktu"
+        },
+        {
+         "en": "surnames",
+         "tr": "soyadları"
+        }
+       ]
+      },
+      {
+       "en": "Since 1934, every citizen has had a surname.",
+       "tr": "1934'ten beri her vatandaşın bir soyadı var.",
+       "why": [
+        "has had: present perfect + since."
+       ]
+      },
+      {
+       "en": "By 1938, the country had changed in many ways.",
+       "tr": "1938'e gelindiğinde ülke pek çok açıdan değişmişti.",
+       "why": [
+        "By + yıl + past perfect."
+       ]
+      },
+      {
+       "en": "My grandmother's parents used to write letters in the old letters.",
+       "tr": "Babaannemin anne babası mektuplarını eski harflerle yazarmış.",
+       "why": [
+        "used to: eski alışkanlık."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Eskiden Arap harfleriyle yazılırdı.”",
+       "answer": "It used to be written in Arabic letters.",
+       "why": "used to be + V3."
+      },
+      {
+       "question": "“1928'den beri Latin harfleriyle yazılıyor.”",
+       "answer": "Since 1928, it has been written in Latin letters.",
+       "why": "has been + V3 + since."
+      },
+      {
+       "question": "didn't used to mı didn't use to mu?",
+       "answer": "didn't use to",
+       "why": "did varken use."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Turkish is written in Latin letters since 1928.",
+       "right": "Turkish has been written in Latin letters since 1928.",
+       "why": "since ile present perfect."
+      },
+      {
+       "wrong": "People didn't used to have surnames.",
+       "right": "People didn't use to have surnames.",
+       "why": "did'den sonra use."
+      }
+     ]
+    },
+    {
+     "id": "lg-remember",
+     "title": "a minute of silence · flags at half-mast · We remember him with respect and gratitude.",
+     "meaning": "10 Kasım'daki anmayı ve millî günleri anlatmak",
+     "explanation": [
+      "10 Kasım'ı anlatan cümleler present simple'dır, çünkü her yıl tekrarlanan bir olaydır: Every year on 10 November, sirens sound across Türkiye at 9.05 a.m. · People stop for a minute of silence. (Saygı duruşu.) · Cars stop and drivers stand next to them. · Flags fly at half-mast. (Bayraklar yarıya indirilir.) · Thousands of people visit Anıtkabir, his mausoleum in Ankara. mausoleum anıt mezar demektir.",
+      "Anma fiilleri: remember (hatırlamak, anmak): We remember him with respect and gratitude. (Onu saygı ve minnetle anıyoruz.) · commemorate (resmî olarak anmak): Schools commemorate Atatürk with ceremonies. · pay tribute to (saygılarını sunmak): We pay tribute to him. gratitude minnet, respect saygı demektir. His body was moved to Anıtkabir in 1953: naaşı 1953'te Anıtkabir'e taşındı.",
+      "Millî günlerin İngilizce adları ve onun hayatıyla bağlantısı: 19 May (Commemoration of Atatürk, Youth and Sports Day: Samsun'a çıkış), 23 April (National Sovereignty and Children's Day: Meclis'in açılışı; Atatürk bu günü çocuklara armağan etti), 30 August (Victory Day: Büyük Zafer), 29 October (Republic Day: Cumhuriyet), 10 November (Atatürk Memorial Day), 24 November (Teachers' Day: Başöğretmen). Ünlü sözleri: Peace at home, peace in the world. · The truest guide in life is science."
+     ],
+     "formula": [
+      "Her yıl: sirens sound · people stop for a minute of silence",
+      "Fiiller: remember · commemorate · pay tribute to",
+      "Millî günler: Republic Day · Victory Day · Atatürk Memorial Day …"
+     ],
+     "examples": [
+      {
+       "en": "On 10 November, sirens sound at 9.05 and the whole country stands still.",
+       "tr": "10 Kasım'da saat 9.05'te sirenler çalar ve bütün ülke durur.",
+       "why": [
+        "present simple: her yıl tekrarlanan olay; stand still = kıpırdamadan durmak."
+       ]
+      },
+      {
+       "en": "We remember him with respect and gratitude.",
+       "tr": "Onu saygı ve minnetle anıyoruz.",
+       "why": [
+        "remember someone with …"
+       ],
+       "chunks": [
+        {
+         "en": "with respect",
+         "tr": "saygıyla"
+        },
+        {
+         "en": "gratitude",
+         "tr": "minnet"
+        }
+       ]
+      },
+      {
+       "en": "His body was moved to Anıtkabir in 1953.",
+       "tr": "Naaşı 1953'te Anıtkabir'e taşındı.",
+       "why": [
+        "was moved: past passive."
+       ]
+      },
+      {
+       "en": "23 April is National Sovereignty and Children's Day. Atatürk dedicated the day to children.",
+       "tr": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı'dır. Atatürk bu günü çocuklara armağan etti.",
+       "why": [
+        "dedicate to = armağan etmek, adamak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Saygı duruşu” İngilizcesi?",
+       "answer": "a minute of silence",
+       "why": "Bir dakikalık sessizlik."
+      },
+      {
+       "question": "“Bayraklar yarıya indirilir.”",
+       "answer": "Flags fly at half-mast.",
+       "why": "half-mast."
+      },
+      {
+       "question": "Öğretmenler Günü hangi tarihte?",
+       "answer": "24 November (Teachers' Day)",
+       "why": "Başöğretmenlik, 1928."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "We remember him with respect and thanks to.",
+       "right": "We remember him with respect and gratitude.",
+       "why": "gratitude = minnet."
+      },
+      {
+       "wrong": "Every year sirens sounded at 9.05.",
+       "right": "Every year sirens sound at 9.05.",
+       "why": "Her yıl tekrarlanan olay → present simple."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "close-day1",
+   "title": "3 Kasım kapanışı: günün dil yapılarını birbirine bağlamak",
+   "intro": [
+    "İlk günün kapanışında yeni bir konu yok; gün boyunca farklı ekranlarda karşımıza çıkan dil yapılarını yan yana koyuyoruz. Pazarlıktan Atatürk'ün hayatına kadar bütün konular aslında birkaç temel yapıyı tekrar tekrar kullandı: zamanlar (özellikle present perfect ile past simple ayrımı), edilgen yapılar (has been placed, was delivered, was born) ve kibar istek kalıpları (Could you …?, I would be grateful if …). Bu bölüm bu üç ipliği bir arada gösterir.",
+    "Kendini değerlendirme listesi günün yedi becerisini sıralar; kısa kontrol ise her konudan bir soru sorar. Ev ödevleri günün üç becerisini (yorum yazmak, online anket kelimeleri, inkılaplar hakkında edilgen cümleler) ertesi güne taşır. İkinci gün moda, reklam ve fikirler konusunda bu yapıların çoğunu yeniden kullanacağız: present perfect değişimi anlatırken, edilgen yapı reklamları anlatırken, kibar kalıplar da tartışırken."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I can bargain politely: Could you do it for …? If I buy two, will you …?",
+     "tr": "Kibarca pazarlık yapabilirim: … 'e verir misiniz? İki tane alırsam … mısınız?",
+     "why": [
+      "can + yalın fiil: yetenek. Örnekler günün iki pazarlık kalıbıdır."
+     ]
+    },
+    {
+     "en": "I can pay at the till and deal with small problems: Your card has been declined.",
+     "tr": "Kasada ödeme yapıp küçük sorunlarla başa çıkabilirim: Kartınız reddedildi.",
+     "why": [
+      "deal with = başa çıkmak, halletmek; at the till = kasada."
+     ]
+    },
+    {
+     "en": "I can write a formal complaint e-mail and a short review.",
+     "tr": "Resmî bir şikâyet e-postası ve kısa bir yorum yazabilirim.",
+     "why": [
+      "formal = resmî; review = yorum, değerlendirme."
+     ]
+    },
+    {
+     "en": "I can fill in a survey and report the results: Most of us …",
+     "tr": "Anket doldurup sonuçları raporlayabilirim: Çoğumuz …",
+     "why": [
+      "fill in = doldurmak; report = raporlamak, bildirmek."
+     ]
+    },
+    {
+     "en": "I can talk about Atatürk's life and legacy with dates and passive sentences.",
+     "tr": "Atatürk'ün hayatını ve mirasını tarihler ve edilgen cümlelerle anlatabilirim.",
+     "why": [
+      "legacy = miras (bıraktığı eserler, değerler); passive sentences = edilgen cümleler."
+     ]
+    },
+    {
+     "en": "Write a short review (40–60 words) of something you bought recently.",
+     "tr": "Yakın zamanda aldığınız bir şey için kısa bir yorum (40–60 kelime) yazın.",
+     "why": [
+      "of something you bought: bir şey hakkında; recently = son zamanlarda, yakın zamanda."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "cd-tenses",
+     "title": "It has stopped working. — I bought it last week. · Your order has been placed. — It was delivered yesterday.",
+     "meaning": "Present perfect ile past simple'ı ayırmak",
+     "explanation": [
+      "Gün boyunca aynı ayrım defalarca karşımıza çıktı. Present perfect şu anki sonucu ya da hayat boyu deneyimi anlatır, zaman belirtmez: It has stopped working. · I've only used it twice. · Have you ever bargained? · Your order has been placed. Past simple ise belirli bir geçmiş zamanı anlatır: I bought it last Tuesday. · The parcel was delivered on 27 October. · He was born in 1881.",
+      "Karar vermek için cümlede belirli bir zaman ifadesi olup olmadığına bakın: yesterday, last week, in 1881, on 27 October, two days ago gibi ifadeler past simple ister. ever, never, already, yet, just, since, for ve “şu an” anlamı present perfect'e işaret eder. Şikâyette ikisi yan yana gelir: I bought it last week (past simple), and it has already stopped working (present perfect).",
+      "Atatürk'ün hayatı tamamen geçmiştedir, bu yüzden past simple (ve past passive) kullanılır: He died in 1938. Ancak mirası bugüne uzanır: Since 1928, Turkish has been written in Latin letters. Bu fark, tarih anlatımında bile present perfect'in “bugüne bağlantı” anlamını gösterir."
+     ],
+     "formula": [
+      "Present perfect: sonuç şimdi · deneyim · ever / never / already / yet / since",
+      "Past simple: belirli zaman (yesterday, last week, in 1881)",
+      "Birlikte: I bought it last week, and it has already stopped working."
+     ],
+     "examples": [
+      {
+       "en": "I bought it last week, and it has already stopped working.",
+       "tr": "Geçen hafta aldım ve çoktan çalışmayı bıraktı.",
+       "why": [
+        "last week → past simple; already → present perfect."
+       ]
+      },
+      {
+       "en": "Have you ever made a complaint in English? — Yes, once. I wrote an e-mail last year.",
+       "tr": "Hiç İngilizce şikâyette bulundun mu? — Evet, bir kez. Geçen yıl bir e-posta yazdım.",
+       "why": [
+        "Deneyim present perfect, ayrıntı past simple."
+       ]
+      },
+      {
+       "en": "He died in 1938, but his reforms have shaped the country ever since.",
+       "tr": "1938'de hayatını kaybetti ama inkılapları o zamandan beri ülkeyi şekillendirdi.",
+       "why": [
+        "ever since = o zamandan beri."
+       ]
+      },
+      {
+       "en": "My order was placed on Monday, but it hasn't arrived yet.",
+       "tr": "Siparişim pazartesi verildi ama henüz gelmedi.",
+       "why": [
+        "on Monday → past; yet → present perfect."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "I ___ (buy) it two days ago.",
+       "answer": "bought",
+       "why": "ago → past simple."
+      },
+      {
+       "question": "It ___ (stop) working. (şu an çalışmıyor)",
+       "answer": "has stopped",
+       "why": "Şimdiki sonuç."
+      },
+      {
+       "question": "“Henüz gelmedi.”",
+       "answer": "It hasn't arrived yet.",
+       "why": "yet → present perfect."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I have bought it two days ago.",
+       "right": "I bought it two days ago.",
+       "why": "ago belirli zaman."
+      },
+      {
+       "wrong": "It didn't arrive yet.",
+       "right": "It hasn't arrived yet.",
+       "why": "yet ile present perfect."
+      }
+     ]
+    },
+    {
+     "id": "cd-passives",
+     "title": "has been placed · was delivered · was born · were given",
+     "meaning": "Günün edilgen yapılarını bir arada görmek",
+     "explanation": [
+      "Gün boyunca dört edilgen biçim kullandık. Present perfect passive (has / have been + V3): Your order has been placed. · Your card has been declined. Past simple passive (was / were + V3): The parcel was delivered on 27 October. · He was born in 1881. · Women were given the right to vote. used to passive (used to be + V3): Turkish used to be written in Arabic letters. Modal passive (can / can't be + V3): If it can't be repaired, I'd like my money back.",
+      "Edilgen yapının ortak mantığı aynıdır: işi yapan değil, işin kendisi ya da işin yapıldığı kişi önemlidir. Kargo şirketini, bankayı ya da Meclis'i söylemeye gerek yoktur; okuyucu bilir ya da önemsemez. Gerekirse işi yapan by ile eklenir: The surname was given by the Assembly.",
+      "Yapıyı kurmanın formülü: be fiilinin uygun zamanı + V3. Zamanı be taşır: is placed (şimdiki genel), was placed (geçmiş), has been placed (present perfect), will be placed (gelecek), can be placed (modal). V3 hiç değişmez. Bu yüzden düzensiz fiillerin üçüncü hâllerini bilmek önemlidir: give – given, send – sent, bring – brought, take – taken."
+     ],
+     "formula": [
+      "has / have been + V3: Your order has been placed.",
+      "was / were + V3: The parcel was delivered. · He was born …",
+      "used to be + V3 · can / can't be + V3"
+     ],
+     "examples": [
+      {
+       "en": "Your card has been declined.",
+       "tr": "Kartınız reddedildi.",
+       "why": [
+        "present perfect passive."
+       ]
+      },
+      {
+       "en": "The Republic was proclaimed on 29 October 1923.",
+       "tr": "Cumhuriyet 29 Ekim 1923'te ilan edildi.",
+       "why": [
+        "past simple passive."
+       ]
+      },
+      {
+       "en": "If it can't be repaired, I'd like my money back.",
+       "tr": "Onarılamıyorsa paramı geri istiyorum.",
+       "why": [
+        "modal passive: can't be + V3."
+       ]
+      },
+      {
+       "en": "The surname “Atatürk” was given by the Assembly in 1934.",
+       "tr": "Atatürk soyadı 1934'te Meclis tarafından verildi.",
+       "why": [
+        "by + yapan: gerektiğinde."
+       ],
+       "chunks": [
+        {
+         "en": "was given",
+         "tr": "verildi"
+        },
+        {
+         "en": "by the Assembly",
+         "tr": "Meclis tarafından"
+        }
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Kargonuz yola çıktı.” (present perfect passive)",
+       "answer": "Your parcel has been dispatched.",
+       "why": "has been + V3."
+      },
+      {
+       "question": "“Onarılabilir mi?”",
+       "answer": "Can it be repaired?",
+       "why": "modal passive soru."
+      },
+      {
+       "question": "give fiilinin V3 hâli?",
+       "answer": "given",
+       "why": "Düzensiz."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "The parcel was deliver yesterday.",
+       "right": "The parcel was delivered yesterday.",
+       "why": "Edilgende V3."
+      },
+      {
+       "wrong": "It can't repaired.",
+       "right": "It can't be repaired.",
+       "why": "Modal passive'de be gerekir."
+      }
+     ]
+    },
+    {
+     "id": "cd-polite",
+     "title": "Could you do it for …? · Could I have …? · I would be grateful if you could …",
+     "meaning": "Kibarlığın dereceleri: pazarlıktan resmî e-postaya",
+     "explanation": [
+      "Gün boyunca istekleri farklı kibarlık düzeylerinde söyledik. Gündelik ve kibar: Can I have a bag? · Do you take contactless? Daha kibar: Could I have the receipt, please? · Could you do it for 800? Daha da kibar ve yumuşak: Would you take 800? · I'd prefer a refund, actually. Resmî: I would like a full refund. · I would be grateful if you could send me a replacement.",
+      "Kibarlığı artıran araçlar: could ve would (can ve will yerine), please, I'm afraid (kötü haberi yumuşatır), a bit (eleştiriyi yumuşatır), soru biçimi (emir yerine), There seems to be … (suçlamadan sorun bildirme). Resmî yazıda bunlara kısaltmasız dil ve uzun kalıplar eklenir. Konuşmada aşırı resmîlik soğuk duyulabilir; kasada I would be grateful if you could give me a bag demek tuhaf kaçar.",
+      "Doğru düzeyi seçmek durumla ilgilidir: pazarda ve kasada kibar ama gündelik (Could you …?), müşteri hizmetleri masasında kibar ve kararlı (I'm afraid there's a problem … I'd like a replacement.), yazılı şikâyette resmî (I am writing to complain … I would be grateful if …). Yarın kıyafet tavsiyesi verirken ve teklifleri reddederken aynı ölçüyü kullanacağız."
+     ],
+     "formula": [
+      "Gündelik: Can I …? · Do you …?",
+      "Kibar: Could I / Could you …? · Would you …? · I'm afraid …",
+      "Resmî: I would like … · I would be grateful if you could …"
+     ],
+     "examples": [
+      {
+       "en": "Could I have a bag, please?",
+       "tr": "Bir poşet alabilir miyim lütfen?",
+       "why": [
+        "Kasada kibar ve doğal."
+       ]
+      },
+      {
+       "en": "I'm afraid there's a problem with this jumper. I'd like a replacement.",
+       "tr": "Maalesef bu kazakta bir sorun var. Yenisini istiyorum.",
+       "why": [
+        "Mağazada kibar ve kararlı."
+       ]
+      },
+      {
+       "en": "I would be grateful if you could reply within seven days.",
+       "tr": "Yedi gün içinde cevap verirseniz minnettar olurum.",
+       "why": [
+        "Resmî yazı."
+       ]
+      },
+      {
+       "en": "Would you take 900 if I pay in cash?",
+       "tr": "Nakit ödersem 900 kabul eder misiniz?",
+       "why": [
+        "Pazarlıkta yumuşak teklif."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Kasada en uygun: “Fiş alabilir miyim?”",
+       "answer": "Could I have the receipt, please?",
+       "why": "Kibar, gündelik."
+      },
+      {
+       "question": "Resmî e-postada “Yenisini gönderin.”",
+       "answer": "I would be grateful if you could send me a replacement.",
+       "why": "Resmî istek."
+      },
+      {
+       "question": "Kötü haberi yumuşatan iki kelime?",
+       "answer": "I'm afraid",
+       "why": "I'm afraid …"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Send me a new one now!",
+       "right": "Could you send me a replacement, please?",
+       "why": "Emir yerine kibar istek."
+      },
+      {
+       "wrong": "I would be grateful if you could give me a bag. (kasada)",
+       "right": "Could I have a bag, please?",
+       "why": "Kasada aşırı resmîlik tuhaf kaçar."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "writing-complain",
+   "term": "I am writing to complain about …",
+   "meaning": "… hakkında şikâyette bulunmak için yazıyorum",
+   "partOfSpeech": "resmî kalıp",
+   "sourceTerms": [
+    "I am writing to complain about …"
+   ],
+   "explanation": [
+    "Resmî şikâyet e-postasının açılış cümlesi; yazma sebebini hemen söyler. Benzeri: I am writing regarding … (… ile ilgili yazıyorum). Resmî yazıda kısaltma kullanılmaz: I'm writing değil I am writing."
+   ],
+   "collocations": [
+    {
+     "en": "I am writing regarding …",
+     "tr": "… ile ilgili yazıyorum"
+    },
+    {
+     "en": "order number",
+     "tr": "sipariş numarası"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I am writing to complain about the late delivery of my order.",
+     "tr": "Siparişimin geç teslimatı hakkında şikâyet etmek için yazıyorum."
+    },
+    {
+     "en": "I am writing regarding order TK-2290.",
+     "tr": "TK-2290 numaralı siparişle ilgili yazıyorum."
+    },
+    {
+     "en": "I am writing to complain about a faulty pair of headphones.",
+     "tr": "Arızalı bir kulaklık hakkında şikâyet etmek için yazıyorum."
+    }
+   ],
+   "commonMistake": "I write for complain yanlış; I am writing to complain about … denir."
+  },
+  {
+   "id": "damaged-missing",
+   "term": "damaged · missing",
+   "meaning": "hasarlı · eksik",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "damaged · missing"
+   ],
+   "explanation": [
+    "damaged dışarıdan zarar görmüş (kırık, ezik, çizik) ürün; missing eksik olan parça ya da ürün. faulty / defective ise arızalı, içten kusurlu ürün içindir."
+   ],
+   "collocations": [
+    {
+     "en": "arrive damaged",
+     "tr": "hasarlı gelmek"
+    },
+    {
+     "en": "a missing part",
+     "tr": "eksik bir parça"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The box was damaged, and one cup was missing.",
+     "tr": "Kutu hasarlıydı ve bir fincan eksikti."
+    },
+    {
+     "en": "The item arrived damaged.",
+     "tr": "Ürün hasarlı geldi."
+    },
+    {
+     "en": "The lid is missing.",
+     "tr": "Kapağı eksik."
+    }
+   ],
+   "commonMistake": "There is a lacking part. yerine One part is missing. denir."
+  },
+  {
+   "id": "match-description",
+   "term": "It does not match the description.",
+   "meaning": "açıklamaya uymuyor",
+   "partOfSpeech": "şikâyet kalıbı",
+   "sourceTerms": [
+    "It does not match the description."
+   ],
+   "explanation": [
+    "Ürünün sitedeki tanıma (renk, beden, malzeme) uymadığını söyleyen resmî kalıp. Gündelik biçimi: It's not like the photo. / It looks nothing like the photo."
+   ],
+   "collocations": [
+    {
+     "en": "the description on your website",
+     "tr": "sitenizdeki açıklama"
+    },
+    {
+     "en": "look nothing like",
+     "tr": "hiç benzememek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The jacket does not match the description on your website.",
+     "tr": "Ceket sitenizdeki açıklamaya uymuyor."
+    },
+    {
+     "en": "The colour does not match the photo.",
+     "tr": "Renk fotoğrafa uymuyor."
+    },
+    {
+     "en": "It looks nothing like the photo.",
+     "tr": "Fotoğrafa hiç benzemiyor.",
+     "note": "gündelik"
+    }
+   ],
+   "commonMistake": "It doesn't fit the explanation. denmez; match the description denir."
+  },
+  {
+   "id": "attached",
+   "term": "I have attached …",
+   "meaning": "… ekledim (ekte)",
+   "partOfSpeech": "e-posta kalıbı",
+   "sourceTerms": [
+    "I have attached …"
+   ],
+   "explanation": [
+    "E-postaya eklenen dosyaları belirtir. Present perfect kullanılır, çünkü ekler şu an e-postadadır. Alternatif: Please find attached …"
+   ],
+   "collocations": [
+    {
+     "en": "Please find attached …",
+     "tr": "ekte … bulabilirsiniz"
+    },
+    {
+     "en": "an attachment",
+     "tr": "ek dosya"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I have attached a photo of the broken lid.",
+     "tr": "Kırık kapağın bir fotoğrafını ekledim."
+    },
+    {
+     "en": "Please find attached a copy of the receipt.",
+     "tr": "Fişin bir kopyası ektedir."
+    },
+    {
+     "en": "I've attached the invoice to this e-mail.",
+     "tr": "Faturayı bu e-postaya ekledim.",
+     "note": "gündelik: I've"
+    }
+   ],
+   "commonMistake": "Photos are in the add. yanlış; I have attached … denir."
+  },
+  {
+   "id": "grateful-if",
+   "term": "I would be grateful if you could …",
+   "meaning": "… yaparsanız minnettar olurum",
+   "partOfSpeech": "resmî istek",
+   "sourceTerms": [
+    "I would be grateful if you could …"
+   ],
+   "explanation": [
+    "Resmî yazının en kibar istek kalıbı; ardından yalın fiil gelir. Kibar ama kararlıdır. Konuşmada aşırı resmî duyulabilir."
+   ],
+   "collocations": [
+    {
+     "en": "as soon as possible",
+     "tr": "en kısa zamanda"
+    },
+    {
+     "en": "within seven days",
+     "tr": "yedi gün içinde"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I would be grateful if you could reply this week.",
+     "tr": "Bu hafta cevap verirseniz minnettar olurum."
+    },
+    {
+     "en": "I would be grateful if you could send a replacement.",
+     "tr": "Yenisini gönderirseniz minnettar olurum."
+    },
+    {
+     "en": "I would be grateful if you could refund the delivery charge.",
+     "tr": "Teslimat ücretini iade ederseniz minnettar olurum."
+    }
+   ],
+   "commonMistake": "if you can değil if you could kullanılır."
+  },
+  {
+   "id": "look-forward",
+   "term": "I look forward to hearing from you. · Kind regards,",
+   "meaning": "yanıtınızı bekliyorum · saygılarımla",
+   "partOfSpeech": "resmî kapanış",
+   "sourceTerms": [
+    "I look forward to hearing from you. · Kind regards,"
+   ],
+   "explanation": [
+    "Resmî e-postanın kapanış cümlesi ve selamı. to burada edattır, ardından -ing gelir. Dear Sir or Madam → Yours faithfully; Dear Ms … → Yours sincerely; Kind regards ikisine de uyar."
+   ],
+   "collocations": [
+    {
+     "en": "Yours faithfully,",
+     "tr": "saygılarımla (isimsiz hitap)"
+    },
+    {
+     "en": "Yours sincerely,",
+     "tr": "saygılarımla (isimli hitap)"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I look forward to hearing from you. Kind regards, Selma Ak",
+     "tr": "Yanıtınızı bekliyorum. Saygılarımla, Selma Ak"
+    },
+    {
+     "en": "Dear Sir or Madam, … Yours faithfully,",
+     "tr": "Sayın yetkili, … Saygılarımla,"
+    },
+    {
+     "en": "We look forward to seeing you.",
+     "tr": "Sizi görmeyi dört gözle bekliyoruz.",
+     "note": "look forward to + -ing"
+    }
+   ],
+   "commonMistake": "I look forward to hear yanlış; to hearing denir."
+  },
+  {
+   "id": "review",
+   "term": "a review · exactly as described",
+   "meaning": "yorum, değerlendirme · tam açıklandığı gibi",
+   "partOfSpeech": "isim / kalıp",
+   "sourceTerms": [
+    "a review · exactly as described"
+   ],
+   "explanation": [
+    "Müşteri yorumu ve yorumlarda sık geçen kalıp. Yorumlar kısa ve not gibidir; özne sık sık düşer: Arrived on time. Great value for money."
+   ],
+   "collocations": [
+    {
+     "en": "leave a review",
+     "tr": "yorum bırakmak"
+    },
+    {
+     "en": "great value for money",
+     "tr": "fiyatına göre harika"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I left a five-star review: exactly as described.",
+     "tr": "Beş yıldızlı yorum bıraktım: tam açıklandığı gibi."
+    },
+    {
+     "en": "Arrived on time and well packed.",
+     "tr": "Zamanında ve iyi paketlenmiş geldi."
+    },
+    {
+     "en": "I always read the reviews before I order.",
+     "tr": "Sipariş vermeden önce hep yorumları okurum."
+    }
+   ],
+   "commonMistake": "comment yerine ürün yorumu için review kullanılır."
+  },
+  {
+   "id": "fill-in-survey",
+   "term": "fill in a survey · a questionnaire",
+   "meaning": "anket doldurmak · anket formu",
+   "partOfSpeech": "fiil / isim",
+   "sourceTerms": [
+    "fill in a survey · a questionnaire"
+   ],
+   "explanation": [
+    "Anketi doldurmak fill in ya da complete ile söylenir. survey ankete, questionnaire soru formuna daha çok vurgu yapar; günlük dilde ikisi de anket demektir."
+   ],
+   "collocations": [
+    {
+     "en": "complete a survey",
+     "tr": "anketi tamamlamak"
+    },
+    {
+     "en": "take part in a survey",
+     "tr": "ankete katılmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It only took three minutes to fill in the survey.",
+     "tr": "Anketi doldurmak sadece üç dakika sürdü."
+    },
+    {
+     "en": "Please complete our short questionnaire.",
+     "tr": "Lütfen kısa anketimizi doldurun."
+    },
+    {
+     "en": "Twelve people took part in our survey.",
+     "tr": "Anketimize on iki kişi katıldı."
+    }
+   ],
+   "commonMistake": "fill the survey değil fill in the survey denir."
+  },
+  {
+   "id": "tick-all",
+   "term": "Tick all that apply.",
+   "meaning": "uygun olanların hepsini işaretleyin",
+   "partOfSpeech": "anket yönergesi",
+   "sourceTerms": [
+    "Tick all that apply."
+   ],
+   "explanation": [
+    "Birden fazla seçimin mümkün olduğunu gösteren yönerge. tick = işaret koymak (✓); apply = geçerli olmak, uymak. Tek seçimde: Choose one answer."
+   ],
+   "collocations": [
+    {
+     "en": "Choose one answer.",
+     "tr": "bir cevap seçin"
+    },
+    {
+     "en": "tick the box",
+     "tr": "kutuyu işaretle"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Which apps do you use? Tick all that apply.",
+     "tr": "Hangi uygulamaları kullanıyorsunuz? Uygun olanların hepsini işaretleyin."
+    },
+    {
+     "en": "Tick the box if you want our newsletter.",
+     "tr": "Bültenimizi istiyorsanız kutuyu işaretleyin."
+    },
+    {
+     "en": "Choose one answer only.",
+     "tr": "Sadece bir cevap seçin."
+    }
+   ],
+   "commonMistake": "sign = imzalamak; işaretlemek tick'tir."
+  },
+  {
+   "id": "rate-1-5",
+   "term": "Rate … from 1 to 5",
+   "meaning": "… 1'den 5'e puanlayın",
+   "partOfSpeech": "anket yönergesi",
+   "sourceTerms": [
+    "Rate … from 1 to 5"
+   ],
+   "explanation": [
+    "Derecelendirme sorusu. Genellikle ölçeğin anlamı da verilir: 1 = very poor, 5 = excellent. rating puanlama, star rating yıldızla puanlamadır."
+   ],
+   "collocations": [
+    {
+     "en": "1 = very poor",
+     "tr": "1 = çok kötü"
+    },
+    {
+     "en": "5 = excellent",
+     "tr": "5 = mükemmel"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Please rate our delivery from 1 to 5.",
+     "tr": "Lütfen teslimatımızı 1'den 5'e puanlayın."
+    },
+    {
+     "en": "I rated the service 4 out of 5.",
+     "tr": "Hizmete 5 üzerinden 4 verdim."
+    },
+    {
+     "en": "The app has a rating of 4.5 stars.",
+     "tr": "Uygulamanın puanı 4,5 yıldız."
+    }
+   ],
+   "commonMistake": "Give point from 1 to 5 yerine Rate … from 1 to 5 denir."
+  },
+  {
+   "id": "strongly-agree",
+   "term": "strongly agree · strongly disagree",
+   "meaning": "kesinlikle katılıyorum · kesinlikle katılmıyorum",
+   "partOfSpeech": "ölçek",
+   "sourceTerms": [
+    "strongly agree · strongly disagree"
+   ],
+   "explanation": [
+    "Katılım ölçeğinin uçları. Tam ölçek: strongly agree · agree · neither agree nor disagree · disagree · strongly disagree."
+   ],
+   "collocations": [
+    {
+     "en": "neither agree nor disagree",
+     "tr": "ne katılıyorum ne katılmıyorum"
+    },
+    {
+     "en": "agree that",
+     "tr": "… olduğuna katılmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I strongly agree that delivery should be cheaper.",
+     "tr": "Teslimatın daha ucuz olması gerektiğine kesinlikle katılıyorum."
+    },
+    {
+     "en": "I strongly disagree with that statement.",
+     "tr": "O ifadeye kesinlikle katılmıyorum."
+    },
+    {
+     "en": "I neither agree nor disagree.",
+     "tr": "Ne katılıyorum ne katılmıyorum."
+    }
+   ],
+   "commonMistake": "I am strongly agree yanlış; agree fiildir: I strongly agree."
+  },
+  {
+   "id": "other-specify",
+   "term": "Other (please specify)",
+   "meaning": "diğer (lütfen belirtin)",
+   "partOfSpeech": "anket seçeneği",
+   "sourceTerms": [
+    "Other (please specify)"
+   ],
+   "explanation": [
+    "Seçeneklerde cevabınız yoksa kullandığınız kutu. specify = belirtmek; genellikle yanında bir yazı alanı olur."
+   ],
+   "collocations": [
+    {
+     "en": "please specify",
+     "tr": "lütfen belirtin"
+    },
+    {
+     "en": "N/A (not applicable)",
+     "tr": "uygulanamaz, geçerli değil"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I ticked “Other” and wrote “second-hand shops”.",
+     "tr": "“Diğer”i işaretleyip “ikinci el dükkânlar” yazdım."
+    },
+    {
+     "en": "Other (please specify): local farmers.",
+     "tr": "Diğer (lütfen belirtin): yerel çiftçiler."
+    },
+    {
+     "en": "If your answer is not here, please specify.",
+     "tr": "Cevabınız burada yoksa lütfen belirtin."
+    }
+   ],
+   "commonMistake": "Others (please write) yerine Other (please specify) kalıbı kullanılır."
+  },
+  {
+   "id": "on-average",
+   "term": "on average",
+   "meaning": "ortalama olarak",
+   "partOfSpeech": "zarf öbeği",
+   "sourceTerms": [
+    "on average"
+   ],
+   "explanation": [
+    "Ortalamayı bildiren kalıp; önüne başka edat almaz, cümle başında ya da sonunda gelir. a month / a week (ayda / haftada) ile sık kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "on average a month",
+     "tr": "ayda ortalama"
+    },
+    {
+     "en": "above average",
+     "tr": "ortalamanın üstünde"
+    }
+   ],
+   "examples": [
+    {
+     "en": "On average, I buy one book a month.",
+     "tr": "Ortalama ayda bir kitap alırım."
+    },
+    {
+     "en": "We spend about 2,000 lira a month on food, on average.",
+     "tr": "Yiyeceğe ayda ortalama 2.000 lira harcıyoruz."
+    },
+    {
+     "en": "On average, delivery takes three days.",
+     "tr": "Teslimat ortalama üç gün sürüyor."
+    }
+   ],
+   "commonMistake": "I spend average 2,000. yanlış; On average, I spend 2,000. denir."
+  },
+  {
+   "id": "most-none",
+   "term": "Most of us … · None of us …",
+   "meaning": "çoğumuz … · hiçbirimiz …",
+   "partOfSpeech": "miktar ifadesi",
+   "sourceTerms": [
+    "Most of us … · None of us …"
+   ],
+   "explanation": [
+    "Anket sonuçlarını raporlamanın temel ifadeleri. Most of us + çoğul fiil; None of us zaten olumsuzdur, ikinci olumsuzluk eklenmez. Diğerleri: Half of the class, Only a few people, Two out of twelve people."
+   ],
+   "collocations": [
+    {
+     "en": "Half of the class",
+     "tr": "sınıfın yarısı"
+    },
+    {
+     "en": "Only a few people",
+     "tr": "sadece birkaç kişi"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Most of us shop online, but none of us likes returns.",
+     "tr": "Çoğumuz internetten alışveriş yapıyor ama hiçbirimiz iadeyi sevmiyor."
+    },
+    {
+     "en": "Two out of twelve people never shop online.",
+     "tr": "On iki kişiden ikisi hiç internetten alışveriş yapmıyor."
+    },
+    {
+     "en": "Only a few people buy food online.",
+     "tr": "Sadece birkaç kişi internetten yiyecek alıyor."
+    }
+   ],
+   "commonMistake": "None of us don't … yanlış; None of us … tek olumsuzlukla kurulur."
+  },
+  {
+   "id": "was-born",
+   "term": "was born in …",
+   "meaning": "…'de doğdu",
+   "partOfSpeech": "past passive",
+   "sourceTerms": [
+    "was born in …"
+   ],
+   "explanation": [
+    "Doğmak İngilizcede pasif bir yapıdır: be born. Yer için in, tam tarih için on kullanılır: He was born in Selanik in 1881. I was born on 3 May."
+   ],
+   "collocations": [
+    {
+     "en": "was born in + yer / yıl",
+     "tr": "…'de doğdu"
+    },
+    {
+     "en": "was born on + tarih",
+     "tr": "… tarihinde doğdu"
+    }
+   ],
+   "examples": [
+    {
+     "en": "He was born in Selanik in 1881.",
+     "tr": "1881'de Selanik'te doğdu."
+    },
+    {
+     "en": "My grandmother was born in a village near Bursa.",
+     "tr": "Babaannem Bursa yakınlarında bir köyde doğdu."
+    },
+    {
+     "en": "When were you born? — I was born on 9 March.",
+     "tr": "Ne zaman doğdun? — 9 Mart'ta doğdum."
+    }
+   ],
+   "commonMistake": "He born / He was borned yanlış; He was born denir."
+  },
+  {
+   "id": "graduated-from",
+   "term": "graduated from …",
+   "meaning": "…'den mezun oldu",
+   "partOfSpeech": "fiil",
+   "sourceTerms": [
+    "graduated from …"
+   ],
+   "explanation": [
+    "Bir okuldan mezun olmak graduate from ile söylenir; from unutulmamalıdır. as + unvan ile hangi derecede mezun olunduğu söylenir."
+   ],
+   "collocations": [
+    {
+     "en": "graduate as",
+     "tr": "… olarak mezun olmak"
+    },
+    {
+     "en": "after graduating",
+     "tr": "mezun olduktan sonra"
+    }
+   ],
+   "examples": [
+    {
+     "en": "He graduated from the Staff College in 1905.",
+     "tr": "1905'te Harp Akademisinden mezun oldu."
+    },
+    {
+     "en": "He graduated as a staff captain.",
+     "tr": "Kurmay yüzbaşı olarak mezun oldu."
+    },
+    {
+     "en": "After graduating, my sister worked in a bank.",
+     "tr": "Mezun olduktan sonra ablam bir bankada çalıştı."
+    }
+   ],
+   "commonMistake": "graduated the school yanlış; graduated from the school denir."
+  },
+  {
+   "id": "given-name-title",
+   "term": "was given the name … · the title …",
+   "meaning": "… adı / unvanı verildi",
+   "partOfSpeech": "past passive",
+   "sourceTerms": [
+    "was given the name … · the title …"
+   ],
+   "explanation": [
+    "give someone something yapısının edilgeni: kişi öne çıkar. Ona Kemal adı verildi: He was given the name Kemal. Sakarya'dan sonra Gazi unvanı: He was given the title “Gazi”."
+   ],
+   "collocations": [
+    {
+     "en": "the rank of marshal",
+     "tr": "mareşal rütbesi"
+    },
+    {
+     "en": "the surname Atatürk",
+     "tr": "Atatürk soyadı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "After Sakarya, he was given the title “Gazi”.",
+     "tr": "Sakarya'dan sonra ona Gazi unvanı verildi."
+    },
+    {
+     "en": "At school he was given the name Kemal.",
+     "tr": "Okulda ona Kemal adı verildi."
+    },
+    {
+     "en": "In 1934 he was given the surname Atatürk.",
+     "tr": "1934'te ona Atatürk soyadı verildi."
+    }
+   ],
+   "commonMistake": "was given to the title yanlış; to kullanılmaz."
+  },
+  {
+   "id": "landed-samsun",
+   "term": "landed in Samsun",
+   "meaning": "Samsun'a çıktı",
+   "partOfSpeech": "fiil",
+   "sourceTerms": [
+    "landed in Samsun"
+   ],
+   "explanation": [
+    "land = karaya çıkmak, inmek (gemi, uçak). Samsun'a çıkış için land in kullanılır. 19 Mayıs 1919, Kurtuluş Savaşı'nın başlangıcı kabul edilir."
+   ],
+   "collocations": [
+    {
+     "en": "land in + yer",
+     "tr": "…'e çıkmak"
+    },
+    {
+     "en": "on 19 May 1919",
+     "tr": "19 Mayıs 1919'da"
+    }
+   ],
+   "examples": [
+    {
+     "en": "He landed in Samsun on 19 May 1919.",
+     "tr": "19 Mayıs 1919'da Samsun'a çıktı."
+    },
+    {
+     "en": "The plane landed in Ankara at noon.",
+     "tr": "Uçak öğlen Ankara'ya indi."
+    },
+    {
+     "en": "Four days earlier, the Greek army had landed in İzmir.",
+     "tr": "Dört gün önce Yunan ordusu İzmir'e çıkmıştı."
+    }
+   ],
+   "commonMistake": "went out to Samsun yanlış; landed in Samsun denir."
+  },
+  {
+   "id": "war-independence",
+   "term": "the War of Independence",
+   "meaning": "Kurtuluş Savaşı",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "the War of Independence"
+   ],
+   "explanation": [
+    "1919–1922 arasındaki Türk Kurtuluş Savaşı. the Turkish War of Independence olarak da yazılır. lead (yönetmek) ve win (kazanmak) fiilleriyle kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "lead the War of Independence",
+     "tr": "Kurtuluş Savaşı'nı yönetmek"
+    },
+    {
+     "en": "the Great Victory",
+     "tr": "Büyük Zafer"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The War of Independence lasted from 1919 to 1922.",
+     "tr": "Kurtuluş Savaşı 1919'dan 1922'ye kadar sürdü."
+    },
+    {
+     "en": "He led the War of Independence.",
+     "tr": "Kurtuluş Savaşı'nı yönetti."
+    },
+    {
+     "en": "The Great Victory came on 30 August 1922.",
+     "tr": "Büyük Zafer 30 Ağustos 1922'de geldi."
+    }
+   ],
+   "commonMistake": "Liberation War de anlaşılır ama yerleşik ad the War of Independence'tır."
+  },
+  {
+   "id": "proclaimed-elected",
+   "term": "was proclaimed · was elected",
+   "meaning": "ilan edildi · seçildi",
+   "partOfSpeech": "past passive",
+   "sourceTerms": [
+    "was proclaimed · was elected"
+   ],
+   "explanation": [
+    "proclaim = resmen ilan etmek (Cumhuriyet), elect = seçmek (Cumhurbaşkanı). İkisi de biyografide edilgen kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "the Republic was proclaimed",
+     "tr": "Cumhuriyet ilan edildi"
+    },
+    {
+     "en": "was elected President",
+     "tr": "Cumhurbaşkanı seçildi"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The Republic was proclaimed, and he was elected President.",
+     "tr": "Cumhuriyet ilan edildi ve o Cumhurbaşkanı seçildi."
+    },
+    {
+     "en": "He was elected president of the Assembly in 1920.",
+     "tr": "1920'de Meclis başkanı seçildi."
+    },
+    {
+     "en": "The Republic was proclaimed on 29 October 1923.",
+     "tr": "Cumhuriyet 29 Ekim 1923'te ilan edildi."
+    }
+   ],
+   "commonMistake": "The Republic announced. yanlış; was proclaimed denir."
+  },
+  {
+   "id": "had-already",
+   "term": "had already landed (past perfect)",
+   "meaning": "çoktan çıkarma yapmıştı",
+   "partOfSpeech": "past perfect",
+   "sourceTerms": [
+    "had already landed (past perfect)"
+   ],
+   "explanation": [
+    "Geçmişteki iki olaydan önce olanı gösterir: had + V3. already (çoktan) sık eşlik eder. By + zaman ile de kullanılır: By 1905, he had graduated."
+   ],
+   "collocations": [
+    {
+     "en": "By 1923, …had …",
+     "tr": "1923'e gelindiğinde …mıştı"
+    },
+    {
+     "en": "four days earlier",
+     "tr": "dört gün önce"
+    }
+   ],
+   "examples": [
+    {
+     "en": "By then, the Greek army had already landed in İzmir.",
+     "tr": "O zamana kadar Yunan ordusu İzmir'e çoktan çıkmıştı."
+    },
+    {
+     "en": "When the war ended, many towns had been destroyed.",
+     "tr": "Savaş bittiğinde birçok kasaba yıkılmıştı.",
+     "note": "past perfect passive"
+    },
+    {
+     "en": "By the age of 24, he had become a staff captain.",
+     "tr": "24 yaşına geldiğinde kurmay yüzbaşı olmuştu."
+    }
+   ],
+   "commonMistake": "Önce olan olay için simple past değil had + V3 kullanılır."
+  },
+  {
+   "id": "reform-adopted",
+   "term": "a reform · was introduced · was adopted",
+   "meaning": "inkılap · getirildi · kabul edildi",
+   "partOfSpeech": "isim / past passive",
+   "sourceTerms": [
+    "a reform · was introduced · was adopted"
+   ],
+   "explanation": [
+    "İnkılapları anlatan temel kelimeler. introduce yeni bir şey getirmek, adopt benimsemek, kabul etmek; pass bir yasayı kabul etmek; found bir kurumu kurmak."
+   ],
+   "collocations": [
+    {
+     "en": "was passed",
+     "tr": "yasa kabul edildi"
+    },
+    {
+     "en": "was founded",
+     "tr": "kuruldu"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The metric system was adopted in 1931.",
+     "tr": "Ölçüler Kanunu 1931'de kabul edildi."
+    },
+    {
+     "en": "The international calendar was introduced in 1926.",
+     "tr": "Uluslararası takvim 1926'da getirildi."
+    },
+    {
+     "en": "The Turkish Language Association was founded in 1932.",
+     "tr": "Türk Dil Kurumu 1932'de kuruldu."
+    }
+   ],
+   "commonMistake": "The reform made in 1928. yanlış; was made / was introduced denir."
+  },
+  {
+   "id": "new-alphabet",
+   "term": "the new alphabet",
+   "meaning": "yeni harfler, Türk alfabesi",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "the new alphabet"
+   ],
+   "explanation": [
+    "1928'de kabul edilen Latin harflerine dayalı Türk alfabesi. the new Turkish letters da denir. Millet Mektepleri yetişkinlere okuma yazma öğretti."
+   ],
+   "collocations": [
+    {
+     "en": "the Nation Schools",
+     "tr": "Millet Mektepleri"
+    },
+    {
+     "en": "learn to read and write",
+     "tr": "okuma yazma öğrenmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "He taught the new alphabet in parks and schools.",
+     "tr": "Yeni harfleri parklarda ve okullarda öğretti."
+    },
+    {
+     "en": "The new alphabet was introduced in 1928.",
+     "tr": "Yeni harfler 1928'de kabul edildi."
+    },
+    {
+     "en": "Adults learned the new letters at the Nation Schools.",
+     "tr": "Yetişkinler yeni harfleri Millet Mekteplerinde öğrendi."
+    }
+   ],
+   "commonMistake": "the new letters ve the new alphabet doğrudur; the new alphabets (çoğul) değil."
+  },
+  {
+   "id": "right-to-vote",
+   "term": "the right to vote",
+   "meaning": "seçme hakkı",
+   "partOfSpeech": "isim öbeği",
+   "sourceTerms": [
+    "the right to vote"
+   ],
+   "explanation": [
+    "Oy kullanma hakkı. the right to be elected seçilme hakkıdır. Türkiye'de kadınlara 1930'da yerel, 1934'te genel seçimlerde bu haklar verildi."
+   ],
+   "collocations": [
+    {
+     "en": "the right to be elected",
+     "tr": "seçilme hakkı"
+    },
+    {
+     "en": "national elections",
+     "tr": "genel seçimler"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Women were given the right to vote in 1934.",
+     "tr": "Kadınlara 1934'te seçme hakkı verildi."
+    },
+    {
+     "en": "Everyone over eighteen has the right to vote.",
+     "tr": "On sekiz yaşını geçen herkesin oy hakkı var."
+    },
+    {
+     "en": "In 1935, women used their right to vote in national elections.",
+     "tr": "1935'te kadınlar genel seçimlerde oy haklarını kullandı."
+    }
+   ],
+   "commonMistake": "right of vote yerine the right to vote denir."
+  },
+  {
+   "id": "head-teacher",
+   "term": "the Head Teacher",
+   "meaning": "Başöğretmen",
+   "partOfSpeech": "unvan",
+   "sourceTerms": [
+    "the Head Teacher"
+   ],
+   "explanation": [
+    "Atatürk 24 Kasım 1928'de Millet Mekteplerinin Başöğretmeni oldu; bu yüzden 24 Kasım Öğretmenler Günü'dür. Günlük dilde head teacher okul müdürü anlamına da gelir."
+   ],
+   "collocations": [
+    {
+     "en": "Teachers' Day",
+     "tr": "Öğretmenler Günü"
+    },
+    {
+     "en": "the Nation Schools",
+     "tr": "Millet Mektepleri"
+    }
+   ],
+   "examples": [
+    {
+     "en": "He became the Head Teacher of the Nation Schools in 1928.",
+     "tr": "1928'de Millet Mekteplerinin Başöğretmeni oldu."
+    },
+    {
+     "en": "24 November is Teachers' Day in Türkiye.",
+     "tr": "24 Kasım Türkiye'de Öğretmenler Günü'dür."
+    },
+    {
+     "en": "Our head teacher gave a speech on Teachers' Day.",
+     "tr": "Okul müdürümüz Öğretmenler Günü'nde bir konuşma yaptı.",
+     "note": "okul müdürü"
+    }
+   ],
+   "commonMistake": "Teacher's Day değil Teachers' Day (çoğul iyelik) yazılır."
+  },
+  {
+   "id": "peace-home",
+   "term": "Peace at home, peace in the world.",
+   "meaning": "Yurtta sulh, cihanda sulh.",
+   "partOfSpeech": "ünlü söz",
+   "sourceTerms": [
+    "Peace at home, peace in the world."
+   ],
+   "explanation": [
+    "Atatürk'ün en bilinen sözü ve Türkiye'nin dış politika ilkesi. Bir diğer ünlü sözü: The truest guide in life is science. (Hayatta en hakiki mürşit ilimdir.)"
+   ],
+   "collocations": [
+    {
+     "en": "his famous words",
+     "tr": "ünlü sözleri"
+    },
+    {
+     "en": "The truest guide in life is science.",
+     "tr": "Hayatta en hakiki mürşit ilimdir."
+    }
+   ],
+   "examples": [
+    {
+     "en": "“Peace at home, peace in the world” is still his best-known motto.",
+     "tr": "“Yurtta sulh, cihanda sulh” hâlâ en bilinen sözü."
+    },
+    {
+     "en": "His words are written on the wall of our school.",
+     "tr": "Sözleri okulumuzun duvarında yazılı."
+    },
+    {
+     "en": "The truest guide in life is science.",
+     "tr": "Hayatta en hakiki mürşit ilimdir."
+    }
+   ],
+   "commonMistake": "Söz alıntılanırken tırnak işareti kullanılır."
+  },
+  {
+   "id": "minute-silence",
+   "term": "a minute of silence · commemorate",
+   "meaning": "saygı duruşu · anmak",
+   "partOfSpeech": "anma dili",
+   "sourceTerms": [
+    "a minute of silence · commemorate"
+   ],
+   "explanation": [
+    "10 Kasım'da saat 9.05'te yapılan saygı duruşu ve resmî anma fiili. remember (anmak, hatırlamak) daha günlük, commemorate daha resmîdir. flags at half-mast: yarıya indirilmiş bayraklar."
+   ],
+   "collocations": [
+    {
+     "en": "flags at half-mast",
+     "tr": "yarıya indirilmiş bayraklar"
+    },
+    {
+     "en": "remember with respect",
+     "tr": "saygıyla anmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "At 9.05 we stand for a minute of silence.",
+     "tr": "Saat 9.05'te saygı duruşunda bulunuruz."
+    },
+    {
+     "en": "Schools commemorate Atatürk with ceremonies.",
+     "tr": "Okullar Atatürk'ü törenlerle anar."
+    },
+    {
+     "en": "On 10 November, flags fly at half-mast.",
+     "tr": "10 Kasım'da bayraklar yarıya indirilir."
+    }
+   ],
+   "commonMistake": "a silence minute değil a minute of silence denir."
+  }
+ ]
+}

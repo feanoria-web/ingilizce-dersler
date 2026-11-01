@@ -345,6 +345,32 @@
     "url": "lessons/b1/day-06.html"
   },
   {
+    "id": "b1/day-07",
+    "level": "B1",
+    "title": "Pazarlık ve şikâyet · Atatürk'ün hayatı · Eğilimler, fikirler ve tavsiye",
+    "description": "B1 yedinci ders (3–4 Kasım, iki gün): pazarlık yapmak, teklif vermek ve fiyatta anlaşmak (Could you do it for …? If I buy two, will you …?), kasada ödeme (nakit, kart, temassız, şifre, fiş, para üstü), alışveriş sitesindeki basamaklar (sepete ekle, ödeme adımı, sipariş, kargo takibi; Your order has been placed), mağazada memnuniyet ve şikâyet (It has stopped working. It keeps switching off.), kusurlu teslimat için resmî şikâyet e-postası ve yorumlar, alışveriş anketi doldurmak ve sonuçları raporlamak, Atatürk'ün hayatı ve Cumhuriyet yıllarının inkılapları (past simple, past passive, past perfect, tarih ifadeleri, 10 Kasım'da anma), moda ve güncel eğilimler (more and more, used to), moda ve reklamlar, kültür-teknoloji-tüketim üzerine bağlantılı fikirler, kibarca katılmak ve katılmamak (So do I, Neither do I), teklifi kabul ve ret, arkadaşa kıyafet tavsiyesi (suit, fit, go with, too / enough), sınıf tartışması ve tavsiye mesajı. Her ekranda konu anlatımı, yeni örnekler ve bol alıştırma; fotokopi yok.",
+    "number": 7,
+    "order": 7,
+    "date": "2026-11-03",
+    "duration": "400 dk",
+    "tags": [
+      "Ayrıntılı Türkçe anlatım",
+      "Pazarlık",
+      "Ödeme",
+      "İnternetten alışveriş",
+      "Şikâyet",
+      "Anket",
+      "Atatürk'ün hayatı",
+      "Moda ve eğilimler",
+      "Reklamlar",
+      "Teknoloji ve tüketim",
+      "Katılmak ve katılmamak",
+      "Teklif kabul ve ret",
+      "Kıyafet tavsiyesi"
+    ],
+    "url": "lessons/b1/day-07.html"
+  },
+  {
     "id": "b1/practice",
     "level": "B1",
     "title": "Tanışma ve konuşma · Ek çalışma",

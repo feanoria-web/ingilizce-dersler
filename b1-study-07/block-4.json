@@ -1,0 +1,2242 @@
+{
+ "version": 1,
+ "block": 4,
+ "chapters": [
+  {
+   "screenId": "accept-refuse",
+   "title": "Teklifleri kibarca kabul ve ret",
+   "intro": [
+    "Gün içinde pek çok teklif alırız: bir ev sahibinin ikramı, bir arkadaşın yardım teklifi, satıcının önerdiği ek ürün ya da üyelik, bir davet. Bu bölümün kazanımı bir şeyi ya da bir teklifi kibarca kabul veya reddetmektir. İngilizcede teklif kalıpları (Would you like …? · Shall I …? · Do you want me to …?) ve cevap kalıpları (That would be great. · That's very kind of you, but …) belirli bir kibarlık düzeni izler: kabul ederken teşekkür, reddederken teşekkür + ret + sebep.",
+    "Dersteki diyalog bir arkadaşın evindeki akşam yemeğidir: Defne ikram eder, ısrar eder, yardım teklifini reddeder ve sonunda eve bırakmayı teklif eder; Onur bazılarını kabul eder, bazılarını kibarca reddeder. Diyalogda bir de kültür farkı var: Türkiye'de ev sahibi ısrar eder ve misafir ilk teklifi nezaketen reddedebilir; İngilizce konuşulan birçok ülkede ise ev sahibi genellikle bir kez sorar. Bu yüzden bir şey istiyorsanız ilk seferde Yes, please demek gerekir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "A tea would be lovely, thanks.",
+     "tr": "Çay çok iyi olur, teşekkürler.",
+     "why": [
+      "would be lovely: teklife kibar kabul; a tea = bir (bardak) çay."
+     ]
+    },
+    {
+     "en": "Have some more dolma. I made plenty.",
+     "tr": "Biraz daha dolma al. Bol yaptım.",
+     "why": [
+      "Have some more: ikram emri, samimi; plenty = bol, yeterince çok."
+     ]
+    },
+    {
+     "en": "That's very kind of you, but I couldn't eat another thing. They were delicious.",
+     "tr": "Çok naziksin ama bir lokma daha yiyemem. Çok lezzetliydi.",
+     "why": [
+      "Kibar retin üç parçası: teşekkür, ret, övgü."
+     ]
+    },
+    {
+     "en": "Honestly, I'm full. But could you send me the recipe?",
+     "tr": "Gerçekten doydum. Ama tarifini bana gönderebilir misin?",
+     "why": [
+      "Honestly = gerçekten, açıkçası; recipe = yemek tarifi (receipt ile karıştırma)."
+     ]
+    },
+    {
+     "en": "No, no, you're my guest. Thanks for the offer, though.",
+     "tr": "Yok, yok, sen misafirimsin. Yine de teklifin için teşekkürler.",
+     "why": [
+      "Ev sahibi yardım teklifini reddeder; though cümle sonunda = yine de."
+     ]
+    },
+    {
+     "en": "Then let me at least clear the table.",
+     "tr": "O zaman en azından sofrayı toplayayım.",
+     "why": [
+      "let me + yalın fiil: teklif; at least = en azından; clear the table = sofrayı toplamak."
+     ]
+    },
+    {
+     "en": "OK, if you insist! Oh, it's raining. Do you want me to drive you home?",
+     "tr": "Peki, ısrar ediyorsan! Aa, yağmur yağıyor. Seni eve bırakayım mı?",
+     "why": [
+      "if you insist = ısrar ediyorsan; Do you want me to + fiil: yardım teklifi."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ar-offers",
+     "title": "Would you like some tea? · Shall I carry that? · Do you want me to drive you home?",
+     "meaning": "Teklif kalıplarını kurmak",
+     "explanation": [
+      "En yaygın teklif kalıbı Would you like + isim ya da Would you like + to + fiil'dir: Would you like some tea? · Would you like to join us for dinner? Would you like kibar bir teklif ve davettir; Do you want …? daha gündeliktir. İkram ederken some kullanılır, çünkü karşıdakinin evet demesini bekleriz: Would you like some more rice?",
+      "Yardım teklifinde Shall I + yalın fiil kullanılır: Shall I carry your bags? (Çantalarını taşıyayım mı?) · Shall I open the window? Do you want me to + fiil aynı anlamı daha gündelik verir: Do you want me to drive you home? (Seni eve bırakayım mı?) Would you like me to + fiil daha kibardır: Would you like me to save you a seat? Dikkat: Do I help you? yanlıştır; teklif için Shall I help you? denir.",
+      "Diğer teklif biçimleri: Can I get you something to drink? (Size içecek bir şey getireyim mi?) · Let me help you. (Yardım edeyim.) · I'll book the table if you like. (İstersen masayı ben ayırtırım.) Mağaza teklifleri genellikle Would you like to + fiil biçimindedir: Would you like to join our loyalty scheme? · Would you like to add the extended warranty? Can I interest you in …? (… ilginizi çeker mi?) da satıcıların kalıbıdır."
+     ],
+     "formula": [
+      "İkram / davet: Would you like + isim / to + fiil?",
+      "Yardım: Shall I …? · Do you want me to …? · Would you like me to …?",
+      "Diğer: Can I get you …? · Let me … · I'll … if you like."
+     ],
+     "examples": [
+      {
+       "en": "Do you want me to pick you up from the station?",
+       "tr": "Seni istasyondan alayım mı?",
+       "why": [
+        "Do you want me to + fiil: gündelik yardım teklifi."
+       ],
+       "chunks": [
+        {
+         "en": "Do you want me to",
+         "tr": "… yapmamı ister misin?"
+        },
+        {
+         "en": "pick you up",
+         "tr": "seni almak (arabayla)"
+        }
+       ]
+      },
+      {
+       "en": "Shall I print the tickets for both of us?",
+       "tr": "İkimizin biletini ben mi yazdırayım?",
+       "why": [
+        "Shall I + yalın fiil."
+       ]
+      },
+      {
+       "en": "Can I get you a glass of water?",
+       "tr": "Sana bir bardak su getireyim mi?",
+       "why": [
+        "Can I get you + isim: ikram."
+       ]
+      },
+      {
+       "en": "Would you like to add a phone case for 250 lira?",
+       "tr": "250 liraya bir telefon kılıfı eklemek ister misiniz?",
+       "why": [
+        "Mağaza teklifi: Would you like to + fiil."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Kapıyı açayım mı?”",
+       "answer": "Shall I open the door?",
+       "why": "Shall I + yalın fiil."
+      },
+      {
+       "question": "Would you like ___ (join) us?",
+       "answer": "to join",
+       "why": "Would you like + to + fiil."
+      },
+      {
+       "question": "Do I help you? Düzelt.",
+       "answer": "Shall I help you?",
+       "why": "Teklif için Shall I."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Do I help you to carry?",
+       "right": "Shall I help you carry that?",
+       "why": "Teklif Shall I ile; help + yalın fiil."
+      },
+      {
+       "wrong": "Would you like that I drive you home?",
+       "right": "Would you like me to drive you home?",
+       "why": "like + kişi + to + fiil."
+      }
+     ]
+    },
+    {
+     "id": "ar-accept",
+     "title": "That would be great, thanks. · That's very kind of you. · If it's no trouble, …",
+     "meaning": "Teklifi kibarca kabul etmek",
+     "explanation": [
+      "Kabul cevapları: Yes, please. (Evet, lütfen.) · That would be great / lovely, thanks. (Harika olur, teşekkürler.) · That's very kind of you. (Çok naziksiniz.) · Thanks, I'd love one / some / to. Cevaptaki would teklifteki would ile uyumludur ve kibarlığı artırır: Would you like a lift? — That would be great.",
+      "Yardımı kabul ederken karşıdakini rahatlatmak için if it's no trouble (zahmet olmazsa) eklenir: That would be great, if it's no trouble. · That would really help, if it's no trouble. Ev sahibi genellikle No trouble at all. (Hiç zahmet değil.) diye cevap verir. Are you sure? Thank you so much! cevabı da teklifin cömertliğini takdir eder.",
+      "Kabul ederken teşekkür cümlesinin ardından küçük bir ayrıntı eklemek doğaldır: Yes, please! I'm running a bit late. · That's very kind of you. They're quite heavy. Sadece Yes demek İngilizcede kısa ve soğuk duyulur; teşekkür ve would içeren bir cevap çok daha doğaldır. Mağaza teklifini kabul ederken bir soru sorulabilir: Sure. What do I get? · How much is it?"
+     ],
+     "formula": [
+      "Yes, please. · That would be great / lovely, thanks.",
+      "That's very kind of you. · Thanks, I'd love one / to.",
+      "if it's no trouble · Are you sure? Thank you so much!"
+     ],
+     "examples": [
+      {
+       "en": "A tea would be lovely, thanks.",
+       "tr": "Çay çok iyi olur, teşekkürler.",
+       "why": [
+        "would be lovely: kibar kabul."
+       ]
+      },
+      {
+       "en": "That would be great, if it's no trouble.",
+       "tr": "Zahmet olmazsa çok iyi olur.",
+       "why": [
+        "if it's no trouble: karşıdakini rahatlatır."
+       ],
+       "chunks": [
+        {
+         "en": "That would be great",
+         "tr": "harika olur"
+        },
+        {
+         "en": "if it's no trouble",
+         "tr": "zahmet olmazsa"
+        }
+       ]
+      },
+      {
+       "en": "Do you want me to lend you my umbrella? — Are you sure? Thank you so much!",
+       "tr": "Şemsiyemi ödünç vereyim mi? — Emin misin? Çok teşekkürler!",
+       "why": [
+        "Are you sure? cömertliği takdir eder."
+       ]
+      },
+      {
+       "en": "Shall I carry your bags? — That's very kind of you. They're quite heavy.",
+       "tr": "Çantalarını taşıyayım mı? — Çok naziksin. Epey ağırlar.",
+       "why": [
+        "Teşekkür + küçük ayrıntı."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Harika olur, teşekkürler.”",
+       "answer": "That would be great, thanks.",
+       "why": "would ile kabul."
+      },
+      {
+       "question": "“Zahmet olmazsa …”",
+       "answer": "If it's no trouble, …",
+       "why": "Kalıp."
+      },
+      {
+       "question": "Shall I help you? — (sadece) Yes. Daha kibarı?",
+       "answer": "That would be great, thanks.",
+       "why": "Teşekkür + would."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "If it isn't a trouble …",
+       "right": "If it's no trouble …",
+       "why": "Kalıp no trouble."
+      },
+      {
+       "wrong": "Yes, you shall.",
+       "right": "Yes, please. That would be great.",
+       "why": "Shall I sorusuna you shall ile cevap verilmez."
+      }
+     ]
+    },
+    {
+     "id": "ar-refuse",
+     "title": "That's very kind of you, but I'm fine. · Thanks for the offer, but I'll manage. · I'm just looking.",
+     "meaning": "Kibarca reddetmek ve kültür farkı",
+     "explanation": [
+      "Kibar ret üç parçadan oluşur: teşekkür + ret + sebep (gerekirse bir alternatif). That's very kind of you, but I've just eaten. · Thanks for the offer, but I'll manage. (Teklifin için sağ ol ama hallederim.) · Not this time, thanks. Maybe next week? · No, thanks. I'm fine. Sadece No demek İngilizcede çok sert duyulur; her zaman en az thanks ve kısa bir sebep ekleyin.",
+      "Mağazada ret kalıpları: No, thank you. I'm just looking. (Hayır, teşekkürler. Sadece bakıyorum.) · I'll leave it, thanks. Just the TV, please. · I'll think about it. · Not today, thanks. Satıcıya sebep vermek zorunda değilsiniz ama kısa bir açıklama kibarlığı artırır: No, thank you. I don't shop here very often. Türkçedeki “Sağ ol, kalsın” için en yakın ifade No, thanks. I'm fine.'dir.",
+      "Yemekte ret: I couldn't eat another thing. It was delicious. (Bir lokma daha yiyemem. Çok lezzetliydi.) · I'm full, thanks. Türk misafirperverliğinde ev sahibi ısrar eder (Are you sure? Just one more?); misafir ikinci kez kibarca reddedebilir: Honestly, I'm full. İngilizce konuşulan birçok ülkede ise ev sahibi genellikle bir kez sorar; bu yüzden istiyorsanız ilk seferde kabul edin. Ellerine sağlık için: That was delicious. Thank you for cooking."
+     ],
+     "formula": [
+      "Ret: teşekkür + ret + sebep (+ alternatif)",
+      "Mağaza: No, thank you. I'm just looking. · I'll leave it, thanks.",
+      "Yemek: I couldn't eat another thing. It was delicious."
+     ],
+     "examples": [
+      {
+       "en": "That's very kind of you, but I couldn't eat another thing. They were delicious.",
+       "tr": "Çok naziksin ama bir lokma daha yiyemem. Çok lezzetliydi.",
+       "why": [
+        "Teşekkür + ret + övgü."
+       ],
+       "chunks": [
+        {
+         "en": "I couldn't eat another thing",
+         "tr": "bir lokma daha yiyemem"
+        },
+        {
+         "en": "They were delicious",
+         "tr": "çok lezzetliydiler"
+        }
+       ]
+      },
+      {
+       "en": "Thanks for the offer, but my brother is coming.",
+       "tr": "Teklifin için teşekkürler ama ağabeyim geliyor.",
+       "why": [
+        "Ret + sebep."
+       ]
+      },
+      {
+       "en": "Not this time, thanks. I've got an exam on Saturday.",
+       "tr": "Bu sefer olmaz, teşekkürler. Cumartesi sınavım var.",
+       "why": [
+        "Not this time: davete kibar ret."
+       ]
+      },
+      {
+       "en": "Can I interest you in the extended warranty? — I'll leave it, thanks. Just the TV, please.",
+       "tr": "Uzatılmış garanti ilginizi çeker mi? — Kalsın, teşekkürler. Sadece televizyon, lütfen.",
+       "why": [
+        "Mağazada ret."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Sağ ol, kalsın.” İngilizcesi?",
+       "answer": "No, thanks. I'm fine.",
+       "why": "Doğal karşılık."
+      },
+      {
+       "question": "Satıcı: Can I help you? (sadece bakıyorsunuz)",
+       "answer": "No, thank you. I'm just looking.",
+       "why": "just looking."
+      },
+      {
+       "question": "Kibar retin üç parçası?",
+       "answer": "Teşekkür + ret + sebep.",
+       "why": "That's very kind of you, but …"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Thank you, let it stay.",
+       "right": "No, thanks. I'm fine.",
+       "why": "Kelime kelime çeviri anlamsız."
+      },
+      {
+       "wrong": "No, I only look.",
+       "right": "No, thank you. I'm just looking.",
+       "why": "Şu an süren eylem: I'm just looking."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "clothes-advice",
+   "title": "Bir arkadaşa kıyafet tavsiyesi: suit, fit, go with · too, enough",
+   "intro": [
+    "Bu bölümün kazanımı basit şeyler hakkında tavsiye vermektir ve örnek durum bir arkadaşa kıyafet alırken öneride bulunmaktır. Bir arkadaş Does it suit me? diye sorduğunda dürüst ama kibar bir cevap vermek için üç fiili ayırmak gerekir: suit (yakışmak), fit (beden olarak olmak) ve go with / match (iki şeyin birbirine uyması). Bunlar Türkçede çoğu zaman tek bir “olmak, uymak” fiiliyle karşılandığı için en sık karıştırılan kelimelerdendir.",
+    "Dersteki deneme kabini diyaloğunda Ozan, Nazlı'nın montu için önce olumlu bir şey söyler (The colour really suits you), sonra sorunu yumuşakça belirtir (a bit tight on the shoulders), bir öneri yapar (Why don't you try a size up?), iki mont arasında seçim yapar (I'd go for this one) ve pratik bir tavsiyeyle bitirir (you'd better check the return policy). Bu sıra iyi bir kıyafet tavsiyesinin şablonudur. Beden, kumaş ve renk kelimeleri de bu bölümde."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "What do you think? Does it suit me?",
+     "tr": "Ne düşünüyorsun? Yakıştı mı?",
+     "why": [
+      "Does it suit me? = bana yakıştı mı? (renk, model)."
+     ]
+    },
+    {
+     "en": "The colour really suits you, but it looks a bit tight on the shoulders. Can you move your arms?",
+     "tr": "Renk sana çok yakıştı ama omuzlardan biraz dar duruyor. Kollarını oynatabiliyor musun?",
+     "why": [
+      "Önce olumlu (suits), sonra yumuşak sorun (a bit tight); look + sıfat = … görünmek."
+     ]
+    },
+    {
+     "en": "Why don't you try a size up?",
+     "tr": "Neden bir beden büyüğünü denemiyorsun?",
+     "why": [
+      "Why don't you + yalın fiil: öneri; a size up = bir beden büyük."
+     ]
+    },
+    {
+     "en": "It's 4,800 lira, though. There's a cheaper one over there for 2,900.",
+     "tr": "Ama 4.800 lira. Şurada 2.900'lük daha ucuz bir tane var.",
+     "why": [
+      "though cümle sonunda = ama, yine de; over there = şurada."
+     ]
+    },
+    {
+     "en": "You're right. It's worth paying a bit more for a good coat. Does this scarf go with it?",
+     "tr": "Haklısın. İyi bir mont için biraz fazla ödemeye değer. Bu atkı ona uyuyor mu?",
+     "why": [
+      "It's worth + -ing; go with = uymak (iki eşya)."
+     ]
+    },
+    {
+     "en": "Not really. The orange doesn't match the grey. You could wear your black one instead.",
+     "tr": "Pek değil. Turuncu griye uymuyor. Onun yerine siyahını takabilirsin.",
+     "why": [
+      "match: renk uyumu; could: öneri; instead = onun yerine."
+     ]
+    },
+    {
+     "en": "Yes, and you'd better check the return policy before you pay.",
+     "tr": "Evet, ödemeden önce iade koşullarına da baksan iyi olur.",
+     "why": [
+      "You'd better + yalın fiil; before + present simple (will yok)."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ca-suit-fit",
+     "title": "It really suits you. · It fits perfectly. · The scarf goes with your coat.",
+     "meaning": "suit, fit ve go with farkı",
+     "explanation": [
+      "suit bir rengin ya da modelin kişiye yakışmasıdır: That colour really suits you. (O renk sana çok yakıştı.) · Red doesn't suit me. Ayrıca look great on someone kalıbı aynı anlamı verir: Those boots look great on you. suit bedenle ilgili değildir; bir kıyafet tam oturabilir ama yakışmayabilir.",
+      "fit beden ve ölçüyle ilgilidir: The jacket fits perfectly. (Ceket tam oturdu.) · These shoes don't fit me. (Bu ayakkabılar bana olmuyor.) Soru: Does it fit? (Oldu mu?) Bir yerde dar ya da bolsa: It's a bit tight on the shoulders. · It's loose around the waist. fit fiili Türkçedeki “oldu mu, oturdu mu?” sorusunun karşılığıdır.",
+      "go with ve match iki şeyin birbirine uymasıdır: The scarf goes with your coat. (Atkı montuna uyuyor.) · The bag doesn't match the shoes. (Çanta ayakkabılara uymuyor.) go with daha geniş anlamlıdır (renk, tarz uyumu); match genellikle renk ya da desen eşleşmesidir. Türkçedeki “uydu mu?” sorusunu Does it suit …? ile sormak yaygın bir hatadır; iki eşya için Does it go with …? sorulur."
+     ],
+     "formula": [
+      "suit: renk / model kişiye yakışır · look great on someone",
+      "fit: beden olarak olur · tight / loose on the shoulders",
+      "go with / match: iki eşya birbirine uyar"
+     ],
+     "examples": [
+      {
+       "en": "The colour really suits you, but it looks a bit tight on the shoulders.",
+       "tr": "Renk sana çok yakıştı ama omuzlardan biraz dar duruyor.",
+       "why": [
+        "suit (renk) + tight on (beden)."
+       ],
+       "chunks": [
+        {
+         "en": "really suits you",
+         "tr": "sana çok yakıştı"
+        },
+        {
+         "en": "tight on the shoulders",
+         "tr": "omuzlardan dar"
+        }
+       ]
+      },
+      {
+       "en": "That's much better. It fits perfectly now.",
+       "tr": "Çok daha iyi. Şimdi tam oldu.",
+       "why": [
+        "fit: beden."
+       ]
+      },
+      {
+       "en": "The orange doesn't match the grey. You could wear your black one instead.",
+       "tr": "Turuncu griye uymuyor. Onun yerine siyahını takabilirsin.",
+       "why": [
+        "match: renk uyumu; instead = onun yerine."
+       ]
+      },
+      {
+       "en": "Those boots look great on you, and they go with everything.",
+       "tr": "O botlar sende harika duruyor ve her şeye uyuyor.",
+       "why": [
+        "look great on + kişi; go with."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Ayakkabı küçük geldi: They don't ___.",
+       "answer": "fit",
+       "why": "Beden → fit."
+      },
+      {
+       "question": "Mavi renk sana yakışıyor:",
+       "answer": "Blue really suits you.",
+       "why": "suit."
+      },
+      {
+       "question": "Kemer pantolona uyuyor mu?",
+       "answer": "Does the belt go with the trousers?",
+       "why": "İki eşya → go with."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "This jacket is very suitable for you.",
+       "right": "This jacket really suits you.",
+       "why": "suitable = uygun; yakışmak suit."
+      },
+      {
+       "wrong": "The scarf suits your coat.",
+       "right": "The scarf goes with your coat.",
+       "why": "İki eşya için go with."
+      }
+     ]
+    },
+    {
+     "id": "ca-too-enough",
+     "title": "It's too tight. · It isn't warm enough for winter. · It's a bit long.",
+     "meaning": "too ve enough ile sorun bildirmek",
+     "explanation": [
+      "too + sıfat bir şeyin fazla olduğunu ve bunun bir sorun yarattığını söyler: It's too tight. (Fazla dar.) · The sleeves are too short. (Kollar fazla kısa.) · This coat is too expensive for me. too, very ile karıştırılmamalı: very expensive “çok pahalı” bir bilgidir; too expensive ise “almak için fazla pahalı” bir sorundur.",
+      "not + sıfat + enough yetersizliği anlatır: It isn't warm enough for winter. (Kış için yeterince sıcak değil.) · These trousers aren't long enough. enough sıfattan sonra gelir: warm enough (enough warm yanlış). İsimle kullanıldığında ise enough isimden önce gelir: There isn't enough room in the shoulders. Amaç için for + isim ya da to + fiil eklenir: It isn't warm enough to wear in the snow.",
+      "a bit (biraz) eleştiriyi yumuşatır: It's a bit tight on the shoulders. · It's a bit long. Bir arkadaşa olumsuz bir şey söylerken a bit ve but çok işe yarar: It's lovely, but it's a bit too formal for a picnic. Bu ölçülü dil, dürüst olmakla kırıcı olmamak arasındaki dengeyi kurar."
+     ],
+     "formula": [
+      "Fazla (sorun): too + sıfat · too tight · too long",
+      "Yetersiz: not + sıfat + enough · not warm enough",
+      "Yumuşat: a bit + sıfat · a bit too formal"
+     ],
+     "examples": [
+      {
+       "en": "Not really. And the sleeves are too short.",
+       "tr": "Pek değil. Kollar da fazla kısa.",
+       "why": [
+        "too short: sorun."
+       ]
+      },
+      {
+       "en": "It's pure wool, so it'll be warm enough for Bursa winters.",
+       "tr": "Saf yün, bu yüzden Bursa kışları için yeterince sıcak tutar.",
+       "why": [
+        "warm enough for: sıfat + enough."
+       ],
+       "chunks": [
+        {
+         "en": "pure wool",
+         "tr": "saf yün"
+        },
+        {
+         "en": "warm enough for",
+         "tr": "… için yeterince sıcak"
+        }
+       ]
+      },
+      {
+       "en": "The dress is lovely, but I'm not sure it's warm enough for an evening wedding in November.",
+       "tr": "Elbise çok güzel ama kasımda akşam düğünü için yeterince sıcak olduğundan emin değilim.",
+       "why": [
+        "Yumuşatılmış eleştiri: I'm not sure + enough."
+       ]
+      },
+      {
+       "en": "There isn't enough room in the shoulders.",
+       "tr": "Omuzlarda yeterince yer yok.",
+       "why": [
+        "enough + isim: önde."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Yeterince uzun değil.”",
+       "answer": "It isn't long enough.",
+       "why": "sıfat + enough."
+      },
+      {
+       "question": "very expensive ile too expensive farkı?",
+       "answer": "very: çok (bilgi); too: fazla (sorun, alınamaz).",
+       "why": "too = sorun."
+      },
+      {
+       "question": "“Biraz dar.”",
+       "answer": "It's a bit tight.",
+       "why": "a bit."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It isn't enough warm.",
+       "right": "It isn't warm enough.",
+       "why": "enough sıfattan sonra."
+      },
+      {
+       "wrong": "It's very tight, I can't move my arms.",
+       "right": "It's too tight. I can't move my arms.",
+       "why": "Sorun bildirirken too."
+      }
+     ]
+    },
+    {
+     "id": "ca-suggest",
+     "title": "I'd go for the navy one. · You could try a size up. · It's worth paying more for wool.",
+     "meaning": "Kıyafet seçiminde öneri ve pratik tavsiye vermek",
+     "explanation": [
+      "Seçim önerisi: I'd go for + isim (Ben olsam … seçerdim): I'd go for the navy one. go for burada “seçmek, tercih etmek” demektir. Deneme önerisi: You could try a size up / a size down. (Bir beden büyüğünü / küçüğünü deneyebilirsin.) · Why not try it in black? (Neden siyahını denemiyorsun?) · Why don't you try the other one? If I were you, I'd … (Ben senin yerinde olsam …) da kullanılır: If I were you, I'd buy shoes in a shop.",
+      "Pratik tavsiye: You'd better + yalın fiil (… etsen iyi olur): You'd better check the return policy before you pay. You'd better should'dan daha güçlüdür; yapılmazsa bir sorun olabileceğini ima eder. It's worth + -ing (… yapmaya değer): It's worth paying a bit more for good boots. (İyi botlar için biraz fazla ödemeye değer.) Don't buy it just because …: Don't buy it just because it's half price. (Sırf yarı fiyatına diye alma.)",
+      "Bu bölümde dünün alışveriş dili de geri gelir: Keep the receipt, just in case. (Fişi sakla, ne olur ne olmaz.) · Check the return policy. · Try it on with the shoes you're going to wear. Gerekçe eklemek tavsiyeyi güçlendirir: I'd go for this one. It's pure wool, so it'll be warm enough. The cheaper one is polyester. Gerekçesiz tavsiye bir emir gibi duyulabilir."
+     ],
+     "formula": [
+      "Seçim: I'd go for … · If I were you, I'd …",
+      "Deneme: You could try a size up. · Why not try …?",
+      "Pratik: You'd better … · It's worth + -ing · Don't buy it just because …"
+     ],
+     "examples": [
+      {
+       "en": "Hmm, I'd go for this one. It's pure wool, so it'll be warm enough for Bursa winters.",
+       "tr": "Hmm, ben olsam bunu alırdım. Saf yün, Bursa kışları için yeterince sıcak tutar.",
+       "why": [
+        "I'd go for + gerekçe."
+       ],
+       "chunks": [
+        {
+         "en": "I'd go for this one",
+         "tr": "ben olsam bunu seçerdim"
+        },
+        {
+         "en": "so it'll be warm enough",
+         "tr": "bu yüzden yeterince sıcak olur"
+        }
+       ]
+      },
+      {
+       "en": "Why not try the trousers in navy? Black is a bit hard with brown shoes.",
+       "tr": "Pantolonu neden lacivert denemiyorsun? Siyah kahverengi ayakkabıyla biraz zor.",
+       "why": [
+        "Why not + yalın fiil."
+       ]
+      },
+      {
+       "en": "Don't buy it just because it's half price. You'll never wear it.",
+       "tr": "Sırf yarı fiyatına diye alma. Hiç giymezsin.",
+       "why": [
+        "just because = sırf … diye."
+       ]
+      },
+      {
+       "en": "It's worth paying more for a good pair of boots. Cheap ones won't last.",
+       "tr": "İyi bir bot için daha fazla ödemeye değer. Ucuzlar dayanmaz.",
+       "why": [
+        "It's worth + -ing."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Ben olsam siyahı seçerdim.”",
+       "answer": "I'd go for the black one.",
+       "why": "go for."
+      },
+      {
+       "question": "It's worth ___ (pay) more for leather.",
+       "answer": "paying",
+       "why": "worth + -ing."
+      },
+      {
+       "question": "“İade koşullarına baksan iyi olur.”",
+       "answer": "You'd better check the return policy.",
+       "why": "You'd better + yalın fiil."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I go to the black one.",
+       "right": "I'd go for the black one.",
+       "why": "Seçim: would + go for."
+      },
+      {
+       "wrong": "You'd better to keep the receipt.",
+       "right": "You'd better keep the receipt.",
+       "why": "had better + yalın fiil (to yok)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "debate",
+   "title": "Sınıf tartışması: söz almak, araya girmek, öneri ve özet",
+   "intro": [
+    "Bu bölüm iki günün bütün konuşma becerilerini bir tartışmada birleştirir: fikir + gerekçe + bağlantı, kibarca katılmak ve katılmamak, öneri yapmak ve öneriyi kabul ya da reddetmek. Bunlara tartışmanın kendi dili eklenir: söz almak (Can I just say something?), araya girmek (Sorry to interrupt, but …), sözü korumak ya da geri vermek (Let me finish, please. · Sorry, go ahead.), anladığını kontrol etmek (So are you saying that …?) ve özetlemek (To sum up, … · So, we agree that …).",
+    "Dersteki tartışma hızlı moda üzerinedir. Levent yönetici olarak başlatır, söz verir ve özetler; Gönül fikrini sonuç bağlacıyla destekler; Tarık kibarca araya girer ve itiraz eder; Gönül yanlış anlaşılmayı What I mean is … ile düzeltir; Ebru bir öneri yapar ve öneri kabul edilir. Dört rol (chair, speaker for, speaker against, note-taker) her grubun tartışmasını düzenli tutar. Tartışma konuları iki günün konularından seçildi: indirim günleri, çarşılar ve AVM'ler, çocuklara reklam, yerel ürünler, onarım ve kıyafet takası."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "OK, let's start. Today's question is: should we stop buying fast fashion?",
+     "tr": "Peki, başlayalım. Bugünün sorusu: hızlı modayı almayı bırakmalı mıyız?",
+     "why": [
+      "let's + yalın fiil; stop + -ing = … yapmayı bırakmak."
+     ]
+    },
+    {
+     "en": "In my view, we should buy much less of it. Cheap clothes don't last, and as a result, tonnes of clothes end up in the rubbish every year.",
+     "tr": "Bence çok daha az almalıyız. Ucuz kıyafetler dayanmıyor ve sonuç olarak her yıl tonlarca kıyafet çöpe gidiyor.",
+     "why": [
+      "much less = çok daha az; last = dayanmak; as a result: sonuç bağlacı; end up in = sonunda … gitmek."
+     ]
+    },
+    {
+     "en": "Sorry to interrupt, but can I just say something? Not everyone can afford expensive clothes.",
+     "tr": "Sözünü kestiğim için kusura bakma ama bir şey söyleyebilir miyim? Herkesin pahalı kıyafete gücü yetmez.",
+     "why": [
+      "Sorry to interrupt: kibar araya girme; afford = gücü yetmek."
+     ]
+    },
+    {
+     "en": "Let me finish, please. I'm not saying that everyone should buy expensive clothes.",
+     "tr": "Bitirmeme izin ver lütfen. Herkes pahalı kıyafet almalı demiyorum.",
+     "why": [
+      "Let me finish: sözü korumak; I'm not saying that …: yanlış anlaşılmayı düzeltmek."
+     ]
+    },
+    {
+     "en": "Sorry, go ahead. … OK, I see what you mean. That's true up to a point.",
+     "tr": "Pardon, devam et. … Tamam, ne demek istediğini anlıyorum. Bir yere kadar doğru.",
+     "why": [
+      "go ahead: sözü geri vermek; I see what you mean ve up to a point: kibar kısmi katılma."
+     ]
+    },
+    {
+     "en": "I agree with Gönül. What's more, second-hand apps are a cheap alternative.",
+     "tr": "Gönül'e katılıyorum. Üstelik ikinci el uygulamaları ucuz bir seçenek.",
+     "why": [
+      "agree with + kişi; What's more: ek bilgi; alternative = seçenek."
+     ]
+    },
+    {
+     "en": "That sounds like a good plan. I'd be happy to bring some jackets.",
+     "tr": "Bu iyi bir plan gibi. Birkaç ceket getirmekten memnun olurum.",
+     "why": [
+      "sound like + isim: kabul; I'd be happy to + fiil = memnuniyetle …"
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "db-turns",
+     "title": "Can I just say something? · Sorry to interrupt, but … · Let me finish, please. · Sorry, go ahead.",
+     "meaning": "Söz almak, araya girmek, sözü korumak ve geri vermek",
+     "explanation": [
+      "Söz almak için kibar bir soru: Can I just say something? (Bir şey söyleyebilir miyim?) · Could I add something here? (Buraya bir şey ekleyebilir miyim?) just burada isteği küçültür ve kibarlaştırır. Biri konuşurken araya girmek gerekiyorsa mutlaka özür dilenir: Sorry to interrupt, but … (Sözünü kestiğim için kusura bakma ama …). Türkçedeki “sözünü kesmek” kelime kelime cut your word diye çevrilmez.",
+      "Sözünüz kesildiyse kibarca devam etmek istediğinizi söyleyin: Let me finish, please. (Bitirmeme izin ver lütfen.) · Just a moment, I haven't finished. Siz araya girdiyseniz ve karşıdaki devam etmek istiyorsa sözü geri verin: Sorry, go ahead. (Pardon, devam et.) Kaldığınız yerden devam etmek için: As I was saying, … (Dediğim gibi, …).",
+      "Tartışmada sözü paylaşmak bir nezaket kuralıdır. Uzun süre konuşan biri olursa yönetici ya da bir katılımcı başkasına söz verir: What do you think, Ebru? · We haven't heard from you yet. (Senden henüz bir şey duymadık.) · Let's hear from the other side. Bu kalıplar sessiz kalan kişileri kırmadan konuşmaya davet eder."
+     ],
+     "formula": [
+      "Söz al: Can I just say something? · Could I add something here?",
+      "Araya gir: Sorry to interrupt, but …",
+      "Sözü koru / ver: Let me finish, please. · Sorry, go ahead. · As I was saying, …"
+     ],
+     "examples": [
+      {
+       "en": "Sorry to interrupt, but can I just say something? Not everyone can afford expensive clothes.",
+       "tr": "Sözünü kestiğim için kusura bakma ama bir şey söyleyebilir miyim? Herkesin pahalı kıyafete gücü yetmez.",
+       "why": [
+        "Özür + söz isteme + fikir."
+       ],
+       "chunks": [
+        {
+         "en": "Sorry to interrupt, but",
+         "tr": "sözünü kestiğim için kusura bakma ama"
+        },
+        {
+         "en": "can afford",
+         "tr": "gücü yetmek"
+        }
+       ]
+      },
+      {
+       "en": "Let me finish, please. Then you can answer.",
+       "tr": "Bitirmeme izin ver lütfen. Sonra cevap verebilirsin.",
+       "why": [
+        "Sözü kibarca korumak."
+       ]
+      },
+      {
+       "en": "Sorry, go ahead.",
+       "tr": "Pardon, devam et.",
+       "why": [
+        "Sözü geri vermek."
+       ]
+      },
+      {
+       "en": "As I was saying, local tailors can make old clothes look new.",
+       "tr": "Dediğim gibi, mahalledeki terziler eski kıyafetleri yeni gibi yapabilir.",
+       "why": [
+        "As I was saying: kaldığın yerden devam."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Sözünü kestiğim için kusura bakma ama …”",
+       "answer": "Sorry to interrupt, but …",
+       "why": "interrupt."
+      },
+      {
+       "question": "Sözünüz kesildi. Ne dersiniz?",
+       "answer": "Let me finish, please.",
+       "why": "Kibarca."
+      },
+      {
+       "question": "“Dediğim gibi …”",
+       "answer": "As I was saying, …",
+       "why": "Past continuous."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Sorry for cutting your word.",
+       "right": "Sorry to interrupt, but …",
+       "why": "Türkçe deyimin çevirisi anlamsız."
+      },
+      {
+       "wrong": "Let me end.",
+       "right": "Let me finish, please.",
+       "why": "Konuşmayı bitirmek finish."
+      }
+     ]
+    },
+    {
+     "id": "db-clarify",
+     "title": "So are you saying that …? · What I mean is … · I'm not saying that …; I'm saying that …",
+     "meaning": "Anladığını kontrol etmek ve yanlış anlaşılmayı düzeltmek",
+     "explanation": [
+      "Tartışmada yanlış anlaşılma çok olur. Karşıdakinin ne dediğini kontrol etmek için: So are you saying that …? (Yani … mı diyorsun?) · Do you mean that …? (… demek mi istiyorsun?) · Sorry, could you explain that again? (Pardon, bunu tekrar açıklar mısın?) Bu sorular itiraz etmeden önce doğru anladığınızdan emin olmanızı sağlar. Doğru kelime sırasına dikkat: So are you saying …? (So you say …? değil).",
+      "Kendi sözünüz yanlış anlaşıldıysa düzeltmenin en kibar yolu: I'm not saying that …; I'm saying that … (… demiyorum; … diyorum.) Dersteki örnek: I'm not saying that everyone should buy expensive clothes. What I mean is that we should buy fewer, better things. What I mean is (that) … (Demek istediğim …) açıklamayı başlatır.",
+      "Kontrol soruları ve düzeltmeler tartışmanın tonunu yumuşatır. Karşıdakinin fikrini kendi kelimelerinizle tekrar etmek (So you think that … Is that right?) onu dinlediğinizi gösterir. Ardından kendi görüşünüzü kibar katılmama kalıplarıyla söyleyebilirsiniz: OK, I see what you mean. That's true up to a point."
+     ],
+     "formula": [
+      "Kontrol: So are you saying that …? · Do you mean that …?",
+      "Açıklama iste: Sorry, could you explain that again?",
+      "Düzelt: I'm not saying that …; I'm saying that … · What I mean is …"
+     ],
+     "examples": [
+      {
+       "en": "So are you saying that we should never buy anything new?",
+       "tr": "Yani hiç yeni bir şey almamalı mıyız diyorsun?",
+       "why": [
+        "So are you saying that + cümle?"
+       ]
+      },
+      {
+       "en": "I'm not saying that everyone should buy expensive clothes. What I mean is that we should buy fewer, better things.",
+       "tr": "Herkes pahalı kıyafet almalı demiyorum. Demek istediğim, daha az ama daha iyi şeyler almamız gerektiği.",
+       "why": [
+        "Yanlış anlaşılmayı düzeltme."
+       ],
+       "chunks": [
+        {
+         "en": "I'm not saying that",
+         "tr": "… demiyorum"
+        },
+        {
+         "en": "fewer, better things",
+         "tr": "daha az ama daha iyi şeyler"
+        }
+       ]
+      },
+      {
+       "en": "Sorry, could you explain that again? I didn't quite follow.",
+       "tr": "Pardon, bunu tekrar açıklar mısın? Tam takip edemedim.",
+       "why": [
+        "follow = takip etmek, anlamak."
+       ]
+      },
+      {
+       "en": "Do you mean that shopping centres are bad for small shops?",
+       "tr": "AVM'lerin küçük dükkânlara zararlı olduğunu mu kastediyorsun?",
+       "why": [
+        "Do you mean that …?"
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Yani reklamlar kötü mü diyorsun?”",
+       "answer": "So are you saying that adverts are bad?",
+       "why": "Soru sırası: are you saying."
+      },
+      {
+       "question": "“Demek istediğim …”",
+       "answer": "What I mean is (that) …",
+       "why": "Açıklama."
+      },
+      {
+       "question": "“Pahalı al demiyorum; az al diyorum.”",
+       "answer": "I'm not saying that you should buy expensive things; I'm saying that you should buy less.",
+       "why": "Düzeltme kalıbı."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "So you say that …?",
+       "right": "So are you saying that …?",
+       "why": "Kalıp soru sırasıyla."
+      },
+      {
+       "wrong": "What I want to say is …",
+       "right": "What I mean is …",
+       "why": "Doğal kalıp What I mean is; diğeri de anlaşılır ama daha az yaygın."
+      }
+     ]
+    },
+    {
+     "id": "db-chair",
+     "title": "What do you think, …? · We're running out of time. · To sum up, we agree that … and we're going to …",
+     "meaning": "Tartışmayı yönetmek, öneri yapmak ve özetlemek",
+     "explanation": [
+      "Yöneticinin (chair) dili: açılış (Let's start. Today's question is …), söz verme (What do you think, Gönül? · We haven't heard from you yet.), zaman (We're running out of time. · We've got two minutes left.) ve özet (To sum up, … · So, we agree that …). run out of time = zamanı tükenmek; Our time is decreasing doğal değildir.",
+      "Tartışma çoğu zaman bir öneriyle sona yaklaşır: Why don't we organise a clothes swap? · How about making a list of repair shops? · I suggest that we … Öneriyi kabul: That sounds like a good plan. · I'd be happy to help. · Good idea. Kibar ret: I'm not sure that would work, because … · That's a good idea, but who will organise it? Bu, sabahki teklif kabul ve ret konusunun tartışmadaki uygulamasıdır.",
+      "Özette iki parça olur: ortak nokta ve karar. Ortak nokta: We agree that we should buy fewer clothes. · We all want to spend less, but we don't agree on how. Karar going to ile söylenir, çünkü artık bir plandır: We're going to organise a clothes swap next month. Not alan kişi kararları sınıfa okur: We agreed that … We're going to …"
+     ],
+     "formula": [
+      "Yönet: Let's start. · What do you think, …? · We haven't heard from you yet.",
+      "Öneri: Why don't we …? · I suggest that we … → That sounds like a good plan.",
+      "Özet: We're running out of time. To sum up, we agree that … We're going to …"
+     ],
+     "examples": [
+      {
+       "en": "Ebru, we haven't heard from you yet.",
+       "tr": "Ebru, senden henüz bir şey duymadık.",
+       "why": [
+        "Present perfect + yet: sessiz kişiye söz verme."
+       ]
+      },
+      {
+       "en": "Why don't we organise a clothes swap at the course? — That sounds like a good plan.",
+       "tr": "Neden kursta bir kıyafet takası düzenlemiyoruz? — Bu iyi bir plan gibi.",
+       "why": [
+        "Öneri + kabul."
+       ]
+      },
+      {
+       "en": "I'm not sure that would work, because most people are busy at weekends.",
+       "tr": "Bunun işe yarayacağından emin değilim, çünkü çoğu insan hafta sonları meşgul.",
+       "why": [
+        "Öneriye kibar ret + sebep."
+       ]
+      },
+      {
+       "en": "We're running out of time, so let's sum up. We agree that we should buy fewer clothes, and we're going to organise a clothes swap next month.",
+       "tr": "Zamanımız azalıyor, özetleyelim. Daha az kıyafet almamız gerektiğinde anlaşıyoruz ve gelecek ay bir kıyafet takası düzenleyeceğiz.",
+       "why": [
+        "Özet: ortak nokta + karar (going to)."
+       ],
+       "chunks": [
+        {
+         "en": "running out of time",
+         "tr": "zamanımız tükeniyor"
+        },
+        {
+         "en": "let's sum up",
+         "tr": "özetleyelim"
+        }
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Zamanımız azalıyor.”",
+       "answer": "We're running out of time.",
+       "why": "run out of."
+      },
+      {
+       "question": "Öneriyi kabul edin:",
+       "answer": "That sounds like a good plan.",
+       "why": "sound like + isim."
+      },
+      {
+       "question": "Kararı hangi yapıyla söylersiniz?",
+       "answer": "going to: We're going to organise …",
+       "why": "Plan → going to."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Our time is decreasing.",
+       "right": "We're running out of time.",
+       "why": "Kalıp run out of time."
+      },
+      {
+       "wrong": "That sounds a good plan like.",
+       "right": "That sounds like a good plan.",
+       "why": "sound like + isim."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "advice-message",
+   "title": "Arkadaşa tavsiye mesajı: samimi dil ve düzen",
+   "intro": [
+    "Bu yazma görevi iki günün kazanımlarını tek bir metinde birleştirir: bir arkadaşa kıyafet satın alma konusunda tavsiye. Arkadaşımız Aslı bir bankada iş görüşmesine gidecek; ne giymesi gerektiğini, takım mı ceket-pantolon mu alacağını ve internetten mi mağazadan mı alacağını soruyor. Cevap mesajı samimi bir dil kullanır; dünkü resmî şikâyet e-postasının tam tersidir. Bu karşıtlık, durum ve kişiye göre dil seçmeyi (register) öğretir.",
+    "Örnek cevap dört paragraftan oluşur: tepki ve tebrik, ne giyilmeli (suit, go with, too), nereden alınmalı (mağaza mı internet mi, neden), pratik tavsiye ve kapanış. Her tavsiyenin bir gerekçesi vardır: because, so, as. Kontrol listesi bu parçaları tek tek arar. Dört farklı durumdan (iş görüşmesi, yaz düğünü, kış gezisi, ilk doğa yürüyüşü) biri seçilerek mesaj yazılır; böylece hem bugünkü kıyafet dili hem dünkü alışveriş dili kullanılır."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Guess what? I've got a job interview at a bank next Thursday!",
+     "tr": "Bil bakalım ne oldu? Gelecek perşembe bir bankada iş görüşmem var!",
+     "why": [
+      "Guess what? = bil bakalım; I've got = I have (samimi)."
+     ]
+    },
+    {
+     "en": "Should I buy a suit, or a jacket and trousers? And should I buy it online or in a shop?",
+     "tr": "Takım mı almalıyım, yoksa ceket ve pantolon mu? İnternetten mi almalıyım, mağazadan mı?",
+     "why": [
+      "Should I …? tavsiye isteme sorusu; or iki seçenek sunar."
+     ]
+    },
+    {
+     "en": "Thanks for your message, and congratulations on the interview! That's great news.",
+     "tr": "Mesajın için teşekkürler ve görüşme için tebrikler! Harika bir haber.",
+     "why": [
+      "Samimi açılış; congratulations on + isim."
+     ]
+    },
+    {
+     "en": "A white or light blue shirt would go with it perfectly.",
+     "tr": "Beyaz ya da açık mavi bir gömlek ona mükemmel uyar.",
+     "why": [
+      "would go with: tahmin ve öneri; go with = uymak (iki eşya)."
+     ]
+    },
+    {
+     "en": "Don't wear anything too bright; you want them to listen to you, not look at your clothes!",
+     "tr": "Fazla parlak bir şey giyme; seni dinlemelerini istiyorsun, kıyafetlerine bakmalarını değil!",
+     "why": [
+      "too bright: fazla; want someone to do = birinin … yapmasını istemek."
+     ]
+    },
+    {
+     "en": "It's worth paying a bit more for good fabric, but 4,000 lira should be enough.",
+     "tr": "İyi kumaş için biraz fazla ödemeye değer ama 4.000 lira yeterli olmalı.",
+     "why": [
+      "It's worth + -ing; should be enough = yeterli olmalı (beklenti)."
+     ]
+    },
+    {
+     "en": "Send me a photo when you've found one!",
+     "tr": "Bir tane bulunca bana fotoğrafını gönder!",
+     "why": [
+      "when + present perfect: will yok; one = a suit."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "am-register",
+     "title": "Hi Aslı! Thanks for your message. … Good luck! Speak soon,",
+     "meaning": "Samimi mesajın dili ve resmî yazıyla farkı",
+     "explanation": [
+      "Samimi mesajda kısaltmalar doğaldır: I'd, you'll, it's, don't. Hitap kısadır: Hi Aslı, · Hey! Önce arkadaşın mesajına tepki verilir: Thanks for your message! · Congratulations on the interview! · That's great news! · Sounds exciting! Kapanış da samimidir: Let me know what you choose! · Send me a photo! · Good luck! · Speak soon, · Take care, · Love, (yakın arkadaşlar ve aile için).",
+      "Dünkü resmî şikâyet e-postasıyla karşılaştırma: resmî yazıda Dear Customer Services Team, samimi yazıda Hi Aslı; resmî yazıda I am writing to complain about …, samimide Thanks for your message!; resmîde kısaltma yok, samimide var; resmîde I would be grateful if you could …, samimide I'd go for … · You could …; resmîde I look forward to hearing from you. Kind regards, samimide Let me know! Speak soon. Yanlış düzey seçmek tuhaf duyulur: bir arkadaşa Dear Sir or Madam yazılmaz.",
+      "Samimi mesajda da düzen önemlidir. Paragraflar kısa olur ve her biri tek bir konuya ayrılır. Emoji ya da ünlem işareti samimi mesajda kullanılabilir ama ölçülü olmalıdır. Congratulations on + isim kalıbında edat on'dur: Congratulations on your new job! (for değil)."
+     ],
+     "formula": [
+      "Hitap ve tepki: Hi …! · Thanks for your message! · Congratulations on …!",
+      "Kısaltmalar doğal: I'd · you'll · it's",
+      "Kapanış: Let me know! · Good luck! · Speak soon, · Take care,"
+     ],
+     "examples": [
+      {
+       "en": "Hi Aslı, thanks for your message, and congratulations on the interview! That's great news.",
+       "tr": "Merhaba Aslı, mesajın için teşekkürler ve görüşme için tebrikler! Harika bir haber.",
+       "why": [
+        "Samimi açılış: tepki + tebrik."
+       ]
+      },
+      {
+       "en": "Send me a photo when you've found one! Good luck on Thursday!",
+       "tr": "Bir tane bulunca bana fotoğrafını gönder! Perşembe için bol şans!",
+       "why": [
+        "when + present perfect: will yok."
+       ],
+       "chunks": [
+        {
+         "en": "when you've found one",
+         "tr": "bir tane bulduğunda"
+        },
+        {
+         "en": "Good luck on Thursday",
+         "tr": "perşembe için bol şans"
+        }
+       ]
+      },
+      {
+       "en": "Let me know what you choose!",
+       "tr": "Ne seçtiğini bana haber ver!",
+       "why": [
+        "let me know = haber ver."
+       ]
+      },
+      {
+       "en": "Congratulations on your new job!",
+       "tr": "Yeni işin için tebrikler!",
+       "why": [
+        "Congratulations on + isim."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Arkadaşa mesajda “Dear Sir or Madam” olur mu?",
+       "answer": "Hayır; Hi + isim kullanılır.",
+       "why": "Düzey seçimi."
+      },
+      {
+       "question": "Congratulations ___ the interview!",
+       "answer": "on",
+       "why": "Congratulations on."
+      },
+      {
+       "question": "Samimi kapanışa bir örnek?",
+       "answer": "Speak soon, / Take care, / Let me know!",
+       "why": "Samimi kapanış."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I am writing to inform you about suits.",
+       "right": "Thanks for your message! Here's what I'd do.",
+       "why": "Arkadaşa resmî dil tuhaf kaçar."
+      },
+      {
+       "wrong": "Congratulations for the interview!",
+       "right": "Congratulations on the interview!",
+       "why": "Edat on."
+      }
+     ]
+    },
+    {
+     "id": "am-structure",
+     "title": "Paragraph 1: reaction · 2: what to wear · 3: where to buy · 4: practical advice and closing",
+     "meaning": "Mesajı dört paragrafta düzenlemek",
+     "explanation": [
+      "Birinci paragraf tepki ve selamdır: Thanks for your message, and congratulations on the interview! İkinci paragraf ana tavsiyedir: ne giyilmeli? Burada bugünkü kıyafet dili kullanılır: If I were you, I'd go for a navy suit. Navy really suits you … A white or light blue shirt would go with it perfectly. Don't wear anything too bright.",
+      "Üçüncü paragraf nereden ve nasıl alınacağıdır; burada dünün alışveriş dili geri gelir: I'd buy it in a shop rather than online, because you need to try it on. · Suits often don't fit well, so ask the assistant if they can shorten the trousers. · It's worth paying a bit more for good fabric. rather than (… yerine, … -dansa) iki seçeneği karşılaştırır.",
+      "Dördüncü paragraf pratik tavsiye ve kapanıştır: You'd better keep the receipt and check the return policy, just in case. · Send me a photo when you've found one! · Good luck on Thursday! · Speak soon, Bu düzen okuyucunun mesajı kolayca takip etmesini sağlar ve kontrol listesindeki maddelerin hepsini kapsar."
+     ],
+     "formula": [
+      "1 · tepki ve tebrik",
+      "2 · ne giymeli: suit · go with · too / enough · I'd go for …",
+      "3 · nereden: in a shop rather than online, because … · 4 · pratik tavsiye + kapanış"
+     ],
+     "examples": [
+      {
+       "en": "If I were you, I'd go for a navy suit. Navy really suits you, and it looks smart but not too serious.",
+       "tr": "Ben senin yerinde olsam lacivert bir takım seçerdim. Lacivert sana çok yakışıyor ve şık ama fazla ciddi değil.",
+       "why": [
+        "Ana tavsiye + gerekçe; suit (yakışmak) ve a suit (takım elbise) aynı kelime."
+       ]
+      },
+      {
+       "en": "I'd buy it in a shop rather than online, because you need to try it on.",
+       "tr": "İnternetten değil mağazadan alırdım, çünkü denemen gerekiyor.",
+       "why": [
+        "rather than: karşılaştırma; try on = denemek."
+       ],
+       "chunks": [
+        {
+         "en": "rather than online",
+         "tr": "internetten almaktansa"
+        },
+        {
+         "en": "try it on",
+         "tr": "onu denemek"
+        }
+       ]
+      },
+      {
+       "en": "Suits often don't fit well, so ask the assistant if they can shorten the trousers.",
+       "tr": "Takımlar çoğu zaman tam oturmaz, bu yüzden satış görevlisine pantolonu kısaltıp kısaltamayacaklarını sor.",
+       "why": [
+        "fit; ask if + cümle: dolaylı soru."
+       ]
+      },
+      {
+       "en": "You'd better keep the receipt and check the return policy, just in case.",
+       "tr": "Fişi saklasan ve iade koşullarına baksan iyi olur, ne olur ne olmaz.",
+       "why": [
+        "You'd better; just in case = ne olur ne olmaz."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Kıyafet tavsiyesi hangi paragrafta?",
+       "answer": "İkinci paragraf.",
+       "why": "Düzen."
+      },
+      {
+       "question": "“İnternetten değil mağazadan alırdım.”",
+       "answer": "I'd buy it in a shop rather than online.",
+       "why": "rather than."
+      },
+      {
+       "question": "suit kelimesinin iki anlamı?",
+       "answer": "a suit = takım elbise; to suit = yakışmak.",
+       "why": "Aynı kelime, farklı tür."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Buy it in a shop. Try it on.",
+       "right": "I'd buy it in a shop, as you need to try it on.",
+       "why": "Tavsiyeyi gerekçeyle bağla."
+      },
+      {
+       "wrong": "Ask to the assistant if …",
+       "right": "Ask the assistant if …",
+       "why": "ask + kişi (to yok)."
+      }
+     ]
+    },
+    {
+     "id": "am-variety",
+     "title": "I'd go for … · You could … · Why not …? · Make sure you … · because / so / as",
+     "meaning": "Tavsiye kalıplarını çeşitlendirmek ve gerekçe eklemek",
+     "explanation": [
+      "Bir mesajda her cümle You should ile başlarsa metin tekdüze ve emir gibi olur. Çeşitlendirin: I'd go for … (seçim) · You could … (seçenek) · Why not …? / Why don't you …? (öneri) · If I were you, I'd … (yerinde olsam) · Make sure you … (… yapmayı unutma, emin ol) · Don't forget to … · It's worth + -ing · You'd better + yalın fiil (uyarı).",
+      "Her tavsiyeye bir gerekçe ekleyin: because + cümle (I'd buy it in a shop because you need to try it on.), so + sonuç (It's pure wool, so it'll be warm.), as + sebep (I'd buy it in a shop, as sizes are different with every brand.). as burada because ile aynı anlamdadır ve yazıda sık kullanılır.",
+      "Tavsiyeyi kişiselleştirmek mesajı samimi yapar: Navy really suits you. · You looked great in that blue dress at the wedding. · You know you hate tight clothes! Arkadaşın durumuna gönderme yapmak (bütçe, hava, mekân) tavsiyenin işe yaramasını sağlar: 4,000 lira should be enough. · It'll be hot in Mudanya in July, so linen is a good idea."
+     ],
+     "formula": [
+      "Çeşit: I'd go for … · You could … · Why not …? · Make sure you …",
+      "Gerekçe: because + cümle · so + sonuç · as + sebep",
+      "Kişiselleştir: bütçe, hava, mekân, arkadaşın zevki"
+     ],
+     "examples": [
+      {
+       "en": "It'll be hot in Mudanya in July, so a linen suit is a good idea.",
+       "tr": "Temmuzda Mudanya'da hava sıcak olacak, bu yüzden keten bir takım iyi bir fikir.",
+       "why": [
+        "so + sonuç; linen = keten."
+       ]
+      },
+      {
+       "en": "Make sure you try the boots on with thick socks.",
+       "tr": "Botları kalın çoraplarla denediğinden emin ol.",
+       "why": [
+        "Make sure you + fiil."
+       ]
+      },
+      {
+       "en": "Why not rent a dress instead of buying one? You'll only wear it once.",
+       "tr": "Bir elbise almak yerine neden kiralamıyorsun? Sadece bir kez giyeceksin.",
+       "why": [
+        "Why not + yalın fiil; instead of + -ing."
+       ],
+       "chunks": [
+        {
+         "en": "Why not rent",
+         "tr": "neden kiralamıyorsun"
+        },
+        {
+         "en": "instead of buying one",
+         "tr": "bir tane almak yerine"
+        }
+       ]
+      },
+      {
+       "en": "I'd buy shoes in a shop, as sizes are different with every brand.",
+       "tr": "Ayakkabıyı mağazadan alırdım, çünkü bedenler her markada farklı.",
+       "why": [
+        "as = because."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“… yapmayı unutma / … yaptığından emin ol”",
+       "answer": "Make sure you …",
+       "why": "Make sure."
+      },
+      {
+       "question": "Why not ___ (try) it in black?",
+       "answer": "try",
+       "why": "Why not + yalın fiil."
+      },
+      {
+       "question": "as hangi anlamda: I'd buy it in a shop, as you need to try it on.",
+       "answer": "because (çünkü)",
+       "why": "Sebep bağlacı."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "You should buy a suit. You should buy it in a shop. You should keep the receipt.",
+       "right": "I'd go for a suit. You could buy it in a shop. Make sure you keep the receipt.",
+       "why": "Kalıpları çeşitlendir."
+      },
+      {
+       "wrong": "Why not to rent a dress?",
+       "right": "Why not rent a dress?",
+       "why": "Why not + yalın fiil."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "close",
+   "title": "Kapanış: iki günün becerilerini bir arada görmek",
+   "intro": [
+    "İki günün kapanışında yeni bir konu yok; on bir kazanımın her biri bir “yapabilirim” cümlesiyle listelenir ve büyük son kontrol her konudan bir soru sorar. Bu iki gün boyunca dil yapıları konular arasında tekrar tekrar karşımıza çıktı: first conditional hem pazarlıkta (If I buy two, will you …?) hem tüketim tartışmasında (If we keep buying …, we'll …); present perfect hem sipariş mesajlarında (has been placed) hem değişimi anlatırken (has changed the way we shop); kibarlık kalıpları hem kasada hem tartışmada.",
+    "Bu bölüm iki günün kalıplarını üç başlıkta toplar: konuşmada kibarlık (teklif, istek, ret, katılmama), değişim ve zaman (used to, present perfect, present continuous, past passive) ve fikir bağlama (bağlaçlar ve konu bağlama kalıpları). Ev ödevleri bu üç alanı birer küçük görevle sürdürür: şehirde fark edilen bir eğilim, bir reklam hakkında bağlantılı fikirler ve 10 Kasım için Atatürk hakkında üç cümle."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I can bargain, make an offer and agree on a price.",
+     "tr": "Pazarlık yapabilir, teklif verip fiyatta anlaşabilirim.",
+     "why": [
+      "make an offer = teklif vermek; agree on a price = fiyatta anlaşmak."
+     ]
+    },
+    {
+     "en": "I can link my opinions to other topics: adverts, technology, culture.",
+     "tr": "Fikirlerimi reklam, teknoloji ve kültür gibi başka konulara bağlayabilirim.",
+     "why": [
+      "link to = … ile bağlamak; ikinci günün ana hedefi."
+     ]
+    },
+    {
+     "en": "I can agree and disagree politely: I see what you mean, but …",
+     "tr": "Kibarca katılabilir ve katılmayabilirim: Ne demek istediğini anlıyorum ama …",
+     "why": [
+      "politely = kibarca; örnek kalıp kibar katılmamadır."
+     ]
+    },
+    {
+     "en": "I can accept and refuse offers politely.",
+     "tr": "Teklifleri kibarca kabul ve reddedebilirim.",
+     "why": [
+      "accept = kabul etmek; refuse = reddetmek."
+     ]
+    },
+    {
+     "en": "Write a short paragraph: a trend you have noticed in your town (present continuous + used to).",
+     "tr": "Kısa bir paragraf yazın: şehrinizde fark ettiğiniz bir eğilim (present continuous + used to).",
+     "why": [
+      "a trend you have noticed: ilgi cümleciği (that düşmüş); present perfect: şu ana kadarki gözlem."
+     ]
+    },
+    {
+     "en": "Prepare three sentences about Atatürk for 10 November: one passive, one past perfect, one about how we remember him.",
+     "tr": "10 Kasım için Atatürk hakkında üç cümle hazırlayın: biri edilgen, biri past perfect, biri onu nasıl andığımızla ilgili.",
+     "why": [
+      "how we remember him: dolaylı soru, özne + fiil sırası."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "cl-politeness",
+     "title": "Could you …? · Would you like …? · That's very kind of you, but … · I see what you mean, but …",
+     "meaning": "İki günün kibarlık kalıplarını bir arada görmek",
+     "explanation": [
+      "İki günde kibarlık dört ayrı durumda karşımıza çıktı. İstek: Could you do it for 800? · Could I have the receipt? · I would be grateful if you could … Teklif: Would you like …? · Shall I …? · Do you want me to …? Ret: That's very kind of you, but … · Thanks for the offer, but I'll manage. · No, thank you. I'm just looking. Katılmama: I see what you mean, but … · I'm afraid I don't agree. · That's true up to a point.",
+      "Hepsinin ortak araçları aynıdır: could ve would (can ve will yerine), please ve thanks, I'm afraid ve I'm not sure gibi yumuşatıcılar, a bit gibi küçültücüler, emir yerine soru biçimi ve her retten sonra bir sebep. Bu araçlar İngilizcede doğrudan konuşmanın Türkçeye göre daha sert duyulmasını dengeler.",
+      "Düzey seçimi de kibarlığın parçasıdır: kasada ve arkadaşlar arasında gündelik ama kibar (Could I …? · Thanks, but …), müşteri hizmetlerinde kibar ve kararlı (I'm afraid there's a problem … I'd like a replacement.), resmî yazıda kısaltmasız ve uzun kalıplar (I would be grateful if you could …). Aynı isteğin üç düzeyi farklı durumlara uyar."
+     ],
+     "formula": [
+      "İstek: Could you …? · I would be grateful if you could …",
+      "Teklif ve cevap: Would you like …? → That would be great. / That's very kind of you, but …",
+      "Katılmama: I see what you mean, but … · I'm afraid I don't agree."
+     ],
+     "examples": [
+      {
+       "en": "Would you take 900 if I pay in cash?",
+       "tr": "Nakit ödersem 900 kabul eder misiniz?",
+       "why": [
+        "Pazarlıkta kibar teklif."
+       ]
+      },
+      {
+       "en": "That's very kind of you, but I'm fine, thanks.",
+       "tr": "Çok naziksiniz ama iyiyim, teşekkürler.",
+       "why": [
+        "Teşekkür + ret."
+       ]
+      },
+      {
+       "en": "I see what you mean, but I'm not sure it's always cheaper.",
+       "tr": "Ne demek istediğini anlıyorum ama her zaman daha ucuz olduğundan emin değilim.",
+       "why": [
+        "Kibar katılmama."
+       ]
+      },
+      {
+       "en": "I would be grateful if you could send me a replacement.",
+       "tr": "Yenisini gönderirseniz minnettar olurum.",
+       "why": [
+        "Resmî istek."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Kibarlığın iki modal fiili?",
+       "answer": "could ve would",
+       "why": "can / will yerine."
+      },
+      {
+       "question": "Retten sonra ne eklenir?",
+       "answer": "Bir sebep (ve gerekirse bir alternatif).",
+       "why": "Teşekkür + ret + sebep."
+      },
+      {
+       "question": "Arkadaşa resmî kalıp uygun mu?",
+       "answer": "Hayır; düzeyi duruma göre seç.",
+       "why": "Register."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "No.",
+       "right": "No, thanks. I've just eaten.",
+       "why": "Tek kelimelik ret sert."
+      },
+      {
+       "wrong": "You're wrong.",
+       "right": "I see what you mean, but …",
+       "why": "Doğrudan katılmama kaba."
+      }
+     ]
+    },
+    {
+     "id": "cl-change-time",
+     "title": "used to · has changed · are buying · was born · has been placed",
+     "meaning": "Değişimi ve zamanı anlatan yapıları ayırmak",
+     "explanation": [
+      "İki günde zamanı ve değişimi anlatan beş yapı kullandık. used to: eskiden olan ama artık olmayan (Turkish used to be written in Arabic letters. · My aunt used to knit jumpers.). Present perfect: bugüne uzanan değişim ve sonuç (Technology has changed the way we shop. · It has stopped working.). Present continuous: şu dönemde süren eğilim (More and more people are buying second-hand.).",
+      "Past simple ve past passive: belirli geçmiş olaylar (He was born in 1881. · The Republic was proclaimed in 1923. · The parcel was delivered on 27 October.). Present perfect passive: sonucu şimdi geçerli olan iş (Your order has been placed.). Past perfect: geçmişte daha önce olan (The Greek army had already landed in İzmir. · I had paid extra for next-day delivery.).",
+      "Doğru yapıyı seçmek için zaman çizgisini düşünün: geçmişte bitmiş belirli bir an mı (past simple), geçmişten bugüne bağlantı mı (present perfect), şu an süren bir süreç mi (present continuous), eskiden olup artık olmayan bir alışkanlık mı (used to), geçmişteki iki olaydan önceki mi (past perfect)? İşi yapan önemsizse aynı zamanın edilgeni kullanılır."
+     ],
+     "formula": [
+      "Eskiden: used to · Bugüne: present perfect · Şimdi süren: present continuous",
+      "Belirli geçmiş: past simple / past passive",
+      "Daha önce: past perfect · Yapan önemsiz: passive"
+     ],
+     "examples": [
+      {
+       "en": "Hoodies used to be sportswear. Now people wear them to the office.",
+       "tr": "Kapüşonlular eskiden spor giyimiydi. Şimdi ofise giyiliyor.",
+       "why": [
+        "used to ↔ now."
+       ]
+      },
+      {
+       "en": "Technology has changed the way we shop.",
+       "tr": "Teknoloji alışveriş biçimimizi değiştirdi.",
+       "why": [
+        "Bugüne uzanan değişim."
+       ]
+      },
+      {
+       "en": "These days, more and more people are renting clothes.",
+       "tr": "Bugünlerde giderek daha çok insan kıyafet kiralıyor.",
+       "why": [
+        "Şu dönemde süren eğilim."
+       ]
+      },
+      {
+       "en": "When he landed in Samsun, the Greek army had already landed in İzmir.",
+       "tr": "Samsun'a çıktığında Yunan ordusu çoktan İzmir'e çıkmıştı.",
+       "why": [
+        "Past perfect: daha önce olan."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Eskiden kravat takardı: He ___ (wear) a tie.",
+       "answer": "used to wear",
+       "why": "used to."
+      },
+      {
+       "question": "“Siparişiniz alındı.”",
+       "answer": "Your order has been placed.",
+       "why": "present perfect passive."
+      },
+      {
+       "question": "“Giderek daha çok insan bisiklete biniyor.”",
+       "answer": "More and more people are cycling.",
+       "why": "present continuous."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "He has been born in 1881.",
+       "right": "He was born in 1881.",
+       "why": "Belirli geçmiş: past passive."
+      },
+      {
+       "wrong": "Technology changes the way we shop since 2000.",
+       "right": "Technology has changed the way we shop since 2000.",
+       "why": "since → present perfect."
+      }
+     ]
+    },
+    {
+     "id": "cl-linking",
+     "title": "What's more · As a result · On the other hand · When it comes to … · Speaking of …",
+     "meaning": "Fikirleri bağlayan kalıpları bir arada kullanmak",
+     "explanation": [
+      "İkinci günün ana hedefi fikirleri diğer konulara bağlamaktı. Bağlaçlar fikirleri bir metnin içinde bağlar: ek bilgi (What's more, … · not only … but also …), sonuç (As a result, … · That's why …), karşıtlık (On the other hand, … · However, …). Konu bağlama kalıpları ise bir konudan ötekine geçer: When it comes to … · Speaking of … · This is connected to … · In the same way, … · This also affects …",
+      "İyi bağlanmış bir fikir zinciri şöyle görünür: In my opinion, adverts make us buy too much. What's more, they are connected to fashion: every campaign creates a new trend. As a result, clothes go out of fashion very quickly. On the other hand, adverts help small local businesses. When it comes to children, though, I think they should be banned. Bu beş cümle beş farklı bağlama kalıbı kullanır.",
+      "Bağlaçları aşırı kullanmamak da önemlidir; her cümlede bir bağlaç metni ağırlaştırır. Bir paragrafta iki üç bağlaç ve bir konu bağlama kalıbı genellikle yeterlidir. Ev ödevindeki reklam görevi tam olarak bunu ister: bir reklam hakkında What's more, On the other hand ve As a result ile üç bağlantılı fikir."
+     ],
+     "formula": [
+      "Ek: What's more · not only … but also …",
+      "Sonuç: As a result · That's why · Karşıtlık: On the other hand · However",
+      "Konu bağlama: When it comes to … · Speaking of … · This is connected to …"
+     ],
+     "examples": [
+      {
+       "en": "Adverts are connected to fashion: every campaign creates a new trend.",
+       "tr": "Reklamlar modayla bağlantılı: her kampanya yeni bir eğilim yaratıyor.",
+       "why": [
+        "be connected to."
+       ]
+      },
+      {
+       "en": "As a result, clothes go out of fashion very quickly.",
+       "tr": "Sonuç olarak kıyafetlerin modası çok çabuk geçiyor.",
+       "why": [
+        "As a result + go out of fashion."
+       ]
+      },
+      {
+       "en": "When it comes to children, though, I think these adverts should be banned.",
+       "tr": "Çocuklar söz konusu olduğunda ise bence bu reklamlar yasaklanmalı.",
+       "why": [
+        "When it comes to + though."
+       ]
+      },
+      {
+       "en": "Speaking of trends, have you seen the new vintage shop near the bazaar?",
+       "tr": "Eğilimler demişken, çarşının yanındaki yeni vintage dükkânı gördün mü?",
+       "why": [
+        "Speaking of: sohbette konu geçişi."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Ek bilgi bağlacı?",
+       "answer": "What's more / In addition",
+       "why": "Ek."
+      },
+      {
+       "question": "Konu geçişi: “… demişken”",
+       "answer": "Speaking of …",
+       "why": "Speaking of."
+      },
+      {
+       "question": "Bir paragrafta kaç bağlaç yeterli?",
+       "answer": "Genellikle iki üç bağlaç ve bir konu bağlama kalıbı.",
+       "why": "Ölçülü kullanım."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "On the other side, …",
+       "right": "On the other hand, …",
+       "why": "Kalıp hand."
+      },
+      {
+       "wrong": "When the subject is children, …",
+       "right": "When it comes to children, …",
+       "why": "Kalıp When it comes to."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "offer-forms",
+   "term": "Would you like …? · Shall I …? · Do you want me to …?",
+   "meaning": "ister misin? · … yapayım mı?",
+   "partOfSpeech": "teklif kalıbı",
+   "sourceTerms": [
+    "Would you like …? · Shall I …? · Do you want me to …?"
+   ],
+   "explanation": [
+    "Üç temel teklif kalıbı. Would you like + isim / to + fiil: ikram ve davet. Shall I + yalın fiil: yardım teklifi. Do you want me to + fiil: gündelik yardım teklifi; daha kibarı Would you like me to …?"
+   ],
+   "collocations": [
+    {
+     "en": "Can I get you …?",
+     "tr": "… getireyim mi?"
+    },
+    {
+     "en": "Let me help you.",
+     "tr": "yardım edeyim"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Shall I book a table for four?",
+     "tr": "Dört kişilik masa ayırtayım mı?"
+    },
+    {
+     "en": "Would you like some more tea?",
+     "tr": "Biraz daha çay ister misin?"
+    },
+    {
+     "en": "Do you want me to pick you up?",
+     "tr": "Seni alayım mı?"
+    }
+   ],
+   "commonMistake": "Do I help you? yanlış; teklif için Shall I help you? denir."
+  },
+  {
+   "id": "would-be-great",
+   "term": "That would be great, thanks.",
+   "meaning": "harika olur, teşekkürler",
+   "partOfSpeech": "kabul",
+   "sourceTerms": [
+    "That would be great, thanks."
+   ],
+   "explanation": [
+    "Teklife kibar kabul. would teklifteki would ile uyumludur. Benzerleri: That would be lovely. · Yes, please."
+   ],
+   "collocations": [
+    {
+     "en": "That would be lovely.",
+     "tr": "çok hoş olur"
+    },
+    {
+     "en": "Yes, please.",
+     "tr": "evet, lütfen"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Do you want me to drop you at the station? — That would be great, thanks.",
+     "tr": "Seni istasyona bırakayım mı? — Harika olur, teşekkürler."
+    },
+    {
+     "en": "Shall I bring some dessert? — That would be lovely!",
+     "tr": "Biraz tatlı getireyim mi? — Çok hoş olur!"
+    },
+    {
+     "en": "Would you like a lift? — Yes, please.",
+     "tr": "Seni bırakayım mı? — Evet, lütfen."
+    }
+   ],
+   "commonMistake": "Sadece Yes. demek soğuk duyulur; teşekkür ve would ekleyin."
+  },
+  {
+   "id": "kind-of-you",
+   "term": "That's very kind of you.",
+   "meaning": "çok naziksiniz",
+   "partOfSpeech": "teşekkür",
+   "sourceTerms": [
+    "That's very kind of you."
+   ],
+   "explanation": [
+    "Teklif ya da yardım karşısında teşekkür; hem kabulde hem retten önce kullanılır: That's very kind of you, but …"
+   ],
+   "collocations": [
+    {
+     "en": "kind of you",
+     "tr": "nazik davrandınız"
+    },
+    {
+     "en": "How kind!",
+     "tr": "ne kadar nazik!"
+    }
+   ],
+   "examples": [
+    {
+     "en": "That's very kind of you, but I can walk.",
+     "tr": "Çok naziksiniz ama yürüyebilirim."
+    },
+    {
+     "en": "Thank you for helping me. That's very kind of you.",
+     "tr": "Yardım ettiğiniz için teşekkürler. Çok naziksiniz."
+    },
+    {
+     "en": "How kind! Thank you.",
+     "tr": "Ne kadar nazik! Teşekkürler."
+    }
+   ],
+   "commonMistake": "It's very kind from you değil kind of you denir."
+  },
+  {
+   "id": "ill-manage",
+   "term": "Thanks for the offer, but I'll manage.",
+   "meaning": "teklifin için sağ ol ama hallederim",
+   "partOfSpeech": "ret",
+   "sourceTerms": [
+    "Thanks for the offer, but I'll manage."
+   ],
+   "explanation": [
+    "Yardım teklifine kibar ret. manage = idare etmek, halletmek. Benzerleri: Thanks, but I'm fine. · Not this time, thanks."
+   ],
+   "collocations": [
+    {
+     "en": "I'll manage on my own.",
+     "tr": "kendim hallederim"
+    },
+    {
+     "en": "Not this time, thanks.",
+     "tr": "bu sefer olmaz, teşekkürler"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Thanks for the offer, but I'll manage on my own.",
+     "tr": "Teklifin için sağ ol ama kendim hallederim."
+    },
+    {
+     "en": "Shall I carry that? — Thanks, but I'll manage. It's not heavy.",
+     "tr": "Taşıyayım mı? — Sağ ol, hallederim. Ağır değil."
+    },
+    {
+     "en": "Not this time, thanks. Maybe next week?",
+     "tr": "Bu sefer olmaz, teşekkürler. Belki gelecek hafta?"
+    }
+   ],
+   "commonMistake": "Retten sonra kısa bir sebep eklemek kibarlığı artırır."
+  },
+  {
+   "id": "no-trouble",
+   "term": "if it's no trouble",
+   "meaning": "zahmet olmazsa",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "if it's no trouble"
+   ],
+   "explanation": [
+    "Bir yardımı kabul ederken ya da isterken karşıdakini rahatlatır. Cevap: No trouble at all. (Hiç zahmet değil.)"
+   ],
+   "collocations": [
+    {
+     "en": "No trouble at all.",
+     "tr": "hiç zahmet değil"
+    },
+    {
+     "en": "if you don't mind",
+     "tr": "sakıncası yoksa"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Could you water my plants, if it's no trouble?",
+     "tr": "Zahmet olmazsa çiçeklerimi sular mısın?"
+    },
+    {
+     "en": "That would be great, if it's no trouble.",
+     "tr": "Zahmet olmazsa çok iyi olur."
+    },
+    {
+     "en": "No trouble at all. I'm going that way anyway.",
+     "tr": "Hiç zahmet değil. Zaten o tarafa gidiyorum."
+    }
+   ],
+   "commonMistake": "if it isn't a trouble yanlış; if it's no trouble denir."
+  },
+  {
+   "id": "just-looking",
+   "term": "No, thank you. I'm just looking.",
+   "meaning": "hayır, teşekkürler, sadece bakıyorum",
+   "partOfSpeech": "mağaza kalıbı",
+   "sourceTerms": [
+    "No, thank you. I'm just looking."
+   ],
+   "explanation": [
+    "Satıcının Can I help you? sorusuna kibar ret. Şu anda süren eylem olduğu için present continuous: I'm just looking. Diğer mağaza retleri: I'll leave it, thanks. · I'll think about it."
+   ],
+   "collocations": [
+    {
+     "en": "I'll leave it, thanks.",
+     "tr": "kalsın, teşekkürler"
+    },
+    {
+     "en": "I'll think about it.",
+     "tr": "düşüneceğim"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Can I help you? — No, thank you. I'm just looking.",
+     "tr": "Yardımcı olabilir miyim? — Hayır, teşekkürler, sadece bakıyorum."
+    },
+    {
+     "en": "Would you like the warranty? — I'll leave it, thanks.",
+     "tr": "Garanti ister misiniz? — Kalsın, teşekkürler."
+    },
+    {
+     "en": "It's nice. I'll think about it.",
+     "tr": "Güzel. Düşüneceğim."
+    }
+   ],
+   "commonMistake": "I only look. yanlış; I'm just looking. denir."
+  },
+  {
+   "id": "couldnt-eat",
+   "term": "I couldn't eat another thing.",
+   "meaning": "bir lokma daha yiyemem",
+   "partOfSpeech": "yemek kalıbı",
+   "sourceTerms": [
+    "I couldn't eat another thing."
+   ],
+   "explanation": [
+    "Doyduğunu kibarca söyleyen kalıp; ardından yemeği övmek gelenektir. Ellerine sağlık için: That was delicious. Thank you for cooking."
+   ],
+   "collocations": [
+    {
+     "en": "I'm full, thanks.",
+     "tr": "doydum, teşekkürler"
+    },
+    {
+     "en": "Thank you for cooking.",
+     "tr": "yemek için teşekkürler"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It was delicious, but I couldn't eat another thing.",
+     "tr": "Çok lezzetliydi ama bir lokma daha yiyemem."
+    },
+    {
+     "en": "No more for me, thanks. I'm full.",
+     "tr": "Bana daha yok, teşekkürler. Doydum."
+    },
+    {
+     "en": "That was delicious. Thank you for cooking.",
+     "tr": "Çok lezzetliydi. Yemek için teşekkürler.",
+     "note": "ellerine sağlık"
+    }
+   ],
+   "commonMistake": "Health to your hands. denmez; That was delicious. Thank you for cooking. denir."
+  },
+  {
+   "id": "suits-you",
+   "term": "It suits you.",
+   "meaning": "sana yakıştı",
+   "partOfSpeech": "fiil",
+   "sourceTerms": [
+    "It suits you."
+   ],
+   "explanation": [
+    "suit bir renk ya da modelin kişiye yakışmasıdır. Benzeri: It looks great on you. suit bedenle ilgili değildir; beden için fit kullanılır. a suit isim olarak takım elbisedir."
+   ],
+   "collocations": [
+    {
+     "en": "look great on you",
+     "tr": "sende harika durmak"
+    },
+    {
+     "en": "doesn't suit me",
+     "tr": "bana yakışmıyor"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Green really suits you.",
+     "tr": "Yeşil sana çok yakışıyor."
+    },
+    {
+     "en": "Short hair doesn't suit me.",
+     "tr": "Kısa saç bana yakışmıyor."
+    },
+    {
+     "en": "That jacket looks great on you.",
+     "tr": "O ceket sende harika duruyor."
+    }
+   ],
+   "commonMistake": "This is very suitable for you. yanlış; It really suits you. denir."
+  },
+  {
+   "id": "fits",
+   "term": "It fits. · It doesn't fit.",
+   "meaning": "oldu, oturdu · olmadı",
+   "partOfSpeech": "fiil",
+   "sourceTerms": [
+    "It fits. · It doesn't fit."
+   ],
+   "explanation": [
+    "fit kıyafetin beden ve ölçü olarak olmasıdır. Sorunun yerini söylemek için: tight / loose on the shoulders, around the waist."
+   ],
+   "collocations": [
+    {
+     "en": "fit perfectly",
+     "tr": "tam oturmak"
+    },
+    {
+     "en": "tight on the shoulders",
+     "tr": "omuzlardan dar"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The shirt fits, but the trousers don't.",
+     "tr": "Gömlek oldu ama pantolon olmadı."
+    },
+    {
+     "en": "Does it fit? — Perfectly.",
+     "tr": "Oldu mu? — Tam."
+    },
+    {
+     "en": "These shoes don't fit me any more.",
+     "tr": "Bu ayakkabılar artık bana olmuyor."
+    }
+   ],
+   "commonMistake": "Did the trousers happen? yanlış; Do the trousers fit? denir."
+  },
+  {
+   "id": "go-with",
+   "term": "go with · match",
+   "meaning": "uymak (iki şey birbirine)",
+   "partOfSpeech": "fiil",
+   "sourceTerms": [
+    "go with · match"
+   ],
+   "explanation": [
+    "İki eşyanın birbirine uyması. go with genel uyum (renk, tarz), match genellikle renk ya da desen eşleşmesi. Kişiyle değil eşyayla kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "go with everything",
+     "tr": "her şeye uymak"
+    },
+    {
+     "en": "match the shoes",
+     "tr": "ayakkabılara uymak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Does this tie go with my shirt?",
+     "tr": "Bu kravat gömleğime uyuyor mu?"
+    },
+    {
+     "en": "The bag doesn't match the shoes.",
+     "tr": "Çanta ayakkabılara uymuyor."
+    },
+    {
+     "en": "Those boots go with everything.",
+     "tr": "O botlar her şeye uyuyor."
+    }
+   ],
+   "commonMistake": "The scarf suits your coat. yanlış; The scarf goes with your coat. denir."
+  },
+  {
+   "id": "too-enough",
+   "term": "too tight · not warm enough",
+   "meaning": "fazla dar · yeterince sıcak değil",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "too tight · not warm enough"
+   ],
+   "explanation": [
+    "too + sıfat fazlalık ve sorun; not + sıfat + enough yetersizlik. enough sıfattan sonra, isimden önce gelir."
+   ],
+   "collocations": [
+    {
+     "en": "too long",
+     "tr": "fazla uzun"
+    },
+    {
+     "en": "not big enough",
+     "tr": "yeterince büyük değil"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The boots are nice but not warm enough for snow.",
+     "tr": "Botlar güzel ama kar için yeterince sıcak değil."
+    },
+    {
+     "en": "The sleeves are too long.",
+     "tr": "Kollar fazla uzun."
+    },
+    {
+     "en": "There isn't enough room in the shoulders.",
+     "tr": "Omuzlarda yeterince yer yok.",
+     "note": "enough + isim"
+    }
+   ],
+   "commonMistake": "enough warm yanlış; warm enough denir."
+  },
+  {
+   "id": "size-up-down",
+   "term": "Try a size up / down.",
+   "meaning": "bir beden büyük / küçük dene",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "Try a size up / down."
+   ],
+   "explanation": [
+    "Bedeni değiştirme önerisi. a size up bir beden büyük, a size down bir beden küçük. try on (giyip denemek) ile birlikte kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "try it on",
+     "tr": "onu denemek"
+    },
+    {
+     "en": "a bigger size",
+     "tr": "daha büyük beden"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's too loose. Try a size down.",
+     "tr": "Fazla bol. Bir beden küçüğünü dene."
+    },
+    {
+     "en": "Why don't you try a size up?",
+     "tr": "Neden bir beden büyüğünü denemiyorsun?"
+    },
+    {
+     "en": "Can I try this on in a bigger size?",
+     "tr": "Bunu daha büyük bedende deneyebilir miyim?"
+    }
+   ],
+   "commonMistake": "one size bigger body yanlış; a size up / a bigger size denir."
+  },
+  {
+   "id": "go-for",
+   "term": "I'd go for …",
+   "meaning": "ben olsam … seçerdim",
+   "partOfSpeech": "öneri",
+   "sourceTerms": [
+    "I'd go for …"
+   ],
+   "explanation": [
+    "Seçim önerisi: go for = seçmek, tercih etmek. I'd = I would. Gerekçe eklemek öneriyi güçlendirir."
+   ],
+   "collocations": [
+    {
+     "en": "I'd choose …",
+     "tr": "… seçerdim"
+    },
+    {
+     "en": "If I were you, I'd …",
+     "tr": "yerinde olsam …"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'd go for the cotton one. It's cooler in summer.",
+     "tr": "Ben olsam pamuklu olanı seçerdim. Yazın daha serin."
+    },
+    {
+     "en": "Which one would you go for?",
+     "tr": "Sen hangisini seçerdin?"
+    },
+    {
+     "en": "If I were you, I'd go for the navy suit.",
+     "tr": "Yerinde olsam lacivert takımı seçerdim."
+    }
+   ],
+   "commonMistake": "I go to the black one. yanlış; I'd go for the black one. denir."
+  },
+  {
+   "id": "worth-paying",
+   "term": "It's worth paying more for …",
+   "meaning": "… için daha fazla ödemeye değer",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "It's worth paying more for …"
+   ],
+   "explanation": [
+    "It's worth + -ing: … yapmaya değer. Kaliteli ürün için daha fazla ödemeyi öneren pratik tavsiye. Olumsuzu: It's not worth it."
+   ],
+   "collocations": [
+    {
+     "en": "It's not worth it.",
+     "tr": "değmez"
+    },
+    {
+     "en": "worth the money",
+     "tr": "parasına değer"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's worth paying more for shoes you wear every day.",
+     "tr": "Her gün giydiğin ayakkabılar için daha fazla ödemeye değer."
+    },
+    {
+     "en": "The museum is worth visiting.",
+     "tr": "Müze gezmeye değer."
+    },
+    {
+     "en": "It's cheap, but it's not worth it.",
+     "tr": "Ucuz ama değmez."
+    }
+   ],
+   "commonMistake": "It's worth to pay yanlış; It's worth paying denir."
+  },
+  {
+   "id": "just-say",
+   "term": "Can I just say something?",
+   "meaning": "bir şey söyleyebilir miyim?",
+   "partOfSpeech": "tartışma kalıbı",
+   "sourceTerms": [
+    "Can I just say something?"
+   ],
+   "explanation": [
+    "Tartışmada kibarca söz isteme. just isteği küçültür ve kibarlaştırır. Benzeri: Could I add something here?"
+   ],
+   "collocations": [
+    {
+     "en": "Could I add something here?",
+     "tr": "buraya bir şey ekleyebilir miyim?"
+    },
+    {
+     "en": "May I say something?",
+     "tr": "bir şey söyleyebilir miyim? (resmî)"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Can I just say something? We forgot the price.",
+     "tr": "Bir şey söyleyebilir miyim? Fiyatı unuttuk."
+    },
+    {
+     "en": "Could I add something here? Prices are only part of the problem.",
+     "tr": "Buraya bir şey ekleyebilir miyim? Fiyatlar sorunun sadece bir parçası."
+    },
+    {
+     "en": "Can I just say something before we decide?",
+     "tr": "Karar vermeden önce bir şey söyleyebilir miyim?"
+    }
+   ],
+   "commonMistake": "Can I say a thing? doğal değil; Can I just say something? denir."
+  },
+  {
+   "id": "sorry-interrupt",
+   "term": "Sorry to interrupt, but …",
+   "meaning": "sözünü kestiğim için kusura bakma ama …",
+   "partOfSpeech": "tartışma kalıbı",
+   "sourceTerms": [
+    "Sorry to interrupt, but …"
+   ],
+   "explanation": [
+    "Biri konuşurken araya girmenin kibar yolu. interrupt = sözünü kesmek. Araya giren kişi sonra sözü geri verebilir: Sorry, go ahead."
+   ],
+   "collocations": [
+    {
+     "en": "Sorry, go ahead.",
+     "tr": "pardon, devam et"
+    },
+    {
+     "en": "interrupt someone",
+     "tr": "birinin sözünü kesmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Sorry to interrupt, but we have five minutes left.",
+     "tr": "Sözünüzü kestiğim için kusura bakmayın ama beş dakikamız kaldı."
+    },
+    {
+     "en": "Sorry to interrupt, but can I ask a question?",
+     "tr": "Kusura bakma ama bir soru sorabilir miyim?"
+    },
+    {
+     "en": "Sorry, go ahead. I'll wait.",
+     "tr": "Pardon, devam et. Beklerim."
+    }
+   ],
+   "commonMistake": "Sorry for cutting your word. yanlış; Sorry to interrupt denir."
+  },
+  {
+   "id": "let-me-finish",
+   "term": "Let me finish, please.",
+   "meaning": "bitirmeme izin ver lütfen",
+   "partOfSpeech": "tartışma kalıbı",
+   "sourceTerms": [
+    "Let me finish, please."
+   ],
+   "explanation": [
+    "Sözü kesilen kişinin kibarca devam etme isteği. let me + yalın fiil. Devam ederken: As I was saying, … (dediğim gibi)."
+   ],
+   "collocations": [
+    {
+     "en": "As I was saying, …",
+     "tr": "dediğim gibi"
+    },
+    {
+     "en": "Just a moment.",
+     "tr": "bir saniye"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Let me finish, please. Then you can answer.",
+     "tr": "Bitirmeme izin ver lütfen. Sonra cevap verebilirsin."
+    },
+    {
+     "en": "Just a moment, I haven't finished.",
+     "tr": "Bir saniye, bitirmedim."
+    },
+    {
+     "en": "As I was saying, local shops are important.",
+     "tr": "Dediğim gibi, mahalle dükkânları önemli."
+    }
+   ],
+   "commonMistake": "Let me end. doğal değil; Let me finish. denir."
+  },
+  {
+   "id": "are-you-saying",
+   "term": "So are you saying that …?",
+   "meaning": "yani … mı diyorsun?",
+   "partOfSpeech": "kontrol sorusu",
+   "sourceTerms": [
+    "So are you saying that …?"
+   ],
+   "explanation": [
+    "Karşıdakinin ne dediğini kontrol eder; itiraz etmeden önce doğru anlamayı sağlar. Benzerleri: Do you mean that …? · Could you explain that again?"
+   ],
+   "collocations": [
+    {
+     "en": "Do you mean that …?",
+     "tr": "… mı demek istiyorsun?"
+    },
+    {
+     "en": "What I mean is …",
+     "tr": "demek istediğim …"
+    }
+   ],
+   "examples": [
+    {
+     "en": "So are you saying that all adverts are bad?",
+     "tr": "Yani bütün reklamlar kötü mü diyorsun?"
+    },
+    {
+     "en": "Do you mean that we should close the shops?",
+     "tr": "Dükkânları kapatmalıyız mı demek istiyorsun?"
+    },
+    {
+     "en": "No, what I mean is that we should buy less.",
+     "tr": "Hayır, demek istediğim daha az almamız gerektiği."
+    }
+   ],
+   "commonMistake": "So you say …? yerine So are you saying that …? denir."
+  },
+  {
+   "id": "running-out",
+   "term": "We're running out of time. · Let's sum up.",
+   "meaning": "zamanımız azalıyor · özetleyelim",
+   "partOfSpeech": "yönetici kalıbı",
+   "sourceTerms": [
+    "We're running out of time. · Let's sum up."
+   ],
+   "explanation": [
+    "Yöneticinin tartışmayı bitirme kalıpları. run out of + isim: tükenmek. Özet: To sum up, … · So, we agree that … We're going to …"
+   ],
+   "collocations": [
+    {
+     "en": "To sum up, …",
+     "tr": "özetle"
+    },
+    {
+     "en": "We've got two minutes left.",
+     "tr": "iki dakikamız kaldı"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We're running out of time, so let's sum up.",
+     "tr": "Zamanımız azalıyor, özetleyelim."
+    },
+    {
+     "en": "To sum up, we agree that we should buy less.",
+     "tr": "Özetle, daha az almamız gerektiğinde anlaşıyoruz."
+    },
+    {
+     "en": "We've run out of milk.",
+     "tr": "Sütümüz bitti.",
+     "note": "run out of"
+    }
+   ],
+   "commonMistake": "Our time is decreasing. doğal değil; We're running out of time. denir."
+  }
+ ]
+}

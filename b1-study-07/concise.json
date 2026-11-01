@@ -1,0 +1,680 @@
+{
+ "version": 1,
+ "chapters": [
+  {
+   "screenId": "warm",
+   "intro": "Deneyim sorusu Have you ever …? ile, ayrıntısı past simple ile verilir. Cevaba bir ayrıntı ekle, karşındakine bir takip sorusu sor.",
+   "patterns": [
+    {
+     "id": "wm-have-you-ever",
+     "summary": [
+      "Deneyim: Have you ever + V3 …?",
+      "Kısa cevap: Yes, once. / No, never.",
+      "Ayrıntı past simple ile: last year, at the market."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "wm-follow-up",
+     "summary": [
+      "Önce tepki: Really? · Oh no! · Lucky you!",
+      "Sonra soru: What happened then? · How much was it?",
+      "Wh- + did + özne + yalın fiil."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "wm-where-buy",
+     "summary": [
+      "Alışkanlık: present simple + usually / mostly.",
+      "İstisna: but …; sebep: because …",
+      "Yer: in a shop · online · at the market · from a neighbour."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "haggle",
+   "intro": "Fiyata önce kibarca tepki ver, teklifini soru biçiminde yap, koşulla indirim iste ve anlaşmayı kalıplarla bitir.",
+   "patterns": [
+    {
+     "id": "hg-offer",
+     "summary": [
+      "Fiyat sorusu: How much do you want for …?",
+      "Tepki: It's lovely, but that's a bit steep.",
+      "Teklif soru biçiminde: Could you do it for …? · Would you take …?"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "hg-conditional",
+     "summary": [
+      "If + present simple, will + yalın fiil.",
+      "Alıcı: If I buy two, will you …?",
+      "Satıcı: If you pay in cash, I'll …",
+      "if bölümünde will yok."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "hg-agree",
+     "summary": [
+      "Karşı teklif: The best I can do is …",
+      "Uzlaşma: Let's meet halfway. · Shall we say …?",
+      "knock off = düşmek · throw in = bedava vermek",
+      "Anlaşma: It's a deal! · Ayrılma: I'll have a look around."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "pay",
+   "intro": "Kasada toplamı ve yöntemi soran cümleleri tanı, doğru ödeme edatını kullan, küçük sorunları present perfect ile kibarca çöz.",
+   "patterns": [
+    {
+     "id": "py-till",
+     "summary": [
+      "Toplam: That comes to … · That's … please.",
+      "Yöntem: How would you like to pay?",
+      "Kart: tap (temassız) · insert + enter your PIN",
+      "Sonuç: It's gone through. · Here's your change."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "py-prepositions",
+     "summary": [
+      "in cash · by card · by phone",
+      "with + belirli araç: with my phone",
+      "pay for + ürün; ama pay the bill / the rent",
+      "receipt = fiş · bill = hesap, fatura · recipe = tarif"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "py-problems",
+     "summary": [
+      "Kart: Your card has been declined. → I'll pay another way.",
+      "Nakit: Do you have anything smaller?",
+      "Para üstü: I think you've given me the wrong change.",
+      "Sorun şu an ortada → present perfect."
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "online-shop",
+   "intro": "Düğmeler emir kipidir; sipariş mesajları has been + V3 kullanır; adımları anlatırken First … Then … Once you've … kalıplarını kullan.",
+   "patterns": [
+    {
+     "id": "os-imperatives",
+     "summary": [
+      "Düğmeler emir kipidir: Search · Select · Add · Proceed · Place.",
+      "basket = cart · postcode = zip code",
+      "in stock ↔ out of stock · Notify me"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "os-passive",
+     "summary": [
+      "has / have been + V3: sonuç şimdi, yapan önemsiz.",
+      "placed · received · dispatched · delivered",
+      "Olumsuz: hasn't been … yet · Zaman varsa: was delivered at …"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "os-sequence",
+     "summary": [
+      "Sıra: First · Then · After that · Finally",
+      "Once you've …, … : önceki adım bitince",
+      "once / when / after sonrasında will yok."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "complain-shop",
+   "intro": "Memnuniyeti pleased with ile söyle; sorunu present perfect ve keep + -ing ile anlat; isteğini kibar ama kararlı biçimde belirt.",
+   "patterns": [
+    {
+     "id": "cs-pleased",
+     "summary": [
+      "pleased with / happy with (from değil).",
+      "It works perfectly. · You've been very helpful.",
+      "I'd definitely recommend …"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "cs-problem",
+     "summary": [
+      "Şimdiki sonuç: present perfect (has stopped, has faded).",
+      "Zaman: past simple (I bought it last week).",
+      "Tekrarlayan sorun: keep + -ing.",
+      "stop working ≠ stop to work"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "cs-request",
+     "summary": [
+      "Açılış: I'm afraid there's a problem with …",
+      "İstek: a refund · a replacement · a repair",
+      "Kanıt: Here's the receipt.",
+      "Sonuç yoksa: Could I speak to the manager?"
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "complain-online",
+   "intro": "Resmî şikâyet: konu, hitap, sebep, olanlar (past passive, past perfect), istek ve kanıt, kapanış. Kısaltma yok. Yorumlar ise kısa ve not gibidir.",
+   "patterns": [
+    {
+     "id": "co-structure",
+     "summary": [
+      "Altı parça: konu · hitap · sebep · olanlar · istek ve kanıt · kapanış.",
+      "Dear Sir or Madam → Yours faithfully · Dear Ms … → Yours sincerely",
+      "Resmî dil: kısaltma yok (I am, I would).",
+      "look forward to + -ing"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "co-what-happened",
+     "summary": [
+      "Olanlar: was / were + V3 (was delivered, was packed).",
+      "Önce olan: had + V3 (I had paid extra …).",
+      "damaged = dış hasar · faulty = arıza · missing = eksik"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "co-request-review",
+     "summary": [
+      "I would like … · I would be grateful if you could …",
+      "Kanıt: I have attached … / Please find attached …",
+      "Yorum: kısa, öznesiz: Arrived on time. Exactly as described."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "survey",
+   "intro": "Soru türlerini tanı (Tick all that apply, Rate from 1 to 5, strongly agree …), açık uçlu soruya tam cümleyle cevap ver, sonuçları Most of us / None of us ile raporla.",
+   "patterns": [
+    {
+     "id": "sv-question-types",
+     "summary": [
+      "Tick all that apply = birden fazla seçim.",
+      "Rate … from 1 to 5 · strongly agree → strongly disagree",
+      "Other (please specify) · required · optional · Submit"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "sv-questions",
+     "summary": [
+      "How often …? · On average, how much …?",
+      "To what extent do you agree that …?",
+      "Cevap: The main reason is that + cümle."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "sv-report",
+     "summary": [
+      "Most of us / Half of … / Only a few … + çoğul fiil.",
+      "None of us / Nobody: ikinci olumsuzluk yok.",
+      "X out of Y people · the most popular … · The main reason why … is that …"
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "ataturk-life",
+   "intro": "Olaylar past simple, kişiye yapılanlar past passive (was born, was given, was elected), önce olanlar past perfect (had landed). Yıl in, tarih on ile.",
+   "patterns": [
+    {
+     "id": "al-past-simple",
+     "summary": [
+      "Olay sırası past simple ile.",
+      "Düzensiz: went · became · led · gave · won · fought",
+      "Bağlama: After that · Two years later · After + -ing"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "al-passive",
+     "summary": [
+      "was / were + V3: kişiye yapılan iş.",
+      "Doğmak: was born (He born ✗).",
+      "Etken → edilgen: kişi öne çıkar, yapan düşer."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "al-past-perfect",
+     "summary": [
+      "Önce olan: had + V3 (had already landed).",
+      "By + zaman → past perfect.",
+      "in yıl · on tarih · at saat · from … to …"
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "ataturk-legacy",
+   "intro": "İnkılaplar past passive ile (was introduced, were given), eskiden used to ile, bugüne uzanan durum present perfect + since ile; anma dili: a minute of silence, commemorate.",
+   "patterns": [
+    {
+     "id": "lg-reforms",
+     "summary": [
+      "İnkılap: was adopted · was introduced · was passed",
+      "Haklar: were given the right to …",
+      "24 Kasım: He became the Head Teacher (1928)."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "lg-then-now",
+     "summary": [
+      "Eskiden: used to (didn't use to).",
+      "O tarihten beri: present perfect + since.",
+      "O tarihe kadar: By 1938, … had + V3."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "lg-remember",
+     "summary": [
+      "10 Kasım: sirens sound at 9.05 · a minute of silence · flags at half-mast",
+      "remember · commemorate · with respect and gratitude",
+      "Millî günlerin adları ve hayatıyla bağlantısı."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "close-day1",
+   "intro": "Günün üç ipliği: present perfect ↔ past simple, edilgen yapılar, kibar istekler. Hepsi farklı konularda aynı mantıkla çalışır.",
+   "patterns": [
+    {
+     "id": "cd-tenses",
+     "summary": [
+      "Belirli zaman → past simple.",
+      "Sonuç, deneyim, yet / already / since → present perfect.",
+      "Şikâyet ve tarih anlatımında ikisi yan yana."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "cd-passives",
+     "summary": [
+      "be (zaman) + V3: zamanı be taşır.",
+      "has been placed · was delivered · used to be written · can't be repaired",
+      "İşi yapan gerekirse by ile."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "cd-polite",
+     "summary": [
+      "Gündelik: Can I …? · Kibar: Could I …? · Would you …?",
+      "Yumuşatıcılar: please · I'm afraid · a bit · soru biçimi",
+      "Resmî: I would like … · I would be grateful if you could …"
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "warm3",
+   "intro": "Tarzını sebebiyle anlat (I usually wear … because …), karşıdakinin cevabına kendi fikrinle bağlan (I'm the opposite. · So do I.).",
+   "patterns": [
+    {
+     "id": "w3-style",
+     "summary": [
+      "Bugün: I'm wearing …",
+      "Genelde: I usually / never wear …",
+      "Sebep ekle: because · so · to + fiil"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "w3-react",
+     "summary": [
+      "Benzerlik: Me too · So do I · Same here.",
+      "Olumsuza katılma: Neither do I · Me neither.",
+      "Farklılık: Really? I'm the opposite."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "w3-time",
+     "summary": [
+      "How many hours a day do you spend on …?",
+      "spend + süre + on + isim / + -ing",
+      "a day · a week · about · cut down"
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "fashion-trends",
+   "intro": "Moda mı değil mi: in / out of / back in fashion. Şimdi süren eğilim: present continuous. Değişim: more and more, getting + comparative. Eskiden: used to.",
+   "patterns": [
+    {
+     "id": "ft-in-out",
+     "summary": [
+      "in fashion ↔ out of fashion · back in fashion",
+      "fashion isim · fashionable sıfat",
+      "stylish = şık · trendy = moda olan · a fad = geçici heves"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "ft-trends-now",
+     "summary": [
+      "these days / nowadays + present continuous",
+      "more and more · fewer and fewer · getting + comparative",
+      "Durum fiilleri (love, want) -ing almaz."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ft-used-to",
+     "summary": [
+      "Eski alışkanlık: used to + yalın fiil.",
+      "Olumsuz ve soru: didn't use to · Did you use to …?",
+      "Tahmin: I think it will last. · I don't think it will last long."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "ads",
+   "intro": "Reklam kelimeleri ve be aimed at; reklamlardan söz ederken present passive (Photos are edited.) ve make us buy; fikirleri bağlamak: not only … but also, what's more, as a result, on the other hand.",
+   "patterns": [
+    {
+     "id": "ad-vocabulary",
+     "summary": [
+      "advert / ad · commercial (TV) · slogan · brand",
+      "be aimed at + kişi = … yönelik",
+      "limited edition · special offer · buy one, get one free"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ad-passive-make",
+     "summary": [
+      "Genel, yapan belirsiz: am / is / are + V3.",
+      "Photos are edited (are editing değil).",
+      "make + kişi + yalın fiil · persuade + kişi + to"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ad-linkers",
+     "summary": [
+      "Ek: What's more · not only … but also …",
+      "Sonuç: As a result · That's why",
+      "Karşıtlık: On the other hand · However",
+      "Bağ: This is connected to …"
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "tech-consumption",
+   "intro": "Değişim: present perfect (has changed the way we …). Konu bağlama: When it comes to … · Speaking of … · This is connected to … Sonuç: If we keep …, we'll …",
+   "patterns": [
+    {
+     "id": "tc-present-perfect",
+     "summary": [
+      "Bugüne uzanan değişim: has / have + V3.",
+      "the way we shop / talk / eat",
+      "Belirli tarih → past simple (in 2001)."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "tc-linking",
+     "summary": [
+      "When it comes to + isim / -ing = … söz konusu olduğunda",
+      "Speaking of … = … demişken · This is connected to …",
+      "In the same way · The more …, the more …"
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "tc-consequences",
+     "summary": [
+      "Sonuç: If we keep + -ing, we'll …",
+      "Kültür örneği: people used to …",
+      "instead of + -ing · throwaway culture · buy local"
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "agree-disagree",
+   "intro": "Katılmanın dereceleri: I couldn't agree more → That's true up to a point → I see what you mean, but … → I'm afraid I don't agree. Kısa cevap: So do I · Neither do I.",
+   "patterns": [
+    {
+     "id": "ag-degrees",
+     "summary": [
+      "Tam: I couldn't agree more.",
+      "Kısmen: That's true up to a point, but …",
+      "Kibar ret: I see what you mean, but … · I'm afraid I don't agree."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ag-softening",
+     "summary": [
+      "agree fiildir: I agree (I am agree ✗).",
+      "agree with + kişi · agree that + cümle",
+      "Yumuşat: But what about …? · Açıkla: What I mean is …"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "ag-so-neither",
+     "summary": [
+      "Olumlu → So + yardımcı fiil + I.",
+      "Olumsuz → Neither + yardımcı fiil + I (olumlu biçim).",
+      "Yardımcı fiili ilk cümle belirler: do / did / am / have / can.",
+      "Katılmıyorum: I don't. · I do."
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "accept-refuse",
+   "intro": "Teklif: Would you like …? · Shall I …? · Do you want me to …? Kabul: That would be great, thanks. Ret: teşekkür + ret + sebep (That's very kind of you, but …).",
+   "patterns": [
+    {
+     "id": "ar-offers",
+     "summary": [
+      "Would you like + isim / to + fiil?",
+      "Yardım: Shall I …? · Do you want me to …?",
+      "Mağaza: Would you like to add / join …?"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ar-accept",
+     "summary": [
+      "Yes, please. · That would be great, thanks.",
+      "That's very kind of you.",
+      "if it's no trouble · Are you sure? Thank you so much!"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "ar-refuse",
+     "summary": [
+      "Ret = teşekkür + ret + sebep.",
+      "Mağaza: I'm just looking. · I'll leave it, thanks.",
+      "Yemek: I couldn't eat another thing.",
+      "Kültür: İngilizcede ısrar az; istiyorsan ilk seferde kabul et."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "clothes-advice",
+   "intro": "suit = yakışmak · fit = beden olarak olmak · go with = uymak. Sorun: too + sıfat · not + sıfat + enough. Öneri: I'd go for … · You could try … · It's worth …",
+   "patterns": [
+    {
+     "id": "ca-suit-fit",
+     "summary": [
+      "suit = yakışmak (renk, model)",
+      "fit = beden olarak olmak",
+      "go with / match = iki eşya birbirine uymak",
+      "look great on you = sende harika duruyor"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ca-too-enough",
+     "summary": [
+      "too + sıfat = fazla (sorun)",
+      "not + sıfat + enough = yeterince değil",
+      "enough: sıfattan sonra, isimden önce",
+      "a bit ile yumuşat."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "ca-suggest",
+     "summary": [
+      "I'd go for … · You could try … · Why not …?",
+      "You'd better + yalın fiil",
+      "It's worth + -ing · Don't buy it just because …",
+      "Her tavsiyeye bir gerekçe ekle."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  },
+  {
+   "screenId": "debate",
+   "intro": "Söz al: Can I just say something? · Sorry to interrupt, but … Sözü koru: Let me finish, please. Kontrol et: So are you saying that …? Yönet: What do you think, …? · To sum up, …",
+   "patterns": [
+    {
+     "id": "db-turns",
+     "summary": [
+      "Can I just say something? · Could I add something here?",
+      "Sorry to interrupt, but …",
+      "Let me finish, please. · Sorry, go ahead.",
+      "As I was saying, …"
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "db-clarify",
+     "summary": [
+      "Kontrol: So are you saying that …?",
+      "Açıklama iste: Could you explain that again?",
+      "Düzelt: I'm not saying …; I'm saying … · What I mean is …"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "db-chair",
+     "summary": [
+      "Yönet: What do you think, …? · We haven't heard from you yet.",
+      "Öneri: Why don't we …? → That sounds like a good plan.",
+      "Özet: To sum up, we agree that … We're going to …"
+     ],
+     "exampleIndex": 3
+    }
+   ]
+  },
+  {
+   "screenId": "advice-message",
+   "intro": "Samimi mesaj: kısaltmalar doğal; Hi …! Thanks for your message! → tavsiye + gerekçe (because, so, as) → Let me know! Good luck! Speak soon,",
+   "patterns": [
+    {
+     "id": "am-register",
+     "summary": [
+      "Samimi: Hi …! · kısaltmalar · Speak soon,",
+      "Önce tepki: Thanks for your message! Congratulations on …!",
+      "Resmî ↔ samimi: durum ve kişiye göre dil seç."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "am-structure",
+     "summary": [
+      "1 tepki · 2 ne giymeli · 3 nereden · 4 pratik tavsiye ve kapanış",
+      "rather than ile iki seçeneği karşılaştır.",
+      "Dünün alışveriş dili + bugünün kıyafet dili."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "am-variety",
+     "summary": [
+      "Çeşitlendir: I'd go for · You could · Why not · Make sure you",
+      "Gerekçe: because · so · as",
+      "Arkadaşın durumuna göre kişiselleştir."
+     ],
+     "exampleIndex": 2
+    }
+   ]
+  },
+  {
+   "screenId": "close",
+   "intro": "İki günün üç ipliği: kibarlık kalıpları, değişimi ve zamanı anlatan yapılar, fikirleri bağlayan kalıplar.",
+   "patterns": [
+    {
+     "id": "cl-politeness",
+     "summary": [
+      "could / would · please / thanks · I'm afraid · a bit",
+      "Ret = teşekkür + ret + sebep.",
+      "Düzey: gündelik · kibar ve kararlı · resmî"
+     ],
+     "exampleIndex": 2
+    },
+    {
+     "id": "cl-change-time",
+     "summary": [
+      "used to · present perfect · present continuous",
+      "past simple / past passive · past perfect",
+      "Zaman çizgisini düşün, sonra yapıyı seç."
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "cl-linking",
+     "summary": [
+      "Ek · sonuç · karşıtlık bağlaçları",
+      "Konu bağlama: When it comes to · Speaking of · connected to",
+      "Ölçülü kullan: paragraf başına iki üç bağlaç."
+     ],
+     "exampleIndex": 0
+    }
+   ]
+  }
+ ]
+}

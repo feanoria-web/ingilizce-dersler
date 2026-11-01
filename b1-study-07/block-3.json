@@ -1,0 +1,2732 @@
+{
+ "version": 1,
+ "block": 3,
+ "chapters": [
+  {
+   "screenId": "warm3",
+   "title": "Isınma: tarzımız, hatırladığımız reklamlar, ekran süremiz",
+   "intro": [
+    "İkinci gün dünün alışveriş konularından bir adım geri çekilip neden aldığımızı konuşuyoruz: moda, reklamlar ve teknoloji seçimlerimizi nasıl etkiliyor? Isınma kartları bu üç konunun her birine bir kapı açar. Bugün ne giydiğimiz ve neden seçtiğimiz modaya; hâlâ hatırladığımız bir reklam reklamlara; günde kaç saat telefonda geçirdiğimiz de teknoloji ve tüketim konusuna hazırlıktır. Anket kelimeleri (comfortable, classic, trendy) moda bölümünün sıfatlarını önceden tanıtır.",
+    "Bu bölümün dil hedefi iki kısa beceridir. Birincisi kendi tarzını anlatmak ve sebep eklemek: I usually wear … because … İkincisi karşıdakinin cevabını kendi fikrine bağlamak: Really? I'm the opposite. · Me too! · So do I. So do I kalıbı bugünün son konusu olan kibarca katılma ve katılmamanın kısa cevaplarına bir giriştir. Gün boyunca fikirleri bağlamayı ve başkalarının fikirlerine cevap vermeyi çalışacağız."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "What are you wearing today? Why did you choose it?",
+     "tr": "Bugün ne giyiyorsun? Neden seçtin?",
+     "why": [
+      "What are you wearing: şu an üzerinde olan, present continuous. Why did you choose: seçim sabah yapıldı, past simple."
+     ]
+    },
+    {
+     "en": "I wear what I like. I only notice trends when my daughter tells me.",
+     "tr": "Sevdiğimi giyerim. Eğilimleri sadece kızım söyleyince fark ederim.",
+     "why": [
+      "what I like = sevdiğim şey. notice = fark etmek; when + present simple: genel durum."
+     ]
+    },
+    {
+     "en": "Baggy jeans and platform trainers. Now they're back in the shops!",
+     "tr": "Bol kot pantolonlar ve kalın tabanlı spor ayakkabılar. Şimdi yeniden mağazalarda!",
+     "why": [
+      "baggy = bol; back in the shops = yeniden satışta: moda bölümündeki back in fashion'a giriş."
+     ]
+    },
+    {
+     "en": "An old biscuit advert with a funny grandmother. I can still sing the song.",
+     "tr": "Komik bir büyükannenin olduğu eski bir bisküvi reklamı. Şarkısını hâlâ söyleyebilirim.",
+     "why": [
+      "still = hâlâ; an advert with … = …in olduğu bir reklam."
+     ]
+    },
+    {
+     "en": "About three, mostly on messages and videos. That's too much, I think.",
+     "tr": "Yaklaşık üç, çoğu mesaj ve videolarda. Bence fazla.",
+     "why": [
+      "mostly = çoğunlukla; too much = fazla; I think cümle sonunda yumuşatıcı."
+     ]
+    },
+    {
+     "en": "A face cream. The advert promised a lot, but nothing changed!",
+     "tr": "Bir yüz kremi. Reklam çok şey vaat ediyordu ama hiçbir şey değişmedi!",
+     "why": [
+      "promise = vaat etmek; nothing changed: tek olumsuzluk (nothing)."
+     ]
+    },
+    {
+     "en": "Really? I'm the opposite. · Me too! · So do I.",
+     "tr": "Gerçekten mi? Ben tam tersiyim. · Ben de! · Ben de.",
+     "why": [
+      "Karşıdakinin cevabına kendi durumunu bağlayan kısa tepkiler."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "w3-style",
+     "title": "I usually wear jeans because I want to be comfortable.",
+     "meaning": "Giyim tarzını ve sebebini anlatmak",
+     "explanation": [
+      "Bugün ne giydiğimizi present continuous ile söyleriz, çünkü şu anda üzerimizdedir: I'm wearing jeans and a thick jumper. Genel tarzımızı ise present simple ve sıklık zarflarıyla anlatırız: I usually wear dark colours. · I never wear high heels. Bu iki zamanın farkı modada önemlidir: “bugün” ve “genellikle” ayrı cümlelerdir.",
+      "Seçimin sebebini because, so ya da to + fiil ile ekleriz: I wanted to be comfortable, so I'm wearing trainers. · I wear a scarf to keep warm. Isınmadaki örnekte iki sebep birden var: It's cold, and I wanted to be comfortable. Sebep, tarzı anlatmayı bir sohbete dönüştürür.",
+      "Tarzı anlatan sıfatlar: comfortable (rahat), classic (klasik), colourful (renkli), simple (sade), smart (şık, düzgün), casual (günlük, rahat), trendy (moda olan), sporty (sportif). Bir kişinin genel tarzı için I'd describe my style as … kalıbı kullanılabilir: I'd describe my style as simple and comfortable."
+     ],
+     "formula": [
+      "Bugün: I'm wearing … (present continuous)",
+      "Genelde: I usually / never wear … (present simple)",
+      "Sebep: because … · so … · to + fiil"
+     ],
+     "examples": [
+      {
+       "en": "Jeans and a thick jumper. It's cold, and I wanted to be comfortable.",
+       "tr": "Kot ve kalın bir kazak. Hava soğuk ve rahat olmak istedim.",
+       "why": [
+        "İki sebep and ile bağlanır."
+       ]
+      },
+      {
+       "en": "I usually wear dark colours to work, but at the weekend I wear something colourful.",
+       "tr": "İşe genellikle koyu renkler giyerim ama hafta sonu renkli bir şey giyerim.",
+       "why": [
+        "usually + present simple; but istisna."
+       ]
+      },
+      {
+       "en": "I'd describe my style as simple and comfortable.",
+       "tr": "Tarzımı sade ve rahat diye tanımlarım.",
+       "why": [
+        "describe … as … = … olarak tanımlamak."
+       ]
+      },
+      {
+       "en": "I'm wearing my grandfather's old watch today.",
+       "tr": "Bugün dedemin eski saatini takıyorum.",
+       "why": [
+        "wear: kıyafet, saat, gözlük için de kullanılır."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bugün kırmızı bir ceket giyiyorum.”",
+       "answer": "I'm wearing a red jacket today.",
+       "why": "Şu an üzerinde → present continuous."
+      },
+      {
+       "question": "“Hiç topuklu ayakkabı giymem.”",
+       "answer": "I never wear high heels.",
+       "why": "Genel alışkanlık."
+      },
+      {
+       "question": "Saat takmak için hangi fiil?",
+       "answer": "wear (I'm wearing a watch.)",
+       "why": "wear takı ve saat için de."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I'm usually wearing jeans.",
+       "right": "I usually wear jeans.",
+       "why": "Genel alışkanlık present simple ister."
+      },
+      {
+       "wrong": "I'm putting on a watch every day.",
+       "right": "I wear a watch every day.",
+       "why": "put on giyinme eylemidir; giymiş olmak wear'dır."
+      }
+     ]
+    },
+    {
+     "id": "w3-react",
+     "title": "Really? I'm the opposite. · Me too! · So do I.",
+     "meaning": "Karşıdakinin cevabını kendi fikrine bağlamak",
+     "explanation": [
+      "Bir cevabı dinledikten sonra kendi durumumuzu kısa bir tepkiyle bağlarız. Benzerlik: Me too! · So do I. · Same here. Farklılık: Really? I'm the opposite. · Not me! · I'm different. Ardından kendi durumunuzu tam cümleyle söyleyin: Really? I'm the opposite. I follow every trend on social media.",
+      "So do I ve Neither do I bugünün son konusu olan kısa katılma cevaplarıdır; burada ilk kez karşımıza çıkar. Olumlu cümleye So + yardımcı fiil + I: I wear what I like. — So do I. Olumsuz cümleye Neither + yardımcı fiil + I: I don't follow trends. — Neither do I. Me too olumlu cümlelerde, Me neither olumsuz cümlelerde kullanılan gündelik karşılıklardır.",
+      "Bağlantıyı bir soruyla sürdürmek sohbeti canlı tutar: So do I. Where do you usually buy your clothes? · Really? Why do you like trends so much? Sohbet kartlarında her cevaptan sonra bir tepki ve bir soru beklenir; bu, gün boyunca yapacağımız tartışmaların ilk adımıdır."
+     ],
+     "formula": [
+      "Benzerlik: Me too! · So do I. · Same here.",
+      "Farklılık: Really? I'm the opposite. · Not me!",
+      "Olumsuz cümleye: Neither do I. · Me neither."
+     ],
+     "examples": [
+      {
+       "en": "I wear what I like. — So do I. I don't care about trends.",
+       "tr": "Sevdiğimi giyerim. — Ben de. Eğilimleri umursamam.",
+       "why": [
+        "So do I: olumlu cümleye katılma."
+       ]
+      },
+      {
+       "en": "I don't follow fashion. — Really? I'm the opposite. I follow every trend.",
+       "tr": "Modayı takip etmem. — Gerçekten mi? Ben tam tersiyim. Her eğilimi takip ederim.",
+       "why": [
+        "the opposite = tam tersi."
+       ]
+      },
+      {
+       "en": "I don't watch TV adverts. — Neither do I. I skip them all.",
+       "tr": "Televizyon reklamlarını izlemem. — Ben de izlemem. Hepsini geçerim.",
+       "why": [
+        "Neither do I: olumsuz cümleye katılma."
+       ]
+      },
+      {
+       "en": "About three hours a day. — Same here! It's too much.",
+       "tr": "Günde yaklaşık üç saat. — Bende de öyle! Fazla.",
+       "why": [
+        "Same here = bende de aynı."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "I love colourful clothes. — (ben de)",
+       "answer": "So do I. / Me too!",
+       "why": "Olumlu cümle."
+      },
+      {
+       "question": "I don't like shopping. — (ben de sevmem)",
+       "answer": "Neither do I. / Me neither.",
+       "why": "Olumsuz cümle."
+      },
+      {
+       "question": "“Ben tam tersiyim.”",
+       "answer": "I'm the opposite.",
+       "why": "the opposite."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I don't like it. — Me too.",
+       "right": "I don't like it. — Me neither. / Neither do I.",
+       "why": "Olumsuz cümleye me too denmez."
+      },
+      {
+       "wrong": "So I do.",
+       "right": "So do I.",
+       "why": "So + yardımcı fiil + özne."
+      }
+     ]
+    },
+    {
+     "id": "w3-time",
+     "title": "How many hours a day do you spend on your phone? — About three.",
+     "meaning": "Süre ve miktar sormak: How many hours a day …? spend time on …",
+     "explanation": [
+      "Ekran süresini sormak için How many hours a day do you spend on your phone? kalıbı kullanılır. spend + süre + on + isim (… için zaman harcamak) ya da spend + süre + -ing (… yaparak geçirmek): I spend two hours on my phone. · I spend two hours watching videos. Türkçedeki “zaman geçirmek” için pass time değil spend time kullanılır.",
+      "a day, a week, a month (günde, haftada, ayda) miktarı zamana bağlar: three hours a day, twice a week. Yaklaşık bir sayı için about ya da around: About three. · Around two hours. Kendi değerlendirmenizi ekleyin: That's too much, I think. · That's not bad. · I'm trying to cut down. (azaltmaya çalışıyorum.)",
+      "Bu kalıp öğleden sonraki teknoloji ve tüketim konusunun temelidir: screen time (ekran süresi) ve impulse buying (anlık alışveriş) arasındaki bağlantıyı tartışırken aynı yapıları kullanacağız: The more time we spend online, the more adverts we see."
+     ],
+     "formula": [
+      "Soru: How many hours a day do you spend on …?",
+      "spend + süre + on + isim · spend + süre + -ing",
+      "Miktar: about · around · a day / a week"
+     ],
+     "examples": [
+      {
+       "en": "About three, mostly on messages and videos. That's too much, I think.",
+       "tr": "Yaklaşık üç, çoğu mesaj ve videolarda. Bence fazla.",
+       "why": [
+        "spend on: mostly on …"
+       ]
+      },
+      {
+       "en": "I spend two hours a day watching videos on my phone.",
+       "tr": "Günde iki saatimi telefonda video izleyerek geçiriyorum.",
+       "why": [
+        "spend + süre + -ing."
+       ]
+      },
+      {
+       "en": "I'm trying to cut down. I don't take my phone to bed any more.",
+       "tr": "Azaltmaya çalışıyorum. Artık telefonumu yatağa götürmüyorum.",
+       "why": [
+        "cut down = azaltmak; not … any more = artık değil."
+       ]
+      },
+      {
+       "en": "How much time do you spend shopping online a week?",
+       "tr": "Haftada internette alışverişe ne kadar zaman harcıyorsun?",
+       "why": [
+        "spend time + -ing."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Günde dört saat telefonda geçiriyorum.”",
+       "answer": "I spend four hours a day on my phone.",
+       "why": "spend … on …"
+      },
+      {
+       "question": "pass time mı spend time mı?",
+       "answer": "spend time",
+       "why": "Zaman geçirmek = spend time."
+      },
+      {
+       "question": "“Azaltmaya çalışıyorum.”",
+       "answer": "I'm trying to cut down.",
+       "why": "cut down."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I pass three hours on my phone.",
+       "right": "I spend three hours on my phone.",
+       "why": "spend time."
+      },
+      {
+       "wrong": "I spend two hours to watch videos.",
+       "right": "I spend two hours watching videos.",
+       "why": "spend + süre + -ing."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "fashion-trends",
+   "title": "Moda ve güncel eğilimler",
+   "intro": [
+    "Moda değişkendir ve İngilizcede değişimi anlatmanın kendine özgü yapıları vardır. Bir şeyin şu an moda olup olmadığını in fashion / out of fashion kalıplarıyla, yeniden moda olmasını back in fashion ile söyleriz. Şu anda süren ve değişen bir eğilimi present continuous anlatır: More and more people are buying second-hand clothes. Eskiden olan modaları used to anlatır: Ten years ago, short puffer jackets used to be the only choice. Dersteki moda dergisi okuması (What's hot this winter?) bu üç yapıyı renklerle işaretler.",
+    "Bu bölümde moda kelimelerinin yanı sıra Bursa'ya özgü bir eğilim de var: geleneksel desenlerin (İznik çini renkleri, ipek) modern kıyafetlerde kullanılması. Bu, ikinci günün “fikirleri diğer konulara bağlama” hedefinin ilk örneğidir: moda kültürle, ikinci el kıyafetler teknoloji ve tüketimle bağlantılıdır. Eğilim raporu etkinliği öğrencilerden şimdiki durumu, eskiyi ve değişimi tek bir kısa konuşmada birleştirmelerini ister; sonuna da bir tahmin eklenir: I think it will last."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Ten years ago, short puffer jackets used to be the only choice for young people.",
+     "tr": "On yıl önce kısa şişme montlar gençler için tek seçenekti.",
+     "why": [
+      "used to be: eskiden doğru olan durum; puffer jacket = şişme mont."
+     ]
+    },
+    {
+     "en": "Now more and more shops are selling classic coats again, and they are getting cheaper as the season goes on.",
+     "tr": "Şimdi giderek daha çok mağaza yeniden klasik mont satıyor ve sezon ilerledikçe ucuzluyorlar.",
+     "why": [
+      "more and more + are selling: süren eğilim; as the season goes on = sezon ilerledikçe."
+     ]
+    },
+    {
+     "en": "Our grandparents used to repair clothes and pass them on to younger cousins.",
+     "tr": "Büyükanne ve büyükbabalarımız kıyafetleri onarır ve küçük kuzenlere verirdi.",
+     "why": [
+      "used to: eski alışkanlık; pass on = birine devretmek."
+     ]
+    },
+    {
+     "en": "Designers are using İznik tile colours and silk from the city's old silk market on modern scarves and shirts.",
+     "tr": "Tasarımcılar modern eşarp ve gömleklerde İznik çini renklerini ve şehrin eski ipek pazarından ipeği kullanıyor.",
+     "why": [
+      "are using: şu dönemde süren eğilim; tile = çini."
+     ]
+    },
+    {
+     "en": "People didn't use to wear these patterns every day.",
+     "tr": "İnsanlar bu desenleri eskiden her gün giymezdi.",
+     "why": [
+      "didn't use to: olumsuz eski alışkanlık (did'den sonra use)."
+     ]
+    },
+    {
+     "en": "Clothes are getting cheaper and cheaper, but some of them don't last a season.",
+     "tr": "Kıyafetler giderek ucuzluyor ama bazıları bir sezon bile dayanmıyor.",
+     "why": [
+      "cheaper and cheaper: artan değişim; last = dayanmak, sürmek."
+     ]
+    },
+    {
+     "en": "I don't think this trend will last. It's just a fad.",
+     "tr": "Bu eğilimin kalıcı olacağını sanmıyorum. Geçici bir heves.",
+     "why": [
+      "I don't think + will: olumsuz tahmin; a fad = geçici heves."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ft-in-out",
+     "title": "Wide-leg trousers are back in fashion. · Skinny jeans are out of fashion.",
+     "meaning": "Moda kalıpları ve sıfatları",
+     "explanation": [
+      "Temel kalıplar: be in fashion (moda olmak), be out of fashion (modası geçmiş olmak), come back into fashion / be back in fashion (yeniden moda olmak), go out of fashion (modası geçmek). Örnek: Wide-leg trousers have come back into fashion after thirty years. (Geniş paça pantolonlar otuz yıl sonra yeniden moda oldu.) fashion bir isimdir; sıfat biçimi fashionable'dır: a fashionable coat.",
+      "Sıfatlar: trendy (moda olan, yeni), fashionable (moda), stylish (şık, zevkli), old-fashioned (eski moda), classic (klasik, modası geçmeyen). stylish ile trendy farklıdır: stylish bir kişinin zevkini, trendy ise bir şeyin şu anki popülerliğini anlatır. My father's suit is old-fashioned but stylish. (Babamın takımı eski moda ama şık.)",
+      "a trend bir eğilimdir ve bir süre devam eder; a fad ise kısa süren, geçici bir hevestir: I think this trend is just a fad. (Bence bu eğilim sadece geçici bir heves.) a must-have (mutlaka alınması gereken ürün) reklam ve dergi dilinde sık geçer. Türkçedeki “Bu sene geniş paça moda” cümlesi İngilizcede are in fashion ile kurulur; Wide trousers are fashion yanlıştır."
+     ],
+     "formula": [
+      "be in fashion ↔ be out of fashion",
+      "come back into fashion · be back in fashion · go out of fashion",
+      "trendy · fashionable · stylish ↔ old-fashioned · a trend · a fad"
+     ],
+     "examples": [
+      {
+       "en": "Long coats are in fashion this winter.",
+       "tr": "Bu kış uzun montlar moda.",
+       "why": [
+        "be in fashion."
+       ]
+      },
+      {
+       "en": "Wide-leg trousers have come back into fashion after thirty years.",
+       "tr": "Geniş paça pantolonlar otuz yıl sonra yeniden moda oldu.",
+       "why": [
+        "come back into fashion; present perfect: sonuç şimdi."
+       ],
+       "chunks": [
+        {
+         "en": "wide-leg trousers",
+         "tr": "geniş paça pantolon"
+        },
+        {
+         "en": "have come back into fashion",
+         "tr": "yeniden moda oldu"
+        }
+       ]
+      },
+      {
+       "en": "My father's suit is old-fashioned but stylish.",
+       "tr": "Babamın takımı eski moda ama şık.",
+       "why": [
+        "old-fashioned ↔ stylish birlikte olabilir."
+       ]
+      },
+      {
+       "en": "I don't think this trend will last. It's just a fad.",
+       "tr": "Bu eğilimin kalıcı olacağını sanmıyorum. Geçici bir heves.",
+       "why": [
+        "a fad = geçici heves."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Modası geçti.”",
+       "answer": "It's out of fashion. / It has gone out of fashion.",
+       "why": "out of fashion."
+      },
+      {
+       "question": "fashion isim mi sıfat mı? Sıfatı?",
+       "answer": "İsim; sıfatı fashionable.",
+       "why": "a fashionable coat."
+      },
+      {
+       "question": "trend ile fad farkı?",
+       "answer": "trend bir süre devam eden eğilim; fad kısa süreli heves.",
+       "why": "a fad."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Wide trousers are fashion this year.",
+       "right": "Wide-leg trousers are in fashion this year.",
+       "why": "be in fashion kalıbı."
+      },
+      {
+       "wrong": "Its fashion passed.",
+       "right": "It's out of fashion. / It has gone out of fashion.",
+       "why": "Türkçe kalıbın çevirisi doğal değil."
+      }
+     ]
+    },
+    {
+     "id": "ft-trends-now",
+     "title": "These days, more and more people are buying second-hand. · Clothes are getting cheaper.",
+     "meaning": "Şu anda süren ve değişen eğilimleri anlatmak",
+     "explanation": [
+      "Şu dönemde süren bir eğilim present continuous ile anlatılır: These days, more and more people are renting clothes for weddings. (Bugünlerde giderek daha çok insan düğünler için kıyafet kiralıyor.) Zaman ifadeleri: these days, nowadays, at the moment, this season, this winter. Eğilim bir süreçtir ve devam etmektedir; bu yüzden -ing biçimi doğaldır.",
+      "Değişimin yönü karşılaştırma tekrarıyla gösterilir: more and more (giderek daha çok), fewer and fewer (giderek daha az: sayılabilir), less and less (giderek daha az: sayılamaz), cheaper and cheaper, more and more expensive. get + comparative da aynı anlamı verir: Clothes are getting cheaper, but the quality is getting worse. (Kıyafetler ucuzluyor ama kalite kötüleşiyor.) is becoming popular da sık kullanılır.",
+      "Dikkat: like, love, want, know, need, prefer gibi durum fiilleri genellikle present continuous almaz: Young people love vintage jackets. (are loving yanlış sayılır.) Gözlemi present perfect ile söylemek doğaldır: I've noticed that fewer and fewer men wear ties at work. (… fark ettim.) · Tracksuits have become everyday clothes."
+     ],
+     "formula": [
+      "Süren eğilim: these days + are + -ing",
+      "Değişim: more and more · fewer and fewer · getting cheaper",
+      "Gözlem: I've noticed that … · … have become …"
+     ],
+     "examples": [
+      {
+       "en": "These days, more and more people are renting a suit for a wedding instead of buying one.",
+       "tr": "Bugünlerde giderek daha çok insan düğün için takım elbise almak yerine kiralıyor.",
+       "why": [
+        "are renting: süren eğilim; instead of + -ing."
+       ],
+       "chunks": [
+        {
+         "en": "more and more people",
+         "tr": "giderek daha çok insan"
+        },
+        {
+         "en": "instead of buying one",
+         "tr": "almak yerine"
+        }
+       ]
+      },
+      {
+       "en": "Chunky trainers are still popular, but they're getting more expensive.",
+       "tr": "Kalın tabanlı spor ayakkabılar hâlâ popüler ama giderek pahalanıyor.",
+       "why": [
+        "getting + comparative."
+       ]
+      },
+      {
+       "en": "I've noticed that fewer and fewer men wear ties at work.",
+       "tr": "Giderek daha az erkeğin işte kravat taktığını fark ettim.",
+       "why": [
+        "fewer and fewer + sayılabilir isim."
+       ]
+      },
+      {
+       "en": "Vintage shops in the city centre are becoming more popular every month.",
+       "tr": "Şehir merkezindeki vintage dükkânlar her ay daha popüler oluyor.",
+       "why": [
+        "are becoming: değişim süreci."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Giderek daha çok insan bisiklete biniyor.”",
+       "answer": "More and more people are cycling.",
+       "why": "more and more + present continuous."
+      },
+      {
+       "question": "“Telefonlar giderek pahalanıyor.”",
+       "answer": "Phones are getting more expensive.",
+       "why": "get + comparative."
+      },
+      {
+       "question": "Young people ___ (love) vintage jackets.",
+       "answer": "love",
+       "why": "Durum fiili, -ing almaz."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "More more people buy second-hand.",
+       "right": "More and more people are buying second-hand.",
+       "why": "more and more + süren eğilim."
+      },
+      {
+       "wrong": "Clothes are getting more cheap.",
+       "right": "Clothes are getting cheaper.",
+       "why": "Kısa sıfat -er alır."
+      }
+     ]
+    },
+    {
+     "id": "ft-used-to",
+     "title": "In the nineties, people used to wear shoulder pads. · I think it will last.",
+     "meaning": "Eski modaları used to ile anlatmak ve tahmin yapmak",
+     "explanation": [
+      "used to + yalın fiil geçmişte düzenli olan ama artık olmayan bir durumu anlatır: My grandmother used to sew her own dresses. (Babaannem eskiden kendi elbiselerini dikerdi.) · Hoodies used to be sportswear. (Kapüşonlular eskiden spor giyimiydi.) Olumsuz: People didn't use to wear these patterns every day. Soru: Did you use to wear a uniform at school?",
+      "used to ile past simple arasındaki fark: past simple tek bir olayı (I bought a denim jacket in 1998.), used to ise uzun süreli bir alışkanlığı ya da durumu anlatır (I used to wear a denim jacket every day.). Türkçedeki “-ardı, -erdi” geçmiş alışkanlık eki used to'ya karşılık gelir: kot ceket giyerdim → I used to wear a denim jacket.",
+      "Eğilim raporunun sonunda bir tahmin yapılır: I think it will last. (Bence kalıcı olacak.) · I don't think it will last long. (Uzun süreceğini sanmıyorum.) · It might be just a fad. (Sadece geçici bir heves olabilir.) Olumsuz tahminde olumsuzluk think üzerine gelir: I don't think it will last (I think it won't last da doğrudur ama daha az doğaldır)."
+     ],
+     "formula": [
+      "Eskiden: used to + yalın fiil · didn't use to",
+      "Tek olay: past simple · alışkanlık: used to",
+      "Tahmin: I think it will last. · I don't think it will last long."
+     ],
+     "examples": [
+      {
+       "en": "My aunt used to knit jumpers for the whole family.",
+       "tr": "Teyzem eskiden bütün aileye kazak örerdi.",
+       "why": [
+        "used to: eski alışkanlık."
+       ]
+      },
+      {
+       "en": "Hoodies used to be sportswear. Now people wear them to the office.",
+       "tr": "Kapüşonlular eskiden spor giyimiydi. Şimdi insanlar onları ofise giyiyor.",
+       "why": [
+        "used to be ↔ now + present simple."
+       ],
+       "chunks": [
+        {
+         "en": "used to be",
+         "tr": "eskiden … idi"
+        },
+        {
+         "en": "wear them to the office",
+         "tr": "onları ofise giymek"
+        }
+       ]
+      },
+      {
+       "en": "Ten years ago, short puffer jackets used to be the only choice for young people.",
+       "tr": "On yıl önce kısa şişme montlar gençler için tek seçenekti.",
+       "why": [
+        "used to be the only choice."
+       ]
+      },
+      {
+       "en": "I've noticed that many shops sell vintage clothes now. I think it will last.",
+       "tr": "Birçok mağazanın artık vintage kıyafet sattığını fark ettim. Bence kalıcı olacak.",
+       "why": [
+        "Gözlem + tahmin."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Eskiden okula forma giyerdik.”",
+       "answer": "We used to wear a uniform at school.",
+       "why": "used to."
+      },
+      {
+       "question": "Olumsuz: People ___ (not / use to) wear these patterns.",
+       "answer": "didn't use to",
+       "why": "did'den sonra use."
+      },
+      {
+       "question": "“Uzun süreceğini sanmıyorum.”",
+       "answer": "I don't think it will last long.",
+       "why": "Olumsuzluk think üzerinde."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Before, I was wearing a denim jacket.",
+       "right": "I used to wear a denim jacket.",
+       "why": "Eski alışkanlık için used to."
+      },
+      {
+       "wrong": "My grandfather use to wear a hat.",
+       "right": "My grandfather used to wear a hat.",
+       "why": "Olumluda used to."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "ads",
+   "title": "Moda ve reklamlar: reklam dili ve fikirleri bağlamak",
+   "intro": [
+    "Moda ile reklam birbirini besler: reklamlar yeni eğilimler yaratır, eğilimler de yeni reklamlar doğurur. Bu bölümün kazanımı tam olarak budur: bir konudaki fikrimizi başka bir konuyla bağlantılı olarak ifade etmek. Reklam dilinin kelimeleri (advert, slogan, brand, influencer, sponsored post), reklamların kullandığı numaralar (acele, azlık, rakamlar, ünlüler, bedava, yaşam tarzı) ve reklamlardan söz ederken kullanılan present simple passive (Photos are edited.) bu bölümün temelidir.",
+    "Dersteki öğrenci dergisi yazısı (Do adverts tell the truth?) dengeli bir fikir yazısının örneğidir: yazar önce reklamların bütün gerçeği söylemediğini, sonra faydalı yönlerini anlatır ve sonunda asıl sorunu ve önerisini söyler. Yazıdaki bağlaçlar (not only … but also, as a result, on the other hand, what's more, that's why) fikirleri birbirine bağlar. Reklam yap etkinliğinde öğrenciler hem reklam dilini kullanır hem de başkalarının reklamlarına bağlantılı fikirlerle yorum yapar."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "In my view, most of them don't lie, but they don't tell the whole truth either.",
+     "tr": "Bence çoğu yalan söylemiyor ama bütün gerçeği de söylemiyor.",
+     "why": [
+      "In my view = bence; not … either = … de değil (olumsuz cümlede)."
+     ]
+    },
+    {
+     "en": "Models' photos are edited, food is prepared with special lights, and the price is written in very small letters.",
+     "tr": "Modellerin fotoğrafları düzenleniyor, yemekler özel ışıklarla hazırlanıyor ve fiyat çok küçük harflerle yazılıyor.",
+     "why": [
+      "Üç present simple passive: işi yapan belli değil, genel durum."
+     ]
+    },
+    {
+     "en": "As a result, we start to believe that a new jacket will make our life better.",
+     "tr": "Sonuç olarak yeni bir ceketin hayatımızı daha iyi yapacağına inanmaya başlıyoruz.",
+     "why": [
+      "As a result: sonuç bağlacı; make our life better = hayatımızı daha iyi yapmak."
+     ]
+    },
+    {
+     "en": "I'm convinced that this is the reason why many people buy clothes they never wear.",
+     "tr": "Birçok insanın hiç giymedikleri kıyafetleri almasının sebebinin bu olduğuna inanıyorum.",
+     "why": [
+      "I'm convinced that = … olduğuna eminim, ikna oldum; the reason why = … sebebi."
+     ]
+    },
+    {
+     "en": "On the other hand, adverts are useful.",
+     "tr": "Öte yandan reklamlar faydalı.",
+     "why": [
+      "On the other hand: karşıt görüşe geçiş."
+     ]
+    },
+    {
+     "en": "What's more, some adverts are funny and creative; people share them like short films.",
+     "tr": "Üstelik bazı reklamlar komik ve yaratıcı; insanlar onları kısa filmler gibi paylaşıyor.",
+     "why": [
+      "What's more = üstelik; like + isim = … gibi."
+     ]
+    },
+    {
+     "en": "That's why I believe schools should teach young people how adverts work.",
+     "tr": "Bu yüzden okulların gençlere reklamların nasıl işlediğini öğretmesi gerektiğine inanıyorum.",
+     "why": [
+      "That's why: sonuç; how adverts work: dolaylı soru, özne + fiil sırası."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ad-vocabulary",
+     "title": "an advert · a slogan · a brand · This advert is aimed at teenagers.",
+     "meaning": "Reklam kelimeleri ve reklamın hedefini söylemek",
+     "explanation": [
+      "Temel kelimeler: an advert / an ad (reklam), a commercial (televizyon ya da radyo reklamı), a campaign (kampanya), a slogan (slogan), a brand (marka), a logo, an influencer (sosyal medya fenomeni), a sponsored post (reklamlı paylaşım), a special offer (özel teklif), a limited edition (sınırlı sayıda üretim), Buy one, get one free (bir alana bir bedava). advertise fiildir: The shop advertises on the radio.",
+      "Bir reklamın kime yönelik olduğunu be aimed at + kişi ile söyleriz: This advert is aimed at teenagers. (Bu reklam gençlere yönelik.) · The campaign is aimed at parents, not children. Benzer anlam: target (hedeflemek): The ad targets young mothers. Türkçedeki “-e yönelik” için directed for ya da for … directed yanlış ve doğal olmayan çevirilerdir.",
+      "Reklamın numaraları için İngilizce kelimeler: urgency (acele: Only today! Last chance!), scarcity (azlık: Limited edition, Only 100 pieces), numbers (rakamlar: 9 out of 10 users are happy), celebrities (ünlüler), free gifts (bedava: Buy one, get one free), lifestyle (yaşam tarzı: Be yourself. Live more.). Dersteki tablo her numaranın ne yaptığını da açıklar."
+     ],
+     "formula": [
+      "an advert · a commercial · a slogan · a brand · an influencer",
+      "be aimed at + kişi · target + kişi",
+      "a limited edition · a special offer · Buy one, get one free"
+     ],
+     "examples": [
+      {
+       "en": "This campaign is aimed at parents, not children.",
+       "tr": "Bu kampanya çocuklara değil, ebeveynlere yönelik.",
+       "why": [
+        "be aimed at + kişi."
+       ]
+      },
+      {
+       "en": "The commercial has a very catchy slogan.",
+       "tr": "Reklamın çok akılda kalıcı bir sloganı var.",
+       "why": [
+        "catchy = akılda kalıcı."
+       ]
+      },
+      {
+       "en": "Influencers often wear clothes they were paid to wear. That's why I don't trust them.",
+       "tr": "Influencer'lar çoğu zaman giymek için para aldıkları kıyafetleri giyiyor. Bu yüzden onlara güvenmiyorum.",
+       "why": [
+        "were paid to wear: para aldıkları; That's why = bu yüzden."
+       ],
+       "chunks": [
+        {
+         "en": "they were paid to wear",
+         "tr": "giymek için para aldıkları"
+        },
+        {
+         "en": "That's why",
+         "tr": "bu yüzden"
+        }
+       ]
+      },
+      {
+       "en": "The shop has a “buy one, get one free” offer on socks this week.",
+       "tr": "Mağazada bu hafta çoraplarda bir alana bir bedava kampanyası var.",
+       "why": [
+        "offer on + ürün."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Bu reklam gençlere yönelik.”",
+       "answer": "This advert is aimed at young people.",
+       "why": "be aimed at."
+      },
+      {
+       "question": "Televizyon reklamı için özel kelime?",
+       "answer": "a commercial",
+       "why": "TV / radyo reklamı."
+      },
+      {
+       "question": "“Sınırlı sayıda” üretim?",
+       "answer": "a limited edition",
+       "why": "limited edition."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "This advert is directed for young people.",
+       "right": "This advert is aimed at young people.",
+       "why": "Kalıp be aimed at."
+      },
+      {
+       "wrong": "I saw a reklam on TV.",
+       "right": "I saw an advert / a commercial on TV.",
+       "why": "reklam = advert, ad, commercial."
+      }
+     ]
+    },
+    {
+     "id": "ad-passive-make",
+     "title": "Photos are edited. · Ads are shown before every video. · Adverts make us buy things we don't need.",
+     "meaning": "Present simple passive ve make + kişi + yalın fiil",
+     "explanation": [
+      "Reklamlardan genel olarak söz ederken present simple passive (am / is / are + V3) çok kullanılır, çünkü işi yapan belli değildir ya da önemli değildir: Many photos are edited. (Birçok fotoğraf düzenleniyor.) · Food is prepared with special lights. · Ads are shown before every video. · Children are targeted on social media. · The price is written in very small letters.",
+      "Bu yapı genel ve sürekli olanı anlatır; şu an olan bir şeyi değil. Şu an süren bir edilgen işlem için present continuous passive kullanılır (A new advert is being filmed.) ama B1 düzeyinde present simple passive yeterlidir. Türkçede “fotoğraflar düzenleniyor” dediğimiz için Photos are editing demek yaygın bir hatadır; fotoğraf kendini düzenlemez, düzenlenir: are edited.",
+      "Etken bir yapı olan make + kişi + yalın fiil (birine bir şey yaptırmak, … ettirmek) reklam tartışmalarında çok kullanılır: Adverts make us buy things we don't need. (Reklamlar bize ihtiyacımız olmayan şeyleri aldırıyor.) · Bright packaging makes children want sweets. make'ten sonra to kullanılmaz: make us to buy yanlıştır. Benzer anlamda: Adverts persuade us to buy … (persuade + to)."
+     ],
+     "formula": [
+      "am / is / are + V3: Photos are edited. · Ads are shown …",
+      "Fotoğraf kendini düzenlemez: are edited (are editing değil)",
+      "make + kişi + yalın fiil: make us buy · persuade + kişi + to"
+     ],
+     "examples": [
+      {
+       "en": "Models' photos are edited, food is prepared with special lights, and the price is written in very small letters.",
+       "tr": "Modellerin fotoğrafları düzenleniyor, yemekler özel ışıklarla hazırlanıyor ve fiyat çok küçük harflerle yazılıyor.",
+       "why": [
+        "Üç present simple passive."
+       ],
+       "chunks": [
+        {
+         "en": "are edited",
+         "tr": "düzenleniyor"
+        },
+        {
+         "en": "is prepared",
+         "tr": "hazırlanıyor"
+        },
+        {
+         "en": "is written",
+         "tr": "yazılıyor"
+        }
+       ]
+      },
+      {
+       "en": "Children are targeted on social media, where an advert looks like a normal video.",
+       "tr": "Çocuklar, reklamın normal bir video gibi göründüğü sosyal medyada hedef alınıyor.",
+       "why": [
+        "are targeted; where ile yer açıklaması."
+       ]
+      },
+      {
+       "en": "Bright packaging makes us buy more sweets.",
+       "tr": "Parlak ambalajlar bize daha çok şeker aldırıyor.",
+       "why": [
+        "make + kişi + yalın fiil."
+       ]
+      },
+      {
+       "en": "Adverts persuade us to spend more than we planned.",
+       "tr": "Reklamlar bizi planladığımızdan fazla harcamaya ikna ediyor.",
+       "why": [
+        "persuade + kişi + to + fiil."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Reklamlar her videodan önce gösteriliyor.”",
+       "answer": "Ads are shown before every video.",
+       "why": "are + V3."
+      },
+      {
+       "question": "Adverts make us ___ (buy) things.",
+       "answer": "buy",
+       "why": "make + yalın fiil."
+      },
+      {
+       "question": "Photos are editing. Düzelt.",
+       "answer": "Photos are edited.",
+       "why": "Edilgen: are + V3."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Adverts make us to buy things we don't need.",
+       "right": "Adverts make us buy things we don't need.",
+       "why": "make'ten sonra to yok."
+      },
+      {
+       "wrong": "Adverts buy us things we don't need.",
+       "right": "Adverts make us buy things we don't need.",
+       "why": "aldırmak = make someone buy."
+      }
+     ]
+    },
+    {
+     "id": "ad-linkers",
+     "title": "not only … but also … · What's more, … · As a result, … · On the other hand, …",
+     "meaning": "Fikirleri bağlaçlarla birbirine bağlamak",
+     "explanation": [
+      "Ek bilgi bağlaçları: What's more, … / In addition, … (üstelik, ayrıca): The bag was expensive. What's more, it broke after a month. not only … but also … (sadece … değil, aynı zamanda …): Adverts not only sell products but also create new needs. not only ve but also bağlanan iki öğenin önüne gelir ve iki öğe aynı türde olur (iki fiil: sell / create; iki sıfat: cheap / comfortable).",
+      "Sonuç bağlaçları: As a result, … (sonuç olarak), That's why … (bu yüzden), So … (bu yüzden): The advert was funny. As a result, everybody shared it. Karşıtlık bağlaçları: On the other hand, … (öte yandan), However, … (ancak): Adverts are annoying. On the other hand, they help small shops. Bu bağlaçlar cümle başında gelir ve ardından virgül konur.",
+      "Konular arası bağ kalıpları bu bölümün asıl hedefidir: This is connected to … · This is related to … · Adverts are closely connected to fashion: every new campaign creates a new trend. Dengeli bir fikir başkalarının görüşünü de anar: Some people say that adverts are just entertainment. However, I think … · It's true that …, but … Bu yapı hem kibar hem ikna edicidir."
+     ],
+     "formula": [
+      "Ek: What's more, … · In addition, … · not only … but also …",
+      "Sonuç: As a result, … · That's why …",
+      "Karşıtlık: On the other hand, … · However, … · Bağ: This is connected to …"
+     ],
+     "examples": [
+      {
+       "en": "They not only show clothes but also sell a lifestyle.",
+       "tr": "Sadece kıyafet göstermiyor, aynı zamanda bir yaşam tarzı satıyorlar.",
+       "why": [
+        "not only + fiil … but also + fiil."
+       ],
+       "chunks": [
+        {
+         "en": "not only show",
+         "tr": "sadece göstermiyor"
+        },
+        {
+         "en": "but also sell",
+         "tr": "aynı zamanda satıyor"
+        }
+       ]
+      },
+      {
+       "en": "What's more, many sponsored posts don't say clearly that they are adverts.",
+       "tr": "Üstelik birçok reklamlı paylaşım reklam olduğunu açıkça söylemiyor.",
+       "why": [
+        "What's more = üstelik."
+       ]
+      },
+      {
+       "en": "On the other hand, a good advert can help a small family business grow.",
+       "tr": "Öte yandan iyi bir reklam küçük bir aile işletmesinin büyümesine yardım edebilir.",
+       "why": [
+        "help + nesne + yalın fiil."
+       ]
+      },
+      {
+       "en": "Adverts are closely connected to fashion: every new campaign creates a new trend.",
+       "tr": "Reklamlar modayla yakından bağlantılı: her yeni kampanya yeni bir eğilim yaratıyor.",
+       "why": [
+        "be connected to: konular arası bağ."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "Prices went up. ___, people bought less. (sonuç)",
+       "answer": "As a result",
+       "why": "Sonuç bağlacı."
+      },
+      {
+       "question": "It is not only cheap ___ also comfortable.",
+       "answer": "but",
+       "why": "not only … but also."
+      },
+      {
+       "question": "Karşıtlık: Adverts are annoying. ___, they help small shops.",
+       "answer": "On the other hand / However",
+       "why": "Karşıtlık."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Not only it is cheap but also quality.",
+       "right": "It is not only cheap but also good quality.",
+       "why": "not only bağlanan öğenin önüne; iki öğe aynı türde."
+      },
+      {
+       "wrong": "On the other side, adverts are useful.",
+       "right": "On the other hand, adverts are useful.",
+       "why": "Kalıp on the other hand."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "tech-consumption",
+   "title": "Kültür, teknoloji ve tüketim: değişimi anlatmak ve fikirleri bağlamak",
+   "intro": [
+    "Teknoloji, tüketim ve kültür birbirine sıkı sıkıya bağlıdır: telefonlar alışverişi kolaylaştırdı, kolay alışveriş daha çok tüketimi, çok tüketim daha çok atığı getirdi; bu arada tamir etmek, mektup yazmak, çarşıya yürümek gibi kültürel alışkanlıklar azaldı. Bu bölümün kazanımı fikirlerimizi bu konular arasında bağlantılı olarak ifade etmektir. Bunun için iki dil aracı gerekiyor: değişimi anlatan present perfect (Technology has changed the way we shop.) ve konuları bağlayan kalıplar (When it comes to … · Speaking of … · This is connected to …).",
+    "Eskiden ve şimdi tablosu used to ile bugünkü durumu yan yana koyar; fikir zinciri adımları ise bir fikri gerekçe, bağlantı, örnek ve sonuçla nasıl geliştireceğimizi gösterir. Kültürümüzden örnekler (çarşı kültürü, tamirciler, Bursa ipeği, İznik çinisi) fikri yerel ve inandırıcı kılar. Kasım sonundaki büyük indirim günleri de tartışma için güncel bir örnektir. Bölümün yazma görevi bütün bu araçları kısa bir paragrafta birleştirir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Online shopping has grown a lot in the last ten years.",
+     "tr": "İnternetten alışveriş son on yılda çok büyüdü.",
+     "why": [
+      "has grown: bugüne uzanan değişim; in the last ten years: present perfect zaman ifadesi."
+     ]
+    },
+    {
+     "en": "Many families now order groceries on apps.",
+     "tr": "Birçok aile artık market alışverişini uygulamalardan sipariş ediyor.",
+     "why": [
+      "groceries = market ürünleri; on apps = uygulamalardan."
+     ]
+    },
+    {
+     "en": "We have stopped printing them; they stay on our phones.",
+     "tr": "Onları basmayı bıraktık; telefonlarımızda kalıyorlar.",
+     "why": [
+      "stop + -ing = … yapmayı bırakmak; present perfect: sonuç şimdi."
+     ]
+    },
+    {
+     "en": "In my opinion, online shopping has made us lazy.",
+     "tr": "Bence internetten alışveriş bizi tembelleştirdi.",
+     "why": [
+      "make + nesne + sıfat = … yapmak (make us lazy)."
+     ]
+    },
+    {
+     "en": "This is also connected to our health: we walk less and sit more.",
+     "tr": "Bu sağlığımızla da bağlantılı: daha az yürüyor, daha çok oturuyoruz.",
+     "why": [
+      "be connected to: konular arası bağ; less / more: karşılaştırma."
+     ]
+    },
+    {
+     "en": "If we shop locally sometimes, we'll stay active and help our neighbours.",
+     "tr": "Ara sıra mahallemizden alışveriş yaparsak hem hareketli kalırız hem komşularımıza destek oluruz.",
+     "why": [
+      "First conditional: if + present simple, will."
+     ]
+    },
+    {
+     "en": "Repair shops are disappearing. When it comes to shoes, though, my local shoemaker is still busy.",
+     "tr": "Tamirciler kayboluyor. Yine de ayakkabı söz konusu olduğunda mahallemdeki ayakkabıcı hâlâ meşgul.",
+     "why": [
+      "are disappearing: süren değişim; though = yine de; When it comes to + isim."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "tc-present-perfect",
+     "title": "Technology has changed the way we shop. · Online shopping has grown a lot.",
+     "meaning": "Bugüne uzanan değişimi present perfect ile anlatmak",
+     "explanation": [
+      "Bugüne kadar olan ve sonucu şimdi görülen değişim present perfect ile anlatılır: Technology has changed the way we shop. (Teknoloji alışveriş biçimimizi değiştirdi.) · Online shopping has grown a lot in the last ten years. · We have stopped repairing things. · Messages have replaced cards. Zaman ifadeleri: in the last ten years, recently, so far, since …, for …",
+      "Belirli bir geçmiş zaman söylendiğinde past simple kullanılır: The first online shops appeared in the 1990s. · My father bought his first mobile phone in 2001. Ayrımı dersteki tablo gösterir: bugüne uzanan değişim (has changed) ile belirli tarih (bought in 2001). for / since ile süre: We have shopped online for years. (Yıllardır internetten alışveriş yapıyoruz.)",
+      "the way we + fiil (… biçimimiz) kalıbı çok kullanışlıdır: the way we shop (alışveriş yapma biçimimiz), the way we talk, the way we eat, the way we keep in touch. Türkçedeki “alışveriş şeklimiz” için shopping shape ya da our shopping way yanlış ve doğal olmayan çevirilerdir. Video calls have changed the way we keep in touch. (Görüntülü aramalar iletişim kurma biçimimizi değiştirdi.)"
+     ],
+     "formula": [
+      "has / have + V3: has changed · have become · has grown · have stopped",
+      "Belirli zaman → past simple: in 2001, ten years ago",
+      "the way we shop / talk / eat"
+     ],
+     "examples": [
+      {
+       "en": "Smartphones have changed the way we take photos.",
+       "tr": "Akıllı telefonlar fotoğraf çekme biçimimizi değiştirdi.",
+       "why": [
+        "have changed + the way we …"
+       ],
+       "chunks": [
+        {
+         "en": "have changed",
+         "tr": "değiştirdi (sonuç şimdi)"
+        },
+        {
+         "en": "the way we take photos",
+         "tr": "fotoğraf çekme biçimimiz"
+        }
+       ]
+      },
+      {
+       "en": "My father bought his first mobile phone in 2001.",
+       "tr": "Babam ilk cep telefonunu 2001'de aldı.",
+       "why": [
+        "Belirli yıl → past simple."
+       ]
+      },
+      {
+       "en": "Big sales days have turned shopping into a kind of competition.",
+       "tr": "Büyük indirim günleri alışverişi bir tür yarışmaya dönüştürdü.",
+       "why": [
+        "turn A into B = A'yı B'ye dönüştürmek."
+       ]
+      },
+      {
+       "en": "We have shopped online for years, but we still buy fruit at the market.",
+       "tr": "Yıllardır internetten alışveriş yapıyoruz ama meyveyi hâlâ pazardan alıyoruz.",
+       "why": [
+        "for years: süre; still = hâlâ."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“İnternet müzik dinleme biçimimizi değiştirdi.”",
+       "answer": "The internet has changed the way we listen to music.",
+       "why": "has changed the way we …"
+      },
+      {
+       "question": "I ___ (buy) my first smartphone in 2012.",
+       "answer": "bought",
+       "why": "Belirli yıl."
+      },
+      {
+       "question": "“Mesajlar kartların yerini aldı.”",
+       "answer": "Messages have replaced cards.",
+       "why": "replace = yerini almak."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Technology changed our shopping shape.",
+       "right": "Technology has changed the way we shop.",
+       "why": "the way we + fiil."
+      },
+      {
+       "wrong": "I have bought my first phone in 2005.",
+       "right": "I bought my first phone in 2005.",
+       "why": "Belirli zaman → past simple."
+      }
+     ]
+    },
+    {
+     "id": "tc-linking",
+     "title": "When it comes to clothes, … · Speaking of waste, … · This is connected to …",
+     "meaning": "Bir fikri başka bir konuya bağlamak",
+     "explanation": [
+      "When it comes to + isim / -ing (… söz konusu olduğunda) konuyu daraltır ve fikrinizi o alana getirir: When it comes to clothes, I prefer quality to quantity. · When it comes to saving money, I'm not very good. Türkçedeki “konu … olunca” kalıbının en doğal karşılığıdır; When the subject is … doğal değildir.",
+      "Speaking of + isim (… demişken) sohbette bir önceki konudan yeni bir konuya geçmenin doğal yoludur: Speaking of waste, a lot of clothes end up in the rubbish after one season. This is connected to / related to + isim (bu … ile bağlantılı) iki konu arasında açık bir bağ kurar: Screen time is related to impulse buying: the more we scroll, the more we buy.",
+      "Diğer bağlantı kalıpları: In the same way, … (aynı şekilde): In the same way, cheap delivery has made us order things one by one. · This also affects … (bu … da etkiliyor): Second-hand apps are popular. This also affects fashion: old styles come back faster. the more …, the more … (ne kadar …, o kadar …) iki değişimi birbirine bağlar: The more we scroll, the more we buy."
+     ],
+     "formula": [
+      "When it comes to + isim / -ing, …",
+      "Speaking of + isim, … · This is connected to / related to …",
+      "In the same way, … · This also affects … · The more …, the more …"
+     ],
+     "examples": [
+      {
+       "en": "When it comes to phones, I don't think we need a new one every two years.",
+       "tr": "Telefon söz konusu olduğunda, her iki yılda bir yenisine ihtiyacımız olduğunu düşünmüyorum.",
+       "why": [
+        "When it comes to + isim."
+       ]
+      },
+      {
+       "en": "Speaking of waste, a lot of clothes end up in the rubbish after one season.",
+       "tr": "İsraf demişken, birçok kıyafet bir mevsim sonra çöpe gidiyor.",
+       "why": [
+        "end up in = sonunda … gitmek."
+       ]
+      },
+      {
+       "en": "Screen time is related to impulse buying: the more we scroll, the more we buy.",
+       "tr": "Ekran süresi anlık alışverişle bağlantılı: ne kadar çok kaydırırsak o kadar çok alıyoruz.",
+       "why": [
+        "related to; the more …, the more …"
+       ],
+       "chunks": [
+        {
+         "en": "is related to",
+         "tr": "… ile bağlantılı"
+        },
+        {
+         "en": "the more we scroll",
+         "tr": "ne kadar çok kaydırırsak"
+        }
+       ]
+      },
+      {
+       "en": "In the same way, cheap delivery has made us order things one by one.",
+       "tr": "Aynı şekilde ucuz teslimat, şeyleri tek tek sipariş etmemize yol açtı.",
+       "why": [
+        "In the same way: paralel bağlantı; make + kişi + yalın fiil."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Kıyafet söz konusu olduğunda kaliteyi tercih ederim.”",
+       "answer": "When it comes to clothes, I prefer quality.",
+       "why": "When it comes to."
+      },
+      {
+       "question": "“Telefonlar demişken …”",
+       "answer": "Speaking of phones, …",
+       "why": "Speaking of."
+      },
+      {
+       "question": "“Ne kadar çok kaydırırsak o kadar çok alırız.”",
+       "answer": "The more we scroll, the more we buy.",
+       "why": "the more …, the more …"
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "When the subject is saving, …",
+       "right": "When it comes to saving money, …",
+       "why": "Kalıp When it comes to."
+      },
+      {
+       "wrong": "Speaking about of phones, …",
+       "right": "Speaking of phones, …",
+       "why": "Speaking of + isim."
+      }
+     ]
+    },
+    {
+     "id": "tc-consequences",
+     "title": "If we keep buying cheap clothes, we'll create more waste. · In our culture, people used to repair things.",
+     "meaning": "Sonuçları first conditional ile, kültürel örnekleri used to ile vermek",
+     "explanation": [
+      "Bir alışkanlığın sonucunu first conditional anlatır: If we keep buying cheap clothes, we'll create more waste. (Ucuz kıyafet almaya devam edersek daha çok atık yaratacağız.) keep + -ing burada “devam etmek” demektir. If we shop locally sometimes, we'll stay active and help our neighbours. Burada da if bölümünde will kullanılmaz.",
+      "Kültürden örnek vermek fikri güçlendirir: In our culture, people used to repair shoes and coats again and again. · My grandparents used to walk to the bazaar every day and talk to every shopkeeper. Bursa'nın el sanatları (ipek, İznik çinisi) da yerel üretimi destekleme fikrine örnektir: Handmade products are part of our culture, and buying them supports local people.",
+      "Tüketim kelimeleri: consumer (tüketici), consume (tüketmek), consumption (tüketim), waste (israf, atık), throwaway culture (at-kullan kültürü), impulse buying (düşünmeden alışveriş), repair ↔ replace (onarmak ↔ yenisini almak), upgrade (daha yenisine geçmek), recycle (geri dönüştürmek), buy local (yerel üreticiden almak), screen time (ekran süresi). instead of + -ing (… yerine): We throw things away instead of repairing them."
+     ],
+     "formula": [
+      "Sonuç: If we keep + -ing, we'll …",
+      "Kültür: In our culture, people used to …",
+      "instead of + -ing: … yerine"
+     ],
+     "examples": [
+      {
+       "en": "If we keep replacing instead of repairing, we'll lose old skills like tailoring.",
+       "tr": "Onarmak yerine yenisini almaya devam edersek terzilik gibi eski becerileri kaybedeceğiz.",
+       "why": [
+        "keep + -ing; instead of + -ing; will."
+       ]
+      },
+      {
+       "en": "My grandparents used to walk to the bazaar every day and talk to every shopkeeper.",
+       "tr": "Dedemlerle ninemler her gün çarşıya yürür, her esnafla konuşurlardı.",
+       "why": [
+        "used to: kültürel alışkanlık."
+       ]
+      },
+      {
+       "en": "Handmade products are part of our culture, and buying them supports local people.",
+       "tr": "El yapımı ürünler kültürümüzün parçası ve onları almak yerel insanları destekliyor.",
+       "why": [
+        "buying them: -ing özne."
+       ],
+       "chunks": [
+        {
+         "en": "part of our culture",
+         "tr": "kültürümüzün parçası"
+        },
+        {
+         "en": "buying them supports",
+         "tr": "onları almak destekliyor"
+        }
+       ]
+      },
+      {
+       "en": "We throw things away instead of repairing them.",
+       "tr": "Eşyaları onarmak yerine atıyoruz.",
+       "why": [
+        "throw away + instead of + -ing."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "If we ___ (keep) buying, we'll create more waste.",
+       "answer": "keep",
+       "why": "if + present simple."
+      },
+      {
+       "question": "“Tamir etmek yerine atıyoruz.”",
+       "answer": "We throw things away instead of repairing them.",
+       "why": "instead of + -ing."
+      },
+      {
+       "question": "“At-kullan kültürü”",
+       "answer": "throwaway culture",
+       "why": "Kalıp."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "We throw things instead of repair.",
+       "right": "We throw things away instead of repairing them.",
+       "why": "throw away; instead of + -ing."
+      },
+      {
+       "wrong": "If we will keep buying, we'll create more waste.",
+       "right": "If we keep buying, we'll create more waste.",
+       "why": "if bölümünde will yok."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "agree-disagree",
+   "title": "Kibarca katılmak ve katılmamak · So do I, Neither do I",
+   "intro": [
+    "Bir tartışmada fikrimizi söylemenin yanı sıra başkalarının fikirlerine de cevap veririz. İngilizcede katılmamak yumuşatılarak yapılır: önce karşıdakini anladığımızı gösterir, sonra kendi görüşümüzü söyleriz: I see what you mean, but … Doğrudan You're wrong ya da That's not true demek kaba duyulur. Bu bölümde katılmanın tam katılmadan güçlü katılmamaya kadar altı derecesini ve her derece için kalıplarını öğreniyoruz.",
+    "İkinci beceri kısa katılma cevaplarıdır: So do I, Neither do I, So am I, Neither have I. Bu cevaplarda yardımcı fiil ilk cümleye göre seçilir. Dersteki üç arkadaşın diyaloğu (Barış, Seda, Umut: ikinci el mi, yeni mi?) bu kalıpların hepsini doğal bir konuşmada gösterir: tam katılma, kibar katılmama, kısmen katılma ve kısa cevaplar. Fikir çizgisi etkinliği ise sınıfın bütün kalıpları yüksek sesle ve kibarca kullanmasını sağlar."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "I've started buying my clothes second-hand. I think it's the smartest way to shop.",
+     "tr": "Kıyafetlerimi ikinci el almaya başladım. Bence en akıllıca alışveriş yolu bu.",
+     "why": [
+      "start + -ing; present perfect: yakın zamanda başlayan ve süren alışkanlık. the smartest way to shop = alışverişin en akıllıca yolu."
+     ]
+    },
+    {
+     "en": "I couldn't agree more. It's cheaper, and it's better for the environment.",
+     "tr": "Sonuna kadar katılıyorum. Daha ucuz ve çevre için daha iyi.",
+     "why": [
+      "I couldn't agree more: en güçlü katılma; iki gerekçe and ile."
+     ]
+    },
+    {
+     "en": "I see what you mean, but I'm not sure it's always cheaper. Some vintage shops are really expensive.",
+     "tr": "Ne demek istediğini anlıyorum ama her zaman daha ucuz olduğundan emin değilim. Bazı vintage dükkânlar gerçekten pahalı.",
+     "why": [
+      "Kibar katılmama: önce anlayış, sonra I'm not sure; ardından somut örnek."
+     ]
+    },
+    {
+     "en": "That's true up to a point. But on apps you can find great things for very little money.",
+     "tr": "Bir yere kadar doğru. Ama uygulamalarda çok az paraya harika şeyler bulabilirsin.",
+     "why": [
+      "Kısmen katılma; for very little money = çok az paraya; you genel anlamda (insan)."
+     ]
+    },
+    {
+     "en": "Neither can I, to be honest! What I do is buy second-hand bags and jackets, and new jeans.",
+     "tr": "Açıkçası ben de bulamıyorum! Ben çantaları ve ceketleri ikinci el, kotları yeni alıyorum.",
+     "why": [
+      "can never find → Neither can I. What I do is + yalın fiil: yaptığım şey …"
+     ]
+    },
+    {
+     "en": "Neither do I. So we all agree on shoes, at least!",
+     "tr": "Ben de sevmiyorum. En azından ayakkabı konusunda hepimiz anlaşıyoruz!",
+     "why": [
+      "Neither do I: olumsuz cümleye katılma; agree on + konu; at least = en azından."
+     ]
+    },
+    {
+     "en": "Adverts should be banned on children's TV channels.",
+     "tr": "Çocuk kanallarında reklam yasaklanmalı.",
+     "why": [
+      "should be + V3: modal passive (yasaklanmalı). Fikir çizgisi etkinliğinin ilk ifadesi."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ag-degrees",
+     "title": "I couldn't agree more. · That's true up to a point, but … · I see what you mean, but …",
+     "meaning": "Katılmanın derecelerini kalıplarla ifade etmek",
+     "explanation": [
+      "Tam katılma: I couldn't agree more. (Daha fazla katılamazdım: sonuna kadar katılıyorum.) · Absolutely. · That's exactly what I think. Katılma: I agree with you. · That's true. · Good point. Kısmen katılma: That's true up to a point, but … (Bir yere kadar doğru ama …) · I agree to some extent, but … · You may be right, but … Bu kısmi kalıplar tartışmanın en kullanışlı ifadeleridir: karşıdakine saygı gösterir ve kendi fikrinize yer açar.",
+      "Kibar katılmama: I see what you mean, but … (Ne demek istediğini anlıyorum ama …) · I'm not sure about that. · I take your point, but I think … · I'm afraid I don't agree. Güçlü katılmama: I completely disagree. Bu sonuncusu kaba değildir ama sert duyulur; arkadaşlar arasında ya da çok emin olduğunuz konularda kullanın.",
+      "I couldn't agree more kalıbı Türkçe konuşanları şaşırtır: olumsuz görünür ama en güçlü katılmadır. Kelime kelime “daha fazla katılamazdım” demektir, yani katılmanın en üst noktasındayım. Benzer biçimde I couldn't care less “hiç umurumda değil” demektir. Kalıpları ezberlemek, kelime kelime çevirmekten daha güvenlidir."
+     ],
+     "formula": [
+      "Tam: I couldn't agree more. · That's exactly what I think.",
+      "Kısmen: That's true up to a point, but … · You may be right, but …",
+      "Kibar ret: I see what you mean, but … · I'm afraid I don't agree."
+     ],
+     "examples": [
+      {
+       "en": "I couldn't agree more. It's cheaper, and it's better for the environment.",
+       "tr": "Sonuna kadar katılıyorum. Daha ucuz ve çevre için daha iyi.",
+       "why": [
+        "En güçlü katılma; iki gerekçe."
+       ],
+       "chunks": [
+        {
+         "en": "I couldn't agree more",
+         "tr": "sonuna kadar katılıyorum"
+        },
+        {
+         "en": "better for the environment",
+         "tr": "çevre için daha iyi"
+        }
+       ]
+      },
+      {
+       "en": "That's true up to a point. But on apps you can find great things for very little money.",
+       "tr": "Bir yere kadar doğru. Ama uygulamalarda çok az paraya harika şeyler bulabilirsin.",
+       "why": [
+        "Kısmen katılma + karşı nokta."
+       ]
+      },
+      {
+       "en": "You may be right, but not everyone can afford good quality.",
+       "tr": "Haklı olabilirsin ama herkes iyi kaliteye gücü yetmez.",
+       "why": [
+        "afford = gücü yetmek."
+       ]
+      },
+      {
+       "en": "I'm afraid I don't agree. I think adverts can be useful.",
+       "tr": "Maalesef katılmıyorum. Bence reklamlar faydalı olabilir.",
+       "why": [
+        "I'm afraid ile yumuşatılmış ret."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Sonuna kadar katılıyorum.”",
+       "answer": "I couldn't agree more.",
+       "why": "Olumsuz görünen en güçlü katılma."
+      },
+      {
+       "question": "“Bir yere kadar doğru ama …”",
+       "answer": "That's true up to a point, but …",
+       "why": "up to a point."
+      },
+      {
+       "question": "En kibar katılmama hangisi? You're wrong. / I see what you mean, but …",
+       "answer": "I see what you mean, but …",
+       "why": "Önce anladığını göster."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "It's true until a place.",
+       "right": "That's true up to a point.",
+       "why": "Kalıp up to a point."
+      },
+      {
+       "wrong": "You are not right.",
+       "right": "I'm not sure I agree. / I see what you mean, but …",
+       "why": "Doğrudan ret kaba duyulur."
+      }
+     ]
+    },
+    {
+     "id": "ag-softening",
+     "title": "agree with you · agree that … · What I mean is … · But what about …?",
+     "meaning": "agree fiilinin kullanımı ve katılmamayı yumuşatmak",
+     "explanation": [
+      "agree bir fiildir; Türkçedeki “katılıyorum” sıfat gibi düşünüldüğü için I am agree hatası çok yaygındır. Doğrusu: I agree. Kişiye katılmak agree with: I agree with you. · I agree with Seda. Bir fikre katılmak agree that + cümle: I agree that phones are expensive. Bir konuda anlaşmak agree on / about: We agree on most things. Olumsuz: I don't agree / I disagree.",
+      "Katılmamayı yumuşatmanın üç yolu: (1) önce olumlu bir şey söylemek: That's an interesting point, but … (2) yumuşatıcı kelimeler: I'm afraid, I'm not sure, I think, perhaps (3) soru sormak: But what about people who live far from the shops? Soru, karşıdakini düşünmeye davet eder ve tartışmayı kavgaya dönüştürmez.",
+      "Fikrinizi açıklamak ya da yanlış anlaşılmayı düzeltmek için: The reason I think so is that … (Böyle düşünmemin sebebi …) · What I mean is that … (Demek istediğim …) · Let me explain. Dersteki örnek: What I mean is that we should think before we buy, not stop buying. Bu cümle karşıt bir yorumu kibarca düzeltir."
+     ],
+     "formula": [
+      "agree with + kişi · agree that + cümle · agree on + konu",
+      "Yumuşat: That's an interesting point, but … · But what about …?",
+      "Açıkla: The reason I think so is that … · What I mean is …"
+     ],
+     "examples": [
+      {
+       "en": "I agree that phones are expensive, but I don't think they're a waste of money.",
+       "tr": "Telefonların pahalı olduğuna katılıyorum ama para israfı olduklarını düşünmüyorum.",
+       "why": [
+        "agree that + cümle; I don't think."
+       ]
+      },
+      {
+       "en": "I see what you mean, but what about people who live far from the shops?",
+       "tr": "Ne demek istediğini anlıyorum ama dükkânlara uzak yaşayan insanlar ne olacak?",
+       "why": [
+        "But what about …? soru ile yumuşatma."
+       ]
+      },
+      {
+       "en": "What I mean is that we should think before we buy, not stop buying.",
+       "tr": "Demek istediğim, almayı bırakmamız değil, almadan önce düşünmemiz gerektiği.",
+       "why": [
+        "What I mean is that: açıklama."
+       ],
+       "chunks": [
+        {
+         "en": "What I mean is that",
+         "tr": "demek istediğim"
+        },
+        {
+         "en": "not stop buying",
+         "tr": "almayı bırakmak değil"
+        }
+       ]
+      },
+      {
+       "en": "We agree on most things, but not on shoes!",
+       "tr": "Çoğu konuda anlaşıyoruz ama ayakkabıda değil!",
+       "why": [
+        "agree on + konu."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "I am agree. Düzelt.",
+       "answer": "I agree.",
+       "why": "agree fiildir."
+      },
+      {
+       "question": "“Sana katılıyorum.”",
+       "answer": "I agree with you.",
+       "why": "agree with + kişi."
+      },
+      {
+       "question": "“Demek istediğim …”",
+       "answer": "What I mean is (that) …",
+       "why": "Açıklama kalıbı."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I agree to you.",
+       "right": "I agree with you.",
+       "why": "Kişiye katılmak agree with."
+      },
+      {
+       "wrong": "I am agree with Seda.",
+       "right": "I agree with Seda.",
+       "why": "be fiili kullanılmaz."
+      }
+     ]
+    },
+    {
+     "id": "ag-so-neither",
+     "title": "I love bargaining. — So do I. · I don't trust adverts. — Neither do I.",
+     "meaning": "Kısa katılma cevapları: So / Neither + yardımcı fiil + I",
+     "explanation": [
+      "Bir cümleye “ben de” demek için yardımcı fiili tekrar ederiz. Olumlu cümleye So + yardımcı fiil + I: I love bargaining. — So do I. · I'm tired of fast fashion. — So am I. · I bought a coat online. — So did I. · I've been to the new mall. — So have I. · I can sew. — So can I. Olumsuz cümleye Neither + yardımcı fiil + I: I don't trust adverts. — Neither do I. · I can't live without my phone. — Neither can I. · I've never filled in a survey. — Neither have I.",
+      "Yardımcı fiil ilk cümleye göre seçilir: present simple (love, like) → do / does; past simple (bought) → did; be (am, is, was) → am / was; present perfect (have been) → have; modal (can, can't) → can. Neither olumlu yardımcı fiil alır (Neither do I), çünkü olumsuzluk neither kelimesinin içindedir: Neither don't I yanlıştır. Gündelik karşılıklar: Me too (olumlu), Me neither (olumsuz).",
+      "Katılmıyorsanız tersini kısa cevapla söyleyin: I love sales. — I don't. · I don't trust adverts. — I do. · I can't wear high heels. — I can. · I've never bargained. — I have. Bu cevaplar kısa ama tamdır; ardından bir sebep eklemek sohbeti sürdürür: I do. Some adverts give useful information."
+     ],
+     "formula": [
+      "Olumlu cümle → So + yardımcı fiil + I (So do I · So am I · So did I)",
+      "Olumsuz cümle → Neither + yardımcı fiil + I (Neither do I · Neither can I)",
+      "Katılmıyorum → tersini söyle: I don't. · I do. · I can."
+     ],
+     "examples": [
+      {
+       "en": "I don't like buying shoes second-hand. — Neither do I.",
+       "tr": "İkinci el ayakkabı almayı sevmiyorum. — Ben de sevmiyorum.",
+       "why": [
+        "Olumsuz present simple → Neither do I."
+       ]
+      },
+      {
+       "en": "I can never find my size second-hand. — Neither can I, to be honest!",
+       "tr": "İkinci elde hiç bedenimi bulamıyorum. — Açıkçası ben de bulamıyorum!",
+       "why": [
+        "can never → Neither can I (never olumsuz)."
+       ],
+       "chunks": [
+        {
+         "en": "Neither can I",
+         "tr": "ben de (yapamam)"
+        },
+        {
+         "en": "to be honest",
+         "tr": "açıkçası"
+        }
+       ]
+      },
+      {
+       "en": "I've bought a lot online this year. — So have I.",
+       "tr": "Bu yıl internetten çok şey aldım. — Ben de.",
+       "why": [
+        "present perfect → So have I."
+       ]
+      },
+      {
+       "en": "I don't trust adverts. — I do. Some of them give useful information.",
+       "tr": "Reklamlara güvenmem. — Ben güvenirim. Bazıları faydalı bilgi veriyor.",
+       "why": [
+        "Katılmama: tersini söyle + sebep."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "I'm interested in fashion. — (ben de)",
+       "answer": "So am I.",
+       "why": "be → am."
+      },
+      {
+       "question": "I didn't go to the sales. — (ben de gitmedim)",
+       "answer": "Neither did I.",
+       "why": "past simple olumsuz → did."
+      },
+      {
+       "question": "I can't sew. — (ben dikebilirim)",
+       "answer": "I can.",
+       "why": "Tersini söyle."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "I don't like malls. — Neither don't I.",
+       "right": "I don't like malls. — Neither do I.",
+       "why": "Neither olumlu yardımcı fiil alır."
+      },
+      {
+       "wrong": "I bought it online. — So do I.",
+       "right": "I bought it online. — So did I.",
+       "why": "Geçmiş zaman → did."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "id": "in-out-fashion",
+   "term": "in fashion ↔ out of fashion · back in fashion",
+   "meaning": "moda ↔ modası geçmiş · yeniden moda",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "in fashion ↔ out of fashion · back in fashion"
+   ],
+   "explanation": [
+    "Bir şeyin şu an moda olup olmadığını söyleyen kalıplar. come back into fashion / go out of fashion değişimi anlatır. fashion isimdir; sıfatı fashionable."
+   ],
+   "collocations": [
+    {
+     "en": "come back into fashion",
+     "tr": "yeniden moda olmak"
+    },
+    {
+     "en": "go out of fashion",
+     "tr": "modası geçmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Long skirts are back in fashion.",
+     "tr": "Uzun etekler yeniden moda."
+    },
+    {
+     "en": "Skinny jeans went out of fashion a few years ago.",
+     "tr": "Dar kotların modası birkaç yıl önce geçti."
+    },
+    {
+     "en": "Is this colour in fashion this year?",
+     "tr": "Bu renk bu yıl moda mı?"
+    }
+   ],
+   "commonMistake": "It is fashion. yanlış; It's in fashion. / It's fashionable. denir."
+  },
+  {
+   "id": "trendy-stylish",
+   "term": "trendy · stylish · old-fashioned",
+   "meaning": "moda, şık · eski moda",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "trendy · stylish · old-fashioned"
+   ],
+   "explanation": [
+    "trendy şu an popüler olanı, stylish zevkli ve şık olanı, old-fashioned eskide kalmış olanı anlatır. Bir şey hem eski moda hem şık olabilir."
+   ],
+   "collocations": [
+    {
+     "en": "a trendy café",
+     "tr": "moda bir kafe"
+    },
+    {
+     "en": "dress stylishly",
+     "tr": "şık giyinmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "My father's suit is old-fashioned but stylish.",
+     "tr": "Babamın takımı eski moda ama şık."
+    },
+    {
+     "en": "That's a very trendy neighbourhood now.",
+     "tr": "Orası artık çok moda bir semt."
+    },
+    {
+     "en": "She always looks stylish, even in jeans.",
+     "tr": "Kot pantolonla bile hep şık görünüyor."
+    }
+   ],
+   "commonMistake": "Moda için modern değil trendy / fashionable kullanılır."
+  },
+  {
+   "id": "trend-fad",
+   "term": "a trend · a fad",
+   "meaning": "eğilim · geçici heves",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "a trend · a fad"
+   ],
+   "explanation": [
+    "a trend bir süre devam eden eğilim; a fad kısa süren, çabuk geçen bir hevestir. a must-have mutlaka alınması gereken ürün demektir."
+   ],
+   "collocations": [
+    {
+     "en": "a new trend",
+     "tr": "yeni bir eğilim"
+    },
+    {
+     "en": "just a fad",
+     "tr": "sadece geçici bir heves"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Is it a real trend or just a fad?",
+     "tr": "Gerçek bir eğilim mi, yoksa sadece geçici bir heves mi?"
+    },
+    {
+     "en": "Renting clothes is a growing trend.",
+     "tr": "Kıyafet kiralamak büyüyen bir eğilim."
+    },
+    {
+     "en": "Last year's fad is already forgotten.",
+     "tr": "Geçen yılın hevesi çoktan unutuldu."
+    }
+   ],
+   "commonMistake": "trend kalıcıdır, fad geçicidir; ikisi aynı değildir."
+  },
+  {
+   "id": "more-and-more",
+   "term": "More and more people are …",
+   "meaning": "giderek daha çok insan …",
+   "partOfSpeech": "değişim kalıbı",
+   "sourceTerms": [
+    "More and more people are …"
+   ],
+   "explanation": [
+    "Artan bir eğilimi present continuous ile anlatır. Azalan için fewer and fewer (sayılabilir), less and less (sayılamaz)."
+   ],
+   "collocations": [
+    {
+     "en": "fewer and fewer",
+     "tr": "giderek daha az"
+    },
+    {
+     "en": "these days",
+     "tr": "bugünlerde"
+    }
+   ],
+   "examples": [
+    {
+     "en": "More and more people are cycling to work.",
+     "tr": "Giderek daha çok insan işe bisikletle gidiyor."
+    },
+    {
+     "en": "Fewer and fewer people write letters.",
+     "tr": "Giderek daha az insan mektup yazıyor."
+    },
+    {
+     "en": "More and more shops are selling vintage clothes.",
+     "tr": "Giderek daha çok mağaza vintage kıyafet satıyor."
+    }
+   ],
+   "commonMistake": "More more people yanlış; More and more people denir."
+  },
+  {
+   "id": "getting-cheaper",
+   "term": "getting cheaper · getting worse",
+   "meaning": "giderek ucuzluyor · kötüleşiyor",
+   "partOfSpeech": "değişim kalıbı",
+   "sourceTerms": [
+    "getting cheaper · getting worse"
+   ],
+   "explanation": [
+    "get + comparative bir değişimi anlatır. Kısa sıfatlar -er alır (cheaper), uzun sıfatlar more ile gelir (more expensive), good → better, bad → worse."
+   ],
+   "collocations": [
+    {
+     "en": "getting better",
+     "tr": "iyileşiyor"
+    },
+    {
+     "en": "getting more expensive",
+     "tr": "pahalanıyor"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Flights are getting more expensive.",
+     "tr": "Uçak biletleri giderek pahalanıyor."
+    },
+    {
+     "en": "Clothes are getting cheaper, but the quality is getting worse.",
+     "tr": "Kıyafetler ucuzluyor ama kalite kötüleşiyor."
+    },
+    {
+     "en": "My English is getting better every week.",
+     "tr": "İngilizcem her hafta daha iyi oluyor."
+    }
+   ],
+   "commonMistake": "getting more cheap yanlış; getting cheaper denir."
+  },
+  {
+   "id": "used-to-wear",
+   "term": "used to wear",
+   "meaning": "eskiden giyerdi",
+   "partOfSpeech": "used to",
+   "sourceTerms": [
+    "used to wear"
+   ],
+   "explanation": [
+    "used to + yalın fiil geçmişte düzenli olan ama artık olmayan durumu anlatır. Olumsuz ve soruda use: didn't use to, Did you use to …?"
+   ],
+   "collocations": [
+    {
+     "en": "didn't use to",
+     "tr": "eskiden … mezdi"
+    },
+    {
+     "en": "Did you use to …?",
+     "tr": "eskiden … miydin?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Everyone used to wear school uniforms.",
+     "tr": "Eskiden herkes okul forması giyerdi."
+    },
+    {
+     "en": "My grandfather used to wear a hat every day.",
+     "tr": "Dedem eskiden her gün şapka takardı."
+    },
+    {
+     "en": "Did you use to wear platform shoes?",
+     "tr": "Eskiden platform ayakkabı giyer miydin?"
+    }
+   ],
+   "commonMistake": "Olumsuzda didn't used to değil didn't use to yazılır."
+  },
+  {
+   "id": "second-hand-vintage",
+   "term": "second-hand · vintage",
+   "meaning": "ikinci el · eski dönem, vintage",
+   "partOfSpeech": "sıfat",
+   "sourceTerms": [
+    "second-hand · vintage"
+   ],
+   "explanation": [
+    "second-hand daha önce kullanılmış her şey için; vintage belli bir eski döneme ait, değerli ve tarz sahibi kıyafet ya da eşya için kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "a second-hand shop",
+     "tr": "ikinci el dükkân"
+    },
+    {
+     "en": "vintage clothes",
+     "tr": "vintage kıyafetler"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I found a vintage leather bag at a second-hand shop.",
+     "tr": "İkinci el bir dükkânda vintage deri bir çanta buldum."
+    },
+    {
+     "en": "Second-hand apps are very popular now.",
+     "tr": "İkinci el uygulamaları şu an çok popüler."
+    },
+    {
+     "en": "This vintage jacket is from the 1970s.",
+     "tr": "Bu vintage ceket 1970'lerden."
+    }
+   ],
+   "commonMistake": "second hand (ayrı) yerine sıfat olarak second-hand (tireli) yazılır."
+  },
+  {
+   "id": "advert-slogan",
+   "term": "an advert · a commercial · a slogan",
+   "meaning": "reklam · televizyon reklamı · slogan",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "an advert · a commercial · a slogan"
+   ],
+   "explanation": [
+    "advert / ad genel reklam; commercial televizyon ya da radyo reklamı; slogan reklamın akılda kalıcı cümlesi. advertise reklam vermek, advertising reklamcılıktır."
+   ],
+   "collocations": [
+    {
+     "en": "a catchy slogan",
+     "tr": "akılda kalıcı slogan"
+    },
+    {
+     "en": "advertise on TV",
+     "tr": "televizyonda reklam vermek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The commercial has a very catchy slogan.",
+     "tr": "Reklamın çok akılda kalıcı bir sloganı var."
+    },
+    {
+     "en": "I skip the ads before videos.",
+     "tr": "Videolardan önceki reklamları geçerim."
+    },
+    {
+     "en": "The shop advertises on local radio.",
+     "tr": "Mağaza yerel radyoda reklam veriyor."
+    }
+   ],
+   "commonMistake": "reklam kelimesi İngilizcede yoktur; advert, ad ya da commercial kullanılır."
+  },
+  {
+   "id": "aimed-at",
+   "term": "be aimed at …",
+   "meaning": "…'e yönelik olmak",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "be aimed at …"
+   ],
+   "explanation": [
+    "Bir reklamın, ürünün ya da kampanyanın kime yönelik olduğunu söyler. target (hedeflemek) etken bir alternatiftir."
+   ],
+   "collocations": [
+    {
+     "en": "target young people",
+     "tr": "gençleri hedeflemek"
+    },
+    {
+     "en": "a target audience",
+     "tr": "hedef kitle"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Toy adverts are aimed at children.",
+     "tr": "Oyuncak reklamları çocuklara yönelik."
+    },
+    {
+     "en": "This campaign is aimed at parents.",
+     "tr": "Bu kampanya ebeveynlere yönelik."
+    },
+    {
+     "en": "The ad targets young mothers.",
+     "tr": "Reklam genç anneleri hedefliyor."
+    }
+   ],
+   "commonMistake": "directed for yanlış; be aimed at kalıbı kullanılır."
+  },
+  {
+   "id": "influencer-sponsored",
+   "term": "an influencer · a sponsored post",
+   "meaning": "influencer · reklamlı paylaşım",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "an influencer · a sponsored post"
+   ],
+   "explanation": [
+    "influencer sosyal medyada çok takipçisi olan ve ürün tanıtan kişi; sponsored post para karşılığı yapılan reklamlı paylaşımdır. Birçok ülkede bu paylaşımların reklam olduğunu belirtmek zorunludur."
+   ],
+   "collocations": [
+    {
+     "en": "follow an influencer",
+     "tr": "bir influencer'ı takip etmek"
+    },
+    {
+     "en": "paid to promote",
+     "tr": "tanıtmak için para almak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "That photo is a sponsored post, not a real opinion.",
+     "tr": "O fotoğraf reklamlı bir paylaşım, gerçek bir fikir değil."
+    },
+    {
+     "en": "Many influencers are paid to wear these clothes.",
+     "tr": "Birçok influencer bu kıyafetleri giymek için para alıyor."
+    },
+    {
+     "en": "I don't trust influencers who advertise everything.",
+     "tr": "Her şeyin reklamını yapan influencer'lara güvenmem."
+    }
+   ],
+   "commonMistake": "Paylaşım için share değil post kullanılır: a sponsored post."
+  },
+  {
+   "id": "limited-bogof",
+   "term": "a limited edition · Buy one, get one free",
+   "meaning": "sınırlı sayıda · bir alana bir bedava",
+   "partOfSpeech": "reklam kalıbı",
+   "sourceTerms": [
+    "a limited edition · Buy one, get one free"
+   ],
+   "explanation": [
+    "Reklamların iki numarası: azlık (limited edition: sınırlı sayıda) ve bedava (buy one, get one free). İkisi de hemen ve daha çok almamızı ister."
+   ],
+   "collocations": [
+    {
+     "en": "a special offer",
+     "tr": "özel teklif"
+    },
+    {
+     "en": "Only today!",
+     "tr": "sadece bugün!"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The shop has a “buy one, get one free” offer on socks.",
+     "tr": "Mağazada çoraplarda bir alana bir bedava kampanyası var."
+    },
+    {
+     "en": "It's a limited edition: only 100 pieces.",
+     "tr": "Sınırlı sayıda: sadece 100 adet."
+    },
+    {
+     "en": "The special offer ends on Sunday.",
+     "tr": "Özel teklif pazar günü bitiyor."
+    }
+   ],
+   "commonMistake": "limited number değil limited edition kalıbı kullanılır."
+  },
+  {
+   "id": "make-us-buy",
+   "term": "make us buy",
+   "meaning": "bize aldırmak",
+   "partOfSpeech": "make + kişi + fiil",
+   "sourceTerms": [
+    "make us buy"
+   ],
+   "explanation": [
+    "make + kişi + yalın fiil: birine bir şey yaptırmak. make'ten sonra to kullanılmaz. persuade + kişi + to ise ikna etmektir."
+   ],
+   "collocations": [
+    {
+     "en": "persuade us to buy",
+     "tr": "almaya ikna etmek"
+    },
+    {
+     "en": "make children want",
+     "tr": "çocuklara istetmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Bright packaging makes us buy more sweets.",
+     "tr": "Parlak ambalajlar bize daha çok şeker aldırıyor."
+    },
+    {
+     "en": "Adverts make us want things we don't need.",
+     "tr": "Reklamlar bize ihtiyacımız olmayan şeyleri istetiyor."
+    },
+    {
+     "en": "The music in shops makes people stay longer.",
+     "tr": "Mağazalardaki müzik insanları daha uzun kalmaya itiyor."
+    }
+   ],
+   "commonMistake": "make us to buy yanlış; make us buy denir."
+  },
+  {
+   "id": "not-only",
+   "term": "not only … but also …",
+   "meaning": "sadece … değil, aynı zamanda …",
+   "partOfSpeech": "bağlaç",
+   "sourceTerms": [
+    "not only … but also …"
+   ],
+   "explanation": [
+    "İki bilgiyi ekleyerek vurgular. not only ve but also bağlanan iki öğenin önüne gelir; iki öğe aynı türdedir (iki sıfat, iki fiil)."
+   ],
+   "collocations": [
+    {
+     "en": "not only cheap but also good",
+     "tr": "hem ucuz hem iyi"
+    },
+    {
+     "en": "not only sell but also create",
+     "tr": "sadece satmıyor, yaratıyor da"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The app is not only cheap but also easy to use.",
+     "tr": "Uygulama sadece ucuz değil, kullanımı da kolay."
+    },
+    {
+     "en": "Adverts not only sell products but also create new needs.",
+     "tr": "Reklamlar sadece ürün satmıyor, yeni ihtiyaçlar da yaratıyor."
+    },
+    {
+     "en": "She speaks not only English but also German.",
+     "tr": "Sadece İngilizce değil, Almanca da konuşuyor."
+    }
+   ],
+   "commonMistake": "Not only it is cheap … yerine It is not only cheap but also … denir."
+  },
+  {
+   "id": "whats-more",
+   "term": "What's more, …",
+   "meaning": "üstelik, ayrıca",
+   "partOfSpeech": "bağlaç",
+   "sourceTerms": [
+    "What's more, …"
+   ],
+   "explanation": [
+    "Bir fikre ek ve genellikle daha güçlü bir bilgi ekler. Resmî karşılığı In addition, … · Moreover, … Cümle başında gelir, ardından virgül."
+   ],
+   "collocations": [
+    {
+     "en": "In addition, …",
+     "tr": "buna ek olarak"
+    },
+    {
+     "en": "Moreover, …",
+     "tr": "dahası (resmî)"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's too expensive. What's more, it doesn't look strong.",
+     "tr": "Çok pahalı. Üstelik sağlam da görünmüyor."
+    },
+    {
+     "en": "The flat is big. What's more, it's near the metro.",
+     "tr": "Daire büyük. Üstelik metroya yakın."
+    },
+    {
+     "en": "In addition, the price includes delivery.",
+     "tr": "Ayrıca fiyata teslimat dahil."
+    }
+   ],
+   "commonMistake": "What is more de doğrudur ama konuşmada What's more daha doğaldır."
+  },
+  {
+   "id": "as-a-result",
+   "term": "As a result, …",
+   "meaning": "sonuç olarak",
+   "partOfSpeech": "bağlaç",
+   "sourceTerms": [
+    "As a result, …"
+   ],
+   "explanation": [
+    "Bir önceki cümlenin sonucunu bildirir. Benzerleri: That's why … · So … · Because of this, …"
+   ],
+   "collocations": [
+    {
+     "en": "That's why …",
+     "tr": "bu yüzden"
+    },
+    {
+     "en": "Because of this, …",
+     "tr": "bu nedenle"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Prices went up. As a result, people bought less.",
+     "tr": "Fiyatlar arttı. Sonuç olarak insanlar daha az aldı."
+    },
+    {
+     "en": "The advert was funny. As a result, everybody shared it.",
+     "tr": "Reklam komikti. Sonuç olarak herkes onu paylaştı."
+    },
+    {
+     "en": "It rained all week. That's why the market was empty.",
+     "tr": "Bütün hafta yağmur yağdı. Bu yüzden pazar boştu."
+    }
+   ],
+   "commonMistake": "As a result of + isim (… sonucunda) ile As a result, + cümle karıştırılmamalı."
+  },
+  {
+   "id": "other-hand",
+   "term": "On the other hand, …",
+   "meaning": "öte yandan",
+   "partOfSpeech": "bağlaç",
+   "sourceTerms": [
+    "On the other hand, …"
+   ],
+   "explanation": [
+    "Karşıt bir görüşe ya da bilgiye geçer. However, … daha kısa bir alternatiftir. On the one hand … on the other hand … ile iki taraf sunulur."
+   ],
+   "collocations": [
+    {
+     "en": "However, …",
+     "tr": "ancak"
+    },
+    {
+     "en": "On the one hand, …",
+     "tr": "bir yandan"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Online shops are cheap. On the other hand, returns are slow.",
+     "tr": "İnternet mağazaları ucuz. Öte yandan iadeler yavaş."
+    },
+    {
+     "en": "Adverts are annoying. On the other hand, they help small shops.",
+     "tr": "Reklamlar can sıkıcı. Öte yandan küçük dükkânlara yardım ediyorlar."
+    },
+    {
+     "en": "However, not everyone agrees.",
+     "tr": "Ancak herkes katılmıyor."
+    }
+   ],
+   "commonMistake": "On the other side yanlış; On the other hand denir."
+  },
+  {
+   "id": "when-comes-to",
+   "term": "When it comes to …",
+   "meaning": "… söz konusu olduğunda",
+   "partOfSpeech": "bağlantı kalıbı",
+   "sourceTerms": [
+    "When it comes to …"
+   ],
+   "explanation": [
+    "Konuyu daraltır ve fikri o alana getirir. Ardından isim ya da -ing gelir: When it comes to saving money, …"
+   ],
+   "collocations": [
+    {
+     "en": "When it comes to clothes",
+     "tr": "kıyafet söz konusu olduğunda"
+    },
+    {
+     "en": "When it comes to saving money",
+     "tr": "para biriktirmeye gelince"
+    }
+   ],
+   "examples": [
+    {
+     "en": "When it comes to shoes, I always buy in a shop.",
+     "tr": "Ayakkabı söz konusu olduğunda hep mağazadan alırım."
+    },
+    {
+     "en": "When it comes to saving money, I'm not very good.",
+     "tr": "Para biriktirmeye gelince pek iyi değilim."
+    },
+    {
+     "en": "When it comes to technology, my son helps me.",
+     "tr": "Teknoloji söz konusu olduğunda oğlum bana yardım ediyor."
+    }
+   ],
+   "commonMistake": "When the subject is … doğal değil; When it comes to … denir."
+  },
+  {
+   "id": "speaking-of",
+   "term": "Speaking of …",
+   "meaning": "… demişken",
+   "partOfSpeech": "bağlantı kalıbı",
+   "sourceTerms": [
+    "Speaking of …"
+   ],
+   "explanation": [
+    "Sohbette bir önceki konudan yeni bir konuya doğal geçiş yapar. Ardından isim gelir. By the way (bu arada) daha genel bir geçiştir."
+   ],
+   "collocations": [
+    {
+     "en": "By the way, …",
+     "tr": "bu arada"
+    },
+    {
+     "en": "Speaking of prices, …",
+     "tr": "fiyatlar demişken"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Speaking of prices, have you seen the new bus fares?",
+     "tr": "Fiyatlar demişken, yeni otobüs ücretlerini gördün mü?"
+    },
+    {
+     "en": "Speaking of waste, a lot of food ends up in the bin.",
+     "tr": "İsraf demişken, birçok yiyecek çöpe gidiyor."
+    },
+    {
+     "en": "Speaking of phones, mine is broken again.",
+     "tr": "Telefonlar demişken, benimki yine bozuldu."
+    }
+   ],
+   "commonMistake": "Speaking about of yanlış; Speaking of + isim denir."
+  },
+  {
+   "id": "connected-to",
+   "term": "This is connected to …",
+   "meaning": "bu … ile bağlantılı",
+   "partOfSpeech": "bağlantı kalıbı",
+   "sourceTerms": [
+    "This is connected to …"
+   ],
+   "explanation": [
+    "İki konu arasında açık bir bağ kurar. Benzerleri: This is related to … · This also affects … · In the same way, …"
+   ],
+   "collocations": [
+    {
+     "en": "be related to",
+     "tr": "… ile ilgili, bağlantılı"
+    },
+    {
+     "en": "This also affects …",
+     "tr": "bu … da etkiliyor"
+    }
+   ],
+   "examples": [
+    {
+     "en": "This is connected to the way we use our phones.",
+     "tr": "Bu, telefonlarımızı kullanma biçimimizle bağlantılı."
+    },
+    {
+     "en": "Screen time is related to impulse buying.",
+     "tr": "Ekran süresi anlık alışverişle bağlantılı."
+    },
+    {
+     "en": "This also affects fashion: old styles come back faster.",
+     "tr": "Bu modayı da etkiliyor: eski tarzlar daha hızlı geri geliyor."
+    }
+   ],
+   "commonMistake": "connected with de kullanılır; ama about with gibi çift edat yanlıştır."
+  },
+  {
+   "id": "changed-way",
+   "term": "has changed the way we …",
+   "meaning": "… biçimimizi değiştirdi",
+   "partOfSpeech": "present perfect kalıbı",
+   "sourceTerms": [
+    "has changed the way we …"
+   ],
+   "explanation": [
+    "Bugüne uzanan değişimi anlatan kalıp. the way we + fiil: the way we shop, talk, eat, keep in touch."
+   ],
+   "collocations": [
+    {
+     "en": "the way we shop",
+     "tr": "alışveriş biçimimiz"
+    },
+    {
+     "en": "keep in touch",
+     "tr": "iletişimde kalmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Video calls have changed the way we keep in touch.",
+     "tr": "Görüntülü aramalar iletişimde kalma biçimimizi değiştirdi."
+    },
+    {
+     "en": "Technology has changed the way we shop.",
+     "tr": "Teknoloji alışveriş biçimimizi değiştirdi."
+    },
+    {
+     "en": "The pandemic changed the way many people work.",
+     "tr": "Salgın birçok insanın çalışma biçimini değiştirdi.",
+     "note": "belirli dönem: past simple"
+    }
+   ],
+   "commonMistake": "our shopping shape yanlış; the way we shop denir."
+  },
+  {
+   "id": "throwaway",
+   "term": "throwaway culture",
+   "meaning": "at-kullan kültürü",
+   "partOfSpeech": "isim öbeği",
+   "sourceTerms": [
+    "throwaway culture"
+   ],
+   "explanation": [
+    "Eşyaları kısa süre kullanıp atma alışkanlığı. throw away = atmak; a throwaway cup = tek kullanımlık bardak."
+   ],
+   "collocations": [
+    {
+     "en": "throw away",
+     "tr": "atmak"
+    },
+    {
+     "en": "single-use plastic",
+     "tr": "tek kullanımlık plastik"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Cheap plastic toys are part of our throwaway culture.",
+     "tr": "Ucuz plastik oyuncaklar at-kullan kültürümüzün parçası."
+    },
+    {
+     "en": "We throw away too much food.",
+     "tr": "Çok fazla yiyecek atıyoruz."
+    },
+    {
+     "en": "Repair cafés fight against throwaway culture.",
+     "tr": "Tamir kafeleri at-kullan kültürüne karşı mücadele ediyor."
+    }
+   ],
+   "commonMistake": "throw (tek başına) fırlatmaktır; atmak için throw away kullanılır."
+  },
+  {
+   "id": "impulse-buying",
+   "term": "impulse buying",
+   "meaning": "anlık, düşünmeden alışveriş",
+   "partOfSpeech": "isim öbeği",
+   "sourceTerms": [
+    "impulse buying"
+   ],
+   "explanation": [
+    "Plan yapmadan, o anki istekle alışveriş. an impulse buy düşünmeden alınan ürün. Kasa önündeki ürünler ve “sadece bugün” teklifleri bunu hedefler."
+   ],
+   "collocations": [
+    {
+     "en": "an impulse buy",
+     "tr": "düşünmeden alınan şey"
+    },
+    {
+     "en": "on impulse",
+     "tr": "o anki istekle"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Supermarkets put sweets near the till for impulse buying.",
+     "tr": "Süpermarketler anlık alışveriş için şekerleri kasanın yanına koyar."
+    },
+    {
+     "en": "The jacket was an impulse buy. I've never worn it.",
+     "tr": "Ceket anlık bir alışverişti. Hiç giymedim."
+    },
+    {
+     "en": "I bought it on impulse.",
+     "tr": "O anki istekle aldım."
+    }
+   ],
+   "commonMistake": "impulsive shopping de anlaşılır ama yerleşik ifade impulse buying'dir."
+  },
+  {
+   "id": "repair-replace",
+   "term": "repair ↔ replace",
+   "meaning": "onarmak ↔ yenisiyle değiştirmek",
+   "partOfSpeech": "fiil",
+   "sourceTerms": [
+    "repair ↔ replace"
+   ],
+   "explanation": [
+    "repair bozuk olanı onarmak; replace yerine yenisini koymak. fix günlük dilde repair ile aynı anlamda kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "fix",
+     "tr": "tamir etmek"
+    },
+    {
+     "en": "a replacement",
+     "tr": "yenisi, yedeği"
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's cheaper to repair the washing machine than to replace it.",
+     "tr": "Çamaşır makinesini onarmak yenisini almaktan daha ucuz."
+    },
+    {
+     "en": "My uncle can fix almost anything.",
+     "tr": "Amcam neredeyse her şeyi tamir edebilir."
+    },
+    {
+     "en": "We replaced the old fridge last year.",
+     "tr": "Eski buzdolabını geçen yıl yenisiyle değiştirdik."
+    }
+   ],
+   "commonMistake": "renew (yenilemek) bir abonelik ya da belge içindir; eşyayı değiştirmek replace'tir."
+  },
+  {
+   "id": "screen-time",
+   "term": "screen time",
+   "meaning": "ekran süresi",
+   "partOfSpeech": "isim öbeği",
+   "sourceTerms": [
+    "screen time"
+   ],
+   "explanation": [
+    "Telefon, bilgisayar ve televizyon karşısında geçirilen süre. spend time on + isim / -ing kalıbıyla kullanılır."
+   ],
+   "collocations": [
+    {
+     "en": "cut down on screen time",
+     "tr": "ekran süresini azaltmak"
+    },
+    {
+     "en": "spend time on my phone",
+     "tr": "telefonda zaman geçirmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I try to keep my screen time under two hours.",
+     "tr": "Ekran süremi iki saatin altında tutmaya çalışıyorum."
+    },
+    {
+     "en": "Children's screen time has increased a lot.",
+     "tr": "Çocukların ekran süresi çok arttı."
+    },
+    {
+     "en": "I'm trying to cut down on screen time.",
+     "tr": "Ekran süremi azaltmaya çalışıyorum."
+    }
+   ],
+   "commonMistake": "screen hour değil screen time denir."
+  },
+  {
+   "id": "buy-local",
+   "term": "buy local",
+   "meaning": "yerel üreticiden almak",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "buy local"
+   ],
+   "explanation": [
+    "Yakındaki çiftçilerden, esnaftan ve el sanatçılarından alışveriş yapmak. Burada local zarf gibi kullanılır. support local businesses yerel işletmeleri desteklemektir."
+   ],
+   "collocations": [
+    {
+     "en": "local produce",
+     "tr": "yerel ürünler"
+    },
+    {
+     "en": "support local businesses",
+     "tr": "yerel işletmeleri desteklemek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "We buy local cheese from a village near İnegöl.",
+     "tr": "İnegöl yakınlarındaki bir köyden yerel peynir alıyoruz."
+    },
+    {
+     "en": "Buying local helps small farmers.",
+     "tr": "Yerel üreticiden almak küçük çiftçilere yardım ediyor."
+    },
+    {
+     "en": "Bursa silk is a local product with a long history.",
+     "tr": "Bursa ipeği uzun bir geçmişi olan yerel bir ürün."
+    }
+   ],
+   "commonMistake": "buy locally de doğrudur; buy local slogan biçimidir."
+  },
+  {
+   "id": "couldnt-agree",
+   "term": "I couldn't agree more.",
+   "meaning": "sonuna kadar katılıyorum",
+   "partOfSpeech": "katılma",
+   "sourceTerms": [
+    "I couldn't agree more."
+   ],
+   "explanation": [
+    "Olumsuz görünür ama en güçlü katılmadır: daha fazla katılamazdım. Benzerleri: Absolutely. · That's exactly what I think."
+   ],
+   "collocations": [
+    {
+     "en": "Absolutely.",
+     "tr": "kesinlikle"
+    },
+    {
+     "en": "That's exactly what I think.",
+     "tr": "ben de tam öyle düşünüyorum"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I couldn't agree more. Delivery should be free.",
+     "tr": "Sonuna kadar katılıyorum. Teslimat ücretsiz olmalı."
+    },
+    {
+     "en": "That's exactly what I think.",
+     "tr": "Ben de tam olarak öyle düşünüyorum."
+    },
+    {
+     "en": "Absolutely. Children see too many adverts.",
+     "tr": "Kesinlikle. Çocuklar çok fazla reklam görüyor."
+    }
+   ],
+   "commonMistake": "I can't agree more de duyulur ama yerleşik kalıp I couldn't agree more'dur."
+  },
+  {
+   "id": "up-to-point",
+   "term": "That's true up to a point, but …",
+   "meaning": "bir yere kadar doğru ama …",
+   "partOfSpeech": "kısmen katılma",
+   "sourceTerms": [
+    "That's true up to a point, but …"
+   ],
+   "explanation": [
+    "Kısmen katılıp kendi görüşüne yer açar. Benzerleri: I agree to some extent, but … · Partly, yes."
+   ],
+   "collocations": [
+    {
+     "en": "to some extent",
+     "tr": "bir ölçüde"
+    },
+    {
+     "en": "partly",
+     "tr": "kısmen"
+    }
+   ],
+   "examples": [
+    {
+     "en": "That's true up to a point, but it depends on the shop.",
+     "tr": "Bir yere kadar doğru ama dükkâna bağlı."
+    },
+    {
+     "en": "I agree to some extent. You can still ask politely.",
+     "tr": "Bir ölçüde katılıyorum. Yine de kibarca sorabilirsin."
+    },
+    {
+     "en": "Partly, yes. But not for shoes.",
+     "tr": "Kısmen evet. Ama ayakkabı için değil."
+    }
+   ],
+   "commonMistake": "until a place yanlış; up to a point denir."
+  },
+  {
+   "id": "may-be-right",
+   "term": "You may be right, but …",
+   "meaning": "haklı olabilirsin ama …",
+   "partOfSpeech": "kısmen katılma",
+   "sourceTerms": [
+    "You may be right, but …"
+   ],
+   "explanation": [
+    "Karşıdakinin haklı olma ihtimalini kabul edip kendi görüşünü söyler. may = olasılık. Benzeri: You might be right, but …"
+   ],
+   "collocations": [
+    {
+     "en": "You might be right",
+     "tr": "haklı olabilirsin"
+    },
+    {
+     "en": "I still think …",
+     "tr": "yine de … düşünüyorum"
+    }
+   ],
+   "examples": [
+    {
+     "en": "You may be right, but I still prefer cash.",
+     "tr": "Haklı olabilirsin ama yine de nakdi tercih ederim."
+    },
+    {
+     "en": "You may be right, but my grandmother lives happily without a smartphone.",
+     "tr": "Haklı olabilirsin ama babaannem akıllı telefon olmadan mutlu yaşıyor."
+    },
+    {
+     "en": "You might be right. Let's check the prices.",
+     "tr": "Haklı olabilirsin. Fiyatlara bakalım."
+    }
+   ],
+   "commonMistake": "Maybe you are right, but … da olur; ama You may be right daha doğal bir kalıptır."
+  },
+  {
+   "id": "see-what-mean",
+   "term": "I see what you mean, but …",
+   "meaning": "ne demek istediğini anlıyorum ama …",
+   "partOfSpeech": "kibar katılmama",
+   "sourceTerms": [
+    "I see what you mean, but …"
+   ],
+   "explanation": [
+    "En kibar katılmama kalıbı: önce anladığını gösterir, sonra kendi görüşünü söyler. Benzeri: I take your point, but …"
+   ],
+   "collocations": [
+    {
+     "en": "I take your point, but …",
+     "tr": "dediğini anlıyorum ama …"
+    },
+    {
+     "en": "But what about …?",
+     "tr": "ama … ne olacak?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I see what you mean, but not everyone has a car.",
+     "tr": "Ne demek istediğini anlıyorum ama herkesin arabası yok."
+    },
+    {
+     "en": "I take your point, but I think adverts are useful.",
+     "tr": "Dediğini anlıyorum ama bence reklamlar faydalı."
+    },
+    {
+     "en": "I see what you mean. But what about older people?",
+     "tr": "Ne demek istediğini anlıyorum. Ama yaşlılar ne olacak?"
+    }
+   ],
+   "commonMistake": "I understand what you say de olur ama I see what you mean daha doğaldır."
+  },
+  {
+   "id": "afraid-disagree",
+   "term": "I'm afraid I don't agree.",
+   "meaning": "maalesef katılmıyorum",
+   "partOfSpeech": "katılmama",
+   "sourceTerms": [
+    "I'm afraid I don't agree."
+   ],
+   "explanation": [
+    "I'm afraid ile yumuşatılmış açık ret. Daha güçlü: I completely disagree. (sert duyulabilir) · Daha yumuşak: I'm not sure about that."
+   ],
+   "collocations": [
+    {
+     "en": "I'm not sure about that.",
+     "tr": "bundan emin değilim"
+    },
+    {
+     "en": "I completely disagree.",
+     "tr": "hiç katılmıyorum"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm afraid I don't agree. I think adverts can be fun.",
+     "tr": "Maalesef katılmıyorum. Bence reklamlar eğlenceli olabilir."
+    },
+    {
+     "en": "I'm not sure about that. Many people can only shop at weekends.",
+     "tr": "Bundan emin değilim. Birçok insan sadece hafta sonu alışveriş yapabiliyor."
+    },
+    {
+     "en": "I completely disagree with that idea.",
+     "tr": "O fikre hiç katılmıyorum."
+    }
+   ],
+   "commonMistake": "You are wrong. kaba duyulur; I'm afraid I don't agree. daha kibardır."
+  },
+  {
+   "id": "agree-with-that",
+   "term": "agree with … · agree that …",
+   "meaning": "…'e katılmak · … olduğuna katılmak",
+   "partOfSpeech": "fiil kalıbı",
+   "sourceTerms": [
+    "agree with … · agree that …"
+   ],
+   "explanation": [
+    "agree fiildir; be ile kullanılmaz. Kişiye: agree with; fikre: agree that + cümle; konuya: agree on / about."
+   ],
+   "collocations": [
+    {
+     "en": "agree on",
+     "tr": "bir konuda anlaşmak"
+    },
+    {
+     "en": "disagree with",
+     "tr": "katılmamak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I agree with Seda that bags are better second-hand.",
+     "tr": "Çantaların ikinci el daha iyi olduğu konusunda Seda'ya katılıyorum."
+    },
+    {
+     "en": "I agree that phones are expensive.",
+     "tr": "Telefonların pahalı olduğuna katılıyorum."
+    },
+    {
+     "en": "We agree on most things.",
+     "tr": "Çoğu konuda anlaşıyoruz."
+    }
+   ],
+   "commonMistake": "I am agree yanlış; I agree denir."
+  },
+  {
+   "id": "so-neither",
+   "term": "So do I. · Neither do I.",
+   "meaning": "ben de · ben de (olumsuz)",
+   "partOfSpeech": "kısa cevap",
+   "sourceTerms": [
+    "So do I. · Neither do I."
+   ],
+   "explanation": [
+    "Olumlu cümleye So + yardımcı fiil + I, olumsuz cümleye Neither + yardımcı fiil + I. Yardımcı fiili ilk cümle belirler: do, did, am, have, can. Gündelik: Me too / Me neither."
+   ],
+   "collocations": [
+    {
+     "en": "So am I. · So did I.",
+     "tr": "ben de"
+    },
+    {
+     "en": "Neither can I. · Neither have I.",
+     "tr": "ben de (olumsuz)"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I don't like crowded malls. — Neither do I.",
+     "tr": "Kalabalık AVM'leri sevmem. — Ben de sevmem."
+    },
+    {
+     "en": "I'm tired of fast fashion. — So am I.",
+     "tr": "Hızlı modadan bıktım. — Ben de."
+    },
+    {
+     "en": "I've never bargained. — Neither have I.",
+     "tr": "Hiç pazarlık yapmadım. — Ben de yapmadım."
+    }
+   ],
+   "commonMistake": "Olumsuz cümleye Me too ya da Neither don't I yanlış; Neither do I / Me neither denir."
+  }
+ ]
+}
