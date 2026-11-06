@@ -22,9 +22,9 @@ const renderer = data => { const window = {}; vm.runInNewContext(runtime, { wind
 test('the three-day A1 lesson covers the 8 and 14 November outcomes, jobs, this / that and Atatürk without repeating lesson 4', () => {
   assert.equal(lesson.meta.level, 'A1');
   const ids = lesson.screens.map(screen => screen.id);
-  for (const id of ['routine-pictures', 'collocations', 'verb-forms', 'have-got', 'possessive-adj', 'family-words', 'family-tree', 'possessive-s', 'noun-phrases', 'wh-questions', 'wh-practice', 'jobs', 'what-do-you-do', 'jobs-match', 'write-jobs', 'dream-job', 'objects', 'this-that', 'describe', 'picture-say', 'ataturk', 'ataturk-today']) assert.ok(ids.includes(id), id);
+  for (const id of ['routine-pictures', 'collocations', 'verb-forms', 'have-got', 'possessive-adj', 'family-words', 'family-tree', 'possessive-s', 'noun-phrases', 'wh-questions', 'wh-practice', 'jobs', 'what-do-you-do', 'jobs-match', 'write-jobs', 'dream-job', 'objects', 'this-that', 'describe', 'picture-say', 'ataturk', 'ataturk-young', 'ataturk-places', 'ataturk-today', 'ataturk-stations', 'ataturk-guide', 'ataturk-lineup']) assert.ok(ids.includes(id), id);
   const text = JSON.stringify(lesson);
-  for (const phrase of ['watch a film', 'listen to music', 'pray', 'I\'ve got a car.', 'She\'s got two sons.', 'Murat and his wife', 'Ali is my mother\'s brother.', 'Whose bag is this?', 'Where do you go on Sundays?', 'What do you do?', 'I want to be a pilot', 'These are new. Those are old.', 'Atatürk was born in 1881.', '29 October 1923', '10 November 1938', 'Anıtkabir is in Ankara.', "Hasan and Zehra's day", 'After lunch, they have a rest.', 'the twenty-third of April', 'Peace at home, peace in the world.', 'won the Great Victory']) assert.ok(text.includes(phrase), phrase);
+  for (const phrase of ['watch a film', 'listen to music', 'pray', 'I\'ve got a car.', 'She\'s got two sons.', 'Murat and his wife', 'Ali is my mother\'s brother.', 'Whose bag is this?', 'Where do you go on Sundays?', 'What do you do?', 'I want to be a pilot', 'These are new. Those are old.', 'Atatürk was born in 1881.', '29 October 1923', '10 November 1938', 'Anıtkabir is in Ankara.', "Hasan and Zehra's day", 'After lunch, they have a rest.', 'the twenty-third of April', 'Peace at home, peace in the world.', 'won the Great Victory', 'Mustafa had a little sister', 'the Walking Mansion', 'by ship', 'Road of Lions', 'Sabiha Gökçen']) assert.ok(text.includes(phrase), phrase);
   for (const repeated of ['What time do you get up?', 'She has breakfast alone.', 'First, I get up. Then I have a shower.', 'How do you go to work?']) assert.ok(!text.includes(repeated), `lesson 4 sentence repeated: ${repeated}`);
   for (const screen of lesson.screens.filter(screen => screen.block > 0 && screen.type !== 'break' && !screen.extra && !['warm2', 'close'].includes(screen.id))) assert.ok(screen.sections.some(section => section.type === 'explain'), `${screen.id}: topic explanation`);
   const trees = lesson.screens.flatMap(screen => screen.sections || []).filter(section => section.type === 'familyTree');
@@ -41,7 +41,7 @@ test('every non-game teaching screen and every phrase-bank item has detailed Tur
   const teaching = lesson.screens.filter(screen => screen.block > 0 && screen.type !== 'break' && !screen.extra).map(screen => screen.id);
   assert.deepEqual(data.chapters.map(chapter => chapter.screenId).sort(), [...teaching].sort());
   assert.deepEqual(data.blocks, [1, 2, 3]);
-  assert.equal(data.stats.sourceTerms, 77);
+  assert.equal(data.stats.sourceTerms, 86);
   assert.ok(data.stats.wordCount >= 24000, `${data.stats.wordCount} words`);
   for (const block of blocks) assert.ok(studyWordCount(block) >= 7000, `Block ${block.block} needs detailed explanations`);
   for (const chapter of data.chapters) {
@@ -86,4 +86,17 @@ test('a missing chapter or phrase-bank item stops publication', () => {
   const missingTerm = structuredClone(blocks);
   for (const block of missingTerm) for (const word of block.glossary) word.sourceTerms = word.sourceTerms.filter(term => term !== 'pray');
   assert.throws(() => validateStudy(missingTerm, lesson, config), /açıklaması eksik kelimeler: pray/);
+});
+
+test('from screen 16 on every teaching screen has an extra reading or class research, and the Atatürk section has four teaching screens', () => {
+  const from = lesson.screens.findIndex(screen => screen.id === 'wh-questions');
+  const later = lesson.screens.slice(from).filter(screen => screen.block > 0 && screen.type !== 'break' && !screen.extra && screen.id !== 'close');
+  for (const screen of later) {
+    assert.ok(screen.sections.some(section => (section.type === 'reading' && /^Ek okuma|Little Mustafa|The Walking Mansion|Mustafa Kemal Atatürk/.test(section.title)) || /^Araştıralım/.test(section.title || '')), `${screen.id}: extra reading or research`);
+    assert.ok(screen.sections.filter(section => section.type === 'activity').length >= 2, `${screen.id}: class activities`);
+  }
+  const ataturk = lesson.screens.filter(screen => /^ataturk/.test(screen.id));
+  assert.equal(ataturk.filter(screen => !screen.extra).length, 4);
+  assert.ok(ataturk.filter(screen => !screen.extra).reduce((sum, screen) => sum + screen.min, 0) >= 55);
+  assert.ok(ataturk.flatMap(screen => screen.sections).filter(section => section.type === 'reading').length >= 5);
 });

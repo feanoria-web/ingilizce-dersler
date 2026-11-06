@@ -30,6 +30,27 @@
      "why": [
       "Heceleme oyunu: harfleri İngilizce okuyun."
      ]
+    },
+    {
+     "en": "WANTED: a cook for a fish restaurant in Mudanya.",
+     "tr": "ARANIYOR: Mudanya'da bir balık restoranı için aşçı.",
+     "why": [
+      "WANTED = aranıyor (ilan dili); a cook for … = … için bir aşçı."
+     ]
+    },
+    {
+     "en": "You work from ten to six, six days a week.",
+     "tr": "Haftada altı gün, ondan altıya kadar çalışırsınız.",
+     "why": [
+      "from … to … = …den …e kadar; six days a week = haftada altı gün."
+     ]
+    },
+    {
+     "en": "WANTED: an English teacher for children at a language school in the city centre.",
+     "tr": "ARANIYOR: şehir merkezinde bir dil okulunda çocuklar için İngilizce öğretmeni.",
+     "why": [
+      "an English teacher (ünlü sesle başlar → an)."
+     ]
     }
    ],
    "patterns": [
@@ -217,6 +238,27 @@
      "tr": "Çocukken öğretmen olmak istiyordum.",
      "why": [
       "was ve wanted geçmiş zaman; kalıp olarak öğrenilir."
+     ]
+    },
+    {
+     "en": "I want to be a vet, because I love animals.",
+     "tr": "Veteriner olmak istiyorum, çünkü hayvanları çok seviyorum.",
+     "why": [
+      "want to be a … + because …: hayal + sebep."
+     ]
+    },
+    {
+     "en": "I want to be a firefighter, because firefighters are brave.",
+     "tr": "İtfaiyeci olmak istiyorum, çünkü itfaiyeciler cesurdur.",
+     "why": [
+      "brave = cesur; firefighters çoğul → are."
+     ]
+    },
+    {
+     "en": "My hero is Sabiha Gökçen. She was the first Turkish woman pilot.",
+     "tr": "Kahramanım Sabiha Gökçen. İlk Türk kadın pilottu.",
+     "why": [
+      "hero = kahraman; was = idi; the first … = ilk …"
      ]
     }
    ],
@@ -427,6 +469,27 @@
      "tr": "Hayır, altın değil. Pirinç. Sarı ve kahverengi.",
      "why": [
       "isn't olumsuz; iki renk and ile."
+     ]
+    },
+    {
+     "en": "In my bag, there's a blue notebook, a pencil case and my phone.",
+     "tr": "Çantamda mavi bir defter, bir kalem kutusu ve telefonum var.",
+     "why": [
+      "there's = there is; sıfat isimden önce: a blue notebook."
+     ]
+    },
+    {
+     "en": "My keys are in a small pocket.",
+     "tr": "Anahtarlarım küçük bir cepte.",
+     "why": [
+      "keys çoğul → are; in a pocket = bir cepte."
+     ]
+    },
+    {
+     "en": "It's my glasses case. It's for my reading glasses.",
+     "tr": "Bu benim gözlük kabım. Okuma gözlüğüm için.",
+     "why": [
+      "It's for + isim: ne işe yaradığını söyler."
      ]
     }
    ],
@@ -646,6 +709,27 @@
      "why": [
       "Tanıtmada This is; over there = şurada."
      ]
+    },
+    {
+     "en": "Excuse me, how much is this lamp?",
+     "tr": "Affedersiniz, bu lamba ne kadar?",
+     "why": [
+      "this + tekil, yakındaki nesne; how much is …? fiyat sorusu."
+     ]
+    },
+    {
+     "en": "Those chairs are 300 lira each. They're old, but they're strong.",
+     "tr": "Şu sandalyeler tanesi 300 lira. Eskiler ama sağlamlar.",
+     "why": [
+      "those + çoğul, uzaktaki; each = tanesi; They're: tekrar etmemek için."
+     ]
+    },
+    {
+     "en": "These cups are from my grandmother's kitchen.",
+     "tr": "Bu fincanlar büyükannemin mutfağından.",
+     "why": [
+      "these + çoğul, yakında; grandmother's kitchen: 's ile tamlama."
+     ]
     }
    ],
    "patterns": [
@@ -856,6 +940,27 @@
      "tr": "Bu telefon ucuz, şu telefon pahalı.",
      "why": [
       "this / that + isim; cheap ↔ expensive."
+     ]
+    },
+    {
+     "en": "This is my grandmother's kitchen in İnegöl. It's small, but it's warm and bright.",
+     "tr": "Bu, büyükannemin İnegöl'deki mutfağı. Küçük ama sıcak ve aydınlık.",
+     "why": [
+      "This is …: tanıtma; but ile zıt bilgi; warm and bright: iki sıfat."
+     ]
+    },
+    {
+     "en": "That cupboard is old, too, but this fridge is new.",
+     "tr": "Şu dolap da eski ama bu buzdolabı yeni.",
+     "why": [
+      "that (uzak) ↔ this (yakın); too = de, da."
+     ]
+    },
+    {
+     "en": "Those plates on the wall are blue and white. They're from Kütahya.",
+     "tr": "Duvardaki şu tabaklar mavi beyaz. Kütahya'dan.",
+     "why": [
+      "those + çoğul → are; on the wall = duvarda; from + yer."
      ]
     }
    ],
@@ -1075,6 +1180,27 @@
      "tr": "Şu ne? — Uçak.",
      "why": [
       "Uzak, tek; aeroplane ünlü sesle başlar → an."
+     ]
+    },
+    {
+     "en": "Who's that? That's our teacher, next to the board.",
+     "tr": "Şu kim? O bizim öğretmenimiz, tahtanın yanında.",
+     "why": [
+      "Who's that? kişi sorusu; next to = yanında."
+     ]
+    },
+    {
+     "en": "What's that on the wall? It's a map of Turkey.",
+     "tr": "Duvardaki şu ne? Bir Türkiye haritası.",
+     "why": [
+      "What's that? tekil ve uzak; cevap It's …"
+     ]
+    },
+    {
+     "en": "What are those on the table? They're our books and notebooks.",
+     "tr": "Masadaki şunlar ne? Kitaplarımız ve defterlerimiz.",
+     "why": [
+      "What are those? çoğul ve uzak; cevap They're …"
      ]
     }
    ],
@@ -1567,6 +1693,632 @@
    ]
   },
   {
+   "screenId": "ataturk-young",
+   "title": "Atatürkçülük: Atatürk'ün çocukluğu ve okul yılları",
+   "intro": [
+    "Bu ekranda Atatürk'ü bir çocuk olarak tanıyoruz. Mustafa 1881'de Selanik'te doğdu; annesi Zübeyde Hanım, babası Ali Rıza Efendi, kız kardeşi Makbule'ydi. Babası gümrükte çalıştı, sonra kereste ticareti yaptı. Mustafa küçükken babası vefat etti; aile bir süre dayısının çiftliğinde yaşadı ve küçük Mustafa tarlalara göz kulak oldu. Sonra Selanik'e döndüler. Mustafa askerî okula girmek istedi ve sınava annesine söylemeden girdi! Matematik öğretmeninin adı da Mustafa olduğu için öğretmeni ona ikinci bir ad verdi: Kemal.",
+    "Dil açısından bu ekran bu dersin iki konusunu birleştirir: aile kelimeleri (his mother, his father, his sister, his uncle) ve geçmişi anlatmak. Yeni olan iki kalıp var: When he was a child, … (o çocukken …) ve had (vardı). Mustafa had a sister. = Mustafa'nın bir kız kardeşi vardı. Düzenli fiiller -ed alır (lived, loved, wanted, worked, helped); düzensiz fiiller ezberlenir (took, sold, gave, read). Jigsaw okuma ve “Ben çocukken …” halkası bu kalıpları sınıfça kullanmak içindir."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "Mustafa was born in 1881 in a pink house in Thessaloniki.",
+     "tr": "Mustafa 1881'de Selanik'te pembe bir evde doğdu.",
+     "why": [
+      "was born kalıbı; in 1881 (yıl), in a pink house (yer), in Thessaloniki (şehir)."
+     ]
+    },
+    {
+     "en": "Today, this house is a museum.",
+     "tr": "Bugün bu ev bir müze.",
+     "why": [
+      "Today + geniş zaman: bugünkü durum; this house: yakındaki, sözü edilen ev."
+     ]
+    },
+    {
+     "en": "Mustafa had a little sister, Makbule.",
+     "tr": "Mustafa'nın küçük bir kız kardeşi vardı: Makbule.",
+     "why": [
+      "had = vardı (have'in geçmişi)."
+     ]
+    },
+    {
+     "en": "The family lived on his uncle's farm for a time.",
+     "tr": "Aile bir süre dayısının çiftliğinde yaşadı.",
+     "why": [
+      "lived (-ed); his uncle's farm: 's ile tamlama; on a farm = çiftlikte (on edatı)."
+     ]
+    },
+    {
+     "en": "He took the exam, but he didn't tell his mother!",
+     "tr": "Sınava girdi ama annesine söylemedi!",
+     "why": [
+      "take an exam = sınava girmek (took); didn't + yalın fiil = söylemedi."
+     ]
+    },
+    {
+     "en": "His maths teacher had the same name: Mustafa. So the teacher gave him a second name: Kemal.",
+     "tr": "Matematik öğretmeninin adı da aynıydı: Mustafa. Bu yüzden öğretmen ona ikinci bir ad verdi: Kemal.",
+     "why": [
+      "had the same name = adı aynıydı; So = bu yüzden; gave him = ona verdi."
+     ]
+    },
+    {
+     "en": "All his life, he loved books and reading.",
+     "tr": "Hayatı boyunca kitapları ve okumayı çok sevdi.",
+     "why": [
+      "All his life = hayatı boyunca; loved (-ed); reading = okumak (isim gibi)."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ay-had",
+     "title": "Mustafa had a little sister. · He had the same name as his teacher.",
+     "meaning": "had ile geçmişte sahip olmayı ve aile bağlarını anlatmak",
+     "explanation": [
+      "Bu derste bugün sahip olduklarımızı have got ile anlattık: I've got a sister. She's got two sons. Geçmiş için have got kullanılmaz; have fiilinin geçmişi had kullanılır: Mustafa had a little sister. (Mustafa'nın küçük bir kız kardeşi vardı.) had bütün kişilerle aynıdır: I had, he had, they had.",
+      "had ile aile bağları da anlatılır: Atatürk had adopted daughters. (Manevi kızları vardı.) Bir benzerlik de had ile söylenir: His maths teacher had the same name. (Matematik öğretmeninin adı da aynıydı.) Türkçedeki “vardı” ve “-ı vardı” yapısının karşılığıdır.",
+      "Olumsuz ve soru biçimleri did ile kurulur ve fiil yalın kalır: Did he have a brother? (Erkek kardeşi var mıydı?) Bu, “He didn't tell his mother.” cümlesindeki didn't ile aynı mantıktır: geçmiş bilgisi did üzerindedir, fiil yalındır."
+     ],
+     "formula": [
+      "Bugün: has got / have got · Geçmiş: had",
+      "had bütün kişilerde aynı: I had · he had · they had",
+      "Olumsuz: didn't + yalın fiil (didn't tell)"
+     ],
+     "examples": [
+      {
+       "en": "Mustafa had a little sister, Makbule.",
+       "tr": "Mustafa'nın küçük bir kız kardeşi vardı: Makbule.",
+       "why": [
+        "had = vardı; virgülden sonra ad."
+       ],
+       "chunks": [
+        {
+         "en": "had",
+         "tr": "vardı"
+        },
+        {
+         "en": "a little sister",
+         "tr": "küçük bir kız kardeş"
+        }
+       ]
+      },
+      {
+       "en": "His maths teacher had the same name: Mustafa.",
+       "tr": "Matematik öğretmeninin adı da aynıydı: Mustafa.",
+       "why": [
+        "had the same name = adı aynıydı."
+       ]
+      },
+      {
+       "en": "He took the exam, but he didn't tell his mother!",
+       "tr": "Sınava girdi ama annesine söylemedi!",
+       "why": [
+        "didn't + yalın fiil (tell)."
+       ]
+      },
+      {
+       "en": "Atatürk had adopted daughters. One of them was Sabiha Gökçen.",
+       "tr": "Atatürk'ün manevi kızları vardı. Biri Sabiha Gökçen'di.",
+       "why": [
+        "One of them = onlardan biri."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Mustafa'nın bir kız kardeşi vardı.”",
+       "answer": "Mustafa had a sister.",
+       "why": "had."
+      },
+      {
+       "question": "He has got bir geçmiş cümlede doğru mu?",
+       "answer": "Hayır; geçmişte had kullanılır.",
+       "why": "has got = bugün."
+      },
+      {
+       "question": "“Annesine söylemedi.”",
+       "answer": "He didn't tell his mother.",
+       "why": "didn't + yalın."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Mustafa has got a sister in 1890.",
+       "right": "Mustafa had a sister.",
+       "why": "Geçmiş için had."
+      },
+      {
+       "wrong": "He didn't told his mother.",
+       "right": "He didn't tell his mother.",
+       "why": "didn't'tan sonra fiil yalın."
+      }
+     ]
+    },
+    {
+     "id": "ay-past",
+     "title": "When Mustafa was a little boy, his father died. · He loved maths and history.",
+     "meaning": "Bir çocukluğu geçmiş zaman fiilleriyle anlatmak",
+     "explanation": [
+      "When + özne + was + … (… iken, … olduğunda) bir çocukluğu anlatmaya başlamanın en kolay yoludur: When Mustafa was a little boy, his father died. · When I was a child, I lived in a village. Bu cümlenin iki parçası da geçmiştedir: was ve died.",
+      "Düzenli fiiller -ed alır: live → lived (yaşadı), love → loved (çok sevdi), want → wanted (istedi), work → worked (çalıştı), help → helped (yardım etti), watch → watched (izledi, göz kulak oldu), die → died (öldü, vefat etti). Sonu e ile biten fiillere sadece -d eklenir: lived, loved, died.",
+      "Düzensiz fiillerin geçmişi ezberlenir: take → took (aldı; take an exam = sınava girmek), sell → sold (sattı), give → gave (verdi), go → went (gitti), read → read (okudu; yazılışı aynı, okunuşu [red]). Metinde bu fiiller Atatürk'ün çocukluğunu sırayla anlatır: babası sattı (sold), aile yaşadı (lived), Mustafa sınava girdi (took), öğretmen ad verdi (gave)."
+     ],
+     "formula": [
+      "When + özne + was …, … = … iken / … olduğunda",
+      "-ed: lived · loved · wanted · worked · helped",
+      "ezber: took · sold · gave · went · read [red]"
+     ],
+     "examples": [
+      {
+       "en": "When Mustafa was a little boy, his father died.",
+       "tr": "Mustafa küçük bir çocukken babası vefat etti.",
+       "why": [
+        "When + was: çocukluk; died: geçmiş."
+       ],
+       "chunks": [
+        {
+         "en": "When Mustafa was a little boy",
+         "tr": "Mustafa küçük bir çocukken"
+        },
+        {
+         "en": "his father died",
+         "tr": "babası vefat etti"
+        }
+       ]
+      },
+      {
+       "en": "The family lived on his uncle's farm for a time.",
+       "tr": "Aile bir süre dayısının çiftliğinde yaşadı.",
+       "why": [
+        "live → lived; for a time = bir süre."
+       ]
+      },
+      {
+       "en": "His father worked at the customs office and later sold wood.",
+       "tr": "Babası gümrükte çalıştı, sonra kereste sattı.",
+       "why": [
+        "worked (-ed), sold (sell, düzensiz)."
+       ]
+      },
+      {
+       "en": "When I was a child, I loved drawing.",
+       "tr": "Ben çocukken resim yapmayı çok severdim.",
+       "why": [
+        "Kendi çocukluğunu anlatmak."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "take fiilinin geçmişi?",
+       "answer": "took",
+       "why": "Düzensiz."
+      },
+      {
+       "question": "“Aile bir çiftlikte yaşadı.”",
+       "answer": "The family lived on a farm.",
+       "why": "live → lived."
+      },
+      {
+       "question": "“Ben çocukken … severdim.” kalıbı?",
+       "answer": "When I was a child, I loved …",
+       "why": "When + was."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "When Mustafa is a little boy, his father died.",
+       "right": "When Mustafa was a little boy, his father died.",
+       "why": "Çocukluk geçmişte: was."
+      },
+      {
+       "wrong": "He selled wood.",
+       "right": "He sold wood.",
+       "why": "sell düzensizdir: sold."
+      }
+     ]
+    },
+    {
+     "id": "ay-family",
+     "title": "his mother · his father · his sister · his uncle's farm · his maths teacher",
+     "meaning": "Bu dersin aile ve sahiplik kalıplarını Atatürk metninde kullanmak",
+     "explanation": [
+      "Bu dersin aile kelimeleri (mother, father, sister, uncle) ve sahiplik sıfatları (my, your, his, her) Atatürk metninde de karşımıza çıkar. his = onun (erkek için): his mother (annesi), his father (babası), his sister (kız kardeşi). Kız kardeşinden söz ederken her kullanırız: Makbule loved her brother.",
+      "'s ile tamlama da metinde var: his uncle's farm (dayısının çiftliği), Atatürk's house (Atatürk'ün evi), Atatürk's clothes (Atatürk'ün kıyafetleri). Bir kişinin bir şeyi: kişi + 's + şey. Türkçedeki “dayısının çiftliği” iki ek alır (-ı, -sı); İngilizcede ise sadece 's yeter.",
+      "uncle kelimesi Türkçede hem amca hem dayı demektir; İngilizcede ikisi için de uncle kullanılır. Aynı şekilde aunt hem hala hem teyzedir. Atatürk'ün çocukluğunda aile dayısının (annesinin kardeşinin) çiftliğinde yaşadı; İngilizcede bunu sadece his uncle's farm diye söyleriz."
+     ],
+     "formula": [
+      "his = onun (erkek) · her = onun (kadın)",
+      "kişi + 's + şey: his uncle's farm · Atatürk's house",
+      "uncle = amca / dayı · aunt = hala / teyze"
+     ],
+     "examples": [
+      {
+       "en": "His mother, Zübeyde Hanım, was a kind and strong woman.",
+       "tr": "Annesi Zübeyde Hanım nazik ve güçlü bir kadındı.",
+       "why": [
+        "his mother; araya giren ad virgüllerle."
+       ]
+      },
+      {
+       "en": "The family lived on his uncle's farm.",
+       "tr": "Aile dayısının çiftliğinde yaşadı.",
+       "why": [
+        "his + uncle's + farm: iki sahiplik."
+       ],
+       "chunks": [
+        {
+         "en": "his uncle's",
+         "tr": "dayısının"
+        },
+        {
+         "en": "farm",
+         "tr": "çiftlik"
+        }
+       ]
+      },
+      {
+       "en": "Atatürk's house in Thessaloniki is a museum today.",
+       "tr": "Atatürk'ün Selanik'teki evi bugün bir müze.",
+       "why": [
+        "Atatürk's house: 's ile tamlama."
+       ]
+      },
+      {
+       "en": "In the museum, we saw Atatürk's clothes and books.",
+       "tr": "Müzede Atatürk'ün kıyafetlerini ve kitaplarını gördük.",
+       "why": [
+        "Atatürk's + çoğul isim."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Babası” (erkek için) İngilizcesi?",
+       "answer": "his father",
+       "why": "his."
+      },
+      {
+       "question": "“Dayısının çiftliği”",
+       "answer": "his uncle's farm",
+       "why": "his + 's."
+      },
+      {
+       "question": "uncle Türkçede ne demek?",
+       "answer": "amca ya da dayı",
+       "why": "İkisi için de uncle."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "the farm of his uncle's",
+       "right": "his uncle's farm",
+       "why": "'s tamlaması yeterlidir."
+      },
+      {
+       "wrong": "Atatürks house",
+       "right": "Atatürk's house",
+       "why": "Kesme işareti ile 's."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "screenId": "ataturk-places",
+   "title": "Atatürkçülük: Atatürk'ün hayatındaki yerler",
+   "intro": [
+    "Atatürk'ün hayatı birçok şehirden geçer. Selanik'te (Thessaloniki) doğdu; evi bugün müzedir. Manastır'da (bugün Kuzey Makedonya'da Bitola) askerî liseye gitti. İstanbul'da Harbiye'de okudu; Dolmabahçe Sarayı bugün müzedir. 1915'te Çanakkale'de komutandı. 19 Mayıs 1919'da Bandırma Vapuru ile Samsun'a çıktı. Ankara'da Meclis açıldı ve Ankara 1923'te başkent oldu; Anıtkabir Ankara'dadır.",
+    "Bursa ile bağı da güçlüdür: Bursa 11 Eylül 1922'de kurtuldu ve Atatürk şehri pek çok kez ziyaret etti. Çekirge'deki Atatürk Müzesi onun Bursa'ya gelişlerinde kaldığı köşktür; şehir merkezine de oradaki büyük Atatürk heykeli yüzünden Heykel denir. Yakındaki Yalova'da Yürüyen Köşk vardır: 1930'da bir çınar ağacının dalları evin duvarlarına değince Atatürk ağacın kesilmesini istemedi ve ev raylar üzerinde yaklaşık beş metre kaydırıldı. Dil açısından ekranın kalıpları: was in, went to, by ship, There is / There are, near."
+   ],
+   "sentenceNotes": [
+    {
+     "en": "He went here by ship. The ship's name was Bandırma.",
+     "tr": "Buraya gemiyle geldi. Geminin adı Bandırma'ydı.",
+     "why": [
+      "went (go); by ship = gemiyle; the ship's name: 's ile tamlama."
+     ]
+    },
+    {
+     "en": "Ankara became the capital in 1923.",
+     "tr": "Ankara 1923'te başkent oldu.",
+     "why": [
+      "become → became; in + yıl; the capital = başkent."
+     ]
+    },
+    {
+     "en": "Bursa was free again. Atatürk visited Bursa many times.",
+     "tr": "Bursa yeniden özgür oldu (kurtuldu). Atatürk Bursa'yı pek çok kez ziyaret etti.",
+     "why": [
+      "was free again = yeniden özgürdü; visit + yer, edatsız; many times = pek çok kez."
+     ]
+    },
+    {
+     "en": "Yalova is a small city near Bursa.",
+     "tr": "Yalova Bursa yakınlarında küçük bir şehir.",
+     "why": [
+      "near + yer = … yakınında."
+     ]
+    },
+    {
+     "en": "Next to the house, there was a big old plane tree.",
+     "tr": "Evin yanında büyük, yaşlı bir çınar ağacı vardı.",
+     "why": [
+      "there was: geçmişte vardı; plane tree = çınar ağacı; big old: iki sıfat."
+     ]
+    },
+    {
+     "en": "Atatürk said no. He didn't want to cut the tree.",
+     "tr": "Atatürk hayır dedi. Ağacı kesmek istemedi.",
+     "why": [
+      "said (say); didn't want to + yalın fiil."
+     ]
+    },
+    {
+     "en": "This story shows one thing: Atatürk loved nature and trees.",
+     "tr": "Bu hikâye bir şeyi gösteriyor: Atatürk doğayı ve ağaçları çok severdi.",
+     "why": [
+      "shows (geniş zaman, -s); loved (geçmiş); nature = doğa."
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "id": "ap-in-to",
+     "title": "In 1915, he was in Çanakkale. · On 19 May 1919, he went to Samsun by ship.",
+     "meaning": "was in, went to ve by ship ile yerleri anlatmak",
+     "explanation": [
+      "Bir yerde bulunmayı was in + yer anlatır: In 1915, he was in Çanakkale. (1915'te Çanakkale'deydi.) Bir yere gitmeyi went to + yer anlatır: He went to Samsun. (Samsun'a gitti.) Türkçede ikisi de hâl ekiyle söylenir (-de, -e); İngilizcede edat değişir: bulunmak in, gitmek to.",
+      "Nasıl gittiğini by + taşıt söyler: by ship (gemiyle), by train (trenle), by car (arabayla), by bus (otobüsle). Taşıttan önce a ya da the gelmez: by ship (by a ship değil). Geminin adını ayrıca söyleyebiliriz: The ship's name was Bandırma. (Geminin adı Bandırma'ydı.)",
+      "Doğum yeri için was born in kullanılır: He was born in Thessaloniki. Bir yerde okumak: He studied in Istanbul. Bir yeri ziyaret etmek: He visited Bursa many times. visit fiilinden sonra edat gelmez: visit Bursa (visit to Bursa değil)."
+     ],
+     "formula": [
+      "was in + yer = …'deydi",
+      "went to + yer = …'e gitti · by ship / by train / by car",
+      "visit + yer (edatsız): He visited Bursa."
+     ],
+     "examples": [
+      {
+       "en": "On 19 May 1919, he went to Samsun by ship. The ship's name was Bandırma.",
+       "tr": "19 Mayıs 1919'da gemiyle Samsun'a gitti. Geminin adı Bandırma'ydı.",
+       "why": [
+        "went to + yer; by ship; the ship's name: 's ile tamlama."
+       ],
+       "chunks": [
+        {
+         "en": "went to Samsun",
+         "tr": "Samsun'a gitti"
+        },
+        {
+         "en": "by ship",
+         "tr": "gemiyle"
+        }
+       ]
+      },
+      {
+       "en": "In 1915, he was in Çanakkale. He was a commander there.",
+       "tr": "1915'te Çanakkale'deydi. Orada komutandı.",
+       "why": [
+        "was in + yer; there = orada."
+       ]
+      },
+      {
+       "en": "He studied at the Military Academy in Istanbul.",
+       "tr": "İstanbul'da Harbiye'de okudu.",
+       "why": [
+        "studied at + okul, in + şehir."
+       ]
+      },
+      {
+       "en": "Atatürk visited Bursa many times.",
+       "tr": "Atatürk Bursa'yı pek çok kez ziyaret etti.",
+       "why": [
+        "visit + yer: edat yok."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Samsun'a gitti.”",
+       "answer": "He went to Samsun.",
+       "why": "went to."
+      },
+      {
+       "question": "“Gemiyle” İngilizcesi?",
+       "answer": "by ship",
+       "why": "by + taşıt."
+      },
+      {
+       "question": "He visited to Bursa. Düzelt.",
+       "answer": "He visited Bursa.",
+       "why": "visit edatsız."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "He went in Samsun.",
+       "right": "He went to Samsun.",
+       "why": "Yön için to."
+      },
+      {
+       "wrong": "He went to Samsun by a ship.",
+       "right": "He went to Samsun by ship.",
+       "why": "by + taşıt: artikel yok."
+      }
+     ]
+    },
+    {
+     "id": "ap-there-is",
+     "title": "Today there is a museum in Çekirge. · There are twenty-four lions at Anıtkabir.",
+     "meaning": "There is / There are ile bugün o yerlerde ne olduğunu söylemek",
+     "explanation": [
+      "Bir yerde bir şeyin var olduğunu There is + tekil, There are + çoğul ile söyleriz: There is a museum in Çekirge. (Çekirge'de bir müze var.) · There are twenty-four lion statues on the Road of Lions. (Aslanlı Yol'da yirmi dört aslan heykeli var.) Kısaltma: There's.",
+      "Geçmiş için was / were: There was a big old plane tree next to the house. (Evin yanında büyük, yaşlı bir çınar ağacı vardı.) Metinde ikisi yan yana gelir: 1930'da orada bir ağaç vardı (there was), bugün orada bir müze var (there is). Today (bugün) kelimesi bu farkı gösterir.",
+      "Yeri ayrıntılandırmak için near (yakınında), next to (yanında), in the centre of (… merkezinde), on a hill (bir tepede) kullanılır: Yalova is near Bursa. · Anıtkabir is on a hill in the centre of Ankara. · The Atatürk Museum is in Çekirge."
+     ],
+     "formula": [
+      "There is + tekil · There are + çoğul (bugün)",
+      "There was / There were (geçmiş)",
+      "near · next to · in the centre of · on a hill"
+     ],
+     "examples": [
+      {
+       "en": "Today there's a Bandırma museum ship in Samsun.",
+       "tr": "Bugün Samsun'da bir Bandırma müze gemisi var.",
+       "why": [
+        "There's = There is; tekil."
+       ]
+      },
+      {
+       "en": "There are twenty-four lion statues on the Road of Lions.",
+       "tr": "Aslanlı Yol'da yirmi dört aslan heykeli var.",
+       "why": [
+        "There are + çoğul."
+       ],
+       "chunks": [
+        {
+         "en": "There are",
+         "tr": "… var (çoğul)"
+        },
+        {
+         "en": "lion statues",
+         "tr": "aslan heykelleri"
+        }
+       ]
+      },
+      {
+       "en": "Next to the house, there was a big old plane tree.",
+       "tr": "Evin yanında büyük, yaşlı bir çınar ağacı vardı.",
+       "why": [
+        "there was: geçmiş."
+       ]
+      },
+      {
+       "en": "Yalova is a small city near Bursa.",
+       "tr": "Yalova Bursa yakınlarında küçük bir şehir.",
+       "why": [
+        "near = yakınında."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“Çekirge'de bir müze var.”",
+       "answer": "There is a museum in Çekirge.",
+       "why": "There is + tekil."
+      },
+      {
+       "question": "“Evin yanında bir ağaç vardı.”",
+       "answer": "There was a tree next to the house.",
+       "why": "There was."
+      },
+      {
+       "question": "There is twenty-four lions. Düzelt.",
+       "answer": "There are twenty-four lions.",
+       "why": "Çoğul → are."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "There is two museums in Bursa.",
+       "right": "There are two museums in Bursa.",
+       "why": "Çoğul → There are."
+      },
+      {
+       "wrong": "Yalova is near to Bursa.",
+       "right": "Yalova is near Bursa.",
+       "why": "near'dan sonra to gerekmez."
+      }
+     ]
+    },
+    {
+     "id": "ap-story",
+     "title": "The workers wanted to cut the branches. Atatürk didn't want to cut the tree.",
+     "meaning": "Kısa bir hikâyeyi sırayla okumak: Yürüyen Köşk",
+     "explanation": [
+      "Hikâyeler geçmiş zamanla anlatılır ve olaylar sırayla gelir: Önce durum (In 1930, Atatürk sometimes stayed in this house.), sonra sorun (Its branches hit the walls of the house.), sonra karar (Atatürk didn't want to cut the tree.), sonra çözüm (The workers put the house on rails and moved it.) ve sonuç (The tree was safe!).",
+      "want to + fiil (… istemek) hikâyenin anahtarıdır: The workers wanted to cut the branches. (İşçiler dalları kesmek istedi.) · Atatürk didn't want to cut the tree. (Atatürk ağacı kesmek istemedi.) Olumsuzda didn't + want: wanted değil want kalır.",
+      "its = onun (cansız şey ya da hayvan için): Its branches = ağacın dalları. Its name is the Walking Mansion = adı Yürüyen Köşk. it's (it is) ile karıştırmayın: It's a museum = O bir müze. Hikâyenin sonundaki cümle bir ders çıkarır: This story shows one thing: Atatürk loved nature and trees."
+     ],
+     "formula": [
+      "durum → sorun → karar → çözüm → sonuç",
+      "want to + fiil · didn't want to + fiil",
+      "its (onun) ≠ it's (it is)"
+     ],
+     "examples": [
+      {
+       "en": "The workers wanted to cut the branches.",
+       "tr": "İşçiler dalları kesmek istedi.",
+       "why": [
+        "wanted to + yalın fiil."
+       ]
+      },
+      {
+       "en": "Atatürk didn't want to cut the tree.",
+       "tr": "Atatürk ağacı kesmek istemedi.",
+       "why": [
+        "didn't want to: olumsuz istek."
+       ],
+       "chunks": [
+        {
+         "en": "didn't want to",
+         "tr": "… istemedi"
+        },
+        {
+         "en": "cut the tree",
+         "tr": "ağacı kesmek"
+        }
+       ]
+      },
+      {
+       "en": "So the workers put the house on rails and moved it about five metres.",
+       "tr": "Bu yüzden işçiler evi raylara koydu ve yaklaşık beş metre kaydırdı.",
+       "why": [
+        "put (düzensiz, aynı), moved (-ed); about = yaklaşık."
+       ]
+      },
+      {
+       "en": "Its branches hit the walls of the house.",
+       "tr": "Dalları evin duvarlarına çarpıyordu.",
+       "why": [
+        "its = ağacın."
+       ]
+      }
+     ],
+     "checks": [
+      {
+       "question": "“İstemedi.” (want)",
+       "answer": "didn't want",
+       "why": "didn't + yalın."
+      },
+      {
+       "question": "its mi it's mi? “___ name is the Walking Mansion.”",
+       "answer": "Its",
+       "why": "Sahiplik: its."
+      },
+      {
+       "question": "Hikâyedeki sorun neydi?",
+       "answer": "The branches of the plane tree hit the walls of the house.",
+       "why": "Sorun: dallar."
+      }
+     ],
+     "mistakes": [
+      {
+       "wrong": "Atatürk didn't wanted to cut the tree.",
+       "right": "Atatürk didn't want to cut the tree.",
+       "why": "didn't'tan sonra yalın fiil."
+      },
+      {
+       "wrong": "It's branches hit the walls.",
+       "right": "Its branches hit the walls.",
+       "why": "Sahiplik için its."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "screenId": "ataturk-today",
    "title": "Atatürkçülük: Atatürk'ün yaptıkları, millî bayramlar ve 10 Kasım",
    "intro": [
@@ -1614,6 +2366,34 @@
      "tr": "“Yurtta sulh, cihanda sulh.” dedi.",
      "why": [
       "say → said; Atatürk'ün ünlü sözü."
+     ]
+    },
+    {
+     "en": "First, we walked on the Road of Lions. There are twenty-four lion statues on this road.",
+     "tr": "Önce Aslanlı Yol'da yürüdük. Bu yolda yirmi dört aslan heykeli var.",
+     "why": [
+      "First = önce; walked (-ed); There are + çoğul."
+     ]
+    },
+    {
+     "en": "We stood in silence for a minute.",
+     "tr": "Bir dakika saygı duruşunda bulunduk.",
+     "why": [
+      "stand → stood; in silence = sessizce; for a minute = bir dakika."
+     ]
+    },
+    {
+     "en": "In 1934, Atatürk gave her the surname Gökçen. “Gök” means “sky” in Turkish.",
+     "tr": "1934'te Atatürk ona Gökçen soyadını verdi. “Gök” Türkçede gökyüzü demektir.",
+     "why": [
+      "gave her = ona verdi; means = anlamına gelir."
+     ]
+    },
+    {
+     "en": "Today, a big airport in Istanbul has her name: Sabiha Gökçen Airport.",
+     "tr": "Bugün İstanbul'daki büyük bir havalimanı onun adını taşıyor: Sabiha Gökçen Havalimanı.",
+     "why": [
+      "has her name = onun adını taşıyor; her = onun (kadın)."
      ]
     }
    ],
@@ -2753,6 +3533,339 @@
     }
    ],
    "commonMistake": "Alıntı tırnak içinde yazılır ve said ile verilir: Atatürk said, “…”."
+  },
+  {
+   "id": "makbule",
+   "term": "his sister Makbule",
+   "meaning": "kız kardeşi Makbule",
+   "partOfSpeech": "isim öbeği",
+   "sourceTerms": [
+    "his sister Makbule"
+   ],
+   "explanation": [
+    "Atatürk'ün kız kardeşi Makbule. his sister = onun kız kardeşi (erkek kardeşin kız kardeşi). Kendi kız kardeşiniz için my sister dersiniz."
+   ],
+   "collocations": [
+    {
+     "en": "a little sister",
+     "tr": "küçük kız kardeş"
+    },
+    {
+     "en": "a big sister",
+     "tr": "abla"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Mustafa had a little sister, Makbule.",
+     "tr": "Mustafa'nın küçük bir kız kardeşi vardı: Makbule."
+    },
+    {
+     "en": "Makbule loved her brother.",
+     "tr": "Makbule ağabeyini çok severdi."
+    },
+    {
+     "en": "I've got a big sister and a little brother.",
+     "tr": "Bir ablam ve bir erkek kardeşim var."
+    }
+   ],
+   "commonMistake": "his sister'ı her sister ile karıştırmayın: Mustafa'nın kardeşi için his sister."
+  },
+  {
+   "id": "military-school",
+   "term": "military school",
+   "meaning": "askerî okul",
+   "partOfSpeech": "isim öbeği",
+   "sourceTerms": [
+    "military school"
+   ],
+   "explanation": [
+    "Askerî okul. Atatürk Selanik'te askerî ortaokula, Manastır'da askerî liseye, İstanbul'da Harbiye'ye (the Military Academy) gitti. take an exam = sınava girmek."
+   ],
+   "collocations": [
+    {
+     "en": "the Military Academy",
+     "tr": "Harbiye"
+    },
+    {
+     "en": "take an exam",
+     "tr": "sınava girmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Mustafa took the exam for military school.",
+     "tr": "Mustafa askerî okulun sınavına girdi."
+    },
+    {
+     "en": "He went to military school in Thessaloniki.",
+     "tr": "Selanik'te askerî okula gitti."
+    },
+    {
+     "en": "Later, he studied at the Military Academy in Istanbul.",
+     "tr": "Sonra İstanbul'da Harbiye'de okudu."
+    }
+   ],
+   "commonMistake": "military okul değil military school yazılır."
+  },
+  {
+   "id": "same-name",
+   "term": "the same name · a second name",
+   "meaning": "aynı ad · ikinci bir ad",
+   "partOfSpeech": "isim öbeği",
+   "sourceTerms": [
+    "the same name · a second name"
+   ],
+   "explanation": [
+    "the same = aynı; a second = ikinci bir. Atatürk'ün matematik öğretmeninin adı da Mustafa'ydı; bu yüzden öğretmeni ona ikinci bir ad verdi: Kemal."
+   ],
+   "collocations": [
+    {
+     "en": "the same age",
+     "tr": "aynı yaş"
+    },
+    {
+     "en": "a second chance",
+     "tr": "ikinci bir şans"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The teacher had the same name, so Mustafa got a second name.",
+     "tr": "Öğretmenin adı da aynıydı, bu yüzden Mustafa ikinci bir ad aldı."
+    },
+    {
+     "en": "My friend and I have got the same name.",
+     "tr": "Arkadaşımla aynı adı taşıyoruz."
+    },
+    {
+     "en": "Kemal means “perfection”.",
+     "tr": "Kemal “mükemmellik, olgunluk” demektir."
+    }
+   ],
+   "commonMistake": "same'den önce the gelir: the same name (same name değil)."
+  },
+  {
+   "id": "by-ship",
+   "term": "by ship · the Bandırma",
+   "meaning": "gemiyle · Bandırma Vapuru",
+   "partOfSpeech": "kalıp",
+   "sourceTerms": [
+    "by ship · the Bandırma"
+   ],
+   "explanation": [
+    "by + taşıt nasıl gidildiğini söyler; araya a ya da the girmez. Atatürk 19 Mayıs 1919'da Bandırma Vapuru ile Samsun'a gitti; bugün Samsun'da bir Bandırma müze gemisi var."
+   ],
+   "collocations": [
+    {
+     "en": "by train",
+     "tr": "trenle"
+    },
+    {
+     "en": "by car",
+     "tr": "arabayla"
+    }
+   ],
+   "examples": [
+    {
+     "en": "He went to Samsun by ship.",
+     "tr": "Samsun'a gemiyle gitti."
+    },
+    {
+     "en": "The ship's name was Bandırma.",
+     "tr": "Geminin adı Bandırma'ydı."
+    },
+    {
+     "en": "Today there's a Bandırma museum ship in Samsun.",
+     "tr": "Bugün Samsun'da bir Bandırma müze gemisi var."
+    }
+   ],
+   "commonMistake": "by a ship değil by ship denir."
+  },
+  {
+   "id": "capital",
+   "term": "the capital",
+   "meaning": "başkent",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "the capital"
+   ],
+   "explanation": [
+    "Bir ülkenin yönetim merkezi olan şehir. Ankara 13 Ekim 1923'te Türkiye'nin başkenti oldu. the capital of + ülke."
+   ],
+   "collocations": [
+    {
+     "en": "the capital of Turkey",
+     "tr": "Türkiye'nin başkenti"
+    },
+    {
+     "en": "became the capital",
+     "tr": "başkent oldu"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Ankara became the capital in 1923.",
+     "tr": "Ankara 1923'te başkent oldu."
+    },
+    {
+     "en": "Ankara is the capital of Turkey.",
+     "tr": "Ankara Türkiye'nin başkentidir."
+    },
+    {
+     "en": "Istanbul is a big city, but it isn't the capital.",
+     "tr": "İstanbul büyük bir şehir ama başkent değil."
+    }
+   ],
+   "commonMistake": "Ankara is capital değil Ankara is the capital denir."
+  },
+  {
+   "id": "museum",
+   "term": "a museum",
+   "meaning": "müze",
+   "partOfSpeech": "isim",
+   "sourceTerms": [
+    "a museum"
+   ],
+   "explanation": [
+    "Tarihî ve kültürel eşyaların sergilendiği yer. Atatürk'ün Selanik'teki evi, Dolmabahçe Sarayı, Bursa Çekirge'deki köşk ve Yalova'daki Yürüyen Köşk bugün müzedir. Okunuşu: [myuziyım]."
+   ],
+   "collocations": [
+    {
+     "en": "a house museum",
+     "tr": "ev müzesi"
+    },
+    {
+     "en": "visit a museum",
+     "tr": "müze ziyaret etmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "His house in Thessaloniki is a museum.",
+     "tr": "Selanik'teki evi bir müze."
+    },
+    {
+     "en": "There's an Atatürk Museum in Çekirge.",
+     "tr": "Çekirge'de bir Atatürk Müzesi var."
+    },
+    {
+     "en": "We visited the museum at Anıtkabir.",
+     "tr": "Anıtkabir'deki müzeyi ziyaret ettik."
+    }
+   ],
+   "commonMistake": "müze kelimesini İngilizcede muze diye yazmayın: museum."
+  },
+  {
+   "id": "walking-mansion",
+   "term": "the Walking Mansion",
+   "meaning": "Yürüyen Köşk",
+   "partOfSpeech": "özel isim",
+   "sourceTerms": [
+    "the Walking Mansion"
+   ],
+   "explanation": [
+    "Yalova'daki küçük ahşap köşk. 1930'da bir çınar ağacının dalları duvarlara değince Atatürk ağacın kesilmesini istemedi; ev raylar üzerinde yaklaşık beş metre kaydırıldı. Bugün müzedir."
+   ],
+   "collocations": [
+    {
+     "en": "a plane tree",
+     "tr": "çınar ağacı"
+    },
+    {
+     "en": "on rails",
+     "tr": "raylar üzerinde"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The Walking Mansion is in Yalova.",
+     "tr": "Yürüyen Köşk Yalova'da."
+    },
+    {
+     "en": "The workers moved the house about five metres.",
+     "tr": "İşçiler evi yaklaşık beş metre kaydırdı."
+    },
+    {
+     "en": "This story shows that Atatürk loved trees.",
+     "tr": "Bu hikâye Atatürk'ün ağaçları sevdiğini gösterir."
+    }
+   ],
+   "commonMistake": "mansion büyük ev, köşk demektir; walking burada “yürüyen” (kayan) anlamında."
+  },
+  {
+   "id": "road-lions",
+   "term": "the Road of Lions · the Hall of Honour",
+   "meaning": "Aslanlı Yol · Şeref Holü",
+   "partOfSpeech": "özel isim",
+   "sourceTerms": [
+    "the Road of Lions · the Hall of Honour"
+   ],
+   "explanation": [
+    "Anıtkabir'in iki bölümü: Aslanlı Yol'da yirmi dört aslan heykeli vardır; Şeref Holü'nde Atatürk'ün lahdi bulunur. Ziyaretçiler burada saygı duruşunda bulunur."
+   ],
+   "collocations": [
+    {
+     "en": "lion statues",
+     "tr": "aslan heykelleri"
+    },
+    {
+     "en": "stand in silence",
+     "tr": "saygı duruşunda bulunmak"
+    }
+   ],
+   "examples": [
+    {
+     "en": "There are twenty-four lions on the Road of Lions.",
+     "tr": "Aslanlı Yol'da yirmi dört aslan var."
+    },
+    {
+     "en": "Atatürk's tomb is in the Hall of Honour.",
+     "tr": "Atatürk'ün kabri Şeref Holü'nde."
+    },
+    {
+     "en": "We walked on the Road of Lions to the Hall of Honour.",
+     "tr": "Aslanlı Yol'da Şeref Holü'ne yürüdük."
+    }
+   ],
+   "commonMistake": "Özel isimlerde büyük harf: the Road of Lions."
+  },
+  {
+   "id": "first-pilot",
+   "term": "the first Turkish woman pilot",
+   "meaning": "ilk Türk kadın pilot",
+   "partOfSpeech": "isim öbeği",
+   "sourceTerms": [
+    "the first Turkish woman pilot"
+   ],
+   "explanation": [
+    "Atatürk'ün manevi kızı Sabiha Gökçen ilk Türk kadın pilottur. Soyadını 1934'te Atatürk verdi; “gök” gökyüzü demektir. İstanbul'daki bir havalimanı bugün onun adını taşır."
+   ],
+   "collocations": [
+    {
+     "en": "an adopted daughter",
+     "tr": "manevi kız"
+    },
+    {
+     "en": "learn flying",
+     "tr": "uçmayı öğrenmek"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Sabiha Gökçen was the first Turkish woman pilot.",
+     "tr": "Sabiha Gökçen ilk Türk kadın pilottu."
+    },
+    {
+     "en": "Atatürk gave her the surname Gökçen.",
+     "tr": "Atatürk ona Gökçen soyadını verdi."
+    },
+    {
+     "en": "Today an airport in Istanbul has her name.",
+     "tr": "Bugün İstanbul'da bir havalimanı onun adını taşıyor."
+    }
+   ],
+   "commonMistake": "the first'ten önce the unutulmaz: the first Turkish woman pilot."
   }
  ]
 }

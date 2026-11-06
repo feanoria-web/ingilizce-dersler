@@ -755,6 +755,27 @@
      "why": [
       "How araç sorar; cevap by + araç."
      ]
+    },
+    {
+     "en": "I live in a flat near the course with my husband and my son.",
+     "tr": "Kursa yakın bir dairede eşim ve oğlumla yaşıyorum.",
+     "why": [
+      "Bu cümle üç sorunun cevabıdır: Where? (in a flat near the course) ve Who with? (my husband and my son)."
+     ]
+    },
+    {
+     "en": "I start work at nine o'clock and I finish at six.",
+     "tr": "İşe dokuzda başlarım ve altıda bitiririm.",
+     "why": [
+      "When? sorusunun cevabı: at + saat."
+     ]
+    },
+    {
+     "en": "I go to work by bus. It takes twenty minutes.",
+     "tr": "İşe otobüsle giderim. Yirmi dakika sürer.",
+     "why": [
+      "How? sorusunun cevabı: by bus. It takes … = … sürer."
+     ]
     }
    ],
    "patterns": [
@@ -978,6 +999,27 @@
      "why": [
       "in + ay; the family → has; at the beach."
      ]
+    },
+    {
+     "en": "What do you do? — I'm a bus driver. I drive a city bus in Bursa.",
+     "tr": "Ne iş yapıyorsunuz? — Otobüs şoförüyüm. Bursa'da bir şehir otobüsü kullanıyorum.",
+     "why": [
+      "What do you do? meslek sorusudur; drive = (araç) kullanmak."
+     ]
+    },
+    {
+     "en": "When do you start work? — Very early, at six o'clock.",
+     "tr": "İşe ne zaman başlıyorsunuz? — Çok erken, saat altıda.",
+     "why": [
+      "When + do + you + fiil; cevapta at + saat."
+     ]
+    },
+    {
+     "en": "Who is your best friend at work? — Hüseyin, another driver.",
+     "tr": "İşteki en iyi arkadaşınız kim? — Hüseyin, başka bir şoför.",
+     "why": [
+      "Who is …? be fiilli soru, do yok; another = başka bir."
+     ]
     }
    ],
    "patterns": [
@@ -1179,6 +1221,27 @@
      "tr": "Otobüs şoförü.",
      "why": [
       "bus driver birleşik meslek adı; a ile."
+     ]
+    },
+    {
+     "en": "Mr Aydın on the first floor is a doctor. He works at the city hospital.",
+     "tr": "Birinci kattaki Bay Aydın doktor. Şehir hastanesinde çalışıyor.",
+     "why": [
+      "on the first floor = birinci katta; a doctor (ünsüz → a); works (he → -s)."
+     ]
+    },
+    {
+     "en": "One is a chef in a restaurant in Mudanya, and the other is an engineer at a car factory.",
+     "tr": "Biri Mudanya'da bir restoranda aşçıbaşı, diğeri bir araba fabrikasında mühendis.",
+     "why": [
+      "One … the other … = biri … diğeri …; an engineer (ünlü → an)."
+     ]
+    },
+    {
+     "en": "Our building has a caretaker, Mr Uysal. He cleans the stairs and helps everyone.",
+     "tr": "Binamızın bir kapıcısı var: Bay Uysal. Merdivenleri temizler ve herkese yardım eder.",
+     "why": [
+      "has = var (sahiplik); caretaker = kapıcı; cleans, helps (-s)."
      ]
     }
    ],
@@ -1397,6 +1460,27 @@
      "tr": "Çiftlikleri nerede? — İnegöl yakınında bir köyde.",
      "why": [
       "Where's = Where is; their = onların."
+     ]
+    },
+    {
+     "en": "I'm forty-two and I'm a mechanic. I work in a car repair shop in Bursa.",
+     "tr": "Kırk iki yaşındayım ve tamirciyim. Bursa'da bir oto tamirhanesinde çalışıyorum.",
+     "why": [
+      "Yaş için I'm + sayı; a mechanic; work in + iş yeri."
+     ]
+    },
+    {
+     "en": "My father is retired now. He was a farmer.",
+     "tr": "Babam artık emekli. Çiftçiydi.",
+     "why": [
+      "is retired = emekli; was a farmer = çiftçiydi (geçmiş meslek)."
+     ]
+    },
+    {
+     "en": "My daughter is eighteen. She's a student at university. She wants to be a lawyer.",
+     "tr": "Kızım on sekiz yaşında. Üniversitede öğrenci. Avukat olmak istiyor.",
+     "why": [
+      "wants to be a … = … olmak istiyor (hayal mesleği)."
      ]
     }
    ],
@@ -1699,6 +1783,27 @@
      "tr": "Bu kişi ilaç satar. — Eczacı.",
      "why": [
       "Bilmece kalıbı; cevapta a + meslek."
+     ]
+    },
+    {
+     "en": "The baker is already at work and makes fresh bread and simit for the city.",
+     "tr": "Fırıncı çoktan işinde ve şehir için taze ekmek ve simit yapıyor.",
+     "why": [
+      "already = çoktan; makes (tekil özne → -s)."
+     ]
+    },
+    {
+     "en": "In the villages near Bursa, farmers grow peaches and chestnuts.",
+     "tr": "Bursa yakınlarındaki köylerde çiftçiler şeftali ve kestane yetiştirir.",
+     "why": [
+      "farmers çoğul → grow (yalın); peaches, chestnuts: çoğul isimler."
+     ]
+    },
+    {
+     "en": "At night, firefighters and police officers work, too. They keep the city safe.",
+     "tr": "Geceleri itfaiyeciler ve polisler de çalışır. Şehri güvende tutarlar.",
+     "why": [
+      "too = de, da; keep … safe = güvende tutmak."
      ]
     }
    ],

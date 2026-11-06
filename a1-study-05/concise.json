@@ -681,6 +681,72 @@
      "exampleIndex": 2
     }
    ]
+  },
+  {
+   "screenId": "ataturk-young",
+   "intro": "Çocukluk: When he was a child, … · Mustafa had a sister (had = vardı). Geçmiş: lived, loved, wanted · took, sold, gave.",
+   "patterns": [
+    {
+     "id": "ay-had",
+     "summary": [
+      "Geçmişte sahip olmak: had (vardı).",
+      "had bütün kişilerde aynıdır.",
+      "Olumsuz: didn't + yalın fiil."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ay-past",
+     "summary": [
+      "When … was a child, … ile başla.",
+      "-ed: lived, loved, wanted, helped.",
+      "Düzensiz: took, sold, gave, went."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ay-family",
+     "summary": [
+      "his mother · his father · his sister",
+      "kişi + 's + şey: his uncle's farm",
+      "uncle = amca / dayı"
+     ],
+     "exampleIndex": 1
+    }
+   ]
+  },
+  {
+   "screenId": "ataturk-places",
+   "intro": "Yerler: was in + yer · went to + yer · by ship. Bugün: There is / There are … · near Bursa. Hikâye: Yürüyen Köşk.",
+   "patterns": [
+    {
+     "id": "ap-in-to",
+     "summary": [
+      "Bulunmak: was in + yer.",
+      "Gitmek: went to + yer · by ship.",
+      "visit + yer (edatsız)."
+     ],
+     "exampleIndex": 0
+    },
+    {
+     "id": "ap-there-is",
+     "summary": [
+      "There is + tekil · There are + çoğul.",
+      "Geçmiş: There was / There were.",
+      "near · next to · on a hill · in the centre of"
+     ],
+     "exampleIndex": 1
+    },
+    {
+     "id": "ap-story",
+     "summary": [
+      "Hikâye sırası: durum, sorun, karar, çözüm, sonuç.",
+      "want to · didn't want to + yalın fiil.",
+      "its = onun · it's = it is."
+     ],
+     "exampleIndex": 1
+    }
+   ]
   }
  ]
 }
