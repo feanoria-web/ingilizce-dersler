@@ -98,6 +98,29 @@
     "url": "lessons/a1/day-05.html"
   },
   {
+    "id": "a1/day-06",
+    "level": "A1",
+    "title": "Geçmiş zaman ve Atatürk'ün hayatı",
+    "description": "A1 altıncı ders (8 Kasım, 09.00–13.00, dört bölüm): geniş zaman ↔ geçmiş zaman (every day ↔ yesterday), zaman ifadeleri, was / were, -ed'li fiillerin yazımı ve okunuşu (/t/, /d/, /ɪd/), sık kullanılan düzensiz fiiller, didn't, Did you …? ve Where did you …? soruları, geçen hafta sonunu anlatmak; Atatürk'ün hayatı on iki fiille, Çanakkale'de hayatını kurtaran saat, Bandırma ile Samsun'a ve Ankara'ya yolculuk (1919), Cumhuriyet'e giden yol (1920–1923), Harf İnkılabı ve could / couldn't, Atatürk'ün sevdikleri, 10 Kasım 1938 ve Anıtkabir, sınıfça bir Atatürk kitabı. Sesli dinlemeler, video köşesi ve bol sınıf etkinliği.",
+    "number": 6,
+    "order": 6,
+    "date": "2026-11-08",
+    "duration": "210 dk",
+    "tags": [
+      "Geçmiş zaman",
+      "Geniş zaman ↔ geçmiş zaman",
+      "was · were",
+      "-ed",
+      "Düzensiz fiiller",
+      "didn't · Did you …?",
+      "Dinleme",
+      "Video",
+      "Atatürk'ün hayatı",
+      "10 Kasım"
+    ],
+    "url": "lessons/a1/day-06.html"
+  },
+  {
     "id": "a2/day-01",
     "level": "A2",
     "title": "Tanışma ve iletişim",
