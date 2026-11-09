@@ -238,6 +238,30 @@ window.LESSON_CATALOG = [
     "url": "lessons/a2/day-06.html"
   },
   {
+    "id": "a2/day-07",
+    "level": "A2",
+    "title": "Atatürk özel dersi (9–10 Kasım)",
+    "description": "A2 yedinci ders, 9–10 Kasım Atatürk özel dersi (iki gün, 4 × 100 dk): çocukluğu ve okul seçimi, askerî okullar ve genç subaylık, Çanakkale 1915, barış, 1919 (Samsun, Amasya, Erzurum, Sivas, Ankara), Meclis, İstiklal Marşı ve Sakarya, Büyük Zafer, Bursa'nın kurtuluşu, Mudanya ve Cumhuriyet, kağnılarla cephane taşıyan halk; 10 Kasım saat 09.05'te bir dakikalık saygı duruşu, son yılları, son yolculuğu, Anıtkabir, sözleri, ilkeleri ve inkılaplar, Gençliğe Hitabe, sınıf töreni ve Atatürk'e mektup. Geçmiş zaman (wanted to, had to, could), there was / were, was / were + -ing, tarih okuma, there is / are, must ve be going to; sesli dinlemeler ve bol sınıf etkinliği.",
+    "number": 7,
+    "order": 7,
+    "date": "2026-11-09",
+    "duration": "400 dk",
+    "tags": [
+      "Atatürk özel dersi",
+      "10 Kasım",
+      "Saygı duruşu",
+      "Çanakkale",
+      "Kurtuluş Savaşı",
+      "Anıtkabir",
+      "Atatürk ilkeleri",
+      "Gençliğe Hitabe",
+      "Geçmiş zaman",
+      "Past continuous",
+      "Tarih okuma"
+    ],
+    "url": "lessons/a2/day-07.html"
+  },
+  {
     "id": "a2/practice",
     "level": "A2",
     "title": "Tanışma ve konuşma · Ek çalışma",
