@@ -395,6 +395,30 @@ window.LESSON_CATALOG = [
     "url": "lessons/b1/day-07.html"
   },
   {
+    "id": "b1/day-08",
+    "level": "B1",
+    "title": "Atatürk özel dersi (9–10 Kasım)",
+    "description": "B1 sekizinci ders, 9–10 Kasım Atatürk özel dersi (iki gün, 4 × 100 dk): okul yılları (Şemsi Efendi, Manastır, Harbiye), genç subaylık (Şam, Trablusgarp, Balkanlar, Sofya), Çanakkale 1915 (18 Mart, 25 Nisan ve 57. Alay, Conkbayırı ve saat, Anzak Koyu), savaştan barışa tartışması, 1919 (Samsun, Amasya Genelgesi, Erzurum ve Sivas, Misak-ı Millî), Meclis, İstiklal Marşı ve Sakarya, Büyük Taarruz, Bursa'nın kurtuluşu ve Mudanya Ateşkesi, milletin savaşı; 10 Kasım saat 09.05'te bir dakikalık saygı duruşu, son yılları ve vasiyeti, milletin vedası, Anıtkabir, sözleri, altı ilke, Gençliğe Hitabe, sınıf töreni ve Atatürk'e mektup. Hikâye zamanları, edilgen yapı, dolaylı anlatım ve zaman bağlaçları; sesli dinlemeler ve bol sınıf etkinliği.",
+    "number": 8,
+    "order": 8,
+    "date": "2026-11-09",
+    "duration": "400 dk",
+    "tags": [
+      "Atatürk özel dersi",
+      "10 Kasım",
+      "Saygı duruşu",
+      "Çanakkale",
+      "Kurtuluş Savaşı",
+      "Anıtkabir",
+      "Atatürk ilkeleri",
+      "Gençliğe Hitabe",
+      "Hikâye zamanları",
+      "Edilgen yapı",
+      "Dolaylı anlatım"
+    ],
+    "url": "lessons/b1/day-08.html"
+  },
+  {
     "id": "b1/practice",
     "level": "B1",
     "title": "Tanışma ve konuşma · Ek çalışma",

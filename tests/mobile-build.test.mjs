@@ -183,7 +183,7 @@ test('all 18 existing lessons keep their source files and receive the expected m
     'a2/a1-review': 'lesson', 'a2/day-01': 'board', 'a2/day-02': 'lesson',
     'a2/day-04': 'lesson', 'a2/day-05': 'lesson', 'a2/day-06': 'lesson', 'a2/practice': 'board',
     'b1/day-01': 'board', 'b1/day-02': 'lesson', 'b1/day-03': 'lesson',
-    'b1/day-04': 'lesson', 'b1/day-05': 'lesson', 'b1/day-06': 'lesson', 'b1/day-07': 'lesson', 'b1/practice': 'board',
+    'b1/day-04': 'lesson', 'b1/day-05': 'lesson', 'b1/day-06': 'lesson', 'b1/day-07': 'lesson', 'b1/day-08': 'lesson', 'b1/practice': 'board',
     'yds/grammar-studio': 'yds',
   };
   const sourceHashes = new Map();
@@ -194,7 +194,7 @@ test('all 18 existing lessons keep their source files and receive the expected m
     await f.write(file, source, true);
   }
   const report = await buildMobile(f.root);
-  assert.equal(report.length, 22);
+  assert.equal(report.length, 23);
   for (const [name, family] of Object.entries(families)) {
     const file = `lessons/${name}.html`;
     assert.equal(report.find(row => row.lesson === file).family, family, file);
