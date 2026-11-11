@@ -1,0 +1,329 @@
+{
+  "screens": [
+    {
+      "id": "rainy-afternoon",
+      "block": 2,
+      "step": 7,
+      "min": 12,
+      "mode": "Birlikte incele → ikili çalışma",
+      "material": "Ekran",
+      "kicker": "Adım 7 · Geçmişte bir anın içine gir",
+      "title": "At two o’clock, everyone was doing something different.",
+      "titleTR": "Past Continuous: o sırada neler oluyordu?",
+      "lead": "Şimdi 7 Kasım Cumartesi günü saat 14.00'e dönüyoruz. Bir fotoğraf karesini durdurmuş gibi, o an devam eden işleri anlatacağız.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: was / were + fiil-ing",
+          "titleTR": "The scene, not the next event",
+          "paras": [
+            "<b>Past Continuous</b>, geçmişte seçtiğimiz bir anda devam eden eylemin içinden bakar: <i>At two, Elif was arranging the labels.</i> Saat iki, bakış noktamızdır; düzenlemenin başlangıç ve bitişini söylemiyoruz. <b>Past Simple</b> ise eylemi bütün bir olay olarak sunabilir: <i>Elif arranged the labels on Saturday.</i>",
+            "Özneye göre <b>I / he / she / it was</b>, <b>you / we / they were</b> kullanılır; ardından fiil <b>-ing</b> alır. Olumsuzda <b>wasn't / weren't</b>; soruda <b>Was / Were + özne</b> sırası gelir. Asıl fiile ayrıca geçmiş zaman eki eklenmez: <i>was testing</i>, <i>was testeding</i> değil.",
+            "Bu zaman mutlaka saatler süren bir işi anlatmak zorunda değildir. Önemli olan, anlatıcının eylemi <b>o sırada devam eden arka plan</b> olarak sunmasıdır. Kısa bir işlem de geçmişteki bir anda devam ediyor olabilir. Aynı cumartesi gününde bitmiş işleri anlatırken Past Simple'a geçebiliriz."
+          ],
+          "points": [
+            "Sahne: At 14.00, Mert was testing the speaker.",
+            "I / he / she / it → was; you / we / they → were.",
+            "Olumsuz: They weren't packing the photographs.",
+            "Soru: Was Elif arranging the labels? — Yes, she was."
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Aynı sahne, üç cümle biçimi",
+          "head": ["İşlev", "İngilizce", "Türkçe / dikkat"],
+          "rows": [
+            ["Olumlu", "Zeynep was sorting some reused cardboard.", "Zeynep yeniden kullanılacak kartonları ayırıyordu."],
+            ["Olumsuz", "Mert wasn't repairing the roof.", "Mert çatıyı onarmıyordu; hoparlörü deniyordu."],
+            ["Evet–hayır sorusu", "Were they working outside? — No, they weren't.", "Dışarıda mı çalışıyorlardı? — Hayır."],
+            ["Bilgi sorusu", "What was Elif doing at two?", "Elif saat ikide ne yapıyordu?"],
+            ["İki zamanı ayır", "She arranged the labels. / She was arranging the labels.", "İlk cümle olayı bütün olarak, ikincisi süreç içinden sunar."]
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Sergi hazırlığındaki arka plan",
+          "items": [
+            ["At two o'clock, Elif was arranging the labels beside the entrance.", "Saat ikide Elif girişin yanında etiketleri düzenliyordu.", "🏷️"],
+            ["Mert and Zeynep weren't looking for the box at that moment.", "Mert ve Zeynep o anda kutuyu aramıyordu.", "📦"],
+            ["Was Mert testing the speaker? — Yes, he was.", "Mert hoparlörü mü deniyordu? — Evet.", "🔊"],
+            ["The rain was hitting the windows while the students were working inside.", "Öğrenciler içeride çalışırken yağmur camlara vuruyordu.", "🌧️"]
+          ]
+        },
+        {
+          "type": "gap",
+          "title": "Saat 14.00 karesini tamamla",
+          "items": [
+            {"q": "At 14.00 on Saturday, Elif ___ (arrange) the labels.", "a": ["was arranging"], "why": "Özne Elif/she; o anda devam eden iş için was + arranging gerekir."},
+            {"q": "At that moment, Mert and Zeynep ___ (not look) for the photographs.", "a": ["were not looking"], "why": "Çoğul özne they ile were; olumsuzda not, ardından looking gelir. Kutunun kayıp olduğu henüz fark edilmemişti."},
+            {"q": "___ Mert testing the speaker at two? (was / were)", "a": ["Was"], "why": "Mert tekil olduğu için sorunun başında Was kullanılır; testing cümlede zaten vardır."},
+            {"q": "What ___ the students doing inside at that time? (was / were)", "a": ["were"], "why": "The students çoğuldur. Bilgi sorusunda what + were + özne + doing sırası kullanılır."}
+          ]
+        },
+        {
+          "type": "activity",
+          "icon": "📸",
+          "name": "Donmuş kareyi anlat",
+          "en": "A freeze-frame of Saturday",
+          "time": "3 dk",
+          "group": "İkili",
+          "steps": ["Biriniz üç öğrencinin saat 14.00'teki sahnesini zihninde canlandırsın. Üç olumlu, bir olumsuz cümle söylesin.", "Diğeri <b>What was … doing?</b> ve <b>Were they …?</b> ile iki soru sorsun; kısa cevaplar versin.", "Rolleri değiştirin. Şimdiki hazırlıklar için <b>is / are</b>, cumartesi karesi için <b>was / were</b> kullandığınızı kontrol edin."],
+          "board": ["At two on Saturday, … was / were …", "Was …? — Yes, … was. / No, … wasn't."]
+        }
+      ]
+    },
+    {
+      "id": "interrupted-tasks",
+      "block": 2,
+      "step": 8,
+      "min": 12,
+      "mode": "Karşılaştır → cümle kur",
+      "material": "Ekran",
+      "kicker": "Adım 8 · Arka plan ve olay",
+      "title": "We were working when the lights went out.",
+      "titleTR": "Past Continuous + Past Simple: sahnede ne değişti?",
+      "lead": "Saat 14.10'da elektrik kesildi. Devam eden hazırlıklarla bu yeni olayı aynı cümlede birbirine bağlayalım.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: iki zamanı iki farklı görev için kullan",
+          "titleTR": "Background + event / two ongoing actions",
+          "paras": [
+            "<i>We <b>were working</b> when the lights <b>went out</b>.</i> Çalışma, elektrik kesildiğinde zaten devam eden arka plandır. <b>Went out</b> sahnede meydana gelen yeni olayı verir. Past Simple her zaman fiziksel olarak kısa, Continuous her zaman uzun demek değildir; burada önemli olan hikâyedeki görevleridir.",
+            "<b>While</b> iki eşzamanlı süreci bağlayabilir: <i>While Elif was arranging the labels, Mert was testing the speaker.</i> Bu cümlede bir kesinti anlatılmıyor; aynı zaman diliminde iki kişinin farklı iş yapması anlatılıyor.",
+            "<b>When = kesin Past Simple, while = kesin Continuous</b> diye ezberlemeyin. <i>When we arrived, Nermin was checking the list.</i> ile <i>When I was living in Bursa, I visited the museum often.</i> farklı biçimler kullanabilir. Önce bağlanan bölümün <b>bitmiş olay mı, devam eden sahne mi</b> anlattığını belirleyin."
+          ],
+          "points": ["Devam eden sahne: was / were + -ing.", "Sahnedeki yeni olay: V2; the lights went out.", "İki eşzamanlı süreç: while + Past Continuous, Past Continuous.", "Bir bağlaç tek başına zamanı belirlemez; cümlelerin anlam ilişkisini okuyun."]
+        },
+        {
+          "type": "examples",
+          "title": "Aynı cumartesi, farklı ilişkiler",
+          "items": [
+            ["While Zeynep was sorting the cardboard, the lights went out.", "Zeynep kartonları ayırırken ışıklar söndü.", "💡"],
+            ["Elif was checking the labels while Mert was testing the speaker.", "Mert hoparlörü denerken Elif etiketleri kontrol ediyordu.", "↔️"],
+            ["When the lights went out, Mert stopped the test.", "Işıklar söndüğünde Mert denemeyi durdurdu.", "⏹️"],
+            ["When the lights came back on, the students were sitting beside the window.", "Işıklar yeniden yandığında öğrenciler pencerenin yanında oturuyordu.", "🪟"]
+          ]
+        },
+        {
+          "type": "choice",
+          "title": "Hikâyedeki ilişkiye göre seç",
+          "items": [
+            {"q": "At 14.10, Elif was checking a label when the lights ___.", "o": ["go out", "went out", "had going out"], "a": 1, "why": "Saat 14.10'da gerçekleşen yeni olay went out ile verilir; was checking zaten arka planı kurmuştur."},
+            {"q": "Which sentence describes two activities happening at the same time?", "o": ["Elif checked the labels and then called Mert.", "Mert finished the test before Elif arrived.", "While Elif was checking the labels, Mert was testing the speaker."], "a": 2, "why": "İki was + -ing yapısı aynı zaman diliminde devam eden iki işi gösterir; diğerleri sıra veya önce–sonra ilişkisi kurar."},
+            {"q": "Which question asks about the background at 14.10?", "o": ["What were they doing when the lights went out?", "What did they do after the lights came back on?", "What are they doing now?"], "a": 0, "why": "Were they doing geçmiş olay anındaki devam eden işi sorar. Diğerleri sonraki bitmiş olayları veya şimdiki işi sorar."},
+            {"q": "The rain was getting heavier while the students ___ inside at that moment.", "o": ["are working", "were working", "had work"], "a": 1, "why": "At that moment geçmişteki sahneyi sürdürür. Çoğul öğrencilerin eşzamanlı işi were working ile anlatılır."}
+          ]
+        },
+        {
+          "type": "fix",
+          "title": "Türkçeden aktarılan iki hatayı düzelt",
+          "label": "Cümlenin tamamını doğru yaz",
+          "items": [
+            {"w": "Mert were testing the speaker when the lights went out.", "r": ["Mert was testing the speaker when the lights went out."], "why": "Mert tekil olduğu için was gerekir. Testing ve went out doğru görevlerde kullanılmıştır."},
+            {"w": "While Elif was arranged the labels, Zeynep was sorting the cardboard.", "r": ["While Elif was arranging the labels, Zeynep was sorting the cardboard."], "why": "Was sonrasında bu süreç için V2 değil -ing gerekir: was arranging."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "archive-corner",
+      "block": 2,
+      "step": 9,
+      "min": 12,
+      "mode": "Oku → bilgi ile kurguyu ayır",
+      "material": "Ekran",
+      "kicker": "Adım 9 · Serginin geçmişe açılan köşesi",
+      "title": "A notebook connects one family to a changing country.",
+      "titleTR": "Erken Cumhuriyet, eğitim ve bir aile defteri",
+      "lead": "Serginin bir bölümü erken Cumhuriyet'teki eğitim ve okuryazarlık değişimlerine ayrılıyor. Ayşe'nin 1933 defteri ders için yazılmış bir kurgu; aşağıdaki tarih çerçevesi ise gerçek olayları özetler.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: geçmişteki değişimi küçük bir hikâyeye bağlamak",
+          "titleTR": "A historical frame and an imagined family story",
+          "paras": [
+            "Türkiye <b>29 Ekim 1923'te</b> Cumhuriyet oldu. TBMM, Latin esaslı yeni Türk harflerini kabul eden kanunu <b>1 Kasım 1928'de</b> kabul etti. <b>Millet Mektepleri 1 Ocak 1929'da</b> faaliyete başladı. Atatürk'ün öncülük ettiği eğitim ve okuryazarlık çalışmaları, serginin bu tarih köşesinin çerçevesidir; her değişimin bir günde tamamlandığını söylemiyoruz.",
+            "Tarihî çerçeve içindeki bitmiş gelişmelerde <b>Past Simple</b> görürüz: <i>Parliament adopted the new alphabet.</i> Kurgusal defterde belli bir anda süren kişisel deneyimi ise <b>Past Continuous</b> ile kurabiliriz: <i>Ayşe was practising the new letters when her daughter brought her a newspaper.</i>",
+            "Serginin tamamı bu döneme ayrılmıyor. Aynı ekip mahalledeki zanaatları, eski ve yeni iletişim araçlarını, geri dönüşümü ve bugünkü ortak çalışmayı da anlatıyor. Dil açısından amaç, <b>büyük bir değişimi bir kişinin yaşantısına bağlayarak</b> anlaşılır bir hikâye kurmaktır."
+          ],
+          "points": ["Gerçek tarih çerçevesi ile ders için oluşturulan kişileri ayırın.", "Bitmiş gelişme: Parliament adopted …", "O anki kişisel sahne: Ayşe was practising …", "Atatürk'ün etkisi eğitim bağlamında ele alınır; bu bölüm bir hayat hikâyesi değildir."]
+        },
+        {
+          "type": "reading",
+          "id": "ayse-notebook-reading",
+          "title": "The learning corner",
+          "byline": "Özgün okuma · tarih çerçevesi gerçek, aile defteri ve kişiler kurgu",
+          "unit": "ifade",
+          "tap": "Bitmiş olayı veya devam eden sahneyi anlatan renksiz ifadelere",
+          "colTitle": "Event or background?",
+          "marks": {
+            "e": {"label": "event", "tr": "Past Simple · bitmiş olay", "cls": "m-coral"},
+            "b": {"label": "background", "tr": "Past Continuous · süren sahne", "cls": "m-teal"}
+          },
+          "columns": {"e": "Bitmiş olay", "b": "Devam eden sahne"},
+          "paragraphs": [
+            "Our exhibition has a small learning corner. Türkiye became a republic in 1923. Parliament {e|adopted} the new Turkish alphabet in 1928, and the Millet Mektepleri began operating in January 1929. Atatürk supported these changes and took an active role in promoting literacy. Learning, however, took time and effort; it did not happen everywhere at once.",
+            "The students connect this background to an imagined notebook from 1933. In their story, Ayşe is an adult learner in Bursa. One evening, she {b|was practising} letters at the kitchen table when her daughter {e|brought} her a newspaper. Ayşe read a short notice slowly. She made a mistake, laughed and tried again. Her daughter was helping her, but Ayşe wanted to read the last line alone.",
+            "Nermin explains that the notebook is a classroom story, not a real historical document. The students place it beside a modern tablet. Their question for visitors is simple: how do people help each other learn, then and now?"
+          ],
+          "questions": [
+            {"q": "What is the real historical background of the learning corner?", "a": "The Republic, the adoption of the new alphabet and the opening of the Millet Mektepleri."},
+            {"q": "What was Ayşe doing when her daughter arrived?", "a": "She was practising letters at the kitchen table."},
+            {"q": "Did Ayşe read everything perfectly at once?", "a": "No. She made a mistake and tried again."},
+            {"q": "Is the notebook a real historical document?", "a": "No. It is an imagined classroom story."},
+            {"q": "Why do the students put a tablet beside the notebook?", "a": "To connect learning in the past with learning today."}
+          ],
+          "rule": [
+            {"q": "Neden adopted ve was practising aynı zamanla yazılmamış?", "a": "Adopted tamamlanan tarihî gelişmeyi; was practising belirli bir kişisel sahnenin devam eden arka planını anlatır."},
+            {"q": "Was helping, yardımın hiç bitmediği anlamına mı gelir?", "a": "Hayır. Anlatıcı yalnız o andaki sürece bakar; başlangıç ve bitişi bu biçim tek başına söylemez."}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": "Metnin söylediğini seç",
+          "items": [
+            {"q": "Which statement matches the reading?", "o": ["The notebook is a real document written by Atatürk.", "Everyone learned the new alphabet on the same day.", "The notebook is an imagined story connected to real historical changes."], "a": 2, "why": "Metin defteri açıkça imagined classroom story olarak tanımlar; tarih çerçevesi ile kurguyu ayrı tutar."},
+            {"q": "In 'Ayşe was practising letters when her daughter brought a newspaper', what does was practising show?", "o": ["An activity already in progress when the daughter arrived.", "An activity taking place in the exhibition now.", "The exact time when the new alphabet was adopted."], "a": 0, "why": "Was practising, gazetenin getirildiği geçmiş anda devam eden kişisel etkinliktir. Ne şimdiki hazırlığı ne de kanunun tarihini bildirir."}
+          ]
+        },
+        {
+          "type": "activity",
+          "icon": "📖",
+          "name": "Bir sergi ziyaretçisine açıkla",
+          "en": "One historical fact, one imagined scene",
+          "time": "2 dk",
+          "group": "İkili",
+          "steps": ["Bir kişi ziyaretçi olsun: <b>Is this notebook a real document?</b> diye sorsun. Diğeri kurguyu dürüstçe açıklasın.", "Ardından bir gerçek gelişmeyi Past Simple ile, Ayşe'nin bir sahnesini Past Continuous ile anlatsın.", "Günümüze bağlayın: <b>Today, we are using … to learn.</b> Serginin tablet, kütüphane veya birlikte öğrenme yönlerinden birini seçin."],
+          "board": ["The historical background is real, but the notebook is imagined.", "In 1928, … / In our story, Ayşe was … / Today, we are …"]
+        }
+      ]
+    },
+    {
+      "id": "phone-message",
+      "block": 2,
+      "step": 10,
+      "min": 14,
+      "mode": "Dinle → ana fikir → ayrıntı",
+      "material": "Ekran ve ses",
+      "kicker": "Adım 10 · Dinleme",
+      "title": "What were you doing when the power went off?",
+      "titleTR": "Mert'in cumartesi günkü sesli mesajı",
+      "lead": "Önce metni açmadan dinleyin. İlk dinlemede sorunu; ikinci dinlemede kimin ne yaptığını ve olay sırasını takip edin.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: dinlerken sahneyi ve değişimi ayır",
+          "titleTR": "Listen for the scene and the turning point",
+          "paras": [
+            "Dinlerken her kelimeyi yazmaya çalışmak yerine iki sütun düşünün: <b>O SIRADA</b> ve <b>SONRA NE OLDU?</b> <i>was testing / were working</i> ilk sütuna; <i>went out / stopped / looked</i> ikinci sütuna gider.",
+            "Mesajın başındaki <b>It is Saturday</b>, kayıt anının çerçevesini verir. Mesajdaki geçmiş anlatım ise aynı gün daha önce yaşanan elektrik kesintisine döner. Bu, bütün geçmiş zamanların başka bir güne ait olması gerektiği anlamına gelmez.",
+            "İlk dinlemeden sonra tek cümlelik özet söyleyin. Ayrıntı sorularını ikinci dinlemede cevaplayın; en son transkripti açarak duyduğunuz fiil biçimleriyle yazılı biçimleri karşılaştırın."
+          ],
+          "points": ["O sırada: was / were + -ing.", "Sahnede değişim: Past Simple.", "Mesaj o gün kaydedildi; geçmiş olay birkaç dakika önce olabilir.", "Kutunun bulunmadığı bilgisi, onun yok edildiğini kanıtlamaz."]
+        },
+        {
+          "type": "modelHidden",
+          "title": "Dinleme metni · önce dinleyin, sonra açın",
+          "listen": true,
+          "text": "Hi Nermin, it's Mert. It's Saturday, and I'm calling from the exhibition room. At two o'clock, I was testing the speaker. Elif was arranging the labels, and Zeynep was sorting some reused cardboard. It was raining heavily outside. At ten past two, the lights went out. I stopped the test, and we moved away from the cables. We waited beside the window. When the lights came back on, I looked for the old photo box on the table, but I couldn't see it. We didn't open any cupboards because we didn't know where you kept the keys. The labels are safe, and nobody is hurt. Please call us when you can."
+        },
+        {
+          "type": "choice",
+          "title": "Dinledikten sonra cevapla",
+          "items": [
+            {"q": "What is the main purpose of Mert's message?", "o": ["To cancel the whole exhibition permanently.", "To report a power cut and ask about a missing box.", "To explain the history of the new alphabet."], "a": 1, "why": "Mert kesintiyi ve masada bulamadığı fotoğraf kutusunu anlatıp Nermin'den kendilerini aramasını ister. İptal kararı vermiyor."},
+            {"q": "What was Mert doing at two o'clock?", "o": ["He was testing the speaker.", "He was scanning the old photographs.", "He was repairing the electric cables."], "a": 0, "why": "Kayıtta açıkça I was testing the speaker der. Fotoğraflar pazar günü taranacaktır; kabloları tamir ettiğini söylemez."},
+            {"q": "When did the lights go out?", "o": ["At ten to two.", "At two o'clock exactly.", "At ten past two."], "a": 2, "why": "At ten past two saat 14.10'dur. Ten to two ise 13.50 olur; duyulan küçük ifade zamanı değiştirir."},
+            {"q": "Why didn't the students open the cupboards?", "o": ["They knew that the photographs were outside.", "They did not know where Nermin kept the keys.", "They had decided to throw the photographs away."], "a": 1, "why": "Mesaj anahtarların yerini bilmediklerini söyler. Fotoğrafların atıldığı veya dışarıda olduğu bilgisi verilmez."}
+          ]
+        },
+        {
+          "type": "activity",
+          "icon": "🎙️",
+          "name": "Otuz saniyelik geri arama",
+          "en": "Leave a clear message",
+          "time": "3 dk",
+          "group": "İkili",
+          "steps": ["Mert rolünde üç cümlelik mesaj bırakın: o sıradaki iş, yeni olay, şu an ihtiyaç duyulan bilgi.", "Nermin rolündeki arkadaşınız önce olayı kendi sözleriyle tekrar etsin; sonra bir açıklama sorusu sorsun.", "Fotoğrafların kaybolduğunu kesin bir bilgi gibi söylemeyin: <b>I couldn't find the box on the table.</b> daha doğru ve dikkatli bir ifadedir."],
+          "board": ["I was … when … / After that, … / Could you tell us where …?", "So, you were … when … Is that right?"]
+        }
+      ]
+    },
+    {
+      "id": "background-check",
+      "block": 2,
+      "step": 11,
+      "min": 10,
+      "mode": "Bireysel → karşılaştır",
+      "material": "Ekran",
+      "kicker": "Adım 11 · İki geçmiş zamanı kontrol et",
+      "title": "Tell the event without losing the scene.",
+      "titleTR": "Past Simple mı Past Continuous mı?",
+      "lead": "Bu bölümde yalnız doğru fiili değil, neden o biçimi seçtiğinizi de açıklayın. Cümledeki zamanı değiştiren küçük ipuçlarını bulun.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: önce anlam, sonra biçim",
+          "titleTR": "A quick decision routine",
+          "paras": [
+            "Önce <b>hangi ana baktığımızı</b> bulun: şimdi mi, cumartesi saat 14.00 mü? Sonra anlatılan işin o anda devam eden sahne mi, yeni bir olay mı olduğunu belirleyin. En son özneye uygun yardımcı fiili ve asıl fiil biçimini kurun.",
+            "<i>What were you doing?</i> o sıradaki süreci sorar. <i>What did you do next?</i> sonraki olayı sorar. İlk soruya <i>We were waiting.</i>, ikincisine <i>We called Nermin.</i> gibi cevaplar beklenir; soru kalıbı, hikâyenin hangi parçasını istediğinizi değiştirir.",
+            "Bir fiilin Continuous olmaması mutlaka geçmişte bitmiş bir olay olduğu anlamına gelmez. <i>We knew the room was safe.</i> cümlesindeki <b>knew</b> durum anlamındadır; <i>were knowing</i> bu anlamda kullanılmaz. Bildiğimiz <b>stative verb</b> ayrımı geçmiş anlatımda da sürer."
+          ],
+          "points": ["Şimdi: What are you doing?", "Geçmişteki sahne: What were you doing?", "Sonraki olay: What did you do next?", "Know durum anlamında: knew; were knowing değil."]
+        },
+        {
+          "type": "choice",
+          "title": "Kısa kontrol · 4 soru",
+          "items": [
+            {"q": "The room was silent after the power cut. Then Mert ___ Nermin to ask for help.", "o": ["called", "is calling", "were calling"], "a": 0, "why": "Then, geçmiş hikâyedeki sonraki bitmiş olayı verir. Mert tekil; were calling de bu nedenle uygun değildir."},
+            {"q": "At 14.00 last Saturday, which answer fits 'What were Elif and Mert doing?'", "o": ["They are preparing the room now.", "They were preparing the room.", "They prepares the room."], "a": 1, "why": "Soru geçmişteki bir anda süren hazırlığı sorar; çoğul özneyle were preparing gerekir."},
+            {"q": "Which sentence correctly asks about the next completed event?", "o": ["What did Mert did after the power cut?", "What was Mert do after the power cut?", "What did Mert do after the power cut?"], "a": 2, "why": "Past Simple sorusunda geçmişi did taşır; asıl fiil do yalın kalır. Did + did geçmişi iki kez işaretler."},
+            {"q": "We ___ that the labels were safe, so we left them on the dry shelf. (durum anlamı)", "o": ["were knowing", "knew", "are know"], "a": 1, "why": "Know bu cümlede bilme durumudur. Geçmişte knew kullanılır; were knowing veya are know standart yapı değildir."}
+          ]
+        },
+        {
+          "type": "activity",
+          "icon": "🧩",
+          "name": "Bir sahne, iki devam",
+          "en": "Add an event or another background action",
+          "time": "3 dk",
+          "group": "İkili",
+          "steps": ["Başlangıç: <b>Elif was arranging the labels …</b> Birinci tamamlamanız when ile yeni bir olay anlatsın.", "Aynı başlangıcı ikinci kez kullanın; bu kez while ile eşzamanlı başka bir süreç ekleyin.", "Cümleleri Türkçeye çevirin. Kesinti ile aynı anda devam eden ikinci iş arasındaki farkı açıklayın."],
+          "board": ["Elif was arranging the labels when …", "Elif was arranging the labels while …"]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "cat": "Cumartesinin sahnesi",
+      "tr": "the scene and the interruption",
+      "items": [
+        ["at that moment", "o anda", "At that moment, Elif was arranging the labels."],
+        ["the lights went out", "ışıklar söndü; elektrik kesildi", "The lights went out at ten past two."],
+        ["a power cut", "elektrik kesintisi", "The students waited during the power cut."],
+        ["a speaker", "hoparlör", "Mert was testing the speaker."],
+        ["reused cardboard", "yeniden kullanılan karton", "Zeynep was sorting some reused cardboard."],
+        ["the cables", "kablolar", "The students moved away from the cables."],
+        ["come back on", "yeniden yanmak; yeniden çalışmaya başlamak", "The lights came back on later that afternoon."],
+        ["meanwhile", "bu sırada; bu esnada", "Elif was checking the labels. Meanwhile, Mert was testing the sound."]
+      ]
+    },
+    {
+      "cat": "Geçmiş ile bugün arasında öğrenmek",
+      "tr": "learning, then and now",
+      "items": [
+        ["literacy", "okuryazarlık", "The learning corner explores changes in literacy."],
+        ["an adult learner", "yetişkin öğrenen; yetişkin öğrenci", "In our imagined story, Ayşe is an adult learner."],
+        ["adopt an alphabet", "bir alfabeyi kabul etmek", "Parliament adopted the new Turkish alphabet in 1928."],
+        ["a notebook", "defter", "The imagined notebook connects a family to a historical change."],
+        ["a historical document", "tarihî belge", "The classroom notebook is not a real historical document."],
+        ["make an effort", "çaba göstermek", "Learning new letters required time and effort."],
+        ["a notice", "kısa duyuru; ilan", "Ayşe read a short notice slowly."],
+        ["try again", "yeniden denemek", "She made a mistake and tried again."]
+      ]
+    }
+  ]
+}

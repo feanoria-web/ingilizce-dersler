@@ -2,6 +2,7 @@ import { buildYds } from './build-yds.mjs';
 import { buildCatalog } from './build-catalog.mjs';
 import { buildPwa } from './build-pwa.mjs';
 import { buildMobile } from './build-mobile.mjs';
+import { buildB1Day09 } from './build-b1-day09.mjs';
 try {
   if(process.env.CI==='true'){
     const {readFile}=await import('node:fs/promises');
@@ -9,6 +10,7 @@ try {
     if(!/apiBase\s*:\s*['"]https:\/\//.test(config))throw new Error('Canlı giriş servisi bağlanmadan yayın yapılmaz. assets/access-config.js apiBase alanını tamamlayın.');
   }
   await buildYds();
+  await buildB1Day09();
   await buildCatalog({output:'_site'});
   await buildPwa();
   await buildMobile();

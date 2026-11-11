@@ -1,0 +1,165 @@
+{
+  "screens": [
+    {
+      "id": "tense-map",
+      "block": 0,
+      "min": 0,
+      "extra": true,
+      "mode": "Kendi hızında",
+      "material": "Ekran",
+      "kicker": "Başvuru kaynağı · Ana süreye dahil değil",
+      "title": "Four tenses, one clear timeline",
+      "titleTR": "Dört zamanın haritası",
+      "lead": "Ders sırasında ihtiyaç duyduğunda aç. Önce zaman çizgisini ve amacı seç; sonra olumlu, olumsuz ve soru kalıbını kontrol et.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: dört farklı bakış",
+          "titleTR": "Meaning before the formula",
+          "paras": [
+            "<b>Present Continuous</b>: içinde bulunduğumuz süreç. Çarşamba sergi hazırlığı yapıyoruz: <i>We are preparing the exhibition.</i> Yardımcı fiil <b>am / is / are</b>, asıl fiil <b>V-ing</b> olur.",
+            "<b>Past Simple</b>: bitmiş geçmiş çerçevede olay veya durum. <i>The lights went out on Saturday.</i> Hikâyeyi ilerleten olayı verir; eylemin kısa olması şart değildir. Olumlu cümlede V2, did ile soru ve olumsuzda V1 kullanılır.",
+            "<b>Past Continuous</b>: geçmişteki bir noktayı içinden gösteren süreç. <i>At 2.10, Mert was testing the speaker.</i> Was / were + V-ing, o sırada sürmekte olanı sunar. Sonrasında ne olduğunu tek başına kesinleştirmez.",
+            "<b>Past Perfect</b>: geçmişteki bir referans andan daha önceye bakış. <i>Elif had saved the label texts before the computer stopped.</i> Had + V3, kayıt işlemini kesintiden önceye yerleştirir. Her eski olayda Past Perfect kullanmayız; bir geçmiş referans ilişkisi gerekir."
+          ],
+          "points": ["Bugünkü süreç → are preparing", "Geçmiş olay → went out", "O sıradaki arka plan → was testing", "Geçmiş referanstan önce tamamlanma → had saved"]
+        },
+        {
+          "type": "table",
+          "title": "Olumlu, olumsuz, soru ve kısa cevap",
+          "head": ["Zaman", "Olumlu", "Olumsuz", "Soru / kısa cevap"],
+          "rows": [
+            ["Present Continuous", "Elif is writing a label.", "Elif isn't writing a letter.", "Is Elif writing a label? — Yes, she is."],
+            ["Present Continuous · çoğul", "They are moving the boards.", "They aren't moving the tables.", "Are they moving the boards? — Yes, they are."],
+            ["Past Simple · eylem", "Zeynep found the box.", "Zeynep didn't lose the box.", "Did Zeynep find it? — Yes, she did."],
+            ["Past Simple · be", "The photographs were dry.", "The photographs weren't wet.", "Were the photographs dry? — Yes, they were."],
+            ["Past Continuous", "Mert was testing the speaker.", "Mert wasn't scanning photographs at 2.10.", "Was Mert testing the speaker? — Yes, he was."],
+            ["Past Continuous · çoğul", "They were working at 2.10.", "They weren't having a break at 2.10.", "Were they working? — Yes, they were."],
+            ["Past Perfect", "Nermin had moved the box before Mert looked for it.", "Mert hadn't read the message before he looked for the box.", "Had Nermin moved the box? — Yes, she had."],
+            ["Past Perfect · bütün özneler", "I / you / she / we / they had checked the list.", "I / you / she / we / they hadn't changed the date.", "Had they checked it? — No, they hadn't."]
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Aynı sergide dört zaman",
+          "items": [
+            ["Today, Elif is writing the final labels.", "Bugün Elif son etiketleri yazıyor.", "📍"],
+            ["The students scanned the photographs on Sunday.", "Öğrenciler pazar günü fotoğrafları taradı.", "📅"],
+            ["At 2.10 on Saturday, Zeynep was sorting reused cardboard.", "Cumartesi 14.10'da Zeynep yeniden kullanılan kartonları ayırıyordu.", "🕰️"],
+            ["Nermin had put the box in a cupboard before Mert searched the table.", "Mert masayı aramadan önce Nermin kutuyu bir dolaba koymuştu.", "↩️"]
+          ]
+        },
+        {
+          "type": "modelHidden",
+          "title": "Ayrıntı: when, while ve before otomatik cevap vermez",
+          "text": "<b>When</b> yalnız Past Simple, <b>while</b> yalnız Past Continuous demek değildir. <i>When Mert opened the message, he understood the problem.</i> iki tamamlanmış olayı verir. <i>While Mert was testing the speaker, Elif was arranging the labels.</i> eşzamanlı iki arka plan sürecini gösterir. Asıl soru, her cümleciğin neyi anlattığıdır.<br><br><b>Before / after</b> sırayı açıkça veriyorsa iki Past Simple de uygun olabilir: <i>After they found the box, they scanned the photos.</i> Önceki tamamlanmayı ayrıca vurgulamak için <i>After they had found the box, they scanned the photos.</i> da mümkündür. İkinci yapı ilkini tek başına yanlış yapmaz. Ancak bu derste 'önceki tamamlanmayı Past Perfect ile göster' deniyorsa had + V3 kullanmalısın.<br><br>Türkçedeki '-yordu' her zaman aynı İngilizce zaman değildir. <i>She was tired.</i> 'Yorgundu'; <i>she was carrying a box</i> 'bir kutu taşıyordu'. Was tek başına Past Continuous değildir; ardından V-ing gelmesi gerekir."
+        }
+      ]
+    },
+    {
+      "id": "error-clinic",
+      "block": 0,
+      "min": 0,
+      "extra": true,
+      "mode": "Kendi hızında → ikili kontrol",
+      "material": "Ekran",
+      "kicker": "Ek çalışma · Ana süreye dahil değil",
+      "title": "The sentence repair workshop",
+      "titleTR": "Hata kliniği: cümlenin neden bozulduğunu bul",
+      "lead": "Her sorudaki bağlamı koruyarak yalnız gerekli yapıyı düzelt. Kontrolden sonra açıklamayı oku; hatayı kendi cümlenle tarif edebiliyorsan kalıbı gerçekten anlıyorsun.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: aynı yardımcı fiilin iki farklı işi",
+          "titleTR": "Repair the chain, keep the meaning",
+          "paras": [
+            "<b>Be + V-ing</b> zincirinde yardımcı fiil olmadan süreç anlatımı eksik kalır: <i>We preparing</i> yerine <i>We are preparing</i>. Şimdiki bakışta am / is / are, geçmiş bakışta was / were kullanılır.",
+            "<b>Did</b> ile soru ve olumsuz kurulduğunda asıl fiil yalındır: <i>Did she find?</i> / <i>She didn't find.</i> <b>Had</b> ise geçmişten önceki tamamlanmada V3 ister: <i>She had found.</i> Bu yüzden <i>did found</i> ile <i>had find</i> farklı zincir hatalarıdır.",
+            "Bazı düzeltmeler yalnız biçim değil anlam kararıdır. Soruda belirli bir geçmiş arka plan veya önceki tamamlanma isteniyorsa o bakışı koru. Düzgün ama başka anlamdaki bir cümle yazmak hedef dönüşümü tamamlamaz."
+          ],
+          "points": ["Özne → doğru yardımcı fiil → doğru asıl fiil biçimi", "did + V1 · had + V3", "am / is / are + V-ing · was / were + V-ing", "Düzeltmede zaman çizgisini ve özneyi koru."]
+        },
+        {
+          "type": "fix",
+          "title": "On iki cümleyi onar",
+          "label": "Doğru İngilizce cümle",
+          "items": [
+            {"w": "Şu anda süren süreç: We preparing the exhibition now.", "r": ["We are preparing the exhibition now.", "We're preparing the exhibition now."], "why": "Present Continuous için are eksiktir. We çoğul özne olduğu için are preparing gerekir."},
+            {"w": "Şu anki işi sor: Is they moving the board?", "r": ["Are they moving the board?"], "why": "They çoğuldur. Soru başında are kullanılır; moving korunur."},
+            {"w": "Şu anda yapılmayan iş: Elif isn't write a letter now.", "r": ["Elif isn't writing a letter now.", "Elif is not writing a letter now."], "why": "Isn't sonrasında devam eden işin fiili V-ing olur; write → writing."},
+            {"w": "Pazar günü tamamlanan olayı sor: Did Zeynep found the box on Sunday?", "r": ["Did Zeynep find the box on Sunday?"], "why": "Did geçmiş bilgisini taşır. Ardından V2 found değil yalın find gerekir."},
+            {"w": "Cumartesi bitmiş olumsuz olay: Mert didn't saw the box on the table.", "r": ["Mert didn't see the box on the table.", "Mert did not see the box on the table."], "why": "Didn't sonrası yalın see kullanılır. Saw, see fiilinin V2 biçimidir ve did ile birlikte kullanılmaz."},
+            {"w": "Fotoğrafların pazar günkü durumu: The photographs was dry.", "r": ["The photographs were dry."], "why": "Photographs çoğul isimdir. Sıfat olan dry öncesinde were gerekir; V-ing eklenmez."},
+            {"w": "Cumartesi 14.00'teki süren arka planı koru: Elif were arranging the labels.", "r": ["Elif was arranging the labels."], "why": "Elif tekildir; geçmişte sürmekte olan süreç için was arranging kullanılır."},
+            {"w": "Geçmişteki süren işi Past Continuous ile düzelt: At 2.10, Mert was test the speaker.", "r": ["At 2.10, Mert was testing the speaker."], "why": "Was ile süreç kurarken yalın test değil testing gerekir. Was test zinciri bu yüklemi kurmaz."},
+            {"w": "Cumartesi 14.00'ün arka planını Past Continuous ile anlat: Zeynep is sorting the cardboard at 2.00 last Saturday.", "r": ["Zeynep was sorting the cardboard at 2.00 last Saturday."], "why": "Geçmiş referans last Saturday olduğu için yardımcı fiil is değil was olmalıdır; süreç vurgusu sorting ile korunur."},
+            {"w": "Kesintiden önceki tamamlanmayı Past Perfect ile vurgula: Elif had save the label texts before the computer stopped.", "r": ["Elif had saved the label texts before the computer stopped."], "why": "Had sonrasında V3 gerekir. Save düzenli fiildir; V3 saved olur. Kaydetme, bilgisayarın durmasından öncedir."},
+            {"w": "Bir geçmiş andan önceki yeri Past Perfect ile anlat: Nermin had went to the centre before the students arrived.", "r": ["Nermin had gone to the centre before the students arrived."], "why": "Go–went–gone dizisinde went V2, gone V3'tür. Had sonrasında gone kullanılır; öğrencilerin gelişinden önceki hareket anlatılır."},
+            {"w": "Kutuyu aramadan önce yapılmamış işi Past Perfect ile anlat: Mert hadn't readed the message before he looked for the box.", "r": ["Mert hadn't read the message before he looked for the box.", "Mert had not read the message before he looked for the box."], "why": "Read düzensizdir: read–read–read; V2 ve V3 /red/ okunur. Readed yoktur. Hadn't read, arama anından önce mesajın okunmamış olduğunu söyler."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extra-practice",
+      "block": 0,
+      "min": 0,
+      "extra": true,
+      "mode": "Kendi hızında",
+      "material": "Ekran",
+      "kicker": "Ek çalışma · Ana süreye dahil değil",
+      "title": "The exhibition tense challenge",
+      "titleTR": "Dört zamanla ek pratik",
+      "lead": "Dört zamanın her birinden üç soru. Açıklamayı yalnız doğru harfi görmek için değil, zaman çizgisindeki kararı anlamak için kullan.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: bu sorularda izleyeceğin yol",
+          "titleTR": "A four-step decision",
+          "paras": [
+            "Önce bağlamın <b>bugün mü, bitmiş geçmiş mi</b> olduğunu belirle. Bugünkü bir çalışma görüntüsünde Present Continuous, tamamlanmış geçmiş olayda Past Simple düşün.",
+            "Geçmişe yerleştiğinde ikinci bir soru sor: <b>O sıradaki süreci mi, ondan daha önce tamamlanan işi mi</b> anlatıyorsun? Süreçte was / were + V-ing, önceki tamamlanmada had + V3 kullanılır.",
+            "Son olarak özne ve fiil biçimini denetle. Zaman anlamı doğru olsa bile <i>they was</i>, <i>did found</i> veya <i>had went</i> gibi bir zincir cümleyi bozar. Yanlış yaptığında ilgili hap kalıba veya ders ekranına geri dönüp aynı kararı kendi sözlerinle açıkla."
+          ],
+          "points": ["1. Zaman çerçevesini bul.", "2. Süreç / olay / önceki tamamlanma ayrımını kur.", "3. Özneye uygun yardımcı fiili seç.", "4. V1 / V2 / V3 / V-ing biçimini denetle."]
+        },
+        {
+          "type": "choice",
+          "title": "A. Şu anda süren çalışma",
+          "items": [
+            {"q": "Look at Elif's screen: she ___ a new title right now.", "o": ["wrote", "is writing", "write"], "a": 1, "why": "Look ve right now, o anda gözlenen yazma sürecini kuruyor. Tekil Elif is writing ister."},
+            {"q": "At the moment, the students ___ two display boards into the main room.", "o": ["are moving", "moved", "was moving"], "a": 0, "why": "Güncel süreç ve çoğul students öznesi are moving gerektirir. Moved bitmiş olay, was moving tekil geçmiş süreçtir."},
+            {"q": "Which question correctly asks about Mert's activity right now?", "o": ["Did Mert testing the speaker?", "Are Mert testing the speaker?", "Is Mert testing the speaker?"], "a": 2, "why": "Tekil Mert için is gerekir ve soruda öznenin önüne geçer. Did + testing zinciri yanlış; are ise bu tekil özneye uymaz."}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": "B. Tamamlanmış geçmiş olay",
+          "items": [
+            {"q": "On Sunday, Zeynep ___ the dry box in the cupboard. That search ended there.", "o": ["finds", "is finding", "found"], "a": 2, "why": "Pazar günü bitmiş ve sonuçlanmış arama anlatılır. Find fiilinin Past Simple biçimi found'dur."},
+            {"q": "On Saturday, the students ___ blame anyone; they asked for information instead.", "o": ["didn't", "weren't", "isn't"], "a": 0, "why": "Blame yalın fiiliyle bitmiş olumsuz geçmiş olay didn't blame olur. Weren't ve isn't sonrasında bu biçimde yalın blame kullanılamaz."},
+            {"q": "___ the team write a careful note after the problem on Saturday?", "o": ["Was", "Did", "Is"], "a": 1, "why": "Bitmiş geçmiş eylemi soruyoruz: Did + the team + write? Was ve is bu yalın fiille soru zinciri oluşturmaz."}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": "C. Geçmişteki süren arka plan",
+          "items": [
+            {"q": "Cumartesi 14.00'teki süren arka planı seç: Elif ___ the labels when Mert came over to help.", "o": ["was arranging", "were arranging", "is arranged"], "a": 0, "why": "Past Continuous geçmiş arka planını verir; tekil Elif was arranging alır. Were çoğul öznelerle, is arranged ise başka bir zaman ve edilgen anlamla ilgilidir."},
+            {"q": "___ Mert testing the speaker when the lights went out on Saturday?", "o": ["Is", "Did", "Was"], "a": 2, "why": "Geçmişte sürmekte olan işlemin sorusunda was + Mert + testing kullanılır. Is şimdiki zamana döner; did + testing doğru zincir değildir."},
+            {"q": "At 2.10 last Saturday, Zeynep ___ sorting reused cardboard; she wasn't having a break.", "o": ["is", "was", "were"], "a": 1, "why": "Belirli geçmiş andaki süreç için tekil Zeynep was alır. Sorting zaten verilmiştir; yardımcı fiili geçmiş ve tekil seçmeliyiz."}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": "D. Bir geçmiş andan daha önce",
+          "items": [
+            {"q": "Önceki tamamlanmayı Past Perfect ile vurgula: Before Mert searched the table on Saturday, Nermin ___ the box into a cupboard on Friday.", "o": ["has moved", "had move", "had moved"], "a": 2, "why": "Cuma günkü taşıma, cumartesi aramasından öncedir. İstenen Past Perfect yapısı had + V3, yani had moved'dur."},
+            {"q": "Which question correctly asks about a completed action before the power cut?", "o": ["Did Elif saved the label texts before the power cut?", "Had Elif saved the label texts before the power cut?", "Was Elif saved the label texts before the power cut?"], "a": 1, "why": "Önceki tamamlanmanın Past Perfect sorusu Had + Elif + saved biçimindedir. Did saved yanlış fiil zinciri, was saved ise istenmeyen edilgen yapıdır."},
+            {"q": "“Mert hadn't read the message before he looked for the box.” cümlesi hangi bilgiyi verir?", "o": ["Mesaj, kutuyu arama anından önce Mert tarafından okunmamıştı; daha sonra okuyup okumadığı tek başına belli değil.", "Mert mesajı hayatı boyunca hiç okumadı.", "Mert kutuyu ararken mesajı okuyordu."], "a": 0, "why": "Hadn't read önceki tamamlanmanın olmadığını geçmiş referansla ilişkilendirir. Ne ömür boyu hiç okumama ne de arama sırasında süren okuma sonucunu zorunlu kılar."}
+          ]
+        }
+      ]
+    }
+  ]
+}

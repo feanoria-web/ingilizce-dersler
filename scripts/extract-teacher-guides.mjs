@@ -9,6 +9,7 @@ const PRIVATE_IDS=new Set(['guide','plan','observe','diagnosis']);
 const PRIVATE_CLASS=/\b(?:teacher-only|teacher-note|teacher-panel|teacher-resource|t-only|act-prep|act-tip|b-private)\b/;
 const privateSection=item=>item?.type==='diagnosis'||/^Teacher:\s*diagnosis grid$/i.test(item?.title||'');
 const MARKER='<meta name="teacher-guides" content="private-v1">';
+const STUDENT_ONLY_MARKER='<meta name="teacher-guides" content="student-only-v1">';
 const require=createRequire(import.meta.url);
 const acorn=require('./vendor/acorn.cjs');
 const parse=source=>acorn.parse(source,{ecmaVersion:'latest',sourceType:'script',allowReturnOutsideFunction:true});
@@ -97,6 +98,10 @@ function sanitizeBoard(value,add){
 }
 
 export function sanitizeLessonHtml(html,id){
+  if(html.includes(STUDENT_ONLY_MARKER)){
+    assertPublicLessonHtml(html,id);
+    return {html,guide:null,changed:false};
+  }
   if(html.includes(MARKER))return {html,guide:null,changed:false};
   const guide={id,title:id,sections:[]},attachments=[];
   const sectionCounts=new Map();
@@ -163,7 +168,7 @@ export function assertPublicLessonHtml(html,id='lesson'){
     if(/^(?:#(?:guide|teacher-guide)|guide|teacher-guide)$/.test(target))fail('static teacher guide link');
     if(!voidTags.has(name)&&!tag[0].endsWith('/>'))stack.push({name,end:tag.index+tag[0].length,private:isPrivate});
   }
-  if(/\bconst\s+LESSON\s*=|\bconst\s+DATA\s*=\s*\{/.test(html)&&!html.includes(MARKER))fail('unprocessed source');
+  if(/\bconst\s+LESSON\s*=|\bconst\s+DATA\s*=\s*\{/.test(html)&&!html.includes(MARKER)&&!html.includes(STUDENT_ONLY_MARKER))fail('unprocessed source');
   for(const match of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)){
     if(/\bid\s*=\s*['"]teacher[-_](?:guides?|notes?|data)['"]/i.test(match[1])&&match[2].trim())fail('teacher data script');
     if(/\btype\s*=\s*['"]application\/json/i.test(match[1])||!match[2].trim())continue;

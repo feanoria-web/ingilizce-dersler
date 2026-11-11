@@ -117,6 +117,8 @@ Kendi HTML dersinizi `lessons/a1`, `lessons/a2`, `lessons/b1` veya `lessons/yds`
 
 Yeni eklenen dersler: A1 Ders 3 **Ben, ailem, ülkem · tekrar**, A2 Ders 4 **Duygular · evim · şehrim**, B1 Ders 5 **Evde hayat · sorunlar · talimatlar · mektup**. Kaynaklarda tarih belirtilmediği için tarih alanları boş bırakılmıştır.
 
+B1 Ders 9 **Mahalle hafıza sergisi · Dört zamanda bir hikâye** (`lessons/b1/day-09.html`), Present Continuous, Past Simple, Past Continuous ve Past Perfect konularını Bursa’da bir sergi hazırlığı çevresinde işler. Ana akış 3 × 60 dakika, aralarda iki 10 dakikalık mola vardır; ek alıştırmalar isteğe bağlıdır. Kaynaklar `b1-day09/lesson.json`, üç `block-*.json`, `resources.json` ve `template.html` dosyalarıdır. `scripts/build-b1-day09.mjs`, `npm run build` sırasında ders HTML’sini üretir; üretilen HTML tek başına düzenlenmez. Karakterler ve aile defteri kurgudur; erken Cumhuriyet’e ilişkin arka planın kaynakları dersin “Tarihî kaynaklar ve hikâye” sayfasındadır. Önceki B1 dersleri ve öğrencilerin bu derslerdeki kayıt anahtarları korunur.
+
 ## Kelime seçerek sözlük
 
 Yayınlanan A1, A2 ve B1 derslerinde İngilizce bir kelimeyi veya en fazla beş kelimelik kısa ifadeyi seçmek, Türkçe anlamını ve İngilizce örneğini açar. Masaüstünde çift tıklama/metin seçme, telefonda uzun basarak seçme kullanılabilir. **Aa Sözlük** düğmesi ve arama alanı klavyeyle de kullanılabilir. `Escape`, kapatma düğmesi veya kutunun dışına dokunma sözlüğü kapatır; cevap yazılan alanlarda sözlük açılmaz.

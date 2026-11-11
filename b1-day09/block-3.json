@@ -1,0 +1,320 @@
+{
+  "screens": [
+    {
+      "id": "before-the-visit",
+      "block": 3,
+      "step": 12,
+      "min": 12,
+      "mode": "Zaman çizgisi → cümle kurma",
+      "material": "Ekran",
+      "kicker": "Adım 12 · Geçmişten daha da önceye bak",
+      "title": "Nermin had moved the box before the students looked for it.",
+      "titleTR": "Past Perfect: geçmişteki bir noktadan geriye bakmak",
+      "lead": "Mert cumartesi kutuyu masada bulamadı. Bunun sebebini anlamak için hikâyeyi cuma gününe geri sarıyoruz.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: had + fiilin üçüncü hâli",
+          "titleTR": "Earlier past + past reference point",
+          "paras": [
+            "<b>Past Perfect = had + V3</b>. Geçmişteki bir referans noktasından daha önce gerçekleşen eylemi açıkça öne çıkarır: <i>When Mert looked for the box on Saturday, Nermin <b>had moved</b> it into a cupboard.</i> Bakma cumartesi; taşıma daha önce, cuma günündedir. <b>Had moved</b> bu önce–sonra ilişkisini görünür kılar.",
+            "<b>Had bütün öznelerde aynıdır:</b> I / you / he / she / it / we / they had. Olumsuz <b>had not / hadn't + V3</b>; soru <b>Had + özne + V3?</b> olur. Kısa cevap: <i>Yes, she had. / No, they hadn't.</i> Had sonrasında V2 değil V3 kullanılır: <b>had put, had written, had found</b>.",
+            "Bu zamanın anlamı <b>çok eski zaman</b> değildir. İki olay arasında beş dakika da olabilir. Ayrıca her before / after gördüğümüzde zorunlu olarak Past Perfect kullanmayız: <i>After Nermin moved the box, she locked the cupboard.</i> sıra zaten açık olduğu için iki Past Simple ile kurulabilir. Past Perfect önceki olayı özellikle belirtmemize yardım eder."
+          ],
+          "points": ["Cuma: Nermin moved the box. → daha önceki olay", "Cumartesi: Mert looked for it. → geçmiş referans noktası", "Birleştir: Nermin had moved it before Mert looked for it.", "Geçmişteki referans noktasını bulmadan otomatik had kullanmayın."]
+        },
+        {
+          "type": "table",
+          "title": "Had + V3: aynı yardımcı fiil, farklı cümleler",
+          "head": ["Biçim", "Cümle", "Anlam / yapı"],
+          "rows": [
+            ["Olumlu", "Nermin had put the box in the cupboard.", "Nermin kutuyu dolaba koymuştu. Put fiilinin üç hâli de put."],
+            ["Olumsuz", "The students had not scanned the old photos before Saturday.", "Eski fotoğraflar cumartesiden önce taranmamıştı; tarama pazar günü yapıldı."],
+            ["Soru", "Had Zeynep read the message before Mert called?", "Mert aramadan önce Zeynep mesajı okumuş muydu?"],
+            ["Kısa cevap", "No, she hadn't. / Yes, she had.", "Asıl fiili tekrar etmeyiz; had yardımcı fiilini koruruz."],
+            ["Düzensiz V3", "write → written · find → found · take → taken", "Had wrote değil had written; had took değil had taken."]
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Önce olanı görünür kıl",
+          "items": [
+            ["By the time Mert looked on Saturday, Nermin had already put the box away.", "Mert cumartesi baktığında Nermin kutuyu çoktan kaldırmıştı.", "📦"],
+            ["Before the power cut, Elif had saved the label texts on her laptop.", "Elektrik kesilmeden önce Elif etiket metinlerini dizüstü bilgisayarına kaydetmişti.", "💾"],
+            ["The students hadn't scanned the old photos before Saturday; they scanned them on Sunday.", "Öğrenciler eski fotoğrafları cumartesiden önce taramamıştı; pazar günü taradılar.", "🖼️"],
+            ["Had Nermin thrown the box away? — No, she hadn't. She had moved it.", "Nermin kutuyu atmış mıydı? — Hayır. Yerini değiştirmişti.", "↩️"]
+          ]
+        },
+        {
+          "type": "gap",
+          "title": "Daha önceki eylemi Past Perfect ile açıkça belirt",
+          "items": [
+            {"q": "When Mert looked on Saturday, Nermin ___ (move) the box into the cupboard.", "a": ["had moved"], "why": "Görev önceki olayı Past Perfect ile vurgulamamızı istiyor: had + moved. Taşıma cuma, bakma cumartesidir."},
+            {"q": "Before the lights went out, Elif ___ (save) the label texts.", "a": ["had saved"], "why": "Kaydetme, elektrik kesilmesinden önce bitmiştir. Had saved önceki tamamlanmış işi açıkça gösterir."},
+            {"q": "The team ___ (not scan) the old photos before Saturday; they did that on Sunday.", "a": ["had not scanned"], "why": "Cumartesiden önce tarama yapılmadığı için had not scanned gerekir. Hadn't scanned yazımı da aynı anlama gelir."},
+            {"q": "___ Nermin put the box somewhere dry before the rain got heavier? (Past Perfect yardımcı fiili)", "a": ["Had"], "why": "Soru Had + özne + V3 ile başlar. Put zaten V3 olarak cümlede bulunmaktadır."}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": "İki geçmiş noktayı kontrol et",
+          "items": [
+            {"q": "In 'Nermin had moved the box before Mert looked for it', which happened first?", "o": ["Mert looked for the box.", "Nermin moved the box.", "Both actions are happening now."], "a": 1, "why": "Had moved ve before, taşımanın önce; Mert'in bakmasının sonra olduğunu gösterir."},
+            {"q": "Which question correctly uses Past Perfect?", "o": ["Did Nermin had moved the box?", "Had Nermin moved the box?", "Had Nermin move the box?"], "a": 1, "why": "Had soru yardımcı fiilidir; ayrıca did kullanılmaz ve asıl fiil V3 moved olur."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "photo-box-mystery",
+      "block": 3,
+      "step": 13,
+      "min": 12,
+      "mode": "Olayları sırala → sebebi açıkla",
+      "material": "Ekran",
+      "kicker": "Adım 13 · Küçük gizemin çözümü",
+      "title": "The box was safe all along.",
+      "titleTR": "Fotoğraf kutusu neredeydi?",
+      "lead": "Kutu ortadan yok olmamıştı. Nermin onu korumak için yerini değiştirmişti; öğrenciler bunu ancak pazar günü anladı.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: anlatım sırası ile olay sırası aynı olmayabilir",
+          "titleTR": "A flashback explains an earlier cause",
+          "paras": [
+            "Bir hikâyede önce sonucu duyabiliriz: <i>Mert couldn't find the box.</i> Ardından geçmişin daha önceki bölümünü açıklayabiliriz: <i>Nermin <b>had moved</b> it because there was a leak near the table.</i> Okuyucu kutunun neden orada olmadığını artık anlar.",
+            "<b>Already</b>, seçtiğimiz geçmiş noktadan önce işin tamamlandığını öne çıkarabilir: <i>She had already sent a message.</i> Ama already gördüğümüz her cümlede Past Perfect kullanmayız; <b>hangi zamandan geriye baktığımız</b> önemlidir. Bu derste o geçmiş noktalar, Mert'in cumartesi araması ve Zeynep'in pazar mesajı yeniden okumasıdır.",
+            "Pazar sabahı Zeynep cuma günkü mesajı yeniden okudu, dolabın anahtarını Nermin'den aldı ve kuru kutuyu buldu. Ekip fotoğrafları <b>pazar günü</b> taradı. Elektrik kesintisinden önce kaydedilen şey ise eski fotoğraflar değil, <b>etiket metinleriydi</b>. Ayrıntıları tutarlı aktarmak, yalnız yardımcı fiili doğru seçmek kadar önemlidir."
+          ],
+          "points": ["Anlatım sırası: kutu bulunamadı → önceki sebep açıklandı.", "Olay sırası: cuma taşındı → cumartesi masada yoktu → pazar bulundu.", "Had moved önceki sebebi görünür kılar; pazar günkü olayları sırayla anlatırken found kullanabiliriz.", "Not finding something does not prove that somebody destroyed it."]
+        },
+        {
+          "type": "table",
+          "title": "Kutunun zaman çizelgesi",
+          "head": ["Zaman", "Olay", "Başka bir geçmiş noktadan geriye bakınca"],
+          "rows": [
+            ["6 Kasım Cuma", "Nermin moved the box into a cupboard because of a leak.", "By Saturday, she had moved the box."],
+            ["6 Kasım Cuma", "Nermin sent Zeynep a message about the box.", "Before Mert called, Nermin had sent a message."],
+            ["7 Kasım Cumartesi, 14.10", "The lights went out while the students were working.", "Were working: sahne; went out: yeni olay."],
+            ["8 Kasım Pazar", "Zeynep reread the message and found the box.", "Nermin had sent the message before Zeynep reread it."],
+            ["8 Kasım Pazar", "The team scanned the photographs.", "Tarama pazar günkü bir olaydır; Saturday öncesinde olmuş gibi anlatılmaz."],
+            ["11 Kasım Çarşamba, şimdi", "The students are preparing the exhibition.", "Şu anki işler için am / is / are + -ing kullanılır."]
+          ]
+        },
+        {
+          "type": "modelHidden",
+          "title": "Kutunun kısa hikâyesi · kendi açıklamandan sonra aç",
+          "text": "On Saturday, Mert couldn't find the photo box on the table. Nermin had moved it into a cupboard on Friday because there was a leak nearby. She had sent Zeynep a message, but Zeynep didn't check it during the power cut. On Sunday, Zeynep reread the message and asked Nermin for the key. She opened the cupboard and found the box. The photographs were dry. The team scanned them that afternoon. Now they are using the copies in the exhibition."
+        },
+        {
+          "type": "choice",
+          "title": "Sıra ve sebep · 4 soru",
+          "items": [
+            {"q": "Why wasn't the photo box on the table on Saturday?", "o": ["Nermin had put it in a cupboard to keep it dry.", "The students were scanning it at that moment.", "Mert had thrown it away."], "a": 0, "why": "Cuma günü masanın yakınındaki sızıntı nedeniyle kutu korumaya alınmıştır; tarama pazar günü olur ve kutu atılmamıştır."},
+            {"q": "Which action happened on Sunday, not before Saturday?", "o": ["Nermin moved the box.", "Nermin sent the message.", "The students scanned the old photographs."], "a": 2, "why": "Fotoğrafların taranması kutu pazar günü bulunduktan sonra gerçekleşir. Diğer iki olay cuma günündedir."},
+            {"q": "Choose the form that explicitly marks the earlier action: When Zeynep reread the message on Sunday, Nermin ___ it two days earlier.", "o": ["has sent", "had sent", "is sending"], "a": 1, "why": "Pazar günkü yeniden okumadan geriye, cuma günkü göndermeye bakıyoruz. Had + sent bu önceki geçmiş olayı gösterir."},
+            {"q": "Which statement is supported by the story?", "o": ["The power cut destroyed all the old photographs.", "Zeynep found the box before Nermin moved it.", "The box was safe, although Mert couldn't find it on the table."], "a": 2, "why": "Kutunun kuru bulunduğu açıkça anlatılır. Mert'in onu masada bulamaması, fotoğrafların zarar gördüğünü kanıtlamaz."}
+          ]
+        },
+        {
+          "type": "activity",
+          "icon": "🔎",
+          "name": "Bir olayın sebebini geriye giderek açıkla",
+          "en": "Explain the missing box",
+          "time": "3 dk",
+          "group": "İkili",
+          "steps": ["A kişisi cumartesi sonucunu söylesin: <b>Mert couldn't find …</b> B kişisi cuma gününe dönerek <b>Nermin had …</b> ile sebebi açıklasın.", "Rolleri değiştirip pazar günkü çözümü iki Past Simple cümleyle anlatın.", "Son cümlenizi şimdiye bağlayın: <b>Now we are …</b> Böylece aynı küçük hikâyede üç zaman katmanı kurun."],
+          "board": ["Mert couldn't find … because Nermin had …", "On Sunday, … / Now, we are …"]
+        }
+      ]
+    },
+    {
+      "id": "four-time-story",
+      "block": 3,
+      "step": 14,
+      "min": 12,
+      "mode": "Oku → zaman katmanlarını işaretle",
+      "material": "Ekran",
+      "kicker": "Adım 14 · Dört zaman, tek hikâye",
+      "title": "A town's story is becoming our story.",
+      "titleTR": "Dört zamanı aynı metinde birlikte kullan",
+      "lead": "Bu metinde şimdi, cumartesi günkü olaylar, o olayların arka planı ve daha önceki hazırlıklar bir araya geliyor. Zaman değişince hikâyenin koptuğunu değil, bakış noktasının değiştiğini fark edin.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: zaman değiştirmek konuyu değiştirmek değildir",
+          "titleTR": "Follow the narrator's viewpoint",
+          "paras": [
+            "Metin şimdiye açılabilir: <b>We are preparing …</b> Sonra <b>Last Saturday …</b> diyerek geçmişteki ana olaya dönebilir. <b>Was / were + -ing</b> o geçmişteki sahneyi açar; <b>had + V3</b> ise daha önceki bir nedeni veya hazırlığı açıklar.",
+            "Okurken her fiili tek başına sınıflandırmakla yetinmeyin. <b>Hangi eylem, hangi noktaya göre şimdi veya önce?</b> diye sorun. <i>She had saved the texts</i> için referans elektrik kesintisidir; <i>She is writing a label</i> için referans bugünkü çalışma anıdır.",
+            "Tüm fiilleri tek zamana çevirmek hikâyeyi daha doğru yapmaz. Anlatılan şey aynı sergi olsa da şimdiki iş, geçmişteki olay, o andaki süreç ve daha önceki hazırlık farklı dil bilgisi görevleri taşır. <b>Zaman ifadesi + anlam ilişkisi + doğru yapı</b> üçlüsünü birlikte değerlendirin."
+          ],
+          "points": ["Now / today → bu metindeki canlı hazırlıklar.", "Last Saturday → ana geçmiş hikâye.", "At that moment / while → geçmiş sahneyi gösteren bağlam.", "Before that / by the time → daha önceki geçmiş eylemi vurgulayabilir."]
+        },
+        {
+          "type": "reading",
+          "id": "four-time-exhibition-reading",
+          "title": "More than a room full of objects",
+          "byline": "Özgün B1 okuma · Bursa'da geçen kurgusal bir mahalle projesi",
+          "unit": "ifade",
+          "tap": "Dört zamanı anlatan işaretlenebilir ifadelere",
+          "colTitle": "Which viewpoint?",
+          "marks": {
+            "n": {"label": "now", "tr": "Present Continuous", "cls": "m-teal"},
+            "e": {"label": "past event", "tr": "Past Simple", "cls": "m-coral"},
+            "b": {"label": "past background", "tr": "Past Continuous", "cls": "m-purple"},
+            "p": {"label": "earlier past", "tr": "Past Perfect", "cls": "m-gold"}
+          },
+          "columns": {"n": "Şimdiki süreç", "e": "Geçmiş olay", "b": "Geçmişteki sahne", "p": "Daha önceki geçmiş"},
+          "paragraphs": [
+            "Today is Wednesday, 11 November. Elif {n|is writing} a short label about a local potter, while Mert and Zeynep {n|are carrying} a display board into the room. Their neighbourhood exhibition connects ordinary lives across generations. One corner explores education in the early Republic; other corners show local crafts, family kitchens and changing technology. The students are using old objects and digital copies together.",
+            "Last Saturday, the room looked very different. At two o'clock, Elif {b|was arranging} labels, Mert was testing the speaker and Zeynep was sorting reused cardboard. At ten past two, the lights {e|went out}. The students moved away from the cables. Luckily, Elif {p|had saved} the label texts before the power cut, so they did not lose their writing.",
+            "Later, Mert could not find the old photo box. Nermin {p|had moved} it into a cupboard on Friday because there was a leak near the table. On Sunday, Zeynep reread her message and {e|found} the box. The photographs were dry. The team scanned them that afternoon. Now the students are preparing a story about cooperation, not just a collection of objects."
+          ],
+          "questions": [
+            {"q": "What is Elif doing today?", "a": "She is writing a label about a local potter."},
+            {"q": "Is every part of the exhibition about the early Republic?", "a": "No. It also covers crafts, family kitchens and technology."},
+            {"q": "What were the students doing when the lights went out?", "a": "They were preparing the room: arranging labels, testing the speaker and sorting cardboard."},
+            {"q": "Why did the students not lose the label texts?", "a": "Elif had saved them before the power cut."},
+            {"q": "How did the team get digital copies of the old photographs?", "a": "They scanned the photographs on Sunday after finding the box."}
+          ],
+          "rule": [
+            {"q": "Had saved ile is writing neden aynı metinde bulunuyor?", "a": "Had saved geçmişteki kesintiden önceyi, is writing ise bugünkü hazırlığı anlatır. Ortak konu aynı sergi olsa da zaman referansları farklıdır."},
+            {"q": "Were preparing ifadesini sadece uzun olduğu için mi seçiyoruz?", "a": "Hayır. Kesinti anında sürmekte olan arka planı anlatmak için seçiyoruz."}
+          ]
+        },
+        {
+          "type": "choice",
+          "title": "Metnin dört zamanını anlamıyla eşleştir",
+          "items": [
+            {"q": "'Elif is writing a short label' refers to ___.", "o": ["Friday's completed work", "an action happening during today's preparation", "an action completed before Saturday's power cut"], "a": 1, "why": "Metnin Today is Wednesday çerçevesinde is writing, şu anki hazırlığı anlatır."},
+            {"q": "What does 'the lights went out' add to the story?", "o": ["The new event at 14.10 on Saturday.", "A description of the students' current work.", "The action Nermin completed on Friday."], "a": 0, "why": "Went out, cumartesi devam eden hazırlıkların içinde gerçekleşen yeni olaydır; diğer zaman katmanlarına ait değildir."},
+            {"q": "Which form presents an activity already in progress at two o'clock last Saturday?", "o": ["is writing", "had moved", "was arranging"], "a": 2, "why": "Was arranging, saat ikide devam eden düzenleme işini gösterir. Is writing şimdiye, had moved daha önceki taşımaya aittir."},
+            {"q": "What had Elif saved before the power cut?", "o": ["Scans of all the old photographs.", "The label texts.", "A recording of Atatürk's voice."], "a": 1, "why": "Metinde saved the label texts açıkça yazılıdır. Fotoğraflar pazar günü tarandı; ses kaydıyla ilgili bilgi verilmez."},
+            {"q": "Which statement correctly orders the photo-box events?", "o": ["Nermin moved it on Friday; Zeynep found it on Sunday.", "Zeynep found it on Friday; Nermin moved it on Sunday.", "The students scanned the photographs before Nermin moved the box."], "a": 0, "why": "Kutu cuma korumaya alınır; pazar bulunup fotoğraflar o öğleden sonra taranır."},
+            {"q": "What is the main idea of the final sentence?", "o": ["Only very expensive objects belong in the exhibition.", "The exhibition must focus entirely on one historical person.", "The project also tells a story about people working together."], "a": 2, "why": "Cooperation ve not just a collection of objects, ortak çalışma sürecinin de serginin hikâyesi olduğunu vurgular."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exhibition-rehearsal",
+      "block": 3,
+      "step": 15,
+      "min": 14,
+      "mode": "Yaz → karşılıklı anlat",
+      "material": "Ekran ve kişisel not alanı",
+      "kicker": "Adım 15 · Sen serginin rehberisin",
+      "title": "Welcome to our exhibition. Let me tell you what happened.",
+      "titleTR": "Sergi provası: dört zamanla bağlantılı konuşma ve yazma",
+      "lead": "Bir ziyaretçiye hem bugün ne yaptığınızı hem cumartesi yaşanan sorunu anlatın. Hikâyeyi dinleyen kişi, kutunun neden kayıp göründüğünü de anlayabilsin.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: dört zamanı bir iletişim amacı için seç",
+          "titleTR": "A clear story for a visitor",
+          "paras": [
+            "Anlatımınıza <b>bugünkü işten</b> başlayın: <i>We are preparing a neighbourhood exhibition.</i> Sonra <b>geçmiş olayı</b> yerleştirin: <i>Last Saturday, the lights went out.</i> Bu iki zamanı bağlamsız karıştırmak yerine today / last Saturday gibi zaman çerçevelerini açıkça kurun.",
+            "Olay anındaki sahneyi <b>Past Continuous</b> ile açın: <i>Mert was testing the speaker when …</i> Ardından sebebi açıklamak için geriye gidin: <i>Nermin had moved the box before Mert looked for it.</i> Her zamanı yalnız kullandım demek için eklemeyin; okuyucunun sırayı anlamasına yardım etsin.",
+            "Yazı alanındaki kontrol işaretleri bazı <b>kelime ve yapıların görünüp görünmediğini</b> tarar. Hikâyenin doğru sırada olması, cümlelerin doğal olması veya bütün dil bilgisi hatalarının bulunması anlamına gelmez. Son kontrolü zaman çizelgesini okuyarak ve arkadaşınızdan geri bildirim alarak yapın."
+          ],
+          "points": ["1. Paragraf: bugün yapılan iş ve serginin amacı.", "2. Paragraf: cumartesi sahnesi ve elektrik kesintisi.", "3. Paragraf: önceki hazırlık, kutunun çözümü ve bugüne dönüş.", "Dört zamanın her birini anlamlı bir yerde kullanın; zaman çizelgesini bozmayın."]
+        },
+        {
+          "type": "writer",
+          "title": "Sergi günlüğün · 80–120 kelime",
+          "titleTR": "Your exhibition diary",
+          "target": [80, 120],
+          "ph": "Today, we are …\n\nLast Saturday, … was / were … when …\n\nBefore that, … had …\nOn Sunday, …\nNow, we are …",
+          "checks": [
+            {"label": "Şimdiki hazırlık: am / is / are + -ing biçimini kullandım", "re": "\\b(am|is|are)\\s+[a-z]+ing\\b"},
+            {"label": "Geçmiş sahne: was / were + -ing biçimini kullandım", "re": "\\b(was|were)\\s+[a-z]+ing\\b"},
+            {"label": "Geçmiş olay: went / found / called / scanned gibi bir fiil kullandım", "re": "\\b(went|found|called|scanned|stopped|opened|asked|looked)\\b"},
+            {"label": "Önceki geçmiş: had + V3 biçimini kullandım", "re": "\\bhad\\s+(already\\s+)?(moved|saved|put|sent|written|locked|prepared)\\b"},
+            {"label": "Zaman çerçevesi: last Saturday / before / on Sunday ile sırayı belirttim", "re": "\\b(last Saturday|before|on Sunday|by the time)\\b"}
+          ]
+        },
+        {
+          "type": "modelHidden",
+          "title": "Örnek günlük · kendi yazından sonra aç",
+          "text": "Today, we are preparing a neighbourhood exhibition in Bursa. Elif is writing a label, and Mert and Zeynep are carrying a display board. Last Saturday, Mert was testing the speaker when the lights went out. Elif was arranging labels, and Zeynep was sorting cardboard. Luckily, Elif had saved the label texts before the power cut. Later, Mert couldn't find the photo box. Nermin had moved it into a cupboard on Friday because of a leak. On Sunday, Zeynep found the box and we scanned the photographs. Now we are using the copies to tell our neighbourhood's story."
+        },
+        {
+          "type": "activity",
+          "icon": "🗣️",
+          "name": "Ziyaretçi ve öğrenci rehber",
+          "en": "An exhibition interview",
+          "time": "4 dk",
+          "group": "İkili → rol değiştir",
+          "steps": ["A ziyaretçi, B öğrenci rehber olsun. A, şu anki hazırlığı, cumartesi olayını ve olaydan önce olanı soran üç soru seçsin.", "B, soruya uygun zamanda cevap versin; en az bir because, when veya while ile cümleleri bağlasın. Soruda olmayan bir tarihi bilgi veya olay uydurmasın.", "Rolleri değiştirin. Dinleyen kişi bir güçlü noktayı ve düzeltilecek bir zaman bağlantısını söylesin; ardından anlatımı bir kez daha yapın."],
+          "board": ["What are you preparing today?", "What happened last Saturday? / What were you doing when it happened?", "Why wasn't the box on the table? / What had Nermin done before that?"]
+        }
+      ]
+    },
+    {
+      "id": "exit-check",
+      "block": 3,
+      "step": 16,
+      "min": 10,
+      "mode": "Bireysel → gerekçeyi karşılaştır",
+      "material": "Ekran",
+      "kicker": "Adım 16 · Dört zamanın çıkış kontrolü",
+      "title": "Now, then, and before then.",
+      "titleTR": "Son kontrol: biçim, anlam ve olay sırası",
+      "lead": "Her cevap için önce zaman referansını, sonra fiilin görevini söyleyin. Hata yaptığınız konuya dönüp aynı soruyu açıklamasıyla yeniden deneyin.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: son karar haritası",
+          "titleTR": "Four viewpoints, one story",
+          "paras": [
+            "<b>Present Continuous</b> bugün, şu anda sürmekte olan hazırlığı verir: <i>Elif is writing.</i> <b>Past Simple</b> geçmiş hikâyenin olaylarını ilerletir: <i>The lights went out. Mert called Nermin.</i>",
+            "<b>Past Continuous</b> geçmişteki olay anında devam eden sahneyi gösterir: <i>Mert was testing the speaker.</i> <b>Past Perfect</b> seçtiğimiz bir geçmiş noktadan daha önceki işi açıklar: <i>Nermin had moved the box before Mert looked for it.</i>",
+            "Biçim kontrolünde aynı geçmişi iki kez kurmayın: <b>Did … find?</b>, did … found değil. <b>Had … written?</b>, had … wrote değil. <b>Were … working?</b>, were … worked değil. Anlam doğru olsa da bu küçük yapı farkları cümlenin doğruluğunu belirler."
+          ],
+          "points": ["Şimdi sürüyor → am / is / are + -ing.", "Geçmiş olay → V2; soru / olumsuzda did + V1.", "Geçmiş sahne → was / were + -ing.", "Daha önceki geçmiş → had + V3."]
+        },
+        {
+          "type": "choice",
+          "title": "Çıkış bileti · 8 soru",
+          "items": [
+            {"q": "Look at Elif now: she ___ a new label, word by word, at this moment.", "o": ["was writing", "is writing", "had write"], "a": 1, "why": "Look, now ve at this moment şu anki süreci kurar; tekil Elif için is writing gerekir."},
+            {"q": "On Sunday, the team ___ the old photos and finished the whole task before going home.", "o": ["scanned", "scan", "is scanned"], "a": 0, "why": "Pazar günü tamamlanan işi Past Simple scanned anlatır. The team işi yapan öznedir; is scanned anlamı ve zamanı bozar."},
+            {"q": "At two last Saturday, Mert ___ the speaker; the test was still in progress.", "o": ["is testing", "had test", "was testing"], "a": 2, "why": "Geçmişteki saat iki noktasında iş hâlâ sürmektedir; Past Continuous was testing bu sahneyi verir."},
+            {"q": "Choose the form that explicitly marks an earlier past action: Before Mert looked on Saturday, Nermin ___ the box into the cupboard.", "o": ["has moved", "had moved", "were moved"], "a": 1, "why": "Cuma günkü taşıma, cumartesi bakma noktasından öncedir; had moved önceki geçmiş işi açıkça belirtir."},
+            {"q": "Did Zeynep ___ the box on Sunday?", "o": ["found", "finding", "find"], "a": 2, "why": "Soru yardımcı fiili did geçmişi taşır; asıl fiil yalın find olur."},
+            {"q": "Had Nermin ___ a message before the students called?", "o": ["written", "wrote", "write"], "a": 0, "why": "Had + V3 gerekir. Write fiilinin üçüncü hâli written, ikinci hâli wrote biçimidir."},
+            {"q": "Mert and Zeynep ___ the old photographs at two on Saturday; Mert was testing the speaker and Zeynep was sorting cardboard.", "o": ["wasn't scanning", "weren't scanning", "didn't scanning"], "a": 1, "why": "İki kişiden oluşan çoğul özneyle weren't scanning gerekir. Hikâyedeki roller de tarama yapmadıklarını doğrular."},
+            {"q": "Which summary keeps all three time levels in the correct order?", "o": ["The students are preparing the exhibition now. On Saturday, the lights went out while they were working. Nermin had moved the box before Mert looked for it.", "The students prepared the exhibition now. On Saturday, the lights are going out. Nermin moves the box tomorrow before Mert looked for it.", "The students had preparing now. Mert finds the box last Saturday before Nermin had move it on Friday."], "a": 0, "why": "İlk seçenek şimdiki hazırlığı, cumartesi sahne ve olayını, daha önceki taşımayı aynı zaman çizelgesinde doğru kurar. Diğerleri hem yapı hem zaman referansını bozar."}
+          ]
+        },
+        {
+          "type": "activity",
+          "icon": "✅",
+          "name": "Bir dakikalık kendi değerlendirmem",
+          "en": "My next step",
+          "time": "1 dk",
+          "group": "Bireysel",
+          "steps": ["Dört zamandan rahat kullandığınız birini seçip sergi hikâyesinden kendi cümlenizi söyleyin.", "En çok karıştırdığınız iki zamanı yazın. Aralarındaki farkı bir Türkçe cümle ve iki İngilizce örnekle açıklayın.", "Sonraki tekrar için zaman haritası, hata kliniği veya ek alıştırma ekranlarından birini seçin."],
+          "board": ["I can describe … / I need more practice with …", "My example: …"]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "cat": "Önceki hazırlık ve gizemin çözümü",
+      "tr": "earlier preparations and the solution",
+      "items": [
+        ["a leak", "sızıntı; su kaçağı", "Nermin moved the box because there was a leak near the table."],
+        ["a cupboard", "dolap", "She had put the box in a cupboard before the students arrived."],
+        ["put something away", "bir şeyi yerine kaldırmak", "Nermin had already put the box away."],
+        ["save the label texts", "etiket metinlerini kaydetmek", "Elif had saved the label texts before the power cut."],
+        ["reread a message", "bir mesajı yeniden okumak", "Zeynep reread the message on Sunday."],
+        ["a digital copy", "dijital kopya", "The team made digital copies of the photographs on Sunday."],
+        ["cooperation", "iş birliği", "Their exhibition also tells a story about cooperation."],
+        ["all along", "başından beri; bütün bu süre boyunca", "The box was safe all along."]
+      ]
+    }
+  ]
+}

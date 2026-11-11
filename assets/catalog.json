@@ -442,6 +442,25 @@
     "url": "lessons/b1/day-08.html"
   },
   {
+    "id": "b1/day-09",
+    "level": "B1",
+    "title": "Mahalle sergisi · Dört zamanla hikâye anlatma",
+    "description": "B1 dokuzuncu ders: Bursa’da bir mahalle sergisi hazırlarken Present Continuous, Past Simple, Past Continuous ve Past Perfect. Geçmişten bugüne eğitim ve mahalle hayatı, yağmurlu bir hazırlık günü, kayıp fotoğraf kutusu; Türkçe açıklamalar, iki dilli örnekler, sesli dinlemeler ve çözümlü alıştırmalar.",
+    "number": 9,
+    "order": 9,
+    "date": "2026-11-11",
+    "duration": "180 dk",
+    "tags": [
+      "Present Continuous",
+      "Past Simple",
+      "Past Continuous",
+      "Past Perfect",
+      "Bağlantılı hikâye",
+      "Mahalle hayatı"
+    ],
+    "url": "lessons/b1/day-09.html"
+  },
+  {
     "id": "b1/practice",
     "level": "B1",
     "title": "Tanışma ve konuşma · Ek çalışma",

@@ -1,0 +1,391 @@
+{
+  "screens": [
+    {
+      "id": "exhibition-brief",
+      "block": 1,
+      "step": 1,
+      "min": 8,
+      "mode": "İkili → sınıf",
+      "material": "Ekran",
+      "kicker": "Adım 1 · Ortak hikâyemiz",
+      "title": "One exhibition, four ways to tell a story",
+      "titleTR": "Bir mahalle sergisi, dört zaman",
+      "lead": "Bursa'da bir mahalle hafıza sergisi hazırlıyoruz. Önce bugünkü çalışmayı ve geçen cumartesiyi ayıracağız; sonra o sırada sürmekte olanları ve daha önce tamamlananları anlatacağız.",
+      "sections": [
+        {
+          "type": "callout",
+          "title": "Hikâyenin çerçevesi",
+          "text": "Bugün 11 Kasım 2026 Çarşamba. Elif, Mert ve Zeynep, gönüllü arşivci Nermin Hanım ile bir mahalle hafıza sergisi hazırlıyor. 7 Kasım Cumartesi yağmur ve elektrik kesintisi işleri aksattı; bir fotoğraf kutusu kayıp sanıldı. Kutu 8 Kasım Pazar bulundu ve fotoğraflar tarandı. Kişiler, aile belgeleri ve olaylar bu ders için kurgulanmıştır; tarihî arka plan ayrıca belirtilir."
+        },
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: önce zamanı değil anlatmak istediğini seç",
+          "titleTR": "Time and viewpoint",
+          "paras": [
+            "<b>Present Continuous</b> bugünkü çalışma görüntüsünü açar: <i>We are preparing an exhibition.</i> Burada belirli bir süreç içindeyiz. Her gün yaptığımız genel bir alışkanlığı anlatmıyoruz.",
+            "<b>Past Simple</b> bitmiş olayları ilerletir: <i>The lights went out on Saturday.</i> <b>Past Continuous</b> geçmişteki o görüntünün arka planını açar: <i>We were checking the photos.</i>",
+            "<b>Past Perfect</b> başka bir geçmiş andan geriye bakar: <i>We had saved the files before the computer stopped.</i> Bugünden daha eski olduğu için değil, anlatılan geçmiş olaydan da önce olduğu için bu yapıyı kullanırız. Dört zamanı aynı paragrafta kullanmak mümkündür; önce bakış noktasını belirlemek gerekir."
+          ],
+          "points": [
+            "Bugünkü süreç → am / is / are + V-ing",
+            "Bitmiş olay → Past Simple",
+            "Geçmişte o sırada süren süreç → was / were + V-ing",
+            "Bir geçmiş andan önce tamamlanan olay → had + V3"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Dört cümlede aynı proje",
+          "items": [
+            ["We are preparing the exhibition today.", "Bugün sergiyi hazırlıyoruz.", "📍"],
+            ["The lights went out on Saturday.", "Cumartesi ışıklar söndü.", "⚡"],
+            ["Mert was testing the speaker at that moment.", "Mert o anda hoparlörü deniyordu.", "🔊"],
+            ["Elif had saved the label texts before the computer stopped.", "Bilgisayar durmadan önce etiket metinlerini kaydetmişti.", "💾"]
+          ]
+        },
+        {
+          "type": "activity",
+          "icon": "🗂️",
+          "name": "Serginin üç köşesi",
+          "en": "People · daily life · changes",
+          "time": "3 dk",
+          "group": "İkili",
+          "steps": [
+            "Sergi için üç konu önerin: bir insan hikâyesi, günlük hayatla ilgili bir nesne ve bir değişim. Hepsi tarihî olmak zorunda değil; bir okul defteri, bir aile fotoğrafı ve eski bir radyo seçebilirsiniz.",
+            "Bir fikri şu anda yaptığınız çalışma olarak söyleyin: <b>We are collecting stories about …</b> Arkadaşınız bir devam sorusu sorsun: <b>Why are you choosing that?</b>",
+            "Bugün ve geçen cumartesi için iki sütun açın. Bu derste her yeni cümlenin hangi sütuna ait olduğunu kontrol edeceğiz."
+          ],
+          "board": ["TODAY: We are …", "LAST SATURDAY: We …", "What is happening? / What happened?"]
+        }
+      ]
+    },
+    {
+      "id": "live-preparations",
+      "block": 1,
+      "step": 2,
+      "min": 12,
+      "mode": "Bireysel → ikili",
+      "material": "Ekran",
+      "kicker": "Adım 2 · Bugünkü çalışma",
+      "title": "What is everyone doing now?",
+      "titleTR": "Present Continuous: şu anda ve bu süreçte",
+      "lead": "Sergi odasındaki canlı görüntüye bakalım: kim ne yapıyor? Şimdiki zamanı yalnız now sözcüğünden değil, çalışmanın güncel ve sürmekte olmasından tanıyacağız.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: am / is / are + fiil-ing",
+          "titleTR": "Present Continuous in context",
+          "paras": [
+            "<b>Özne + am / is / are + V-ing</b> kurulur. <i>I am checking.</i> <i>Elif is writing.</i> <i>The students are arranging the display.</i> Yardımcı fiil özneye göre değişir; -ing alan asıl fiile ayrıca -s eklemeyiz.",
+            "Bir eylem tam konuşma anında sürüyor olabilir: <i>Mert is carrying a box now.</i> Daha geniş ama geçici bir dönem de anlatılabilir: <i>We are collecting local stories this week.</i> Bu ikinci cümle, günün her saniyesinde bir hikâye topladığımız anlamına gelmez.",
+            "<b>Now</b> tek başına bir zaman seçme düğmesi değildir. <i>We now know the date.</i> cümlesinde <i>know</i> bilgi durumunu bildirir. <i>We are checking the date.</i> ise yapılan işlemi gösterir. Bu derste süreç ile durumu anlam üzerinden ayıracağız."
+          ],
+          "points": ["I am · he / she / it is · you / we / they are", "Yardımcı fiil ve -ing birlikte gerekir: She is writing.", "Geçici dönem, tam o saniyeden daha geniş olabilir.", "Fiilin anlamını kontrol et: know bir durum, check bir etkinliktir."]
+        },
+        {
+          "type": "examples",
+          "title": "Sergi odasında canlı görüntü",
+          "items": [
+            ["Elif is writing the photo labels at the moment.", "Elif şu anda fotoğraf etiketlerini yazıyor.", "✍️"],
+            ["Mert and Zeynep are moving the display boards.", "Mert ve Zeynep sergi panolarını taşıyor.", "🧩"],
+            ["We are collecting neighbourhood stories this week.", "Bu hafta mahalle hikâyeleri topluyoruz.", "🏘️"],
+            ["Nermin knows the family in the photograph.", "Nermin fotoğraftaki aileyi tanıyor.", "💬"]
+          ]
+        },
+        {
+          "type": "choice",
+          "title": "Seç: güncel süreç mi, durum mu?",
+          "items": [
+            {"q": "Look at Elif: she has a pen in her hand and she ___ a label right now.", "o": ["is writing", "wrote", "writes"], "a": 0, "why": "Kalemle yapılan işlem şu anda gözleniyor; is + writing gerekir. Wrote bitmiş geçmiş, writes genel düzen bildirir."},
+            {"q": "Right now, the students ___ old radios at the collection desk for this temporary exhibition.", "o": ["collected", "are collecting", "was collecting"], "a": 1, "why": "Right now, toplama masasındaki şu an süren işi açıkça gösterir. Çoğul students öznesi are collecting alır; collected tamamlanmış geçmiş, was collecting ise tekil ve geçmiş biçimdir."},
+            {"q": "We ___ the name of the street now because Nermin explained it a minute ago.", "o": ["are knowing", "knew", "know"], "a": 2, "why": "Know burada sahip olunan bilgiyi anlatır; normal kullanımda continuous olmaz. Bilgi şimdi geçerli olduğu için know seçilir; açıklama eylemi ise geçmiştedir."},
+            {"q": "The boards are heavy. At this moment, Mert and Zeynep ___ one together.", "o": ["carries", "are carrying", "carried"], "a": 1, "why": "At this moment ile o sırada yapılan taşıma gösteriliyor. İki kişilik özne are carrying ister; carries tekil genel zaman, carried geçmiş olaydır."}
+          ]
+        },
+        {
+          "type": "gap",
+          "title": "Yaz: yardımcı fiili unutma",
+          "items": [
+            {"q": "At this moment, I ___ (read) the list of objects.", "a": ["am reading"], "why": "I öznesi am alır; sürmekte olan okuma için reading eklenir."},
+            {"q": "Look: Nermin ___ (show) us a school notebook.", "a": ["is showing"], "why": "Nermin tekil kişidir: is + showing. Defteri gösterme eylemi şu anda sürüyor."},
+            {"q": "Right now, we ___ (prepare) a corner about daily life.", "a": ["are preparing"], "why": "We ile are kullanılır. Prepare fiilinin sondaki sessiz e'si -ing öncesinde düşer: preparing."},
+            {"q": "At the moment, the students ___ (sit) beside the display boards.", "a": ["are sitting"], "why": "The students çoğuldur; are sitting gerekir. Sit tek heceli kısa ünlü + tek son ünsüz örüntüsünde son t ikiye katlanır."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present-forms",
+      "block": 1,
+      "step": 3,
+      "min": 12,
+      "mode": "İkili",
+      "material": "Ekran",
+      "kicker": "Adım 3 · Olumlu, olumsuz, soru",
+      "title": "Are you scanning photos or writing labels?",
+      "titleTR": "Present Continuous: cümleyi dönüştür",
+      "lead": "Bir cümleyi yalnız olumlu kurmak yetmez. Yapılmayan işi söyleyecek, gerçek bir soru soracak ve kısa cevap vereceğiz; sonra yazımdaki küçük değişiklikleri kontrol edeceğiz.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: not ve soru yeri",
+          "titleTR": "Negatives, questions and spelling",
+          "paras": [
+            "Olumsuzlukta <b>not, am / is / are arkasına</b> gelir: <i>Elif is not scanning photos now; she is writing labels.</i> Kısaltmalar <i>isn't</i> ve <i>aren't</i> biçimindedir. <i>I am not</i> için <i>I'm not</i> kullanabiliriz; standart kısa biçim <i>I amn't</i> değildir.",
+            "Soruda <b>am / is / are öznenin önüne</b> geçer: <i>Are you writing?</i> <i>What is Elif writing?</i> Present Continuous içinde <i>do / does</i> eklemeyiz. Kısa cevapta asıl -ing fiili tekrarlanmaz: <i>Yes, she is.</i> / <i>No, she isn't.</i> Olumlu kısa cevapta <i>Yes, she's</i> ile bitirmeyiz.",
+            "Çoğu fiile -ing eklenir: <i>check → checking</i>. Sessiz son e çoğunlukla düşer: <i>write → writing</i>, <i>move → moving</i>. <i>sit → sitting</i>, <i>plan → planning</i> örneklerinde son ünsüz ikiye katlanır; <i>open → opening</i> her fiilin son harfini çiftlemeyeceğimizi gösterir. <i>lie → lying</i> farklı bir yazım örüntüsüdür.",
+            "Bir kelimenin kendisi her bağlamda 'durum fiili' değildir. <i>Nermin has an old notebook.</i> sahiplik, <i>Nermin is having a short break.</i> bir etkinliktir. <i>I think the title is clear.</i> görüş, <i>I am thinking about a new title.</i> üzerinde düşünme sürecidir. Aynı kelimenin cümledeki anlamını incele."
+          ],
+          "points": ["Olumsuz: She is not / isn't writing.", "Soru: Is she writing? · What is she writing?", "Kısa cevap: Yes, she is. / No, she isn't.", "Yazım: writing · moving · sitting · planning · opening", "know / believe gibi fiillerin normal durum anlamlarını continuous ile zorlama."]
+        },
+        {
+          "type": "table",
+          "title": "Aynı iş, üç cümle biçimi",
+          "head": ["Biçim", "Örnek", "Türkçe / açıklama"],
+          "rows": [
+            ["Olumlu", "Zeynep is checking the dates.", "Zeynep tarihleri kontrol ediyor."],
+            ["Olumsuz", "Zeynep isn't changing the dates.", "Zeynep tarihleri değiştirmiyor."],
+            ["Evet-hayır sorusu", "Is Zeynep checking the dates?", "Zeynep tarihleri kontrol ediyor mu?"],
+            ["Bilgi sorusu", "Which dates is Zeynep checking?", "Zeynep hangi tarihleri kontrol ediyor?"],
+            ["Kısa cevap", "Yes, she is. / No, she isn't.", "Yardımcı fiil yeterlidir; checking tekrarlanmaz."]
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Sergi ekibinin soruları",
+          "items": [
+            ["Are you using this table? — No, I'm not.", "Bu masayı kullanıyor musun? — Hayır, kullanmıyorum.", "🪑"],
+            ["Why is Mert moving that board? — He is making more space.", "Mert o panoyu neden taşıyor? — Daha çok yer açıyor.", "📐"],
+            ["We aren't printing new photos now; we are checking the labels.", "Şu anda yeni fotoğraflar basmıyoruz; etiketleri kontrol ediyoruz.", "🖨️"],
+            ["Nermin is having a break, but she still has the notebook.", "Nermin mola veriyor ama defter hâlâ onda.", "☕"]
+          ]
+        },
+        {
+          "type": "fix",
+          "title": "Düzelt: bir yapıyı onar",
+          "label": "Doğru cümleyi yaz",
+          "items": [
+            {"w": "Şu anda süren iş: Elif writing a label now.", "r": ["Elif is writing a label now.", "Elif's writing a label now."], "why": "-ing tek başına çekimli yüklem değildir; tekil Elif için is gerekir."},
+            {"w": "İki öğrencinin şu anki eylemi: Mert and Zeynep is moving a board.", "r": ["Mert and Zeynep are moving a board."], "why": "İki kişilik özne çoğuldur; is yerine are gelir. Moving korunur."},
+            {"w": "Birine şu anki işini sor: Do you are checking the list?", "r": ["Are you checking the list?"], "why": "Present Continuous sorusunu are başlatır; ayrıca do eklenmez."},
+            {"w": "Nermin'in şu anda bildiği durum: She is knowing the answer now.", "r": ["She knows the answer now."], "why": "Know burada bilgi durumudur. Normal durum anlamında simple biçim knows kullanılır; now continuous zorunluluğu doğurmaz."}
+          ]
+        },
+        {
+          "type": "activity",
+          "icon": "🎭",
+          "name": "İşini tahmin et",
+          "en": "Are you measuring the board?",
+          "time": "4 dk",
+          "group": "İkili",
+          "steps": [
+            "Biriniz sergiyle ilgili bir işi sessizce canlandırsın: kutu taşımak, etiket yazmak, bir nesneyi ölçmek veya tarih kontrol etmek.",
+            "Diğer kişi en az iki <b>Are you …?</b> sorusuyla işi bulsun. Cevaplayan kişi yalnız hareket etmeyi değil doğru kısa cevabı da kullansın: <b>Yes, I am. / No, I'm not.</b>",
+            "Rolleri değiştirin. Sonunda arkadaşınızın ne yaptığını üçüncü kişiyle söyleyin: <b>She is measuring the board.</b>"
+          ],
+          "board": ["Are you …?", "Yes, I am. / No, I'm not.", "What is your partner doing?"]
+        }
+      ]
+    },
+    {
+      "id": "last-saturday",
+      "block": 1,
+      "step": 4,
+      "min": 12,
+      "mode": "Bireysel → ikili",
+      "material": "Ekran",
+      "kicker": "Adım 4 · Bitmiş olaylar",
+      "title": "What happened last Saturday?",
+      "titleTR": "Past Simple: olayları sıraya koy",
+      "lead": "Canlı görüntüden 7 Kasım'a dönüyoruz. Önce olayların sırasını çıkaralım: toplantı, kesinti, kayıp sanılan kutu ve pazar günkü çözüm.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: bitmiş olaylar hikâyeyi ilerletir",
+          "titleTR": "Past Simple and a finished time frame",
+          "paras": [
+            "<b>Past Simple</b> tamamlanmış geçmiş çerçevedeki olay ve durumları sunar. <i>Last Saturday, the team met at the centre.</i> <i>The lights went out at 2.10.</i> Bu biçim yalnız 'kısa' eylemler için değildir: <i>The meeting lasted two hours.</i> Süre uzun olsa da anlatılan dönem kapanmıştır.",
+            "Art arda gelen Past Simple fiilleri olay zinciri kurabilir: <i>They checked the table, called Nermin and read the message.</i> Her cümlede ayrı bir tarih yazmak gerekmez; bağlamın kurduğu geçmiş çerçeve devam edebilir.",
+            "Okurken bugünkü çalışma ile tamamlanmış olayları ayır. <i>They are preparing the exhibition</i> bugün süren projedir; <i>They scanned the photos on Sunday</i> pazar günü tamamlanan belirli işlemdir. Past Continuous arka planı ve Past Perfect önceki hazırlıkları sonraki bloklarda bu aynı hikâyeye ekleyeceğiz."
+          ],
+          "points": ["Past Simple: olumlu cümlede düzenli V-ed veya düzensiz V2", "Eylemin uzunluğu tek başına zamanı seçtirmez.", "then / after that / finally olay sırasını açıklaştırabilir.", "Bugünkü süreç ile bitmiş geçmiş olayları aynı metinde karıştırmadan ayır."]
+        },
+        {
+          "type": "reading",
+          "id": "exhibition-week-reading",
+          "title": "A box, a message and a second chance",
+          "byline": "Kurgusal mahalle hikâyesi · bugün ve geçen hafta",
+          "unit": "işaret",
+          "tap": "Bugünkü süreçlere ve bitmiş olaylara",
+          "colTitle": "Hangi zaman, hangi bakış?",
+          "marks": {"n": {"label": "current process", "tr": "bugünkü süreç", "cls": "m-teal"}, "p": {"label": "finished event", "tr": "bitmiş geçmiş olay", "cls": "m-coral"}},
+          "columns": {"n": "current process", "p": "finished event"},
+          "paragraphs": [
+            "Today is Wednesday, and three students in Bursa {n|are preparing} a neighbourhood exhibition with Nermin, a volunteer archivist. Elif {n|is writing} labels, while Mert and Zeynep {n|are moving} display boards. Their exhibition connects school memories, family photographs and changes in everyday life. It includes a fictional school notebook from 1933, but it is not only about the past.",
+            "Last Saturday, the students {p|met} at the centre after lunch. Rain {p|hit} the windows, and at 2.10 the lights {p|went out}. Mert {p|looked} for a box of photographs on the table, but he {p|did not find} it. The group felt worried because the photographs were important for the exhibition. They left a careful note instead of blaming anyone.",
+            "On Sunday, Zeynep {p|read} Nermin's message again and {p|found} the dry box in a cupboard. The team {p|scanned} the photographs that afternoon. Now they {n|are checking} the final labels together. The problem became a useful lesson: a clear message can be as important as a good plan."
+          ],
+          "questions": [
+            {"q": "What are the three students preparing today?", "a": "They are preparing a neighbourhood exhibition with Nermin."},
+            {"q": "Which three kinds of stories or objects does the exhibition connect?", "a": "School memories, family photographs and changes in everyday life."},
+            {"q": "What happened at 2.10 on Saturday?", "a": "The lights went out."},
+            {"q": "Where did Zeynep find the box on Sunday?", "a": "She found it in a cupboard."},
+            {"q": "What did the team do with the photographs on Sunday afternoon?", "a": "They scanned the photographs."}
+          ],
+          "rule": [
+            {"q": "Why are preparing ile scanned aynı metinde farklı zamanlarda?", "a": "Are preparing güncel ve süren projeyi; scanned on Sunday tamamlanmış, belirli geçmiş işlemi anlatır."},
+            {"q": "Did not find içinde neden found yazılmıyor?", "a": "Geçmiş bilgisini did taşır; ardından asıl fiilin yalın biçimi find gelir."}
+          ]
+        },
+        {
+          "type": "activity",
+          "icon": "🧵",
+          "name": "Üç olayla kısa özet",
+          "en": "First … Then … Finally …",
+          "time": "3 dk",
+          "group": "İkili",
+          "steps": ["Metni kapatıp cumartesi ve pazar için üç tamamlanmış olay seçin.", "Arkadaşınıza üç cümleyle anlatın; <b>first, then, finally</b> kullanabilirsiniz. Bir sonraki kişi 'Where?' veya 'When?' ile ayrıntı istesin.", "Son bir cümleyle bugüne dönün: <b>Now they are …</b> Böylece geçmişten güncel projeye geçişi açıkça gösterin."],
+          "board": ["First, they met …", "Then, the lights …", "Finally, Zeynep …", "Now, they are …"]
+        }
+      ]
+    },
+    {
+      "id": "past-simple-forms",
+      "block": 1,
+      "step": 5,
+      "min": 10,
+      "mode": "Bireysel → ikili",
+      "material": "Ekran",
+      "kicker": "Adım 5 · Geçmiş cümleyi kur",
+      "title": "Did you find the box on Saturday?",
+      "titleTR": "Past Simple: did, didn't ve düzensiz fiiller",
+      "lead": "Olumlu cümlede found kullanırken soruda neden find kullanıyoruz? Did ile geçmiş bilgisini iki kez işaretlemeden soru ve olumsuz cümle kuracağız.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: olumlu V2, did sonrası yalın fiil",
+          "titleTR": "One past marker is enough",
+          "paras": [
+            "Olumlu cümlede <b>düzenli fiile -ed</b> eklenir: <i>They checked the table.</i> Düzensiz fiil kendi geçmiş biçimini alır: <i>Zeynep found the box.</i> Temel olumlu Past Simple cümlesinde her fiilin önüne ayrıca did koymayız. <i>She did find it</i> vurgulu bir kullanım olabilir; başlangıç kuralımızın normal olumlu biçimi <i>She found it</i>tir.",
+            "Olumsuzda <b>didn't + V1</b>, soruda <b>Did + özne + V1?</b> kullanılır. <i>Mert didn't find the box on Saturday.</i> <i>Did Zeynep find it on Sunday?</i> Did geçmişi zaten taşıdığı için <i>didn't found</i> ve <i>Did she found?</i> yanlış olur.",
+            "<b>Be</b> ayrı davranır: <i>They were worried.</i> <i>They weren't careless.</i> <i>Was the box wet?</i> Be ile bu yapılarda did eklemeyiz. <i>Were they worried? — Yes, they were.</i> ve <i>Did they call? — Yes, they did.</i> kısa cevaplarını birbirine karıştırma.",
+            "Yazımda <i>move → moved</i>, <i>study → studied</i>, <i>stop → stopped</i> örneklerine dikkat et. Düzensiz fiili üçlü olarak öğrenmek sonraki Past Perfect çalışmasını kolaylaştırır: <i>go–went–gone</i>, <i>find–found–found</i>, <i>write–wrote–written</i>. V2 ile V3 her fiilde aynı değildir."
+          ],
+          "points": ["Olumlu: They found it. · Olumsuz: They didn't find it.", "Soru: Did they find it? · Kısa cevap: Yes, they did.", "Be: was / were · wasn't / weren't · Was it dry?", "study → studied · stop → stopped · write → wrote", "Past Simple yalnız kısa olayları anlatmaz; bitmiş süreleri de anlatır."]
+        },
+        {
+          "type": "table",
+          "title": "Kutu hikâyesinde fiil biçimleri",
+          "head": ["Yalın fiil", "V2 · Past Simple", "V3 · sonra kullanacağız", "Örnek"],
+          "rows": [
+            ["find", "found", "found", "Zeynep found the box on Sunday."],
+            ["write", "wrote", "written", "The students wrote a careful note."],
+            ["go", "went", "gone", "The lights went out at 2.10."],
+            ["read", "read /red/", "read /red/", "Zeynep read the message again."],
+            ["save", "saved", "saved", "Elif saved the label texts."],
+            ["scan", "scanned", "scanned", "They scanned the photographs on Sunday."]
+          ]
+        },
+        {
+          "type": "choice",
+          "title": "Seç: did'den sonra ne gelir?",
+          "items": [
+            {"q": "___ Zeynep find the box on Sunday?", "o": ["Was", "Did", "Does"], "a": 1, "why": "Belirli geçmiş olayın sorusunda did kullanılır. Was, find yalın fiiliyle bu soruyu kurmaz; does şimdiki genel zamandır."},
+            {"q": "Mert ___ the box on the table on Saturday, so he asked the others for help.", "o": ["didn't found", "doesn't find", "didn't find"], "a": 2, "why": "Cumartesi tamamlanan arama olumsuz anlatılıyor: didn't + find. Found yazmak geçmişi ikinci kez işaretler."},
+            {"q": "___ the photographs still completely dry and undamaged when Zeynep opened the box on Sunday?", "o": ["Were", "Did", "Was"], "a": 0, "why": "Dry and undamaged fotoğrafların durumunu niteleyen sıfatlardır; be fiilinin geçmiş sorusu gerekir. Photographs çoğul olduğundan were seçilir; did sıfat yüklemini bu yapıda kurmaz."},
+            {"q": "The team ___ the old photographs on Sunday afternoon. The job is complete.", "o": ["scans", "scanned", "scan"], "a": 1, "why": "On Sunday afternoon bitmiş bir işlem çerçevesidir. Scan düzenli fiili son n çiftlenerek scanned olur; olumlu geçmiş biçimi gerekir."}
+          ]
+        },
+        {
+          "type": "gap",
+          "title": "Yaz: hikâyeyi doğru geçmiş biçimle tamamla",
+          "items": [
+            {"q": "Last Saturday, the three students ___ (meet) at the centre after lunch.", "a": ["met"], "why": "Meet düzensizdir; V2 met. Bitmiş cumartesi buluşması anlatılır."},
+            {"q": "At 2.10 on Saturday, the lights ___ (go) out.", "a": ["went"], "why": "Go fiilinin geçmişi went olur; go out burada ışıkların sönmesidir."},
+            {"q": "On Sunday, Zeynep ___ (find) the dry box in a cupboard.", "a": ["found"], "why": "Find fiilinin V2 biçimi found. Cümle olumlu olduğu için did eklemiyoruz."},
+            {"q": "After the problem, the students ___ (write) a careful note instead of blaming anyone.", "a": ["wrote"], "why": "Write fiilinin V2 biçimi wrote; written V3'tür ve tek başına bu olumlu geçmiş cümleyi kurmaz."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-time-check",
+      "block": 1,
+      "step": 6,
+      "min": 6,
+      "mode": "İkili → bireysel",
+      "material": "Ekran",
+      "kicker": "Adım 6 · İlk kontrol",
+      "title": "Today or last weekend?",
+      "titleTR": "İki zaman arasında bilinçli geçiş",
+      "lead": "Aynı kişilerin hem bugünkü işini hem tamamlanan geçmiş olayını anlat. Bir cümleden diğerine geçerken zaman çerçevesini açık tut.",
+      "sections": [
+        {
+          "type": "explain",
+          "title": "Konu anlatımı: zaman çerçevesi değişince biçim de değişir",
+          "titleTR": "Keep your listener on the timeline",
+          "paras": [
+            "Bir paragrafın tüm fiillerini aynı zamana çevirmeyiz. <i>Today we are checking the labels. We printed them yesterday.</i> İlk cümle güncel süreç, ikinci cümle tamamlanmış hazırlıktır. <b>Today / now</b> ve <b>yesterday / last Saturday</b> geçişi dinleyiciye yardım eder.",
+            "Önce üç soruyu cevapla: <b>Kim?</b> <b>Hangi zaman çerçevesi?</b> <b>Süreç mi, bitmiş olay mı?</b> Sonra yardımcı fiili kontrol et. <i>She is writing</i> içinde is gerekir; <i>she didn't write</i> içinde did geçmişi taşıdığı için write yalın kalır.",
+            "Bu kontrol henüz geçmişteki iki olayı karşılaştırmayı bitirmiyor. Sonraki blokta cumartesi 14.10'un arka planını <i>was / were + V-ing</i> ile, ardından bu noktadan önceki hazırlıkları <i>had + V3</i> ile ekleyeceğiz."
+          ],
+          "points": ["Paragraf boyunca tek zaman kullanmak zorunda değilsin.", "Bakış noktasını today / on Saturday gibi ifadelerle açıklaştır.", "Özne uyumu ve yardımcı fiil zincirini son kez kontrol et."]
+        },
+        {
+          "type": "choice",
+          "title": "Çıkış bileti: dört kısa karar",
+          "items": [
+            {"q": "Listen: Mert ___ the new speaker at this moment.", "o": ["tested", "is testing", "test"], "a": 1, "why": "Şu anda duyulabilen deneme süreci var. Tekil Mert için is testing gerekir; tested bitmiş geçmiş olaydır."},
+            {"q": "The students ___ the photographs on Sunday; now they are writing the labels.", "o": ["are scanning", "scan", "scanned"], "a": 2, "why": "Tarama pazar günü tamamlandı; şimdi etiket yazma sürüyor. Aynı cümlede scanned ve are writing farklı zaman çerçevelerini doğru kurar."},
+            {"q": "Which question asks about a finished event on Saturday?", "o": ["Did the lights go out at 2.10?", "Are the lights going out now?", "Do the lights go out every day?"], "a": 0, "why": "Did + go tamamlanmış geçmiş olayı sorar. İkinci soru güncel süreç, üçüncüsü genel tekrardır."},
+            {"q": "At this moment, Elif ___ a new label; she isn't scanning a photograph.", "o": ["wrote", "is writing", "write"], "a": 1, "why": "At this moment ve isn't scanning güncel karşılaştırmayı kurar. Elif'in devam eden işi is writing ile verilir."}
+          ]
+        },
+        {
+          "type": "activity",
+          "icon": "🎙️",
+          "name": "Sergiden iki kısa haber",
+          "en": "Now … / Last Saturday …",
+          "time": "2 dk",
+          "group": "İkili",
+          "steps": ["Bir kişi iki cümlelik güncel haber versin: <b>We are …</b> ve <b>Elif / Mert / Zeynep is …</b>", "Diğeri cumartesiden iki bitmiş olay anlatsın ve <b>Did …?</b> ile bir ayrıntı sorsun.", "Birbirinize yalnız bir düzeltme önerin: eksik am / is / are veya did sonrasında yanlış V2 var mı?"],
+          "board": ["We are preparing …", "On Saturday, … happened.", "Did …? — Yes, … did. / No, … didn't."]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "cat": "Sergi hazırlığı",
+      "tr": "Preparing the exhibition",
+      "items": [
+        ["a neighbourhood", "mahalle", "We are collecting stories from our neighbourhood."],
+        ["an exhibition", "sergi", "The students are preparing an exhibition about everyday life."],
+        ["a display board", "sergi panosu", "Mert and Zeynep are moving a display board."],
+        ["a label", "etiket, açıklama yazısı", "Elif is writing a label for the photograph."],
+        ["an archivist", "arşivci", "Nermin is a volunteer archivist."],
+        ["to collect", "toplamak, bir araya getirmek", "This week, we are collecting local stories."],
+        ["to arrange", "düzenlemek, yerleştirmek", "The team is arranging the objects on a table."],
+        ["to check", "kontrol etmek", "Zeynep is checking the dates on the labels."],
+        ["at the moment", "şu anda", "At the moment, Elif is writing a title."],
+        ["a temporary project", "geçici, belirli süreli proje", "We are working together on a temporary project."]
+      ]
+    },
+    {
+      "cat": "Geçen haftaki olaylar",
+      "tr": "Last weekend's events",
+      "items": [
+        ["a power cut", "elektrik kesintisi", "The power cut interrupted our work on Saturday."],
+        ["the lights went out", "ışıklar söndü", "The lights went out at 2.10."],
+        ["to look for", "aramak", "Mert looked for the box on the table."],
+        ["to find", "bulmak", "Zeynep found the box in a cupboard."],
+        ["a cupboard", "dolap", "The photographs were dry inside the cupboard."],
+        ["to scan", "taramak, dijital kopyasını almak", "The team scanned the photographs on Sunday."],
+        ["a careful note", "özenli, dikkatli yazılmış not", "They wrote a careful note instead of blaming anyone."],
+        ["instead of", "yerine", "They asked for information instead of blaming a friend."],
+        ["to blame", "suçlamak", "The students did not blame anyone for the missing box."],
+        ["a finished event", "tamamlanmış olay", "We use the past simple to tell this finished event."]
+      ]
+    }
+  ]
+}

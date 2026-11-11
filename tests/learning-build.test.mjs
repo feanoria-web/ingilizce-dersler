@@ -6,8 +6,8 @@ import {instrumentLearning} from '../scripts/instrument-learning.mjs';
 import {instrumentAssessments} from '../scripts/instrument-assessments.mjs';
 import {instrumentBreakReview} from '../scripts/inject-break-review.mjs';
 
-test('all 18 published lesson families load versioned static learning metadata without changing source lessons',async()=>{
-  let count=0;
+test('all published lesson families load versioned static learning metadata without changing source lessons',async()=>{
+  const checked=new Set();
   for(const level of ['a1','a2','b1','yds'])for(const file of await fs.readdir(new URL(`../lessons/${level}/`,import.meta.url))){
     if(!file.endsWith('.html'))continue;
     const path=`lessons/${level}/${file}`,source=await fs.readFile(new URL('../'+path,import.meta.url),'utf8');
@@ -17,9 +17,10 @@ test('all 18 published lesson families load versioned static learning metadata w
     assert.match(published,/EnglishLearningPageBridge\?\.register(Component|Board|Yds)/);
     assert.equal(instrumentLearning(published,path),published);assert.ok(!source.includes('english-learning-page-bridge'));
     for(const [,attrs,script] of published.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi))if(!/application\/(json|ld\+json)/i.test(attrs)&&script.trim())new vm.Script(script);
-    count++;
+    checked.add(path);
   }
-  assert.equal(count,24);
+  assert.ok(checked.size>=25,'existing lessons and the new B1 story must be covered');
+  assert.ok(checked.has('lessons/b1/day-09.html'),'the new lesson must receive learning metadata');
 });
 
 test('component metadata excludes break/resources and connects exact per-question IDs and topics',async()=>{

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "level": "B1",
+    "school": "HÜDAVENDİGAR SOSYAL GELİŞİM MERKEZİ - ENGLISH B1",
+    "teacher": "GÜRKAN ÖZTÜRK",
+    "date": "11.11.2026",
+    "day": "DAY 09",
+    "title": "A Town’s Story · Four Tenses, One Exhibition",
+    "titleTR": "Mahalle hafıza sergisi · Dört zamanda bir hikâye",
+    "sub": "Elif, Mert ve Zeynep Bursa’da bir mahalle hafıza sergisi hazırlıyor. Bugünkü çalışmaları anlatıyor, geçen cumartesi yaşanan elektrik kesintisine dönüyor ve o andan önce hangi hazırlıkları tamamladıklarını açıklıyoruz. Aile fotoğrafları, günlük hayat, teknoloji ve erken Cumhuriyet’te eğitim aynı serginin parçaları. Karakterler, sergi ve Ayşe’nin 1933 tarihli defteri dil öğrenimi için kurgulanmıştır; tarihî arka plan kaynaklara dayanır.",
+    "tagline": "NOW · THEN · WHILE · BEFORE",
+    "heroTiles": [
+      ["We are preparing an exhibition now.", "şimdi süren hazırlık"],
+      ["The lights went out last Saturday.", "tamamlanan olay"],
+      ["We were sorting photos when it happened.", "o sırada süren arka plan"],
+      ["We had saved our notes before the power failed.", "geçmişten daha önce"],
+      ["Was Mert checking the labels?", "geçmişte süren işi sor"],
+      ["Had they found the box by Sunday evening?", "önce tamamlanan işi sor"]
+    ],
+    "minutes": 180
+  },
+  "students": 12,
+  "boxCount": 16,
+  "homeLinks": [["tense-map", "Dört zamanın haritası"], ["summary", "Konu özeti"], ["vocab", "İfade bankası"], ["error-clinic", "Sık hataları düzelt"], ["extra-practice", "Ek karışık alıştırmalar"], ["sources", "Tarihî kaynaklar ve hikâye"]],
+  "stepNames": {
+    "1": "Serginin hikâyesi",
+    "2": "Bugünkü hazırlıklar",
+    "3": "Present Continuous: biçim ve anlam",
+    "4": "Geçen cumartesi ne oldu?",
+    "5": "Past Simple: biçim ve anlam",
+    "6": "Şimdi ve bitmiş geçmiş",
+    "7": "Yağmurlu öğleden sonra",
+    "8": "Süren işler ve araya giren olay",
+    "9": "Arşiv köşesi: eğitim ve değişim",
+    "10": "Telefon mesajı",
+    "11": "Arka planı olaydan ayır",
+    "12": "Ziyaretten önce",
+    "13": "Fotoğraf kutusunun gizemi",
+    "14": "Dört zamanla tek hikâye",
+    "15": "Sergi provası ve yazma",
+    "16": "Çıkış kontrolü"
+  },
+  "blocks": [
+    {"n": 1, "title": "Şimdi ve geçen cumartesi", "titleTR": "Present Continuous · Past Simple", "minutes": 60, "goal": "Süren güncel hazırlıklarla bitmiş geçmiş olayları ayırır; olumlu, olumsuz ve soru cümlelerini kurar."},
+    {"n": 2, "title": "O sırada neler oluyordu?", "titleTR": "Past Continuous · Past Simple ile karşılaştırma", "minutes": 60, "goal": "Geçmişte süren arka planı, eşzamanlı işleri ve araya giren olayı anlatır; bir dinleme mesajının ayrıntılarını bulur."},
+    {"n": 3, "title": "O andan önce ne olmuştu?", "titleTR": "Past Perfect · Dört zamanın birlikte kullanımı", "minutes": 60, "goal": "İki geçmiş noktayı sıralar; şimdiki hazırlık, geçmiş olay, o sıradaki süreç ve daha önceki hazırlığı bağlantılı biçimde anlatır."}
+  ],
+  "outcomes": [
+    "Present Continuous ile şu anda ve bu dönem süren işleri anlatır; am/is/are + -ing, olumsuzluk ve soruyu doğru kurar.",
+    "Past Simple ile bitmiş geçmiş olayları anlatır; düzenli ve düzensiz fiilleri, did/didn’t + yalın fiili kullanır.",
+    "Past Continuous ile geçmişteki bir anda süren işi ve hikâyenin arka planını anlatır; was/were + -ing kullanır.",
+    "Past Perfect ile bir geçmiş noktadan önce tamamlanmış eylemi anlatır; had/hadn’t + V3 ve Had …? yapılarını kurar.",
+    "When, while, before, after ve by the time ifadelerini anlamı ve zaman çizgisini denetleyerek kullanır.",
+    "Bir okuma veya sesli mesajda olayların sırasını, karakterleri ve neden-sonuç ilişkilerini bulur.",
+    "Bir sergi hikâyesini konuşarak sunar ve dört zamanı bağlamlarına uygun kullanarak 80–120 kelimelik bir metin yazar."
+  ],
+  "grammarTargets": [
+    ["Present Continuous", "Adım 2–3", "We are preparing. · We aren’t waiting. · Is she checking the labels?"],
+    ["Past Simple", "Adım 4–5", "The lights went out. · We didn’t leave. · Did you find the box?"],
+    ["Past Continuous", "Adım 7–8", "Mert was testing the speaker. · They weren’t scanning photos. · Were you listening?"],
+    ["Past Perfect", "Adım 12–13", "We had saved our notes before the power failed. · Had she checked them?"],
+    ["Arka plan ↔ olay ↔ önceki hazırlık", "Adım 8 · 13–14", "While we were working, the lights went out; we had already saved our notes."],
+    ["Bağlantılı anlatım", "Adım 14–16", "Now … · Last Saturday … · While … · By the time … · Before …"]
+  ],
+  "smallClass": [],
+  "sources": [
+    {"title": "Kültür ve Turizm Bakanlığı · 1923 kronolojisi", "url": "https://dosim.ktb.gov.tr/TR-317190/1923.html", "note": "Cumhuriyetin 29 Ekim 1923’te ilan edilmesi."},
+    {"title": "Atatürk Ansiklopedisi · Harf Devrimi", "url": "https://ataturkansiklopedisi.gov.tr/detay/616/Harf-Devrimi", "note": "Yeni Türk harflerine ilişkin kanunun 1 Kasım 1928’de kabulü."},
+    {"title": "Atatürk Ansiklopedisi · Millet Mektepleri", "url": "https://ataturkansiklopedisi.gov.tr/detay/320/Millet-Mektepleri", "note": "Millet Mekteplerinin 1 Ocak 1929’da açılması ve yetişkin eğitimi."}
+  ]
+}

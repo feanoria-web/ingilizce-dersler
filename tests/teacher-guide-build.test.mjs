@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
+import fs from 'node:fs/promises';
 import {
   assertPublicLessonHtml,
   sanitizeLessonHtml,
@@ -8,6 +9,7 @@ import {
 } from '../scripts/extract-teacher-guides.mjs';
 
 const marker='<meta name="teacher-guides" content="private-v1">';
+const studentOnlyMarker='<meta name="teacher-guides" content="student-only-v1">';
 const page=(script,{marked=false,body=''}={})=>`<!doctype html><html><head>${marked?marker:''}</head><body>${body}<script>${script}</script></body></html>`;
 const lessonFixture=()=>({
   meta:{title:'Student lesson',teacher:'The teacher'},
@@ -146,6 +148,53 @@ test('the guard accepts ordinary student teacher mentions, generic explanatory n
   const lesson=cleanLesson();lesson.screens[0].sections=[{type:'explain',title:'Ask the teacher',note:'Student explanation',examples:['The teacher is in the classroom.']}];
   assert.equal(assertPublicLessonHtml(lessonPage(lesson,{marked:true,body:'<p>Ask your teacher a question.</p><section class="teacher-panel"></section>'}),'public-fixture'),true);
   assert.equal(assertPublicLessonHtml(page('',{body:'<p>Our teacher teaches English.</p>'}),'unknown-public-family'),true);
+});
+
+test('student-only lessons need no private guide but retain all teacher-content publication checks',async t=>{
+  const studentPage=(lesson,body='')=>lessonPage(lesson,{marked:true,body}).replace(marker,studentOnlyMarker);
+  assert.equal(assertPublicLessonHtml(studentPage(cleanLesson()),'student-only-fixture'),true);
+  assert.throws(()=>assertPublicLessonHtml(lessonPage(cleanLesson()),'unprocessed-fixture'),/unprocessed source/);
+  for(const [label,change]of [
+    ['global teacher notes',lesson=>{lesson.teacherNotes=[['Private','PRIVATE_STUDENT_ONLY_SENTINEL']];}],
+    ['screen teacher notes',lesson=>{lesson.screens[0].teacher=['PRIVATE_STUDENT_ONLY_SENTINEL'];}],
+    ['private guide screen',lesson=>{lesson.screens.push({id:'guide',title:'Private guide',lead:'PRIVATE_STUDENT_ONLY_SENTINEL'});}],
+  ])await t.test(label,()=>{const lesson=cleanLesson();change(lesson);assert.throws(()=>assertPublicLessonHtml(studentPage(lesson),'student-only-fixture'),/private teacher content/);});
+  await t.test('static teacher block',()=>assert.throws(()=>assertPublicLessonHtml(studentPage(cleanLesson(),'<aside class="teacher-only">PRIVATE_STUDENT_ONLY_SENTINEL</aside>'),'student-only-fixture'),/private teacher content/));
+});
+
+test('the auth client adds guide links only for admin lessons declaring an actual private-guide marker',async()=>{
+  const source=await fs.readFile(new URL('../assets/auth-client.js',import.meta.url),'utf8');
+  const start=source.indexOf('  function addTeacherGuideLink() {'),end=source.indexOf('  function bindForms()',start);
+  assert.ok(start>0&&end>start);
+  function links({role='admin',markerValue='private-v1'}={}) {
+    const appended=[];
+    const context={current:{role},URL,root:new URL('https://example.test/ingilizce-dersler/'),location:{pathname:'/ingilizce-dersler/lessons/b1/day-09.html'},document:{
+      querySelector(selector){if(selector==='meta[name="teacher-guides"][content="private-v1"]')return markerValue==='private-v1'?{}:null;if(selector==='.top-actions')return{append:node=>appended.push(node)};return null;},
+      createElement(){return{};},
+    }};
+    vm.runInNewContext(source.slice(start,end)+'\naddTeacherGuideLink();',context);
+    return appended;
+  }
+  assert.equal(links().length,1);
+  assert.match(links()[0].href,/teacher-guides\.html\?lesson=b1%2Fday-09$/);
+  assert.equal(links({markerValue:'student-only-v1'}).length,0);
+  assert.equal(links({role:'student'}).length,0);
+});
+
+test('student-only maintenance is idempotent and cannot create an empty private guide or hide reintroduced content',()=>{
+  const source=lessonPage(cleanLesson(),{marked:true}).replace(marker,studentOnlyMarker);
+  const once=sanitizeLessonHtml(source,'student-only-maintenance');
+  const twice=sanitizeLessonHtml(once.html,'student-only-maintenance');
+  for(const result of [once,twice]){
+    assert.equal(result.changed,false);
+    assert.equal(result.guide,null);
+    assert.equal(result.html,source);
+    assert.ok(result.html.includes(studentOnlyMarker));
+    assert.ok(!result.html.includes(marker));
+  }
+  const changed=cleanLesson();changed.teacherNotes=[['Private','PRIVATE_REINTRO_SENTINEL']];
+  assert.throws(()=>sanitizeLessonHtml(lessonPage(changed,{marked:true}).replace(marker,studentOnlyMarker),'student-only-maintenance'),/private teacher content/);
+  assert.throws(()=>sanitizeLessonHtml(source.replace('</body>','<aside class="teacher-only">PRIVATE_REINTRO_SENTINEL</aside></body>'),'student-only-maintenance'),/private teacher content/);
 });
 
 test('section-ID normalization is stable and preserves source snapshots',()=>{
