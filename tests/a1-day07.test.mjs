@@ -77,6 +77,20 @@ test('the lesson does not copy sentences from the previous two A1 lessons', asyn
   }
 });
 
+test('every teaching screen has an extra reading or listening, plus a class activity, and the video corner is one tap away', () => {
+  for (const id of ['adjectives', 'opposites', 'adjective-text', 'places', 'pronouns', 'pronoun-table', 'colours', 'favourite', 'comparatives', 'body', 'face-organs', 'appearance']) {
+    const screen = lesson.screens.find(s => s.id === id);
+    assert.ok(screen.sections.some(x => x.type === 'reading' || (x.type === 'callout' && /Dinleme/.test(x.title))), `${id}: reading or listening`);
+    assert.ok(screen.sections.filter(x => x.type === 'activity').length >= 1, `${id}: class activity`);
+  }
+  assert.ok(sections('reading').length >= 13);
+  assert.ok(sections('callout').filter(x => /^Dinleme/.test(x.title)).length >= 6);
+  assert.ok(sections('inputTable').filter(x => /^Araştıralım/.test(x.title)).length >= 8);
+  const media = lesson.screens.find(s => s.id === 'media');
+  assert.ok(media && lesson.homeLinks.some(([id]) => id === 'media'));
+  for (const [, url] of JSON.stringify(media).matchAll(/href=\\"([^"\\]+)\\"/g)) assert.match(url, /^https:\/\/(www\.youtube\.com\/watch\?v=[\w-]{11}|learnenglish(kids|teens)\.britishcouncil\.org\/)/);
+});
+
 test('the lesson keeps working after publication instrumentation', () => {
   const published = instrumentLearning(instrumentBreakReview(instrumentAssessments(source, LESSON).html, LESSON), LESSON);
   for (const [, attrs, code] of published.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)) if (!/application\/(json|ld\+json)/.test(attrs) && code.trim()) new vm.Script(code);
