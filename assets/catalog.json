@@ -121,6 +121,28 @@
     "url": "lessons/a1/day-06.html"
   },
   {
+    "id": "a1/day-07",
+    "level": "A1",
+    "title": "Sıfatlar, yerler, zamirler, vücut ve dış görünüş",
+    "description": "A1 yedinci ders (21 Kasım, 09.00–13.00, dört bölüm): resimden kelime yazma, sıfatlar ve yerleri (a big house, an old car), zıt ve eş anlamlılar ve tablodan bulma, metinde boşluğa sıfat yerleştirme, şehirdeki yerler (What's this place? Where can you …?), şahıs zamirlerini sıralama ve zamir tablosu (I – me – my – mine), renkler ve dinleyerek boyama, en sevdiğim hayvan / eşya / kişi, karşılaştırma (-er than, more … than, better, worse), resimli vücut, yüz ve organ haritaları, dış görünüş (tall, long curly hair, blue eyes, glasses) ve “Kim bu?” oyunu.",
+    "number": 7,
+    "order": 7,
+    "date": "2026-11-21",
+    "duration": "210 dk",
+    "tags": [
+      "Sıfatlar",
+      "Zıt ve eş anlamlılar",
+      "Yerler",
+      "Şahıs zamirleri",
+      "Renkler",
+      "Karşılaştırma",
+      "Vücudun bölümleri",
+      "Organlar",
+      "Dış görünüş"
+    ],
+    "url": "lessons/a1/day-07.html"
+  },
+  {
     "id": "a2/day-01",
     "level": "A2",
     "title": "Tanışma ve iletişim",
