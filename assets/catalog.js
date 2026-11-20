@@ -144,6 +144,30 @@ window.LESSON_CATALOG = [
     "url": "lessons/a1/day-07.html"
   },
   {
+    "id": "a1/day-08",
+    "level": "A1",
+    "title": "Vücudumuz: baştan ayağa (özel ders)",
+    "description": "A1 sekizinci ders, vücudumuz özel dersi (dört bölüm, 50 + 50 + 50 + 60 dk): numaralı vücut resmi, on bir yeni bölüm (wrist, ankle, chin …), sağ ve sol, el ve parmaklar, beş duyu ve can, yüzü sıfatlarla anlatma, organlar (yeri, görevi, yazımı), What's the matter? ve doktor, dişçi, eczane, dinleyerek palyaço boyama, saç ve göz renkleri, his / her / mine / yours, insanlar için zıt ve eş anlamlılar, taller than ile karşılaştırma, hayvanların vücudu ve All about me yazısı. Resimler derse gömülüdür; internet gerekmez.",
+    "number": 8,
+    "order": 8,
+    "date": "",
+    "duration": "210 dk",
+    "tags": [
+      "Vücudun bölümleri",
+      "El ve parmaklar",
+      "Beş duyu",
+      "Organlar",
+      "Sağlık",
+      "Dış görünüş",
+      "Renkler",
+      "Zamirler",
+      "Zıt ve eş anlamlılar",
+      "Karşılaştırma",
+      "Hayvanlar"
+    ],
+    "url": "lessons/a1/day-08.html"
+  },
+  {
     "id": "a2/day-01",
     "level": "A2",
     "title": "Tanışma ve iletişim",
