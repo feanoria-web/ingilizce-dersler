@@ -167,6 +167,29 @@
     "url": "lessons/a1/day-08.html"
   },
   {
+    "id": "a1/day-09",
+    "level": "A1",
+    "title": "Özet, kıyafetler, yiyecekler ve evim",
+    "description": "A1 dokuzuncu ders (28 Kasım, 09.00–13.00, dört bölüm): geçen haftanın özeti (sıfatlar ve karşılaştırma, zamirler ve renkler, vücut ve dış görünüş), kıyafetlerin adı, rengi ve özelliği, yazlık ve kışlık kıyafetler, dinleyerek kıyafet boyama, is wearing ile olumlu, olumsuz ve soru cümleleri, aç ve susuz, yiyecek ve içecekler, tekil ve çoğul, sözlükle okuma, kafede sipariş ve fiyat sorma, menü dinleme, sayılabilen ve sayılamayan, There is / There are ile ev ve yer edatlarıyla oda. Resimler derse gömülüdür.",
+    "number": 9,
+    "order": 9,
+    "date": "2026-11-28",
+    "duration": "210 dk",
+    "tags": [
+      "Özet",
+      "Kıyafetler",
+      "is wearing",
+      "Yiyecek ve içecekler",
+      "Kafe",
+      "Fiyat sorma",
+      "Sayılabilen",
+      "There is / There are",
+      "Ev",
+      "Yer edatları"
+    ],
+    "url": "lessons/a1/day-09.html"
+  },
+  {
     "id": "a2/day-01",
     "level": "A2",
     "title": "Tanışma ve iletişim",
