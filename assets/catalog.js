@@ -331,6 +331,30 @@ window.LESSON_CATALOG = [
     "url": "lessons/a2/day-07.html"
   },
   {
+    "id": "a2/day-08",
+    "level": "A2",
+    "title": "Şimdi, boş zaman, davetler ve hobiler",
+    "description": "A2 sekizinci ders (23–24 Kasım, iki gün, 4 × 100 dk): şimdiki zaman şu an ve bu aralar için (now, these days, still), geniş zaman ↔ şimdiki zaman, telefonda konuşmak, izin ve rica (Can I …? Could you …?), boş zaman (ne sıklıkla, kiminle, nerede), öneriler (Let's, Shall we, How about), hafta sonu planını dinleme ve okuma, olası sorunlar (What if …?), Atatürk'ün boş zamanları, davetiye yazma ve cevaplama, tercihler (I'd prefer to, I'd rather … than, instead of), sınıfça etkinlik planı, hobiler (love / enjoy / hate + -ing), tepkiler (Really? No way! Me too!), play / go / do ile sporlar ve -ing isimler.",
+    "number": 8,
+    "order": 8,
+    "date": "2026-11-23",
+    "duration": "400 dk",
+    "tags": [
+      "Present continuous",
+      "Present simple",
+      "Telefon",
+      "İzin isteme",
+      "Boş zaman",
+      "Öneriler",
+      "Davetiye",
+      "Tercihler",
+      "Hobiler",
+      "Sporlar",
+      "Atatürk"
+    ],
+    "url": "lessons/a2/day-08.html"
+  },
+  {
     "id": "a2/practice",
     "level": "A2",
     "title": "Tanışma ve konuşma · Ek çalışma",
