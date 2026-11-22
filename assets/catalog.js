@@ -555,6 +555,30 @@ window.LESSON_CATALOG = [
     "url": "lessons/b1/day-09.html"
   },
   {
+    "id": "b1/day-10",
+    "level": "B1",
+    "title": "Öğrenmek, diller ve meslekler",
+    "description": "B1 onuncu ders, 23–25 Kasım (üç gün, 6 × 100 dk): Türkiye'nin coğrafyası üzerine bir ders metni, not alma teknikleri ve bir okul sunumu, özet çıkarma ve kendi cümlelerinle anlatma, aldığın ve almak istediğin eğitim, okulunu ilgi cümlecikleriyle tanıtma, kurs, dil okulu ve binicilik kampı ilanları, resmî bilgi isteme e-postası, sınav ve sertifikalar için dolaylı sorular ve bir telefon görüşmesi, dil öğrenme yöntemleri, amaçlar ve ihtiyaçlar, sınıf münazarası, gelecek biçimleri ve kişisel dil planı, sıradaki dil, mesleklerin görevleri, hayalindeki meslek ve meslek sunumları.",
+    "number": 10,
+    "order": 10,
+    "date": "2026-11-23",
+    "duration": "600 dk",
+    "tags": [
+      "Ders metni okuma",
+      "Not alma",
+      "Özet",
+      "Eğitim",
+      "İlgi cümlecikleri",
+      "İlanlar",
+      "Resmî e-posta",
+      "Dolaylı sorular",
+      "Dil öğrenme",
+      "Gelecek biçimleri",
+      "Meslekler"
+    ],
+    "url": "lessons/b1/day-10.html"
+  },
+  {
     "id": "b1/practice",
     "level": "B1",
     "title": "Tanışma ve konuşma · Ek çalışma",
