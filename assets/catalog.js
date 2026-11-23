@@ -334,11 +334,11 @@ window.LESSON_CATALOG = [
     "id": "a2/day-08",
     "level": "A2",
     "title": "Şimdi, boş zaman, davetler ve hobiler",
-    "description": "A2 sekizinci ders (23–24 Kasım, iki gün, 4 × 100 dk): şimdiki zaman şu an ve bu aralar için (now, these days, still), geniş zaman ↔ şimdiki zaman, telefonda konuşmak, izin ve rica (Can I …? Could you …?), boş zaman (ne sıklıkla, kiminle, nerede), öneriler (Let's, Shall we, How about), hafta sonu planını dinleme ve okuma, olası sorunlar (What if …?), Atatürk'ün boş zamanları, davetiye yazma ve cevaplama, tercihler (I'd prefer to, I'd rather … than, instead of), sınıfça etkinlik planı, hobiler (love / enjoy / hate + -ing), tepkiler (Really? No way! Me too!), play / go / do ile sporlar ve -ing isimler.",
+    "description": "A2 sekizinci ders (23–24 Kasım, iki gün, 4 × 100 dk): şimdiki zaman şu an ve bu aralar için (now, these days, still), geniş zaman ↔ şimdiki zaman, telefonda konuşmak, izin ve rica (Can I …? Could you …?), boş zaman (ne sıklıkla, kiminle, nerede), öneriler (Let's, Shall we, How about), hafta sonu planını dinleme ve okuma, olası sorunlar (What if …?), Atatürk'ün boş zamanları, davetiye yazma ve cevaplama, tercihler (I'd prefer to, I'd rather … than, instead of), sınıfça etkinlik planı, hobiler (love / enjoy / hate + -ing), tepkiler (Really? No way! Me too!), play / go / do ile sporlar ve -ing isimler. Ek panel (100 dk, istediğiniz gün): dün-bugün-yarın hava durumu ve tepkiler, saat, günler, aylar, mevsimler, 100'den büyük sayılar, kalıp ifadeler (Bless you!, Get well soon!), kısa mesajlar ve resimli deyimler.",
     "number": 8,
     "order": 8,
     "date": "2026-11-23",
-    "duration": "400 dk",
+    "duration": "500 dk",
     "tags": [
       "Present continuous",
       "Present simple",
@@ -350,7 +350,11 @@ window.LESSON_CATALOG = [
       "Tercihler",
       "Hobiler",
       "Sporlar",
-      "Atatürk"
+      "Atatürk",
+      "Hava durumu",
+      "Saat",
+      "Sayılar",
+      "Kalıp ifadeler"
     ],
     "url": "lessons/a2/day-08.html"
   },

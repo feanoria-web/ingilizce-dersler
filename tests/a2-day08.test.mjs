@@ -21,17 +21,17 @@ const sentences = screens => {
   return out;
 };
 const sections = type => lesson.screens.flatMap(s => (s.sections || []).filter(x => x.type === type));
-const TEACHING = ['now', 'simple-continuous', 'phone', 'permission', 'free-time', 'suggestions', 'weekend-plan', 'problems', 'ataturk-free', 'invitations', 'replies', 'prefer', 'plan-event', 'likes', 'reactions', 'sports', 'hobby-words'];
+const TEACHING = ['now', 'simple-continuous', 'phone', 'permission', 'free-time', 'suggestions', 'weekend-plan', 'problems', 'ataturk-free', 'invitations', 'replies', 'prefer', 'plan-event', 'likes', 'reactions', 'sports', 'hobby-words', 'weather', 'time', 'numbers', 'expressions'];
 
-test('the A2 week lesson covers 23 and 24 November in four 100-minute parts', () => {
+test('the A2 week lesson covers 23 and 24 November in four 100-minute parts plus a 100-minute extra panel', () => {
   assert.equal(lesson.meta.level, 'A2');
-  assert.deepEqual(lesson.blocks.map(b => b.minutes), [100, 100, 100, 100]);
-  assert.deepEqual(lesson.blocks.map(b => b.title.split(' · ')[0]), ['23 Kasım', '23 Kasım', '24 Kasım', '24 Kasım']);
+  assert.deepEqual(lesson.blocks.map(b => b.minutes), [100, 100, 100, 100, 100]);
+  assert.deepEqual(lesson.blocks.map(b => b.title.split(' · ')[0]), ['23 Kasım', '23 Kasım', '24 Kasım', '24 Kasım', 'Ek panel']);
   for (const block of lesson.blocks) assert.equal(lesson.screens.filter(s => s.block === block.n && !s.extra && s.type !== 'break').reduce((sum, s) => sum + s.min, 0), 100, `block ${block.n}`);
   for (const id of TEACHING) assert.ok(lesson.screens.some(s => s.id === id), id);
-  for (const screen of lesson.screens.filter(s => s.block > 0 && !s.extra && s.type !== 'break' && !['warm', 'warm2', 'close', 'close-day1'].includes(s.id))) assert.ok(screen.sections.some(x => x.type === 'explain' && /^Konu anlatımı/.test(x.title)), `${screen.id}: topic explanation`);
+  for (const screen of lesson.screens.filter(s => s.block > 0 && !s.extra && s.type !== 'break' && !['warm', 'warm2', 'warm3', 'close', 'close-day1', 'close-panel'].includes(s.id))) assert.ok(screen.sections.some(x => x.type === 'explain' && /^Konu anlatımı/.test(x.title)), `${screen.id}: topic explanation`);
   const text = JSON.stringify(lesson);
-  for (const phrase of ['these days', "I'm still waiting", 'I usually', 'Can you speak up', 'Can I sit here', 'How often', "Let's", 'Shall we', 'How about', 'What if it rains', 'Would you like to come', "I'd love to", "I'm afraid I can't", "I'd rather", 'Instead of', "I don't mind", 'No way!', 'Me neither', 'go skiing', 'do yoga', 'a swimming course', 'Atatürk']) assert.ok(text.includes(phrase), phrase);
+  for (const phrase of ['these days', "I'm still waiting", 'I usually', 'Can you speak up', 'Can I sit here', 'How often', "Let's", 'Shall we', 'How about', 'What if it rains', 'Would you like to come', "I'd love to", "I'm afraid I can't", "I'd rather", 'Instead of', "I don't mind", 'No way!', 'Me neither', 'go skiing', 'do yoga', 'a swimming course', 'Atatürk', 'It was rainy yesterday', 'It will be foggy tomorrow', 'Unbelievable!', 'half past', 'quarter to', 'three hundred and sixty-five', 'Bless you!', 'Get well soon!', 'Happy birthday!', 'raining cats and dogs']) assert.ok(text.includes(phrase), phrase);
   assert.equal(lesson.teacherNotes.length, 0);
   assert.ok(assertPublicLessonHtml(source, 'a2/day-08'));
 });
