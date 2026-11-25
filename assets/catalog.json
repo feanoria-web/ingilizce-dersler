@@ -582,6 +582,27 @@
     "url": "lessons/b1/day-10.html"
   },
   {
+    "id": "b1/day-11",
+    "level": "B1",
+    "title": "Present perfect ve present perfect continuous (özel ders)",
+    "description": "B1 on birinci ders, ayrıntılı dilbilgisi özel dersi (iki gün, 4 × 100 dk): have / has + V3, olumsuz, soru ve kısa cevaplar, düzensiz fiillerin dört kalıbı, hayat deneyimleri (ever, never, before, … times, been / gone), haberler ve sonuçlar (just, already, yet, still), for ve since, present perfect ile past simple farkı, deneyim sohbeti, present perfect continuous'un yapısı ve üç kullanımı, How long …?, izi görünen eylemler, simple ile continuous farkı, durum fiilleri, CV, ön yazı ve iş görüşmesinde deneyim anlatmak, üç zamanla karışık uygulama. Ayrıntılı Türkçe konu anlatımları, uzun örnekler, okuma ve dinleme metinleri.",
+    "number": 11,
+    "order": 11,
+    "date": "",
+    "duration": "400 dk",
+    "tags": [
+      "Present perfect",
+      "Present perfect continuous",
+      "Past simple",
+      "for / since",
+      "just / already / yet",
+      "Düzensiz fiiller",
+      "Durum fiilleri",
+      "İş deneyimi"
+    ],
+    "url": "lessons/b1/day-11.html"
+  },
+  {
     "id": "b1/practice",
     "level": "B1",
     "title": "Tanışma ve konuşma · Ek çalışma",
