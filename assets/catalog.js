@@ -191,6 +191,30 @@ window.LESSON_CATALOG = [
     "url": "lessons/a1/day-09.html"
   },
   {
+    "id": "a1/day-10",
+    "level": "A1",
+    "title": "Yiyecekler, evim, mahallem ve ülkem",
+    "description": "A1 onuncu ders (28–29 Kasım, iki gün, her gün 09.00–13.00, sekiz bölüm): markette fiyat sormak, menüyü dinlemek, sözlük kullanmak, bütün çoğul kuralları, yiyecek grupları ve öğünler, sayılabilen ve sayılamayan, a bottle of / a slice of, How many / How much, some ve any, buzdolabında ne var, evin bölümleri ve Is there …? soruları, odam ve yer edatları, odaların eşyaları, ev ilanları ve metinden resme, çevremizdeki yerler, haritada yol tarifi, yaşadığım yer, Türkiye'yi tanıtan bir metin, tanışma diyalogları, haftanın günleri ve önceki / sonraki gün.",
+    "number": 10,
+    "order": 10,
+    "date": "2026-11-28",
+    "duration": "420 dk",
+    "tags": [
+      "Fiyatlar",
+      "Menü",
+      "Sözlük",
+      "Çoğul",
+      "Some / any",
+      "Ev ve oda",
+      "Yer edatları",
+      "Yol tarifi",
+      "Ülkemiz",
+      "Tanışma",
+      "Günler"
+    ],
+    "url": "lessons/a1/day-10.html"
+  },
+  {
     "id": "a2/day-01",
     "level": "A2",
     "title": "Tanışma ve iletişim",
